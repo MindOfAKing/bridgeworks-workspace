@@ -1,0 +1,115 @@
+{
+    "url": "https://ceefm.eu",
+    "brand_name": "CEEFM Kft",
+    "date": "2026-03-29",
+    "geo_score": 16,
+    "scores": {
+        "ai_citability": 8,
+        "brand_authority": 12,
+        "content_eeat": 14,
+        "technical": 33,
+        "schema": 15,
+        "platform_optimization": 24
+    },
+    "platforms": {
+        "Google AI Overviews": 28,
+        "ChatGPT": 18,
+        "Perplexity": 15,
+        "Gemini": 22,
+        "Bing Copilot": 19
+    },
+    "executive_summary": "CEEFM Kft is invisible to AI search systems. The website is a React single-page application that delivers an empty div to every AI crawler. None of them execute JavaScript. The site has one indexable URL, zero blog posts, zero case studies, and zero Hungarian-language content. The brand has no Wikipedia page, no Reddit presence, no YouTube channel, and only 92 LinkedIn followers. When anyone asks ChatGPT, Claude, Perplexity, or Gemini about facility management in Budapest, CEEFM does not exist. The strongest signal is the LocalBusiness schema in the HTML head, but it is missing address, geo coordinates, and sameAs links. Implementing SSR, creating multi-page content, and building external brand presence could move the score from 16 to 60+ within 3 months.",
+    "findings": [
+        {
+            "severity": "critical",
+            "title": "SPA renders empty HTML to all AI crawlers",
+            "description": "The page body is <div id='root'></div>. GPTBot, ClaudeBot, PerplexityBot, and Bingbot see nothing. All content exists only in a 233KB JavaScript bundle."
+        },
+        {
+            "severity": "critical",
+            "title": "Single URL with zero internal pages",
+            "description": "The entire site is one URL. No service pages, no about page, no blog, no FAQ. AI models cannot cite specific content because none exists."
+        },
+        {
+            "severity": "critical",
+            "title": "No robots.txt or sitemap.xml",
+            "description": "SPA catch-all routing serves React shell for /robots.txt and /sitemap.xml. Both return 200 with HTML. AI crawlers have no directives and no URL discovery."
+        },
+        {
+            "severity": "critical",
+            "title": "Zero citation-ready content",
+            "description": "No passage scores above 20/100 for citability. AI models need 70+ to reliably cite. No FAQ answers, no data-backed statements, no detailed service descriptions."
+        },
+        {
+            "severity": "high",
+            "title": "No llms.txt file on either domain",
+            "description": "AI systems have no structured guidance about what the business is or where to find key content."
+        },
+        {
+            "severity": "high",
+            "title": "No Hungarian-language content",
+            "description": "A Hungarian company operating in Budapest for 12+ years has zero Hungarian content. Local AI queries will never surface CEEFM."
+        },
+        {
+            "severity": "high",
+            "title": "Schema missing critical properties",
+            "description": "LocalBusiness schema lacks address, geo coordinates, sameAs (zero platform links), openingHours, foundingDate, and individual Service schemas."
+        },
+        {
+            "severity": "high",
+            "title": "Zero third-party brand presence",
+            "description": "No Wikipedia, no Reddit, no YouTube, no Trustpilot, no industry directories. LinkedIn has 92 followers. AI models cannot recognize CEEFM as an entity."
+        },
+        {
+            "severity": "medium",
+            "title": "E-E-A-T signals nearly absent",
+            "description": "No case studies (Experience: 3/25), no author bios (Expertise: 4/25), no external validation (Authority: 5/25), unverified rating claim (Trust: 6/25)."
+        },
+        {
+            "severity": "medium",
+            "title": "Open Graph image returns 422",
+            "description": "og:image points to a non-existent file. Social shares and AI previews show broken images."
+        },
+        {
+            "severity": "low",
+            "title": "Missing security headers",
+            "description": "No HSTS, no proper CSP, no X-Frame-Options, no X-Content-Type-Options. Only upgrade-insecure-requests in CSP."
+        },
+        {
+            "severity": "low",
+            "title": "No speakable schema property",
+            "description": "AI voice assistants have no signal about which content to read aloud."
+        }
+    ],
+    "quick_wins": [
+        "Create robots.txt allowing all AI crawlers (GPTBot, ClaudeBot, PerplexityBot, OAI-SearchBot, Bingbot) with Sitemap directive",
+        "Create sitemap.xml listing the homepage and deploy as a static file bypassing SPA routing",
+        "Create llms.txt with company name, description, services, service areas, and contact info",
+        "Expand LocalBusiness schema with address, geo coordinates, sameAs (LinkedIn URL), openingHours, and foundingDate",
+        "Fix og-image.jpg by uploading an actual 1200x630px image to the public directory"
+    ],
+    "medium_term": [
+        "Implement SSR/SSG or pre-rendering for the React SPA so AI crawlers can read content",
+        "Create multi-page architecture with distinct URLs for services, industries, about, FAQ, and contact",
+        "Write 5 case studies from existing 200+ projects with client industry, challenge, solution, and measurable results",
+        "Create all content in Hungarian and English with proper hreflang tags",
+        "Build FAQ page with 10-15 questions and FAQPage schema markup"
+    ],
+    "strategic": [
+        "Create and verify Google Business Profile with full information, photos, and active review collection from existing clients",
+        "Launch YouTube channel with facility management content (walkthroughs, maintenance tips, behind-the-scenes)",
+        "Build LinkedIn from 92 followers toward 500+ with weekly industry content and group engagement",
+        "Publish 2-4 blog posts per month targeting Hungarian facility management queries with dated, attributed content",
+        "Get listed on Hungarian business directories and pursue third-party mentions for AI entity recognition"
+    ],
+    "crawler_access": {
+        "GPTBot": {"platform": "ChatGPT/OpenAI", "status": "Unknown (no robots.txt)", "recommendation": "Create robots.txt, explicitly allow"},
+        "OAI-SearchBot": {"platform": "ChatGPT Search", "status": "Unknown (no robots.txt)", "recommendation": "Create robots.txt, explicitly allow"},
+        "ClaudeBot": {"platform": "Claude/Anthropic", "status": "Unknown (no robots.txt)", "recommendation": "Create robots.txt, explicitly allow"},
+        "PerplexityBot": {"platform": "Perplexity AI", "status": "Unknown (no robots.txt)", "recommendation": "Create robots.txt, explicitly allow"},
+        "Googlebot": {"platform": "Google Search/AIO", "status": "Allowed (default)", "recommendation": "Add to robots.txt for clarity"},
+        "Bingbot": {"platform": "Bing/Copilot", "status": "Allowed (default)", "recommendation": "Register Bing Webmaster Tools, implement IndexNow"},
+        "Google-Extended": {"platform": "Google Gemini", "status": "Unknown (no robots.txt)", "recommendation": "Create robots.txt, explicitly allow"},
+        "Bytespider": {"platform": "ByteDance/TikTok", "status": "Unknown (no robots.txt)", "recommendation": "Create robots.txt, explicitly allow"}
+    }
+}

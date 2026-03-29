@@ -1,0 +1,118 @@
+{
+  "url": "https://ceefm.eu",
+  "date": "March 29, 2026",
+  "brand_name": "CEEFM Kft",
+  "overall_score": 23,
+  "executive_summary": "CEEFM Kft has 12+ years of operation and 200+ completed projects, but its website is a React single-page app that renders an empty div for search engine crawlers. There are no case studies, no blog, no Hungarian-language content, and no lead capture mechanisms. The site has one indexable URL while competitors have 15-40. Rebuilding the site with server-side rendering, creating case studies, and launching Hungarian content could generate 2-5M HUF/month in new contract value within 6 months.",
+  "categories": {
+    "Content & Messaging": {
+      "score": 22,
+      "weight": "25%"
+    },
+    "Conversion Optimization": {
+      "score": 6,
+      "weight": "20%"
+    },
+    "SEO & Discoverability": {
+      "score": 28,
+      "weight": "20%"
+    },
+    "Competitive Positioning": {
+      "score": 32,
+      "weight": "15%"
+    },
+    "Brand & Trust": {
+      "score": 31,
+      "weight": "10%"
+    },
+    "Growth & Strategy": {
+      "score": 28,
+      "weight": "10%"
+    }
+  },
+  "findings": [
+    {
+      "severity": "Critical",
+      "finding": "SPA renders empty div to crawlers. The HTML body is just <div id='root'></div>. No SSR or SSG configured. Search engines and AI crawlers see a blank page."
+    },
+    {
+      "severity": "Critical",
+      "finding": "Single indexable URL. The entire site is one page with JavaScript scrollTo() navigation. Zero anchor tags exist. No crawlable internal links anywhere."
+    },
+    {
+      "severity": "Critical",
+      "finding": "No lead capture mechanism. No contact form prominence, no quote request, no chat widget, no email capture, no WhatsApp. Every visitor is a lost lead."
+    },
+    {
+      "severity": "High",
+      "finding": "No Hungarian-language content despite operating in Hungary for 12 years. The primary local market cannot engage in their own language."
+    },
+    {
+      "severity": "High",
+      "finding": "Zero case studies from 200+ completed projects. The single biggest trust failure. Competitors with 20 projects and two case studies will outperform CEEFM in pitches."
+    },
+    {
+      "severity": "High",
+      "finding": "No sitemap.xml, no robots.txt. Standard crawl infrastructure is completely absent."
+    },
+    {
+      "severity": "High",
+      "finding": "14 service categories reduced to 6 cleaning-focused services on the website. Three-country operations shown as Hungary-only. Massive capability gap between reality and web presence."
+    },
+    {
+      "severity": "Medium",
+      "finding": "No team page or leadership visibility. Facility management is a people business. Anonymous companies lose to companies with visible teams."
+    },
+    {
+      "severity": "Medium",
+      "finding": "Sustainability tagline ('Where Sustainability Meets Success') with zero supporting evidence. No ESG reporting, no green certifications, no sustainability metrics displayed."
+    },
+    {
+      "severity": "Low",
+      "finding": "All images hotlinked from Unsplash and cdn.abacus.ai. No self-hosted images. Single point of failure if CDNs change URLs."
+    }
+  ],
+  "quick_wins": [
+    "Add robots.txt and sitemap.xml to /public/ directory. Takes 15 minutes. Signals a maintained site to crawlers.",
+    "Fix Open Graph image 404. Upload a proper og-image.jpg (1200x630px) to /public/. Affects every social media share.",
+    "Add address, geo coordinates, and openingHours to LocalBusiness schema. Critical for local search pack visibility.",
+    "Add FAQPage schema markup to existing FAQ section. Data already exists in React code, just needs structured data wrapper.",
+    "Add click-to-call tel: links on all phone number displays. One-tap calling for mobile visitors."
+  ],
+  "medium_term": [
+    "Rebuild site with SSR/SSG (Next.js, Astro, or static HTML). Create 15+ individual pages for services, industries, about, contact. This is the foundation for all other improvements.",
+    "Create 5 case studies from best hotel, apartment, student housing, commercial, and multi-property projects. Document scope, challenge, solution, measurable results.",
+    "Launch all content in Hungarian and English. Target 'letesitmenykezeles Budapest' and related Hungarian search terms. Doubles addressable search audience.",
+    "Build a quote request form on every page. Fields: Name, Company, Email, Phone, Property Type, Service Needed. Minimum viable lead capture.",
+    "Create industry-specific landing pages for Hotels, Apartment Complexes, Student Housing, and Office Buildings with segment-specific pain points and CTAs."
+  ],
+  "strategic": [
+    "Launch content marketing program: 2-4 blog posts per month in Hungarian and English. Topics: seasonal maintenance guides, energy saving tips, compliance checklists. Target 500+ monthly organic visitors within 6 months.",
+    "Optimize Google Business Profile. Add photos, services, posts. Actively collect Google reviews from existing satisfied clients. Fastest path to local search visibility.",
+    "Package integrated FM as the lead offer. Stop selling 14 separate services. Lead with 'Integrated Facility Management' as a single monthly contract. Price at premium. Cross-sell from there.",
+    "Build client retention system with quarterly business reviews, annual renewals, and a client portal for maintenance requests and reporting."
+  ],
+  "competitors": [
+    {
+      "name": "First Facility HU",
+      "positioning": "Integrated FM provider, broad commercial/industrial",
+      "pricing": "Published service tiers likely",
+      "social_proof": "Google reviews, client logos, ISO certifications likely",
+      "content": "Multi-page site (15-30 pages est.), likely blog content"
+    },
+    {
+      "name": "ICON RE Mgmt",
+      "positioning": "Real estate management specialist",
+      "pricing": "Custom quoting, portfolio management focus",
+      "social_proof": "Industry certifications, property portfolio likely",
+      "content": "Multi-page site with service detail pages"
+    },
+    {
+      "name": "Dome FSG",
+      "positioning": "Multi-country FM group, scale and breadth",
+      "pricing": "Enterprise-level contracts",
+      "social_proof": "Multi-market references, ISO 9001/14001 likely",
+      "content": "20-40 page site, multiple CEE languages"
+    }
+  ]
+}
