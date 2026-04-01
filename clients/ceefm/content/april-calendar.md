@@ -14,7 +14,7 @@
 
 ### Post 1 - Tuesday, April 1 | Company/Service
 
-**Topic:** Introducing CEEFM. 12 years. 200+ projects. Three countries.
+**Topic:** Introducing CEE FM. 12 years. 50+ projects. Budapest and Hungary.
 
 **English version:**
 
@@ -22,9 +22,9 @@ Most people never think about facility management. Until something breaks.
 
 CEEFM has spent 12 years making sure it does not.
 
-We manage cleaning, maintenance, and operations for hotels, apartment buildings, and student housing across Hungary, Romania, and Slovakia. Over 200 projects completed. A 9.5 client satisfaction rating.
+We manage cleaning, maintenance, and operations for hotels, apartment buildings, and student housing in Budapest and across Hungary. Over 50 projects completed. A 9.5 client satisfaction rating.
 
-We started in Budapest in 2012. Today we serve properties across Central and Eastern Europe.
+We started in Budapest in 2012. Today we serve properties across Hungary.
 
 Our work is simple: keep buildings running. Keep tenants comfortable. Keep costs predictable.
 
@@ -38,9 +38,9 @@ A legtobb ember nem gondol a letesitmenykezelesre. Amig valami el nem romlik.
 
 A CEEFM 12 eve azon dolgozik, hogy ez ne tortenjen meg.
 
-Takaritast, karbantartast es uzemeltetest vegzunk szallodak, lakoepuletek es diakszallasok szamara Magyarorszagon, Romaniaban es Szlovakiaban. Tobb mint 200 befejezett projekt. 9,5-os ugyfel-elegedettsegi ertek.
+Takaritast, karbantartast es uzemeltetest vegzunk szallodak, lakoepuletek es diakszallasok szamara Budapesten es egesz Magyarorszagon. Tobb mint 50 befejezett projekt. 9,5-os ugyfel-elegedettsegi ertek.
 
-2012-ben Budapesten indultunk. Ma Kozep- es Kelet-Europa szerte szolgalunk ingatlanokat.
+2012-ben Budapesten indultunk. Ma egesz Magyarorszagon szolgalunk ingatlanokat.
 
 A munkank egyszeru: az epuletek mukodjenek. A lakoknak legyen kenyelmes. A koltsegek legyenek kiszamithatoak.
 
@@ -334,7 +334,7 @@ Communication must be direct and digital. Students do not read notice boards. Ma
 
 Cleaning frequency must be higher in common areas. Study rooms, kitchens, laundry rooms. These spaces serve 50-200 people daily. Hotel-frequency cleaning schedules do not hold up.
 
-CEEFM manages student housing facilities in Budapest and across the region. We know the cycle. We plan around it.
+CEE FM manages student housing facilities in Budapest and across Hungary. We know the cycle. We plan around it.
 
 **Hungarian version:**
 
@@ -350,7 +350,7 @@ A kommunikacioanak kozvetlennek es digitalisnak kell lennie. A diakok nem olvasn
 
 A takaritasi gyakorisagnak magasabbnak kell lennie a kozos teruleten. Tanuloeszobak, konyhak, mosodak. Ezek a terek naponta 50-200 embert szolgalnak ki. A szallodai gyakorisagu takaritasi utemezesek nem elegsegesek.
 
-A CEEFM diakszallasokat kezel Budapesten es a regioban. Ismerjuk a ciklust. Tervezunk kore.
+A CEE FM diakszallasokat kezel Budapesten es egesz Magyarorszagon. Ismerjuk a ciklust. Tervezunk kore.
 
 **Image brief:** Photo of a modern student housing common area or study room. Clean, functional design. Maybe a few students in background, out of focus. Focus on the well-maintained space itself.
 
@@ -516,7 +516,7 @@ Here are five reasons they eventually stop:
 
 Outsourcing is not about cutting corners. It is about putting each task in the hands of people who do it every day.
 
-CEEFM has been that partner for 200+ properties. If your building needs one, reach out: office@ceefm.eu
+CEE FM has been that partner for 50+ properties. If your building needs one, reach out: office@ceefm.eu
 
 **Hungarian version:**
 
@@ -536,7 +536,7 @@ Ime ot ok, amiert vegul abbahagyjak:
 
 A kiszervezes nem a sarkok levaagasarol szol. Arrol, hogy minden feladatot olyan emberek kezebe adunk, akik minden nap ezt csinaljaak.
 
-A CEEFM tobb mint 200 ingatlannak volt ilyen partnere. Ha az epuletenek szuksege van egyre, keressen minket: office@ceefm.eu
+A CEE FM tobb mint 50 ingatlannak volt ilyen partnere. Ha az epuletenek szuksege van egyre, keressen minket: office@ceefm.eu
 
 **Image brief:** Clean comparison graphic: left side "In-house" with complexity icons (multiple vendor logos, calendar chaos, question marks), right side "CEEFM" with a single unified interface. Simple, not cluttered. Navy and gold on ivory.
 
