@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BRIDGEWORKS — Discovery Questionnaire</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg-base:      #0a0f1e;
+      --bg-surface:   #111827;
+      --bg-elevated:  #1a2236;
+      --border:       #1e2d4a;
+      --blue:         #3b82f6;
+      --blue-bright:  #60a5fa;
+      --cyan:         #06b6d4;
+      --text-primary: #f1f5f9;
+      --text-secondary: #94a3b8;
+      --text-muted:   #64748b;
+      --success:      #10b981;
+    }
+
+    body {
+      font-family: 'Inter', system-ui, sans-serif;
+      background: var(--bg-base);
+      color: var(--text-primary);
+      line-height: 1.7;
+      -webkit-font-smoothing: antialiased;
+      padding: 48px 24px;
+    }
+
+    .page {
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    /* ── Header ── */
+    .header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding-bottom: 32px;
+      border-bottom: 1px solid var(--border);
+      margin-bottom: 40px;
+    }
+
+    .logo-wrap {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .logo-icon {
+      width: 44px;
+      height: 44px;
+      background: var(--blue);
+      border-radius: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .logo-icon svg {
+      width: 24px;
+      height: 24px;
+      stroke: #fff;
+      fill: none;
+      stroke-width: 2.5;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+    }
+
+    .wordmark {
+      font-size: 20px;
+      font-weight: 700;
+      letter-spacing: -0.02em;
+    }
+
+    .wordmark span { color: var(--blue); }
+
+    .header-meta {
+      text-align: right;
+      font-size: 12px;
+      color: var(--text-muted);
+      line-height: 1.8;
+    }
+
+    .header-meta strong { color: var(--text-secondary); display: block; font-size: 13px; }
+
+    /* ── Intro block ── */
+    .intro {
+      background: var(--bg-surface);
+      border: 1px solid var(--border);
+      border-left: 3px solid var(--blue);
+      border-radius: 10px;
+      padding: 24px 28px;
+      margin-bottom: 40px;
+    }
+
+    .intro h1 {
+      font-size: 22px;
+      font-weight: 700;
+      letter-spacing: -0.02em;
+      margin-bottom: 8px;
+    }
+
+    .intro h1 span { color: var(--blue-bright); }
+
+    .intro p {
+      font-size: 14px;
+      color: var(--text-secondary);
+      max-width: 640px;
+    }
+
+    /* ── Sections ── */
+    .section {
+      margin-bottom: 40px;
+    }
+
+    .section-header {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 20px;
+      padding-bottom: 10px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .section-number {
+      width: 28px;
+      height: 28px;
+      background: var(--blue);
+      border-radius: 6px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 13px;
+      font-weight: 700;
+      color: #fff;
+      flex-shrink: 0;
+    }
+
+    .section-title {
+      font-size: 15px;
+      font-weight: 600;
+      color: var(--text-primary);
+      letter-spacing: -0.01em;
+    }
+
+    .section-subtitle {
+      font-size: 12px;
+      color: var(--text-muted);
+      margin-left: auto;
+    }
+
+    /* ── Question ── */
+    .question {
+      margin-bottom: 22px;
+    }
+
+    .question label {
+      display: block;
+      font-size: 13px;
+      font-weight: 500;
+      color: var(--text-secondary);
+      margin-bottom: 8px;
+    }
+
+    .question label .required {
+      color: var(--blue);
+      margin-left: 2px;
+    }
+
+    .question label .hint {
+      font-weight: 400;
+      color: var(--text-muted);
+      font-style: italic;
+    }
+
+    .field-line {
+      width: 100%;
+      border: none;
+      border-bottom: 1px solid var(--border);
+      background: transparent;
+      color: var(--text-primary);
+      font-family: inherit;
+      font-size: 14px;
+      padding: 6px 0;
+      outline: none;
+      display: block;
+    }
+
+    .field-box {
+      width: 100%;
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      background: var(--bg-elevated);
+      color: var(--text-primary);
+      font-family: inherit;
+      font-size: 14px;
+      padding: 10px 12px;
+      outline: none;
+      resize: vertical;
+      min-height: 64px;
+      display: block;
+    }
+
+    .field-line::placeholder,
+    .field-box::placeholder {
+      color: var(--text-muted);
+    }
+
+    /* ── Two-col grid ── */
+    .grid-2 {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+    }
+
+    /* ── Checkbox / radio group ── */
+    .options {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 4px;
+    }
+
+    .option-chip {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      padding: 5px 12px;
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      font-size: 13px;
+      color: var(--text-secondary);
+      cursor: pointer;
+      background: var(--bg-elevated);
+    }
+
+    .option-chip input {
+      accent-color: var(--blue);
+    }
+
+    /* ── Scale row ── */
+    .scale-row {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      flex-wrap: wrap;
+    }
+
+    .scale-label {
+      font-size: 12px;
+      color: var(--text-muted);
+      white-space: nowrap;
+    }
+
+    .scale-options {
+      display: flex;
+      gap: 6px;
+    }
+
+    .scale-chip {
+      width: 36px;
+      height: 36px;
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      background: var(--bg-elevated);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 13px;
+      color: var(--text-secondary);
+      cursor: pointer;
+    }
+
+    /* ── Footer ── */
+    .doc-footer {
+      margin-top: 48px;
+      padding-top: 24px;
+      border-top: 1px solid var(--border);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      font-size: 12px;
+      color: var(--text-muted);
+    }
+
+    .doc-footer a { color: var(--blue); text-decoration: none; }
+
+    /* ── Print styles ── */
+    @media print {
+      body {
+        background: #fff;
+        color: #111;
+        padding: 24px;
+      }
+
+      .page { max-width: 100%; }
+
+      :root {
+        --bg-base:       #fff;
+        --bg-surface:    #f8fafc;
+        --bg-elevated:   #f1f5f9;
+        --border:        #cbd5e1;
+        --blue:          #2563eb;
+        --blue-bright:   #3b82f6;
+        --text-primary:  #0f172a;
+        --text-secondary:#334155;
+        --text-muted:    #64748b;
+      }
+
+      .field-line,
+      .field-box {
+        background: #f8fafc;
+        color: #0f172a;
+      }
+
+      .option-chip,
+      .scale-chip {
+        background: #f1f5f9;
+        color: #334155;
+      }
+
+      .section { page-break-inside: avoid; }
+      .header  { page-break-after: avoid; }
+    }
+  </style>
+</head>
+<body>
+<div class="page">
+
+  <!-- Header -->
+  <header class="header">
+    <div class="logo-wrap">
+      <div class="logo-icon">
+        <!-- Zap icon -->
+        <svg viewBox="0 0 24 24"><polyline points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
+      </div>
+      <div class="wordmark">BRIDGE<span>WORKS</span></div>
+    </div>
+    <div class="header-meta">
+      <strong>Discovery Questionnaire</strong>
+      Confidential · Please complete before our call
+    </div>
+  </header>
+
+  <!-- Intro -->
+  <div class="intro">
+    <h1>Let's understand your <span>competitive landscape</span></h1>
+    <p>
+      This short questionnaire helps us tailor your BRIDGEWORKS experience — so your first report hits the ground running.
+      There are no right or wrong answers. Be as specific as you can; the more context you give, the sharper the intelligence.
+    </p>
+  </div>
+
+  <!-- Section 1: About You -->
+  <div class="section">
+    <div class="section-header">
+      <div class="section-number">1</div>
+      <div class="section-title">About You &amp; Your Business</div>
+      <div class="section-subtitle">5 min</div>
+    </div>
+
+    <div class="grid-2">
+      <div class="question">
+        <label>Full name <span class="required">*</span></label>
+        <input type="text" class="field-line" placeholder="Jane Smith" />
+      </div>
+      <div class="question">
+        <label>Company / Project name</label>
+        <input type="text" class="field-line" placeholder="Acme Labs" />
+      </div>
+    </div>
+
+    <div class="grid-2">
+      <div class="question">
+        <label>Role / Title</label>
+        <input type="text" class="field-line" placeholder="Founder &amp; CEO" />
+      </div>
+      <div class="question">
+        <label>Website <span class="hint">(if live)</span></label>
+        <input type="text" class="field-line" placeholder="acmelabs.io" />
+      </div>
+    </div>
+
+    <div class="question">
+      <label>In one sentence, what does your product or service do? <span class="required">*</span></label>
+      <textarea class="field-box" placeholder="e.g. We build AI-powered scheduling tools for independent personal trainers."></textarea>
+    </div>
+
+    <div class="question">
+      <label>What stage are you at? <span class="required">*</span></label>
+      <div class="options">
+        <label class="option-chip"><input type="radio" name="stage" /> Idea / Pre-product</label>
+        <label class="option-chip"><input type="radio" name="stage" /> Building MVP</label>
+        <label class="option-chip"><input type="radio" name="stage" /> Launched, early users</label>
+        <label class="option-chip"><input type="radio" name="stage" /> Scaling / Growing</label>
+        <label class="option-chip"><input type="radio" name="stage" /> Established business</label>
+      </div>
+    </div>
+  </div>
+
+  <!-- Section 2: Your Market -->
+  <div class="section">
+    <div class="section-header">
+      <div class="section-number">2</div>
+      <div class="section-title">Your Market &amp; Niche</div>
+      <div class="section-subtitle">5 min</div>
+    </div>
+
+    <div class="question">
+      <label>How would you describe your market or niche? <span class="required">*</span> <span class="hint">(be as specific as possible)</span></label>
+      <textarea class="field-box" placeholder="e.g. Project management software for remote-first design agencies with 5–30 employees."></textarea>
+    </div>
+
+    <div class="question">
+      <label>Who is your ideal customer? Describe them.</label>
+      <textarea class="field-box" placeholder="e.g. Founders or ops leads at Series A SaaS companies who are frustrated with Notion's lack of reporting..."></textarea>
+    </div>
+
+    <div class="grid-2">
+      <div class="question">
+        <label>What geography are you targeting?</label>
+        <input type="text" class="field-line" placeholder="e.g. US &amp; UK, or Global" />
+      </div>
+      <div class="question">
+        <label>Estimated market size <span class="hint">(rough is fine)</span></label>
+        <input type="text" class="field-line" placeholder="e.g. ~$2B TAM" />
+      </div>
+    </div>
+
+    <div class="question">
+      <label>What problem does your customer have that your product solves?</label>
+      <textarea class="field-box" placeholder="Describe the pain in the customer's own words if you can..."></textarea>
+    </div>
+  </div>
+
+  <!-- Section 3: Competitive Landscape -->
+  <div class="section">
+    <div class="section-header">
+      <div class="section-number">3</div>
+      <div class="section-title">Competitive Landscape</div>
+      <div class="section-subtitle">5 min</div>
+    </div>
+
+    <div class="question">
+      <label>List the competitors or alternatives you're aware of <span class="hint">(names, URLs, or descriptions)</span></label>
+      <textarea class="field-box" style="min-height:80px;" placeholder="e.g. Notion, Linear, Asana — also a few indie tools like Height.app..."></textarea>
+    </div>
+
+    <div class="question">
+      <label>What do your competitors do well? What do customers like about them?</label>
+      <textarea class="field-box" placeholder="Be honest — this helps us identify real gaps, not just spin..."></textarea>
+    </div>
+
+    <div class="question">
+      <label>Where do your competitors fall short? What complaints do you hear?</label>
+      <textarea class="field-box" placeholder="e.g. Too complex for small teams, pricing jumps too fast, missing a specific feature..."></textarea>
+    </div>
+
+    <div class="question">
+      <label>How familiar are you with your competitive landscape right now?</label>
+      <div class="scale-row">
+        <span class="scale-label">Not at all</span>
+        <div class="scale-options">
+          <div class="scale-chip">1</div>
+          <div class="scale-chip">2</div>
+          <div class="scale-chip">3</div>
+          <div class="scale-chip">4</div>
+          <div class="scale-chip">5</div>
+        </div>
+        <span class="scale-label">Very well</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Section 4: Goals -->
+  <div class="section">
+    <div class="section-header">
+      <div class="section-number">4</div>
+      <div class="section-title">Goals &amp; What You're Looking For</div>
+      <div class="section-subtitle">3 min</div>
+    </div>
+
+    <div class="question">
+      <label>What are you hoping to get from competitive intelligence? <span class="hint">(check all that apply)</span></label>
+      <div class="options">
+        <label class="option-chip"><input type="checkbox" /> Understand who I'm up against</label>
+        <label class="option-chip"><input type="checkbox" /> Find underserved gaps to target</label>
+        <label class="option-chip"><input type="checkbox" /> Sharpen my positioning &amp; messaging</label>
+        <label class="option-chip"><input type="checkbox" /> Validate my idea / market</label>
+        <label class="option-chip"><input type="checkbox" /> Inform product roadmap decisions</label>
+        <label class="option-chip"><input type="checkbox" /> Prepare for investor conversations</label>
+        <label class="option-chip"><input type="checkbox" /> Ongoing market monitoring</label>
+      </div>
+    </div>
+
+    <div class="question">
+      <label>What's the most important decision you're trying to make right now?</label>
+      <textarea class="field-box" placeholder="e.g. Whether to pivot our ICP, or how to position against Competitor X in sales conversations..."></textarea>
+    </div>
+
+    <div class="question">
+      <label>Is there a specific competitor, trend, or segment you most want to understand?</label>
+      <textarea class="field-box" placeholder="e.g. We keep losing to Competitor Y — we want to understand why and what to say..."></textarea>
+    </div>
+  </div>
+
+  <!-- Section 5: Context & Constraints -->
+  <div class="section">
+    <div class="section-header">
+      <div class="section-number">5</div>
+      <div class="section-title">Context &amp; Constraints</div>
+      <div class="section-subtitle">2 min</div>
+    </div>
+
+    <div class="question">
+      <label>How urgently do you need this intelligence?</label>
+      <div class="options">
+        <label class="option-chip"><input type="radio" name="urgency" /> This week (urgent)</label>
+        <label class="option-chip"><input type="radio" name="urgency" /> This month</label>
+        <label class="option-chip"><input type="radio" name="urgency" /> No hard deadline</label>
+      </div>
+    </div>
+
+    <div class="question">
+      <label>Have you used any market research or competitive intelligence tools before?</label>
+      <div class="options">
+        <label class="option-chip"><input type="radio" name="tools_used" /> No, this is new to me</label>
+        <label class="option-chip"><input type="radio" name="tools_used" /> Tried free tools (Google, manual)</label>
+        <label class="option-chip"><input type="radio" name="tools_used" /> Used paid tools (SimilarWeb, SEMrush, etc.)</label>
+        <label class="option-chip"><input type="radio" name="tools_used" /> Hired a researcher / agency</label>
+      </div>
+    </div>
+
+    <div class="question">
+      <label>Anything else we should know before our call? <span class="hint">(constraints, sensitivities, context)</span></label>
+      <textarea class="field-box" placeholder="e.g. We're pre-launch and in stealth — please keep all info confidential..."></textarea>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="doc-footer">
+    <div>
+      <strong style="color: var(--text-secondary);">BRIDGE<span style="color:var(--blue);">WORKS</span></strong>
+      &nbsp;· Competitive Intelligence, Powered by AI
+    </div>
+    <div>
+      Confidential &amp; for internal use only
+    </div>
+  </footer>
+
+</div>
+</body>
+</html>
