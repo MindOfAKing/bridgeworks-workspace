@@ -1,0 +1,588 @@
+{
+  "name": "BridgeWorks Lead Qualification",
+  "nodes": [
+    {
+      "parameters": {
+        "httpMethod": "POST",
+        "path": "bridgeworks-lead",
+        "options": {
+          "responseMode": "responseNode"
+        }
+      },
+      "id": "webhook-entry",
+      "name": "Webhook - Lead Entry",
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 2,
+      "position": [240, 300],
+      "webhookId": "bridgeworks-lead"
+    },
+    {
+      "parameters": {
+        "pollTimes": {
+          "item": [
+            {
+              "mode": "everyMinute",
+              "minute": 5
+            }
+          ]
+        },
+        "filters": {
+          "sender": "web3forms",
+          "readStatus": "unread",
+          "receivedAfter": "={{ $now.minus(5, 'minutes').toISO() }}"
+        },
+        "simple": false
+      },
+      "id": "gmail-trigger",
+      "name": "Gmail - Watch Web3Forms",
+      "type": "n8n-nodes-base.gmailTrigger",
+      "typeVersion": 1,
+      "position": [240, 520],
+      "credentials": {
+        "gmailOAuth2": {
+          "id": "GMAIL_CREDENTIAL_ID",
+          "name": "Gmail - emmanuelehigbai@gmail.com"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "jsCode": "// Parse Web3Forms email body into standard lead format\nconst emailBody = $input.first().json.text || $input.first().json.snippet || '';\nconst subject = $input.first().json.subject || '';\n\n// Web3Forms sends structured text. Extract fields.\nfunction extractField(text, fieldName) {\n  const regex = new RegExp(fieldName + '[:\\\\s]*([^\\\\n]+)', 'i');\n  const match = text.match(regex);\n  return match ? match[1].trim() : '';\n}\n\nconst name = extractField(emailBody, 'Name') || extractField(emailBody, 'name');\nconst email = extractField(emailBody, 'Email') || extractField(emailBody, 'email');\nconst company = extractField(emailBody, 'Company') || extractField(emailBody, 'company') || '';\nconst message = extractField(emailBody, 'Message') || extractField(emailBody, 'message') || emailBody;\n\nreturn [{\n  json: {\n    name: name || 'Unknown (from form)',\n    email: email || '',\n    company: company,\n    source: 'form',\n    message: message,\n    raw_subject: subject,\n    received_at: new Date().toISOString()\n  }\n}];"
+      },
+      "id": "parse-gmail",
+      "name": "Parse Web3Forms Email",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [460, 520]
+    },
+    {
+      "parameters": {
+        "jsCode": "// Normalize webhook payload into standard lead format\nconst input = $input.first().json;\nconst body = input.body || input;\n\nreturn [{\n  json: {\n    name: body.name || '',\n    email: body.email || '',\n    company: body.company || '',\n    source: body.source || 'manual',\n    message: body.message || body.inquiry || '',\n    received_at: new Date().toISOString()\n  }\n}];"
+      },
+      "id": "normalize-webhook",
+      "name": "Normalize Webhook Data",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [460, 300]
+    },
+    {
+      "parameters": {},
+      "id": "merge-sources",
+      "name": "Merge Lead Sources",
+      "type": "n8n-nodes-base.merge",
+      "typeVersion": 3,
+      "position": [680, 400],
+      "parameters": {
+        "mode": "passThrough",
+        "output": "input1"
+      }
+    },
+    {
+      "parameters": {
+        "respondWith": "json",
+        "responseBody": "={{ JSON.stringify({ status: 'received', lead: $json.name, timestamp: $json.received_at }) }}"
+      },
+      "id": "webhook-response",
+      "name": "Webhook Response",
+      "type": "n8n-nodes-base.respondToWebhook",
+      "typeVersion": 1,
+      "position": [680, 180]
+    },
+    {
+      "parameters": {
+        "url": "https://api.anthropic.com/v1/messages",
+        "authentication": "genericCredentialType",
+        "genericAuthType": "httpHeaderAuth",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "x-api-key",
+              "value": "={{ $credentials.httpHeaderAuth.value }}"
+            },
+            {
+              "name": "anthropic-version",
+              "value": "2023-06-01"
+            },
+            {
+              "name": "content-type",
+              "value": "application/json"
+            }
+          ]
+        },
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={{ JSON.stringify({ model: 'claude-sonnet-4-20250514', max_tokens: 1024, messages: [{ role: 'user', content: `You are a lead qualification assistant for BridgeWorks, an AI-powered digital growth studio run by Emmanuel Ehigbai in Budapest, Hungary. BridgeWorks serves SMEs in Central/Eastern Europe (EUR pricing) and Nigeria (NGN pricing).\n\nSERVICES AND PRICING:\n- Website (new build): EUR 850 / NGN 1,400,000\n- Website upgrade: EUR 450 / NGN 750,000\n- LinkedIn company page setup: EUR 280 / NGN 460,000\n- Google Business Profile: EUR 180 / NGN 300,000\n- Email infrastructure: EUR 220 / NGN 360,000\n- Full Digital Foundation (bundle, ~25% savings): EUR 1,050 / NGN 1,750,000\n- Monthly retainers: Starter EUR 350/mo, Growth EUR 600/mo, Full System EUR 1,100/mo (3-month minimum)\n- Brand Build System: Foundation EUR 1,200, Growth EUR 2,800, Complete EUR 4,500\n- Bridge Horizon Method (premium consulting): EUR 8,000-15,000 for full engagement\n- AI Automation: Starter EUR 500, Growth EUR 1,200, Agent EUR 2,500\n- Standalone services carry 15% premium over retainer rates\n- Free digital presence audit available for discovery calls\n\nIDEAL CLIENTS:\n- SMEs in Budapest, Hungary, CEE region (EUR market)\n- SMEs and personal brands in Nigeria, West Africa (NGN market)\n- Businesses needing digital presence, brand identity, social media, SEO, cold outreach\n- Companies at inflection points (for premium Bridge Horizon Method)\n\nRED FLAGS (lower score):\n- Individuals looking for free advice\n- Requests clearly outside scope (mobile app dev, hardware, unrelated industries)\n- No budget signals, very vague inquiries with no specifics\n- Spam or automated messages\n\nAnalyze this lead and return ONLY valid JSON (no markdown, no explanation outside the JSON):\n\nName: ${$json.name}\nEmail: ${$json.email}\nCompany: ${$json.company}\nSource: ${$json.source}\nMessage: ${$json.message}\n\nReturn this exact JSON structure:\n{\n  \"score\": \"HOT\" or \"WARM\" or \"COLD\",\n  \"confidence\": 1-10,\n  \"reasoning\": \"2-3 sentence explanation\",\n  \"recommended_service\": \"most likely service they need\",\n  \"estimated_value_eur\": \"estimated deal value range\",\n  \"market\": \"CEE\" or \"Nigeria\" or \"Other\",\n  \"urgency\": \"High\" or \"Medium\" or \"Low\",\n  \"reply_draft\": \"A short, warm, professional reply from Emmanuel. No em dashes. Short sentences. Specific. Offer a free digital presence audit or discovery call. Sign off as Emmanuel, BridgeWorks. Email: office@bridgeworks.agency\"\n}` }] }) }}"
+      },
+      "id": "claude-scoring",
+      "name": "Claude - Score Lead",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [900, 400],
+      "credentials": {
+        "httpHeaderAuth": {
+          "id": "ANTHROPIC_API_KEY_CREDENTIAL_ID",
+          "name": "Anthropic API Key"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "jsCode": "// Parse Claude's response into usable fields\nconst response = $input.first().json;\nconst content = response.content[0].text;\n\nlet parsed;\ntry {\n  // Handle cases where Claude wraps in markdown code blocks\n  const cleaned = content.replace(/```json\\n?/g, '').replace(/```\\n?/g, '').trim();\n  parsed = JSON.parse(cleaned);\n} catch (e) {\n  parsed = {\n    score: 'COLD',\n    confidence: 1,\n    reasoning: 'Failed to parse Claude response: ' + content.substring(0, 200),\n    recommended_service: 'Unknown',\n    estimated_value_eur: 'Unknown',\n    market: 'Other',\n    urgency: 'Low',\n    reply_draft: ''\n  };\n}\n\n// Carry forward the original lead data from the previous node chain\nconst leadData = $('Merge Lead Sources').first().json;\n\nreturn [{\n  json: {\n    // Original lead fields\n    name: leadData.name,\n    email: leadData.email,\n    company: leadData.company,\n    source: leadData.source,\n    message: leadData.message,\n    received_at: leadData.received_at,\n    // Claude analysis\n    score: parsed.score,\n    confidence: parsed.confidence,\n    reasoning: parsed.reasoning,\n    recommended_service: parsed.recommended_service,\n    estimated_value_eur: parsed.estimated_value_eur,\n    market: parsed.market,\n    urgency: parsed.urgency,\n    reply_draft: parsed.reply_draft,\n    // Meta\n    scored_at: new Date().toISOString()\n  }\n}];"
+      },
+      "id": "parse-claude",
+      "name": "Parse Claude Response",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [1120, 400]
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": {
+            "caseSensitive": true,
+            "leftValue": "",
+            "typeValidation": "strict"
+          },
+          "conditions": [
+            {
+              "id": "hot",
+              "leftValue": "={{ $json.score }}",
+              "rightValue": "HOT",
+              "operator": {
+                "type": "string",
+                "operation": "equals"
+              }
+            }
+          ],
+          "combinator": "and"
+        },
+        "options": {}
+      },
+      "id": "route-hot",
+      "name": "Route - HOT",
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2,
+      "position": [1340, 240]
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": {
+            "caseSensitive": true,
+            "leftValue": "",
+            "typeValidation": "strict"
+          },
+          "conditions": [
+            {
+              "id": "warm",
+              "leftValue": "={{ $json.score }}",
+              "rightValue": "WARM",
+              "operator": {
+                "type": "string",
+                "operation": "equals"
+              }
+            }
+          ],
+          "combinator": "and"
+        },
+        "options": {}
+      },
+      "id": "route-warm",
+      "name": "Route - WARM",
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2,
+      "position": [1340, 500]
+    },
+    {
+      "parameters": {
+        "sendTo": "emmanuelehigbai@gmail.com",
+        "subject": "=🔥 HOT LEAD: {{ $json.name }} ({{ $json.company || 'No company' }}) - {{ $json.recommended_service }}",
+        "emailType": "text",
+        "message": "=HOT LEAD ALERT\n========================\n\nName: {{ $json.name }}\nEmail: {{ $json.email }}\nCompany: {{ $json.company || 'Not provided' }}\nSource: {{ $json.source }}\n\nMessage:\n{{ $json.message }}\n\n========================\nCLAUDE ANALYSIS\n========================\n\nScore: {{ $json.score }} (Confidence: {{ $json.confidence }}/10)\nReasoning: {{ $json.reasoning }}\nRecommended Service: {{ $json.recommended_service }}\nEstimated Value: {{ $json.estimated_value_eur }}\nMarket: {{ $json.market }}\nUrgency: {{ $json.urgency }}\n\n========================\nDRAFT REPLY (review before sending)\n========================\n\n{{ $json.reply_draft }}\n\n========================\nAction: Reply within 2 hours. Offer a discovery call.\n========================"
+      },
+      "id": "email-hot-notification",
+      "name": "Email - HOT Alert",
+      "type": "n8n-nodes-base.gmail",
+      "typeVersion": 2.1,
+      "position": [1580, 80],
+      "credentials": {
+        "gmailOAuth2": {
+          "id": "GMAIL_CREDENTIAL_ID",
+          "name": "Gmail - emmanuelehigbai@gmail.com"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "sendTo": "={{ $json.email }}",
+        "subject": "=Re: {{ $json.company ? $json.company + ' - ' : '' }}BridgeWorks",
+        "emailType": "text",
+        "message": "={{ $json.reply_draft }}",
+        "options": {
+          "appendAttributionToBody": false,
+          "sendAsAlias": "office@bridgeworks.agency"
+        }
+      },
+      "id": "draft-hot-reply",
+      "name": "Draft HOT Reply",
+      "type": "n8n-nodes-base.gmail",
+      "typeVersion": 2.1,
+      "position": [1580, 240],
+      "credentials": {
+        "gmailOAuth2": {
+          "id": "GMAIL_CREDENTIAL_ID",
+          "name": "Gmail - emmanuelehigbai@gmail.com"
+        }
+      },
+      "parameters": {
+        "resource": "draft",
+        "operation": "create",
+        "subject": "=Re: {{ $json.company ? $json.company + ' inquiry' : 'Your inquiry' }} - BridgeWorks",
+        "emailType": "text",
+        "message": "={{ $json.reply_draft }}",
+        "options": {
+          "sendTo": "={{ $json.email }}"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "operation": "append",
+        "documentId": {
+          "__rl": true,
+          "mode": "list",
+          "value": "GOOGLE_SHEET_ID"
+        },
+        "sheetName": {
+          "__rl": true,
+          "mode": "list",
+          "value": "All Leads"
+        },
+        "columns": {
+          "mappingMode": "defineBelow",
+          "value": {
+            "Timestamp": "={{ $json.received_at }}",
+            "Name": "={{ $json.name }}",
+            "Email": "={{ $json.email }}",
+            "Company": "={{ $json.company }}",
+            "Source": "={{ $json.source }}",
+            "Score": "={{ $json.score }}",
+            "Reasoning": "={{ $json.reasoning }}",
+            "Recommended Service": "={{ $json.recommended_service }}",
+            "Estimated Value": "={{ $json.estimated_value_eur }}",
+            "Market": "={{ $json.market }}",
+            "Reply Draft": "={{ $json.reply_draft }}",
+            "Status": "New",
+            "Follow-up Date": "={{ $now.plus(1, 'days').toFormat('yyyy-MM-dd') }}",
+            "Notes": ""
+          }
+        },
+        "options": {}
+      },
+      "id": "sheet-hot",
+      "name": "Sheet - Log HOT",
+      "type": "n8n-nodes-base.googleSheets",
+      "typeVersion": 4.5,
+      "position": [1580, 400],
+      "credentials": {
+        "googleSheetsOAuth2Api": {
+          "id": "GOOGLE_SHEETS_CREDENTIAL_ID",
+          "name": "Google Sheets - BridgeWorks"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "sendTo": "emmanuelehigbai@gmail.com",
+        "subject": "=🟡 WARM Lead: {{ $json.name }} ({{ $json.company || 'No company' }})",
+        "emailType": "text",
+        "message": "=WARM LEAD\n========================\n\nName: {{ $json.name }}\nEmail: {{ $json.email }}\nCompany: {{ $json.company || 'Not provided' }}\nSource: {{ $json.source }}\n\nMessage:\n{{ $json.message }}\n\n========================\nCLAUDE ANALYSIS\n========================\n\nScore: {{ $json.score }} (Confidence: {{ $json.confidence }}/10)\nReasoning: {{ $json.reasoning }}\nRecommended Service: {{ $json.recommended_service }}\nEstimated Value: {{ $json.estimated_value_eur }}\nMarket: {{ $json.market }}\n\n========================\nNURTURE DRAFT (review before sending)\n========================\n\n{{ $json.reply_draft }}\n\n========================\nAction: Follow up within 48 hours if interested.\n========================"
+      },
+      "id": "email-warm-notification",
+      "name": "Email - WARM Notice",
+      "type": "n8n-nodes-base.gmail",
+      "typeVersion": 2.1,
+      "position": [1580, 560],
+      "credentials": {
+        "gmailOAuth2": {
+          "id": "GMAIL_CREDENTIAL_ID",
+          "name": "Gmail - emmanuelehigbai@gmail.com"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "resource": "draft",
+        "operation": "create",
+        "subject": "=Re: {{ $json.company ? $json.company + ' inquiry' : 'Your inquiry' }} - BridgeWorks",
+        "emailType": "text",
+        "message": "={{ $json.reply_draft }}",
+        "options": {
+          "sendTo": "={{ $json.email }}"
+        }
+      },
+      "id": "draft-warm-reply",
+      "name": "Draft WARM Reply",
+      "type": "n8n-nodes-base.gmail",
+      "typeVersion": 2.1,
+      "position": [1580, 720],
+      "credentials": {
+        "gmailOAuth2": {
+          "id": "GMAIL_CREDENTIAL_ID",
+          "name": "Gmail - emmanuelehigbai@gmail.com"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "operation": "append",
+        "documentId": {
+          "__rl": true,
+          "mode": "list",
+          "value": "GOOGLE_SHEET_ID"
+        },
+        "sheetName": {
+          "__rl": true,
+          "mode": "list",
+          "value": "All Leads"
+        },
+        "columns": {
+          "mappingMode": "defineBelow",
+          "value": {
+            "Timestamp": "={{ $json.received_at }}",
+            "Name": "={{ $json.name }}",
+            "Email": "={{ $json.email }}",
+            "Company": "={{ $json.company }}",
+            "Source": "={{ $json.source }}",
+            "Score": "={{ $json.score }}",
+            "Reasoning": "={{ $json.reasoning }}",
+            "Recommended Service": "={{ $json.recommended_service }}",
+            "Estimated Value": "={{ $json.estimated_value_eur }}",
+            "Market": "={{ $json.market }}",
+            "Reply Draft": "={{ $json.reply_draft }}",
+            "Status": "Nurture",
+            "Follow-up Date": "={{ $now.plus(3, 'days').toFormat('yyyy-MM-dd') }}",
+            "Notes": ""
+          }
+        },
+        "options": {}
+      },
+      "id": "sheet-warm",
+      "name": "Sheet - Log WARM",
+      "type": "n8n-nodes-base.googleSheets",
+      "typeVersion": 4.5,
+      "position": [1580, 880],
+      "credentials": {
+        "googleSheetsOAuth2Api": {
+          "id": "GOOGLE_SHEETS_CREDENTIAL_ID",
+          "name": "Google Sheets - BridgeWorks"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "operation": "append",
+        "documentId": {
+          "__rl": true,
+          "mode": "list",
+          "value": "GOOGLE_SHEET_ID"
+        },
+        "sheetName": {
+          "__rl": true,
+          "mode": "list",
+          "value": "All Leads"
+        },
+        "columns": {
+          "mappingMode": "defineBelow",
+          "value": {
+            "Timestamp": "={{ $json.received_at }}",
+            "Name": "={{ $json.name }}",
+            "Email": "={{ $json.email }}",
+            "Company": "={{ $json.company }}",
+            "Source": "={{ $json.source }}",
+            "Score": "={{ $json.score }}",
+            "Reasoning": "={{ $json.reasoning }}",
+            "Recommended Service": "={{ $json.recommended_service }}",
+            "Estimated Value": "={{ $json.estimated_value_eur }}",
+            "Market": "={{ $json.market }}",
+            "Reply Draft": "",
+            "Status": "Archived",
+            "Follow-up Date": "",
+            "Notes": ""
+          }
+        },
+        "options": {}
+      },
+      "id": "sheet-cold",
+      "name": "Sheet - Log COLD",
+      "type": "n8n-nodes-base.googleSheets",
+      "typeVersion": 4.5,
+      "position": [1580, 1060],
+      "credentials": {
+        "googleSheetsOAuth2Api": {
+          "id": "GOOGLE_SHEETS_CREDENTIAL_ID",
+          "name": "Google Sheets - BridgeWorks"
+        }
+      }
+    }
+  ],
+  "connections": {
+    "Webhook - Lead Entry": {
+      "main": [
+        [
+          {
+            "node": "Normalize Webhook Data",
+            "type": "main",
+            "index": 0
+          },
+          {
+            "node": "Webhook Response",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Gmail - Watch Web3Forms": {
+      "main": [
+        [
+          {
+            "node": "Parse Web3Forms Email",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Parse Web3Forms Email": {
+      "main": [
+        [
+          {
+            "node": "Merge Lead Sources",
+            "type": "main",
+            "index": 1
+          }
+        ]
+      ]
+    },
+    "Normalize Webhook Data": {
+      "main": [
+        [
+          {
+            "node": "Merge Lead Sources",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Merge Lead Sources": {
+      "main": [
+        [
+          {
+            "node": "Claude - Score Lead",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Claude - Score Lead": {
+      "main": [
+        [
+          {
+            "node": "Parse Claude Response",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Parse Claude Response": {
+      "main": [
+        [
+          {
+            "node": "Route - HOT",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Route - HOT": {
+      "main": [
+        [
+          {
+            "node": "Email - HOT Alert",
+            "type": "main",
+            "index": 0
+          },
+          {
+            "node": "Draft HOT Reply",
+            "type": "main",
+            "index": 0
+          },
+          {
+            "node": "Sheet - Log HOT",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Route - WARM",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Route - WARM": {
+      "main": [
+        [
+          {
+            "node": "Email - WARM Notice",
+            "type": "main",
+            "index": 0
+          },
+          {
+            "node": "Draft WARM Reply",
+            "type": "main",
+            "index": 0
+          },
+          {
+            "node": "Sheet - Log WARM",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Sheet - Log COLD",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "pinData": {},
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "staticData": null,
+  "tags": [
+    {
+      "name": "lead-pipeline",
+      "id": "1"
+    },
+    {
+      "name": "bridgeworks",
+      "id": "2"
+    }
+  ],
+  "triggerCount": 2,
+  "updatedAt": "2026-04-08T00:00:00.000Z",
+  "versionId": "1"
+}
