@@ -18,7 +18,7 @@
 - [ ] Update bridgeworks.agency homepage hero copy + GEO service section
 
 ### CEE FM Client Delivery
-- [ ] Send brand visual proposal PDF to Victor (victor@hu.ceefm.com)
+- [x] Send brand visual proposal PDF to Victor (victor@hu.ceefm.com) ✓ sent Apr 9
 - [ ] Import april-calendar.ics into Google Calendar for posting reminders
 
 ## Next Week (Apr 11-17) -- Launch Polish
