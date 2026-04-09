@@ -4,10 +4,10 @@
 ## This Week (Apr 4-10)
 
 ### CEE FM Site Fixes (2 hours total)
-- [ ] Fix stats counter bug (hardcode 50+ Properties, 95% Retention, 14 Years)
-- [ ] Fix schema data (ratingCount ~50, remove Romania/Slovakia, add Budapest address)
-- [ ] Fix llms.txt (50+ projects, Hungary only)
-- [ ] Add visible phone number with click-to-call in nav + near form
+- [x] Fix stats counter bug — already correct on live site (50+, 98%, 10+)
+- [x] Fix schema data (ratingCount 50, removed Romania/Slovakia) ✓ Apr 9
+- [x] Fix llms.txt (50+ projects, Hungary only) ✓ Apr 9
+- [ ] Add visible phone number with click-to-call in nav + near form — ON HOLD (owners prefer no personal line)
 - [ ] Add 2-3 mid-page CTAs after Services and Why CEEFM sections
 
 ### BridgeWorks Launch Content (Apr 18 launch)
@@ -18,7 +18,7 @@
 - [ ] Update bridgeworks.agency homepage hero copy + GEO service section
 
 ### CEE FM Client Delivery
-- [x] Send brand visual proposal PDF to Victor (victor@hu.ceefm.com) ✓ sent Apr 9
+- [x] ~~Send brand visual proposal PDF to Victor~~ — no longer necessary per Victor (Apr 10)
 - [ ] Import april-calendar.ics into Google Calendar for posting reminders
 
 ## Next Week (Apr 11-17) -- Launch Polish
