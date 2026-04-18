@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ops Platform Build Options | BridgeWorks</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: 'Inter', Helvetica, Arial, sans-serif;
+      font-weight: 400;
+      font-size: 15px;
+      line-height: 1.7;
+      color: #1C2B3A;
+      background: #F5F0E8;
+    }
+
+    .page {
+      max-width: 840px;
+      margin: 0 auto;
+      padding: 0 40px;
+    }
+
+    /* COVER */
+    .cover {
+      background: #0F1A2E;
+      padding: 80px 0 60px;
+      margin-bottom: 48px;
+    }
+
+    .cover-inner {
+      max-width: 840px;
+      margin: 0 auto;
+      padding: 0 40px;
+      border-left: 6px solid #B8860B;
+      padding-left: 34px;
+    }
+
+    .cover-type {
+      font-family: 'Inter', Helvetica, sans-serif;
+      font-size: 11px;
+      font-weight: 600;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      color: #B8860B;
+      margin-bottom: 20px;
+    }
+
+    .cover h1 {
+      font-family: 'Playfair Display', Georgia, serif;
+      font-size: 38px;
+      font-weight: 400;
+      color: #F5F0E8;
+      line-height: 1.2;
+      margin-bottom: 16px;
+    }
+
+    .cover-sub {
+      font-size: 16px;
+      font-weight: 300;
+      color: rgba(245, 240, 232, 0.7);
+      margin-bottom: 32px;
+    }
+
+    .cover-meta {
+      font-size: 12px;
+      font-weight: 500;
+      color: rgba(245, 240, 232, 0.45);
+      letter-spacing: 0.06em;
+    }
+
+    /* SECTIONS */
+    h2 {
+      font-family: 'Playfair Display', Georgia, serif;
+      font-size: 26px;
+      font-weight: 400;
+      color: #0F1A2E;
+      margin-top: 56px;
+      margin-bottom: 20px;
+      line-height: 1.25;
+    }
+
+    h3 {
+      font-family: 'Inter', Helvetica, sans-serif;
+      font-size: 17px;
+      font-weight: 600;
+      color: #0F1A2E;
+      margin-top: 32px;
+      margin-bottom: 12px;
+    }
+
+    p {
+      color: #1C2B3A;
+      margin-bottom: 16px;
+    }
+
+    .muted {
+      color: #6B6560;
+    }
+
+    .gold {
+      color: #B8860B;
+    }
+
+    strong {
+      font-weight: 600;
+    }
+
+    /* DIVIDER */
+    .divider {
+      width: 48px;
+      height: 3px;
+      background: #B8860B;
+      margin: 32px 0;
+    }
+
+    /* TIER TABLE */
+    .tier-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 20px;
+      margin: 32px 0;
+    }
+
+    .tier-card {
+      background: #FFFFFF;
+      border: 1px solid #E0DCD4;
+      padding: 28px 24px;
+      position: relative;
+    }
+
+    .tier-label {
+      font-size: 10px;
+      font-weight: 700;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: #B8860B;
+      margin-bottom: 8px;
+    }
+
+    .tier-name {
+      font-family: 'Playfair Display', Georgia, serif;
+      font-size: 20px;
+      font-weight: 400;
+      color: #0F1A2E;
+      margin-bottom: 12px;
+      line-height: 1.25;
+    }
+
+    .tier-price {
+      font-family: 'Playfair Display', Georgia, serif;
+      font-size: 32px;
+      font-weight: 700;
+      color: #0F1A2E;
+      margin-bottom: 4px;
+    }
+
+    .tier-price span {
+      font-family: 'Inter', Helvetica, sans-serif;
+      font-size: 13px;
+      font-weight: 400;
+      color: #6B6560;
+    }
+
+    .tier-timeline {
+      font-size: 12px;
+      color: #6B6560;
+      margin-bottom: 20px;
+      padding-bottom: 16px;
+      border-bottom: 1px solid #E0DCD4;
+    }
+
+    .tier-desc {
+      font-size: 13px;
+      color: #6B6560;
+      line-height: 1.65;
+      margin-bottom: 16px;
+    }
+
+    .tier-list {
+      list-style: none;
+      padding: 0;
+    }
+
+    .tier-list li {
+      font-size: 13px;
+      color: #1C2B3A;
+      line-height: 1.6;
+      padding: 6px 0 6px 18px;
+      position: relative;
+    }
+
+    .tier-list li::before {
+      content: '';
+      position: absolute;
+      left: 0;
+      top: 13px;
+      width: 6px;
+      height: 6px;
+      background: #B8860B;
+      border-radius: 50%;
+    }
+
+    /* DETAIL SECTIONS */
+    .detail-block {
+      background: #FFFFFF;
+      border: 1px solid #E0DCD4;
+      padding: 28px 28px 20px;
+      margin-bottom: 16px;
+    }
+
+    .detail-block h3 {
+      margin-top: 0;
+    }
+
+    .detail-list {
+      list-style: none;
+      padding: 0;
+    }
+
+    .detail-list li {
+      font-size: 14px;
+      color: #1C2B3A;
+      line-height: 1.7;
+      padding: 5px 0 5px 18px;
+      position: relative;
+    }
+
+    .detail-list li::before {
+      content: '';
+      position: absolute;
+      left: 0;
+      top: 13px;
+      width: 6px;
+      height: 6px;
+      background: #B8860B;
+      border-radius: 50%;
+    }
+
+    /* QUESTIONS */
+    .question-card {
+      background: #FFFFFF;
+      border-left: 4px solid #B8860B;
+      padding: 20px 24px;
+      margin-bottom: 12px;
+    }
+
+    .question-num {
+      font-size: 10px;
+      font-weight: 700;
+      letter-spacing: 0.14em;
+      color: #B8860B;
+      margin-bottom: 6px;
+    }
+
+    .question-text {
+      font-size: 15px;
+      font-weight: 500;
+      color: #0F1A2E;
+      margin-bottom: 6px;
+    }
+
+    .question-why {
+      font-size: 13px;
+      color: #6B6560;
+      line-height: 1.6;
+    }
+
+    /* SUMMARY TABLE */
+    .summary-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 24px 0;
+      font-size: 14px;
+    }
+
+    .summary-table th {
+      text-align: left;
+      font-weight: 600;
+      font-size: 11px;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: #6B6560;
+      padding: 12px 16px;
+      border-bottom: 2px solid #E0DCD4;
+      background: #FFFFFF;
+    }
+
+    .summary-table td {
+      padding: 12px 16px;
+      border-bottom: 1px solid #E0DCD4;
+      vertical-align: top;
+    }
+
+    .summary-table tr:nth-child(even) td {
+      background: rgba(255,255,255,0.5);
+    }
+
+    /* FOOTER */
+    .doc-footer {
+      margin-top: 64px;
+      padding: 32px 0;
+      border-top: 1px solid #E0DCD4;
+      text-align: center;
+    }
+
+    .doc-footer p {
+      font-size: 12px;
+      color: #6B6560;
+      letter-spacing: 0.04em;
+    }
+
+    .doc-footer a {
+      color: #B8860B;
+      text-decoration: none;
+    }
+
+    /* PRINT */
+    @media print {
+      body { background: #FFFFFF; font-size: 12px; }
+      .cover { break-after: page; }
+      .tier-grid { break-inside: avoid; }
+      .question-card { break-inside: avoid; }
+      .detail-block { break-inside: avoid; }
+    }
+
+    @media (max-width: 700px) {
+      .tier-grid { grid-template-columns: 1fr; }
+      .cover h1 { font-size: 28px; }
+      .page { padding: 0 20px; }
+      .cover-inner { padding: 0 20px; padding-left: 14px; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- COVER -->
+<div class="cover">
+  <div class="cover-inner">
+    <div class="cover-type">Brief</div>
+    <h1>Ops Platform Build Options</h1>
+    <p class="cover-sub">An overview of what it takes to build a dedicated operations platform for managing tickets, properties, and maintenance across multiple client sites.</p>
+    <p class="cover-meta">Prepared by BridgeWorks &middot; 17 April 2026</p>
+  </div>
+</div>
+
+<div class="page">
+
+  <!-- SUMMARY -->
+  <h2>Summary</h2>
+  <div class="divider"></div>
+  <p>This document outlines three options for building a dedicated operations platform. The platform would handle ticket management, property tracking, maintenance scheduling, and reporting across multiple client sites. Each tier is described with its scope, timeline, and cost. Questions for Victor are listed at the end.</p>
+
+  <!-- TIERS -->
+  <h2>Three build options</h2>
+  <div class="divider"></div>
+  <p class="muted">Each tier builds on the previous one.</p>
+
+  <div class="tier-grid">
+    <!-- TIER 1 -->
+    <div class="tier-card">
+      <div class="tier-label">Tier 1</div>
+      <div class="tier-name">Clickable Prototype</div>
+      <div class="tier-price">EUR 1,200 <span>one-time</span></div>
+      <div class="tier-timeline">2 to 3 weeks &middot; No hosting cost</div>
+      <p class="tier-desc">A static demo with fake data. Looks and feels real. No database, no login. Hosted as a gated demo URL on your domain.</p>
+      <ul class="tier-list">
+        <li>6 interactive screens</li>
+        <li>Your company branding throughout</li>
+        <li>Ticket list with status badges</li>
+        <li>Create ticket modal</li>
+        <li>Filter panel with all fields</li>
+        <li>Properties and units grid</li>
+        <li>Guest reviews table</li>
+        <li>Notifications list</li>
+        <li>Desktop + tablet + mobile layouts</li>
+        <li>Password-protected access</li>
+      </ul>
+    </div>
+
+    <!-- TIER 2 -->
+    <div class="tier-card">
+      <div class="tier-label">Tier 2</div>
+      <div class="tier-name">MVP Working App</div>
+      <div class="tier-price">EUR 4,500 <span>one-time</span></div>
+      <div class="tier-timeline">6 to 8 weeks &middot; EUR 50 to 100/mo hosting</div>
+      <p class="tier-desc">A real application with a database. Staff log in, create tickets, attach photos, and track progress across all properties.</p>
+      <ul class="tier-list">
+        <li>Everything in Tier 1 (real, not demo)</li>
+        <li>User authentication (email + password)</li>
+        <li>Create, edit, assign, close tickets</li>
+        <li>Photo and file attachments</li>
+        <li>Property and unit management</li>
+        <li>Status workflow (Todo, In Progress, Awaiting Reply, Done)</li>
+        <li>Search and filter across all fields</li>
+        <li>EN + HU language support</li>
+        <li>Admin, Manager, Staff roles</li>
+      </ul>
+    </div>
+
+    <!-- TIER 3 -->
+    <div class="tier-card">
+      <div class="tier-label">Tier 3</div>
+      <div class="tier-name">Production Platform</div>
+      <div class="tier-price">EUR 12,000 <span>one-time</span></div>
+      <div class="tier-timeline">12 to 16 weeks &middot; EUR 100 to 200/mo hosting</div>
+      <p class="tier-desc">Full production platform. Roles, notifications, reporting, mobile cleaner view, and a read-only client portal.</p>
+      <ul class="tier-list">
+        <li>Everything in Tier 2</li>
+        <li>Guest review import and tracking</li>
+        <li>Email and SMS notifications</li>
+        <li>5 roles: Admin, City Manager, Supervisor, Maintenance, Cleaner</li>
+        <li>Mobile cleaner view (checklist-style)</li>
+        <li>CSV and PDF report export</li>
+        <li>Full audit log</li>
+        <li>Client portal (read-only access per client)</li>
+        <li>Help centre with cleaning manuals</li>
+        <li>White-label ready for licensing</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- COMPARISON TABLE -->
+  <h2>Side-by-side comparison</h2>
+  <div class="divider"></div>
+
+  <table class="summary-table">
+    <thead>
+      <tr>
+        <th>Feature</th>
+        <th>Tier 1</th>
+        <th>Tier 2</th>
+        <th>Tier 3</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Real data and database</td>
+        <td>No (fake data)</td>
+        <td>Yes</td>
+        <td>Yes</td>
+      </tr>
+      <tr>
+        <td>User accounts and login</td>
+        <td>Password gate only</td>
+        <td>Yes (email + password)</td>
+        <td>Yes + SSO option</td>
+      </tr>
+      <tr>
+        <td>Ticket management</td>
+        <td>Visual only</td>
+        <td>Full CRUD</td>
+        <td>Full CRUD + escalation</td>
+      </tr>
+      <tr>
+        <td>File attachments</td>
+        <td>UI only (no upload)</td>
+        <td>Real upload and storage</td>
+        <td>Real upload and storage</td>
+      </tr>
+      <tr>
+        <td>Properties and units</td>
+        <td>Static list</td>
+        <td>Add, edit, archive</td>
+        <td>Add, edit, archive + ratings</td>
+      </tr>
+      <tr>
+        <td>Guest reviews</td>
+        <td>Static table</td>
+        <td>Not included</td>
+        <td>Import + tracking</td>
+      </tr>
+      <tr>
+        <td>Notifications</td>
+        <td>Static list</td>
+        <td>Not included</td>
+        <td>Email + SMS</td>
+      </tr>
+      <tr>
+        <td>User roles</td>
+        <td>None</td>
+        <td>3 roles</td>
+        <td>5 roles</td>
+      </tr>
+      <tr>
+        <td>Mobile-optimised cleaner view</td>
+        <td>Responsive layout</td>
+        <td>Responsive layout</td>
+        <td>Dedicated checklist view</td>
+      </tr>
+      <tr>
+        <td>Reporting and export</td>
+        <td>No</td>
+        <td>No</td>
+        <td>CSV + PDF</td>
+      </tr>
+      <tr>
+        <td>Client portal</td>
+        <td>No</td>
+        <td>No</td>
+        <td>Yes (read-only per client)</td>
+      </tr>
+      <tr>
+        <td>White-label ready</td>
+        <td>No</td>
+        <td>No</td>
+        <td>Yes</td>
+      </tr>
+      <tr>
+        <td>Hosting requirement</td>
+        <td>Hostinger (existing)</td>
+        <td>EUR 50 to 100/mo</td>
+        <td>EUR 100 to 200/mo</td>
+      </tr>
+      <tr>
+        <td><strong>Investment</strong></td>
+        <td><strong>EUR 1,200</strong></td>
+        <td><strong>EUR 4,500</strong></td>
+        <td><strong>EUR 12,000</strong></td>
+      </tr>
+      <tr>
+        <td><strong>Timeline</strong></td>
+        <td><strong>2 to 3 weeks</strong></td>
+        <td><strong>6 to 8 weeks</strong></td>
+        <td><strong>12 to 16 weeks</strong></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <!-- QUESTIONS FOR VICTOR -->
+  <h2>Questions for Victor</h2>
+  <div class="divider"></div>
+  <p class="muted">We need your answers to scope this correctly. Please respond with as much detail as you can.</p>
+
+  <div class="question-card">
+    <div class="question-num">QUESTION 01</div>
+    <p class="question-text">How many properties do you manage today, and how many do you expect in 12 months?</p>
+    <p class="question-why">Determines whether the system needs multi-city support from day one and how the property list should be structured.</p>
+  </div>
+
+  <div class="question-card">
+    <div class="question-num">QUESTION 02</div>
+    <p class="question-text">How many staff would need accounts?</p>
+    <p class="question-why">Affects the hosting tier and whether role-based access is needed from the start or can be added later.</p>
+  </div>
+
+  <div class="question-card">
+    <div class="question-num">QUESTION 03</div>
+    <p class="question-text">What ticket types do you use beyond Repair and Maintenance?</p>
+    <p class="question-why">Examples: Cleaning, Inspection, Handover, Deep Clean, Pest Control. The system is built to match your actual workflow.</p>
+  </div>
+
+  <div class="question-card">
+    <div class="question-num">QUESTION 04</div>
+    <p class="question-text">Do your clients currently receive any service reports? If yes, in what format?</p>
+    <p class="question-why">If clients already receive PDFs or spreadsheets, the platform can generate those automatically instead.</p>
+  </div>
+
+  <div class="question-card">
+    <div class="question-num">QUESTION 05</div>
+    <p class="question-text">Should the platform carry your company brand, or would you prefer a separate product name?</p>
+    <p class="question-why">A separate name is useful if you plan to license the platform to other companies later. Your own brand is simpler if it stays internal.</p>
+  </div>
+
+  <div class="question-card">
+    <div class="question-num">QUESTION 06</div>
+    <p class="question-text">What is the budget range you have in mind?</p>
+    <p class="question-why">Helps us prioritise the right tier and features within your range.</p>
+  </div>
+
+  <div class="question-card">
+    <div class="question-num">QUESTION 07</div>
+    <p class="question-text">Is there a deadline or event driving the timeline?</p>
+    <p class="question-why">A new client onboarding, contract renewal, or internal milestone would change the build priority.</p>
+  </div>
+
+  <div class="question-card">
+    <div class="question-num">QUESTION 08</div>
+    <p class="question-text">Should the platform support Hungarian-language UI, or is English sufficient?</p>
+    <p class="question-why">Bilingual UI adds roughly 20% to build time. If only internal staff use it and they work in English, a single language saves time.</p>
+  </div>
+
+  <!-- FOOTER -->
+  <div class="doc-footer">
+    <p><a href="mailto:office@bridgeworks.agency">office@bridgeworks.agency</a> &middot; <a href="https://bridgeworks.agency">bridgeworks.agency</a></p>
+  </div>
+
+</div>
+
+</body>
+</html>

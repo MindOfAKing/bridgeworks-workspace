@@ -40,7 +40,7 @@
 
 ### CEE FM
 - [ ] Start collecting testimonials from CEE FM clients
-- [ ] Posts 7-9 (Apr 15-17) — drafted, need scheduling/publishing
+- [x] Posts 7-9 (Apr 15-17) — published
 
 ---
 
