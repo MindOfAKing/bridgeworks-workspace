@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "last_updated": "2026-04-03",
+  "insights": [
+    {
+      "id": "ins-20260403-001",
+      "type": "framework",
+      "name": "One Hour Company Stack",
+      "summary": "Build and launch a company in under one hour using AI tools. Idea to first customer in one morning.",
+      "categories": ["ai-tools", "business-model"],
+      "businesses": ["bridgeworks", "personal-brand"],
+      "source_video": "https://www.youtube.com/watch?v=lyqk7zxbCKs",
+      "source_channel": "Greg Isenberg",
+      "source_date": "2026-04-02",
+      "extracted_date": "2026-04-03",
+      "kb_file": "knowledge/frameworks/one-hour-company-stack.md",
+      "actionability": "medium"
+    },
+    {
+      "id": "ins-20260403-002",
+      "type": "workflow",
+      "name": "GoHighLevel AI Studio Setup",
+      "summary": "Use GHL AI Studio to build conversion-focused websites and sales pages via AI prompts in minutes.",
+      "categories": ["ai-tools", "automation", "agency-ops"],
+      "businesses": ["bridgeworks"],
+      "source_video": "https://www.youtube.com/watch?v=gncu8nn4WC0",
+      "source_channel": "Jason Wardrop",
+      "source_date": "2026-04-02",
+      "extracted_date": "2026-04-03",
+      "kb_file": "knowledge/workflows/gohighlevel-ai-studio.md",
+      "actionability": "medium"
+    },
+    {
+      "id": "ins-20260403-003",
+      "type": "strategy",
+      "name": "Dark Motivation",
+      "summary": "Use pain and adversity as fuel. Most successful people ran from pain first, shifted to inspiration later, then tapped dark motivation again at plateaus.",
+      "categories": ["personal-brand", "content-strategy"],
+      "businesses": ["personal-brand", "mindofaking"],
+      "source_video": "https://www.youtube.com/watch?v=O6DrQJ5OOlU",
+      "source_channel": "Iman Gadzhi",
+      "source_date": "2026-04-02",
+      "extracted_date": "2026-04-03",
+      "kb_file": "knowledge/strategies/dark-motivation.md",
+      "actionability": "high"
+    },
+    {
+      "id": "ins-20260403-004",
+      "type": "strategy",
+      "name": "Decision Point Lead Generation",
+      "summary": "Find who has your target customers 1-2 steps before they need you. Partner with them instead of cold outreach.",
+      "categories": ["lead-gen", "agency-ops"],
+      "businesses": ["bridgeworks"],
+      "source_video": "https://www.youtube.com/watch?v=A8p2HCI_23E",
+      "source_channel": "Alex Hormozi",
+      "source_date": "2026-04-02",
+      "extracted_date": "2026-04-03",
+      "kb_file": "knowledge/strategies/decision-point-lead-gen.md",
+      "actionability": "high"
+    },
+    {
+      "id": "ins-20260403-005",
+      "type": "tool",
+      "name": "Pretext Library",
+      "summary": "Pure TypeScript text measurement library that bypasses browser reflow. Enables fast virtualized lists and text-heavy UIs.",
+      "categories": ["ai-tools"],
+      "businesses": ["bridgeworks"],
+      "source_video": "https://www.youtube.com/watch?v=vd14EElCRvs",
+      "source_channel": "Fireship",
+      "source_date": "2026-04-02",
+      "extracted_date": "2026-04-03",
+      "kb_file": "knowledge/tools/pretext-library.md",
+      "actionability": "low"
+    },
+    {
+      "id": "ins-20260403-006",
+      "type": "workflow",
+      "name": "No-Code AI Automation for Service Businesses",
+      "summary": "Repeatable framework for pitching AI automation to verticals: identify manual grind, position as digital Lego, start with intake automation, layer AI.",
+      "categories": ["automation", "agency-ops", "ai-agents"],
+      "businesses": ["bridgeworks"],
+      "source_video": "https://www.youtube.com/watch?v=various-neuracore",
+      "source_channel": "Neuracore AI",
+      "source_date": "2026-04-02",
+      "extracted_date": "2026-04-03",
+      "kb_file": "knowledge/workflows/nocode-ai-automation-service-biz.md",
+      "actionability": "high"
+    }
+  ]
+}

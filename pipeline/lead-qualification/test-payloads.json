@@ -1,0 +1,63 @@
+{
+  "_instructions": "Use these curl commands to test the webhook. Replace localhost:5678 with your n8n URL if hosted remotely.",
+
+  "test_hot_lead": {
+    "description": "Budapest hotel chain needing full digital presence. Should score HOT.",
+    "curl": "curl -X POST http://localhost:5678/webhook/bridgeworks-lead -H 'Content-Type: application/json' -d '{\"name\": \"Viktor Szabo\", \"email\": \"viktor@grandhotelbudapest.hu\", \"company\": \"Grand Hotel Budapest\", \"source\": \"form\", \"message\": \"We are a 4-star hotel in Budapest with 120 rooms. We need a complete digital overhaul: new website, Google Business optimization, LinkedIn presence, and ongoing social media management. We want to start within 2 weeks. Budget is flexible for quality work. Can we schedule a call this week?\"}'",
+    "payload": {
+      "name": "Viktor Szabo",
+      "email": "viktor@grandhotelbudapest.hu",
+      "company": "Grand Hotel Budapest",
+      "source": "form",
+      "message": "We are a 4-star hotel in Budapest with 120 rooms. We need a complete digital overhaul: new website, Google Business optimization, LinkedIn presence, and ongoing social media management. We want to start within 2 weeks. Budget is flexible for quality work. Can we schedule a call this week?"
+    }
+  },
+
+  "test_warm_lead": {
+    "description": "Nigerian small business exploring options. Should score WARM.",
+    "curl": "curl -X POST http://localhost:5678/webhook/bridgeworks-lead -H 'Content-Type: application/json' -d '{\"name\": \"Adaeze Okafor\", \"email\": \"adaeze@okaforinteriors.ng\", \"company\": \"Okafor Interiors\", \"source\": \"whatsapp\", \"message\": \"Hi, I saw your work on LinkedIn. I run an interior design firm in Lagos. We have an Instagram page but no website yet. I have been thinking about getting more professional online. What do you offer and what does it cost?\"}'",
+    "payload": {
+      "name": "Adaeze Okafor",
+      "email": "adaeze@okaforinteriors.ng",
+      "company": "Okafor Interiors",
+      "source": "whatsapp",
+      "message": "Hi, I saw your work on LinkedIn. I run an interior design firm in Lagos. We have an Instagram page but no website yet. I have been thinking about getting more professional online. What do you offer and what does it cost?"
+    }
+  },
+
+  "test_cold_lead": {
+    "description": "Vague request, no company, no budget signals. Should score COLD.",
+    "curl": "curl -X POST http://localhost:5678/webhook/bridgeworks-lead -H 'Content-Type: application/json' -d '{\"name\": \"Random Person\", \"email\": \"random123@gmail.com\", \"company\": \"\", \"source\": \"form\", \"message\": \"hi can you help me make money online? i want to start something but i dont know what. do you do free consultations?\"}'",
+    "payload": {
+      "name": "Random Person",
+      "email": "random123@gmail.com",
+      "company": "",
+      "source": "form",
+      "message": "hi can you help me make money online? i want to start something but i dont know what. do you do free consultations?"
+    }
+  },
+
+  "test_linkedin_lead": {
+    "description": "CEE startup from LinkedIn message. Should score HOT or WARM.",
+    "curl": "curl -X POST http://localhost:5678/webhook/bridgeworks-lead -H 'Content-Type: application/json' -d '{\"name\": \"Marta Kovacs\", \"email\": \"marta@techhub.cz\", \"company\": \"TechHub Prague\", \"source\": \"linkedin\", \"message\": \"Emmanuel, I run a coworking space in Prague with 200 members. We need brand identity work and a new website. I saw your case study with CEEFM and your approach to AI-powered delivery is exactly what we need. Our budget is around 3000-5000 EUR. Can we talk next week?\"}'",
+    "payload": {
+      "name": "Marta Kovacs",
+      "email": "marta@techhub.cz",
+      "company": "TechHub Prague",
+      "source": "linkedin",
+      "message": "Emmanuel, I run a coworking space in Prague with 200 members. We need brand identity work and a new website. I saw your case study with CEEFM and your approach to AI-powered delivery is exactly what we need. Our budget is around 3000-5000 EUR. Can we talk next week?"
+    }
+  },
+
+  "test_cold_email_reply": {
+    "description": "Reply to a cold outreach sequence. Should score WARM or HOT.",
+    "curl": "curl -X POST http://localhost:5678/webhook/bridgeworks-lead -H 'Content-Type: application/json' -d '{\"name\": \"Ibrahim Yusuf\", \"email\": \"ibrahim@yusuflegal.com\", \"company\": \"Yusuf Legal Associates\", \"source\": \"cold-email\", \"message\": \"Thanks for reaching out Emmanuel. Your email caught my attention. We are a law firm in Abuja and honestly our online presence is embarrassing for a firm our size. We would be interested in understanding what a full digital setup would look like for us. Can you send a proposal?\"}'",
+    "payload": {
+      "name": "Ibrahim Yusuf",
+      "email": "ibrahim@yusuflegal.com",
+      "company": "Yusuf Legal Associates",
+      "source": "cold-email",
+      "message": "Thanks for reaching out Emmanuel. Your email caught my attention. We are a law firm in Abuja and honestly our online presence is embarrassing for a firm our size. We would be interested in understanding what a full digital setup would look like for us. Can you send a proposal?"
+    }
+  }
+}
