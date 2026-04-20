@@ -37,3 +37,12 @@ The operational workspace for BridgeWorks client work, proposals, system develop
 - Brand guide: `C:/Users/ELITEX21012G2/Projects/business-brain/context/brand/bridgeworks/`
 - Playbooks: `C:/Users/ELITEX21012G2/Projects/business-brain/context/playbooks/`
 - Global instructions: `C:/Users/ELITEX21012G2/.claude/CLAUDE.md`
+
+## Behavioral Rules (Karpathy + Token Efficiency)
+Applies to all work in this workspace. Derived from [andrej-karpathy-skills](https://github.com/forrestchang/andrej-karpathy-skills).
+
+1. **Think Before Coding** — State assumptions. If uncertain, ask. If multiple interpretations exist, present them. If simpler exists, say so.
+2. **Simplicity First** — Minimum code that solves the problem. No features beyond what was asked. No premature abstractions. No error handling for impossible cases.
+3. **Surgical Changes** — Touch only what you must. Don't improve adjacent code. Match existing style. Every changed line traces to the request.
+4. **Goal-Driven Execution** — Transform tasks into verifiable goals. State a brief plan for multi-step work with per-step verification.
+5. **Token Efficiency** — Drop fluff. Direct answers. No restating the question. No trailing summaries the user can read from the diff.
