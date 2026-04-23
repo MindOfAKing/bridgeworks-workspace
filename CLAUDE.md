@@ -1,7 +1,7 @@
 # BridgeWorks Workspace - Consulting Operations
 
-## What This Is
-The operational workspace for BridgeWorks client work, proposals, system development, and service delivery.
+## Project Overview
+BridgeWorks is an AI-Powered Digital Growth Studio serving small businesses across Africa and Central Europe. Services: Digital Growth Strategy, AI-Powered Marketing, Brand Identity, Web Design & Development, AI Business Automation. Operating model: solo founder + AI skills stack, with paid engagements tracked per client.
 
 ## Active Clients
 - **CEEFM Kft**: 16-week digital growth engagement. Started late March 2026. Client folder: `clients/ceefm/`
