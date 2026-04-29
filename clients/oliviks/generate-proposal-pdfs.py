@@ -96,7 +96,8 @@ def _draw_branded_chrome(c, page_num, doc_title, show_logo=True):
     c.setFillColor(GOLD)
     c.rect(0, 0, 6, H, fill=1, stroke=0)
     if show_logo:
-        c.drawImage(LOGO_LIGHT, W - 130 - 30, H - 38, width=130, height=33, mask="auto")
+        # Logo source aspect 800:300 (~2.67:1). Keep that ratio to avoid stretching.
+        c.drawImage(LOGO_LIGHT, W - 130 - 30, H - 53, width=130, height=49, mask="auto")
     # Footer
     c.setFont("Helvetica", 7.5)
     c.setFillColor(WARM_GRAY)
@@ -127,8 +128,8 @@ def _on_cover_page(c, doc, title_lines, subtitle, prepared_for_lines, from_lines
     c.setLineWidth(1.5)
     c.line(0, band_y, W, band_y)
 
-    # Logo top right (dark variant on navy band)
-    c.drawImage(LOGO_DARK, W - 160 - 30, H - 60, width=160, height=40, mask="auto")
+    # Logo top right (dark variant on navy band). Source aspect 800:300 (~2.67:1).
+    c.drawImage(LOGO_DARK, W - 200 - 30, H - 95, width=200, height=75, mask="auto")
 
     # Title in band
     y_title = H - 95
@@ -294,7 +295,7 @@ def build_full_proposal():
     s.append(P("This proposal closes that gap."))
     s.append(P("There are two parts. <b>Part A: Foundation</b> is the work this proposal commits to. It is a one-time rebuild that fixes everything the audit flagged as a Quick Win and Strategic Recommendation on the site, the Google profile, and the retention infrastructure. <b>Part B: Optional Growth Retainer</b> is a recommended next step. It runs the systems Part A builds and executes the audit's longer-term recommendations every month. You can decide on Part B at any time."))
     s.append(P("Optional add-ons sit at the bottom. They are useful but not required."))
-    s.append(P("The full investment for Part A is <b>750 EUR</b>. The retainer, if you choose it, is <b>600 EUR per month</b> with a 3-month minimum. All figures are in EUR. Invoices are issued in HUF at the Magyar Nemzeti Bank middle rate on the invoice date."))
+    s.append(P("The full investment for Part A is <b>272,611 HUF</b>. The retainer, if you choose it, is <b>218,088 HUF per month</b> with a 3-month minimum. All figures are in HUF. Invoices issued via szamlazz.hu under Hungarian VAT exemption (Áfa törvény 188. §, alanyi adómentes)."))
     s.append(_section_divider())
 
     # ---- Audit Recap ----
@@ -318,12 +319,12 @@ def build_full_proposal():
     # ---- Part A: Foundation ----
     s.append(P("Part A: Foundation", "h1"))
     s.append(P("A one-time rebuild. Stands alone. You can stop here if you choose."))
-    s.append(_callout("Total: 750 EUR (one-time, no recurring fees)"))
-    s.append(P("This part has three lines: Website Upgrade, Google Business Profile Optimization, and Email and WhatsApp Infrastructure. Bought together they save 100 EUR against the separate price."))
+    s.append(_callout("Total: 272,611 HUF (one-time, no recurring fees)"))
+    s.append(P("This part has three lines: Website Upgrade, Google Business Profile Optimization, and Email and WhatsApp Infrastructure. Bought together they save 36,348 HUF against the separate price."))
 
     # A1 Website Upgrade
     s.append(P("A1. Website Upgrade", "h2"))
-    s.append(P("<b>Price:</b> 450 EUR &nbsp;&nbsp;&nbsp; <b>Timeline:</b> 3 weeks from kickoff"))
+    s.append(P("<b>Price:</b> 163,566 HUF &nbsp;&nbsp;&nbsp; <b>Timeline:</b> 3 weeks from kickoff"))
     s.append(P("<b>The problem this solves:</b>", "h3"))
     s.append(P("The audit flagged that the homepage fails the 5-second test, the About page leads with health buzzwords instead of the founders' story, the testimonials read as fake, dish descriptions are missing, duplicate pages from a past migration are still live, and the Sample Page from the WordPress install is still public. None of the press coverage or Google reviews show on the site."))
     s.append(P("<b>What we deliver:</b>", "h3"))
@@ -360,7 +361,7 @@ def build_full_proposal():
 
     # A2 GBP
     s.append(P("A2. Google Business Profile Optimization", "h2"))
-    s.append(P("<b>Price:</b> 180 EUR &nbsp;&nbsp;&nbsp; <b>Timeline:</b> 2 weeks from kickoff"))
+    s.append(P("<b>Price:</b> 65,427 HUF &nbsp;&nbsp;&nbsp; <b>Timeline:</b> 2 weeks from kickoff"))
     s.append(P("<b>Already in place (we do not charge for this):</b>", "h3"))
     s.append(P("Profile claimed, address, phone, website link, hours, primary category, one attribute, an order link, and the 4.8 stars from 160+ reviews. We have already verified this on Google Maps."))
     s.append(P("<b>The problem this solves:</b>", "h3"))
@@ -399,7 +400,7 @@ def build_full_proposal():
 
     # A3 Email + WhatsApp
     s.append(P("A3. Email and WhatsApp Infrastructure", "h2"))
-    s.append(P("<b>Price:</b> 220 EUR &nbsp;&nbsp;&nbsp; <b>Timeline:</b> 2 weeks from kickoff"))
+    s.append(P("<b>Price:</b> 79,966 HUF &nbsp;&nbsp;&nbsp; <b>Timeline:</b> 2 weeks from kickoff"))
     s.append(P("<b>The problem this solves:</b>", "h3"))
     s.append(P("The audit flagged retention as your single biggest strategic gap. No email list. No WhatsApp broadcast list. No way to bring a Wolt customer back as a higher-margin direct customer. We build the system here. The optional retainer fills it with content every month."))
     s.append(P("<b>What we deliver:</b>", "h3"))
@@ -432,11 +433,11 @@ def build_full_proposal():
     s.append(P("Foundation Investment", "h2"))
     fnd_rows = [
         [P("Line", "table_head"), P("Price", "table_head")],
-        [P("Website Upgrade", "table_cell"), P("450 EUR", "table_cell")],
-        [P("Google Business Profile Optimization", "table_cell"), P("180 EUR", "table_cell")],
-        [P("Email and WhatsApp Infrastructure", "table_cell"), P("220 EUR", "table_cell")],
-        [P("Bundle saving (3 lines together)", "table_cell"), P("-100 EUR", "table_cell")],
-        [P("<b>Foundation Total</b>", "table_cell_bold"), P("<b>750 EUR</b>", "table_cell_bold")],
+        [P("Website Upgrade", "table_cell"), P("163,566 HUF", "table_cell")],
+        [P("Google Business Profile Optimization", "table_cell"), P("65,427 HUF", "table_cell")],
+        [P("Email and WhatsApp Infrastructure", "table_cell"), P("79,966 HUF", "table_cell")],
+        [P("Bundle saving (3 lines together)", "table_cell"), P("-36,348 HUF", "table_cell")],
+        [P("<b>Foundation Total</b>", "table_cell_bold"), P("<b>272,611 HUF</b>", "table_cell_bold")],
     ]
     s.append(_styled_table(fnd_rows, [375, 100]))
     s.append(PageBreak())
@@ -444,7 +445,7 @@ def build_full_proposal():
     # ---- Part B: Optional Retainer ----
     s.append(P("Part B: Optional Growth Retainer", "h1"))
     s.append(P("This is a recommended next step. It is not required. The Foundation above stands alone."))
-    s.append(_callout("600 EUR per month. 3-month minimum (1,800 EUR total). Month-to-month after month 3 at the same rate."))
+    s.append(_callout("218,088 HUF per month. 3-month minimum (654,264 HUF total). Month-to-month after month 3 at the same rate."))
     s.append(P("<b>The problem this solves:</b>", "h3"))
     s.append(P("Building the systems is one thing. Running them every week is another. The retainer operates the email list, the WhatsApp broadcasts, the Google Business Profile maintenance, the Wolt and Foodora optimization, and the blog. It also executes the longer-term recommendations from the audit (the Nigerian Food in Budapest blog, TikTok content, the Google review generation campaign)."))
     s.append(P("You can decide on the retainer when you accept this proposal, after Foundation handover, or never. Foundation is the commitment. Retainer is the option."))
@@ -489,12 +490,12 @@ def build_full_proposal():
     s.append(P("Add only if desired. Quoted separately. Both addressable later if you change your mind."))
 
     s.append(P("Photo Shoot", "h2"))
-    s.append(P("<b>Price:</b> 250 EUR &nbsp;&nbsp;&nbsp; <b>Timeline:</b> Half-day on-site, edited photos delivered within 1 week"))
+    s.append(P("<b>Price:</b> 90,870 HUF &nbsp;&nbsp;&nbsp; <b>Timeline:</b> Half-day on-site, edited photos delivered within 1 week"))
     s.append(P("Half-day shoot at the Rákóczi tér 9 kitchen. 10 to 12 dish photos, kitchen interior, exterior, team, behind-the-scenes. Photos edited and delivered ready to upload to Google Business Profile, Wolt, Foodora, and the website. Full ownership transferred. No licensing fees."))
     s.append(P("<b>Recommended if</b> you do not already have 30 to 50 production-quality photos available."))
 
     s.append(P("Catering Page", "h2"))
-    s.append(P("<b>Price:</b> 220 EUR &nbsp;&nbsp;&nbsp; <b>Timeline:</b> 1 week"))
+    s.append(P("<b>Price:</b> 79,966 HUF &nbsp;&nbsp;&nbsp; <b>Timeline:</b> 1 week"))
     s.append(P("Dedicated /catering page on oliviks.com, in English and Hungarian. Catering packages copy (corporate events, university gatherings, African community celebrations). Sample menu with per-head pricing tiers. Separate inquiry form (event size, date, location, dietary needs, budget). Schema markup for the page. Three photos placed. Two LinkedIn and Instagram caption templates announcing the catering service."))
     s.append(P("Addresses Long-Term Initiative 2 from the audit (build catering as a revenue line)."))
     s.append(P("<b>You provide:</b> catering pricing decisions, sample menu sign-off, three photos."))
@@ -502,13 +503,13 @@ def build_full_proposal():
 
     # ---- Investment Summary ----
     s.append(P("Investment Summary", "h1"))
-    s.append(P("All prices in EUR. All invoices issued in HUF at the Magyar Nemzeti Bank middle rate on the invoice date. The HUF amount on each invoice is the legal payable amount. All invoices issued via szamlazz.hu under Hungarian VAT exemption (Áfa törvény 188. §, alanyi adómentes)."))
+    s.append(P("All prices in HUF. All invoices issued in HUF via szamlazz.hu under Hungarian VAT exemption (Áfa törvény 188. §, alanyi adómentes)."))
     inv_rows = [
-        [P("Scenario", "table_head"), P("Total (EUR)", "table_head")],
-        [P("Foundation only", "table_cell"), P("750", "table_cell")],
-        [P("Foundation + Retainer (3 months)", "table_cell"), P("2,550", "table_cell")],
-        [P("Foundation + Retainer + Photo Shoot", "table_cell"), P("2,800", "table_cell")],
-        [P("Foundation + Retainer + Photo Shoot + Catering Page", "table_cell"), P("3,020", "table_cell")],
+        [P("Scenario", "table_head"), P("Total (HUF)", "table_head")],
+        [P("Foundation only", "table_cell"), P("272,611", "table_cell")],
+        [P("Foundation + Retainer (3 months)", "table_cell"), P("926,875", "table_cell")],
+        [P("Foundation + Retainer + Photo Shoot", "table_cell"), P("1,017,745", "table_cell")],
+        [P("Foundation + Retainer + Photo Shoot + Catering Page", "table_cell"), P("1,097,711", "table_cell")],
     ]
     s.append(_styled_table(inv_rows, [375, 100]))
     s.append(Spacer(1, 12))
@@ -517,25 +518,25 @@ def build_full_proposal():
     s.append(P("Payment Structure", "h2"))
     s.append(P("If Foundation only", "h3"))
     pay1 = [
-        [P("When", "table_head"), P("Amount (EUR)", "table_head")],
-        [P("On contract signing", "table_cell"), P("375 (50% setup)", "table_cell")],
-        [P("On website handover (end of week 3)", "table_cell"), P("375 (50% setup balance)", "table_cell")],
-        [P("<b>Total</b>", "table_cell_bold"), P("<b>750</b>", "table_cell_bold")],
+        [P("When", "table_head"), P("Amount (HUF)", "table_head")],
+        [P("On contract signing", "table_cell"), P("136,306 (50% setup)", "table_cell")],
+        [P("On website handover (end of week 3)", "table_cell"), P("136,305 (50% setup balance)", "table_cell")],
+        [P("<b>Total</b>", "table_cell_bold"), P("<b>272,611</b>", "table_cell_bold")],
     ]
     s.append(_styled_table(pay1, [310, 165]))
     s.append(Spacer(1, 8))
     s.append(P("If Foundation + Retainer", "h3"))
     pay2 = [
-        [P("When", "table_head"), P("Amount (EUR)", "table_head")],
-        [P("On contract signing", "table_cell"), P("975 (50% setup + month 1)", "table_cell")],
-        [P("On website handover (end of week 3)", "table_cell"), P("375 (50% setup balance)", "table_cell")],
-        [P("Month 2, 1st of month", "table_cell"), P("600", "table_cell")],
-        [P("Month 3, 1st of month", "table_cell"), P("600", "table_cell")],
-        [P("<b>Total</b>", "table_cell_bold"), P("<b>2,550</b>", "table_cell_bold")],
+        [P("When", "table_head"), P("Amount (HUF)", "table_head")],
+        [P("On contract signing", "table_cell"), P("354,394 (50% setup + month 1)", "table_cell")],
+        [P("On website handover (end of week 3)", "table_cell"), P("136,305 (50% setup balance)", "table_cell")],
+        [P("Month 2, 1st of month", "table_cell"), P("218,088", "table_cell")],
+        [P("Month 3, 1st of month", "table_cell"), P("218,088", "table_cell")],
+        [P("<b>Total</b>", "table_cell_bold"), P("<b>926,875</b>", "table_cell_bold")],
     ]
     s.append(_styled_table(pay2, [310, 165]))
     s.append(Spacer(1, 6))
-    s.append(P("Add-ons invoiced separately on agreement. Each invoice is issued in HUF at MNB middle rate on the invoice date. Payable in HUF or EUR.", "small"))
+    s.append(P("Add-ons invoiced separately on agreement. Each invoice is issued in HUF via szamlazz.hu.", "small"))
     s.append(PageBreak())
 
     # ---- Why BridgeWorks ----
@@ -552,12 +553,12 @@ def build_full_proposal():
     s.append(P("[ ] I confirm Rákóczi tér 9, 1084 Budapest is the public-facing kitchen address. Wolt and other listings will be updated to match.", "body_bold"))
     s.append(Spacer(1, 6))
     s.append(P("Engagement scope (tick one):", "h3"))
-    s.append(P("[ ] Foundation only (750 EUR)", "body_bold"))
-    s.append(P("[ ] Foundation + Retainer 3 months (2,550 EUR)", "body_bold"))
+    s.append(P("[ ] Foundation only (272,611 HUF)", "body_bold"))
+    s.append(P("[ ] Foundation + Retainer 3 months (926,875 HUF)", "body_bold"))
     s.append(Spacer(1, 6))
     s.append(P("Optional add-ons (tick any):", "h3"))
-    s.append(P("[ ] Photo Shoot (+250 EUR)", "body_bold"))
-    s.append(P("[ ] Catering Page (+220 EUR)", "body_bold"))
+    s.append(P("[ ] Photo Shoot (+90,870 HUF)", "body_bold"))
+    s.append(P("[ ] Catering Page (+79,966 HUF)", "body_bold"))
     s.append(Spacer(1, 18))
 
     sig_rows = [
@@ -626,50 +627,50 @@ def build_summary():
     s.append(_section_divider())
 
     s.append(P("What is being proposed", "h2"))
-    s.append(P("<b>Part A: Foundation (one-time, this is the proposal).</b> A one-time digital rebuild that fixes everything the 4 April marketing audit flagged. Three lines: Website Upgrade, Google Business Profile Optimization, Email and WhatsApp Infrastructure. Bundled at 750 EUR."))
-    s.append(P("<b>Part B: Optional Growth Retainer (recommended next step).</b> Operates the systems built in Part A and executes the audit's longer-term recommendations every month. 600 EUR per month with a 3-month minimum. You can decide on this at any time."))
-    s.append(P("<b>Optional add-ons</b> (only if needed): Photo Shoot 250 EUR, Catering Page 220 EUR."))
+    s.append(P("<b>Part A: Foundation (one-time, this is the proposal).</b> A one-time digital rebuild that fixes everything the 4 April marketing audit flagged. Three lines: Website Upgrade, Google Business Profile Optimization, Email and WhatsApp Infrastructure. Bundled at 272,611 HUF."))
+    s.append(P("<b>Part B: Optional Growth Retainer (recommended next step).</b> Operates the systems built in Part A and executes the audit's longer-term recommendations every month. 218,088 HUF per month with a 3-month minimum. You can decide on this at any time."))
+    s.append(P("<b>Optional add-ons</b> (only if needed): Photo Shoot 90,870 HUF, Catering Page 79,966 HUF."))
     s.append(_section_divider())
 
     s.append(P("Cost breakdown", "h2"))
     s.append(P("Part A: Foundation", "h3"))
     fnd = [
-        [P("Line", "table_head"), P("Price (EUR)", "table_head")],
-        [P("Website Upgrade", "table_cell"), P("450", "table_cell")],
-        [P("Google Business Profile Optimization", "table_cell"), P("180", "table_cell")],
-        [P("Email and WhatsApp Infrastructure", "table_cell"), P("220", "table_cell")],
-        [P("Bundle saving (3 lines together)", "table_cell"), P("-100", "table_cell")],
-        [P("<b>Foundation Total</b>", "table_cell_bold"), P("<b>750</b>", "table_cell_bold")],
+        [P("Line", "table_head"), P("Price (HUF)", "table_head")],
+        [P("Website Upgrade", "table_cell"), P("163,566", "table_cell")],
+        [P("Google Business Profile Optimization", "table_cell"), P("65,427", "table_cell")],
+        [P("Email and WhatsApp Infrastructure", "table_cell"), P("79,966", "table_cell")],
+        [P("Bundle saving (3 lines together)", "table_cell"), P("-36,348", "table_cell")],
+        [P("<b>Foundation Total</b>", "table_cell_bold"), P("<b>272,611</b>", "table_cell_bold")],
     ]
     s.append(_styled_table(fnd, [375, 100]))
     s.append(Spacer(1, 8))
 
     s.append(P("Part B: Optional Retainer", "h3"))
     ret = [
-        [P("Item", "table_head"), P("Price (EUR)", "table_head")],
-        [P("Monthly retainer", "table_cell"), P("600 / month", "table_cell")],
+        [P("Item", "table_head"), P("Price (HUF)", "table_head")],
+        [P("Monthly retainer", "table_cell"), P("218,088 / month", "table_cell")],
         [P("Minimum commitment", "table_cell"), P("3 months", "table_cell")],
-        [P("<b>3-month total</b>", "table_cell_bold"), P("<b>1,800</b>", "table_cell_bold")],
+        [P("<b>3-month total</b>", "table_cell_bold"), P("<b>654,264</b>", "table_cell_bold")],
     ]
     s.append(_styled_table(ret, [375, 100]))
     s.append(Spacer(1, 8))
 
     s.append(P("Optional add-ons", "h3"))
     addons = [
-        [P("Item", "table_head"), P("Price (EUR)", "table_head")],
-        [P("Photo Shoot (half-day on-site)", "table_cell"), P("250", "table_cell")],
-        [P("Catering Page (dedicated page in EN+HU)", "table_cell"), P("220", "table_cell")],
+        [P("Item", "table_head"), P("Price (HUF)", "table_head")],
+        [P("Photo Shoot (half-day on-site)", "table_cell"), P("90,870", "table_cell")],
+        [P("Catering Page (dedicated page in EN+HU)", "table_cell"), P("79,966", "table_cell")],
     ]
     s.append(_styled_table(addons, [375, 100]))
     s.append(_section_divider())
 
     s.append(P("Total scenarios", "h2"))
     sc = [
-        [P("Scenario", "table_head"), P("Total (EUR)", "table_head")],
-        [P("Foundation only", "table_cell"), P("750", "table_cell")],
-        [P("Foundation + Retainer (3 months)", "table_cell"), P("2,550", "table_cell")],
-        [P("Foundation + Retainer + Photo Shoot", "table_cell"), P("2,800", "table_cell")],
-        [P("Foundation + Retainer + Photo Shoot + Catering Page", "table_cell"), P("3,020", "table_cell")],
+        [P("Scenario", "table_head"), P("Total (HUF)", "table_head")],
+        [P("Foundation only", "table_cell"), P("272,611", "table_cell")],
+        [P("Foundation + Retainer (3 months)", "table_cell"), P("926,875", "table_cell")],
+        [P("Foundation + Retainer + Photo Shoot", "table_cell"), P("1,017,745", "table_cell")],
+        [P("Foundation + Retainer + Photo Shoot + Catering Page", "table_cell"), P("1,097,711", "table_cell")],
     ]
     s.append(_styled_table(sc, [375, 100]))
     s.append(_section_divider())
@@ -677,21 +678,21 @@ def build_summary():
     s.append(P("Payment structure", "h2"))
     s.append(P("If Foundation only", "h3"))
     p1 = [
-        [P("When", "table_head"), P("Amount (EUR)", "table_head")],
-        [P("On contract signing", "table_cell"), P("375", "table_cell")],
-        [P("On website handover (end of week 3)", "table_cell"), P("375", "table_cell")],
-        [P("<b>Total</b>", "table_cell_bold"), P("<b>750</b>", "table_cell_bold")],
+        [P("When", "table_head"), P("Amount (HUF)", "table_head")],
+        [P("On contract signing", "table_cell"), P("136,306", "table_cell")],
+        [P("On website handover (end of week 3)", "table_cell"), P("136,305", "table_cell")],
+        [P("<b>Total</b>", "table_cell_bold"), P("<b>272,611</b>", "table_cell_bold")],
     ]
     s.append(_styled_table(p1, [310, 165]))
     s.append(Spacer(1, 6))
     s.append(P("If Foundation + Retainer", "h3"))
     p2 = [
-        [P("When", "table_head"), P("Amount (EUR)", "table_head")],
-        [P("On contract signing (50% setup + month 1)", "table_cell"), P("975", "table_cell")],
-        [P("On website handover (end of week 3)", "table_cell"), P("375", "table_cell")],
-        [P("Month 2, 1st of month", "table_cell"), P("600", "table_cell")],
-        [P("Month 3, 1st of month", "table_cell"), P("600", "table_cell")],
-        [P("<b>Total</b>", "table_cell_bold"), P("<b>2,550</b>", "table_cell_bold")],
+        [P("When", "table_head"), P("Amount (HUF)", "table_head")],
+        [P("On contract signing (50% setup + month 1)", "table_cell"), P("354,394", "table_cell")],
+        [P("On website handover (end of week 3)", "table_cell"), P("136,305", "table_cell")],
+        [P("Month 2, 1st of month", "table_cell"), P("218,088", "table_cell")],
+        [P("Month 3, 1st of month", "table_cell"), P("218,088", "table_cell")],
+        [P("<b>Total</b>", "table_cell_bold"), P("<b>926,875</b>", "table_cell_bold")],
     ]
     s.append(_styled_table(p2, [310, 165]))
     s.append(Spacer(1, 4))
@@ -699,8 +700,8 @@ def build_summary():
     s.append(_section_divider())
 
     s.append(P("Invoicing notes", "h2"))
-    s.append(P("All prices stated in EUR. Invoices are issued in HUF at the Magyar Nemzeti Bank middle rate on the invoice date. The HUF amount on each invoice is the legal payable amount. All invoices issued via szamlazz.hu under Hungarian VAT exemption (Áfa törvény 188. §, alanyi adómentes)."))
-    s.append(P("Payable in HUF or EUR.", "body_bold"))
+    s.append(P("All prices stated in HUF. Invoices issued in HUF via szamlazz.hu under Hungarian VAT exemption (Áfa törvény 188. §, alanyi adómentes)."))
+    s.append(P("Payable in HUF.", "body_bold"))
     s.append(_section_divider())
 
     s.append(P("Next step", "h2"))

@@ -22,7 +22,7 @@ There are two parts. **Part A: Foundation** is the work this proposal commits to
 
 Optional add-ons sit at the bottom. They are useful but not required.
 
-The full investment for Part A is **750 EUR**. The retainer, if you choose it, is **600 EUR per month** with a 3-month minimum. All figures are in EUR. Invoices are issued in HUF at the Magyar Nemzeti Bank middle rate on the invoice date.
+The full investment for Part A is **272,611 HUF**. The retainer, if you choose it, is **218,088 HUF per month** with a 3-month minimum. All figures are in HUF. Invoices issued via szamlazz.hu under Hungarian VAT exemption (Áfa törvény 188. §, alanyi adómentes).
 
 ---
 
@@ -48,15 +48,15 @@ Estimated revenue impact if all recommendations are implemented: **40 to 60 perc
 
 A one-time rebuild. Stands alone. You can stop here if you choose.
 
-**Total: 750 EUR (one-time, no recurring fees)**
+**Total: 272,611 HUF (one-time, no recurring fees)**
 
-This part has three lines: Website Upgrade, Google Business Profile Optimization, and Email and WhatsApp Infrastructure. Bought together they save 100 EUR against the separate price.
+This part has three lines: Website Upgrade, Google Business Profile Optimization, and Email and WhatsApp Infrastructure. Bought together they save 36,348 HUF against the separate price.
 
 ---
 
 ### A1. Website Upgrade
 
-**Price:** 450 EUR
+**Price:** 163,566 HUF
 **Timeline:** 3 weeks from kickoff
 
 **The problem this solves:**
@@ -103,7 +103,7 @@ The audit flagged that the homepage fails the 5-second test, the About page lead
 
 ### A2. Google Business Profile Optimization
 
-**Price:** 180 EUR
+**Price:** 65,427 HUF
 **Timeline:** 2 weeks from kickoff
 
 **Already in place (we do not charge for this):**
@@ -155,7 +155,7 @@ By accepting this proposal you confirm that **Rákóczi tér 9, 1084 Budapest** 
 
 ### A3. Email and WhatsApp Infrastructure
 
-**Price:** 220 EUR
+**Price:** 79,966 HUF
 **Timeline:** 2 weeks from kickoff
 
 **The problem this solves:**
@@ -198,11 +198,11 @@ The audit flagged retention as your single biggest strategic gap. No email list.
 
 | Line | Price |
 |---|---|
-| Website Upgrade | 450 EUR |
-| Google Business Profile Optimization | 180 EUR |
-| Email and WhatsApp Infrastructure | 220 EUR |
-| Bundle saving (3 lines together) | -100 EUR |
-| **Foundation Total** | **750 EUR** |
+| Website Upgrade | 163,566 HUF |
+| Google Business Profile Optimization | 65,427 HUF |
+| Email and WhatsApp Infrastructure | 79,966 HUF |
+| Bundle saving (3 lines together) | -36,348 HUF |
+| **Foundation Total** | **272,611 HUF** |
 
 ---
 
@@ -210,7 +210,7 @@ The audit flagged retention as your single biggest strategic gap. No email list.
 
 This is a recommended next step. It is not required. The Foundation above stands alone.
 
-**Price:** 600 EUR per month, 3-month minimum (1,800 EUR total)
+**Price:** 218,088 HUF per month, 3-month minimum (654,264 HUF total)
 **Continuation:** Month-to-month at the same rate after month 3
 
 **The problem this solves:**
@@ -264,7 +264,7 @@ Add only if desired. Quoted separately. Both addressable later if you change you
 
 ### Photo Shoot
 
-**Price:** 250 EUR (one-time)
+**Price:** 90,870 HUF (one-time)
 **Timeline:** Half-day on-site, edited photos delivered within 1 week
 
 Half-day shoot at the Rákóczi tér 9 kitchen. 10 to 12 dish photos, kitchen interior, exterior, team, behind-the-scenes. Photos edited and delivered ready to upload to Google Business Profile, Wolt, Foodora, and the website. Full ownership transferred. No licensing fees.
@@ -273,7 +273,7 @@ Recommended if you do not already have 30 to 50 production-quality photos availa
 
 ### Catering Page
 
-**Price:** 220 EUR (one-time)
+**Price:** 79,966 HUF (one-time)
 **Timeline:** 1 week
 
 Dedicated /catering page on oliviks.com, in English and Hungarian. Catering packages copy (corporate events, university gatherings, African community celebrations). Sample menu with per-head pricing tiers. Separate inquiry form (event size, date, location, dietary needs, budget). Schema markup for the page. Three photos placed. Two LinkedIn and Instagram caption templates announcing the catering service.
@@ -286,14 +286,14 @@ You provide: catering pricing decisions, sample menu sign-off, three photos.
 
 ## Investment Summary
 
-All prices in EUR. All invoices issued in HUF at the Magyar Nemzeti Bank middle rate on the invoice date. The HUF amount on each invoice is the legal payable amount. All invoices issued via szamlazz.hu under Hungarian VAT exemption (Áfa törvény 188. §, alanyi adómentes).
+All prices in HUF. All invoices issued in HUF via szamlazz.hu under Hungarian VAT exemption (Áfa törvény 188. §, alanyi adómentes).
 
-| Scenario | Total (EUR) |
+| Scenario | Total (HUF) |
 |---|---|
-| Foundation only | 750 |
-| Foundation + Retainer (3 months) | 2,550 |
-| Foundation + Retainer + Photo Shoot | 2,800 |
-| Foundation + Retainer + Photo Shoot + Catering Page | 3,020 |
+| Foundation only | 272,611 |
+| Foundation + Retainer (3 months) | 926,875 |
+| Foundation + Retainer + Photo Shoot | 1,017,745 |
+| Foundation + Retainer + Photo Shoot + Catering Page | 1,097,711 |
 
 ---
 
@@ -301,25 +301,23 @@ All prices in EUR. All invoices issued in HUF at the Magyar Nemzeti Bank middle 
 
 ### If Foundation only
 
-| When | Amount (EUR) |
+| When | Amount (HUF) |
 |---|---|
-| On contract signing | 375 (50% setup) |
-| On website handover (end of week 3) | 375 (50% setup balance) |
-| **Total** | **750** |
+| On contract signing | 136,306 (50% setup) |
+| On website handover (end of week 3) | 136,305 (50% setup balance) |
+| **Total** | **272,611** |
 
 ### If Foundation + Retainer
 
-| When | Amount (EUR) |
+| When | Amount (HUF) |
 |---|---|
-| On contract signing | 975 (50% setup + month 1 retainer) |
-| On website handover (end of week 3) | 375 (50% setup balance) |
-| Month 2, 1st of month | 600 |
-| Month 3, 1st of month | 600 |
-| **Total** | **2,550** |
+| On contract signing | 354,394 (50% setup + month 1 retainer) |
+| On website handover (end of week 3) | 136,305 (50% setup balance) |
+| Month 2, 1st of month | 218,088 |
+| Month 3, 1st of month | 218,088 |
+| **Total** | **926,875** |
 
-Add-ons invoiced separately on agreement.
-
-Each invoice is issued in HUF at MNB middle rate on the invoice date. Payable in HUF or EUR.
+Add-ons invoiced separately on agreement. Each invoice is issued in HUF via szamlazz.hu.
 
 ---
 
@@ -343,13 +341,13 @@ By signing below, you accept this proposal as written and authorize BridgeWorks 
 
 **Engagement scope (tick one):**
 
-[ ] Foundation only (750 EUR)
-[ ] Foundation + Retainer 3 months (2,550 EUR)
+[ ] Foundation only (272,611 HUF)
+[ ] Foundation + Retainer 3 months (926,875 HUF)
 
 **Optional add-ons (tick any):**
 
-[ ] Photo Shoot (+250 EUR)
-[ ] Catering Page (+220 EUR)
+[ ] Photo Shoot (+90,870 HUF)
+[ ] Catering Page (+79,966 HUF)
 
 ---
 
