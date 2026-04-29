@@ -12,8 +12,11 @@ WHITE = HexColor("#FFFFFF")
 
 W, H = A4
 OUTPUT = r"C:\Users\ELITEX21012G2\Projects\bridgeworks-workspace\clients\ceefm\brand-visuals\CEE-FM-Brand-Visual-Package-Proposal.pdf"
-LOGO_DARK = r"C:\Users\ELITEX21012G2\bridgeworks-agency\public\logos\bridgeworks-logo-primary-dark-800px.png"
-LOGO_LIGHT = r"C:\Users\ELITEX21012G2\bridgeworks-agency\public\logos\bridgeworks-logo-primary-light-800px.png"
+# Square lockup (bridge graphic + BRIDGEWORKS wordmark). The "logo-primary" files
+# are wide banner composites and look broken at document scale — these "icon" files
+# are the correct brand mark.
+LOGO_DARK = r"C:\Users\ELITEX21012G2\brand-assets\bridgeworks\logos\bridgeworks-icon-dark-800px.png"
+LOGO_LIGHT = r"C:\Users\ELITEX21012G2\brand-assets\bridgeworks\logos\bridgeworks-icon-light-800px.png"
 
 
 def bg(c):
@@ -108,10 +111,8 @@ def build():
     c.setLineWidth(1.5)
     c.line(0, band_y, W, band_y)
 
-    # BridgeWorks logo in navy band (top-right)
-    logo_w = 150
-    logo_h = 38  # approximate aspect ratio of the logo
-    c.drawImage(LOGO_DARK, W - logo_w - 30, H - 55, width=logo_w, height=logo_h, mask="auto")
+    # Square lockup, top right of navy band
+    c.drawImage(LOGO_DARK, W - 130 - 30, H - 145, width=130, height=130, mask="auto")
 
     # Title
     c.setFillColor(WHITE)
@@ -156,7 +157,7 @@ def build():
     # ---- PAGE 2: DELIVERABLES 1-4 ----
     bg(c)
     accent(c)
-    c.drawImage(LOGO_LIGHT, W - 150 - 30, H - 45, width=150, height=38, mask="auto")
+    c.drawImage(LOGO_LIGHT, W - 55 - 30, H - 60, width=55, height=55, mask="auto")
     y = H - 50
 
     y = section(c, y, "What You Get")
@@ -201,7 +202,7 @@ def build():
     # ---- PAGE 3: DELIVERABLES 5-6 + TIMELINE + INVESTMENT ----
     bg(c)
     accent(c)
-    c.drawImage(LOGO_LIGHT, W - 150 - 30, H - 45, width=150, height=38, mask="auto")
+    c.drawImage(LOGO_LIGHT, W - 55 - 30, H - 60, width=55, height=55, mask="auto")
     y = H - 50
 
     y = section(c, y, "5. Digital Assets")

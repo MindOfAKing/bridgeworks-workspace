@@ -23,8 +23,11 @@ WHITE = HexColor("#FFFFFF")
 W, H = A4
 
 CLIENT_DIR = r"C:\Users\ELITEX21012G2\Projects\bridgeworks-workspace\clients\oliviks"
-LOGO_DARK = r"C:\Users\ELITEX21012G2\brand-assets\bridgeworks\logos\bridgeworks-logo-primary-dark-800px.png"
-LOGO_LIGHT = r"C:\Users\ELITEX21012G2\brand-assets\bridgeworks\logos\bridgeworks-logo-primary-light-800px.png"
+# Square lockup (bridge graphic + BRIDGEWORKS wordmark). The "logo-primary" files
+# are wide banner composites and look broken at document scale — these "icon" files
+# are the correct brand mark.
+LOGO_DARK = r"C:\Users\ELITEX21012G2\brand-assets\bridgeworks\logos\bridgeworks-icon-dark-800px.png"
+LOGO_LIGHT = r"C:\Users\ELITEX21012G2\brand-assets\bridgeworks\logos\bridgeworks-icon-light-800px.png"
 
 # Fail loudly if logos are missing rather than producing an unbranded PDF.
 for _p in (LOGO_DARK, LOGO_LIGHT):
@@ -96,8 +99,8 @@ def _draw_branded_chrome(c, page_num, doc_title, show_logo=True):
     c.setFillColor(GOLD)
     c.rect(0, 0, 6, H, fill=1, stroke=0)
     if show_logo:
-        # Logo source aspect 800:300 (~2.67:1). Keep that ratio to avoid stretching.
-        c.drawImage(LOGO_LIGHT, W - 130 - 30, H - 53, width=130, height=49, mask="auto")
+        # Square lockup (1:1), top right
+        c.drawImage(LOGO_LIGHT, W - 55 - 30, H - 60, width=55, height=55, mask="auto")
     # Footer
     c.setFont("Helvetica", 7.5)
     c.setFillColor(WARM_GRAY)
@@ -128,8 +131,8 @@ def _on_cover_page(c, doc, title_lines, subtitle, prepared_for_lines, from_lines
     c.setLineWidth(1.5)
     c.line(0, band_y, W, band_y)
 
-    # Logo top right (dark variant on navy band). Source aspect 800:300 (~2.67:1).
-    c.drawImage(LOGO_DARK, W - 200 - 30, H - 95, width=200, height=75, mask="auto")
+    # Square lockup, top right of navy band
+    c.drawImage(LOGO_DARK, W - 130 - 30, H - 145, width=130, height=130, mask="auto")
 
     # Title in band
     y_title = H - 95

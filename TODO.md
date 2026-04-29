@@ -1,5 +1,5 @@
 # BridgeWorks To-Do List
-*Last updated: 2026-04-26*
+*Last updated: 2026-04-29*
 
 ## Completed
 
@@ -47,13 +47,24 @@ Strategic decision (Apr): defer paid ads + cold outreach until content/GEO/SEO f
 
 **This week (GEO 30-day Week 1: Truth & Trust):**
 - [ ] **URGENT: Draft CEE FM May content calendar** (12 posts, first Tue May 5)
-- [ ] Add Hungarian legal imprint to footer (Cégjegyzékszám 13-09-227045, Adószám 22734015-2-13, registered seat 2724 Újlengyel Petőfi Sándor utca 48). Fulfils GEO audit Critical Issue #2 + Quick Win #2. **Confirm with Victor whether to also publish a Budapest telephely.**
-- [ ] Fix founding year in llms.txt + schema + homepage stat: 2010 not 2012 (~15 years, not 12+)
-- [ ] Audit "50+" claims in content/llms.txt — clarify as projects/properties not employees (actual headcount: 8)
-- [x] Replace JS stat counters with server-rendered text (50+, 95%, 12+) — done Apr
-- [ ] Surface EU Ecolabel cert block on homepage with logo + cert number
-- [ ] Replace LocalBusiness JSON-LD with full ProfessionalService block per GEO audit Appendix A
-- [ ] Add security headers via public/_headers (HSTS, X-Frame-Options, X-Content-Type-Options, Referrer-Policy)
+- [x] Add Hungarian legal imprint to footer (Cégjegyzékszám 13-09-227045, Adószám 22734015-2-13, registered seat 2724 Újlengyel Petőfi Sándor utca 48) — deployed 2026-04-29. *Budapest telephely question still open with Victor.*
+- [~] Fix founding year: schema + llms.txt corrected to 2010-05-18 on 2026-04-29. **Still pending:** homepage stat tile says "10+ Years Experience" and llms.txt:38 still says "12 years of operational experience" — needs Emmanuel's call on whether to change marketing claims (now ~16 years from 2010).
+- [ ] Audit "50+" claims in content/llms.txt — clarify as projects/properties not employees. **Confirmed headcount: 8 fő** per cégadatok screenshot (2026-04-29). The "50+" must remain framed as projects/properties only.
+- [x] Replace JS stat counters with server-rendered text — done Apr
+- [x] ~~Surface EU Ecolabel cert block on homepage with logo + cert number~~ — **CANCELLED 2026-04-29.** CEEFM does not hold the EU Ecolabel Indoor Cleaning Services licence (verified against public ECAT registry; Victor confirmed). Removed `hasCredential` block from schema; softened llms.txt to truthful product-use wording ("EU Ecolabel-certified cleaning products used on properties where client procurement standards require them"). CEEFM uses Ecolabel products via Limehome procurement direction but does not name suppliers (Victor's call: avoid free ads).
+- [x] Replace LocalBusiness JSON-LD with full ProfessionalService block per GEO audit Appendix A — completed across 2026-04-22 (skeleton) and 2026-04-29 (filled in legalName, taxID, foundingDate, full Újlengyel address, geo coords, openingHoursSpecification 7 days, sameAs LinkedIn, 7 hasOfferCatalog items including new SolaCare offer)
+- [x] Add security headers via public/.htaccess (Hostinger/Apache) — done 2026-04-22 (HSTS, X-Frame-Options, X-Content-Type-Options, Referrer-Policy, Permissions-Policy, Cache-Control). Used `.htaccess` not `_headers` because Hostinger is Apache, not Cloudflare/Netlify.
+
+**New items from Victor 04-23/04-29 thread + 04-29 site push:**
+- [x] SolaCare added as 7th service tile (EN + HU) with outbound link to https://solacare.hu/ — deployed 2026-04-29 per Victor's WhatsApp authorization ("for now, add it as sublink to the page. And then combine it as a service")
+- [ ] **IMMEDIATE: Send Victor live ceefm.eu link** via WhatsApp so he can see the SolaCare tile + scroll to the imprint footer
+- [ ] **Call with Victor today after kitchen shift** — full call prep sent to Telegram (BridgeWorks Agency Engines chat, 2026-04-29 11:xx). Critical: get answers to the 2 unanswered scope questions from the 04-23 email before May plan is drafted.
+- [ ] **April monthly report + May plan + KPI** — due 2026-04-30 (tomorrow). Ship with conditional May section: Plan A if SolaCare outreach absorbed, Plan B if separate engagement. Use `/monthly-report` skill.
+- [ ] Re-ask Victor the 2 unanswered questions from 2026-04-23 email: (a) outcome target for the 16-company list — meetings vs leads vs signed O&M contracts; (b) who runs the outreach — BridgeWorks vs Victor vs hybrid
+- [ ] **After call:** run `/post-call-followup` immediately — produces follow-up email to Victor + internal action items, saves to FOLLOWUP-victor.md
+- [ ] Hold scope line: "merge both projects under CEEFM" must not absorb SolaCare work into CEEFM-PROP-001 retainer for free. Add as Phase 2 / SolaCare add-on with separate fee.
+- [ ] SolaCare 16-company outreach email template (EN + HU) — **blocked on Victor's scope answers above**
+- [ ] TikTok + Facebook expansion plan for CEEFM and/or SolaCare — **blocked on Victor's brand/budget signal**
 
 ### BridgeWorks site
 - [ ] Add client logo bar to homepage (Limehome anchor + anonymized references)
@@ -73,11 +84,11 @@ Strategic decision (Apr): defer paid ads + cold outreach until content/GEO/SEO f
 Original proposal CEEFM-PROP-001 had ads + outreach launching Wk 1-4. Joint decision with Victor: invest Wk 5-8 in foundation per GEO audit, then run ads on a converting site Wk 9-12.
 
 **Wk 5 (GEO 30-day Wk 1) — Truth & Trust Foundations:**
-- [ ] Hungarian legal imprint live (céginformáció from Victor)
-- [ ] Complete ProfessionalService JSON-LD per GEO audit Appendix A
-- [ ] EU Ecolabel surfaced on homepage with logo + cert number
-- [ ] Security headers added via public/_headers
-- [ ] May calendar published for CEE FM (12 posts)
+- [x] Hungarian legal imprint live — deployed 2026-04-29
+- [x] Complete ProfessionalService JSON-LD per GEO audit Appendix A — deployed 2026-04-29
+- [x] ~~EU Ecolabel surfaced on homepage~~ — cancelled; CEEFM does not hold the licence. False credential removed from schema instead.
+- [x] Security headers added (via .htaccess, Apache/Hostinger) — done 2026-04-22
+- [ ] May calendar published for CEE FM (12 posts) — pending
 
 **Wk 6 (GEO 30-day Wk 2) — Entity & Platform Signals:**
 - [ ] Google Business Profile claimed, 10+ photos, services, hours
@@ -129,6 +140,7 @@ Original proposal CEEFM-PROP-001 had ads + outreach launching Wk 1-4. Joint deci
 - [ ] Set up pipeline cron schedules (daily 7:03, weekly Mon 9:07, monthly 1st 10:13)
 - [ ] Fix youtube-analytics script for v1.2.4 API compatibility
 - [ ] Scope command center (Notion vs dashboard vs Sheets expansion)
+- [ ] **Schedule one-time GEO audit re-run for 2026-05-13** — parked 2026-04-29 pending Victor call. Will measure delta from 47/100 baseline. Use `/schedule` to create a remote agent that fetches ceefm.eu, scores against 6 categories, emails delta report. Resume after May plan locks scope (so re-audit measures against final scope).
 
 ### New leads / pipeline
 - [ ] Oliviks: marketing audit drafted, no engagement scoped. Decide: pursue, drop, or repurpose.
