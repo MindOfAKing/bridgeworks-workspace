@@ -37,10 +37,10 @@ BridgeWorks will deliver the **Foundation** package, consisting of three workstr
 Rebuild and rewrite of homepage, About page, Contact page, and menu pages. Removal of duplicate pages and the default WordPress sample page. Real Google reviews embedded. Press logos surfaced (Origo, We Love Budapest, WMN). Wolt and Foodora badges added. Dish descriptions written for all 23 menu items. Meta descriptions, Open Graph tags, alt text, schema markup, page-speed pass, and mobile QA on iOS and Android.
 
 ### 2.2 Google Business Profile Optimization
-Secondary categories, attributes audit, bilingual business description (EN + HU), in-profile menu upload (23 dishes with photos and prices), photo audit and upload, Q&A pre-population, four launch posts, review-response templates and backfill, NAP-consistency cleanup across Wolt, Foodora, Facebook, TripAdvisor, and Wanderlog, schema markup on oliviks.com, and a one-page handover document.
+Secondary categories, attributes audit, bilingual business description (EN + HU), in-profile menu upload (23 dishes with photos and prices), photo audit and upload, Q&A pre-population, and four launch posts. Review-response templates and backfill, NAP-consistency cleanup across Wolt, Foodora, Facebook, TripAdvisor, and Wanderlog, schema markup on oliviks.com, and a one-page handover document.
 
 ### 2.3 Email and WhatsApp Infrastructure
-Email provider account (MailerLite or Beehiiv free tier, owned by Client), email-capture popup on oliviks.com, three-email welcome sequence, weekly specials template (EN + HU), branded order-receipt email, GDPR compliance (consent checkbox, double opt-in, unsubscribe, privacy-policy update), WhatsApp broadcast list with website + counter QR opt-in, WooCommerce-to-list integration, and a one-page handover document.
+Email provider account (MailerLite or Beehiiv free tier, owned by Client), email-capture popup on oliviks.com, three-email welcome sequence, weekly specials template (EN + HU), branded order-receipt email, and GDPR compliance (consent checkbox, double opt-in, unsubscribe, privacy-policy update). WhatsApp broadcast list with website + counter QR opt-in, WooCommerce-to-list integration, and a one-page handover document.
 
 The full deliverable list is set out in section "Part A: Foundation" of the Proposal (Annex A).
 
@@ -59,6 +59,9 @@ The following are not included and, if requested, will be quoted separately:
 - WhatsApp Business API integration.
 - Email-provider monthly fees if the Client exceeds the free-tier subscriber limit.
 
+### 3.1 Change Control
+Anything not listed in Annex A Part A or in section 2 is a Change Request. Change Requests are quoted separately and signed by both Parties before work begins.
+
 ---
 
 ## 4. Timeline
@@ -74,6 +77,13 @@ The engagement begins on the **kickoff date**, defined as the later of (a) the d
 Final handover occurs at the end of week 3 from kickoff. Handover means the rebuilt website is live on oliviks.com, the Google Business Profile changes are published, and the email and WhatsApp systems are operational with a one-page handover document delivered for each.
 
 Delays caused by the Client (late provision of access, photos, approvals, or feedback) extend each milestone day-for-day.
+
+### 4.1 Revisions, Acceptance, and Defects
+Each workstream includes two rounds of revisions per deliverable. Further rounds are quoted at 15,000 HUF/hour and signed in writing before work begins.
+
+The Client has 5 working days from BridgeWorks' written handover notice to submit specific written objections referencing deliverables in Annex A. Silence past 5 working days constitutes deemed acceptance, and payment 2 is invoiced immediately.
+
+BridgeWorks will fix in-scope defects (broken pages, schema errors, opt-in failures, NAP inconsistencies) reported in writing within 14 days of handover at no additional charge. Out-of-scope changes after handover are quoted separately.
 
 ---
 
@@ -128,7 +138,9 @@ The Client confirms that **Rákóczi tér 9, 1084 Budapest** is the public-facin
 
 ## 8. Confidentiality
 
-Each Party will keep the other's non-public information confidential and use it only for the purposes of this Agreement. This obligation continues for 2 years after termination.
+8.1 Each Party will keep the other's non-public information confidential and use it only for the purposes of this Agreement. This obligation continues for 2 years after termination.
+
+8.2 BridgeWorks may engage subcontractors and remains fully responsible for their work, including obligations under sections 8 (Confidentiality) and 9 (Data Protection).
 
 ---
 
@@ -142,11 +154,11 @@ BridgeWorks acts as a data processor for any personal data accessed during the e
 
 10.1 BridgeWorks warrants that the services will be performed with reasonable skill and care.
 
-10.2 BridgeWorks does not guarantee specific business outcomes, including search ranking position, traffic volume, conversion rate, or revenue uplift. Estimates in the Proposal are illustrative.
+10.2 BridgeWorks does not guarantee specific business outcomes, including search ranking position, traffic volume, conversion rate, or revenue uplift.
 
 10.3 Each Party's total liability under this Agreement is limited to the total fees paid by the Client under section 5. Neither Party is liable for indirect, consequential, or loss-of-profit damages.
 
-10.4 Nothing in this section limits liability that cannot be limited under Hungarian law.
+10.4 Section 10.3 does not apply to damages caused intentionally or by gross negligence (szándékosság vagy súlyos gondatlanság), or to harm caused to life, bodily integrity, or health.
 
 ---
 
@@ -175,6 +187,8 @@ BridgeWorks acts as a data processor for any personal data accessed during the e
 12.5 **Notices:** All formal notices go to the email addresses stated above.
 
 12.6 **Counterparts and electronic signature:** This Agreement may be signed in counterparts and by electronic signature. Scanned signatures and PDFs exchanged by email are valid and binding.
+
+12.7 **Force majeure:** Neither Party is liable for delay or failure caused by events outside reasonable control, including pandemics, infrastructure outages, or third-party platform shutdowns. The affected Party will notify the other within 5 working days and propose mitigation.
 
 ---
 
