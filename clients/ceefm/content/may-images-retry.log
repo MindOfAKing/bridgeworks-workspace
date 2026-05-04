@@ -1,0 +1,36 @@
+Retrying 2 posts: ['02', '07']
+
+Generating 2 images for May calendar...
+
+submitting Post 02...
+  taskId=9a6365980bf656bcf09d07cbeb216b71
+submitting Post 07...
+  taskId=ff2bc62fce7649bdcbe9efb27fb98c54
+
+submitted 2. polling...
+
+polling Post 02...
+  [Post 02] poll 1: flag=0 progress=0.00
+  [Post 02] poll 2: flag=0 progress=0.00
+  [Post 02] poll 3: flag=1 progress=1.00
+  SUCCESS
+polling Post 07...
+  [Post 07] poll 1: flag=0 progress=0.00
+  [Post 07] poll 2: flag=0 progress=0.00
+  [Post 07] poll 3: flag=0 progress=0.00
+  [Post 07] poll 4: flag=0 progress=0.00
+  [Post 07] poll 5: flag=0 progress=0.00
+  [Post 07] poll 6: flag=0 progress=0.00
+  [Post 07] poll 7: flag=1 progress=1.00
+  SUCCESS
+
+2 ready. downloading...
+
+downloading post 02 -> C:\Users\ELITEX21012G2\Projects\bridgeworks-workspace\clients\ceefm\content\images\may-2026-week\may-post-02-integrated-vs-vendors.png
+  watermarking...
+  DONE
+downloading post 07 -> C:\Users\ELITEX21012G2\Projects\bridgeworks-workspace\clients\ceefm\content\images\may-2026-week\may-post-07-hospitality-vs-residential.png
+  watermarking...
+  DONE
+
+complete. 2/2 images generated.

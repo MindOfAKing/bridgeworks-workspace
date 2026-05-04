@@ -1,0 +1,181 @@
+Generating 16 images for May calendar...
+
+submitting Post 01...
+  taskId=a516352e0dab472e279655f0c8f6d716
+submitting Post 02...
+  taskId=378f2ca8fc03dccd8c8405c6831f0669
+submitting Post 03...
+  taskId=3681b99bb86ed75fd36cc148ec1e7c52
+submitting Post F1...
+  taskId=25dc52efaa14cf243938d7ccfbdf872d
+submitting Post 04...
+  taskId=5639c745658e7c9530aefa9d274011dd
+submitting Post 05...
+  taskId=0beb131b180cb996ec9965a7dc112a96
+submitting Post 06...
+  taskId=79a9ed87e97f149ca97e1a8761d73ab1
+submitting Post F2...
+  taskId=d5dd8d95c3c39defeb085dd6b892128b
+submitting Post 07...
+  taskId=b105a20b0e613d07c7029f1f382e45f1
+submitting Post 08...
+  taskId=52999fc9cc0d0613c5cba6e4ad094048
+submitting Post 09...
+  taskId=eb84862c1dd354cfdad1a5a301277663
+submitting Post F3...
+  taskId=196d8e2a426cac0ed3b5dfb559668ca6
+submitting Post 10...
+  taskId=ea4ead743d2bde69d4daf2ff976fbcb1
+submitting Post 11...
+  taskId=840c4d55a451513b6c367a90b7a50e5d
+submitting Post 12...
+  taskId=efe06fba63aad2ddef36e55c1247531e
+submitting Post F4...
+  taskId=02b5cdb6f4b54d3fe1990b44901265a6
+
+submitted 16. polling...
+
+polling Post 01...
+  [Post 01] poll 1: flag=1 progress=1.00
+  SUCCESS
+polling Post 02...
+  [Post 02] poll 1: flag=0 progress=0.00
+  [Post 02] poll 2: flag=0 progress=0.00
+  [Post 02] poll 3: flag=0 progress=0.00
+  [Post 02] poll 4: flag=0 progress=0.00
+  [Post 02] poll 5: flag=0 progress=0.00
+  [Post 02] poll 6: flag=0 progress=0.00
+  [Post 02] poll 7: flag=0 progress=0.00
+  [Post 02] poll 8: flag=0 progress=0.00
+  [Post 02] poll 9: flag=0 progress=0.00
+  [Post 02] poll 10: flag=0 progress=0.00
+  [Post 02] poll 11: flag=0 progress=0.00
+  [Post 02] poll 12: flag=0 progress=0.00
+  [Post 02] poll 13: flag=0 progress=0.00
+  [Post 02] poll 14: flag=0 progress=0.00
+  [Post 02] poll 15: flag=0 progress=0.00
+  [Post 02] poll 16: flag=0 progress=0.00
+  [Post 02] poll 17: flag=0 progress=0.00
+  [Post 02] poll 18: flag=0 progress=0.00
+  [Post 02] poll 19: flag=0 progress=0.00
+  [Post 02] poll 20: flag=0 progress=0.00
+  [Post 02] poll 21: flag=0 progress=0.00
+  [Post 02] poll 22: flag=0 progress=0.00
+  [Post 02] poll 23: flag=0 progress=0.00
+  [Post 02] poll 24: flag=0 progress=0.00
+  [Post 02] poll 25: flag=0 progress=0.00
+  [Post 02] poll 26: flag=0 progress=0.00
+  [Post 02] poll 27: flag=0 progress=0.00
+  [Post 02] poll 28: flag=0 progress=0.00
+  [Post 02] poll 29: flag=0 progress=0.00
+  [Post 02] poll 30: flag=0 progress=0.00
+  [Post 02] TIMEOUT
+  FAILED
+polling Post 03...
+  [Post 03] poll 1: flag=1 progress=1.00
+  SUCCESS
+polling Post F1...
+  [Post F1] poll 1: flag=1 progress=1.00
+  SUCCESS
+polling Post 04...
+  [Post 04] poll 1: flag=1 progress=1.00
+  SUCCESS
+polling Post 05...
+  [Post 05] poll 1: flag=1 progress=1.00
+  SUCCESS
+polling Post 06...
+  [Post 06] poll 1: flag=1 progress=1.00
+  SUCCESS
+polling Post F2...
+  [Post F2] poll 1: flag=1 progress=1.00
+  SUCCESS
+polling Post 07...
+  [Post 07] poll 1: flag=0 progress=0.00
+  [Post 07] poll 2: flag=0 progress=0.00
+  [Post 07] poll 3: flag=0 progress=0.00
+  [Post 07] poll 4: flag=0 progress=0.00
+  [Post 07] poll 5: flag=0 progress=0.00
+  [Post 07] poll 6: flag=0 progress=0.00
+  [Post 07] poll 7: flag=0 progress=0.00
+  [Post 07] poll 8: flag=0 progress=0.00
+  [Post 07] poll 9: flag=0 progress=0.00
+  [Post 07] poll 10: flag=0 progress=0.00
+  [Post 07] poll 11: flag=0 progress=0.00
+  [Post 07] poll 12: flag=0 progress=0.00
+  [Post 07] poll 13: flag=0 progress=0.00
+  [Post 07] poll 14: flag=0 progress=0.00
+  [Post 07] poll 15: flag=0 progress=0.00
+  [Post 07] poll 16: flag=0 progress=0.00
+  [Post 07] poll 17: flag=0 progress=0.00
+  [Post 07] poll 18: flag=3 progress=1.00
+  [Post 07] FAILED: {'taskId': 'b105a20b0e613d07c7029f1f382e45f1', 'paramJson': '{"enableFallback":false,"fileUrlOrPromptNotEmpty":true,"isEnhance":false,"nVariants":1,"nVariantsValid":true,"prompt":"Split-screen editorial photography composition. LEFT half: a hotel corridor with a housekeeping cart partially visible, suggestion of a turnover in progress, soft morning light. RIGHT half: a residential apartment building lobby with a maintenance worker (silhouette only) checking a fire extinguisher mounted on the wall, also in soft morning light. The two halves have the SAME lighting and time of day. A subtle vertical Forest Green #1C3D2A divider line splits the composition. Use only CEEFM brand colors: Forest Green #1C3D2A (primary), Sage Green #8FBF7A (accent), Medium Green #5A9A4A (supporting), Warm Cream #F5F2EC (background), Gray #6B7280 (text/muted). Do NOT use navy or gold. Premium editorial photography. 1200x627 landscape.","size":"3:2"}', 'completeTime': None, 'response': None, 'successFlag': 3, 'status': 'GENERATE_FAILED', 'errorCode': 500, 'errorMessage': 'Internal Error, Please try again later.', 'createTime': 1777680203000, 'progress': '1.00'}
+  FAILED
+polling Post 08...
+  [Post 08] poll 1: flag=1 progress=1.00
+  SUCCESS
+polling Post 09...
+  [Post 09] poll 1: flag=1 progress=1.00
+  SUCCESS
+polling Post F3...
+  [Post F3] poll 1: flag=1 progress=1.00
+  SUCCESS
+polling Post 10...
+  [Post 10] poll 1: flag=1 progress=1.00
+  SUCCESS
+polling Post 11...
+  [Post 11] poll 1: flag=1 progress=1.00
+  SUCCESS
+polling Post 12...
+  [Post 12] poll 1: flag=1 progress=1.00
+  SUCCESS
+polling Post F4...
+  [Post F4] poll 1: flag=1 progress=1.00
+  SUCCESS
+
+14 ready. downloading...
+
+downloading post 01 -> C:\Users\ELITEX21012G2\Projects\bridgeworks-workspace\clients\ceefm\content\images\may-2026-week\may-post-01-summer-prep.png
+  watermarking...
+  DONE
+downloading post 03 -> C:\Users\ELITEX21012G2\Projects\bridgeworks-workspace\clients\ceefm\content\images\may-2026-week\may-post-03-quality-check.png
+  watermarking...
+  DONE
+downloading post F1 -> C:\Users\ELITEX21012G2\Projects\bridgeworks-workspace\clients\ceefm\content\images\may-2026-week\may-postF1-poll-fallback.png
+  watermarking...
+  DONE
+downloading post 04 -> C:\Users\ELITEX21012G2\Projects\bridgeworks-workspace\clients\ceefm\content\images\may-2026-week\may-post-04-vendor-math.png
+  watermarking...
+  DONE
+downloading post 05 -> C:\Users\ELITEX21012G2\Projects\bridgeworks-workspace\clients\ceefm\content\images\may-2026-week\may-post-05-11-minutes.png
+  watermarking...
+  DONE
+downloading post 06 -> C:\Users\ELITEX21012G2\Projects\bridgeworks-workspace\clients\ceefm\content\images\may-2026-week\may-post-06-supervisor-training.png
+  watermarking...
+  DONE
+downloading post F2 -> C:\Users\ELITEX21012G2\Projects\bridgeworks-workspace\clients\ceefm\content\images\may-2026-week\may-postF2-stat-graphic.png
+  watermarking...
+  DONE
+downloading post 08 -> C:\Users\ELITEX21012G2\Projects\bridgeworks-workspace\clients\ceefm\content\images\may-2026-week\may-post-08-aparthotel-14-categories.png
+  watermarking...
+  DONE
+downloading post 09 -> C:\Users\ELITEX21012G2\Projects\bridgeworks-workspace\clients\ceefm\content\images\may-2026-week\may-post-09-two-playbooks.png
+  watermarking...
+  DONE
+downloading post F3 -> C:\Users\ELITEX21012G2\Projects\bridgeworks-workspace\clients\ceefm\content\images\may-2026-week\may-postF3-kitchen-snippet.png
+  watermarking...
+  DONE
+downloading post 10 -> C:\Users\ELITEX21012G2\Projects\bridgeworks-workspace\clients\ceefm\content\images\may-2026-week\may-post-10-aparthotel-case.png
+  watermarking...
+  DONE
+downloading post 11 -> C:\Users\ELITEX21012G2\Projects\bridgeworks-workspace\clients\ceefm\content\images\may-2026-week\may-post-11-residential-case.png
+  watermarking...
+  DONE
+downloading post 12 -> C:\Users\ELITEX21012G2\Projects\bridgeworks-workspace\clients\ceefm\content\images\may-2026-week\may-post-12-q3-assessments.png
+  watermarking...
+  DONE
+downloading post F4 -> C:\Users\ELITEX21012G2\Projects\bridgeworks-workspace\clients\ceefm\content\images\may-2026-week\may-postF4-five-conversations.png
+  watermarking...
+  DONE
+
+complete. 14/16 images generated.
+failed posts: ['02', '07']
