@@ -38,8 +38,8 @@
 ### BridgeWorks backend (the launch blocker)
 - [ ] Invoicing template via szamlazz.hu (NAV-compliant, EN+HU)
 - [ ] VAT handling for EU clients (HU + reverse charge logic)
-- [ ] Contract template EN/HU + signing flow
-- [ ] Onboarding doc / week-1 client handbook
+- [x] Contract template EN/HU + signing flow — **shipped 2026-05-05** at `business-brain/world-model/org/brand/bridgeworks/`: `CONTRACT-TEMPLATE-EN.md`, `CONTRACT-TEMPLATE-HU.md` (DeepL draft + manual cleanup pass; 24 placeholders, all council-reviewed legal phrases preserved), `CONTRACT-SIGNING-FLOW.md`, `translate-contract-template.py` (re-runnable if EN template changes).
+- [x] Onboarding doc / week-1 client handbook — **EN shipped 2026-05-05** at `business-brain/world-model/org/brand/bridgeworks/CLIENT-ONBOARDING-EN.md`. Parameterized from existing `Client Onboarding · BridgeWorks.pdf`, with terms reconciled to the contract template (8-day payment window, AAM not "VAT registered", end-of-month retainer cadence, 5-day deemed-acceptance language). HU translation pending — re-runnable via the same DeepL pattern as the contract template.
 - [ ] Payment flow for NGN clients (avoid 4% card fee)
 
 ### CEE FM (Week 5/16 — Foundation-first, ads deferred)
