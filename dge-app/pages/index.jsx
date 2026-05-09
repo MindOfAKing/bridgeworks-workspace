@@ -297,6 +297,7 @@ function DiscoverView({ intake, existingProfile, onSave }) {
 // ── INTELLIGENCE ─────────────────────────────────────────────
 function IntelView({ brand, profile, intel, onSave }) {
   const [posts, setPosts] = useState('');
+  const [sources, setSources] = useState([]);
   const [notes, setNotes] = useState('');
   const [result, setResult] = useState(intel || null);
   const [loading, setLoading] = useState(false);
@@ -305,12 +306,13 @@ function IntelView({ brand, profile, intel, onSave }) {
   useEffect(() => setResult(intel || null), [intel]);
 
   const run = async () => {
-    if (!posts.trim()) { setErr('Paste past posts first.'); return; }
+    const combined = [posts, ...sources.map(s => s.text)].filter(Boolean).join('\n---\n');
+    if (!combined.trim()) { setErr('Paste past posts or upload a file first.'); return; }
     setErr(''); setLoading(true);
     try {
-      const count = posts.split(/\n---+\n|\n\n\n+/).filter(p => p.trim().length > 20).length;
+      const count = combined.split(/\n---+\n|\n\n\n+/).filter(p => p.trim().length > 20).length;
       const p = profile || brand.profile || {};
-      const user = `Brand: ${brand.name}\n${p.positioning ? `Positioning: ${p.positioning}\n` : ''}\nPast posts:\n${posts}\n${notes ? `\nPerformance notes:\n${notes}` : ''}\n\nReturn ONLY this JSON:\n{"voiceFingerprint":"how this brand actually sounds — evidence from posts","writingPatterns":["pattern 1","pattern 2","pattern 3"],"topTopics":["topic 1","topic 2","topic 3"],"whatWorked":"what generates engagement","whatDidnt":"weak patterns","continuityNotes":"CRITICAL — what must be preserved for recognition","avoidRepeating":["thing 1","thing 2"],"contentGaps":["gap 1","gap 2","gap 3"],"repurposeCandidates":["strong post worth repurposing","second candidate"],"nextIdeas":["specific idea 1","idea 2","idea 3","idea 4","idea 5"],"recommendations":["recommendation 1","recommendation 2","recommendation 3"],"postCount":${count}}`;
+      const user = `Brand: ${brand.name}\n${p.positioning ? `Positioning: ${p.positioning}\n` : ''}\nPast posts:\n${combined}\n${notes ? `\nPerformance notes:\n${notes}` : ''}\n\nReturn ONLY this JSON:\n{"voiceFingerprint":"how this brand actually sounds — evidence from posts","writingPatterns":["pattern 1","pattern 2","pattern 3"],"topTopics":["topic 1","topic 2","topic 3"],"whatWorked":"what generates engagement","whatDidnt":"weak patterns","continuityNotes":"CRITICAL — what must be preserved for recognition","avoidRepeating":["thing 1","thing 2"],"contentGaps":["gap 1","gap 2","gap 3"],"repurposeCandidates":["strong post worth repurposing","second candidate"],"nextIdeas":["specific idea 1","idea 2","idea 3","idea 4","idea 5"],"recommendations":["recommendation 1","recommendation 2","recommendation 3"],"postCount":${count}}`;
       const r = await callAI('You are an expert content analyst. Analyze past posts for precise, actionable intelligence. Be specific — reference actual patterns. Return only valid JSON.', user, 1500);
       if (r) {
         const m = { ...r, date: new Date().toLocaleDateString('en-GB', { day: '2-digit', month: 'short', year: 'numeric' }) };
@@ -328,12 +330,14 @@ function IntelView({ brand, profile, intel, onSave }) {
           <button onClick={() => setResult(null)} style={{ fontSize: 11, color: C.wg, background: 'none', border: 'none', cursor: 'pointer' }}>Update</button>
         </div>
       )}
+      <UploadZone onExtracted={s => setSources(prev => [...prev, s])} />
+      <SourceChips sources={sources} onRemove={id => setSources(prev => prev.filter(s => s.id !== id))} />
       <Fld val={posts} onChange={setPosts} rows={7} label="Past posts — separate with --- or blank lines"
         placeholder={'Paste 5-20 past posts.\nSeparate with --- or double blank lines.\n\nExample:\nMost businesses need a better system.\n---\nI built a website from zero. No code.'} />
       <Fld val={notes} onChange={setNotes} rows={2} label="Performance notes (optional)"
         placeholder="e.g. 'AI post got 3x reach' or 'corporate posts got no comments'" />
       <ErrBox msg={err} />
-      <PBtn label={loading ? 'Analyzing...' : 'Analyze Past Content →'} onClick={run} disabled={loading || !posts.trim()} full color="#1B3A2B" />
+      <PBtn label={loading ? 'Analyzing...' : 'Analyze Past Content →'} onClick={run} disabled={loading || (!posts.trim() && !sources.length)} full color="#1B3A2B" />
       {loading && <div style={{ marginTop: 12 }}><Skel /></div>}
       {result && !loading && (
         <div style={{ display: 'flex', flexDirection: 'column', gap: 8, marginTop: 14 }}>
@@ -400,7 +404,8 @@ function PlanView({ brand, profile, intel }) {
     try {
       const p = profile || brand.profile || {};
       const user = `Brand: ${brand.name}\nPillars: ${(p.contentPillars || p.pillars || []).join(', ')}\nAudience: ${p.audience || ''}\nTone: ${p.tone || ''}\n${intel ? `What works: ${intel.whatWorked || ''}\nContent gaps: ${(intel.contentGaps || []).join(', ')}` : ''}\n\nGenerate a practical 30-day content plan across 4 weeks. Each post must have specific hooks and ideas — no generic placeholders. Return ONLY this JSON:\n{"weeks":[{"week":1,"theme":"weekly theme","rationale":"why this theme now","posts":[{"day":"Mon","platform":"LinkedIn","format":"long-form post","pillar":"pillar name","hook":"specific hook line","idea":"specific content idea","cta":"specific CTA"},{"day":"Wed","platform":"Instagram","format":"Carousel","pillar":"pillar","hook":"hook","idea":"idea","cta":"cta"},{"day":"Fri","platform":"TikTok","format":"Talking head 30 sec","pillar":"pillar","hook":"hook","idea":"idea","cta":"cta"}]},{"week":2,"theme":"theme","rationale":"rationale","posts":[{"day":"Mon","platform":"LinkedIn","format":"post","pillar":"p","hook":"h","idea":"i","cta":"c"},{"day":"Wed","platform":"Instagram","format":"Reel","pillar":"p","hook":"h","idea":"i","cta":"c"},{"day":"Fri","platform":"X","format":"Thread","pillar":"p","hook":"h","idea":"i","cta":"c"}]},{"week":3,"theme":"theme","rationale":"rationale","posts":[{"day":"Tue","platform":"LinkedIn","format":"post","pillar":"p","hook":"h","idea":"i","cta":"c"},{"day":"Thu","platform":"Instagram","format":"Carousel","pillar":"p","hook":"h","idea":"i","cta":"c"},{"day":"Sat","platform":"WhatsApp","format":"Status","pillar":"p","hook":"h","idea":"i","cta":"c"}]},{"week":4,"theme":"theme","rationale":"rationale","posts":[{"day":"Mon","platform":"LinkedIn","format":"post","pillar":"p","hook":"h","idea":"i","cta":"c"},{"day":"Wed","platform":"TikTok","format":"Talking head","pillar":"p","hook":"h","idea":"i","cta":"c"},{"day":"Fri","platform":"Instagram","format":"Carousel","pillar":"p","hook":"h","idea":"i","cta":"c"}]}],"monthGoal":"what this plan achieves","cadenceSummary":"posting rhythm"}`;
-      const r = await callAI('You are an expert content strategist. Generate a practical, specific 30-day content plan. Return only valid JSON.', user, 1800);
+      const r = await callAI('You are an expert content strategist. Generate a practical, specific 30-day content plan. Return only valid JSON.', user, 3000);
+      if (!r) throw new Error('Response could not be parsed. The plan may be too large — try again.');
       setResult(r);
     } catch (e) { setErr(e.message); }
     setLoading(false);
@@ -625,16 +630,18 @@ function GenerateView({ brand, profile, intel }) {
 // ── LEARN ─────────────────────────────────────────────────────
 function LearnView({ brand, profile, intel }) {
   const [data, setData] = useState('');
+  const [sources, setSources] = useState([]);
   const [result, setResult] = useState(null);
   const [loading, setLoading] = useState(false);
   const [err, setErr] = useState('');
 
   const run = async () => {
-    if (!data.trim()) { setErr('Paste performance data first.'); return; }
+    const combined = [data, ...sources.map(s => s.text)].filter(Boolean).join('\n---\n');
+    if (!combined.trim()) { setErr('Paste performance data or upload a file first.'); return; }
     setErr(''); setLoading(true);
     try {
       const p = profile || brand.profile || {};
-      const user = `Brand: ${brand.name}\n${p.positioning ? `Positioning: ${p.positioning}\n` : ''}${intel ? `Voice fingerprint: ${intel.voiceFingerprint || ''}\nWhat worked: ${intel.whatWorked || ''}\nContinuity: ${intel.continuityNotes || ''}` : ''}\n\nMonthly performance data:\n${data}\n\nReturn ONLY this JSON:\n{"period":"month if mentioned","topPosts":["best post and why","second","third"],"weakPosts":["underperformer and why"],"bestPillar":"strongest pillar","bestFormat":"strongest format","audienceSignals":["signal 1","signal 2","signal 3"],"doubleDown":["thing to do more 1","thing 2","thing 3"],"stopDoing":["stop this 1","stop this 2"],"repurposeNow":["repurpose candidate 1","candidate 2"],"nextMonthTheme":"recommended theme for next 30 days","nextMonthPillars":["pillar 1","pillar 2","pillar 3"],"contentIdeas":["specific idea 1","idea 2","idea 3","idea 4","idea 5"],"updatedStrategy":"2-3 sentence updated strategic direction"}`;
+      const user = `Brand: ${brand.name}\n${p.positioning ? `Positioning: ${p.positioning}\n` : ''}${intel ? `Voice fingerprint: ${intel.voiceFingerprint || ''}\nWhat worked: ${intel.whatWorked || ''}\nContinuity: ${intel.continuityNotes || ''}` : ''}\n\nMonthly performance data:\n${combined}\n\nReturn ONLY this JSON:\n{"period":"month if mentioned","topPosts":["best post and why","second","third"],"weakPosts":["underperformer and why"],"bestPillar":"strongest pillar","bestFormat":"strongest format","audienceSignals":["signal 1","signal 2","signal 3"],"doubleDown":["thing to do more 1","thing 2","thing 3"],"stopDoing":["stop this 1","stop this 2"],"repurposeNow":["repurpose candidate 1","candidate 2"],"nextMonthTheme":"recommended theme for next 30 days","nextMonthPillars":["pillar 1","pillar 2","pillar 3"],"contentIdeas":["specific idea 1","idea 2","idea 3","idea 4","idea 5"],"updatedStrategy":"2-3 sentence updated strategic direction"}`;
       const r = await callAI('You are a senior content strategist reviewing monthly performance. Be specific and actionable. Return only valid JSON.', user, 1500);
       setResult(r);
     } catch (e) { setErr(e.message); }
@@ -643,10 +650,12 @@ function LearnView({ brand, profile, intel }) {
 
   return (
     <div>
+      <UploadZone onExtracted={s => setSources(prev => [...prev, s])} />
+      <SourceChips sources={sources} onRemove={id => setSources(prev => prev.filter(s => s.id !== id))} />
       <Fld val={data} onChange={setData} rows={8} label="Monthly Performance Data"
         placeholder={'Paste any of:\n• Post topics with engagement numbers\n• What got comments or shares\n• What flopped\n• Client feedback or audience DMs\n• Notes from your content log\n\nExample:\n\'AI website post: 847 impressions, 23 likes, 8 comments — best.\nFM industry post: 120 impressions, 2 likes — worst.\n3 DMs asking about content systems after no-code post.\''} />
       <ErrBox msg={err} />
-      <PBtn label={loading ? 'Generating report...' : 'Generate Monthly Report →'} onClick={run} disabled={loading || !data.trim()} full color="#1C2B3A" />
+      <PBtn label={loading ? 'Generating report...' : 'Generate Monthly Report →'} onClick={run} disabled={loading || (!data.trim() && !sources.length)} full color="#1C2B3A" />
       {loading && <div style={{ marginTop:12 }}><Skel /></div>}
       {result && !loading && (
         <div style={{ marginTop:14, display:'flex', flexDirection:'column', gap:8 }}>
@@ -709,6 +718,14 @@ export default function Home() {
   const [showAdd, setShowAdd] = useState(false);
   const [newIn, setNewIn] = useState({ mode:'zero', name:'', industry:'', location:'', website:'', offer:'', audience:'', goal:'', tone:'', avoid:'' });
   const [apiKeyMissing, setApiKeyMissing] = useState(false);
+  const [isMobile, setIsMobile] = useState(false);
+
+  useEffect(() => {
+    const check = () => setIsMobile(window.innerWidth < 680);
+    check();
+    window.addEventListener('resize', check);
+    return () => window.removeEventListener('resize', check);
+  }, []);
 
   useEffect(() => {
     const c = LS.get('dge-clients') || [];
@@ -762,7 +779,7 @@ export default function Home() {
   const visibleStages = isMyBrand ? STAGES : CLIENT_STAGES;
 
   const sb = { width: 210, flexShrink: 0, borderRight: `1px solid ${C.lc}`, background: C.ow, display:'flex', flexDirection:'column', overflowY:'auto' };
-  const main = { flex:1, overflowY:'auto', padding: '20px 22px' };
+  const main = { flex:1, overflowY:'auto', padding: isMobile ? '14px 14px' : '20px 22px' };
   const sBtn = (active, color) => ({ display:'flex', alignItems:'center', gap:7, width:'100%', padding:'7px 8px', borderRadius:5, border:`1px solid ${active ? color : 'transparent'}`, background: active ? `${color}18` : 'transparent', cursor:'pointer', marginBottom:3, textAlign:'left', fontFamily:'inherit' });
 
   return (
@@ -800,9 +817,36 @@ export default function Home() {
           </div>
         )}
 
+        {isMobile && (
+          <div style={{ display:'flex', overflowX:'auto', gap:6, padding:'8px 12px', background:C.ow, borderBottom:`1px solid ${C.lc}`, flexShrink:0 }}>
+            {Object.values(MY_BRANDS).map(b => (
+              <button key={b.id} onClick={() => { setActiveId(b.id); setStage('generate'); setShowAdd(false); }} style={{ display:'flex', alignItems:'center', gap:5, padding:'5px 11px', borderRadius:20, border:`1px solid ${activeId===b.id ? b.color : C.lc}`, background: activeId===b.id ? `${b.color}18` : '#fff', whiteSpace:'nowrap', fontSize:11, fontWeight: activeId===b.id ? 700 : 400, color: activeId===b.id ? b.color : C.wg, cursor:'pointer', flexShrink:0, fontFamily:'inherit' }}>
+                <div style={{ width:6, height:6, borderRadius:'50%', background:b.color, flexShrink:0 }} /><span>{b.name}</span>{intels[b.id] && <span style={{ fontSize:9 }}>🧠</span>}
+              </button>
+            ))}
+            {clients.map(c => (
+              <button key={c.id} onClick={() => { setActiveId(c.id); setStage('generate'); setShowAdd(false); }} style={{ display:'flex', alignItems:'center', gap:5, padding:'5px 11px', borderRadius:20, border:`1px solid ${activeId===c.id ? '#2D4A6A' : C.lc}`, background: activeId===c.id ? '#2D4A6A18' : '#fff', whiteSpace:'nowrap', fontSize:11, fontWeight: activeId===c.id ? 700 : 400, color: activeId===c.id ? '#2D4A6A' : C.wg, cursor:'pointer', flexShrink:0, fontFamily:'inherit' }}>
+                <div style={{ width:6, height:6, borderRadius:'50%', background:'#2D4A6A', flexShrink:0 }} /><span>{c.name}</span>{intels[c.id] && <span style={{ fontSize:9 }}>🧠</span>}
+              </button>
+            ))}
+            <button onClick={() => setShowAdd(a => !a)} style={{ padding:'5px 11px', borderRadius:20, border:`1px solid ${C.gd}`, background:'transparent', fontSize:11, fontWeight:700, color:C.gd, cursor:'pointer', flexShrink:0, whiteSpace:'nowrap', fontFamily:'inherit' }}>+ Client</button>
+          </div>
+        )}
+        {isMobile && activeBrand && !showAdd && (
+          <div style={{ display:'flex', overflowX:'auto', gap:4, padding:'5px 10px', background:'#fff', borderBottom:`1px solid ${C.lc}`, flexShrink:0 }}>
+            {visibleStages.map(s => {
+              const done = (s.id==='discover' && !!activeProfile) || (s.id==='intelligence' && !!activeIntel);
+              return (
+                <button key={s.id} onClick={() => setStage(s.id)} style={{ display:'flex', alignItems:'center', gap:4, padding:'5px 10px', borderRadius:20, border:`1px solid ${stage===s.id ? C.nv : C.lc}`, background: stage===s.id ? C.nv : 'transparent', whiteSpace:'nowrap', fontSize:11, fontWeight: stage===s.id ? 700 : 400, color: stage===s.id ? C.iv : C.wg, cursor:'pointer', flexShrink:0, fontFamily:'inherit' }}>
+                  <span>{s.icon}</span><span style={{ marginLeft:2 }}>{s.label}</span>{done && <span style={{ fontSize:9, color:'#4A9B6F', fontWeight:800, marginLeft:2 }}>✓</span>}
+                </button>
+              );
+            })}
+          </div>
+        )}
+
         <div style={{ display:'flex', flex:1, overflow:'hidden' }}>
-          {/* Sidebar */}
-          <div style={sb}>
+          {!isMobile && <div style={sb}>
             <div style={{ padding:'12px 12px 6px' }}>
               <div style={{ fontSize:9, fontWeight:700, color:C.wg, textTransform:'uppercase', letterSpacing:'0.08em', marginBottom:8 }}>My Brands</div>
               {Object.values(MY_BRANDS).map(b => (
@@ -851,7 +895,7 @@ export default function Home() {
                 })}
               </div>
             )}
-          </div>
+          </div>}
 
           {/* Main */}
           <div style={main}>
@@ -957,4 +1001,15 @@ export default function Home() {
 
                 {stage === 'learn' && (
                   <div>
-                    <div style={{ fontSize:12, color:C.wg, marginBottom:14, lineHeight:'1.6' }}>Paste this month's performance data and get a full learni
+                    <div style={{ fontSize:12, color:C.wg, marginBottom:14, lineHeight:'1.6' }}>Paste this month's performance data and get a full learning report: what worked, what didn't, what to repurpose, and next month's strategy.</div>
+                    <LearnView brand={activeBrand} profile={activeProfile} intel={activeIntel} />
+                  </div>
+                )}
+              </div>
+            )}
+          </div>
+        </div>
+      </div>
+    </>
+  );
+}

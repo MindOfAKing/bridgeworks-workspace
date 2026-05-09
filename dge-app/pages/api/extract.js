@@ -1,7 +1,3 @@
-import pdf from 'pdf-parse';
-import mammoth from 'mammoth';
-import * as XLSX from 'xlsx';
-
 export const config = {
   api: { bodyParser: { sizeLimit: '6mb' } },
 };
@@ -16,7 +12,7 @@ function stripHtml(html) {
 }
 
 export default async function handler(req, res) {
-  if (req.method !== 'POST') return res.status(405).end();
+  if (req.method !== 'POST') return res.status(405).json({ error: 'Method not allowed' });
 
   const { type, data, filename, url } = req.body;
 
@@ -28,8 +24,7 @@ export default async function handler(req, res) {
       });
       if (!response.ok) throw new Error(`Failed to fetch URL (${response.status})`);
       const html = await response.text();
-      const text = stripHtml(html).slice(0, 20000);
-      return res.json({ text, filename: url });
+      return res.json({ text: stripHtml(html).slice(0, 20000), filename: url });
     }
 
     const buffer = Buffer.from(data.split(',')[1], 'base64');
@@ -37,12 +32,15 @@ export default async function handler(req, res) {
     let text = '';
 
     if (ext === 'pdf') {
-      const result = await pdf(buffer);
+      const pdfParse = (await import('pdf-parse')).default;
+      const result = await pdfParse(buffer);
       text = result.text;
     } else if (ext === 'docx') {
+      const mammoth = await import('mammoth');
       const result = await mammoth.extractRawText({ buffer });
       text = result.value;
     } else if (ext === 'xlsx' || ext === 'xls') {
+      const XLSX = await import('xlsx');
       const wb = XLSX.read(buffer, { type: 'buffer' });
       text = wb.SheetNames.map(name => {
         const ws = wb.Sheets[name];
@@ -54,6 +52,6 @@ export default async function handler(req, res) {
 
     return res.json({ text: text.slice(0, 20000), filename });
   } catch (e) {
-    return res.status(500).json({ error: e.message });
+    return res.status(500).json({ error: e.message || 'Extraction failed' });
   }
 }
