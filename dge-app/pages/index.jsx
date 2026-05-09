@@ -1,4 +1,4 @@
-import { useState, useEffect, useCallback } from 'react';
+import { useState, useEffect, useCallback, useRef } from 'react';
 import Head from 'next/head';
 
 // ── Brand DNA ────────────────────────────────────────────────
@@ -147,9 +147,83 @@ function Card({ children, accent, style = {} }) {
   );
 }
 
+// ── UPLOAD ZONE ──────────────────────────────────────────────
+function SourceChips({ sources, onRemove }) {
+  if (!sources.length) return null;
+  const icon = f => f.startsWith('http') ? '🔗' : /\.xlsx?|\.csv/.test(f) ? '📊' : /\.pdf/.test(f) ? '📄' : '📝';
+  return (
+    <div style={{ display: 'flex', gap: 5, flexWrap: 'wrap', marginBottom: 8 }}>
+      {sources.map(s => (
+        <div key={s.id} style={{ display: 'flex', alignItems: 'center', gap: 5, padding: '3px 8px 3px 10px', background: '#fff', border: `1px solid ${C.lc}`, borderRadius: 20, fontSize: 10, color: C.nv, fontWeight: 500 }}>
+          <span>{icon(s.filename)}</span>
+          <span>{s.filename.length > 32 ? s.filename.slice(0, 29) + '...' : s.filename}</span>
+          <button onClick={() => onRemove(s.id)} style={{ background: 'none', border: 'none', cursor: 'pointer', color: C.wg, fontSize: 14, lineHeight: 1, padding: '0 0 0 2px' }}>×</button>
+        </div>
+      ))}
+    </div>
+  );
+}
+
+function UploadZone({ onExtracted }) {
+  const [url, setUrl] = useState('');
+  const [loading, setLoading] = useState(false);
+  const [err, setErr] = useState('');
+  const fileRef = useRef(null);
+
+  const extract = async (body, label) => {
+    setErr(''); setLoading(true);
+    try {
+      const res = await fetch('/api/extract', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(body) });
+      const data = await res.json();
+      if (data.error) throw new Error(data.error);
+      onExtracted({ id: Date.now() + Math.random(), filename: label, text: data.text });
+    } catch (e) { setErr(e.message); }
+    setLoading(false);
+  };
+
+  const handleFiles = (files) => {
+    for (const file of files) {
+      if (file.size > 3 * 1024 * 1024) { setErr(`${file.name} exceeds 3MB limit`); continue; }
+      const reader = new FileReader();
+      reader.onload = e => extract({ type: 'file', data: e.target.result, filename: file.name }, file.name);
+      reader.readAsDataURL(file);
+    }
+  };
+
+  const handleUrl = () => {
+    if (!url.trim()) return;
+    extract({ type: 'url', url: url.trim() }, url.trim());
+    setUrl('');
+  };
+
+  return (
+    <div style={{ border: `1.5px dashed ${C.gd}`, borderRadius: 8, padding: '11px 13px', background: '#FDFAF4', marginBottom: 10 }}>
+      <div style={{ display: 'flex', gap: 7, alignItems: 'center', flexWrap: 'wrap' }}>
+        <input ref={fileRef} type="file" multiple accept=".pdf,.docx,.xlsx,.xls,.csv,.txt,.md" style={{ display: 'none' }}
+          onChange={e => { handleFiles(Array.from(e.target.files)); e.target.value = ''; }} />
+        <button onClick={() => fileRef.current?.click()} disabled={loading}
+          style={{ display: 'flex', alignItems: 'center', gap: 5, padding: '5px 11px', border: `1px solid ${C.lc}`, borderRadius: 6, background: '#fff', fontSize: 11, fontWeight: 600, color: C.nv, cursor: 'pointer', fontFamily: 'inherit' }}>
+          📄 Choose files
+        </button>
+        <span style={{ fontSize: 10, color: C.wg }}>or</span>
+        <input value={url} onChange={e => setUrl(e.target.value)} onKeyDown={e => e.key === 'Enter' && handleUrl()}
+          placeholder="Paste a URL to fetch..."
+          style={{ flex: 1, minWidth: 150, height: 31, border: `1px solid ${C.lc}`, borderRadius: 6, padding: '0 10px', fontSize: 11, color: C.nv, background: '#fff', outline: 'none', fontFamily: 'inherit' }} />
+        <button onClick={handleUrl} disabled={loading || !url.trim()}
+          style={{ padding: '5px 11px', background: loading || !url.trim() ? '#E8E1D8' : C.nv, color: loading || !url.trim() ? '#9B8E82' : C.iv, border: 'none', borderRadius: 6, fontSize: 11, fontWeight: 700, cursor: url.trim() && !loading ? 'pointer' : 'not-allowed', fontFamily: 'inherit' }}>
+          {loading ? '...' : 'Fetch →'}
+        </button>
+      </div>
+      <div style={{ fontSize: 9, color: C.wg, marginTop: 7 }}>PDF · Word · Excel · CSV · TXT · MD · Max 3MB · Public URLs only</div>
+      {err && <div style={{ fontSize: 10, color: '#DC2626', marginTop: 5 }}>{err}</div>}
+    </div>
+  );
+}
+
 // ── DISCOVER ─────────────────────────────────────────────────
 function DiscoverView({ intake, existingProfile, onSave }) {
   const [src, setSrc] = useState('');
+  const [sources, setSources] = useState([]);
   const [result, setResult] = useState(existingProfile || null);
   const [loading, setLoading] = useState(false);
   const [err, setErr] = useState('');
@@ -159,7 +233,8 @@ function DiscoverView({ intake, existingProfile, onSave }) {
     setErr(''); setLoading(true); setResult(null); setSaved(false);
     try {
       const iStr = intake ? Object.entries(intake).filter(([k, v]) => v && k !== 'mode').map(([k, v]) => `${k}: ${v}`).join('\n') : '';
-      const user = `${iStr ? `CLIENT INTAKE:\n${iStr}\n\n` : ''}${src ? `SOURCE MATERIAL:\n${src}\n\n` : ''}Extract a complete brand content profile. Return ONLY this JSON:\n{"businessName":"name","tagline":"short positioning","whatTheyDo":"1-2 sentences","whoTheyServe":"specific audience","tone":"tone descriptors","voiceRules":["rule 1","rule 2","rule 3","rule 4","rule 5"],"noFly":["phrase 1","phrase 2","phrase 3","phrase 4"],"visualDirection":"colors, style, mood","contentPillars":["pillar 1","pillar 2","pillar 3","pillar 4","pillar 5"],"ctaStyle":"how they invite action","keyMessages":["message 1","message 2","message 3"]}`;
+      const combined = [src, ...sources.map(s => s.text)].filter(Boolean).join('\n---\n');
+      const user = `${iStr ? `CLIENT INTAKE:\n${iStr}\n\n` : ''}${combined ? `SOURCE MATERIAL:\n${combined}\n\n` : ''}Extract a complete brand content profile. Return ONLY this JSON:\n{"businessName":"name","tagline":"short positioning","whatTheyDo":"1-2 sentences","whoTheyServe":"specific audience","tone":"tone descriptors","voiceRules":["rule 1","rule 2","rule 3","rule 4","rule 5"],"noFly":["phrase 1","phrase 2","phrase 3","phrase 4"],"visualDirection":"colors, style, mood","contentPillars":["pillar 1","pillar 2","pillar 3","pillar 4","pillar 5"],"ctaStyle":"how they invite action","keyMessages":["message 1","message 2","message 3"]}`;
       const r = await callAI('You are an expert brand strategist. Extract a precise, actionable brand content profile from any input. Be specific — never generic. Return only valid JSON.', user, 1200);
       setResult(r);
     } catch (e) { setErr(e.message); }
@@ -168,6 +243,8 @@ function DiscoverView({ intake, existingProfile, onSave }) {
 
   return (
     <div>
+      <UploadZone onExtracted={s => setSources(prev => [...prev, s])} />
+      <SourceChips sources={sources} onRemove={id => setSources(prev => prev.filter(s => s.id !== id))} />
       <Fld val={src} onChange={setSrc} rows={6} label="Source material — paste website copy, social bios, old posts, or any brand text"
         placeholder={'Paste any combination of:\n• Website copy / About page\n• Instagram or LinkedIn bio and posts\n• Business description\n• Old captions or marketing copy\n\nLeave blank to extract from intake data only.'} />
       <ErrBox msg={err} />
@@ -880,15 +957,4 @@ export default function Home() {
 
                 {stage === 'learn' && (
                   <div>
-                    <div style={{ fontSize:12, color:C.wg, marginBottom:14, lineHeight:'1.6' }}>Paste this month's performance data and get a full learning report: what worked, what didn't, what to repurpose, and next month's strategy.</div>
-                    <LearnView brand={activeBrand} profile={activeProfile} intel={activeIntel} />
-                  </div>
-                )}
-              </div>
-            )}
-          </div>
-        </div>
-      </div>
-    </>
-  );
-}
+                    <div style={{ fontSize:12, color:C.wg, marginBottom:14, lineHeight:'1.6' }}>Paste this month's performance data and get a full learni

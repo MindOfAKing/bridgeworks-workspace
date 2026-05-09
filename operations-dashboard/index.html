@@ -1,0 +1,984 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BridgeWorks Command Center</title>
+  <style>
+    :root {
+      --ink: #101316;
+      --muted: #667078;
+      --line: #dfe5e8;
+      --paper: #f7faf9;
+      --panel: #ffffff;
+      --green: #00a878;
+      --green-soft: #dff8ef;
+      --blue: #1d6cff;
+      --blue-soft: #e5efff;
+      --yellow: #f4b942;
+      --yellow-soft: #fff3d1;
+      --red: #f25757;
+      --shadow: 0 18px 42px rgba(16, 19, 22, 0.08);
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      background:
+        linear-gradient(90deg, rgba(29, 108, 255, 0.06) 1px, transparent 1px),
+        linear-gradient(0deg, rgba(0, 168, 120, 0.05) 1px, transparent 1px),
+        var(--paper);
+      background-size: 36px 36px;
+      color: var(--ink);
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      letter-spacing: 0;
+    }
+
+    button, input, select {
+      font: inherit;
+    }
+
+    .app {
+      display: grid;
+      grid-template-columns: 84px minmax(0, 1fr);
+      min-height: 100vh;
+    }
+
+    .rail {
+      position: sticky;
+      top: 0;
+      height: 100vh;
+      padding: 18px 14px;
+      background: #11161a;
+      color: #fff;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 18px;
+    }
+
+    .mark {
+      width: 48px;
+      height: 48px;
+      display: grid;
+      place-items: center;
+      border: 1px solid rgba(255, 255, 255, 0.16);
+      background: linear-gradient(135deg, var(--green), var(--blue));
+      border-radius: 8px;
+      font-weight: 900;
+      font-size: 17px;
+      box-shadow: 0 16px 28px rgba(0, 168, 120, 0.22);
+    }
+
+    .rail button {
+      width: 46px;
+      height: 46px;
+      border: 1px solid rgba(255, 255, 255, 0.12);
+      background: rgba(255, 255, 255, 0.05);
+      color: rgba(255, 255, 255, 0.82);
+      border-radius: 8px;
+      cursor: pointer;
+      display: grid;
+      place-items: center;
+      transition: transform 160ms ease, background 160ms ease, color 160ms ease;
+    }
+
+    .rail button:hover,
+    .rail button.active {
+      transform: translateY(-2px);
+      color: #fff;
+      background: rgba(255, 255, 255, 0.16);
+    }
+
+    .main {
+      padding: 24px;
+    }
+
+    .topbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 18px;
+      margin-bottom: 22px;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 28px;
+      line-height: 1.1;
+      letter-spacing: 0;
+    }
+
+    .subline {
+      margin: 6px 0 0;
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    .top-actions {
+      display: flex;
+      gap: 10px;
+      align-items: center;
+      flex-wrap: wrap;
+      justify-content: flex-end;
+    }
+
+    .status-chip {
+      border: 1px solid var(--line);
+      background: var(--panel);
+      border-radius: 8px;
+      padding: 9px 12px;
+      color: var(--muted);
+      font-size: 13px;
+      white-space: nowrap;
+    }
+
+    .primary {
+      border: 0;
+      background: var(--ink);
+      color: #fff;
+      border-radius: 8px;
+      padding: 10px 14px;
+      cursor: pointer;
+      font-weight: 800;
+      box-shadow: 0 12px 22px rgba(16, 19, 22, 0.16);
+      transition: transform 160ms ease, box-shadow 160ms ease;
+    }
+
+    .primary:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 18px 30px rgba(16, 19, 22, 0.2);
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: minmax(0, 1.35fr) minmax(340px, 0.65fr);
+      gap: 18px;
+      align-items: start;
+    }
+
+    .panel {
+      background: rgba(255, 255, 255, 0.84);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      box-shadow: var(--shadow);
+      backdrop-filter: blur(14px);
+    }
+
+    .panel-head {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      padding: 16px 16px 0;
+    }
+
+    .panel h2 {
+      margin: 0;
+      font-size: 16px;
+      line-height: 1.2;
+    }
+
+    .panel-note {
+      color: var(--muted);
+      font-size: 12px;
+    }
+
+    .readiness {
+      padding: 16px;
+      display: grid;
+      grid-template-columns: 220px minmax(0, 1fr);
+      gap: 18px;
+      align-items: center;
+    }
+
+    .dial {
+      width: 192px;
+      height: 192px;
+      margin: 0 auto;
+      border-radius: 50%;
+      background:
+        conic-gradient(var(--green) calc(var(--score) * 1%), #e9eef1 0),
+        #fff;
+      display: grid;
+      place-items: center;
+      position: relative;
+      box-shadow: inset 0 0 0 12px #fff, 0 20px 35px rgba(0, 168, 120, 0.15);
+    }
+
+    .dial::after {
+      content: "";
+      position: absolute;
+      width: 126px;
+      height: 126px;
+      border-radius: 50%;
+      background: #fff;
+      border: 1px solid var(--line);
+    }
+
+    .dial strong,
+    .dial span {
+      position: relative;
+      z-index: 1;
+      display: block;
+      text-align: center;
+    }
+
+    .dial strong {
+      font-size: 38px;
+      line-height: 1;
+    }
+
+    .dial span {
+      margin-top: 6px;
+      color: var(--muted);
+      font-size: 12px;
+      text-transform: uppercase;
+      font-weight: 800;
+    }
+
+    .objectives {
+      display: grid;
+      gap: 10px;
+    }
+
+    .objective {
+      display: grid;
+      grid-template-columns: 34px minmax(0, 1fr) auto;
+      gap: 12px;
+      align-items: center;
+      padding: 12px;
+      background: #fff;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+    }
+
+    .check {
+      width: 34px;
+      height: 34px;
+      border: 1px solid var(--line);
+      background: #f5f8f7;
+      border-radius: 8px;
+      display: grid;
+      place-items: center;
+      cursor: pointer;
+      color: var(--muted);
+      font-weight: 900;
+    }
+
+    .check::before {
+      content: "";
+    }
+
+    .objective.done .check {
+      background: var(--green);
+      border-color: var(--green);
+      color: #fff;
+    }
+
+    .objective.done .check::before {
+      content: "✓";
+    }
+
+    .objective b {
+      display: block;
+      font-size: 14px;
+      line-height: 1.2;
+    }
+
+    .objective small {
+      color: var(--muted);
+      font-size: 12px;
+    }
+
+    .meter {
+      width: 92px;
+      height: 8px;
+      background: #e8eef1;
+      border-radius: 99px;
+      overflow: hidden;
+    }
+
+    .meter i {
+      display: block;
+      height: 100%;
+      width: var(--w);
+      background: linear-gradient(90deg, var(--green), var(--blue));
+      border-radius: inherit;
+      transition: width 180ms ease;
+    }
+
+    .mission-row {
+      margin-top: 18px;
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) minmax(290px, 0.68fr);
+      gap: 18px;
+    }
+
+    .focus {
+      padding: 16px;
+      min-height: 280px;
+    }
+
+    .focus-card {
+      margin-top: 14px;
+      padding: 18px;
+      background: #11161a;
+      color: #fff;
+      border-radius: 8px;
+      display: grid;
+      gap: 14px;
+      overflow: hidden;
+      position: relative;
+    }
+
+    .focus-card::before {
+      content: "";
+      position: absolute;
+      inset: auto -30px -70px auto;
+      width: 190px;
+      height: 190px;
+      border-radius: 50%;
+      background: radial-gradient(circle, rgba(244, 185, 66, 0.34), transparent 64%);
+    }
+
+    .focus-card h3 {
+      margin: 0;
+      font-size: 22px;
+      line-height: 1.15;
+      max-width: 580px;
+    }
+
+    .focus-card p {
+      margin: 0;
+      color: rgba(255, 255, 255, 0.7);
+      font-size: 14px;
+      line-height: 1.5;
+      max-width: 620px;
+    }
+
+    .focus-controls {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 10px;
+    }
+
+    .lever {
+      border: 1px solid rgba(255, 255, 255, 0.15);
+      background: rgba(255, 255, 255, 0.07);
+      color: #fff;
+      border-radius: 8px;
+      padding: 12px;
+      cursor: pointer;
+      text-align: left;
+      transition: transform 160ms ease, background 160ms ease;
+    }
+
+    .lever:hover,
+    .lever.active {
+      transform: translateY(-2px);
+      background: rgba(0, 168, 120, 0.28);
+    }
+
+    .lever b {
+      display: block;
+      font-size: 13px;
+    }
+
+    .lever span {
+      display: block;
+      margin-top: 5px;
+      color: rgba(255, 255, 255, 0.64);
+      font-size: 12px;
+    }
+
+    .pulse {
+      padding: 16px;
+    }
+
+    .bars {
+      display: grid;
+      gap: 11px;
+      margin-top: 16px;
+    }
+
+    .bar-row {
+      display: grid;
+      grid-template-columns: 94px minmax(0, 1fr) 42px;
+      gap: 10px;
+      align-items: center;
+      font-size: 12px;
+      color: var(--muted);
+    }
+
+    .bar {
+      height: 12px;
+      background: #edf2f4;
+      border-radius: 99px;
+      overflow: hidden;
+    }
+
+    .bar i {
+      display: block;
+      height: 100%;
+      width: var(--w);
+      background: var(--c);
+      border-radius: inherit;
+    }
+
+    .energy-control {
+      grid-template-columns: 94px minmax(0, 1fr) 42px;
+    }
+
+    input[type="range"] {
+      width: 100%;
+      accent-color: var(--green);
+      cursor: pointer;
+    }
+
+    .side {
+      display: grid;
+      gap: 18px;
+    }
+
+    .client-radar {
+      padding-bottom: 16px;
+    }
+
+    .radar-list {
+      display: grid;
+      gap: 10px;
+      padding: 16px 16px 0;
+    }
+
+    .client {
+      padding: 13px;
+      background: #fff;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) auto;
+      gap: 12px;
+      cursor: pointer;
+      transition: border-color 160ms ease, transform 160ms ease;
+    }
+
+    .client:hover,
+    .client.active {
+      transform: translateY(-2px);
+      border-color: var(--blue);
+    }
+
+    .client b {
+      display: block;
+      font-size: 14px;
+    }
+
+    .client small {
+      color: var(--muted);
+      font-size: 12px;
+    }
+
+    .tag {
+      align-self: start;
+      padding: 5px 8px;
+      border-radius: 99px;
+      background: var(--green-soft);
+      color: #047a59;
+      font-size: 11px;
+      font-weight: 900;
+      white-space: nowrap;
+    }
+
+    .workbench {
+      padding: 16px;
+    }
+
+    .task-list {
+      display: grid;
+      gap: 8px;
+      margin-top: 14px;
+    }
+
+    .task {
+      display: grid;
+      grid-template-columns: auto minmax(0, 1fr) auto;
+      gap: 10px;
+      align-items: center;
+      padding: 10px;
+      border: 1px solid var(--line);
+      background: #fff;
+      border-radius: 8px;
+      font-size: 13px;
+    }
+
+    .task input {
+      width: 17px;
+      height: 17px;
+      accent-color: var(--green);
+    }
+
+    .task span.done {
+      color: var(--muted);
+      text-decoration: line-through;
+    }
+
+    .mini-button {
+      border: 1px solid var(--line);
+      background: #fff;
+      border-radius: 8px;
+      padding: 8px 10px;
+      cursor: pointer;
+      font-size: 12px;
+      font-weight: 800;
+    }
+
+    .pipeline {
+      margin-top: 18px;
+      padding-bottom: 16px;
+    }
+
+    .lane {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(190px, 1fr));
+      gap: 12px;
+      padding: 16px 16px 0;
+      overflow-x: auto;
+    }
+
+    .lead {
+      min-height: 170px;
+      background: #fff;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 13px;
+      display: grid;
+      align-content: space-between;
+      gap: 12px;
+      cursor: pointer;
+      transition: transform 160ms ease, border-color 160ms ease, box-shadow 160ms ease;
+    }
+
+    .lead:hover,
+    .lead.hot {
+      transform: translateY(-3px);
+      border-color: var(--yellow);
+      box-shadow: 0 16px 28px rgba(244, 185, 66, 0.16);
+    }
+
+    .lead b {
+      display: block;
+      font-size: 15px;
+      margin-bottom: 6px;
+    }
+
+    .lead p {
+      margin: 0;
+      color: var(--muted);
+      font-size: 12px;
+      line-height: 1.4;
+    }
+
+    .lead-foot {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      color: var(--muted);
+      font-size: 12px;
+    }
+
+    .coin {
+      padding: 5px 8px;
+      border-radius: 99px;
+      background: var(--yellow-soft);
+      color: #7a5200;
+      font-weight: 900;
+    }
+
+    .toast {
+      position: fixed;
+      right: 22px;
+      bottom: 22px;
+      max-width: 360px;
+      padding: 13px 14px;
+      background: #11161a;
+      color: #fff;
+      border-radius: 8px;
+      box-shadow: 0 20px 38px rgba(16, 19, 22, 0.24);
+      transform: translateY(130%);
+      transition: transform 200ms ease;
+      z-index: 10;
+      font-size: 13px;
+    }
+
+    .toast.show {
+      transform: translateY(0);
+    }
+
+    @media (max-width: 1100px) {
+      .grid,
+      .mission-row {
+        grid-template-columns: 1fr;
+      }
+
+      .side {
+        grid-template-columns: 1fr 1fr;
+      }
+    }
+
+    @media (max-width: 760px) {
+      .app {
+        grid-template-columns: 1fr;
+      }
+
+      .rail {
+        position: static;
+        height: auto;
+        flex-direction: row;
+        justify-content: space-between;
+      }
+
+      .main {
+        padding: 16px;
+      }
+
+      .topbar {
+        align-items: flex-start;
+        flex-direction: column;
+      }
+
+      .top-actions {
+        justify-content: flex-start;
+      }
+
+      .readiness {
+        grid-template-columns: 1fr;
+      }
+
+      .focus-controls,
+      .side {
+        grid-template-columns: 1fr;
+      }
+
+      .lane {
+        grid-template-columns: repeat(4, 240px);
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="app">
+    <nav class="rail" aria-label="Dashboard sections">
+      <div class="mark">BW</div>
+      <button class="active" title="Command">⌂</button>
+      <button title="Pipeline">$</button>
+      <button title="Clients">◎</button>
+      <button title="Work">✓</button>
+      <button title="Systems">⚙</button>
+    </nav>
+
+    <main class="main">
+      <header class="topbar">
+        <div>
+          <h1>BridgeWorks Command Center</h1>
+          <p class="subline">Backend setup to launch BridgeWorks as a running agency.</p>
+        </div>
+        <div class="top-actions">
+          <div class="status-chip" id="clock">Budapest time</div>
+          <div class="status-chip">Active client: CEEFM</div>
+          <button class="primary" id="boost">Run focus boost</button>
+        </div>
+      </header>
+
+      <section class="grid">
+        <div>
+          <section class="panel">
+            <div class="panel-head">
+              <h2>Launch Readiness</h2>
+              <span class="panel-note">Click objectives to update the dial</span>
+            </div>
+            <div class="readiness">
+              <div class="dial" id="dial" style="--score: 25">
+                <div>
+                  <strong id="score">25%</strong>
+                  <span>agency live</span>
+                </div>
+              </div>
+              <div class="objectives" id="objectives">
+                <article class="objective" data-progress="25">
+                  <button class="check" aria-label="Toggle contact form"></button>
+                  <div>
+                    <b>Contact form lands in view</b>
+                    <small>Submission arrives somewhere visible within 5 minutes.</small>
+                  </div>
+                  <div class="meter" style="--w: 25%"><i></i></div>
+                </article>
+                <article class="objective" data-progress="25">
+                  <button class="check" aria-label="Toggle invoice flow"></button>
+                  <div>
+                    <b>Signed proposal to invoice</b>
+                    <small>Ready in under 10 minutes.</small>
+                  </div>
+                  <div class="meter" style="--w: 25%"><i></i></div>
+                </article>
+                <article class="objective" data-progress="25">
+                  <button class="check" aria-label="Toggle one-screen ops"></button>
+                  <div>
+                    <b>One-screen operating view</b>
+                    <small>Pipeline, client status, and today's work in one place.</small>
+                  </div>
+                  <div class="meter" style="--w: 25%"><i></i></div>
+                </article>
+                <article class="objective" data-progress="25">
+                  <button class="check" aria-label="Toggle personal site"></button>
+                  <div>
+                    <b>emmanuelehigbai.com next move</b>
+                    <small>Live or confirmed build start within 7 days.</small>
+                  </div>
+                  <div class="meter" style="--w: 25%"><i></i></div>
+                </article>
+              </div>
+            </div>
+          </section>
+
+          <div class="mission-row">
+            <section class="panel focus">
+              <div class="panel-head" style="padding:0">
+                <h2>Today's One</h2>
+                <span class="panel-note" id="modeLabel">Backend setup mode</span>
+              </div>
+              <div class="focus-card">
+                <h3 id="focusTitle">Pick one launch blocker and close it today.</h3>
+                <p id="focusCopy">Start with the contact form path. It is the fastest proof that the agency can receive demand, respond, and move a lead into a paid workflow.</p>
+                <div class="focus-controls">
+                  <button class="lever active" data-title="Contact form path" data-copy="Make one test submission, route it somewhere visible, and write the five-minute response habit.">
+                    <b>Inbound</b>
+                    <span>Form to visible alert</span>
+                  </button>
+                  <button class="lever" data-title="Invoice sprint" data-copy="Create the fastest path from signed proposal to invoice, with names, folders, and amounts ready.">
+                    <b>Money</b>
+                    <span>Proposal to invoice</span>
+                  </button>
+                  <button class="lever" data-title="Client delivery pulse" data-copy="Surface CEEFM next actions, weekly deliverables, blockers, and proof of movement in one scan.">
+                    <b>Delivery</b>
+                    <span>CEEFM status check</span>
+                  </button>
+                </div>
+              </div>
+            </section>
+
+            <section class="panel pulse">
+              <div class="panel-head" style="padding:0">
+                <h2>System Pulse</h2>
+                <span class="panel-note">Energy is live</span>
+              </div>
+              <div class="bars">
+                <div class="bar-row"><span>Inbound</span><div class="bar" style="--w: 45%; --c: var(--blue)"><i></i></div><b>45</b></div>
+                <div class="bar-row"><span>Delivery</span><div class="bar" style="--w: 72%; --c: var(--green)"><i></i></div><b>72</b></div>
+                <div class="bar-row"><span>Admin</span><div class="bar" style="--w: 38%; --c: var(--yellow)"><i></i></div><b>38</b></div>
+                <div class="bar-row energy-control"><span>Energy</span><input id="energySlider" type="range" min="0" max="100" value="64"><b id="energyValue">64</b></div>
+              </div>
+            </section>
+          </div>
+
+          <section class="panel pipeline">
+            <div class="panel-head">
+              <h2>Pipeline Lane</h2>
+              <span class="panel-note">Click a lead to mark it hot</span>
+            </div>
+            <div class="lane">
+              <article class="lead hot">
+                <div>
+                  <b>Olivik’s</b>
+                  <p>Local business research path. Needs clear offer and next contact step.</p>
+                </div>
+                <div class="lead-foot"><span>Lead</span><span class="coin">warm</span></div>
+              </article>
+              <article class="lead">
+                <div>
+                  <b>Central Europe SMBs</b>
+                  <p>Good fit for digital growth and automation bundles.</p>
+                </div>
+                <div class="lead-foot"><span>Segment</span><span class="coin">map</span></div>
+              </article>
+              <article class="lead">
+                <div>
+                  <b>Africa founder network</b>
+                  <p>Likely strongest source for proof-led BridgeWorks referrals.</p>
+                </div>
+                <div class="lead-foot"><span>Referral</span><span class="coin">ask</span></div>
+              </article>
+              <article class="lead">
+                <div>
+                  <b>Website inbound</b>
+                  <p>Contact form is the missing live wire. Close it first.</p>
+                </div>
+                <div class="lead-foot"><span>System</span><span class="coin">now</span></div>
+              </article>
+            </div>
+          </section>
+        </div>
+
+        <aside class="side">
+          <section class="panel client-radar">
+            <div class="panel-head">
+              <h2>Client Radar</h2>
+              <span class="panel-note">Status scan</span>
+            </div>
+            <div class="radar-list">
+              <article class="client active">
+                <div>
+                  <b>CEEFM Kft</b>
+                  <small>16-week digital growth engagement. Paid client.</small>
+                </div>
+                <span class="tag">active</span>
+              </article>
+              <article class="client">
+                <div>
+                  <b>BridgeWorks</b>
+                  <small>Backend buildout and lead generation.</small>
+                </div>
+                <span class="tag">primary</span>
+              </article>
+              <article class="client">
+                <div>
+                  <b>emmanuelehigbai.com</b>
+                  <small>Credibility asset. Launch or schedule build date.</small>
+                </div>
+                <span class="tag">priority</span>
+              </article>
+            </div>
+          </section>
+
+          <section class="panel workbench">
+            <div class="panel-head" style="padding:0">
+              <h2>Workbench</h2>
+              <button class="mini-button" id="addTask">Add tiny win</button>
+            </div>
+            <div class="task-list" id="tasks">
+              <label class="task"><input type="checkbox"><span>Test contact form route</span><small>10m</small></label>
+              <label class="task"><input type="checkbox"><span>Invoice path dry run</span><small>15m</small></label>
+              <label class="task"><input type="checkbox"><span>CEEFM next action note</span><small>8m</small></label>
+              <label class="task"><input type="checkbox"><span>Pick prospecting stack</span><small>12m</small></label>
+            </div>
+          </section>
+        </aside>
+      </section>
+    </main>
+  </div>
+
+  <div class="toast" id="toast">Focus boost applied.</div>
+
+  <script>
+    const $ = (selector, scope = document) => scope.querySelector(selector);
+    const $$ = (selector, scope = document) => Array.from(scope.querySelectorAll(selector));
+
+    const toast = $("#toast");
+    const score = $("#score");
+    const dial = $("#dial");
+    const energyValue = $("#energyValue");
+    const energySlider = $("#energySlider");
+    let toastTimer;
+    let tinyWins = 0;
+
+    function showToast(message) {
+      toast.textContent = message;
+      toast.classList.add("show");
+      clearTimeout(toastTimer);
+      toastTimer = setTimeout(() => toast.classList.remove("show"), 2200);
+    }
+
+    function updateScore() {
+      const done = $$(".objective.done").length;
+      const value = 25 + done * 18;
+      score.textContent = `${Math.min(value, 97)}%`;
+      dial.style.setProperty("--score", Math.min(value, 97));
+    }
+
+    $$(".objective").forEach((objective) => {
+      $(".check", objective).addEventListener("click", () => {
+        objective.classList.toggle("done");
+        const meter = $(".meter", objective);
+        meter.style.setProperty("--w", objective.classList.contains("done") ? "100%" : "25%");
+        updateScore();
+        showToast(objective.classList.contains("done") ? "Objective moved forward." : "Objective reopened.");
+      });
+    });
+
+    $$(".lever").forEach((lever) => {
+      lever.addEventListener("click", () => {
+        $$(".lever").forEach((item) => item.classList.remove("active"));
+        lever.classList.add("active");
+        $("#focusTitle").textContent = lever.dataset.title;
+        $("#focusCopy").textContent = lever.dataset.copy;
+        $("#modeLabel").textContent = `${$("b", lever).textContent} mode`;
+        showToast(`${$("b", lever).textContent} focus selected.`);
+      });
+    });
+
+    $$(".lead").forEach((lead) => {
+      lead.addEventListener("click", () => {
+        lead.classList.toggle("hot");
+        $(".coin", lead).textContent = lead.classList.contains("hot") ? "hot" : "warm";
+        showToast(`${$("b", lead).textContent} updated in the lane.`);
+      });
+    });
+
+    $$(".client").forEach((client) => {
+      client.addEventListener("click", () => {
+        $$(".client").forEach((item) => item.classList.remove("active"));
+        client.classList.add("active");
+        showToast(`${$("b", client).textContent} is now on radar.`);
+      });
+    });
+
+    $("#boost").addEventListener("click", () => {
+      const next = Math.min(Number(energyValue.textContent) + 9, 100);
+      energyValue.textContent = next;
+      energySlider.value = next;
+      showToast("Focus boost applied. Close one small thing now.");
+    });
+
+    energySlider.addEventListener("input", () => {
+      energyValue.textContent = energySlider.value;
+    });
+
+    $("#addTask").addEventListener("click", () => {
+      tinyWins += 1;
+      const label = document.createElement("label");
+      label.className = "task";
+      label.innerHTML = `<input type="checkbox"><span>Tiny win ${tinyWins}: write the next clean action</span><small>5m</small>`;
+      $("#tasks").prepend(label);
+      bindTask(label);
+      showToast("Tiny win added to the bench.");
+    });
+
+    function bindTask(task) {
+      const input = $("input", task);
+      const text = $("span", task);
+      input.addEventListener("change", () => {
+        text.classList.toggle("done", input.checked);
+        showToast(input.checked ? "Closed. Nice and specific." : "Back on the bench.");
+      });
+    }
+
+    $$(".task").forEach(bindTask);
+
+    function tick() {
+      const formatter = new Intl.DateTimeFormat("en-GB", {
+        hour: "2-digit",
+        minute: "2-digit",
+        timeZone: "Europe/Budapest"
+      });
+      $("#clock").textContent = `${formatter.format(new Date())} Budapest`;
+    }
+
+    tick();
+    setInterval(tick, 30000);
+  </script>
+</body>
+</html>

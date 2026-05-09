@@ -1,0 +1,128 @@
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+  * { font-family: 'Inter', sans-serif; box-sizing: border-box; }
+  .app { display: flex; height: 500px; border: 1px solid #E0D9CE; border-radius: 8px; overflow: hidden; }
+  .sidebar { width: 180px; background: #F9F5EE; border-right: 1px solid #E0D9CE; padding: 12px; flex-shrink: 0; }
+  .nav-item { padding: 6px 8px; border-radius: 5px; font-size: 10px; color: #6B6560; margin-bottom: 2px; }
+  .nav-item.active { background: #0F1A2E; color: #F5F0E8; font-weight: 700; }
+  .main { flex: 1; padding: 20px 22px; background: #F5F0E8; overflow-y: auto; }
+  .section-title { font-size: 15px; font-weight: 700; color: #0F1A2E; margin-bottom: 4px; }
+  .section-desc { font-size: 12px; color: #6B6560; margin-bottom: 14px; line-height: 1.6; }
+
+  /* Upload zone */
+  .upload-zone { border: 1.5px dashed #B8860B; border-radius: 8px; padding: 16px 14px;
+    background: #FDFAF4; margin-bottom: 10px; }
+  .upload-zone-row { display: flex; gap: 8px; align-items: flex-start; flex-wrap: wrap; }
+  .upload-btn { display: flex; align-items: center; gap: 6px; padding: 7px 12px;
+    border: 1px solid #D4C8B8; border-radius: 6px; background: #fff;
+    font-size: 11px; font-weight: 600; color: #0F1A2E; cursor: pointer; flex-shrink: 0; }
+  .upload-btn-icon { font-size: 13px; }
+  .upload-divider { font-size: 10px; color: #9B8E82; align-self: center; padding: 0 2px; }
+  .url-input { flex: 1; min-width: 160px; height: 32px; border: 1px solid #D4C8B8;
+    border-radius: 6px; padding: 0 10px; font-size: 11px; color: #0F1A2E;
+    background: #fff; outline: none; }
+  .fetch-btn { padding: 7px 12px; background: #0F1A2E; color: #F5F0E8;
+    border: none; border-radius: 6px; font-size: 11px; font-weight: 700; cursor: pointer; flex-shrink: 0; }
+  .upload-hint { font-size: 9px; color: #9B8E82; margin-top: 8px; }
+
+  /* Extracted files chips */
+  .chips { display: flex; gap: 5px; flex-wrap: wrap; margin-bottom: 10px; }
+  .chip { display: flex; align-items: center; gap: 5px; padding: 3px 8px 3px 10px;
+    background: #fff; border: 1px solid #D4C8B8; border-radius: 20px;
+    font-size: 10px; color: #0F1A2E; font-weight: 500; }
+  .chip-remove { color: #9B8E82; cursor: pointer; font-size: 12px; line-height: 1; }
+  .chip-icon { font-size: 11px; }
+
+  /* Loading state chip */
+  .chip-loading { background: #F9F5EE; border-color: #E0D9CE; color: #9B8E82; }
+  .chip-dot { width: 6px; height: 6px; border-radius: 50%; background: #B8860B;
+    animation: pulse 1s ease-in-out infinite; }
+  @keyframes pulse { 0%,100%{opacity:.3} 50%{opacity:1} }
+
+  /* Textarea */
+  .textarea { width: 100%; padding: 8px 10px; border: 1px solid #E0D9CE; border-radius: 6px;
+    background: #fff; font-size: 12px; color: #0F1A2E; line-height: 1.6;
+    resize: vertical; font-family: inherit; min-height: 90px; }
+  .textarea-label { font-size: 11px; color: #6B6560; margin-bottom: 4px; font-weight: 500; }
+
+  .lbl { font-size: 9px; font-weight: 700; text-transform: uppercase;
+    letter-spacing: 0.08em; color: #6B6560; margin-bottom: 8px; }
+  .annot { font-size: 9px; background: #FEF3CD; border: 1px solid #E8D098;
+    border-radius: 4px; padding: 3px 8px; color: #7D5A00; display: inline-block; margin-left: 6px; }
+</style>
+
+<h2>File Upload — UI Design</h2>
+<p class="subtitle">Upload zone appears above the paste area in Discover, Intelligence, and Learn. Extracted text feeds directly into the textarea.</p>
+
+<div class="app" style="margin-top: 20px;">
+  <div class="sidebar">
+    <div style="font-size:9px;font-weight:700;color:#6B6560;text-transform:uppercase;letter-spacing:.08em;margin-bottom:8px;">Pipeline</div>
+    <div class="nav-item">Generate</div>
+    <div class="nav-item">Discover</div>
+    <div class="nav-item active">Intelligence <span class="annot">viewing</span></div>
+    <div class="nav-item">Plan</div>
+    <div class="nav-item">Learn</div>
+  </div>
+  <div class="main">
+    <div class="section-title">Intelligence</div>
+    <div class="section-desc">Paste 5–20 past posts, or upload files and links to extract content automatically.</div>
+
+    <!-- Upload zone -->
+    <div class="lbl">Upload source material</div>
+    <div class="upload-zone">
+      <div class="upload-zone-row">
+        <button class="upload-btn"><span class="upload-btn-icon">📄</span> Choose files</button>
+        <span class="upload-divider">or</span>
+        <input class="url-input" placeholder="Paste a URL to fetch..." value="" />
+        <button class="fetch-btn">Fetch →</button>
+      </div>
+      <div class="upload-hint">PDF · Word · Excel · CSV · TXT · MD &nbsp;·&nbsp; Max 4MB per file &nbsp;·&nbsp; Public URLs only</div>
+    </div>
+
+    <!-- Extracted file chips (state: 2 done, 1 loading) -->
+    <div class="chips">
+      <div class="chip"><span class="chip-icon">📄</span> ceefm-posts-april.docx <span class="chip-remove">×</span></div>
+      <div class="chip"><span class="chip-icon">📊</span> analytics-may.xlsx <span class="chip-remove">×</span></div>
+      <div class="chip chip-loading"><div class="chip-dot"></div> fetching ceefm.eu...</div>
+    </div>
+
+    <!-- Textarea — pre-populated from extraction -->
+    <div class="textarea-label">Past posts <span style="color:#9B8E82;font-size:10px;">— extracted from files above + any manual additions</span></div>
+    <textarea class="textarea" rows="5">The difference between a 4-star and a 5-star room is 11 minutes of attention.
+---
+CEEFM has managed facilities across Budapest since 2010.
+---
+[extracted from ceefm-posts-april.docx — 8 posts]</textarea>
+
+    <div style="margin-top:10px;">
+      <div class="textarea-label">Performance notes (optional)</div>
+      <textarea class="textarea" rows="2" placeholder="e.g. 'AI post got 3x reach'..."></textarea>
+    </div>
+  </div>
+</div>
+
+<div style="margin-top:20px;display:grid;grid-template-columns:1fr 1fr;gap:16px;">
+  <div style="border:1px solid #E0D9CE;border-radius:8px;padding:14px;background:#fff;">
+    <div class="lbl">Data flow</div>
+    <div style="font-size:11px;color:#0F1A2E;line-height:1.8;">
+      1. User selects files or pastes URL<br>
+      2. Sent to <code style="background:#F5F0E8;padding:1px 5px;border-radius:3px;">/api/extract</code><br>
+      3. Server extracts plain text<br>
+      4. Text <b>appended</b> to textarea<br>
+      5. Chip shows filename — click × to remove<br>
+      6. User edits textarea if needed<br>
+      7. Hits Analyze as normal
+    </div>
+  </div>
+  <div style="border:1px solid #E0D9CE;border-radius:8px;padding:14px;background:#fff;">
+    <div class="lbl">What each format extracts</div>
+    <div style="font-size:11px;color:#0F1A2E;line-height:1.8;">
+      <b>PDF</b> — full text, page by page<br>
+      <b>Word (.docx)</b> — paragraphs as plain text<br>
+      <b>Excel (.xlsx)</b> — each sheet, rows as lines<br>
+      <b>CSV</b> — rows as comma-separated lines<br>
+      <b>TXT / MD</b> — raw content<br>
+      <b>URL</b> — visible page text, tags stripped
+    </div>
+  </div>
+</div>
