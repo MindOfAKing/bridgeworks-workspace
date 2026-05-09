@@ -1,0 +1,10 @@
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html, body { height: 100%; font-family: 'Inter', -apple-system, system-ui, sans-serif; background: #F5F0E8; color: #0F1A2E; }
+#__next { height: 100%; }
+textarea, input { font-family: inherit; }
+button { font-family: inherit; }
+::-webkit-scrollbar { width: 5px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: #D4C8B8; border-radius: 3px; }
+@keyframes sk { 0%,100%{opacity:.3} 50%{opacity:1} }
+@keyframes spin { to{transform:rotate(360deg)} }
