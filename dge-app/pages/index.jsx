@@ -39,6 +39,19 @@ const MY_BRANDS = {
       visualDNA:'Deep Navy #1C2B3A, Gold #B8860B, Ivory #F5F0E8. Poetic, contemplative, moody. Faith-rooted without religious imagery.',
     }
   },
+  CEEFM: {
+    id:'CEEFM', name:'CEEFM Kft', color:'#1C3D2A', accent:'#B8860B',
+    profile: {
+      positioning:'Budapest-based FM specialist delivering integrated cleaning, maintenance, and property operations for hotels, aparthotels, and residential buildings. Founded 2010. Trusted by Limehome. 50+ properties under management.',
+      audience:'Hotel and aparthotel property managers and directors in Budapest. Residential building operators. B2B decision-makers, often multilingual (EN/HU).',
+      tone:'Professional and specific. Solution-oriented. Numbers and outcomes, not claims. Short sentences. Bilingual EN/HU.',
+      voiceRules:['Specific numbers — costs, timeframes, property counts','Short sentences. One idea per sentence.','ZERO em dashes','ZERO AI slop: seamless, innovative, holistic, passionate about','Proof before claims — Limehome, 50+ properties, since 2010','Bilingual: EN primary, HU for local audience'],
+      pillars:['Operational reliability','Integrated vs multi-vendor contracts','Pre-emptive vs reactive FM','Bilingual Budapest expertise','Hospitality FM specialisation'],
+      noFly:['seamless','innovative','holistic','passionate about','solutions-driven','world-class','cutting-edge'],
+      visualDNA:'Forest Green #1C3D2A, Warm Cream #F5F2EC, Gold #B8860B. Clean, professional, operational. Editorial property photography. Never: generic cleaning stock photos.',
+      contentPillars:['Operational reliability','Integrated contracts','Pre-emptive FM','Hospitality specialisation','Bilingual Budapest expertise'],
+    }
+  },
 };
 
 // ── Storage helpers ──────────────────────────────────────────
@@ -740,6 +753,19 @@ export default function Home() {
       const p = LS.get(`dge-profile-${id}`); if (p) prof[id] = p;
       const i = LS.get(`dge-intel-${id}`); if (i) int[id] = i;
     });
+    if (!LS.get('dge-intel-CEEFM')) {
+      const ceefmIntel = {
+        postCount: 4,
+        voiceFingerprint: 'Operational authority. Specific numbers and timelines. Checklist-style content performs well. Posts naming real costs (30% less, 3x more expensive) outperform generic claims. EN/HU bilingual posts reach both hospitality decision-makers and local property operators. The "11 minutes of attention" line — precise, memorable, hospitality-native.',
+        whatWorked: 'Numbered checklists with operational specifics (AC commissioning, Legionella risk window, pest control pre-booking cost). Positioning CEEFM service as integrated vs. multi-vendor fragmentation. Facebook intro anchored to credentials (since 2010, Limehome, 50+ properties). Contact info at post end drives direct enquiries.',
+        continuityNotes: 'Always lead with a specific operational problem or seasonal calendar trigger. End with office@ceefm.eu and +36 30 600 5400. Keep bilingual — EN primary, HU available for local operators. Never use generic FM language. Always tie advice to real cost or risk consequence.',
+        contentGaps: ['Case studies from named hotel clients beyond Limehome','Residential FM differentiation from hotel FM','SolaCare solar O&M — underexposed service line','Team and culture content — who actually does the work','Response time and SLA proof points'],
+        nextIdeas: ['What integrated FM saves vs 3 separate vendors — with numbers','Legionella risk window — seasonal content for hotel operators','The 11-minute standard: what it means in a hotel room turn','SolaCare intro: solar O&M as a standalone pitch','A day in the life of a Budapest FM contract'],
+        date: '10 May 2026',
+      };
+      LS.set('dge-intel-CEEFM', ceefmIntel);
+      int['CEEFM'] = ceefmIntel;
+    }
     setProfiles(prof); setIntels(int); setIntakes(inta);
 
     fetch('/api/claude', { method:'POST', headers:{'Content-Type':'application/json'}, body:JSON.stringify({ system:'reply ok', user:'ping', max_tokens:5 }) })
