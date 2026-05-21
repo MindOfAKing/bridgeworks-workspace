@@ -1,0 +1,183 @@
+To: office@bridgeworks.agency
+Subject: YouTube Intelligence -- 2026-05-21 evening
+
+Scanned 27 channels + 0 topic queries. Found 20 new videos.
+
+---
+
+## From Followed Channels
+
+**Alex Hormozi -- offers, acquisition -- There's Always 1 Constraint**
+https://www.youtube.com/watch?v=Z1tOBULRiIQ
+Published: 2026-05-21
+What it covers: Business growth usually stalls at one bottleneck. This clip walks through how to find and fix the single constraint holding revenue back.
+Type: strategy
+Flags: none
+Applies to: bridgeworks
+
+**Alex Hormozi -- offers, acquisition -- Give 2 Options When You Close**
+https://www.youtube.com/watch?v=k4mDTwxIfYE
+Published: 2026-05-21
+What it covers: Sales close tactic -- give prospects two options instead of a binary yes/no, which shifts the conversation from "if" to "which one."
+Type: strategy
+Flags: [OFFER]
+Applies to: bridgeworks
+
+**Alex Hormozi -- offers, acquisition -- 4 Ways To Influence People**
+https://www.youtube.com/watch?v=zQvXS0vv3Ck
+Published: 2026-05-21
+What it covers: Four-part influence framework for sales conversations and client communication.
+Type: framework
+Flags: [SKILL]
+Applies to: bridgeworks, personal-brand
+
+**Bo Sar -- AI agency, n8n, voice AI -- How to Build and Sell Claude Cowork Plugins (Full Playbook)**
+https://www.youtube.com/watch?v=azvs_Pqr_nc
+Published: 2026-05-21
+What it covers: Step-by-step playbook for building Claude Cowork plugins and taking them to market. Connected to the AIF.academy framework.
+Type: workflow
+Flags: [OFFER] [SKILL]
+Applies to: bridgeworks
+
+**Dave Ebbelaar -- Python AI workflows -- Your Pip Install Is a Backdoor - Fix This Now!**
+https://www.youtube.com/watch?v=bw1ZLzdXJn4
+Published: 2026-05-21
+What it covers: Supply chain security risk in unverified Python pip installs. Covers specific steps to identify and close the vulnerability in AI workflow environments.
+Type: tool
+Flags: [SKILL]
+Applies to: bridgeworks
+
+**Jack Roberts -- UK tech founder, 7-figure AI automation business -- Google's AntiGravity 2.0 Just Dropped, and...**
+https://www.youtube.com/watch?v=r5ZPO_O1ql4
+Published: 2026-05-20
+What it covers: First take on Google AntiGravity 2.0 and what it means for AI automation businesses. Claude Code course linked in description.
+Type: tool
+Flags: none
+Applies to: all
+
+**Jason Wardrop -- agency lead gen -- How AI Books Clients for You!**
+https://www.youtube.com/watch?v=VA2VFj5ABUU
+Published: 2026-05-21
+What it covers: AI system for automating lead generation and appointment booking, aimed at software and service businesses.
+Type: workflow
+Flags: [OFFER]
+Applies to: bridgeworks
+
+**Matt Wolfe -- AI tools weekly -- Notion Drops Massive Update For Developers**
+https://www.youtube.com/watch?v=E6kQi65PKNc
+Published: 2026-05-21
+What it covers: Notion's new Developer Platform is live. Covers what builders can now create inside Notion with the new API.
+Type: tool
+Flags: none
+Applies to: bridgeworks
+
+**Nate Herk -- n8n + Claude Code, selling automation -- The One Habit That Doubles Your Claude Code Session Limit**
+https://www.youtube.com/watch?v=6cEQEba0i2A
+Published: 2026-05-21
+What it covers: Prompt caching technique that extends usable Claude Code sessions before hitting token limits. Skool community link for full course.
+Type: workflow
+Flags: [SKILL]
+Applies to: bridgeworks
+
+**Patrick Dang -- B2B/tech sales, online business, freedom -- I Asked Claude To Make Me as Much Money as Possible**
+https://www.youtube.com/watch?v=iYFAG-uXlOk
+Published: 2026-05-21
+What it covers: Experiment prompting Claude to design and execute a monetization plan for a one-person business. Free live training linked.
+Type: strategy
+Flags: [OFFER]
+Applies to: bridgeworks, personal-brand
+
+**Paul J Lipsky -- non-technical AI user, tools for business -- The Gemini Updates From IO Were Insane! (Here's What's New)**
+https://www.youtube.com/watch?v=VJUvn4i5Fbc
+Published: 2026-05-21
+What it covers: Full rundown of Gemini updates from Google I/O 2026. Framed for business users, not engineers. Google-sponsored visit.
+Type: tool
+Flags: none
+Applies to: all
+
+**Sandy Lee AI -- AI sales automation, systems thinking -- These 3 Claude Skills Just Replaced My Entire Marketing Team**
+https://www.youtube.com/watch?v=mEaQERcE4ZE
+Published: 2026-05-21
+What it covers: Three specific Claude skills (free download of 10 total) that handle marketing execution end-to-end without a human team.
+Type: workflow
+Flags: [SKILL]
+Applies to: bridgeworks
+
+**Sandy Lee AI -- AI sales automation, systems thinking -- The Mom Who Left Her 9-5 & Doubled Her Income With Claude Cowork (Live Demo)**
+https://www.youtube.com/watch?v=eUwgco46VwE
+Published: 2026-05-20
+What it covers: Live demo of a client using a LinkedIn CRM workflow in Claude Cowork to replace her employment income. Case study format.
+Type: business-model
+Flags: [OFFER] [SKILL]
+Applies to: personal-brand
+
+**Simon Squibb -- entrepreneurship -- He doesn't realise his potential...**
+https://www.youtube.com/watch?v=EjfgiqMrP5s
+Published: 2026-05-21
+What it covers: Short-form street interview or reaction clip about someone not seeing their own potential. Mindset content.
+Type: strategy
+Flags: none
+Applies to: personal-brand
+
+**Success With Sam -- eBay/Shopify dropshipping, digital products -- Claude NEW AI Lazy Way to Start a One Person Business**
+https://www.youtube.com/watch?v=Oe13yCBCW4w
+Published: 2026-05-20
+What it covers: Using Claude AI to set up and run a one-person digital products business with minimal manual effort.
+Type: business-model
+Flags: [OFFER]
+Applies to: mindofaking
+
+**Tina Huang -- vibe coding, AI education, workshops -- Brutally Honest AI Advice**
+https://www.youtube.com/watch?v=qYbPJ-pY3kA
+Published: 2026-05-21
+What it covers: Direct perspective on AI adoption. Paired with a free 28-day sprint roadmap broken into daily steps.
+Type: strategy
+Flags: [SKILL]
+Applies to: all
+
+**Vaibhav Sisinty -- AI-first business, growth, LinkedIn -- The Era of Coding Just Ended. (Google Antigravity 2.0)**
+https://www.youtube.com/watch?v=M2DzY0c9rjI
+Published: 2026-05-21
+What it covers: Argues Google Antigravity 2.0 removes the need for traditional coding. Positioning context for AI automation businesses.
+Type: tool
+Flags: none
+Applies to: all
+
+**Vaibhav Sisinty -- AI-first business, growth, LinkedIn -- Anthropic's Claude 4.5 Just Replaced Your Social Media Team**
+https://www.youtube.com/watch?v=BFbpY9E57KE
+Published: 2026-05-21
+What it covers: Workflow for using Claude 4.5 to generate and manage social media content without a dedicated team.
+Type: tool
+Flags: [SKILL]
+Applies to: bridgeworks, personal-brand
+
+**Vaibhav Sisinty -- AI-first business, growth, LinkedIn -- Everything You Missed from Google I/O 2026 (The Big 10)**
+https://www.youtube.com/watch?v=YF48yOAudVg
+Published: 2026-05-21
+What it covers: Top 10 announcements from Google I/O 2026 -- new AI models, tools, and integrations in one place.
+Type: tool
+Flags: none
+Applies to: all
+
+**Y Combinator -- startup frameworks, AI-native agencies -- How to Build a Self-Improving Company with AI**
+https://www.youtube.com/watch?v=X_JsIHUfUjc
+Published: 2026-05-21
+What it covers: YC GP Tom Blomfield's framework for building a company that uses AI to find and fix its own bottlenecks over time.
+Type: framework
+Flags: [SKILL]
+Applies to: bridgeworks
+
+---
+
+## Skipped
+None -- all 27 channels returned valid API responses.
+
+Note: 12 channels had no new uploads in the last 24 hours (not errors): Liam Ottley, Nick Saraev, Greg Isenberg, Iman Gadzhi, Fireship, Marc Lou, Zubair Trabzada, Dan Koe, Austin Marchese, Michia Rohrssen, Build Great Products, Eliot Prince.
+
+---
+
+## Running totals
+- Channels scanned: 27 of 27
+- Videos found: 20
+- Offer flags: 6
+- Skill candidate flags: 9
