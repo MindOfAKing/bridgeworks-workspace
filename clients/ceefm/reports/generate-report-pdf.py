@@ -46,9 +46,29 @@ BASE = Path(__file__).resolve().parent
 CHARTS_DIR = BASE / "charts" / "2026-04"
 CAPTIONS_FILE = CHARTS_DIR / "captions.md"
 
-CEEFM_LOGO = Path("C:/Users/ELITEX21012G2/Projects/bridgeworks-workspace/clients/ceefm/brand-visuals/logo/ceefm-logo.png")
-BW_ICON_LIGHT = Path("C:/Users/ELITEX21012G2/brand-assets/bridgeworks/logos/bridgeworks-icon-light-400px.png")
-BW_ICON_DARK = Path("C:/Users/ELITEX21012G2/brand-assets/bridgeworks/logos/bridgeworks-icon-dark-400px.png")
+def _first_existing_path(*candidates: Path) -> Path | None:
+    for p in candidates:
+        try:
+            if p.exists():
+                return p
+        except OSError:
+            continue
+    return None
+
+
+CEEFM_LOGO = _first_existing_path(
+    (BASE.parent / "brand-visuals" / "logo" / "ceefm-logo.png"),
+)
+
+BW_ICON_LIGHT = _first_existing_path(
+    (BASE.parent / "brand-visuals" / "bridgeworks" / "bridgeworks-icon-light-400px.png"),
+    Path("C:/Users/ELITEX21012G2/brand-assets/bridgeworks/logos/bridgeworks-icon-light-400px.png"),
+)
+
+BW_ICON_DARK = _first_existing_path(
+    (BASE.parent / "brand-visuals" / "bridgeworks" / "bridgeworks-icon-dark-400px.png"),
+    Path("C:/Users/ELITEX21012G2/brand-assets/bridgeworks/logos/bridgeworks-icon-dark-400px.png"),
+)
 
 NAVY = HexColor("#0F1A2E")
 GOLD = HexColor("#B8860B")
@@ -236,7 +256,7 @@ def draw_body_chrome(canvas, doc):
     # Footer chrome
     footer_y = 18
     icon_size = 16
-    if BW_ICON_DARK.exists():
+    if BW_ICON_DARK and BW_ICON_DARK.exists():
         try:
             canvas.drawImage(
                 str(BW_ICON_DARK),
@@ -279,7 +299,7 @@ def draw_cover_chrome(canvas, doc):
     canvas.rect(0, band_y - 4, W, 4, fill=1, stroke=0)
 
     # CEEFM logo top-right of the navy band (client mark)
-    if CEEFM_LOGO.exists():
+    if CEEFM_LOGO and CEEFM_LOGO.exists():
         try:
             logo_size = 64
             canvas.drawImage(
@@ -295,7 +315,7 @@ def draw_cover_chrome(canvas, doc):
             pass
 
     # BridgeWorks icon bottom-right above the footer (agency mark)
-    if BW_ICON_DARK.exists():
+    if BW_ICON_DARK and BW_ICON_DARK.exists():
         try:
             bw_size = 28
             canvas.drawImage(

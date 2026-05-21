@@ -1,0 +1,153 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+2 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Times-Bold >>
+endobj
+3 0 obj
+<< /Length 1716 >>
+stream
+0.9608 0.9412 0.9098 rg 0 0 612 792 re f
+0.0588 0.1020 0.1804 rg 0.0 610.0 612.0 182.0 re f
+0.7216 0.5255 0.0431 rg 54.0 632.0 6.0 110.0 re f
+BT /F2 18 Tf 0.9608 0.9412 0.9098 rg 78.0 724.0 Td (BridgeWorks.agency) Tj ET
+BT /F2 34 Tf 0.9608 0.9412 0.9098 rg 78.0 684.0 Td (GEO Audit Preview) Tj ET
+BT /F1 17 Tf 0.9608 0.9412 0.9098 rg 78.0 650.0 Td (Pyramidon | pyramidon.hu/en) Tj ET
+BT /F1 10 Tf 0.9608 0.9412 0.9098 rg 78.0 626.0 Td (Prepared 2026-05-19) Tj ET
+BT /F2 19 Tf 0.0588 0.1020 0.1804 rg 54.0 552.0 Td (Audit thesis) Tj ET
+BT /F1 12 Tf 0.1098 0.1686 0.2275 rg 54.0 520.0 Td (Pyramidon already has strong proof: 6,500+ apartments managed, 35+ years of) Tj ET
+BT /F1 12 Tf 0.1098 0.1686 0.2275 rg 54.0 503.0 Td (experience, 98% client satisfaction, named team members, direct emails, and) Tj ET
+BT /F1 12 Tf 0.1098 0.1686 0.2275 rg 54.0 486.0 Td (clear Budapest district focus. The gap is not substance. The gap is that) Tj ET
+BT /F1 12 Tf 0.1098 0.1686 0.2275 rg 54.0 469.0 Td (this proof is not yet packaged for AI systems, answer engines, and local) Tj ET
+BT /F1 12 Tf 0.1098 0.1686 0.2275 rg 54.0 452.0 Td (search platforms to confidently cite and recommend the company.) Tj ET
+1.0000 1.0000 1.0000 rg 54.0 310.0 504.0 92.0 re f
+0.7216 0.5255 0.0431 rg 54.0 310.0 6.0 92.0 re f
+BT /F2 15 Tf 0.0588 0.1020 0.1804 rg 78.0 360.0 Td (Preview GEO Readiness) Tj ET
+BT /F2 34 Tf 0.0588 0.1020 0.1804 rg 78.0 326.0 Td (50/100) Tj ET
+BT /F1 11 Tf 0.1098 0.1686 0.2275 rg 210.0 336.0 Td (Below Average | preview score, not a full audit score) Tj ET
+BT /F1 8 Tf 0.3800 0.3800 0.3800 rg 54.0 32.0 Td (office@bridgeworks.agency | bridgeworks.agency) Tj ET
+BT /F1 8 Tf 0.3800 0.3800 0.3800 rg 540.0 32.0 Td (1) Tj ET
+endstream
+endobj
+4 0 obj
+<< /Type /Page /Parent 11 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 3 0 R >>
+endobj
+5 0 obj
+<< /Length 2393 >>
+stream
+0.9608 0.9412 0.9098 rg 0 0 612 792 re f
+BT /F2 25 Tf 0.0588 0.1020 0.1804 rg 54.0 728.0 Td (Three GEO Findings) Tj ET
+0.7216 0.5255 0.0431 rg 54.0 694.0 504.0 1.5 re f
+BT /F2 14 Tf 0.0588 0.1020 0.1804 rg 54.0 660.0 Td (1. Strong proof exists, but it is not packaged for AI citation) Tj ET
+BT /F1 9 Tf 0.7216 0.5255 0.0431 rg 474.0 660.0 Td (Severity: High) Tj ET
+BT /F1 10.5 Tf 0.1098 0.1686 0.2275 rg 54.0 636.0 Td (The homepage has numbers and proof that AI systems like: 6,500+ apartments, 35+) Tj ET
+BT /F1 10.5 Tf 0.1098 0.1686 0.2275 rg 54.0 622.0 Td (years, 98% satisfaction, services, districts, team members, and offices. But these) Tj ET
+BT /F1 10.5 Tf 0.1098 0.1686 0.2275 rg 54.0 608.0 Td (are concentrated on one long page. AI systems cite concise, self-contained answer) Tj ET
+BT /F1 10.5 Tf 0.1098 0.1686 0.2275 rg 54.0 594.0 Td (blocks and dedicated pages more reliably than broad homepage sections.) Tj ET
+BT /F2 14 Tf 0.0588 0.1020 0.1804 rg 54.0 562.0 Td (2. Human trust signals need entity markup) Tj ET
+BT /F1 9 Tf 0.7216 0.5255 0.0431 rg 474.0 562.0 Td (Severity: High) Tj ET
+BT /F1 10.5 Tf 0.1098 0.1686 0.2275 rg 54.0 538.0 Td (Pyramidon has named staff, roles, emails, phone numbers, services, and office) Tj ET
+BT /F1 10.5 Tf 0.1098 0.1686 0.2275 rg 54.0 524.0 Td (locations. These should be connected with Organization or LocalBusiness schema,) Tj ET
+BT /F1 10.5 Tf 0.1098 0.1686 0.2275 rg 54.0 510.0 Td (Service schema, Person schema, ContactPoint, FAQPage, BreadcrumbList, and sameAs) Tj ET
+BT /F1 10.5 Tf 0.1098 0.1686 0.2275 rg 54.0 496.0 Td (links to verified third-party profiles.) Tj ET
+BT /F2 14 Tf 0.0588 0.1020 0.1804 rg 54.0 464.0 Td (3. The AI crawler and indexing layer needs verification) Tj ET
+BT /F1 9 Tf 0.2902 0.4039 0.2549 rg 474.0 464.0 Td (Severity: Medium) Tj ET
+BT /F1 10.5 Tf 0.1098 0.1686 0.2275 rg 54.0 440.0 Td (The live homepage is content-rich, but robots.txt, sitemap coverage, llms.txt,) Tj ET
+BT /F1 10.5 Tf 0.1098 0.1686 0.2275 rg 54.0 426.0 Td (schema validation, canonical signals, Google Search Console, and Bing Webmaster) Tj ET
+BT /F1 10.5 Tf 0.1098 0.1686 0.2275 rg 54.0 412.0 Td (signals need a technical GEO pass before AI accessibility can be trusted.) Tj ET
+BT /F1 8 Tf 0.3800 0.3800 0.3800 rg 54.0 32.0 Td (office@bridgeworks.agency | bridgeworks.agency) Tj ET
+BT /F1 8 Tf 0.3800 0.3800 0.3800 rg 540.0 32.0 Td (2) Tj ET
+endstream
+endobj
+6 0 obj
+<< /Type /Page /Parent 11 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 5 0 R >>
+endobj
+7 0 obj
+<< /Length 2439 >>
+stream
+0.9608 0.9412 0.9098 rg 0 0 612 792 re f
+BT /F2 25 Tf 0.0588 0.1020 0.1804 rg 54.0 728.0 Td (Business Impact) Tj ET
+0.7216 0.5255 0.0431 rg 54.0 694.0 504.0 1.5 re f
+BT /F1 12 Tf 0.1098 0.1686 0.2275 rg 54.0 660.0 Td (Pyramidon has the proof assets many competitors lack. That creates upside. The) Tj ET
+BT /F1 12 Tf 0.1098 0.1686 0.2275 rg 54.0 643.0 Td (work is less about inventing a new message and more about structuring existing) Tj ET
+BT /F1 12 Tf 0.1098 0.1686 0.2275 rg 54.0 626.0 Td (proof so search engines, AI systems, and property owners can understand it) Tj ET
+BT /F1 12 Tf 0.1098 0.1686 0.2275 rg 54.0 609.0 Td (faster.) Tj ET
+BT /F2 17 Tf 0.0588 0.1020 0.1804 rg 54.0 572.0 Td (Likely gains) Tj ET
+BT /F1 11 Tf 0.1098 0.1686 0.2275 rg 72.0 542.0 Td (- More visibility for Budapest property management queries.) Tj ET
+BT /F1 11 Tf 0.1098 0.1686 0.2275 rg 72.0 522.0 Td (- Better AI-generated recommendations in ChatGPT, Perplexity, Gemini, and Bing Copilot.) Tj ET
+BT /F1 11 Tf 0.1098 0.1686 0.2275 rg 72.0 502.0 Td (- Higher trust from condominium committees and property owners.) Tj ET
+BT /F1 11 Tf 0.1098 0.1686 0.2275 rg 72.0 482.0 Td (- Cleaner quote enquiries from better-qualified prospects.) Tj ET
+BT /F2 17 Tf 0.0588 0.1020 0.1804 rg 54.0 452.0 Td (Quick win) Tj ET
+BT /F1 11 Tf 0.1098 0.1686 0.2275 rg 54.0 424.0 Td (Add a GEO foundation layer: FAQ block with schema, Organization and Service) Tj ET
+BT /F1 11 Tf 0.1098 0.1686 0.2275 rg 54.0 409.0 Td (schema, Person schema for leadership, clean sitemap and robots.txt, and a short) Tj ET
+BT /F1 11 Tf 0.1098 0.1686 0.2275 rg 54.0 394.0 Td (llms.txt file summarizing the company, services, team, offices, and proof numbers.) Tj ET
+BT /F2 17 Tf 0.0588 0.1020 0.1804 rg 54.0 369.0 Td (Bigger opportunity) Tj ET
+BT /F1 11 Tf 0.1098 0.1686 0.2275 rg 54.0 341.0 Td (Build a proof hub around the buyer questions Pyramidon already answers: how to) Tj ET
+BT /F1 11 Tf 0.1098 0.1686 0.2275 rg 54.0 326.0 Td (compare property management companies, what transparent condominium accounting) Tj ET
+BT /F1 11 Tf 0.1098 0.1686 0.2275 rg 54.0 311.0 Td (includes, and what professional common representation looks like in Districts III,) Tj ET
+BT /F1 11 Tf 0.1098 0.1686 0.2275 rg 54.0 296.0 Td (XI, and XIII.) Tj ET
+BT /F1 8 Tf 0.3800 0.3800 0.3800 rg 54.0 32.0 Td (office@bridgeworks.agency | bridgeworks.agency) Tj ET
+BT /F1 8 Tf 0.3800 0.3800 0.3800 rg 540.0 32.0 Td (3) Tj ET
+endstream
+endobj
+8 0 obj
+<< /Type /Page /Parent 11 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 7 0 R >>
+endobj
+9 0 obj
+<< /Length 2032 >>
+stream
+0.9608 0.9412 0.9098 rg 0 0 612 792 re f
+BT /F2 25 Tf 0.0588 0.1020 0.1804 rg 54.0 728.0 Td (Recommended Next Step) Tj ET
+0.7216 0.5255 0.0431 rg 54.0 694.0 504.0 1.5 re f
+BT /F1 12 Tf 0.1098 0.1686 0.2275 rg 54.0 650.0 Td (The right next step is a full GEO audit and implementation plan. The full) Tj ET
+BT /F1 12 Tf 0.1098 0.1686 0.2275 rg 54.0 633.0 Td (audit should verify the technical layer, score the site across the GEO) Tj ET
+BT /F1 12 Tf 0.1098 0.1686 0.2275 rg 54.0 616.0 Td (framework, and turn Pyramidon's existing proof into a structured visibility) Tj ET
+BT /F1 12 Tf 0.1098 0.1686 0.2275 rg 54.0 599.0 Td (plan.) Tj ET
+BT /F2 17 Tf 0.0588 0.1020 0.1804 rg 54.0 560.0 Td (Full audit should include) Tj ET
+BT /F1 11 Tf 0.1098 0.1686 0.2275 rg 72.0 526.0 Td (- Verified GEO score and category breakdown.) Tj ET
+BT /F1 11 Tf 0.1098 0.1686 0.2275 rg 72.0 506.0 Td (- AI crawler access report.) Tj ET
+BT /F1 11 Tf 0.1098 0.1686 0.2275 rg 72.0 486.0 Td (- Sitemap and indexability review.) Tj ET
+BT /F1 11 Tf 0.1098 0.1686 0.2275 rg 72.0 466.0 Td (- Schema recommendations.) Tj ET
+BT /F1 11 Tf 0.1098 0.1686 0.2275 rg 72.0 446.0 Td (- AI-citable content plan.) Tj ET
+BT /F1 11 Tf 0.1098 0.1686 0.2275 rg 72.0 426.0 Td (- Quick wins ranked by effort and impact.) Tj ET
+BT /F1 11 Tf 0.1098 0.1686 0.2275 rg 72.0 406.0 Td (- 30-day implementation roadmap.) Tj ET
+0.0588 0.1020 0.1804 rg 54.0 248.0 504.0 110.0 re f
+0.7216 0.5255 0.0431 rg 54.0 248.0 6.0 110.0 re f
+BT /F1 12 Tf 0.9608 0.9412 0.9098 rg 78.0 322.0 Td (Suggested call topic) Tj ET
+BT /F2 15 Tf 0.9608 0.9412 0.9098 rg 78.0 292.0 Td (How Pyramidon can turn its existing proof into better) Tj ET
+BT /F2 15 Tf 0.9608 0.9412 0.9098 rg 78.0 273.0 Td (visibility across Google, ChatGPT, Perplexity, and local) Tj ET
+BT /F2 15 Tf 0.9608 0.9412 0.9098 rg 78.0 254.0 Td (property-management searches.) Tj ET
+BT /F1 8 Tf 0.3800 0.3800 0.3800 rg 54.0 32.0 Td (office@bridgeworks.agency | bridgeworks.agency) Tj ET
+BT /F1 8 Tf 0.3800 0.3800 0.3800 rg 540.0 32.0 Td (4) Tj ET
+endstream
+endobj
+10 0 obj
+<< /Type /Page /Parent 11 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 9 0 R >>
+endobj
+11 0 obj
+<< /Type /Pages /Kids [4 0 R 6 0 R 8 0 R 10 0 R] /Count 4 >>
+endobj
+12 0 obj
+<< /Type /Catalog /Pages 11 0 R >>
+endobj
+xref
+0 13
+0000000000 65535 f 
+0000000009 00000 n 
+0000000079 00000 n 
+0000000150 00000 n 
+0000001918 00000 n 
+0000002055 00000 n 
+0000004500 00000 n 
+0000004637 00000 n 
+0000007128 00000 n 
+0000007265 00000 n 
+0000009349 00000 n 
+0000009487 00000 n 
+0000009564 00000 n 
+trailer
+<< /Size 13 /Root 12 0 R >>
+startxref
+9615
+%%EOF

@@ -1,0 +1,13 @@
+date,prospect_id,company,contact_name,channel,action,message_type,status,scheduled_time,completed_time,result,next_step
+2026-05-18,P-0002,Pyramidon,Alexandra,Email,Initial email,Proof gap,Sent,09:30,2026-05-17,Sent,Review follow-up 1 Gmail draft and send manually.
+2026-05-18,P-0005,Geiger Services,Ádám,Email,Initial email,Speed-to-lead risk,Sent,10:00,2026-05-17,Sent,Find email contact. Then create follow-up 1 Gmail draft with PDF attached.
+2026-05-18,P-0006,Kavezo Kft,,Email,Initial email,Speed-to-lead risk,Sent,10:30,2026-05-17,Sent,Find email contact. Then create follow-up 1 Gmail draft with PDF attached.
+2026-05-20,P-0013,Golden Luxe Cleaning,,Email/Contact form,Research and draft,Website conversion leak,Queued,08:30,,,Find decision maker or usable email; draft pain-versus-outcome outreach.
+2026-05-20,P-0014,OGAL Facilities Management,,Email,Research and draft,Proof gap,Queued,08:45,,,Use listed contact email if verified; draft Lagos/London segmented proof angle.
+2026-05-20,P-0015,607 Cleaning,,Email/Contact form,Research and draft,Speed-to-lead risk,Queued,09:00,,,Find decision maker; draft emergency support and regional service page angle.
+2026-05-20,P-0018,MRI Facilities Management,,Email/Contact form,Research and draft,Proof gap,Queued,09:15,,,Find decision maker; draft procurement-ready proof and GEO angle.
+2026-05-20,P-0019,We Maintain,,Email/Contact form,Research and draft,Proof gap,Queued,09:30,,,Find decision maker; draft technology-driven FM outcome angle.
+2026-05-20,P-0023,Eliezer Facility Management Company Lagos,,Email,Initial email draft,Speed-to-lead risk,Draft ready,08:30,,Gmail draft created,Review and approve/send Gmail draft r1679216793953047146.
+2026-05-20,P-0025,Palmacedar Cleaning Services,Omolola Julius,Email,Initial email draft,Proof gap,Draft ready,08:45,,Gmail draft created,Review and approve/send Gmail draft r-3849252528218963029.
+2026-05-20,P-0026,Cleaning Company in Lagos - 3D Janitorial Services,,Email,Initial email draft,Speed-to-lead risk,Draft ready,09:00,,Gmail draft created,Review and approve/send Gmail draft r7115837122780340326.
+2026-05-20,P-0027,Marvel Homes Property Management,,Email,Initial email draft,Proof gap,Draft ready,09:15,,Gmail draft created,Review and approve/send Gmail draft r278367373010754227.

@@ -1,0 +1,2 @@
+﻿"id","date_received","name","email","company","website","country","service_interest","message","source_page","source_channel","status","priority","lead_score","recommended_service","estimated_value","next_follow_up_date","draft_reply","gmail_draft_id","last_contacted_date","notes"
+"IN-0001","2026-05-17","Template Lead","template@example.com","Example Company","https://example.com","Hungary","Website / automation","Template row. Replace with real inbound submissions.","bridgeworks.agency/contact","website","Dormant","COLD","0","AI Audit","EUR 500 to 1500","","","","",""

@@ -1,0 +1,26 @@
+{
+  "date": "2026-05-20T10:44:09",
+  "dry_run": false,
+  "env_present": {
+    "GOOGLE_PLACES_API_KEY": true,
+    "GOOGLE_API_KEY": true,
+    "FIRECRAWL_API_KEY": true,
+    "APIFY_API_KEY": true,
+    "HUNTER_API_KEY": true,
+    "TOMBA_API_KEY": true,
+    "TOMBA_SECRET_KEY": true,
+    "SERPAPI_API_KEY": false,
+    "APOLLO_API_KEY": false,
+    "GEMINI_API_KEY": true,
+    "ANTHROPIC_API_KEY": true
+  },
+  "new_prospects": 0,
+  "new_ids": [],
+  "new_companies": [],
+  "provider_status": {
+    "google:legacy:URLError": 10,
+    "firecrawl_search:URLError": 10
+  },
+  "discovery_tools": {},
+  "errors": []
+}

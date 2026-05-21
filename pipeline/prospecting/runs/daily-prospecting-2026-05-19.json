@@ -1,0 +1,39 @@
+{
+  "date": "2026-05-19T16:31:39",
+  "dry_run": false,
+  "env_present": {
+    "GOOGLE_PLACES_API_KEY": true,
+    "GOOGLE_API_KEY": true,
+    "FIRECRAWL_API_KEY": true,
+    "APIFY_API_KEY": true,
+    "HUNTER_API_KEY": true,
+    "TOMBA_API_KEY": true,
+    "TOMBA_SECRET_KEY": true,
+    "SERPAPI_API_KEY": false,
+    "APOLLO_API_KEY": false,
+    "GEMINI_API_KEY": true,
+    "ANTHROPIC_API_KEY": true
+  },
+  "new_prospects": 5,
+  "new_ids": [
+    "P-0023",
+    "P-0024",
+    "P-0025",
+    "P-0026",
+    "P-0027"
+  ],
+  "new_companies": [
+    "Eliezer Facility Management Company Lagos",
+    "Max-Migold Facilities Management Company",
+    "Palmacedar Cleaning Services",
+    "Cleaning Company in Lagos - 3D Janitorial Services",
+    "Marvel Homes Property Management"
+  ],
+  "provider_status": {
+    "google:new:OK": 3
+  },
+  "discovery_tools": {
+    "Google Places API": 6
+  },
+  "errors": []
+}
