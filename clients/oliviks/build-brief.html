@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Build Brief</title>
+<style>
+:root { color-scheme: light; }
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: system-ui, -apple-system, sans-serif; color: #1a1a1a; background: #fff; padding: 1.5rem; }
+
+h2.sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0,0,0,0); }
+
+label { display: block; font-size: 12px; color: #666; margin-bottom: 5px; font-weight: 500; letter-spacing: 0.03em; }
+
+textarea, input {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid #e0ddd8;
+  border-radius: 8px;
+  background: #fff;
+  color: #1a1a1a;
+  font-family: inherit;
+  font-size: 14px;
+  resize: vertical;
+  line-height: 1.5;
+  outline: none;
+  transition: border-color 0.15s;
+}
+textarea:focus, input:focus { border-color: #999; }
+
+.field { margin-bottom: 14px; }
+
+.grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+
+.btn {
+  padding: 10px 18px;
+  border: 1px solid #d0ccc6;
+  border-radius: 8px;
+  background: transparent;
+  color: #1a1a1a;
+  font-family: inherit;
+  font-size: 13px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.12s;
+}
+.btn:hover { background: #f5f2ee; }
+.btn-primary { background: #1a1a1a; color: #fff; border-color: transparent; }
+.btn-primary:hover { background: #333; }
+.btn-primary:disabled { background: #ccc; cursor: not-allowed; }
+.btn-sm { padding: 5px 11px; font-size: 11px; }
+.btn-ghost { border: none; color: #999; padding: 5px 8px; font-size: 12px; }
+.btn-ghost:hover { background: #f5f2ee; color: #1a1a1a; }
+
+.divider { border: none; border-top: 1px solid #ece9e4; margin: 1.5rem 0; }
+
+.layer-card {
+  border: 1px solid #ece9e4;
+  border-radius: 10px;
+  background: #fff;
+  padding: 14px 16px;
+  margin-bottom: 8px;
+}
+
+.layer-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+.layer-tag {
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #888;
+  background: #f5f2ee;
+  padding: 3px 8px;
+  border-radius: 4px;
+}
+
+.layer-text {
+  font-size: 14px;
+  line-height: 1.65;
+  color: #2a2a2a;
+  white-space: pre-wrap;
+}
+
+.full-card {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background: #f9f7f4;
+  padding: 14px 16px;
+  margin-top: 1.25rem;
+}
+
+.full-text {
+  font-family: 'Courier New', monospace;
+  font-size: 13px;
+  line-height: 1.7;
+  color: #1a1a1a;
+  white-space: pre-wrap;
+  word-break: break-word;
+}
+
+.loading {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #888;
+  font-size: 13px;
+  padding: 1.5rem 0;
+}
+.dot {
+  width: 5px; height: 5px; border-radius: 50%;
+  background: #aaa;
+  animation: pulse 1.3s ease-in-out infinite;
+}
+.dot:nth-child(2) { animation-delay: 0.2s; }
+.dot:nth-child(3) { animation-delay: 0.4s; }
+@keyframes pulse { 0%,100%{opacity:0.25} 50%{opacity:1} }
+
+.history-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 0;
+  border-bottom: 1px solid #f0ede8;
+  cursor: pointer;
+  gap: 12px;
+}
+.history-row:last-child { border-bottom: none; }
+.history-row:hover .history-task { color: #1a1a1a; }
+.history-task { font-size: 13px; color: #555; flex: 1; }
+.history-time { font-size: 11px; color: #aaa; white-space: nowrap; }
+
+.section-label { font-size: 11px; font-weight: 600; letter-spacing: 0.07em; text-transform: uppercase; color: #999; margin-bottom: 10px; }
+
+.copied-flash { color: #2a9d4e; font-size: 11px; font-weight: 500; }
+</style>
+</head>
+<body>
+
+<h2 class="sr-only">Build Brief — Multilayer Claude prompt builder. Enter a task to generate a structured, layered prompt.</h2>
+
+<div id="form-view">
+  <div class="field">
+    <label for="task">What do you want Claude to do? *</label>
+    <textarea id="task" rows="3" placeholder="e.g. Write a LinkedIn post about my CEEFM result — AI visibility went from 16 to 82 in 4 weeks"></textarea>
+  </div>
+
+  <div class="grid-2">
+    <div class="field">
+      <label for="ctx">Context</label>
+      <textarea id="ctx" rows="2" placeholder="Who you are, brand, relevant background"></textarea>
+    </div>
+    <div class="field">
+      <label for="fmt">Output format</label>
+      <textarea id="fmt" rows="2" placeholder="e.g. 3 short paragraphs, under 200 words, no hashtags"></textarea>
+    </div>
+  </div>
+
+  <div class="field">
+    <label for="tone">Tone / voice rules</label>
+    <input type="text" id="tone" placeholder="e.g. Short sentences. No em dashes. Specific over general. No AI slop." />
+  </div>
+
+  <div style="display:flex; gap:10px; align-items:center;">
+    <button class="btn btn-primary" id="genBtn" onclick="generate()">Build prompt ↗</button>
+    <div id="loading" style="display:none" class="loading">
+      <div class="dot"></div><div class="dot"></div><div class="dot"></div>
+      <span>Building layers...</span>
+    </div>
+  </div>
+
+  <div id="history-section" style="display:none; margin-top:1.75rem;">
+    <hr class="divider" style="margin-top:0;">
+    <div class="section-label">Recent briefs</div>
+    <div id="history-list"></div>
+  </div>
+</div>
+
+<div id="results-view" style="display:none;">
+  <div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:1rem;">
+    <div class="section-label" style="margin-bottom:0;">Prompt layers</div>
+    <div style="display:flex; gap:8px; align-items:center;">
+      <span id="copy-all-flash" class="copied-flash" style="display:none;">Copied!</span>
+      <button class="btn btn-sm" onclick="copyAll()">Copy full prompt</button>
+      <button class="btn-ghost btn" onclick="reset()">&#8592; New brief</button>
+    </div>
+  </div>
+
+  <div class="layer-card">
+    <div class="layer-header">
+      <span class="layer-tag">Role</span>
+      <button class="btn-ghost btn btn-sm" onclick="copyLayer('r-role','flash-role')">Copy</button>
+    </div>
+    <div class="layer-text" id="r-role"></div>
+    <span id="flash-role" class="copied-flash" style="display:none;">Copied!</span>
+  </div>
+
+  <div class="layer-card">
+    <div class="layer-header">
+      <span class="layer-tag">Context</span>
+      <button class="btn-ghost btn btn-sm" onclick="copyLayer('r-context','flash-context')">Copy</button>
+    </div>
+    <div class="layer-text" id="r-context"></div>
+    <span id="flash-context" class="copied-flash" style="display:none;">Copied!</span>
+  </div>
+
+  <div class="layer-card">
+    <div class="layer-header">
+      <span class="layer-tag">Instructions</span>
+      <button class="btn-ghost btn btn-sm" onclick="copyLayer('r-instructions','flash-instructions')">Copy</button>
+    </div>
+    <div class="layer-text" id="r-instructions"></div>
+    <span id="flash-instructions" class="copied-flash" style="display:none;">Copied!</span>
+  </div>
+
+  <div class="layer-card">
+    <div class="layer-header">
+      <span class="layer-tag">Format</span>
+      <button class="btn-ghost btn btn-sm" onclick="copyLayer('r-format','flash-format')">Copy</button>
+    </div>
+    <div class="layer-text" id="r-format"></div>
+    <span id="flash-format" class="copied-flash" style="display:none;">Copied!</span>
+  </div>
+
+  <div class="layer-card" id="r-constraints-card" style="display:none;">
+    <div class="layer-header">
+      <span class="layer-tag">Constraints</span>
+      <button class="btn-ghost btn btn-sm" onclick="copyLayer('r-constraints','flash-constraints')">Copy</button>
+    </div>
+    <div class="layer-text" id="r-constraints"></div>
+    <span id="flash-constraints" class="copied-flash" style="display:none;">Copied!</span>
+  </div>
+
+  <div class="full-card">
+    <div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:12px;">
+      <span style="font-size:13px; font-weight:500; color:#555;">Full assembled prompt</span>
+      <button class="btn btn-sm" onclick="copyAll()">Copy all</button>
+    </div>
+    <div class="full-text" id="r-full"></div>
+  </div>
+</div>
+
+<script>
+const HIST_KEY = 'buildbr-v1';
+let currentFull = '';
+
+function getHist() { try { return JSON.parse(localStorage.getItem(HIST_KEY) || '[]'); } catch { return []; } }
+function saveHist(task, result) {
+  const h = getHist();
+  h.unshift({ task: task.slice(0, 90), ts: Date.now(), result });
+  if (h.length > 12) h.pop();
+  localStorage.setItem(HIST_KEY, JSON.stringify(h));
+  renderHist();
+}
+function renderHist() {
+  const h = getHist();
+  const section = document.getElementById('history-section');
+  const list = document.getElementById('history-list');
+  if (!h.length) { section.style.display = 'none'; return; }
+  section.style.display = 'block';
+  list.innerHTML = h.map((item, i) => {
+    const mins = Math.round((Date.now() - item.ts) / 60000);
+    const ago = mins < 60 ? mins + 'm ago' : Math.round(mins / 60) + 'h ago';
+    const label = item.task + (item.task.length === 90 ? '...' : '');
+    return '<div class="history-row" onclick="loadHist(' + i + ')">' +
+      '<span class="history-task">' + label + '</span>' +
+      '<span class="history-time">' + ago + '</span>' +
+      '</div>';
+  }).join('');
+}
+function loadHist(i) {
+  const h = getHist();
+  if (h[i]) showResults(h[i].result);
+}
+
+async function generate() {
+  const task = document.getElementById('task').value.trim();
+  if (!task) { document.getElementById('task').focus(); return; }
+  const ctx = document.getElementById('ctx').value.trim();
+  const fmt = document.getElementById('fmt').value.trim();
+  const tone = document.getElementById('tone').value.trim();
+
+  document.getElementById('genBtn').disabled = true;
+  document.getElementById('loading').style.display = 'flex';
+
+  const userMsg = [
+    'Task: ' + task,
+    ctx ? 'Context: ' + ctx : '',
+    fmt ? 'Desired output format: ' + fmt : '',
+    tone ? 'Tone and voice rules: ' + tone : ''
+  ].filter(Boolean).join('\n');
+
+  const systemPrompt = 'You are an expert prompt engineer. Build a precise, actionable, layered Claude prompt from the user\'s task. Be specific — no generic filler. Return only valid JSON with these exact keys:\n\n{"role":"Who Claude should be for this task. 1-2 specific sentences.","context":"Background and situation Claude needs. 2-4 sentences. Include any relevant numbers, names, or specifics provided.","instructions":"Clear numbered instructions for Claude. Use \\n between each numbered step.","format":"Exact output format: length, structure, style, what to include and exclude.","constraints":"What Claude must NOT do. Leave as empty string if none apply.","fullPrompt":"The complete assembled prompt combining all layers. Write it as a single coherent prompt — not a template, not a list of sections. Ready to paste and use immediately."}\n\nMake the fullPrompt immediately usable. It should read like a real prompt, not a fill-in-the-blank document.';
+
+  try {
+    const result = await window.cowork.askClaude(systemPrompt, [{ type: 'text', content: userMsg }]);
+    if (result && result.role) {
+      showResults(result);
+      saveHist(task, result);
+    } else {
+      alert('Something went wrong parsing the response. Try again.');
+    }
+  } catch(e) {
+    alert('Error: ' + (e.message || e));
+  }
+
+  document.getElementById('genBtn').disabled = false;
+  document.getElementById('loading').style.display = 'none';
+}
+
+function showResults(r) {
+  document.getElementById('r-role').textContent = r.role || '';
+  document.getElementById('r-context').textContent = r.context || '';
+  document.getElementById('r-instructions').textContent = r.instructions || '';
+  document.getElementById('r-format').textContent = r.format || '';
+
+  const cCard = document.getElementById('r-constraints-card');
+  if (r.constraints && r.constraints.trim()) {
+    document.getElementById('r-constraints').textContent = r.constraints;
+    cCard.style.display = 'block';
+  } else {
+    cCard.style.display = 'none';
+  }
+
+  currentFull = r.fullPrompt || '';
+  document.getElementById('r-full').textContent = currentFull;
+  document.getElementById('form-view').style.display = 'none';
+  document.getElementById('results-view').style.display = 'block';
+}
+
+function copyLayer(id, flashId) {
+  const text = document.getElementById(id) ? document.getElementById(id).textContent : '';
+  navigator.clipboard.writeText(text).then(function() { flash(flashId); });
+}
+function copyAll() {
+  navigator.clipboard.writeText(currentFull).then(function() { flash('copy-all-flash'); });
+}
+function flash(id) {
+  const el = document.getElementById(id);
+  if (!el) return;
+  el.style.display = 'inline';
+  setTimeout(function() { el.style.display = 'none'; }, 1800);
+}
+function reset() {
+  document.getElementById('results-view').style.display = 'none';
+  document.getElementById('form-view').style.display = 'block';
+  renderHist();
+}
+
+renderHist();
+</script>
+</body>
+</html>

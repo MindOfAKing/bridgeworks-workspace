@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: theme('colors.cream');
+  color: theme('colors.cocoa');
+  -webkit-font-smoothing: antialiased;
+}
+
+@layer components {
+  /* Brand button styles */
+  .btn-primary {
+    @apply inline-flex items-center justify-center gap-2 rounded-full bg-palm px-6 py-3
+      font-medium text-cream shadow-sm transition-all hover:bg-[#a83d20]
+      hover:shadow-md active:scale-95;
+  }
+  .btn-ghost {
+    @apply inline-flex items-center justify-center gap-2 rounded-full border border-cocoa/20
+      px-6 py-3 font-medium text-cocoa transition-all hover:border-palm hover:text-palm active:scale-95;
+  }
+  .container-x {
+    @apply mx-auto w-full max-w-6xl px-5 sm:px-8;
+  }
+  .eyebrow {
+    @apply text-sm font-semibold uppercase tracking-[0.18em] text-palm;
+  }
+}
+
+/* Subtle Ankara-inspired top border accent */
+.ankara-rule {
+  height: 6px;
+  background: repeating-linear-gradient(
+    135deg,
+    #c44d2b 0,
+    #c44d2b 14px,
+    #e8a838 14px,
+    #e8a838 28px,
+    #2d5016 28px,
+    #2d5016 42px
+  );
+}
+
+/* Reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}

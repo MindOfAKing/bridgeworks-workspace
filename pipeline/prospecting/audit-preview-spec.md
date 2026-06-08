@@ -220,3 +220,34 @@ The report must feel specific enough to earn trust.
 If the report could apply to any company, do not send it.
 
 Every report and follow-up email must make the pain versus outcome explicit. The reader should understand both what is leaking now and what better business state BridgeWorks is pointing them toward.
+
+## Evidence Gate
+
+Do not generate or send an audit preview unless an evidence packet exists for
+the prospect.
+
+Evidence packet path:
+
+```text
+pipeline/prospecting/audit-evidence/[prospect_id].md
+```
+
+Required evidence packet contents:
+
+- exact URLs inspected
+- dated screenshot paths or page captures
+- observed quote/contact path details
+- observed trust/proof elements, not assumptions
+- one buyer-risk interpretation tied to the company
+- one BridgeWorks recommendation tied to the observed evidence
+
+Banned low-confidence audit language:
+
+- likely
+- may be
+- could be
+- present or implied
+- weak or missing
+- generic claims that could apply to any service company
+
+If evidence is missing, mark the preview `Needs evidence`, not `Ready to send`.
