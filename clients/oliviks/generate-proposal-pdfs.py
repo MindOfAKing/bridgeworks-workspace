@@ -11,6 +11,10 @@ from reportlab.platypus.flowables import HRFlowable
 from reportlab.lib.units import mm
 from reportlab.pdfgen import canvas
 import os
+from pathlib import Path
+
+HERE = Path(__file__).resolve().parent
+PROJECTS = HERE.parents[2]  # oliviks -> clients -> bridgeworks-workspace -> Projects
 
 NAVY = HexColor("#0F1A2E")
 GOLD = HexColor("#B8860B")
@@ -22,12 +26,12 @@ WHITE = HexColor("#FFFFFF")
 
 W, H = A4
 
-CLIENT_DIR = r"C:\Users\ELITEX21012G2\Projects\bridgeworks-workspace\clients\oliviks"
+CLIENT_DIR = str(HERE)
 # Square lockup (bridge graphic + BRIDGEWORKS wordmark). The "logo-primary" files
 # are wide banner composites and look broken at document scale — these "icon" files
 # are the correct brand mark.
-LOGO_DARK = r"C:\Users\ELITEX21012G2\brand-assets\bridgeworks\logos\bridgeworks-icon-dark-800px.png"
-LOGO_LIGHT = r"C:\Users\ELITEX21012G2\brand-assets\bridgeworks\logos\bridgeworks-icon-light-800px.png"
+LOGO_DARK = str(PROJECTS / "brand-assets" / "bridgeworks" / "logos" / "bridgeworks-icon-dark-800px.png")
+LOGO_LIGHT = str(PROJECTS / "brand-assets" / "bridgeworks" / "logos" / "bridgeworks-icon-light-800px.png")
 
 # Fail loudly if logos are missing rather than producing an unbranded PDF.
 for _p in (LOGO_DARK, LOGO_LIGHT):

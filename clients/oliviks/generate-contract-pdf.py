@@ -9,6 +9,10 @@ from reportlab.platypus import (
 )
 from reportlab.platypus.flowables import HRFlowable
 import os
+from pathlib import Path
+
+HERE = Path(__file__).resolve().parent
+PROJECTS = HERE.parents[2]  # oliviks -> clients -> bridgeworks-workspace -> Projects
 
 NAVY = HexColor("#0F1A2E")
 GOLD = HexColor("#B8860B")
@@ -19,12 +23,12 @@ WHITE = HexColor("#FFFFFF")
 
 W, H = A4
 
-CLIENT_DIR = r"C:\Users\ELITEX21012G2\Projects\bridgeworks-workspace\clients\oliviks"
+CLIENT_DIR = str(HERE)
 # Square lockup (bridge icon + BRIDGEWORKS wordmark). The files named "logo-primary"
 # are wide banner composites — these "icon" files are the proper brand lockup.
-LOGO_DARK = r"C:\Users\ELITEX21012G2\brand-assets\bridgeworks\logos\bridgeworks-icon-dark-800px.png"
-LOGO_LIGHT = r"C:\Users\ELITEX21012G2\brand-assets\bridgeworks\logos\bridgeworks-icon-light-800px.png"
-SIGNATURE = r"C:\Users\ELITEX21012G2\brand-assets\bridgeworks\signatures\emmanuel-signature.png"
+LOGO_DARK = str(PROJECTS / "brand-assets" / "bridgeworks" / "logos" / "bridgeworks-icon-dark-800px.png")
+LOGO_LIGHT = str(PROJECTS / "brand-assets" / "bridgeworks" / "logos" / "bridgeworks-icon-light-800px.png")
+SIGNATURE = str(PROJECTS / "brand-assets" / "bridgeworks" / "signatures" / "emmanuel-signature.png")
 
 for _p in (LOGO_DARK, LOGO_LIGHT):
     if not os.path.exists(_p):
