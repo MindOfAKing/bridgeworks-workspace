@@ -237,7 +237,7 @@ The Python script is at `C:/Users/User/Projects/02-Clients/prospects/send_ceefm_
 
 ## Section 3: What Is Unfinished and What to Do Next
 
-These items are listed in priority order. The top three are quick fixes (under 1 hour combined) that will move the GEO score from 63 to approximately 70.
+These items are listed in priority order. The top three are quick fixes (under 2 hours combined) that will move the GEO score from 77 to 80+.
 
 ---
 

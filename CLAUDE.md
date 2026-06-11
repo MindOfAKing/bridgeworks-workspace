@@ -4,7 +4,10 @@
 BridgeWorks is an AI-Powered Digital Growth Studio serving small businesses across Africa and Central Europe. Services: Digital Growth Strategy, AI-Powered Marketing, Brand Identity, Web Design & Development, AI Business Automation. Operating model: solo founder + AI skills stack, with paid engagements tracked per client.
 
 ## Active Clients
-- **CEEFM Kft**: 16-week digital growth engagement. Started late March 2026. Client folder: `clients/ceefm/`
+- **Oliviks**: Foundation engagement (Foundation-only scope per contract dated 29 April 2026). Website rebuild + Google Business Profile optimization + email/WhatsApp infrastructure. Total fee 272,611 HUF. Deposit 136,306 HUF paid June 2026; balance 136,305 HUF due on handover (end of week 3 from kickoff). Deposit invoice EO-2026-11 sent 6 June. Photos received (Hanna Mühl shoot, Drive folders forwarded 7 June). Kickoff still blocked on: working WP admin account, GBP manager access, WhatsApp number, first-subscriber incentive. Contact: Aese Agaigbe, olivikskitchen@gmail.com (also agaigbeaese@gmail.com). Client folder: `clients/oliviks/`
+
+## Past Clients
+- **CEEFM Kft**: 16-week digital growth engagement, late March to June 2026. Contract terminated June 2026. Final GEO score 77/100 (from 16). Handover doc drafted (`clients/ceefm/CEEFM-HANDOVER-2026-06-10.md`), pending review and send. Case study use: anonymized only.
 
 ## What Lives Here
 - `clients/` - Client-specific folders with deliverables, trackers, case studies
@@ -48,14 +51,15 @@ Behavioral rules for this workspace come from the global Working Agreement at `C
 
 This section is the single source of truth for what's active and what this week needs to produce. I update it at end of day in under 5 minutes. Any chat that contradicts this section is working from stale context — say so, do not work around it.
 
-**Last updated:** 2026-04-23
+**Last updated:** 2026-06-10
 
 ### Ventures — active this month
 
 | Venture | Status | This month's work |
 |---|---|---|
 | Bridgeworks (agency) | Active — primary focus | Backend buildout to run as a fully-formed agency; lead generation |
-| CEEFM (paid client) | Active — delivering | Deliver against signed engagement |
+| Oliviks (paid client) | Active — deposit paid, awaiting client access to start kickoff clock | Collect access pack, then 3-week Foundation delivery (GBP + email/WhatsApp wk 2, website wk 3) |
+| CEEFM (closed client) | Terminated June 2026 | Finalize and send handover doc, then archive |
 | Street Kitchen (EV income, not Bridgeworks) | Active — recurring | Monthly cleaning contract; no new effort needed |
 | emmanuelehigbai.com | Active — priority build | Build and launch this month; feeds Bridgeworks credibility |
 | Build Brief (multilayer prompt builder) | Active — lives on Claude for now | Positioning question deferred (personal tool vs service offering) |
@@ -75,6 +79,8 @@ Nothing is killed. No work happens on these until Bridgeworks is stable. If a ch
 | Blotato | Continue or cancel — nothing publishing through it yet | End of month |
 | CEEFM React dashboard artifact (1,158-line JSX) | Archive as sales demo, absorb into bridgeworks-workspace, or delete | End of week |
 | Old BridgeWorks repo CLAUDE.md positioning | Rewrite to match agency positioning | Before next Claude Code session on that repo |
+| CEEFM handover doc | Review draft, fix internal score inconsistency, send to Victor | This week |
+| Oliviks access pack | Photos received (Hanna Mühl shoot, Drive links forwarded 7 June). WP login link forwarded 30 May but expired; need real admin account. Still missing: GBP manager access, WhatsApp number, first-subscriber incentive | This week |
 
 ### This week — single best close
 
@@ -103,6 +109,11 @@ Friday review: revisit "This week's single best close" — did the four items mo
 ### Daily log
 
 <!-- Append entries here. Most recent at top. -->
+
+### 2026-06-10
+- Closed: New machine migration audit (9 connectors, plugins, Vercel, Notion all verified working); CEEFM closed out in CLAUDE.md and Notion Pipeline CRM
+- Opened: CEEFM handover doc, finalize and send to Victor. Oliviks engagement live, half deposit paid, scope and deal value need recording. Scheduled tasks and artifacts wiped by migration, rebuild list needed.
+- Tomorrow's one: review and send CEEFM handover doc
 
 ### 2026-04-23
 - Closed: CLAUDE.md rollout across 5 repos + global + Drive reference; Bridgeworks Financial Tracker uploaded to 05 - Finance & Admin; BridgeWorks repo positioning aligned with live site
