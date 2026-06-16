@@ -27,16 +27,15 @@ export const site = {
   email: 'olivikskitchen@gmail.com',
 
   hours: [
-    { days: 'Monday – Saturday', time: '11:00 – 21:00' },
-    { days: 'Sunday', time: '12:00 – 20:00' },
+    { days: 'Monday – Saturday', time: '11:00 – 20:00' },
+    { days: 'Sunday', time: 'Closed' },
   ],
   // Machine-readable hours for schema (24h).
   hoursSpec: [
-    { days: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'], opens: '11:00', closes: '21:00' },
-    { days: ['Sunday'], opens: '12:00', closes: '20:00' },
+    { days: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'], opens: '11:00', closes: '20:00' },
   ],
 
-  reviews: { rating: '4.8', count: '160', source: 'Google' },
+  reviews: { rating: '4.8', count: '491', source: 'Google' },
   press: ['Origo', 'We Love Budapest', 'WMN'],
 
   social: {
