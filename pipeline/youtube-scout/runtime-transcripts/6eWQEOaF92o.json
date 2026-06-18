@@ -1,0 +1,23 @@
+{
+  "video_id": "6eWQEOaF92o",
+  "url": "https://www.youtube.com/watch?v=6eWQEOaF92o",
+  "metadata": {
+    "title": "Customer Renewal Intelligence Agent — 28-Node AI Blueprint for n8n | ForgeWorkflows",
+    "channel": "ForgeFlows",
+    "channel_id": "UCp-fG2BoOiaCtqSs0gcgaeA",
+    "published_at": "2026-06-18T16:53:29Z",
+    "description": "Customer Renewal Agent. 28-node pipeline. Five-dimension scoring with outreach drafts. You own the JSON file outright.\n\nDownload this 28-node n8n workflow blueprint at https://fwflow.link/vuuR\nNo SaaS subscription. You own the .json file permanently.\n\n#n8n #AIAutomation #WorkflowAutomation #ForgeWorkflows #AgenticLogic\nn8n automation, renewal intelligence, customer success, AI workflow, retention #short",
+    "tags": [],
+    "category_id": "22",
+    "view_count": 1,
+    "like_count": 0,
+    "comment_count": 0,
+    "duration": "PT11S"
+  },
+  "transcript": {
+    "available": false,
+    "full_text": "",
+    "word_count": 0,
+    "error": "type object 'YouTubeTranscriptApi' has no attribute 'get_transcript'"
+  }
+}

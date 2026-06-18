@@ -2,10 +2,10 @@
 // Edit values here; every page reads from this file.
 
 export const site = {
-  name: 'Oliviks Nigerian Kitchen',
+  name: 'Oliviks Kitchen',
   shortName: 'Oliviks Kitchen',
   domain: 'https://oliviks.com',
-  tagline: 'Authentic Nigerian Food. Made Fresh in Budapest.',
+  tagline: 'Real Nigerian Food. Made in Budapest.',
 
   // Public-facing kitchen address (per signed agreement, section 6).
   address: {

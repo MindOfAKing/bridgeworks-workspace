@@ -11,12 +11,21 @@ import {
 } from 'react';
 import type { Dish } from '@/data/menu';
 
+export type OrderItemOption = {
+  groupId: string;
+  groupLabel: string;
+  value: string;
+  priceNote?: string;
+  unitPriceFt?: number;
+};
+
 export type OrderItem = {
   id: string;
   name: string;
   description: string;
   price: string | null;
   category: string;
+  options: OrderItemOption[];
   quantity: number;
 };
 
@@ -35,7 +44,7 @@ export type OrderContextValue = {
   items: OrderItem[];
   itemCount: number;
   isCartOpen: boolean;
-  addItem: (dish: Dish, category: string) => void;
+  addItem: (dish: Dish, category: string, options?: OrderItemOption[]) => void;
   incrementItem: (id: string) => void;
   decrementItem: (id: string) => void;
   removeItem: (id: string) => void;
@@ -89,15 +98,16 @@ export function OrderProvider({ children }: { children: ReactNode }) {
   const [state, dispatch] = useReducer(orderReducer, initialState);
   const [isCartOpen, setIsCartOpen] = useState(false);
 
-  const addItem = useCallback((dish: Dish, category: string) => {
+  const addItem = useCallback((dish: Dish, category: string, options: OrderItemOption[] = []) => {
     dispatch({
       type: 'add',
       item: {
-        id: getOrderItemId(category, dish.name),
+        id: getOrderItemId(category, dish.name, options),
         name: dish.name,
         description: dish.description,
         price: dish.price,
         category,
+        options,
       },
     });
     setIsCartOpen(true);
@@ -133,8 +143,9 @@ export function useOrder() {
   return context;
 }
 
-export function getOrderItemId(category: string, name: string) {
-  return `${slugify(category)}:${slugify(name)}`;
+export function getOrderItemId(category: string, name: string, options: OrderItemOption[] = []) {
+  const optionKey = options.map((option) => `${option.groupId}-${option.value}`).join(':');
+  return [slugify(category), slugify(name), slugify(optionKey)].filter(Boolean).join(':');
 }
 
 function slugify(value: string) {

@@ -9,7 +9,7 @@ import { site, waLink, telLink } from '@/data/site';
 export function OrderCTA({
   variant = 'primary',
   message,
-  label = 'Order on WhatsApp',
+  label = 'Order Direct',
 }: {
   variant?: 'primary' | 'ghost';
   message?: string;

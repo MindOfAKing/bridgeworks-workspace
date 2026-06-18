@@ -31,6 +31,10 @@ export const metadata: Metadata = {
   },
   description:
     'Authentic Nigerian food in Budapest from Oliviks Kitchen. Order jollof rice, suya, egusi soup, puff puff, and more for pickup. 4.8★ from 160+ reviews.',
+  icons: {
+    icon: '/images/oliviks-logo.png',
+    apple: '/images/oliviks-logo.png',
+  },
   openGraph: {
     title: `Authentic Nigerian Food in Budapest | ${site.shortName}`,
     description:
@@ -39,6 +43,14 @@ export const metadata: Metadata = {
     locale: 'en_GB',
     url: site.domain,
     siteName: site.name,
+    images: [
+      {
+        url: '/images/oliviks-logo.png',
+        width: 600,
+        height: 230,
+        alt: 'Oliviks Kitchen & Catering logo',
+      },
+    ],
   },
   alternates: { canonical: site.domain },
 };

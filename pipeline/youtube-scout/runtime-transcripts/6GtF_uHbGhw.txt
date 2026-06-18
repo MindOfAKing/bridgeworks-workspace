@@ -1,0 +1,817 @@
+[00:00] I have spent hundreds of hours in Hermes
+[00:02] Agent building, experimenting, and I've
+[00:05] seen every single masterass. And in this
+[00:06] video, I'm going to take you through the
+[00:08] seven levels of Hermes Agent step by
+[00:11] step so you know what to expect at each
+[00:12] level, the exact mistakes that you need
+[00:15] to avoid, and what you need to do to
+[00:16] progress to the next level so you can
+[00:18] save more time, make more money, and get
+[00:20] light years ahead of everybody else. And
+[00:22] if you're new, I'm Jack. I built and saw
+[00:24] my LTC startup with a gazillion
+[00:25] customers. Now I build my own AI
+[00:27] companies and I share here the stuff
+[00:29] that actually works. So if you haven't
+[00:31] already, grab that beautiful coffee and
+[00:33] let's dive straight in. Now there are
+[00:35] seven levels to this Hermes agent. And
+[00:37] if you make it towards the end of the
+[00:39] video, they're going to be saying, "Hey,
+[00:40] who is this super intelligent Hermes
+[00:42] individual I see before me?" That's what
+[00:44] they're going to be saying about you
+[00:45] when you make it to the end of this
+[00:46] video. Now, we're going to go through
+[00:47] every level of Hermes from one prompt to
+[00:49] an agent that literally does wonderful
+[00:51] and fantastical things and a lot of
+[00:53] mistakes. Now, here's the thing. What?
+[00:56] Level zero is where everybody's at
+[00:57] because just for context, nobody's using
+[01:00] this stuff. Like you're seeing all this
+[01:01] content because you watch it, but just
+[01:03] like for context, barely anybody is
+[01:05] using AI, let alone Hermes agent. So,
+[01:07] you are already ahead. Now, let's begin
+[01:09] with level one, which is the beginner.
+[01:11] This is basically the download and go
+[01:14] individual. Essentially, what's happened
+[01:15] here is you understood that it's an
+[01:17] agent and not a chatbot. We know that
+[01:19] chat bots you can have conversations
+[01:21] with like Claude and Chat GPT. Hermes is
+[01:24] something that actually goes ahead and
+[01:25] does things for us. And to have reached
+[01:27] level one, what you needed to have done
+[01:28] is actually gone ahead to basically the
+[01:31] website, grab the information and
+[01:32] download Hermes onto your computer. And
+[01:34] if this sounds like I'm speaking German,
+[01:36] click this link on screen. I see the
+[01:37] full process of getting it set up. But
+[01:39] effectively, you've gone and you've
+[01:40] installed it on your computer. Now,
+[01:41] you've installed it on your computer and
+[01:43] you're connected to Telegram or your
+[01:45] messaging platform of choice. Now, at
+[01:46] level one, you're using it for simple
+[01:48] tasks. So you might say something like,
+[01:50] "Hey there, I am going from Dubai to a
+[01:52] random country in Europe for 3 months.
+[01:54] Do some research. Write me a list of the
+[01:56] best countries to go to with some
+[01:58] insights and just save that HTML file on
+[02:00] my desktop so I can check it out for me
+[02:02] later when I come back." Send that off
+[02:04] and literally Hermes agent is going to
+[02:06] do this for us and just save things for
+[02:08] us to check whenever we want to. And as
+[02:10] you can see, Hermes agent completes
+[02:11] things for us. It uses tools, it's got
+[02:13] the chat, I can just do anything we want
+[02:15] to in those current environments. And
+[02:17] now I can even open this up and see its
+[02:19] output. Now as you can see I open up and
+[02:21] it's given me a nice little breakdown of
+[02:22] all the things that I want to do. Key
+[02:24] difference here is that you're using
+[02:25] Hermes agent for anything and also tool
+[02:28] calling to build interesting things. Now
+[02:29] the biggest drawback at level one is
+[02:31] you're just using it for long oneshot
+[02:34] prompt things. You need to make sure
+[02:35] that you're collaborating with Hermes
+[02:37] agent. Ask it to understand your stated
+[02:39] intention. Go back and forward and just
+[02:41] be mindful of your context window. You
+[02:43] can probably expect to save about 30
+[02:45] minutes a day when you're using it in
+[02:47] this type of fashion. And this brings us
+[02:48] on to the second level of Hermes agent
+[02:51] and one of its strongest features that
+[02:53] if you don't use it, you are not
+[02:55] utilizing Hermes properly. Now with the
+[02:57] apprentice at this level, effectively
+[02:59] Hermes is getting to know you as an
+[03:02] individual. Now the key thing about
+[03:03] Hermes agent is that the more that it
+[03:05] knows you, the better it actually gets.
+[03:07] And I can show you here for example with
+[03:08] this memory system. The more
+[03:10] information, the more you speak to
+[03:11] Hermes agent, the more information that
+[03:13] you give it, the higher performance it
+[03:15] will actually get. But what do I mean by
+[03:16] that? Let me explain. So Hermes itself
+[03:18] has a very cool memory system. For
+[03:20] example, you can say to Hermes agent,
+[03:22] hey, what was that thing? Could you just
+[03:23] tell me one thing that we spoke about 2
+[03:25] days ago, please? You can actually get
+[03:27] Hermes agent to recall specifically
+[03:30] things that happened on days. Now, the
+[03:31] cool thing is Hermes will commit to its
+[03:34] own internal memory the more that you
+[03:36] actually talked about it. But it isn't
+[03:38] even just about its memory on a service
+[03:39] level because this is just basic at
+[03:41] level two. It's also its ability here to
+[03:44] know who you are and tailor its specific
+[03:47] advice based on what you're trying to
+[03:49] actually get. And as you can see, it's
+[03:50] talking about alarm, which is a video
+[03:51] that came out a couple of days ago on my
+[03:53] channel. Now, you are missing out on
+[03:55] Hermes magic unless it knows about you.
+[03:58] So, what you want to do effectively is
+[03:59] use what we call a Hermes soul.md. What
+[04:02] do I mean by that? Uh well if I show you
+[04:03] here for example in the OS if I come
+[04:05] down here you can actually categorize
+[04:07] your user profile and actually
+[04:09] physically give it a soul. This is stuff
+[04:10] like how do I want you to address me
+[04:12] information about you and basically your
+[04:14] business or whatever it is that you
+[04:16] actually are physically doing. And I'll
+[04:17] put a link down below for the soul.
+[04:19] Hermes template that takes you through
+[04:20] everything mission goals your business
+[04:22] key metrics all this sort of stuff. The
+[04:24] be the beautiful part of Hermes, okay,
+[04:26] is that if two people speak to Hermes
+[04:28] and ask it the same question, they
+[04:29] should get radically different answers
+[04:31] because it understands context. It's all
+[04:34] about context engineering. It needs to
+[04:36] know about you and your information,
+[04:37] your data, so it can best help you. And
+[04:39] that's one of the biggest differential
+[04:41] is that we start to see at level two on
+[04:44] our seven level scale. That's why we
+[04:46] call it the apprentice. And the key
+[04:47] point here is that Hermes never starts
+[04:49] from zero. It's the agent that remembers
+[04:51] your birthday. Its memory is one of its
+[04:53] most coolest features and it should it
+[04:55] should know that stuff about you. So at
+[04:56] this level we should be looking at
+[04:58] roughly 5 hours a week that we're
+[05:00] claiming back. Key thing is if it knows
+[05:01] you, you can stop carrying all the
+[05:03] information in your head. And remember
+[05:05] this when we're thinking about how much
+[05:07] time it saves you. There's such a thing
+[05:08] as context switching, right? It isn't
+[05:10] just how much time did I spend doing
+[05:12] something. You lose things when you
+[05:13] switch between tasks. So having one of
+[05:15] the world's most intelligent personal AI
+[05:16] assistants is an unbelievable gamecher
+[05:19] and why it's blowing up so much and it's
+[05:21] going to be such a huge thing in the
+[05:22] future. Key details, it remembers your
+[05:24] preferences, it can recall past chats,
+[05:26] and there's no need to reexlain. Now,
+[05:27] custom instructions are one thing, but
+[05:29] if you don't use skills and commands
+[05:32] properly in level three, you're not
+[05:34] utilizing its full potential. What do I
+[05:36] physically mean by that? Well, we're
+[05:38] looking at two key things here. Okay,
+[05:40] first thing I want to touch on here is
+[05:41] some of the key commands and controls
+[05:43] that will radically change your
+[05:44] experience as her with Hermes. At this
+[05:47] level, you're starting to basically
+[05:48] really utilize its functionality and how
+[05:51] cool it freaking is. Let me show you
+[05:52] exactly what I mean. First of all, I
+[05:54] might give it a prompt that sounds
+[05:55] something like this. Hey there, I would
+[05:57] like to go online and find for me what
+[05:58] are what is the best advice to scale my
+[06:01] LinkedIn and acquire clients in that
+[06:03] channel. Do some deep research for me
+[06:04] and find that out. Okay, so you can give
+[06:06] Hermes a prompt like this. We could be
+[06:08] in the gym. We could be anywhere. Now
+[06:10] crucially, I can do a couple of things.
+[06:11] I can do forward slash. I can do steer.
+[06:14] And steer basically will guide it in one
+[06:17] direction. I specifically want you to
+[06:19] look at top creators on LinkedIn who are
+[06:22] already doing very well and also
+[06:24] YouTube. Now, what this means is I'm
+[06:26] kind of like it's it's going to use this
+[06:28] and think about this prompt before it's
+[06:30] even completed. Now, and it's a great
+[06:31] little hack. Another one I can do is
+[06:33] background, which basically means whilst
+[06:35] it's doing that task, fire this one off
+[06:37] in the background. So, I could say, "Hey
+[06:39] there. I'd like you to go ahead and do
+[06:40] some research on the best way for me to
+[06:42] grow my Instagram. Specifically, go and
+[06:44] find me great Instagram creators and
+[06:45] build me a beautiful list of ways that I
+[06:47] can improve my Instagram." Now,
+[06:49] background tasks themselves happen in
+[06:51] the background and it doesn't even
+[06:53] interact with the core thing that Hermes
+[06:54] agent is doing. So, the idea here is
+[06:56] that we're using more of the features
+[06:58] that exist within Hermes. We've got
+[06:59] handoff, we've got clear, basically
+[07:01] clear functions. And again, there's lots
+[07:03] of different things you can do. Now, the
+[07:05] other really interesting one here is the
+[07:08] model. Now, at this level, at level
+[07:10] three, we're basically using what I call
+[07:12] model agnostic behavior. What the hell
+[07:14] does that mean, Jack? What it basically
+[07:16] means is that we tag in the best model
+[07:19] for the job. That's simply it. In fact,
+[07:21] I can even show you with the Hermes app.
+[07:23] If I pull this up, and even if you see
+[07:25] here, for example, in the operating
+[07:26] system for Hermes, if I come over here,
+[07:28] you can see the model that we currently
+[07:30] have tagged in. In my previous video, I
+[07:32] also showed you how you can run this
+[07:33] 100% privately, which is crazy. Now, the
+[07:36] point here is that we can see the model
+[07:38] we're dealing with. We're talking to
+[07:39] chat 5.5 and if I have a conversation,
+[07:41] I've got that freaking awesome. So, for
+[07:43] example, if you can come now, you can
+[07:44] see the different models I have within
+[07:46] her agent, right? Anthropic, GitHub,
+[07:48] open air codeex, open reach, etc. So, I
+[07:51] speak to people all the time about
+[07:52] Hermes agent. Now, some say, Jack, my
+[07:54] credit credits went very quickly. Your
+[07:56] core model, okay, think of it like this.
+[07:58] You want to connect your chat GPT
+[08:00] subscription to Hermes agent. Super
+[08:02] duper important. That lets you use your
+[08:04] $20 chat GPT subscription for anything.
+[08:07] It is a coding powerhouse. Now, the most
+[08:09] intelligent model is Opus 4.8. But the
+[08:13] reality is you don't need it for
+[08:15] everything. We don't need
+[08:15] astrophysicists, you know, basically
+[08:18] building Legos for us. It's not
+[08:19] required. Sonet 4.6 is a very good
+[08:23] middle ground of like really good
+[08:25] performance, but it's not going to burn
+[08:26] your cost. These are API costs. The
+[08:28] other model you need to have in here as
+[08:30] well is Grock. Grock also connects via
+[08:33] oorthth which means open authentication.
+[08:35] You literally connect it, you sign in,
+[08:38] and you're basically using Grock within
+[08:40] the engine. Now, the cool thing about
+[08:41] Grock, again, it's on your subscription
+[08:43] and you get access to the entirety of X.
+[08:46] So, you can say, hey, uh, what's
+[08:47] happening this week with websites? And
+[08:49] it'll tell you all the top posts. It's
+[08:50] freaking amazing. Then, we want to tag
+[08:52] in the right models. You want to make
+[08:54] sure that you've got Open Routter as
+[08:56] well. Open router is a very important
+[08:58] piece of software that effectually lets
+[08:59] us connect to anything in the world that
+[09:01] we want to. Why do I like it? Well, let
+[09:03] me show you this. If I come over to
+[09:04] rankings, you can see we have access to
+[09:06] every model. You can access free models.
+[09:08] You can access any model that you wish.
+[09:10] It's really freaking impressive. This is
+[09:12] how I personally access 4.8 um with
+[09:16] Claude. And essentially, we can ratchet
+[09:17] it down whenever we want to. We can even
+[09:19] use DeepSeek V4 Flash, which is
+[09:22] fantastic. So we get to basically
+[09:24] ratchet it up based on performance and
+[09:26] cost and also privacy. So we get to move
+[09:28] those dials up to get the right models
+[09:30] we want to. And at level three of the
+[09:32] system guys, what we're doing is
+[09:34] leveraging the right model for the right
+[09:36] task. This is also the level where we
+[09:39] begin to introduce skills. Now when it
+[09:41] comes to skills, what I think is really
+[09:43] important is the skills are only as good
+[09:45] as the model doing the skill and what
+[09:47] the skill actually is. So for example in
+[09:49] the pantheon here I've got in the
+[09:51] operating system. One of the things that
+[09:53] I'm very specific about when I add my
+[09:54] skills is specifying three things. So
+[09:56] let's go with the alchemist in this case
+[09:58] right? I specify what the job is a
+[10:00] description of that job and then a
+[10:02] system prompt which is completely
+[10:03] optional. And then crucially I come down
+[10:05] and I actually specifically outline what
+[10:07] the model is. Why? Because I don't want
+[10:09] 4.8 which is really expensive doing
+[10:12] something that we could delegate to a
+[10:13] free model or something on deepseek. And
+[10:16] of course we can connect this entire
+[10:17] thing. Then if I want to change my
+[10:18] primes, I can visually come in, see
+[10:20] them, and make adjustments as I went, as
+[10:22] I come and go. Now, why is this so
+[10:24] important? This really, if you're down
+[10:26] to it at level three, are some of the
+[10:28] biggest time saves that you're going to
+[10:29] get because it can do things like go and
+[10:31] do my competitive research. Go and find
+[10:33] for me all the outliers that exist on
+[10:35] Instagram. And you can build software
+[10:36] that looks like this. And this, for
+[10:38] example, if you're trying to grow on
+[10:39] Instagram, as for instance, shows you
+[10:40] all of the outliers. I grabbed this from
+[10:42] my community. Why is this so cool? Well,
+[10:44] this would be something that you could
+[10:45] have spent hours doing. And this is why
+[10:47] this can save you up to a day a week
+[10:49] because you can now delegate tasks and
+[10:51] automations and research to Hermes and
+[10:53] it will execute for you perfectly. Now,
+[10:55] this sounds like I'm actually speaking
+[10:57] Portuguese. I'm going to put a link down
+[10:58] below for this full Claude code course
+[11:00] that will take you from foundation and
+[11:01] setups, building websites, power
+[11:03] features, memory systems, Hermes setup,
+[11:05] stuff I have never covered on YouTube
+[11:07] before. I'm going to put all down below.
+[11:09] People mess about this course all the
+[11:10] freaking time. You also get complete
+[11:12] immediate access to this entire
+[11:13] operating system. I'll put a link down
+[11:15] below so you can check that and upgrade
+[11:17] if that's valuable to you. And just FYI,
+[11:19] by the way, um our price on our
+[11:20] community is popping up on the 13th. So
+[11:22] if you see it ahead of time, we'd love
+[11:23] to welcome you. So we've covered this in
+[11:26] level three and it does lead us very
+[11:28] nicely onto the fourth level of Hermes,
+[11:31] which is the integrator. Now in the
+[11:32] integrator section, this is where really
+[11:34] Hermes goes to a completely new level.
+[11:37] And if you look at this graphic as a for
+[11:38] instance, okay, what we're really doing
+[11:40] is connecting it and giving it the
+[11:42] ability to connect to your world because
+[11:45] the more things that you touch and
+[11:47] interact with that we can plug into
+[11:48] Hermes, the more it can really do. A lot
+[11:50] of the stuff that we've covered so far
+[11:51] is you speaking to Hermes and Hermes
+[11:53] doing things like quote me that does X
+[11:55] or go and research Y. In level four, we
+[11:58] really unlock the new capabilities when
+[12:00] we give it access to things like reading
+[12:02] our emails, things like creating
+[12:03] calendar appointments with us and our
+[12:05] friends and our our colleagues and
+[12:06] potential business partners, looking at
+[12:08] notion for like things like our to-do
+[12:10] list, plugging into Slack so I can get
+[12:12] immediate updates. For example, maybe
+[12:13] you're on ClickUp, right? One of the
+[12:15] things that we could do with ClickUp is
+[12:17] have our team, this is one of the things
+[12:18] I implemented, basically giving updates
+[12:20] on that. And now basically when I want
+[12:21] to know what's going on in my business,
+[12:23] I can say, "Hey, Hermes, what were the
+[12:25] numbers this week?" And the really cool
+[12:27] thing and I want to stress this upon
+[12:28] you, okay? Is that you give it text but
+[12:30] also numbers. So if I'm saying, "Hey,
+[12:33] I'm thinking about this from a strategic
+[12:35] point of view. What are your thoughts on
+[12:36] this strategy?" And one of the things my
+[12:38] Hermes agent will know to do depending
+[12:40] upon what I'm talking about is it can go
+[12:42] to different databases. Say you're
+[12:43] connected on ClickUp or whatever you
+[12:44] are. it can go through the latest
+[12:46] updates that you had that week from your
+[12:48] team and say well actually Jack did you
+[12:49] know that um you know Kevin or I don't
+[12:51] know Sarah M or whatever actually
+[12:53] submitted a report that unlocked this
+[12:55] new thing that's really relevant for you
+[12:56] to know so the idea is you don't have to
+[12:58] rely on your memory or you shouldn't
+[13:00] have to rely on your memory plugging
+[13:02] Hermes into your world will create new
+[13:04] optionality for you and this is a key
+[13:06] thing that everybody's missing how do I
+[13:08] actually plug in new things well it's so
+[13:09] unbelievably straightforward let me show
+[13:11] you what I mean so say we have our
+[13:12] Hermes agent here right and again it's
+[13:14] even working now in the background
+[13:15] around answering our things before and
+[13:16] I'm going to come down here. I'm going
+[13:17] to do a for slash and we're going to
+[13:19] stop which is going to kill all the
+[13:20] background processes and that'll be the
+[13:22] end of it. But let's say I want to
+[13:23] connect. So, one of the big ones I love
+[13:25] to connect to is Granola. They're not
+[13:27] sponsoring this video or anything, but
+[13:28] the point with Granola is they will let
+[13:30] you chat to any of your meeting
+[13:32] histories. For example, I could say,
+[13:33] "Hey, dude. Um, what was the title of
+[13:35] the last meeting I had, and can you tell
+[13:37] me one action I took from it, please?"
+[13:39] Now, when you connect anything to Hermes
+[13:40] agent, sometimes you'll just store the
+[13:42] API key on your desktop. Other times,
+[13:44] you can literally log in by via an MCP,
+[13:47] which is freaking awesome. And bear in
+[13:48] mind, guys, this is one of the cool
+[13:49] benefits of having this on your desktop.
+[13:51] Like, it's already got all of your
+[13:53] signins and credentials, so you don't
+[13:54] need to duplicate this. I mean, I'm not
+[13:56] getting paid tens of thousands of
+[13:58] dollars to sell you some kind of VPS. I
+[14:00] tell you exactly what I do in these
+[14:02] situations, which is running it locally
+[14:03] on my computer. I don't really see the
+[14:05] point or value in running it on a VPS to
+[14:08] be honest with you. So, it's just really
+[14:09] cool and just makes it a lot easier to
+[14:11] do things like this. So we would just
+[14:12] come down and we click on allow access
+[14:14] in this case. And as you can see down
+[14:15] here, one action you took away from a
+[14:17] automation coffee was to collaborate
+[14:18] with someone in the workshop regarding
+[14:19] iOS knowledge graph. There you go. You
+[14:21] can see exactly how that's connected and
+[14:23] we even set the one up together. And the
+[14:24] other thing to bear in mind is if you're
+[14:25] ever not sure how to connect something,
+[14:27] just say, "Hey, I want to give you the
+[14:28] ability to do this thing. What do you
+[14:30] need from me to do it?" And just follow
+[14:32] through the instructions. One little
+[14:34] side hack for you. Don't ever paste
+[14:36] those API keys directly in Hermes. You
+[14:38] can save them on your desktop or it'll
+[14:40] give you a terminal command. You can
+[14:41] enter that in and it will th basically
+[14:43] explain everything to you step by step.
+[14:45] Now, where most people get stuck at this
+[14:48] level is they basically give it the MCP
+[14:50] candy store. We give you imagine giving
+[14:52] the 5-year-old all the candy in the
+[14:53] world in a candy shop, it would go
+[14:54] freaking in ballistic. So, same thing
+[14:56] here. Now, the more MCPs that we give to
+[14:59] him, his agent, the bigger its context
+[15:01] window actually grows. Now, there are
+[15:03] cool tools we can do like laser loading
+[15:05] them and stuff, but fundamentally we
+[15:07] don't want to give it loads of garbage
+[15:09] that we're not physically using. So it's
+[15:11] context window doesn't balloon
+[15:12] significantly. That's just one to watch
+[15:14] out. And the idea is the fewer number of
+[15:15] keys we can give it the better. Now a
+[15:17] couple things I really want to bear in
+[15:18] mind with this. First of all, emails. I
+[15:20] personally do not give it the ability to
+[15:22] send emails. It can draft them. It can
+[15:24] add things to my calendar, but it can't
+[15:26] send emails just yet. So I kind of like
+[15:28] to keep that one internally rather than
+[15:30] sending it out. Some point it will be
+[15:32] fine, but at the moment I just like to
+[15:33] keep that um requirement to myself. And
+[15:35] so really level four is about crushing
+[15:38] your admin. It should be able to do
+[15:40] anything you need it to do. Anything
+[15:42] that you would personally do on a
+[15:43] laptop, Hermes should be able to do that
+[15:45] for you. And if it can't, just ask
+[15:47] yourself, why doesn't it have that
+[15:48] access and just connect it to Hermes.
+[15:50] It's a really good exercise to do and
+[15:52] will save you so much time. Now, level
+[15:54] five is when it starts to get very
+[15:56] interesting. We call this level the
+[15:58] orchestration level. Effectively, where
+[16:00] Hermes becomes not only an executing
+[16:02] agent, but a manager that manages other
+[16:05] agents to do different tasks. It can in
+[16:07] fact spin up multiple agents and every
+[16:10] single update that you see with Claude
+[16:12] Opus 4.8 can now do this cool thing. It
+[16:14] can do ultra work. Hermes can do the
+[16:16] exact same thing. Remember someone asked
+[16:17] me recently, Jack, what's better, Claude
+[16:19] or Hermes? It's like asking me what is
+[16:22] better, Lewis Hamilton or Ferrari.
+[16:24] They're different, right? Hermes is the
+[16:26] if you think of Hermes is more kind of
+[16:27] like the the actual agent system and
+[16:29] then the actual driver, the race car
+[16:31] drivers are things like Claude and Chat
+[16:33] GPT. This is more of a system that
+[16:35] surrounds it. Now the key thing here is
+[16:36] that Hermes itself can use Opus 4.8 and
+[16:39] all of these individual models to do
+[16:41] many different things at the exact same
+[16:43] time. And we just mentioned didn't we
+[16:45] about the Pantheon this idea that we can
+[16:46] actually go ahead if I bring up the
+[16:48] right actual tab here and show you this
+[16:50] all these different systems these
+[16:51] different skills that we want to build
+[16:52] out to do various different things. But
+[16:54] what is really cool about Hermes agent
+[16:56] is that we can actually ask it to do
+[16:58] multiple things at the same time. Let me
+[17:00] show you what I mean. And this is really
+[17:01] where the sub agents come to play. So I
+[17:03] can say hey there I would like you to
+[17:05] create for me a team of agents. I would
+[17:09] like one of the sub aents to be called
+[17:11] it chat GBT 5.5. I want to use DeepSeek
+[17:14] V4 and I'd like to task DeepSeek V4 with
+[17:16] going and doing some comprehensive
+[17:18] research on the best industries to sell
+[17:22] websites to. I want GPT4, excuse me, GPT
+[17:25] 5.5 to critique it and I want them to go
+[17:27] around in a loop until they've solved
+[17:28] the issue. And then I would like to have
+[17:30] Opus 4.8 eight as an orchestrative agent
+[17:33] that will oversee it like his team, spin
+[17:35] up as many sub agents as you see fit,
+[17:37] but a lot of the work I want done by the
+[17:39] very cheap Deep Seek V4. And as you can
+[17:41] see, it's actually going ahead and doing
+[17:42] that for us. So, we have multiple agents
+[17:45] in Hermes working in parallel. Now, this
+[17:48] is the reason why this is even better in
+[17:50] some respects than Opus 4.8 is mainly
+[17:52] because we're not just using Claude
+[17:54] here. Now obviously you can connect
+[17:55] these things to Claude which is fine but
+[17:57] again I get to bring in any model I want
+[17:59] to to do anything that I want. You can
+[18:02] do this within Claude but I also think
+[18:03] it's one of the coolest things that we
+[18:05] can do in Hermes which is completely
+[18:06] model agnostic. We bring in the best
+[18:09] model for the job and we have these
+[18:11] fantastic parallel agents working for
+[18:13] us. Now on level five itself this is
+[18:15] where you can really explode your output
+[18:18] if you know what you're applying for.
+[18:20] Remember the biggest hallmark basically
+[18:22] of a of a beginner automator is that you
+[18:25] automate stuff that should simply should
+[18:26] not exist. The idea is this is high
+[18:29] leverage when you know the high leverage
+[18:31] thing that you're focusing in on. Right?
+[18:33] We don't just talk about AI here. We
+[18:34] talk about in the context of winning
+[18:36] like in life like in business, in our
+[18:38] physical health, in our relationships.
+[18:40] We want to be the best version of
+[18:42] ourselves. And that means we know the
+[18:44] problem that we're solving. AI is an
+[18:45] accelerant to that end. So the point is
+[18:47] you can start to tank your output if you
+[18:50] know what you're focusing on and what
+[18:51] your bottleneck is in your particular
+[18:53] business or situation. So it's a real
+[18:55] explosive feature. But it brings us very
+[18:57] nicely onto the sixth level where it
+[19:00] takes one step further. And this one is
+[19:02] known as the builder. So first thing to
+[19:04] understand about Hermes agent is that it
+[19:06] does ship real things. Anything I'm
+[19:08] getting fired up right now. Anything you
+[19:10] can build in Claude Code, you can build
+[19:12] in Hermes agent. And honestly for me
+[19:14] guy, this was the coolest unlock to be
+[19:17] at the gym doing my bench press. I used
+[19:19] to decline, incline, whatever you want
+[19:20] to do. And being able to actually code
+[19:23] things and build things is a freaking
+[19:25] unbelievable. If you're building
+[19:27] software, the ability to have those
+[19:28] conversations, spin up the different sub
+[19:30] agents and build software whilst you're
+[19:33] doing anything else you want to is
+[19:34] literally gamechanging. It is no longer
+[19:37] just a chatbot. This is software. You
+[19:39] are building software. And I'm telling
+[19:41] you right now, that is the future.
+[19:42] Building these micro softwares, these
+[19:44] micro apps is insane. If you have the
+[19:46] idea, if you can imagine it, you can
+[19:48] build it. That's kind of the point here.
+[19:50] Hermes lets us do this remotely and in
+[19:52] my view no other app it terms of like
+[19:55] you know Codeex and Claude really
+[19:56] compete with Hermes remote ability. You
+[19:59] can hack it and make it hacky but then
+[20:00] what you start to realize is you're
+[20:02] basically just rebuilding Hermes anyway.
+[20:04] So this is why this is so freaking sick.
+[20:06] And at level six as well you start to
+[20:08] use its automation features. And what do
+[20:10] I mean by that? I mean about asking it
+[20:11] to do things at certain times. Taking
+[20:14] what we call asynchronosity which means
+[20:16] that most people do this. I answer you
+[20:18] respond. you you ask a question, I
+[20:20] respond. What people in level six do at
+[20:22] the builder level is they're actually
+[20:23] adding scheduled tasks. They're saying,
+[20:25] "Hey, Hermes, um, I need to go and have
+[20:27] a conversation this weekend with, you
+[20:29] know, I don't know, McKenzie and K. Um,
+[20:31] do some deep research over the next 24
+[20:33] hours and then on Friday afternoon, make
+[20:35] sure you give me a fresh report on my
+[20:36] desk, find the email addresses of all
+[20:38] the board, the members of the board, and
+[20:40] actually draft me an email." Or you'll
+[20:42] say, "And also send me a reminder on
+[20:43] Thursday evening that I need to go ahead
+[20:45] and do this thing." And you're basically
+[20:47] creating your scheduled tasks. And it's
+[20:48] unbelievably easy to do. For example,
+[20:50] you just say, "Hey there, I've got a big
+[20:52] meeting on Sunday. Could you just set me
+[20:54] a reminder, I don't know, midday at
+[20:56] 12:00 on Saturday, Dubai time, to do
+[20:58] some preparation for my meeting with uh
+[21:01] in the video. I want you to do some deep
+[21:03] research between now and then. Find out
+[21:05] who the members of the board are and
+[21:06] then also go ahead and um find me five
+[21:08] interesting things to talk about in that
+[21:10] meeting." Whatever the thing is, I can
+[21:11] send that off. And I'm just explaining
+[21:13] it. I'm yapping in English, by the way.
+[21:15] When I'm not using Glider, which I'm
+[21:17] using for my speech dictation, fastest
+[21:18] in the world right now, I typically do
+[21:20] my voice message when I'm talking to
+[21:21] Hermes is and I just yap and I talk
+[21:23] because the speed at which you can get
+[21:25] information out is four or five times
+[21:27] faster, which is why I speech type. It's
+[21:29] like honestly the biggest productivity
+[21:30] hack I've had and something I use with
+[21:32] Hermes all the time. Now, Hermes is
+[21:34] setting a reminder to remind me of
+[21:35] something. I mean, this sends me a daily
+[21:36] brief every single day. It's freaking
+[21:37] incredible. And then it's also going to
+[21:39] do some research and come back and make
+[21:40] that reality. Look at this right now.
+[21:41] So, a wonderful reminder research for
+[21:43] June 6, you know, midday. It's like an
+[21:46] executive assistant, but it never
+[21:47] forgets and and it's like the most
+[21:49] intelligent thing in the world. You're
+[21:50] only really limited by how you're
+[21:52] physically applying her to your
+[21:54] situation. And what level six is going
+[21:56] to give you is something really powerful
+[21:58] and it's this idea I mentioned of
+[21:59] asynchronosity that it ships without
+[22:02] you. It does things without you. And
+[22:04] your relationship goes from being I say
+[22:06] you respond to something completely
+[22:08] asynchronous and it does that. So things
+[22:10] get built even when you're not thinking
+[22:12] about them. That's like the huge unlock
+[22:15] for level six with Hermes. And that then
+[22:17] takes us to the doorstep of the most
+[22:20] powerful level of Hermes agent and that
+[22:22] is the agentic power user. And the idea
+[22:24] behind the agentic power users we have
+[22:26] one operating system for every AI. What
+[22:30] do I physically mean when I say that?
+[22:32] Well, I best showing you. So this for
+[22:34] example is the agentic operating system
+[22:36] that I use. Now here obviously we've got
+[22:38] a full overview of all the brands that
+[22:40] we're connected to, all the different
+[22:41] integrations that we have. We can talk
+[22:43] to Hermes. I've been over the incredible
+[22:45] functionalities this has this ability to
+[22:47] create midterm goals for your business.
+[22:50] And it breaks down in steps and give you
+[22:52] like eight different steps of what
+[22:53] Hermes is going to do, what you're going
+[22:55] to do, and vice versa. The Panther tend
+[22:57] to look at our different skills. And
+[22:58] this is where it gets really
+[22:59] interesting, right? After we've got the
+[23:00] memory, we've got the Obsidian
+[23:01] integration, we've got all our
+[23:02] documents, which is crazy. If I want to
+[23:04] look at, for example, something Hermes
+[23:05] made for me, I can look at this. There
+[23:07] is nothing else to do this right now.
+[23:09] Like, you're going to build PDFs, you're
+[23:11] going to build documents, you're going
+[23:12] to build softwares, but they just live
+[23:14] in the chat or they're just filed
+[23:15] somewhere. The ability to actually
+[23:17] physically see in a dashboard all the
+[23:18] stuff that Hermes does for you is
+[23:20] incredible. Like, let's say that you
+[23:21] want to write an invoice to the UFC for
+[23:23] your UFC debut. You want to do a head
+[23:25] kick or something like that. Well, okay,
+[23:27] it's great that it's in the chat and it
+[23:28] can send things, but when I want to come
+[23:30] back and look at it and do various
+[23:31] different things, I can do that. But the
+[23:33] real unlock is connecting your world
+[23:36] together. Remember context engineering
+[23:38] is one of the biggest trends that you're
+[23:39] going to see it is exploding. And the
+[23:41] idea here for me to see my spend across
+[23:43] every model claude codeex anti-gravity
+[23:46] to have the ability to have basically
+[23:48] Hermes agent dream for me. What do I
+[23:50] mean by that? I mean it's going to look
+[23:52] at every message that I've said to it.
+[23:54] It's going to look at all the stuff that
+[23:56] I've done not only in Hermes but in
+[23:57] claude code in anti-gravity in codeex in
+[24:00] anything else that I'm touching. And we
+[24:02] use all of that data, all the skills to
+[24:04] proactively think about are the ways
+[24:07] that I can improve this like what does
+[24:09] Jack what is Jack not doing that he
+[24:11] should be doing? What are the skills
+[24:13] that he's not using that he should be
+[24:14] using to do research and feed that back
+[24:16] to you? And crucially the ability and I
+[24:19] got here in the memory section right now
+[24:20] to see everything from my Obsidian
+[24:22] memory that connects everything together
+[24:24] and literally even the code memory and
+[24:26] the Hermes memory. The agentic operating
+[24:29] system users are individuals that don't
+[24:31] operate in silos. They have their entire
+[24:34] AI connectivity in one location. And it
+[24:37] basically means that I do coding and
+[24:39] claude code. Cool. I do coding in
+[24:41] Hermes. They're no longer separate. That
+[24:43] gap is completely bridged and it unlocks
+[24:45] capabilities that people don't even
+[24:47] realize actually exist. And at this
+[24:49] level, not only is it running without
+[24:50] you, it reports and does work for you
+[24:52] whilst you are actually physically
+[24:54] sleeping. So, three truths you really
+[24:56] need to understand. It's not a better
+[24:58] coder than claude code. It is literally
+[25:00] using claude code. That's really
+[25:02] important to understand. The number here
+[25:03] is that you can't really have over a
+[25:05] thousand agents running simultaneously.
+[25:07] The agreed number of agents that we
+[25:09] think can be done does vary based on
+[25:11] different models, but realistically it's
+[25:12] not going to be a thousand. And the
+[25:14] magic itself isn't something you need to
+[25:16] wait 17 years to do. This is something
+[25:18] you can build and learn in a couple of
+[25:20] videos if you just apply yourself. Now,
+[25:22] understanding where you're at in those
+[25:24] seven levels and where they fall apart,
+[25:25] the next thing we need to do is embrace
+[25:27] the most powerful level. And that's
+[25:29] learning exactly how to utilize this
+[25:30] agentic operating system, which we're
+[25:32] going to do together in this video right

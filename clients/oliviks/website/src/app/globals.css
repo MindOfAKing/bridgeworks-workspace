@@ -7,10 +7,13 @@
 }
 
 html {
+  overflow-x: hidden;
   scroll-behavior: smooth;
 }
 
 body {
+  max-width: 100vw;
+  overflow-x: hidden;
   background-color: theme('colors.cream');
   color: theme('colors.cocoa');
   -webkit-font-smoothing: antialiased;
@@ -28,7 +31,9 @@ body {
       px-6 py-3 font-medium text-cocoa transition-all hover:border-palm hover:text-palm active:scale-95;
   }
   .container-x {
-    @apply mx-auto w-full max-w-6xl px-5 sm:px-8;
+    box-sizing: border-box;
+    max-width: min(72rem, 100vw);
+    @apply mx-auto w-full px-5 sm:px-8;
   }
   .eyebrow {
     @apply text-sm font-semibold uppercase tracking-[0.18em] text-palm;

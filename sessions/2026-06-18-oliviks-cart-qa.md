@@ -54,3 +54,96 @@ Files:
 1. Review current implementation visually with Emmanuel.
 2. Confirm deployment target and whether this should replace the current live `oliviks.com` path or remain in preview first.
 3. Before live cutover, confirm final menu/price details, owner wording, and real photos.
+
+---
+
+## 2026-06-18 Update — Approved Google Doc Copy Applied
+
+Source:
+
+```text
+https://docs.google.com/document/d/1hBogVspntOtdWu8BkprHhscKfPBzGGUNu99tP2xIqbU/edit?tab=t.0
+```
+
+Applied to:
+- `src/app/page.tsx`
+- `src/app/about/page.tsx`
+- `src/app/menu/page.tsx`
+- `src/app/contact/page.tsx`
+- `src/components/OrderCTA.tsx`
+- `src/components/MenuList.tsx`
+- `src/data/site.ts`
+- `src/data/menu.ts`
+
+Menu decisions:
+- Added confirmed items: Beef Pilau rice, Bitter leaf soup, Banga soup, Chin Chin, Fish roll.
+- Removed stale/non-approved orderable items: Efo Riro, Okra Soup, Moi Moi, Akara, Amala, Salad, Extra Stew, Mixed Plate / Combo.
+- Pepper soup is visible as a `Price TBC` placeholder.
+- Abacha and Fish is visible as a `Price TBC` placeholder.
+
+Verification:
+
+```text
+Approved copy probe passed
+npx tsc --noEmit && npm run build: passed
+Playwright cart QA: 2 passed (7.0s after placeholders)
+```
+
+---
+
+## 2026-06-18 Deployment Update — Vercel Live
+
+Vercel setup:
+- Authenticated locally as `mindofaking`.
+- Linked local folder `clients/oliviks/website` to `emmanuel-ehigbai/oliviks-kitchen`.
+- Created live alias: `https://oliviks-kitchen.vercel.app`.
+
+Remote deployment result:
+
+```text
+✓ Compiled successfully in 11.6s
+✓ Generating static pages (8/8)
+✓ Ready in 57s
+```
+
+Public verification:
+- `https://oliviks-kitchen.vercel.app` returned HTTP 200.
+- `https://oliviks-kitchen.vercel.app/menu` returned HTTP 200.
+- Live menu contains `Pepper soup`, `Abacha and Fish`, and `Price TBC` placeholders.
+
+Note:
+- The long deployment URL returned HTTP 401 due Vercel protection, but the public alias is reachable.
+
+Next:
+- Review live site.
+- Decide whether to share with client, add custom domain, or adjust placeholder prices/details first.
+
+---
+
+## 2026-06-18 Logo Update — Vercel Live
+
+Source:
+- Desktop WordPress export folder: `C:/Users/User/Desktop/Oliviks previous website/.../oliviks_Logo-1.png`.
+- Copied into site as `public/images/oliviks-logo.png`.
+
+Code changes:
+- `src/components/Header.tsx` now uses `next/image` to render the logo in the sticky header.
+- `src/app/layout.tsx` now references the logo in icons and OpenGraph metadata.
+- `.hermes/qa/logo-probe.cjs` added as the RED/GREEN source probe.
+
+Verification:
+
+```text
+Logo probe passed
+npx tsc --noEmit && npm run build: passed
+Remote Vercel production build: passed
+```
+
+Live verification:
+- `https://oliviks-kitchen.vercel.app` returned HTTP 200.
+- `https://oliviks-kitchen.vercel.app/images/oliviks-logo.png` returned HTTP 200.
+- Homepage markup includes `oliviks-logo.png` and `Oliviks Kitchen & Catering logo`.
+
+Next:
+- Review header logo size on desktop and mobile.
+- Consider a transparent/cropped logo variant later if the red background feels too heavy in the header.

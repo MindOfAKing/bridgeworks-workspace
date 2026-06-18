@@ -1,6 +1,7 @@
 'use client';
 
 import { useState } from 'react';
+import Image from 'next/image';
 import Link from 'next/link';
 import { Menu, ShoppingBag, X } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
@@ -19,8 +20,15 @@ export function Header() {
     <header className="sticky top-0 z-50 border-b border-cocoa/10 bg-cream/90 backdrop-blur">
       <div className="ankara-rule" />
       <div className="container-x flex h-16 items-center justify-between">
-        <Link href="/" className="font-display text-xl font-bold text-cocoa">
-          Oliviks <span className="text-palm">Kitchen</span>
+        <Link href="/" className="flex items-center" aria-label="Oliviks Kitchen home">
+          <Image
+            src="/images/oliviks-logo.png"
+            alt="Oliviks Kitchen & Catering logo"
+            width={600}
+            height={230}
+            priority
+            className="h-12 w-auto object-contain md:h-14"
+          />
         </Link>
 
         <nav className="hidden items-center gap-8 md:flex">

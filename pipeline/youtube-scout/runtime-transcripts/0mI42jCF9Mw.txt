@@ -1,0 +1,213 @@
+[00:04] You wrote one good blog post. Now you
+[00:06] are supposed to turn it into a LinkedIn
+[00:08] post, a X thread and a newsletter. Three
+[00:12] times the word, three blank boxes. Same
+[00:15] Tuesday afternoon. So you rewrite the
+[00:18] same idea three times by hand or you
+[00:20] just don't post. Watch what we are
+[00:23] building instead. I paste one blog URL
+[00:26] into this form. Hit submit and 30
+[00:29] seconds later, three drafts land in
+[00:31] notion.
+[00:33] A LinkedIn post, four paragraphs, ends
+[00:35] on a question to drive comments.
+[00:38] An X thread, seven post, each one is
+[00:41] standalone.
+[00:43] A newsletter intro, warm first person,
+[00:46] reads like a person wrote it. Same
+[00:48] article, three completely different
+[00:50] pieces, ready to review and post. That's
+[00:54] the end result. We are building it from
+[00:56] scratch, no code. Real quick before we
+[01:00] start, if you are new here, this is AXA.
+[01:03] I take AI and automation stuff and make
+[01:05] it simple. My whole goal is just to get
+[01:08] you the help you actually need and not
+[01:10] waste your time. So that's exactly what
+[01:13] we are going to do. Let's build it.
+[01:15] First thing, let's get set up. All
+[01:17] right, new workflow. First node, the
+[01:20] input. Follow along with me. I will
+[01:23] explain every node as I add it. Start
+[01:26] with a form trigger node.
+[01:30] One field blog URL. That's the whole
+[01:34] input.
+[01:36] Someone paste a URL. Hit submit. The
+[01:38] workflow fires. Simple. Add the next
+[01:42] note HTTP request. This acts as your
+[01:45] scrapper. Set the method to get. Click
+[01:48] into the URL field. switch it to
+[01:51] expression mode and insert a reference
+[01:53] to the URL coming from your form's
+[01:55] output. This passes the submitted URL
+[01:58] straight into the request. So when the
+[02:01] node runs and it fetches the raw HTML of
+[02:04] that page. Now add an HTML extract node.
+[02:08] Raw HTML is messy full of menus adds
+[02:11] footers. This node strips all that and
+[02:15] pulls just the article body. You do that
+[02:17] with a CSS selector and for most blogs
+[02:20] dot article or postcontent gets you the
+[02:23] text. Test it on your own block first to
+[02:26] see which selector works. That's the one
+[02:28] tweak you will make for your site. For
+[02:31] the key field, I will add post text.
+[02:34] Here is the gap nobody talks about. Some
+[02:37] URLs don't describe cleanly. Pay world
+[02:40] articles return a login page. JavaScript
+[02:43] heavy pages, medium substacks, some
+[02:45] WordPress returns an empty shell because
+[02:48] an can't run their JavaScript. If you
+[02:51] don't handle that, your workflow
+[02:52] silently breaks on those. So, right
+[02:55] after the scrapper, add an if node.
+[02:59] The condition is the extracted text
+[03:01] longer than 200 characters.
+[03:04] If yes, we got real content. Keep going.
+[03:07] If no, skip the next step. Now before we
+[03:11] add the AI, let me save you from the
+[03:14] mistake everyone makes here. Most people
+[03:17] add one AI note with a prompt like
+[03:19] rewrite this for LinkedIn X and a
+[03:22] newsletter. The AI spits out three
+[03:24] things and they all sound the same
+[03:27] generic like one machine made them. Here
+[03:30] is why that fails. LinkedIn rewards
+[03:33] insight and a little vulnerability. A
+[03:36] short post that opens with something
+[03:38] counterintuitive and ends with a
+[03:40] question gets shared. X rewards
+[03:43] compression and a killer first line. If
+[03:46] X posts one doesn't hook, nobody reads
+[03:48] the rest. A newsletter intro rewards
+[03:51] warmth and a first person voice. It
+[03:53] should feel like an email from a friend,
+[03:56] not a press release. Three different
+[03:58] tones, three different structures, three
+[04:00] different goals. One prompt can't do
+[04:03] that. So we are using three separate
+[04:06] Gemini nodes each with its own system
+[04:08] prompt. That's the upgrade and it's the
+[04:11] whole reason this output actually sounds
+[04:13] human. Let me show you the three nodes
+[04:16] and the exact prompts. So let's add
+[04:19] three Google Gemini nodes all connected
+[04:22] of the if node success output. So the
+[04:25] same article fits into all three. In
+[04:28] each one pick the message model
+[04:30] operation. Choose Gemini 2.5 flash.
+[04:33] That's the fast free tier model and we
+[04:36] will paste a different system prompt
+[04:38] into each
+[04:43] note one LinkedIn system prompt. You are
+[04:47] a B2B content writer. Write a LinkedIn
+[04:50] post from the following article. Three
+[04:52] to four short paragraphs. Open with a
+[04:55] counterintuitive or surprising point
+[04:58] from the article. Use line breaks for
+[05:01] readability
+[05:02] and with a question that invites the
+[05:04] reader to share their experience. Max
+[05:07] two relevant hashtags tone thoughtful
+[05:10] direct human.
+[05:13] Note two the X thread system prompt. You
+[05:16] are a social media writer. Write a X
+[05:19] thread from the following article. 7X
+[05:22] post number 1 through 7. Post one is the
+[05:26] hook. A single punchy line that stands
+[05:29] alone. Post two through six expand the
+[05:32] key points. One idea each under 280
+[05:36] characters. Post seven is a takeaway or
+[05:39] call to action. No filler. Every post
+[05:42] earns its place. Note three, the
+[05:45] newsletter system prompt. You are
+[05:47] writing a newsletter intro for a
+[05:49] creator's weekly email. Three short
+[05:51] paragraph introducing the following
+[05:53] article. tone, warm, conversational
+[05:56] first person like writing to a friend
+[05:59] who trust your taste. Don't summarize
+[06:02] the article, tease it. And with a
+[06:04] natural transition into the article
+[06:06] link. Now it's time to run a test.
+[06:14] You should be able to see output from
+[06:16] all three nodes. Quick thing before we
+[06:19] move on. These three prompts are doing
+[06:21] the real work here. The notes are the
+[06:23] easy part. Writing prompts that actually
+[06:26] sound human is the skill. If you want to
+[06:29] get good at that, there is a prompt
+[06:31] engineering course from Vanderbuilt on
+[06:33] Corsera. I will drop it in the
+[06:35] description. Genuinely worth your time.
+[06:38] Now, where do these drafts go? This next
+[06:41] part is what makes the whole thing
+[06:43] trustworthy. This is where this workflow
+[06:45] beats every other one out there. Most
+[06:48] people either dump the output into a
+[06:49] Google sheet or autopublish straight to
+[06:52] LinkedIn. Both are wrong. A sheet is
+[06:55] fine for storage but awful for reading
+[06:57] and editing. And autopublishing means
+[07:00] you are trusting the AI completely. An
+[07:03] AI copy is good but it is not posted
+[07:06] without reading it. Good. The right
+[07:08] answer is a review layer. So add three
+[07:11] notion nodes one per platform. East
+[07:14] creates a new page in a notion database
+[07:16] with three properties
+[07:19] platform content and status.
+[07:29] All three drafts land in the same
+[07:31] database clearly labeled. Now the
+[07:34] workflow pauses. Nothing publishes yet.
+[07:37] You go into notion, read the draft,
+[07:39] sharpen whatever needs it. Maybe the
+[07:42] LinkedIn hook may be one exposed too
+[07:44] long and when it's good you flip the
+[07:46] status from draft to approved.
+[07:50] Then the second half the publishing.
+[07:52] This runs on a separate canvas. A second
+[07:55] workflow with a polling trigger that
+[07:57] watches that notion database and when it
+[08:00] sees a page flip to approved it files
+[08:03] the matching publish node LinkedIn X and
+[08:05] so on. I am not going to build that
+[08:08] whole publishing step line by line here
+[08:11] or this video turns into an hour. The
+[08:14] patterns the same each time. Watch for
+[08:16] approve, publish, mark it, done. That
+[08:19] review step is what makes this something
+[08:21] you can actually trust running on your
+[08:23] own content. Before you go build this,
+[08:26] quick honest note on when not to. Three
+[08:29] honest cautions. One, don't run this on
+[08:32] short content. A 300word post doesn't
+[08:35] have enough to split into three real
+[08:37] pieces. The AI just pats and you get
+[08:40] thin output. This shines on articles 800
+[08:43] words and up. Two, don't skip the review
+[08:46] step just because the test output looked
+[08:49] good. AI copy can read fine and still be
+[08:52] certainly off-brand or a little flat. 5
+[08:55] minutes in notion saves you from posting
+[08:57] something you would win at. Three,
+[09:00] LinkedIn's API has limits on personal
+[09:02] profiles. The publish note works cleanly
+[09:05] for company pages, but for a personal
+[09:08] profile, you may need a tool like
+[09:09] Tableau or just copy paste from notion.
+[09:12] Check the current API docs before you
+[09:14] build the publish step. That's it. Let's
+[09:18] recap the whole thing. So the full
+[09:20] workflow a form takes a URL HTTP request
+[09:24] scraps the page and if note catches
+[09:27] field scraps three Gemini nodes write
+[09:29] platform native drafts from three
+[09:31] separate prompts. Three notion nodes
+[09:34] drop them in as draft to review. One URL
+[09:37] in three platform ready pieces reviewed
+[09:40] and cued. No copy pasting between tabs.
+[09:43] No rewriting the same idea three times.
+[09:46] No blank LinkedIn box on a Tuesday. So,
+[09:49] if this helped, hit like. It helps other
+[09:52] people building the same thing find it.

@@ -1,0 +1,23 @@
+{
+  "video_id": "nUqkSN9bU7M",
+  "url": "https://www.youtube.com/watch?v=nUqkSN9bU7M",
+  "metadata": {
+    "title": "You Don't Have a Conversion Problem, You Need More Ads",
+    "channel": "Alex Hormozi",
+    "channel_id": "UCUyDOdBWhC1MCxEjC46d-zw",
+    "published_at": "2026-06-17T15:04:24Z",
+    "description": "Sometimes it really is as simple as:\n\nDouble your leads. \nDouble your business.",
+    "tags": [],
+    "category_id": "27",
+    "view_count": 51978,
+    "like_count": 1794,
+    "comment_count": 47,
+    "duration": "PT1M41S"
+  },
+  "transcript": {
+    "available": false,
+    "full_text": "",
+    "word_count": 0,
+    "error": "type object 'YouTubeTranscriptApi' has no attribute 'get_transcript'"
+  }
+}

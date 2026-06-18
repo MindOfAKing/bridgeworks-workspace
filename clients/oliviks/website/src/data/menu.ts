@@ -1,11 +1,27 @@
-// Oliviks menu — 23 dishes from the approved BridgeWorks copy pack (2026-06-05),
-// grouped into categories. Drinks added from the live menu.
+// Oliviks menu — approved final website copy and menu descriptions.
+// Source: Google Doc "Oliviks Kitchen — Final Website Copy & Menu Summary".
+// Prices confirmed from store export dated 15 June 2026.
 //
-// PRICES: Reflected from the current menu/product data visible on the live listings
-// and verified through current customer order logs.
+// Pepper soup and Abacha and Fish are included as visible placeholders per
+// Emmanuel's direction. Final price/owner confirmation still needs to be
+// collected before live launch.
 //
-// IMAGES: `image` is null until the client supplies real photos (30–50 per the
-// agreement). A branded placeholder renders automatically when image is null.
+// IMAGES: selected legacy photos from the previous WordPress export are used
+// where they match approved dishes. A branded placeholder renders when image is null.
+
+export type DishOption = {
+  label: string;
+  priceNote?: string;
+  unitPriceFt?: number;
+};
+
+export type DishOptionGroup = {
+  id: string;
+  label: string;
+  type: 'single' | 'boolean';
+  required?: boolean;
+  options: DishOption[];
+};
 
 export type Dish = {
   name: string;
@@ -13,6 +29,7 @@ export type Dish = {
   price: string | null;
   image: string | null;
   tags?: string[];
+  optionGroups?: DishOptionGroup[];
 };
 
 export type MenuCategory = {
@@ -22,228 +39,310 @@ export type MenuCategory = {
   items: Dish[];
 };
 
+
+const proteinOptions: DishOptionGroup = {
+  id: 'protein',
+  label: 'Protein',
+  type: 'single',
+  required: true,
+  options: [
+    { label: 'Chicken', priceNote: 'Price TBC — owner confirmation needed.' },
+    { label: 'Turkey', priceNote: 'Price TBC — owner confirmation needed.' },
+    { label: 'Fish', priceNote: 'Price TBC — owner confirmation needed.' },
+    { label: 'Beef', priceNote: 'Price TBC — owner confirmation needed.' },
+  ],
+};
+
+const jollofProteinOptions: DishOptionGroup = {
+  ...proteinOptions,
+  options: proteinOptions.options.map((option) =>
+    option.label === 'Turkey'
+      ? {
+          ...option,
+          priceNote: 'Legacy checkout evidence: Turkey Jollof without extra hot stew was 2,500 Ft.',
+          unitPriceFt: 2500,
+        }
+      : option,
+  ),
+};
+
+const extraHotStewOption: DishOptionGroup = {
+  id: 'extra-hot-pepper-stew',
+  label: 'Extra hot pepper stew?',
+  type: 'boolean',
+  options: [
+    {
+      label: 'Yes',
+      priceNote: 'Legacy checkout evidence: Turkey Jollof with extra hot stew was 4,000 Ft.',
+      unitPriceFt: 4000,
+    }
+  ],
+};
+
+const swallowOptions: DishOptionGroup = {
+  id: 'swallow',
+  label: 'Swallow',
+  type: 'single',
+  required: true,
+  options: [
+    { label: 'Pounded yam', priceNote: 'Included in the 5,000 Ft soup price in legacy checkout.' },
+    { label: 'Eba', priceNote: 'Included in the 5,000 Ft soup price in legacy checkout.' },
+  ],
+};
+
 export const menu: MenuCategory[] = [
   {
     id: 'rice',
-    title: 'Rice Dishes',
-    blurb: 'Smoky, savoury, the easiest place to start.',
+    title: 'Rice',
+    blurb: 'Jollof, fried rice, and aromatic pilau plates with protein.',
     items: [
       {
-        name: 'Jollof Rice',
+        name: 'Jollof rice with protein',
         description:
-          'A classic West African rice dish cooked in a rich tomato and pepper base with warm spices. Smoky, savoury, and one of the easiest first dishes to try if you are new to Nigerian food.',
+          'Long-cooked tomato rice with a smoky edge. Pick your protein: chicken, turkey, fish, or beef. This is the dish Nigerian parties are built around. A smart first order if you want to understand why. The price depends on the protein you choose.',
         price: '2,500 – 4,000 Ft',
-        image: null,
+        image: '/images/legacy/jollof-rice.png',
         tags: ['popular'],
+        optionGroups: [jollofProteinOptions, extraHotStewOption],
       },
       {
-        name: 'Fried Rice',
+        name: 'Fried rice with protein',
         description:
-          'Nigerian-style fried rice with vegetables, seasoning, and a bright, satisfying flavour. A lighter rice option that pairs well with chicken, beef, plantain, or salad.',
+          'Basmati rice cooked with turmeric and stir-fried with mixed vegetables. Lighter than jollof, bright and savory. Pick your protein: chicken, turkey, fish, or beef. The price depends on the protein you choose.',
         price: '2,500 – 4,000 Ft',
-        image: null,
+        image: '/images/legacy/fried-rice-shrimps.png',
+        optionGroups: [proteinOptions],
+      },
+      {
+        name: 'Beef Pilau rice',
+        description:
+          'Basmati rice cooked in aromatic spices and served with fried beef. Warm, fragrant, and filling. A heartier rice plate when you want more depth than jollof. Pick your protein: chicken, turkey, fish, or beef.',
+        price: '5,500 Ft',
+        image: '/images/legacy/native-rice.png',
+        optionGroups: [proteinOptions],
       },
     ],
   },
   {
     id: 'soups',
-    title: 'Soups & Stews',
-    blurb: 'Rich, deeply seasoned, best enjoyed with a swallow.',
+    title: 'Soups',
+    blurb: 'Rich Nigerian soups served with one swallow for scooping.',
     items: [
       {
-        name: 'Egusi Soup',
+        name: 'Egusi soup with one swallow',
         description:
-          'A thick, rich soup made with ground melon seeds, leafy vegetables, and deeply seasoned meat or fish. Best enjoyed with swallow such as pounded yam or eba.',
+          'Ground melon seeds cooked with leafy greens into a thick, deeply savory soup. Rich and comforting. Served with one swallow to scoop it up. One of the dishes regulars keep coming back for.',
         price: '5,000 Ft',
-        image: null,
+        image: '/images/legacy/afang-soup.png',
         tags: ['popular'],
+        optionGroups: [swallowOptions],
       },
       {
-        name: 'Efo Riro',
+        name: 'Oha soup with one swallow',
         description:
-          'A flavourful Yoruba-style spinach stew cooked with peppers, onions, and traditional seasoning. Hearty, aromatic, and excellent with rice or swallow.',
+          'A traditional Igbo soup made with oha leaves and a rich, savory base. Earthy and full of flavor. Served with one swallow.',
         price: '5,000 Ft',
         image: null,
+        optionGroups: [swallowOptions],
       },
       {
-        name: 'Ogbono Soup',
+        name: 'Ogbono soup with one swallow',
         description:
-          'A comforting Nigerian soup made from ground ogbono seeds, known for its smooth texture and deep savoury flavour. Served with swallow for the full experience.',
+          'Made from ground ogbono seeds, with a smooth texture and a deep, savory taste. Hearty and comforting. Served with one swallow.',
         price: '5,000 Ft',
-        image: null,
+        image: '/images/legacy/ogbono-soup.png',
+        optionGroups: [swallowOptions],
       },
       {
-        name: 'Okra Soup',
+        name: 'Vegetable soup with one swallow',
         description:
-          'A fresh, comforting soup made with okra, vegetables, and Nigerian spices. Especially good with eba, pounded yam, or other swallow sides.',
+          'A hearty soup loaded with leafy greens and proper seasoning. Comforting and full of flavor. Served with one swallow.',
         price: '5,000 Ft',
         image: null,
+        optionGroups: [swallowOptions],
       },
       {
-        name: 'Pepper Soup',
+        name: 'Bitter leaf soup with one swallow',
         description:
-          'A light but powerful Nigerian soup with aromatic spices and heat. Best for guests who enjoy bold, warming flavours.',
+          'Bitter leaves cooked in a rich cocoyam base with protein. Earthy and full of flavor, with the gentle bitterness the dish is named for. Served with one swallow.',
         price: '5,000 Ft',
         image: null,
+        optionGroups: [swallowOptions],
+      },
+      {
+        name: 'Banga soup with one swallow',
+        description:
+          'A deep, palm-nut soup cooked with Nigerian seasoning and protein. Rich, earthy, and full-bodied. Served with one swallow.',
+        price: '5,000 Ft',
+        image: null,
+        optionGroups: [swallowOptions],
+      },
+      {
+        name: 'Pepper soup',
+        description:
+          'A light, aromatic soup with warming spices and gentle pepper. Brothy and comforting. Good when you want something warming. Final price to be confirmed before launch.',
+        price: 'Price TBC',
+        image: '/images/legacy/assorted-pepper-soup.png',
+        tags: ['placeholder', 'Warming'],
       },
     ],
   },
   {
-    id: 'swallow',
-    title: 'Swallow',
-    blurb: 'The soft, scoopable sides that complete every soup.',
+    id: 'sides',
+    title: 'Sides',
+    blurb: 'Fried, grilled, and swallow sides to complete the plate.',
     items: [
       {
-        name: 'Pounded Yam',
+        name: 'Fried Yam',
         description:
-          'A smooth, stretchy Nigerian side served with soups such as egusi, efo riro, ogbono, or okra. Used to scoop and enjoy the soup.',
+          'Slices of yam fried until crisp outside and soft inside. Simple and satisfying. Good with pepper sauce, fish, or meat.',
+        price: '3,500 Ft',
+        image: null,
+      },
+      {
+        name: 'Fried beef',
+        description: 'Seasoned beef, fried and full of flavor. Add it to rice or eat it on its own.',
         price: '1,500 Ft',
+        image: null,
+      },
+      {
+        name: 'Grilled Chicken Thigh',
+        description:
+          'Chicken thigh, seasoned and grilled until juicy. Pairs well with jollof, fried rice, or plantain.',
+        price: '2,000 Ft',
+        image: null,
+      },
+      {
+        name: 'Suya sticks',
+        description:
+          'Grilled beef skewers coated in a bold peanut and pepper spice blend. This is our hottest item, but still easy to enjoy. Smoky and hard to stop eating.',
+        price: '1,500 Ft',
+        image: null,
+        tags: ['popular', 'Our hottest'],
+      },
+      {
+        name: 'Poundo Swallow',
+        description:
+          'A smooth, soft swallow in the style of pounded yam. The soft side you use to scoop soup. Order it with egusi, oha, or ogbono.',
+        price: '1,200 Ft',
         image: null,
       },
       {
         name: 'Eba',
         description:
-          'A classic Nigerian swallow made from garri. Firm in texture and a perfect pair for rich soups like egusi, ogbono, and okra.',
+          'A firm Nigerian swallow made from garri. Pairs perfectly with rich soups like egusi and ogbono.',
         price: '1,200 Ft',
-        image: null,
-      },
-      {
-        name: 'Amala',
-        description:
-          'A traditional Yoruba swallow with an earthy flavour and soft texture. Usually served with rich soups and stews.',
-        price: '1,500 Ft',
         image: null,
       },
     ],
   },
   {
     id: 'snacks',
-    title: 'Snacks & Sides',
-    blurb: 'Grilled, fried, and sweet — great on their own or alongside.',
+    title: 'Snacks',
+    blurb: 'Sweet, savory, crunchy, and handheld Nigerian snacks.',
     items: [
       {
-        name: 'Suya Sticks',
+        name: 'Meat Pie',
         description:
-          'Nigerian-style grilled meat seasoned with a bold peanut-spice blend. Smoky, spicy, and perfect as a starter or main dish.',
-        price: '3,000 Ft',
+          'A baked pastry filled with seasoned minced meat and vegetables. Satisfying on its own. Easy to love on a first visit.',
+        price: '1,500 Ft',
+        image: null,
+      },
+      {
+        name: 'Coconut peanut',
+        description: 'A crunchy peanut and coconut snack. Lightly sweet and easy to share.',
+        price: '1,500 Ft',
+        image: null,
+      },
+      {
+        name: 'Spicy kuli kuli (one pack)',
+        description:
+          'Kuli kuli is a crunchy, spiced peanut snack. Peppery and moreish. Good on its own or alongside a meal.',
+        price: '2,000 Ft',
+        image: null,
+        tags: ['Peppery'],
+      },
+      {
+        name: 'Fried Plantain',
+        description:
+          'Ripe plantain fried until golden and caramelized. Soft and sweet. The easy balance to anything peppery.',
+        price: '2,500 Ft',
         image: null,
         tags: ['popular'],
       },
       {
-        name: 'Fried Yam',
-        description:
-          'Golden slices of yam fried until crisp outside and soft inside. A simple, satisfying side that pairs well with pepper sauce, fish, or meat.',
-        price: '2,000 Ft',
-        image: null,
-      },
-      {
-        name: 'Plantain',
-        description:
-          'Sweet ripe plantain fried until golden and caramelised. Adds a soft, sweet balance to spicy Nigerian dishes.',
-        price: '2,500 Ft',
-        image: null,
-      },
-      {
         name: 'Puff Puff',
         description:
-          'Soft, sweet Nigerian dough balls, fried until golden. A beloved snack or dessert, especially good for first-time guests and families.',
+          'Small fried dough bites, lightly sweet and golden. Easy to love. Good as a first snack, even better after something peppery.',
         price: '2,200 Ft',
         image: null,
         tags: ['popular'],
       },
       {
-        name: 'Moi Moi',
-        description:
-          'A steamed bean pudding made from blended beans, peppers, and spices. Soft, savoury, protein-rich, and often served as a side with rice dishes.',
-        price: '2,000 Ft',
-        image: null,
-      },
-      {
-        name: 'Akara',
-        description:
-          'Crispy fried bean cakes made from blended black-eyed peas and spices. A popular Nigerian snack or breakfast item.',
-        price: '2,000 Ft',
-        image: null,
-      },
-    ],
-  },
-  {
-    id: 'proteins',
-    title: 'Proteins',
-    blurb: 'Add to any rice plate, or enjoy on the side.',
-    items: [
-      {
-        name: 'Chicken',
-        description:
-          'Tender chicken prepared with Nigerian seasoning, served as a protein add-on or main plate. Pairs well with jollof rice, fried rice, and plantain.',
-        price: '1,500 Ft',
-        image: null,
-      },
-      {
-        name: 'Beef',
-        description:
-          'Seasoned beef cooked for rich flavour, served with rice, soups, or sides. A hearty option for a filling meal.',
-        price: '1,500 Ft',
-        image: null,
-      },
-      {
-        name: 'Fish',
-        description:
-          'Fish prepared with Nigerian spices and served with rice, yam, plantain, or soup. A strong choice for bold seasoning and lighter protein.',
-        price: '2,000 Ft',
-        image: null,
-      },
-      {
-        name: 'Turkey',
-        description:
-          'A rich, satisfying protein option with deep seasoning. Works well with jollof rice, fried rice, or plantain.',
-        price: '2,000 Ft',
-        image: null,
-      },
-    ],
-  },
-  {
-    id: 'extras',
-    title: 'Extras',
-    blurb: 'Round out your plate.',
-    items: [
-      {
-        name: 'Salad',
-        description:
-          'A fresh side to balance the richness and spice of Nigerian mains. Add it to rice dishes for a lighter plate.',
+        name: 'Plantain chips',
+        description: 'Thin, crisp plantain chips. Lightly salted and snackable.',
         price: '1,000 Ft',
         image: null,
       },
       {
-        name: 'Extra Stew',
+        name: 'Chin Chin',
         description:
-          'A tomato and pepper-based sauce for adding more flavour and heat. Ideal with rice, yam, plantain, or protein.',
-        price: '800 Ft',
+          'Crunchy fried dough made with flour, sugar, milk, and eggs. Lightly sweet and easy to snack on. Good on its own or with a drink.',
+        price: '1,500 Ft',
         image: null,
       },
       {
-        name: 'Mixed Plate / Combo',
+        name: 'Fish roll',
         description:
-          'A generous plate combining Nigerian favourites in one order. Best if you want to try several flavours at once.',
-        price: '5,500 Ft',
+          'Baked dough rolled around a deboned mackerel filling. Savory and satisfying. A good handheld snack.',
+        price: '1,500 Ft',
         image: null,
-        tags: ['popular'],
+      },
+      {
+        name: 'Abacha and Fish',
+        description:
+          'Awaiting owner confirmation before final publish. Placeholder added so the preview can show where this menu item will sit if approved.',
+        price: 'Price TBC',
+        image: '/images/legacy/abacha-and-fish.png',
+        tags: ['placeholder'],
       },
     ],
   },
   {
     id: 'drinks',
     title: 'Drinks',
-    blurb: 'To go with your meal.',
+    blurb: 'Chilled drinks to go with your meal.',
     items: [
-      { name: 'V-Soy Multi Grain Drink', description: 'Chilled multi-grain soy drink.', price: '1,500 Ft', image: null },
-      { name: 'Coca-Cola Cherry Coke 330ml', description: 'Classic cherry cola, 330ml can.', price: '1,000 Ft', image: null },
-      { name: 'Fanta Orange 330ml', description: 'Orange soft drink, 330ml can.', price: '1,000 Ft', image: null },
+      {
+        name: 'Chilled Zobo Drink',
+        description: 'A chilled hibiscus drink with ginger, cloves, and cinnamon. Tart and refreshing. A Nigerian favorite.',
+        price: '1,500 Ft',
+        image: null,
+      },
+      {
+        name: 'Chilled Malt 330 ml',
+        description: 'A chilled non-alcoholic malt drink. Rich and slightly sweet.',
+        price: '1,500 Ft',
+        image: null,
+      },
+      {
+        name: 'V-soy multi grain drink',
+        description: 'A chilled multi-grain soy drink. Smooth and lightly sweet.',
+        price: '1,500 Ft',
+        image: null,
+      },
+      { name: 'Fanta 330 ml', description: 'Chilled orange soft drink. 330 ml.', price: '1,000 Ft', image: null },
+      {
+        name: 'Coca-Cola Cherry Coke 330 ml',
+        description: 'Chilled Cherry Coke. 330 ml.',
+        price: '1,000 Ft',
+        image: null,
+      },
     ],
   },
 ];
 
-// Count of described main dishes (excludes drinks) — should be 23 per the contract.
+// Count of described orderable main dishes (excludes drinks) — should be 25 with placeholders.
 export const dishCount = menu
   .filter((c) => c.id !== 'drinks')
   .reduce((n, c) => n + c.items.length, 0);

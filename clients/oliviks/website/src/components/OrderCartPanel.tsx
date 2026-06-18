@@ -5,6 +5,7 @@ import { MessageCircle, Minus, Plus, Trash2, X } from 'lucide-react';
 import { useOrder } from '@/context/OrderContext';
 import { waLink } from '@/data/site';
 import { buildWhatsAppOrderMessage } from '@/lib/orderMessage';
+import { formatHuf, getOrderPricingSummary } from '@/lib/orderPricing';
 
 export function OrderCartPanel() {
   const {
@@ -18,6 +19,7 @@ export function OrderCartPanel() {
     closeCart,
   } = useOrder();
   const hasItems = items.length > 0;
+  const pricingSummary = getOrderPricingSummary(items);
   const whatsappHref = hasItems ? waLink(buildWhatsAppOrderMessage(items)) : undefined;
 
   return (
@@ -81,6 +83,28 @@ export function OrderCartPanel() {
                           <p className="text-xs font-semibold uppercase tracking-[0.16em] text-palm">{item.category}</p>
                           <h3 className="mt-1 font-display text-lg font-semibold text-cocoa">{item.name}</h3>
                           {item.price && <p className="mt-1 text-sm font-semibold text-leaf">{item.price}</p>}
+                          {pricingSummary.lineSummaries.find((line) => line.id === item.id)?.lineTotalFt !== null && (
+                            <p className="mt-1 text-xs font-semibold text-cocoa/55">
+                              Line estimate: {formatHuf(pricingSummary.lineSummaries.find((line) => line.id === item.id)?.lineTotalFt ?? 0)}
+                            </p>
+                          )}
+                          {pricingSummary.lineSummaries.find((line) => line.id === item.id)?.isTbc && (
+                            <p className="mt-1 text-xs font-semibold text-palm">Price TBC</p>
+                          )}
+                          {item.options.length > 0 && (
+                            <ul className="mt-3 space-y-1 text-sm text-cocoa/65">
+                              {item.options.map((option) => (
+                                <li key={`${item.id}-${option.groupId}`}>
+                                  <span className="font-semibold">{option.groupLabel}:</span> {option.value}
+                                  {option.priceNote && (
+                                    <span className="mt-0.5 block text-xs text-cocoa/50">
+                                      Price guidance: {option.priceNote}
+                                    </span>
+                                  )}
+                                </li>
+                              ))}
+                            </ul>
+                          )}
                         </div>
                         <button
                           type="button"
@@ -121,8 +145,21 @@ export function OrderCartPanel() {
             </div>
 
             <div className="border-t border-cocoa/10 bg-white px-6 py-5">
+              {hasItems && (
+                <div className="mb-4 rounded-2xl border border-gold/30 bg-gold/10 p-3 text-sm text-cocoa">
+                  <p className="font-display text-lg font-bold text-cocoa">Provisional subtotal</p>
+                  <p className="mt-1 font-semibold">
+                    Known subtotal: {pricingSummary.hasKnownLines ? formatHuf(pricingSummary.knownSubtotalFt) : 'Price TBC'}
+                  </p>
+                  {pricingSummary.hasTbcLines && (
+                    <p className="mt-1 text-xs leading-relaxed text-cocoa/60">
+                      Price TBC items are included in the order but not counted in this known subtotal.
+                    </p>
+                  )}
+                </div>
+              )}
               <p className="mb-3 text-xs leading-relaxed text-cocoa/55">
-                Prices with ranges are confirmed directly by Oliviks before pickup.
+                Prices with ranges or placeholders are confirmed directly by Oliviks before pickup.
               </p>
               {hasItems ? (
                 <a

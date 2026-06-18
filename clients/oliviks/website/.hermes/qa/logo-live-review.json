@@ -1,0 +1,48 @@
+[
+  {
+    "viewport": {
+      "name": "desktop",
+      "width": 1440,
+      "height": 900
+    },
+    "visible": true,
+    "metrics": {
+      "header": {
+        "width": 1440,
+        "height": 71
+      },
+      "logo": {
+        "width": 146.078125,
+        "height": 56
+      },
+      "link": {
+        "width": 146.078125,
+        "height": 56
+      }
+    },
+    "consoleErrors": []
+  },
+  {
+    "viewport": {
+      "name": "mobile",
+      "width": 390,
+      "height": 844
+    },
+    "visible": true,
+    "metrics": {
+      "header": {
+        "width": 390,
+        "height": 71
+      },
+      "logo": {
+        "width": 125.203125,
+        "height": 48
+      },
+      "link": {
+        "width": 125.203125,
+        "height": 48
+      }
+    },
+    "consoleErrors": []
+  }
+]

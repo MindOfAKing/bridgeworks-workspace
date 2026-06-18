@@ -8,28 +8,28 @@ test('menu add-to-order cart flow builds a WhatsApp order link', async ({ page }
   page.on('pageerror', (error) => consoleErrors.push(error.message));
 
   await page.goto('http://localhost:3000/menu');
-  await expect(page.getByRole('heading', { name: /Menu/i })).toBeVisible();
+  await expect(page.getByRole('heading', { name: /What We Cook/i })).toBeVisible();
 
-  await page.getByRole('button', { name: 'Add to Order' }).first().click();
+  await page.locator('article').first().getByRole('button', { name: 'Order', exact: true }).click();
 
   const cart = page.getByRole('dialog', { name: 'Your order' });
   await expect(cart).toBeVisible();
-  await expect(cart.getByText('Jollof Rice')).toBeVisible();
+  await expect(cart.getByText('Jollof rice with protein')).toBeVisible();
   await expect(cart.getByRole('link', { name: /Send order on WhatsApp/i })).toBeVisible();
 
-  await cart.getByRole('button', { name: /Increase Jollof Rice/i }).click();
+  await cart.getByRole('button', { name: /Increase Jollof rice with protein/i }).click();
   await expect(cart.getByText('2', { exact: true })).toBeVisible();
 
   const href = await cart.getByRole('link', { name: /Send order on WhatsApp/i }).getAttribute('href');
   expect(href).toContain('https://wa.me/36705673070?text=');
   const message = decodeURIComponent(new URL(href!).searchParams.get('text') ?? '');
   expect(message).toContain("Hi Oliviks Kitchen, I'd like to place an order:");
-  expect(message).toContain('2x Jollof Rice');
+  expect(message).toContain('2x Jollof rice with protein');
   expect(message).toContain('Please confirm availability, final total, and pickup time.');
 
   await page.screenshot({ path: '.hermes/qa/cart-flow.png', fullPage: true });
 
-  await cart.getByRole('button', { name: /Decrease Jollof Rice/i }).click();
+  await cart.getByRole('button', { name: /Decrease Jollof rice with protein/i }).click();
   await expect(cart.getByText('1', { exact: true })).toBeVisible();
 
   await cart.getByRole('button', { name: /Close cart/i }).click();
@@ -53,7 +53,7 @@ test('mobile header can reopen an existing cart', async ({ page }) => {
 
   await page.setViewportSize({ width: 390, height: 844 });
   await page.goto('http://localhost:3000/menu');
-  await page.getByRole('button', { name: 'Add to Order' }).first().click();
+  await page.locator('article').first().getByRole('button', { name: 'Order', exact: true }).click();
 
   const cart = page.getByRole('dialog', { name: 'Your order' });
   await expect(cart).toBeVisible();

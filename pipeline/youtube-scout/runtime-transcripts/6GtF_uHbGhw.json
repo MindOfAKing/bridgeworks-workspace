@@ -1,0 +1,23 @@
+{
+  "video_id": "6GtF_uHbGhw",
+  "url": "https://www.youtube.com/watch?v=6GtF_uHbGhw",
+  "metadata": {
+    "title": "Every Level of Hermes Agent Explained",
+    "channel": "Jack Roberts",
+    "channel_id": "UCxVxcTULO9cFU6SB9qVaisQ",
+    "published_at": "2026-06-17T19:27:42Z",
+    "description": "📈 ALL Systems: https://bit.ly/4kol0y5\n🩵 Free Resources: https://bit.ly/3RNNDLa\n🔥 Type with your voice: https://glaido.com\n\nHundreds of hours building Hermes agents later, there are seven levels almost nobody actually climbs. Most people get stuck at level zero without even realising it. Now, you and I are going through every single one, from a basic one-shot prompt to a fully agentic operating system that ships work whilst you sleep. So if you want to connect Claude, ChatGPT, Grok and DeepSeek into one Hermes setup that crushes admin, builds software and runs parallel sub agents, this is the breakdown. By the end, you'll know exactly where you're at and what to fix to move up.\n\n*** CORE Software ***\n☁️ Claude: https://claude.ai/\n💬 ChatGPT: https://chatgpt.com/\n🔀 OpenRouter: https://openrouter.ai/\n🐳 DeepSeek: https://www.deepseek.com/\n📁 GitHub: https://github.com/\n🚀 AntiGravity: https://antigravity.google/\n\n⌚️ Stamps:\n00:00 - The Seven Levels Explained\n00:55 - Level Zero And One\n02:48 - Level Two: The Apprentice\n04:01 - Building Your Hermes Soul\n05:27 - Level Three: Commands And Skills\n07:48 - Picking The Right Model\n09:38 - Skills And Time Savings\n11:24 - Level Four: The Integrator\n13:08 - Connecting Granola And MCPs\n14:45 - The MCP Candy Store Mistake\n15:53 - Level Five: Orchestration\n17:01 - Parallel Sub Agents In Action\n18:57 - Level Six: The Builder\n20:06 - Scheduled And Async Tasks\n22:17 - Level Seven: Agentic Power User\n23:33 - One Operating System For Everything\n24:54 - Three Truths To Understand\n\nLearn how to set up and scale a Hermes agent across all seven levels, connect Claude, ChatGPT, Grok, OpenRouter and DeepSeek for model agnostic workflows, build skills and sub agents, automate scheduled tasks, and run one agentic operating system that ships work without you.\n#HermesAgent #ClaudeCode #AIAgents #ContextEngineering #AIAutomation #DeepSeek",
+    "tags": [],
+    "category_id": "2",
+    "view_count": 18103,
+    "like_count": 666,
+    "comment_count": 52,
+    "duration": "PT25M35S"
+  },
+  "transcript": {
+    "available": false,
+    "full_text": "",
+    "word_count": 0,
+    "error": "type object 'YouTubeTranscriptApi' has no attribute 'get_transcript'"
+  }
+}

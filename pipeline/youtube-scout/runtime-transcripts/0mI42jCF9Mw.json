@@ -1,0 +1,36 @@
+{
+  "video_id": "0mI42jCF9Mw",
+  "url": "https://www.youtube.com/watch?v=0mI42jCF9Mw",
+  "metadata": {
+    "title": "Turn 1 Blog Post Into 3 Posts Automatically (n8n + AI, No Code)",
+    "channel": "MLTut",
+    "channel_id": "UCMcJtgCJ8xk214g-GDaFRfw",
+    "published_at": "2026-06-18T16:46:04Z",
+    "description": "Content Repurposing, AI Content Repurposing, Social Media Automation, and Content Automation are some of the most powerful ways to scale content creation. In this tutorial, you'll learn how to turn one blog post into three social media posts automatically using AI and n8n.\n\nContent repurposing is the slowest part of being a creator, you write one good blog post, then you're stuck turning it into a LinkedIn post, an X thread, and a newsletter by hand. In this video I'll show you how to do AI content repurposing the smart way: paste one blog URL, and thirty seconds later you get three platform-ready drafts waiting in Notion. We build the whole thing from scratch with n8n and Google Gemini, no code, on the free tier.\n\nThis is a full n8n tutorial for beginners, so I explain every node as I add it. You'll set up a form trigger, scrape the article with an HTTP request, catch failed scrapes with an IF node, and then run three separate Gemini nodes, one tuned for a LinkedIn post, one for an X thread, one for a newsletter intro. That three-prompt setup is the whole reason this content automation actually sounds human instead of like one machine wrote everything.\n\nIf you've been looking for a real social media automation workflow, not auto-publishing junk, but a system with a review layer you can trust, this is it. Everything lands in Notion as a draft so you read, sharpen, and approve before anything goes out. It's the kind of automated content workflow that saves hours every week and keeps your LinkedIn, X (Twitter), and email all fed from a single article.\n\nPerfect for creators, marketers, and anyone building a no-code AI content creation system. The exact Gemini system prompts are in the video. Like the video if it helped, and tell me which platform you're repurposing for first.\n\n🔗 Prompt engineering course (Vanderbilt, Coursera): https://imp.i384100.net/NkOjZq\n\nThis is an affiliate link, if you sign up through it, I may earn a small commission at no extra cost to you. I only recommend things I'd actually use.\n \n#ContentRepurposing #AIContentRepurposing #SocialMediaAutomation #ContentAutomation #n8n \n\n\nOn this channel, I teach Python, NumPy, Machine Learning, Deep Learning, and practical AI tools like Claude Code in a clear and structured way.\n\nYou’ll find beginner-friendly Python tutorials, data science fundamentals, real coding examples, and full course series focused on building strong technical foundations.\n\nI also cover modern AI workflows, developer tools, and applied machine learning concepts to help you move from basics to real-world implementation.\n\nIf you are learning Python for data science, exploring AI tools like Claude Code, or building skills for a machine learning career, this channel is designed to guide you step by step.\n\nSubscribe for complete course series and consistent technical learning.",
+    "tags": [
+      "content repurposing",
+      "ai content repurposing",
+      "content automation",
+      "social media automation",
+      "n8n",
+      "n8n tutorial",
+      "n8n content automation",
+      "repurpose blog post",
+      "turn blog into social posts",
+      "no code automation",
+      "gemini ai",
+      "content creation automation"
+    ],
+    "category_id": "27",
+    "view_count": 4,
+    "like_count": 3,
+    "comment_count": 1,
+    "duration": "PT9M59S"
+  },
+  "transcript": {
+    "available": false,
+    "full_text": "",
+    "word_count": 0,
+    "error": "type object 'YouTubeTranscriptApi' has no attribute 'get_transcript'"
+  }
+}
