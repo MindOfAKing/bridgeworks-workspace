@@ -1,0 +1,5 @@
+.hermes
+test-results
+.next
+node_modules
+*.log

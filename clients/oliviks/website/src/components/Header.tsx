@@ -2,9 +2,9 @@
 
 import { useState } from 'react';
 import Link from 'next/link';
-import { Menu, X } from 'lucide-react';
+import { Menu, ShoppingBag, X } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { OrderCTA } from './OrderCTA';
+import { useOrder } from '@/context/OrderContext';
 
 const nav = [
   { href: '/menu', label: 'Menu' },
@@ -29,7 +29,7 @@ export function Header() {
               {n.label}
             </Link>
           ))}
-          <OrderCTA label="Order" />
+          <CartButton />
         </nav>
 
         <button
@@ -63,12 +63,31 @@ export function Header() {
                 </Link>
               ))}
               <div className="pt-1">
-                <OrderCTA label="Order on WhatsApp" />
+                <CartButton fullWidth />
               </div>
             </div>
           </motion.nav>
         )}
       </AnimatePresence>
     </header>
+  );
+}
+
+function CartButton({ fullWidth = false }: { fullWidth?: boolean }) {
+  const { itemCount, openCart } = useOrder();
+
+  return (
+    <button
+      type="button"
+      onClick={openCart}
+      className={`btn-primary relative justify-center ${fullWidth ? 'w-full' : ''}`}
+      aria-label={`View order cart with ${itemCount} item${itemCount === 1 ? '' : 's'}`}
+    >
+      <ShoppingBag size={18} aria-hidden="true" />
+      View order
+      <span className="ml-1 inline-flex min-w-6 items-center justify-center rounded-full bg-gold px-2 py-0.5 text-xs font-bold text-cocoa">
+        {itemCount}
+      </span>
+    </button>
   );
 }

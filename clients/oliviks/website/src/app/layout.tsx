@@ -3,8 +3,11 @@ import { Playfair_Display, DM_Sans } from 'next/font/google';
 import './globals.css';
 import { Header } from '@/components/Header';
 import { Footer } from '@/components/Footer';
+import { OrderCartPanel } from '@/components/OrderCartPanel';
 import { site } from '@/data/site';
 import { restaurantSchema } from '@/lib/schema';
+import { OrderProvider } from '@/context/OrderContext';
+
 
 const playfair = Playfair_Display({
   subsets: ['latin'],
@@ -48,9 +51,12 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(restaurantSchema()) }}
         />
-        <Header />
-        <main>{children}</main>
-        <Footer />
+        <OrderProvider>
+          <Header />
+          <main>{children}</main>
+          <Footer />
+          <OrderCartPanel />
+        </OrderProvider>
       </body>
     </html>
   );
