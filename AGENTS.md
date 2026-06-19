@@ -46,8 +46,8 @@ Do not use these as canonical unless Emmanuel explicitly reapproves them:
 - AI tools are the build method.
 - Free first, low cost second, paid only when proven.
 - Client agreement is not assumed unless Emmanuel explicitly confirms it.
-- CEEFM is active client delivery under BridgeWorks.
-- Olivik's Kitchen is a prospect or potential client context, not a confirmed client unless explicitly confirmed.
+- CEEFM is closed client work and past case study only. Do not treat it as active delivery or recurring client-page content.
+- Oliviks Kitchen is active client-review context for the Foundation website rebuild.
 - Digital Growth Engine is a BridgeWorks system.
 - Outreach infrastructure and competitive intelligence are BridgeWorks functions.
 

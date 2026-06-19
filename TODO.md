@@ -42,10 +42,10 @@
 - [x] Onboarding doc / week-1 client handbook — **EN shipped 2026-05-05** at `business-brain/world-model/org/brand/bridgeworks/CLIENT-ONBOARDING-EN.md`. Parameterized from existing `Client Onboarding · BridgeWorks.pdf`, with terms reconciled to the contract template (8-day payment window, AAM not "VAT registered", end-of-month retainer cadence, 5-day deemed-acceptance language). HU translation pending — re-runnable via the same DeepL pattern as the contract template.
 - [ ] Payment flow for NGN clients (avoid 4% card fee)
 
-### CEE FM (Week 5/16 — Foundation-first, ads deferred)
-Strategic decision (Apr): defer paid ads + cold outreach until content/GEO/SEO foundation is solid. Current GEO score 47/100 (target 70+). Working from GEO-AUDIT-REPORT.md 30-day action plan, not proposal Phase 3 ad work.
+### CEE FM (closed — archive only)
+CEEFM is no longer an active client as of 2026-06-19. Do not treat the items below as current delivery work, recurring content, outreach, or a live retainer. Keep only for verified case-study/archive reference.
 
-**This week (GEO 30-day Week 1: Truth & Trust):**
+**Archived April/May delivery notes:**
 - [ ] **URGENT: Draft CEE FM May content calendar** (12 posts, first Tue May 5)
 - [x] Add Hungarian legal imprint to footer (Cégjegyzékszám 13-09-227045, Adószám 22734015-2-13, registered seat 2724 Újlengyel Petőfi Sándor utca 48) — deployed 2026-04-29. *Budapest telephely question still open with Victor.*
 - [~] Fix founding year: schema + llms.txt corrected to 2010-05-18 on 2026-04-29. **Still pending:** homepage stat tile says "10+ Years Experience" and llms.txt:38 still says "12 years of operational experience" — needs Emmanuel's call on whether to change marketing claims (now ~16 years from 2010).
@@ -80,8 +80,8 @@ Strategic decision (Apr): defer paid ads + cold outreach until content/GEO/SEO f
 
 ## Backlog
 
-### CEE FM 16-week Roadmap (re-sequenced; ads deferred until foundation ready)
-Original proposal CEEFM-PROP-001 had ads + outreach launching Wk 1-4. Joint decision with Victor: invest Wk 5-8 in foundation per GEO audit, then run ads on a converting site Wk 9-12.
+### CEE FM archived roadmap (do not execute unless reactivated)
+Original proposal CEEFM-PROP-001 had ads + outreach launching Wk 1-4. This roadmap is historical as of 2026-06-19 because CEEFM is no longer an active client.
 
 **Wk 5 (GEO 30-day Wk 1) — Truth & Trust Foundations:**
 - [x] Hungarian legal imprint live — deployed 2026-04-29

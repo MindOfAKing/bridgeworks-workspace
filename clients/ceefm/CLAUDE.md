@@ -7,11 +7,12 @@ CEEFM Kft. Budapest-based facility management company.
 Emmanuel OS > Career / Business > BridgeWorks > Client Delivery > CEEFM
 
 ## Engagement
-- Type: 16-week digital growth engagement.
+- Type: completed digital growth engagement / past case study.
 - Started: Late March 2026.
 - Market: CEE.
-- Pricing context: EUR retainer. The Command Center Finance tab currently records EUR 400 monthly retainer context.
-- Status: Active.
+- Pricing context: historical EUR retainer context only. Do not treat as current receivable or active retainer.
+- Status: Closed. CEEFM is no longer an active client.
+- Rule: no delivery work, recurring content, reports, outreach, or client-page posting unless Emmanuel explicitly reactivates CEEFM.
 
 ## Current Source Of Truth
 Use these before relying on older April files:
@@ -19,13 +20,13 @@ Use these before relying on older April files:
 - `C:/Users/ELITEX21012G2/Projects/bridgeworks-workspace/clients/ceefm/`.
 - Current reports, deliverables, invoices, and sessions inside the CEEFM folder.
 
-## Files In Active Workspace
+## Files In Archived Workspace
 - `CEEFM Kft Case Study - BridgeWorks.pdf`: case study/reference artifact.
 - `CEEFM Results Tracker - BridgeWorks.pdf`: performance tracking document.
-- `reports/`: monthly, GEO, delivery, analytics, and action-plan files.
-- `content/`: April and May content calendar work.
-- `deliverables/`: current client deliverables and outreach packages.
-- `invoices/`: invoice PDFs and Szamlazz context.
+- `reports/`: historical monthly, GEO, delivery, analytics, and action-plan files.
+- `content/`: historical April and May content calendar work. Do not schedule new CEEFM content.
+- `deliverables/`: historical client deliverables and outreach packages.
+- `invoices/`: historical invoice PDFs and Szamlazz context.
 
 ## Historical Or Cancelled Work
 Do not treat cancelled or older visual design work as active.
@@ -38,12 +39,14 @@ Mark as historical unless Emmanuel reactivates it:
 - April-only report state or week-2 status.
 
 ## Current Delivery Notes
-Known active delivery themes from the inventory:
+CEEFM has no active delivery lane. Use this folder for archive lookup and verified case-study facts only.
+
+Historical themes from the inventory:
 - May content calendar.
 - Backend/VAT/Szamlazz work.
 - Weekly AI visibility maintenance.
 - Reports and proof capture.
-- Stale PDF/logo paths may need cleanup.
+- Stale PDF/logo paths may need cleanup if referenced in future case-study materials.
 
 ## Sibling Locations
 | Location | Purpose |
