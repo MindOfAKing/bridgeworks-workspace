@@ -3,3 +3,6 @@ node_modules/
 .DS_Store
 .firecrawl-*.json
 **/.docxbuild/fetch-err.txt
+
+# Local/private automation cockpit outputs. May contain Gmail, finance, client, and ops context.
+automation-reports-dashboard/
