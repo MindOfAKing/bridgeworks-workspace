@@ -49,11 +49,11 @@ export const site = {
   // OrderCTA.tsx and this block change.
   ordering: {
     mode: 'whatsapp' as 'whatsapp' | 'call' | 'cart' | 'checkout',
-    // Client prefers orders direct, not via Wolt/Foodora. Kept here (off) so the
-    // platform badges can be re-enabled in one place if owners change their mind.
-    showPlatforms: false,
+    // Direct WhatsApp remains primary. App delivery stickers are still shown for
+    // customers who specifically prefer Wolt/Foodora.
+    showPlatforms: true,
     wolt: 'https://wolt.com/en/hun/budapest/restaurant/oliviks-nigerian-kitchen',
-    foodora: '', // exact Oliviks listing URL needed if re-enabled
+    foodora: 'https://www.foodora.hu/en/restaurant/lclg/oliviks-kitchen',
   },
 
   founders: 'Cynthia & Aese',

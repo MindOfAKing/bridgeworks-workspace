@@ -1,0 +1,183 @@
+{
+  "published_after": "2026-06-18T11:02:20.791954+00:00",
+  "count": 16,
+  "errors": [],
+  "items": [
+    {
+      "source": "rss-watchlist",
+      "channel_id": "UClXAalunTPaX1YV185DWUeg",
+      "channel_label": "Vaibhav Sisinty — AI-first business, growth, LinkedIn",
+      "video_id": "j8Y9kttBMYE",
+      "title": "China's New Open-Source AI is Destroying GPT-5.5 & Claude!",
+      "channel": "Vaibhav Sisinty",
+      "publishedAt": "2026-06-19T04:54:46+00:00",
+      "description": "🔗 Join our WhatsApp Community\nGet the latest AI updates, tips, and insights straight to your inbox:\nhttps://join.switchit.app/YT\n\n--------\n\nTo Know More,\nFollow Vaibhav Sisinty On ⤵︎\n\nInstagram @VaibhavSisinty\nhttps://www.instagram.com/vaibhavsisinty\n\nTwitter @VaibhavSisinty\nhttps://twitter.com/VaibhavSisinty\n\nFacebook @VaibhavSisinty\nhttps://www.facebook.com/vaibhavsisinty/\n\nLinkedIn - Vaibhav Sisinty\nhttps://www.linkedin.com/in/vaibhavsisinty",
+      "url": "https://www.youtube.com/watch?v=j8Y9kttBMYE"
+    },
+    {
+      "source": "rss-watchlist",
+      "channel_id": "UC2ojq-nuP8ceeHqiroeKhBA",
+      "channel_label": "Nate Herk — n8n + Claude Code, selling automation",
+      "video_id": "2OD14-0cot4",
+      "title": "GLM 5.2 in Claude Code is Blowing My Mind",
+      "channel": "Nate Herk | AI Automation",
+      "publishedAt": "2026-06-19T01:13:05+00:00",
+      "description": "My FREE AI OS Course: https://www.skool.com/ai-automation-society/about?el=glm-5.2-claude&hcategory=youtube-videos&utm_campaign=free-group\nFull courses + unlimited support: https://www.skool.com/ai-automation-society-plus/about?el=glm-5.2-claude&hcategory=youtube-videos&utm_campaign=ais-plus\nApply for my YT podcast: https://podcast.nateherk.com/apply\nWork with me: https://uppitai.com/\n\nMy Tools💻\nFREE MONTH voice to text: https://get.glaido.com/nate\nCode NATEHERK for 10% off VPS (annual plan): https://www.hostinger.com/vps/claude-code-hosting\n\nI switched Claude Code over to GLM 5.2 and ran it all day. It's a 756 billion parameter open source model you can route straight into the Claude Code harness for about five times cheaper than Opus, and for most of my knowledge work it held up fine. \n\nIn this one I show you what it can build, where it beats Opus and where it doesn't, and exactly how to set it up so you can switch between models per project.\n\nHere's the config I use. Drop this into your .claude/settings.local.json and swap in your own Z.ai key:\n\n\"env\": {\n  \"ANTHROPIC_BASE_URL\": \"https://api.z.ai/api/anthropic\",\n  \"ANTHROPIC_AUTH_TOKEN\": \"your-z-ai-api-key-here\",\n  \"ANTHROPIC_API_KEY\": \"\",\n  \"API_TIMEOUT_MS\": \"3000000\",\n  \"ANTHROPIC_DEFAULT_OPUS_MODEL\": \"glm-5.2\",\n  \"ANTHROPIC_DEFAULT_SONNET_MODEL\": \"glm-5.2\",\n  \"ANTHROPIC_DEFAULT_HAIKU_MODEL\": \"glm-5.2\",\n  \"ANTHROPIC_SMALL_FAST_MODEL\": \"glm-5.2\",\n  \"CLAUDE_CODE_SUBAGENT_MODEL\": \"glm-5.2\"\n}\n\nSponsorship Inquiries:\n📧 nate@smoothmedia.co\n\nConnect with me:\nhttps://www.linkedin.com/in/nateherkelman/\nhttps://x.com/nateherk\nhttps://www.instagram.com/nateherk/\n\nTIMESTAMPS \n0:00 Intro\n0:56 What GLM 5.2 Can Do\n2:40 When You Actually Need Opus\n3:39 Creative One-Shot Builds\n5:21 Storm Research With GLM\n7:36 Why Open Source Matters\n8:21 Benchmarks And Pricing\n9:19 Renting vs Owning Your Model\n10:33 How To Set It Up\n14:48 Final Thoughts",
+      "url": "https://www.youtube.com/watch?v=2OD14-0cot4"
+    },
+    {
+      "source": "rss-watchlist",
+      "channel_id": "UCUyDOdBWhC1MCxEjC46d-zw",
+      "channel_label": "Alex Hormozi — offers, acquisition",
+      "video_id": "xaKFlt5Y0rk",
+      "title": "You Bought a Business, Not a Passive Investment",
+      "channel": "Alex Hormozi",
+      "publishedAt": "2026-06-18T23:17:57+00:00",
+      "description": "One of the hardest parts about business is the worry that all the work, money, and time you’re investing right now, and have invested, will amount to nothing.\n\nAnd - you just gotta deal with it, get back to work, and try and prove it wasn’t.",
+      "url": "https://www.youtube.com/watch?v=xaKFlt5Y0rk"
+    },
+    {
+      "source": "rss-watchlist",
+      "channel_id": "UCUyDOdBWhC1MCxEjC46d-zw",
+      "channel_label": "Alex Hormozi — offers, acquisition",
+      "video_id": "su4cDlNN-Rw",
+      "title": "You Could Also Just Do More of This Thing",
+      "channel": "Alex Hormozi",
+      "publishedAt": "2026-06-18T23:17:03+00:00",
+      "description": "Most entrepreneurs can’t help themselves…\n\nWhen business growth slows, they think ‘What’s something new I can sell my audience?’\n\nRather than, ‘How I do the hard thing and keep growing my main thing?’\n\nNew doesn’t compound.\n\nBetter questions better answers.",
+      "url": "https://www.youtube.com/watch?v=su4cDlNN-Rw"
+    },
+    {
+      "source": "rss-watchlist",
+      "channel_id": "UCUyDOdBWhC1MCxEjC46d-zw",
+      "channel_label": "Alex Hormozi — offers, acquisition",
+      "video_id": "IK5QYLn1CD0",
+      "title": "You Bought a Business, Not a Passive Investment",
+      "channel": "Alex Hormozi",
+      "publishedAt": "2026-06-18T23:17:01+00:00",
+      "description": "One of the hardest parts about business is the worry that all the work, money, and time you’re investing right now, and have invested, will amount to nothing.\n\nAnd - you just gotta deal with it, get back to work, and try and prove it wasn’t.",
+      "url": "https://www.youtube.com/watch?v=IK5QYLn1CD0"
+    },
+    {
+      "source": "rss-watchlist",
+      "channel_id": "UCUyDOdBWhC1MCxEjC46d-zw",
+      "channel_label": "Alex Hormozi — offers, acquisition",
+      "video_id": "Yje2yALHMXY",
+      "title": "You Bought a Business, Not a Passive Investment",
+      "channel": "Alex Hormozi",
+      "publishedAt": "2026-06-18T23:00:56+00:00",
+      "description": "One of the hardest parts about business is the worry that all the work, money, and time you’re investing right now, and have invested, will amount to nothing.\n\nAnd - you just gotta deal with it, get back to work, and try and prove it wasn’t.",
+      "url": "https://www.youtube.com/watch?v=Yje2yALHMXY"
+    },
+    {
+      "source": "rss-watchlist",
+      "channel_id": "UCUyDOdBWhC1MCxEjC46d-zw",
+      "channel_label": "Alex Hormozi — offers, acquisition",
+      "video_id": "Xx7N0JpQErg",
+      "title": "You Could Also Just Do More of This Thing",
+      "channel": "Alex Hormozi",
+      "publishedAt": "2026-06-18T23:00:51+00:00",
+      "description": "Most entrepreneurs can’t help themselves…\n\nWhen business growth slows, they think ‘What’s something new I can sell my audience?’\n\nRather than, ‘How I do the hard thing and keep growing my main thing?’\n\nNew doesn’t compound.\n\nBetter questions better answers.",
+      "url": "https://www.youtube.com/watch?v=Xx7N0JpQErg"
+    },
+    {
+      "source": "rss-watchlist",
+      "channel_id": "UCxVxcTULO9cFU6SB9qVaisQ",
+      "channel_label": "Jack Roberts — UK tech founder, 7-figure AI automation business",
+      "video_id": "GmHt44005t4",
+      "title": "Stop Claude from forgetting anything",
+      "channel": "Jack Roberts",
+      "publishedAt": "2026-06-18T20:57:16+00:00",
+      "description": "Claude forgets everything when you close the session. Every new project, you start from zero.\n\nThat's the tax. You re-explain context every time.\n\nHermes fixes it. One memory store across all your projects.\n\nBuilds a skill library as you work. Use it more. It gets better.\n\nLike a coworker with perfect memory. Every project. Every detail.\n\nContext shouldn't reset. Now it doesn't.\n\n#hermesdesktop #claudecode #claudeai #aiagents #productivity",
+      "url": "https://www.youtube.com/watch?v=GmHt44005t4"
+    },
+    {
+      "source": "rss-watchlist",
+      "channel_id": "UCLI_f0zfE2Q9EWoJe_cAwRw",
+      "channel_label": "Success With Sam — eBay/Shopify dropshipping, digital products",
+      "video_id": "ylpus5A8wFA",
+      "title": "NotebookLM 2.0 Can Sell Digital Products (Free & Unlimited)",
+      "channel": "Success With Sam",
+      "publishedAt": "2026-06-18T18:06:21+00:00",
+      "description": "This video shows you how NotebookLM AI can assist you with AI digital products eg digital planners or ebooks Tutorial\n\n➡️ Free Digital Maker AI Account: https://DigitalMaker.AI\n\n➡️ Check out my AI Step by Step Programme: https://bit.ly/AIDigitalProduct\n\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n➡️ Instagram: https://www.instagram.com/success.with.sam\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\nDisclaimer:\n\nThe content in this video is provided for general information and education only and reflects my personal views and experiences. Nothing in this video should be interpreted as a recommendation or instruction. Viewers are encouraged to do their own research and seek appropriate guidance before taking action. This video may contain referral links that support the growth of the channel and your viewing experience.\n\nThank you for watching - I really appreciate it :)\nLike, comment and subscribe!",
+      "url": "https://www.youtube.com/watch?v=ylpus5A8wFA"
+    },
+    {
+      "source": "rss-watchlist",
+      "channel_id": "UC2ojq-nuP8ceeHqiroeKhBA",
+      "channel_label": "Nate Herk — n8n + Claude Code, selling automation",
+      "video_id": "RzLV8sfFdMM",
+      "title": "How to Build Effective Claude Code Agents in 2026",
+      "channel": "Nate Herk | AI Automation",
+      "publishedAt": "2026-06-18T17:26:17+00:00",
+      "description": "Code NATEHERKB2 for 15% for Biz+ for 1 month or year (exp Jul 18): https://clickup.com/ \nMy FREE AI OS Course: https://www.skool.com/ai-automation-society/about?el=cole-medin-podcast&hcategory=youtube-videos&utm_campaign=free-group\nFull courses + unlimited support: https://www.skool.com/ai-automation-society-plus/about?el=cole-medin-podcast&hcategory=youtube-videos&utm_campaign=ais-plus\nApply for my YT podcast: https://podcast.nateherk.com/apply\nWork with me: https://uppitai.com/\n\nMy Tools💻\nFREE MONTH voice to text: https://get.glaido.com/nate\nCode NATEHERK for 10% off VPS (annual plan): https://www.hostinger.com/vps/claude-code-hosting\n\nBetween Cole and myself, we’ve logged thousands of hours working in tools like Claude Code. So I sat down with him to break down how to actually direct your coding agents instead of just prompting and praying. \n\nWe get into the planning and verification system that separates real results from vibe coding, why every model has a \"dumb zone\" where it starts missing obvious things, and how to chain multiple agent sessions together so one big task doesn't fall apart halfway through. \n\nCole also shares how he thinks about security, treating every bug as a permanent upgrade, and the Claude Code features he leans on most. Whether or not you write code, the mindset applies directly to using AI for real work.\n\nSponsorship Inquiries:\n📧 nate@smoothmedia.co\n\nConnect with me:\nhttps://www.linkedin.com/in/nateherkelman/\nhttps://x.com/nateherk\nhttps://www.instagram.com/nateherk/\n\nTIMESTAMPS \n00:00 Intro\n5:46 Sponsorship\n7:41 Stop Vibe Coding, Start Directing\n13:17 Make the Agent Prove Its Work\n19:46 Why You Plan More Than You Build\n27:01 The Dumb Zone\n33:38 Harness Engineering and the Ralph Loop\n44:23 The Security Problem Nobody Plans For\n51:22 Every Bug Is a Permanent Upgrade\n59:54 Top 3 Claude Code Features\n1:07:56 Outro",
+      "url": "https://www.youtube.com/watch?v=RzLV8sfFdMM"
+    },
+    {
+      "source": "rss-watchlist",
+      "channel_id": "UCcrH_UUxL4KFjS3pwaXvMXA",
+      "channel_label": "Sandy Lee AI — AI sales automation, systems thinking",
+      "video_id": "oXPLQJJ-RYM",
+      "title": "How I Got My First AI Client in 2 Weeks (No Portfolio)",
+      "channel": "Sandy Lee AI",
+      "publishedAt": "2026-06-18T15:51:04+00:00",
+      "description": "FREE RESOURCES:\nSemrush 14 day free trial: https://semrush.sjv.io/c/7353174/3914625/13053\nJoin AI Content Systems: https://www.skool.com/sandyleeai\nSEO skill download: https://sleeautomation.com/resources\n\nI closed my first AI client within two weeks of starting, while working a full time job and raising three kids under seven. No testimonials, no case studies, no portfolio. In this video I show you exactly how I broke the \"you need clients to get testimonials, but testimonials to get clients\" loop and landed my first AI SEO client on Upwork.\n\nI walk through my actual Upwork profile and what made me stand out, how to use Claude to translate your existing experience into AI services, why a quick Loom video closed the deal, and the exact tool stack I used to grow a client's organic keywords. I also show how the new Semrush MCP connects directly to Claude so you can run a full SEO audit without juggling tabs, plus the free SEO skill I built so you can do it too.\n\nThis video is sponsored by Semrush. Grab the 14 day free trial linked below and run an audit on your own site.\n\nTIMESTAMPS:\n0:00 How I closed my first client in two weeks\n1:25 Getting started on Upwork\n5:07 Profile tips that make you stand out\n11:27 My AI SEO tool stack\n12:35 SEMrush MCP and my free SEO skill",
+      "url": "https://www.youtube.com/watch?v=oXPLQJJ-RYM"
+    },
+    {
+      "source": "rss-watchlist",
+      "channel_id": "UCPjNBjflYl0-HQtUvOx0Ibw",
+      "channel_label": "Greg Isenberg — AI startup ideas",
+      "video_id": "ytO3bJWofmw",
+      "title": "Agentic Loops the future of prompting? I’ll break it down in 60s.",
+      "channel": "Greg Isenberg",
+      "publishedAt": "2026-06-18T15:46:02+00:00",
+      "description": "On this episode I sit down with Professor Ras Mic to break down agentic loops. We define what a loop is, explain why well-known builders like Boris and Peter swear by them, and stay honest about who they truly serve. Mic argues that human-in-the-loop remains the strongest setup today, and he walks through the one loop he runs every day for code review using Cursor, GitHub, and Greptile. By the end you will know when a loop earns its place and when your own hand belongs on the wheel.\n\nKey Points\n\n* A loop fires once from a human, then the agent generates, reviews its own result, and feeds it back to keep building.\n* Human-in-the-loop keeps you directing, governing, and approving each step while the agent builds.\n* Wide-open loops make heavy assumptions and burn serious tokens; Michael cites Peter's tweet about $1.3 million worth of tokens in one month.\n* Reserve slash goal and similar loops for the $200/month plan, since the $20 and $100 tiers burn through fast.\n* Loops shine in confined, fixed-feedback work: code review, SEO pages, and other binary tasks.\n* Mic’s daily win is a closed code-review loop with Cursor, GitHub, and Greptile that chases a 5/5 score.\n\nNumbered Section Summaries\n\n1. What a Loop Promises I open by asking Mic what listeners will walk away knowing, and he frames the whole episode: a clear definition of the loop, the reason top AI voices obsess over it, an honest read on who it fits, and a real loop he runs himself. This sets up a balanced, honest take.\n\n2. Diagrams and Human in the Loop Mic kicks off with his beloved stick-figure diagrams and lays out human-in-the-loop: I prompt an agent in Cursor, Claude, or Codex, review the result, and iterate. He uses a to-do app as the example — landing page first, then authentication, then the back end — with me steering every move.\n\n3. How Agent-Run Loops Work Mic explains the approach Boris and Peter describe: the human fires the loop a single time, then the agent checks its own output, feeds the result back in, and continues from a spec.md or PRD.md task list. In theory this points toward the future of building.\n\n4. Where Wide-Open Loops Go Sideways Mic paints a startup analogy: hire a brilliant developer, hand over the spec, and let them build the whole thing solo. The developer fills every gap with assumptions, those guesses drift from the product vision, and the token meter runs hot the entire time. He reminds me that every plan leaves edge cases, so a free-running agent tends to guess wrong and spend big.\n\n5. The Token Bill and the Slop Machine Mic notes that Boris and Peter operate with unlimited token budgets, which makes constant looping rational for them. For everyone watching a budget, he calls these meta-harnesses a money burner, and I land on the phrase that sticks: loops can turn into a slop machine.\n\n6. The One Loop Mic Runs: Code Review Mic shares his daily loop: Cursor as the harness, GitHub for source control, and Greptile as the code-review agent that scores each push out of five. His skill, grep loop, tells the agent to read Greptile's review, apply fixes, push again, and repeat until it hits 5/5 or stops after five turns. He holds a firm rule: code ships to production only at a score above four out of five.\n\n7. Why Code Review Fits and Apps Resist Mic draws the line: code review offers a fixed, defined feedback loop, so a loop thrives there. App building stays fuzzy because the full vision lives partly in his head, and the loop even cracks past 1,000 lines of code, where he splits work into multiple PRs to keep Greptile sharp. SEO pages and other binary jobs fit loops too.\n\n8. The Missing Piece and the Future I point out the piece startup builders truly need: sharing the app for real feedback midway, the way you would pull over on a road trip rather than ride full self-driving from Miami to Charleston. We both agree the future holds fully autonomous loops, yet as of this recording on June 9, 2026, human-in-the-loop stays the best loop.\n\nThe #1 tool to find startup ideas/trends - https://www.ideabrowser.com/\n\nLCA helps Fortune 500s and fast-growing startups build their future - from Warner Music to Fortnite to Dropbox. We turn 'what if' into reality with AI, apps, and next-gen products https://latecheckout.agency/\n\nThe Vibe Marketer - Resources for people into vibe marketing/marketing with AI: https://www.thevibemarketer.com/\n\nFIND ME ON SOCIAL\nX/Twitter: https://twitter.com/gregisenberg\nInstagram: https://instagram.com/gregisenberg/\nLinkedIn: https://www.linkedin.com/in/gisenberg/\n\nFIND MIC ON SOCIAL\nX/Twitter: https://x.com/Rasmic\nYoutube: https://www.youtube.com/@rasmic",
+      "url": "https://www.youtube.com/watch?v=ytO3bJWofmw"
+    },
+    {
+      "source": "rss-watchlist",
+      "channel_id": "UCGznz4NfW5iymkvn1l40qyA",
+      "channel_label": "Simon Squibb — entrepreneurship",
+      "video_id": "2HBbSrMB_Mw",
+      "title": "I went to buy a car… then HIRED her! 😱",
+      "channel": "Simon Squibb",
+      "publishedAt": "2026-06-18T15:34:44+00:00",
+      "description": "My new book will teach you how to tell your story and make dream come true. \n\nYou can get ‘What’s Your Story?’ here 👉 https://www.simonsquibb.com/whats-your-story",
+      "url": "https://www.youtube.com/watch?v=2HBbSrMB_Mw"
+    },
+    {
+      "source": "rss-watchlist",
+      "channel_id": "UC2UXDak6o7rBm23k3Vv5dww",
+      "channel_label": "Tina Huang — vibe coding, AI education, workshops",
+      "video_id": "Gw-m2b43WN4",
+      "title": "Stop Watching AI Slop Build These Projects Instead",
+      "channel": "Tina Huang",
+      "publishedAt": "2026-06-18T15:19:03+00:00",
+      "description": "If your feed looks anything like mine right now, it is full of AI content. And a lot of it is the same thing recycled over and over with a new thumbnail.\nSo here's what I'd actually build instead of watching another top 10 AI tools video:\n\nBuild a personal finance tracker that reads your actual statements and automatically categorizes your spending. You'll use it every month.\nBuild an email agent that triages your inbox and drafts responses for the ones that follow a pattern. You'll feel the time savings immediately.\nBuild a research tool that takes a topic, pulls sources, and gives you a summary you can actually trust. Every time you need to learn something new, it's already there.\n\nThe difference between people who are getting better at AI and people who just know a lot about AI is the building. That's it. That's the whole gap.\n\nPick one. Start today.",
+      "url": "https://www.youtube.com/watch?v=Gw-m2b43WN4"
+    },
+    {
+      "source": "rss-watchlist",
+      "channel_id": "UCZRp6-Xvzo_dBFvt9L7y3Qw",
+      "channel_label": "Build Great Products — AI product design, app advising",
+      "video_id": "o76LeChw_gw",
+      "title": "Framer 3.0 Just Changed Website Design Forever",
+      "channel": "Build Great Products",
+      "publishedAt": "2026-06-18T15:00:01+00:00",
+      "description": "🚀 Learn to build, design and launch apps that actually get customers @ https://www.skool.com/aiapps/about\n💡 Get 250+ validated app ideas and the prompts to build FREE @ https://readytobuild.app/\n\nFramer 3.0 just dropper, and it might have just changed web design forever. Now you can design directly on the Framer canvas your real website, build with the Framer agent to create websites, CMS collections, design systems and more all in one place.\n\nPlus, you can publish straight to the web as well.\n\nIf you're building websites then this is a must watch.\n\nChapters:\n\n00:00 Introduction to Framer 3.0 changing website design.\n01:14 Explaining the new features of Framer 3.0, including agents and branching.\n05:34 Live demo: Building a minimal agency website using a prompt in the Framer agent.\n12:20 How to build in Framer using external coding agents like Codex and Claude Code.\n15:06 Demonstrating building a waitlist landing page inside Codex using the Framer integration.\n18:57 Final thoughts on Framer's agent, design quality, and potential workflows.\n\nFollow on social:\nhttps://www.linkedin.com/in/ashbychris/\nhttps://x.com/chris_bgp",
+      "url": "https://www.youtube.com/watch?v=o76LeChw_gw"
+    },
+    {
+      "source": "rss-watchlist",
+      "channel_id": "UCUyDOdBWhC1MCxEjC46d-zw",
+      "channel_label": "Alex Hormozi — offers, acquisition",
+      "video_id": "hh6Gd0N5eOM",
+      "title": "You Don't Need an Original Idea",
+      "channel": "Alex Hormozi",
+      "publishedAt": "2026-06-18T14:50:09+00:00",
+      "description": "If you’re trying to start a business:\n\nJust. Find. Shit. People. Already. Buy. And. Sell. It.\n\nYou can figure out passion purpose etc after you learn the basics. \n\nMake a profit. Then get cute.\n\nBut you may realize you find you’re passionate about making a profit.\n\n2 birds.",
+      "url": "https://www.youtube.com/watch?v=hh6Gd0N5eOM"
+    }
+  ]
+}

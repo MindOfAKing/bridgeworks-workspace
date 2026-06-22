@@ -1,0 +1,620 @@
+00:00 So, did you know that there's a way that
+00:01 you can use Google's Notebook LM to help
+00:04 you launch a digital product store?
+00:06 There's a unique way that you can use it
+00:08 from the very beginning in terms of the
+00:09 planning stage, the building stage, as
+00:12 well as launching it and getting actual
+00:13 customers. And along the way, Notebook
+00:16 LM is going to be able to guide you
+00:17 through every single step. Most people
+00:20 are not even aware of the fact that they
+00:21 can do this, but don't worry, in today's
+00:23 video, I'm going to break everything
+00:24 down for you. Now, first things first,
+00:26 for those of you that's not really sure
+00:27 as to what I mean when I say a digital
+00:29 product store, it's pretty simple. It's
+00:31 the opposite of a physical product
+00:33 store, you know, a regular drop shipping
+00:34 store where you're probably going to
+00:36 drop ship products from AliExpress. It's
+00:38 going to be the complete opposite where
+00:39 you're going to be launching products
+00:41 where there's no manufacturer, there's
+00:43 no supplier. It's literally going to
+00:45 come down to using AI to help you build
+00:47 a product that people are actively
+00:49 buying. And there's so many different
+00:50 types or categories that digital
+00:52 products fall under. You know, we've got
+00:54 things like spreadsheets, whether that's
+00:56 Excel or Google Sheets. We've got info
+00:58 products, you know, courses, e-books,
+01:01 audiobooks. There's also digital
+01:02 planners, digital workbooks, you know,
+01:04 the list goes on and on. And one of the
+01:06 first things that I'd recommend anyone
+01:08 to do is to first and foremost find a
+01:11 store that is selling these different
+01:13 type of products just so that you have a
+01:14 full understanding as to what is
+01:16 involved. And one of the best ways that
+01:18 you can find a wide variety of different
+01:20 digital product stores where there's no
+01:23 one necessarily showing their face, it's
+01:25 a completely branded store that you can
+01:28 potentially build yourself, is to go
+01:29 over to this tool over here called
+01:31 Digital Maker AI. In my personal
+01:33 opinion, I would say that this is
+01:35 probably one of the best digital product
+01:37 AI tools and that's for a number of
+01:38 different reasons, but by the end of
+01:40 this video, you're going to have a full
+01:41 understanding as to why I'm saying this.
+01:43 But for you to access it, which you're
+01:45 going to be able to do for completely
+01:46 free, you're going to be able to do so
+01:48 by clicking the top link in my
+01:49 description down below. Click on get
+01:51 started for free, and then from here,
+01:53 you can sign up using your Gmail or a
+01:55 regular email address. And once you've
+01:57 logged in, you should see a similar page
+01:59 to this, but for you to find all of
+02:01 these different branded digital product
+02:03 stores, you need to go over to the
+02:04 left-hand side and you're going to see
+02:06 store finder. This is a new feature
+02:08 that's been added, so I'm just going to
+02:10 click into it. And from here, as you can
+02:12 see, there's going to be a big list of
+02:14 various different stores. Some of them
+02:17 sell physical products, some of them
+02:19 sell both digital and physical, but many
+02:21 of them, the majority of them, focus on
+02:23 purely digital- based products. And the
+02:26 reason why this is helpful is because
+02:27 you can click directly into the store,
+02:29 you can see what they mainly focus on,
+02:31 you can see the main channels as to how
+02:33 they getting traffic. You can also see
+02:36 the amount of products they've got
+02:37 listed, and most importantly, the
+02:39 estimated monthly revenue. And in this
+02:41 video, I'm going to be showing you how
+02:43 I'm going to use Notebook LM to help me
+02:45 build a very similar store. So, let's go
+02:49 with this one over here. They seem to be
+02:51 doing really well. I'm just going to
+02:52 click into the link. Okay, so as you
+02:54 guys can see, this is a regular store
+02:57 selling a variety of different digital
+02:59 planners for iPads. They've got bundles
+03:02 for 2026, 2027. This is definitely a
+03:06 well-designed store, and I can instantly
+03:08 see why they are bringing in the revenue
+03:10 that they're bringing in. So, yeah, this
+03:12 is a perfect example of what I mean when
+03:14 I say a digital product store. They
+03:16 don't really have any physical products
+03:18 from what I can see. They may do, but
+03:20 essentially, this is the type of store
+03:22 that you want to get to, selling all of
+03:24 these different digital-based products
+03:26 that people are actively searching for
+03:28 that's backed by proven data. But now
+03:30 that you know exactly what I'm talking
+03:31 about, let's jump straight into one of
+03:33 the first things that you're going to
+03:34 need to do with Notebook LM, which is
+03:36 that you're going to need to program it
+03:38 and tell it exactly what type of digital
+03:40 product you're looking to build. So, to
+03:42 do this, you're just going to go over to
+03:43 it, click on this button. It's then
+03:46 going to take you over to a page like
+03:47 this, and the majority of you that have
+03:49 watched this channel or any of my videos
+03:51 before would already know exactly what
+03:53 they need to do to program their
+03:55 notebook out and it's going to come down
+03:57 to clicking on copy text and it's going
+04:00 to be in here where you're going to give
+04:02 your notebook a custom prompt. Now for
+04:04 those of you that have watched my videos
+04:06 before you're probably thinking Sam, I
+04:07 know exactly what you're about to do but
+04:09 stick around because there's been some
+04:11 updates in the entire process. So what
+04:13 I'm going to do is just go over to the
+04:15 left-hand side within digital maker AI.
+04:17 I'm going to click on prompt maker and
+04:19 from here what I'm going to do is click
+04:20 on notebook out and it's then going to
+04:23 ask me what type of product am I
+04:25 interested in creating. So I'm going to
+04:26 click on digital planner and then click
+04:28 on next and you're going to see that the
+04:31 questions have slightly updated and this
+04:33 is for a good reason. So question two is
+04:36 who is this planner for? I'm going to
+04:38 focus mainly on selling digital planners
+04:40 to target small business owners but of
+04:42 course you'd want to focus on a
+04:44 demographic that you believe that you
+04:46 can sell to to the best of your
+04:48 abilities. So I'm going to click on
+04:49 next. What type of planner do you want
+04:51 to create? I'm going to say 2026 in this
+04:54 case. Let's go with that. Which sections
+04:57 should your planner include? Well
+04:58 because it's for small business owners,
+05:00 I'm going to say goals and vision,
+05:03 content calendar, habit tracker and
+05:05 finance tracker. Let's go with that and
+05:07 then click on next. What color scheme do
+05:10 I want? I'm going to say blue. Landscape
+05:12 or portrait for the planner? I'm going
+05:14 to say landscape. What do you want to
+05:16 call it? I'm just going to say small
+05:18 business digital planner. Keep it
+05:21 simple. And where do I want to sell it?
+05:23 I'm going to say that I want to sell it
+05:24 on my own website. And how do I plan to
+05:27 drive traffic to this planner? I'm going
+05:29 to go with faceless YouTube channel and
+05:32 Google ads. I'm choosing these ones
+05:34 randomly guys but stick with me because
+05:36 I'm going to show you why that is but
+05:38 let's go with generate prompt. Okay,
+05:41 perfect. Now that I've got the full
+05:42 prompt, I could just copy it like that,
+05:44 make my way over to notebook out and
+05:46 paste everything in there just like
+05:48 this, and then click on insert. And what
+05:50 you should come back with is something
+05:52 similar to what you can see on the
+05:53 screen. It's going to be a summary of
+05:55 what is going to be involved throughout
+05:57 this entire process. Now, just to give
+05:59 you guys a quick understanding of what
+06:01 I'm doing, or what Notebook AI M is
+06:03 going to help me with, and what it can
+06:04 help you with, is that it's going to
+06:05 guide you through everything by asking
+06:07 you clarifying questions, and also
+06:09 instructing you on exactly what you need
+06:11 to do to build out the digital product,
+06:13 build out the place where you're going
+06:15 to sell the digital product, and key
+06:17 things that you can do for you to get
+06:19 customers. So, to activate the sequence
+06:22 of events, you're just going to type in
+06:23 the word next, and then it's going to
+06:25 come back with an even more detailed
+06:26 summary of everything. Once you've gone
+06:28 through it, you're happy with everything
+06:30 that it's going to build for you, you're
+06:31 just going to type in next once again.
+06:33 And the initial thing that it's going to
+06:34 tell you to do is build out the product.
+06:37 Now, because I already told it that I
+06:39 want to sell digital planners, it's
+06:41 telling me exactly where I need to go
+06:43 and what I need to do, and also what I
+06:45 need to copy and paste. So, it's giving
+06:47 me the direct link right there, which is
+06:49 digital maker AI, and what I need to
+06:51 select within digital maker AI. So, I'm
+06:53 just going to go over to it. And for
+06:55 those of you that didn't know, you can
+06:56 actually build out a fully sellable
+06:58 digital product with this tool. All you
+07:01 need to do is just click on product
+07:02 maker on the left-hand side. And whether
+07:05 you want to sell spreadsheets, you know,
+07:06 Excel, Google Sheets, an ebook, or if
+07:09 you want to sell a digital planner,
+07:11 you've got all of these different
+07:12 options, and new products are always
+07:14 being added. So, of course, right now
+07:17 I'm going to click on digital planner.
+07:19 And it's going to be a similar thing
+07:20 that you're going to need to do as the
+07:21 prompt maker, where you need to select a
+07:23 few different options, and at the end of
+07:25 it, you're going to get the actual
+07:26 product. E.g., one of the questions is
+07:28 going to be who is this planner for? So,
+07:30 it's going to be the same questions. I'm
+07:32 just going to say for a online business
+07:35 owner, 2026. I'm going to select goals
+07:38 and vision, habit tracker, finance
+07:40 tracker, and content calendar, just like
+07:42 before. Uh the same options. I want it
+07:44 to be blue, landscape. I'm going to call
+07:47 it small business digital planner. And
+07:50 right there, as you can see, it's now
+07:52 building out the entire thing. Okay,
+07:54 perfect. So, just like that, within
+07:55 maybe 30 seconds or so, it's come back
+07:58 with the full digital planner. So, let's
+08:00 check it out. All right. So, as you guys
+08:02 can see, Digital Make AI was able to
+08:04 produce a 442-page
+08:07 digital planner. Everything is
+08:08 hyperlinked. So, if I was to click into
+08:10 any one of these links, let's click into
+08:13 the year. As you can see, it's taking me
+08:15 to the calendar. I can click into this
+08:17 month over here. I can now click into a
+08:19 specific day. If I go over to the actual
+08:23 goals over here, I'm going to be able to
+08:25 now enter all of my information, what I
+08:27 need to do when using it. Of course,
+08:29 this is going to be fully functional on
+08:31 an actual iPad using specific digital
+08:34 planner apps. But, I'm sure you guys get
+08:36 the point as to what you're able to
+08:37 build with the help of Digital Make AI.
+08:39 I'm going to be with this that I'm going
+08:41 to now sell it. Of course, what I've
+08:43 just shown you is just an example. If I
+08:45 was looking to take this a little bit
+08:46 more serious, then I'll put a little bit
+08:48 more time into it. But, for the most
+08:50 part, that is what goes into building a
+08:51 digital product. It's not
+08:53 overcomplicated. You just need to know
+08:54 how to use the right tools. But, now
+08:57 that I've gotten to this point where
+08:58 I've built the product, I'm just going
+08:59 to go back over to Notebook LM, and I'm
+09:02 just going to tell it that I've built
+09:04 the product and it's ready by simply
+09:06 typing in next. And what it's then going
+09:08 to come back with is the instructions as
+09:11 to how I can build out this entire
+09:12 website. So, once again, it's going to
+09:14 give you all the information that you
+09:15 need to click, that you need to copy and
+09:17 paste, just everything that's going to
+09:18 be necessary. So, what you need to do
+09:20 with this is just go over to the website
+09:23 maker within Digital Make AI. It says it
+09:25 right there. For those of you that
+09:26 didn't know, you can actually build out
+09:28 an entire fully functional website with
+09:30 the help of the website maker. You can
+09:32 just click into it just like that. It's
+09:34 going to be a simple case of selecting
+09:36 on what product you're thinking about
+09:38 selling. So, we've got spreadsheets,
+09:40 courses, templates, Notion templates,
+09:42 ebooks, and printables. But, today we
+09:44 are focused on digital planners. So,
+09:46 let's just select it like that. There's
+09:48 going to be some information that you
+09:49 need to enter over here. You're just
+09:50 going to copy and paste it from Notebook
+09:52 LM. Once you've done that, there's going
+09:54 to be a few more steps that goes into
+09:55 the process. E.g., you need to select
+09:58 your audience. Just type it in over
+09:59 here. It's then going to ask you to
+10:01 select a color scheme. I'm going to go
+10:02 with blue. And just to introduce you
+10:04 guys to this if you're completely new to
+10:06 it. Essentially, with this, you're not
+10:08 going to have to pay a large amount for
+10:11 you to get your website launched. It's
+10:12 only going to cost $1. And with that $1,
+10:14 you're going to be able to use Shopify
+10:16 for an entire 30 days, up to 90 days,
+10:19 which means that you're going to pay a
+10:20 total of $3. And the reason why this is
+10:22 an opportunity that's worth taking
+10:24 advantage of is because you're going to
+10:25 be able to use Shopify with no
+10:28 limitations, which means that you can
+10:29 sell as many products that you want. And
+10:31 if you did decide to keep your website
+10:33 longer than 3 months, you're also going
+10:34 to be able to do that as well. So, yeah,
+10:36 the process is pretty straightforward.
+10:37 You just need to click into this. It's
+10:39 then going to ask you to select your
+10:41 plan. So, if you want to go with the
+10:43 basic plan, this is the one that I would
+10:45 recommend anyway. You're just going to
+10:46 select it like that. You're then going
+10:48 to have to also make payment for that
+10:50 $1. And once you've done that and you're
+10:51 happy with it, you just need to click on
+10:53 this, say that you've done so, and click
+10:56 on continue. And then it's going to ask
+10:58 you to confirm the details. And if
+11:00 you're happy and you've also set your
+11:02 account up, just click on yes, and then
+11:04 click on generate my store theme. Now,
+11:06 that she already done this, and I'm
+11:07 going to show it to you before I proceed
+11:09 with the following steps within Notebook
+11:11 LM. So, I'm just going to click on view
+11:13 store. Okay, perfect. So, this is the
+11:15 store that it was able to build for me.
+11:17 This is fully custom, by the way. So, it
+11:18 doesn't exist on the internet anywhere
+11:20 else. Everything is centered around the
+11:22 brand. This image that you can see over
+11:24 here doesn't exist on the internet. If I
+11:26 click on about us, this also doesn't
+11:29 exist on the internet as well. There may
+11:31 be some changes that you might need to
+11:32 make to it, but for the most part, it's
+11:34 been able to do everything for you and
+11:36 it's formatted everything. And all you
+11:38 need to do is go through it and update
+11:40 anything relating to your specific
+11:42 brand. But yeah, once you've completed
+11:44 the website build, just come back over
+11:46 to it, type in next, let it know that's
+11:48 what you've done, and the next step is
+11:51 going to be for you to generate the
+11:53 product markup, which is the main image
+11:56 that's going to go onto your site. Now,
+11:57 to do this, what you need to do is just
+11:59 go back over to Digital Maker AI. You're
+12:01 going to click on Image Maker on the
+12:03 left-hand side, which is over here. And
+12:06 then from there, you're going to click
+12:07 on Product Markup. You're going to say
+12:09 that you're selling a digital product or
+12:11 digital planner. It's going to take you
+12:12 through similar questions, and at the
+12:14 end of it, you're now going to get an
+12:17 image that looks like this. So, I'm just
+12:19 going to click on download, and I'm just
+12:21 going to upload the digital planner as
+12:24 well as the product to my Shopify store.
+12:27 To do that, I'm just going to go over to
+12:29 add a new product. I'm going to fill out
+12:31 all of this information, and as soon as
+12:33 I've done so, I'm going to be back ASAP,
+12:35 and I'm going to show you exactly what
+12:36 it looks like on the actual site. And
+12:38 there we go. I've now updated
+12:39 everything, the title, the description,
+12:41 as well as the image. So, if I want to
+12:43 view it on the actual site, I'm just
+12:44 going to click into this. And there we
+12:46 go. Just like that, the product is now
+12:48 available on the site, ready for people
+12:50 to purchase. I've got another video
+12:52 coming out real soon where I'm going to
+12:53 be able to spend a little bit more time
+12:55 breaking down the fine details of what
+12:56 you need to do on the back end of your
+12:58 Shopify store. So, be sure to subscribe
+13:00 and hit the bell notification so that
+13:02 you don't miss that video. But, once
+13:04 I've now done that, I'm just going to go
+13:05 back over to Notebook AI
+13:07 and let it know that I've completed that
+13:09 step. Phase three is going to be about
+13:11 the branding and the positioning. So,
+13:12 it's going to come with free brand
+13:14 angles as well as different domains that
+13:16 you can go with. So, if I take something
+13:19 like Blueprint [clears throat]
+13:20 Planners as an example, let's see if
+13:22 that's available on GoDaddy. Okay, so we
+13:24 can see that this one isn't available,
+13:26 which means that I'm not going to be
+13:27 able to use it. So, what I'm going to do
+13:29 is try another one. Okay, so let's try
+13:32 organizedfounder.com.
+13:34 Let's see if that one's available. Okay,
+13:35 perfect. So, right there we can see that
+13:37 it is available and it's available for
+13:39 only one penny or even one cent. So,
+13:42 that's perfect. I've got a perfect
+13:44 domain that matches the brand and yeah,
+13:47 this is one that I would go with. Of
+13:49 course, what I'm showing you right now
+13:50 is just for demonstrational purposes,
+13:52 but these are the type of things that
+13:53 you need to do when you're building up
+13:55 your digital product site. So, I'm just
+13:56 going to let Notebook LM which one that
+13:59 I've gone with as well as the angles
+14:01 that I want to take and the next thing
+14:04 is going to be monetization. So, it's
+14:05 going to let me know exactly how to
+14:07 price this product and other digital
+14:09 products that I can also sell on my site
+14:12 as well. As well as an estimate of how
+14:14 much I could potentially earn. So, it's
+14:16 giving me the projection right there
+14:18 based on 10, 50, 100, and 500 sales. So,
+14:22 that's always helpful, but I'm just
+14:23 going to type in next. And remember,
+14:25 because I told Notebook LM that I want
+14:27 to focus on Google Ads as well as a
+14:30 faceless YouTube channel, it's giving me
+14:31 different angles that I can take and
+14:34 some of the most important things that I
+14:35 need to know. And bear in mind that the
+14:37 way that Notebook LM works is that if
+14:38 you want to expand on anything that it's
+14:41 coming back with, you can always have a
+14:42 conversation with it. Just because it's
+14:44 giving you information doesn't mean that
+14:46 you need to stop or it doesn't mean that
+14:47 you just need to keep typing in next. If
+14:49 there's anything that you want it to
+14:51 expand on, you can always have a
+14:53 conversation with it. But yeah, now that
+14:55 I know some of the marketing angles that
+14:57 I can take, I'm just going to type in
+14:58 next and it's now going to come back
+15:00 with a final step-by-step checklist. But
+15:03 yeah, guys, in this video, you saw me go
+15:05 from not having any store to having a
+15:08 fully operational store that I'm going
+15:10 to be able to launch straight away. Of
+15:11 course, once again, there's going to be
+15:13 some changes that I need to make to it.
+15:14 I need to make some updates to some of
+15:16 the aspects of the theme, but for the
+15:19 most part, it's done an amazing job. And
+15:21 if I want to build an additional digital
+15:23 product, if I want to have multiple
+15:24 digital products, I don't need to
+15:26 contact a supplier, I don't need to
+15:27 speak to anyone in China. All I need to
+15:30 do is build it, list it, and launch it.
+15:33 And I did mention that when it comes to
+15:35 getting traffic, my recommendation is to
+15:37 always look at what your competition is
+15:39 doing. So, now that I've got this site
+15:41 that is focused on digital planners, if
+15:43 I wanted to see exactly what my
+15:45 competition is doing and how they're
+15:46 doing it, I'm just going to make my way
+15:48 back over to Digital Marketing AI. And
+15:50 if I just go back over to the store
+15:52 finder, what I can now do is click into
+15:55 marketing channels and it's going to
+15:57 break it down in terms of sites that are
+15:59 using Meta, which is Facebook and
+16:01 Instagram, sites that are using Google
+16:03 Ads, and sites that are using faceless
+16:06 YouTube channels. So, if I just click on
+16:08 YouTube, as we can see, these are the
+16:10 different channels that have a digital
+16:12 product listed in the description. I
+16:15 personally don't know of any other tool
+16:17 that can do exactly what I'm showing you
+16:18 right now. This is really helpful
+16:20 because you can sort the revenue from
+16:23 highest to lowest. So, if I just do
+16:24 that, this site or this YouTube channel
+16:27 is bringing in the most revenue. You can
+16:29 also click directly into the YouTube
+16:31 channel. Okay, so this is one of the
+16:33 faceless channels that is publishing
+16:35 content on a regular basis as a way to
+16:38 promote their digital product. If I just
+16:40 click into one of their videos, let's go
+16:43 with this one over here, we can see that
+16:45 with this channel, what they're doing is
+16:48 essentially showing their digital
+16:50 product, in this case, it's a Notion
+16:52 template in action. And of course, right
+16:54 here they've got a direct link to the
+16:56 actual Notion template, so that anyone
+16:59 that watches this video out of these
+17:00 57,000 people, they can click into the
+17:02 link and it's going to take them
+17:03 directly to the product page. So,
+17:06 understanding how your competition is
+17:08 posting faceless content is one of the
+17:10 things that you can do so that you can
+17:12 start producing content just like them,
+17:14 as long as you're able to see that
+17:15 they're doing well in terms of their
+17:16 estimated revenue. If we go over to
+17:19 Google Ads, we can see some of the sites
+17:21 that are using Google. So, over here
+17:23 we've got all of these different sites,
+17:25 and the site that I showed you earlier
+17:27 is also using Google Ads. Let's just
+17:29 click into analyze. What it should do is
+17:31 bring up even more data. It's going to
+17:33 let us know how much traffic they're
+17:34 getting, how many products they've got
+17:36 listed, how much their total estimated
+17:38 revenue is. We saw that in the store
+17:40 finder, but you can also see it here.
+17:42 And it's going to let you know what type
+17:43 of Google Ads and what type of Meta Ads
+17:46 the site is running. So, we can see that
+17:48 this site is running Google Shopping
+17:51 Ads. So, that's one of the many ways
+17:53 that a lot of digital product stores are
+17:55 using for them to get traffic. And if
+17:57 you did want to see the type of Google
+17:59 Shopping Ads that people are running, or
+18:01 if you just want to see the sites that
+18:03 are using Google Shopping Ads, you can
+18:04 click into the ad library. And there's
+18:06 this new feature over here where you can
+18:08 now either spy on Meta Ads, or you can
+18:10 spy on Google Ads. So, if I just click
+18:12 into this and type in digital planner,
+18:16 let's see what comes up. Okay, there we
+18:17 go. So, there's around 31 stores that it
+18:20 was able to find. I can scroll down and
+18:22 load more stores, but for the most part,
+18:24 these are a lot of the stores right now
+18:26 that are using Google Shopping Ads as a
+18:28 way for them to get eyeballs on their
+18:30 product. And right here we can see the
+18:33 site that we was able to find at the
+18:34 start of this video. And just generally,
+18:36 there's going to be so many different
+18:38 sites that you can see that are using
+18:39 Google Shopping Ads right now. So,
+18:41 everything I'm showing you, by the way,
+18:43 is important for you to understand
+18:45 exactly what different store owners are
+18:47 doing, what could potentially work for
+18:49 you, what's worth trying. Of course,
+18:52 nothing's going to happen overnight. I'm
+18:53 not saying just because you can now see
+18:55 that all of these different digital
+18:56 planner stores are using Google Shopping
+18:58 Ads, and if you do the same thing,
+19:00 you're going to have success, because of
+19:01 course, it doesn't work like that. The
+19:03 whole point of this video and all of the
+19:05 videos on my channel is just to
+19:06 enlighten you on how you can tap in to
+19:09 the power of all of these different AI
+19:10 tools. Now, if you've enjoyed this
+19:12 video, you've learned anything, you've
+19:13 got any sort of value from it, don't
+19:15 forget to press the like button. I
+19:16 really appreciate that. Don't forget to
+19:18 subscribe, hit the bell notification so
+19:19 that YouTube can let you know once a new
+19:21 video's been released. Don't forget to
+19:23 check out Digital Marketer AI, link down
+19:25 below, for completely free. There's
+19:26 going to be some features that are going
+19:28 to be free. There's going to be some
+19:29 that are maybe in the pro or premium
+19:31 plan. So, just be aware of that. But,
+19:33 either way, you can check it out, top
+19:34 link in the description. If you want to
+19:36 watch another YouTube video that I made
+19:38 not too long ago, where in this video
+19:39 I'm going to be able to spend little bit
+19:41 more time breaking down the fine details
+19:43 of what you need to know if you want to
+19:45 build a digital product store using some
+19:48 other AI tools. You're going to be able
+19:49 to watch that video by clicking the link
+19:51 on the screen right there. Be sure to
+19:52 watch that straight after this because
+19:54 that video's helped out so many people.
+19:56 And I'm sure if you're able to watch it
+19:57 from the very start all the way to the
+19:59 very end, it's going to be able to help
+20:01 you out as well. But, as always, guys,
+20:02 I'm going to catch you on that next
+20:04 video. Make sure you stay safe out
+20:05 there. Peace.

@@ -1,0 +1,744 @@
+00:00 Forget vibe coding. Vibe marketing is
+00:02 printing millionaires faster than any
+00:04 time in history, and I'm going to teach
+00:06 you exactly how to do it. If you're new
+00:08 here, my name's Makayla, and after I
+00:09 sold my last startup, I started a
+00:11 venture studio called L7V. And in this
+00:13 video, I'm going to teach you our
+00:15 internal AI marketing playbook. This is
+00:17 everything we've learned from [music]
+00:18 our fastest growing portfolio companies
+00:20 that we're also using to grow our own
+00:21 startups in house. Like, this is it.
+00:24 It's the full sauce. So, just watch this
+00:26 entire video. It's [music] free. And
+00:28 here's the kicker, you don't even need
+00:29 to write code. You don't even need to
+00:31 know AI. I'm giving you the exact
+00:32 prompts, the exact models, the exact
+00:34 tools on my screen. So, let's get
+00:36 started. So, the first thing you want to
+00:38 do when you're coming up with a business
+00:39 idea is to find [music]
+00:41 proven evidence that a market for your
+00:43 product exists. The best way to do this
+00:45 is not to just stare at a wall and
+00:47 think, "Oh, what do people need?" It's
+00:49 to go look at research. Go look at
+00:50 evidence. In this case, we're going to
+00:52 shortcut a lot of that by using a free
+00:54 software called [music] appmagic.rocks.
+00:57 You can sign up. I'm just using the free
+00:58 version, and I'll show you how I use it.
+01:00 So, here we've loaded, and you can see
+01:02 these are the top apps uh worldwide
+01:04 based on revenue and things like that.
+01:06 So, rather than just guessing, this
+01:07 allows me to see what businesses are
+01:09 already crushing it, so I can get
+01:11 inspiration for what I want to build.
+01:13 So, I'll go in, I'll choose some random
+01:14 settings. Let's say I want to do iPhone
+01:16 App Store [music] and education and the
+01:18 US for the month of June. I look at the
+01:20 top grossing.
+01:21 >> [music]
+01:21 >> Um and I start to see some trends here.
+01:24 Like, oh, interesting.
+01:25 Picture This, Plant Identifier, number
+01:27 [music] two top grossing in the US on
+01:31 the App Store. Number nine, [music]
+01:32 PlantNet Plant Identifier, also, you
+01:35 know, in the top 10 grossing apps
+01:36 [music] in the US.
+01:38 I'm seeing some trends here, and you can
+01:39 see that this is actually growing. It's
+01:40 up two spots. So, uh clearly there's
+01:42 something going on here.
+01:44 So, I'm going to go in [music] and click
+01:46 Picture This.
+01:47 Uh
+01:49 and look at this app a bit more. So, I
+01:51 can see in the last 30 days, they've
+01:53 done more than 10 million dollars
+01:55 [music] in revenue. Uh lifetime revenue
+01:57 looks to be over $500
+01:59 downloads in the last 30 days over 2
+02:01 million downloads. [music]
+02:03 So, this is like a real business. I've
+02:04 never heard of this business. I've never
+02:05 seen this business before, but I can
+02:07 already tell you like these guys are
+02:08 crushing it. So, now I want to try to
+02:12 build something that is not going to be
+02:14 a one-to-one competitor of this, [music]
+02:15 but I want to say this is a category
+02:17 that's hot. Can I create a new blue
+02:20 ocean in this hot category? So, I'm
+02:22 really liking what I'm seeing here. So,
+02:24 I'm going to see if I can build a blue
+02:26 ocean within this sort of plant
+02:27 identifier niche. So, to do this, I'm
+02:29 going to use Claude. You go to
+02:30 claude.com/download,
+02:32 click download for Mac OS.
+02:33 >> [music]
+02:34 >> Uh and when you open it, we'll get
+02:35 something like this. So, now I've got my
+02:37 Claude desktop app set up. Uh we're
+02:39 actually going to go to code, although
+02:41 we are not going to be coding anything.
+02:44 Claude's going to be coding some things.
+02:45 We're going to be copying and pasting
+02:46 prompts. I'll try to explain what they
+02:48 do so that you can also learn [music]
+02:49 from these. So, I've gone ahead and set
+02:50 this up as kind of like a brand new
+02:52 Claude instance. I don't want to bring
+02:54 any of those sort of workflows and bias
+02:56 that I'm normally using. [music] I want
+02:57 this to be like from scratch essentially
+02:59 so I can do it live with you.
+03:01 All I've done is I've made this empty
+03:03 folder where we're going to be working
+03:05 and then we're going to start from here.
+03:06 So, now I'm going [music] to go to our
+03:07 first prompt. I'm literally just going
+03:08 to copy and paste this into Claude and
+03:10 let it start working. And by the way,
+03:12 don't worry about writing down these
+03:13 prompts. We're just going to put them
+03:14 all for free on our website at
+03:15 l7v.com/ai. [music]
+03:18 We'll have all the latest prompts so you
+03:19 can literally just copy and paste them,
+03:20 follow [music] along. And the prompt
+03:22 basically says, "Hey, I want to build a
+03:23 competitor to this app and specifically
+03:25 I'm looking for a blue ocean in this
+03:27 category." [music] So, I'm going to
+03:28 paste in the URL of the
+03:31 App Magic app that I found. It's going
+03:33 to have all the information. [music]
+03:35 And that's it. I'm just going to send
+03:36 this in and let Claude start working its
+03:39 magic. Because we're giving Claude
+03:41 really good inputs [music] in terms of
+03:43 data as well as structured ways that we
+03:46 want it to think about things, it can
+03:48 actually do a lot of the heavy lifting
+03:49 for us. So, you can see it's going to do
+03:51 the external research and then it's
+03:52 [music] going to find some blue ocean
+03:54 ideas for us. And I've asked it for five
+03:56 because you still need to use human
+03:58 judgment in this process. [music] It's
+03:59 going to give me five, and maybe I might
+04:01 look at that and say, "You know, I think
+04:03 this one will be the best." [music] And
+04:04 that's going to be our next prompt once
+04:06 this finishes. All right, so you can see
+04:08 the research is coming in. Uh it's done
+04:10 so much for me automatically because
+04:12 I've given it the right prompt. So, you
+04:14 can see it's already identified the
+04:15 market is $1.5 billion a year. That's in
+04:19 revenue for these apps, [music]
+04:21 uh growing 8.8% year over year, so $2.9
+04:23 billion by 2033. And it's even broken
+04:25 [music] down all the apps, the business
+04:27 models, the whole thing. This used to
+04:28 take like weeks alone just for this
+04:30 research. And now it's giving me five
+04:32 different [music] potential blue ocean
+04:33 ideas.
+04:34 Uh the first idea
+04:36 that is just going to kill my pet
+04:38 [music] or kid safety app. Um
+04:41 I don't love that idea. This is where
+04:42 the human judgment comes in. Um [music]
+04:45 looking through, we've got like a Shazam
+04:48 gamified outdoor,
+04:49 uh AI [music] garden designer.
+04:52 Um
+04:53 I like this one actually, and it's
+04:55 specifically why it went on social
+04:56 [music] because you're going to have
+04:57 these amazing before and after
+04:59 transformations, which is, as it points,
+05:02 the single [music] most viral content
+05:03 format, and we want things that are
+05:05 going to be really
+05:07 like organically viral as well as paid
+05:08 viral for our ads. Uh [music] so, I'm
+05:11 going to go with number three. So,
+05:12 again, literally going to the AI
+05:14 playbook, copy-paste the prompt in, and
+05:16 you can see like the prompt has
+05:17 everything you need. So, it says number
+05:19 blank. [music] Sounds amazing.
+05:21 We're going to say number three sounds
+05:22 amazing. Take that and transform it into
+05:24 a full product spec, etc., etc., etc.,
+05:26 and then save it in our documentation
+05:28 [music] folder. Click enter. Claude's
+05:30 running again. I'd probably go grab a
+05:32 coffee at this point, uh check in with
+05:34 my wife, see how she's doing, [music]
+05:36 uh and you know, just enjoy life. That's
+05:38 the whole point, right? AI does the
+05:40 work, we get to have a bit [music] more
+05:41 fun in life. We shouldn't be glued to
+05:43 our desks just waiting on these AI
+05:44 models to do things. We can actually
+05:46 give them very [music] intelligent
+05:47 prompts and then go get on with our
+05:49 lives. That's how we're operating at L7V
+05:50 and we're growing faster than ever by
+05:53 using these tools properly.
+05:54 All right, so our product spec is done.
+05:56 This is where human judgment comes in
+05:58 again. [music] I'm going to click it.
+05:59 I'm actually going to read through.
+06:00 Okay, we've got the one-liner, we've got
+06:02 the strategic foundation, we've got the
+06:03 target users, look and feel, color
+06:06 palette, typography, visual style, core
+06:08 functionality. Everything is here,
+06:11 including the viral highlights, which
+06:12 we're going to use for our ads. So, just
+06:14 in like the 7 minutes I've been doing
+06:17 this, I've already done honestly like
+06:19 weeks and weeks [music] and weeks of
+06:20 work. And if there's anything that you
+06:21 want to change, you can just type to
+06:24 Claude and you can say, "Hey,
+06:26 you can say like, "Hey, I like this, but
+06:29 maybe change XYZ [music]
+06:32 and let's try, etc." So, you're going to
+06:35 work with that a bit, [music] get to a
+06:36 spec where you actually feel like, "Hey,
+06:38 this is a pretty sick product." All
+06:40 right, so now for our third prompt,
+06:41 we're going to actually take that
+06:42 product spec and turn it into mockups
+06:44 and screenshots
+06:45 >> [music]
+06:45 >> of our potential app that we can use for
+06:47 ads and for landing pages. To do this,
+06:49 we're going to use another tool called
+06:51 Higgsfield, who's actually partnered
+06:52 with us on this video, so shout-out to
+06:54 them, give them some love. And we're
+06:55 going to be using Higgsfield to generate
+06:57 all of the visual assets for our
+06:58 project. I really like Higgsfield
+07:00 because they let you use an MCP server,
+07:02 which connects Claude code to all of
+07:05 their tools, and they have all the
+07:07 latest models. So, as things evolve and
+07:09 change, [music] you're not updating your
+07:10 workflow, you're just using the same
+07:12 Higgsfield connector, and then
+07:13 Higgsfield on their side is doing all
+07:15 sorts [music] of magic to make it
+07:16 happen. So, it just simplifies this
+07:18 whole process. So, to get it, go to
+07:19 higsfield.ai or we'll probably put a
+07:21 link in the description to all the
+07:22 tools. After you've signed up, click MCP
+07:25 and CLI, uh and you're going to see
+07:27 here, there's going to be this
+07:28 copy-paste in the middle for the MCP.
+07:31 We're going to copy that, and then we're
+07:32 going to go back [music] to Claude, and
+07:34 we are going to go to settings,
+07:37 and then you're going to click
+07:37 connectors. [music] From here, first
+07:40 you're going to click customize right
+07:41 here, and then we're going to click add
+07:43 custom connector, type in the name so we
+07:45 know what it is, Higgsfield.
+07:46 Copy paste that link, click add.
+07:50 It's going to check the connection.
+07:51 We're not connected yet, so we'll click
+07:52 connect.
+07:53 It's going to load and authorize our
+07:55 account.
+07:57 And [music] I'm just going to click
+07:58 allow, and that's it. Go back to Claude,
+08:02 and now you can see Higgsfield is
+08:03 connected.
+08:04 >> [music]
+08:04 >> And so now our Claude code has all these
+08:07 capabilities directly connected [music]
+08:09 to it, so we can use Higgsfield. Now
+08:11 that Higgsfield is set up, we can copy
+08:12 and paste its prompt and put it in. Now
+08:14 you can see here I'm specifying the
+08:15 model, GPT image [music] 2 high quality,
+08:18 2K resolution, etc. etc. These models
+08:21 are going to change, [music] and so
+08:22 again l7v.com/ai,
+08:25 the playbook we have there, we will keep
+08:26 up to date you have the latest [music]
+08:28 models automatically. You don't have to
+08:30 worry about that. Anyways, let's click
+08:32 enter.
+08:33 And again, Claude is off to the races.
+08:36 He's [music] running. Maybe I'll go grab
+08:37 another coffee. Maybe I'll do some
+08:39 stretching. Um this is going to take a
+08:41 little while cuz with GPT image 2 is the
+08:43 [music]
+08:44 highest grade model on the market right
+08:46 now, and so it's going to be using like
+08:49 the best image generation possible to
+08:51 create these really sick product
+08:52 mockups. [music]
+08:53 Okay, this is crazy. Like look at this.
+08:55 Just a few minutes we've built this full
+08:57 product [music] screenshot suite with
+09:00 sort of like viral before after moments.
+09:02 Everything you need [music] to pre-sell
+09:03 this idea and see if you have a real
+09:05 business on your hands. Now if there's
+09:06 any that look off, look fake, or maybe
+09:09 like it's hallucinated a bit too much,
+09:11 you can go in, give it some feedback,
+09:13 and tell it to regenerate that image.
+09:15 But for [music] now, I'm just going to
+09:16 run with these and go to the next step.
+09:18 And now the next step is the most
+09:19 critical because it's one thing to build
+09:21 these product ads and these mockups and
+09:23 things like that. You're kind of just
+09:25 having fun in AI if I'm being honest.
+09:28 The next step is [music] when it becomes
+09:29 real. You need to actually pre-sell this
+09:31 idea to customers and see what people
+09:34 actually pay for this. And so to do
+09:35 that, we're going to build a landing
+09:37 page. And we're just going to use
+09:38 [music] one copy-paste prompt from the
+09:40 AI playbook, drop it in, and you're good
+09:41 to go. So, we're going to copy-paste
+09:43 this in.
+09:44 >> [music]
+09:44 >> Um basically, what this prompt does is
+09:46 it says, "Use those graphics images and
+09:48 the product spec to build a highly
+09:50 converting landing pages using [music]
+09:51 best practices um for mobile-friendly
+09:54 app sign-ups." And what this is going
+09:56 [music] to do is it's going to build a
+09:57 landing page that's going to have a
+09:58 little quiz at the end. And at the final
+10:00 step, they're going to give us their
+10:01 email address. And it's even going to
+10:02 build a little dashboard so we can see
+10:03 the submissions and see like what people
+10:05 are saying they want or don't [music]
+10:06 want. So, let me click enter. We're
+10:08 going to start building our landing
+10:09 page. Now, while this is running in the
+10:11 background, I'm going to go ahead and do
+10:12 the next step, which is to set up the
+10:14 Meta Ads Manager. [music] So, I'll go
+10:15 ahead and create an account. And then
+10:17 once I have that account, I'm going to
+10:18 create a conversion pixel. So, the
+10:21 reason we want to set up Meta Ads and
+10:22 set up this event pixel is Meta is
+10:25 extremely good at finding the right
+10:28 people that will buy your product
+10:30 [music] and using their own internal AI
+10:32 to target them and bring them to your
+10:33 page. But you need to give Meta some
+10:36 feedback on if it's finding the right
+10:37 people or not. And so, what we're doing
+10:39 is we're setting up this event pixel so
+10:41 that if Meta successfully [music]
+10:43 finds a person who would sign up for
+10:45 your product, we're going to tell Meta,
+10:47 "Hey, good job. You found that." And
+10:48 it's going to be like, "Oh,
+10:50 based on who I just found, I'm going to
+10:51 go find more people like that." And so,
+10:53 we're not only using our AI to build all
+10:55 this out, but we're also using Meta's
+10:58 massive internal AI system to quickly
+11:01 identify the right kind of people to buy
+11:03 our product and then go find more of
+11:04 them. So, it's extremely powerful and
+11:06 [music] builds this self-recursive loop
+11:08 where the AI just learns how to find
+11:10 customers for you profitably. And all
+11:12 you have to do is set up this event
+11:13 pixel. And then the next prompt, we're
+11:15 actually going to add it [music] to the
+11:16 landing page. So, to do that, all you
+11:17 have to do is go to Events Manager, uh
+11:20 click connect data. [music]
+11:21 We're going to say web. Next. And we're
+11:25 going to create a new data set. I'm
+11:26 going to call this Verda landing page
+11:28 lead [music] submit uh because Verda is
+11:31 the name that Claude came up for the app
+11:33 and I'm not going to change it for now.
+11:34 So, uh click create and then for setup
+11:37 I'm going to click set up manually.
+11:39 Click next. Uh
+11:41 conversion API and Meta Pixel is fine.
+11:43 Click next.
+11:45 And then click finish.
+11:46 >> [music]
+11:47 >> I don't actually need to do this because
+11:49 I'm going to have Claude do this using
+11:50 the MCP server. So, to set up the Meta
+11:54 Ads MCP server, I'm actually just going
+11:56 to Google it
+11:57 >> [music]
+11:57 >> and find the URL that I'm going to paste
+12:00 into Claude. Claude is still building
+12:02 the landing page, so we're going to do
+12:03 this while Claude's still running. Uh
+12:05 >> [music]
+12:05 >> click customize.
+12:06 And then we're going to click connectors
+12:09 and click the plus and we're going to
+12:10 add a custom connector and we're going
+12:12 to call this Meta Ads. [music]
+12:14 And I'll copy paste that and click add.
+12:17 And then just like last step, we're
+12:19 going to click connect.
+12:21 And it'll run us through the prompts to
+12:22 allow us to connect
+12:24 >> [music]
+12:24 >> Meta Ads MCP to our Claude instance. So,
+12:27 click connect. And now you can see all
+12:30 these different things that Claude can
+12:31 do with Meta. [music]
+12:32 Uh so, let's check in on our landing
+12:33 page.
+12:35 Uh you can see this is looking really
+12:36 nice. Um
+12:38 there are some [music] things here that
+12:40 again, this is where human judgment
+12:41 comes in. I would not launch with this
+12:44 sort of like 12,000 plus on wait list,
+12:46 loved by 12,000 future plant parents.
+12:48 [music]
+12:49 These sort of things, it's very
+12:50 important. I get why it's doing it. Um
+12:53 to me it's just not [music] authentic.
+12:55 We're not going to do this and lie. So,
+12:58 I'd rather give it some feedback and
+13:00 say, "Hey, let's remove the like fake
+13:01 social proof and things like that. Let's
+13:03 just be honest with where we [music]
+13:04 are. These are like fake reviews."
+13:05 Again, I get why it works. Um it's just
+13:08 I I just don't feel good about that. So,
+13:11 that aside, um let's take a look at
+13:12 this. Like we have working [music]
+13:14 drop-downs. Um does our get early access
+13:17 work? It does. Um [music]
+13:19 this is sick. So, uh let me click get
+13:22 early access. Let's test it out. I'm a
+13:24 man [music] in my mid-30s now. Uh let's
+13:28 see, I'm transforming my balcony.
+13:30 >> [music]
+13:30 >> I kill every plant I touch.
+13:32 Um,
+13:34 five bucks a month feels fair.
+13:36 >> [music]
+13:36 >> Um,
+13:37 I'll give it my email address. Fake
+13:39 email at
+13:40 gmail.com. Claim my early access spot.
+13:44 You're on the waitlist. I kind of like
+13:46 this.
+13:46 >> [music]
+13:46 >> I do like the like you're in line, share
+13:49 with a friend. This is sick. So, like
+13:51 this is already really awesome.
+13:54 It said that it built a dashboard, so
+13:55 let's go check that out as well. That's
+13:57 the prompt it tells it to build a
+13:58 dashboard.
+14:00 What is my login? [music]
+14:01 Um,
+14:03 see? Look at this. The prompts do
+14:05 everything for you, guys. [music] You
+14:06 just have to
+14:08 plug this in and you're golden.
+14:10 So, paste [music] that in.
+14:12 Um, and we can see like this is me. This
+14:15 This is
+14:17 I kill every plant I touch. That's me.
+14:18 So,
+14:19 >> [music]
+14:19 >> um,
+14:20 this is working. Like this is Again,
+14:21 this is weeks of work done in I think
+14:24 we're four or five prompts in. Anyways,
+14:26 let's go to the next prompt.
+14:28 All right, so for the next prompt, we
+14:29 just need to add that pixel in so that
+14:31 when we run Meta Ads, Meta knows when
+14:34 people [music] actually submit this
+14:35 page. So, copy-paste.
+14:37 Um, I've created a new Meta conversion
+14:38 pixel. I gave it the name.
+14:40 >> [music]
+14:40 >> Set up our landing page that it only
+14:41 fires when we capture the email address
+14:44 of the final step. So, I'll click enter.
+14:46 Uh, and it's going to set that up. It's
+14:48 going to test it itself and it will
+14:49 report back to us when it's done.
+14:51 And just like that, it set it up. The
+14:53 prompt handled everything perfectly. It
+14:55 set up the pixel. It validated it with
+14:57 Meta MCP. It checked it. It doesn't fire
+14:59 unless we capture that lead and put them
+15:01 on the waiting list. Everything we're
+15:03 looking for. So, now let's get to the
+15:04 next step, which is [music] pure magic.
+15:06 We're going to use the landing page, the
+15:08 product images, the product spec, brand
+15:10 guidelines, and what's called the
+15:12 Higgsfield Marketing Studio. So, the
+15:14 Higgsfield Marketing Studio is
+15:15 essentially Higgsfield has taken all of
+15:18 the best performing ad styles such as
+15:21 UGC ads, before-after ads, video ads,
+15:24 >> [music]
+15:24 >> and it's made them into templates. So,
+15:26 you don't have to think at all. You
+15:27 literally just take this prompt, put it
+15:29 in, and we're going to generate ads for
+15:32 our product [music] based on the
+15:33 best-performing ad styles. So, let me
+15:36 copy this prompt in. The prompt actually
+15:37 generates 20 ads for our campaigns.
+15:41 Um
+15:41 for the sake of time for this video, I'm
+15:42 going to change it to five.
+15:44 >> [music]
+15:44 >> Uh we're using the Hicksfield Marketing
+15:46 Studio. That's key. And we're saving all
+15:48 these to a local subfolder called
+15:50 marketing assets.
+15:51 >> [music]
+15:51 >> Uh GPT image two for images and seed
+15:54 dance 2.0 for video assets. Those are
+15:56 the best today, but again, l7v.com/ai
+15:58 [music]
+15:59 will keep that updated so you always
+16:00 know the best models.
+16:02 Click enter, [music] and off to the
+16:04 races. And so, Cloud's off to the races.
+16:06 While it's doing that, we're going to
+16:08 sign up for another free tool called
+16:10 Vercel, which is where we're actually
+16:11 going to deploy our landing page.
+16:13 Because right now, only we [music] can
+16:14 access this landing page. You want it to
+16:16 be publicly available. So, to do that,
+16:18 we're going to go to vercel.com, click
+16:19 [music] sign up. Uh we can just do it
+16:21 with Google.
+16:23 And we're going to choose personal
+16:24 projects. It's going to be a personal
+16:25 hobby plan, [music] so that we're not
+16:26 paying for this. Uh I'll call it l7v.
+16:29 Click continue. Now, once you've made
+16:31 your Vercel [music] account, you want to
+16:32 do one more step, which is you're going
+16:33 to go to up here and you're going to
+16:34 type in tokens.
+16:36 Click this, and [music] we're going to
+16:37 create a new token.
+16:39 Uh give it a name. We'll just call it uh
+16:41 Verta.
+16:42 Scope, we'll give it access to our
+16:44 projects, [music]
+16:44 and we'll let it expire in 1 day. And we
+16:46 have to do this so that the AI can
+16:48 actually deploy our landing page to a
+16:50 live website. So, click create. For now,
+16:53 [music] just copy this and put it away.
+16:55 We'll use it in a few minutes. And then
+16:56 one more thing we're going to need is
+16:57 the Vercel MCP server. So, I'm just
+16:59 going to Google Vercel MCP. Click here.
+17:02 Uh this is the URL, so I will copy that.
+17:07 Go into Cloud.
+17:08 Go back to customize.
+17:10 >> [music]
+17:11 >> Click connectors. Click the plus. Add
+17:14 custom connector. Call it Vercel. We're
+17:16 [music] going to drop that in. Click
+17:18 add.
+17:19 And now I have to connect it again. So,
+17:21 click connect.
+17:22 >> [music]
+17:22 >> Uh we're going to select our project.
+17:24 Click add, and then click [music] allow.
+17:28 Once this is done, it'll redirect us
+17:30 back to Cloud, which it has done.
+17:32 And we're set up to deploy our landing
+17:34 page. So, as you can see, Higgsfield is
+17:36 still generating the ads. We're going to
+17:39 get a little fancy here, guys. We're
+17:40 going to do another [music] session in
+17:42 parallel while it's still generating the
+17:44 ads. I'm going to click new session. And
+17:46 here I'm going to deploy that landing
+17:48 page. Because we're in the same folder
+17:49 that we've been working with, the
+17:51 landing page is already built in this.
+17:53 It already knows that it's going to be
+17:54 deploying to Versel. So, we can do that.
+17:56 So, all I need to do now is copy-paste
+17:58 this prompt [music] in uh use the MCP
+18:01 connector for Versel to deploy this
+18:03 landing page to my account, test the
+18:04 pixel, and you remember [music] that
+18:06 token that we created earlier, we paste
+18:08 it here so that it can actually deploy
+18:10 this live to our Versel. [music]
+18:12 Click send. That's off to the races.
+18:15 It's deploying to Versel. And then while
+18:16 it's doing that, I'll check in back on
+18:18 the ads.
+18:19 >> [music]
+18:19 >> All right. So, check this out. We've got
+18:20 our ads using the Higgsfield Marketing
+18:22 Studio like a then verse now or
+18:23 comparison table, even a
+18:25 before-and-after reveal using Seedance
+18:27 2.0. If anything's off, you can recreate
+18:29 [music] these, you can give feedback.
+18:31 And this is just scratching the surface.
+18:32 I mean, if I wanted I could predict the
+18:33 virality of these. Higgsfield has a lot
+18:35 of very cool marketing-specific [music]
+18:37 tools, more than I'm going to cover in
+18:39 this video, but you should definitely
+18:40 explore it a bit cuz it's really
+18:41 powerful. [music] All right. And check
+18:42 this out. While our ads were generating,
+18:45 our landing page is now done.
+18:47 >> [music]
+18:47 >> So, I can click this. And check this
+18:49 out. We now have a live webpage on
+18:51 Versel. And yes, it's versel.app with
+18:53 sort of a a funny [music] URL, but in
+18:55 our own testing, we're running this
+18:57 playbook ourselves like I said, uh this
+18:59 actually [music] converts. People don't
+19:00 seem to mind that you're sending them to
+19:01 a versel.app page. Of course, it would
+19:04 be better if we bought a domain, but
+19:05 [music] we're getting conversions just
+19:07 sending them to Versel. So, uh don't let
+19:09 that stop you. Just keep running this.
+19:11 And speed is the name of the game here.
+19:13 >> [music]
+19:13 >> All right. So, now the landing page is
+19:14 all done. We're going to go back to the
+19:16 session that generated the ads and we're
+19:17 going to give it a prompt [music] that's
+19:19 going to take all of the ads that it
+19:21 just created and upload them to Meta
+19:23 [music] and set up the campaigns for you
+19:25 so that it's optimized based on the
+19:28 lowest cost per sign-up in your target
+19:31 [music] geography. In this case, I've
+19:33 set the target market to be USA
+19:35 and I'm just linking it to
+19:37 >> [music]
+19:37 >> our live landing page because we built
+19:39 that in another session just so that it
+19:40 has perfect context of where to send it
+19:42 to.
+19:43 And when it's all done, it's going to
+19:44 save it and then let me know so I can
+19:46 manually inspect the ads in the ad
+19:48 center [music] and publish.
+19:50 So, send that prompt off and let it do
+19:52 its thing.
+19:53 All right. So, just like that, the AI
+19:55 ads [music] are done. They're uploaded
+19:56 in the ads manager. It's even linked me
+19:58 to it, so convenient. And check this
+20:00 out. I can click in. I can look at the
+20:01 different ads. Look, they're set up
+20:03 properly. They're going to the right
+20:05 landing page. [music] They have the
+20:07 conversion tracking. Like,
+20:09 I can't I've been doing this stuff for a
+20:10 long time. This is insane. How quickly
+20:13 we've been able to build this with just
+20:14 a few copy-paste prompts ready to go.
+20:17 This is madness. I genuinely believe if
+20:20 you are not taking advantage of this,
+20:22 you are being left behind by the guys
+20:23 that are. We've done all of this with
+20:25 literally nine prompts [music] and it's
+20:26 basically built out an entire business
+20:28 plan, product road map, product images,
+20:31 and now we have a live validation. Live
+20:34 validation in terms of getting people
+20:36 that say [music] they actually want what
+20:37 you are building is the best way to run
+20:39 this playbook. Set a dollar budget that
+20:42 is comfortable for you to lose every day
+20:45 and see no returns because right now
+20:47 it's much cheaper for you to validate
+20:49 people will buy what you're building
+20:51 than [music] build it and then hope they
+20:52 will buy. So, that's why we run this
+20:53 playbook with these pre-sale pages to
+20:56 see if people actually want what we're
+20:57 building and then we can of course
+20:58 [music] use AI coding to build it and
+21:00 get it out to live customers. But now
+21:02 there's one more prompt that takes
+21:04 [music] this to another level because it
+21:05 makes this whole thing self-improving.
+21:07 And this is the prompt. And what this
+21:09 does is it goes into your Meta Ads
+21:10 account and it pulls the highest
+21:12 performing ads [music]
+21:13 based on what's working, lowest cost per
+21:15 conversion, and then iterates on those
+21:17 ideas using the Higgsfield [music]
+21:18 Marketing Studio. So, you could run this
+21:19 every day, every couple days, where
+21:21 you're actually taking what's working,
+21:23 trying out new ideas around that,
+21:25 sending out new tests, and over time you
+21:27 get better and better and better and
+21:28 just these effects compound. This is the
+21:30 new AI marketing playbook. This is how
+21:32 the fastest-growing companies that we
+21:35 are seeing on the planet are growing.
+21:37 You can literally just implement this
+21:38 today, copy-paste, and get [music]
+21:40 going. So, that's a taste of AI
+21:41 marketing and how you can start using it
+21:43 today, but there are so many more things
+21:45 to actually build a real multi-million
+21:47 dollar business than just this little
+21:48 playbook. So, I'm going to put a link
+21:49 over here to another video that we did
+21:51 that explains [music]
+21:52 how to actually go from zero to real
+21:55 multi-million dollar business with live
+21:56 paying product and customers. Hope it
+21:58 helps.

@@ -1,0 +1,498 @@
+<title>Website Fix Quote — University of Pattern Drafting</title>
+<style>
+  :root {
+    --navy: #0F1A2E;
+    --gold: #B8860B;
+    --ivory: #F5F0E8;
+    --sage: #4A6741;
+    --charcoal: #1C2B3A;
+    --warm-gray: #6B6560;
+    --display: Georgia, 'Times New Roman', serif;
+    --body: system-ui, -apple-system, 'Segoe UI', sans-serif;
+  }
+
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    background: var(--ivory);
+    color: var(--navy);
+    font-family: var(--body);
+    font-size: 15px;
+    line-height: 1.65;
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 40px 24px 80px;
+  }
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-bottom: 28px;
+    border-bottom: 2px solid var(--gold);
+    margin-bottom: 48px;
+  }
+  .brand-name {
+    font-family: var(--display);
+    font-size: 22px;
+    font-weight: 700;
+    color: var(--navy);
+    letter-spacing: -0.3px;
+  }
+  .brand-tag {
+    font-size: 11px;
+    color: var(--warm-gray);
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    margin-top: 3px;
+  }
+  .doc-meta {
+    text-align: right;
+    font-size: 12px;
+    color: var(--warm-gray);
+    line-height: 1.8;
+  }
+
+  .hero {
+    margin-bottom: 52px;
+  }
+  .hero-eyebrow {
+    font-size: 11px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: var(--gold);
+    font-weight: 600;
+    margin-bottom: 12px;
+  }
+  .hero h1 {
+    font-family: var(--display);
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 1.2;
+    color: var(--navy);
+    margin-bottom: 16px;
+    max-width: 560px;
+  }
+  .hero p {
+    color: var(--warm-gray);
+    font-size: 15px;
+    max-width: 520px;
+  }
+
+  .scores {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 52px;
+    flex-wrap: wrap;
+  }
+  .score-card {
+    background: white;
+    border: 1px solid #ddd8ce;
+    border-radius: 8px;
+    padding: 20px 24px;
+    flex: 1;
+    min-width: 200px;
+  }
+  .score-label {
+    font-size: 11px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: var(--warm-gray);
+    margin-bottom: 8px;
+  }
+  .score-number {
+    font-family: var(--display);
+    font-size: 40px;
+    font-weight: 700;
+    color: #c0392b;
+    line-height: 1;
+  }
+  .score-denom {
+    font-size: 18px;
+    color: var(--warm-gray);
+    font-weight: 400;
+  }
+  .score-grade {
+    font-size: 12px;
+    color: var(--warm-gray);
+    margin-top: 6px;
+  }
+
+  .section {
+    margin-bottom: 48px;
+  }
+  .section-title {
+    font-family: var(--display);
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--navy);
+    margin-bottom: 6px;
+  }
+  .section-rule {
+    width: 40px;
+    height: 2px;
+    background: var(--gold);
+    margin-bottom: 20px;
+  }
+
+  .scope-group {
+    margin-bottom: 24px;
+  }
+  .scope-group-label {
+    font-size: 11px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: var(--sage);
+    font-weight: 600;
+    margin-bottom: 10px;
+    padding-bottom: 6px;
+    border-bottom: 1px solid #ddd8ce;
+  }
+  .scope-item {
+    display: flex;
+    gap: 12px;
+    padding: 10px 0;
+    border-bottom: 1px solid #ede8de;
+    align-items: flex-start;
+  }
+  .scope-item:last-child { border-bottom: none; }
+  .scope-check {
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background: var(--sage);
+    flex-shrink: 0;
+    margin-top: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .scope-check::after {
+    content: '';
+    width: 6px;
+    height: 4px;
+    border-left: 1.5px solid white;
+    border-bottom: 1.5px solid white;
+    transform: rotate(-45deg) translateY(-1px);
+    display: block;
+  }
+  .scope-text {
+    font-size: 14px;
+    color: var(--charcoal);
+    line-height: 1.5;
+  }
+
+  .results-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 14px;
+  }
+  @media (max-width: 500px) {
+    .results-grid { grid-template-columns: 1fr; }
+  }
+  .result-card {
+    background: white;
+    border: 1px solid #ddd8ce;
+    border-radius: 8px;
+    padding: 18px 20px;
+    border-left: 3px solid var(--sage);
+  }
+  .result-title {
+    font-weight: 600;
+    font-size: 13px;
+    color: var(--navy);
+    margin-bottom: 4px;
+  }
+  .result-desc {
+    font-size: 13px;
+    color: var(--warm-gray);
+    line-height: 1.5;
+  }
+
+  .pricing-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  .pricing-table tr {
+    border-bottom: 1px solid #ddd8ce;
+  }
+  .pricing-table td {
+    padding: 13px 0;
+    font-size: 14px;
+    vertical-align: top;
+  }
+  .pricing-table td:last-child {
+    text-align: right;
+    font-variant-numeric: tabular-nums;
+    white-space: nowrap;
+  }
+  .pricing-label { color: var(--charcoal); }
+  .pricing-strikethrough {
+    text-decoration: line-through;
+    color: var(--warm-gray);
+  }
+  .pricing-discount {
+    color: var(--sage);
+    font-weight: 600;
+  }
+  .pricing-total {
+    background: var(--navy);
+    border-radius: 8px;
+    padding: 20px 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 16px;
+  }
+  .pricing-total-label {
+    color: rgba(255,255,255,0.75);
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  .pricing-total-amount {
+    font-family: var(--display);
+    font-size: 28px;
+    font-weight: 700;
+    color: var(--gold);
+  }
+  .payment-terms {
+    background: #f0ebe0;
+    border-radius: 8px;
+    padding: 16px 20px;
+    font-size: 13px;
+    color: var(--charcoal);
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+  }
+  .payment-term { display: flex; flex-direction: column; gap: 2px; }
+  .payment-term-label {
+    font-size: 11px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: var(--warm-gray);
+  }
+  .payment-term-value {
+    font-weight: 600;
+    color: var(--navy);
+  }
+
+  .footer {
+    margin-top: 64px;
+    padding-top: 24px;
+    border-top: 1px solid #ddd8ce;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+  .footer-brand {
+    font-family: var(--display);
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--navy);
+  }
+  .footer-contact {
+    font-size: 12px;
+    color: var(--warm-gray);
+    text-align: right;
+  }
+</style>
+
+<div class="header">
+  <div>
+    <div class="brand-name">BridgeWorks</div>
+    <div class="brand-tag">AI-Powered Digital Growth</div>
+  </div>
+  <div class="doc-meta">
+    Quote prepared 22 June 2026<br>
+    University of Pattern Drafting<br>
+    Umo Anwana
+  </div>
+</div>
+
+<div class="hero">
+  <div class="hero-eyebrow">Website &amp; Digital Fix</div>
+  <h1>The knowledge is there. The site needs to show it.</h1>
+  <p>Two audits revealed the same core problem: a credible school with 15 years of expertise behind it, invisible online. This scope fixes that — technically, visually, and for AI search.</p>
+</div>
+
+<div class="scores">
+  <div class="score-card">
+    <div class="score-label">Marketing Audit Score</div>
+    <div class="score-number">29<span class="score-denom">/100</span></div>
+    <div class="score-grade">Grade F — Critical</div>
+  </div>
+  <div class="score-card">
+    <div class="score-label">GEO / AI Visibility Score</div>
+    <div class="score-number">20<span class="score-denom">/100</span></div>
+    <div class="score-grade">Grade F — Critical</div>
+  </div>
+</div>
+
+<div class="section">
+  <div class="section-title">Scope of Work</div>
+  <div class="section-rule"></div>
+
+  <div class="scope-group">
+    <div class="scope-group-label">Technical Fixes</div>
+    <div class="scope-item">
+      <div class="scope-check"></div>
+      <div class="scope-text">Restore the About page (currently returns 404)</div>
+    </div>
+    <div class="scope-item">
+      <div class="scope-check"></div>
+      <div class="scope-text">Remove WooCommerce electronics categories from the navigation menu</div>
+    </div>
+    <div class="scope-item">
+      <div class="scope-check"></div>
+      <div class="scope-text">Fix suspended course pages — redirect to active catalog or add waitlist form</div>
+    </div>
+    <div class="scope-item">
+      <div class="scope-check"></div>
+      <div class="scope-text">Create and submit sitemap.xml to Google Search Console</div>
+    </div>
+    <div class="scope-item">
+      <div class="scope-check"></div>
+      <div class="scope-text">Diagnose and fix the ECONNREFUSED error blocking AI and search crawlers</div>
+    </div>
+  </div>
+
+  <div class="scope-group">
+    <div class="scope-group-label">Conversion &amp; Enrollment</div>
+    <div class="scope-item">
+      <div class="scope-check"></div>
+      <div class="scope-text">Integrate Paystack or Flutterwave into the enrollment flow — removes manual WhatsApp payment handling</div>
+    </div>
+    <div class="scope-item">
+      <div class="scope-check"></div>
+      <div class="scope-text">Set up WhatsApp Business auto-reply with course list, pricing, and payment link</div>
+    </div>
+    <div class="scope-item">
+      <div class="scope-check"></div>
+      <div class="scope-text">Install email capture widget and Mailchimp account (free tier)</div>
+    </div>
+    <div class="scope-item">
+      <div class="scope-check"></div>
+      <div class="scope-text">Create a free lead magnet PDF with automated delivery to new subscribers</div>
+    </div>
+  </div>
+
+  <div class="scope-group">
+    <div class="scope-group-label">GEO &amp; SEO</div>
+    <div class="scope-item">
+      <div class="scope-check"></div>
+      <div class="scope-text">Implement 4 JSON-LD schema blocks: EducationalOrganization, Course (all 9 courses), Person (Umo Anwana), sameAs social links</div>
+    </div>
+    <div class="scope-item">
+      <div class="scope-check"></div>
+      <div class="scope-text">Create llms.txt to declare the school's identity and courses to AI systems</div>
+    </div>
+    <div class="scope-item">
+      <div class="scope-check"></div>
+      <div class="scope-text">Improve homepage content for E-E-A-T signals — expertise, authoritativeness, trustworthiness</div>
+    </div>
+  </div>
+
+  <div class="scope-group">
+    <div class="scope-group-label">Brand &amp; Trust</div>
+    <div class="scope-item">
+      <div class="scope-check"></div>
+      <div class="scope-text">Write and place a specific hero headline on the homepage</div>
+    </div>
+    <div class="scope-item">
+      <div class="scope-check"></div>
+      <div class="scope-text">Collect 3 student testimonials and format them on the homepage and course pages</div>
+    </div>
+    <div class="scope-item">
+      <div class="scope-check"></div>
+      <div class="scope-text">Build and restore the instructor bio page — 15+ years of industry experience deserves a page</div>
+    </div>
+  </div>
+</div>
+
+<div class="section">
+  <div class="section-title">What to Expect</div>
+  <div class="section-rule"></div>
+  <div class="results-grid">
+    <div class="result-card">
+      <div class="result-title">Site visible to AI search</div>
+      <div class="result-desc">Once the ECONNREFUSED is fixed, GPTBot, ClaudeBot, and PerplexityBot can crawl your site. Right now they cannot reach it at all.</div>
+    </div>
+    <div class="result-card">
+      <div class="result-title">Course results in Google</div>
+      <div class="result-desc">Schema markup enables Google rich results for individual courses — star ratings, price, and an enrollment button directly in search.</div>
+    </div>
+    <div class="result-card">
+      <div class="result-title">Sales without manual handling</div>
+      <div class="result-desc">Paystack integration means a student can enroll and pay at 2am without waiting for a WhatsApp reply. No ceiling on when sales happen.</div>
+    </div>
+    <div class="result-card">
+      <div class="result-title">Warm traffic stops leaving forever</div>
+      <div class="result-desc">Email capture with a lead magnet converts browsers into subscribers. Right now, every visitor who does not buy immediately is gone permanently.</div>
+    </div>
+    <div class="result-card">
+      <div class="result-title">Instant WhatsApp response</div>
+      <div class="result-desc">Auto-reply sends course details and a payment link the moment someone messages. Response time drops from hours to zero.</div>
+    </div>
+    <div class="result-card">
+      <div class="result-title">Credibility on first impression</div>
+      <div class="result-desc">A clear headline, working navigation, testimonials, and a real About page make the site match the quality of what is being taught.</div>
+    </div>
+  </div>
+</div>
+
+<div class="section">
+  <div class="section-title">Investment</div>
+  <div class="section-rule"></div>
+
+  <table class="pricing-table">
+    <tr>
+      <td><div class="pricing-label">Website upgrade (standard Nigeria rate)</div></td>
+      <td class="pricing-strikethrough">NGN 750,000</td>
+    </tr>
+    <tr>
+      <td><div class="pricing-label">Additional scope — conversion, GEO/schema, content fixes</div></td>
+      <td class="pricing-strikethrough">NGN 370,000</td>
+    </tr>
+    <tr>
+      <td><div class="pricing-label">Full market rate</div></td>
+      <td class="pricing-strikethrough">NGN 1,120,000</td>
+    </tr>
+    <tr>
+      <td><div class="pricing-label pricing-discount">Family discount (46% off)</div></td>
+      <td class="pricing-discount">- NGN 520,000</td>
+    </tr>
+  </table>
+
+  <div class="pricing-total">
+    <div class="pricing-total-label">Your Price</div>
+    <div class="pricing-total-amount">NGN 600,000</div>
+  </div>
+
+  <div class="payment-terms">
+    <div class="payment-term">
+      <span class="payment-term-label">To Start</span>
+      <span class="payment-term-value">NGN 300,000</span>
+    </div>
+    <div class="payment-term">
+      <span class="payment-term-label">On Delivery</span>
+      <span class="payment-term-value">NGN 300,000</span>
+    </div>
+    <div class="payment-term">
+      <span class="payment-term-label">Timeline</span>
+      <span class="payment-term-value">2 – 3 weeks</span>
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  <div class="footer-brand">BridgeWorks</div>
+  <div class="footer-contact">
+    office@bridgeworks.agency<br>
+    bridgeworks.agency
+  </div>
+</div>

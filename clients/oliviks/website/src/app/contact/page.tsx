@@ -1,6 +1,8 @@
 import type { Metadata } from 'next';
-import { Clock, Mail, MapPin, MessageCircle, Phone } from 'lucide-react';
+import Link from 'next/link';
+import { ArrowRight, Clock, Mail, MapPin, MessageCircle, Phone } from 'lucide-react';
 import { ContactForm } from '@/components/ContactForm';
+import { DeliveryStickers } from '@/components/DeliveryStickers';
 import { site, telLink, waLink } from '@/data/site';
 
 export const metadata: Metadata = {
@@ -24,7 +26,34 @@ export default function ContactPage() {
           the headcount, and the dishes you want.
         </p>
         <p className="mt-3 text-sm text-cocoa/60">For app delivery, Oliviks is on Wolt and Foodora.</p>
+        <div className="mt-4 flex justify-center">
+          <DeliveryStickers compact />
+        </div>
       </header>
+
+      <section id="catering" className="mt-12 overflow-hidden rounded-[2rem] bg-cocoa text-cream shadow-xl">
+        <div className="grid lg:grid-cols-[0.9fr_1.1fr]">
+          <div className="bg-leaf p-8 sm:p-10">
+            <span className="inline-flex rounded-full bg-gold px-4 py-2 text-xs font-bold uppercase tracking-[0.18em] text-cocoa">
+              Catering
+            </span>
+            <h2 className="mt-5 font-display text-3xl font-bold sm:text-4xl">Feed the whole celebration.</h2>
+            <p className="mt-4 text-cream/80">
+              Oliviks caters Nigerian food for small gatherings and bigger moments. Send the date, headcount, and dishes you want.
+            </p>
+            <Link href="/catering" className="mt-6 inline-flex items-center gap-2 rounded-full bg-gold px-5 py-3 text-sm font-bold text-cocoa transition-all hover:bg-cream active:scale-95">
+              View Catering Page <ArrowRight size={16} />
+            </Link>
+          </div>
+          <div className="grid gap-3 p-8 text-sm font-semibold sm:grid-cols-2 sm:p-10">
+            {['Birthdays', 'Weddings', 'Baby showers', 'Anniversaries', 'Office lunches', 'Drop-off catering'].map((item) => (
+              <span key={item} className="rounded-2xl border border-cream/15 bg-white/10 px-4 py-3">
+                {item}
+              </span>
+            ))}
+          </div>
+        </div>
+      </section>
 
       <div className="mt-14 grid gap-10 lg:grid-cols-2">
         <div className="space-y-6">

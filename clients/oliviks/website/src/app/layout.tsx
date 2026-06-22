@@ -30,7 +30,7 @@ export const metadata: Metadata = {
     template: `%s | ${site.shortName}`,
   },
   description:
-    'Authentic Nigerian food in Budapest from Oliviks Kitchen. Order jollof rice, suya, egusi soup, puff puff, and more for pickup. 4.8★ from 160+ reviews.',
+    'Authentic Nigerian food in Budapest from Oliviks Kitchen. Order jollof rice, suya, egusi soup, puff puff, and more for pickup. 4.8★ from 491 reviews.',
   icons: {
     icon: '/images/oliviks-logo.png',
     apple: '/images/oliviks-logo.png',
@@ -38,7 +38,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: `Authentic Nigerian Food in Budapest | ${site.shortName}`,
     description:
-      'Homestyle Nigerian cooking made fresh daily. 4.8★ from 160+ reviews. Order for pickup.',
+      'Homestyle Nigerian cooking made fresh daily. 4.8★ from 491 reviews. Order for pickup.',
     type: 'website',
     locale: 'en_GB',
     url: site.domain,

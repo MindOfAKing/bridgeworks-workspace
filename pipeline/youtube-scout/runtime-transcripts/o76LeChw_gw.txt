@@ -1,0 +1,586 @@
+00:00 This AI tool might have just changed
+00:02 website design forever. Cuz previously,
+00:05 you were stuck between these two worlds
+00:07 of building websites in code using tools
+00:09 like Codex and Claude Code, or just
+00:12 designing websites using AI design tools
+00:15 like Figma or Claude Design. With the
+00:17 release of Framer 3.0, they have solved
+00:20 this problem by bringing agents directly
+00:23 to their website builder. And not only
+00:25 does this mean that you can create
+00:26 incredible, stunning websites in just
+00:29 minutes, but it also means you can
+00:30 connect your agents to build websites
+00:33 directly from your local projects using
+00:36 Claude Code and Codex. And so, in this
+00:38 video, I'm going to break down what is
+00:40 Framer 3.0, how to build websites in
+00:43 minutes using the Framer agent, and how
+00:46 to build in Framer using Codex and
+00:48 Claude Code from your local projects and
+00:51 using design context like design.md.
+00:54 Now, if you don't know me, my name is
+00:55 Chris, and for the last 15 years I've
+00:57 been designing apps and advising
+00:58 startups on product and design, and I've
+01:00 helped thousands of people build real
+01:02 applications and websites using AI
+01:04 coding tools. And if you want to find
+01:06 out more about that, I've got a
+01:07 community helping people do just that,
+01:09 and you can find out more in the link in
+01:10 the description down below. Otherwise,
+01:12 let's jump straight into Framer 3.0 and
+01:14 see what it can do. So, first, let's
+01:16 look at Framer 3.0, what Framer 3.0
+01:19 actually is, what features it has, and
+01:21 why this is kind of bridging the gap for
+01:23 anyone designing or building websites
+01:26 between the world of code and the world
+01:27 of design. And if you don't know Framer
+01:29 already, then Framer is a tool that
+01:32 allows you to design and publish
+01:34 websites all from the same place. It's
+01:36 kind of a no-code website builder, or it
+01:39 has kind of evolved as a no-code website
+01:41 builder, but has historically not really
+01:44 had that many AI features until now.
+01:47 Now, they had an AI component builder
+01:49 that they added in about 6 months ago, I
+01:51 think, at least at some point last year,
+01:53 which is really, really interesting way
+01:55 of building custom code widgets on the
+01:57 canvas that you're designing or app in,
+01:59 but now they've added an agent to the
+02:02 tool where that agent has access to
+02:04 everything inside of the Framer user
+02:06 interface, and this goes beyond actually
+02:09 just designing the website on the canvas
+02:11 to being able to edit things in your
+02:13 CMS, to add and organize anything inside
+02:16 of your CMS, to create design system
+02:18 components, to create components in code
+02:21 that you can add to your websites as
+02:23 you're building them, and to be able to
+02:24 reference anything that you're building
+02:25 inside of the website canvas here on the
+02:27 website
+02:29 inside of the agent chat on the right
+02:30 hand side here. And so, and another
+02:33 really important feature that they've
+02:35 added is actually the ability to be able
+02:37 to branch your changes. So, you have
+02:40 this concept which is taken from GitHub,
+02:42 and if you don't know what GitHub is,
+02:43 GitHub is basically version control for
+02:45 code projects, for code bases.
+02:48 And so, branching in Framer allows you
+02:50 to create a new branch of your website
+02:52 to try out a bunch of different design
+02:54 directions, and then merge that back
+02:56 into your main branch, back into your
+02:57 main website without affecting the
+03:00 version of the website that you have
+03:01 published, without affecting without
+03:03 affecting the version of the website
+03:05 that your clients might have signed off,
+03:07 or that you are happy with. And it gives
+03:09 you a space to explore a bunch of
+03:11 different options without feeling that
+03:12 you have to constantly undo things, or
+03:14 you can't kind of like explore some
+03:16 crazy different design directions that
+03:18 you might want to explore. And so, that
+03:19 is the really interesting thing about
+03:21 Framer 3.0. And then the last thing that
+03:22 I want to mention here is that you can
+03:24 actually connect external AI tools as
+03:26 well. So, Cursor, Claude Code, and
+03:28 Codex, which are going to be your three
+03:30 big kind of AI coding agent tools, and
+03:33 AI kind of like work platforms, because
+03:35 these desktop apps for Claude Code,
+03:37 Codex, and Cursor are becoming the place
+03:40 that you do any sort of knowledge work
+03:42 with agents. And you can access Framer
+03:44 in the browser inside of those tools,
+03:46 and then work with your Codex or your
+03:48 Cursor agent in order to build your
+03:51 website inside of Framer. And there's
+03:52 some really interesting things I can
+03:54 that you can do with this, which you
+03:56 might not have thought of. For example,
+03:58 going from an existing codebase to
+04:00 building a landing page for that
+04:02 application that you've built using
+04:04 Framer and using the context of your
+04:06 existing codebase, including design
+04:08 system directions from things like
+04:09 design.md if you're using a design.md
+04:12 file inside of your codebase. And so now
+04:15 we've broken down Framer 3.0 a little
+04:17 bit, let me jump over to the Framer 3.0
+04:20 and I'm going to show you how you can
+04:21 start to create incredible-looking
+04:23 websites. And these are much
+04:25 higher-quality designed websites than
+04:27 you would get even from using tools like
+04:29 Claude design, Figma, or other AI design
+04:32 tools like Magic Path, because Framer
+04:34 has all of this data from all of their
+04:37 users. I don't know how much of this
+04:38 data they're actually using, but they
+04:39 have a bunch of templates as well that
+04:41 they're drawing from in order to help
+04:43 you design incredible-looking websites
+04:45 even from just simple prompts. So let's
+04:47 jump over to Framer and start building
+04:49 our first website and I'm going to show
+04:51 you how to create a couple of different
+04:52 directions, a couple of different styles
+04:54 for websites. And so this is Framer and
+04:56 you can see the agent on the right-hand
+04:58 side here. Basically, I've
+05:01 this is an example that I tested earlier
+05:03 of building just a minimal-designed
+05:05 video
+05:07 video creative agency website using
+05:10 these kind of shaders and this like
+05:12 Swiss design style font with these like
+05:16 minimal kind of sections on a dark
+05:18 background. And this was done just from
+05:20 one prompt. And I started off with just
+05:22 doing the landing page here and then
+05:24 moved on to doing the other breakpoints
+05:27 once I was happy with the elements that
+05:29 I added. So what I'm going to do here is
+05:30 I'm going to go back to my dashboard.
+05:32 We're going to create a new project
+05:34 inside of Framer. And then once we're in
+05:36 this new blank project, I'm just going
+05:38 to paste a prompt into the Framer agent
+05:40 on the right-hand side. And I'm just
+05:42 going to say, "Help me design a dark
+05:43 minimal AI video agency website with a
+05:46 Swiss-leaning design and typography,
+05:48 just start with a landing page first.
+05:51 And you can select the agent that you
+05:53 would the AI model that you want to use
+05:54 here. You've got GPT-4.5, Opus 4.1 and
+05:56 Sonnet 4.6. I'm going to go with Opus
+05:59 4.8 for this because that is generally
+06:01 going to give a very high quality of
+06:03 design compared to GPT-4.5 and Sonnet.
+06:06 So, let's send that to the Framer agent
+06:08 here. And the Framer agent is going to
+06:10 go through You can see the loading state
+06:12 on the canvas on this desktop frame here
+06:15 in the middle. The Framer agent is going
+06:16 to go through and it's going to scaffold
+06:18 a rough design for our landing page for
+06:21 our Swiss leaning kind of typographic AI
+06:25 video agency website. And then we're
+06:27 going to add some other elements into
+06:29 the canvas here as well. And the Framer
+06:31 agent can actually do image generation
+06:32 as part of this as well. So, we can drop
+06:34 in an image reference and we can do
+06:36 follow-ups here as well. So, if you
+06:37 wanted to queue up another prompt for
+06:40 Framer to go and add this to our design,
+06:42 we could absolutely add that in here.
+06:44 But let's see what Framer comes back
+06:46 with first based off of this prompt. And
+06:47 this this is the same a very similar
+06:50 prompt to what I used for the previous
+06:51 website that I showed you. And this is
+06:53 just going to show you how quickly it is
+06:55 how quick it is to get a really
+06:58 well-designed website up and running
+06:59 very, very easily inside of Framer. And
+07:02 if if you also want to start from a
+07:04 template, you can explore the Framer
+07:05 marketplace by going over to this tab
+07:08 here. And you just go to marketplace.
+07:11 And there is a ton of really, really,
+07:13 insanely high-quality designs that you
+07:16 can start from. And using one of these
+07:18 to then convert it to a style to
+07:21 basically your own custom website will
+07:23 give you a really, really quick way of
+07:24 building something very, very
+07:26 high-quality, very, very quickly. So,
+07:29 now you can see this video agency
+07:31 website coming together. It's building
+07:34 all of these kind of minimalist sections
+07:37 here. It's actually using this accent
+07:40 this green accent color, which I really
+07:42 really like here. And this font is like
+07:45 Although this font is set to a H1, so
+07:48 it's even setting up all of our
+07:50 typographic styles here inside of Framer
+07:52 as well, which is great. And the font
+07:54 has a really nice letter spacing here,
+07:56 so that it feels very premium and high
+07:58 quality. And this is the benefit of
+08:00 using something like Framer to do this
+08:02 instead of just Code X or Cursor or
+08:05 Cloud Code, because you get all of this
+08:06 design skill kind of bakes into the
+08:09 product through the fact that they have
+08:11 so many templates and existing designs
+08:14 in their data. And the Framer agent
+08:17 knows exactly how to use the Framer
+08:19 canvas and to design with all of the
+08:22 tools inside of Framer as well. So now
+08:25 we have got website here. It's pretty
+08:27 much finished. The agent is just
+08:28 finishing up some stuff. We've got a
+08:31 really strong website design for our
+08:34 minimal design AI video agency here. I'm
+08:38 loving all of these sections. And now we
+08:41 can use this to either start to make
+08:43 tweaks. And I love this button color
+08:45 here with the monospace font actually
+08:48 works really really well. And it's not
+08:50 defaulting to the standard AI defaults
+08:52 either. It's chosen Fragment Mono
+08:54 instead of Jetbrains or IBM Plex Mono,
+08:57 which is tends to be the standard ones
+08:58 for AI when it comes to design. Now for
+09:01 the headings, it is using Inter, which
+09:03 is pretty much an AI default. But from
+09:06 what you can see here, it doesn't look
+09:08 the same as the basic Inter look from a
+09:11 lot of other designs, because you have
+09:13 that tighter letter spacing and you have
+09:16 the right font weights for each of the
+09:18 different heading levels. And it's these
+09:20 details that really make the difference
+09:21 when it comes to high quality design. So
+09:24 what I'm going to do now is add a couple
+09:26 of elements to this to this website. And
+09:30 we're going to try and add in a design
+09:32 element here. So let's add in a a shader
+09:35 element. Let's add in one of these.
+09:38 Let's put that in here underneath this.
+09:40 We're going to make this um full width
+09:42 as well, and I'm going to add a little
+09:44 bit of a border radius onto this
+09:46 section. And then what I'm going to do
+09:47 here is to change these colors so that
+09:50 they match the green that we have. We
+09:53 can increase the speed of this as well.
+09:55 Increase the scale, change the radius.
+09:58 And so now if I go to preview, let's
+10:01 click on Let's click on preview. So now
+10:03 we have a very high-quality design for
+10:06 an agency website that even in the just
+10:08 this first version, maybe it looks a
+10:10 little bit kind of like um basic. It
+10:12 looks really, really premium. And you've
+10:14 got a lot of stuff in here. And one
+10:16 thing that you can do here with the
+10:17 Framer agent as well is that you can add
+10:20 in any of your context here for the
+10:22 Framer agent to the editor update
+10:24 anything with. So we could add files in
+10:26 here that for data, for different
+10:29 projects that we've worked on, image
+10:31 sets for those different projects, or
+10:32 image sets for team members. And we can
+10:34 create pages for those just by prompting
+10:36 the agent as well. What we can also get
+10:38 the agent to do here as well is to
+10:40 create the different breakpoints for
+10:42 this website. So let's just say, create
+10:44 the breakpoints for this website page.
+10:48 And we'll get the Framer agent to create
+10:49 the breakpoints. We could also get the
+10:52 agent to set up the CMS for us with any
+10:54 data that we put into the CMS
+10:56 dynamically pulls through to things like
+10:59 these um projects that we've got listed
+11:01 out here with all of the right data. And
+11:03 we could get it to design the other
+11:05 pages with that data as well. Now to go
+11:07 through some of the other features in
+11:08 Framer 3.0 here as well, which are super
+11:10 useful. So I can go into this branch
+11:12 icon at the top here. I can create a new
+11:15 branch. You can see we've got this new
+11:17 branch that's been created here. And
+11:19 when we it's ready, we And when we're
+11:21 happy with it, we can click merge back
+11:23 into main. Now we'll merge back into our
+11:25 main branch. We can create any number of
+11:27 branches here to explore different
+11:28 design directions. And if we want to
+11:30 change any of this stuff as it's going,
+11:32 so maybe we want this to be a little bit
+11:34 less tight on um
+11:37 on the mobile and the tablet
+11:39 breakpoints, we can actually just right
+11:40 click and do add to agent, and that will
+11:43 add that component into the agent chat
+11:45 here. And we also have a bunch of
+11:47 {slash} commands here as well. So, CMS
+11:49 component, so we could create this bands
+11:52 we could turn this band section here
+11:55 turn this into a component. And we do
+11:58 {slash} component, and that will turn
+12:00 that into a component for us that we can
+12:02 reuse, and the component styles will
+12:05 stay consistent across all of our pages.
+12:07 And that is exactly how quick it is and
+12:10 how easy it is to build
+12:12 incredible-looking websites in Framer in
+12:15 just a few minutes from a simple prompt
+12:18 or starting from a template. And next, I
+12:20 want to show you how you can build in
+12:22 Framer using your existing coding agents
+12:24 like Codex, Cursor, and Claude Code. So,
+12:27 let's jump over to Codex, and I'll show
+12:29 you exactly how to use Framer inside of
+12:31 Codex. So, now inside of Codex, and I've
+12:34 got a project that I've been working on.
+12:36 I haven't worked on it for a little
+12:37 while, but what I really need to create
+12:39 for this project is going to be a
+12:40 landing page so that I can get people to
+12:42 sign up for the waitlist for this app
+12:44 that I'm building. And I want to build
+12:46 this landing page as a waitlist landing
+12:48 page, but I want to build it off the
+12:50 back of my existing codebase using all
+12:53 of the existing design styles I have
+12:55 inside of this codebase without having
+12:57 to recreate that all from scratch inside
+12:59 of Framer. So, what I'm going to do here
+13:01 inside of Codex, you can see that I've
+13:03 got this Orchestrate folder open this
+13:05 Orchestrate project open on the
+13:06 left-hand side. I'm going to click new
+13:09 chat inside of Codex, and then you can
+13:11 simply find on the Framer website, you
+13:14 can just copy the install prompt for
+13:16 Codex, Cursor, or Claude Code to the
+13:20 clipboard, go back to Codex, and we're
+13:22 going to paste this in here, and then
+13:24 we're going to send this to Codex to
+13:27 install Framer inside of Codex so that
+13:30 we can start using our Codex agent to
+13:32 control Framer. And in the meantime,
+13:34 while this is installing, I'm going to
+13:36 open up the browser in the side panel
+13:38 inside of Codex. And this is the way
+13:41 that a lot of people are going to be
+13:42 using these AI agent tools like Codex,
+13:45 Cursor, and Claude Code in the future as
+13:48 more and more different types of work
+13:50 starts to be done with AI agents. And
+13:53 so, let's go to framer.com in the Codex
+13:56 browser, and let's log in to our Framer
+13:58 account so that we can start using
+14:00 Framer inside of the Codex browser. And
+14:03 we can start getting our Codex agent to
+14:05 actually design on the Framer canvas for
+14:07 us. So, now we're logged into Framer
+14:09 inside of Codex. You can see the the web
+14:12 app for Framer is the exact same as the
+14:14 desktop app. All we need to do here is
+14:16 click new project, and that is going to
+14:18 start a new project inside of Codex
+14:20 where we have access to the Framer
+14:23 canvas here. And so, what we can do what
+14:25 we're going to be able to do here is to
+14:27 let the Codex agent to interact with
+14:29 Framer to design a website for us using
+14:32 all of the styles we already have in our
+14:34 codebase for our app. So, what we have
+14:36 to do next is basically to give Codex
+14:38 our Framer project link, and then Codex
+14:41 will be able to start designing inside
+14:42 of this Framer project. So, let's go to
+14:44 invite inside of Framer, click on the
+14:46 project link, click copy, and then paste
+14:49 that back back into Codex, give it that
+14:52 project link. That is then going to
+14:54 launch a browser where I can approve
+14:55 access to my external agent inside of
+14:58 Framer, and you just click approve. So,
+15:00 Codex is now connected to our Framer
+15:02 project. It says session is active for
+15:04 this project, and let's ask Codex to
+15:06 simply build a waitlist landing page
+15:10 referencing the exact design styles that
+15:12 we have inside of this codebase on the
+15:15 Framer canvas, and just create a desktop
+15:18 landing page design for now. Follow
+15:21 landing page best practice for wait
+15:23 lists and use any information you need
+15:25 from the existing code base to write the
+15:28 copy. So, we're going to send this
+15:29 prompt off to Codex now and Codex what
+15:31 Codex will be able to do is it will be
+15:33 able to use the Framer tools. It'll be
+15:35 able to use the Framer canvas for us to
+15:37 design us a website using all of the
+15:39 styles that we have inside of our code
+15:41 base. So, we don't have to redesign that
+15:42 from scratch and then all we have to do
+15:44 is click publish inside of Framer and
+15:46 then we have our wait list landing page
+15:49 pretty much done for us in just a matter
+15:51 of minutes. And this is where this this
+15:54 kind of workflow is really, really
+15:56 powerful when you can use the context
+15:59 from your existing local projects, from
+16:01 your existing code bases, other sorts of
+16:03 projects, any sort of marketing, design,
+16:06 whatever projects you're doing, research
+16:08 projects inside of these agent tools
+16:10 locally, inside of these folders. You
+16:12 can use that context to actually build
+16:15 any sort of website inside of Framer.
+16:17 And this is particularly useful if you
+16:18 have a design.md
+16:20 design system file inside of your code
+16:23 base that is helping you kind of design
+16:26 your app because those design styles
+16:28 from design.md will be the exact styles
+16:30 that follow over to the Framer website
+16:33 that you're designing inside of Framer.
+16:34 And Framer just makes it super easy to
+16:36 create this website, to publish it
+16:38 straight to a URL, and to have a live
+16:40 website in a matter of minutes. And so,
+16:43 you can see Codex is pulling together a
+16:45 SaaS product wait list for this app that
+16:47 I've got called Orchestrate. It has all
+16:49 of the colors from the design.md and the
+16:51 design system that it's found and it's
+16:53 outlining the sections that we should
+16:55 have on this page based on landing page
+16:57 best practice for wait lists and then
+16:59 it's going to run that inside of Framer
+17:01 to actually design the wait list landing
+17:03 page on the Framer canvas for us. So,
+17:06 now we have our website designed in
+17:08 Framer and no, this is not the best
+17:10 looking design here, but it does use all
+17:12 of the visual styles from our code base.
+17:14 And it's not the best looking design
+17:15 because we're using using Codex here,
+17:17 and GPT 5.5 isn't particularly known for
+17:20 its design skills. So, what we can do
+17:22 here is we could we can maybe do some
+17:24 tweaks inside of Framer using the Framer
+17:27 agent to get this to a place where we're
+17:29 happy. If I do the preview here, we can
+17:31 see that this website is a little bit is
+17:34 some of the elements are a little bit
+17:35 squashed in this hero section,
+17:37 especially this kind of mock-up. But, we
+17:38 have the waitlist. So, now what we can
+17:40 do now that we've got this waitlist set
+17:42 up is we can connect this waitlist to
+17:44 simply uh a Google Sheet where we
+17:46 collect email addresses when people sign
+17:47 up. All you have to do is go to canvas
+17:49 here, and then go to settings, and
+17:52 you'll see this form section here, and
+17:54 you can then connect this to a Google
+17:56 account so that you can save these
+17:59 waitlist sign-ups to a Google Sheet,
+18:01 allow Framer to have access to your
+18:03 Google Drive, and now Google is
+18:06 connected basically to our website so
+18:09 that we can start collecting waitlist
+18:10 sign-ups through this website um using a
+18:14 just a simple Google Sheet. I would
+18:16 definitely make some tweaks to this
+18:18 design. Maybe we can do a design pass
+18:19 using Opus 4.8 inside of the agent
+18:23 inside of Framer here. But, you can
+18:26 basically work back and forth between
+18:28 your agents to create websites and
+18:31 landing pages from your existing app
+18:34 projects that use the exact same styles
+18:37 that you have inside of your app project
+18:39 on your website, and it makes it super
+18:41 super easy. We just created that
+18:43 waitlist in about 5 minutes. All you
+18:45 have to do is connect and click publish
+18:47 inside of Framer, and that website is
+18:50 now live on a URL, and you can also get
+18:53 a domain and connect connect a domain
+18:54 through Framer as well. So, let's get
+18:57 into my final thoughts. So, I think what
+18:59 Framer have done with the introduction
+19:00 of the Framer agent in Framer 3.0 is
+19:03 actually a really, really powerful way
+19:05 of building websites, and it has the
+19:07 benefit of all of the design knowledge
+19:08 inside of Framer. It has access to all
+19:11 of the tools inside of Framer, so you
+19:12 can set up CMS collections, you can add
+19:15 you can create components and design
+19:17 systems just using the Framer agent, or
+19:19 you can connect it to your external
+19:21 agents in Codex, Cursor, and Claude code
+19:24 as well. Now, the Codex version of the
+19:26 design that wasn't the best designed
+19:28 website, although it did use a lot of
+19:30 the styles from inside of the code base,
+19:32 and that is pretty much because it's
+19:34 using GPT 5.5. So, I would recommend for
+19:36 now until GPT models get a little bit
+19:39 better in terms of design to definitely
+19:41 stick to Claude models or any other
+19:43 model that you think might be better
+19:45 when it comes to design. And you could
+19:46 extend this workflow for building
+19:48 websites in a number of different ways
+19:50 as well. You could set up Firecrawl
+19:52 inside of Codex or Cursor, and you could
+19:54 use the Firecrawl API to scrape websites
+19:57 and basically just redesign them and set
+20:00 up automations to redesign websites. You
+20:02 could also do that if you're redesigning
+20:04 and rebuilding your existing website as
+20:06 well, is you can use Firecrawl to go and
+20:08 scrape the data from your website or
+20:10 just redesign it from your existing code
+20:12 base by going from your code base into
+20:14 Framer and then using the Framer design
+20:16 tools to create a much higher quality
+20:18 design, even using some of the templates
+20:20 from the Framer marketplace as a
+20:22 starting point if you wanted to go down
+20:23 that route as well. And this is just
+20:25 going to elevate the quality of design
+20:27 for thousands and thousands of websites
+20:29 and make it so much easier for everyone
+20:32 to design incredibly high quality
+20:34 websites, not just designers, and to be
+20:37 able to design those and launch those to
+20:39 a real URL in just minutes instead of
+20:41 days or weeks. And this is not a
+20:43 sponsored video, I just really love what
+20:45 Framer have done in this update. And so,
+20:46 if you want to check it out, you can go
+20:48 over to framer.com. If you are building
+20:50 apps or websites with AI, I do have a
+20:52 community helping people do that where
+20:54 you can learn not only how to build apps
+20:55 and websites, but also how to design
+20:57 them and how to start marketing them so
+20:59 you can get real customers. And I've got
+21:01 a link in the description down below, or
+21:03 you can go over to school.com/aiapps
+21:05 to find out more and join the community.
+21:08 If you enjoyed the video, don't forget
+21:09 to like and subscribe. Thank you for
+21:10 watching and I'll see you next time.

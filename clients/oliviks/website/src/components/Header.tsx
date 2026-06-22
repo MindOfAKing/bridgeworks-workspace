@@ -3,12 +3,14 @@
 import { useState } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
-import { Menu, ShoppingBag, X } from 'lucide-react';
+import { Menu, Mail, Phone, ShoppingBag, X } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { useOrder } from '@/context/OrderContext';
+import { site, telLink } from '@/data/site';
 
 const nav = [
   { href: '/menu', label: 'Menu' },
+  { href: '/catering', label: 'Catering' },
   { href: '/about', label: 'About' },
   { href: '/contact', label: 'Contact' },
 ];
@@ -17,9 +19,21 @@ export function Header() {
   const [open, setOpen] = useState(false);
 
   return (
-    <header className="sticky top-0 z-50 border-b border-cocoa/10 bg-cream/90 backdrop-blur">
-      <div className="ankara-rule" />
-      <div className="container-x flex h-16 items-center justify-between">
+    <header className="sticky top-0 z-50 border-b border-cocoa/10 bg-white shadow-sm">
+      <div className="hidden bg-leaf text-sm font-semibold text-cream md:block">
+        <div className="container-x flex h-9 items-center justify-between">
+          <div className="flex items-center gap-6">
+            <a href={telLink} className="inline-flex items-center gap-2 transition-opacity hover:opacity-80">
+              <Phone size={14} /> {site.phone.display}
+            </a>
+            <a href={`mailto:${site.email}`} className="inline-flex items-center gap-2 transition-opacity hover:opacity-80">
+              <Mail size={14} /> {site.email}
+            </a>
+          </div>
+          <p className="text-cream/85">Authentic Nigerian food in Budapest</p>
+        </div>
+      </div>
+      <div className="container-x flex h-20 items-center justify-between">
         <Link href="/" className="flex items-center" aria-label="Oliviks Kitchen home">
           <Image
             src="/images/oliviks-logo.png"
@@ -92,7 +106,7 @@ function CartButton({ fullWidth = false }: { fullWidth?: boolean }) {
       aria-label={`View order cart with ${itemCount} item${itemCount === 1 ? '' : 's'}`}
     >
       <ShoppingBag size={18} aria-hidden="true" />
-      View order
+      Order Now
       <span className="ml-1 inline-flex min-w-6 items-center justify-center rounded-full bg-gold px-2 py-0.5 text-xs font-bold text-cocoa">
         {itemCount}
       </span>

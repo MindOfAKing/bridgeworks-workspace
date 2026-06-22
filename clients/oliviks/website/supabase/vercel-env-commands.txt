@@ -1,0 +1,18 @@
+# Oliviks Kitchen Vercel env activation commands
+# Replace the placeholders with values from the Supabase dashboard.
+# Do not commit real values.
+
+npx vercel env add NEXT_PUBLIC_SUPABASE_URL production
+npx vercel env add NEXT_PUBLIC_SUPABASE_ANON_KEY production
+npx vercel env add SUPABASE_SERVICE_ROLE_KEY production
+npx vercel env add ADMIN_API_SECRET production
+npx vercel env add ADMIN_ALLOWED_EMAILS production
+
+# Recommended value:
+# ADMIN_ALLOWED_EMAILS=olivikskitchen@gmail.com
+
+# After env vars are added:
+npx vercel deploy --prod --yes
+
+# Verify:
+curl -s https://oliviks-kitchen.vercel.app/api/admin/menu

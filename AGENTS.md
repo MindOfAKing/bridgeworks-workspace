@@ -18,13 +18,13 @@ Do not place CEEFM directly under Emmanuel OS, Finance, or generic client work.
 Use these sources before acting:
 
 1. Emmanuel OS Command Center Google Sheet.
-2. `C:/Users/ELITEX21012G2/Projects/MASTER-CONTEXT.md`
-3. `C:/Users/ELITEX21012G2/Projects/MEMORY.md`
-4. `C:/Users/ELITEX21012G2/Projects/HOW-I-WORK.md`
-5. `C:/Users/ELITEX21012G2/Projects/SYSTEM-RULES.md`
-6. `C:/Users/ELITEX21012G2/Projects/ROUTING.md`
-7. `C:/Users/ELITEX21012G2/Projects/bridgeworks-workspace`
-8. `C:/Users/ELITEX21012G2/Projects/business-brain` where available
+2. `C:/Users/User/Projects/emmanuel-os-context/00-command-center/private/master-context-2026-06-17.md`
+3. `C:/Users/User/Projects/MEMORY.md`
+4. `C:/Users/User/Projects/HOW-I-WORK.md`
+5. `C:/Users/User/Projects/SYSTEM-RULES.md`
+6. `C:/Users/User/Projects/ROUTING.md`
+7. `C:/Users/User/Projects/bridgeworks-workspace`
+8. `C:/Users/User/Projects/business-brain` where available
 
 For project or finance changes, check the Command Center row first.
 

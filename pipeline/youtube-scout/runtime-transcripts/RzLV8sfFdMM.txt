@@ -1,0 +1,2281 @@
+00:00 What would you say by the end of this
+00:01 podcast [music] that everyone will have
+00:03 learned from you?
+00:03 >> The main thing that I want to talk about
+00:04 today is how we can be the director
+00:06 [music] of our coding agents. Everyone
+00:08 is hearing nowadays how large language
+00:10 models can support up to 1 million
+00:12 tokens in their context. That's like the
+00:14 Harry Potter book five times over. Large
+00:16 language models have what's called the
+00:17 dumb zone. With Opus right now, it's
+00:19 usually around 250,000 tokens and I feel
+00:22 like it gets into the dumb zone.
+00:23 >> It definitely comes with a false sense
+00:25 of security with people now thinking
+00:27 that they have the million.
+00:28 >> With coding agents, you spend more time
+00:29 planning than you actually do building.
+00:31 >> Without the verification checks, maybe
+00:32 it's 65 or 70, but now you can get
+00:34 something that is 92 on the first pass.
+00:36 >> If you tell it never to to wipe a
+00:38 database, it's still going to do that.
+00:40 If you don't allow it to delete a
+00:41 folder, it can still write a script to
+00:44 do that.
+00:44 >> Recently something did happen to us. The
+00:46 agent was trying to be proactive and it
+00:48 actually saw something on its task list,
+00:50 but it misinterpreted it and it ended up
+00:52 sending an email to our entire list with
+00:54 a discount code and it was not supposed
+00:56 to go out. If you have the mindset that
+00:57 anything that the agent can read or can
+01:00 touch, you have to assume that it will
+01:02 even if you never ask it to. That
+01:03 assumption is what's going to save you
+01:05 from having your database deleted.
+01:10 All right, Cole. Thank you so much for
+01:12 being here today. I'm so excited to dig
+01:13 in.
+01:15 >> I'm excited to be here. Yeah, thanks for
+01:16 bringing me on your podcast, Nate. I'm
+01:18 looking forward to this.
+01:19 >> Absolutely. Yeah, it's been a a long
+01:20 time since we've talked, so I'm excited
+01:21 to hear what you've been up to and to
+01:23 hear kind of like the sauce that you're
+01:24 going to drop on everyone today. So real
+01:26 quick, what would you say by the end of
+01:27 this podcast that everyone will have
+01:29 learned from you?
+01:31 >> Yeah, so the main thing that I want to
+01:32 talk about today is how we can really be
+01:34 the director of our coding agents and
+01:36 specifically Claude Code cuz that's what
+01:38 most people use right now. That's what I
+01:39 use. But really it's creating that
+01:41 system where you have your your way of
+01:44 working with Claude Code that evolves
+01:45 itself over time. And we're going to
+01:47 talk about more than just using it to
+01:48 code. Really I use my Claude Code as my
+01:52 second brain I like to call it. I know
+01:54 Nate kind of calls it as AIOS. Everyone
+01:56 has their term for it, but really like
+01:57 using Cloud Code as the tool to make
+01:59 your business AI native. We're going to
+02:00 get into all of that. And just some
+02:02 high-level strategies that honestly you
+02:03 can start applying today.
+02:05 >> I love that. Yeah, I'm I'm super excited
+02:06 to dig in because, you know, I don't
+02:09 come from a formal software engineering
+02:10 background, and I think that I would I
+02:13 would guess that the majority of my
+02:14 audience doesn't either. But obviously
+02:16 with the the products being called Cloud
+02:18 Code, I think a lot of people that I
+02:19 bring that up to who aren't super deep
+02:21 in the AI space, they obviously think
+02:22 that it's a tool that is for coders, and
+02:24 you need to understand code in order to
+02:25 use it. So, um I love that framing. And
+02:28 real quick before we jump in,
+02:30 you know, me and you have we've known
+02:32 each other for quite a bit, I feel like,
+02:33 you know, right when I kind of quit my
+02:34 job and started on this space, you were
+02:36 one of the main channels that I followed
+02:37 and I still follow to stay up to date
+02:39 and to to learn about how to work with
+02:41 AI in the right way. And um we've kind
+02:44 of just been able to see each other grow
+02:46 and and, you know, check in. So, I'm
+02:48 really excited to dive in, but I wanted
+02:49 to make sure you got a chance to real
+02:50 quick give everyone a quick intro if
+02:52 they haven't seen your channel before on
+02:54 what you do. And um
+02:56 yeah, what you're up to.
+02:57 >> Yeah, sounds good. You know, before I
+02:59 give an intro though, I kind of want to
+03:00 share something a little bit about what
+03:01 you're talking about. Like when we first
+03:02 met, it's funny cuz I I actually
+03:04 remember I had um about 50,000
+03:06 subscribers when Nate first reached out
+03:08 to me, and he had like 10,000. And now
+03:11 it's a little bit different. I have like
+03:13 200,000, and you're you're almost
+03:14 800,000 now, right? Like it's pretty
+03:16 crazy. Um it's been really cool to see
+03:18 you grow, how fast you've grown. But
+03:19 yeah, we were both like smaller channels
+03:21 at the time.
+03:22 Um so yeah, it's it's been a long time
+03:24 wild journey.
+03:25 Uh yeah, anyway, as far as what I
+03:27 actually do, so like Nate said, I come
+03:28 from a software engineering background.
+03:30 So, I've been an engineer my entire life
+03:33 ever since I was 8 years old actually. I
+03:35 I started with this language called
+03:36 Scratch. It's developed by MIT. So, I
+03:39 was just like building video games as a
+03:40 kid, like Super Mario Bros. and Pokémon,
+03:42 like really cliché stuff. Um but that
+03:45 that's what got me to the world of
+03:46 coding. And so I took that through high
+03:48 school, college, got my bachelor's in
+03:50 computer science, and um then I had just
+03:53 like a software engineering job in a
+03:55 Fortune 500 company, and it was great,
+03:57 but I always wanted to be an
+03:59 entrepreneur. And so, when generative AI
+04:02 started really become a big thing at the
+04:04 end of 2022 with the release of chat
+04:06 GPT, you know, when it took the world by
+04:08 storm, that's when I knew like, "Okay,
+04:09 this is where I want to go all in." cuz
+04:11 there's like a really big opportunity
+04:13 for a software engineer specifically to
+04:14 build agentic applications. And so, I
+04:17 started doing a lot of that like for my
+04:18 company and for friends with their
+04:20 startups, pretty much dedicating all day
+04:22 and all night to it for a very long
+04:24 time, like over a year.
+04:26 And so, it got to the point, well, I
+04:27 know, a year might not feel like a long
+04:28 time, but in the AI space, a year is a
+04:30 long time.
+04:30 >> Oh, yeah.
+04:31 >> So, like it it got to the point where
+04:32 like, "Okay, I got some things to teach
+04:34 people." So, that's why I started my
+04:35 YouTube channel. So, originally, it was
+04:37 like really, really technical. Like I
+04:39 was there like writing line by line. I
+04:41 wasn't even using AI coding assistants
+04:43 back then, just showing how to build AI
+04:45 agents with like, you know, LangChain
+04:47 and LangGraph at the time. And now
+04:49 that's evolved to a lot of different
+04:51 things like I I do a lot of like
+04:52 focusing on AI coding assistants, which
+04:54 is why we're talking about that today.
+04:56 Um and yeah, I quit my my full-time job
+04:58 like 3 months after starting my YouTube
+05:00 channel, which I think is about the same
+05:02 for you, Nate.
+05:03 >> Yeah.
+05:03 >> Um cuz it's crazy like how fast when you
+05:05 when you do it right and and you're
+05:07 teaching people valuable things like how
+05:08 fast a channel can explode. And so, now
+05:10 now what I'm up to is I have my AI
+05:13 community um similar to Nate, where I've
+05:14 got course content, weekly workshops
+05:16 that I do. I've also been doing some
+05:18 more enterprise-level training. So,
+05:19 coming into a team and doing like a
+05:21 4-hour session, helping them adopt a
+05:24 full system for using AI coding
+05:26 assistants so they can really have it as
+05:27 like a standard for the team. You know,
+05:29 get get away [clears throat] from vibe
+05:30 coding to really have a structured
+05:32 approach and helping them actually bring
+05:33 that into their existing processes and
+05:36 tech stack and things like that. So,
+05:37 that's been pretty awesome. And so, like
+05:39 really like that and everything I teach
+05:41 in the community, I'm bringing a lot of
+05:43 that here to uh what we're going to be
+05:44 chatting about today.
+05:45 >> 100%. Real quick, guys, quick break to
+05:47 tell you about today's sponsor, ClickUp.
+05:49 ClickUp is the software to replace all
+05:51 software, which I think is pretty funny,
+05:52 but very true. If you guys have been
+05:54 following me for a while, you know that
+05:55 I've been using ClickUp for a long, long
+05:57 time. Everything that I do with my team
+05:59 lives in ClickUp, all of our
+06:00 communication, all of our project
+06:01 management, all of our chats, and
+06:03 everything I was doing with my clients
+06:04 back when I was running the agency
+06:05 day-to-day, we were also inviting them
+06:07 to a ClickUp. So, it had replaced Slack
+06:08 for us, and it had also replaced our
+06:10 project management tools. So, if you're
+06:12 already using ClickUp, you have to try
+06:13 this new feature called Brain 2. But, if
+06:15 you don't use ClickUp already, then
+06:16 Brain 2 is an amazing reason to try out
+06:18 ClickUp. It's kind of like a
+06:19 supercomputer that can do a ton of cool
+06:21 stuff, and I'll talk about it in a sec,
+06:23 they have super agents in here. But, you
+06:24 can switch between the different chat
+06:25 models that you probably already use and
+06:27 love. Right here, you can see that I've
+06:28 used Brain myself to look through
+06:30 everything that's going on in our
+06:31 projects, and then create me a monthly
+06:33 presentation for the team. So, what that
+06:35 could look like is me asking Brain to
+06:36 create an investor presentation pitch
+06:38 deck for our text-to-speech startup
+06:39 called Glydo, and I told it to just use
+06:41 mock data, but make sure that it's
+06:42 professional and engaging. And just like
+06:44 that, we have the deck, which I can open
+06:46 up full screen right here. We've got the
+06:47 voice AI platform that makes every brain
+06:49 sound human. And as I start to navigate
+06:51 through here, you can see that we also
+06:52 have animations in here. So, it's not
+06:53 just a static, you know, slide deck. We
+06:56 get to actually go through, and we feel
+06:58 the animations. And think about the fact
+07:00 that this was just a one-sentence
+07:01 prompt. If we really started to put more
+07:02 and more data into this thing, it would
+07:04 be really, really solid. And this right
+07:05 here is just one of the many use cases
+07:08 of Brain 2. So, it's not just a chatbot,
+07:10 like I said, it can do things, and you
+07:12 can build your own super agents in here.
+07:13 And what I think is really cool about
+07:14 the super agents is they're 24/7 agents,
+07:16 you can tag them in ClickUp, you know,
+07:18 you can at message them, and they'll
+07:19 wake up and respond to you, and they can
+07:21 search through everything, which is why,
+07:22 in my opinion, it's a lot cooler that
+07:24 ClickUp is doing this compared to
+07:25 something like chucking an open claw or
+07:27 Hermes agent into ClickUp, because these
+07:30 agents already have full context and can
+07:32 search through everything. So, right
+07:33 now, because you're watching this video,
+07:35 you can claim this super awesome offer
+07:36 that is on screen right now by using the
+07:38 link in the description. Now, let's
+07:40 Let's back to the video. Yeah, well, I
+07:41 am just I'm so glad that that we both
+07:44 took the leap cuz it's it's you know,
+07:46 it's not an easy decision, but um your
+07:49 brain just gets it. And so, it's been
+07:50 great to see, you know, the consistency
+07:52 in what you've been up to, but I think
+07:53 that if you think back to, I don't know,
+07:56 5, 10 years ago when people were going
+08:00 out to get their, you know, CS degrees
+08:01 and stuff, it's like that was such a
+08:03 safe bet at the time, you know? And I
+08:05 don't think a lot of people
+08:07 were predicting how much how quick that
+08:09 was going to flip as far as like, you
+08:10 know, that graphic of what is AI being
+08:12 applied to. And right now, it's just
+08:13 majority is coding and software
+08:15 engineering. And obviously, everything's
+08:16 going to catch up, but um
+08:18 it's just great that you were able to,
+08:20 you know, make that pivot and be ahead
+08:21 of the curve. And now, now here we are.
+08:23 So, um being able to us have this
+08:26 conversation, one of us coming from like
+08:28 a non-technical background completely,
+08:29 and one of us coming from a technical
+08:30 background, it's going to be really
+08:31 cool. So, yeah, let's just jump right
+08:32 in.
+08:33 >> Yeah, sounds good. Cool. So, for for
+08:36 what I have prepared for today, um
+08:38 you'll see like
+08:40 you'll see it shine through that I come
+08:41 from a technical background. But but
+08:44 really, what it comes down to is like
+08:45 I'm going to bring these concepts into
+08:48 using Claude code for far more than just
+08:49 coding, like I alluded to at the start.
+08:52 And so, I think um you know, for me,
+08:54 like I I really
+08:56 enjoy leaning on my technical expertise
+08:58 because a lot of the ways that you'll
+09:00 use an AI coding assistant for your ops,
+09:03 your AIOS, your second brain, whatever
+09:05 you want to call it, um it you are going
+09:07 to be borrowing from software
+09:08 engineering principles, whether you
+09:10 realize it or not. So, a lot of times,
+09:12 just as you learn how to use these tools
+09:13 effectively, and you're just learning
+09:15 best practices from Nate's YouTube or
+09:17 Anthropic's blog or Boris Cherney or
+09:19 whoever, like they're bringing software
+09:20 engineering principles and a lot of like
+09:22 product management manager principles as
+09:24 well. And so, yeah, like some of the
+09:26 examples that I have here um that we'll
+09:29 cover, like they're a little technical,
+09:31 um but that's really just like to
+09:33 illustrate how how I started using this
+09:35 tool, and then of course, I'll like
+09:37 generalize things a lot as well.
+09:39 And um give some specific examples, too.
+09:42 Um so, if you if you want, Nate, I can
+09:43 just like dive right into the
+09:45 >> Yeah, let's
+09:45 >> first part that we have here. Okay,
+09:46 cool. Yeah, so I got like just quick
+09:48 over I mean, we'll go pretty quick
+09:50 through this cuz I want to keep this
+09:52 pretty casual, and I know you you do as
+09:53 well, Nate, but just like a few
+09:54 different pillars here of how we can go
+09:56 from simply using Claude code to what a
+09:58 lot of people call vibe coding, you
+10:01 know, prompting and praying where you're
+10:03 you're pulling that lever like a slot
+10:04 machine, getting to the point where
+10:06 we're really directing it and having
+10:07 that system for reliable and repeatable
+10:09 results.
+10:10 And um it really can be simpler than you
+10:13 would think, right? Like most of what
+10:16 people do that you really shouldn't do
+10:19 is you throw in a request, and you don't
+10:22 do much of the planning up front or the
+10:24 validation after. Like those are the two
+10:26 things that I really want to talk about
+10:28 here, and that applies to uh writing any
+10:30 code or any kind of application. It
+10:32 applies to evolving your system like as
+10:34 you're creating skills and integrations
+10:36 for Claude code, or even just using it
+10:39 to automate things in your business.
+10:41 Um and so, yeah, the approach is you
+10:43 always want to plan with context,
+10:45 build out that thing that you're looking
+10:47 to do, and then have an approach for
+10:48 verifying. Like as high-level as I can
+10:50 possibly keep it. And then the other
+10:53 like kind of golden nugget here
+10:55 is every time you go through this loop
+10:56 with Claude code, any kind of agentic
+10:58 workflow or thing that you're building,
+11:00 there's always going to be an
+11:01 opportunity at the end to evolve your
+11:04 system. And we'll talk about what that
+11:07 means in a little bit here, but like
+11:08 really that comes down to there's going
+11:10 to be something in the way you work with
+11:11 Claude code that you can improve so that
+11:14 next time it's going to be better.
+11:16 >> Mhm.
+11:16 >> And I'm I'm being high-level here on
+11:18 purpose cuz I'll get into some more
+11:20 examples.
+11:21 But a lot of people don't think about
+11:22 doing this, right? They kind of like get
+11:24 to the point where it's like, "Okay, my
+11:25 application works. Like this website
+11:26 looks good. Or it's now able to automate
+11:30 creating invoices." Like whatever it is,
+11:31 and they're like, "All right, we're
+11:32 done. Like let's next time I want to
+11:34 create an invoice, I'm just going to go
+11:35 through the same process again." But
+11:36 like really there are going to be those
+11:38 problems that come up over time where
+11:40 you can engineer so that they happen
+11:42 less often, right? That that system
+11:44 evolution is kind of what I like to call
+11:46 it.
+11:46 >> Yeah.
+11:47 >> So you're having you're having it learn
+11:48 just like you would an employee, right?
+11:50 >> Absolutely.
+11:50 >> Yeah. My my second brain, I literally
+11:52 call it my co-founder, right? So I want
+11:54 it to like learn me better over time and
+11:57 how I like to work, how I want it to
+11:58 work as well.
+11:59 >> Mhm. Yeah, and I think this four-step
+12:02 kind of framework or whatever you want
+12:03 to call it, it
+12:05 yes, when you kind of maybe look at it
+12:06 like this, it might feel like it's a
+12:08 technical software engineering thing,
+12:09 but if you just relate that back to the
+12:11 same way you would maybe like, let's
+12:12 just say build a treehouse. Like you
+12:14 would plan that thing out first. You
+12:15 would draw it out. You would understand
+12:17 how much wood you need and where. You
+12:19 would get the right gear, and then once
+12:20 you've built it, you're not just going
+12:21 to put your kids on it. You're going to
+12:22 like test it. You're going to make sure
+12:23 that thing's not going to fall. So um
+12:26 it's just a great way to think about it,
+12:27 and especially if you think about some
+12:29 of the the pitfalls that these models
+12:31 have with like the sycophancy,
+12:33 essentially just being a yes man. If you
+12:35 say, "Hey, you know, I want to do this.
+12:37 Does that look good?" And they're just
+12:38 going to say, "Yeah, it does." Without
+12:39 really looking over the plan. And then
+12:42 on the verification side,
+12:44 you know, sometimes they do tell you
+12:45 something's done, but it's not. So
+12:47 having your own method of doing that as
+12:48 well
+12:49 really important.
+12:50 >> Yeah.
+12:50 >> By the way, guys, I know we are diving
+12:52 into a ton of information in this
+12:53 episode. So what I did is I broke all of
+12:55 this down into a free resource guide
+12:56 that you can access for completely free
+12:58 by joining the free school community.
+13:00 The link for that is down in the
+13:00 description. Also, if you want to check
+13:02 out some of the key moments from this
+13:04 episode and all future podcasts on my
+13:06 channel, then go ahead and check out the
+13:08 AI Automation Society YouTube channel
+13:10 where we're going to be posting some of
+13:11 the best moments from the podcast over
+13:13 there. I'll link that YouTube channel in
+13:14 the description of this video as well.
+13:15 Anyways, thanks, guys. Let's get back to
+13:17 the podcast.
+13:17 >> Yeah, verification really comes down to
+13:20 prove to me it's actually done and
+13:21 working.
+13:22 >> Mhm.
+13:22 >> Right? And so like for any kind of
+13:24 coding task, that's things like unit
+13:26 tests and linting and like that's where
+13:29 it gets a little bit more technical, but
+13:30 like really you can apply that to
+13:31 anything.
+13:32 Um like I This is the example that I'm
+13:33 going to spoil right now. Um I used
+13:36 Claude Code to generate this entire
+13:37 diagram.
+13:38 >> I had a feeling you did, yeah.
+13:40 >> Yeah, yeah, yeah. So, I have I have a
+13:42 skill. It's like Excalidraw diagram
+13:44 skill. I've covered it on my YouTube
+13:45 channel, actually. So, I use it to build
+13:47 this whole thing. And um I was going to
+13:49 talk about this example a bit more right
+13:51 here when we really get into like
+13:52 verifying the work. Um but I think it's
+13:54 just such a good like non There's
+13:56 nothing to do with coding here. It's
+13:57 just creating a diagram. But as far as
+13:59 far as verification goes, I actually
+14:01 have it take the Excalidraw diagram and
+14:04 render a PNG. So, there's like an
+14:06 integration that I built into the skill
+14:08 for Claude Code, so it can render it as
+14:10 an image. And as a lot of you know, like
+14:12 Claude Code is able to understand images
+14:14 incredibly well now. For like the last
+14:16 year, it's been so good. And it's um
+14:18 even viewing like a like if I zoom out
+14:20 here, like there's quite a bit of
+14:21 context. But like it can pick out the
+14:23 tiniest piece of text in a larger image
+14:25 like this. And so, I have it look at
+14:27 that
+14:28 and then figure out like if there's any
+14:29 kind of like padding or spacing issues,
+14:32 like if there's any sort of overlap. And
+14:34 And trust me, there was. Like it had to
+14:35 iterate a couple times to build
+14:36 something this big. Um but then the the
+14:38 point is like it is able to iterate by
+14:41 itself. So, we don't really care about
+14:43 the initial mess-ups that it has. As
+14:45 long as it like does that by itself, we
+14:47 just care about that that last thing it
+14:48 hands back to us when it says it's done.
+14:50 >> Absolutely.
+14:51 >> this If we have the step when it says
+14:52 it's done, then like it actually is, or
+14:54 at least it's closer. I mean, it's still
+14:55 probably not going to be perfect, but
+14:57 you get the idea. Yeah.
+14:58 >> Yeah, 100%. I've done something pretty
+15:00 similar with my video editing pipeline
+15:02 with the motion graphics it adds. And
+15:03 sometimes things would be out of bounds,
+15:05 but like you said, the whole idea is
+15:07 it's almost never going to be 100% on
+15:10 that first pass. But without the
+15:11 verification checks, maybe it's 65 or
+15:13 70. But now you can get something that
+15:15 is 92 on the first pass.
+15:17 >> Right. Exactly. Yeah.
+15:19 Yeah, it's it's good. So, I mean,
+15:21 verification, validation, whatever you
+15:22 want to call it. Like, that is one of
+15:24 the biggest things that I'm focusing on
+15:26 right now for any kind of application or
+15:29 automation that I'm creating. I want
+15:30 some kind of harness for the coding
+15:33 agent to be able to validate its own
+15:35 work. It's a lot of code to validate its
+15:36 own work. And for some things like
+15:40 website design, it's actually pretty
+15:41 easy. There's a lot of tools out there.
+15:43 Maybe you've heard of Playwright or
+15:45 Vercel's agent browser
+15:47 for it to really just spin up the site,
+15:50 right? You can run the command to start
+15:52 the website and then it can visit it
+15:53 just as a user would. Take screenshots
+15:55 along the way to prove things to you or
+15:57 even just view the the UI itself. It's
+16:00 pretty easy. For other kinds of things
+16:02 that you'll build,
+16:03 it can be kind of hard to have the agent
+16:06 really verify its own work effectively.
+16:08 One like really simple example, kind of
+16:10 silly example,
+16:11 I In my spare time, like I've I've
+16:13 always loved like video games as a kid.
+16:15 I mean, like I talked about with
+16:16 Scratch, I mean, I was building like
+16:18 Pokémon and and Mario Bros. and stuff.
+16:20 And so, like I've actually like been
+16:22 doing a little bit of just trying to I
+16:23 mean, I hate to admit it, but vibe code
+16:25 video games, right? It's just a hobby.
+16:27 I'm not trying to like do something too
+16:28 crazy. It's more just like having it run
+16:30 in the background for fun. But like one
+16:32 of the things I've had to think about is
+16:33 like how do I build a harness for the
+16:35 coding agent to be able to actually play
+16:37 the video game. It's a bit trickier cuz
+16:39 it can't Like coding agents, they need
+16:41 time to think, right? So, if you have a
+16:43 game that's running at 60 frames per
+16:44 second, it's not really going to be able
+16:45 to react to things the way that human
+16:48 would. So, thinking about a system where
+16:50 it can basically like slow down the
+16:51 frame rate. I know it's kind of like a
+16:52 silly example, but it's just like that's
+16:54 one of the biggest things you have to
+16:55 engineer for for anything is like how
+16:58 would the agent actually verify that as
+16:59 a user would? Cuz just like looking at
+17:02 the code it creates or the skill it
+17:03 builds for you, like that's not enough
+17:04 for it to just do that sort of like
+17:06 review, high-level review, which is
+17:09 good, but like you need a way for it to
+17:10 really like use the application or
+17:13 whatever you're making as you would.
+17:15 >> Yeah, absolutely. And real quick for
+17:16 anyone that might not have heard the
+17:18 term harness before, what is your kind
+17:20 of quick definition of that?
+17:22 >> Yeah, no, that's good. I appreciate you
+17:23 calling me out. Yeah.
+17:24 >> It gets It gets [laughter] technical.
+17:26 >> Right, yeah. So, um
+17:28 usually when people talk about
+17:29 harnesses, they're talking about
+17:31 something more like what I was going to
+17:33 talk about a bit here at the end.
+17:35 Um so, what I'm talking about as far as
+17:37 like validation is more like
+17:40 I mean, it's it's kind of I I have to
+17:42 think about like how to actually explain
+17:45 what a harness is. Really, it's it's the
+17:46 wrapper around the large language model,
+17:49 the tools and context that it has access
+17:52 to, so it knows what it's working on and
+17:55 how to work on it effectively.
+17:57 So, if we think of like a harness for AI
+17:59 coding, Claude Code is actually a
+18:01 harness, right? Like it when you
+18:03 download Claude Code and you run it, it
+18:05 loads a system prompt on top of Claude
+18:07 as a large language model, it gives it
+18:09 the tools so it can run commands and
+18:11 create files on your computer. Um that's
+18:14 what really makes it a harness. And And
+18:16 then, when I was giving the example of
+18:18 like a harness for testing, it's more
+18:19 like
+18:21 um giving it a system where it's like,
+18:22 "Okay, these are the commands I can run
+18:24 to start the game and then like slow
+18:26 down the frame rate so that I can
+18:27 interact with it frame by frame and like
+18:29 really stop and analyze and think before
+18:31 I take another action."
+18:33 So, it You can think of it kind of like
+18:35 a So, I mean, maybe I will just jump
+18:36 ahead here. You can think of the harness
+18:38 [laughter] as the thing that just wraps
+18:39 the model. And then, there's also that
+18:41 that component of the harness that you
+18:43 get to build yourself. I call it the AI
+18:45 layer. And so, for Claude Code, that's
+18:46 like your Claude.md and your skills and
+18:49 your hooks and any kind of MCP servers
+18:51 that you're bringing in to connect it to
+18:53 your other platforms like your CRM or
+18:55 your task management software, right?
+18:57 That's that's building on top of the
+18:58 harness. So, it's kind of like the large
+19:00 language model is the reasoning. It's
+19:02 It's the brain at the center. And then,
+19:04 you pick the tool like Claude Code or
+19:06 Codex or whatever, and then you can sort
+19:09 of like build the context and
+19:11 integrations on top.
+19:12 >> Absolutely. I love it. Yeah, well said.
+19:14 I think something something fun anyone
+19:16 listening should try real quick is if
+19:17 you go to an AI model and ask it to
+19:19 explain an AI harness or an agent
+19:21 harness, I would be willing to bet it
+19:23 does the whole car analogy where the
+19:25 engine is the AI model [laughter] and
+19:27 the car is the harness. So, let me know
+19:29 if you guys run that and and see if
+19:30 that's what you get.
+19:31 >> [laughter]
+19:32 >> Sounds good. I mean, we could we could
+19:33 test it right now.
+19:36 No, no. We won't we don't need to do it
+19:37 right now. But yeah, that's that's your
+19:38 homework for today.
+19:39 >> Yeah.
+19:40 >> [laughter]
+19:40 >> Yeah.
+19:41 Yeah, cool.
+19:43 Um yeah, so we're I mean, we we talked
+19:44 about like validation a lot. Um planning
+19:47 is the other thing that I really want to
+19:48 hit on cuz most people don't do enough
+19:51 of it.
+19:52 >> [clears throat]
+19:52 >> And it takes it takes patience. And this
+19:54 is like one of those um software
+19:56 engineering disciplines that I like to
+19:57 bring into um even when I'm talking to
+20:00 someone who is not writing code or who
+20:01 isn't technical.
+20:03 Cuz you have to spend I mean, with
+20:04 coding agents, you spend more time
+20:06 planning than you actually do building
+20:08 because you you really put a lot of your
+20:11 effort up front into the plan and then
+20:13 you use that to delegate as much of the
+20:14 coding as you possibly can or for a lot
+20:17 of us all of the coding to the AI coding
+20:19 assistant. And so, its success is really
+20:21 just dependent on how good is your plan.
+20:23 Usually, you have some kind of like a
+20:25 lot of people like using markdown,
+20:26 right? I use markdown a lot. So, I'll
+20:27 have like a single markdown document
+20:29 that outlines
+20:31 um you know, like the goal, what are we
+20:32 building here? What does success
+20:34 actually look like? And like of course
+20:35 with that comes the validation strategy
+20:38 um that we've already talked about. So,
+20:40 how does it know that's uh the work is
+20:41 done and working well? And then um not
+20:45 to get like too technical here, but
+20:46 especially more for any kind of like
+20:48 coding task, you're going to have like
+20:49 the integration points, right? Like if
+20:51 you're building on top of an existing
+20:53 automation or application or website,
+20:55 whatever, like what are the parts of the
+20:56 code base that we actually have to
+20:58 touch? And so, if you are more
+21:00 technical, you can sort of evaluate like
+21:02 make sure it's understanding is correct
+21:04 of like, okay, what files are we really
+21:06 going to create and edit here?
+21:07 Not that you need that. Um and then once
+21:11 you have that plan, then this is kind of
+21:13 what my workflow looks like. And then
+21:15 this is for anything. So you you do some
+21:17 kind of like context loading up front,
+21:19 any sorts of like documents that your
+21:21 agent needs related to the task at hand.
+21:23 And then I'll typically have it do some
+21:25 kind of research, usually using sub
+21:28 agents for that. So if I'm building a
+21:29 new application, maybe I'll have one sub
+21:31 agent research what's a good tech stack
+21:33 for this. What's a good like approach
+21:36 are people that have built similar
+21:37 applications, right? So like especially
+21:39 if you're not as technical, that could
+21:41 be really useful for it to just gather a
+21:43 lot of information and then propose a
+21:45 plan to you. And so that's when you you
+21:47 create the plan with the coding agent.
+21:49 And this is also where usually you want
+21:51 to have the coding agent ask you a lot
+21:52 of questions. Like I know Nate, you just
+21:54 put out a video today on Matt Pocock's
+21:56 grill me skill, which is really good.
+21:58 Like you need to make sure that you that
+22:01 the coding agent is not assuming a ton
+22:03 of things about what you want it to do.
+22:05 Like the workflow you want to build, the
+22:06 skill you want to build, whatever. And
+22:08 so having it ask you a lot of questions
+22:10 to clarify those things is good. So that
+22:12 way you can be confident that once you
+22:13 have that final plan, like this is about
+22:16 this is what we're going to go and do
+22:18 now, that both you and the coding agent
+22:20 are aligned on what's actually going to
+22:22 be done and and how you're going to
+22:23 validate it.
+22:25 >> Absolutely. Yeah, I love it. When you do
+22:27 that, are you typically using in Cloud
+22:28 Code plan mode or are you kind of
+22:30 planning but not in plan mode?
+22:33 >> Yeah, usually I don't use plan mode.
+22:35 >> Okay.
+22:35 >> It's it's good, but plan mode like puts
+22:38 Cloud Code into a bit of a different
+22:39 behavior that I'd rather be able to
+22:40 control my
+22:42 control more myself. So my skill for
+22:45 planning is like instructions for how I
+22:47 want it to ask me questions and then
+22:48 just like generally how I want to go
+22:50 about researching and organizing things
+22:52 into a plan. And so like I want to
+22:55 define the sections. If you don't, then
+22:58 you're just using Cloud Code's plan
+22:59 mode. Like it'll build something
+23:01 actually pretty much like this.
+23:03 But I just like having that more
+23:06 that that higher level of control. I
+23:07 think that's a theme that you get a lot
+23:09 through my content in general is that I
+23:11 I like to have control and
+23:13 customizability cuz in the end that's
+23:15 how you get the best results. It's just
+23:16 it's kind of like that learning curve to
+23:17 get to the point. Like for example, I I
+23:20 don't use open claw or Hermes. I have my
+23:23 own second brain that literally is just
+23:25 built directly on top of Claude code.
+23:27 And I'm a big proponent of that even
+23:28 though those other open source tools are
+23:30 very powerful
+23:32 because you're running something that
+23:33 you don't understand and it's harder for
+23:34 you to like really take as your own and
+23:37 it's not like a foundational component
+23:39 that you can create your own system on
+23:41 top of. So you're more like adopting
+23:42 someone else's system and these tools
+23:44 have done a really really good job
+23:46 making it easy to extend and and really
+23:49 make your own. But like in the end
+23:51 building something from the ground up is
+23:52 always going to give you the most
+23:53 control even though that can be pretty
+23:55 daunting.
+23:56 >> Yeah, I hear you. Yeah, that's
+23:57 interesting. It I mean it it really does
+23:59 make sense. I always love
+24:01 you know, that's something I just say a
+24:02 lot which is a very simple
+24:04 theory is just to be
+24:06 genuinely curious to understand what's
+24:08 going on especially when
+24:10 I don't understand what these lines of
+24:12 Python code that it that just got
+24:14 written mean, you know, and the whole
+24:16 idea of dark code.
+24:18 And I guess what do you think about that
+24:19 whole idea cuz I know you talk a lot
+24:21 about vibe coding and and preaching
+24:23 understanding things at their core. So
+24:25 when someone is generating automations
+24:28 or code that they don't
+24:31 understand how to read
+24:33 how do they actually
+24:35 feel secure and safe about that?
+24:37 Yeah, that's a really good question.
+24:39 >> Pretty loaded too.
+24:40 >> [laughter]
+24:40 >> No no, it's it's good. I I welcome it.
+24:43 So I'll I'll answer in two ways. I'll
+24:45 answer first by saying that like
+24:48 maybe not everyone loves to hear this
+24:49 but I can if you are using AI coding
+24:51 assistant to write code cuz you're
+24:53 building your second brain, you're
+24:55 creating automations, whatever it is, I
+24:57 would recommend at least trying to get
+25:01 to the point where you can understand
+25:02 the code. And really at first that can
+25:04 be as simple as just asking Claude Code
+25:07 or whatever coding agent to explain what
+25:09 it just wrote.
+25:10 Because code can look pretty
+25:12 intimidating, but when you get over that
+25:15 like initial hump, like it kind of reads
+25:18 like English. And maybe that's just me
+25:20 being extremely ignorant because I've
+25:21 lived and breathed it since I was 8
+25:23 years old, but it starts like as long as
+25:25 you understand that like this is a
+25:27 class, this is a while loop, this is a
+25:29 if statement, like it starts to read
+25:31 like English. You're like, okay, I
+25:31 understand when this part of the code is
+25:33 going to execute now. You're just asking
+25:36 your coding agent constantly. And so I
+25:39 mean like in Claude Code there's the
+25:40 slash by the way feature. So like you
+25:43 can always just kind of have a side car
+25:44 conversation where it's like, hey, help
+25:45 me understand like what the heck is
+25:47 going on right here. And then it doesn't
+25:49 have to to dilute your main context and
+25:51 just kind of like
+25:52 keep throwing context at Claude Code. If
+25:54 you can have that separate conversation
+25:56 for your own understanding and then go
+25:58 back to the main task at hand without it
+26:00 being affected.
+26:01 So I would recommend that. And then, you
+26:03 know, someone is really not inclined to
+26:06 learn how to code, like that's just not
+26:08 your goal. You want to use Claude Code
+26:10 to automate things and not have to like
+26:12 engineer applications. I totally get
+26:14 that as well. Really comes down to your
+26:16 validation strategies what's going to
+26:18 dictate how confident you can really be
+26:19 in what is created. So if you're
+26:22 spending a lot of time and this is why I
+26:23 say like whenever you're building
+26:24 something with Claude Code, the way that
+26:26 you don't vibe code is that you sandwich
+26:29 the delegation of the coding between the
+26:33 planning and the validation process that
+26:35 you're heavily involved with.
+26:37 Right? Like the only reason I'm ever
+26:39 going to say, all right, Claude, go rip
+26:41 through this is because I made sure I
+26:43 created a really detailed spec and I've
+26:45 defined like this is how you're going to
+26:47 tell me that you're done and how you can
+26:49 be confident that you actually are.
+26:52 >> I love it. Very well said. Nothing to
+26:54 Nothing to add there.
+26:55 >> Cool. All right, sounds good.
+26:57 Yeah.
+26:58 Um yeah, as far as like creating that
+27:00 plan with the coding agent, the most
+27:02 important thing is to manage the
+27:05 context. Like what your coding agent is
+27:08 going to really be paying attention to
+27:10 at the start of any kind of planning
+27:12 session.
+27:13 So, the the thing here is that attention
+27:15 is scarce.
+27:17 And so, there's a big misconception
+27:18 right now for a lot of people where they
+27:20 think that like it doesn't really matter
+27:22 how much you throw at a coding agent
+27:24 because everyone is hearing nowadays how
+27:26 like large language models can support
+27:28 up to 1 million tokens in their context
+27:30 when they're like, "Oh, that That's like
+27:32 the Harry Potter book five times over."
+27:34 I forget the exact
+27:36 >> [laughter]
+27:36 >> but people like always throw like some
+27:38 some analogy where it just like makes it
+27:40 pretty obvious where it's like 1 million
+27:41 tokens is an insane amount of
+27:43 information. And it actually is, but
+27:45 there's two massive caveats here. The
+27:48 first one
+27:49 is that that context will go way faster
+27:51 than you think. Cuz if it's reading
+27:53 through
+27:54 um a bunch of skills that you set up for
+27:56 it or a bunch of code, that can be tens
+27:58 of hundreds of thousands of tokens very
+28:00 quickly. And then the other thing is uh
+28:04 large language models have what's called
+28:05 the dumb zone.
+28:07 And so, you have the the little bit of
+28:09 context up front. Maybe I can just draw
+28:11 like a quick little analogy here. So, if
+28:13 like this is Oh, that is a
+28:15 fat marker. Um
+28:17 All right. Okay, I'm I give up already.
+28:19 I'm not going [laughter] to try that.
+28:20 Okay, so you you you have to imagine
+28:22 this with me here, but imagine you have
+28:24 a box that represents the the LLM's
+28:27 context window. You have that initial
+28:29 part at the start of the conversation up
+28:31 to the first, you know, 100 or 200,000
+28:33 tokens where the large language model
+28:35 feels very sharp, or at least it feels
+28:37 like it's at its best.
+28:39 Once the conversation surpasses that
+28:41 first 100, 200,000 tokens, obviously it
+28:44 depends on the model. When you reach the
+28:46 dumb zone, you get to the point where it
+28:48 just feels like it's overloaded with
+28:50 information and it starts missing things
+28:52 and making mistakes that seem so obvious
+28:55 to you. Or like the kind of thing where
+28:56 you're like, if I had had a fresh
+28:58 context here, like there's no way it
+28:59 would have made that mistake. Like it
+29:01 writes a really bad line of code or it
+29:04 doesn't use a skill that you thought it
+29:07 should have known to use, right? Like
+29:09 that kind of thing if it's in the middle
+29:10 of a larger workflow.
+29:12 And so that that's why I say attention
+29:14 is scarce. Like don't don't get to under
+29:16 that false notion that you don't really
+29:18 have to care about how much you give it.
+29:20 Like if you're trying to have it handle
+29:22 a larger workflow, you still have to you
+29:24 have to be very careful like what you
+29:26 give it up front versus what you allow
+29:28 it to discover when it actually needs.
+29:30 Like that's one of the most important
+29:31 things with skills with Claude is you're
+29:33 giving it procedures and best practices,
+29:35 but it gets to decide like, okay, now I
+29:38 need to rely on this process or this
+29:40 information. So you're not just dumping
+29:42 a bunch of things up front.
+29:44 A lot of people do that like even with
+29:46 MCP servers back in the day. They would
+29:48 they would connect their like 20 MCP
+29:50 servers to Claude code and each one of
+29:52 them was was
+29:54 filling the context with like 20,000
+29:57 tokens up front of information cuz it
+29:59 has like all of the tool calls or the
+30:01 tools that come with the MCP server. And
+30:03 so their large language model would
+30:05 always act super dumb. And so they're
+30:07 like, I'm using the latest Opus, like
+30:09 why am I getting terrible results? And
+30:11 it's really it comes down to just how
+30:13 much of the context is filled right
+30:15 away.
+30:15 >> Yeah. Oh my gosh, it drives me nuts. It
+30:18 it truly drives me crazy when you hear
+30:21 people blaming the model when it really
+30:23 is kind of a skills problem. And we see
+30:26 this at
+30:28 you know, when you look at these studies
+30:29 and surveys too about business adoption
+30:32 where it really is
+30:34 these people either have not yet felt
+30:37 the ROI because they can't
+30:39 they don't know enough about how to use
+30:40 it truly.
+30:42 >> Right.
+30:42 >> And
+30:43 also people claiming that they have the
+30:45 skills to, but they're just not doing
+30:47 it. And like the adoption is then
+30:48 another problem. But I mean, obviously
+30:51 I'm not doing
+30:52 heavy heavy coding, building software
+30:54 and and apps. But, you know, we're doing
+30:56 some pretty cool things. And I've seen
+30:57 some people do some really awesome
+30:59 things. And it's just
+31:00 >> Yeah.
+31:00 >> there's a lot of things like, you know,
+31:02 if you kind of think about your your
+31:03 diagram that you had, you got the model
+31:05 in the middle, you got the agent
+31:06 hardness around that, and then obviously
+31:07 a huge layer is what you put in there as
+31:10 well. And the way that you manage your
+31:12 stuff. And I think that the 1 million
+31:14 context window, specifically for, you
+31:16 know, like let's just say Opus 4.8 at
+31:17 the moment, obviously it's great, but it
+31:19 definitely comes with a false sense of
+31:21 security. But people now thinking that
+31:22 they have the million. But
+31:25 when
+31:27 and I know this might be outdated by
+31:29 next month or 2 months away. But let's
+31:30 say you right now when you're in Cloud
+31:31 Code, when do you typically
+31:34 do your compact or a session handoff and
+31:37 clear, and when do you get out of there?
+31:40 >> Yeah, so with Opus right now,
+31:42 it's usually around 250,000 tokens that
+31:45 I feel like it gets into the dumb
+31:47 >> That's my exact number, too.
+31:48 >> Oh, really? Okay, yeah, yeah. Good.
+31:50 Cool. So, and that, by the way, is like
+31:51 really subjective. Like, I'm not going
+31:53 to um
+31:54 bet a million dollars on on like the on
+31:58 Boris Cherny or someone saying like, you
+31:59 know, it's also 250,000 like
+32:01 >> Quarter million is clean, right?
+32:03 >> Yeah, it just it it sounds good. And it
+32:04 is like pretty accurate, I would say.
+32:06 Like, Opus 4.7 was around like 200,000.
+32:10 And then like Sonnet 4.6 is like
+32:13 honestly probably only like 100 125,000.
+32:16 Um like it as you go to these smaller
+32:18 models, like the dumb zone becomes a
+32:20 pretty small amount of context relative
+32:23 to like what it theoretically can
+32:24 handle. You just never want to get to
+32:26 that point.
+32:27 >> So, then with the dumb zone thing, I've
+32:29 also heard stuff about the model being
+32:31 really good at remembering things that
+32:32 are at the front and the very end. And
+32:34 the middle is where it loses. So, where
+32:36 does that play into the whole dumb zone
+32:37 conversation?
+32:39 >> Yeah, so basically that issue is just
+32:41 amplified the more you get into the dumb
+32:43 zone. Yeah, and um yeah, as far as like
+32:46 I mean we don't have to get into like
+32:47 the super technical details for how the
+32:49 attention mechanism works for LLMs,
+32:50 [laughter] but yeah, you could think of
+32:52 it I mean like the analogy I always like
+32:53 to use is the needle in the haystack
+32:54 problem. Yeah. Like if you have that
+32:56 like little piece of information that
+32:58 you want the agent to remember in the
+33:00 middle of a massive conversation, it's
+33:02 like trying to find a needle in the
+33:03 haystack. Like you can't expect the
+33:04 model to just cuz of the way that large
+33:07 language models are engineered,
+33:09 um you can't expect it to like always be
+33:10 able to pick out that little piece of
+33:11 information.
+33:13 >> 100% yeah.
+33:15 >> Yeah, I wish it could. That would be
+33:16 nice. If there wasn't such thing as a
+33:18 dumb zone, it would make it much more
+33:20 convenient for us to hand it massive
+33:22 tasks and let it just rip through
+33:24 things, but a lot of the reason we have
+33:26 to create a harness. And like a lot of
+33:28 the things I'm focusing on right now on
+33:30 my channel and just like generally what
+33:31 I'm building is creating harnesses that
+33:35 build a workflow that combine multiple
+33:37 coding agent sessions together.
+33:40 And so basically it's like one model
+33:42 does the planning and then my
+33:43 orchestrator will like automatically
+33:45 take that handoff document, like the
+33:47 plan, and then feed it into another
+33:49 agent for implementation. And then when
+33:51 the implementation is done, it'll create
+33:53 like an execution report and then it'll
+33:55 hand that off to the next agent to
+33:57 validate things and do a code review.
+33:59 And it might sound like like that's a
+34:01 lot of engineering and it is, but it's
+34:02 very necessary right now because if
+34:04 you're trying to do any kind of like
+34:06 real work for like production grade
+34:08 software or building an automation
+34:09 that's like critical for your business,
+34:11 you can't just throw the whole thing at
+34:13 a single Claude code session unless you
+34:16 can like confidently build it in that um
+34:18 that zone that you have before you get
+34:20 to the dumb zone. And most of the time
+34:21 you just can't do that or at least you
+34:23 can't really trust that's going to be
+34:24 the case cuz you never know how much
+34:25 it's going to have to iterate on
+34:26 something. Mhm. So, that's why I'm
+34:29 really like I guess you could say
+34:30 bullish right now on um harness
+34:33 engineering, which is like building a
+34:35 the workflow that orchestrates many
+34:38 coding agent sessions to handle a larger
+34:40 task. And like a really basic example of
+34:43 that kind of harness is the Ralph loop.
+34:46 It went like super viral the start of
+34:47 this year.
+34:48 So I feel I feel like even if you
+34:50 haven't heard too much about harness
+34:51 engineering, you probably have at least
+34:52 heard of the Ralph loop. And that's like
+34:54 really like the foundation of that kind
+34:56 of harness, right? Like the Ralph loop
+34:58 is stringing together multiple coding
+35:00 agent sessions. I I wish I had one of my
+35:02 diagrams up for this right now. I wish I
+35:04 had to explain it verbally, but like,
+35:06 you know, basically, you have the first
+35:07 Claude code session read in your larger
+35:10 spec for like a bigger automation you
+35:12 want to build.
+35:14 And then it'll define like the the task
+35:17 list. Like first phase is this, second
+35:19 phase is this, and then it'll have many
+35:21 coding agents handle one phase at a
+35:23 time. But it'll like do it all
+35:25 automatically in a loop. That's why it's
+35:26 called a Ralph loop. Cuz like agent one
+35:28 will do phase one, and then it'll write
+35:30 up its little report, like it's handoff
+35:32 to the second agent that'll continue the
+35:33 work. And like the main reason the Ralph
+35:35 loop matters is because you can't have
+35:39 one agent handle that larger task
+35:42 without it getting into the dumb zone
+35:43 and like, you know, halfway through
+35:44 phase two. Right? Like you have to break
+35:46 things up.
+35:47 >> Yeah. So it sounds like from like a
+35:50 a high-level view, the idea or kind of
+35:53 the mindset that
+35:54 you've got like this assembly line, and
+35:56 you have an agent doing something. Each
+35:58 agent kind of does one thing really
+36:00 well, and hands over their input to the
+36:02 next agent in a way where
+36:05 the agent has enough context to
+36:06 understand what has been done and what
+36:08 is left to do, and what its current job
+36:10 is.
+36:11 >> Yeah. Exactly. Yeah, assembly line is a
+36:14 really good analogy.
+36:16 And I mean that that applies to a lot
+36:18 more than than just writing code. Like
+36:22 like one example that comes to mind when
+36:24 I think about like cuz I know that I've
+36:26 been talking about like coding as an
+36:28 example for a lot of things, but
+36:30 um I I work with a lot of companies that
+36:32 are in sort of like the
+36:34 like B2B side of things. And when you're
+36:37 B2B, like you do a lot of um creating
+36:40 quotes, like estimates, right? Like you
+36:42 have um construction company or uh like
+36:46 I've worked with companies in the print
+36:47 industry, where like they'll have like a
+36:49 request for like, "All right, make me
+36:50 like 100,000 flyers or whatever."
+36:52 And like for those companies, one of the
+36:54 biggest opportunities for them to use AI
+36:56 is to use something like Claude to help
+36:59 them take in a request and automatically
+37:02 create an estimate, like a quote for how
+37:05 much that uh job's going to cost.
+37:07 Cuz that's like a really, really
+37:09 laborious job. Like more than you would
+37:11 think. Like when I when I've talked to
+37:12 these companies, like it's crazy how
+37:14 much work goes into that because they
+37:16 have to like take the request and they
+37:18 have to understand like how much labor
+37:19 goes into this, the parts, obviously
+37:21 like depending on the industry. And then
+37:23 they have to do research on like the
+37:24 latest prices for things and making sure
+37:26 they're getting it from the right
+37:26 vendor. Like there is so much that goes
+37:28 into that. And so like that kind of
+37:30 thing
+37:31 uh is it's like a really good example.
+37:33 Like nothing to do with creating code,
+37:34 still using something like Claude code.
+37:37 Cuz you can use coding agents for this
+37:38 to go through that larger workflow of
+37:41 like looking at their inventory, looking
+37:43 at prices, comparing vendors, um all
+37:46 based on what's going to be needed to
+37:47 accomplish that task, like that remodel,
+37:50 that the 100,000 flyers for whatever
+37:52 that request is from the other company,
+37:55 and then creating that estimate. And
+37:57 then understanding how the company
+37:58 works, like what kind of padding they
+37:59 want on top of um based on the uh the
+38:02 labor and the costs of for the parts or
+38:04 whatever. Like there's a lot that goes
+38:06 into that. And so like that's the kind
+38:08 of thing where like you'd build a
+38:09 workflow, where you have one agent
+38:11 that's going to research inventory, one
+38:12 agent that's going to look at uh prices
+38:15 and and compare prices for parts, and
+38:17 then one agent that's going to draft the
+38:19 PDF, and then maybe another one that's
+38:20 going to make it look good. I mean, I'm
+38:22 kind of stretching the example here, but
+38:23 you get the idea of like you actually
+38:25 don't have just one agent handle the
+38:26 entire thing for something that big. And
+38:28 you are going to be doing a lot of
+38:29 planning. Right? Like you're going to
+38:31 plan, you're going to have a validation
+38:33 at the end. So like what kind of
+38:35 calculations can I do at the end to make
+38:36 sure that like this job
+38:38 has the the margin that we want on it
+38:40 for example.
+38:40 >> Yeah.
+38:41 Yeah, and I think
+38:43 I think back to
+38:45 one of our biggest failures back when I
+38:48 was still kind of in the day-to-day of
+38:49 running in the agency was that exact use
+38:52 case. Was having to look through tons
+38:55 and tons of examples, past quotes, past
+38:57 client work, past proposals, and and
+39:00 needing to generate these quotes with so
+39:02 many different factors that go into it.
+39:04 >> Yeah.
+39:04 >> And that was one of our biggest failures
+39:06 because me personally, I underscoped
+39:08 that build. And we went into it not
+39:10 realizing how much actually is necessary
+39:13 to get to an accurate quote. So that was
+39:15 a great lesson for me to learn not only
+39:18 about the importance of asking enough
+39:20 questions and scoping, but just in the
+39:22 way that you
+39:24 split up the work. And I think, you
+39:26 know, obviously Cole mentioned he's he's
+39:27 talked a lot of these examples have been
+39:28 kind of wrong coding, but I don't really
+39:30 do much
+39:32 coding. I mean, at the end of the day
+39:32 these automations are code, so yes, it's
+39:34 coding. But I'm not doing like
+39:37 software. I'm not building products, but
+39:39 every one of these theories that we
+39:41 talked about in these mindsets and
+39:42 frameworks has, you know, up directly
+39:43 applies to the knowledge work is kind of
+39:45 what I like to call it of of what I do
+39:47 on the day-to-day and what probably most
+39:48 of you guys need to do that gives you an
+39:51 insane amount of leverage right away in
+39:53 cloud code. And I think that
+39:55 when you think about your job or you
+39:58 think about some of your
+39:59 responsibilities, it's not just one
+40:01 responsibility. It is
+40:03 you can drill that down into so many
+40:04 little subtasks. Like Cole just said,
+40:06 like one agent does the research, one
+40:08 agent does the PDF generation, all these
+40:10 little
+40:11 strings of subtasks that flow up
+40:13 together to actually make the overall
+40:15 responsibility, which might be
+40:17 10 little tasks that get strung
+40:19 together. So, when you can actually
+40:21 break down a process by just writing it
+40:23 down or or, you know,
+40:25 flowing it out on on a piece of paper,
+40:28 it makes things a lot more clear.
+40:30 >> Right. Yeah.
+40:32 Yeah, and one thing I want to say here
+40:33 is that a lot of people, they want to
+40:35 simplify it down to just using
+40:36 sub-agents. So, they're like, "For this
+40:38 this larger workflow, what if I just
+40:40 have my main Claude code dish out a
+40:43 bunch of tasks to sub-agents?" And like,
+40:45 that can work for some things. I do love
+40:47 using sub-agents, especially when I'm
+40:49 initially planning any kind of
+40:51 automation or or application.
+40:54 >> [clears throat]
+40:54 >> But, it's hard to really make those
+40:56 communicate well with each other. Like,
+40:57 we've talked a lot about handoffs here.
+41:00 A lot of times, one agent, when it's
+41:02 taking that next step in a workflow, it
+41:04 has to understand the work that was done
+41:05 with the by the previous one.
+41:07 Whether that's work, you know, actually
+41:08 writing code, or if it's just doing
+41:10 research, or if it's pulling information
+41:12 from your CRM, for example. Like, it has
+41:14 to have that kind of handoff document,
+41:16 and it's really difficult
+41:18 to
+41:19 um do that well with sub-agents. Claude
+41:21 Claude has tried their hand at doing
+41:24 something with agent teams. So, they
+41:26 they That's kind of like the step above
+41:27 sub-agents, where they can really
+41:28 communicate with each other. But, uh
+41:31 that is like really unrefined. It's a
+41:32 really good idea, but it's really
+41:33 unrefined, and it's very expensive, like
+41:35 token-heavy.
+41:36 >> Yeah.
+41:36 >> And so, yeah, like I mean, that's
+41:38 actually what I'm working on. So,
+41:39 there's a open-source project that I'm
+41:41 working on called Arkon, and that's
+41:43 really the problem it's solving. It's
+41:44 how can you be more like The word I use
+41:46 is deterministic. Like, how can we build
+41:49 the AI model, like build Claude code
+41:52 into a system, instead of having Claude
+41:54 code trying to orchestrate everything?
+41:56 Cuz that's when it becomes difficult for
+41:57 communication, and everything becomes
+42:00 very token-heavy. Right? So, like the
+42:02 way that I like to put it is we want to
+42:05 um pick when the AI model works in a
+42:08 workflow, instead of having it drive the
+42:10 whole thing.
+42:11 >> Mhm.
+42:12 Yeah.
+42:13 Yeah. How do you make
+42:15 such an autonomous non-deterministic
+42:17 system as deterministic as possible?
+42:19 >> Pretty much. Yep. Yep. As deterministic
+42:21 as possible. I wish I could say make it
+42:23 deterministic.
+42:24 >> [laughter]
+42:24 >> That's never going to happen.
+42:25 Unfortunately, that is fundamentally
+42:26 impossible.
+42:28 >> Yeah. I love it. Yeah, completely agree
+42:29 with you there.
+42:31 >> Cool. Yeah.
+42:32 Um so, I mean really we we've talked
+42:34 about most of the other things I have in
+42:36 the diagram here. Like we've talked
+42:37 about verification, making sure that
+42:40 it's able to check its own work.
+42:42 And um yeah, I mean like the the main
+42:45 thing here is we don't really care about
+42:47 what it does it's for on its first pass.
+42:49 If we build a system where it's able to
+42:50 iterate, that's all we really care
+42:52 about. As long as it doesn't take
+42:53 billions of tokens to get to that final
+42:55 stage.
+42:56 But like when I'm whenever I'm using
+42:59 Claude code for something,
+43:01 I'm never optimizing for speed.
+43:03 I mean at least like I don't want it to
+43:04 be unrealistically slow, but any kind of
+43:07 task I have for it, I don't really care
+43:09 if it's something that I have to
+43:11 have it work through for a half hour or
+43:12 an hour and a half. Like I'll send off
+43:14 that request and it'll just go to
+43:16 another Claude code session for whatever
+43:17 else I have to work on. Or I'll do
+43:19 something, believe it or not, without an
+43:21 agent for a little bit. Like if I have
+43:22 to
+43:23 record a video.
+43:25 Um well, I mean maybe I'm using an agent
+43:26 in the video, but you get the point. But
+43:28 anyway, like the the point is that I
+43:30 don't really care how long it takes
+43:31 because I just care getting the best
+43:33 results possible.
+43:34 >> Mhm.
+43:35 >> Um and so, yeah, that's why like I I
+43:37 spend a lot of time engineering systems
+43:39 for
+43:41 coding agents to check their own work,
+43:42 whether it's browser automation for a
+43:44 website or the silly example I gave
+43:46 earlier, like a way for it to sort of
+43:47 like play a video game as a human would.
+43:49 And that's like a really fascinating
+43:51 problem for me to solve right now. It's
+43:52 just like that verification layer at the
+43:54 end for a coding agent, which um also
+43:56 extends the things like security as
+43:59 well. And so, like that's not something
+44:00 as interesting to talk about right now,
+44:02 but like security is pretty important to
+44:03 me. It's something that um Vine coders
+44:05 get very burned for. If you hear those
+44:07 horror stories like at least once a
+44:08 month
+44:09 of you know, like their super bass
+44:12 private or secret key getting leaked in
+44:14 their
+44:15 JavaScript files and things like that
+44:17 because they're just completely vibe
+44:18 coding. Like I mean that's like the
+44:19 simplest example, but yeah, like that
+44:21 kind of part of verification is really
+44:23 important as well.
+44:25 >> Yeah, and
+44:27 on that whole element of security and
+44:30 what could go wrong,
+44:32 when you think about sort of like the
+44:33 permission layer that you're putting
+44:34 around your agents, I see a lot of
+44:38 false sense of security once again where
+44:40 people
+44:41 think that their prompts
+44:44 are a good enough permission layer.
+44:46 When really that permission layer needs
+44:47 to be
+44:48 scoped keys or you actually can't touch
+44:50 this at all because I think I was
+44:53 talking to my team and we kind of got to
+44:55 this conclusion of if you have the
+44:56 mindset that
+44:58 anything that the agent can read or can
+45:01 touch, it will. Like you have to assume
+45:03 that it will even if you never ask it
+45:05 to, that assumption is what's going to
+45:06 save you from having your database
+45:08 deleted.
+45:09 >> Yes.
+45:11 >> [laughter]
+45:11 >> And that's funny you bring up that
+45:12 example specifically cuz I was just
+45:14 about to say like if you tell it never
+45:16 to to wipe a database, it's still going
+45:18 to do that.
+45:19 Like there was a a story that went viral
+45:22 like a month or two ago was someone like
+45:24 really high up at meta that had their
+45:26 database wiped. I'm still not convinced
+45:28 that's real. I feel like they might have
+45:29 just been
+45:30 I don't know cuz people get so much
+45:31 attention when they have stupid stories
+45:33 like that. But but anyway
+45:34 >> Conspiracy theories with Cole.
+45:35 >> [laughter]
+45:36 >> Right. Yeah,
+45:36 right. Yeah, but like it is it is
+45:39 definitely possible and I do know some
+45:40 stories of that actually happening just
+45:42 to a smaller extent. It just feels so
+45:44 weird that or it sounds so stupid that
+45:46 it's like their actual production
+45:47 database was wiped, but I mean even if
+45:49 you have a test database wiped, it can
+45:50 still be a bummer if that slows you down
+45:52 a lot. And so so yeah, it is super
+45:54 important. You never want to assume that
+45:56 just because you tell an agent to not do
+45:59 something, it never will.
+46:00 I mean it's the same thing like if you
+46:02 tell a kid
+46:03 to not do something, they just might not
+46:05 listen. I mean, even even adults.
+46:07 >> There actually recently something did
+46:09 happen to us, which is kind of why we
+46:10 started talking about this.
+46:12 >> Okay.
+46:12 >> We had this this incident where the
+46:15 agent had the right intentions. It was
+46:16 trying to be proactive, and it actually
+46:18 saw something on its task list, but it
+46:21 misinterpreted it. And it ended up
+46:23 sending an email to our entire list
+46:25 with a discount code, and it was like
+46:27 not supposed to go out. So, we had to
+46:30 like change the code, update the page.
+46:33 We emailed out an apology. So, if you
+46:34 guys are on the email list, and you got
+46:36 that, that's what happened. But it's
+46:38 just like, you know, I wasn't mad at the
+46:40 person who was kind of responsible for
+46:41 the agent. It was just a really good
+46:42 opportunity for us to think about, okay,
+46:43 why did this happen? And, you know, she
+46:46 wrote up a case study. We sent it to the
+46:47 whole team, and everyone was like, okay,
+46:49 that's a really really good reminder of
+46:51 how careful you have to be. Because, you
+46:53 know, if you connect to an MCP server,
+46:54 and you don't limit the permissions, it
+46:56 has everything, you know?
+46:57 >> Yeah.
+46:58 Yep. No, that's good. Yeah, the the main
+47:00 way that I restrict actions from my
+47:03 coding agent is with hooks.
+47:05 So, like Cloud Code hooks is a really
+47:06 good way cuz um basically a hook in
+47:09 Cloud Code
+47:11 is a little piece of code that you can
+47:12 run whenever a certain event happens in
+47:15 the tool.
+47:16 So, whenever you start a session,
+47:18 whenever you end a session, right before
+47:20 Cloud Code uses a tool, you can run some
+47:23 kind of code that does a security check.
+47:26 I mean, there's a lot of other things,
+47:27 but like I love using hooks for
+47:28 security. And so, what you can do in
+47:29 Cloud is every time it's about to invoke
+47:32 a tool, like it wants to write out to a
+47:34 file, or make some requests to the web,
+47:37 you can uh check against that command to
+47:40 make sure it's not trying to mess with a
+47:42 folder you don't want it to touch, or
+47:44 run some kind of command you don't want
+47:45 it to run. And there's a lot of
+47:46 different ways you can check for that
+47:48 that we don't have to get into right
+47:49 now. Um but that's like one of my
+47:51 favorite ways to make sure it's like not
+47:52 reading my environment variables, or
+47:54 it's not running a a delete command for
+47:57 a database.
+47:58 Um and it it it's really hard to make
+48:00 sure you're you're covering all the
+48:02 loopholes cuz there's a lot of things
+48:04 that coding agents can do
+48:06 >> Yeah.
+48:07 >> to get around those kind of checks as
+48:08 well. A lot of people have false false
+48:10 sense of security around that as well.
+48:12 So you kind of have that like first
+48:14 false sense of security where it's like,
+48:15 "Well, I told it to never delete my
+48:16 database." And then you have the second
+48:18 level where it's like, "I block all
+48:20 delete SQL statements." But then there's
+48:22 that third level that you have to like
+48:23 make sure you're engineering for.
+48:25 Um like for example, a coding agent if
+48:27 you if you don't allow it to call the
+48:31 like delete like remove command to
+48:33 delete a folder, it can still write a
+48:35 script to do that. So it just has to do
+48:37 two steps like write the script and then
+48:39 run the script and then it's still able
+48:40 to remove a file or folder on your
+48:42 computer. So it's I mean they're less
+48:44 likely to do that so it's still like
+48:46 you're getting there if you are at least
+48:49 have like that that second false sense
+48:51 of security but like you got to be
+48:52 really safe and you got to like it's
+48:53 it's actually a tough problem to solve.
+48:55 >> Yeah, I mean AGI is it's it's scary.
+48:58 >> [laughter]
+48:58 >> Yeah.
+48:59 >> But I would love to see and maybe you've
+49:01 already got one out but I would love to
+49:02 see a a Cole Hooks masterclass because I
+49:05 actually just recorded one and I don't
+49:08 use hooks that much to be honest. Like I
+49:10 really don't. I think my my main hook
+49:12 that I have is just to give me a noise
+49:14 notification when it's done or when it
+49:15 needs me. But yeah, like I have under
+49:18 utilized hooks for sure and I'm not sure
+49:20 if that's because
+49:22 they're mainly valuable when you're
+49:23 doing heavy coding but
+49:26 I would assume that there's a lot of
+49:27 things that I could be doing in my
+49:28 day-to-day where hooks would be really
+49:30 good and I need to definitely look into
+49:33 a little bit more how I can be utilizing
+49:34 them but anyways.
+49:37 >> Yeah.
+49:37 Yeah, I I definitely should do a
+49:39 masterclass on hooks cuz there's a lot
+49:41 of ways that I use them. Um yeah, since
+49:44 we're on the topic like one of the
+49:45 really interesting way to use hooks is
+49:47 you can use them to automatically
+49:50 suggest like you can have Claude code
+49:52 like automatically suggest ways to
+49:55 improve your AI layer. Like make your
+49:57 rules better, make your skills better.
+50:00 And a lot a lot of tools like Hermes and
+50:02 Open Claude, they kind of do this. I
+50:04 don't think they like explicitly use
+50:06 hooks, but like Open Claude for example,
+50:08 every like 10 20 turns, I think it's
+50:10 configurable, it will like kind of
+50:12 compact your conversation and store it
+50:15 as a memory, right? So that you have
+50:16 [clears throat] like the whole like
+50:18 daily log thing with the uh memory.md
+50:21 file. Like all that comes from what's
+50:22 essentially a Claude code hook. Like so
+50:24 with the way I use Claude code with my
+50:26 second brain
+50:27 is uh every time I have a memory
+50:29 compaction, which I try to avoid those.
+50:31 I don't want to get that far in a
+50:32 conversation, um or I end a session, it
+50:35 automatically creates a summary of the
+50:37 conversation, puts that in a daily log,
+50:39 and then I have a process every day.
+50:41 It's basically like Claude code
+50:42 dreaming, where it's going to look at
+50:44 the daily log and then extract any like
+50:46 really important things to store and
+50:47 sort of like promote to my primary
+50:49 memory file. Like here are the decisions
+50:52 that I've made recently or like things
+50:53 that I'm actively working on and where
+50:55 I'm at them. So like hook hooks actually
+50:57 drives the whole thing. Like this
+50:58 terminal that that this like the second
+51:00 time it's popped up,
+51:01 um that's actually a hook that just
+51:03 fired there. So I'm just like testing
+51:05 some other things. I forgot to turn it
+51:07 off, which is unfortunate, but actually
+51:08 now it made for a good illustration cuz
+51:10 I had I had a hook run as I'm talking
+51:12 about it. So I'm just testing something
+51:14 else right now.
+51:14 >> Yeah, just just yet another way to make
+51:17 these non-deterministic things as
+51:19 deterministic as possible.
+51:20 So what do we have next after this
+51:23 verify the work section?
+51:24 >> Yeah. So really this is the last thing
+51:26 cuz we've already talked about the the
+51:28 harness, but the the last and honestly
+51:31 probably the most important thing is the
+51:32 system evolution that I talked about
+51:34 just a little bit earlier. And and
+51:36 really the the mindset here
+51:39 is what
+51:40 Like I this is I out of everything that
+51:42 makes it so you're really directing
+51:43 Claude code instead of just being a user
+51:45 of it, the building the system is the
+51:47 most important thing. So, anytime
+51:49 there's an issue that comes up,
+51:51 instead of just fixing the issue and
+51:53 moving on, it's an opportunity for you
+51:55 to, with the help of the coding agent,
+51:57 with the help of Claude Code, figuring
+51:59 out like what could we make better so
+52:00 that this doesn't happen again. Like
+52:02 maybe there's a new rule that we can add
+52:04 in our claw.md or there's a new document
+52:06 that we can
+52:07 give it when we're in our planning
+52:09 process, or there's maybe an update to
+52:12 our skill that we can make. And I'm
+52:14 being kind of general on purpose here
+52:15 because there's a million different ways
+52:16 that we can improve our system. And so,
+52:19 this is kind of like the example that
+52:20 you gave, Nate, where you had that email
+52:22 go out, or at least it went out to way
+52:24 more people than it should have. And so,
+52:26 you wrote up that report of like, here's
+52:28 what happened, here's what we can do
+52:29 better. And so, it's kind of doing that,
+52:31 but like for the agent, so that going
+52:34 forward, it has that rule so it it
+52:36 doesn't do that thing anymore. Like
+52:37 maybe it didn't run all the validation
+52:40 you wanted it to. So, now you just like
+52:41 make sure that like that's a part of the
+52:42 rule where it's like, this you make sure
+52:44 you don't forget this validation, kind
+52:46 of as a silly example.
+52:48 But, that way every bug becomes a
+52:50 permanent upgrade. So, once you have
+52:52 this kind of system in place, you
+52:53 actually almost welcome bugs. Like I
+52:55 want something to go wrong because then
+52:57 I can make sure it never happens again.
+52:59 Right? Like I almost have I almost feel
+53:01 kind of nervous when everything is going
+53:02 too well cuz then it's like, oh shoot, I
+53:03 have no way to like make my agent better
+53:05 right now. So, it's it can kind of
+53:06 become nice.
+53:07 >> Yeah, absolutely.
+53:09 >> Yeah, so it can get better over time.
+53:10 >> I've got an interesting question for
+53:11 you. So, I completely agree. Every
+53:13 single time that you have a failure, you
+53:15 should look at that as data and an
+53:16 opportunity to improve the system.
+53:19 Now, what what about before you get
+53:21 those failures? How do you think about,
+53:24 to your best to the best of your
+53:25 ability,
+53:27 finding those edge cases or predicting
+53:29 what edge cases might happen and trying
+53:31 to build in guardrails before
+53:33 the whole testing part?
+53:35 >> Well, it can never be perfect, which is
+53:37 why I lean on this so much, but
+53:39 generally, when you're looking out for
+53:40 edge cases,
+53:42 Um I mean, Cloud Code is actually pretty
+53:45 good at it. It's not going to cover like
+53:47 nearly all the edge cases, but even just
+53:48 asking it like, "How could this go
+53:50 wrong?" is a question that sometimes
+53:51 people are are honestly like nervous to
+53:53 even ask. But, it's a a really good
+53:55 question. Once you're done with the
+53:57 implementation, and like this is a part
+53:59 of like my code review skill that I have
+54:01 built in where it's like, "Ask yourself,
+54:03 what could go wrong here?" And then try
+54:06 to engineer a scenario where you're
+54:07 really testing that. Like, if I'm
+54:09 building an automation where I think
+54:11 there might be an edge case where it
+54:12 doesn't handle this kind of input
+54:13 correctly, I'm going to as a part of my
+54:15 agent's code review have it like create
+54:18 that like it'll invoke the application
+54:20 with that input, like a webhook or
+54:22 whatever, and try to break it and see
+54:24 what happens. And if it does break, then
+54:26 I mean, that's obviously going to be
+54:28 like going back here a part of our
+54:29 verification where um it'll then uh
+54:34 address that thing and then do the test
+54:36 again, right? Like, iterate. Like, you
+54:37 find a problem, fix it, and then also
+54:38 retest, right? Don't forget the retest
+54:41 cuz maybe your fix didn't actually
+54:42 address the problem.
+54:43 >> Mhm. Yeah. Well, I think, you know,
+54:45 something that I've realized after
+54:48 responding to YouTube comments,
+54:50 Q&As in the community, chatting to you,
+54:52 and and just seeing what's going on when
+54:54 people are learning these kinds of tools
+54:55 is that
+54:56 you really at you know, at the simplest
+54:59 way to describe it, you just have to
+55:00 treat it like
+55:02 your best friend who is
+55:04 the smartest person in the world.
+55:05 Meaning, you know, treat it like a
+55:07 mentor. It's not going to laugh at you
+55:09 if you ask it something stupid.
+55:11 >> Yeah.
+55:11 >> need to be curious and you need to ask
+55:13 ask the questions that you are wondering
+55:15 in your head. And I think when you kind
+55:16 of get over that that idea that it can
+55:18 teach you anything, and it can for the
+55:19 most part, especially if you ask it
+55:21 right, it can help you figure out the
+55:23 majority of your problems when you have,
+55:26 you know, that that sort of
+55:27 uneasiness because maybe you don't
+55:29 understand what it did. So, that's like
+55:31 a huge mindset shift for
+55:33 anyone I've talked to that is like
+55:34 trying to get into it and doesn't
+55:36 understand it. If they, you know, maybe
+55:38 they text me a question or they drop a
+55:39 question,
+55:40 it's just like the response can a lot of
+55:41 times be
+55:43 "Have you asked Claude code that?"
+55:44 >> [laughter]
+55:44 >> I know. Yeah, I feel bad saying that,
+55:46 but like yeah, it comes it comes to that
+55:48 a lot.
+55:49 Um yeah, where it's like now you should
+55:51 have just I mean you usually how I can
+55:53 be more helpful is like telling them
+55:54 what to ask exactly. Like give it give
+55:56 [clears throat] it this link, give it
+55:57 that thing, and then here's how I'd ask
+55:59 it. But yeah, a lot of times it does
+56:00 come down to that. And I mean you can't
+56:03 you can't just ask Claude for everything
+56:06 cuz of like the sycophancy you mentioned
+56:07 earlier. Sometimes if you're asking it
+56:09 for its opinion, like asking a large
+56:12 English model for its opinion is a
+56:13 really slippery slope.
+56:15 >> Yeah.
+56:15 >> But but what you can [laughter] what you
+56:17 can ask it for is to like understand how
+56:20 something works. Like that's when it can
+56:22 do a really good job. So like going back
+56:23 to the example earlier, if you're not
+56:24 technical, but you want to try to
+56:26 actually be able to understand the
+56:28 automations and things that it's
+56:29 building for you, like that's a really
+56:31 good thing to ask it cuz it's not going
+56:33 to like there's no sycophancy there,
+56:34 right? It's not just trying to appease
+56:36 you. It's it's just helping you
+56:37 understand. The way to appease you is to
+56:39 explain the thing, right?
+56:41 >> Yeah.
+56:41 >> So like that that's a really good case,
+56:43 just trying to understand anything.
+56:45 And then like what we were talking about
+56:46 just here with verification, like trying
+56:47 to find edge cases, if there's anything
+56:49 where there's like actual empirical
+56:51 data, like there is a way to verify that
+56:52 like this this automation doesn't handle
+56:55 this input well. I mean there's no room
+56:57 for sycophancy there. It's like it it
+56:58 either works or it doesn't, and there's
+57:00 not really like any kind of gray area or
+57:02 opinion.
+57:03 >> Right.
+57:03 >> So if you think there might be an edge
+57:04 case, or it thinks there might be, it
+57:06 can test it, and then it's it's black or
+57:08 white.
+57:09 >> Right.
+57:10 So I want to hear what you think about
+57:13 this because
+57:15 you briefly mentioned the agent teams
+57:16 earlier, and
+57:17 >> Yeah.
+57:18 >> I actually find myself using them quite
+57:20 a bit for mainly one specific use case,
+57:22 and I want to hear what you think about
+57:24 it. So
+57:25 really the time when I reach for agent
+57:27 teams is when
+57:29 I am trying to help, you know, I'm
+57:31 trying to decide something, but I don't
+57:33 want to just ask for
+57:34 Claude code's opinion, like you just
+57:35 said.
+57:36 >> Yeah.
+57:36 >> And so what I'll do a lot is I'll spin
+57:38 up like a debate panel or like a war
+57:40 room.
+57:41 >> Nice.
+57:41 >> And I will say, you know, like one of
+57:43 you guys is a CEO, one is a beginner,
+57:45 one is a college student, and just like
+57:46 a bunch of different personas, sometimes
+57:48 even like seven.
+57:49 And I will just have them all do
+57:50 independent research, form their own
+57:52 opinions, and then I'll have them
+57:53 debate.
+57:54 And then I'll just be able to read the
+57:55 debate, and I'll be able to
+57:57 sometimes I'll say like keep debating
+57:59 until you all come to some sort of
+58:01 consensus.
+58:02 >> Nice.
+58:02 >> do that quite a bit, and that doesn't
+58:03 mean whatever the agent team spits out I
+58:06 do,
+58:07 but sometimes it's just really great for
+58:08 me to read through all those opinions.
+58:10 But I want to see do you
+58:12 do you like that? Do you think that's a
+58:13 major flaw? Like what what thoughts do
+58:14 you have about that?
+58:16 >> I do actually like that. Uh I've I've
+58:18 never done that before.
+58:19 >> done that. You should definitely try it.
+58:20 >> I No, I yeah, I feel like tonight I
+58:21 literally got to try that. That's really
+58:23 cool.
+58:23 >> Yeah, I like that idea a lot. Cuz so
+58:25 something that I have done
+58:26 experimentation with that's sort of
+58:28 similar, I call it adversarial
+58:30 development. Where basically after a
+58:33 Claude code finishes building something,
+58:36 I'll have a separate Claude code session
+58:38 um where I prompt it specifically to
+58:40 play the devil's advocate. Like I want
+58:42 you to be mean to the other Claude code
+58:44 session to like really make sure that
+58:46 it's not just being happy-go-lucky when
+58:48 there are actually some some problems
+58:50 that need to be surfaced. And like that
+58:52 works really well. So just generally
+58:54 like pitting large language models
+58:55 against each other
+58:56 >> Mhm.
+58:57 >> is a good idea. Um I wish I had tried
+58:59 that before. So yeah, I'll I'll give
+59:01 that a shot. I think that that's that's
+59:02 a really good use for agent teams. Cuz
+59:04 at that point at at that point it's like
+59:06 you're not relying on it getting the
+59:08 perfect answer.
+59:09 Like it it's very token heavy, and the
+59:12 communications aren't really perfect, so
+59:13 that's why I don't really recommend
+59:14 agent teams when you're trying to do
+59:15 like deep development or like building
+59:17 any kinds of like complex automations.
+59:19 But when it's more like research and
+59:20 just like forming a consensus, I I think
+59:23 that it does really it would do really
+59:24 well for that. I'll try it out.
+59:26 >> Cool. Yeah, let me know if you try it
+59:28 out and what you think, but I've never
+59:29 >> Yeah.
+59:30 >> really talked about that or made a video
+59:31 because I know people would go do it and
+59:33 then be like, "You just killed my 5-hour
+59:35 limit."
+59:35 >> [laughter]
+59:36 >> Right. Yeah.
+59:37 >> Fortunately.
+59:38 >> So, um
+59:38 >> How much of your limit does it use when
+59:40 you typically do it?
+59:42 >> on the 200 buck
+59:43 200 bucks a month plan, anywhere from,
+59:46 you know, 4% to to 10 sometimes, like,
+59:48 you know,
+59:48 >> It's not too bad.
+59:49 >> It's not too bad, but, you know, if if
+59:51 you if you say something like a
+59:53 "Don't stop until everyone agrees" and
+59:54 they just keep going, then it you could
+59:56 you could run into some some trouble,
+59:58 but
+59:59 to close this off here, I have to ask,
+60:02 I just did a video about my favorite
+60:05 features in Cloud Code, and I prefaced
+60:07 that whole video and basically said,
+60:09 "This is not a list of the best features
+60:11 or, you know, the most used or the the
+60:13 most useful. These are basically the way
+60:16 that I use Cloud Code on my day-to-day,
+60:18 the ones that I like the most." And I I
+60:19 had like a a numbered list of 12 at the
+60:21 top. But, I would love to hear from you
+60:23 to put you on the spot. If you had like
+60:24 a top three based on cuz I I'm assuming
+60:27 we use Cloud Code very differently. What
+60:28 would you say are like your top three
+60:30 favorites?
+60:31 >> Hm.
+60:32 Yeah, so, uh hooks is definitely Maybe
+60:35 not like my favorite favorite, but
+60:37 probably the one that like most people
+60:38 wouldn't put in their top three. And
+60:40 that's because of what I've been doing
+60:41 with it for security and then the whole
+60:44 um integration with the second brain.
+60:45 So, it's able to basically like extract
+60:47 summaries and like remember things over
+60:49 time.
+60:49 >> definitely need a hooks cool video.
+60:51 >> Yeah, I honestly, I should just do that
+60:53 next week.
+60:53 >> Yeah, we definitely need it.
+60:54 >> Yeah. Okay. Yeah, thanks, Nate. Yeah,
+60:57 so, yeah, hooks hooks is definitely
+60:58 number one.
+60:59 >> Okay.
+60:59 >> And then, uh here, I'll cuz I I
+61:01 mentioned some of the things here. Like,
+61:03 I mean, really, when I
+61:04 there's kind of two different sorts of
+61:06 Cloud Code features. You have like the
+61:07 components of the AI layer, like rule
+61:09 skills, hooks, and then you just have
+61:10 like general capabilities of the
+61:13 harness, like, um
+61:15 agent teams and slash by the way and and
+61:18 um dispatch or like dynamic workflows,
+61:20 things like that, right? So, either like
+61:22 it's something that you use or it's
+61:23 something that you build on top of.
+61:26 Um sub-agents would be probably like
+61:28 number two.
+61:30 Um just because like I said, there's
+61:32 dangers to using sub-agents.
+61:34 But just using them to like sprawl out
+61:36 and research a ton of different things,
+61:38 I use it for that all of the time. And
+61:40 especially when I'm working on more
+61:41 complex code bases or building out
+61:43 larger automations, I'm using sub-agents
+61:46 to basically like extract context from
+61:49 certain parts of my system. Right? Like
+61:52 you're responsible for getting a
+61:53 grounding here of like how we're going
+61:54 to have to mess with the front end in
+61:55 this application, how we're going to
+61:56 have to mess with the back end.
+61:58 Um and then
+62:00 I honestly probably like my number of
+62:02 one. So I guess like hooks would be two
+62:04 and sub-agents would be three. Probably
+62:06 my my number one is skills, even though
+62:08 it's like super super cliche.
+62:10 >> That was my pick.
+62:11 >> it Yeah, it's got to be skills. Yeah.
+62:13 >> Yeah, like skills skills dictate
+62:15 everything. Skill I have a skill for
+62:17 making this diagram. I have a skill for
+62:19 scripting my YouTube videos. I have a
+62:20 skill for building PowerPoints. I have a
+62:23 skill for
+62:24 um I mean if you could literally name
+62:26 anything.
+62:27 >> Yeah.
+62:28 >> Yeah, it's just any kind of reusable
+62:30 prompt, you just make it as a skill.
+62:32 >> Mhm.
+62:33 >> And Claude Code has done a really good
+62:34 job continuing to evolve just like the
+62:35 way you can parameterize things. Like
+62:37 they have like um path scope skills now
+62:40 and you can like set if this one is to
+62:41 be invoked only by you or if the agent
+62:43 can decide to do it as well.
+62:45 Um and then like talking about like
+62:47 verification
+62:49 like getting back to here, like having
+62:51 that browser automation skill so it
+62:52 knows how to use a CLI. Um like that's a
+62:55 whole 'nother thing is like that the
+62:56 skill plus CLI combination is just
+62:58 really really powerful. Cuz basically
+63:00 any platform or tool you want your
+63:02 coding agent to be able to use, it's
+63:04 either going to be an MCP server and
+63:06 like those are still good, but honestly
+63:08 I would have think is even better, like
+63:10 more token efficient, is having a CLI so
+63:12 it has access to your CRM or GitHub or
+63:15 whatever through the CLI. And then the
+63:17 skill it tells it how to use that CLI
+63:20 and then more it more specifically like
+63:22 how you want it to use that like what
+63:24 how did you want to this CLI to be
+63:26 integrated in your workflow. So like
+63:28 that combination I'm leaning on that for
+63:29 everything. It's like my Archon tool I
+63:32 was talking about earlier like it is a
+63:33 CLI that has a skill that comes with it.
+63:36 So like if you want those more
+63:37 deterministic workflows where you get to
+63:40 pick like when do we have the LLM when
+63:41 are we just running code then like you
+63:44 build that as a workflow and then now
+63:45 Archon with its skill and its CLI
+63:48 becomes a tool that my second brain can
+63:50 call upon whenever it wants to dispatch
+63:51 one of those workflows to go handle a
+63:53 GitHub issue or run this automation
+63:55 whatever it is.
+63:56 >> Very cool. I love it. Yeah, I love the
+63:58 list. My top three
+64:01 were skills as number one.
+64:03 >> Okay.
+64:03 >> Number two I had status line.
+64:05 >> [laughter]
+64:06 >> Oh, nice.
+64:07 I respect that.
+64:08 >> of life thing, you know, just seeing the
+64:09 model, the effort, the window. I love
+64:12 that. And then my number three was
+64:14 routines.
+64:15 I love the
+64:16 the cloud routines. I I just think it's
+64:18 so cool that you know, I know I know
+64:20 we've got the SDK and whatnot, but it's
+64:21 just nice to be able to schedule
+64:22 something that is just my cloud code
+64:24 going and yeah, I think those are my top
+64:27 three and I'm sure they'll they'll move
+64:28 around, but yeah, I appreciate you
+64:29 sharing yours. It was interesting to
+64:30 hear. I'm glad that hooks made the list.
+64:32 So I'll definitely be keeping my eye out
+64:34 for that video though.
+64:34 >> Sounds good. Yeah, all right. What do
+64:36 you use routines for?
+64:38 >> Um well, I've got one going now that is
+64:40 a a trading bot. I had that originally
+64:42 going with an open claw agent, but I
+64:44 switched it over to routines just to see
+64:45 how how it would do there.
+64:48 But then other things just like it's
+64:50 actually doing worse there.
+64:52 Yeah, it's doing worse there right now,
+64:53 but I don't know if it's I mean the
+64:54 market and everything as well, but
+64:56 I think open claw had
+64:59 just out of the box it had better
+65:02 memory capabilities for that sort of
+65:03 thing. So
+65:04 >> Yeah, makes sense.
+65:05 >> Um but then
+65:08 you know, just your other standard stuff
+65:09 like checking in on the team and giving
+65:11 me updates throughout the week and um
+65:13 end of week reports. Just very, very
+65:15 simple things, but nice to throw the
+65:17 routines in there. So,
+65:18 >> [snorts]
+65:19 >> yeah, I really appreciate you walking us
+65:21 through all this stuff today. Is there
+65:23 anything else that you want to leave
+65:25 everyone with?
+65:27 >> Uh that's a good question. Yeah, I I
+65:29 would I would say that no matter how
+65:31 technical you are, really what it comes
+65:32 down to is you can think of yourself
+65:34 like the product manager for Claude
+65:36 Code.
+65:37 So, you don't necessarily have to
+65:39 describe how to build something, but
+65:41 it's important for you to shape the
+65:42 vision, right? Like what are we going to
+65:44 build? And then uh a lot of people are
+65:47 calling this intent engineering now. I
+65:48 mean, it's kind of another buzzword.
+65:49 It's basically like you want to you want
+65:51 to give like the why. Like Claude Code,
+65:53 this is why we're building this thing
+65:54 cuz that really actually ends up shaping
+65:56 the how quite well. So, if like that's a
+65:57 big part of your planning process,
+65:59 that's going to take you far. And like
+66:01 it it it seems kind of silly cuz you
+66:03 really start to get into the sort of
+66:04 like the personification of Claude Code
+66:07 when you're you're telling it why you're
+66:09 doing things, but like it actually makes
+66:10 a difference. You kind of have to like
+66:11 get over yourself and be like it's kind
+66:14 of cringe to treat it like a person, but
+66:16 like that actually is how you get the
+66:17 best results. So, just just do it. It
+66:19 actually helps a lot and make good plans
+66:21 and good specs going into whatever
+66:23 you're building with Claude or
+66:24 automating.
+66:25 >> Great tip. Great tip. I actually did
+66:27 just yesterday read in the Claude docs
+66:30 on how to prompt 4.8 that it said that.
+66:32 It said to give it the context for why
+66:34 you're doing something and it will
+66:36 probably do a better job. So, that's
+66:38 awesome. Cole, where can people find you
+66:40 if they want to watch more of your stuff
+66:42 or get in touch?
+66:44 >> Yeah, so YouTube channel is the main
+66:46 place for me to put all my content. So,
+66:48 you can just search my name, Cole Medin.
+66:50 Uh it is not spelled as you think. It's
+66:52 m e d i n. Sounds like Medin. Everyone
+66:55 says it wrong. Um but yeah, that's
+66:57 that's my YouTube channel and then uh
+66:58 also doing a lot of posting on LinkedIn
+67:00 as well.
+67:01 Same name, obviously.
+67:03 >> There we go. Yeah, I think for the first
+67:05 multiple months I knew you, I thought it
+67:06 was Cole Medin and I was saying I was
+67:08 saying Medin all the time.
+67:09 >> Nice. Yeah.
+67:10 >> Good to know everyone cleared up it's
+67:11 Cole Medin.
+67:13 >> That's right. Yeah, it's a Swedish last
+67:14 name. And yeah, Nate, there's there's
+67:16 people that said it way worse than you.
+67:17 Like someone called me Melden
+67:20 live on stage at a chess tournament in
+67:22 high school. Like it's it's been worse.
+67:24 >> Oh man, yeah. I don't know a lot of
+67:25 people have hallucinated the L in there.
+67:27 I've noticed that. I'm not sure why.
+67:29 >> Yeah. Yeah, I've had a lot of people
+67:31 spell it to me as Melden. Or Medlin.
+67:33 >> Oh, wow. Okay, cuz I that's actually a
+67:35 one-time thing for me. That's
+67:36 surprising.
+67:36 >> No, I've gotten that a lot for some
+67:37 reason, but
+67:38 Anyways, yeah, thank you so much for
+67:40 hopping on, Cole.
+67:42 I was here to
+67:44 not only chat with you, but I also
+67:46 learned a lot as well. So, thank you so
+67:48 much as always. It's a pleasure to get
+67:49 to speak with you, and hopefully we can
+67:51 do it again soon.
+67:52 >> Yeah, sounds good. I appreciate it.
+67:54 Thank you as well, Nate. This was
+67:55 awesome.
+67:55 >> Absolutely.
+67:56 >> chatting with you.
+67:57 >> Awesome, there we go. All right, take it
+67:59 easy, Cole.
+68:00 >> Have a good one.
+68:00 >> Thanks so much for watching today's
+68:02 episode. I hope that you guys enjoyed.
+68:03 Don't forget that I broke all of this
+68:05 down into a free resource guide that you
+68:06 can access for completely free using the
+68:08 link in the description to join our free
+68:09 school community. I'll see you guys in
+68:10 there. Thanks so much.

@@ -12,9 +12,9 @@ const orderMessage = read('src/lib/orderMessage.ts');
 
 const requiredMenuSnippets = [
   'priceNote?: string',
-  "priceNote: 'Legacy checkout evidence: Turkey Jollof without extra hot stew was 2,500 Ft.'",
-  "priceNote: 'Legacy checkout evidence: Turkey Jollof with extra hot stew was 4,000 Ft.'",
-  "priceNote: 'Included in the 5,000 Ft soup price in legacy checkout.'",
+  "priceNote: 'Base rice plate: 2,500 Ft.'",
+  "priceNote: 'With extra hot stew: 4,000 Ft.'",
+  "priceNote: 'Included with the soup.'",
 ];
 
 for (const snippet of requiredMenuSnippets) {

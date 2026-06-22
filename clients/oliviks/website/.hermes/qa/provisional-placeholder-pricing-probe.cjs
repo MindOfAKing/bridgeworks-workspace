@@ -12,7 +12,11 @@ const menuList = read('src/components/MenuList.tsx');
 const context = read('src/context/OrderContext.tsx');
 
 const requiredMenu = [
-  "priceNote: 'Price TBC — owner confirmation needed.'",
+  "name: 'Pepper soup'",
+  "price: 'Price TBC'",
+  'No product price found on oliviks.com or export scan',
+  "name: 'Abacha and Fish'",
+  "price: '7,500 Ft'",
   'unitPriceFt?: number',
   'unitPriceFt: 2500',
   'unitPriceFt: 4000',

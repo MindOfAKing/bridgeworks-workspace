@@ -24,6 +24,7 @@ export type DishOptionGroup = {
 };
 
 export type Dish = {
+  id?: string;
   name: string;
   description: string;
   price: string | null;
@@ -40,30 +41,33 @@ export type MenuCategory = {
 };
 
 
-const proteinOptions: DishOptionGroup = {
+const riceProteinOptions: DishOptionGroup = {
   id: 'protein',
   label: 'Protein',
   type: 'single',
   required: true,
   options: [
-    { label: 'Chicken', priceNote: 'Price TBC — owner confirmation needed.' },
-    { label: 'Turkey', priceNote: 'Price TBC — owner confirmation needed.' },
-    { label: 'Fish', priceNote: 'Price TBC — owner confirmation needed.' },
-    { label: 'Beef', priceNote: 'Price TBC — owner confirmation needed.' },
+    {
+      label: 'Chicken',
+      priceNote: 'Base rice plate: 2,500 Ft.',
+      unitPriceFt: 2500,
+    },
+    {
+      label: 'Turkey',
+      priceNote: 'Base rice plate: 2,500 Ft.',
+      unitPriceFt: 2500,
+    },
+    {
+      label: 'Fish',
+      priceNote: 'Base rice plate: 2,500 Ft.',
+      unitPriceFt: 2500,
+    },
+    {
+      label: 'Beef',
+      priceNote: 'Base rice plate: 2,500 Ft.',
+      unitPriceFt: 2500,
+    },
   ],
-};
-
-const jollofProteinOptions: DishOptionGroup = {
-  ...proteinOptions,
-  options: proteinOptions.options.map((option) =>
-    option.label === 'Turkey'
-      ? {
-          ...option,
-          priceNote: 'Legacy checkout evidence: Turkey Jollof without extra hot stew was 2,500 Ft.',
-          unitPriceFt: 2500,
-        }
-      : option,
-  ),
 };
 
 const extraHotStewOption: DishOptionGroup = {
@@ -73,10 +77,22 @@ const extraHotStewOption: DishOptionGroup = {
   options: [
     {
       label: 'Yes',
-      priceNote: 'Legacy checkout evidence: Turkey Jollof with extra hot stew was 4,000 Ft.',
+      priceNote: 'With extra hot stew: 4,000 Ft.',
       unitPriceFt: 4000,
-    }
+    },
   ],
+};
+
+const pilauProteinOptions: DishOptionGroup = {
+  id: 'protein',
+  label: 'Protein',
+  type: 'single',
+  required: true,
+  options: ['Chicken', 'Turkey', 'Fish', 'Beef'].map((label) => ({
+    label,
+    priceNote: 'Approved copy/store export: Beef Pilau rice is 5,500 Ft.',
+    unitPriceFt: 5500,
+  })),
 };
 
 const swallowOptions: DishOptionGroup = {
@@ -85,8 +101,8 @@ const swallowOptions: DishOptionGroup = {
   type: 'single',
   required: true,
   options: [
-    { label: 'Pounded yam', priceNote: 'Included in the 5,000 Ft soup price in legacy checkout.' },
-    { label: 'Eba', priceNote: 'Included in the 5,000 Ft soup price in legacy checkout.' },
+    { label: 'Pounded yam', priceNote: 'Included with the soup.' },
+    { label: 'Eba', priceNote: 'Included with the soup.' },
   ],
 };
 
@@ -103,7 +119,7 @@ export const menu: MenuCategory[] = [
         price: '2,500 – 4,000 Ft',
         image: '/images/legacy/jollof-rice.png',
         tags: ['popular'],
-        optionGroups: [jollofProteinOptions, extraHotStewOption],
+        optionGroups: [riceProteinOptions, extraHotStewOption],
       },
       {
         name: 'Fried rice with protein',
@@ -111,7 +127,7 @@ export const menu: MenuCategory[] = [
           'Basmati rice cooked with turmeric and stir-fried with mixed vegetables. Lighter than jollof, bright and savory. Pick your protein: chicken, turkey, fish, or beef. The price depends on the protein you choose.',
         price: '2,500 – 4,000 Ft',
         image: '/images/legacy/fried-rice-shrimps.png',
-        optionGroups: [proteinOptions],
+        optionGroups: [riceProteinOptions, extraHotStewOption],
       },
       {
         name: 'Beef Pilau rice',
@@ -119,7 +135,7 @@ export const menu: MenuCategory[] = [
           'Basmati rice cooked in aromatic spices and served with fried beef. Warm, fragrant, and filling. A heartier rice plate when you want more depth than jollof. Pick your protein: chicken, turkey, fish, or beef.',
         price: '5,500 Ft',
         image: '/images/legacy/native-rice.png',
-        optionGroups: [proteinOptions],
+        optionGroups: [pilauProteinOptions],
       },
     ],
   },
@@ -180,7 +196,7 @@ export const menu: MenuCategory[] = [
       {
         name: 'Pepper soup',
         description:
-          'A light, aromatic soup with warming spices and gentle pepper. Brothy and comforting. Good when you want something warming. Final price to be confirmed before launch.',
+          'A light, aromatic soup with warming spices and gentle pepper. Brothy and comforting. Good when you want something warming. No product price found on oliviks.com or export scan; final price still needs owner confirmation.',
         price: 'Price TBC',
         image: '/images/legacy/assorted-pepper-soup.png',
         tags: ['placeholder', 'Warming'],
@@ -301,10 +317,10 @@ export const menu: MenuCategory[] = [
       {
         name: 'Abacha and Fish',
         description:
-          'Awaiting owner confirmation before final publish. Placeholder added so the preview can show where this menu item will sit if approved.',
-        price: 'Price TBC',
+          'Shredded cassava salad served with fish. Export order evidence shows Abacha and Fish with hot pepper stew ordered at 7,500 Ft.',
+        price: '7,500 Ft',
         image: '/images/legacy/abacha-and-fish.png',
-        tags: ['placeholder'],
+        tags: ['popular'],
       },
     ],
   },

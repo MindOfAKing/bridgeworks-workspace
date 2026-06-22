@@ -1,8 +1,9 @@
 import Link from 'next/link';
-import { ArrowRight, Phone, Star } from 'lucide-react';
+import { ArrowRight, Clock, MapPin, Phone, Star, Truck } from 'lucide-react';
 import { Reveal } from '@/components/Reveal';
 import { OrderCTA } from '@/components/OrderCTA';
 import { DishImage } from '@/components/DishImage';
+import { DeliveryStickers } from '@/components/DeliveryStickers';
 import { site, telLink } from '@/data/site';
 import { menu } from '@/data/menu';
 
@@ -16,46 +17,58 @@ const proofLine = 'Rated 4.8 from 491 Google reviews. Featured by Origo, We Love
 export default function HomePage() {
   return (
     <>
-      <section className="relative overflow-hidden bg-gradient-to-br from-[#fef3df] via-cream to-[#f7e3c4]">
-        <div className="container-x grid items-center gap-10 py-16 lg:grid-cols-2 lg:py-24">
-          <div>
-            <span className="eyebrow">From Rákóczi tér 9</span>
-            <h1 className="mt-4 font-display text-4xl font-bold leading-[1.1] text-cocoa sm:text-5xl lg:text-6xl">
-              Real Nigerian Food.
-              <span className="block text-palm">Made in Budapest.</span>
-            </h1>
-            <p className="mt-6 max-w-xl text-lg text-cocoa/75">
-              Jollof rice, egusi soup, suya, and more, cooked the way it is at home. Order direct from Rákóczi tér 9.
-            </p>
-            <div className="mt-8 flex flex-wrap gap-3">
-              <OrderCTA />
-              <Link href="/menu" className="btn-ghost">
-                See the Menu <ArrowRight size={18} />
-              </Link>
-            </div>
-            <p className="mt-4 text-sm text-cocoa/70">
-              Pickup from Rákóczi tér 9. Call or message us for catering and private orders.
-            </p>
-            <div className="mt-8 flex items-center gap-2 text-sm text-cocoa/70">
+      <section className="hero-reference-shell relative min-h-[760px] overflow-hidden bg-cocoa text-cream">
+        <DishImage
+          src="/images/legacy/jollof-rice.png"
+          alt="Jollof rice from Oliviks Kitchen"
+          className="absolute inset-0 h-full w-full scale-105"
+        />
+        <div className="absolute inset-0 bg-cocoa/65" />
+        <div className="absolute inset-0 bg-gradient-to-r from-cocoa via-cocoa/70 to-cocoa/15" />
+
+        <div className="container-x relative z-10 flex min-h-[760px] items-center py-20">
+          <div className="max-w-3xl">
+            <div className="rating-pill inline-flex items-center gap-2 rounded-full border border-cream/25 bg-white/10 px-4 py-2 text-sm font-semibold text-cream shadow-lg backdrop-blur">
               <span className="flex text-gold">
                 {Array.from({ length: 5 }).map((_, i) => (
-                  <Star key={i} size={16} fill="currentColor" />
+                  <Star key={i} size={15} fill="currentColor" />
                 ))}
               </span>
-              <span className="font-semibold text-cocoa">{site.reviews.rating}</span>
-              from {site.reviews.count} Google reviews
+              <span>{site.reviews.rating} out of 5</span>
+              <span className="text-cream/65">·</span>
+              <span>{site.reviews.count} Google reviews</span>
             </div>
-          </div>
 
-          <div className="relative">
-            <DishImage
-              src="/images/legacy/jollof-rice.png"
-              alt="Jollof rice from Oliviks Kitchen"
-              className="aspect-[4/3] w-full rounded-3xl shadow-xl"
-            />
-            <div className="absolute -bottom-5 -left-5 hidden rounded-2xl bg-leaf px-5 py-4 text-cream shadow-lg sm:block">
-              <p className="font-display text-lg font-semibold">Come hungry</p>
-              <p className="text-sm text-cream/80">Find us at Rákóczi tér 9</p>
+            <h1 className="mt-8 font-display text-5xl font-bold leading-[1.05] text-cream sm:text-6xl lg:text-7xl">
+              Real Nigerian Food.
+              <span className="block text-gold">Made in Budapest.</span>
+            </h1>
+            <p className="mt-7 max-w-2xl text-lg leading-relaxed text-cream/85 sm:text-xl">
+              Jollof rice, egusi soup, suya, and more, cooked the way it is at home. Order direct from Rákóczi tér 9.
+            </p>
+            <div className="mt-9 flex flex-wrap gap-4">
+              <OrderCTA />
+              <Link href="/menu" className="inline-flex items-center justify-center gap-2 rounded-full border border-cream/45 px-6 py-3 font-semibold text-cream transition-all hover:border-cream hover:bg-cream/10 active:scale-95">
+                Explore Menu <ArrowRight size={18} />
+              </Link>
+            </div>
+            <p className="mt-5 text-sm text-cream/75">
+              Pickup from Rákóczi tér 9. Call or message us for catering and private orders.
+            </p>
+            <div className="mt-5">
+              <DeliveryStickers tone="dark" />
+            </div>
+
+            <div className="mt-12 grid gap-4 border-t border-cream/20 pt-8 text-sm text-cream/80 sm:grid-cols-3">
+              <span className="inline-flex items-center gap-2">
+                <MapPin size={16} className="text-gold" /> Rákóczi tér 9, Budapest
+              </span>
+              <span className="inline-flex items-center gap-2">
+                <Clock size={16} className="text-gold" /> Mon–Sat 11:00–20:00
+              </span>
+              <span className="inline-flex items-center gap-2">
+                <Truck size={16} className="text-gold" /> Pickup & private delivery
+              </span>
             </div>
           </div>
         </div>
@@ -100,10 +113,58 @@ export default function HomePage() {
           <article className="h-full rounded-3xl border border-cocoa/10 bg-white p-7 shadow-sm">
             <h2 className="font-display text-2xl font-bold text-cocoa">Order Direct</h2>
             <p className="mt-4 leading-relaxed text-cocoa/75">
-              Order direct from Oliviks for pickup at Rákóczi tér 9. For private delivery or catering, call or
-              message us. Order direct and you deal with the kitchen, not a platform fee.
+              Order directly from Oliviks for pickup at Rákóczi tér 9, or find us on Wolt and foodora for
+              platform delivery. For private delivery, larger orders, or catering, call or message the kitchen.
             </p>
           </article>
+        </Reveal>
+      </section>
+
+      <section className="catering-showcase container-x py-20">
+        <Reveal>
+          <div className="grid overflow-hidden rounded-[2rem] bg-leaf text-cream shadow-xl lg:grid-cols-[1.05fr_0.95fr]">
+            <div className="p-8 sm:p-12">
+              <span className="inline-flex rounded-full bg-gold px-4 py-2 text-xs font-bold uppercase tracking-[0.18em] text-cocoa">
+                Catering
+              </span>
+              <h2 className="mt-6 font-display text-3xl font-bold sm:text-5xl">
+                Catering for Nigerian celebrations.
+              </h2>
+              <p className="mt-5 max-w-xl text-lg leading-relaxed text-cream/82">
+                Birthdays, weddings, baby showers, anniversaries, office lunches, and drop-off catering. Tell us the date, headcount, and dishes you want.
+              </p>
+              <div className="mt-8 grid gap-3 text-sm font-semibold text-cream/85 sm:grid-cols-2">
+                {['Birthdays', 'Weddings', 'Baby showers', 'Drop-off catering'].map((item) => (
+                  <span key={item} className="rounded-2xl border border-cream/15 bg-white/10 px-4 py-3">
+                    {item}
+                  </span>
+                ))}
+              </div>
+              <div className="mt-8 flex flex-wrap gap-3">
+                <Link href="/catering" className="btn-primary bg-gold text-cocoa hover:bg-cream">
+                  Book Catering <ArrowRight size={18} />
+                </Link>
+                <a
+                  href={telLink}
+                  className="inline-flex items-center justify-center gap-2 rounded-full border border-cream/40 px-6 py-3 font-medium text-cream transition-all hover:border-cream hover:bg-cream/10 active:scale-95"
+                >
+                  <Phone size={18} /> Call {site.phone.display}
+                </a>
+              </div>
+            </div>
+            <div className="relative min-h-[320px] border-t border-cream/10 lg:border-l lg:border-t-0">
+              <DishImage
+                src="/images/legacy/chef-kitchen-prep.png"
+                alt="Oliviks catering preparation"
+                className="absolute inset-0 h-full w-full"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-cocoa/70 via-cocoa/20 to-transparent" />
+              <div className="absolute bottom-6 left-6 right-6 rounded-3xl bg-white/90 p-5 text-cocoa shadow-lg backdrop-blur">
+                <p className="font-display text-xl font-bold">Custom menu support</p>
+                <p className="mt-1 text-sm text-cocoa/70">Rice trays, soups, snacks, drinks, and Nigerian party favorites.</p>
+              </div>
+            </div>
+          </div>
         </Reveal>
       </section>
 

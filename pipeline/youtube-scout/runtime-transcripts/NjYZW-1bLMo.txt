@@ -1,0 +1,415 @@
+00:00 This right here is a visualization of my
+00:02 clawed co-work operating system. You can
+00:04 see in real time as it's building out
+00:07 parts of my business for me. Right here
+00:09 is my bookkeeper. Over here is my
+00:11 personal email assistant. This is
+00:13 running every part of my business and my
+00:15 second brain. A lot of people ask me how
+00:18 I'm able to produce so many videos so
+00:20 quickly. Well, this is how. And I want
+00:23 to help you set up a clawed co-work OS
+00:25 just like this one. So, what I've done
+00:28 is I've developed a simple three-step
+00:30 process anyone can follow to get this up
+00:32 and running. This will be organized with
+00:34 your second brain. It will improve as
+00:36 time goes on and it will include the
+00:38 workflows that will actually make a
+00:40 difference in your life. For purposes of
+00:42 this video, I'm going to show you how to
+00:43 set this up with Claude Co-work because
+00:45 I genuinely think it is currently the
+00:47 most powerful AI agent for non-technical
+00:50 people. However, I want to be fully
+00:52 transparent that Anthropic did reach out
+00:54 to sponsor this video. And since I
+00:56 already use Claude Co-work every day to
+00:58 run my business, I said, "Sure, why
+01:00 not?" So, full transparency there. If
+01:03 that sounds good to you, let me show you
+01:04 the most straightforward way to set up a
+01:06 Claude Co-work OS. Before we can jump
+01:09 into this, you need to understand what
+01:11 an agent operating system is and why
+01:13 it's different from using a regular AI
+01:15 chat like Claude chat. This is Claw
+01:18 Chat. It's what everyone is used to. You
+01:21 ask it a question and it's going to give
+01:24 you a response back. That's great for
+01:26 simple one-off tasks, brainstorming, or
+01:29 asking random questions. The issue with
+01:31 this is that your knowledge base and
+01:33 what Claude chat is creating for you
+01:35 exists in two different places. And as
+01:38 Claude works for you, that knowledge
+01:40 base doesn't grow or compound. An agent
+01:43 operating system fixes that because it
+01:45 works where you work. So, if we switch
+01:47 over to Claude Co-work, you'll see that
+01:50 this can reach into your folders on your
+01:53 computer. It can read your files, edit
+01:55 them, create new ones, and carry out
+01:57 multi-step tasks from start to finish.
+02:00 And the more that you use this, the more
+02:02 context it's going to have about you,
+02:04 your work, or your business. And when it
+02:07 comes to how helpful an AI is going to
+02:09 be for you, context is now the most
+02:12 important thing. That's why creating a
+02:14 co-work operating system is one of the
+02:16 best ways to use AI right now. The good
+02:19 news is if you already know how to use a
+02:21 chatbot like Claude chat and you can
+02:24 organize a few folders on your desktop,
+02:26 you can easily set this up yourself. To
+02:28 access Co-work, you want to download and
+02:30 install the clawed desktop app. Once you
+02:33 do, make sure on the top you switch over
+02:35 to Co-work. Under that is the side menu.
+02:39 The button at the top says new task. In
+02:42 co-work, we don't have chats, we have
+02:44 tasks. If you look here, tasks look very
+02:48 similar to a regular AI chat, but
+02:50 there's one big difference. On this
+02:53 dropdown, you can select which folder on
+02:55 your computer you want co-work to work
+02:57 inside of. So, I set up a central claude
+03:00 co-work OS folder on my computer called
+03:03 Frankbbot because I decided the name of
+03:05 my agent should be Frank for some
+03:07 reason. Opening up the Frankbbot folder
+03:09 in my finder. You'll notice that there
+03:11 are three different things in this. A
+03:13 claw.md file, a memory.md file, and a
+03:17 bunch of subfolders. The most important
+03:20 file here is the clawed MD file. This is
+03:23 just a set of instructions for Claude
+03:25 that it will read every time it works in
+03:27 my OS. So, when I come in here and start
+03:30 a new task, the first thing Claude
+03:32 Co-work is going to do is read that
+03:35 claw. MD file that's going to tell it
+03:38 how I want it to act, where to find
+03:40 things in this folder structure, what
+03:43 this OS even is, and how it's memory
+03:46 system works. It's basically the
+03:48 instruction manual for itself. So after
+03:51 it reads that file, it will then read
+03:53 the memory.md file, which is basically a
+03:56 log of what we've done in the past, and
+03:59 then it will jump into one of the
+04:01 subfolders depending on what task I gave
+04:04 it. For instance, if I'm asking it to
+04:06 arrange some travel for me, it will jump
+04:08 into the travel subfolder. If I'm having
+04:11 it help me with my YouTube videos, it
+04:13 will go into the YouTube subfolder. I
+04:15 also have one here for business. And if
+04:18 you open this up, you'll notice that
+04:19 there are sub subfolders, one for
+04:21 bookkeeping, one for brand deals, and
+04:24 one for emails, for instance. And each
+04:26 of these have their own claw.md file as
+04:29 well. I also have a subfolder here
+04:31 called AI with Paul. This is where I
+04:34 plan out content for my online course.
+04:36 You can find more details about that in
+04:38 the description down below. But this
+04:40 exact coowwork OS system I talk much
+04:42 more in depth about in that course. The
+04:45 most important thing to understand here
+04:47 is that there's nothing magical
+04:49 happening here. This claw.md file is
+04:52 just a plain text document. You can open
+04:55 it up and read it yourself. And the
+04:57 subfolders just represent different
+04:59 areas of your business or projects
+05:02 you're working on. The best part is
+05:04 Claude Co-work is going to set this
+05:06 entire thing up for you. Start by
+05:08 creating that parent folder on your
+05:11 computer where you want your coowork OS
+05:12 to exist. So I'm here inside the
+05:14 documents folder. I'll create a new
+05:16 folder and I'll call this co-work.
+05:20 Next, I'll have a link in the
+05:22 description down below. That's to this
+05:24 prompt that will instruct Co-work to set
+05:27 up your claw.md and memory files and
+05:30 your subfolders. So just copy down this
+05:33 prompt and come over to the claw desktop
+05:36 app. Of course, make sure you're inside
+05:38 of co-work and start a new task. Now
+05:42 here on this dropown, you want to select
+05:43 the folder that you just created. So
+05:46 I'll click on this and I'll click down
+05:48 here where it says choose a different
+05:50 folder and then find the folder I just
+05:53 created. Here it is. Once it's
+05:55 highlighted, click on open. Claude will
+05:58 then ask if it can have permission to
+06:00 work inside of that folder. I'll click
+06:02 on always allow. Now you can paste in
+06:05 the prompt that you just copied and send
+06:08 it to Claude. Next, just answer the
+06:11 questions that Co-work sends you and
+06:13 then from those answers, it will build
+06:15 out your OS for you. So, first it wants
+06:18 to know what you want to call your OS.
+06:21 I'll call it Vega. Then it asks how you
+06:24 want your agent to talk to you. Do you
+06:25 want it to be blunt, friendly,
+06:27 professional and direct, warm and
+06:29 supportive? I'll select professional and
+06:31 direct. Let's fast forward this bit as I
+06:34 answer the rest of the questions and
+06:36 then I'll see you when we're done with
+06:37 this. Once you're done answering all the
+06:40 questions, it will give you an outline
+06:42 of what your OS will look like. And if
+06:44 you're happy with that, just tell it to
+06:45 go ahead and create that. It says it's
+06:49 finished. So, let's see what Co-work
+06:51 built for us. For this, I suggest you
+06:54 download an app called Obsidian. It's
+06:57 free and it's available for Windows and
+07:00 for Mac. Once you download it, the first
+07:02 thing will ask you is where your vault
+07:05 lives. A vault is really just a folder.
+07:09 So, for this, you'll click where it says
+07:10 open folder as vault and choose the
+07:13 folder that you created that Co-work
+07:15 just set up the OS inside of. And then
+07:18 here you can see all the files inside of
+07:21 that folder. We have the claw.md file
+07:25 and the memory MD file as well as all
+07:28 the subfolders that were created for us.
+07:31 There's a lot you can do with Obsidian,
+07:33 but honestly wouldn't spend time going
+07:36 down that rabbit hole. It's really just
+07:38 a basic note-taking app that we're going
+07:40 to use to view what is inside our
+07:43 Cowwork OS folder. The structure of your
+07:45 co-work OS is now built out. The mistake
+07:48 is to just start adding folders here for
+07:51 things that you think you want to use it
+07:52 for. Instead, I would think of
+07:54 subfolders as workflows that you want
+07:56 co-work to do for you. Let's build out a
+07:59 workflow together so you can see what I
+08:01 mean. Most workflows are going to be
+08:03 different for everyone and very
+08:04 personalized for you, but we'll start
+08:06 with one that I think everyone can use,
+08:08 which is an email triage system. Once
+08:11 you set this up, Co-work will be able to
+08:13 look at your emails, track your
+08:15 contacts, and draft replies. To do that,
+08:18 let's first come over to Claude, and you
+08:21 want to click on the left here where it
+08:23 says customize, and select connectors.
+08:26 This is how you connect Claude to other
+08:29 apps you already use, things like Gmail,
+08:31 notion, your calendar, or Canva, for
+08:34 instance. It will be able to both pull
+08:36 context from those apps and write to a
+08:39 lot of those apps. So, click on this
+08:41 plus icon right here and click on browse
+08:44 connectors. And you can search for
+08:47 Gmail. It should pop up right here and
+08:50 select that one. Up here in the top
+08:52 right will be a button that says
+08:53 connect. I've already connected mine, so
+08:56 it's not going to say that anymore, but
+08:57 yours should say connect. So, click on
+08:59 that one. You'll then need to sign into
+09:01 your Gmail account and give Co-work
+09:03 permission to access your Gmail. Once
+09:06 that one is set up, we can go back and
+09:09 you can add any other connectors you
+09:10 want. So you might want to add, for
+09:12 instance, Google Calendar and maybe
+09:15 Google Drive for instance. After
+09:17 connecting up at least Gmail, you can
+09:19 close this out and leave these settings
+09:22 by clicking on the top left here on this
+09:24 arrow. If you need to start a new task
+09:27 and make sure that your new Coowwork OS
+09:29 folder is selected. Now, I'll have
+09:31 another prompt for you down below. This
+09:34 one is for an email triage system. So,
+09:37 same deal as before. Make sure to copy
+09:39 this down, return back to Claude, paste
+09:42 it in, and submit it. This will tell
+09:44 Coowork to scan through your email inbox
+09:47 to see what kind of emails you get, how
+09:49 you respond to them, your tone of voice,
+09:51 and it will build out your email system
+09:53 for you. So, here it's asking how far
+09:56 back should it look in your inbox to
+09:58 learn how you use emails. I'll just
+10:00 choose the last 7 days, but obviously
+10:03 the longer it looks back, the more
+10:05 helpful this system is going to be.
+10:07 Co-work will then explain what it found
+10:09 and the different types of emails and
+10:11 how it thinks it should respond to those
+10:13 emails. If all of that looks good, you
+10:15 can just say it sounds good and it'll
+10:17 start building out your system. Great.
+10:19 Co-work is now finished. Whenever it
+10:21 creates new files for you, you'll see
+10:24 those files right here. They look like
+10:26 this and you can click on any of them to
+10:28 see a preview of it on the right.
+10:30 Co-work also built out for you a new
+10:33 skill called email triage. Now, we
+10:36 haven't talked about skills yet, but
+10:38 these are repeatable workflows that you
+10:40 can load into Claude Co-work. So, to
+10:43 actually save it into Claude Co-work,
+10:44 you want to click right here where it
+10:46 says save skill. We can now run the
+10:48 email triage skill by starting a new
+10:51 task and typing forward slash and typing
+10:54 in email triage. Once it's highlighted,
+10:57 click on enter. And you'll see it loaded
+10:59 right here. Now, if you submit that
+11:01 along, it's actually going to go into my
+11:04 Gmail and start drafting replies and
+11:06 updating the files I created in the
+11:08 email folder. Opening up Obsidian, you
+11:11 can see that inside the email folder, we
+11:14 have a lot more in here than we had
+11:16 before. We now have a fully fleshed out
+11:19 claw.md file. We have a file called
+11:23 categories where it lists out all the
+11:24 different email categories, a list of
+11:27 people that it shouldn't draft replies
+11:29 for, and even a my tone of voice
+11:33 document. All these files are set up to
+11:35 help Coowwork track your emails better
+11:37 and to respond to them better. Now,
+11:40 anytime Co-work creates for you a new
+11:42 folder inside your OS, it will create a
+11:45 new claw.md file for that folder, you
+11:49 can think of the claw.md file that's in
+11:52 your top level folder as instructions
+11:55 that apply to your entire OS and the
+11:58 ones that exist inside the subfolders as
+12:01 more specific instructions for that
+12:03 subfolder. So, congrats, you have your
+12:05 first workflow. As you see, workflows
+12:08 are made up of a subfolder, a new
+12:10 claw.md file for that subfolder, skills,
+12:13 and sometimes connectors. Now, for every
+12:16 other workflow that you want Coowwork to
+12:18 set up for you, you just have to tell
+12:20 Coowork what you want done. If you look
+12:22 at the prompt that I gave you for
+12:24 building out your email system, you can
+12:26 get an idea of what those setup
+12:28 instructions look like. But really, all
+12:30 you have to do is describe in
+12:32 conversational English something you do
+12:34 in your business all the time that
+12:36 you're hoping Claude Co-work can do for
+12:38 you. Here's an example of that. We'll
+12:40 click on new task. And once again, we'll
+12:43 make sure that the co-work OS folder is
+12:45 selected. And let me have it help me
+12:48 create a system for something I do all
+12:51 the time, invoicing. I don't want to
+12:53 have to create invoices on my own or
+12:56 track them myself. So, let's ask Co-work
+12:59 to set up an invoicing system for us.
+13:01 And I'm not going to give you a prompt
+13:03 here. I'm just going to show you how I
+13:05 normally set up these workflows. So,
+13:07 inside the new task, I'm going to use
+13:09 the microphone button to dictate to
+13:11 co-work.
+13:13 Hey, so I want you to set up for me a
+13:17 invoicing folder. And inside of that, I
+13:21 want it so that anytime I ask you to
+13:24 create an invoice for you for me and
+13:26 give you the email address of the
+13:28 contact, you'll go through my Gmail and
+13:31 find the contact, how much money they
+13:33 owe me. They'll also have their address
+13:35 in there for the invoice. So then you
+13:37 can draft the invoice into that folder.
+13:39 And I also want a way to track them. So
+13:41 I can just go into a a file in there and
+13:45 see who owes me what money. All right,
+13:47 it looks pretty good. So, let's send
+13:49 that along and have Co-work set up our
+13:52 invoicing system for us. All right, so
+13:54 here's what it set up. It set up a
+13:56 tracker to track all the invoices. It,
+13:59 of course, set up the clawed MD file and
+14:02 a file with all of my business
+14:04 information so it can pull from that
+14:06 when drafting the invoices. It didn't
+14:09 create a skill for me, though. So, I'll
+14:10 just ask it to can you create a skill
+14:14 for this, too? And there we go. So, it's
+14:18 that easy. Maybe for you it's not
+14:20 invoicing, but use the same principles.
+14:22 Just describe what you're struggling
+14:24 with in plain English and Co-work will
+14:26 put together a workflow to help you.
+14:28 Once you have a workflow you love, if
+14:30 you find yourself asking Co-work to run
+14:31 it every day, set it up as a schedule
+14:34 task. And this couldn't be any easier
+14:36 because you can literally just tell
+14:38 Co-work to run it as a schedule task and
+14:40 it will set it up for you. So, for
+14:42 instance, here I'm inside the chat where
+14:45 we set up our email triage system. And
+14:48 I'll just tell it, run this skill at 7
+14:50 a.m. for me every day. This dialogue box
+14:53 should then pop up. You can click on
+14:54 schedule. And just like that, we have
+14:57 that task now scheduled. If you click on
+14:59 the left where it says schedule tasks,
+15:01 you can see all of them inside of here.
+15:03 One limitation of Cloud Co-work is that
+15:05 in order for it to run any scheduled
+15:08 tasks, your computer needs to be on and
+15:10 co-work needs to be open. That's because
+15:13 this isn't cloud-based. Everything lives
+15:15 on your computer. To access it from the
+15:18 go, though, you can use dispatch. If you
+15:20 open up the Clawed app on your phone and
+15:22 click on dispatch in the side menu, you
+15:25 can assign co-work tasks from here, even
+15:27 if you're not home. It's really helpful
+15:29 if you're maybe at the gym or out hiking
+15:32 or just not at home and you suddenly
+15:34 have a great idea. You can just fire it
+15:37 off to dispatch and when you get back to
+15:38 your computer, it'll be finished and
+15:40 ready for you. So, that's the quick
+15:41 setup guide for Co-work OS. Set up your
+15:44 folders, layer on your connectors and
+15:46 skills, build out a few real workflows,
+15:49 and then put the ones you repeat on a
+15:51 schedule. Do that and co-work stops
+15:53 feeling like a chatbot and starts
+15:55 feeling like an actual assistant that
+15:57 handles the tedious stuff so you can
+15:59 focus on the work that actually matters.
+16:02 If you want to try it out for yourself,
+16:03 the link for Claude is in the
+16:05 description down below. Huge thank you
+16:07 to Anthropic for sponsoring this one.
+16:09 And again, if you want to go deeper on
+16:11 this stuff, I have all the information
+16:13 about my course down in the description.
+16:16 I'll drop a link down there if you want
+16:17 to come check it out. Thanks so much for
+16:19 watching and I'll see you in the next
+16:20 video. Bye for now.
