@@ -149,7 +149,7 @@ export const menu: MenuCategory[] = [
         description:
           'Ground melon seeds cooked with leafy greens into a thick, deeply savory soup. Rich and comforting. Served with one swallow to scoop it up. One of the dishes regulars keep coming back for.',
         price: '5,000 Ft',
-        image: '/images/legacy/afang-soup.png',
+        image: '/images/hanna/egusi-soup.jpg',
         tags: ['popular'],
         optionGroups: [swallowOptions],
       },
@@ -190,7 +190,7 @@ export const menu: MenuCategory[] = [
         description:
           'A deep, palm-nut soup cooked with Nigerian seasoning and protein. Rich, earthy, and full-bodied. Served with one swallow.',
         price: '5,000 Ft',
-        image: null,
+        image: '/images/hanna/banga-soup.jpg',
         optionGroups: [swallowOptions],
       },
       {
@@ -233,7 +233,7 @@ export const menu: MenuCategory[] = [
         description:
           'Grilled beef skewers coated in a bold peanut and pepper spice blend. This is our hottest item, but still easy to enjoy. Smoky and hard to stop eating.',
         price: '1,500 Ft',
-        image: null,
+        image: '/images/hanna/suya-sticks.jpg',
         tags: ['popular', 'Our hottest'],
       },
       {
@@ -241,7 +241,7 @@ export const menu: MenuCategory[] = [
         description:
           'A smooth, soft swallow in the style of pounded yam. The soft side you use to scoop soup. Order it with egusi, oha, or ogbono.',
         price: '1,200 Ft',
-        image: null,
+        image: '/images/hanna/poundo-swallow.jpg',
       },
       {
         name: 'Eba',
@@ -283,7 +283,7 @@ export const menu: MenuCategory[] = [
         description:
           'Ripe plantain fried until golden and caramelized. Soft and sweet. The easy balance to anything peppery.',
         price: '2,500 Ft',
-        image: null,
+        image: '/images/hanna/fried-plantain.jpg',
         tags: ['popular'],
       },
       {
@@ -291,7 +291,7 @@ export const menu: MenuCategory[] = [
         description:
           'Small fried dough bites, lightly sweet and golden. Easy to love. Good as a first snack, even better after something peppery.',
         price: '2,200 Ft',
-        image: null,
+        image: '/images/hanna/puff-puff.jpg',
         tags: ['popular'],
       },
       {
