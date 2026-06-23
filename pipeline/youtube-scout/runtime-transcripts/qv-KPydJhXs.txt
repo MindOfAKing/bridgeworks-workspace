@@ -1,0 +1,29 @@
+# Codex Can Now "Copy" Your Tasks
+Channel: Matt Wolfe
+URL: https://www.youtube.com/watch?v=qv-KPydJhXs
+Published: 2026-06-23T12:52:33+00:00
+
+[00:00] Open AI rolled out record and replay.
+[00:02] You can call upon this record and
+[00:04] replay. They will record a video of you
+[00:06] doing something on your computer, learn
+[00:08] how to do that thing, and then in the
+[00:10] future, you can just tell it to do that
+[00:12] thing again. So, the example they give
+[00:13] here is watch me upload this YouTube
+[00:15] video so you can handle these uploads
+[00:16] for me in the future. And it watches the
+[00:18] video, understands what he did, creates
+[00:20] a new skill out of it, and now he can go
+[00:22] back and he gives it a PNG file, I'm
+[00:25] guessing for the thumbnail, a video
+[00:27] file, and a subtitle file, drags and
+[00:29] drops them into his Codex chat box and
+[00:32] says, "Upload this YouTube video using
+[00:33] the YouTube upload skill that we
+[00:35] created." It then goes and does the
+[00:37] exact same steps. [music] It selects the
+[00:39] file, it grabs it from his computer, it
+[00:40] uploads it, grabs the thumbnail, grabs
+[00:43] the subtitle file, saves it as private.
+[00:45] That's pretty handy.

@@ -195,3 +195,51 @@ Action: Add a pricing integrity check before offers, discounts, and scope expans
 Owner: Emmanuel / BridgeWorks
 
 Status: Needs template integration
+
+### 2026-06-23 - AI UGC Ad Sprint Approval Checklist
+
+Source: Sandy Lee AI - "I Used Claude MCP to Make AI UGC Ads and Make Money in 2026"
+
+Decision: Adapt
+
+BridgeWorks area: Content And Visibility Systems, Offer Testing, Client Delivery
+
+Reason: The workflow is useful for creating proof assets and ad concepts from product pages, ICP notes, hook research, scripts, and actor / voice selection. BridgeWorks should keep it draft-only until assets, client approval, and ad spend limits exist.
+
+Action: Create a draft-only AI UGC ad sprint checklist for BridgeWorks and possible Oliviks use after missing client assets are confirmed.
+
+Owner: Emmanuel / BridgeWorks
+
+Status: Needs checklist. No publishing, client contact, or paid ads without approval.
+
+### 2026-06-23 - Model-Routing Cost Gate
+
+Source: Nate Herk - "I Battle Tested Sakana Fugu's Fable Killer"
+
+Decision: Reject for now / Watch
+
+BridgeWorks area: Local AI Ops, Agency Operations, Delivery Verification
+
+Reason: The transcript reports 36 of 38 tasks tied, while Fugu was 4.5x slower and 5x more expensive for that test set. The durable lesson is model routing discipline, not buying another orchestration layer.
+
+Action: Add a cost gate to AI delivery SOPs: use cheaper routing first, require measured quality gain, cap spend, and verify with real task output before any paid orchestration API.
+
+Owner: Codex / Emmanuel
+
+Status: Needs SOP note. No paid API loop.
+
+### 2026-06-23 - Foundation Client Fit Filter
+
+Source: Alex Hormozi - "Same Sales Velocity, But LTV Is 5-10x Higher"
+
+Decision: Adapt
+
+BridgeWorks area: Pricing, Sales Qualification, Foundation Offer
+
+Reason: Higher-value selling requires the full chain to match the buyer: funnel message, case studies, lead magnets, and sales script. BridgeWorks should not pretend to be a large agency, but it should qualify better and say no earlier.
+
+Action: Create a one-page Foundation Client Fit Filter for static-first website clients and scope boundaries.
+
+Owner: Emmanuel / BridgeWorks
+
+Status: Needs template

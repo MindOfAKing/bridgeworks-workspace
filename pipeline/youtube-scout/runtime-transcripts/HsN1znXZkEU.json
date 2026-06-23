@@ -1,0 +1,23 @@
+{
+  "video_id": "HsN1znXZkEU",
+  "url": "https://www.youtube.com/watch?v=HsN1znXZkEU",
+  "metadata": {
+    "title": "Same Sales Velocity, But LTV Is 5-10x Higher",
+    "channel": "Alex Hormozi",
+    "channel_id": "UCUyDOdBWhC1MCxEjC46d-zw",
+    "published_at": "2026-06-23T15:03:22Z",
+    "description": "Who you sell to matters as much (or more than) the value you provide:\n\nIf you help a billionaire lose weight you can charge 100x more than gen pop. \n\nBecause in a very real way, that more narrowly defined market values the solution at a higher dollar amount.",
+    "tags": [],
+    "category_id": "27",
+    "view_count": 5606,
+    "like_count": 272,
+    "comment_count": 2,
+    "duration": "PT1M17S"
+  },
+  "transcript": {
+    "available": false,
+    "full_text": "",
+    "word_count": 0,
+    "error": "type object 'YouTubeTranscriptApi' has no attribute 'get_transcript'"
+  }
+}

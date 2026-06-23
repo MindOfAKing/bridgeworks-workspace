@@ -1,0 +1,23 @@
+{
+  "video_id": "7XS6S_lyOCI",
+  "url": "https://www.youtube.com/watch?v=7XS6S_lyOCI",
+  "metadata": {
+    "title": "99% of people don’t know about this Free AI Repo",
+    "channel": "Jack Roberts",
+    "channel_id": "UCxVxcTULO9cFU6SB9qVaisQ",
+    "published_at": "2026-06-23T09:00:19Z",
+    "description": "OpenAI and Anthropic both use this. And it's completely open source.\n\nIt's a research operating system. Handles AI research end to end.\n\nThe same infrastructure frontier labs run. Now free for everyone.\n\nLike getting NASA's mission control. Built for your garage.\n\nFrontier research tools are now open source. Use what OpenAI and Anthropic use. Free.\n\n#opensource #openai #anthropic #airesearch #aitools",
+    "tags": [],
+    "category_id": "27",
+    "view_count": 1113,
+    "like_count": 93,
+    "comment_count": 1,
+    "duration": "PT35S"
+  },
+  "transcript": {
+    "available": false,
+    "full_text": "",
+    "word_count": 0,
+    "error": "type object 'YouTubeTranscriptApi' has no attribute 'get_transcript'"
+  }
+}

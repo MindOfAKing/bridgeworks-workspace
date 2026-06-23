@@ -1,0 +1,31 @@
+# How to Use NVIDIA’s New Nemotron 3 Ultra For FREE
+Channel: Vaibhav Sisinty
+URL: https://www.youtube.com/watch?v=na464UrrzXk
+Published: 2026-06-23T04:52:29+00:00
+
+[00:00] Stop paying for Claude. You can run it
+[00:02] for free now and they don't want you to
+[00:04] know how. Use it before [music] this
+[00:06] video gets deleted.
+[00:08] It's called Nemotron-3-Ultra
+[00:10] and it's the biggest open model Nvidia
+[00:13] has ever shipped. Think of it like
+[00:15] Claude code, but open and completely
+[00:17] free. So, I tested [music] it with one
+[00:19] simple prompt. Build a premium scroll
+[00:21] driven landing page dark theme with a 3D
+[00:24] robot as the hero. [music]
+[00:26] First, it mapped out the entire
+[00:27] structure, then started writing the code
+[00:30] and a few [music] minutes later I got
+[00:32] this clean landing page where the robot
+[00:34] walks, turns, and reacts [music] as you
+[00:37] scroll through every single section. And
+[00:39] here's how you can set it up. Open your
+[00:41] terminal, paste this [music] one command
+[00:43] to install open code and link your free
+[00:45] API. Pick Nemotron-3-Ultra [music] free
+[00:48] from the model list and it's done. And
+[00:50] if you use Claude, this will save you
+[00:52] tons of money. Comment free and I'll
+[00:54] share the complete setup guide with you.

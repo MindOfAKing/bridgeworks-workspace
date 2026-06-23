@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>BridgeWorks Lead Engine v1</title>
+  <style>
+    :root { --bg:#0f1412; --card:#18211e; --muted:#9fb0a8; --text:#f5f1e8; --accent:#b8d7c3; --line:#2b3833; }
+    * { box-sizing: border-box; }
+    body { margin:0; font-family: Inter, Segoe UI, system-ui, sans-serif; background:var(--bg); color:var(--text); }
+    header { padding:40px 32px 20px; border-bottom:1px solid var(--line); }
+    h1 { margin:0 0 8px; font-size:34px; letter-spacing:-0.03em; }
+    .sub { color:var(--muted); max-width:820px; line-height:1.5; }
+    main { padding:28px 32px 56px; display:grid; gap:20px; grid-template-columns:repeat(auto-fit,minmax(260px,1fr)); }
+    .card { background:var(--card); border:1px solid var(--line); border-radius:18px; padding:22px; min-height:178px; }
+    .card h2 { margin:0 0 12px; font-size:20px; }
+    .card p, li { color:var(--muted); line-height:1.5; }
+    a { color:var(--accent); text-decoration:none; }
+    a:hover { text-decoration:underline; }
+    .tag { display:inline-block; padding:5px 9px; border:1px solid var(--line); border-radius:999px; color:var(--accent); font-size:12px; margin-bottom:10px; }
+    footer { padding:0 32px 32px; color:var(--muted); }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="tag">Small boring pipeline. Not a genius AI machine.</div>
+    <h1>BridgeWorks Lead Engine v1</h1>
+    <div class="sub">Find 10 businesses. Score them. Message 3. Follow up. Book calls. Repeat weekly. Primary niche: owner-led B2B/local service businesses with higher contract values. Secondary proof lane: restaurants and hospitality.</div>
+  </header>
+  <main>
+    <section class="card">
+      <h2>1. Prospect Tracker</h2>
+      <p>Single source of truth for leads, status, next follow-up, niche fit, and recommended offer.</p>
+      <p><a href="../01-prospects/prospect-tracker.csv">Open prospect-tracker.csv</a></p>
+    </section>
+    <section class="card">
+      <h2>2. Lead Scoring</h2>
+      <p>HOT, WARM, COLD scoring based on fit, urgency, budget signal, visible lead leaks, and BridgeWorks scope.</p>
+      <p><a href="../01-prospects/lead-scoring-rubric.md">Open scoring rubric</a></p>
+    </section>
+    <section class="card">
+      <h2>3. Lead Leak Review</h2>
+      <p>Entry offer: review where enquiries may be lost through weak trust, unclear contact paths, poor Google presence, or slow follow-up.</p>
+      <p><a href="../02-audits/48-hour-website-trust-audit-template.md">Open audit template</a></p>
+    </section>
+    <section class="card">
+      <h2>4. Outreach Templates</h2>
+      <p>Use warm first. Cold only after reviewing the business and naming one specific issue.</p>
+      <p><a href="../03-outreach/warm-outreach-templates.md">Warm templates</a> · <a href="../03-outreach/cold-outreach-templates.md">Cold templates</a></p>
+    </section>
+    <section class="card">
+      <h2>5. Follow-Up Reminders</h2>
+      <p>Use the tracker fields: last_contacted, next_follow_up, and status. No CRM orchestration yet.</p>
+      <p><a href="../01-prospects/prospect-tracker.csv">Update tracker</a></p>
+    </section>
+    <section class="card">
+      <h2>6. Weekly Review</h2>
+      <p>Every Friday: numbers, best opportunities, niche signal, FWT filter, uncomfortable truth, next actions.</p>
+      <p><a href="../05-weekly-reviews/weekly-lead-review-template.md">Open weekly review</a></p>
+    </section>
+    <section class="card">
+      <h2>Support: Offer Ladder</h2>
+      <p>Use only after a prospect shows interest. Sell fewer lost enquiries, not AI complexity.</p>
+      <p><a href="../04-offers/bridgeworks-offer-ladder.md">Open offer ladder</a></p>
+    </section>
+    <section class="card">
+      <h2>Support: Hermes Prompts</h2>
+      <p>Reusable prompts for scoring, Lead Leak Reviews, outreach, and weekly reviews.</p>
+      <p><a href="../06-assets/hermes-prompts.md">Open Hermes prompts</a></p>
+    </section>
+  </main>
+  <footer>Built 2026-06-23. Adjusted to Lead Leak Review and B2B/local services first. Review before sending anything.</footer>
+</body>
+</html>

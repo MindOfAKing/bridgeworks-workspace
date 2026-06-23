@@ -1,0 +1,32 @@
+# Stop Wasting Money on Claude! Use This Free Tool Instead
+Channel: Vaibhav Sisinty
+URL: https://www.youtube.com/watch?v=qWt942zRtYM
+Published: 2026-06-23T12:42:59+00:00
+
+[00:01] Okay, let me tell you a secret. This
+[00:03] free tool cuts Claude's token usage by
+[00:05] 90%.
+[00:07] It's called Ponytail, and the entire AI
+[00:09] community is going crazy over it. Think
+[00:11] of it as a senior developer sitting on
+[00:13] top of your Claude, forcing it to write
+[00:16] shorter, cleaner, and smarter code every
+[00:18] single [music] time. The result? Up to
+[00:20] 75% cheaper, six times faster, and
+[00:23] writes 94% less code for the exact same
+[00:26] output. And it plugs into any coding
+[00:28] model like Claude, Code, Codex, Cursor,
+[00:31] you name it. So, I tested it by asking
+[00:33] Claude [music] to build me a landing
+[00:35] page, and got this clean, minimalist
+[00:37] page. Then I ran the exact same prompt
+[00:39] with Ponytail switched on, and got
+[00:41] almost the same page. But, here's the
+[00:42] catch. Ponytail used 44% fewer tokens,
+[00:45] wrote 67% [music]
+[00:47] less code, and finished 2 minutes
+[00:48] faster. For a long project, it can save
+[00:50] you hours of work and hundreds of
+[00:52] dollars in API cost. Comment free, and
+[00:54] I'll share the complete setup guide with
+[00:56] you.

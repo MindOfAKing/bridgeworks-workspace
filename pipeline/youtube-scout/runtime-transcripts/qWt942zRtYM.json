@@ -1,0 +1,26 @@
+{
+  "video_id": "qWt942zRtYM",
+  "url": "https://www.youtube.com/watch?v=qWt942zRtYM",
+  "metadata": {
+    "title": "Stop Wasting Money on Claude! Use This Free Tool Instead",
+    "channel": "Vaibhav Sisinty",
+    "channel_id": "UClXAalunTPaX1YV185DWUeg",
+    "published_at": "2026-06-23T12:42:59Z",
+    "description": "🔗 Join our WhatsApp Community\nGet the latest AI updates, tips, and insights straight to your inbox:\nhttps://join.switchit.app/YT\n\n--------\n\nTo Know More,\nFollow Vaibhav Sisinty On ⤵︎\n\nInstagram @VaibhavSisinty\nhttps://www.instagram.com/vaibhavsisinty\n\nTwitter @VaibhavSisinty\nhttps://twitter.com/VaibhavSisinty\n\nFacebook @VaibhavSisinty\nhttps://www.facebook.com/vaibhavsisinty/\n\nLinkedIn - Vaibhav Sisinty\nhttps://www.linkedin.com/in/vaibhavsisinty",
+    "tags": [
+      "vaibhav sisinty",
+      "vaibhav ai"
+    ],
+    "category_id": "28",
+    "view_count": 8900,
+    "like_count": 718,
+    "comment_count": 138,
+    "duration": "PT58S"
+  },
+  "transcript": {
+    "available": false,
+    "full_text": "",
+    "word_count": 0,
+    "error": "type object 'YouTubeTranscriptApi' has no attribute 'get_transcript'"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "video_id": "GpSqBjW6hR4",
+  "url": "https://www.youtube.com/watch?v=GpSqBjW6hR4",
+  "metadata": {
+    "title": "I Battle Tested Sakana Fugu's Fable Killer",
+    "channel": "Nate Herk | AI Automation",
+    "channel_id": "UC2ojq-nuP8ceeHqiroeKhBA",
+    "published_at": "2026-06-23T00:26:39Z",
+    "description": "My FREE AI OS Course: https://www.skool.com/ai-automation-society/about?el=sakana-fugu-test&hcategory=youtube-videos&utm_campaign=free-group\nFull courses + unlimited support: https://www.skool.com/ai-automation-society-plus/about?el=sakana-fugu-test&hcategory=youtube-videos&utm_campaign=ais-plus\nApply for my YT podcast: https://podcast.nateherk.com/apply\nWork with me: https://uppitai.com/\n\nMy Tools💻\nFREE MONTH voice to text: https://get.glaido.com/nate\nCode NATEHERK for 10% off VPS (annual plan): https://www.hostinger.com/vps/claude-code-hosting\n\nSakana dropped Fugu Ultra and the announcement went viral claiming it matches Fable and Mythos. Fugu isn't a new model. It's one API that orchestrates and routes tasks across frontier models like Opus, GPT, and Gemini, kind of like Claude Code spinning up sub-agents, just automatic.\n\nSo I ran Fugu Ultra against Claude Opus 4.8 across 38 tasks to see if the orchestration actually wins. In this video you'll see where it landed on quality, speed, and cost, and why I'm not switching off my Claude Code and Codex subscriptions yet.\n\nSponsorship Inquiries:\n📧 nate@smoothmedia.co\n\nConnect with me:\nhttps://www.linkedin.com/in/nateherkelman/\nhttps://x.com/nateherk\nhttps://www.instagram.com/nateherk/\n\nTIMESTAMPS \n0:00 Intro & Fugu Dashboard Demo\n1:00 How Fugu Actually Works\n2:32 Running Fugu In Claude Code\n3:30 The Orchestration Spectrum\n5:07 vs Open Router Fusion API\n5:39 Speed And Cost Reality\n6:28 The 38-Task Test\n10:27 Final Takeaway\n11:45 Outro",
+    "tags": [],
+    "category_id": "1",
+    "view_count": 54395,
+    "like_count": 1491,
+    "comment_count": 126,
+    "duration": "PT12M16S"
+  },
+  "transcript": {
+    "available": false,
+    "full_text": "",
+    "word_count": 0,
+    "error": "type object 'YouTubeTranscriptApi' has no attribute 'get_transcript'"
+  }
+}

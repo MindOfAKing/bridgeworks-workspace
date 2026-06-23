@@ -1,0 +1,23 @@
+{
+  "video_id": "dNfPf5IuICI",
+  "url": "https://www.youtube.com/watch?v=dNfPf5IuICI",
+  "metadata": {
+    "title": "Give Someone a Label and They'll Change Their Own Behavior",
+    "channel": "Alex Hormozi",
+    "channel_id": "UCUyDOdBWhC1MCxEjC46d-zw",
+    "published_at": "2026-06-22T23:01:35Z",
+    "description": "We’re all addicted to the same thing: reward. \n\nThe only difference is what we get it from and where it leads us.",
+    "tags": [],
+    "category_id": "27",
+    "view_count": 23810,
+    "like_count": 1721,
+    "comment_count": 29,
+    "duration": "PT1M1S"
+  },
+  "transcript": {
+    "available": false,
+    "full_text": "",
+    "word_count": 0,
+    "error": "type object 'YouTubeTranscriptApi' has no attribute 'get_transcript'"
+  }
+}

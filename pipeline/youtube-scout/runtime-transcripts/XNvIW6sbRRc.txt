@@ -1,0 +1,507 @@
+# I Used Claude MCP to Make AI UGC Ads and Make Money in 2026
+Channel: Sandy Lee AI
+URL: https://www.youtube.com/watch?v=XNvIW6sbRRc
+Published: 2026-06-23T15:57:49+00:00
+
+[00:00] If you're wanting to make money online
+[00:01] using AI, but you're a little bit lost
+[00:03] with all different directions that are
+[00:04] out there, I believe one of the most
+[00:06] important skill that you can learn is
+[00:08] how to generate AI videos. Whether that
+[00:11] can be UGC videos or for your personal
+[00:13] branding or ad video, whatever that is.
+[00:15] If you can talk to AI, that's a skill
+[00:18] set that's very needed by multiple
+[00:20] different companies in 2026. But one of
+[00:22] the problem is it's not really
+[00:24] complicated to learn the skill because
+[00:26] there too many different platforms as
+[00:28] well as too many different video models.
+[00:30] But also the result is not even good. So
+[00:32] in this video what I'm going to teach
+[00:33] you is I'm going to teach you a real
+[00:35] skill set that you can use to actually
+[00:37] make money. And the way I'm going to
+[00:39] teach you is going to be so simple.
+[00:40] You're going to be very impressed. And
+[00:42] I'll be showing everything live. And
+[00:44] that way you can see start to finish and
+[00:46] know exactly how much time it took for
+[00:48] me. So in today's video you're going to
+[00:50] use two different tools to get this
+[00:52] started. So let's focus on how we can
+[00:54] create this AI UGC ad for different
+[00:57] companies. But before we talk about the
+[00:59] tool, I would like to talk about some of
+[01:01] the job opportunities out there and that
+[01:03] way you can see some potentials. And
+[01:05] know if this is even a good skill to
+[01:07] have or not. Okay, so what I searched
+[01:09] over here, I just searched UGC ads jobs.
+[01:12] Or you can put video ad jobs or whatever
+[01:16] title that you're thinking and then just
+[01:17] put jobs next to it. And you'll be able
+[01:19] to see there are multiple different job
+[01:21] opportunities out there. There are a
+[01:23] couple different platforms you can use.
+[01:25] I just Googled it. That's one of the
+[01:26] ways. Or you can go to Upwork straight
+[01:28] and you can try to look for there. Or
+[01:30] the other way is go to LinkedIn to see
+[01:33] what kind of job posts that are out
+[01:34] there for LinkedIn, too. There is
+[01:36] multiple different job opportunities.
+[01:38] And these are just endless. Here, a lot
+[01:41] of them are remote as well, which is
+[01:43] perfect. This is one of the ways how And
+[01:46] this is one of the ways how you can
+[01:47] actually outreach to these people. You
+[01:50] can not only add them on LinkedIn and
+[01:52] ask for different this AI video
+[01:54] generation opportunities when it comes
+[01:56] to making money online. Or the other way
+[01:58] you can do is send us emails out to
+[02:01] those companies right there and they're
+[02:02] all over the place. If you're working
+[02:04] from another country, you can do that as
+[02:07] well because this is a high signal that
+[02:09] they're trying to hire somebody for
+[02:11] their company. So this is one of the
+[02:13] best way and I will say one of the
+[02:14] fastest way how you can actually try to
+[02:17] find a job. Now, you know there's a lot
+[02:19] of different opportunities out there.
+[02:21] What you can do is you can specifically
+[02:23] make this AI UGC ad as a portfolio in
+[02:28] your niche and try to pitch the idea to
+[02:30] them. That's one of the ways you can do.
+[02:32] But in order for you to do that, you
+[02:33] have to learn different skills. So we
+[02:35] are going to go over every single thing
+[02:37] in this Notion doc today and I'm going
+[02:40] to show you live of how this would work
+[02:42] and I'll make sure to share this Notion
+[02:44] documentation in the description below
+[02:45] so you can also do the exactly the same
+[02:48] to learn the skills. So what you have to
+[02:49] do is you have to go to Arcas.ai. This
+[02:52] is one of the platform that how you can
+[02:54] generate AI UGC videos. So go ahead and
+[02:56] log in if you haven't signed up and
+[02:58] today we're are going to use MCP that
+[03:01] Arcas just recently released which is
+[03:03] fantastic. So if you don't know what MCP
+[03:06] is, it's a connector. So basically it's
+[03:08] a key to your house. So what it is is if
+[03:10] you want to connect Arcas with Claude or
+[03:13] ChatGPT AI model, they can actually
+[03:16] learn different features from Arcas and
+[03:19] that way all you have to do is just talk
+[03:21] to Claude and Claude is going to figure
+[03:23] out their platform. Because one of the
+[03:25] struggle that a lot of us have is
+[03:27] learning the platform and I hate
+[03:29] learning different platforms because
+[03:30] every platform is a little bit
+[03:31] different. But whenever they have MCP,
+[03:33] all you have to do is just learn how to
+[03:34] communicate with Claude. That's it. Once
+[03:36] you're inside, you'll be able to add
+[03:38] couple different things and you'll be
+[03:39] able to just play with different
+[03:41] features here. However, with MCP, you
+[03:44] don't have to learn all these different
+[03:46] features here and Claude is going to
+[03:48] exactly point out what you need to do.
+[03:50] So I'll be walking you through all of
+[03:51] that. but before I go to Claude, there's
+[03:54] one thing you have to do. If you click
+[03:55] over here and click add product, this is
+[03:58] where you can add different product. I'm
+[04:00] going to say Hattie too as an example
+[04:02] and then add to this one product. And I
+[04:05] found this a really cool hat brand
+[04:07] called 47 and I'm just going to use uh
+[04:11] this one as an example because it has
+[04:13] multiple different colors. That's the
+[04:14] That's the theme that I'm trying to go
+[04:16] for. I like this color. So, what I'm
+[04:18] going to do is just copy this hat. And
+[04:20] obviously, this is just an example, but
+[04:23] if you already have a brand, you can do
+[04:25] that for your brand or if client has a
+[04:27] brand, then you can just use that
+[04:29] client's website as an example just
+[04:32] pitch the idea. Anyways, go back here
+[04:34] and what you want to do is
+[04:37] click edit and you'll want to put this
+[04:40] website in here. And I'm just going to
+[04:42] say target audience is between 18 to 24
+[04:45] years old and what is the main feature?
+[04:48] It
+[04:49] it's cool looking and comfortable and
+[04:52] you definitely want to put some of the
+[04:53] things in here. If you don't know what
+[04:55] the main feature is, okay, this is a
+[04:56] structured fit and garment wash, plastic
+[04:59] snap closure. Okay, maybe I can put that
+[05:02] in there as well.
+[05:04] Okay.
+[05:05] And plastic snap closure. Okay.
+[05:10] Obviously, you can put whatever makes
+[05:13] sense to you, but I just added this
+[05:14] product called Hattie. And what I'm
+[05:16] going to do next is go to Claude. Any of
+[05:19] the plans that you have from Arcad, then
+[05:21] you can use this MCP. What you have to
+[05:23] do is if you are on Claude app, click
+[05:26] customize and click connectors. This is
+[05:30] where you can add Arcad's MCP. In this
+[05:32] case, I already added it, but what you
+[05:34] need to do is just click the plus sign
+[05:36] and click add custom connector. You can
+[05:39] name this as Arcad's AI or Arcad and you
+[05:42] have to type this right here. And https
+[05:47] mcp.arcad.ai.
+[05:49] have all different features in here.
+[05:51] This is pretty cool. It doesn't have
+[05:53] every single feature from Arcas.
+[05:58] So, if you want to have a very specific
+[06:00] tool that you want to use from Arcas,
+[06:02] then you have to go straight through
+[06:03] their website. But, just the basic
+[06:05] feature that we're talking about, that
+[06:07] we're going to do, this will this is
+[06:08] good enough. So, what we're going to do
+[06:10] is we're going to use this Hatty 2 as an
+[06:12] example and try our best to create this
+[06:16] good-looking AI UGC video as soon as
+[06:19] possible. However, I want to just tell
+[06:22] you with a full honest person to person
+[06:24] right here because AI videos in general,
+[06:28] it's not perfect for the first time. You
+[06:30] have to refine it a little bit. You have
+[06:31] to change here and there because from a
+[06:33] human's perspective, we know exactly
+[06:36] what's good, what's not good. From AI to
+[06:38] AI, they don't really know. So, I think
+[06:40] this is actually a good sign because AI
+[06:43] is not going to replace us. And we're
+[06:44] just going to use AI as a tool. That's
+[06:46] what it is. And that's literally what
+[06:48] I'm doing. I'm using AI as a tool. If
+[06:50] you are a video editor or
+[06:53] UGC creator or just a AI lovers,
+[06:57] whatever that you want to do or make
+[06:59] money with side hustle people, this is a
+[07:01] tool that you can use. Okay? This is not
+[07:03] a replacement of a person. So, what
+[07:05] we're going to do is we already
+[07:06] connected to MCP and I'm going to go
+[07:09] back to my Notion doc and then put this
+[07:11] prompt in here, which you are going to
+[07:13] get all this prompt for yourself. But,
+[07:15] basically this prompt is a easier way
+[07:16] for Claude to do the research for you
+[07:19] and that way you don't have to do the
+[07:20] research manually. Claude is going to do
+[07:23] it so that you can save time. This is
+[07:25] the best. You can use Opus 4.8, but it
+[07:28] use a lot of credits. I'm just going to
+[07:30] use Sonnet for this one specifically is
+[07:32] because you're practicing. For the
+[07:34] practice, I do suggest Sonnet. If you're
+[07:36] actually trying to generate something
+[07:37] for your client, then I use Opus to
+[07:39] begin with. And then I'm going to say a
+[07:41] product
+[07:42] is hats, and I can even give the link
+[07:45] over here, and that's it. So, this is
+[07:47] talking about the pain points and what
+[07:50] this is about, you're going to find
+[07:51] different opportunities for me. And if
+[07:53] you're looking at this AI right here,
+[07:55] they're doing a really good research
+[07:57] just to see what is the hook style, what
+[07:59] is the different platform, what are
+[08:00] people actually using. It's doing the
+[08:02] research that's been already working for
+[08:04] you. So, the one thing that I've been
+[08:06] trying to push is you don't have to be
+[08:08] original. You want to be authentic,
+[08:11] right? You want to have your own story,
+[08:12] your own voice, but you don't have to be
+[08:15] original in every single content because
+[08:17] not many people are actually original.
+[08:19] Being original is good, however, if you
+[08:22] want to grow fast, which is one of the
+[08:24] reasons why we're learning AI, you have
+[08:27] to copy other people's format, okay? I'm
+[08:29] not saying be a copycat and just do
+[08:31] exactly what other people are doing. No,
+[08:33] get inspired by other people and try to
+[08:36] copy the format that's working for
+[08:38] others, and you are going to make your
+[08:41] own style. And that's the exact process
+[08:43] we're working on right now. So, here it
+[08:45] talks about different hook style and fit
+[08:47] check, reveal, and the pattern
+[08:49] interrupt, social proof call out,
+[08:50] curiosity gap. This is awesome. So, it's
+[08:53] doing the research for you, and it's
+[08:55] doing different testing priorities,
+[08:58] different hooks. It's still doing the
+[08:59] research. That's awesome. That's what we
+[09:01] want. What we're going to do next after
+[09:03] doing the research is we are actually
+[09:05] going to write a UGC script as if the
+[09:08] Claude is the script writer. So, what
+[09:11] you are going to do is you're going to
+[09:12] copy this prompt and going to say, "My
+[09:15] product is Hatty too, uh hat brand, and
+[09:18] what it does is just a very cool hat."
+[09:22] And obviously, this is just one of the
+[09:24] examples, right? I want to faster the
+[09:26] process for you so you know exactly what
+[09:28] the outcome looks like. Target audience
+[09:30] is 18 to 20 years old and platform.
+[09:33] Perfect. This is good to go. Just click.
+[09:36] That's it.
+[09:37] Now, after doing the research, you've
+[09:39] been giving a prompt and telling them
+[09:42] you are the UGC ad scriptwriter. Do you
+[09:44] guys know how much money this costs if
+[09:46] you were to hire somebody? A ton. Like a
+[09:49] ton. Or even like if you were to do this
+[09:51] for a company, you can charge so much
+[09:53] money because a lot of people are
+[09:55] lacking how to communicate with AI right
+[09:57] now. That is a skill set. Not many
+[09:59] people know how to talk to AI. That's
+[10:01] the reason why a lot of result they get
+[10:03] is pretty crappy because they don't know
+[10:04] how to communicate. And that's a skill
+[10:06] that we're we're learning right now.
+[10:08] That's a skill that I'm constantly
+[10:10] learning myself as well. That's going to
+[10:12] be a game-changer for you if you learn
+[10:13] that skill. And it's doing a little bit
+[10:15] of this hook and problem. Do you see
+[10:17] that? Ooh, the script right here. Nine
+[10:20] 9.7 out of 10. That's good. All right,
+[10:22] let's look at the hook. It says, "Every
+[10:24] guy I know is wearing the exact same hat
+[10:26] right now. I refuse to like I would go
+[10:28] put on my fit and every cap I own would
+[10:31] look like they came from the same five
+[10:33] brands. Nothing actually felt like mine.
+[10:35] Then I found Hati too."
+[10:38] It sounds so like advertisement. "Then I
+[10:40] found Hati too." That's interesting.
+[10:42] "The design is just different. It's not
+[10:44] trying to be another logo drop. It hits
+[10:47] clean without looking like everything
+[10:49] else."
+[10:50] "I've had three people ask me where I
+[10:52] got it this week. Three. Link in the bio
+[10:54] if you want to learn." Okay, that's
+[10:56] pretty cool. I like [snorts] this. Pain
+[10:58] points. It has a pain point, which is
+[11:00] that it looks the same. The second pain
+[11:02] point is like
+[11:04] um it can't tie the fit together, okay?
+[11:07] The third pain point is it feels cheap
+[11:09] fast. Got you. Now, what you want to do
+[11:11] next is now you want to really actually
+[11:14] generate something, right? So, what
+[11:16] we're going to do is we're going to type
+[11:18] this, "List all available voices and
+[11:20] actors in Arcad." And if you were to do
+[11:23] that, just click allow. What Claude is
+[11:25] doing instead of you going through Arcad
+[11:27] and going one by one, what kind of
+[11:30] available voices or actors they have, it
+[11:33] is doing it for you. This is doing it
+[11:35] for you, which is fantastic. And so we
+[11:36] have a lot of different voices that we
+[11:38] can use. They are 694 total. It's giving
+[11:43] me a sample based on the age that we put
+[11:45] together. So I'm just going to say pull
+[11:47] the exact one of the filter voices. Yes,
+[11:49] do it. And what I'm going to do is I'm
+[11:52] going to generate a person using Arcas
+[11:55] as well. Okay, it's listing over here
+[11:57] and then I'm going to use this prompt.
+[11:59] I'm going to use uh
+[12:00] actually this woman in her
+[12:03] >> [snorts]
+[12:03] >> early 20s because my target audience is
+[12:05] younger. Now, when it comes to this, you
+[12:07] have to know your ICP. This is very
+[12:10] important and everything is around
+[12:12] surrounded by your ICP where they can
+[12:14] relate, ideal customer person. And this
+[12:17] case for this Hattie 2, we are doing
+[12:19] younger generation, that's why we put
+[12:21] early 20s. But if you're going for older
+[12:23] generations, then you want to change
+[12:25] this. And depending when men will
+[12:27] resonate with men better, vice versa.
+[12:29] Women will resonate with women better.
+[12:31] So you just want to prompt it right for
+[12:34] the niche that you're trying to target.
+[12:36] Okay, looks like everything's done.
+[12:37] Claude actually pick out the right voice
+[12:39] for my specific brand that I'm working
+[12:42] on. And what I'm going to do next is I'm
+[12:44] going to type, "Hey, now create this
+[12:46] images for this lady." And it And it
+[12:48] says, "I don't have any images. Could
+[12:50] you upload the product reference?" So
+[12:52] you can do two different things. You can
+[12:53] go to Nano Banana there and then come
+[12:55] back here. But I'm just going to say
+[12:57] Arcas has Nano Banana Pro feature. Use
+[13:03] it. Okay, what just happened is the
+[13:05] Claude said, "No, I we can't use Nano
+[13:07] Banana Pro." You might see that, but I'm
+[13:10] just saying generate from zero and you
+[13:12] can use it because Arcas already have a
+[13:14] Nano Banana Pro feature inside of it, so
+[13:17] you can use it. So you don't have to go
+[13:18] to different platforms. Although you can
+[13:20] definitely go to Gemini and use it
+[13:21] straight from there. But I'm just going
+[13:23] to say this is for Hattie 2. Remember we
+[13:26] created this Hattie 2?
+[13:27] And it's going to try to generate these
+[13:30] images for us. We'll see if this works.
+[13:32] It looks like it is generating image
+[13:33] right here if you see it. Generate image
+[13:36] Nana banana and finding different tools.
+[13:38] So, if AI said, "No, I can't do it." and
+[13:40] you know that they can do it, then you
+[13:42] just have to prompt it and then tell
+[13:44] them exactly what they should be doing.
+[13:46] This In this case, I said, "Yes, you
+[13:47] can. They have a feature. Go ahead head
+[13:50] and do Go ahead and do it." and they're
+[13:52] generating the asset right now. Okay, it
+[13:54] looks like the images are ready. Let me
+[13:56] take a look at this. This is the lady
+[13:58] that we got from Nana banana Pro through
+[14:02] our cat. I actually like her. She's
+[14:04] really cute. Yes, super cute. And she
+[14:08] Does she kind of look realistic, too? I
+[14:09] don't know. I Yeah. So, I'm just going
+[14:11] to go ahead and go with her. Great. Now,
+[14:14] what we're going to do is we're actually
+[14:16] going to make this video. And by the
+[14:19] way, what I'm doing right now is I'm
+[14:21] literally copy and pasting some of the
+[14:22] prompts in here as a practice one and
+[14:24] you can customize this as much as
+[14:26] possible. But, I'm going to go back here
+[14:28] and then use this, which is using the
+[14:30] approved image over here, create 10 to
+[14:33] 12 seconds UGC video using C dance 2.0
+[14:37] and use a script that you wrote. And I'm
+[14:40] going to click it and make Claude
+[14:43] generate video for me. It says two
+[14:45] things I need to do, approve images
+[14:47] No images through this one. This is the
+[14:50] image. So, I'm just going to copy this
+[14:52] whole thing.
+[14:54] >> [snorts]
+[14:55] >> This image.
+[14:56] And for script, I'm going to go with
+[14:59] script number one.
+[15:01] And script one. Perfect. And we'll see
+[15:03] how that goes. Okay, it looks like it's
+[15:04] working. It says C dance 2.0 typically
+[15:07] takes around 7 minutes.
+[15:09] I'm hoping it's going to be faster, but
+[15:11] still even that, that's not too long.
+[15:13] This is a time that you can go ahead and
+[15:15] do your research or do other things what
+[15:18] you need to do. And honestly, this is a
+[15:20] lot better than doing everything
+[15:21] manually. So, you're just doing
+[15:23] everything on the Claude. Okay, it looks
+[15:25] like this is ready. So, let's go take a
+[15:27] look at this video that they generated.
+[15:29] Every gal I know is wearing the exact
+[15:30] same hat right now. I refuse to. Like
+[15:32] I'd go to put on my fit and every cap I
+[15:33] own look like it came from the same five
+[15:34] brands. Nothing actually felt like mine.
+[15:36] Then I found Haddy too. The design is
+[15:37] just different. It's not trying to be
+[15:38] another logo drop. It hits clean without
+[15:40] asking me where I got it this week.
+[15:41] Three. Links in the bio if you want to
+[15:42] be the one person in the room wearing
+[15:43] something different. Honestly, this
+[15:44] looks pretty good and this is not too
+[15:46] bad for the first round. As I mentioned
+[15:48] before, you have to have multiple rounds
+[15:50] to make it better and and every single
+[15:53] video that's out there, it's not just
+[15:54] one prompt and that's it. It is
+[15:57] generated by one prompt, I get it.
+[15:59] However, they made couple different
+[16:01] prompts after making a video after AI
+[16:04] just generating video. It's not that
+[16:06] simple, but compared to back in the
+[16:08] days, it has gotten a lot faster, a lot
+[16:11] easier. And with MCP, honestly, it's
+[16:14] just so much easier compared to having
+[16:16] to deal with the platform of learning
+[16:21] the platform itself, it takes forever to
+[16:23] in general. So,
+[16:25] here's what we can do afterwards. So,
+[16:27] let's just say you got the video that
+[16:29] you like and finally you found a client.
+[16:31] Now, what to do? If they're wanting to
+[16:33] attach this advertisement into meta ad,
+[16:36] and that way they can advertise this ad,
+[16:38] then this is a skill set you can also
+[16:40] learn and try to pitch too. It's like, I
+[16:42] know how to do that. One of the best way
+[16:43] that you can do is have Claude do that
+[16:45] for you. Go back to connectors and click
+[16:47] add custom connector and you can just
+[16:49] say this is a meta
+[16:52] and type mcp.facebook.com/ads.
+[16:56] If you add it here, then you can connect
+[16:58] to meta, which is you're adding the
+[16:59] Facebook ad ability to use it from here.
+[17:03] So, all you need to do is specifically
+[17:04] tell your ICP and make sure your video
+[17:08] is connected to Facebook ad and they can
+[17:10] run it for you. And you can ask AI to be
+[17:12] the advertisement expert and that way
+[17:15] they can do the research for you and
+[17:17] give you every single detail of how you
+[17:19] can do it. Now, I'm not going to cover
+[17:20] in detail of how that works in this
+[17:22] video because it's already a long video
+[17:24] and I don't want to overwhelm you. But,
+[17:26] if you're curious of how you can
+[17:28] actually do that, just write meta in the
+[17:29] comments and that way I know that you
+[17:31] want to learn that as well. Okay, I hope
+[17:33] this video was helpful. This is one of
+[17:34] the way that you can definitely generate
+[17:36] money using AI if you got the right
+[17:38] skill and if you're consistent and
+[17:40] persistent when it comes to actually
+[17:42] getting client. And there multiple
+[17:43] different ways that you can generate
+[17:45] money using AI and I actually created
+[17:47] multiple different income basket when it
+[17:48] comes to AI and my side hustles. So, if
+[17:51] you're curious about how I was able to
+[17:53] generate $44,000 last month using AI,
+[17:56] make sure to watch this video.

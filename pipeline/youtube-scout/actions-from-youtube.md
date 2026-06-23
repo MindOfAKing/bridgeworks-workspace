@@ -104,3 +104,32 @@ Change: Before accepting discounts or extra scope, require a six-point check: no
 Evidence file: `pipeline/youtube-scout/transcript-extractions/yt-20260622-001-pricing-integrity.md`  
 Status: Needs template integration into Foundation offer and Oliviks add-on handling.
 
+## 2026-06-23
+
+### Action: Draft AI UGC Ad Sprint Approval Checklist
+
+Source: Sandy Lee AI - `I Used Claude MCP to Make AI UGC Ads and Make Money in 2026`  
+Decision: Adapt  
+Area: Content And Visibility Systems, Offer Testing, Client Delivery  
+Change: Create a draft-only UGC ad sprint checklist covering ICP, hook research, script options, actor / voice fit, first-pass review, manual approval, and spend gate.  
+Evidence file: `pipeline/youtube-scout/transcript-extractions/yt-20260623-001-ai-ugc-mcp-ad-sprint.md`  
+Status: Needs checklist. No publishing, client contact, or paid ads without approval.
+
+### Action: Add Model-Routing Cost Gate
+
+Source: Nate Herk - `I Battle Tested Sakana Fugu's Fable Killer`  
+Decision: Reject for now / Watch  
+Area: Local AI Ops, Agency Operations, Delivery Verification  
+Change: Add a routing rule before paid orchestration tools: test cheaper model routing first, require quality gain, cap spend, and verify with real task output.  
+Evidence file: `pipeline/youtube-scout/transcript-extractions/yt-20260623-002-model-orchestration-cost-gate.md`  
+Status: Needs SOP note. No paid API loop.
+
+### Action: Create Foundation Client Fit Filter
+
+Source: Alex Hormozi - `Same Sales Velocity, But LTV Is 5-10x Higher`  
+Decision: Adapt  
+Area: Pricing, Sales Qualification, Foundation Offer  
+Change: Create a one-page qualification filter so BridgeWorks says no to low-fit or scope-creep clients before work starts.  
+Evidence file: `pipeline/youtube-scout/transcript-extractions/yt-20260623-003-avatar-upgrade-sales-system.md`  
+Status: Needs template.
+
