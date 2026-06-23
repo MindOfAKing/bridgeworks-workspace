@@ -1,7 +1,5 @@
 import Image from 'next/image';
 
-// Renders a real photo when available, otherwise a warm branded placeholder so the
-// site looks intentional before the client supplies final photos.
 export function DishImage({
   src,
   alt,
@@ -20,11 +18,11 @@ export function DishImage({
   }
   return (
     <div
-      className={`flex items-center justify-center bg-gradient-to-br from-[#f3d9a0] via-[#e8a838] to-[#c44d2b] ${className ?? ''}`}
+      className={`flex items-center justify-center bg-[#ede3d4] ${className ?? ''}`}
       aria-label={alt}
       role="img"
     >
-      <span className="px-4 text-center font-display text-lg font-semibold text-cocoa/70">
+      <span className="px-4 text-center font-display text-sm font-medium text-cocoa/40">
         {alt}
       </span>
     </div>

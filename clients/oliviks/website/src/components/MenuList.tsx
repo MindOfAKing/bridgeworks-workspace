@@ -1,7 +1,7 @@
 'use client';
 
 import { useMemo, useState } from 'react';
-import { motion } from 'framer-motion';
+import { motion, AnimatePresence } from 'framer-motion';
 import { Check, Flame, Plus, SlidersHorizontal } from 'lucide-react';
 import { menu, type Dish, type DishOptionGroup, type MenuCategory } from '@/data/menu';
 import { useOrder, type OrderItemOption } from '@/context/OrderContext';
@@ -25,24 +25,30 @@ export function MenuList({ categories: providedCategories }: { categories?: Menu
         </div>
       </div>
 
-      <div className="space-y-16">
-        {categories.map((cat) => (
-          <section key={cat.id} id={cat.id} className="scroll-mt-40">
-            <div className="mb-7 flex flex-col gap-2 border-b border-cocoa/10 pb-5 sm:flex-row sm:items-end sm:justify-between">
-              <div>
-                <p className="eyebrow">Menu section</p>
-                <h2 className="mt-2 font-display text-3xl font-bold text-cocoa sm:text-4xl">{cat.title}</h2>
+      <AnimatePresence mode="wait">
+        <motion.div
+          key={active}
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          exit={{ opacity: 0 }}
+          transition={{ duration: 0.18 }}
+          className="space-y-16"
+        >
+          {categories.map((cat) => (
+            <section key={cat.id} id={cat.id} className="scroll-mt-40">
+              <div className="mb-8 flex flex-col gap-1 border-b border-cocoa/10 pb-6 sm:flex-row sm:items-end sm:justify-between">
+                <h2 className="font-display text-3xl font-bold text-cocoa sm:text-4xl">{cat.title}</h2>
+                <p className="max-w-xl text-sm leading-relaxed text-cocoa/55 sm:text-right">{cat.blurb}</p>
               </div>
-              <p className="max-w-xl text-sm leading-relaxed text-cocoa/60 sm:text-right">{cat.blurb}</p>
-            </div>
-            <div className="grid gap-7 sm:grid-cols-2 lg:grid-cols-3">
-              {cat.items.map((dish, i) => (
-                <MenuCard key={dish.name} dish={dish} category={cat.title} delay={(i % 3) * 0.06} onAdd={addItem} />
-              ))}
-            </div>
-          </section>
-        ))}
-      </div>
+              <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+                {cat.items.map((dish, i) => (
+                  <MenuCard key={dish.name} dish={dish} category={cat.title} delay={(i % 3) * 0.06} onAdd={addItem} />
+                ))}
+              </div>
+            </section>
+          ))}
+        </motion.div>
+      </AnimatePresence>
     </div>
   );
 }
@@ -71,39 +77,32 @@ function MenuCard({
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true, margin: '-40px' }}
       transition={{ duration: 0.4, delay }}
-      className="menu-card group flex overflow-hidden rounded-[1.75rem] border border-cocoa/10 bg-white shadow-sm ring-1 ring-transparent transition-all duration-300 hover:-translate-y-1 hover:shadow-xl hover:ring-gold/25"
+      className="menu-card group flex overflow-hidden rounded-xl border border-cocoa/10 bg-white shadow-sm ring-1 ring-transparent transition-all duration-300 hover:-translate-y-1 hover:shadow-lg hover:ring-gold/25"
     >
       <div className="flex w-full flex-col">
         <div className="relative overflow-hidden">
           <DishImage src={dish.image} alt={dish.name} className="h-52 w-full transition-transform duration-500 group-hover:scale-105" />
-          <div className="absolute inset-x-0 bottom-0 h-24 bg-gradient-to-t from-cocoa/65 to-transparent" />
-          <div className="absolute left-4 top-4 flex flex-wrap gap-2">
-            {dish.tags?.includes('popular') && (
+          {dish.tags?.includes('popular') && (
+            <div className="absolute left-4 top-4">
               <span className="inline-flex items-center gap-1 rounded-full bg-gold px-3 py-1 text-xs font-bold text-cocoa shadow-sm">
                 <Flame size={13} /> Popular
               </span>
-            )}
-            {hasOptions && (
-              <span className="rounded-full bg-white/90 px-3 py-1 text-xs font-bold text-cocoa shadow-sm">Customizable</span>
-            )}
-          </div>
-          {dish.price && (
-            <span className="absolute bottom-4 right-4 rounded-full bg-cream px-4 py-2 text-sm font-bold text-palm shadow-lg">
-              {dish.price}
-            </span>
+            </div>
           )}
         </div>
 
         <div className="flex flex-1 flex-col p-5">
           <div>
-            <p className="text-xs font-bold uppercase tracking-[0.18em] text-palm">{category}</p>
-            <h3 className="mt-2 font-display text-xl font-bold text-cocoa">{dish.name}</h3>
+            <h3 className="font-display text-xl font-bold text-cocoa">{dish.name}</h3>
+            {dish.price && (
+              <p className="mt-1 text-sm font-semibold text-palm">{dish.price}</p>
+            )}
             <p className="mt-2 text-sm leading-relaxed text-cocoa/70">{dish.description}</p>
           </div>
 
           {hasOptions && (
-            <div className="customize-panel mt-5 rounded-3xl border border-gold/35 bg-gradient-to-br from-gold/15 to-cream p-4">
-              <p className="mb-3 flex items-center gap-2 text-xs font-bold uppercase tracking-[0.16em] text-cocoa/70">
+            <div className="customize-panel mt-5 rounded-xl border border-gold/25 bg-gold/10 p-4">
+              <p className="mb-3 flex items-center gap-2 text-xs font-bold uppercase tracking-[0.16em] text-cocoa/60">
                 <SlidersHorizontal size={14} aria-hidden="true" />
                 Customize your plate
               </p>
@@ -149,7 +148,7 @@ function OptionSelector({
   if (group.type === 'boolean') {
     const checked = value === group.options[0]?.label;
     return (
-      <label className="option-control flex cursor-pointer items-center justify-between gap-3 rounded-2xl border border-cocoa/10 bg-white px-3 py-3 text-sm text-cocoa shadow-sm transition-colors hover:border-gold/70">
+      <label className="option-control flex cursor-pointer items-center justify-between gap-3 rounded-xl border border-cocoa/10 bg-white px-3 py-3 text-sm text-cocoa shadow-sm transition-colors hover:border-gold/70">
         <span>
           <span className="block font-semibold">{group.label}</span>
           {group.options[0]?.priceNote && (
@@ -175,7 +174,7 @@ function OptionSelector({
       <select
         value={value}
         onChange={(event) => onChange(event.target.value)}
-        className="w-full rounded-2xl border border-cocoa/10 bg-white px-3 py-3 text-sm font-medium text-cocoa shadow-sm outline-none transition-colors focus:border-palm focus:ring-2 focus:ring-gold/40 accent-gold"
+        className="w-full rounded-xl border border-cocoa/10 bg-white px-3 py-3 text-sm font-medium text-cocoa shadow-sm outline-none transition-colors focus:border-palm focus:ring-2 focus:ring-gold/40 accent-gold"
       >
         {group.options.map((option) => (
           <option key={option.label} value={option.label}>

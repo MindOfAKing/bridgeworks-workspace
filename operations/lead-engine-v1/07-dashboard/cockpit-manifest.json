@@ -1,0 +1,17 @@
+{
+  "name": "BridgeWorks Lead Engine Cockpit",
+  "created": "2026-06-23",
+  "url": "http://127.0.0.1:8766/",
+  "server_session_id": "proc_fa300299aa13",
+  "dashboard_dir": "C:\\Users\\User\\Projects\\bridgeworks-workspace\\operations\\lead-engine-v1\\07-dashboard",
+  "refresh_command": "python C:/Users/User/Projects/bridgeworks-workspace/operations/lead-engine-v1/07-dashboard/refresh.py",
+  "serve_command": "python -m http.server 8766",
+  "verified": {
+    "index_http_status": 200,
+    "data_http_status": 200,
+    "prospects": 10,
+    "sent_waiting": 3,
+    "batch2_prepared": 3
+  },
+  "guardrail": "Local/private only. Do not deploy publicly without removing sensitive prospect/email/operations data."
+}

@@ -1,0 +1,283 @@
+{
+  "generated_at": "2026-06-23T23:49:40",
+  "root": "C:\\Users\\User\\Projects\\bridgeworks-workspace\\operations\\lead-engine-v1",
+  "summary": {
+    "total_prospects": 10,
+    "sent_waiting": 3,
+    "batch2_prepared": 3,
+    "reviewed_not_sent": 2,
+    "next_follow_up": {
+      "business": "Managerent",
+      "date": "2026-06-30",
+      "status": "Sent - waiting for reply",
+      "days": 7
+    },
+    "overdue_count": 0
+  },
+  "counts_by_status": {
+    "Reviewed - no outreach sent": 2,
+    "Sent - waiting for reply": 3,
+    "Batch 2 prepared - not sent": 3,
+    "Research": 2
+  },
+  "counts_by_score": {
+    "WARM+": 3,
+    "WARM": 3,
+    "COLD/WARM": 2,
+    "COLD": 2
+  },
+  "prospects": [
+    {
+      "date_added": "2026-06-23",
+      "business_name": "Tower Budapest",
+      "website": "https://www.towerbudapest.com/",
+      "niche": "Property management",
+      "location": "Budapest",
+      "contact_name": "",
+      "contact_email_or_social": "",
+      "source": "Market research sprint",
+      "problem_spotted": "They are not broken. The useful angle is conversion clarity for foreign landlords who are already comparing managers.",
+      "lead_score_hot_warm_cold": "WARM+",
+      "score_reason": "Strong. Best benchmark and likely best outreach candidate if message is respectful and not basic.",
+      "recommended_offer": "48-Hour Lead Leak Review",
+      "last_contacted": "",
+      "next_follow_up": "",
+      "status": "Reviewed - no outreach sent",
+      "notes": "Review saved: 02-lead-leak-reviews/tower-budapest-lead-leak-review.md"
+    },
+    {
+      "date_added": "2026-06-23",
+      "business_name": "Crystal Property Management",
+      "website": "https://crystalproperty.hu/",
+      "niche": "Property management",
+      "location": "Budapest",
+      "contact_name": "",
+      "contact_email_or_social": "",
+      "source": "Market research sprint",
+      "problem_spotted": "Focus on helping foreign owners and commercial landlords trust them faster before they reach the contact form.",
+      "lead_score_hot_warm_cold": "WARM",
+      "score_reason": "Strong owner-led/local fit. Good candidate because the trust story exists but appears less sharpened than Tower.",
+      "recommended_offer": "48-Hour Lead Leak Review",
+      "last_contacted": "",
+      "next_follow_up": "",
+      "status": "Reviewed - no outreach sent",
+      "notes": "Review saved: 02-lead-leak-reviews/crystal-property-lead-leak-review.md"
+    },
+    {
+      "date_added": "2026-06-23",
+      "business_name": "Managerent",
+      "website": "https://www.managerent.hu/",
+      "niche": "Property management",
+      "location": "Budapest",
+      "contact_name": "",
+      "contact_email_or_social": "",
+      "source": "Market research sprint",
+      "problem_spotted": "Lead with the English trust leak. Their offer is strong, but overseas investors may judge reliability from language quality before enquiring.",
+      "lead_score_hot_warm_cold": "WARM+",
+      "score_reason": "Strong fit. Good foreign-owner pain and clear management offer, but copy quality creates obvious trust leaks.",
+      "recommended_offer": "48-Hour Lead Leak Review",
+      "last_contacted": "2026-06-23",
+      "next_follow_up": "2026-06-30",
+      "status": "Sent - waiting for reply",
+      "notes": "Review saved: 02-lead-leak-reviews/managerent-lead-leak-review.md | Gmail draft r5815528680154343023, message 19ef5cb9348d5278 | Sent via Gmail 2026-06-23 21:03 +0200; sent message 19ef5dd74e105f4e; thread 19ef5cb9348d5278"
+    },
+    {
+      "date_added": "2026-06-23",
+      "business_name": "A+ Real Estate",
+      "website": "https://aplusproperty.hu/",
+      "niche": "Property services",
+      "location": "Budapest",
+      "contact_name": "",
+      "contact_email_or_social": "",
+      "source": "Market research sprint",
+      "problem_spotted": "Focus on premium trust leakage. High-value listings plus copy errors create a clear reason to review the enquiry path.",
+      "lead_score_hot_warm_cold": "WARM",
+      "score_reason": "Good fit, especially for investment/property management. Strong property values mean high upside, but the site appears more sales/listing-led than management-led.",
+      "recommended_offer": "48-Hour Lead Leak Review",
+      "last_contacted": "2026-06-23",
+      "next_follow_up": "2026-06-30",
+      "status": "Sent - waiting for reply",
+      "notes": "Review saved: 02-lead-leak-reviews/aplus-real-estate-lead-leak-review.md | Gmail draft r1679981539853967476, message 19ef5cb9419fabdb | Sent via Gmail 2026-06-23 21:00 +0200; sent message 19ef5daed0f1afc1; thread 19ef5cb9419fabdb"
+    },
+    {
+      "date_added": "2026-06-23",
+      "business_name": "Homever",
+      "website": "https://homever.hu/en/article/professional-property-management/",
+      "niche": "Property management",
+      "location": "Budapest",
+      "contact_name": "",
+      "contact_email_or_social": "",
+      "source": "Market research sprint",
+      "problem_spotted": "Homever is strong. The angle is not “bad website”, it is turning good proof and education into a clearer landlord enquiry path.",
+      "lead_score_hot_warm_cold": "WARM",
+      "score_reason": "Good fit, but not first-priority because the site is already relatively clear and proof-rich.",
+      "recommended_offer": "48-Hour Lead Leak Review",
+      "last_contacted": "",
+      "next_follow_up": "",
+      "status": "Batch 2 prepared - not sent",
+      "notes": "Review saved: 02-lead-leak-reviews/batch-2/homever-lead-leak-review.md | Outreach draft: 03-outreach-drafts/batch-2/homever-outreach-draft.md"
+    },
+    {
+      "date_added": "2026-06-23",
+      "business_name": "Craftex",
+      "website": "https://craftex.hu/",
+      "niche": "Maintenance / renovation / fit-out",
+      "location": "Budapest",
+      "contact_name": "",
+      "contact_email_or_social": "",
+      "source": "Market research sprint",
+      "problem_spotted": "This is the clearest “visible leak” candidate because credibility counters and broad positioning may be costing quote requests.",
+      "lead_score_hot_warm_cold": "WARM+",
+      "score_reason": "Strong sub-lane fit. Best if positioned around commercial property owners, investors, offices, clinics, hospitality and fit-out, not generic residential renovation.",
+      "recommended_offer": "48-Hour Lead Leak Review",
+      "last_contacted": "2026-06-23",
+      "next_follow_up": "2026-06-30",
+      "status": "Sent - waiting for reply",
+      "notes": "Review saved: 02-lead-leak-reviews/craftex-lead-leak-review.md | Gmail draft r9099344852063942301, message 19ef5cb93d25d150 | Sent via Gmail 2026-06-23 21:01 +0200; sent message 19ef5dbdaedfb5bf; thread 19ef5cb93d25d150"
+    },
+    {
+      "date_added": "2026-06-23",
+      "business_name": "Rustler Hungary",
+      "website": "https://rustler.hu/en/facility-management/",
+      "niche": "Facility / property management",
+      "location": "Budapest/Hungary",
+      "contact_name": "",
+      "contact_email_or_social": "",
+      "source": "Market research sprint",
+      "problem_spotted": "Use only if sending to larger FM firms. The respectful angle is reducing friction for qualified FM enquiries, not fixing a bad site.",
+      "lead_score_hot_warm_cold": "COLD/WARM",
+      "score_reason": "Good benchmark but less ideal for cold outreach because it is larger and more enterprise/procurement driven.",
+      "recommended_offer": "48-Hour Lead Leak Review",
+      "last_contacted": "",
+      "next_follow_up": "",
+      "status": "Batch 2 prepared - not sent",
+      "notes": "Review saved: 02-lead-leak-reviews/batch-2/rustler-hungary-lead-leak-review.md | Outreach draft: 03-outreach-drafts/batch-2/rustler-hungary-outreach-draft.md"
+    },
+    {
+      "date_added": "2026-06-23",
+      "business_name": "FRAME Group",
+      "website": "https://frame.hu/en/services/facility-management/",
+      "niche": "Facility / maintenance",
+      "location": "Budapest/Hungary",
+      "contact_name": "",
+      "contact_email_or_social": "",
+      "source": "Market research sprint",
+      "problem_spotted": "Only use if messaging larger FM providers. The strongest specific hook is contact email consistency and clearer routing for FM enquiries.",
+      "lead_score_hot_warm_cold": "COLD/WARM",
+      "score_reason": "Strong benchmark, but likely too large for first cold outreach. Better as premium follow-on or later targeted message.",
+      "recommended_offer": "48-Hour Lead Leak Review",
+      "last_contacted": "",
+      "next_follow_up": "",
+      "status": "Batch 2 prepared - not sent",
+      "notes": "Review saved: 02-lead-leak-reviews/batch-2/frame-group-lead-leak-review.md | Outreach draft: 03-outreach-drafts/batch-2/frame-group-outreach-draft.md"
+    },
+    {
+      "date_added": "2026-06-23",
+      "business_name": "First Facility Hungary",
+      "website": "https://firstfacility.hu/en",
+      "niche": "Facility / property management",
+      "location": "Budapest/Hungary",
+      "contact_name": "",
+      "contact_email_or_social": "",
+      "source": "Market research sprint",
+      "problem_spotted": "Large benchmark for FM/PM positioning and service clarity",
+      "lead_score_hot_warm_cold": "COLD",
+      "score_reason": "Useful benchmark, likely too large for first outreach",
+      "recommended_offer": "48-Hour Lead Leak Review",
+      "last_contacted": "",
+      "next_follow_up": "",
+      "status": "Research",
+      "notes": "Benchmark only unless warm connection appears."
+    },
+    {
+      "date_added": "2026-06-23",
+      "business_name": "ICON Real Estate Management",
+      "website": "https://iconrem.hu/en/services/facility-management/",
+      "niche": "Facility / property management",
+      "location": "Budapest/Hungary",
+      "contact_name": "",
+      "contact_email_or_social": "",
+      "source": "Market research sprint",
+      "problem_spotted": "Large real estate asset manager benchmark",
+      "lead_score_hot_warm_cold": "COLD",
+      "score_reason": "Useful benchmark, likely too large for first outreach",
+      "recommended_offer": "48-Hour Lead Leak Review",
+      "last_contacted": "",
+      "next_follow_up": "",
+      "status": "Research",
+      "notes": "Benchmark only unless warm connection appears."
+    }
+  ],
+  "upcoming_followups": [
+    {
+      "business": "Managerent",
+      "date": "2026-06-30",
+      "status": "Sent - waiting for reply",
+      "days": 7
+    },
+    {
+      "business": "A+ Real Estate",
+      "date": "2026-06-30",
+      "status": "Sent - waiting for reply",
+      "days": 7
+    },
+    {
+      "business": "Craftex",
+      "date": "2026-06-30",
+      "status": "Sent - waiting for reply",
+      "days": 7
+    }
+  ],
+  "overdue_followups": [],
+  "send_log": {
+    "Managerent": {
+      "sent_msg": "19ef5dd74e105f4e",
+      "thread": "19ef5cb9348d5278",
+      "time": "2026-06-23 21:03 +0200"
+    },
+    "Craftex": {
+      "sent_msg": "19ef5dbdaedfb5bf",
+      "thread": "19ef5cb93d25d150",
+      "time": "2026-06-23 21:01 +0200"
+    },
+    "A+ Real Estate": {
+      "sent_msg": "19ef5daed0f1afc1",
+      "thread": "19ef5cb9419fabdb",
+      "time": "2026-06-23 21:00 +0200"
+    }
+  },
+  "batch2_summary_lines": [
+    "1. **Homever** — WARM — strong proof and content, but landlord enquiry path can be sharpened.",
+    "2. **Interház** — WARM — strong condominium-management niche, international-owner clarity angle.",
+    "3. **Premier Property Management** — WARM — useful knowledge base, contact/proof path needs polish.",
+    "4. **FRAME Group** — COLD/WARM — strong benchmark, larger FM firm, contact-path consistency hook.",
+    "5. **Rustler Hungary** — COLD/WARM — strong benchmark, larger FM firm, service-routing hook.",
+    "1. Homever",
+    "2. Interház",
+    "3. Premier Property Management"
+  ],
+  "next_steps_lines": [
+    "- Managerent",
+    "- Craftex",
+    "- A+ Real Estate",
+    "- Homever",
+    "- Interház",
+    "- Premier Property Management",
+    "- Rustler Hungary",
+    "- FRAME Group",
+    "- 2026-06-30 09:00: check batch 1 replies and decide follow-up.",
+    "- 2026-07-01 09:00: decide whether to keep holding batch 2 or ask Emmanuel to approve sending 2-3 messages.",
+    "- Today",
+    "- Waiting For",
+    "- Active Projects",
+    "- Lead Engine",
+    "- Scheduled Jobs",
+    "- Finance/Revenue Signals"
+  ],
+  "files": {
+    "tracker": "C:\\Users\\User\\Projects\\bridgeworks-workspace\\operations\\lead-engine-v1\\01-prospects\\prospect-tracker.csv",
+    "send_log": "C:\\Users\\User\\Projects\\bridgeworks-workspace\\operations\\lead-engine-v1\\03-outreach-drafts\\outreach-send-log-2026-06-23.json",
+    "batch2_summary": "C:\\Users\\User\\Projects\\bridgeworks-workspace\\operations\\lead-engine-v1\\02-lead-leak-reviews\\batch-2\\batch-2-summary.md",
+    "next_steps": "C:\\Users\\User\\Projects\\bridgeworks-workspace\\operations\\lead-engine-v1\\05-os-build-next\\bridgeworks-os-next-steps-2026-06-23.md"
+  }
+}

@@ -21,42 +21,48 @@ export default function AboutPage() {
     <>
       <section className="container-x py-16">
         <div className="grid items-center gap-12 lg:grid-cols-2">
-          <div>
-            <span className="eyebrow">Our story</span>
-            <h1 className="mt-3 font-display text-4xl font-bold leading-tight text-cocoa sm:text-5xl">
-              How Oliviks Started
-            </h1>
-            <div className="mt-6 space-y-5 text-lg leading-relaxed text-cocoa/75">
-              <p>
-                Cynthia and Aese came to Hungary to study. Both did their Masters in social work in Debrecen, from 2017 to 2019, far from Lagos and far from the food they grew up on. Real Nigerian cooking was not on the menu anywhere. Not close.
-              </p>
-              <p>
-                So they cooked it themselves. Oliviks Kitchen opened in Budapest as a Nigerian kitchen, not an
-                African-themed one. Cynthia comes from a family of cooks. The recipes come from that table,
-                made from scratch, seasoned the way they should be.
-              </p>
-              <p>
-                Budapest answered. The room fills with Nigerians looking for home, Hungarians trying egusi for
-                the first time, students, and regulars who learned the menu and never left it. Most of them order
-                again. That is the whole point.
-              </p>
+          <Reveal>
+            <div>
+              <span className="eyebrow">Our story</span>
+              <h1 className="mt-3 font-display text-4xl font-bold leading-tight text-cocoa sm:text-5xl">
+                How Oliviks Started
+              </h1>
+              <div className="mt-6 space-y-5 text-lg leading-relaxed text-cocoa/75">
+                <p>
+                  Cynthia and Aese came to Hungary to study. Both did their Masters in social work in Debrecen, from 2017 to 2019, far from Lagos and far from the food they grew up on. Real Nigerian cooking was not on the menu anywhere. Not close.
+                </p>
+                <p>
+                  So they cooked it themselves. Oliviks Kitchen opened in Budapest as a Nigerian kitchen, not an
+                  African-themed one. Cynthia comes from a family of cooks. The recipes come from that table,
+                  made from scratch, seasoned the way they should be.
+                </p>
+                <p>
+                  Budapest answered. The room fills with Nigerians looking for home, Hungarians trying egusi for
+                  the first time, students, and regulars who learned the menu and never left it. Most of them order
+                  again. That is the whole point.
+                </p>
+              </div>
             </div>
-          </div>
-          <DishImage
-            src="/images/legacy/chef-prep.jpg"
-            alt="Oliviks Kitchen preparing Nigerian food"
-            className="aspect-[4/5] w-full rounded-3xl shadow-xl"
-          />
+          </Reveal>
+          <Reveal delay={0.1}>
+            <DishImage
+              src="/images/hanna/chef-hero.jpg"
+              alt="Oliviks Kitchen chef preparing Nigerian food"
+              className="aspect-[4/5] w-full rounded-xl shadow-xl"
+            />
+          </Reveal>
         </div>
       </section>
 
       <section className="border-y border-cocoa/10 bg-white py-10">
-        <div className="container-x text-center">
-          <p className="font-display text-2xl font-bold text-cocoa">
-            4.8 stars from 491 Google reviews. Featured by Origo, We Love Budapest, and WMN.
-          </p>
-          <p className="mt-3 text-cocoa/65">“Honest food with soul.”</p>
-        </div>
+        <Reveal>
+          <div className="container-x text-center">
+            <p className="font-display text-2xl font-bold text-cocoa">
+              4.8 stars from 491 Google reviews. Featured by Origo, We Love Budapest, and WMN.
+            </p>
+            <p className="mt-3 text-cocoa/65">"Honest food with soul."</p>
+          </div>
+        </Reveal>
       </section>
 
       <section className="bg-cream py-20">
@@ -67,7 +73,7 @@ export default function AboutPage() {
           <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
             {values.map((v, i) => (
               <Reveal key={v.title} delay={i * 0.06}>
-                <div className="h-full rounded-2xl border border-cocoa/10 bg-white p-6">
+                <div className="h-full rounded-xl border border-cocoa/10 bg-white p-6">
                   <h3 className="font-display text-xl font-semibold text-palm">{v.title}</h3>
                   <p className="mt-2 text-cocoa/70">{v.body}</p>
                 </div>

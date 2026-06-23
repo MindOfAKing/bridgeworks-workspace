@@ -3,72 +3,56 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>BridgeWorks Lead Engine v1</title>
+  <title>BridgeWorks Lead Engine Cockpit</title>
   <style>
-    :root { --bg:#0f1412; --card:#18211e; --muted:#9fb0a8; --text:#f5f1e8; --accent:#b8d7c3; --line:#2b3833; }
-    * { box-sizing: border-box; }
-    body { margin:0; font-family: Inter, Segoe UI, system-ui, sans-serif; background:var(--bg); color:var(--text); }
-    header { padding:40px 32px 20px; border-bottom:1px solid var(--line); }
-    h1 { margin:0 0 8px; font-size:34px; letter-spacing:-0.03em; }
-    .sub { color:var(--muted); max-width:820px; line-height:1.5; }
-    main { padding:28px 32px 56px; display:grid; gap:20px; grid-template-columns:repeat(auto-fit,minmax(260px,1fr)); }
-    .card { background:var(--card); border:1px solid var(--line); border-radius:18px; padding:22px; min-height:178px; }
-    .card h2 { margin:0 0 12px; font-size:20px; }
-    .card p, li { color:var(--muted); line-height:1.5; }
-    a { color:var(--accent); text-decoration:none; }
-    a:hover { text-decoration:underline; }
-    .tag { display:inline-block; padding:5px 9px; border:1px solid var(--line); border-radius:999px; color:var(--accent); font-size:12px; margin-bottom:10px; }
-    footer { padding:0 32px 32px; color:var(--muted); }
+    :root { --bg:#0f1115; --panel:#171a21; --muted:#9aa4b2; --text:#eef2f7; --line:#2a2f3a; --green:#4ade80; --amber:#fbbf24; --blue:#60a5fa; --red:#fb7185; --purple:#c084fc; }
+    *{box-sizing:border-box} body{margin:0;background:var(--bg);color:var(--text);font:14px/1.45 system-ui,-apple-system,Segoe UI,Arial,sans-serif} a{color:var(--blue);text-decoration:none} a:hover{text-decoration:underline}
+    header{padding:28px 32px 12px;border-bottom:1px solid var(--line);background:linear-gradient(180deg,#151923,#0f1115)}
+    h1{margin:0;font-size:28px;letter-spacing:-.02em} .sub{color:var(--muted);margin-top:6px}
+    main{padding:24px 32px 40px;max-width:1400px;margin:0 auto}.grid{display:grid;gap:16px}.cards{grid-template-columns:repeat(4,minmax(0,1fr))}.two{grid-template-columns:1.2fr .8fr}@media(max-width:900px){.cards,.two{grid-template-columns:1fr} main,header{padding-left:16px;padding-right:16px}}
+    .card{background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:16px;box-shadow:0 8px 20px rgba(0,0,0,.16)}
+    .metric{font-size:32px;font-weight:750}.label{color:var(--muted);font-size:12px;text-transform:uppercase;letter-spacing:.08em}.pill{display:inline-flex;gap:6px;align-items:center;padding:4px 9px;border-radius:999px;background:#232936;color:#d9e2ef;font-size:12px;border:1px solid #303847}.pill.green{color:#bbf7d0;border-color:#166534}.pill.amber{color:#fde68a;border-color:#92400e}.pill.red{color:#fecdd3;border-color:#9f1239}.pill.blue{color:#bfdbfe;border-color:#1d4ed8}.pill.purple{color:#e9d5ff;border-color:#7e22ce}
+    table{width:100%;border-collapse:collapse;overflow:hidden} th,td{padding:10px 8px;border-bottom:1px solid var(--line);vertical-align:top} th{text-align:left;color:var(--muted);font-size:12px;text-transform:uppercase;letter-spacing:.06em} tr:hover td{background:#1b202b}.small{font-size:12px;color:var(--muted)} .nowrap{white-space:nowrap}.actions{display:flex;gap:8px;flex-wrap:wrap;margin-top:10px} button{background:#222836;border:1px solid #333c4d;color:var(--text);border-radius:10px;padding:8px 10px;cursor:pointer} button:hover{background:#2a3242}.section-title{display:flex;justify-content:space-between;gap:12px;align-items:center;margin:28px 0 12px} h2{font-size:18px;margin:0} ul{margin:8px 0 0;padding-left:20px}.muted{color:var(--muted)} .footer{margin-top:24px;color:var(--muted);font-size:12px}.status-Sent{color:var(--green)} .status-Batch{color:var(--amber)} .status-Reviewed{color:var(--blue)}
   </style>
 </head>
 <body>
   <header>
-    <div class="tag">Small boring pipeline. Not a genius AI machine.</div>
-    <h1>BridgeWorks Lead Engine v1</h1>
-    <div class="sub">Find 10 businesses. Score them. Message 3. Follow up. Book calls. Repeat weekly. Primary niche: owner-led B2B/local service businesses with higher contract values. Secondary proof lane: restaurants and hospitality.</div>
+    <h1>BridgeWorks Lead Engine Cockpit</h1>
+    <div class="sub">Local/private view of prospects, outreach, follow-ups, and next OS actions.</div>
   </header>
   <main>
-    <section class="card">
-      <h2>1. Prospect Tracker</h2>
-      <p>Single source of truth for leads, status, next follow-up, niche fit, and recommended offer.</p>
-      <p><a href="../01-prospects/prospect-tracker.csv">Open prospect-tracker.csv</a></p>
-    </section>
-    <section class="card">
-      <h2>2. Lead Scoring</h2>
-      <p>HOT, WARM, COLD scoring based on fit, urgency, budget signal, visible lead leaks, and BridgeWorks scope.</p>
-      <p><a href="../01-prospects/lead-scoring-rubric.md">Open scoring rubric</a></p>
-    </section>
-    <section class="card">
-      <h2>3. Lead Leak Review</h2>
-      <p>Entry offer: review where enquiries may be lost through weak trust, unclear contact paths, poor Google presence, or slow follow-up.</p>
-      <p><a href="../02-audits/48-hour-website-trust-audit-template.md">Open audit template</a></p>
-    </section>
-    <section class="card">
-      <h2>4. Outreach Templates</h2>
-      <p>Use warm first. Cold only after reviewing the business and naming one specific issue.</p>
-      <p><a href="../03-outreach/warm-outreach-templates.md">Warm templates</a> · <a href="../03-outreach/cold-outreach-templates.md">Cold templates</a></p>
-    </section>
-    <section class="card">
-      <h2>5. Follow-Up Reminders</h2>
-      <p>Use the tracker fields: last_contacted, next_follow_up, and status. No CRM orchestration yet.</p>
-      <p><a href="../01-prospects/prospect-tracker.csv">Update tracker</a></p>
-    </section>
-    <section class="card">
-      <h2>6. Weekly Review</h2>
-      <p>Every Friday: numbers, best opportunities, niche signal, FWT filter, uncomfortable truth, next actions.</p>
-      <p><a href="../05-weekly-reviews/weekly-lead-review-template.md">Open weekly review</a></p>
-    </section>
-    <section class="card">
-      <h2>Support: Offer Ladder</h2>
-      <p>Use only after a prospect shows interest. Sell fewer lost enquiries, not AI complexity.</p>
-      <p><a href="../04-offers/bridgeworks-offer-ladder.md">Open offer ladder</a></p>
-    </section>
-    <section class="card">
-      <h2>Support: Hermes Prompts</h2>
-      <p>Reusable prompts for scoring, Lead Leak Reviews, outreach, and weekly reviews.</p>
-      <p><a href="../06-assets/hermes-prompts.md">Open Hermes prompts</a></p>
-    </section>
+    <div id="app">Loading dashboard-data.json...</div>
   </main>
-  <footer>Built 2026-06-23. Adjusted to Lead Leak Review and B2B/local services first. Review before sending anything.</footer>
+<script>
+const esc = s => String(s ?? '').replace(/[&<>"']/g, m => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]));
+function pill(text){ const t=String(text||''); let c=''; if(t.includes('Sent')) c='green'; else if(t.includes('Batch')) c='amber'; else if(t.includes('Reviewed')) c='blue'; else if(t.includes('COLD')) c='red'; else if(t.includes('WARM')) c='purple'; return `<span class="pill ${c}">${esc(t)}</span>`}
+function relLink(path){ if(!path) return ''; return esc(path.replace(/.*lead-engine-v1[\\/]/,'../')) }
+function render(data){
+ const s=data.summary||{}; const prospects=data.prospects||[];
+ const next=s.next_follow_up ? `${s.next_follow_up.date} (${s.next_follow_up.business})` : 'None';
+ document.getElementById('app').innerHTML = `
+ <section class="grid cards">
+  <div class="card"><div class="label">Prospects</div><div class="metric">${s.total_prospects||0}</div><div class="small">Tracked in prospect-tracker.csv</div></div>
+  <div class="card"><div class="label">Sent, waiting</div><div class="metric">${s.sent_waiting||0}</div><div class="small">Batch 1 active</div></div>
+  <div class="card"><div class="label">Batch 2 prepared</div><div class="metric">${s.batch2_prepared||0}</div><div class="small">Held until decision checkpoint</div></div>
+  <div class="card"><div class="label">Next follow-up</div><div style="font-size:18px;font-weight:700;margin-top:8px">${esc(next)}</div><div class="small">Overdue: ${s.overdue_count||0}</div></div>
+ </section>
+ <div class="section-title"><h2>Operating decision</h2><span class="pill amber">Hold batch 2</span></div>
+ <section class="grid two">
+  <div class="card"><b>Current rule</b><ul><li>Wait for batch 1 reply/follow-up signal.</li><li>Do not send batch 2 before 2026-07-01 decision checkpoint.</li><li>If someone replies, use the 3-observation response asset before proposing a call.</li></ul></div>
+  <div class="card"><b>Scheduled checkpoints</b><ul><li>2026-06-30 09:00: batch 1 reply/follow-up check.</li><li>2026-07-01 09:00: batch 2 send/hold decision.</li></ul></div>
+ </section>
+ <div class="section-title"><h2>Prospect pipeline</h2><span class="small">Generated ${esc(data.generated_at)}</span></div>
+ <section class="card" style="overflow:auto"><table><thead><tr><th>Business</th><th>Score</th><th>Status</th><th>Next follow-up</th><th>Problem spotted</th><th>Files / notes</th></tr></thead><tbody>
+ ${prospects.map(p=>`<tr><td><b>${esc(p.business_name)}</b><div class="small"><a href="${esc(p.website)}">${esc(p.website)}</a><br>${esc(p.niche)} · ${esc(p.location)}</div></td><td>${pill(p.lead_score_hot_warm_cold)}</td><td>${pill(p.status)}</td><td class="nowrap">${esc(p.next_follow_up||'')}</td><td>${esc(p.problem_spotted)}</td><td class="small">${esc(p.notes)}</td></tr>`).join('')}
+ </tbody></table></section>
+ <div class="section-title"><h2>Batch 2 summary</h2></div>
+ <section class="card"><ul>${(data.batch2_summary_lines||[]).map(x=>`<li>${esc(x.replace(/^- |^\d+\. /,''))}</li>`).join('')}</ul></section>
+ <div class="section-title"><h2>Local files</h2></div>
+ <section class="card"><ul>${Object.entries(data.files||{}).map(([k,v])=>`<li><b>${esc(k)}:</b> <code>${esc(v)}</code></li>`).join('')}</ul></section>
+ <div class="footer">Private local dashboard. Do not publish without reviewing sensitive operational/client data.</div>`;
+}
+fetch('dashboard-data.json?ts='+Date.now()).then(r=>r.json()).then(render).catch(e=>{document.getElementById('app').innerHTML='<div class="card">Could not load dashboard-data.json. Run <code>python refresh.py</code>.</div>'})
+</script>
 </body>
 </html>
