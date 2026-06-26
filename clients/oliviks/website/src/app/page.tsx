@@ -19,7 +19,7 @@ export default function HomePage() {
     <>
       <section className="hero-reference-shell relative min-h-[760px] overflow-hidden bg-cocoa text-cream">
         <DishImage
-          src="/images/hanna/chef-hero.jpg"
+          src="/images/legacy/pomelli_bdna_image_0626 (23).png"
           alt="Oliviks Kitchen chef at work"
           className="absolute inset-0 h-full w-full"
         />

@@ -117,7 +117,7 @@ export const menu: MenuCategory[] = [
         description:
           'Long-cooked tomato rice with a smoky edge. Pick your protein: chicken, turkey, fish, or beef. This is the dish Nigerian parties are built around. A smart first order if you want to understand why. The price depends on the protein you choose.',
         price: '2,500 – 4,000 Ft',
-        image: '/images/legacy/jollof-rice.png',
+        image: '/images/legacy/pomelli_bdna_image_0626 (6).png',
         tags: ['popular'],
         optionGroups: [riceProteinOptions, extraHotStewOption],
       },
@@ -158,7 +158,7 @@ export const menu: MenuCategory[] = [
         description:
           'A traditional Igbo soup made with oha leaves and a rich, savory base. Earthy and full of flavor. Served with one swallow.',
         price: '5,000 Ft',
-        image: null,
+        image: '/images/legacy/pomelli_bdna_image_0626 (14).png',
         optionGroups: [swallowOptions],
       },
       {
@@ -174,7 +174,7 @@ export const menu: MenuCategory[] = [
         description:
           'A hearty soup loaded with leafy greens and proper seasoning. Comforting and full of flavor. Served with one swallow.',
         price: '5,000 Ft',
-        image: null,
+        image: '/images/legacy/pomelli_bdna_image_0626 (9).png',
         optionGroups: [swallowOptions],
       },
       {
@@ -182,7 +182,7 @@ export const menu: MenuCategory[] = [
         description:
           'Bitter leaves cooked in a rich cocoyam base with protein. Earthy and full of flavor, with the gentle bitterness the dish is named for. Served with one swallow.',
         price: '5,000 Ft',
-        image: null,
+        image: '/images/legacy/pomelli_bdna_image_0626 (25).png',
         optionGroups: [swallowOptions],
       },
       {
@@ -219,7 +219,7 @@ export const menu: MenuCategory[] = [
         name: 'Fried beef',
         description: 'Seasoned beef, fried and full of flavor. Add it to rice or eat it on its own.',
         price: '1,500 Ft',
-        image: null,
+        image: '/images/legacy/pomelli_bdna_image_0626 (10).png',
       },
       {
         name: 'Grilled Chicken Thigh',
@@ -262,7 +262,7 @@ export const menu: MenuCategory[] = [
         description:
           'A baked pastry filled with seasoned minced meat and vegetables. Satisfying on its own. Easy to love on a first visit.',
         price: '1,500 Ft',
-        image: null,
+        image: '/images/legacy/pomelli_bdna_image_0626 (4).png',
       },
       {
         name: 'Coconut peanut',
@@ -275,7 +275,7 @@ export const menu: MenuCategory[] = [
         description:
           'Kuli kuli is a crunchy, spiced peanut snack. Peppery and moreish. Good on its own or alongside a meal.',
         price: '2,000 Ft',
-        image: null,
+        image: '/images/legacy/pomelli_bdna_image_0626 (16).png',
         tags: ['Peppery'],
       },
       {
@@ -298,7 +298,7 @@ export const menu: MenuCategory[] = [
         name: 'Plantain chips',
         description: 'Thin, crisp plantain chips. Lightly salted and snackable.',
         price: '1,000 Ft',
-        image: null,
+        image: '/images/legacy/pomelli_bdna_image_0626 (5).png',
       },
       {
         name: 'Chin Chin',
@@ -312,7 +312,7 @@ export const menu: MenuCategory[] = [
         description:
           'Baked dough rolled around a deboned mackerel filling. Savory and satisfying. A good handheld snack.',
         price: '1,500 Ft',
-        image: null,
+        image: '/images/legacy/pomelli_bdna_image_0626 (3).png',
       },
       {
         name: 'Abacha and Fish',
@@ -345,14 +345,14 @@ export const menu: MenuCategory[] = [
         name: 'V-soy multi grain drink',
         description: 'A chilled multi-grain soy drink. Smooth and lightly sweet.',
         price: '1,500 Ft',
-        image: null,
+        image: '/images/legacy/pomelli_bdna_image_0626 (8).png',
       },
-      { name: 'Fanta 330 ml', description: 'Chilled orange soft drink. 330 ml.', price: '1,000 Ft', image: null },
+      { name: 'Fanta 330 ml', description: 'Chilled orange soft drink. 330 ml.', price: '1,000 Ft', image: '/images/legacy/pomelli_bdna_image_0626 (17).png' },
       {
         name: 'Coca-Cola Cherry Coke 330 ml',
         description: 'Chilled Cherry Coke. 330 ml.',
         price: '1,000 Ft',
-        image: null,
+        image: '/images/legacy/pomelli_bdna_image_0626 (18).png',
       },
     ],
   },
