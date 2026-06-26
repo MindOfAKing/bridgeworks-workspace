@@ -1,5 +1,5 @@
 import type { Metadata } from 'next';
-import { Playfair_Display, DM_Sans } from 'next/font/google';
+import { Rubik, Manrope } from 'next/font/google';
 import './globals.css';
 import { Header } from '@/components/Header';
 import { Footer } from '@/components/Footer';
@@ -9,17 +9,17 @@ import { restaurantSchema } from '@/lib/schema';
 import { OrderProvider } from '@/context/OrderContext';
 
 
-const playfair = Playfair_Display({
+const rubik = Rubik({
   subsets: ['latin'],
   weight: ['400', '500', '600', '700'],
-  variable: '--font-playfair',
+  variable: '--font-rubik',
   display: 'swap',
 });
 
-const dmSans = DM_Sans({
+const manrope = Manrope({
   subsets: ['latin'],
   weight: ['300', '400', '500', '600', '700'],
-  variable: '--font-dmsans',
+  variable: '--font-manrope',
   display: 'swap',
 });
 
@@ -57,7 +57,7 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en" className={`${playfair.variable} ${dmSans.variable}`}>
+    <html lang="en" className={`${rubik.variable} ${manrope.variable}`}>
       <body className="font-sans">
         <script
           type="application/ld+json"

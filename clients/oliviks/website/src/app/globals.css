@@ -23,7 +23,7 @@ body {
   /* Brand button styles */
   .btn-primary {
     @apply inline-flex items-center justify-center gap-2 rounded-full bg-palm px-6 py-3
-      font-medium text-cream shadow-sm transition-all hover:bg-[#a83d20]
+      font-medium text-cream shadow-sm transition-all hover:bg-[#5a0d0d]
       hover:shadow-md active:scale-95;
   }
   .btn-ghost {
@@ -40,17 +40,15 @@ body {
   }
 }
 
-/* Subtle Ankara-inspired top border accent */
+/* Ankara-inspired top border accent */
 .ankara-rule {
   height: 6px;
   background: repeating-linear-gradient(
     135deg,
-    #c44d2b 0,
-    #c44d2b 14px,
-    #e8a838 14px,
-    #e8a838 28px,
-    #2d5016 28px,
-    #2d5016 42px
+    #761212 0,
+    #761212 14px,
+    #FAB73A 14px,
+    #FAB73A 28px
   );
 }
 
