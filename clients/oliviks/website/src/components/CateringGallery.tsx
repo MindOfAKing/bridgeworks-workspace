@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 import Image from 'next/image';
 
 const photos = [
-  '/images/legacy/pomelli_bdna_image_0626 (19).png',
+  '/images/legacy/catering.png',
   '/images/hanna/catering-04.jpg',
   '/images/hanna/catering-05.jpg',
   '/images/hanna/catering-07.jpg',
