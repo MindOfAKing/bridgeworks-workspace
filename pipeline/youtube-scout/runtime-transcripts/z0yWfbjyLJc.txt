@@ -1,0 +1,560 @@
+00:00 If you're still struggling to build apps
+00:01 in 2026, then I want to show you a
+00:03 system that I use to build and launch
+00:06 any app in 24 hours. And this is a
+00:09 system that I've developed over the
+00:11 course of the last 6 months that will
+00:13 allow you to build any application you
+00:16 can imagine with AI coding tools and
+00:19 launch it all within 24 hours. And the
+00:22 reason that this works so well is
+00:24 because it takes you step-by-step
+00:26 through the entire process. And this is
+00:29 the exact process that I teach in my
+00:31 community over on school where I've
+00:33 helped hundreds of other people build
+00:35 applications and launch them using AI
+00:37 coding tools. So, in this video, we're
+00:39 going to break down what this system is,
+00:41 how to set it up so that you can start
+00:43 using it to build your applications, and
+00:45 how to use it to build any app in just
+00:47 24 hours and launch it so that you can
+00:50 start getting real customers. If you
+00:52 don't know me, my name is Chris and for
+00:53 the last 15 years, I've been designing
+00:54 apps and advising startups on product
+00:56 and design. And with that said, let's
+00:58 jump straight into the video and show
+01:00 you the system so that you can start
+01:02 building apps and launching them in just
+01:04 24 hours. So, what is this system that
+01:06 I'm talking about? Well, this system is
+01:08 called BuilderOS. And this is something
+01:10 that I've been putting together over the
+01:11 course of the last 3 to 6 months based
+01:14 on my own build process for building
+01:17 applications and products using AI
+01:19 coding tools like Codex, Claude Code,
+01:21 and Cursor. And what BuilderOS is is
+01:23 basically a set of AI skills that guides
+01:26 you through the entire process of
+01:28 building your application and creating
+01:30 all of the context that you need to
+01:33 actually build and launch a real product
+01:35 to real paying customers. And the reason
+01:37 that this is because this is built on my
+01:39 knowledge from working with startups for
+01:42 the last 15 years and advising startups
+01:44 for the last 5 years, including Y
+01:47 Combinator back startups and startups
+01:49 that have gone on to win Apple Design
+01:50 Awards and exit for millions of dollars.
+01:53 And so, this system is that kind of
+01:55 early-stage startup process condensed
+01:57 down into a set of AI skills that you
+02:00 can use to not just build an app, but an
+02:03 app that actually works and has a really
+02:05 strong design style, and it's going to
+02:08 give you a really high chance of
+02:10 actually being able to get customers for
+02:11 it as well. And so, let's break down the
+02:13 actual skills that is included in
+02:15 Builder OS. And if you are interested in
+02:17 using Builder OS, I'll put a link down
+02:19 in the description below, and or you can
+02:21 just go to builder-os.dev
+02:23 and get hold of the skills that way. I'm
+02:25 going to show you exactly how to set it
+02:27 up in a second. And the skills here
+02:29 basically run across four different
+02:31 phases: ideate, plan and design, build,
+02:34 and then launch. And I'm going to break
+02:35 down exactly how these skills work when
+02:38 they're chained together, show you
+02:39 exactly how to go through using these
+02:41 skills, and I'm going to show you how to
+02:42 set up Builder OS as well. But
+02:44 basically, we want to create our idea
+02:45 first, then we want to plan and design
+02:48 our app. And there's a reason that we do
+02:49 design before actually building it here
+02:51 as well. Then we're going to build our
+02:53 app, and there's a few skills in here to
+02:55 help you build new features and improve
+02:57 your app as you're building it as well.
+02:59 And then we're going to launch it to
+03:01 real paying customers, get it live, and
+03:03 get it in the hands of real people. So,
+03:05 how does Builder OS actually work? So,
+03:08 let's go through these stages in a
+03:09 little bit more detail, and I'll talk a
+03:11 little bit about the skills that are
+03:12 included in Builder OS. I'm going to go
+03:14 through the full process here using
+03:17 Builder OS so that you can use these
+03:19 skills to build your own applications.
+03:22 And if you're interested in learning a
+03:23 little bit more about how to use Builder
+03:26 OS to actually build your own apps, you
+03:28 can also join my community where I have
+03:29 a full course on Builder OS, how to get
+03:32 it set up, and how to use it properly.
+03:33 And you can join my community on a free
+03:35 7-day trial as well. And so, do jump in
+03:38 there if you're looking to learn a
+03:39 little bit more about this. But
+03:41 basically, this breaks down to these
+03:42 steps. So, the first step, which is the
+03:45 ideate step, we'll call it the same
+03:47 thing here, is about how do you find an
+03:49 idea, and how do you validate your idea?
+03:52 And also, the way that Builder OS is
+03:54 basically set up is that you can jump in
+03:56 at any point of this. If you already
+03:58 have an idea, you can jump straight into
+04:00 the plan stage. If you already have a
+04:02 PRD or a road map, you can jump straight
+04:05 into the design stage. If you already
+04:06 have your design.md, or PRD, and your
+04:09 road map, you can jump into the build
+04:10 stage. And if you already have something
+04:13 built, you can jump straight into the
+04:14 improve stage. So, this is designed to
+04:16 work wherever you are on your build
+04:18 journey. But, you might want to go back
+04:20 a few steps and use some of these skills
+04:21 in order to validate your idea and see
+04:23 if what you're building is actually
+04:25 going to work. So, let's go through the
+04:26 ideate stage of Builder OS here. Now,
+04:29 there are two skills inside of Builder
+04:31 OS which help you to figure out the idea
+04:33 of your app that you want to build and
+04:35 to validate it against the market. And
+04:37 now, I don't think the right advice is
+04:39 to spend ages and ages validating your
+04:41 idea before you actually launch because
+04:43 this can just be a long period of
+04:45 procrastination before you actually do
+04:47 anything. And so, I would actually
+04:48 advise just validating your idea using
+04:51 AI, getting it to do some research, and
+04:52 this skill is a great way to do that.
+04:54 And before that step, if you want to
+04:56 find an idea that that's based on your
+04:58 own expertise and a problem that you
+05:00 know very, very well that you can solve
+05:02 using software, then use the idea
+05:04 generator. So, the idea generator skill
+05:06 here is going to basically interview you
+05:08 to ask a series of questions, what do
+05:10 you know, what's your expertise, what
+05:12 problems do you come up against on a
+05:13 day-to-day basis, and help you to figure
+05:16 out how you could solve those problems
+05:18 not just for yourself, but for other
+05:20 people using an AI application that you
+05:23 can build using Builder OS. But, not
+05:25 only that, it's going to help you
+05:26 identify your customer as well and
+05:29 outline an MVP for your idea. So, we're
+05:31 basically trying to figure out like what
+05:33 is the most painful problem that we have
+05:35 that we can solve for ourselves that
+05:37 other people would also be interested
+05:38 in. So, this is a really great way to
+05:40 find an idea that's actually worth
+05:42 building instead of building something
+05:43 that nobody is going to want to use. The
+05:46 next step then is validating your idea,
+05:48 which again it validates quickly against
+05:50 market signals. So it takes your idea
+05:52 that you generated in the first step
+05:54 here, and then it runs it through a
+05:55 basic like smoke test against a bunch of
+05:58 criteria, does a bunch of research on
+06:00 the web for you across Reddit
+06:02 communities, blogs, and a bunch of other
+06:03 places to kind of validate this idea to
+06:06 make sure that that painful problem does
+06:07 exist and to give you ways of pivoting
+06:10 it if it's not quite painful enough or
+06:12 you might have the role customer and
+06:13 basically just give you a whole report
+06:15 on whether it's good or bad. Now once
+06:17 you have your idea, you want to move on
+06:19 to the plan phase and this is using the
+06:21 product planner skill inside of Builder
+06:24 OS. And what plan is going to help you
+06:26 do? It's going to help you create a
+06:27 couple of documents that you're going to
+06:28 need to actually give to your AI coding
+06:31 agent to build your full application and
+06:33 that is a PRD which stands for product
+06:35 requirements document. This is something
+06:37 that people talk about a lot with AI
+06:38 coding and building AI software and it's
+06:41 an outline of the technical architecture
+06:42 and everything included in the
+06:44 application that you're building. The
+06:45 product planner skill is going to go
+06:47 from your idea and your idea validation
+06:49 in the first step and it's going to help
+06:51 you create a PRD off the back of that
+06:53 that matches that. We're going to be
+06:54 using It's going to find help you find a
+06:57 proven tech stack. It's going to help
+06:58 you create a detailed plan and it's
+07:00 going to create an AI friendly PRD not a
+07:03 human PRD as well. And then the most
+07:06 important thing here is the second
+07:07 document that it creates which is the
+07:09 road map document and this takes
+07:11 everything from the PRD and it creates a
+07:13 phased road map broken down into with
+07:17 checkboxes on each task that you can
+07:20 give to an AI coding agent to build your
+07:22 entire application in one go because it
+07:24 will be following that really really
+07:26 clear spec, that clear road map with
+07:28 tasks for each thing that it's building
+07:30 in an AI friendly format. There's a
+07:32 bunch of stuff inside of that road map
+07:34 that links to the PRD as well. And let
+07:36 me show you exactly what the PRD and the
+07:38 road map document look like in an
+07:40 existing project. So this is an existing
+07:42 project that I have opened inside of
+07:43 Code X for an application I'm building
+07:46 and I've got on the right-hand side
+07:47 here, I've got a few different documents
+07:49 and I've basically got a product roadmap
+07:51 and a product requirements document
+07:52 here. Now, these are the two key
+07:53 documents that we're going to be
+07:54 creating with Builder.io OS in order to
+07:56 build your application. The PRD is going
+07:58 to have an overview of everything to do
+08:00 with your application including the
+08:02 objective, the product summary, the
+08:04 magic moment inside of the application
+08:06 as well, which is the key moment that
+08:07 people will decide whether they want to
+08:09 pay or basically when they realize what
+08:11 the app actually is going to do for
+08:12 them, how it solves their problem,
+08:14 success criteria, technical architecture
+08:16 and a bunch more stuff including the
+08:19 repository structure and everything you
+08:21 would expect from a PRD and this is all
+08:23 done in an AI-friendly way. So, it
+08:25 doesn't include a bunch of stuff that
+08:27 humans would use in a typical PRD. It
+08:29 just has everything that an AI coding
+08:31 agent would need. And then on the
+08:32 product roadmap side, you basically have
+08:34 a full product roadmap broken down into
+08:36 phases with a build philosophy at the
+08:38 top. We've got phase zero here and so
+08:40 you can see there's a bunch of tasks
+08:42 down here and you can't maybe can't
+08:45 quite see on here but there's a little
+08:46 checkbox against each of these tasks and
+08:48 these tasks reference files and notes
+08:52 from inside of the PRD as well. So,
+08:54 these two documents are very much linked
+08:56 together and when you give [snorts] the
+08:58 roadmap to your coding agent to go
+08:59 through and build, it's going to be able
+09:00 to reference that PRD where each task is
+09:03 kind of asking it to reference specific
+09:04 files and it's going to build the
+09:06 application for you through all of these
+09:08 phases step-by-step and I'm going to
+09:10 show you how the build skill works when
+09:12 we get to that in Builder.io OS as well
+09:15 because that is going to instruct the
+09:16 coding agent to build through the entire
+09:18 roadmap in one go and do all the code
+09:21 review and verification it needs along
+09:23 the way as well. So, that is what your
+09:25 PRD and your product roadmap are going
+09:27 to look like. Once you've done your PRD
+09:29 and your product roadmap, you're then
+09:30 going to want to create your design
+09:32 system. Now, this is not a in-depth,
+09:34 super detailed design system. This is
+09:37 just your starting point for your
+09:38 design. So, what we're going to do here
+09:40 is just create a rough design system.
+09:42 So, we have a skill inside of Builder OS
+09:44 called design system. We're going to
+09:45 create a rough design system here. We're
+09:47 then going to use that rough design
+09:49 system as a starting point, and we're
+09:51 going to output a file called design.md.
+09:53 If you don't know what design.md is,
+09:55 design.md is a design system
+09:57 documentation format that was created by
+09:59 Google and it's kind of open source and
+10:02 the standard for design system
+10:03 documentation inside of code bases that
+10:05 is readable by AI agents. So, this
+10:08 design.md file that we're going to
+10:09 create is basically going to give us the
+10:11 consistency of design across our entire
+10:14 app to kind of reach that kind of 70-80%
+10:17 quality level where we can then iterate
+10:19 on top of it when we start to build and
+10:21 when we start to improve our application
+10:23 after it's built. And the way that this
+10:25 works inside of Builder OS is you
+10:27 basically give it an image reference or
+10:29 a set of image references. It analyzes
+10:31 those, asks you a bunch of questions,
+10:33 and then generates that design.md
+10:36 document. And to give you an example of
+10:37 what a design.md looks like from an
+10:39 existing project I have here, it
+10:40 basically gives you an overview of the
+10:42 entire design style for your app. So,
+10:44 you get brand and style direction, color
+10:46 direction, typography, layout and
+10:48 spacing, elevation and depth, shapes,
+10:50 components, and do's and don'ts as well.
+10:53 So, this is the rough kind of starting
+10:54 point for your design for your entire
+10:56 application, and it's going to extract
+10:58 this from an image reference from
+11:00 somewhere like Dribbble. Basically, go
+11:01 to somewhere like Dribbble and then find
+11:03 an example of the UI that you like and
+11:05 then give the design system skill inside
+11:07 of Builder OS that image so that it can
+11:09 generate your design.md file for you.
+11:12 Now, once you've generated your
+11:13 design.md file and you've got your PRD
+11:15 and project and product roadmap from the
+11:18 plan phase, we're then going to want to
+11:20 build it. And Builder OS allows you to
+11:22 build your entire application from your
+11:24 PRD and roadmap in one go without you
+11:28 having to do anything. And the way that
+11:30 this works is that it builds using a
+11:32 loop instead of building using a prompt.
+11:35 And I have a skill in here called build
+11:37 MVP, which basically runs a loop and all
+11:40 a loop is where you ask your coding
+11:42 agent or your agent to do something and
+11:45 then to do something else and then to
+11:46 keep doing that in a in a loop until it
+11:48 reaches a criteria that would be deemed
+11:51 as done. Now, in this instance, the
+11:53 build loop for the build MVP goes
+11:55 through a few steps. What it does is it
+11:57 says, "Build every task from the product
+12:00 roadmap one at a time and tick them off
+12:03 as you go. Once you've built each task,
+12:06 do a code review and fix any issues that
+12:09 you find using the code review feature
+12:11 inside of the application that you're
+12:13 actually building with, so Cursor,
+12:14 Claude Code, or Codex. Once you've done
+12:16 a code review and fixed all the issues,
+12:18 then do a test using the browser to see
+12:20 if everything works related to this task
+12:22 that you're doing. Then, once it passes
+12:24 that test, move on to the next task in
+12:27 the roadmap and then build that and then
+12:29 keep going every single time until
+12:31 you've built all of the tasks in the
+12:33 entire roadmap. Now, this does use a
+12:34 reasonable amount of tokens because
+12:36 you're essentially instructing it to go
+12:38 through this entire phased roadmap in
+12:40 one go and it can take anywhere between
+12:43 30 minutes to three to four hours to
+12:46 build your entire application depending
+12:47 on the complexity of your application,
+12:49 but the great thing with this build loop
+12:51 is that because it's ticking off every
+12:53 task in the roadmap as it goes, if you
+12:56 get interrupted at any point or if you
+12:58 hit your usage limit, you can basically
+13:00 pick back up exactly where you left off
+13:02 with your coding agent using the exact
+13:04 same skill to keep it going even if it
+13:06 has to stop because it will be able to
+13:08 read that roadmap and see where it got
+13:09 to on the checklist. And the reason that
+13:11 this works now as well is because models
+13:14 and harnesses, i.e. Cursor, Claude Code,
+13:16 and Codex, are now good enough to run in
+13:19 a loop to verify their own work, to fix
+13:21 any issues using code review, and to
+13:23 build a complete application with a few
+13:25 bits missing here and there that you're
+13:27 going to have to set up afterwards, but
+13:29 to basically build your complete
+13:30 application in one go. And so you can
+13:32 start to see how you can build and
+13:34 launch applications in just 24 hours
+13:37 basically basically by finding an idea,
+13:39 validating your idea, creating the
+13:41 documents that you need to then build
+13:42 it, building it in one go, and allowing
+13:44 your coding agent to work for a few
+13:46 hours to build the foundation of your
+13:48 app, and then move on to the next step
+13:50 here, which is how which is to improve
+13:52 your app. And we have a skill inside of
+13:54 Builder OS called build loop, which
+13:56 basically instructs your coding agent to
+13:58 build the feature, do a code review,
+14:00 verify using a test in browser, and then
+14:03 report back to you once it's built and
+14:04 once the feature works. And again, the
+14:06 reason that we're using a simple loop
+14:08 skill here is because building in a loop
+14:11 allows us to give the coding agent free
+14:14 rein to do the code review, to fix any
+14:16 issues for us, to test it in browser so
+14:18 that we don't have to do that, and then
+14:19 to just report back once it's done. And
+14:21 so we can use this to build any feature
+14:23 or do any improvements in side of our
+14:25 app. And that skill is included inside
+14:27 of Builder OS for each of the major
+14:30 coding tools, so Claude Code, Cursor,
+14:32 and Code X. And then the last step in
+14:34 Builder OS is to launch, where we
+14:36 basically get your app live, so that
+14:39 real people can come on it and start
+14:41 paying for it and using it. And this
+14:43 uses a skill called launch checklist.
+14:46 And all the launch checklist does is it
+14:47 reviews your code base, where you are at
+14:49 the moment with your app, and it gives
+14:51 you a step-by-step set of instructions
+14:53 to get your app live on a URL or in the
+14:56 app store, so that you can just follow
+14:58 it step-by-step, ask questions at each
+15:01 step of the way, give your agent a bunch
+15:02 of tasks to do from that checklist, and
+15:05 then get your app live as quickly as
+15:07 possible. And this is going to guide you
+15:08 through everything that you need to do
+15:09 in terms of security review, setting up
+15:12 your environment variables based on what
+15:14 technology you're using, building your
+15:16 app, and then submitting it to wherever
+15:17 you need to kind of submit it, so
+15:19 setting up production environments for
+15:21 your day for your day setting up the
+15:23 production environment for your
+15:24 database, all of those things are going
+15:25 to be covered in the launch checklist
+15:27 here. And that is how you get your app
+15:28 live so that people can actually start
+15:30 using it. And that is the way that I
+15:32 build any application and get it live in
+15:36 24 hours using Builder OS. And now I
+15:38 want to just cover quickly like how to
+15:40 set up how to actually set up Builder OS
+15:42 inside of your project. Basically, you
+15:44 can do it one of two ways. Either you
+15:46 can just prompt your agent using the
+15:47 GitHub repository URL here and you can
+15:50 just copy and paste this and I'm going
+15:51 to give you the instructions down below
+15:52 in the description as well. Or you can
+15:55 just run this command in the terminal
+15:56 NPX skills add
+15:58 buildgreatproducts/builderos
+16:00 and that will install the skills in
+16:03 Builder OS inside of your project. If
+16:05 you're starting from scratch, all you
+16:06 have to do is create a new folder and
+16:07 then install the Builder OS skills
+16:09 inside of that folder and then go
+16:11 through them one at a time and that's
+16:12 going to help you build your application
+16:14 inside of that project using these
+16:15 Builder OS skills and generate all the
+16:17 documentation that you need. And if you
+16:19 do want to learn more about that, then
+16:20 you can go to builder-os.dev
+16:22 and that has a little bit more of a
+16:23 breakdown of all of these skills as
+16:25 well. But you might also be asking,
+16:27 where do you go from Builder OS? Well,
+16:29 I've also created a system called
+16:31 Product OS. Now, Product OS is slightly
+16:34 different in that it allows you to not
+16:36 only build and launch and get your app
+16:39 live, but it also allows you to get real
+16:41 customers in 60 days. And Product OS
+16:43 includes a few extra bits and pieces.
+16:45 I'm not going to go into them in too
+16:47 much detail in this video because this
+16:48 is a step beyond Builder OS. But this is
+16:51 the system that I use inside of my
+16:53 coaching program, the Product Studio, to
+16:55 help people get real customers for their
+16:57 app. And it basically adds a bunch of
+16:59 stuff on top of this including a load of
+17:01 marketing and distribution skills to
+17:03 create your growth strategy, to create
+17:05 growth experiments for your app so that
+17:07 you can figure out how to get your first
+17:08 customers, to set up marketing
+17:10 automations for your app as well, and to
+17:12 give you ongoing support to help you get
+17:15 customers over those 60 days as well. So
+17:17 if you do want to learn more about
+17:18 Product OS and Product Studio, there's
+17:20 going to be a link somewhere for that as
+17:21 well. So, you can find that somewhere on
+17:22 here in the description or wherever that
+17:24 might be. And I've used this exact
+17:26 process myself to launch multiple
+17:28 products including scribe.dev, which is
+17:31 my AI markdown writing tool, and
+17:33 orchestrate, which is my AI development
+17:35 environment, as well as applications
+17:37 that I've built for clients that I've
+17:39 been working with as well. So, this 100%
+17:41 works. It will allow you to build your
+17:43 app and get it out there. And so, that
+17:45 is how you can build any application
+17:48 using AI coding tools with this simple
+17:50 builder operating system that you can
+17:52 install in any project. So, hopefully
+17:54 that gives you a little bit of an idea
+17:55 of how I build and launch applications
+17:57 in 24 hours using this system that I've
+17:59 created called Builder OS. And this is
+18:01 just based on the exact way that I work.
+18:03 I would massively encourage you to try
+18:05 it out. Go through the steps, follow the
+18:07 skills as it kind of guides you through
+18:09 those skills, build your application,
+18:11 build the application that you've had in
+18:12 your head that you've always wanted to
+18:13 create, and maybe even using some of
+18:16 these skills you're going to find a
+18:17 better app, a better product that you
+18:19 can build off the back of that as well,
+18:21 and legitimately get it live in 24
+18:24 hours. Hopefully this has been helpful,
+18:26 and if you do have any questions about
+18:27 Builder OS, you can put them in the
+18:28 comments in the YouTube video down
+18:30 below, or just go over to my community,
+18:31 go through the Builder OS course, and
+18:33 add any feedback or questions in there.
+18:35 If you enjoyed the video, then don't
+18:37 forget to like and subscribe. Thank you
+18:39 for watching, and I'll see you next
+18:40 time.

@@ -196,10 +196,10 @@ export const menu: MenuCategory[] = [
       {
         name: 'Pepper soup',
         description:
-          'A light, aromatic soup with warming spices and gentle pepper. Brothy and comforting. Good when you want something warming. No product price found on oliviks.com or export scan; final price still needs owner confirmation.',
-        price: 'Price TBC',
+          'A light, aromatic soup with warming spices and gentle pepper. Brothy and comforting. Good when you want something warming.',
+        price: '5,000 Ft',
         image: '/images/legacy/assorted-pepper-soup.png',
-        tags: ['placeholder', 'Warming'],
+        tags: ['Warming'],
       },
     ],
   },

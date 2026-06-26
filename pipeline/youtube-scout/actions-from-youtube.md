@@ -133,3 +133,70 @@ Change: Create a one-page qualification filter so BridgeWorks says no to low-fit
 Evidence file: `pipeline/youtube-scout/transcript-extractions/yt-20260623-003-avatar-upgrade-sales-system.md`  
 Status: Needs template.
 
+
+## 2026-06-24
+
+### Action: Create Model Routing Trial Sheet
+
+Source: Greg Isenberg - `GLM 5.2: Set Up Local AI with Cursor/Codex etc`  
+Decision: Adopt as internal cost governance  
+Area: Local AI Ops, Agency Operations, Delivery Verification  
+Change: Add a no-spend trial sheet for routing AI work by task type, current model/tool, cheaper candidate, verification method, result quality, time saved/lost, cost if paid, and keep/reject/retest decision.  
+Evidence file: `pipeline/youtube-scout/transcript-extractions/yt-20260624-001-local-model-routing-economics.md`  
+Status: Needs SOP asset. No paid OpenRouter/Z AI loop or hardware purchase without approval.
+
+### Action: Create One-Person AI Offer Sprint Checklist
+
+Source: Patrick Dang - `How I'd Start a $10K/Month One-Person Business With Claude (Masterclass)`  
+Decision: Adapt  
+Area: Sales And Prospecting, Offer Design, Proof And Authority  
+Change: Create a sell-before-build checklist covering offer triangle, visible pain evidence, result-based price, proof asset, manual approval gate, and build-after-signal rule.  
+Evidence file: `pipeline/youtube-scout/transcript-extractions/yt-20260624-002-one-person-ai-offer-sprint.md`  
+Status: Needs checklist. No outreach without Emmanuel approval.
+
+### Action: Draft Guarded Social Content Maintenance Add-on Spec
+
+Source: Jason Wardrop - `How To Run Local Businesses' Social Media In 1 Hour A Week (Charge 497/mo Each)`  
+Decision: Adapt with constraints  
+Area: Content And Visibility Systems, Foundation Offer, Client Delivery  
+Change: Draft a social-maintenance add-on spec using monthly source facts, AI draft generation, client approval, no autopublishing, and paired reporting.  
+Evidence file: `pipeline/youtube-scout/transcript-extractions/yt-20260624-003-local-social-content-maintenance.md`  
+Status: Needs spec. No vendor commitment, autopublishing, or client pitch.
+
+### Action: Add UX Heuristics Row To Website QA
+
+Source: Build Great Products - `This skill actually fixes AI slop`  
+Decision: Adopt as principle / watch tool  
+Area: Website Production System, Digital Infrastructure, QA  
+Change: Add a heuristics-before-polish QA row for hierarchy, next action, consistency, contrast, section purpose, and trust.  
+Evidence file: `pipeline/youtube-scout/transcript-extractions/yt-20260624-004-ux-heuristics-over-style-presets.md`  
+Status: Needs QA checklist integration.
+
+## 2026-06-25
+
+### Action: Create Solo Product Sprint Gate
+
+Source: Build Great Products - `The Secret System I Use to Build & Launch Real Apps in 24 Hours (With Claude Code, Codex or Cursor)`  
+Decision: Adapt  
+Area: Build Brief, Digital Infrastructure, Agency Operations  
+Change: Add a build gate for new apps and automations: pain signal, AI-friendly PRD, roadmap with checkboxes, design.md when UI exists, build loop, code review, browser/workflow verification, and launch checklist.  
+Evidence file: `pipeline/youtube-scout/transcript-extractions/yt-20260625-001-builderos-solo-product-sprint.md`  
+Status: Needs checklist. No external launch without Emmanuel approval.
+
+### Action: Draft BridgeWorks Knowledge Map Spec
+
+Source: Paul J Lipsky - `Build a Self Improving Claude Knowledge Base`  
+Decision: Adapt internally  
+Area: Emmanuel OS, Agency Operations, Client Delivery  
+Change: Create a wiki/index-style map that links BridgeWorks source-of-truth files, current project files, YouTube decisions, open actions, client patterns, and guardrails.  
+Evidence file: `pipeline/youtube-scout/transcript-extractions/yt-20260625-002-self-improving-knowledge-base.md`  
+Status: Needs spec. No Gmail, Zapier MCP, or private-app connector expansion.
+
+### Action: Add Skill Adoption Gate
+
+Source: Matt Wolfe - `9 Free AI Skills That Feel Like Cheat Codes`  
+Decision: Adapt selectively / watch  
+Area: AI Growth Systems, Delivery Verification, Competitive Intelligence  
+Change: Before installing a skill or plugin, record exact use case, project affected, free/paid status, data exposure risk, rollback path, proof task, and keep/reject decision.  
+Evidence file: `pipeline/youtube-scout/transcript-extractions/yt-20260625-003-free-agent-skills-watchlist.md`  
+Status: Needs SOP row. No plugin install in active client work without approval.

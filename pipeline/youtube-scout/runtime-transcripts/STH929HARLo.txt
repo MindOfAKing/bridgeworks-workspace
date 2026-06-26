@@ -1,0 +1,828 @@
+00:00 One of the best things about tools like
+00:01 OpenAI's CodeX and Claude Code or Claude
+00:04 Co-work is that there are a lot of
+00:06 people using them already and figuring
+00:08 out the best way to actually get results
+00:11 from them. And many of those people,
+00:12 instead of, you know, like hoarding that
+00:14 knowledge to themselves, actually go and
+00:16 make their findings available for anyone
+00:19 to duplicate. And they do that in the
+00:21 form of what we call skills and plugins.
+00:24 And people are using these skills to do
+00:25 crazy things like these awesome
+00:27 knowledge graphs and to do deep real
+00:30 time research and to act as their CEO
+00:32 and to even create animations for them
+00:35 that they can use inside of videos. So,
+00:37 in this video, I'm going to share my
+00:39 absolute favorite skills and plugins
+00:40 that I've come across that are
+00:42 completely free to install in CodeX or
+00:45 Claude Code or whatever your harness of
+00:47 choice is. These skills and plugins have
+00:50 become pretty universal, so they'll work
+00:52 in like any of the IDEs or agent
+00:55 harnesses that you use, you know, CodeX,
+00:58 Claude Code, Cursor, Open Claw, Hermes,
+01:01 VS Code, Microsoft Co-pilot, like all of
+01:05 those. Now, before I get into my
+01:06 favorites, let me quickly explain what
+01:09 skills and plugins are. If you want to
+01:11 skip over the explanation, just jump to
+01:13 this timestamp to dive right into my
+01:15 favorites. All right, so a skill is
+01:17 basically a reusable instruction file.
+01:20 It's typically just like a detailed
+01:22 prompt written inside of a skill.md
+01:25 file. There's also sometimes some
+01:26 additional references, scripts,
+01:28 examples, or assets to go along with it,
+01:31 but most of the time it's essentially
+01:32 just a prompt that's already been dialed
+01:34 in so that you get a consistent result
+01:36 whenever that skill is called upon.
+01:38 Then, when you go to write your own
+01:40 prompt, the large language model reads
+01:42 both that skill file to help it
+01:44 understand what to do and the prompt
+01:46 that you just gave it so that both are
+01:49 fed into the model at the same time. A
+01:51 plugin, on the other hand, is more of
+01:53 like a bundle. It can package skills,
+01:56 agents, hooks, MCP servers, commands, or
+02:00 other config so that someone else can
+02:01 install the whole thing instead of like
+02:04 manually copying folders. So, a skill is
+02:08 essentially like the single prompt that
+02:10 tells the model what to do whenever that
+02:12 skill is called upon. A plugin is much
+02:14 more of a bundle that has not only
+02:16 skills, but agents and MCPs and all
+02:18 sorts of other stuff. But, the magic in
+02:20 all of these is that they don't just
+02:22 give your agent more context, they kind
+02:25 of give it like a repeatable behavior.
+02:27 Because every time you call on one of
+02:28 these skills or plugins, it knows how to
+02:30 act every single time. All right, now
+02:33 that I've explained that poorly and I
+02:35 fully expect the comments to tell me
+02:37 what I got wrong, let's dive into my
+02:39 favorites because let's be honest,
+02:41 that's what you came for. You're not
+02:42 here to learn, you want to see this do
+02:44 some cool stuff. The first one I want to
+02:46 talk about is called G stack and it
+02:48 comes from Garry Tan, who's the CEO of Y
+02:50 Combinator. Now, I'm not going to get
+02:52 too hung up in whether or not these
+02:54 different projects I'm talking about are
+02:56 skills or plugins. At the end of the
+02:59 day, you're going to set them up pretty
+03:01 much the same way. This one is
+03:02 essentially a giant bundle of a whole
+03:04 bunch of skills that you can give your
+03:06 agent. Here's how Garry describes it. It
+03:08 turns Claude code, but it also works in
+03:11 all the other things as well, into a
+03:13 virtual engineering team, a CEO who
+03:15 rethinks the product, an engineering
+03:17 manager who locks architecture, a
+03:19 designer who catches AI slop, a reviewer
+03:21 who finds production bugs, a QA lead who
+03:23 opens a real browser, a security offer
+03:25 who runs OWASP and stride audits. I
+03:28 don't even know what that means. And a
+03:29 release engineer who ships the PR.
+03:31 There's 23 specialists and eight power
+03:33 tools, which are all slash commands, all
+03:35 markdowns, and all free to use. And
+03:37 we're going to install most of these
+03:38 tools pretty much the same way. Here's
+03:40 how simple it can be. I'm going to grab
+03:43 this GitHub URL up here,
+03:44 github.com/garytan/gstack,
+03:47 and if I was installing it in the Claude
+03:49 code app here, I'm simply going to come
+03:51 down to my prompt box and say install
+03:54 this for me, please, and then just give
+03:56 it the URL to the GitHub. Literally,
+03:58 that's how easy it is. If I'm doing it
+04:00 in Codex, I can do it exactly the same
+04:03 way. Now, one caveat with Codex is they
+04:05 do have this plugins and skills
+04:07 marketplace. So, some of the plugins and
+04:09 skills that we're going to look at, you
+04:10 don't even need to have it installed
+04:12 that way. You could just go and click
+04:14 this add button next to it and it'll
+04:16 just be in Codex. But, if I search G
+04:18 stack, you'll notice that it's not one
+04:20 of the available tools in here. So, I'm
+04:22 going to come down to chats down here in
+04:24 Codex and say install this for me. And
+04:28 then paste that GitHub repo right in
+04:30 there. Let it go to town installing that
+04:32 for me. And we can see we've got it now
+04:34 installed in Claude. And if I jump over
+04:36 here to Codex, it's installed here in
+04:39 Codex as well. I'm pretty much going to
+04:41 follow that same process for every skill
+04:44 or plugin that I install. But, just know
+04:47 that all of the plugins and skills that
+04:49 I show have been shown to work in Codex,
+04:52 Claude Code, Open Claw, Hermes, Visual
+04:56 Studio Code, GitHub Copilot. They work
+04:58 across the board in all of them. Just
+05:01 pretty much follow that same simple
+05:03 process. Just ask the agent harness to
+05:05 do it for you. So, for the remainder of
+05:07 this video, I'm just going to work in
+05:08 Codex to simplify things and keep the
+05:11 video moving along. Now, just to show
+05:13 you that this did install in Claude Code
+05:15 and is working, I'm going to create a
+05:17 new session. I'm actually going to open
+05:18 up my little test folder here. And I'm
+05:21 going to give it the command {slash} G
+05:23 stack office hours. Office hours is one
+05:26 of the skills that's built in. I do have
+05:28 to give it this {slash} G stack the way
+05:30 we installed it here. And then I'll say,
+05:32 "I want to build a web app that takes a
+05:33 YouTube channel URL, analyzes the last
+05:35 20 uploads, and suggests 10 new video
+05:37 ideas. Help me pressure test the idea
+05:39 before we build." I'll submit that and
+05:41 it's going to call upon our G stack
+05:44 office hours skill here and it's going
+05:46 to stress test this idea. Now, while
+05:48 that's running, I'll jump back over to
+05:50 Code X here and we can see that if I
+05:53 come up to plugins, click on skills at
+05:55 the top, all of these G stack skills are
+05:57 now installed. And again, this is a
+05:59 giant bundle of various skills. I'm not
+06:02 going to go through all of them because,
+06:04 well, there's a lot. But I'll open this
+06:06 business dashboard project that I have
+06:08 here. This is a dashboard that I created
+06:10 that tracks all of my various social
+06:12 stats across platforms for me and I'll
+06:14 give it the prompt G stack {dash}
+06:16 review. I'm going to use the review
+06:18 skill and say review the current changes
+06:19 like a senior engineer, look for bugs,
+06:21 missed edge cases, security issues, and
+06:23 UX problems. So, it's using that G stack
+06:26 review skill and it's going to go ahead
+06:28 and review the code for me here. Jumping
+06:30 back over to Claude Code to see how
+06:32 we're doing on my idea for a idea
+06:35 generator, it's starting to ask me some
+06:37 questions here. What is your goal with
+06:39 this? Startup {slash} real product,
+06:41 internal entrepreneurship, side project,
+06:43 hackathon {slash} demo. For this, let's
+06:45 go side project. Over on the GitHub repo
+06:48 here, Gary suggests doing these four
+06:50 skills first. Run the office hour skill
+06:52 and describe what you're building. Run
+06:54 the plan CEO review on any feature idea.
+06:57 Run review on any branch with changes.
+06:59 Run QA on your staging URL. And then
+07:02 stop there and you'll know if this is
+07:03 for you. But again, there is a ton of
+07:06 skills in here, so just explore and play
+07:09 around with these various skills when
+07:10 you're writing code or planning projects
+07:12 cuz there's a lot you can do here.
+07:14 Jumping back to the Code X version here,
+07:16 it found one issue with a recommended
+07:18 fix and it's actually a pretty helpful
+07:20 fix because I changed the scope of this
+07:22 project over time, but some of the old
+07:24 scope is still built in. So, something I
+07:26 probably need to fix. I'm still getting
+07:28 more questions over here in my Claude
+07:31 Code about my idea cuz it's trying to
+07:34 stress test it for me. It's giving me a
+07:35 lot of questions that are helping me
+07:37 stress test with the AI. So, I'll keep
+07:40 answering the questions in the way that
+07:42 I think this app should be built and
+07:44 this wasn't actually an app I was
+07:46 planning on building but who knows by
+07:47 the end of this process maybe it's
+07:49 something I'll build. All right, so in
+07:50 Claude Code this stress test took about
+07:53 20 minutes but it went back and forth
+07:55 and back and forth and asked me a ton of
+07:57 questions so that I can stress test with
+08:00 it to decide if the idea is actually
+08:02 good or not. It wrote up a brief for me
+08:04 that it put into a markdown file and
+08:06 really just sort of helped validate the
+08:08 idea. But again, that's just scratching
+08:10 the surface of all the skills available
+08:11 here. So again, go play with it. Now the
+08:14 next skill I want to share is pretty
+08:16 easy to explain. It's called Stop Slop
+08:20 and it's a skill file for removing AI
+08:22 tells basically. Once again, simple
+08:24 install. I will grab this GitHub file,
+08:26 jump into my Codex here, create a new
+08:28 chat, install this for me. This one is
+08:31 very small compared to G Stack so it
+08:33 should be pretty quick. While it's doing
+08:34 that, I'm going to have ChatGPT write me
+08:36 up just a one paragraph explanation here
+08:39 about humanoid robots. I'll copy this
+08:42 one paragraph explanation here. It's
+08:44 telling me to restart Codex so I'll go
+08:46 ahead and do that. And if I look in my
+08:48 plugins skills, my Stop Slop skill is
+08:52 installed now. So let's create a new
+08:53 chat here. I will give it the prompt use
+08:56 the Stop Slop skill to improve this
+09:01 paragraph. And I'll go ahead and paste
+09:03 in the paragraph we just got from
+09:04 ChatGPT and it's going to use the Stop
+09:06 Slop skill. And here's our new
+09:07 paragraph. I'm not going to read them
+09:09 both out loud but if you do want to
+09:11 pause and see what it did, feel free to
+09:14 do so. If you do any AI writing like
+09:16 script writing or blog writing or
+09:17 anything like that and you want to
+09:19 remove some of the AI-isms from it, this
+09:22 is a really simple skill that'll do that
+09:24 for you. So the next skill I want to get
+09:26 into is actually one of my favorites. I
+09:28 really love this skill. It's called
+09:30 Graphify. Now Graphify turns codebases
+09:34 and docs and schemas and notes and media
+09:37 into like a queryable knowledge graph.
+09:40 And it makes it so that your agent or,
+09:43 you know, your coding harness or
+09:44 whatever you're working with doesn't
+09:46 have to rediscover all of the same
+09:48 relationships over and over again. It
+09:50 can actually just query the graph like
+09:53 memory. So, it's actually got this
+09:55 really cool visual workflow, but also
+09:58 it's got this memory component that will
+10:00 save you on token costs cuz it can use
+10:02 this as an additional memory. So, we'll
+10:04 pop over to the GitHub page for this
+10:07 one. All of the links to the skills I'm
+10:09 talking about will be in the
+10:10 description. We'll copy this URL, jump
+10:12 on into Codex. I'm going to start a new
+10:14 chat down here, and I'm going to say
+10:16 install this for me. And just to save
+10:19 time for the rest of this video, I'm
+10:20 going to do the same process to install
+10:22 all of these skills. So, I don't need to
+10:25 keep showing you this, I don't think.
+10:26 Now, one really cool use of this
+10:28 Graphify skill is if you've been
+10:29 building like a second brain. If you
+10:31 watched my previous video where I built
+10:32 like a whole knowledge base around
+10:34 content that I come across online. It's
+10:36 really good at sort of mapping that all
+10:38 out for you. So, let's go to my second
+10:40 brain project here. I'm going to create
+10:42 a new chat, and I literally just have to
+10:44 type /graphify
+10:46 and then a period. And it's going to
+10:47 graphify this project in this folder for
+10:51 me. You can see I'm in my second brain
+10:53 folder. It asked me which part of my
+10:54 second brain I want to graphify. I'm
+10:56 going to tell it the wiki and journal.
+10:59 Those are the ones I want it to
+11:00 graphify. Okay, so it took about 6
+11:02 minutes, but it created our graph. And
+11:04 check this out. If I open up our
+11:05 graph.html file, we have this
+11:08 node-looking graph that looks similar to
+11:10 what you'd get in the graph in Obsidian.
+11:12 Here it is in Chrome to get a better
+11:13 view of it. But if we zoom in here, we
+11:16 can see all of the inner connections of
+11:18 various things I've saved into my wiki
+11:20 and notice some patterns. You know,
+11:22 YouTube creator strategy, creator
+11:24 sustainability, creator persistence.
+11:27 Down here we have AI agent workflow,
+11:29 second brain usefulness plan, and a
+11:31 bunch of random like non-connected
+11:33 nodes, but it makes for a pretty cool
+11:35 visual. Now, these communities over here
+11:37 are sort of like bundlings that it
+11:39 found. So, if I unselect all of them, it
+11:41 makes the whole thing disappear, but
+11:43 let's say Let's say I wanted just see
+11:45 the bundle of YouTube creator
+11:46 strategies. I can select this right here
+11:48 and zoom in, and we can see some of the
+11:50 stuff I've saved around YouTube creator
+11:52 strategy. I can click on any section,
+11:54 see some of the neighbors, like if I
+11:56 click on social media algorithms,
+11:58 neighbors are AI Slop, audience avatar,
+12:01 information gain is Sedra. So, you get
+12:02 this nice little visual of all of the
+12:05 stuff you've been saving into your
+12:07 database here. But again, this is just a
+12:09 cool visual. What makes this really
+12:11 helpful is that it's actually this new
+12:13 memory layer. Like, it helps your agent
+12:15 see the interconnectedness of stuff, so
+12:17 you can actually query it. So, if I
+12:19 close out of this here, I can ask
+12:21 something like, "Using the graph, what
+12:23 are the biggest recurring themes in my
+12:25 notes?" And you can see it says, "All
+12:27 Use the existing graph rather than
+12:28 rebuilding it." So, it's going to query
+12:30 the merged graph JSON file, and we can
+12:33 see it found some connections. AI
+12:36 workflows says judgment leverage,
+12:37 creator strategy under platform
+12:39 pressure, persistence, originality and
+12:41 creative independence, behavior design
+12:42 in making hard work easier to start,
+12:44 sustainability as a creator, the second
+12:46 brain, AI era positioning, etc. So, it's
+12:49 found all these connections of all of
+12:51 the things that I've saved, as well as
+12:53 the things that I've journaled on into
+12:54 my second brain. Let's ask, "What are
+12:56 three video ideas hiding in this
+12:58 knowledge base?" It says, "I'm going to
+12:59 look for high degree bridge nodes and
+13:01 thin but interesting clusters where the
+13:03 graph suggests an underexploited
+13:05 connection." And it found three based on
+13:07 things that I've saved. AI won't replace
+13:09 creators, it will expose their judgment.
+13:10 The creator trap, when YouTube strategy
+13:12 starts eating your originality. The new
+13:14 4-hour work week is not about working
+13:16 less, it's about building with leverage.
+13:17 It also gave some details on, you know,
+13:19 the graph connections and the angle for
+13:21 the video, as well as the hook. But the
+13:23 nice thing about this is when I ask
+13:25 these questions, it's not trying to
+13:26 query across the entire database of all
+13:29 the markdown files of everything that I
+13:30 saved in my second brain, it's literally
+13:33 just looking at the graph that it just
+13:35 created and pulling these ideas from
+13:37 just that, which is going to use way
+13:39 less tokens and be way more efficient.
+13:41 Graphify also works on code bases. I
+13:44 just ran it on my Future Tools code base
+13:46 as well and you can see it built this
+13:49 graph here of Future Tools, a little bit
+13:52 more complex than you probably realize.
+13:54 [laughter]
+13:55 But again, using this as the memory
+13:57 layer is the real power here. It even
+13:59 suggests some questions to ask here like
+14:01 why does CN connect so many UI
+14:04 communities? So if I ask it that, it's
+14:06 going to actually query the graph and
+14:08 give me the answer without digging
+14:10 through all of the code files
+14:12 individually. And here's my answer. Now,
+14:14 the next skill I want to talk about is
+14:16 similar, but also different. It's called
+14:20 Understand Anything and they describe it
+14:22 as graphs that teach are greater than
+14:25 graphs that impress. Turn any code into
+14:27 an interactive knowledge graph you can
+14:29 explore, search, and ask questions
+14:30 about. So this one is slightly less
+14:32 about memories for the agent and more
+14:35 about like interactive onboarding and an
+14:38 exploration layer for humans and agents.
+14:41 So imagine this scenario, you write this
+14:43 big code base on some project and then
+14:46 you onboard uh a new hire to work on the
+14:49 same code. You have them run something
+14:51 like Understand Anything on the code and
+14:54 it essentially onboards them to what's
+14:57 going on inside of the code, but it does
+14:59 still create some pretty cool visuals.
+15:00 So for example, if I want to have
+15:02 Understand Anything map out everything
+15:04 that's going on inside of the Future
+15:06 Tools website, I can come to my Future
+15:08 Tools project here in Codex, type
+15:10 {slash} Understand, hit enter, and it
+15:13 will run the Understand Anything skill
+15:16 so that it will map out everything
+15:17 that's going on on the website. After
+15:19 almost 9 minutes, we have it all done
+15:21 here. And this is what this one looks
+15:23 like, a little bit more detailed of the
+15:26 flow of how all the code is working
+15:28 together. We've got our API routes, our
+15:31 security boundary. This is flowing into
+15:33 our services and integrations. So is our
+15:35 Superbase data model, our admin
+15:38 workflows. This is all funneling into
+15:40 the public UI. We have documentation,
+15:42 project configuration. It's just a very
+15:45 visual workflow of how this site is
+15:48 built. A lot easier to grasp than that
+15:50 giant cloud we were just looking at with
+15:52 Graphically a minute ago. And I can
+15:54 click into any one of these to dig a
+15:55 little bit deeper. So if I click into
+15:57 services and integrations, it will show
+15:59 me a map of all the services and
+16:00 integrations and how they all connect
+16:02 together. So, you know, you've got your
+16:04 news, which feeds into server, and also
+16:07 feeds into types. We've got mock tools,
+16:09 which were originally just sort of like
+16:11 demos that I put in that probably don't
+16:13 need to still be there. Come up here, we
+16:15 can see how index and pipeline and fire
+16:17 crawl and entropic all sort of tie
+16:19 together and how Google Sheets and
+16:21 Beehive are tying into our API routes.
+16:23 And it's just a much more visual flow so
+16:25 that somebody that's a coder could kind
+16:27 of come in here and see how all of the
+16:29 pieces fit together. Now, because I'm a
+16:31 vibe coder and I don't totally know what
+16:32 I'm doing, it's probably a giant
+16:34 spaghetti mess. Somebody that actually
+16:36 knows what they're doing would probably
+16:38 be a lot cleaner looking of a workflow
+16:40 for being honest here. But if I jump
+16:42 back to Codex, I can ask it things like,
+16:44 "Where should a new developer start on
+16:47 this?" And it's actually going to look
+16:49 at the workflow, again, as sort of like
+16:51 a memory to help answer that question as
+16:53 opposed to digging through all of the
+16:55 entire code again. And it's going to
+16:57 give me a quick explanation of where the
+16:59 developer should start. And here's what
+17:01 understand anything looks like when I
+17:03 run it on my second brain. We have a
+17:05 giant knowledge [clears throat] map of
+17:08 how everything interconnects. A little
+17:11 bit more hectic for this second brain
+17:13 concept here, but that's a view of all
+17:16 of the content and journal entries I've
+17:19 saved into my second brain. If I click
+17:21 into one of these, like this Riley Brown
+17:23 video, you can see that it shows the
+17:26 route of how these connect to each
+17:27 other. So, it's connected to my index
+17:30 page. Down here, it's connected to
+17:32 probably another Riley Brown video and
+17:35 another Riley Brown video. So, you can
+17:36 click on any one of these and see how
+17:38 they connect together with other sources
+17:41 in here. Let's just click on another one
+17:43 at random and we can see how they all
+17:45 connect together. You know, not quite as
+17:47 useful as using this for code,
+17:49 especially when your knowledge base gets
+17:51 very large. But, still a really cool
+17:53 visual to click around and play with.
+17:55 All right, before I move on to the next
+17:57 skill, I want to shout out really
+17:58 quickly. If you haven't already, make
+18:00 sure you subscribe to the Future Tools
+18:02 newsletter. Head on over to
+18:03 futuretools.io/newsletter
+18:05 and join. We have over 250,000
+18:08 subscribers now and every single week
+18:10 I'm going to send you two emails per
+18:12 week with the most important news that
+18:13 you need to know in the AI world as well
+18:15 as the coolest tools that I came across
+18:17 that week. It's totally free to
+18:19 subscribe. You also get some extra
+18:21 goodies like my AI income database,
+18:24 which is a database of all sorts of ways
+18:26 that people have found to make money
+18:28 using AI tools. It's like a make money
+18:30 life hacks. And you get it for free when
+18:33 you sign up to the newsletter. Again,
+18:34 over at futuretools.io/newsletter.
+18:38 All right, let's move on to the next
+18:38 skill. The next skill I want to talk
+18:40 about is called last 30 days. And this
+18:43 is a great skill if you're doing
+18:45 research or you want to find out what
+18:47 like the internet sentiment is on a
+18:50 specific topic. So, what this one does
+18:52 is it helps you figure out what people
+18:54 are actually saying across the internet
+18:56 right now. It searches things like
+18:58 Reddit, X, YouTube, Hacker News,
+19:00 Polymarket, GitHub, and just the web in
+19:03 general and then it synthesizes a
+19:05 grounded summary on what it finds. So, I
+19:08 went ahead and installed this one in
+19:09 Codex already using the exact same
+19:11 method we've done in the past. And if I
+19:13 click on chat here to start a new chat,
+19:15 I can type last 30 days to call upon
+19:19 this skill. Just for fun, let's do
+19:22 research Claude Fable. Find what people
+19:23 are excited about, what they're confused
+19:25 about, and what they're speculating will
+19:27 happen. And it gives me back an
+19:28 explanation of the sentiment around
+19:31 Fable right now. People are excited
+19:32 because Fable feels like a real
+19:34 capability jump. Developers are excited
+19:36 about coding agent leverage. Confusion
+19:37 is mostly about access citizenship and
+19:39 chat down mechanics. People are confused
+19:41 by Fable verse Mythos. And it's also
+19:44 sharing all the sources where it found
+19:45 it. Like it's looking at Reddit and
+19:47 YouTube and Anthropic's announcement,
+19:49 the system card, things like that to
+19:50 pull in details. At the bottom it gives
+19:53 us the key patterns. Excitement centers
+19:54 on work completion, availability, drama
+19:56 drowned out launch hype, cost is treated
+19:58 as destiny, safety classifiers are the
+20:01 technical mystery box, the next bet is
+20:04 restoration plus workarounds. And then
+20:05 it tells us what agents actually
+20:07 reported back. So it pulled 21 threads
+20:10 from Reddit, 20 videos from YouTube, 27
+20:13 stories from Hacker News, 19 items from
+20:15 GitHub, four markets on Polymarket. And
+20:18 it goes on to say, "I'm now an expert on
+20:20 Claude Fable 5. Some things I can help
+20:22 with." And then it gives you some
+20:23 follow-up questions you can ask. Another
+20:24 really cool thing is you can say, "Use
+20:26 the same skill to generate a shareable
+20:30 HTML file." And it actually has
+20:33 instructions inside of the skill to
+20:35 design out this HTML file. You can see
+20:37 it says, "I'll use last 30 days HTML
+20:40 export path and reuse the saved Claude
+20:42 Fable research." So it already has an
+20:44 HTML export. It already knows what to do
+20:46 with that information. And here's the
+20:48 HTML page that it created. Pretty much
+20:50 the same information, just uh you know,
+20:52 easier way to view it and something that
+20:54 you can share with others. All right,
+20:56 the next two skills I'm going to share
+20:57 are kind of similar. So I'm just going
+21:00 to sort of lump them together. One of
+21:01 them is the front end design skill,
+21:03 which is actually made by Anthropic. And
+21:05 if we actually look at the skills.sh
+21:08 website, which is a site that helps
+21:10 organize and find skills, it's actually
+21:13 the second most popular skill of all
+21:15 time here. And this one does pretty much
+21:17 exactly what it sounds like. When you're
+21:18 designing a webpage or an app, it will
+21:20 help with the aesthetics of the
+21:22 front-end design. Now, the other one
+21:24 that I want to talk about is called the
+21:26 taste skill. This one comes from Leon
+21:28 XLNX, and it's got nearly 50,000 stars
+21:31 on GitHub, but pretty much does the same
+21:34 thing. It gives your AI good taste.
+21:36 Stops AI from generating boring generic
+21:38 slop, specifically for your front-end.
+21:41 So, if you're building a website or an
+21:43 app or something like that, again, this
+21:44 is going to help with the design of it.
+21:46 I've installed both of these skills on
+21:48 Codex, and I asked each skill to
+21:51 redesign the Future Tools homepage. So,
+21:53 for a quick reference, this is what the
+21:55 Future Tools homepage looks like right
+21:57 now, right? It's the AI tools database.
+22:00 It's got all the categories you can
+22:02 select from. You can search for AI
+22:04 tools. And it's got, you know, a giant
+22:06 filtering of all the AI tools that are
+22:08 available. That's our starting point.
+22:09 For my first test, I asked it to look at
+22:12 the current homepage design, redesign it
+22:14 so it looks cleaner and more
+22:15 eye-pleasing, and create a new HTML page
+22:18 so we can see what it looks like. But
+22:19 for this first test, I said, "Don't use
+22:21 any additional skills to accomplish
+22:23 this. Just use the model by itself."
+22:25 Here's what it designed for the new
+22:27 Future Tools website when it just
+22:29 designed it with no design skills
+22:31 whatsoever.
+22:33 Again, here's my current site.
+22:35 Here's the new one that it just
+22:37 designed. Pretty much fairly similar. I
+22:40 do kind of like how it put the call to
+22:42 action off to the right instead of being
+22:44 right here. That's a little bit cleaner
+22:45 than what I've got, honestly. I then
+22:47 gave the exact same prompt, but this
+22:50 time said, "Use the front-end design
+22:52 skill to accomplish this." And here's
+22:54 the design using the front-end design
+22:56 skill. Definitely more colorful. Again,
+22:59 it kind of did the a thing where there's
+23:01 the top is sort of split. Definitely a
+23:03 better design than this really basic
+23:06 design that the model just did by
+23:07 itself. So, my site, the model without
+23:11 any design skill,
+23:13 using Anthropic's design skill,
+23:15 here's what it came up with. I then give
+23:17 it the exact same prompt, but told it to
+23:19 use the design taste front end, and this
+23:21 is what it designed using that one,
+23:23 which is a much cleaner look, but it
+23:26 sort of removes what the existing
+23:27 website is designed for, which is, you
+23:29 know, a curated list of all of the
+23:31 tools. So, good design just, you know,
+23:35 removed all of the tools from the
+23:37 design. And then for my final test, I
+23:39 told it to use both the design taste
+23:41 front end skill and the front end design
+23:43 skill. So, combine the two skills into a
+23:45 single prompt and use them both. And
+23:47 here's what that generated. It's got a
+23:49 little bit of a gradient here. I don't
+23:51 like how big this image is over on the
+23:53 right. That's a little weird. And, I
+23:55 mean, it looks decent, but those are the
+23:58 examples. Obviously, aesthetic is a very
+24:01 subjective topic, so you decide. This is
+24:04 my original. This is very plain, boring.
+24:08 I kind of designed it to be like a
+24:09 Craigslist kind of very simple site.
+24:11 Here's what AI designed on its own.
+24:13 Here's what it designed when given the
+24:15 Anthropic front end design skill. Here's
+24:17 what it designed when given just the
+24:19 taste skill. And then here's what it
+24:21 designed when told to work with both of
+24:24 those skills. Probably my least favorite
+24:26 design of all of them, quite honestly.
+24:28 But those are two skills that you can
+24:29 use if the design you're trying to get
+24:32 for your site or your app aren't quite
+24:34 coming out the way you want them to by
+24:37 just using the model alone. You can
+24:39 install one or both of these skills and
+24:41 get multiple variations of your design
+24:44 to get something that you really, really
+24:45 like. There's two more skills I want to
+24:47 show off, and once again, these two
+24:49 skills are very, very similarly related.
+24:53 One of them's called Remotion, and the
+24:55 other one is called Hyperframes. And
+24:57 both of these are skills that are
+24:59 designed to actually use your coding app
+25:02 to generate animations. Remotion is kind
+25:05 of its own thing, and hyperframes is
+25:07 made by HeyGen here, but you give each
+25:09 one of them a prompt for a video you'd
+25:12 like to see it generate, and then it
+25:13 will make sort of After Effects-y style
+25:16 videos. Not quite as good as what you
+25:17 can do in After Effects. If you want
+25:19 something really, really polished,
+25:20 you're still probably going to want to
+25:22 hire like a visual designer or somebody
+25:24 that knows After Effects, but it'll do
+25:26 really decent like basic graphics. If
+25:28 you just need charts, or you need just
+25:30 text to animate on the screen, things
+25:31 like that, these are really good at that
+25:33 kind of thing. So, for my first test
+25:35 here, I wanted to test a remotion. So, I
+25:38 used the remotion best practices skill,
+25:41 and I said, "Create an animation that
+25:42 looks like a text conversation on an
+25:44 iPhone." And then I gave it a quick text
+25:46 dialogue to generate. It generated this
+25:49 MP4 that I can then view on my computer
+25:51 here. So, it's an iPhone. Have you
+25:53 subscribed to Future Tools yet? No. Why?
+25:55 Because it's literally how people are
+25:57 keeping up with AI news these days. Oh,
+25:58 okay. That's how they're doing it. Just
+26:00 subbed. Thanks. I mean, that was one
+26:03 prompt, and it made that animation for
+26:04 me. It made this 11-second animation of
+26:08 a text conversation that I can now use
+26:10 in a video. I then gave Codex the exact
+26:12 same prompt, but this time called upon
+26:15 the hyperframes skill to do the same
+26:17 thing. And here's what that one looked
+26:19 like. Quite a bit better, honestly. I
+26:22 would say that actually looks more like
+26:23 an iPhone than the other one. I don't
+26:25 like how the text on the blue bubble is
+26:27 black, but other than that, it did a
+26:29 really, really good job of making this
+26:31 little iPhone animation from just one
+26:34 prompt. That was just one prompt
+26:36 through. Both of them did a pretty good
+26:38 job. So, if you're trying to get this
+26:39 kind of animation, you can use both of
+26:42 those skills and see which one does it
+26:43 better. I wanted to test a logo reveal,
+26:46 so I gave it the Future Tools logo here
+26:48 and said, "Create and animate." I didn't
+26:49 even spell it right. "Create an animated
+26:51 logo reveal that starts where the logo
+26:53 is not showing, then there's a particle
+26:55 explosion, and then the attached logo is
+26:57 formed from the particles that exploded.
+26:59 Use the Remotion best practice skill.
+27:02 So, this is the version that Remotion
+27:04 created. Nothing, particle explosion,
+27:07 and then they all form into the Future
+27:08 Tools logo, just like that. Pretty good.
+27:10 So, if you need like a logo reveal
+27:12 animation, you can now get AI to code it
+27:15 up for you, just like that. And of
+27:17 course, I tested the same animation with
+27:19 Hyperframes. Identical prompt, except I
+27:21 swapped out Remotion with Use the
+27:23 Hyperframes skill. And here's how
+27:25 Hyperframes did it. We have a blank
+27:27 screen, an explosion, and then it forms
+27:30 into the Future Tools logo for us.
+27:32 Pretty good. And like I like that second
+27:34 one a little bit better, actually. I
+27:35 mentioned it was good at charts and
+27:37 graphs, so I want to do another example
+27:38 here. Create an animated stock chart
+27:40 that shows the growth of Nvidia stock
+27:42 over the last 5 years. Here's how
+27:43 Remotion did it. We can see our stock
+27:45 chart, and little by little, we can see
+27:48 how the Nvidia stock sort of exploded
+27:51 over the last 5 years. And it even used
+27:54 Yahoo Finance to get the source of that
+27:56 information. And here's the version that
+27:58 Hyperframes generated. A little bit more
+28:00 animation of things going on inside this
+28:03 video. Definitely think the Hyperframes
+28:05 one is the preferable version here. And
+28:08 that's what I got for you today. Some of
+28:09 the coolest skills and plugins that you
+28:12 can plug into Claude Co-work, OpenAI's
+28:14 Codex, or any agent or harness that
+28:17 you're using to actually write your code
+28:20 and do this sort of thing. More and more
+28:22 of these are coming out all of the time,
+28:23 so if you want to see more breakdowns of
+28:25 cool skills and plugins that you can use
+28:27 directly inside of tools like this, let
+28:29 me know in the comments, and I will
+28:30 definitely make more videos like this if
+28:32 there's enough interest and demand for
+28:34 them. Again, that's what I got for you.
+28:36 If you like tool breakdowns and
+28:37 tutorials like this, make sure you like
+28:39 and subscribe to this channel, and I
+28:41 will make sure more stuff like this
+28:42 shows up in your YouTube feed. Also,
+28:45 every single Friday, I make a news
+28:47 breakdown video where I share everything
+28:49 that happened in the world of AI that I
+28:51 think the most people need to know
+28:52 about. They come out pretty much every
+28:55 single Friday without fail to help
+28:57 people stay looped in on what's going on
+29:00 in the world of AI. If that's your
+29:02 thing, also make sure to like and
+29:04 subscribe cuz those will show up in your
+29:05 feed as well. Anyway, that's what I got
+29:07 for you. Thanks for hanging out. Thanks
+29:09 for nerding out with me. Really, really
+29:10 appreciate you and hopefully I'll see
+29:12 you in the next one. Bye-bye.

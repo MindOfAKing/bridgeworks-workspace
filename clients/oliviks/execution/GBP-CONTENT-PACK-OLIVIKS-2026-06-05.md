@@ -5,7 +5,7 @@ Purpose: First-pass GBP content for profile optimization. Requires client approv
 
 ## Business Description - English
 
-Oliviks Kitchen serves authentic Nigerian food in Budapest from Rakoczi ter 9. Enjoy homestyle jollof rice, suya, egusi soup, puff puff, fried yam, plantain, and more for pickup or delivery through Wolt and Foodora. Loved by Nigerians, expats, and curious local food lovers, Oliviks is rated 4.8 stars by 160+ Google reviewers and has been featured in Origo, We Love Budapest, and WMN.
+Oliviks Kitchen serves authentic Nigerian food in Budapest from Rakoczi ter 9. Enjoy homestyle jollof rice, suya, egusi soup, puff puff, fried yam, plantain, and more for pickup or delivery through Wolt, Marwa, or WhatsApp. Loved by Nigerians, expats, and curious local food lovers, Oliviks is rated 4.8 stars by 493 Google reviewers and has been featured in Origo, We Love Budapest, and WMN.
 
 ## Business Description - Hungarian Draft
 
@@ -74,7 +74,7 @@ Hungarian: Az arak az etlapon es a rendelesi platformokon lathatoak. Ha kerdese 
 
 ### Post 1: Welcome / Proof
 English:
-Authentic Nigerian food in Budapest, made fresh at Rakoczi ter 9. Oliviks Kitchen is rated 4.8 stars by 160+ Google reviewers and featured by Origo, We Love Budapest, and WMN. Order your favorites through Wolt, Foodora, or contact us for pickup.
+Authentic Nigerian food in Budapest, made fresh at Rakoczi ter 9. Oliviks Kitchen is rated 4.8 stars by 493 Google reviewers and featured by Origo, We Love Budapest, and WMN. Order through Wolt, Marwa, or WhatsApp.
 
 Hungarian draft:
 Autentikus nigeriai etelek Budapesten, frissen keszitve a Rakoczi ter 9. alatt. Az Oliviks Kitchen 4,8 csillagos Google-ertekelest kapott 160+ velemeny alapjan, es megjelent az Origo, a We Love Budapest es a WMN feluletein is.
@@ -95,7 +95,7 @@ A teljes nigeriai komfortetel-elmenyhez probalja ki az egusi soup-ot pounded yam
 
 ### Post 4: Pickup / Delivery
 English:
-Hungry for jollof, suya, egusi, or puff puff? Order Oliviks Kitchen for pickup from Rakoczi ter 9, or find us on Wolt and Foodora.
+Hungry for jollof, suya, egusi, or puff puff? Order Oliviks Kitchen for pickup from Rakoczi ter 9, or find us on Wolt and Marwa.
 
 Hungarian draft:
 Jollof, suya, egusi vagy puff puff? Rendeljen az Oliviks Kitchen-tol elvitelre a Rakoczi ter 9. alol, vagy keressen minket Wolt-on es Foodora-n.

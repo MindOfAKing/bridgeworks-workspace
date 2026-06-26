@@ -243,3 +243,116 @@ Action: Create a one-page Foundation Client Fit Filter for static-first website 
 Owner: Emmanuel / BridgeWorks
 
 Status: Needs template
+
+
+### 2026-06-24 - Local Model Routing Economics
+
+Source: Greg Isenberg - "GLM 5.2: Set Up Local AI with Cursor/Codex etc"
+
+Decision: Adopt as internal cost governance
+
+BridgeWorks area: Local AI Ops, Agency Operations, Delivery Verification
+
+Reason: The transcript gives a practical model-routing rule: use stronger models for planning, vision, ambiguity, and review, then route well-scoped execution to cheaper/open models when quality holds. The cost example was 44 cents versus $2.38 for a large task, but the video also warns that hardware is not required to begin.
+
+Action: Create a no-spend Model Routing Trial Sheet before any paid OpenRouter, Z AI, or hardware experiment. Track task type, default model, cheaper candidate, verification method, quality, time saved/lost, and paid cost if any.
+
+Owner: Emmanuel / BridgeWorks
+
+Status: Needs SOP row. No paid API loop or hardware purchase without approval.
+
+### 2026-06-24 - One-Person AI Offer Sprint
+
+Source: Patrick Dang - "How I'd Start a $10K/Month One-Person Business With Claude (Masterclass)"
+
+Decision: Adapt
+
+BridgeWorks area: Sales And Prospecting, Offer Design, Proof And Authority
+
+Reason: The transcript gives a useful order of operations for Emmanuel's current solo reality: define the offer, identify the buyer, set result-based pricing, validate with buyer conversations, then build. The useful lesson is sell-before-build discipline, not the income claims.
+
+Action: Create a BridgeWorks One-Person Offer Sprint checklist with offer triangle, visible pain evidence, proof asset, approval gate, and build-after-signal rule.
+
+Owner: Emmanuel / BridgeWorks
+
+Status: Needs checklist. No outreach without approval.
+
+### 2026-06-24 - Local Social Content Maintenance Guardrail
+
+Source: Jason Wardrop - "How To Run Local Businesses' Social Media In 1 Hour A Week (Charge 497/mo Each)"
+
+Decision: Adapt with constraints
+
+BridgeWorks area: Content And Visibility Systems, Foundation Offer, Client Delivery
+
+Reason: Local businesses do need consistent social presence, but generic AI posts and reused content can damage trust. BridgeWorks should only adapt the workflow as a draft-only maintenance add-on with client facts and approval.
+
+Action: Draft a guarded social maintenance add-on spec: monthly source facts, AI draft generation, client approval, no autopublishing, and paired reporting.
+
+Owner: Emmanuel / BridgeWorks
+
+Status: Needs spec. No vendor commitment or client pitch.
+
+### 2026-06-24 - UX Heuristics Before Visual Polish
+
+Source: Build Great Products - "This skill actually fixes AI slop"
+
+Decision: Adopt as principle / watch tool
+
+BridgeWorks area: Website Production System, Digital Infrastructure, QA
+
+Reason: The strong principle is that AI-generated interfaces should be judged by design heuristics and user decisions, not by pasted style presets. The video is too short to justify adopting an unknown skill.
+
+Action: Add a UX heuristics row to Foundation website and Build Brief QA: hierarchy, next action, consistency, contrast, section purpose, and trust.
+
+Owner: Codex / Emmanuel
+
+Status: Needs QA checklist integration.
+
+### 2026-06-25 - Solo Product Sprint Gate
+
+Source: Build Great Products - "The Secret System I Use to Build & Launch Real Apps in 24 Hours (With Claude Code, Codex or Cursor)"
+
+Decision: Adapt
+
+BridgeWorks area: Build Brief, Digital Infrastructure, Agency Operations
+
+Reason: The useful lesson is not the 24-hour claim. It is the handoff stack for AI builds: validated pain, AI-friendly PRD, roadmap with checkboxes, design.md, build loop, review, verification, and launch checklist.
+
+Action: Create a Solo Product Sprint gate before new BridgeWorks apps, automations, or client-facing tools are built.
+
+Owner: Emmanuel / BridgeWorks
+
+Status: Needs checklist. No external launch without approval.
+
+### 2026-06-25 - BridgeWorks Knowledge Map
+
+Source: Paul J Lipsky - "Build a Self Improving Claude Knowledge Base"
+
+Decision: Adapt internally
+
+BridgeWorks area: Emmanuel OS, Agency Operations, Client Delivery
+
+Reason: BridgeWorks already has source files, YouTube decisions, client notes, and active-work logs. A maintained map would reduce repeated context discovery and connect old decisions to current tasks.
+
+Action: Draft a BridgeWorks knowledge map spec with source-of-truth links, project files, open actions, decisions, client patterns, and guardrails.
+
+Owner: Codex / Emmanuel
+
+Status: Needs spec. No Gmail, Zapier MCP, or private connector expansion.
+
+### 2026-06-25 - Skill Adoption Gate
+
+Source: Matt Wolfe - "9 Free AI Skills That Feel Like Cheat Codes"
+
+Decision: Adapt selectively / watch
+
+BridgeWorks area: AI Growth Systems, Delivery Verification, Competitive Intelligence
+
+Reason: Skills are valuable when they create repeatable behavior. Plugin bundles can also create tool sprawl and data exposure risk, so BridgeWorks needs a gate before installation.
+
+Action: Add a Skill Adoption Gate covering use case, project affected, free/paid status, data risk, rollback path, proof task, and keep/reject decision.
+
+Owner: Emmanuel / BridgeWorks
+
+Status: Needs SOP row. No plugin install in client work without approval.

@@ -14,3 +14,11 @@
 
 ## 2026-06-23
 - YouTube Intelligence Digest ran via RSS fallback. RSS returned 9 recent watchlist videos with 0 channel HTTP errors. Fetched 9 transcripts, created three durable extractions: AI UGC MCP Ad Sprint, Model Orchestration Cost Gate, and Avatar Upgrade Sales System. Updated YouTube action / decision logs and wrote `sessions/yt-digest-2026-06-23-evening.md`. No email, external publishing, paid ads, paid API loop, commit, or push.
+
+
+## 2026-06-24
+- YouTube Intelligence Digest ran via RSS fallback after YouTube Data API returned 403. RSS returned 2 recent watchlist videos with 24 channel HTTP errors. Fetched 2 transcripts, created the Local Model Routing Economics extraction, updated YouTube action / decision logs, and wrote `sessions/yt-digest-2026-06-24-morning.md`. No email, external publishing, paid API loop, hardware purchase, commit, or push.
+- YouTube Intelligence Digest afternoon run used RSS and web fallback. RSS returned 14 recent watchlist videos with 0 channel HTTP errors. Fetched 5 transcripts and created three extractions: One-Person AI Offer Sprint, Local Social Content Maintenance Guardrail, and UX Heuristics Over Style Presets. Updated YouTube action / decision logs and wrote `sessions/yt-digest-2026-06-24-afternoon.md`. No outreach, publishing, paid API usage, paid tool adoption, client contact, commit, or push.
+
+## 2026-06-25
+- YouTube Intelligence Digest afternoon run used RSS and web fallback after YouTube Data API returned 403. RSS returned 9 recent watchlist videos with 0 channel HTTP errors. Fetched 5 transcripts and created three extractions: BuilderOS Solo Product Sprint, Self-Improving Knowledge Base, and Free Agent Skills Watchlist. Updated YouTube action / decision logs and wrote `sessions/yt-digest-2026-06-25-afternoon.md`. No Gmail draft, outreach, publishing, paid API usage, paid tool adoption, client contact, commit, or push.

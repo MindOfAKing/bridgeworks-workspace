@@ -1,0 +1,166 @@
+00:00 Last week, David Holz, the founder of
+00:02 Midjourney, the company best known for
+00:04 generating six-fingered anime waifus and
+00:06 getting sued by Disney, sat on stage and
+00:08 announced their next big initiative to
+00:10 get inside of you. Midjourney Medical is
+00:13 a new division of Midjourney with the
+00:14 goal to reimagine the foundations of
+00:17 healthcare and our relationships to our
+00:18 bodies. The last time a San Francisco
+00:20 company wanted to reimagine the
+00:22 relationship with my body, I ended up
+00:24 getting Narcan behind the Ben & Jerry's
+00:26 at Fisherman's Wharf, but they said you
+00:27 can't OD on the same thing twice, so I'm
+00:30 feeling optimistic. David went on to
+00:32 basically say that because Midjourney is
+00:34 bootstrapped and profitable, they can
+00:36 afford to focus on something no other
+00:37 frontier AI lab would touch with a 10-ft
+00:39 pole, and that is actually improving the
+00:41 human experience. In today's video,
+00:43 we'll look at how they plan on doing
+00:45 that, what it may mean for the future of
+00:47 healthcare, and why I now know that I
+00:48 have the bone density of a Civil War
+00:50 widow. It is June 23rd, 2026, and you're
+00:53 watching The Code Report. In today's
+00:55 [music] world, if you want to look
+00:56 inside yourself, you have a few options
+00:58 that were all invented before the
+00:59 personal computer. You've got an MRI
+01:01 machine, which feels like sitting inside
+01:03 a Titan submersible as it screams at you
+01:05 for an hour, or you can do a CT scan,
+01:07 which is much faster, but with that
+01:09 speed comes a microdose of radiation.
+01:11 There's also a Dexa scan, which is more
+01:13 convenient, but causes depression when
+01:15 you get the results and realize that
+01:16 veggie straws don't actually contain any
+01:18 vegetables in them. All three are
+01:20 expensive at best and locked behind the
+01:22 bureaucracy of the healthcare system at
+01:23 worst. Not to mention, the whole
+01:25 industry is gated behind referrals,
+01:27 insurance fights, and wait times that
+01:29 give that pesky lump in your pants time
+01:31 to grow. That's why Midjourney got my
+01:33 attention last week when they announced
+01:34 their goal is to make a medical imaging
+01:37 device called ultrasonic CT that's
+01:39 cheap, fast, and accessible. It works by
+01:42 having you step into a platform and
+01:44 slowly lowers you into a shallow pool of
+01:46 warm water. As you sink, you pass
+01:48 through a ring of half a million tiny
+01:50 sensors that are each about the size of
+01:52 a grain of sand equipped with a
+01:53 microscopic speaker and microphone that
+01:56 fires ultrasonic waves through your body
+01:58 at a million times per second. When the
+02:00 waves come back, depending on what they
+02:02 pass through, they come back in
+02:03 different shapes. This creates terabytes
+02:05 of data per second about your insides,
+02:07 but reconstructing a coherent image from
+02:10 ambiguous noisy input is ironically the
+02:12 one thing Midjourney has spent years
+02:14 perfecting. The end result looks a lot
+02:16 like what you get with today's MRIs, but
+02:18 at nearly 100 times the speed and
+02:20 without having to marinate in the
+02:22 screaming tube. Because this whole
+02:23 process is just sound waves, some water,
+02:26 and eventually a minute of your time,
+02:28 Midjourney believes getting scanned
+02:29 should be much more common than it is
+02:31 today. But to do that, it needs to be
+02:33 available in a place you actually want
+02:34 to visit. And as Robert Kraft once told
+02:36 me, there's no better place than a spa.
+02:38 So they're also launching Midjourney
+02:40 Spa, a 25,000 square foot space in San
+02:43 Francisco at the end of 2027, complete
+02:46 with hot tubs, saunas, cold plunges, and
+02:49 in their words, cozy rooms of pools of
+02:51 golden light which softly scan your
+02:53 body. The pitch is that you show up for
+02:55 a relaxing day, dip into some water,
+02:57 maybe turn down some LSD from an early
+02:59 FTX employee, and the full body scan
+03:01 just sort of happens as a side effect.
+03:03 But before you get too excited about
+03:05 cold plunging with Linux kernel
+03:06 maintainers, there are some people who
+03:08 have doubts, and they happen to be
+03:09 doctors. The biggest critique is that
+03:11 ultrasound is great at soft squishy
+03:13 stuff near the surface, like your
+03:15 thyroid, kidneys, or abdomen, but the
+03:17 laws of physics prevent sound waves from
+03:19 traveling through air or bone, which
+03:21 means your air-filled lungs and your
+03:23 skull-wrapped brain are basically
+03:25 invisible to it. And clever vibe-coded
+03:27 software is never going to fix that.
+03:29 It's also extremely early. That
+03:31 60-second scan is a goalpost, but today
+03:33 the prototype takes about 20 minutes to
+03:35 finish and has no FDA clearance. So for
+03:38 now, the only thing it's legally allowed
+03:40 to tell you is your body composition,
+03:42 which if you're watching this, I could
+03:43 probably tell you as well. So the
+03:45 current plan is that over the next year,
+03:47 they'll be refining the hardware,
+03:49 running research trials, and building
+03:50 out the first research spa before it
+03:53 opens at the end of 2027. In the
+03:55 meantime, they'll keep submitting test
+03:56 results to the FDA to slowly unlock the
+03:59 actual disease detecting stuff, build
+04:01 out Gen 3 of their scanner, which they
+04:03 hope to have done in 2028, and scale a
+04:05 fleet of over 50,000 machines by 2031,
+04:08 which is enough to give monthly scans to
+04:10 a billion people. So no, the Midjourney
+04:12 spa probably isn't deleting 30% of all
+04:14 deaths next year, and the haters
+04:16 roasting the physics have legit reasons
+04:18 to be hating. But after years of
+04:19 watching the smartest people alive use
+04:21 their powers to create God, there's
+04:23 something refreshing about a profitable
+04:25 AI lab bringing accessible health
+04:26 optimizations to the masses. But another
+04:29 thing that's refreshing is Retool, the
+04:31 sponsor of today's video. Their research
+04:33 found that 93% of tech leaders say
+04:36 they're worried about running
+04:37 AI-generated apps in production, and the
+04:39 other 7% are probably too dumb to
+04:41 realize that they've already been
+04:43 zero-dayed. That's one reason why Retool
+04:45 just launched a new app builder, where
+04:47 you can safely connect those apps to
+04:48 your team's databases and APIs
+04:50 while inheriting your org's auth
+04:52 permissions and audit logs. You can
+04:53 import an existing app from tools like
+04:56 Cloud Code, or you can start with a
+04:57 fresh prompt like I'm doing here, and
+04:59 Retool turns it into a full-stack React
+05:01 app with code you can inspect. You also
+05:04 get full visibility into the queries it
+05:05 runs and the data that comes back,
+05:07 instead of just blindly trusting
+05:09 whatever the AI hallucinates. Retool is
+05:11 the missing link for actually shipping
+05:13 all your AI prototypes. Try it out
+05:15 today, and you'll get free app imports
+05:17 through July 1st, plus bonus AI credits
+05:19 on every paid plan. This has been the
+05:21 Code Report. Thanks for watching, and I
+05:23 will see you in the next one.

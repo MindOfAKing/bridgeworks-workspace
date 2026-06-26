@@ -1,0 +1,194 @@
+{
+  "published_after": "2026-06-24T00:02:04.055119+00:00",
+  "count": 17,
+  "errors": [],
+  "items": [
+    {
+      "source": "rss-watchlist",
+      "channel_id": "UCxVxcTULO9cFU6SB9qVaisQ",
+      "channel_label": "Jack Roberts — UK tech founder, 7-figure AI automation business",
+      "video_id": "OiuDRvYPMRU",
+      "title": "The laziest developer writes the best code",
+      "channel": "Jack Roberts",
+      "publishedAt": "2026-06-24T17:26:31+00:00",
+      "description": "The best developers write the least code. ponytail just taught AI the same lesson.\n\nFirst question: does this code need to exist? Shortest path. Standard tools before custom ones.\n\nponytail applied that to AI coding. 20K stars on GitHub. Free to use.\n\nLike hiring the laziest developer on the team. Turns out they write the best code.\n\nLess code. Fewer bugs. Faster builds.\n\n#ponytail #github #aicoding #firstprinciples #opensource",
+      "url": "https://www.youtube.com/watch?v=OiuDRvYPMRU"
+    },
+    {
+      "source": "rss-watchlist",
+      "channel_id": "UCGznz4NfW5iymkvn1l40qyA",
+      "channel_label": "Simon Squibb — entrepreneurship",
+      "video_id": "7c0QbN1lWzI",
+      "title": "He’ll be world champion one day… 🥹",
+      "channel": "Simon Squibb",
+      "publishedAt": "2026-06-24T17:16:19+00:00",
+      "description": "2 years ago, I met Jonathan, an aspiring UFC fighter who lacked the connections to make his dream a reality.\n\nSo I connected him with two LEGENDS of the game. Now, he’s training with some of the best fighters in the world on his way to the UFC. \n\nThink he’ll make it? Full story out now on my channel! \n\nThank you to @tomaspinallofficial and @SugaSeanUFC for helping Jonathan get one step closer to his dream!",
+      "url": "https://www.youtube.com/watch?v=7c0QbN1lWzI"
+    },
+    {
+      "source": "rss-watchlist",
+      "channel_id": "UCxVxcTULO9cFU6SB9qVaisQ",
+      "channel_label": "Jack Roberts — UK tech founder, 7-figure AI automation business",
+      "video_id": "Z_g0RJ-lJK0",
+      "title": "I Tested the Fable 5 Killer (Hermes Agent)",
+      "channel": "Jack Roberts",
+      "publishedAt": "2026-06-24T16:59:59+00:00",
+      "description": "📈 ALL Systems: https://bit.ly/4kol0y5\n🩵 Free Resources: https://bit.ly/3RNNDLa\n🔥 Type with your voice: https://bit.ly/4eGoI3R\n\nTwo models have been claiming to kill Claude Fable 5 in the last week, so I put both through real tests inside Hermes agent. Sakana Fugu is an intelligent router that secretly orchestrates a pool of frontier models behind one API, while GLM 5.2 is an open workhorse from China at a sixth of the cost. I run them against Opus 4.8 on tool calling, building a one page website, and improving the Hermes operating system. The results genuinely surprised me, especially how GLM 5.2 held up. I also walk through the exact model routing strategy I'm using going forward.\n\n*Core Software*\n🤖 Hermes Agent\n🐟 Sakana Fugu\n🧠 GLM 5.2\n☁️ Claude: https://claude.ai/\n🐳 DeepSeek: https://www.deepseek.com/\n🔌 Zapier MCP\n🔥 Glaido: https://bit.ly/4eGoI3R\n\n⌚️ Stamps:\n00:00 - Two Models Killed Fable?\n00:36 - The Game Of Thrones Problem\n01:48 - How Sakana Fugu Works\n03:01 - GLM 5.2 The Open Workhorse\n03:48 - Connecting Sakana To Hermes\n04:46 - Testing Sakana Out\n05:40 - Connecting GLM 5.2\n06:30 - Checking GLM Works\n07:15 - Test One Tool Calling\n09:07 - Tool Calling Results\n10:05 - Test Two One Page Website\n11:01 - Comparing The Websites\n13:53 - Test Three Hardest Yet\n15:16 - The Build Results\n16:09 - Fugu Is Not A Fable Killer\n17:02 - The Routing Strategy I Use\n18:33 - Why GLM 5.2 Impressed Me\n\nI tested Sakana Fugu and GLM 5.2 against Claude Opus 4.8 inside the Hermes agent to see which model is actually best for tool calling, building websites and coding, plus how to connect them with Open Router and Zapier MCP.\n\n\n#HermesAgent #GLM52 #SakanaFugu #ClaudeOpus #AIAgents #AIModels",
+      "url": "https://www.youtube.com/watch?v=Z_g0RJ-lJK0"
+    },
+    {
+      "source": "rss-watchlist",
+      "channel_id": "UClXAalunTPaX1YV185DWUeg",
+      "channel_label": "Vaibhav Sisinty — AI-first business, growth, LinkedIn",
+      "video_id": "gtIO2Mvtig8",
+      "title": "How I Grew to 2 Million Followers in a Year (My Exact AI Workflow)",
+      "channel": "Vaibhav Sisinty",
+      "publishedAt": "2026-06-24T16:06:22+00:00",
+      "description": "Make AI videos so real nobody can tell, every tool I use lives inside OpenArt :\n👉 https://openart.ai/features/openart-vfx/?utm_source=youtube&utm_medium=influencer&utm_campaign=infl-youtube--na-acq-web&ref=vs-vfx\n\nCode VS15 = 15% off. \n\n🎁 FREE: THE COMPLETE HOOKS PLAYBOOK\n👉 https://links.stayingahead.com/YT47\n\nThe full hooks playbook, plus every prompt, tool, and reference image from this video, free inside my WhatsApp community. The rest of the playbook drops on the channel video by video.\n\n────────────────────\n\nEveryone thinks these videos were filmed. They weren't. Not one camera, not one set, not one actor, every shot was built with AI on a laptop. In this video I break down the entire workflow behind millions of views: how to write the prompt, which AI image and video tools actually win, the one move that makes a fake shot feel real, and how to put your OWN face inside any of these worlds with no green screen and no reshoots.\n\n🛠️ TOOLS USED\n- Claude: writes the image + motion prompts\n- Nano Banana Pro & GPT Image 2: image generation\n- Seedance 2.0 & Veo 3.1: image-to-video\n- OpenArt VFX: replace background, relight, and put yourself in the scene\n\n⏱️ CHAPTERS\n\n\n\n--------\n\nTo Know More,\nFollow Vaibhav Sisinty On ⤵︎\n\nInstagram @VaibhavSisinty\nhttps://www.instagram.com/vaibhavsisinty\n\nTwitter @VaibhavSisinty\nhttps://twitter.com/VaibhavSisinty\n\nFacebook @VaibhavSisinty\nhttps://www.facebook.com/vaibhavsisinty/\n\nLinkedIn - Vaibhav Sisinty\nhttps://www.linkedin.com/in/vaibhavsisinty\n\n#AIVideo #AIReels #FacelessAI #AIContentCreation #ViralReels",
+      "url": "https://www.youtube.com/watch?v=gtIO2Mvtig8"
+    },
+    {
+      "source": "rss-watchlist",
+      "channel_id": "UCQ4FNww3XoNgqIlkBqEAVCg",
+      "channel_label": "Iman Gadzhi — agency model",
+      "video_id": "yjFqaRvrqpw",
+      "title": "You're Not Behind (Yet): How To Get Rich With AI In Under 5 Years",
+      "channel": "Iman Gadzhi",
+      "publishedAt": "2026-06-24T16:06:15+00:00",
+      "description": "Watch this next, where I break down the best AI business model to start and make $10k+/month: https://youtu.be/pPpb4t2eV2M",
+      "url": "https://www.youtube.com/watch?v=yjFqaRvrqpw"
+    },
+    {
+      "source": "rss-watchlist",
+      "channel_id": "UC2ojq-nuP8ceeHqiroeKhBA",
+      "channel_label": "Nate Herk — n8n + Claude Code, selling automation",
+      "video_id": "S2ME69hra-k",
+      "title": "Two AI Events I Want You At This Summer",
+      "channel": "Nate Herk | AI Automation",
+      "publishedAt": "2026-06-24T15:49:36+00:00",
+      "description": "Event I'm hosting that you can attend online: https://app.aiautomationsociety.ai/ais-live/extended/\nMontenegro Event: https://workless.ai/\nMonetizing AI Automation Playlist: https://www.youtube.com/playlist?list=PLvQWpZ46MVvjM2vX-pkeBxLUMgd8T9bRZ\n\nEvent Sponsorship Inquiries:\n📧 nate@smoothmedia.co\n\nConnect with me:\nhttps://www.linkedin.com/in/nateherkelman/\nhttps://x.com/nateherk\nhttps://www.instagram.com/nateherk/",
+      "url": "https://www.youtube.com/watch?v=S2ME69hra-k"
+    },
+    {
+      "source": "rss-watchlist",
+      "channel_id": "UCGznz4NfW5iymkvn1l40qyA",
+      "channel_label": "Simon Squibb — entrepreneurship",
+      "video_id": "SV4p1jSOHgU",
+      "title": "Can This Teen Survive An Elite Fight Camp?",
+      "channel": "Simon Squibb",
+      "publishedAt": "2026-06-24T15:23:31+00:00",
+      "description": "A year ago, I met a 19-year-old who dropped out of college to become a UFC champion. Today, he's about to step into the cage in Arizona, against an actual professional UFC fighter, and if he loses, he's going home.\n\nTry Stan for free for 1 month here: https://buildonstan.ai/simon\n\nSupport Jonathan Here: https://www.instagram.com/jonathan__davison/\n\nThanks to Tom Aspinall for his support: https://www.instagram.com/tomaspinallofficial/\n\nThanks to Sean O'Malley for his support: https://www.instagram.com/sugasean/\n\nThanks to Tim Welch for his support: https://www.instagram.com/timwelchmt/\n\nYour story is your superpower, learning to tell it correctly is the secret to success…\n\nPre order ‘What’s your Story’ here: https://www.simonsquibb.com/whats-your-story\n\nTo make your dream happen, start with my book: https://geni.us/whatsyourdream\n\nIf you need more help for free visit https://www.helpbnk.com",
+      "url": "https://www.youtube.com/watch?v=SV4p1jSOHgU"
+    },
+    {
+      "source": "rss-watchlist",
+      "channel_id": "UCUyDOdBWhC1MCxEjC46d-zw",
+      "channel_label": "Alex Hormozi — offers, acquisition",
+      "video_id": "wdoWh5qbJP4",
+      "title": "Choose Between Some Jobs Lost or All Jobs Lost",
+      "channel": "Alex Hormozi",
+      "publishedAt": "2026-06-24T15:03:26+00:00",
+      "description": "A lot of entrepreneurship comes down to being able to look an existential threat in the eyes with equal parts dread and enthusiasm. \n\nAnd going from “this is gonna end us” to “we can turn this into a win” as fast as possible.",
+      "url": "https://www.youtube.com/watch?v=wdoWh5qbJP4"
+    },
+    {
+      "source": "rss-watchlist",
+      "channel_id": "UChpleBmo18P08aKCIgti38g",
+      "channel_label": "Matt Wolfe — AI tools weekly",
+      "video_id": "2a3nXQjR1nM",
+      "title": "The Wildest Things I Saw Vibe Coded With Fable 5",
+      "channel": "Matt Wolfe",
+      "publishedAt": "2026-06-24T14:46:21+00:00",
+      "description": "I messed up. \n\nEveryone has been talking about the drama that went down around Claude Fable and Mythos getting shut down, including myself. But I got distracted from the REAL story here, which is just how crazy good these models were and the amazing things people were able to build with them.  \n\nThese are just a few examples, but it's insane that people built full scale projects and business ideas and NONE of them were engineers with massive dev budgets. They were just regular people with a good idea. \n\nWhat used to require a full development team and months of work now takes a single afternoon and a good AI model. We are watching in real time a massive shift in WHO gets to build things. \n\nBut of course, the party was cut short because Anthropic was ordered to suspend foreign access to Fable 5 over security concerns, literally describing their own tech as \"too powerful.\" \n\nAnd I get why that sounds terrifying. But look at what people actually did with it in the short window they had: they solved problems, built businesses, and created cool things to share with the world. That’s what happens when you put genuinely useful tech into the hands of the people. \n\n#Claude #Anthropic #AI #Entrepreneurship #vibecoding",
+      "url": "https://www.youtube.com/watch?v=2a3nXQjR1nM"
+    },
+    {
+      "source": "rss-watchlist",
+      "channel_id": "UCZRp6-Xvzo_dBFvt9L7y3Qw",
+      "channel_label": "Build Great Products — AI product design, app advising",
+      "video_id": "R7FvD7VXttA",
+      "title": "This skill actually fixes AI slop",
+      "channel": "Build Great Products",
+      "publishedAt": "2026-06-24T14:30:50+00:00",
+      "description": "AI slop is a problem, but most of these 'anti-slop' skills don't actually work\n\nThis is the first one I've found that actually does.\n\nAnd there's a good reason for it.\n\nBecause it works from rules and heuristics instead of giving you packaged themes.\n\nIt treats your UX and UI as something to audit and improve vs a set of rigorous criteria.\n\nJust comment 'AI SLOP' and I'll send you the link to get started.",
+      "url": "https://www.youtube.com/watch?v=R7FvD7VXttA"
+    },
+    {
+      "source": "rss-watchlist",
+      "channel_id": "UCLOzkJ9W9fntCGyYfUwMPew",
+      "channel_label": "Patrick Dang — B2B/tech sales, online business, freedom",
+      "video_id": "DuOolRhG2UY",
+      "title": "How I'd Start a $10K/Month One-Person Business With Claude (Masterclass)",
+      "channel": "Patrick Dang",
+      "publishedAt": "2026-06-24T14:00:23+00:00",
+      "description": "💻 Join my FREE LIVE training where I reveal how you can build your profitable 1-Person Business + Personal Brand with AI in the next 30 days - https://go.founderx.net/fb78c5b0\n\nGet Instant Access to My Free Claude Skills Business Idea Generator & List Builder: https://go.founderx.net/b242bbdb\n\nBook a Call: https://go.founderx.net/1e91404e\n\nThe #1 Claude AI Side Hustle Nobody Is Talking About: https://youtu.be/uJeHGmMir5Q?si=lR11hXJYR4L_PREo\n\nHow I'd Start a 1-Person Business With Claude AI in 30 Days: https://youtu.be/gRcBu8LyfGo\n\nIG: https://go.founderx.net/171f7aab\nLinkedIn: https://go.founderx.net/23e5dd40\n📲 Private Telegram (the stuff I can't post here): https://go.founderx.net/5541bd03",
+      "url": "https://www.youtube.com/watch?v=DuOolRhG2UY"
+    },
+    {
+      "source": "rss-watchlist",
+      "channel_id": "UCmeU2DYiVy80wMBGZzEWnbw",
+      "channel_label": "Paul J Lipsky — non-technical AI user, tools for business",
+      "video_id": "x0GOZWWJieI",
+      "title": "Claude Cowork Can Now Generate Images and Videos with Higgsfield MCP!",
+      "channel": "Paul J Lipsky",
+      "publishedAt": "2026-06-24T13:00:08+00:00",
+      "description": "Try Higgsfield MCP here: https://higgsfield.ai/s/mcp-pauljlipsky-MfjWLa\n\nHiggsfield's MCP connector lets Claude Cowork generate images and videos directly inside the chat, so you can plan the work and create the actual assets without ever leaving Claude.\n\n0:00 Intro\n0:58 Setup\n2:40 First Image Test\n3:21 Lesson Plan Infographics\n4:22 Restaurant Assets\n5:54 Editing and Iterating\n7:06 Why It Stays in Claude\n8:03 Outro\n\n🔗 This video is sponsored by Higgsfield. Some product links are affiliate links which means if you buy something we'll receive a small commission.",
+      "url": "https://www.youtube.com/watch?v=x0GOZWWJieI"
+    },
+    {
+      "source": "rss-watchlist",
+      "channel_id": "UCBgPxTfodXMa_zavgl0DX7A",
+      "channel_label": "Jason Wardrop — agency lead gen",
+      "video_id": "jZvXkUZ4zvI",
+      "title": "How To Run Local Businesses' Social Media In 1 Hour A Week (Charge 497/mo Each)",
+      "channel": "Jason Wardrop",
+      "publishedAt": "2026-06-24T12:29:46+00:00",
+      "description": "🎁 Get My Free Course + AI Software: https://bit.ly/RunLocalBusinesses\n✅ Get 50% OFF AI Software Here 👉 https://bit.ly/GET50OFFAI\n\nRunning local businesses' social media for $497/month is one of the fastest ways to build recurring revenue with an AI agency in 2026 — and you can do it in under an hour a week per client. This tutorial breaks down the exact system Jason uses to automate content creation and scheduling for local business clients without burning out. If you want to land your first paying client or scale to 10+, this is the workflow to copy.\n\n⏰ TIMESTAMPS\n0:00 Intro\n1:15 Why Local Businesses Are the Perfect Client\n2:40 The $497/Month Pricing Breakdown\n4:05 What You're Actually Delivering Each Week\n5:30 The AI Content Creation Workflow\n7:10 Scheduling and Automating Posts with GoHighLevel\n8:45 How to Keep It Under 1 Hour Per Client\n10:20 Getting Your First Local Business Client\n11:55 Outreach Script That Actually Works\n13:30 Handling Objections and Closing the Deal\n15:00 Scaling to 10+ Clients Without Hiring\n16:45 Next Steps and Recap\n\n💪 Need a HighLevel VA? Save $295 here 👉 https://bit.ly/VARunLocal\n\nLooking to get started with HighLevel?\n👉 Get the 30-Day Extended SaaS Trial Here: https://bit.ly/SaaSRunLocal\n\nWhen you sign up with my link, here's what you'll get:\n✅ Agency Partner Program – Get your first clients and fulfill using AI (step-by-step)\n✅ Real Estate Agency Accelerator - How I Built My Real Estate SaaS Business (step-by-step)\n✅ HighLevel Affiliate Blueprint - How I Became HighLevel's Top Affiliate (clone my biz)\n✅ Outreach templates + proven client-getting strategies\n✅ Sales funnels & sales call scripts\n✅ Full import of my client fulfillment systems\n✅ LIVE Bootcamp to launch your biz\n✅ 1-on-1 Kickoff Call to help you get started\n✅ 24/7 Priority Customer Success Support\n\n❌ IMPORTANT: Don't use an ad blocker or browser extension when clicking the links — it can block affiliate tracking and you won't get access to your bonuses.\n\nWho Am I?\nI'm Jason Wardrop — I built my own Real Estate CRM with thousands of paying clients before becoming HighLevel's #1 Affiliate All-Time. Now, I help others launch and grow their own recurring revenue businesses using software + AI.\n\nDisclosure:\nThis content reflects my own opinions and is not legal, financial, or investment advice. Always consult with licensed professionals before making any business decisions.\n\nAll experiences shared are from our most successful students; their success should not be considered typical. Student earnings vary based on effort, experience, and other factors. Many students don't apply our strategies and thus see little to no financial return. We cannot guarantee success or any specific financial result.\n\nI'm an independent affiliate and not an employee or agent of GoHighLevel. I receive referral commissions for purchases made through my affiliate links. Results shared are not guaranteed — your results will vary and depend on your effort, experience, and other factors.\n\n#AI #agency #digitalmarketing #gohighlevel",
+      "url": "https://www.youtube.com/watch?v=jZvXkUZ4zvI"
+    },
+    {
+      "source": "rss-watchlist",
+      "channel_id": "UC12JO2IPlEViR-o6SLXKx1A",
+      "channel_label": "Marc Lou — build in public",
+      "video_id": "GxW4EShS8qM",
+      "title": "I made my SaaS ready for AI agents (in San Francisco)",
+      "channel": "Marc Lou",
+      "publishedAt": "2026-06-24T12:15:03+00:00",
+      "description": "I flew to San Francisco for Stripe Session, met my favorite indie hackers, and updated my SaaS (DataFast) to be ready for the AI agents tsunami.\n---------\nI was fired everywhere, so I built startups.\n🔗 My 33 startups — https://marclou.com\n🧑‍💻 Learn to code in weeks, not months — https://CodeFa.st\n⚡️ Ship your startup in days, not weeks — https://ShipFa.st\n📈 Grow your startup with actionable data — https://DataFa.st\n💡 Everything I know as a solo entrepreneur — https://marclou.com/newsletter\n📸 Instagram —  https://www.instagram.com/marclouvion/\n💼 LinkedIn —  https://www.linkedin.com/in/marclouvion/\n🐦  Twitter — https://twitter.com/marclou",
+      "url": "https://www.youtube.com/watch?v=GxW4EShS8qM"
+    },
+    {
+      "source": "rss-watchlist",
+      "channel_id": "UCGznz4NfW5iymkvn1l40qyA",
+      "channel_label": "Simon Squibb — entrepreneurship",
+      "video_id": "Fcu_QozPEd4",
+      "title": "Find purpose in pain",
+      "channel": "Simon Squibb",
+      "publishedAt": "2026-06-24T09:28:25+00:00",
+      "description": "Simon Squibb shares his story why he helps people today with their dreams. \n\nSimon was Homeless at 15 and a millionaire today. How did he do it. He turned his pain into purpose and didnt become a victim.\n\nWhats your story?",
+      "url": "https://www.youtube.com/watch?v=Fcu_QozPEd4"
+    },
+    {
+      "source": "rss-watchlist",
+      "channel_id": "UClXAalunTPaX1YV185DWUeg",
+      "channel_label": "Vaibhav Sisinty — AI-first business, growth, LinkedIn",
+      "video_id": "M5tAbNLs8Ho",
+      "title": "Why Zuckerberg Just Put an Indian in Charge of WhatsApp!",
+      "channel": "Vaibhav Sisinty",
+      "publishedAt": "2026-06-24T06:56:55+00:00",
+      "description": "🔗 Join our WhatsApp Community\nGet the latest AI updates, tips, and insights straight to your inbox:\nhttps://join.switchit.app/YT\n\n--------\n\nTo Know More,\nFollow Vaibhav Sisinty On ⤵︎\n\nInstagram @VaibhavSisinty\nhttps://www.instagram.com/vaibhavsisinty\n\nTwitter @VaibhavSisinty\nhttps://twitter.com/VaibhavSisinty\n\nFacebook @VaibhavSisinty\nhttps://www.facebook.com/vaibhavsisinty/\n\nLinkedIn - Vaibhav Sisinty\nhttps://www.linkedin.com/in/vaibhavsisinty",
+      "url": "https://www.youtube.com/watch?v=M5tAbNLs8Ho"
+    },
+    {
+      "source": "rss-watchlist",
+      "channel_id": "UC2b2wgxm0vFjQfJJ0iRcFRw",
+      "channel_label": "Zubair Trabzada — Claude Code skills, GEO, n8n",
+      "video_id": "-YwIzo_yzrM",
+      "title": "How to Use GLM 5.2 Inside Claude Code in 5 Minutes",
+      "channel": "Zubair Trabzada | AI Workshop",
+      "publishedAt": "2026-06-24T00:28:18+00:00",
+      "description": "Learn how to make money with AI 👉 https://skool.com/aiworkshop\n\nVideo Prompts + Free Resource  👉 https://bit.ly/aiw-lite-about\n\nWork with us to implement AI into your business 👉 https://bit.ly/AIW-Discovery-Call\n\nCheck out my AI Saas 👉 https://citevue.com\n\nSettings.json code:\n\n{\n  \"env\": {\n    \"ANTHROPIC_BASE_URL\": \"https://openrouter.ai/api\",\n    \"ANTHROPIC_AUTH_TOKEN\": \"YOUR API KEY\",\n    \"ANTHROPIC_MODEL\": \"z-ai/glm-5.2\",\n    \"ANTHROPIC_DEFAULT_OPUS_MODEL\": \"z-ai/glm-5.2\",\n    \"ANTHROPIC_DEFAULT_SONNET_MODEL\": \"z-ai/glm-5.2\",\n    \"ANTHROPIC_DEFAULT_HAIKU_MODEL\": \"z-ai/glm-5.2\",\n    \"ANTHROPIC_SMALL_FAST_MODEL\": \"z-ai/glm-5.2\",\n    \"CLAUDE_CODE_SUBAGENT_MODEL\": \"z-ai/glm-5.2\"\n  }\n\n\nIn this video, I show you how to use GLM 5.2 inside Claude Code in just a few minutes.\n\nGLM 5.2 is getting a lot of attention right now as an open-source AI coding model, and many people are testing it as an alternative to more expensive coding models. In this tutorial, I walk you through the simple setup process so you can connect GLM 5.2 to Claude Code and start using it for your own AI coding workflows.\n\nWe’ll go through the full setup step by step, including how to configure Claude Code, connect GLM 5.2 through OpenRouter, add your API key, and confirm that everything is working inside VS Code.\n\nIf you want to use GLM 5.2 for coding, vibe coding, agentic engineering, AI app building, or cheaper Claude Code workflows, this video will show you exactly how to get started.\n\nBy the end, you’ll know how to:\n\n✅ Set up GLM 5.2 inside Claude Code\n✅ Connect Claude Code with OpenRouter\n✅ Add your API key correctly\n✅ Use GLM 5.2 inside VS Code\n✅ Start building with an open-source AI coding model\n\nThis is a quick setup tutorial for anyone who wants to try GLM 5.2 inside Claude Code without wasting time figuring out the configuration.",
+      "url": "https://www.youtube.com/watch?v=-YwIzo_yzrM"
+    }
+  ]
+}

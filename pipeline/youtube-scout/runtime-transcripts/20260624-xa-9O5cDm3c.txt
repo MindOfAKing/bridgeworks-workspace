@@ -1,0 +1,670 @@
+00:00 Okay, you've probably heard of GLM 5.2
+00:03 that's going viral everywhere on
+00:05 Twitter. Yes, it's this new open-source
+00:07 local AI model that people are saying is
+00:10 the chat GPT moment for local AI. But,
+00:14 no one's actually gone and shown you how
+00:15 to use it and how do you actually set it
+00:18 [music] up? So, I figured I'd bring on
+00:20 my friend Amir. He tells us exactly how
+00:23 you should think about [music] running
+00:26 GLM 5.2, how you should think about
+00:28 running local models, how that
+00:29 integrates [music] to something called
+00:31 open router, how you can use it with
+00:32 your codex or cursor or cloud code. In
+00:36 this episode in 20 minutes or less,
+00:37 you're going to get everything you need
+00:39 to know about local AI models, why GLM
+00:42 5.2 is crushing benchmarks, and how you
+00:45 can set it up today so you can go and
+00:48 build your startup, build your business,
+00:51 >> [music]
+00:51 >> and be more productive, and be more
+00:53 efficient. Enjoy the episode and I'll
+00:55 see you at the end of it. Hit a like,
+00:57 comment, and subscribe for more of this
+00:59 sort of stuff in your feed. Enjoy.
+01:01 >> [music]
+01:06 [music]
+01:09 >> Welcome to the show, Amir.
+01:11 Uh by the end of this episode, what are
+01:13 we going to learn?
+01:14 >> [clears throat]
+01:15 >> We're going to talk about especially
+01:16 learn about how local models are kind of
+01:19 keeping up now with the pace of these
+01:21 closed models as well and how you can
+01:23 kind of use compounding models or fusion
+01:26 models as as open router calls it to be
+01:28 able to do sequencing between a more
+01:30 extensive thinking model and a more
+01:32 execution-based model. We'll show you
+01:34 how GLM 5.2 actually compares and stacks
+01:37 up against other models and how you can
+01:38 effectively use it and get set up with
+01:39 it as well.
+01:41 >> Cool, I did an episode on local models.
+01:43 It was a hit. People wanted more
+01:45 tactical, how do I actually, you know,
+01:49 how should I think about local models?
+01:50 How do I implement local models? How I
+01:52 can actually make this a part of my
+01:55 daily workflow? So, I brought on Amir.
+01:57 Welcome to the show and let's
+01:59 >> I give you two welcomes, by the way.
+02:01 That's how excited I am to have you
+02:03 share share with everyone everything.
+02:05 So, let's get into it.
+02:07 >> I'm super excited to be here. Let's jump
+02:08 right into it. So, let's talk about what
+02:10 happened this week. Google came out with
+02:12 Gemini 5.2 and I think this was a big
+02:15 inflection point because we've typically
+02:17 seen with local models, it's either, you
+02:19 know, storage extensive that you can't
+02:21 essentially run it or install on your
+02:23 computer or you need a better like GPU
+02:26 RAM performance to be able to actually
+02:28 run it locally as well.
+02:30 Now, Gemini 5.2 is also resource
+02:32 extensive, but what we're seeing is with
+02:35 open-source models like
+02:36 open-source providers like
+02:38 OpenRouter or Llama being able to help
+02:41 you run these models in the cloud and
+02:43 effectively being able to essentially
+02:45 pay
+02:47 slightly less for input and output
+02:49 tokens compared to the more closed
+02:51 models. Now, what I want people to take
+02:54 away from this session is one, how to
+02:55 actually get set up with it. We're not
+02:56 going to go through the detailed setup
+02:57 process, but I'm going to just cover how
+02:59 you can do it in Cursor using OpenRouter
+03:02 or in Code X and then effectively talk
+03:04 about how Gemini 5.2 stacks up against
+03:06 the other models and then how you can
+03:08 effectively use it as well to do model
+03:09 chaining. And then we'll do model
+03:11 chaining and then we'll do just a kind
+03:13 of a maybe a quick walk-through of how
+03:15 I'm currently using it. You know, I want
+03:17 to be very honest like
+03:19 these local models [clears throat] still
+03:21 have a lot of work to do in terms of
+03:23 having tool capabilities to be able to,
+03:25 you know, have
+03:27 the model, you know, the modalities to
+03:28 be able to see images and conceptualize
+03:30 on what they're looking at and I'm going
+03:32 to tell you how you can effectively
+03:34 circumvent some of that where you can
+03:35 use other models to explain what the the
+03:39 image is back to Gemini and then have
+03:41 Gemini work on it.
+03:43 And then also just have a very live test
+03:45 on how this stacks up against other
+03:47 models. You know, benchmarks are great.
+03:49 Personally, I'm not an expert in it. I
+03:50 don't know what any of these benchmarks
+03:51 actually mean. The way I do it is off of
+03:54 like let's build it out and see how this
+03:56 actually looks and how it stacks up
+03:57 against other models. Sound good?
+04:00 >> Yes, sir.
+04:01 >> Let's do it. Okay, so GLM 5.2 came out
+04:03 and essentially has a 1 million context
+04:05 window and it scores 81 points on the
+04:09 terminal bench 2.1. It's just about four
+04:11 points behind Opus 4.8 and it does quite
+04:15 well on the long horizon task
+04:17 evaluation. So this is essentially
+04:20 projects you have that you want to run
+04:22 long sequence tasks on and you know,
+04:26 I think it's seeing account like the
+04:28 thinking parameters and how it can think
+04:29 through and plan through some of the the
+04:32 task at hand. So you can see that across
+04:34 all these different kind of benchmark
+04:37 reporting reports.
+04:39 GLM GLM 5.2 actually does quite well. So
+04:42 in this case it's 62.1% compared to
+04:44 Opus's 69.2.
+04:47 What's special about GLM is it's open
+04:49 source. You can run it locally on your
+04:51 machine if your device can support it or
+04:53 you can run it in the cloud through the
+04:54 open
+04:55 model providers. It's a big leap from
+04:58 5.1. I personally didn't test 5.1. I got
+05:01 straight into 5.2, but from what I'm
+05:03 seeing based off of like Twitter and
+05:05 conversations with people, it's
+05:07 performing quite well especially on the
+05:10 front end side of just execution based
+05:11 tasks. I haven't really tested more on
+05:13 the back end resource intensive tasks,
+05:16 but just based on perception and what
+05:18 we're seeing in the reporting, it's
+05:20 stacking quite well.
+05:22 >> So when you say stacking well, we
+05:24 talking like cuz like I look at
+05:26 benchmarks and honestly it goes through
+05:28 you know, one ear one eye and it goes
+05:30 out the other eye. I'm like I glaze over
+05:32 cuz I'm like what does this really mean?
+05:34 Like are we talking is it like 4.8? Is
+05:37 it like 5.5?
+05:38 Yeah. What do we
+05:40 How should I think about this and
+05:43 yeah, give it give it to me straight.
+05:45 >> Honestly, man, I'm in the same. boat.
+05:47 don't get it. You know what I mean? Like
+05:48 I'm I'm not smart enough to understand
+05:49 how these benchmarks actually stack. So,
+05:51 I'll be honest, for me it's like let's
+05:53 just let's just build it, use it, and
+05:55 see how we feel about, you know, it how
+05:58 it performs compared to the other
+05:59 models. And for me, I want to get the
+06:01 best out of it. So, if I feel like GLM
+06:03 5.2 is strong in one part, but weak on
+06:06 the other, then I think about how do I
+06:08 actually use other tools or other models
+06:10 to essentially Now, I think
+06:13 like almost like a fusion approach and I
+06:14 think Open Router
+06:17 which is one of the like the model
+06:18 providers
+06:19 coined this where it's like you're able
+06:21 to do like sequencing between two
+06:23 different models to get the best output.
+06:25 So, I'm totally game on. If I can run a
+06:27 local model on my machine to do certain
+06:30 tasks, but then call, you know,
+06:32 Opus or Codex to do something else and
+06:34 have them work together, by all means. I
+06:36 want to be the most token and
+06:38 cost-efficient and performance as well.
+06:41 >> Yeah.
+06:42 >> So, on the setup side, I personally
+06:45 started using this through Cursor using
+06:49 Open Router's API. So, how it works
+06:52 essentially is
+06:53 you got to go to Z AI, which is the GLM
+06:55 provider. They created the GLM 5.2
+06:57 model. You get an API key from them, and
+07:01 then you take that key and you go into
+07:03 your Cursor settings,
+07:05 paste it into the OpenAI field,
+07:07 and then from there you override the
+07:09 OpenAI endpoint with this API endpoint
+07:13 right here. And essentially from there,
+07:14 you go back to models, add a custom
+07:16 model, GLM 5.2, and you're able to then
+07:19 actually call GLM 5.2 directly. So, in
+07:23 essence, instead of OpenAI key, you put
+07:25 your GLM API key from Z AI,
+07:28 then you override the API endpoint for
+07:31 when you call OpenAI
+07:33 chat completion with this one right
+07:35 here, and then you go back into custom
+07:37 models and add the custom model
+07:38 protocol. You You also alternatively do
+07:41 this using Open router. So, if you want
+07:43 if you're using codex, you can go to
+07:45 open router, get your open router key,
+07:48 and then um go into the provider, get
+07:50 the endpoint, and then go into codex,
+07:51 create a profile, and say, "Hey, I want
+07:53 you to install this model um open source
+07:56 model." Codex does actually support open
+07:59 source models. So, you're able to
+08:01 provide the details of what the model
+08:03 is, the context window, and then
+08:05 essentially when you're running codex
+08:06 through the CLI, you can switch to GLM
+08:08 5.2.
+08:11 >> Easy enough.
+08:12 >> Yeah, easy enough, you know, and then
+08:14 maybe we can uh have a page or something
+08:16 to show later on where they can kind of
+08:17 follow these instructions. There's a lot
+08:18 of guides on Twitter and online. You can
+08:20 follow those, but essentially
+08:22 in my opinion, the best way to get
+08:24 started with this is just go to open
+08:25 router and cursor and get that set up
+08:28 through and through.
+08:29 So, um let's talk about
+08:32 here the model. We've talked about the
+08:33 benchmarks, how it performs. Really, if
+08:35 we want to just at least take you know,
+08:37 put some weight to the benchmarks, I'd
+08:39 say if they're scoring at 62% and Opus
+08:42 4.8 is 69, you know, that probably means
+08:44 something, you know, for for for the
+08:47 normal people, we probably won't really
+08:48 know until we actually play around with
+08:49 it, but I went in and was just looking
+08:52 at, for example, this website we have,
+08:54 this is a small app, and I built this in
+08:58 I think Opus 4.8. I was just testing it
+09:00 around, and I started refining the
+09:02 design using GLM 5.2. So, I was like,
+09:06 "Hey, redesign the hero section for me
+09:08 or refine it." Um there's this like
+09:10 section right here with all these
+09:11 images. I was like, "Why don't we just
+09:12 do a little like carousel style?" So,
+09:16 it you know, it's fascinating in a way
+09:18 because I don't I personally don't think
+09:20 open uh the the local models had
+09:23 um this kind of capability to be able to
+09:25 get get it so refined and accurate um
+09:29 previously.
+09:30 And I I I tested the models like that we
+09:32 had, um
+09:34 and I find that GLM 5.2 is a lot more
+09:37 refined, and it's able to follow the
+09:38 instructions on like what you want it to
+09:40 do. So, in a couple prompts I was like,
+09:41 "Hey, you know, let's do a carousel
+09:43 here. Let's make sure we, you know, are
+09:45 able to show the the images and then
+09:47 from there I want you to build out like
+09:49 a Bento grid style of all the features
+09:51 that we have." Now, this is all one
+09:53 prompt. Obviously, you know,
+09:55 you can see it's a little bit of vibe
+09:57 coded here. It has a little side like
+09:59 badge the labels, you know, and and you
+10:01 can tell, but at the end of the day
+10:04 for a local model for like, you know, a
+10:06 local model if you're running this on a
+10:08 computer and not burning any tokens,
+10:10 it's still it's doing quite well and I
+10:11 think um
+10:13 I can see how it stacks like in terms of
+10:16 reporting. Yeah.
+10:17 >> I mean, I think so like, okay, what is
+10:19 the what is the
+10:21 the main benefit of using a local model
+10:24 versus something in the cloud is you
+10:28 don't burn tokens. You, you know, you
+10:30 essentially the way to think about it is
+10:32 you're buying a machine
+10:35 um
+10:35 and and correct me if I'm wrong, but
+10:37 you're buying a machine
+10:39 um we can we should talk about like some
+10:41 of the machines that people could
+10:42 potentially buy.
+10:44 But you're buying a machine, it's a you
+10:46 know, one size it's a one it's a cost.
+10:48 It could be 2,000, 5,000, 10,000 and
+10:51 then you can just run
+10:53 tasks, right? So, you're building a
+10:55 startup, you just want maybe you want
+10:57 conversion rate optimization. So, maybe
+10:59 you say every day I'm going to feed you
+11:00 customer feedback and every single day I
+11:02 want you to work on the front end and
+11:04 you just do that. So,
+11:06 my question to you is
+11:09 for local models specifically, for
+11:11 people who actually want to be building
+11:13 companies, shouldn't they be basically
+11:16 running it all the time on certain task
+11:18 and how should people be thinking about
+11:20 it?
+11:21 Yeah, so I think this is that's a little
+11:23 bit tough to answer and I'll say why
+11:24 because like this model specifically is
+11:26 really resource intensive. Intensive.
+11:28 So, a lot of I think um
+11:30 existing consumer
+11:32 uh computers may not be able to run this
+11:35 from what I've seen.
+11:36 I've been I've been running it on the
+11:38 cloud through open router directly.
+11:41 Um,
+11:42 >> And what's the cost with that?
+11:44 >> Yeah, so uh with So, I actually was
+11:47 trying to map out the token cost of
+11:49 model training. So, if we had about
+11:51 50,000 input tokens and 85,000 output
+11:54 tokens,
+11:55 uh
+11:56 to get almost close to an Opus 4.8 level
+12:00 of output, it will cost us 44 cents.
+12:03 Whereas with Opus 4.8, it costs you
+12:05 $2.38.
+12:08 So,
+12:09 the you know, there's a big almost like
+12:11 a
+12:12 big difference on the almost like 5x,
+12:14 you know, price difference between
+12:17 >> Which doesn't sound like a lot when
+12:18 you're like, "Oh, $2 here, 44 cents
+12:20 here." But, when you're actually using
+12:22 these these things and you're running it
+12:24 all of the time and you have pretty, you
+12:26 know, big tasks that you're going after
+12:28 and you don't want to be constrained by
+12:30 token costs.
+12:32 So, it's a big deal. 5x is a big deal.
+12:35 >> Yeah, yeah. And this is based on kind of
+12:37 the averages on like the coding
+12:39 benchmarks and what what cursor charges
+12:41 you through the API pool. But, I want to
+12:42 I want to I want to be also
+12:44 future-proofing yourself. If we got this
+12:46 far with Gemini 5.2, I wonder what next
+12:49 six months looks like, right? So, would
+12:51 it be even worth like I think it's also
+12:53 worth thinking about making the upfront
+12:55 investment in your machine right now to
+12:57 be able to potentially download and run
+13:00 these local models so that when we get
+13:02 to Gemini Gemini 5.3 or 5.5,
+13:05 we're essentially made the upfront
+13:07 investment in the in the in the compute
+13:09 and the equipment to now save a lot more
+13:12 in the long run with other future models
+13:14 that may come out that are going to be
+13:15 much more expensive. Cuz I think this,
+13:17 you know, we're seeing the the the AI
+13:19 subsidy on tokens, right? Like we're
+13:20 getting a lot more output out of Claude,
+13:22 out of Codex. And I wonder, you know, I
+13:25 I've personally seen it, I'm sure you
+13:26 have too, where it's like now we're hit
+13:27 hitting our usage a lot faster than we
+13:29 before especially when Fable came out I
+13:31 ran I remember like I ran it in like in
+13:33 the first day I hit my limit you know.
+13:35 >> Totally. So you're what you're saying is
+13:37 basically like it you know if you look
+13:40 at
+13:41 uh
+13:42 I mean if you look at the history of VC
+13:44 back startups think about Uber when Uber
+13:46 first came out they actually subsidized
+13:48 rides and they got you hooked onto the
+13:50 onto the onto the app and then over time
+13:52 they started increasing prices
+13:54 increasing prices. What you're saying is
+13:57 with
+13:58 uh
+14:00 you know in the AI age with a lot of
+14:01 these LLMs they're going to get you
+14:03 hooked into the workflows you're going
+14:05 to you're going to build on top of it
+14:06 and over time
+14:07 you know those subsidies are going to go
+14:09 away as they go public and things like
+14:11 that. So what you're saying is maybe
+14:13 it's a good idea to actually invest in
+14:17 running this thing locally um
+14:20 because you know the price of memory
+14:23 isn't getting cheaper.
+14:25 >> Mhm.
+14:26 >> And the price of tokens aren't getting
+14:28 cheaper.
+14:29 >> Mhm.
+14:29 >> So building it now securing it while you
+14:32 can might be a good idea.
+14:34 >> Yeah and to tie this all together I'd
+14:35 say two things. One um
+14:39 harnesses that are agnostic on models so
+14:41 like for example cursor where you're
+14:43 able to run multiple models across the
+14:45 same sequence of tasks are going to
+14:48 actually potentially benefit from this
+14:49 right? So you know I wouldn't be
+14:51 surprised if one you know cursor decides
+14:53 to directly support Gelion 5.2 as a
+14:57 model provider and lets you kind of tap
+15:00 into that cost saving um if you couple
+15:02 it with like composer 2.5. So this is
+15:04 where it goes into model training right?
+15:05 Where I was for example looking at um
+15:08 earlier in this task here I wanted to
+15:11 refine the hero section. So what I did
+15:13 is I actually used Opus 4.8 to um
+15:18 to first
+15:19 import screenshots because Gelion 5.2
+15:22 doesn't support vision capabilities. So,
+15:24 what I did is I actually used Open 4.8
+15:27 to import screenshots and explain back
+15:29 to me what it sees, right? I was like,
+15:32 "Tell me what you see specifically on
+15:35 the front-end design for the hero
+15:36 section and lay it out." And then I
+15:38 switched to GLM 5.2 to study that layout
+15:42 and then actually act on making those
+15:44 changes. So, it's kind of a way to like
+15:45 circumvent the fact that you have
+15:47 limitations to what GLM 5.2 can do 5.2
+15:50 can do
+15:52 like
+15:53 image capabilities, but you're able to
+15:55 kind of now chain the expensive model to
+15:57 think through the plan and then
+15:59 get the same level of frontier like
+16:03 frontier level like quality, but at a at
+16:05 a much
+16:07 affordable price point.
+16:09 >> I mean, that makes sense. So, your your
+16:10 recommendation is basically
+16:12 you know, there's it's almost like
+16:15 free trade versus protectionism, you
+16:17 know? The world you you you know, not to
+16:20 be
+16:20 this isn't political. This is just
+16:22 economics theory, right? Which is like,
+16:26 you know, when when when people are
+16:28 trading with amongst each other,
+16:31 you know, maybe it's
+16:33 you know, in Canada where you are, you
+16:35 know, you might want to trade with
+16:36 Florida cuz you know, we got good
+16:38 oranges here. And we might want to
+16:40 trade, you know, we we don't get we
+16:42 can't make maple syrup here. So, we'll
+16:44 get your maple syrup, right?
+16:45 >> your maple maple syrup. Yeah, exactly.
+16:47 So, make the best use of it, yeah.
+16:49 >> Make the best use of it. So, you're
+16:50 saying is, you know, using cursor
+16:55 and and basically you know, you don't
+16:56 have to use cursor, right? You can use
+16:58 whatever you'd like.
+16:59 >> Codex, Claude code, yeah.
+17:01 >> Use
+17:02 one of those to basically say like,
+17:04 okay, for certain task I'm going to be
+17:05 using local models, for certain task I'm
+17:07 going to be using the best-in-class
+17:09 cloud models. And then together,
+17:11 ultimately you're getting, you know,
+17:13 great results in terms of the output,
+17:15 but you're also not spending through the
+17:17 wazoo. And if you're if you're a token
+17:19 maxi or like you and me are, like in the
+17:22 sense of like we're we're always pushing
+17:24 into the limit around anything we're
+17:26 building to get the most out of AI cuz
+17:29 you know, we don't want to hire 100
+17:31 people, 500 people, and stuff like that.
+17:33 Um
+17:34 it's helpful to do that.
+17:36 >> And exactly and anecdotally to two
+17:38 parts, right? One internally within our
+17:40 company, you know, I think Satya at
+17:42 Microsoft, you know, mentioned how like
+17:45 human capital plus token usage is now a
+17:48 big factor into what they're doing,
+17:50 right? A lot of companies are now moving
+17:52 away from, you know, having direct
+17:54 access to the cloud code API to run the
+17:56 tokens cuz of how expensive it's become,
+17:59 right? So they're canceling
+18:00 subscriptions. So we're seeing this
+18:01 first hand with a lot of companies now
+18:03 are saying, "Okay, cool. This first year
+18:04 was great. You know, we had the mandate,
+18:06 you know, AI adoption, token maxing. You
+18:09 know, that's how we're going to measure
+18:10 success and that's how we're going to
+18:11 become AI native." Now they're like,
+18:12 "Wait a minute. Okay, cool. We've done
+18:14 We've done this, but we're spending way
+18:15 too much money on tokens. How can we now
+18:17 be more effective, right?" And I'm
+18:20 seeing this first hand, too, where it's
+18:21 like, especially now, right?
+18:25 In a way, you can have some sort of
+18:27 direct ROI between the tokens you're
+18:28 spending
+18:30 within the engineering team cuz you're
+18:31 like, "Okay, cool. We're saving a lot of
+18:32 time. There's an output.
+18:34 You know, engineers are expensive. We
+18:36 get that. But now you're providing the
+18:37 same level of harnesses and models to
+18:39 the non-engineering teams that, you
+18:41 know, are one-shotting a like, "Hey,
+18:43 help me format this email." and they're
+18:45 using Office 4.8 AI thinking. They're
+18:47 like, "Maybe that's probably not the
+18:49 right model." and that's a governance
+18:50 issue, right? That's a big You know, I'm
+18:51 having these conversations with
+18:52 companies right now where they're
+18:53 saying, "Hey, can you help us figure out
+18:54 like how to build governance and proper
+18:56 education on how to actually use the
+18:58 right models?" And this is where I think
+18:59 model chaining is a big factor, right?
+19:01 By the way, you know,
+19:03 John at marketing, maybe you shouldn't
+19:05 use Office 4.8 to run this like to just
+19:08 format this email for you. And just
+19:10 helping them understand that. And I
+19:11 think, you know, I wouldn't be surprised
+19:13 if in a year from now companies start
+19:15 You know, we've been thinking about it
+19:16 as well. We're like, "Hey, why don't we
+19:17 just get our own machines and start
+19:18 running some local models cuz it's a lot
+19:20 more effective, especially how much
+19:21 money we're spending on tokens."
+19:23 >> What's the
+19:24 like just to play devil's advocate, why
+19:26 wouldn't I just use open router and call
+19:29 it a day?
+19:30 >> Please do. Yeah. Yeah, absolutely. I
+19:32 think they should.
+19:33 >> cuz I you know, when I'm on on X, I see
+19:35 a lot of people being like, "Buy a Mac
+19:37 Studio or buy, you know, these expensive
+19:40 devices."
+19:41 You know,
+19:42 for for people listening,
+19:45 do they need to buy a local piece of
+19:47 hardware? Like if the price even goes up
+19:49 2X or should they just use open router
+19:52 and cursor or or or Claude code, you
+19:55 know, whatever harness they they want?
+19:58 >> If I just have this right machine, I'll
+20:00 get to this you know, result. That's not
+20:02 how it works. You know, no, you don't
+20:04 need a Mac Mini. You don't need this
+20:05 equipment. You can get started today.
+20:06 You know, and what I love about open
+20:08 router and all these other tools is
+20:09 again, they're so agnostic. They make it
+20:11 easy for you to be able to access this
+20:13 in the cloud. They run the models
+20:15 locally. And you it's credit-based. Load
+20:17 $20, get it going, and it's easy to set
+20:20 up. Um I highly highly recommend if
+20:22 you're starting to dabble with this and
+20:24 token usage is a is a thing for you,
+20:26 get one of these Asian harnesses set up
+20:28 now that they're a lot of them are model
+20:29 agnostic. Run some tokens in open
+20:31 router, get these open models in there,
+20:34 and start start vibing. Just get some
+20:36 like I love to experiment to see how far
+20:38 I can take this. What if I fine-tune
+20:40 with
+20:41 review with Gemini 5.0 execute 5.2 and
+20:45 then review with
+20:46 composer 2.5 or codex 5.5. There's a lot
+20:49 of ways and I think we can be really
+20:50 effective and I think that's what the
+20:51 smart people are going to be doing in
+20:53 the near future.
+20:54 >> Uh some people are saying, "I don't care
+20:57 how much tokens cost because I think
+20:59 there's so much opportunity in building
+21:01 startups and and optimizing and AI
+21:04 arbitrage that I don't even care if it
+21:06 costs me whatever." What do you say to
+21:08 those people who are just basically
+21:11 ignoring this whole open source local AI
+21:14 movement?
+21:15 >> I used to be the exact same person, you
+21:17 know,
+21:18 in our first episode you're like, "Yeah,
+21:19 how much does this all cost?" I'm like,
+21:20 "I don't know, man. I'm just vibe
+21:21 spending." And I think my that mentality
+21:23 has changed. Now I can see that my usage
+21:26 limits are being hit faster and my cost
+21:28 is going up and now that our team is
+21:30 expanding internally as well. So, I
+21:32 think as a solo person it's a lot easier
+21:35 to build a a case or rebuttal on why you
+21:38 should just token max as much as
+21:39 possible, which itself is kind of a like
+21:42 an it's ironic. You shouldn't be token
+21:43 maxing. You should be token minimizing
+21:45 as much as possible and output maxing
+21:47 instead. So, my answer to that is if it
+21:49 works for you and you can directly have
+21:51 an ROI that you can show that, "Hey, I
+21:52 spent $200 and got a thousand out."
+21:54 Great. Otherwise, sooner or later the
+21:57 subsidy is going to run out.
+22:00 >> All right. Well, I think that's that's
+22:02 the episode, you know, unless there's
+22:03 anything else you want to add before we
+22:05 bounce.
+22:06 >> Yeah, I mean, for people that are trying
+22:07 to dabble with it, play around, have
+22:09 some, you know,
+22:11 see see what it can do at least in the
+22:12 front end for you and start working back
+22:13 end tasks and yeah, I hope they they got
+22:15 they learned something from this.
+22:17 >> I'll include links for where to follow
+22:18 Amir. Um he's always one of my first
+22:20 calls whenever I'm trying out new stuff
+22:23 and so I'm happy that you were able to
+22:24 jump on. I appreciate you. We appreciate
+22:26 you. Give
+22:29 give him a follow, like, and comment
+22:30 this video. Let us know what you think.
+22:32 We'll be in the in the comment section.
+22:34 Uh
+22:36 just just
+22:37 you know, out there trying to help and
+22:38 learn and and uh and uh thanks a lot,
+22:42 Amir. I'll catch you on the next one.
+22:43 >> Thanks for having me.

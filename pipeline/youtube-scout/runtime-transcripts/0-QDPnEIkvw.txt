@@ -1,0 +1,394 @@
+00:00 When most people use tools like Claude
+00:02 Co-work or Codeex, they build a static
+00:04 system, something they have to
+00:06 constantly feed before it gets any
+00:08 smarter. But there's a way to build a
+00:10 knowledge base that improves itself. One
+00:13 that proactively gets smarter every
+00:15 single day without you having to do the
+00:17 work. Mine, for instance, forms
+00:19 connections between all my scattered
+00:21 ideas every night while I'm sleeping.
+00:23 And that has led to real breakthroughs
+00:25 in my business and in my health and has
+00:27 turned my agent into a true AI system
+00:30 that's more powerful than anything you
+00:32 could go out and buy. And here's the
+00:34 best part. This doesn't need some
+00:36 advanced model that hasn't come out yet
+00:38 or some tool you've never heard of.
+00:40 Using Claude Co-work or OpenAI's codeex
+00:42 and a simple system of files on your
+00:44 computer, you can build a self-improving
+00:46 system like this in a matter of minutes.
+00:49 Let me show you exactly how. This idea
+00:51 originally came from Andre Cararpathy,
+00:53 one of the most respected people in AI.
+00:55 He calls it an LLM wiki, but I like to
+00:58 think of it more as a map for your AI.
+01:02 Normally, every time you point your AI
+01:04 at the files on your computer, it has to
+01:06 read through all of them and figure out
+01:08 what they are and how they fit together
+01:10 before it can help you. Then a week
+01:12 later, if you ask it to do something
+01:14 else for you, it has to do that whole
+01:16 process over again. So, it never
+01:18 remembers and it never gets faster. A
+01:20 map fixes that. Instead of a messy pile
+01:23 of files, your AI gets a clean map of
+01:26 everything, you know, with all the
+01:28 connections already drawn in. So, it
+01:30 doesn't have to figure out your system
+01:32 every time you chat with it. It just
+01:34 looks at this map and knows instantly
+01:36 what it needs and where it lives. Now,
+01:39 this looks a little bit intimidating,
+01:41 but the best part is your AI will build
+01:43 and maintain this automatically for you.
+01:46 You just have to use your system
+01:47 normally and then every night it will
+01:49 look at what you've created and find
+01:51 where it fits on this map, what other
+01:54 files you've created in the past that
+01:56 connect with it. And as it begins to
+01:58 form these connections, it will get
+01:59 smarter and gain more context about you
+02:02 and the kind of things you turn to it
+02:04 for. So for example, this is my
+02:07 knowledge base right here. It's all
+02:09 contained inside this folder called
+02:11 knowledge. You can see inside of this I
+02:13 have a section for important people. I
+02:16 have a section for sponsors I've worked
+02:19 with for all the tools I've covered on
+02:21 my channel for different topics I'm
+02:22 interested in. A lot of this information
+02:24 comes from transcripts of my YouTube
+02:26 videos. But it's also articles, tweets,
+02:29 or other YouTube videos from other
+02:30 creators that I found online that I
+02:32 think are interesting that I've added to
+02:35 this knowledge base and then my AI has
+02:37 organized for me. To understand this
+02:40 better, we can click on index right
+02:42 here, which is essentially a table of
+02:44 contents for my entire knowledge base.
+02:47 Now, I don't use this table of contents.
+02:49 This is specifically for my AI. So, it
+02:52 knows its way around this knowledge
+02:54 base. You can see right here, I have
+02:56 sections for the different tools I
+02:58 cover, the topics, the sponsors, and all
+03:00 the people that I've talked with that I
+03:02 want to keep track of. If we come into
+03:04 the tools section for instance, you can
+03:06 see I've covered chat GBT cla and
+03:09 Gemini. If I open up one of these, you
+03:11 can see all of the YouTube videos I've
+03:13 made on Gemini, all the articles I've
+03:15 saved and how they all connect together.
+03:17 And this isn't just taking the raw
+03:20 transcripts or the raw articles and
+03:21 throwing them in here. It's actually
+03:23 looking for connections and it's
+03:25 building up this information base as to
+03:28 what is important about Gemini for me,
+03:31 for Paul. So that way the next time I
+03:33 ask a question about Gemini or making a
+03:36 video about it, it can come in here and
+03:38 see what is important for me that it may
+03:41 want to include in the answers it gives
+03:43 me or when it's helping me put together
+03:45 a future video. And it's not just for
+03:47 work either. You can also use this for
+03:49 personal projects or personal things you
+03:51 have going on in your life. I run a
+03:53 second one of these knowledge bases. For
+03:55 instance, for my health, I track things
+03:58 like how well I'm sleeping, how many
+04:00 calories I'm eating, my weight, my
+04:02 resting heart rate, and my HRV. And it
+04:05 gives me this little score telling me
+04:07 how ready I am when I start my day. So,
+04:09 all of this goes into daily pages, and
+04:12 then it organizes it all for me. So, now
+04:14 I can chat with this folder and ask it
+04:16 things like, "How well is my progress
+04:18 going towards my goals?" And it already
+04:20 has all of this information. It's
+04:22 already formed these connections and it
+04:24 already knows what's important to me.
+04:26 So, it's going to surface that
+04:27 information for me quickly. What I want
+04:29 you to understand about this is once you
+04:31 learn how to set it up, you can point
+04:32 this at any area of your life. So, your
+04:35 business, fitness, a topic you're
+04:37 researching, a hobby, the setup is
+04:39 identical. You put stuff in, the AI
+04:41 organizes it, creates a map for itself
+04:44 once, and automatically keeps it updated
+04:46 so it can give you the most relevant,
+04:49 helpful answers as quickly as possible.
+04:52 Let's start setting this up. You may
+04:53 have noticed that I've been using this
+04:55 app right here to visualize and show you
+04:57 my knowledge base. This app is called
+05:00 Obsidian. It's free to download and I
+05:02 suggest that you do download it and use
+05:03 it as a way to view your knowledge base.
+05:06 When you first set it up, it will ask
+05:08 you to create a new vault. A vault is
+05:11 just a fancy word for a folder on your
+05:13 computer. So, click on create and name
+05:17 your vault. So, maybe knowledge base.
+05:20 Choose a location where you want that
+05:21 folder saved and then click on create.
+05:24 Over here on the left, you'll be able to
+05:26 see all the files inside your folder,
+05:28 which right now is only one file that
+05:31 says welcome, but you can always add new
+05:33 files. So, since I saved my vault to my
+05:36 desktop, you can see right here that
+05:38 this is literally just a folder. And
+05:40 what I'll do is I will drag in all these
+05:42 notes that I had previously made that I
+05:45 want as part of that knowledge base. So
+05:47 now inside of Obsidian, you can see I
+05:50 have all these new notes inside my
+05:52 knowledge base folder. What you want to
+05:54 start doing now is adding things to your
+05:57 knowledge base as time goes on. So if
+05:59 you have any new ideas, you can click on
+06:01 new note here and just type out your
+06:03 idea right here. Or you can add
+06:06 articles. So there's a free Chrome
+06:08 extension called Obsidian Web Clipper.
+06:11 And with this installed, if you're
+06:13 reading an article that you want to save
+06:15 or even a YouTube video, you can click
+06:17 on the Chrome extension, click add to
+06:19 Obsidian, and it'll be added to your
+06:22 vault as part of your knowledge base
+06:24 that can then be processed by your AI,
+06:26 which again, I'll show you how to do
+06:27 that in just a minute. Next, you want to
+06:29 pick the tool that you're going to use
+06:30 for your knowledge base management. I
+06:33 use Claude Co-work for that. With Claude
+06:35 Co-work, you can point it to folders on
+06:37 your computer. So, it'll be able to
+06:39 access all the files inside of it. So,
+06:41 if I click right here on this dropdown
+06:43 and click on choose a different folder,
+06:45 I can then go to my desktop where my
+06:47 knowledge base is, select that folder,
+06:49 and click on open. So, now it has access
+06:52 to all the files in that folder. I can
+06:54 also click on the left here where it
+06:56 says customize. Then click on
+06:58 connectors. And clicking on this plus
+07:01 icon, I can browse all the connectors to
+07:03 see all the thirdparty tools that Claude
+07:06 works with. Claude lets you talk to
+07:09 other apps directly. Things like your
+07:11 email, your calendar, notion, and that
+07:14 means all those tools can become part of
+07:16 your knowledge base, too. And you don't
+07:18 have to actually drop files into the
+07:21 folder by hand. It can pull the
+07:23 information from these other apps. But
+07:25 the problem is Co-work doesn't connect
+07:27 to every tool out there. There are
+07:29 thousands of apps and only some of them
+07:31 are available as connectors. So if the
+07:34 thing you want to feed into your
+07:36 knowledge base lives in an app that
+07:38 co-work can't reach, you're stuck
+07:40 copying and pasting it by hand. There is
+07:42 a tool that fixes that though, and
+07:45 that's Zapier, who's also the sponsor of
+07:47 today's video. You probably know Zapier
+07:50 as a tool that connects all your
+07:51 different apps together. But Zapier also
+07:54 has an MCP that connects Claude Co-work
+07:58 to thousands of other apps that it
+08:00 doesn't natively have access to. So even
+08:02 if those tools can't talk to Claude
+08:05 Co-work on their own, Zapier connects
+08:08 almost all of them and it gives Claude
+08:10 way more power inside of the apps it
+08:12 does connect to. Here's how it works.
+08:13 Head over to the link in the description
+08:15 down below and sign up for a free
+08:17 account if you don't already have one
+08:19 with Zapier. Then click on the left
+08:21 where it says MCP servers and click on
+08:24 new MCP server. From here you'll select
+08:27 Claude Co-work or if you're using
+08:29 another tool, you can select any of
+08:30 these other tools. And if it doesn't ask
+08:32 you to connect to Claude Co-work, click
+08:34 on connect here. Click on add to Claude
+08:36 and then click on connect. Then click on
+08:38 apps and add the ones that you want your
+08:40 AI to have access to through the Zapier
+08:43 MCP. The best part is you get granular
+08:46 permissions so you can make sure that
+08:48 you only give your AI access to the
+08:51 tools and features that you feel
+08:53 comfortable with. This is huge for a
+08:55 knowledge base because the more places
+08:57 your AI can pull from, the richer your
+09:00 knowledge base gets. I've got mine
+09:02 hooked up so Claude can pull straight
+09:03 from apps that don't even have built-in
+09:05 connectors. things like my YouTube
+09:08 account for instance and every night it
+09:10 can pull information from that and add
+09:12 it to my knowledge base and the map.
+09:14 Zapier MCP is the thing that took my
+09:16 setup from a folder I feed by hand to a
+09:19 system that pulls from everywhere I
+09:21 work. If you want to try it out, a link
+09:23 is in the description down below. And
+09:25 big thanks to Zapier for sponsoring this
+09:27 video. Once you have all this context in
+09:29 your knowledgebased folder, you now need
+09:31 to create this system that will connect
+09:33 all of these ideas together. build out
+09:35 the index, that map, and give your AI
+09:37 the ability to self-improve. And the
+09:40 best part is your AI is going to do all
+09:42 of that for you. Down in the description
+09:44 of this video, I will have a link to
+09:46 this Google doc that has a prompt in it.
+09:49 All you have to do is copy this prompt
+09:51 down and come over to the tool you're
+09:53 using, like Claude Co-work. Point it at
+09:55 the folder that contains your knowledge
+09:56 base, paste in the prompt, and send it
+09:59 to Claude. Co-work is now getting to
+10:02 work organizing my new knowledge base
+10:04 and building out the map for it. It'll
+10:07 sort through the knowledge into folders.
+10:09 If you already have folders in there,
+10:11 it'll use those ones. And it'll of
+10:13 course never do anything without your
+10:15 permission first. So here it's actually
+10:17 putting together the plan and asking me
+10:19 to approve it. Since I'm happy with
+10:21 this, I'll say yes, all as proposed. And
+10:24 then it's asking me where that map
+10:26 should live, the index. And I'll say
+10:28 inside the wiki, which is recommended.
+10:30 So in addition to organizing the files,
+10:32 it's creating that wiki folder we talked
+10:35 about. That's the place where your map's
+10:36 going to live. And then it's going to
+10:38 start forming all those connections and
+10:40 putting together the index and the
+10:42 entire system so it can self-improve.
+10:44 And the last thing it will do is set up
+10:46 a schedule task. So, every night, the AI
+10:49 will automatically check the folder for
+10:50 anything new you've added and fold it
+10:52 into the map for you. All you have to do
+10:55 is approve that. I'll say I wanted to
+10:57 run at 2:00 a.m. every day. And then it
+10:59 will allow me to schedule that. So,
+11:01 returning back to Obsidian, we can see
+11:04 now that all of those files are now
+11:06 organized into these subfolders. So,
+11:09 here is the wiki one. Here are all the
+11:11 sources. Here is the review file. So,
+11:13 all of that has been done and created
+11:16 for you. You didn't have to do any of
+11:17 this yourself. And here's your own
+11:20 index, which again is like that table of
+11:21 contexts. So, this is what it will read
+11:25 in order to be able to figure out where
+11:27 everything lives for you. Once it's set
+11:29 up, there's really nothing special or
+11:31 specific you have to do or say for your
+11:33 AI to take advantage of that knowledge
+11:36 base. It will on its own just pull
+11:38 information from it when necessary to
+11:40 help answer your questions. So, let's
+11:42 say you're working with a client and you
+11:44 start chatting with co-work about that
+11:46 client. If it has access to that
+11:48 knowledge base, it may be able to
+11:50 recognize that you went through a
+11:52 similar problem with another client in
+11:54 the past and that the resolution that
+11:56 you came to with that client might help
+11:58 you with this new one. All of that will
+12:00 just happen naturally, but you could
+12:02 always ask it to look for patterns. You
+12:04 could say things like, "What patterns
+12:06 have you noticed with my thinking
+12:07 lately?" or if there's any missed
+12:09 opportunities, can you find those for
+12:11 me? Any uh revenue streams that I may be
+12:14 missing out on based on what you know
+12:16 about me? You know, types of questions
+12:17 like that. And it does a really good job
+12:19 of finding those things for you and all
+12:21 those different connections. I want to
+12:23 highlight for you two different ways
+12:24 that I've been using this in addition to
+12:26 just having a knowledge base of all my
+12:29 different ideas. So, first I have this
+12:32 business journal. I can't really show
+12:33 you this because it does have some
+12:34 personal thoughts in there, but just
+12:36 every few days I journal with Claude
+12:39 Co-work and we'll explain to it what's
+12:41 been on my mind with my business and
+12:43 where I feel like I'm struggling and
+12:44 where I'm doing well. And it pulls all
+12:46 that into this business journal. We chat
+12:48 back and forth and then it kind of
+12:50 creates a summary of everything that
+12:51 we've talked about. And at the end, one
+12:53 thing it's prompted to do automatically
+12:55 is to find connections between what I've
+12:58 talked about in this session of the
+13:00 journaling process with past journaling
+13:03 entries that I've made. So, it's really
+13:04 helpful for kind of staying on top of my
+13:06 business. The other one I've put
+13:08 together is this health knowledge base.
+13:10 This is what I'm using to track my
+13:11 workouts, how my body's reacting to
+13:14 different types of foods, different
+13:15 calorie intakes I have every single day,
+13:18 even the amount of water that I'm
+13:19 drinking. And it's all represented in
+13:21 this nice dashboard. I'll have prompts
+13:24 for both this health dashboard I've put
+13:26 together and knowledge base and the
+13:28 business journaling one down below if
+13:30 you want to copy those and use those for
+13:32 your own knowledge bases. So that's it.
+13:34 A knowledge base that builds itself and
+13:37 maintains itself. It's the single most
+13:39 useful thing I've set up with Claude
+13:40 Co-work and it takes less than 50
+13:42 minutes. I think you'll see that once
+13:43 you set it up and start feeding it your
+13:45 knowledge, your AI assistant will become
+13:47 much more powerful than ever before.
+13:50 Now, if you've made it this far in the
+13:51 video, it means you must have liked
+13:53 something about it. So, do me a favor,
+13:55 give this video a thumbs up and
+13:56 subscribe to my channel because I always
+13:58 release tutorials like this one. If you
+14:00 don't want to miss out on them,
+14:02 definitely make sure you are subscribed.
+14:04 Otherwise, thanks so much for watching
+14:06 and I'll see you in the next video. Bye
+14:07 for now.

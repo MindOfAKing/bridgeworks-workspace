@@ -13,16 +13,16 @@ const platforms = [
     className: 'bg-[#00c2e8] text-white border-[#00c2e8]',
   },
   {
-    name: 'Foodora',
-    href: site.ordering.foodora,
-    className: 'bg-[#d70f64] text-white border-[#d70f64]',
+    name: 'Marwa',
+    href: site.ordering.marwa,
+    className: 'bg-[#2E7D32] text-white border-[#2E7D32]',
   },
 ].filter((platform) => Boolean(platform.href));
 
 export function DeliveryStickers({ tone = 'light', compact = false }: DeliveryStickersProps) {
   if (!site.ordering.showPlatforms || platforms.length === 0) return null;
 
-  const helperText = compact ? 'App delivery' : 'Prefer app delivery? Find Oliviks on Wolt and Foodora.';
+  const helperText = compact ? 'App delivery' : 'Prefer app delivery? Find Oliviks on Wolt and Marwa.';
   const helperTone = tone === 'dark' ? 'text-cream/75' : 'text-cocoa/62';
 
   return (

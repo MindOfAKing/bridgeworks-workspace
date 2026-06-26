@@ -1,0 +1,133 @@
+00:00 So, first thing to do is install a
+00:01 Visual Studio Code. Again, this is just
+00:04 an IDE, which stands for Integrated
+00:06 Development Environment. It's a way for
+00:07 you to use Cloud Code inside this
+00:10 cohesive environment and have all your
+00:12 files and everything in the same exact
+00:14 place. So, go ahead and install your
+00:16 Cloud Code, sorry, your Visual Studio
+00:18 Code. It's completely for free. Then
+00:20 you're going to come come here on the
+00:21 left-hand side. You can go to extension
+00:23 installed and install Cloud Code for VS
+00:26 Code there. So, once you come here,
+00:28 right? You're going to go back to the
+00:29 files here and here you can create an
+00:30 entire new folder, right? Once you
+00:32 create an entire
+00:33 click on new folder, you can name it dot
+00:35 Claude, right?
+00:38 Something like that. I already have
+00:40 that, so that's why it's not allowing
+00:41 me, but once you once you have that,
+00:43 then you're going to click on it and
+00:44 click on new file and do settings
+00:47 .json, okay? And again, because I
+00:50 already have that, that's why it's not
+00:51 allowing me. So, I'm just going to
+00:52 delete that. So, this is what it's going
+00:54 to look like. So, once you have this, so
+00:56 let me
+00:58 bring this over. Once you have the
+01:00 settings.json, obviously here this is
+01:03 not going to be there for you, but this
+01:05 is what's the important part here. So,
+01:07 what you want to do is just basically
+01:09 copy-paste this. So, again, I'm going to
+01:11 put this in the description of the
+01:12 video, a file where you guys can have
+01:14 access to this completely for free. So,
+01:16 you want to basically copy and paste
+01:18 that in here. So,
+01:20 because we're using the GLM 5.2 through
+01:22 OpenRouter, you want to have this
+01:24 Anthropic base URL
+01:26 as https://openrouter.ai/api
+01:30 Yeah, because obviously we're going to
+01:31 need an API key, because again, normally
+01:33 this would be Anthropic's base URL, so
+01:36 be anthropic.ai, I believe, /api, and
+01:39 then you would have to put your
+01:40 Anthropic
+01:42 authorization token. In here, what we're
+01:44 going to do is just basically switch the
+01:45 base URL to OpenRouter, so now we can
+01:47 have access to different models through
+01:49 OpenRouter there. As far as Anthropic
+01:53 authorization token, this is where we we
+01:55 to now uh put our API key from our open
+01:59 router. The way to do that is very
+02:00 simple. You going to head over to your
+02:02 whoops.
+02:04 Head over to your open router account,
+02:05 right? Go ahead and create a account
+02:07 here. You need to have some
+02:09 uh credits in there. So, just go ahead
+02:10 and put like $5 or something like that,
+02:12 right?
+02:13 Or a dollar. Actually, just put $5. I
+02:15 think that's
+02:16 uh cuz you're going to be able to use
+02:18 that uh with different models as well.
+02:20 So, once you have that, you're going to
+02:21 click on your profile, right? If you can
+02:23 come here in your account, click on
+02:25 profile. You can go ahead and click on
+02:27 API keys here. And then here, you can do
+02:30 new API key, name it something like API
+02:34 key for
+02:35 uh Claude.
+02:38 Right? Or whatever you want to name it,
+02:40 right? Uh rate limits, just leave it as
+02:42 it is. Credit limit, leave it as blank.
+02:44 Expiration date, of course, for you it's
+02:46 going to be not it's not going to be an
+02:47 expiration. You shouldn't have an
+02:48 expiration date, but I'm going to keep
+02:50 it as 1 hour because otherwise, I don't
+02:52 want anybody to copy and paste it. So,
+02:53 once you click on create, now you have
+02:55 your API key. You're going to copy this.
+02:57 You're going to come back inside your
+02:59 Claude code here, and you're just going
+03:01 to basically replace this thing.
+03:04 Let me get rid of it. And then just
+03:06 paste this. And now you have your API
+03:08 key there. Now you should be able to use
+03:10 all of the models inside open router
+03:13 through this API key. So, in order to
+03:15 use a GLM
+03:16 uh 5.2, you're going to come to the
+03:18 bottom here and just replace I mean,
+03:19 don't touch this because you you can
+03:20 just copy and paste it from the
+03:22 description of this video. But
+03:23 essentially, we're using it through
+03:24 Z-AI/glm-5.2,
+03:27 right? That's uh
+03:29 You're going to leave everything as
+03:30 exactly as. Again, this one you're not
+03:33 going to have this after you actually um
+03:35 build something, it's going to ask you a
+03:36 few permissions, and these bash curls
+03:39 are going to show up afterwards.
+03:41 >> [clears throat]
+03:41 >> So, that's all you need to do. Just make
+03:43 sure you save this, and then you open a
+03:46 new Claude code, a new instance of
+03:48 Claude code, so that way you have the
+03:50 ability to um interact with this GLM 5.2
+03:55 model from within your
+03:57 Cloud Code here. So, now if I click on
+03:59 slash
+04:02 switch models, right? If I click on
+04:04 switch models, you can see it's already
+04:06 now our default models are 5.2 here. So,
+04:09 now if I just say hello, I just want to
+04:11 make sure that it's working, right? So,
+04:13 it should be able to
+04:15 Now, there you go. Hello, I'm Cloud
+04:16 Code, ready to help, blah blah blah,
+04:18 right? Great. So, it looks like
+04:19 everything is working.

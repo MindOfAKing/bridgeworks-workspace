@@ -35,7 +35,7 @@ export const site = {
     { days: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'], opens: '11:00', closes: '20:00' },
   ],
 
-  reviews: { rating: '4.8', count: '491', source: 'Google' },
+  reviews: { rating: '4.8', count: '493', source: 'Google' },
   press: ['Origo', 'We Love Budapest', 'WMN'],
 
   social: {
@@ -50,10 +50,10 @@ export const site = {
   ordering: {
     mode: 'whatsapp' as 'whatsapp' | 'call' | 'cart' | 'checkout',
     // Direct WhatsApp remains primary. App delivery stickers are still shown for
-    // customers who specifically prefer Wolt/Foodora.
+    // customers who specifically prefer Wolt/Marwa.
     showPlatforms: true,
     wolt: 'https://wolt.com/en/hun/budapest/restaurant/oliviks-nigerian-kitchen',
-    foodora: 'https://www.foodora.hu/en/restaurant/lclg/oliviks-kitchen',
+    marwa: 'https://www.marwa.hu/store/113/oliviks-kitchen',
   },
 
   founders: 'Cynthia & Aese',

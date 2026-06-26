@@ -1,0 +1,214 @@
+00:00 Up until now, you could not generate
+00:02 images or videos inside of Claude
+00:04 Co-work. But now with this new tool, you
+00:06 can. You can have Claude Co-work
+00:09 generate images for you, posters,
+00:11 infographics, and even videos, all
+00:14 without leaving the Claude app. This
+00:17 isn't a new feature by Anthropic. This
+00:19 is a tool that connects with Claude
+00:21 Co-work that makes all of this possible.
+00:23 For the longest time, we were not able
+00:25 to generate images or videos inside of
+00:29 Claude Co-work. But recently, Higgsfield
+00:33 reached out to me and told me that they
+00:35 created an MCP that you can connect with
+00:38 Claude Co-work to give it the ability to
+00:40 create images or videos directly inside
+00:43 of Claude Co-work. They asked if they
+00:45 could sponsor video so I could show you
+00:47 these capabilities and I said, "Yeah,
+00:49 absolutely." because this is very
+00:51 exciting. So, this video is sponsored by
+00:53 them, but I'm going to show you how to
+00:55 set this up so you can create images or
+00:56 videos inside of Claude Co-work. To get
+00:59 started with this, make sure to click
+01:00 the link in the description down below
+01:02 and sign up for an account with
+01:04 Higgsfield. You then want to come to
+01:06 this page which has the Higgsfield MCP.
+01:09 And these are the instructions for how
+01:11 to get set up with this.
+01:13 So, over here it tells you to go to your
+01:15 Claude settings and to add the
+01:16 Higgsfield custom connector. So, copy
+01:19 down this link and we'll go over to
+01:21 Claude and then click on the left where
+01:23 it says customize and then click on
+01:26 connectors. This is where you can add
+01:29 any third-party connectors. For the
+01:31 Higgsfield one, you want to click on the
+01:32 plus icon and click on add custom
+01:35 connector.
+01:36 We'll call this one Higgsfield. Doesn't
+01:38 really matter what name you put in here.
+01:41 But you then want to paste in the URL
+01:43 that you just copied. You can leave the
+01:46 advanced settings blank and then click
+01:48 on add. Now you should see your
+01:50 Higgsfield connector right here, but
+01:52 you'll need to connect it up with your
+01:53 account. So, click on connect. That will
+01:55 then open up your browser and if you're
+01:57 already logged into your Higgs Field
+01:59 account, you'll see this button that
+02:01 says allow, so you can click on that and
+02:03 return back to Claude, and you'll now
+02:05 see your Higgs Field connector here. And
+02:08 these are all the permissions. So, for
+02:10 this, I'm going to turn on always allow
+02:13 so that Claude has access to all these
+02:16 tools whenever I want it to use them so
+02:19 it can create all the media and assets
+02:22 that I want. To use this connector, you
+02:24 can exit the settings by clicking on the
+02:26 back arrow on the top left,
+02:28 and then come over to a new task, and
+02:31 then click on the plus icon. Make sure
+02:33 that under connectors, Higgs Field is
+02:35 toggled on, and then you can just tell
+02:37 it to create something using the Higgs
+02:39 Field connector. So, just to test this
+02:41 out, we can say for instance, "Use Higgs
+02:44 Field to create an image of a dog on a
+02:46 surfboard."
+02:48 You see, it is now loading the Higgs
+02:50 Field connector, and it's now creating
+02:52 the image directly inside of Claude. So,
+02:54 we don't have to open Higgs Field on our
+02:57 browser, it's doing it right here, and
+03:00 here is our image. If we like it, we can
+03:03 click on download. If you want to make
+03:05 any edits, you can click on edit, and it
+03:07 will reference the image inside of the
+03:10 chat, and you can tell it what changes
+03:12 you want to make, or you can even turn
+03:14 it into a video by clicking on animate.
+03:16 So, let me show you some examples now of
+03:18 real ways that people can use this. So,
+03:21 let's say for instance that you're a
+03:23 teacher, and you have all of these
+03:25 lesson plans inside of a folder on your
+03:27 computer.
+03:28 You can come over to Claude Co-work and
+03:31 point it at that folder. You see, I have
+03:33 the lesson plan folder selected.
+03:36 And then you can tell it something like,
+03:38 "Using Higgs Field, create one
+03:39 infographic for each of my lesson plans
+03:42 I have in this folder." It'll ask you
+03:44 some questions about what those images
+03:46 should look like, and then it will get
+03:48 to work. What's cool about this is that
+03:51 you don't have to upload these files
+03:53 anywhere. These files already exist on
+03:55 your computer. You've been working on
+03:57 these lesson plans. They exist there
+03:59 already. You just have to point Claude
+04:01 Cowork to the folder where those lesson
+04:03 plans are, and then it'll send the
+04:05 information over to Higgsfield and
+04:07 interact with it so that I can create
+04:08 those images for you. And then check out
+04:11 what we got. Inside the chat, we have
+04:13 infographics for every single one of the
+04:17 lesson plans inside that folder. And we
+04:20 never had to leave Claude Cowork. Here's
+04:22 another example. I've been thinking
+04:24 about opening up a restaurant in my town
+04:26 where I sell acai bowls. So, I've been
+04:29 chatting with Claude Cowork and putting
+04:31 together a business plan, financial
+04:33 projections, a menu, and a marketing
+04:36 plan. But I need some assets for this
+04:39 now. So, let's use the Higgsfield MCP
+04:42 for that. I'll ask Claude Cowork to
+04:44 create three images I can use for the
+04:46 menu using Higgsfield. And then, just a
+04:49 few moments later, we have this
+04:50 beautiful picture of this acai bowl. We
+04:53 have the smoothies, and the green juice,
+04:56 and overnight oats that I sell.
+04:58 But that's not enough because I also
+05:00 need some assets for the advertising.
+05:04 So, this time I'll ask Claude Cowork to
+05:07 create a poster I can use for the grand
+05:09 opening. And so now it's pulling from
+05:11 the marketing plan and putting together
+05:13 that poster using Higgsfield. There we
+05:16 go. Look how awesome that is. And now we
+05:19 need one final thing because I also need
+05:22 a video so that I can run it on social
+05:25 media.
+05:26 So, I'll ask Claude to create a video
+05:30 using Higgsfield
+05:32 of an influencer talking about how
+05:36 awesome my new acai shop
+05:41 is.
+05:42 And just a minute later, and here we go.
+05:44 Hey you guys, I just found my new
+05:45 favorite spot some of the bowls in
+05:47 Longmont, and oh my gosh, this bowl is
+05:48 unreal. So fresh, so good. You have
+05:50 >> So now we have a video and images that
+05:52 we can use for our new business. But
+05:54 like I said before, if you're unhappy
+05:56 with anything, you can ask Claude to
+05:59 make edits to anything it created with
+06:01 Higgsfield. With this poster for
+06:03 instance, it says that the first 100
+06:05 guests get a free bowl, which is not
+06:08 what I want. So, I'll click on edit and
+06:12 tell it change first 100 guests get a
+06:14 free bowl to first 100 guests get 50%
+06:17 off. And there we go, it's as simple as
+06:19 that. And now in the future, when
+06:21 business is doing well and we want to
+06:23 run another sale, we can just come back
+06:25 into Claude, we don't have to start
+06:27 over. I can tell it now in the same
+06:30 style create a poster for a 4th of July
+06:35 BOGO.
+06:36 One day only. And now we have our 4th of
+06:39 July poster. So it's that easy to start
+06:42 iterating on any of the videos or images
+06:45 created by Claude using the Higgsfield
+06:48 MCP all from within this one chat. So
+06:51 once again, what I love about this is
+06:53 that it's not only incredibly easy to
+06:54 set up, but everything stays in Claude.
+06:58 With my restaurant example, I was
+07:00 already working with Claude on this
+07:02 business plan. It had even created files
+07:04 for me on my computer. This is where I'm
+07:07 working. This is where the workflows
+07:09 exist. In the past, if I wanted to
+07:11 generate images or videos for this
+07:14 project, I would have to open a separate
+07:15 app, maybe grab this business plan and
+07:18 upload it as a reference, and type out
+07:20 what I wanted it to create for me. But I
+07:22 don't have to do that now. Claude has
+07:25 the context. When I told it to create
+07:27 images for the menu, it knew exactly
+07:30 what I was talking about and just goes,
+07:32 talks to Higgsfield, and creates those
+07:33 images for me. When I told it I needed a
+07:35 video to promote my business, it knew
+07:37 what business I was talking about, it
+07:39 knew what to include in the script, and
+07:41 it talked to Higgsfield and made that
+07:43 video. This keeps me in the flow so I
+07:46 can build faster. So, if you want to be
+07:48 able to create images and videos inside
+07:51 of Claude directly, you'll want to check
+07:53 out Higgsfield. I'll have a link for it
+07:55 in the description down below. Make sure
+07:57 to click on that, get it set up, and
+07:59 then have Claude generate these for you
+08:01 using the Higgsfield MCP. Thanks so much
+08:04 for watching the video. Again, the link
+08:06 will be in the description and in the
+08:07 first pinned comment, and I'll see you
+08:09 in the next one. Bye for now.
