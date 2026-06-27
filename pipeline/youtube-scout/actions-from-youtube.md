@@ -200,3 +200,32 @@ Area: AI Growth Systems, Delivery Verification, Competitive Intelligence
 Change: Before installing a skill or plugin, record exact use case, project affected, free/paid status, data exposure risk, rollback path, proof task, and keep/reject decision.  
 Evidence file: `pipeline/youtube-scout/transcript-extractions/yt-20260625-003-free-agent-skills-watchlist.md`  
 Status: Needs SOP row. No plugin install in active client work without approval.
+
+## 2026-06-27
+
+### Action: Draft BridgeWorks Demand-Signal Scout Loop Spec
+
+Source: Vaibhav Sisinty - `Forget Prompt Engineering. Loop Engineering Is the New AI Skill That Replaces It.`  
+Decision: Adapt  
+Area: Outreach Infrastructure, Competitive Intelligence, AI Growth Systems  
+Change: Create a draft-only loop spec that watches approved public sources, scores demand signals, logs source failures, drafts possible next steps, and stops before outreach, publishing, spending, legal, or client-facing action.  
+Evidence file: `pipeline/youtube-scout/transcript-extractions/yt-20260627-001-loop-engineering-demand-scout.md`  
+Status: Needs spec. No outreach automation.
+
+### Action: Draft AI-Native Owner-Operator Positioning Note
+
+Source: Y Combinator - `India Can Create The Largest AI Companies`  
+Decision: Adapt as strategic principle  
+Area: Emmanuel Ehigbai Authority Layer, BridgeWorks Positioning, Build Brief  
+Change: Turn the AI-native owner/operator lesson into a proof-led positioning note for Emmanuel and BridgeWorks. Avoid scale hype. Emphasize solo execution, customer insight, clarity, and verified artifacts.  
+Evidence file: `pipeline/youtube-scout/transcript-extractions/yt-20260627-002-ai-native-owner-operator.md`  
+Status: Needs note.
+
+### Action: Add Coding Agent Workflow Fit Row
+
+Source: Jan - `Cursor vs Claude Code vs Codex (I Built the Same App 3 Times)` and web fallback GTM agent setup video  
+Decision: Adapt  
+Area: AI Delivery Verification, Website Production System, Cost Governance  
+Change: Add workflow-fit checks before agentic delivery: PRD, review surface, verification method, cost cap, rollback path, and model/tool split for planning, execution, and review.  
+Evidence file: `pipeline/youtube-scout/transcript-extractions/yt-20260627-003-coding-agent-workflow-fit.md`  
+Status: Needs checklist row.

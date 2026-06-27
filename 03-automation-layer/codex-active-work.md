@@ -22,3 +22,6 @@
 
 ## 2026-06-25
 - YouTube Intelligence Digest afternoon run used RSS and web fallback after YouTube Data API returned 403. RSS returned 9 recent watchlist videos with 0 channel HTTP errors. Fetched 5 transcripts and created three extractions: BuilderOS Solo Product Sprint, Self-Improving Knowledge Base, and Free Agent Skills Watchlist. Updated YouTube action / decision logs and wrote `sessions/yt-digest-2026-06-25-afternoon.md`. No Gmail draft, outreach, publishing, paid API usage, paid tool adoption, client contact, commit, or push.
+
+## 2026-06-27
+- YouTube Intelligence Digest evening run used RSS and web fallback after YouTube Data API returned 403. RSS returned 11 recent watchlist videos with 0 channel HTTP errors. Fetched 7 transcripts and created three extractions: Demand-Signal Scout Loop, AI-Native Owner-Operator, and Coding Agent Workflow Fit. Updated YouTube action / decision logs and wrote `pipeline/youtube-scout/sessions/yt-digest-2026-06-27-evening.md`. No Gmail draft, outreach, publishing, paid API usage, paid tool adoption, client contact, commit, or push.

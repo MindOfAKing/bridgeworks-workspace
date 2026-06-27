@@ -1,0 +1,776 @@
+00:00 I gave Cursor Cloud Code and Coda X the
+00:03 exact same task. Build Finance Hub, a
+00:07 personal finance app with
+00:09 authentication, a dashboard, trends,
+00:12 actions, subscriptions, net worth
+00:14 tracking, charts, settings, and of
+00:17 course realistic financial data. But,
+00:20 I'm not doing this to find out if they
+00:22 can build it. Of course, they can. The
+00:25 models are already good enough. The real
+00:28 question is everything else. Which one
+00:31 is the least annoying? Which one is the
+00:34 easiest to control? Which one has the
+00:37 best workflow? Which one makes reviewing
+00:40 changes painless? And finally, which one
+00:43 actually fits into how I code every
+00:47 single day? Because at this point, the
+00:49 model is the engine, but the agent is
+00:52 the car you actually have to drive every
+00:56 single day. And that's exactly why all
+00:58 of these tools feel completely
+01:01 different. So, which one is the best?
+01:04 Well, let's find out. Now, before we
+01:07 dive into the individual tools and with
+01:09 that agents, I want you first of all
+01:12 quickly explain how I tested them
+01:15 because the setup matters a lot. So, for
+01:18 every agent test, I always used the
+01:21 desktop application. Why did I do that?
+01:24 Well, the reason is somewhat simple. I
+01:27 hate TUIs and with that CLIs. And I
+01:30 mean, just look at it. Desktop
+01:32 applications make it easier to review
+01:35 code, review plans, and they are way
+01:38 more aesthetically pleasing. And that's
+01:40 why I use them, and that's why they are
+01:42 my preferred way of working with coding
+01:45 agents and with that code in general.
+01:48 Then for every test, I also tried to use
+01:51 the most high-quality models. So, for
+01:54 Cursor, I used Opus 4.8 high reasoning
+01:57 effort with fast mode enabled. For
+02:00 CodeX, I used GPT 5.5 high reasoning
+02:04 effort. And for Claude code, I used Opus
+02:07 4.8 high reasoning effort. So, this
+02:10 means the models were not the
+02:12 restraining or constraining part of the
+02:14 test. They were very high quality. And
+02:17 then also for Cursor, I was subscribed
+02:20 to the $200 per month plan. For CodeX,
+02:23 it was the $20 per month plan. And the
+02:25 same thing was also true for Claude
+02:28 code. Now, this is how the setup looked
+02:31 like. But now you might ask me, "Hey
+02:33 Jan, how did you test them? How did the
+02:35 workflow look like?" So, I started every
+02:38 test with this initial high quality
+02:41 prompt. And this instructed the agent to
+02:44 create a PRD by leveraging the writing
+02:47 PRD's skill. Now again, this is a
+02:49 relatively long and high quality prompt,
+02:52 but that's not a bad thing because this
+02:54 prompt explains exactly what the product
+02:57 is, what it isn't, what it should do,
+02:59 how the target technical shape should
+03:01 look like, and stuff like that. And then
+03:03 using this prompt, the agent was able to
+03:06 create a high quality product
+03:08 requirements document. And this is very
+03:11 essential because whenever the agent had
+03:13 any questions, I was able to steer it
+03:16 very easily because this PRD answers all
+03:19 of the questions. Then if we look at the
+03:22 more general workflow, as mentioned, I
+03:24 always started with the PRD. Then I
+03:27 continued by letting the agent set up
+03:29 the target technical architecture. Then
+03:32 I let the agent implement the off pages,
+03:34 the front end UI, the back end for the
+03:37 dashboard, the front end for the
+03:39 dashboard. And this was the general
+03:41 workflow. This workflow was used with
+03:43 every test for Claude code, Cursor, and
+03:46 also CodeX. This means I tried to make
+03:49 this test as open and [clears throat]
+03:52 with that transparent as possible. And
+03:54 again, the goal here is not to find out
+03:57 which tool creates the most beautiful UI
+04:00 or the best code. The goal is to find
+04:03 out which tool removes as much friction
+04:06 as possible between me and the LM, the
+04:10 model. And since you now know how the
+04:12 gen will test setup looked like, what
+04:15 workflow I used, and what my general
+04:17 goal was, we can continue with my least
+04:20 favorite experience, which was Claude
+04:24 Code. Wait, what? Yes, you heard right.
+04:28 Claude Code was easily my least favorite
+04:31 experience. Not because the model is
+04:33 bad. No, I love Opus 4.8. It's a great
+04:37 model. It's the application itself. It's
+04:40 everything that surrounds the model.
+04:42 It's seriously lacking, and this desktop
+04:45 application is, I would say, kind of
+04:47 annoying to use. Yes, that's how I feel
+04:50 about this whole experience. But okay,
+04:53 what issues did I have with the desktop
+04:56 application? Well, first of all, and
+04:58 probably most importantly, the app felt
+05:01 buggy and laggy. Let me show it to you.
+05:04 Like here we have the sidebar. It's
+05:06 relatively simple to open and close it.
+05:09 Nevertheless, we always have like this
+05:11 annoying layout shift. But if I now
+05:13 click on customize, I will get
+05:15 redirected. There is some sort of delay.
+05:17 It feels a bit laggy sometimes, but this
+05:20 is not a deal breaker. But if I now
+05:22 click on go back, we have a complete
+05:25 layout shift. The sidebar closes, then
+05:28 again it opens, and you might say this
+05:30 is not a huge problem. Well, it does not
+05:32 seem like a big issue for the first few
+05:34 minutes, but once you use the desktop
+05:37 application for multiple hours per day,
+05:39 it feels super annoying. Like literally,
+05:42 it opens, it closes, the whole layout
+05:44 shifts. Let me show it to you again.
+05:47 Customize, go back. We have this
+05:49 complete layout shift. Another thing
+05:51 that annoyed me quite a bit is this
+05:53 preview tab. So, this preview tab in
+05:56 general is the super cool feature, which
+05:58 I will show you more in a second. It
+06:00 allows you to preview all of your
+06:02 changes. But, one thing that annoyed me
+06:04 quite a bit was that it did not work 50%
+06:08 of the time. It said like, "Server
+06:10 starting up." or something like that,
+06:12 even though the dev server was already
+06:14 running. So, most of the time I had to
+06:16 go inside of the agent and say, "Hey,
+06:18 the preview tab is not working. Please
+06:20 fix it." This should not happen. Again,
+06:22 Anthropic is the huge company. These
+06:25 small details should just work every
+06:28 time without me having to go into the
+06:30 agent and saying, "Hey, the preview is
+06:32 not working. Please fix it. The dev
+06:34 server is running. Please restart it."
+06:36 or something like that. Now, you might
+06:38 say, "Okay, Chan. Two issues. I mean, it
+06:40 isn't that bad, right?" Yes, it isn't.
+06:42 Nevertheless, I have way more issues.
+06:45 Another thing that annoys me is the
+06:47 voice input built into Claude code. It's
+06:50 very bad. Now, let me give you a little
+06:52 backstory. I daily drive Cursor every
+06:55 single day. And this means I use this
+06:58 voice input built into Cursor also every
+07:01 single day. It removes friction. It
+07:03 makes it very easy to explain what I
+07:05 want, and it's just faster than typing
+07:08 out my thoughts. And I thought, "Hey,
+07:10 great. Claude code has it also built in.
+07:13 Let me use it." So, let's test it out.
+07:15 Hey, how are you? I love Claude code.
+07:18 It's the best thing ever. What do we
+07:20 have right here? I do I love Claude
+07:23 code. It's the best thing ever. Let's
+07:25 forget this code. It's not the important
+07:27 thing. Where is this hey, how are you?
+07:29 That I said at the start. The issue here
+07:31 is when you click on this button, it
+07:33 literally takes 1 second before this
+07:36 whole transcription even starts. There
+07:38 is a certain sound effect you have to
+07:40 wait for. So, let me click on it.
+07:43 And only now it starts transcribing
+07:46 everything. This is a huge issue. I
+07:48 don't want to wait 1 second before I can
+07:50 get started. If I go back to Cursor and
+07:53 do the same thing, "Hey, how are you? I
+07:55 love Claude code." As you see here, the
+07:58 transcription started instantly. Why
+08:00 does this not happen with Claude code?
+08:02 This again just creates friction and
+08:05 makes everything kind of annoying and
+08:07 slow. Another thing that I don't like is
+08:10 that there is no editor integration. So,
+08:13 if you want to review code, you have to
+08:15 open this diff panel. And yes, this is
+08:17 very similar to Codex. And yes, you can
+08:20 review code, but an editor integration
+08:23 would be super powerful. I'm an
+08:25 engineer. I have to review code. And
+08:28 sometimes I have to write manual code.
+08:31 And having no editor is just not
+08:34 powerful enough. This means if I want to
+08:36 now use an editor, I have to either open
+08:38 Cursor or maybe Zed, which does not seem
+08:41 like a huge issue, right? But it again
+08:44 creates friction. And also, I don't want
+08:47 you always switch between different
+08:49 tools. I want you use one application
+08:51 and one application only. I want one
+08:54 suite of tools which does everything for
+08:57 me. Another thing that I don't love is
+09:00 the UI. In my opinion, it's not really
+09:02 beautiful and it's not very premium.
+09:05 Now, you might say, "Wait, Jan. Who
+09:07 cares? The goal is not to have a
+09:09 beautiful UI, but rather a good working
+09:12 product." And yes, you're right.
+09:14 Nevertheless, if I spend hours working
+09:17 inside a tool, I want you also have a
+09:19 polished visual appearance. I want
+09:22 something that looks good, something
+09:24 that looks aesthetically pleasing.
+09:26 Again, this is not the most important
+09:27 thing, but if you compare to to the
+09:29 competitors, this means Cursor and
+09:32 Codex, you will just see that, "Hey, the
+09:34 competitors look better and they feel
+09:37 better." And you know what's quite
+09:39 funny, a second ago I tried to commit
+09:42 all of my changes, and I got a big fat
+09:45 error. It said something like, "Could
+09:46 not find the conversation or load the
+09:49 conversation." And after that, the
+09:51 desktop application just crashed. Now I
+09:54 tried it again, and it magically worked.
+09:56 But this here sums up my experience with
+09:59 Claude Code Desktop quite well. The
+10:02 foundation is great. The model is great.
+10:05 But the experience is seriously lacking.
+10:08 The UI is quite ugly, and the
+10:10 application is just buggy and laggy. It
+10:14 seems like Anthropic is model-first and
+10:17 product-second,
+10:18 which is not good. But now you might
+10:21 say, "Wait, Sean. Was everything bad?"
+10:24 No, not at all. The harness itself is
+10:27 very good. It's high quality, and
+10:29 especially if you compare the end
+10:31 results. Let me again show you the
+10:33 preview server. This is the home page
+10:35 built in the session, and it looks
+10:37 beautiful. Like if I do a hard refresh,
+10:40 we have animations. This here looks very
+10:42 high quality. And if you compare to the
+10:45 result created by Cursor, you will see
+10:48 that this here looks way worse, even
+10:50 though the same model was used. So the
+10:52 harness is very good. You will get very
+10:55 good results, but with a big headache.
+10:58 Another thing that I love is this
+11:00 browser integration. I can annotate
+11:02 things. So I can say, "Hey, maybe this
+11:05 button is not very cool, or this title
+11:07 could be better." And now I can add
+11:09 these annotations to the chat, and I can
+11:12 say, "Hey, I don't like the red
+11:14 sections" or something like that. I have
+11:17 never seen something like that with
+11:19 other competitors, and this here is very
+11:21 convenient, because you even get the
+11:23 option to highlight specific sections.
+11:27 And I can now also add it to the chat.
+11:29 So this This that the team really
+11:31 perfected quite well, and I hope to see
+11:34 something like this right here with
+11:36 other competitors. So, let me again give
+11:39 you a quick recap. Claude Code itself is
+11:42 not a bad product. The foundation is
+11:45 good. The general, or you could say
+11:47 foundational, harness is also very high
+11:50 quality. The end results look good, and
+11:53 they work, which is important. But, the
+11:55 whole experience around the models,
+11:57 around the harness, is not good. It's
+12:00 not stable. It does not look good.
+12:02 Features, or certain features, are
+12:04 missing. And, you know what's funny? I
+12:06 love this annotate feature. I already
+12:08 mentioned that. But, if I want to
+12:10 annotate something at the bottom, I
+12:12 can't scroll to the bottom. I'm
+12:14 scrolling right now. It does not work.
+12:16 What I have to do is to again deselect
+12:18 everything, scroll to the bottom, then
+12:20 again click on the annotate button. This
+12:21 should not happen. Give me the
+12:23 stability. Create a better user
+12:25 experience, please. Anthropic has
+12:28 unlimited money. They have great
+12:30 engineers. Why is the product not
+12:32 optimized? It feels like Anthropic still
+12:35 lives in 2025, where the model was way
+12:38 more important than the agent itself.
+12:41 But, times have changed. The agent is
+12:44 now way more important than the LM
+12:47 itself. Again, the agent is the car. The
+12:50 LM is the engine. If the car is not
+12:52 good, then it's not important how good
+12:54 the engine is. Both have to be good to
+12:57 create a great experience. And, sadly,
+13:00 this is just something that is not
+13:02 offered right now. Though, hopefully,
+13:04 this will change in the future. And,
+13:07 this also means that Claude Code now
+13:09 lands on the third place in our ranking.
+13:12 Let's now continue with the second
+13:15 place, which is Codeax. Codeax was
+13:19 almost the complete opposite experience
+13:22 to Claude Code. Where Claude Code felt
+13:25 rough around the edges. Codecks felt
+13:28 polished immediately. You know what? Let
+13:31 me show it to you. This is the sidebar,
+13:33 and please look at the smoothness.
+13:36 Wow, I can do the same thing with the
+13:38 terminal. Everything is beautiful and so
+13:41 smooth and elegant. Let's look at this
+13:44 right sidebar. It opens, then I can see
+13:46 right here the diff view. I can change
+13:48 the diff view. I can maximize this. This
+13:51 is what I mean by beautiful and premium
+13:54 UI. Let's again open Cloud just to
+13:57 compare the experience. Let's open the
+13:59 sidebar. Wow, this is so smooth. Let's
+14:03 open the terminal. Oh, I can't open the
+14:05 terminal. This is so cool.
+14:07 It's annoying. I think you guys now
+14:09 understand what I mean by beautiful and
+14:12 premium UI. Not only is this beautiful
+14:15 and premium, it works, and that's the
+14:17 most important thing. The shortcuts
+14:20 work. I can easily open everything
+14:22 without ever having to use my mouse. And
+14:25 you know what? If I compare this UI to
+14:27 all of its competitors, so let's take
+14:29 Cloud Code, Cursor, Devin Desktop, or in
+14:32 other words, the WinSurf Antigravity,
+14:35 then Codecks wins like by a huge margin.
+14:38 This is one of the most polished
+14:40 products I have ever used. But now you
+14:43 might say, "Yes, Jan, this all looks
+14:46 good. It looks beautiful, but this is
+14:48 not the most important thing. What about
+14:50 the product itself? How does it
+14:52 function? Does it function well? Is it
+14:54 stable?" And yes, I have good news for
+14:57 you guys. One thing that I really like
+14:59 about Codecks is that everything is
+15:01 stable and that the product itself has
+15:03 been engineered in a very good way. One
+15:06 thing that I have realized with Codecks
+15:09 is that it often feels like the product
+15:11 is vibe coded, which not always is a bad
+15:14 thing, but you kind of feel it right
+15:17 here. With Codecks, you have a way
+15:19 better experience because things are way
+15:22 more polished and they work. I never had
+15:25 any weird crashes or UI bugs. Like yes,
+15:28 there were a few issues I want you to
+15:30 talk about later, but the core product,
+15:33 so the core agent always worked. It was
+15:35 easy to set up sub agents. The voice
+15:38 input works very well. So, hey, how are
+15:40 you? I'm now talking about a few things
+15:43 and there are no delays. This is again
+15:44 what you want. You want things to work
+15:47 instantly. You don't want any delays.
+15:49 You want the agent to remove friction as
+15:51 much as possible. One thing I also
+15:54 really love is the plugin ecosystem.
+15:57 Now, from what I remember, Codec was
+16:00 very early to making plugins feel like a
+16:03 serious part to the agent workflow. I
+16:06 think even they were the first ones and
+16:08 I heavily use them. So, recently, I have
+16:10 started using the Convex plugin. It's
+16:13 not installed here because I use it on
+16:14 my MacBook and it's very powerful.
+16:17 Because in this case, for example, this
+16:18 plugin allows me to interact with Convex
+16:21 without ever opening the dashboard. And
+16:24 this is something I really like. Plugins
+16:26 are very convenient and you don't only
+16:29 get access to plugins, but also skills.
+16:32 And since we are already talking about
+16:34 skills, there is one thing I wish they
+16:36 would add and that's an integration to
+16:38 the skills.sh website. Because inside of
+16:41 here, you can only see the pre-installed
+16:44 skills or your own personal skills, but
+16:47 you can't search for new skills. Like
+16:49 for example, grill meat. This is a skill
+16:51 created by Matt. I can't install it
+16:54 right here. I have to head over to
+16:56 skills.sh, search for it here. So, this
+16:58 is definitely something that could be
+17:00 added to make the product even better.
+17:03 So, the direction is great. The
+17:05 ecosystem feels very powerful, but it
+17:08 could be even bigger and even better.
+17:10 Another thing that I love about Codec is
+17:13 the mobile phone integration. So, if I
+17:16 now open this web preview, you will see
+17:18 that this is the landing page. It does
+17:20 not look very good. That's because I
+17:22 used the GPT 5.5, but hey, it works.
+17:25 That's the important thing. And if I now
+17:27 open the same chat inside of here, I can
+17:29 say, "Hey, looking at the landing page,
+17:32 it looks fine, but I would like to
+17:34 update the title. So, in the header,
+17:36 instead of saying finance hub, say
+17:38 financial hub." And as you see here, our
+17:41 agent now got this request and it's
+17:44 working on it. Everything by just using
+17:46 my phone. This is a feature I use very,
+17:49 very heavily. It's something I use
+17:51 pretty much every single day because
+17:53 it's a game-changer. I can go to the
+17:55 beach, work on my project without taking
+17:58 my computer with me, just my phone. And
+18:01 my phone is able to connect into my
+18:03 desktop remotely. Now, here's the thing,
+18:06 such a feature is also offered in Claude
+18:09 code, so you can set up remote control,
+18:11 but from my experience, it works 10
+18:14 times better with Codex. It's very
+18:16 stable, and that's what you want. And
+18:19 that's also what I mean when I say,
+18:21 "Hey, the agent experience is now the
+18:23 product." It's not about generating
+18:26 code, it's about letting me stay
+18:28 connected to the work in a way that
+18:30 feels natural and removes all of the
+18:33 friction. So, now we talked about all of
+18:35 the positives, but what don't I like
+18:37 about Codex? Well, to be honest with
+18:40 you, it's the model choice, and I know
+18:42 this sounds a bit weird. It's that we
+18:44 only have access to GPT models. This
+18:47 makes sense, this is Codex. With Claude
+18:49 code, you also only get access to
+18:52 Anthropic models. The thing is, I like
+18:54 Opus models more, and even though this
+18:56 product is great, I love it, I just
+18:59 can't use it every single day because
+19:01 GPT 5.5 is not the model I use every
+19:04 single day. It's not the model I love.
+19:07 It's not the model that gives me the
+19:08 best results. I like Opus models more,
+19:11 and that's why I just can't use CodeX
+19:14 every single day, even though I would
+19:16 love to, because the product is very
+19:18 good. It would be super cool if CodeX
+19:21 could become like an model agnostic
+19:24 provider, something like Open Code. This
+19:26 won't happen, I know, but it would be a
+19:28 game changer, and it would ultimately
+19:31 also maybe make me switch to CodeX.
+19:34 Another thing that is missing is a full
+19:37 editor native experience. So, with
+19:40 CodeX, you get this little button which
+19:42 allows you to open the changed code in
+19:45 your editor. Now, this already, of
+19:47 course, is powerful. It is nice, but
+19:49 it's not good enough. A native editor
+19:51 would be way better and even more
+19:53 powerful. And yes, you can also review
+19:56 the code in a similar way to Cloud Code
+19:58 by opening the sidebar, and I can now
+20:00 say review, but this is not as powerful
+20:03 as a native IDE. This is something that
+20:05 you get, for example, with Cursor and
+20:07 Win Surf, and I wish that we would have
+20:10 the same experience with CodeX. Another
+20:13 thing that was kind of annoying is that
+20:15 for two or three versions, the remote
+20:18 phone integration did not work. And this
+20:20 is something not good, because it's one
+20:22 of my most favorite features, and it has
+20:25 been extremely reliable in the past, but
+20:27 it definitely put a dent into the
+20:29 reputation, because CodeX is known as a
+20:32 very reliable tool, but breaking a core
+20:35 feature for several versions is
+20:37 definitely something not good. So, to
+20:39 give you again a quick recap, CodeX is a
+20:42 very powerful tool. It looks beautiful,
+20:45 it's smooth, everything works. So, the
+20:47 core features work. I love automations,
+20:50 I love plugins, I love the remote
+20:53 control feature. I use it very often.
+20:55 Nevertheless, this is not my daily
+20:57 driver, because again, I primarily use
+21:00 Opus models, and GPT models just never
+21:03 worked for my specific workflow, and
+21:06 this puts Kodaks into second place.
+21:09 Great product, solid foundation, just
+21:12 not the right product for me and my
+21:15 workflow. And with that out of the way,
+21:17 let's now finally continue with Cursor.
+21:21 Now, I will be super honest with you.
+21:23 Cursor is my favorite AI coding tool out
+21:26 on the market. I use it every single
+21:29 day. It's my daily driver. I'm
+21:31 subscribed to the Ultra plan. Not sure
+21:34 why it's says pro right here, but I pay
+21:36 $200 per month for it. And even after
+21:39 testing literally every tool out on the
+21:42 market and spending thousands of dollars
+21:44 in the process of doing so, I always
+21:47 come back to Cursor every single time.
+21:50 But what do I like about Cursor? Why do
+21:53 I use it? Well, first of all, Cursor is
+21:55 editor native. I can open a new editor
+21:58 window, and now I have a full-on VS Code
+22:01 fork. I can edit my code. I can view
+22:04 everything. I can submerge myself into
+22:07 the code space. This is something I
+22:09 appreciate a lot. And this is also
+22:11 something that you don't get with the
+22:13 new kids on the block. I know that a lot
+22:15 of Viper Coders don't care about it, and
+22:17 that's fine. But I'm an engineer. I need
+22:20 to review code. I need to write manual
+22:23 code here and there, and I can only do
+22:25 it with Cursor natively. And that's a
+22:27 huge game-changer and a huge plus point.
+22:31 Yes, it's still kind of annoying that
+22:33 the IDE is pretty much like a separate
+22:35 app, so you have to switch between
+22:38 windows. Nevertheless, it's still kind
+22:40 of the same thing. Another thing I like
+22:42 is the UI and general user experience.
+22:46 Shortcuts work. There is no weird layout
+22:49 shift. I can open my terminal inside of
+22:51 here, which did not work with Claude
+22:53 Code. I can use all of the buttons. I
+22:56 can review the code inside of here. Yes,
+22:58 it isn't as good or as smooth as with,
+23:02 for example Codox, but it's good enough
+23:05 and that's the important thing. It's
+23:07 polished enough, it's clean enough and
+23:09 it's fast enough. It isn't as good as it
+23:12 could be, but it's good enough for daily
+23:14 use. What I also like are just the
+23:17 general semantics. So, I'm very used to
+23:20 command shift. I can switch into plan
+23:22 mode, debug mode, multitask mode, which
+23:25 I use quite often, ask mode. This is
+23:27 quite easy. Yes, you get the same thing
+23:29 with Codox. I can switch into plan mode,
+23:32 but that's it. There is only plan mode.
+23:34 There is no ask mode, there is no
+23:36 multitask mode, no debug mode. Yes, I
+23:39 know some people might say, "Hey Jen,
+23:41 this is just not needed. You can just
+23:43 create a high quality prompt and it will
+23:45 do the same thing." Yes, that's right.
+23:47 But the semantics are just very natural.
+23:50 It's also super simple to review code. I
+23:52 don't have to search for some weird
+23:54 sidebar button. It's just right here at
+23:56 the bottom. I can review the code and if
+23:58 it looks good to me, I can click on
+24:00 create branch, commit and push. Let's go
+24:03 back to Codox. This is not as natural.
+24:06 If I want to review code and if I'm at
+24:08 the top, there is no button. I have to
+24:10 either scroll to the bottom to find this
+24:12 button, which says review, or I have to
+24:14 open the sidebar. Again, this is not
+24:17 bad. I just feel like the semantics and
+24:19 with that the general layout just works
+24:21 very well in Cursor. One thing I really
+24:24 love about Cursor is that there are a
+24:26 lot of additional and you could say kind
+24:29 of hidden features. So, in this session
+24:31 I asked my agent to create a PRD. So, it
+24:35 created it. I can now review it, but
+24:37 this here is not a game-changing
+24:39 feature. Every agent does that. Some do
+24:42 it better, some do it worse, but that's
+24:44 not the important thing. At the end, I
+24:45 also asked my agent to create a canvas.
+24:50 So, if I now open this, then you will
+24:51 see here that this here is still my PRD.
+24:54 So, let me quickly make it a bit bigger.
+24:56 This here is still my PRD, but it's now
+24:58 a canvas. This here is literally a
+25:01 visual representation of the PRD. So,
+25:03 here we have the tech stack, Next.js 16
+25:07 app router, Prisma, better off. Here we
+25:10 also have a dashboard preview. This
+25:12 month, last 3 months, year-to-date.
+25:14 Because here's the thing, PRDs at the
+25:16 end of the day are just a wall of text
+25:19 as you see here. But using the canvas, I
+25:22 was able to take the text and create
+25:25 representation. Well, not me, but the
+25:27 agent. And this is a feature that I have
+25:29 learned about quite recently and have
+25:31 been using now quite often. Because you
+25:33 are also able to share it with your
+25:35 teammates, which I like quite a bit. One
+25:39 thing that is very important for me, as
+25:41 you already know, is model flexibility.
+25:43 And this is a huge advantage that you
+25:46 get with Cursor. If I now create a new
+25:48 session, I can use pretty much any model
+25:51 out on the market, Composer 2.5, which
+25:54 is quite a cool model, Opus 4.8, GPT
+25:56 5.5. I can easily change the reasoning
+26:00 effort, low, medium, high, the context
+26:02 window, fast mode, thinking mode. This
+26:05 is exactly what I need. Because there
+26:07 are some days where I want to use Opus
+26:09 4.8. There are some days where I want to
+26:11 use Composer 2.5. Sometimes I need GPT
+26:14 5.5. And with Cursor, I don't have to
+26:17 switch between multiple providers. I can
+26:20 use Cursor and then just use the model
+26:22 that I need to use. This is a huge
+26:24 advantage. And this is, I will be honest
+26:26 with you, my most favorite feature. It's
+26:29 the model flexibility. One feature which
+26:32 is quite similar to Code X is the
+26:34 marketplace. This is pretty much like a
+26:36 plugin ecosystem. So, Telegram, skill
+26:39 creator. One plugin I use quite often is
+26:42 this one right here. Let me scroll to
+26:44 the bottom, Cursor Team Kit. And this
+26:46 plugin offers skills, sub agents, and
+26:49 rules. Again, check out my skills video
+26:51 if you want to learn more. And that's
+26:53 what I like about Cursor. The features
+26:55 that I use every single day are offered.
+26:58 Yes, maybe Codex does a few things a bit
+27:01 better. Yes, maybe Codex looks a bit
+27:04 better. Yes, maybe I missed the remote
+27:06 control function with Cursor, but
+27:08 important thing is that the core
+27:10 fundamental things are there and they
+27:12 work very well. And that's the most
+27:14 important thing. One thing I also use
+27:17 quite often in Cursor is sub agents.
+27:20 Now, this is a feature that is not
+27:22 exclusive to Cursor. Codex also has sub
+27:26 agents, Claude code has sub agents, but
+27:28 I feel like it has been implemented the
+27:30 best in Cursor specifically. So, I could
+27:33 now say, "Hey, spin up seven sub agents
+27:36 which all review the code done by the
+27:38 seven individual sub agents." And as you
+27:41 see here, our agent is now spinning up
+27:43 all of the sub agents. I can view the
+27:46 individual sub agents, what they are
+27:47 doing, what files they are viewing. been
+27:50 done very well. One thing I really miss
+27:53 is the remote control functionality that
+27:56 you get with Codex. With Codex, I can
+27:58 open the chat GPT app and just code from
+28:01 my phone while connecting to my desktop
+28:04 application. This is not possible with
+28:06 Cursor. They want you to use cloud
+28:08 agents. So, inside of here, I could now
+28:10 start a new agent and instead of saying
+28:13 local, I could now say cloud. And inside
+28:15 of here, I can now say, "I don't know,
+28:17 hey, update the naming of our product.
+28:21 Call it Finance Bro." Something like
+28:24 that. And if I now click on enter,
+28:26 instead of now having this task run
+28:29 locally on my computer, it will now run
+28:31 on the cloud. And this also means if I
+28:33 now head over to Chrome, then you will
+28:35 see inside of here that our agent is now
+28:38 running. So, hey, update the naming of
+28:40 our product. And I could now also do the
+28:42 same thing on my phone. So, this all
+28:44 works, but this now runs on the cloud
+28:46 instead of on my local machine. That's
+28:49 fine, but it's at the same time a bit
+28:51 more expensive. So that's something you
+28:53 have to remember. So this is one
+28:56 complaint that I have. Like yes, cloud
+28:58 agents are good. I can review code
+29:00 inside of here. I can view or start
+29:02 multiple sessions. What is quite cool is
+29:04 that it also right here creates
+29:06 walkthroughs screenshots. That's all
+29:09 nice. This is good. But a local agent is
+29:11 still kind of in my opinion a bit more
+29:13 powerful because controlling my own
+29:16 local machine gives me way more
+29:18 flexibility than some sort of machine
+29:20 that lives in the cloud in San
+29:22 Francisco. It is what it is. So now we
+29:24 talked about a lot of things that I like
+29:27 and that I find positive about Cursor.
+29:29 But what is something that I don't like?
+29:31 Well, Cursor had quite a long period of
+29:34 bad instability. Like there was a time
+29:37 where if you would open the sidebar,
+29:38 everything would glitch. Or sometimes
+29:41 you would open inside of here, so in the
+29:43 actual editor, this command key palette,
+29:45 and it would crash. At least this would
+29:47 happen to me. And it was super annoying.
+29:50 Now I must say things have now kind of
+29:52 worked out, or what I mean by that is
+29:54 Cursor has become very stable. I don't
+29:56 have any crashes anymore or weird
+29:59 glitches. Nevertheless, it put a dent
+30:01 into the reputation, and it was also the
+30:03 time when I back then switched to Claude
+30:06 Code for quite a few months. Now as you
+30:08 see here, everything was fixed. I
+30:10 switched back to Cursor. Though it's
+30:12 something that you have to remember, and
+30:14 it's something that could happen again
+30:16 in the future. Who knows? Another thing
+30:19 I want to mention is that Cursor is
+30:21 relatively expensive. It's not cheap by
+30:24 any means. Now for me, this is not the
+30:26 biggest negative because I care more
+30:28 about the developer experience than
+30:31 saving money on the tool I use every
+30:33 single day and pays for everything.
+30:35 Though for some people that might be a
+30:37 big issue. So for example again, I pay
+30:40 for this ultra plan $200 per month, and
+30:42 it's not enough. I get rate limited
+30:44 about 10 days into the month. So, it's
+30:47 expensive, let me say that. But, for me
+30:49 personally, it's worth it because the
+30:51 features outshine the price. And by the
+30:55 way, I don't get sponsored by any of
+30:57 these companies. Cursor does not sponsor
+30:59 me, Claude Code does not sponsor me,
+31:01 OpenAI does not sponsor me. I pay for
+31:04 all of these products myself. So, if you
+31:07 want to support me, then please don't
+31:08 forget to like and subscribe. It would
+31:11 mean a lot to me. Thank you. But yeah,
+31:13 that's all about it. In my opinion,
+31:15 Cursor is the best overall product for
+31:18 my specific workflow. I get the
+31:20 flexibility that I need, I get the
+31:22 features that I want, and I get the
+31:24 stability that I also want and need.
+31:27 Again, all of these products are great.
+31:29 Claude Code is not bad, no. Codex is not
+31:32 bad, no. All of these products are
+31:35 top-tier. But still, they have
+31:37 differences, and for me personally,
+31:39 Cursor and Codex are way better agents
+31:41 than Claude Code. The product is more
+31:44 important than the model. But yeah,
+31:46 please let me know in the comments what
+31:48 you thought of the video, what you
+31:49 thought of my ranking. Do you agree with
+31:52 me, or do you disagree with me? What
+31:54 agent do you use, or maybe you use
+31:56 multiple ones? Who knows? Nevertheless,
+31:58 please don't forget to like and
+32:00 subscribe. It would mean a lot to me and
+32:02 my heart, so please do it. Enjoy your
+32:04 day, and I hope I can see you in the
+32:06 next video. Over and out. Bye-bye.

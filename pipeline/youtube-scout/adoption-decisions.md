@@ -356,3 +356,51 @@ Action: Add a Skill Adoption Gate covering use case, project affected, free/paid
 Owner: Emmanuel / BridgeWorks
 
 Status: Needs SOP row. No plugin install in client work without approval.
+
+### 2026-06-27 - Demand-Signal Scout Loop
+
+Source: Vaibhav Sisinty - "Forget Prompt Engineering. Loop Engineering Is the New AI Skill That Replaces It."
+
+Decision: Adapt
+
+BridgeWorks area: Outreach Infrastructure, Competitive Intelligence, AI Growth Systems
+
+Reason: The video gives a useful loop pattern for finding demand signals before they reach the website. The safe BridgeWorks version must watch, score, remember, draft, and stop. It must not send outreach or trigger spend.
+
+Action: Draft a BridgeWorks Demand-Signal Scout Loop spec with approved sources, scoring rules, source-failure reporting, and Emmanuel approval gates.
+
+Owner: Codex / Emmanuel
+
+Status: Needs spec. No outreach automation.
+
+### 2026-06-27 - AI-Native Owner-Operator Positioning
+
+Source: Y Combinator - "India Can Create The Largest AI Companies"
+
+Decision: Adapt as strategic principle
+
+BridgeWorks area: Emmanuel Ehigbai authority layer, BridgeWorks positioning, Build Brief
+
+Reason: The durable lesson is that AI-native execution, learning speed, clarity, taste, agency, and customer insight can let non-Silicon-Valley operators compete. This fits Emmanuel's story only if it stays proof-led and avoids hype.
+
+Action: Draft an AI-native owner-operator positioning note for Emmanuel / BridgeWorks.
+
+Owner: Codex / Emmanuel
+
+Status: Needs note
+
+### 2026-06-27 - Coding Agent Workflow Fit
+
+Source: Jan - "Cursor vs Claude Code vs Codex (I Built the Same App 3 Times)" and GTM coding-agent setup web fallback video
+
+Decision: Adapt
+
+BridgeWorks area: AI Delivery Verification, Website Production System, Cost Governance
+
+Reason: Strong models are not enough. For a solo non-manual coder, the working loop needs PRD, review surface, preview reliability, diff review, model/tool routing, cost cap, and rollback path.
+
+Action: Add a Coding Agent Workflow Fit row to the AI Delivery Verification Checklist and Model Routing Trial Sheet.
+
+Owner: Codex / Emmanuel
+
+Status: Needs checklist row

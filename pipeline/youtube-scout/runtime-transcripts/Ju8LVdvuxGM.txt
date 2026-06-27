@@ -1,0 +1,872 @@
+00:00 This wave is more about are you living
+00:02 at the edge of the technology and not as
+00:05 much about do you understand the right
+00:07 go to market uh right business model
+00:09 etc. This is about do you understand
+00:11 this technology 10x better than everyone
+00:14 else and I think nobody does that better
+00:16 than in India.
+00:21 Wow day. Uh the energy in this room has
+00:25 been incredible. The energy here around
+00:28 startups and technology and AI is just
+00:30 without parallel anywhere else in the
+00:32 world. Thank you all so much for coming
+00:33 out today for being such an incredible
+00:35 audience.
+00:40 So, we wanted to wrap up today by
+00:42 sharing some of our takeaways from all
+00:44 of the talks that you just heard, the
+00:46 incredible founders and all the advice
+00:47 that they gave and for giving you some
+00:49 very tangible advice that you can use to
+00:52 take away when you go home today and you
+00:55 start thinking about what you want to do
+00:56 in in your journey to becoming a
+00:58 founder. To do this, we decided to
+01:01 invite a couple of friends, a couple of
+01:04 dear friends of ours, um, Punit and
+01:06 Arnav. Um, Punit and Arnav, um, both
+01:10 worked at Y Combinator at one point, and
+01:12 so they were our colleagues. We got to
+01:14 know them really well. They've gone on
+01:15 to have incredible careers of their own
+01:18 after YC, but they've remained close to
+01:20 us and they have been two of the most
+01:23 instrumental people in helping Y
+01:25 cominator expand into India and are just
+01:27 some of the keenest observers in the Y
+01:29 in the in the Indian startup ecosystem.
+01:31 So, um, thank you guys so much for for
+01:33 being here with us.
+01:34 >> Thank you. Thank you for coming here.
+01:36 Look at the energy.
+01:37 >> Um, do you guys want to start by just
+01:39 introducing yourselves?
+01:40 >> Yeah, sure. Um so I've been coding since
+01:43 I was 10 years old. Went to ID Bombay.
+01:46 Uh my last startup was Super Daily. Uh
+01:48 which was a grocery delivery company. Uh
+01:50 we went to YC inventor 17. Uh Jared was
+01:53 actually my partner. Uh we scaled that
+01:56 company to around $100 million in annual
+01:58 revenue. Uh thank you. Uh exited to
+02:02 Swiggy uh which is now a public company.
+02:04 Uh left in September 21. Uh wanted to
+02:08 partner with entrepreneurs on the other
+02:09 side of the table. So joined YC and then
+02:12 came back in India and was a venture
+02:14 partner at Nexus. Uh but the itch to
+02:16 build never went away. So I'm back to
+02:18 building. Thank you
+02:23 >> firstly. Thank you for YC to organizing.
+02:25 This is like a rock concert. It's quite
+02:27 amazing. Uh I'm Arnov. I used to work at
+02:30 YC for many years. Uh working with a lot
+02:32 of people there and especially with uh
+02:34 Indian companies and developer
+02:36 companies. I'm with the venture firm now
+02:38 called Peak 15. done a bunch of things
+02:40 in my life. Had a startup that didn't
+02:41 fully work out. Uh worked at a company
+02:44 in the developer space and now mostly
+02:46 trying to work with you know all the
+02:47 young builders building an AI and
+02:49 investing in them and it's uh just
+02:51 amazing to be here.
+02:56 Okay. So my my first question is for
+02:58 Pun. So Punit you built Super Daily
+03:00 which is this incredible company like
+03:03 part of the heyday of like grocery
+03:06 delivery exploding in India. built it to
+03:08 100 million error. Incidentally, how
+03:10 many engineers did you have when you
+03:12 sold the company to Swiggy? This is a
+03:13 fun fact.
+03:14 >> Yeah. Um, so we used to say that we have
+03:18 two engineers, but like I was one of
+03:20 them. So we just like really had me plus
+03:23 one.
+03:24 >> So you had 100 million AR and one
+03:25 engineer and this is before AI.
+03:32 >> Um, anyway, more recently you've been an
+03:34 investor at one of the top VCs in India.
+03:36 Um and so you have a like a really like
+03:38 front row seat as to like what's
+03:39 happening now in India. Um what what is
+03:42 your advice on like what ideas folks in
+03:45 this room should be working on? Yeah, I
+03:48 think I'm very very excited about um for
+03:51 the first time we can build global
+03:53 companies out of India and this follows
+03:55 what Mukun was saying from emergent as
+03:57 well that um now is the time I think
+04:00 over the last 10 15 years we have seen
+04:02 couple of waves of startups in India and
+04:06 we now know how to design well, how to
+04:09 do good products, how to do technically
+04:11 deep products. uh we and the and the
+04:15 shift with AI is not local. So what
+04:18 happened with the last wave was that
+04:20 with mobile phones uh labor got
+04:22 tokenized. So anyone anywhere could say
+04:24 that I have 1 hour free. I can deliver
+04:27 for Swiggy, I can deliver for Super
+04:29 Daily, I can deliver for Zeppto and that
+04:31 happened because of the mobile
+04:32 revolution. Uh the AI revolution is not
+04:35 local. uh that revolution led to
+04:37 hyperlocal network effects and so there
+04:39 were lots of uh companies in India in
+04:41 Latin America in US etc. I think the AI
+04:44 change is global and uh this is our time
+04:47 to shine. This is the time like Mukun
+04:49 said to look at the ceiling and for the
+04:51 first time build global companies in
+04:53 India. And I'm very very excited. I
+04:55 think some of the largest companies in
+04:57 the world will come out of India because
+04:59 we have the best technical talent and
+05:01 this is this wave is more about are you
+05:04 living at the edge of the technology and
+05:06 not as much about do you understand the
+05:09 right go to market right business model
+05:11 etc. This is about do you understand
+05:13 this technology 10x better than everyone
+05:16 else and I think nobody does that better
+05:18 than in India.
+05:25 Okay. So as a followup to that I can
+05:27 imagine that there are some people in
+05:29 the audience who are like cool punit I
+05:32 got it I should build for the global
+05:34 market but they maybe don't understand
+05:36 the US market at all. maybe they've
+05:38 never even been to the US and that might
+05:40 sound very intimidating to them. Um what
+05:43 would your advice be for for them for
+05:46 like how they can actually do that? I
+05:48 think you're right that this was very
+05:50 very hard to do before. Uh when you were
+05:52 for example building a SAS company, you
+05:54 had never been to US, you didn't know
+05:56 anyone, you had to find a warm connect
+05:58 or you had to maybe live live in the SF
+06:00 for like a few years to build like the
+06:02 network. But what has happened with AI
+06:04 is that everyone simultaneously across
+06:07 the world just understands AI is
+06:09 important. And so we just saw that Giga
+06:12 and emergent both they never lived in SF
+06:15 before starting their companies. Uh and
+06:17 because as I said that this time it's
+06:19 more about are you building at the edge
+06:21 of technology uh than are people open to
+06:24 it? Everyone is open to it. uh in the
+06:26 last YC batch there was a company from
+06:27 India which was which cold outreach to
+06:30 insurance companies in the US and sold
+06:33 to them. This was unbelievable to me
+06:35 like it's hard to sell to insurance
+06:37 companies but selling to insurance
+06:38 company in the US buy a cold email when
+06:41 you are a Indian student in IIT in third
+06:43 year is just unimaginable like what a
+06:45 time to be alive and so I think it's
+06:47 just we have to get rid of our
+06:49 preconceived notions that we need warm
+06:52 connects I think you can just reach out
+06:53 if you have a great product people are
+06:55 open to it uh people want meritocratic
+06:58 solution solutions which drive outcomes
+07:00 uh this is not about where the budget
+07:01 goes this is about whose solution is
+07:04 better and can drive better outcomes and
+07:06 companies are just like fully open
+07:07 >> and incidentally the gigaf founders who
+07:09 we heard from today are are maybe like a
+07:11 great example of that they were very
+07:12 young founders with no connections in
+07:14 the US who like just made it work by
+07:16 just building a better product
+07:18 >> like obviously apply to YC and YC is the
+07:20 best way to go to US and so uh like it
+07:23 has been the right way for Giga and
+07:25 emergent both and I think even for us
+07:28 when we went uh through super daily just
+07:30 going to VC and breathing the air in SF
+07:32 this raises your ambition 10x and so
+07:34 like YC is also like the great condute
+07:36 to uh go global. So, Arnav um you shared
+07:41 with us some really insightful thoughts
+07:45 earlier about the Indian educational
+07:48 system because you grew up here. Um and
+07:51 what it means for startup founders and
+07:53 what sort of personality traits people
+07:55 in this audience should think about
+07:57 incubating in themselves if they want to
+07:59 transition from being students that came
+08:01 out of the Indian educational system to
+08:02 being great founders like the ones that
+08:04 we here saw here today. And I I was
+08:07 hoping that you could share those
+08:08 thoughts here too.
+08:09 >> Yeah, totally. So look, a few thoughts.
+08:13 It is very likely that the future of the
+08:15 India AI ecosystem is going to be
+08:17 defined by all the people in this room
+08:20 and not by people who came from a prior
+08:21 generation. The traditional advice of
+08:25 most educational systems and the non-AI
+08:27 native people is irrelevant. Now if you
+08:30 think about the traditional educational
+08:32 advice people get is you know go get a
+08:35 very highpaying prestigious safe job go
+08:37 be a banker consultant an engineer a
+08:40 doctor and it is possible that a lot of
+08:44 those jobs won't exist 10 years from now
+08:45 or at least they will change
+08:47 dramatically and historically that safe
+08:49 path might actually now be the risky
+08:52 path. If you believe in the end curve of
+08:54 where all of this is going, it is also
+08:56 possible that the people that are most
+08:58 insulated from this are owners and
+09:00 entrepreneurs or businesses. Now I will
+09:02 caveat that it's very it it is very hard
+09:07 for an average young Indian to take the
+09:08 types of risks that someone who grew up
+09:11 in Silicon Valley can just given the
+09:13 social safety nets. I think the Indian
+09:15 startup ecosystem is booming but maybe
+09:17 not as deep as the US and for a lot of
+09:20 people in this room right who who grew
+09:21 up in India who came from humble
+09:23 backgrounds if you get a super highp
+09:25 paying job that's safe that's stable
+09:27 that very prestigious you are already in
+09:29 the top 10% of this country and you've
+09:31 killed it and I hope many of you go do
+09:33 that but you know I'm willing to bet
+09:35 there are a lot of people in this room
+09:36 that disagree with that cookie cutter
+09:38 advice and disagree with the advice the
+09:40 traditional education systems go give
+09:42 you and so hopefully I think with AI is
+09:44 people can build their own tools. People
+09:45 who are super high agency, can now
+09:47 release stuff in the wild, can at least
+09:49 form their own convictions on what to do
+09:52 with their lives versus being told to do
+09:53 what what the Indian education system
+09:55 tells you or any other education system
+09:57 tells you. If you look at um you know a
+10:00 lot of the companies are getting born in
+10:01 the AI era, it is really benefiting
+10:04 young technical founders who live on the
+10:06 cutting edge and it's likely that you
+10:08 won't learn a bunch of that in school
+10:10 today. And so it does benefit the people
+10:12 who are super high agency who want to
+10:14 totally go for it. And also the reality
+10:15 is we're only year three or four in this
+10:18 whole AI boom. All the people in this
+10:20 room have easily 30 40 years left to go
+10:23 build. You guys would be the ones are
+10:25 going to be the experts that should be
+10:26 telling the rest of us on like what AI
+10:28 tools we should be using. And for the
+10:30 people who at least have their own
+10:32 independent point of view and high
+10:34 agency, I think this error favors those
+10:36 types of people who really want to go
+10:37 for it. And I guess if I could if I
+10:40 could jump in and ask you there, how do
+10:42 people develop an independent point of
+10:45 view? Like what does it take to actually
+10:46 develop that?
+10:48 >> Yeah, I can only speak from my personal
+10:50 experience and some of this is my own
+10:51 battle scars. You know, it's easy to say
+10:53 go develop be high agency, go develop
+10:55 your own point of view, but it's hard to
+10:57 do it unless you're not surrounding
+10:58 yourself by people who go do that. I
+11:00 think there's a reason why certain
+11:02 universities or even YC I mean when I
+11:04 think about why YC is so magical you
+11:07 know I think founders come into the
+11:08 batch they're already very very good but
+11:10 I feel like after the batch as you know
+11:11 PG used to say they become the 007
+11:14 versions of themselves they become
+11:15 absolute beasts and some of it is like
+11:17 just truly people network effects and so
+11:19 the fact that a lot of you even showed
+11:20 up here to come today on a weekend I
+11:22 think speaks volume that you guys are
+11:24 interested in meeting other people like
+11:26 you know I I think the other thing about
+11:28 kind of the Indian education or maybe
+11:30 all education systems is it's like it's
+11:33 not cool to be ambitious or say that you
+11:35 want to be super ambitious but if you
+11:36 come to a place like YC it is expected
+11:38 that you're going to be ambitious and so
+11:40 in many ways like surrounding yourself
+11:41 with people like that this allows you to
+11:44 um at least form your own opinion
+11:45 because otherwise you constantly get the
+11:47 cookie cutter advice from people who
+11:48 have done it in the past and in AI
+11:50 actually it's very dangerous to follow
+11:51 the advice of people who are not AI
+11:53 native because they're just not in the
+11:55 game with you and so I think in this era
+11:58 just surrounding yourself with people
+11:59 who are at the cutting edge I think is a
+12:01 very conscious deliberate choice you can
+12:03 make in your life which I think will
+12:05 just compound as you grow through your
+12:06 careers. That's amazing advice. Thank
+12:09 you.
+12:12 >> That might segue nicely into a topic I
+12:14 was hoping that you could talk about
+12:15 John which is um the phenomenon of YC
+12:18 founders getting younger and younger.
+12:20 There's a lot of young people in this
+12:21 audience. I met some people here who are
+12:22 like 15 years old. Um what can you tell
+12:26 us about like what's going on there?
+12:29 Yeah, I I think first of all it's
+12:31 certainly true that if you look at the
+12:33 the last sort of 10 20 batches um the
+12:36 average age of the founders have gotten
+12:38 younger. Um it's not that we
+12:41 intentionally try to fund older or
+12:43 younger founders. I think what we're
+12:45 seeing a couple things that some of the
+12:49 the the kind of the stories that you've
+12:50 heard it is now far more true that AI
+12:54 has completely leveled the playing field
+12:56 for young founders, right? And you know,
+12:59 it was always true that you didn't have
+13:00 to be an expert. And some of the folks
+13:02 that talk today, you didn't have to be
+13:04 an expert to really get deep into the
+13:06 field, but AI has completely changed
+13:10 that to the next level, which is you are
+13:13 no longer limited by your ability to
+13:15 build. You're limited by the pace with
+13:17 which you can learn. And for young
+13:19 founders, that's a huge advantage
+13:21 because you can build very quickly and
+13:24 you can get insights very quickly. And
+13:25 that's what we're seeing the best young
+13:27 founders are doing. The other thing is
+13:30 the best young founders that we're
+13:32 seeing are tinkering more, right? And
+13:36 you know to the point earlier, what do I
+13:37 mean by tink tinkering? They're
+13:39 following their curiosities and they're
+13:42 working on the edge of what might be
+13:44 possible today. And you know some those
+13:47 of you that kind of walked in through
+13:48 the front, you saw this motto that's
+13:51 live in the future and find what's
+13:52 missing, right? And this is actually how
+13:55 to live in the future and find what's
+13:57 missing, which is to tinker and to
+13:59 follow your curiosity and to work on the
+14:01 things that are barely good enough for
+14:03 the models to do. And in so doing,
+14:06 you're going to beat benchmarks. You're
+14:09 going to establish new heights. You're
+14:10 going to figure out where the
+14:11 bottlenecks are. And those bottlenecks
+14:13 are some really good ideas. And this is
+14:16 not just me saying, you know, what you
+14:18 should do, but this is actually what
+14:20 we're seeing the young founders coming
+14:21 into YC are doing. I think like one very
+14:24 empirical thing that I suspect is part
+14:28 of what's driving it too is that if you
+14:30 kind of think back to all the stories we
+14:32 heard today, I think almost every
+14:34 founder had the experience of their big
+14:37 idea was not their first idea. There's
+14:39 some exceptions, but for almost all of
+14:41 them, they went through some number of
+14:42 pivots. And I think it's often because
+14:45 the a good startup idea is not obvious,
+14:48 right? It's like you have to kind of be
+14:49 in the field building something to
+14:52 notice the really good idea. Like I work
+14:54 on a whole bunch of side projects now.
+14:56 And like every time I work on a side
+14:57 project, I discover like five good
+14:58 startup ideas and I have to decide what
+15:01 I want to do with it or not. Um I'm sure
+15:03 that's how you started to get back into
+15:04 building too. You started tinkering and
+15:05 you were like, "Oh my god, like I can
+15:07 just like make one of these into a
+15:08 company." And
+15:10 I think what hap what's happening now is
+15:13 that with coding agents, you can get
+15:14 something off the ground so fast that
+15:17 like as a college student just kind of
+15:18 messing around on nights and weekends or
+15:21 in between classes or skipping classes
+15:22 or whatever, you can just very quickly
+15:25 find extremely good ideas that would not
+15:27 have been obvious if you were just on a
+15:28 whiteboard thinking, but are very
+15:30 obvious once you start building
+15:31 something and you realize what's
+15:32 missing.
+15:33 >> An I want to I want to riff on that
+15:35 point. Um it certainly something that
+15:40 struck me from the talks today was how
+15:41 many of the ideas were not the first
+15:44 ideas. The founder went on like a pivot
+15:45 journey. And another thing that struck
+15:47 me was how many of the ideas that worked
+15:51 were not the first mover in their space.
+15:54 They were like this you know the third
+15:56 fourth or like 42nd like version of the
+15:58 idea to launch. Do you want to talk
+16:00 about second mover advantage and maybe
+16:02 like more concretely even like what that
+16:04 would mean for like people as they think
+16:06 about what startup ideas to work on?
+16:07 >> I mean I think this is one of these
+16:09 crazy things we see over and over right
+16:11 now. I mean I think back to the example
+16:13 that Varun from Giga shared of when he
+16:16 closed Door Dash he was competing
+16:19 against several companies that had
+16:20 several hundred employees and he had
+16:22 eight uh and he won the contract. And I
+16:27 think it speaks to what a really strong
+16:29 technical team that can build a superior
+16:32 product can pull off. And and I think
+16:35 what's happened with with coding agents
+16:37 is that it means that people that have
+16:40 great product clarity and vision can
+16:42 make their ideas become real extremely
+16:45 fast. Um and often with even more, you
+16:48 know, precision and like quality than
+16:51 you would expect. Like like I think
+16:52 there's this um sort of dated worldview
+16:55 of like AI slop or something like that.
+16:58 Like people love talking about like oh
+17:00 yeah if I use coding agents it's going
+17:01 to produce slop or whatever. It's like
+17:03 no that means you're actually not using
+17:05 them well. Like the people who use them
+17:07 well produce incredibly sophisticated
+17:10 code um at a pace that was much faster
+17:12 than before. And I think this this
+17:14 causes this second mover effect because
+17:16 you can kind of like I would I'm not
+17:18 exactly saying this is my advice, but
+17:20 like a kind of reasonable way to compete
+17:22 right now is like find something that's
+17:24 kind of working and then do it better
+17:26 than them and then beat them. And unless
+17:29 that first thing had incredible network
+17:31 effects, which few things do, you
+17:34 actually can just beat them from a
+17:35 better product. And we see this with
+17:36 Emergent also as a great example of a
+17:38 company that's um pulling this off and
+17:40 now scaling really fast. Um, speaking of
+17:42 AI coding, could you maybe expand
+17:45 people's Overton windows of like just
+17:48 how much you can like crank up AI coding
+17:50 if you're like really go like all the
+17:53 way in on it?
+17:54 >> Yeah, this has been um my last four
+17:57 month rabbit hole basically. And if any
+18:00 of you guys follow Gary on Twitter, it
+18:02 is very much his last four-month rabbit
+18:03 hole. I think that I was also one of
+18:06 these people that didn't fully realize
+18:11 how good things had gotten until, I'll
+18:14 be totally honest, until like December
+18:16 of this last year. It was until this
+18:18 Christmas break when um my Twitter
+18:21 wouldn't shut up about how good Opus 4.5
+18:24 had gotten. And I decided, okay, it was
+18:26 time for me to actually try to build
+18:28 something end to end with these models.
+18:30 And I think what I learned in doing
+18:31 that, and I finally paid for the $200 a
+18:34 month max plan, and this is the
+18:36 anthropic max plan, um, or the codeex
+18:39 one, kind of similar. And what I didn't
+18:42 realize was that unless you are paying
+18:44 for at least that level of usage, you
+18:47 actually are not anywhere close to the
+18:50 frontier right now. Like there is a
+18:52 meaningful unlock you get from just
+18:54 letting the tokens rip. Um, and there's
+18:58 even more extreme versions of this. Um,
+19:00 Gary Tan, for example, spends thousands
+19:03 of dollars per day on token usage. Uh,
+19:08 and obviously, I'm not claiming that
+19:10 everyone can spend thousands of dollars
+19:12 per day. That's an incred incredible
+19:13 position of privilege he has and that we
+19:15 all get to have. But as a result, we
+19:18 just get to peer into the future, right?
+19:20 Like I think it's very safe to assume
+19:22 cost of compute per um level of
+19:25 intelligence is going to go down a lot.
+19:27 And I think what you see when you're
+19:28 willing to spend tons of effort on doing
+19:31 computing well for example not just
+19:33 writing the 20 unit tests that a human
+19:35 would write but write 10,000 unit tests
+19:37 because why not? Um not just writing you
+19:40 know a small number of docs but writing
+19:41 tons of them. Um not just having a few
+19:44 uh corner cases covered but all of them.
+19:46 um you can actually get incredibly
+19:48 effective and powerful code really fast.
+19:50 Um incidentally, you also run into good
+19:52 startup ideas all the time. Like uh I'm
+19:54 currently working on this uh email
+19:56 client side project you guys may have
+19:57 seen on my Twitter. And in building
+19:59 that, which was a project I did
+20:01 basically like quasi just for fun and
+20:03 because I found my existing email client
+20:05 annoying, I discovered several new ideas
+20:07 in building it just from basically
+20:09 pushing these models to the limits of
+20:11 what they could do and realizing that
+20:13 you can get a much better output if you
+20:15 basically just don't worry about the uh
+20:18 the cost of inference, right? It's like
+20:21 uh Gmail's auto reply thing sucks, but
+20:23 like if you're willing to spend like $5
+20:25 per email, it's actually really good and
+20:27 it really shows you like how far you can
+20:29 push these things if you're not kind of
+20:31 bandwidth constrained by intelligence.
+20:32 Um so I suspect what we're going to see
+20:34 I maybe just like the lesson for
+20:36 founders in this room. I think a big
+20:38 part of why we wanted to hook you guys
+20:39 all up with credits is not just because
+20:41 like oh yeah it would be cool but it's
+20:42 like we actually want you to feel a
+20:44 taste of what it's like to not be
+20:46 capital constrained to like actually
+20:48 just like let it rip. Um and and in fact
+20:50 maybe I'll go further is like whoever in
+20:52 this room manages to like get a product
+20:55 off the ground that uses those credits
+20:57 the fastest like one of the larger
+20:59 credit packages there should email it.
+21:01 Uh, and I would like love to hear what
+21:02 people built with that because I think
+21:04 um
+21:06 it's like it's it's quite incredible
+21:07 what you can do if you just let it rip.
+21:09 >> Totally.
+21:14 >> Let it rip is good advice when it comes
+21:17 to spending tokens. Let's talk about a
+21:18 topic.
+21:19 >> People who cannot afford, what can they
+21:22 do? How can how can we help them uh let
+21:25 the tokens? Well, um, John raised the
+21:29 topic of open source models. Um, do you
+21:32 guys have some thoughts on open source
+21:33 models and what that can mean for
+21:35 bringing down the cost of what Gary Tan
+21:37 is able to do to make it accessible to
+21:39 people who aren't Gary Tan? I mean,
+21:41 Arnov and I were just talking about this
+21:43 earlier. Arnov, I'm curious what you're
+21:44 seeing also, but like I don't know, like
+21:47 I've been playing around with the Miniax
+21:49 models and a bunch of others and it's
+21:51 like they're pretty good. They're pretty
+21:53 good. They're really cheap and they're
+21:55 pretty good. And um I I think I'm I'm of
+21:59 two minds about this where on the one
+22:00 hand it does seem like being at the very
+22:02 frontier seems extremely useful for a
+22:05 subset of tasks especially coding but
+22:07 for a lot of tasks um not necessarily
+22:10 like I was quite I was quite inspired by
+22:12 um Vidith from Misho saying that he
+22:14 wants to use voice AI to bring the next
+22:16 billion people online with shopping and
+22:19 I think to do that it it sort of
+22:21 requires the models to work at a price
+22:23 point that the next billion people can
+22:24 access and I imagine and he's going to
+22:26 be building on open source models to do
+22:28 that.
+22:29 >> Yeah, I also highly recommend there's
+22:30 this YC company called Open Code which
+22:32 is built on top of the open source
+22:33 models and they're very very good. Um
+22:36 but at the same time, look, I think
+22:37 there are so many companies that are
+22:40 thinking about this in the right way
+22:41 where they want to give unlimited
+22:43 budgets to their employees. And so for
+22:46 whatever reason, if you're budget
+22:47 constraint, go try and work for the
+22:49 companies that want you to token max and
+22:51 just be at the frontier to see what the
+22:53 power is. uh you know I think we should
+22:56 safely assume that the cost of tokens
+22:57 will keep coming down. Open source
+22:59 models will keep getting better and
+23:02 better and so being early in the game as
+23:04 fast as possible as you can early in
+23:05 your career will just give you such a
+23:07 huge advantage on how the tools work.
+23:09 And you know if you just back to the
+23:10 earlier point if you try and build for
+23:12 the models 6 months ahead a year ahead
+23:15 um or just think through what the models
+23:16 can be capable of um 6 months or a year
+23:19 ahead again you'll just be far ahead
+23:21 than some of your competition in terms
+23:22 of the thinking and the road map and the
+23:24 types of things that uh you guys can
+23:25 capitalize on.
+23:27 >> Let's talk about a topic that I imagine
+23:29 is on many people's minds. Um, I'll bet
+23:32 many people in the audience are thinking
+23:33 about applying to Y Combinator at some
+23:35 point and they might be wondering what
+23:37 does Y Combinator look for? How should
+23:39 they think about like having a great Y
+23:42 cominator application? John Anit, do you
+23:44 guys want to maybe clear up some
+23:47 misconceptions and talk about like the
+23:49 real talk about what we really look for?
+23:52 I think there's a common misconception
+23:54 that you want to write things in your
+23:56 application that is like the most
+23:58 impressive or the things that's the most
+24:00 complicated. Um clarity is most
+24:03 important. If we can't understand what
+24:05 people are actually building, um that's
+24:07 not going to work, right? And so clarity
+24:10 above all else. Um we talk a lot about
+24:13 taste and agency in founders, right? Um,
+24:17 first of all, I think everybody sort of
+24:19 understands, we've talked about this a
+24:21 lot, which is we're not investing in
+24:23 ideas. And as many of you have heard
+24:25 today, the first ideas might not be the
+24:27 ones and they might not work. Um, the
+24:29 first ideas well after the batch that
+24:31 have gotten to millions of of ARR could
+24:34 also be subject to pivots. You might be
+24:36 pivot pivoting several different times.
+24:37 So, it's not about the idea
+24:39 fundamentally. It's about you, the
+24:40 founder. And we talk a lot about taste
+24:43 and agency. And I'll I'll offer kind of
+24:45 what that means to me. Taste. I think
+24:47 the common misconception is that you
+24:49 build products that look, you know,
+24:51 good. You can exercise kind of your
+24:52 taste, but it's fundamentally more about
+24:55 intention. Are you building products and
+24:58 and showing demos that are intentional?
+25:01 Are there insights from the customers
+25:03 that you've talked to that back your
+25:05 design choices that you know the and the
+25:08 pace with which you can actually get to
+25:10 those insights and develop the product
+25:12 that encapsulates that intention that's
+25:15 taste um agency pun mentioned earlier I
+25:19 think you will become a more formidable
+25:22 version of yourself and and I think
+25:24 there's a there's an um an old essay
+25:26 that is very relevant like many PG
+25:29 essays that I would recommend everyone
+25:30 in this room read it's titled
+25:32 relentlessly resourceful right and you
+25:35 know it's the notion that do you let the
+25:39 conditions of the world happen to you or
+25:41 do you exact what you want to do on the
+25:44 world and do do you will things to
+25:46 happen and so those are some really
+25:49 strong founder qualities and of course
+25:51 in the end your rate of learning matters
+25:53 a lot
+25:54 >> and I think the reason why we care about
+25:56 those things is not just from some like
+25:59 philosophical belief that they're right,
+26:00 but it's if you kind of just reflect on
+26:02 the six founder stories we heard today,
+26:05 they're like perfect examples of why
+26:07 that matters, right? Like essentially
+26:09 all of those companies had to do all of
+26:11 those founders had to lead their
+26:13 companies through completely insane
+26:15 times to get to where they are and being
+26:18 relentlessly resourceful and having
+26:20 taste as expressed through customer
+26:22 obsession. It's kind of this this
+26:23 consistent theme through all of them. It
+26:25 was actually really interesting to
+26:26 listen to them and say like, "Wow, like
+26:28 we didn't prompt all these people to
+26:29 talk about their customer so much, but
+26:31 like they all like very intuitively are
+26:33 thinking about their customer in a very
+26:35 centric way." And and I think that like
+26:37 speaks to how important that is. Like to
+26:39 make it, you have to be so obsessed with
+26:41 that. And I guess a related thing I
+26:43 think about is like what people should
+26:45 do before they're ready to start
+26:48 starting companies. Like we mentioned
+26:49 tinkering earlier and and maybe I'll
+26:51 take that a little bit further and say
+26:53 like people should work on projects and
+26:57 I'll give a very specific definition of
+26:59 project. Um a project is when two people
+27:03 build something that was not assigned to
+27:06 them and get someone to use it.
+27:10 And what's fascinating about that
+27:11 definition of project is you can have an
+27:13 entire computer science education and
+27:16 job and be successful and never do a
+27:19 project either because you did it solo
+27:21 or it was assigned to you from an
+27:23 internship or a class or whatever or you
+27:26 never got anyone to use it or you never
+27:27 built it. It was just like a whiteboard
+27:29 exercise. And it turns out if you just
+27:32 do projects, especially when you're
+27:33 young and in college, um, and if you
+27:35 use, you know, the tools that we're
+27:36 giving you through that, um, starter
+27:39 pack, uh, you're just like guaranteed to
+27:42 find startup ideas. And it's it's
+27:44 projects kind of lead people to have
+27:46 those exact traits that John was
+27:48 discussing. One thing I'll say though is
+27:49 Jared, you've been doing this for a
+27:51 while now. You joined YC 10 years ago
+27:54 and have been working in your own
+27:57 startup in this for 20 years. Are there
+28:00 things
+28:01 what's has anything changed or like what
+28:04 has changed? Weirdly, surprisingly,
+28:07 little has changed. Um, and I think it's
+28:10 because these like fundamental truths
+28:11 about like what makes for great founders
+28:13 go way back. I mean, you could go back
+28:15 to like Thomas Edison and like if we
+28:17 could interview Thomas Edison, I'll bet
+28:18 he would sound just like the founders
+28:20 from today. I'll bet he'd be obsessed
+28:22 with customers, obsessed with tinkering,
+28:24 obsessed with building at the edge of
+28:25 what's possible with technology. And so
+28:27 like if it hasn't changed since Thomas
+28:29 Edison, it's not very likely to change
+28:30 in 20 years. Um
+28:33 um what I mean what has changed is that
+28:35 AI has given the best builders so much
+28:39 more leverage and it has democratized
+28:41 the ability to build great stuff to
+28:43 everyone which is how we're able to fund
+28:45 people like the founders of Giga or
+28:47 Audit the founder of Zeppto at like age
+28:50 18 and like they can go on and build
+28:52 epic companies really really quickly. I
+28:54 think the speed part seems like the most
+28:56 tangible immediate thing too where it's
+28:58 like, "Oh, you can just build you can
+29:00 just ship that like tomorrow or like
+29:02 next week, not like a year from now."
+29:04 >> More like tonight, not tomorrow.
+29:06 >> Yeah, more like tonight. Yeah.
+29:07 >> Yeah.
+29:08 >> I wanted to wrap up with a few
+29:10 announcements. Um, first, all six
+29:14 companies that you heard from today are
+29:16 all very actively hiring engineers. One
+29:19 of the reasons that they came here today
+29:20 is because they are very interested in
+29:22 hiring the people in this audience. So,
+29:24 if anyone is interested in working for
+29:26 them, you should go apply on their
+29:28 website for a job um or email the
+29:31 founders. Um I will say that if you want
+29:34 to become a really exceptional founder,
+29:37 one of the best ways to get there is to
+29:39 go work at a really exceptional company
+29:41 like the ones that presented today where
+29:42 you can learn from the best in business.
+29:46 Um, second announcement is, um, there's
+29:49 an incredible room full of people here
+29:52 and it would be a shame if everybody
+29:54 went home and didn't keep in touch with
+29:56 each other. Like Anat was saying,
+29:58 projects are really best done with two
+30:00 or more people. And so, I would really
+30:02 encourage you all after after we finish
+30:04 here to hang out. We're going to have
+30:06 food and photos on the lawn. We're going
+30:08 to hand out um swag bags um to like just
+30:12 like hang out, meet as many people as
+30:14 possible, exchange numbers, start
+30:16 WhatsApp groups, keep in touch, meet up
+30:18 after this, and like start working on
+30:20 projects with with people who who who
+30:22 you met here. You might even meet your
+30:24 co-founder right here in this crowd here
+30:25 today.
+30:31 Okay. And we saved the most important
+30:33 announcement for last. Anit, do you want
+30:36 to wrap us up by talking about the
+30:38 credits and what people should do with
+30:40 it?
+30:44 >> This is two things I want to say. One is
+30:46 that um my introduction to startups was
+30:50 when in 2013 as a freshman in college, I
+30:54 went to startup school in San Francisco.
+30:56 It was basically the exact same event as
+30:58 this. Um, and we had some amazing
+31:00 speakers there. And I realized that the
+31:05 welltrodden path I was on was not
+31:07 necessarily the one I wanted to stay on.
+31:09 And I really hope that some of what you
+31:12 all um heard today inspires you all to
+31:16 consider that as well. And I'm really
+31:18 excited to be able to give you guys all
+31:21 the resources to help starting to do
+31:23 that. Um, and so what I would really
+31:26 love to see happen um, over the next few
+31:29 days is to see teams form from here or
+31:32 from your best friends back home,
+31:35 wherever you're coming from, and for you
+31:37 guys to use those credits to start
+31:39 building amazing things. Um, you'll all
+31:40 get an email from us um, tonight or
+31:43 tomorrow giving you access to um, all of
+31:46 those credits. You'll be able to start
+31:47 redeeming them right away and get them
+31:48 within a few days. and we're really
+31:50 excited to see all of the incredible
+31:52 stuff that you guys build.
+32:00 >> That's it from us, folks. Thank you all
+32:02 so much for being here with us today. We
+32:04 can't wait to see what you build.
+32:06 >> Thank you.
+32:06 >> Thank you.

@@ -1,0 +1,265 @@
+00:00 I started using the likes of CloudCode,
+00:01 CodeX, Cursor, and other AI coding tools
+00:04 to run my 7 million per year lead
+00:06 generation agency. And the results have
+00:08 been insane already. We are shipping
+00:10 campaigns at three times the rate. We
+00:12 started ranking first on Google for
+00:14 keywords that had massive volume and
+00:16 high competition within weeks. We are
+00:18 using these platforms to automate the
+00:19 build out of campaigns on Google, Meta,
+00:22 and LinkedIn Ads. And most importantly,
+00:25 we are able to run full-scale end-to-end
+00:28 prospecting campaigns with just a few
+00:30 natural language prompts and some APIs
+00:32 stitched together. Today, I will
+00:34 describe my entire AI lead generation
+00:36 tech setup. How I use these platforms
+00:38 and how you can replicate it. All So,
+00:40 first, Conductor.
+00:42 Conductor is my interface of choice when
+00:43 it comes to running coding agents in
+00:45 parallel. The reason I use it is that it
+00:47 intuitively integrates and wraps
+00:49 CloudCode and CodeX. The UI is also much
+00:52 smoother than the UI of a terminal, and
+00:54 you can effortlessly toggle between
+00:55 CloudCode and CodeX latest models. So,
+00:58 you essentially connect your
+00:59 and also your ChatGPT account, and
+01:02 you'll be able to run their coding
+01:03 agents within a single interface.
+01:05 There is a reason why you actually would
+01:07 want to use both CodeX and CloudCode,
+01:09 and I'm going to explain this in a short
+01:11 moment. So, second,
+01:13 CloudCode. At the moment, I'm paying for
+01:14 CloudCode Max plan. I believe it's
+01:16 around $100 per month, and CloudCode is
+01:18 my go-to platform for all my API and MCP
+01:21 codes. I use it for many go-to-market
+01:23 activities beyond just outbound. As an
+01:26 example, what we've done so far is that
+01:28 we built many
+01:30 free tools for lead generation, such as
+01:32 an intent seller finder, a free email
+01:34 finder, a free phone finder, and many
+01:36 others. The whole idea here is that
+01:38 these mini tools generate leads for our
+01:40 agency. For example, someone who was
+01:42 looking for an email address would land
+01:43 on our website, and on there, they would
+01:45 be able to input a first name, a last
+01:47 name, and a company name, and then they
+01:49 would get the email address of their
+01:50 target person as a result for free. What
+01:53 we get in exchange is the email address
+01:55 of someone who we know is looking for a
+01:57 B2B professional email address. And so,
+01:59 depending on this person, they could
+02:00 prove to be a valuable lead, and we now
+02:02 have a way to re-engage them. I also
+02:04 heavily rely on Cloud Code for lead
+02:06 building activities. The only thing is
+02:08 that if you plug some APIs, such as the
+02:10 X-API or the Prospector API or others,
+02:12 it would help power the search of your
+02:14 Cloud Code agent in a more effective
+02:15 way. So, I can now connect Prospector's
+02:17 API and tell it that I want to find a
+02:19 list of 10 founders or CEOs in
+02:22 Switzerland in the software industry,
+02:24 and I want the company needs to be
+02:25 anywhere between 20 to 50 employees and
+02:27 to have raised funding in the past 3
+02:29 years. And once you build this initial
+02:31 list of 10 founders and/or CEOs, I want
+02:34 you to find me their email address and
+02:35 their phone number. And so, here as you
+02:37 can see, I was able to build a lead list
+02:39 with just a few natural language
+02:40 prompts. But then, if I wanted to, I
+02:42 could go further to by plugging or
+02:43 connecting different API. And so, for
+02:45 example, one API I particularly like is
+02:48 the PredictLeads API.
+02:49 And so, they essentially have some
+02:51 advanced data sets that help you find
+02:53 companies who are similar to your target
+02:55 companies, the technologies that run
+02:57 your target companies, or buying signals
+03:00 on your targets. Here to give you an
+03:01 example, I could say, "Okay, hey, let's
+03:03 say you have this list of companies. For
+03:05 each company on the list, could you
+03:06 please find me the technologies that
+03:07 power them, and then find three separate
+03:10 buying signals I could use to target
+03:12 them?" And you should see the result
+03:13 populating in a nice tab format in a
+03:15 nice table format. If that's how you ask
+03:18 Cloud Code to provide the results. So,
+03:20 here as you guessed, there are very few
+03:21 limits to what you can do with Cloud
+03:23 Code as long as you connect it with the
+03:25 right API. The next thing I could do
+03:27 would be to have it, for example, write
+03:28 some emails for me using some
+03:30 copywriting skills that I'll actually
+03:32 share below as we have some that we use
+03:35 within our agency. Then I could import
+03:37 the entire thing as in like the copy
+03:39 being written instead of my Lem list or
+03:41 Instantly Instants, so that I could then
+03:43 automate my cold outreach. So, that's
+03:45 actually something we showcased where we
+03:47 built an end-to-end campaign within
+03:49 Cloud Code in this webinar that you can
+03:51 find right here. If you'd like to dive
+03:52 deeper into how to set up and leverage
+03:54 this go-to-market APIs, I'm actually
+03:56 finishing a video on the matter. So,
+03:57 subscribe to the channel and you'll be
+03:58 able to view it coming pretty soon. Now,
+04:02 before I jump into the next tool, I want
+04:03 to emphasize that the beauty of setting
+04:05 up API connections with Cloud Code is
+04:08 that this is something that used to be a
+04:09 technical endeavor.
+04:11 AKA, you would have to read the
+04:12 documentation of each technology of each
+04:15 technology's API, understand how to set
+04:17 up each individual endpoint, but now
+04:19 it's really as simple as saying, "Hey
+04:21 Cloud, can you fetch the documentation
+04:23 for this platform, figure out how to
+04:24 connect my API key, and list me all the
+04:26 actions I can do with it?" Then you
+04:28 simply provide your API key, and it will
+04:30 figure out the API connection on its
+04:31 own, and here you'll be able to see all
+04:34 of the things you can do with a specific
+04:36 API endpoint. Next up, I want to talk
+04:37 about Codex. So, here, to be completely
+04:39 transparent, I don't use Codex that
+04:41 much. I have a ChatGPT plan for $20 per
+04:43 month, and this actually gives you
+04:45 access to Codex.
+04:46 The beauty of running your AI coding
+04:48 within connectors' interface is, I was
+04:50 saying earlier, that you can easily
+04:52 toggle between Cloud Code and Codex
+04:53 model. Now, I'm not a professional when
+04:55 it comes to comparing OpenAI Codex model
+04:57 versus Anthropic's Cloud Code. What I'm
+04:59 What I'm seeing is that many
+05:00 professionals are saying that Codex is
+05:02 actually better than Cloud Code for
+05:04 complex tasks, and that the Cloud Code
+05:05 models are just more enjoyable to build
+05:08 with. So, if you want to assess or
+05:10 benchmark AI coding models against each
+05:12 other, I would recommend going on a
+05:13 website like EleutherAI or OpenRouter.
+05:16 But on my end, I use Cloud Code for the
+05:18 most part, but then it does that even
+05:21 happens
+05:22 Cloud Code doesn't manage to do the
+05:23 build I'm asking it to do.
+05:25 And so, in these instances, I just feed
+05:27 the whole conversation to Codex, and I
+05:29 tell it, "Hey, Cloud Code didn't manage
+05:31 to solve this or make this work. Please
+05:33 solve it for me."
+05:34 And it actually usually does. Next up, I
+05:37 want to talk about Cursor, and I want to
+05:39 mention them really quick. The thing
+05:41 with Cursor is that it is the first AI
+05:42 coding platform I've ever tried. And so,
+05:45 back in the days, there was a lot of
+05:46 hype around Cursor, when it came to AI
+05:48 coding. Then, somehow, Codium came in
+05:51 with their almost unlimited $200 $200
+05:55 per month plan, and made it much easier
+05:57 to run agents concurrently. So, all of a
+06:00 sudden, the AI coding craze went from
+06:01 Cursor to Codium. On my end, was using
+06:04 Codium Sonnet or Opus as a model with
+06:06 the Cursor agent, but then it would just
+06:08 seem that using these models within
+06:10 Codium code straight away was
+06:11 consistently providing better outputs.
+06:14 So, I had some resistance, when it came
+06:16 to switching to Codium, just because I
+06:17 really liked Cursor's overall UI, and
+06:20 you could use agents within this nice
+06:22 UI. While with Codium, I had to use
+06:25 the ugly terminal.
+06:27 But then, as I learned about Conductor,
+06:28 it sort of solved the UI question,
+06:31 because it just looked much nicer, and
+06:34 the way it works is much more
+06:36 user-friendly, and you can easily toggle
+06:38 between agents, and you have like this
+06:40 branch that you can work concurrently
+06:42 on. Okay, now I want to briefly touch on
+06:43 a few other platforms that I believe are
+06:45 essential platforms for Vibe or AI
+06:47 codings,
+06:49 and that you will 100% heard about. So,
+06:52 Vercel.
+06:53 As I mentioned earlier, we built a good
+06:55 amount of free mini tools, and we deploy
+06:57 all of our mini apps via Vercel. So, we
+06:59 also switched most of our website
+07:00 hosting from Webflow to being built in
+07:03 code, and our entire website is then now
+07:07 hosted on Vercel. GitHub.
+07:10 Our code base and all of our
+07:11 repositories are hosted on GitHub. It's
+07:13 essentially the gold standard, when it
+07:15 comes to code hosting, so it's very
+07:17 difficult to do without. I mean, there
+07:18 are some alternatives, but it's
+07:20 typically the easiest to go for. And
+07:21 then, finally, I want to talk about
+07:22 LobeLab. I don't use LobeLab anymore,
+07:24 but the first mini tools we built were
+07:26 made via LobeLab.
+07:28 And so, if you're struggling to get into
+07:29 this world of AI coding, then I really
+07:31 believe LobeLab is what you should start
+07:32 with, because it is by far the most
+07:34 user-friendly
+07:36 AI prototyping or coding platform out
+07:38 there. Here,
+07:40 you can build a lot without needing to
+07:41 understand how the terminal works, for
+07:43 example. But then I believe that the
+07:44 natural order of things is that once you
+07:46 get familiarized with it, you at some
+07:47 point need some more flexibility or
+07:50 modularity.
+07:50 >> [music]
+07:51 >> And so this suggests that you'll end up
+07:52 moving towards cloud code, CodeX, or
+07:54 Kerasol. So that was it for today. I
+07:56 hope this was helpful. And if you're in
+07:58 go-to-market at the moment and you
+07:59 haven't tried these platforms, I urge
+08:01 you to do so. If you're looking to get
+08:03 more content on this topic, aka cloud
+08:06 code for go-to-market more specifically,
+08:08 follow me on LinkedIn. Check this video
+08:09 right here where we showcase end-to-end
+08:12 prospecting campaigns built out with
+08:14 just cloud code. But really the best way
+08:16 to learn is to just find any project you
+08:18 can work on with these tools [music] and
+08:20 just start familiarizing yourself with
+08:22 them to the point that it essentially
+08:24 becomes second nature for you to
+08:26 leverage their power.
+08:28 On that note, I wish you an amazing day.
+08:30 Bye-bye.

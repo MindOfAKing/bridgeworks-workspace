@@ -1,0 +1,392 @@
+00:00 For the last 2 years, you've been doing
+00:01 a job you didn't even know you had.
+00:03 Every single time you used AI, you were
+00:05 doing [music] it. Let me show you what I
+00:06 mean. Picture it. You open ChatGPT, you
+00:09 type a prompt, and you wait. The answer
+00:11 comes back, so you read it, you check if
+00:13 it's any good, you fix the parts that
+00:15 aren't, and you type again. And then you
+00:17 do it again. And when you come back the
+00:18 next day, you've got to explain the
+00:20 whole thing to it all over from scratch.
+00:22 So, if you really think about it, you
+00:23 weren't just using AI, you were
+00:25 operating it. You were the one deciding
+00:27 what to ask next. You were the one
+00:28 checking if it was good, remembering
+00:30 what happened last time, deciding when
+00:32 to stop. Every one of those little jobs
+00:34 was yours. You were the loop. And now
+00:36 [music] that's changing. The next big AI
+00:38 skill isn't writing better prompts
+00:40 anymore, it's building loops. So, what's
+00:42 a loop? It's a system where the AI keeps
+00:45 an eye on something for you, takes
+00:47 [music] the next step on its own,
+00:48 remembers what it's already done, and
+00:50 only stops when the job is finished, or
+00:53 when it genuinely needs you. [music]
+00:54 That's loop engineering. And in this
+00:56 video, I'll explain it with examples
+00:58 that anyone can follow. You don't need
+01:00 to know coding, and you don't need to
+01:02 understand [music] any complicated AI
+01:04 jargon. We'll build three simple loops
+01:06 together, like an AI that watches a
+01:08 product until it's back in stock, an AI
+01:11 that scans the top companies for your
+01:13 dream job, and an AI that hunts down
+01:15 business opportunities before you'd even
+01:17 think to search for them. And then at
+01:19 [music] the end, one bonus loop that
+01:22 genuinely feels like magic, where the AI
+01:24 builds something and then [music] keeps
+01:26 making it better completely on its own.
+01:28 Now, the best part, every single loop I
+01:31 build in this video, you don't have to
+01:32 write any of it from scratch. I've put
+01:35 all of them ready to copy, paste, and
+01:37 use to level up right away inside my
+01:39 free WhatsApp community. So, before you
+01:41 start, go grab the link from the
+01:43 description, join in, and [music] just
+01:45 follow along with me. That way, you're
+01:46 not only watching, you're walking out of
+01:49 this video with working loops of your
+01:50 own. Okay, let's get into it.
+01:57 So, let me back up and explain what a
+01:59 loop even is because once it clicks,
+02:01 you'll start seeing them everywhere.
+02:03 Here's the simplest way to understand
+02:04 it. Normal prompting looks like this.
+02:06 You ask the AI, it answers, [music] you
+02:08 check it, you ask again. You're in the
+02:10 chair the whole time. Loop engineering
+02:12 changes that. Now, the AI can keep
+02:14 checking, keep working, and keep
+02:16 deciding the next step on its own inside
+02:18 a boundary that you set. And honestly, a
+02:21 good loop is just five simple questions
+02:23 you answer up front. What should it
+02:24 watch? How often should it check in?
+02:26 What's the change it's hunting for? What
+02:28 should it do the moment that change
+02:30 happens? And the big one, when should it
+02:32 stop and come ask you? It's not magic,
+02:34 it's honestly just patience plus memory
+02:36 plus a few rules. And that's exactly why
+02:38 it's so powerful. It does the one boring
+02:41 thing you're terrible at. It keeps
+02:42 watching until something actually
+02:44 changes. Now, you might be thinking,
+02:46 "Hold on, isn't this just automation?
+02:48 Isn't this just Zapier with extra
+02:50 steps?" Fair question, but no, and the
+02:52 difference is the whole point.
+02:54 Automation usually does one fixed
+02:55 action. For example, when a form is
+02:57 submitted, send an email. That's useful,
+03:00 but it fires once and it's done. A loop
+03:02 keeps checking the situation. It's
+03:04 sitting there asking, "Did anything
+03:06 change? Did I already handle this one?
+03:08 Is the job complete? Should I try again?
+03:11 Or should I alert a human?" So,
+03:13 automation does one action and stops. A
+03:15 loop watches until the situation is
+03:18 actually solved. One is a light switch,
+03:20 the other is a guard dog. That's the
+03:22 difference and it's the whole reason
+03:24 this is a brand new skill and not just
+03:26 the old one wearing a new name. Let's
+03:28 start with the easiest one and honestly,
+03:30 the one everyone's needed at some point.
+03:33 There's a product you want. Maybe it's a
+03:34 new iPhone, maybe sneakers, maybe
+03:37 concert tickets, a graphics card, a seat
+03:39 in a course that keeps selling out. And
+03:42 it's out of stock. So, what do we all
+03:44 do? We sit there refreshing the page
+03:46 like maniacs every few hours, then every
+03:49 few minutes, and we still somehow miss
+03:51 it. So, instead, let me show you how to
+03:53 hand that whole job to a loop. Watch how
+03:56 simple this is. So, let's go to Claude
+03:58 and type {slash} loop. That's the
+04:00 command that tells it to do a job again
+04:02 and again on a schedule. And let's paste
+04:05 in a simple job description. Watch this
+04:07 product page every hour. Check three
+04:09 things. Is the button still out of
+04:11 stock? What's the price? And is my size
+04:13 there, UK 11? Then the rules. If it's
+04:16 still sold out, do nothing, stay silent.
+04:19 Wrong size, do nothing. Over budget, do
+04:22 nothing. Only ping me when it's the
+04:24 right shoe in my size at the right
+04:26 price. And this part matters, never buy
+04:28 it. That decision stays with me. And
+04:31 remember what you saw last time, so you
+04:33 don't alert me twice for the same thing.
+04:35 It asked you one quick thing, run this
+04:37 on the cloud? Yes. And that's the magic
+04:39 part. It runs on Anthropic servers, not
+04:42 your laptop. So, you can shut your
+04:43 laptop, go to sleep, and it keeps
+04:45 watching every hour without you. Quick
+04:48 permission, we allow it, and it's like
+04:50 There's the confirmation. Every hour
+04:52 alerts only when all three things are
+04:54 true at once. And see this, it's saving
+04:56 what it saw in a little memory file, so
+04:58 it never repeats itself. Let's test it
+05:01 right now instead of waiting an hour. It
+05:03 opens the live page on its own, checks
+05:05 the button, the price, the size. And
+05:08 look, still out of stock. So, it does
+05:10 exactly what we told it to do, which is
+05:12 nothing at all, no false alarm. It just
+05:15 quietly saves what it saw and gets ready
+05:17 for the next run. And here's the
+05:18 important bit, the thing that makes this
+05:20 a good loop and not a dangerous one. It
+05:23 should not buy it for you automatically.
+05:25 The final call stays with you. That's
+05:27 the whole shape of it. It watches
+05:28 patiently, it alerts at exactly the
+05:31 right moment, and it stops before doing
+05:33 anything risky with your money. It's not
+05:35 answering a question anymore. It's
+05:37 watching a situation. Okay, that one was
+05:39 fun. This next one is my favorite
+05:41 because it can genuinely change your
+05:43 career. Say there's a role you'd kill
+05:45 for at a top AI company. OpenAI,
+05:48 Anthropic, Perplexity, Cursor, whoever
+05:50 it is for you. You do not want to be
+05:52 checking all their career pages every
+05:54 single day. And you really don't want to
+05:56 find out about the perfect role 2 weeks
+05:58 after it went up and got flooded with
+06:00 applicants. So, let's build a watcher
+06:02 for it. Same start {slash} loop. And
+06:04 here's what you tell it. Three times a
+06:06 day, check these career pages. Only the
+06:08 roles I actually care about. Community,
+06:10 partnerships, growth, events. Ignore the
+06:13 engineering roles. Ignore anything
+06:15 outside my city. Ignore anything you've
+06:18 already shown me. When you find a match,
+06:20 send me the company, the role, the
+06:22 location, why it fits, and the link.
+06:24 Then draft me a short application note,
+06:27 but do not submit anything. Show me
+06:29 first. Cloud schedule again, so it runs
+06:31 without you. And it's smart. It even
+06:33 asks which companies to watch and what
+06:35 timing you want. Those four plus a few
+06:38 more AI labs. Morning, afternoon,
+06:40 evening. And here's where it gets good.
+06:42 Let's it run and watch the right side of
+06:44 the screen. It doesn't check them one by
+06:46 one. It fires off 10 agents at the same
+06:48 time, one per company, all going out to
+06:50 the live web at once. A couple of
+06:52 minutes later, every one of them comes
+06:54 back done. And there it is. 10
+06:56 companies, all checked live, real
+06:58 openings pulled straight from their job
+07:00 boards. But here's the part you'll love.
+07:02 Scroll down. It flags two judgment calls
+07:04 it made, places where it bent your rules
+07:06 slightly and wants you to confirm. And
+07:09 it's already written the application
+07:11 note for one of them. And this is where
+07:13 you see the real magic of Loops, which
+07:15 is memory. The AI has to remember which
+07:17 jobs it already showed you, otherwise it
+07:20 would ping you about the same role every
+07:21 day and you'd mute it in an hour. So,
+07:24 every single run, it's quietly asking,
+07:26 "Is this new? Does it match? Have I
+07:28 shown this person already? Is it even
+07:31 worth interrupting them for?" That's a
+07:32 real loop, not because it runs on a
+07:34 schedule, but because it watches,
+07:36 compares, remembers, filters, and only
+07:39 bothers you when something genuinely
+07:41 matters. Now, let's go one level
+07:43 crazier. The first loop watched one
+07:45 product. The second watched a few job
+07:47 pages. This one watches the whole
+07:49 internet for you. Say you run a small
+07:51 business, an agency, a course, a
+07:53 consulting thing. Most people in that
+07:55 spot just wait. They wait for someone to
+07:57 fill a form, slide into their DMs, send
+08:00 a referral. You're sitting there hoping
+08:02 demand finds you. But what if your AI
+08:04 could go out and spot the people who
+08:06 need you before they ever land on your
+08:08 website. You tell the loop what you
+08:10 offer and then every few hours go scan
+08:12 Reddit, X, funding announcements, hiring
+08:14 pages. Look for people basically raising
+08:17 their hand. Someone posting, "Our
+08:18 support team is completely overloaded."
+08:21 Or, "Anyone know a good AI consultant?"
+08:23 Grade each one, how strong is the
+08:24 signal? Then draft a personal message
+08:26 for the good ones, but never ever send
+08:28 it. Wait for me. Cloud schedule every
+08:30 few hours. It wires up four separate
+08:32 scanners, Reddit, X, funding news, and
+08:35 tech press. Let's not wait. Let's run it
+08:38 once right now and off it goes. Four
+08:40 agents out on the open web at the same
+08:43 time reading what real people are
+08:45 posting right this minute. A few minutes
+08:47 later it comes back with everything. And
+08:49 look what it hands you. Three real
+08:51 opportunities ranked from best to keep
+08:53 an eye on it. Return Helper rated high.
+08:56 They just raised a $4 million round.
+08:58 Stored, Victor. Each one comes with who
+09:01 exactly to contact and a pitch already
+09:03 written for you. But here's the part
+09:05 that actually builds trust. [music] It's
+09:07 honest about where it struggled. It
+09:09 tells you a couple of its sources hit a
+09:11 wall and it had to lean on the others.
+09:13 It's not pretending it had a perfect
+09:15 run. Think about how different that is
+09:18 from normal automation. Automation just
+09:20 waits for a form to get filled. This
+09:22 goes out into the world and finds the
+09:24 demand before it ever reaches you. And
+09:26 that honesty, telling you where it
+09:28 couldn't reach, is exactly what
+09:30 separates a toy that demos well from
+09:33 something you'd actually run your
+09:34 business on. That's the part that
+09:36 genuinely feels like living in the
+09:38 future. Okay, last one and this is the
+09:40 one that genuinely made my jaw drop. So
+09:43 far every loop has watched something out
+09:45 in the world. This one built something
+09:47 for you and then it keeps making it
+09:49 better on its own without you touching
+09:51 it. So here's a simple app I put
+09:53 together called Lumen. Right now it's
+09:55 rough, it's basically a placeholder. And
+09:57 let's say there's a website out there
+09:59 whose design you absolutely love and
+10:01 want to learn from. Normally you'd hire
+10:03 a designer, wait days, go back and
+10:06 forth. Watch what a loop does instead.
+10:08 And here's the best part, you don't even
+10:09 write this one yourself. There are these
+10:11 things called loop libraries online
+10:13 where people share ready-made loops.
+10:15 This one's from Matthew Berman. He's put
+10:17 together a whole library of these. I
+10:19 just grabbed the one built for
+10:21 redesigning a website, copy it and
+10:23 that's it. No writing anything from
+10:25 scratch. I paste it in, point it at the
+10:27 design I want to learn from and hit go.
+10:29 And now the loop is off on its own. It's
+10:31 going to look at that design, look at my
+10:33 rough app and start closing the gap
+10:35 between them bit by bit. And this is the
+10:38 magic. It builds a version, then it
+10:40 checks its own work, finds the weakest
+10:43 part, fixes just that and goes again on
+10:46 a timer over and over. It's grading
+10:48 itself and improving itself while I do
+10:51 nothing. And here's where it ends up.
+10:53 Remember that rough placeholder? Look at
+10:55 it now. Floating phone mock-ups, a
+10:57 proper call to action, clean pricing,
+11:00 the review ticker, all of it. It went
+11:02 from a sketch to something that looks
+11:04 genuinely shipped and I didn't touch it
+11:06 once while it worked. And that's a
+11:08 completely different kind of loop from
+11:10 the first three. Those watched the world
+11:12 and waited. This one creates, then
+11:15 judges its own work, then improves it
+11:17 and repeats until it's good enough.
+11:19 Build, check, fix, repeat. That's the
+11:22 same loop you'd use to polish anything,
+11:25 [music] a design, a piece of writing, a
+11:27 spreadsheet. You're not doing the work
+11:29 anymore, you're setting the standard and
+11:32 letting it climb to it. Now, before you
+11:34 run off and try to automate your entire
+11:36 life, one rule that keeps all of this
+11:39 from turning into chaos, the more
+11:40 powerful the loop, the stronger your
+11:42 rules need to be. A product watcher that
+11:45 just alerts you, totally safe. A job
+11:47 watcher that drafts an application,
+11:49 fine, but it should never apply for you.
+11:52 An opportunity loop that drafts
+11:54 outreach, great, but it should never
+11:56 message a stranger without your say-so.
+11:58 So, let your loops watch, filter, draft,
+12:01 and remind you all day long. But,
+12:03 anything that touches your money, your
+12:05 reputation, your customers, or anything
+12:07 legal that gets a human gate, it stops
+12:10 and it ask you first, always. That one
+12:12 rule is the difference between a loop
+12:14 that works for you and a loop that
+12:16 embarrasses you. So, here's what I
+12:18 really want you to take from this. The
+12:19 skill that's about to matter isn't
+12:21 writing one clever prompt, it's knowing
+12:24 what to hand the loop. What should it
+12:26 watch? How often? What actually counts
+12:28 as important? What should it ignore?
+12:30 What should it remember? When should it
+12:32 speak up? When should it stop? And when
+12:34 should it stop and ask you first? Answer
+12:36 those well and you've built yourself a
+12:38 tiny worker that watches a problem for
+12:41 you around the clock. Answer them lazily
+12:43 and you've built a headache. Same as
+12:45 managing any real person. Prompt
+12:47 engineering taught us how to talk to AI.
+12:49 Loop engineering teaches us how to hand
+12:51 off the work entirely. And your first
+12:53 loops shouldn't be complicated. They
+12:55 should be stupidly simple. Watch this
+12:58 product till it's back. Watch companies
+13:00 till the right job opens. Watch the
+13:02 internet till a real opportunity shows
+13:05 up. That's the whole shift. AI used to
+13:07 be something you talked to. Now, it's
+13:09 something you deploy and walk away from.
+13:12 And a year from now, the people who
+13:14 understood this early will have AI
+13:16 quietly working in the background for
+13:18 them while everyone else is still
+13:20 sitting there refreshing pages by hand.
+13:22 The copy-paste templates for all of
+13:25 these loops, including the loop library
+13:26 for that last one are in my free
+13:28 WhatsApp community. Links in the
+13:30 description. Go grab them and build your
+13:32 first loop tonight. Pick the stock
+13:34 watcher. It takes 5 minutes and it's the
+13:36 one that makes this whole thing finally
+13:38 [music] click. And subscribe because I
+13:41 make detailed videos on AI that
+13:43 genuinely help you become a 100 times
+13:45 more capable at what you do. Not just
+13:47 impressed for 5 minutes. Speaking of
+13:49 which, the next video to watch is right
+13:52 here. Go check it out. I'll see you
+13:54 there.
