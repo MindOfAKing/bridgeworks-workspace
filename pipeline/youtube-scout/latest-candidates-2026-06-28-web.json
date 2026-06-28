@@ -1,0 +1,83 @@
+{
+  "source": "web-fallback",
+  "date": "2026-06-28",
+  "run_time_local": "19:02 CEDT",
+  "queries": [
+    "site:youtube.com/watch AI automation agency n8n Claude Code business uploaded today",
+    "site:youtube.com/watch Claude Code AI agent workflow June 2026 YouTube",
+    "site:youtube.com/watch AI visibility GEO SEO agency 2026 YouTube",
+    "site:youtube.com/watch local business website conversion AI SEO 2026 YouTube"
+  ],
+  "items": [
+    {
+      "title": "How to Sell Websites to Local Businesses In 2026 (START HERE)",
+      "url": "https://www.youtube.com/watch?v=-Ag5NXbQwlM",
+      "source_query": "local business website conversion AI SEO 2026 YouTube",
+      "fit": "high",
+      "reason": "Direct fit for BridgeWorks Foundation offer, prospect micro-audits, local SME website sales, and recurring-care packaging. Transcript fetched.",
+      "transcript_status": "fetched",
+      "transcript_file": "pipeline/youtube-scout/runtime-transcripts/-Ag5NXbQwlM.txt"
+    },
+    {
+      "title": "Local SEO Signals That Actually Get Better SEO Results in 2026!",
+      "url": "https://www.youtube.com/watch?v=TrtRsrLhRYo",
+      "source_query": "local business website conversion AI SEO 2026 YouTube",
+      "fit": "high",
+      "reason": "Strong fit for Foundation website IA, Google Business Profile alignment, location/service pages, review strategy, and DGE reporting. Transcript fetched.",
+      "transcript_status": "fetched",
+      "transcript_file": "pipeline/youtube-scout/runtime-transcripts/TrtRsrLhRYo.txt"
+    },
+    {
+      "title": "How Ai Search Actually Works (2026) - Understanding Ai Local SEO",
+      "url": "https://www.youtube.com/watch?v=DJz3SEMTeJs",
+      "source_query": "local business website conversion AI SEO 2026 YouTube",
+      "fit": "high",
+      "reason": "Useful counterweight to GEO hype. Confirms local AI search still depends heavily on Google Maps, organic rankings, targeted content, reviews, and authority. Transcript fetched.",
+      "transcript_status": "fetched",
+      "transcript_file": "pipeline/youtube-scout/runtime-transcripts/DJz3SEMTeJs.txt"
+    },
+    {
+      "title": "ChatGPT Plus vs SuperGrok in 2026 (Don't Waste Your Money)",
+      "url": "https://www.youtube.com/watch?v=zjQrP9FW2ag",
+      "source_query": "rss-watchlist: Paul J Lipsky",
+      "fit": "medium-high",
+      "reason": "Useful for BridgeWorks tool-spend discipline. Transcript fetched because it affects paid AI subscription choices and Codex/file-work routing.",
+      "transcript_status": "fetched",
+      "transcript_file": "pipeline/youtube-scout/runtime-transcripts/zjQrP9FW2ag.txt"
+    },
+    {
+      "title": "This 1 Free Tool Replaced My Entire Video Production Team!",
+      "url": "https://www.youtube.com/watch?v=WmeEd3A64AU",
+      "source_query": "rss-watchlist: Vaibhav Sisinty",
+      "fit": "low-medium",
+      "reason": "Fetched because it was a free content tool claim. Parked because the short transcript supports only a watchlist note, not adoption.",
+      "transcript_status": "fetched",
+      "transcript_file": "pipeline/youtube-scout/runtime-transcripts/WmeEd3A64AU.txt"
+    },
+    {
+      "title": "Why Your Skills Are Worth Almost Nothing Right Now",
+      "url": "https://www.youtube.com/watch?v=gA1ipZpSbJ8",
+      "source_query": "rss-watchlist: Alex Hormozi",
+      "fit": "medium",
+      "reason": "Short mindset clip. Useful as a small principle for skill stacking, but not enough for a durable BridgeWorks action.",
+      "transcript_status": "fetched",
+      "transcript_file": "pipeline/youtube-scout/runtime-transcripts/gA1ipZpSbJ8.txt"
+    },
+    {
+      "title": "I Built an AI Content Agent With N8N and Claude (Step-by-Step)",
+      "url": "https://www.youtube.com/watch?v=m9iaJNJE2-M",
+      "source_query": "AI automation agency n8n Claude Code business uploaded today",
+      "fit": "medium",
+      "reason": "Potential content-workflow fit, but skipped because existing article-to-three-drafts action already covers this lane and higher-fit local SEO/Foundation items won the transcript budget.",
+      "transcript_status": "not fetched"
+    },
+    {
+      "title": "The Ultimate AI Visibility Checklist (AEO/GEO for 2026)",
+      "url": "https://www.youtube.com/watch?v=bwShZP758Xg",
+      "source_query": "AI visibility GEO SEO agency 2026 YouTube",
+      "fit": "high but already extracted today",
+      "reason": "Already extracted in the afternoon run. Not reprocessed.",
+      "transcript_status": "previously fetched"
+    }
+  ]
+}

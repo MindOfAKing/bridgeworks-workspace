@@ -13,7 +13,9 @@ export function restaurantSchema() {
     url: site.domain,
     telephone: site.phone.display,
     email: site.email,
-    image: `${site.domain}/wp-content/uploads/2024/04/oliviks_Logo-1.png`,
+    image: `${site.domain}/images/oliviks-logo-horizontal.png`,
+    menu: `${site.domain}/menu`,
+    hasMenu: `${site.domain}/menu`,
     priceRange: '$$',
     address: {
       '@type': 'PostalAddress',
@@ -39,6 +41,6 @@ export function restaurantSchema() {
       ratingValue: site.reviews.rating,
       reviewCount: site.reviews.count,
     },
-    sameAs: [site.social.facebook].filter(Boolean),
+    sameAs: [site.social.facebook, site.social.instagram].filter(Boolean),
   };
 }

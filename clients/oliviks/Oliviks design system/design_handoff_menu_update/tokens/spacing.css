@@ -1,0 +1,54 @@
+/* ===========================================================================
+   Oliviks — Spacing, radius, shadow, layout tokens
+   ===========================================================================*/
+:root {
+  /* ---- Spacing (4px base) ---- */
+  --space-0:  0;
+  --space-1:  4px;
+  --space-2:  8px;
+  --space-3:  12px;
+  --space-4:  16px;
+  --space-5:  20px;
+  --space-6:  24px;
+  --space-8:  32px;
+  --space-10: 40px;
+  --space-12: 48px;
+  --space-16: 64px;
+  --space-20: 80px;
+  --space-24: 96px;
+
+  /* ---- Radius — soft, friendly, appetite-focused ---- */
+  --radius-xs:   6px;
+  --radius-sm:   10px;
+  --radius-md:   14px;
+  --radius-lg:   20px;
+  --radius-xl:   28px;
+  --radius-pill: 999px;
+  --radius-circle: 50%;
+
+  /* ---- Shadows — warm-tinted, soft (never harsh black) ---- */
+  --shadow-xs:  0 1px 2px rgba(54, 20, 20, 0.06);
+  --shadow-sm:  0 2px 8px rgba(54, 20, 20, 0.07);
+  --shadow-md:  0 8px 24px rgba(54, 20, 20, 0.09);
+  --shadow-lg:  0 18px 44px rgba(54, 20, 20, 0.12);
+  --shadow-accent: 0 10px 28px rgba(250, 183, 58, 0.35);
+
+  /* ---- Borders ---- */
+  --border-width: 1px;
+  --border-width-strong: 2px;
+
+  /* ---- Layout ---- */
+  --container-sm: 640px;
+  --container-md: 960px;
+  --container-lg: 1200px;
+  --container-xl: 1320px;
+  --logo-clearspace: 60px;   /* brandbook: 60px clear space on each side */
+  --logo-min-width:  152px;  /* brandbook: minimum 1.58in / 152px */
+
+  /* ---- Motion ---- */
+  --ease-standard: cubic-bezier(0.22, 0.61, 0.36, 1);
+  --ease-out:      cubic-bezier(0.16, 1, 0.3, 1);
+  --dur-fast:   140ms;
+  --dur-base:   220ms;
+  --dur-slow:   380ms;
+}

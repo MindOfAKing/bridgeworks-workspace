@@ -44,13 +44,8 @@ export const site = {
   },
 
   // --- Ordering configuration -------------------------------------------------
-  // Mechanism is intentionally swappable. Owners are still deciding direct-order
-  // method. For now: WhatsApp + Call. To switch to a cart/checkout later, only
-  // OrderCTA.tsx and this block change.
   ordering: {
-    mode: 'whatsapp' as 'whatsapp' | 'call' | 'cart' | 'checkout',
-    // Direct WhatsApp remains primary. App delivery stickers are still shown for
-    // customers who specifically prefer Wolt/Marwa.
+    mode: 'whatsapp' as const,
     showPlatforms: true,
     wolt: 'https://wolt.com/en/hun/budapest/restaurant/oliviks-nigerian-kitchen',
     marwa: 'https://www.marwa.hu/store/113/oliviks-kitchen',

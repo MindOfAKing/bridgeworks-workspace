@@ -404,3 +404,99 @@ Action: Add a Coding Agent Workflow Fit row to the AI Delivery Verification Chec
 Owner: Codex / Emmanuel
 
 Status: Needs checklist row
+
+### 2026-06-28 - AI Visibility Foundation QA
+
+Source: FutureProof / TryFocal - "The Ultimate AI Visibility Checklist (AEO/GEO for 2026)"
+
+Decision: Adapt
+
+BridgeWorks area: GEO / AEO, Foundation website QA, Digital Growth Engine, client reporting
+
+Reason: The transcript maps directly to BridgeWorks' Foundation website and GEO work: crawler access, JavaScript visibility, structured data, direct answers, FAQs, comparison tables, outcome-specific reviews, and external source mentions. The safe BridgeWorks version should be no-spend and proof-based.
+
+Action: Add an AI Visibility Foundation QA row to website production and DGE reporting backlog.
+
+Owner: Codex / Emmanuel
+
+Status: Needs checklist integration. No gray-hat tactics, fake reviews, or ranking guarantees.
+
+### 2026-06-28 - Context Ownership Gate
+
+Source: Vaibhav Sisinty - "Claude's New Update Is Scarier Than You Think (+18 AI Updates)" and Patrick Debois - "Context Is the New Code for AI Agents"
+
+Decision: Adapt
+
+BridgeWorks area: Agency Operations, AI Growth Systems, Delivery Verification, Knowledge Map
+
+Reason: Both transcripts point to the same durable rule: models and tools can change, but BridgeWorks must own its context, source files, workflows, lessons, and verification loops.
+
+Action: Fold a Context Ownership Gate into the BridgeWorks Knowledge Map spec and Skill Adoption Gate: source location, exportability, access boundary, verification, drift control, cost gate, and client-data approval.
+
+Owner: Codex / Emmanuel
+
+Status: Needs SOP row. No paid coworker, Copilot, or private-data connector adoption without approval.
+
+### 2026-06-28 - Root Bottleneck Check
+
+Source: Alex Hormozi - "You Step on the Tail, But You're Looking at the Mouth"
+
+Decision: Adapt
+
+BridgeWorks area: Sales qualification, Foundation offer, client audit previews, scope control
+
+Reason: The transcript gives a useful warning for client diagnostics: visible chaos may be downstream of a commoditized offer, weak sales motion, or insufficient pricing power, not merely a website or automation problem.
+
+Action: Add a Root Bottleneck Check to audit previews: acquisition, conversion, retention, value capture, delivery capacity, and visibility.
+
+Owner: Emmanuel / BridgeWorks
+
+Status: Needs template integration.
+
+### 2026-06-28 - Foundation Mockup-First Sales Loop
+
+Source: `How to Sell Websites to Local Businesses In 2026 (START HERE)`
+
+Decision: Adapt
+
+BridgeWorks area: Foundation offer, local SME prospecting, audit previews, recurring care packaging
+
+Reason: The transcript gives a useful sales order: find visible website gaps, create a small proof asset, ask permission to show it, diagnose business outcomes, and only then discuss pricing or recurring care. The Base44 platform pitch should not override BridgeWorks' static-first Vercel default.
+
+Action: Create a one-page Foundation Mockup-First Sales Loop checklist for approved prospecting and audit previews.
+
+Owner: Emmanuel / BridgeWorks
+
+Status: Needs checklist. No outreach, free full build, or platform switch without approval.
+
+### 2026-06-28 - Local SEO And AI Search Signal Stack
+
+Source: `Local SEO Signals That Actually Get Better SEO Results in 2026!` and `How Ai Search Actually Works (2026) - Understanding Ai Local SEO`
+
+Decision: Adapt
+
+BridgeWorks area: Foundation website QA, GEO / AEO, local SEO, Digital Growth Engine reporting
+
+Reason: The transcripts agree that local AI visibility still depends heavily on Google Business Profile clarity, Google Maps and organic rankings, targeted service/location content, reviews, backlinks, and authority. This keeps BridgeWorks from selling fear-based GEO before fundamentals are fixed.
+
+Action: Add a Local SEO And AI Search Signal Stack row to Foundation Website QA and DGE reporting backlog.
+
+Owner: Emmanuel / BridgeWorks
+
+Status: Needs QA and reporting integration. No fake reviews, paid backlink/citation campaigns, or AI-ranking guarantees.
+
+### 2026-06-28 - AI Subscription Router
+
+Source: `ChatGPT Plus vs SuperGrok in 2026 (Don't Waste Your Money)`
+
+Decision: Adopt as cost guardrail
+
+BridgeWorks area: Finance discipline, AI tool routing, solo operator workflow
+
+Reason: The comparison supports a router, not a new subscription. ChatGPT/Codex remains stronger for Emmanuel's current file, writing, code, knowledge-work, and memory needs. Grok is only a candidate if X trend monitoring or built-in video generation becomes a proven weekly need.
+
+Action: Add an AI Subscription Router row to the Skill Adoption Gate / Model Routing Trial Sheet: job type, existing-tool capability, monthly cost, weekly frequency, data exposure risk, approval, and proof task.
+
+Owner: Emmanuel / BridgeWorks
+
+Status: Needs SOP row. No SuperGrok or paid AI upgrade from this run.

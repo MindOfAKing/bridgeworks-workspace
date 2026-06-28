@@ -1,0 +1,32 @@
+00:00 One Chinese developer replaced an entire
+00:02 video production team with one free
+00:04 tool.
+00:05 It's called Money Printer Turbo and the
+00:06 entire AI community is going crazy over
+00:09 it. Think of it as a film director
+00:11 sitting on your terminal. You just give
+00:13 it one keyword and [music] it does the
+00:15 entire research, writes the script,
+00:17 picks the raw footage, adds voice over
+00:19 and exports the final HD video in
+00:22 minutes. And you can run it on a basic
+00:24 CPU with 4 GB of RAM, which means it can
+00:28 turn your normal laptop into a content
+00:30 factory. So, I tested it by giving it
+00:32 just one word, "health", and within
+00:35 minutes it dropped me a 60-second video
+00:37 with voice over and matching footage
+00:39 [music]
+00:39 >> In order to maintain good health, it is
+00:41 essential to prioritize a balanced diet.
+00:44 >> that is ready to publish. And the setup
+00:46 literally takes 10 seconds. [music]
+00:48 Install Docker, clone the GitHub repo,
+00:50 paste your free API key into the config
+00:53 file and [music] run Docker compose up
+00:55 and it's done. Comment "printer" and
+00:57 I'll share the complete setup guide with
+00:59 you. Follow for more content like this.
+01:00 And if you want to stay ahead with AI,
+01:02 join our free WhatsApp community. Link
+01:04 in bio.

@@ -1,0 +1,397 @@
+00:06 Today we're going to talk about context
+00:08 is new code or what is all sometimes
+00:11 referred to as the context development
+00:13 life cycle.
+00:14 Welcome here at the background agents
+00:17 conference.
+00:19 Let me tell you, we all know that we can
+00:21 now prompt if we want to generate some
+00:24 code and also recently we have pieces of
+00:27 code that we're just replacing with
+00:28 skills because the agents are smart
+00:30 enough to drive it and it's lot less
+00:32 code complexity.
+00:35 I personally like to think in parallels
+00:37 and in 2009 I was thinking about how ops
+00:40 was more like dev
+00:42 and now I'm thinking about what if
+00:45 context is actually like code. What does
+00:47 it take?
+00:49 And that made me think about the
+00:50 software development life cycle become
+00:53 the context development life cycle.
+00:56 Now this is a visualization of we're
+00:59 generating context and then we're
+01:01 distributing context or evaluating
+01:03 context, observing context.
+01:05 Now the picture kind of goes in multiple
+01:07 directions and the journey is a little
+01:09 bit different for many people. Sometimes
+01:11 they first care about the generate, then
+01:14 they distribute, sometimes they generate
+01:16 and they observe, sometimes they
+01:17 evaluate. So that's why the arrows are a
+01:19 little bit erratic on this picture.
+01:22 I'm going to take you through the agenda
+01:24 in each of those steps of the life cycle
+01:26 and then also talk a little bit on the
+01:28 enablement of that.
+01:30 First generate.
+01:32 We're all generating context all the
+01:34 time whether that is prompts and we're
+01:37 like the humans creating a context
+01:38 engine.
+01:40 And that is very powerful and obviously
+01:43 the start of the whole thing.
+01:46 But we learned that we can kind of
+01:47 standardize pieces of this and we kind
+01:49 of know that we have an HMD rules,
+01:52 instructions, kind of maybe
+01:54 structure way of
+01:56 our prompts and luckily we have a
+01:59 standard in the industry so we can
+02:00 exchange that between agents.
+02:03 Furthermore, we know that we can get
+02:05 context from other places as well like
+02:09 our documentation that we have or other
+02:12 kind of reference documents that we can
+02:14 put in.
+02:15 And we can also connect MCP with our
+02:18 Slack and other pieces where we creating
+02:20 context that get connected to our agents
+02:24 as well.
+02:25 And one of the new things is actually
+02:27 that we think about this in another
+02:29 structured way that it's back driven
+02:31 development so we write out the spec the
+02:33 agent does the planning and then it
+02:35 breaks down and goes from there. So the
+02:36 specs also are a way of creating kind of
+02:39 context for the agent what it should do.
+02:43 So that's a very very fast overview of
+02:46 generate but what would it take to test
+02:49 these things because if you have code we
+02:52 want to write tests. So if you have
+02:54 context how do we actually write the
+02:56 test for that as well?
+02:58 So the face of evaluation
+03:01 evals as they're sometimes referred to.
+03:04 Now how do you test code? Let's take a
+03:06 simple way.
+03:08 If you have a skill you have a markdown
+03:09 header and we can do a little bit of
+03:11 linting of that. We can see whether the
+03:14 structure is correct compared to the
+03:17 syntax that it needed. Is that
+03:20 the line not too long? Does it have the
+03:22 correct fields similar to linting of
+03:25 code.
+03:26 And then we can do a syntax check. Was
+03:28 it well written? Was the prose? And I
+03:31 don't have a real equivalent for code
+03:33 but I think of that as a Grammarly. It
+03:35 helps us to write better kind of prompts
+03:37 as well.
+03:39 Now as a
+03:41 kind of a mechanism we have evals and
+03:44 sometimes referred to as a mechanism
+03:46 using LLM as a judge. So imagine you
+03:49 have an endpoint and you want every
+03:51 endpoint to be prefixed by awesome, we
+03:53 can put that in our markdown, and then
+03:56 we can test this, right? The prompt will
+03:58 generate kind of the code, and then at
+04:01 testing we ask the LLM, "What do you
+04:03 think? Was the code actually generated?
+04:05 Did it have the awesome?" Now, we could
+04:07 use a linter for that as well, but the
+04:09 whole idea is that we can you have an
+04:11 agent kind of judge another agent as
+04:13 well.
+04:14 And that brings us then to task key
+04:16 files or unit tests. We write a bunch of
+04:19 those criteria up, and then we run those
+04:22 tests uh by LLM as a judge. Very simple,
+04:25 very powerful thing to do. Not just for
+04:27 code, but you could use it for
+04:28 infrastructure as code, or any any other
+04:31 design pieces as well.
+04:33 And then you can combine it with your
+04:35 repo, because that was still kind of
+04:36 will just look at your code, but you
+04:38 take that actually with your code
+04:41 itself, and then it becomes almost like
+04:43 an end-to-end test where you execute
+04:45 also pieces of that code to see where
+04:48 that's still valid in your judgment of
+04:50 the LLM.
+04:52 And now that we're able to test that, we
+04:53 can also kind of do changes and optimize
+04:56 it, and then we can see whether we
+04:58 actually get better results. So, we can
+05:00 run an optimizer, similar to code
+05:02 actions in the back, uh and we can kind
+05:05 of improve uh our context uh as such.
+05:09 So, that was evaluate testing various
+05:12 techniques. A lot of it is LLM as a
+05:14 judge. A missing piece for many people
+05:16 who are just kind of getting more
+05:18 rigorous uh when LLMs change or other
+05:21 pieces change as well.
+05:24 Now, we write this context, we test the
+05:26 context, and then we want to push this
+05:27 out, maybe to our colleagues, to other
+05:29 pieces, to uh kind of other people on
+05:32 the internet. How do we do that?
+05:34 Now,
+05:35 the sad truth is that a lot of people
+05:38 just copy and paste things, or they at
+05:40 least put it in the repo. That's great,
+05:42 but we have a mechanism in coding, which
+05:44 is kind of like libraries. So, we can
+05:47 package things and version things and
+05:49 kind of put a lot of more information in
+05:52 that, like similar to a package. And
+05:54 then we can publish these packages to a
+05:56 registry to become discoverable.
+05:59 So, think about that next time you're
+06:01 just using a repo to share this. How do
+06:04 you scale this within your whole
+06:05 organization as well?
+06:08 And this is also why you see skills
+06:10 registries or auto context registries
+06:12 coming up. Most of them are public
+06:15 pieces, but um
+06:17 they're also kind of private registries
+06:19 that you can do in your um company as
+06:22 well. And that's important because a lot
+06:24 of the public skills are not the uh
+06:26 they're not tested well, and you can
+06:28 have like a blessed skills within your
+06:30 company to be used.
+06:33 So, luckily, it seems like much like
+06:35 H&MD, we're standardizing on one of
+06:37 those packages.
+06:39 Maybe it's skills, maybe it's plugins,
+06:40 who knows, but there is a standard way
+06:42 of kind of installing and deploying
+06:44 those pieces uh coming up.
+06:47 And obviously, now that we have
+06:48 packages, we're releasing code, we can
+06:50 do security scans and and open claw kind
+06:53 of, you know, with all the skills that
+06:54 we had and holes prol of kind of like
+06:56 security injections and so on. So, we
+06:58 can output a security scanner before we
+07:01 publish to any of the registries.
+07:04 That was a very brief distribute.
+07:07 How do we now make this better?
+07:10 Now, we put everything we created, we
+07:12 tested, we distributed, but how are
+07:15 people using this in the wild?
+07:17 And we have observability for that. So,
+07:20 how we can we leverage the observability
+07:22 to actually improve our context?
+07:24 Now, one of the ways is actually looking
+07:26 at agents logs. So, imagine you have all
+07:29 your coders in your company, and you
+07:30 look at all the logs,
+07:32 what if a system just kind of looks at
+07:34 all the pieces where it's at, like, what
+07:36 am I missing? Where is that or not
+07:38 working? And what are you adding all the
+07:40 time that is not yet in the context. So,
+07:43 you can learn from those logs very well.
+07:45 And luckily, we now have a standard way
+07:47 of doing this.
+07:49 And then you can also look at any
+07:51 comments in your commits because that's
+07:54 also context that you can pull in to see
+07:56 what it what is missing, where you
+07:58 should improve the context. And then you
+08:00 can feed that in back to your query and
+08:03 kind of change some of the context as
+08:05 well.
+08:06 And why only kind of look at it in that
+08:08 cycle? Because you can also look at
+08:10 production code. When the production
+08:12 code executes and you have a direct link
+08:14 to the code and any of the other errors,
+08:17 you can feed that back as logs as well.
+08:19 It's not the agent logs, but it's the
+08:21 application that was created. So, we can
+08:24 get context from those pieces as well.
+08:27 And you kind of can think about this as
+08:30 how your internal harness engineering
+08:32 has been tested with a digital twin,
+08:35 with kind of observability, with all the
+08:37 other pieces. But you can apply the same
+08:40 thing actually for context as well.
+08:42 Looking and improving context uh pieces
+08:46 as well.
+08:48 Now,
+08:49 this is all good. This was the very
+08:51 short cycle of improving the whole kind
+08:53 of loop, but there's another side to it.
+08:56 The enablement. How do you actually
+08:58 enable users in your company to do a
+09:01 better job at that? One thing is just to
+09:04 kind of say, "Here's the tools. Improve
+09:06 your context. Here's the loop." But we
+09:08 can do better.
+09:09 And now I sometimes refer to this as the
+09:11 human harness. We're helping humans to
+09:14 become better at generating context, at
+09:17 kind of improving their agentic
+09:19 developmental skills to kind of have the
+09:23 agents perform better pieces.
+09:26 And what's really nice is that for, you
+09:28 know, the first time, at least in my
+09:29 life, I've seen that people write
+09:31 documentation. They write a lot more
+09:34 down that used to do.
+09:36 Documentation used to be a chore, but
+09:38 right now people really, really care
+09:41 about writing things down. It's because
+09:43 that helps them in their job. And that's
+09:45 great because that is actually a new
+09:47 incentive to do it.
+09:50 And if you take this further, if one
+09:52 individual starts writing that down,
+09:53 that's great. If you distribute and your
+09:56 team becomes better, that's even
+09:58 greater. And then the whole company kind
+09:59 of can get better. So, that is a really
+10:02 a flywheel and amplification of pieces
+10:05 of context within your whole
+10:06 organization.
+10:08 Now, it's a little bit tricky. Who
+10:11 should drive this initiative as the
+10:12 enablement? Is it developer experience?
+10:15 Is the platform team? I think, you know,
+10:17 on that question a lot of people just
+10:19 said like maybe in the beginning it is
+10:21 one team that kind of sparks it and then
+10:24 eventually a lot of the distribution,
+10:27 observability tools lands in the
+10:29 platform team and then the developer
+10:31 experience will kind of enable the teams
+10:32 to do that better.
+10:35 But it's not enough. You can have a solo
+10:37 person writing context. You can share
+10:39 the context over distribution, but you
+10:41 really need multiple humans to kind of
+10:44 harness and make this a really better.
+10:46 And that's the multiplayer mode that you
+10:48 should unlock in your organization as
+10:50 well.
+10:52 Um you can write things down and there's
+10:54 another talk on this on compound
+10:55 engineering where we actually write
+10:57 everything that we learned down so it
+10:59 becomes better
+11:01 in the organization.
+11:03 And now you have to think about like how
+11:05 do you enable your teams for context? Do
+11:08 you share the good practices? That they
+11:10 should test things? That they should do
+11:13 distribution to registries and stuff
+11:16 like that? That's some of the enablement
+11:18 work that you can do.
+11:20 And then the context itself probably is
+11:22 also like are people writing this
+11:24 manually all the way up to proactive
+11:26 learning context from your logs and
+11:29 improving that as as
+11:31 And then you also think about how you
+11:33 are actually doing yourself. Um and
+11:37 kind of do you still paste the prompts?
+11:39 Do others kind of do that? So,
+11:41 individuals can also be measured on how
+11:43 mature they are at doing context.
+11:46 And that brings us to a new metric. A
+11:48 lot of the metrics are all about like
+11:50 productivity and make sure that, you
+11:52 know, people get more PRs and stuff.
+11:56 True, but context is a different metric
+11:59 and I would say it is about how many
+12:01 hops or how many retries does the agent
+12:04 do or need to do to kind of do a better
+12:08 job at things. And I think that's
+12:10 another measurement or lens to look at
+12:12 kind of the improvements of context.
+12:16 But, there's a little bit kind of, you
+12:17 know,
+12:18 a counter side to it. Like context can
+12:21 drift. Now, the more you use it, the
+12:22 more your agents can see whether that's
+12:25 well and you give feedback, you kind of
+12:28 limit the drift. But, it's a little bit
+12:29 like technical debt. Which direction do
+12:32 you go? Is it a positive thinking? Was
+12:34 it an intentional thing? But, it needs
+12:36 love. Much like code grooming, it needs
+12:38 love.
+12:39 And then, you start also seeing kind of
+12:41 other new practices coming to life.
+12:45 For example, people are tagging their um
+12:49 their tasks differently. Can it be done
+12:52 by a human? Can it be done by an agent?
+12:55 And usually that means how well they are
+12:57 scoped within kind of the task. Does it
+13:01 have all the right context? Agent can
+13:03 kick off. If it's not, let's have a
+13:05 human discussion about these things.
+13:07 And then, people use similar to a retro
+13:10 at the end of their sprint and do a
+13:12 context retro. What can we do to improve
+13:15 agents and do have them do a better job?
+13:18 What do we need to refine? So, this is
+13:20 kind of not the code, but kind of
+13:23 actually context as well.
+13:25 That also brings like who has the final
+13:27 say, who can say which piece get
+13:30 published as a certain piece of context.
+13:33 And do we also need to care about the
+13:35 ownership? Will we sign those commits
+13:37 and make sure that we can trace them
+13:38 back to certain decisions that were
+13:41 made?
+13:42 So kind of that was in a nutshell the
+13:44 whole enablement all the way up using
+13:47 the
+13:48 CDLC to make the context better.
+13:52 So I think your mode is to kind of work
+13:54 on this context and the ones that really
+13:57 do this well will have a competitive
+13:59 advantage right now because it's like a
+14:01 learning organization. And that flywheel
+14:04 is super important to give real power to
+14:08 the whole organization and to make that
+14:09 learning. It's work, I'm not going to
+14:12 lie, but it is definitely the most
+14:14 useful thing you can do for the agent as
+14:16 well right now.
+14:18 So the way that I look at it is that
+14:20 context is the fuel. We talk a lot about
+14:23 coding agents and yes, they're great as
+14:25 the engine, but context is the fuel. And
+14:28 don't only improve your harness of your
+14:30 coding, but also kind of use the harness
+14:34 of your humans to kind of get better
+14:36 context as well.
+14:38 If you want to hear more about this,
+14:41 you know, we Tessell, our company,
+14:43 actually helps in certain pieces of the
+14:45 CDLC and we also run a conference very
+14:49 related to the subject in June 1st and
+14:52 2nd
+14:53 in London. So
+14:55 you can visit us there
+14:58 or have a try. And thank you very much.
+15:00 And if you like these slides, just
+15:02 connect on LinkedIn, give me some
+15:04 feedback and then in exchange I happily
+15:06 send you the slides.
+15:08 Thank you very much.
+15:28 >> Mhm.

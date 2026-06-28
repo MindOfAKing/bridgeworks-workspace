@@ -1,0 +1,4 @@
+/* Oliviks webfonts — Rubik (primary) + Manrope (secondary)
+   Sourced from Google Fonts. If you self-host, drop the .woff2 files in
+   assets/fonts/ and repoint these src URLs. */
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500&family=Manrope:wght@400;500;600;700;800&display=swap');

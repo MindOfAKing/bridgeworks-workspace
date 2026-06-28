@@ -32,7 +32,7 @@ body {
   }
   .container-x {
     box-sizing: border-box;
-    max-width: min(72rem, 100vw);
+    max-width: min(1180px, 100vw);
     @apply mx-auto w-full px-5 sm:px-8;
   }
   .eyebrow {
@@ -50,6 +50,14 @@ body {
     #FAB73A 14px,
     #FAB73A 28px
   );
+}
+
+/* Menu page gradients */
+.menu-page-bg {
+  background: linear-gradient(180deg, #fffaf1 0, #F7F9F4 380px);
+}
+.menu-hero-glow {
+  background: radial-gradient(closest-side, rgba(250,183,58,0.16), rgba(250,183,58,0));
 }
 
 /* Reduced motion */

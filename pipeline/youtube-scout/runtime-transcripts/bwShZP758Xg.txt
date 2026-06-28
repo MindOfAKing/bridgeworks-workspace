@@ -1,0 +1,977 @@
+00:00 Hundreds of millions of people are now
+00:01 turning to AI search engines like Chat
+00:04 GPT, Gemini, and [music] Perplexity in
+00:07 order to solve their problems and look
+00:09 for products and services. [music] So,
+00:10 if you're not focusing on your AI
+00:12 visibility, you're potentially missing
+00:14 out on tons of customers that are
+00:16 finding your competitors [music]
+00:17 instead. Which is why in this video, I'm
+00:19 going to be showing you my exact AI
+00:21 visibility checklist so you can attract
+00:24 more target customers through AI search
+00:26 engines. It's going to be completely for
+00:27 free and it's something that beginners
+00:29 are going to be able to follow. I'm
+00:30 going to break it down into seven key
+00:32 sections walking you through [music]
+00:34 real examples of what you can do in
+00:36 order to boost AI visibility. And the
+00:38 last one, the seventh section, is
+00:40 actually going to be something that is a
+00:42 little bit more gray hat, something that
+00:43 is really going to give you a
+00:44 competitive edge to beat the
+00:45 competition. So, make sure you stick
+00:47 around to that and I will add the full
+00:48 checklist as the first link in the
+00:50 description. Now, getting straight into
+00:51 it. In case you don't already know, AI
+00:53 visibility is the process of ranking in
+00:56 AI search engines. So, when target
+00:58 customers look to solve their problems
+01:00 or they look for a product or service,
+01:02 your business gets recommended, which is
+01:04 ultimately going to lead to people
+01:05 coming to your website and buying
+01:07 whatever you offer. And one of the
+01:08 biggest reasons I think this is so
+01:10 important for businesses is traffic that
+01:12 comes from AI search engines is four to
+01:15 10 times more likely to convert compared
+01:18 to traffic that comes via Google. The
+01:20 reason for this is AI search engines
+01:21 know so much about us and people tend to
+01:24 search really detailed prompts in AI
+01:26 search engines in order to get a
+01:28 specific recommendation and when they
+01:30 see that recommendation because it's so
+01:32 personalized to them they're so much
+01:34 more likely to buy and they're so much
+01:35 more qualified which is why you need to
+01:37 be focusing on getting visible in AI
+01:40 search. Now to give you an example
+01:41 throughout this I'm actually going to be
+01:42 showing you this business store. They
+01:45 are a self storage software so they're a
+01:47 software for self- storage businesses.
+01:48 I've already ranked them pretty well in
+01:50 AI search as you can see here, here, and
+01:53 also here. However, there's always work
+01:55 to do and I'm going to use these as an
+01:57 example to help you understand the
+01:58 fundamentals. Now, the first thing that
+02:00 we need to do is make sure your
+02:01 technical foundations are in place
+02:04 because if AI bots, i.e. the bots the AI
+02:07 search engines send to your website to
+02:09 understand more about it so it can then
+02:11 rank in AI search, if those bots can't
+02:14 access your website, you're going to be
+02:16 invisible. So, I've actually got two
+02:18 free tools that you can use here. First,
+02:20 you need to make sure that your robots
+02:22 txt, which is just a file on your
+02:24 website that will either allow or block
+02:26 those bots from coming to your website,
+02:28 is not blocking AI crawlers. So, you can
+02:31 just come to this link here. You can get
+02:33 your website and you can add the URL in
+02:35 in order to test it. And as you can see
+02:37 here, it's actually going to go through
+02:38 your website in order to make sure those
+02:40 AI bots can access your site. Now as you
+02:43 can see here this website passed all the
+02:45 tests across GBT bot the chat GBT users
+02:48 perplexity bot as well as also AI
+02:51 overview search bot. Now if your website
+02:53 faces any issues with any of the bots
+02:55 feel free to add a comment below and
+02:56 I'll share a guide of how to fix this
+02:58 for your specific website. But going
+03:00 back to the checklist the next thing
+03:02 that we would need to do is make sure
+03:03 that your page loads without excessive
+03:06 JavaScript. JavaScript is just a coding
+03:09 language and a lot of AI bots do not
+03:12 render this code i.e. they don't load
+03:14 the code when they go to your website.
+03:16 So if your website has a load of
+03:17 JavaScript and in that content there's
+03:20 important information that would be used
+03:22 to recommend your product or service to
+03:24 target customers. If that's being
+03:26 blocked then AI search engines are
+03:28 missing out on important context. So
+03:30 what you need to do is go to this free
+03:32 tool and this will essentially show you
+03:34 what is on your website that isn't and
+03:36 is being rendered via JavaScript. So all
+03:39 you need to do is add your website in
+03:41 there and as you can see it's going to
+03:42 show you the text that is rendered i.e
+03:45 is shown when JavaScript is not loaded.
+03:48 And again, this is really important
+03:50 because if your title, meta description,
+03:52 headings, etc. on your website or a
+03:55 large amount of the words that are
+03:56 actually in the body of the page are not
+03:58 being loaded in, then that's a critical
+04:00 thing that you need to fix. Now, I
+04:01 understand that might be a little bit
+04:02 technical in order to fix that, but
+04:04 again, feel free to share your website
+04:05 in the comments below and I'll be more
+04:06 than happy to share a guide for you. So,
+04:08 now we've looked at crawler access. We
+04:10 now need to look at indexing. And
+04:13 indexing is just whether or not your
+04:15 website is indexed, i.e. showing up on
+04:18 traditional search engines. AI search
+04:20 engines like ChatGBT will use search
+04:22 engines like Google and Bing in order to
+04:24 get more recent relevant information
+04:26 from. So if your website isn't being
+04:28 shown up on traditional search engines,
+04:30 that's going to massively hurt your AI
+04:32 visibility. So what I want you to do is
+04:34 go to Google Search Console and Bing web
+04:37 master tools and make sure you submit
+04:39 your site map. So, all you're going to
+04:40 do is head over to Google Search
+04:42 Console, and then you're going to go
+04:44 over to indexing and then sitemaps. From
+04:48 here, what you're going to do is add
+04:49 your sitemap, which is typically going
+04:51 to be your website URL, followed by
+04:54 sitemap.xml,
+04:56 and then press submit. And as you can
+04:58 see here, I've actually already
+05:00 submitted a website, and you can see
+05:01 it's picking up 94 pages, and the status
+05:04 is successful. So, that's a really easy
+05:07 way in order to submit your site map.
+05:09 And the process is very similar for Bing
+05:11 web master tools. And actually if you
+05:13 want to see whether your website is
+05:14 indexed, all you need to do is go to
+05:17 Google search in your toolbar and type
+05:19 in site semicolon and then your domain.
+05:24 And this is going to show you all the
+05:26 pages on your website that are indexed
+05:29 on Google search and also being web
+05:31 master tools. And again, that's a really
+05:33 simple check in order to be able to do
+05:35 or using free tools to make sure your
+05:37 website is actually in a position to get
+05:39 indexed by AI. Now, the final thing we
+05:41 need to do when it comes to our
+05:42 technical foundation is make sure that
+05:44 you have a fact or about us page. Not
+05:48 every website has an about us page or a
+05:50 fact page. And actually, an about us
+05:51 page can be a really great way in order
+05:54 to communicate to AI search engines what
+05:56 we do, our USPs, how long we've been
+05:58 around for, and why we should be
+06:01 recommended in AI search. So, all I want
+06:03 you to do is go to your website and add
+06:05 either a about us page or a fact page
+06:08 listing this key information and watch
+06:10 your AI visibility grow. So, now we've
+06:12 gone through the more boring technical
+06:13 stuff. We're now going to move on
+06:15 something that is also technical, but
+06:16 bear with me. We will be moving away
+06:18 from the technical stuff very soon and
+06:19 that is structured data. And structured
+06:22 data is essentially a snippet of code
+06:23 that you can add to your website that AI
+06:26 search engines, the bots that they send
+06:28 can very easily read in order to
+06:30 understand more about your business. And
+06:32 without this, it's going to be harder
+06:33 for AI search engines to understand. And
+06:36 sometimes it is just going to guess. And
+06:38 as you'll see in this checklist, I've
+06:39 got a number of different schema types
+06:41 that I want you to implement. And all it
+06:43 is is a snippet of code. You can go to
+06:45 this website here and all you need to do
+06:47 is select the type of schema that you
+06:49 want to generate and then just add that
+06:51 code onto your website onto the specific
+06:54 web pages. As you can see, I've told you
+06:55 exactly what schema to add. For example,
+06:57 on your homepage, you should be adding
+07:00 organization schema. You just come here,
+07:02 you would go to organization, and then
+07:05 you'd fill out this relevant information
+07:07 and then just copy this code and add it
+07:09 to your website. And the reason this is
+07:10 important is it helps LLM understand
+07:13 more about your brand. You're going to
+07:14 add links to your social profiles,
+07:16 founding date, description, etc. And
+07:18 that's going to help AI search engines
+07:20 understand that you're proper business,
+07:22 you're reputable, and therefore make it
+07:24 more likely to recommend you. Now, I'm
+07:26 not going to go through all the
+07:27 different types of schema here. You can
+07:28 check out this exact checklist in the
+07:30 first link in the description. And I'll
+07:32 also add a link to our free community,
+07:33 Futureproof, which is a AI visibility
+07:36 community, where we share all of our
+07:38 best practices and blueprints and can
+07:40 answer any questions you might have
+07:41 about schema. Now moving on to your
+07:43 content strategy. Now of course if you
+07:45 have no content on your website and you
+07:47 have no content about your brand then AI
+07:50 is going to have less information in
+07:52 order to pull from to recommend your
+07:54 business. So what I would like you to do
+07:56 is I want you to focus on giving AI
+07:58 something to site i.e. something that's
+08:01 worthy of being referenced and used by
+08:04 AI search engines to recommend your
+08:06 brand. Now, how you're going to do that
+08:08 is on every article, I want you to start
+08:11 with a direct two to four sentence
+08:14 answer followed by a TLDDR. So, a too
+08:17 long didn't read summary. And the reason
+08:20 this is important is over 44% of AI
+08:22 citations, i.e. the sources that are
+08:25 used in AI come from the first onethird
+08:28 of the web page. So you need to make
+08:30 sure that on every blog, on every
+08:32 service page, you are providing helpful
+08:34 information as high up on the web page
+08:36 as possible. As this is not only going
+08:38 to help users that come to your website,
+08:39 but it's also going to make it easier
+08:41 for AI search engines to understand you
+08:43 and recommend you in its results. You
+08:46 also need to make sure using natural
+08:47 language and moving away from the usual
+08:50 keyword placement that we see in Google
+08:52 search. And this is because AI search
+08:54 engines are generally a lot smarter and
+08:56 they typically look for natural language
+08:58 that people use in order to provide
+09:00 recommendations. You should also be
+09:01 adding an FAQ section at the bottom of
+09:04 every important page. So to give you a
+09:06 specific example, let's go back to this
+09:08 self-s storage software provider that I
+09:09 mentioned earlier. Let's say they have a
+09:12 page on the website where they're
+09:13 writing about self- storage businesses.
+09:15 What they would do is they would type
+09:16 that topic into Google search and they
+09:19 would scroll down in order to find the
+09:21 people also asked section. This is
+09:23 Google literally telling you what
+09:25 questions ask about a specific topic. So
+09:27 you can copy these questions and add the
+09:30 questions and answers at the bottom of
+09:32 every important page in order to boost
+09:34 something called your topical authority.
+09:36 I.e. you showing that you're an expert
+09:38 to AI search engines which in turn will
+09:41 boost your visibility. On top of that,
+09:43 you should use comparison tables for any
+09:45 head-to-head content. So, if you've ever
+09:47 got a piece of your content comparing
+09:48 different solutions, maybe comparing you
+09:50 to different competitors, which I'll
+09:52 come on to later in the video to explain
+09:54 how important that is. If you include a
+09:56 table at the top of that article, that
+09:58 is a really easy to digest structure and
+10:01 information format for AI search engines
+10:03 to understand to then include in its
+10:06 answers. On top of that, you need to
+10:07 make sure that your content is very high
+10:09 quality. So replace any vague claims
+10:12 such as many users prefer with hard
+10:14 numbers and percentages where possible.
+10:16 If you've even got the ability to
+10:18 include direct quotes from your team
+10:20 members who are experts, i.e. they've
+10:22 got a LinkedIn profile, they've got a
+10:23 strong presence. If you include quotes
+10:25 from them in your website, that will
+10:27 boost your visibility as well as if you
+10:29 can also include at least one piece of
+10:31 original data. AI search engines are
+10:34 often looking for unique data that it
+10:36 can reference in its answers to provide
+10:38 more credible responses. If you show
+10:40 your credible by sharing your own unique
+10:42 data, this is going to be a massive
+10:44 advantage to beating the competition.
+10:45 Now, in terms of the types of content
+10:47 that get cited, as I've already
+10:48 mentioned, if you do X versus Y
+10:51 head-to-head comparison pages, i.e. a
+10:53 competitor versus you and break down the
+10:56 pros and cons of each. That's really
+10:57 helpful for AI search engines,
+10:59 especially if your business that is
+11:00 competing against much bigger players
+11:02 because AI search engines will already
+11:04 know those much bigger players. And if
+11:06 you compare yourself to them, explaining
+11:08 why you're better, that gives AI search
+11:10 engines reasons to why it should
+11:12 recommend you above competitors. So, all
+11:15 you need to do is pick three to four
+11:16 bigger competitors than you and write
+11:18 articles on your website comparing you
+11:20 versus competitor A, B, C, and D. And
+11:22 that's going to give AI search engines a
+11:24 really good source of information to
+11:26 recommend you to target customers.
+11:28 Glossery pages also really help as well
+11:30 as statistic and data roundups with
+11:32 original sourcing. So again, if you can
+11:34 make any sort of industry report or data
+11:37 on your industry, that's going to be a
+11:39 really helpful way in order to boost
+11:40 your visibility. And that's actually
+11:42 something we'll come back to in step
+11:44 seven. Because if you can create
+11:45 industry reports that position you as
+11:48 the leader in that industry, that is
+11:50 actually a hack you can use to boost
+11:51 your visibility. So, make sure you stick
+11:53 around to that. As I've already
+11:54 mentioned, AI search engines also rely
+11:56 on traditional search engines. For
+11:58 example, Microsoft owns around 50% of
+12:01 Chat GBT. Microsoft obviously has Bing.
+12:04 So, ChatgBT will pull information from
+12:06 Bing search engine. So, you need to make
+12:08 sure you're ranking high in those
+12:09 results. One way to do that is to use
+12:11 keyword research tools like keywords
+12:13 everywhere in order to find low com
+12:15 competition keywords that you can easily
+12:17 rank for. And you can also use tools
+12:19 like answer Socrates in order to find
+12:21 out what questions people are asking in
+12:24 your topic. All you need to do here is
+12:26 add the topic or niche that you're in,
+12:28 the country that you want to rank in,
+12:29 and an Socrates will give you a ton of
+12:32 different questions that you can answer
+12:33 on your website as articles to boost
+12:36 your topical authority, make it more
+12:37 likely you get featured in AI search.
+12:40 Now, just wrapping up the content
+12:41 section, you also need to make sure you
+12:43 keep your content fresh. This is why
+12:45 having an AI visibility strategy is so
+12:47 important. Because if you've got content
+12:49 on your website that's years and years
+12:51 old, why would AI search engines promote
+12:53 you compared to a competitor that's
+12:55 staying on top of their content
+12:56 strategy? You need to make sure that
+12:58 when you post any articles, you're
+13:00 coming back to them every couple of
+13:01 months in order to add new statistics,
+13:03 in order to update the language, update
+13:05 it to include the most recent stats, and
+13:07 also potentially reference some of your
+13:09 latest case studies. And not only is
+13:11 this going to boost your visibility in
+13:12 AI search, but it'll also help you with
+13:14 Google search because freshness is one
+13:16 of the key ranking factors for all type
+13:18 of search engines. Now, one of the
+13:19 easiest hacks in order to do this is
+13:21 actually add a clear last updated date
+13:24 on every article. So, when you actually
+13:26 go through and you update your content,
+13:28 AI search engines and Google bots are
+13:30 easily able to tell that you've recently
+13:32 updated that article. And to be honest,
+13:35 even though a lot of people won't tell
+13:36 you this, even if you just update the
+13:38 last updated date, even if you didn't
+13:39 change the content at all, that will
+13:41 actually boost your ranking. So, make
+13:43 sure you do that really slightly so your
+13:44 competitors don't notice and watch your
+13:46 rankings jump. Now, moving on to the
+13:48 fourth section, and that is authority
+13:50 and brand signals. This is how you're
+13:53 going to earn AI's trust. And a really
+13:55 fundamental thing to understand here is
+13:57 AI has no personal experience of its
+14:00 own. And it'll often look to the
+14:02 personal experience of others in order
+14:04 to decide whether to recommend your
+14:06 product or service. I.e. it's going to
+14:08 look for consensus of what is the best
+14:11 thing to recommend and whether your
+14:12 product or service is good before
+14:15 deciding of whether to promote you in AI
+14:17 search results. In order to nail this, I
+14:19 really want you to focus on your digital
+14:21 presence. That's going to include
+14:23 creating and completing your Google
+14:25 business profile, creating business
+14:27 directory listings, i.e. getting your
+14:29 business listed on things like Yelp,
+14:31 Trustpilot, Crunchbase, and any other
+14:34 relevant industry platforms, as well as
+14:36 also listing your business on review
+14:38 platforms and encouraging customers to
+14:40 leave reviews there. Now, across all of
+14:42 these different places, you need to
+14:43 ensure that your business name, address,
+14:46 and phone number is consistent across
+14:48 all of them, as inconsistently causes AI
+14:51 to produce the wrong information about
+14:53 you, and therefore, you're less likely
+14:55 to get recommended. You also should be
+14:57 making sure that you're listed in any
+14:59 industry directories and any best of
+15:02 roundup articles. To give you an example
+15:04 using the software provider that I
+15:05 mentioned earlier, if we actually go and
+15:08 type in best self storage software,
+15:10 you'll see in AI overviews as well as
+15:12 also AI mode. When that loads in a
+15:14 second, one of the main sources that are
+15:16 used are listicles. So, as you can see
+15:18 here, 10 best self-s storage software
+15:21 tools for small businesses. So, all you
+15:23 would do in this case, if you wanted to
+15:25 get featured on this website, you would
+15:27 click on this source. You would make
+15:29 sure you've got a Chrome extension
+15:30 installed called Hunter, which is going
+15:33 to load the contact information of tons
+15:35 of different people that work at this
+15:37 website or business. All you then need
+15:40 to do is reach out to those people, make
+15:42 a credible case of why your business
+15:44 should be listed on that best of list.
+15:46 Sometimes you are going to need to pay
+15:48 in order to get yourself listed. And
+15:50 when you do, you're going to watch your
+15:51 AI visibility skyrocket because this is
+15:54 one of the main sources that AI search
+15:55 engines look for when deciding which
+15:58 business should show at the top of
+15:59 recommendations. And again, the same is
+16:01 true in AI mode, ChatGBT, any AI search
+16:04 engine you use. You can see that it'll
+16:06 often be list of calls, list of best of
+16:09 something that are used to provide a
+16:10 recommendation. You can see I've already
+16:12 got this website featured at the top.
+16:14 And if you wanted to get listed here,
+16:16 all you would actually do is use Hunter
+16:18 and again reach out to the people in
+16:20 order to get your business featured and
+16:22 ideally featured the top, which is
+16:24 sometimes going to need you to pay in
+16:25 order to get that listing. The best way
+16:27 to do all of this is to create a simple
+16:29 spreadsheet and just build a list of all
+16:31 the websites that you want to get
+16:32 featured on and just go through these
+16:34 step by step in order to get featured.
+16:36 Now, since we're on the topic of sources
+16:38 and on the topic of improving your
+16:39 digital footprint, this is something
+16:41 that is a massive hack that so many
+16:43 businesses miss out. What you're going
+16:44 to do is you're going to ask AI, "What
+16:46 do you look for when recommending
+16:48 whatever your product or service is?"
+16:51 So, I'm going to go over to Gemini in
+16:53 order to show this. You're just going to
+16:54 go, "What do you look for when
+16:56 recommending whatever you offer?" So,
+16:58 sticking with the example that we've
+17:00 been using, I'm going to ask, "What do
+17:02 you look for when recommending self-s
+17:04 storage software?" And essentially what
+17:05 AI is going to do, it's going to give
+17:07 you a checklist that you can use in
+17:10 order to optimize your online presence
+17:12 because AI is literally telling you what
+17:14 it looks for when providing a
+17:16 recommendation in whatever you offer. So
+17:19 as you can see here, it's given a list
+17:21 of key pillars that I, the AI, looks
+17:23 for. So if you're not including these
+17:25 things on your website and in all the
+17:27 different sources that AI uses to
+17:29 understand your business, you are
+17:31 seriously missing out. You can obviously
+17:33 do this in all the different AI search
+17:35 engines and create a checklist. And then
+17:37 what you're going to do is go back to
+17:39 all the different places that you listed
+17:40 your business and ensure that the
+17:42 descriptions of your business include
+17:45 those things that AI search engines are
+17:47 looking for. Let's say, for example, you
+17:49 are the best website designer in New
+17:51 York. If in your business description,
+17:53 you don't specifically mention about how
+17:55 you're based in New York, you work with
+17:57 businesses in New York, and any relevant
+17:59 accreditations, awards, etc. that tie
+18:02 you to New York. If you don't include
+18:04 those facts in the description, AI
+18:06 search engines are going to be less
+18:07 likely to recommend you in New York. So,
+18:10 you really need to meticulously create
+18:12 this checklist that AI literally gives
+18:13 you and make sure that on your website
+18:15 and on the main places that your
+18:17 business is listed, include those
+18:19 things. To really take this to the next
+18:21 level, what you can do is you can go to
+18:22 AI and say, "Search the internet and
+18:25 tell me what you know about your
+18:27 business." When you search this, AI is
+18:29 going to go out to the website and pull
+18:31 information from different sources
+18:32 across the internet in order to tell you
+18:35 what it knows about your business. And
+18:37 this is essentially going to give you a
+18:38 hit list cuz what you need to do is look
+18:40 at the sources that are used and make
+18:42 sure the description in those sources as
+18:45 well as also the business directory
+18:46 listings on your website, etc.
+18:48 specifically contain the points from
+18:50 that checklist. So, as you can see, if I
+18:52 scroll down and click on the sources,
+18:54 these are all the different places that
+18:56 reference the website that I spoke about
+18:58 earlier. And all I would need to do if I
+19:00 have the ability to edit those places
+19:02 myself, I would edit them or I would use
+19:04 the Hunter extension that I mentioned
+19:06 earlier to reach out to those websites
+19:08 and ask them to change the information
+19:10 about that business or your business to
+19:12 make sure it includes the key
+19:13 information. Now, I hope you're still
+19:15 watching because some of the tips that
+19:16 I've got coming up, especially in that
+19:18 last section, is going to be the
+19:19 difference between people that win in AI
+19:21 search and people that lose. But we're
+19:23 just going to move on to thirdparty
+19:25 mentions. Now, mentions are really
+19:27 similar to backlinks that we would see
+19:28 in normal SEO ranking on Google.
+19:30 Mentions are just things where your
+19:32 brand is mentioned on other websites. If
+19:35 AI sees that your brand is mentioned
+19:37 across trustworthy places, it's going to
+19:39 be more likely to trust and recommend
+19:41 you. So you want to make sure that you
+19:42 secure mentions in at least three
+19:44 industry publications through guest
+19:46 posts, interviews or PRs. Now this is
+19:49 often done in many industries, the sort
+19:51 of industry accreditation bodies and
+19:53 that sort of stuff. And you may have the
+19:54 ability to sponsor some of their events
+19:56 to write articles on the website and do
+19:59 some sort of collaboration with them.
+20:00 And even though sometimes this costs
+20:02 money, if you're really serious about
+20:03 boosting AI visibility, I would reach
+20:05 out to any industry accredititation
+20:07 bodies, etc., etc., are in your niche to
+20:10 make sure that you're listed as one of
+20:11 the trusted partners. On top of that,
+20:13 you can also pursue podcast appearances.
+20:15 So, if there's any podcasts in your
+20:17 industry or niche, you can reach out to
+20:19 these in order to do some sort of
+20:20 content with them because the
+20:21 transcripts are often indexed and cited
+20:24 regularly by AI search engines. And you
+20:26 can also work with influencers to post
+20:28 on YouTube about your brand. And to show
+20:30 you how powerful that is, the software
+20:32 example that I was talking about
+20:33 earlier, I actually did a YouTube video
+20:35 for them. You can see that this video is
+20:37 not only ranking on page one of Google,
+20:40 but it's also often used as a source
+20:42 because again remember earlier when I
+20:43 said about the listicles the best of
+20:45 something. Not only do YouTube videos
+20:47 have the ability to rank on Google and
+20:49 AI search engines, but the transcript
+20:52 from them is also used as a source in AI
+20:55 search engines. So if you can get an
+20:57 influencer to do some sort of video like
+20:59 this, that can work like rocket fuel
+21:01 when it comes to boosting your
+21:02 visibility. Then finally, we're going to
+21:04 move on to reviews and reputation. As
+21:06 I've already mentioned, AI search
+21:08 engines have no personal experience of
+21:09 their own. So, they'll look at customer
+21:11 reviews to determine whether your
+21:12 business is good or not. I personally
+21:14 recommend most businesses, especially if
+21:16 you have an element of in person in
+21:18 order to get a Google review card that
+21:20 has a QR code and also an NFC tag in
+21:22 there so that when your team has
+21:24 completed a job, you can easily ask
+21:26 customers to leave a review on Google.
+21:28 You can also set it up for G2, Capterra,
+21:30 Trustpilot, any review platform that is
+21:33 relevant for you and incentivize team
+21:35 members $10 to $20 per review in order
+21:38 to encourage them to get reviews. Now,
+21:39 this may cost you maybe thousands of
+21:41 dollars over the course of the year.
+21:43 However, if your product is high ticket
+21:45 enough, just getting a couple of extra
+21:47 customers through AI visibility, which
+21:48 is more than achievable when you get
+21:50 more reviews, will provide insane ROI
+21:52 for your business. On top of that, if
+21:54 you can encourage reviews that describe
+21:56 your specific outcomes that you provide,
+21:58 i.e. the results that you generate, this
+22:00 can be insane. For example, for me at
+22:03 Future Proof, our AI visibility
+22:04 community, if we were able to share
+22:06 reviews of how we boost people
+22:08 visibility, how we help them get more
+22:10 customers, more revenue through them
+22:12 optimizing the AI search using our
+22:14 frameworks, that would make it more
+22:16 likely that we get recommended in AI
+22:18 search because AI search can see
+22:20 specific examples with numbers to how
+22:23 we've actually helped instead of just
+22:24 generic things saying about how good our
+22:26 business is. Now moving on to the fifth
+22:28 area and that is Reddit, LinkedIn and
+22:32 communities. These are really secret
+22:34 weapons and it ties to what I said
+22:35 earlier around how AI search engines
+22:37 will look at sentiment and what people
+22:40 are saying about your brand. Now Reddit
+22:42 and LinkedIn and as well as forums and
+22:44 communities may not be something that
+22:45 you focused on before. However, Reddit
+22:47 is often one of the top three websites
+22:50 that used as sources in AI search
+22:52 engines. Now, what I want you to do
+22:53 specifically in Reddit, you can either
+22:55 or do both, identify five to 10
+22:58 subreddits that are most relevant to
+23:00 your category and provide free value in
+23:02 them. So, you can just go in, check
+23:04 every day, see if there's any threads or
+23:06 things that you can just go in and
+23:08 provide value in. And you should always
+23:09 do this before mentioning your brand in
+23:11 order to build your karma and make it
+23:13 less likely that when you recommend your
+23:15 product or service that you don't get
+23:16 banned. Now I find that this is quite a
+23:18 lot of effort over time and you know
+23:20 you've got a million and one things on
+23:22 your plate. So what I actually recommend
+23:23 is you use this tool called F5bot which
+23:26 essentially sends you a notification
+23:29 whenever a certain keyword is mentioned
+23:31 on Reddit. For example, for the self-s
+23:33 storage software provider that I
+23:34 mentioned earlier, I would set up a
+23:36 notification that whenever self-s
+23:38 storage software is mentioned on Reddit,
+23:40 I get notify so I can immediately then
+23:43 go in and provide value and potentially
+23:45 recommend that business in order to
+23:47 boost their visibility in AI search. And
+23:49 this is often a lot more helpful because
+23:51 you can chime in on the conversations
+23:52 that really matter and pinpoint on
+23:55 specific keywords that you know are
+23:57 important for your business. And when it
+23:58 comes to Reddit, it generally is a long
+24:00 game, which does put a lot of businesses
+24:02 off. But remember, in life and in
+24:04 business, nothing worth having comes
+24:05 easy. And you'll see that the average
+24:07 Reddit post that is cited by AI is over
+24:10 a year old. So, if you can be consistent
+24:12 with Reddit and set up those
+24:14 notifications, these are sort of things
+24:16 that going to help you beat competitors
+24:17 in one to two years time, and they will
+24:20 pay off. We've seen brands that have
+24:21 used Reddit in order to boost the
+24:22 visibility and they can often four to 5x
+24:25 their visibility just by applying the
+24:27 Reddit engagement tip that I've just
+24:28 shared. Now, when it comes to LinkedIn,
+24:30 it's generally a little bit easier. What
+24:32 you should be doing is publish long-
+24:33 form articles on LinkedIn. So, not just
+24:36 short posts as a long form articles are
+24:38 indexed by Google. And obviously, if
+24:40 they're indexed by Google, they then
+24:42 have the ability to be used as sources
+24:44 in AI search engines. Now, when you're
+24:46 actually writing these articles, just
+24:47 structure them in the same way as the
+24:48 web content. Provide value really early
+24:51 in, ideally in the first two to four
+24:53 sentences. Include a TLDDR and use
+24:55 things like tables and bullet points in
+24:57 order to make it easy for AI search
+24:59 engines to extract key information from
+25:02 to then recommend your brand. Now,
+25:03 moving on to the sixth area. We're
+25:05 almost there, guys, so hopefully you're
+25:07 still with me. That is YouTube and
+25:09 video. Now, I've already mentioned a
+25:11 little bit about YouTube and how it can
+25:13 be a superpower for your business. If
+25:15 you haven't already, you should at least
+25:17 start a YouTube channel and then create
+25:18 an introductory video about your
+25:20 business on there. It doesn't have to be
+25:22 insane high production value, but just
+25:24 by creating a YouTube channel and then
+25:26 creating a video introducing your
+25:28 business. Not only will AI search
+25:30 engines and Google associate that
+25:32 channel with your business, boosting
+25:34 your credibility, it more likely that
+25:35 you're going to be able to rank, but
+25:36 also AI search engines will go through
+25:38 the transcript of that video and
+25:40 understand your business better to again
+25:42 make it more likely that you're
+25:43 recommended when your target customers
+25:45 are searching for your product or
+25:46 service. Now, something that I would say
+25:47 I'm pretty good at is using YouTube
+25:49 videos to rank well in Google search and
+25:52 also search engines and also any kind of
+25:54 search engines. I'm currently taking up
+25:56 like two or three spots on page one for
+25:58 chat GBT ads, for example. And if you
+26:00 want to get similar results, all you
+26:01 need to do is find a specific search
+26:03 term that your target customers search
+26:05 for in Google, YouTube, and AI search
+26:07 engines. You then want to include that
+26:09 keyword or term in the title,
+26:12 description, YouTube video file, YouTube
+26:15 thumbnail file, and then also in the
+26:17 first and last 10 seconds of your video.
+26:21 That's going to make it more likely that
+26:23 those search engines recommend you. And
+26:24 of course, you want to make sure that
+26:26 you're producing a very high quality,
+26:28 information-rich video. It's not about
+26:30 the production value, it's about how
+26:32 much value you provide to your target
+26:34 customers. Now, depending upon your
+26:36 resources, I would also recommend that
+26:37 you produce a companion blog post for
+26:40 every video. So, every time you produce
+26:42 a video, you have a blog post and vice
+26:44 versa. And this just increases your
+26:46 online footprint. And you should also
+26:48 make sure you link your YouTube channel
+26:49 from your website and include it in your
+26:51 schema markup that we spoke about
+26:53 earlier alongside socials. So now we've
+26:55 covered the first six sections which
+26:57 include some of the things that you may
+26:58 have found elsewhere on the internet.
+27:00 We're now going to go into more gray hat
+27:02 and aggressive tactics that really are
+27:05 cheat codes when it comes to boosting AI
+27:07 visibility. And essentially this comes
+27:08 down to parasite SEO and source
+27:11 poisoning. And this works because
+27:13 there's studies that found that sample
+27:15 sizes of just 10 documents can poison
+27:19 LLMs of any size. Now, what this means
+27:21 is you can essentially change what LLM
+27:24 say by adding just 10 sources that say
+27:27 the thing that you want to say. Now, I
+27:28 mentioned a little bit earlier of how
+27:30 best of and listical content can really
+27:32 supercharge your AI rankings. And again,
+27:35 you can reach out to websites in order
+27:36 to get you featured in those listicles.
+27:38 However, if you really want to take it
+27:39 to the next level, you can produce your
+27:41 own list of calls that show you at the
+27:44 top of the list and ideally don't
+27:46 mention competitors anywhere else. And
+27:48 you can post those list of calls on
+27:50 already trusted platforms. Think Medium,
+27:53 Substack, LinkedIn, Quora, etc. Maybe
+27:56 any websites that you have access to.
+27:58 And again, you can publish five to 10 of
+28:00 these articles and you can instantly see
+28:02 results of your brand getting boosted
+28:04 visibility because it doesn't take many
+28:06 sources to influence what AI search
+28:08 engines say because you're essentially
+28:10 poisoning the source to get your
+28:12 business recommended. And while some
+28:13 businesses may say this is unethical,
+28:15 this video is about helping you boost
+28:17 your AI visibility as much as possible.
+28:19 So obviously you can take or leave these
+28:21 tactics depending upon where you stand.
+28:23 On top of that, what you can also do,
+28:24 you can look for websites or sources
+28:26 that reference or drive rankings for
+28:28 your competitors. So, if you remember
+28:30 earlier when we went to AI search
+28:32 engines and searched the internet and
+28:33 tell me what you know about your brand.
+28:35 You can do the same for competitors, you
+28:37 can say, "Search the internet and tell
+28:39 me what you know about competitor A, B,
+28:41 C, D, etc." You can then look at the
+28:44 sources that are used in order to help
+28:46 AI search engines understand more about
+28:47 your brand. And if you can get those
+28:49 sources to also mention you and ideally
+28:52 have a listical that does not include
+28:54 your competitor and positions you at the
+28:56 top that is rocket fuel to how you can
+28:58 beat pretty much any business in AI
+29:00 search results. Now the third and last
+29:02 thing that you can do and again this
+29:04 really is rocket fuel is what you can do
+29:06 is you can create a report style press
+29:09 release. Now you can submit press
+29:11 release for literally a couple of
+29:12 hundred. So this is probably the highest
+29:14 ROI activity that you can do. But you
+29:16 want to title the press release
+29:17 something like your niche industry
+29:20 report. So for the example business, the
+29:22 self-s storage software, what we would
+29:24 do is we would do self storage industry
+29:27 report top leaders ranked. So what
+29:30 you're essentially doing is you're
+29:32 creating a press release that is
+29:34 positioned as a industry report. So
+29:36 rather than it being, you know, the top
+29:38 10 self- storage softwares in 2025,
+29:41 you're essentially producing a industry
+29:43 report that can still be listical, but
+29:45 you're positioning it as we've conducted
+29:47 a lot of research and here is a report
+29:49 that we're sharing releasing the
+29:50 results. And what I found from
+29:52 completing tests in clients and also
+29:54 with people in our community is these
+29:56 type of reports are often cited a lot
+29:58 more and are being trusted more than
+30:00 these articles which let's be honest
+30:02 more self- serving because these AI
+30:04 search engines trust industry reports
+30:06 and as I've already mentioned firsthand
+30:08 data and all you need to do is share
+30:09 these press releases on something like
+30:11 Newswire or something similar in order
+30:14 to massively boost your AI search
+30:16 visibility. So there are everyone
+30:18 hopefully you're still with me. That is
+30:19 the complete AI visibility checklist in
+30:22 order to dominate AI search rankings on
+30:24 search engines like Chat GBT, Gemini,
+30:26 Google AI mode, Perplexity. You can feel
+30:29 free to access that full checklist in
+30:30 the first link in the description as
+30:32 well as also access my free AI
+30:34 visibility community future proof. Now,
+30:36 here are some quick wins that you can
+30:38 actually do this week in order to boost
+30:39 your visibility before you leave this
+30:41 video. First of all, check your robots
+30:43 txt using the link that I shared right
+30:45 at the start. Register your site in Bing
+30:47 web master tools and Google search
+30:49 console and submit your site map. Hire a
+30:52 YouTube creator to make a best list of
+30:55 providers in your industry and share
+30:57 that on YouTube. Add organizational
+30:59 schema linking to your LinkedIn crunch
+31:01 base and any reputable places that talk
+31:03 about your brand including your social
+31:05 media. You should then create your
+31:07 business description in all the
+31:08 different business directories that
+31:10 mention your brand and review platforms
+31:12 based upon the criteria i.e. the
+31:14 checklist that we created earlier when
+31:16 we asked the AI, "What do you look for
+31:18 when recommending whatever you offer?"
+31:19 You should then update your top three
+31:21 blog posts in order to add a TLDDR
+31:23 summary at the top and an FAQ section at
+31:26 the bottom. You should then also ask AI
+31:28 what it knows about you and update the
+31:30 sources based upon AI's criteria. So,
+31:32 we're creating new citations, new review
+31:35 platforms, and then we're updating
+31:36 existing ones in order to make sure that
+31:38 AI specifically knows the things that it
+31:41 looks for when recommending whatever you
+31:42 offer. should then publish a long- form
+31:44 LinkedIn article on a core topic in your
+31:47 category, ideally recommending your
+31:49 product or service. And then you should
+31:51 publish best X articles in your niche on
+31:54 reputable websites. And you can do that
+31:56 by looking at the sources that are used
+31:58 in AI search engines using the Hunter
+32:01 extension and then outreaching to the
+32:03 people that work at that website or
+32:04 business via email and on LinkedIn in
+32:07 order to make a credible case of why you
+32:09 should be referenced. Now, if you find
+32:10 this video helpful at all, I will also
+32:12 add in the description a waiting list
+32:13 link to Focal. Focal is a tool that I'm
+32:16 building in order to help you improve
+32:18 your AI visibility. We're creating AI
+32:20 agents that will automatically do the
+32:22 things that we've listed in this video.
+32:24 So, make sure you sign up for that in
+32:25 the description if you're interested.
+32:27 And hopefully, if you found this video
+32:28 helpful, please like, subscribe,
+32:30 comment, all that good stuff. and I'll
+32:32 see you in the next

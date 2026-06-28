@@ -1,0 +1,818 @@
+00:00 AI is about to make your next laptop,
+00:02 phone, even your next Xbox more
+00:04 expensive. And almost nobody saw it
+00:06 coming. Apple just raised their MacBook
+00:07 and iPad prices, and they won't be the
+00:09 last. But here's the thing, that's not
+00:11 even the biggest story this week. OpenAI
+00:13 just built its most powerful AI ever,
+00:15 powerful enough to beat Anthropic Fable
+00:17 5. And it's so powerful, the US
+00:19 government stepped in and blocked us
+00:21 from using it. And Anthropic quietly
+00:23 slipped an AI coworker into companies,
+00:25 one that reads your files and works on
+00:27 its own. This one might sound like a
+00:28 normal update, but there's something big
+00:30 hidden inside it. An exit professor is
+00:33 calling it a quiet trap. Plus, a free
+00:35 Gemini study tool that could replace
+00:37 expensive coaching and a whole lot more.
+00:39 18 updates this week. And right at the
+00:41 very end, we tested Genspark Design, a
+00:43 tool that builds a full working app from
+00:45 a single sentence. And what it pulled
+00:47 off is genuinely worth seeing. If any of
+00:50 these get technical, don't worry. The
+00:51 timestamps are in the description. Jump
+00:53 to whatever you want. And the full
+00:55 step-by-step guide for Genspark, plus
+00:57 all the updates, is waiting in our
+00:59 community. Now, let's get into it.
+01:05 OpenAI just built something so powerful,
+01:08 the US government stepped in before it
+01:10 could go public. Same thing that
+01:11 happened to Claude's Fable 5 last week.
+01:14 Now, it's OpenAI's turn. OpenAI revealed
+01:16 its next generation GPT 5.6. It comes in
+01:20 three versions. Soul is the flagship,
+01:22 the most powerful one. Terra is the
+01:25 balanced everyday one. Same level as
+01:27 their last model, but half the price.
+01:29 And Luna is the cheap, fast one for high
+01:32 volume work. And on OpenAI's own coding
+01:34 test, the flagship Soul just beat
+01:36 Claude's Fable 5. But here's the twist.
+01:38 You can't actually use it. OpenAI says
+01:41 that at the request of the US
+01:42 government, they're starting with a
+01:44 limited preview for a few trusted
+01:46 partners, not the public. The reason
+01:48 should make you sit up. OpenAI says this
+01:51 is their strongest model yet at cyber
+01:54 security. Good enough at finding weak
+01:56 spots in software that the government
+01:58 wanted a look before it went out to
+02:00 everyone. But step back because this is
+02:02 bigger than one model launch. And
+02:04 honestly, it worries me. The most
+02:06 powerful AI ever built is going out to a
+02:09 small group of chosen people first. And
+02:11 that head start is everything. They get
+02:13 to build with the best AI while the rest
+02:15 of us wait for permission. And by the
+02:17 time we catch up, they're already years
+02:19 ahead. And the reason given is safety.
+02:22 Too powerful. Too good at cyber
+02:24 security. So access has to be
+02:26 controlled. Maybe that's fair. But
+02:28 notice who ends up in the room. The same
+02:30 companies building these models have
+02:32 pushed hard for rules like this. And now
+02:35 the rules are here. And they decide
+02:37 who's let in. And here's the part that
+02:39 really gets me. These models learned
+02:41 from us. From everything humanity ever
+02:43 put online. your posts, your code, your
+02:46 writing. It was trained on all of us.
+02:49 And now suddenly we're the ones who
+02:51 can't be trusted to use it. My honest
+02:53 read, this might be the moment the dream
+02:55 quietly died. The dream that AI would be
+02:57 for everyone, that a kid with a laptop
+03:00 anywhere could use the same intelligence
+03:02 as a billiondoll company. I really hope
+03:04 I'm wrong, but if this isn't pushed back
+03:07 on now, it gets very hard to undo later.
+03:10 Your next MacBook and iPad just got more
+03:12 expensive. And the reason is AI. Here's
+03:15 the chain. AI runs in giant data centers
+03:18 and those eat huge amounts of memory
+03:20 chips. The same RAM and storage that
+03:22 sits inside your laptop. So much of it
+03:25 now goes to AI that less is left for
+03:27 everyone else and prices shot up. For
+03:30 months, Apple absorbed that cost. This
+03:32 week it stopped. In India, a MacBook Pro
+03:35 jumped 70,000 rupees overnight from
+03:38 about 1.7 lakh to 2.4 lakh. The iPhone
+03:42 was spared for now. And it's not just
+03:44 Apple. Microsoft just raised Xbox prices
+03:47 worldwide for the exact same reason with
+03:49 Dell, Lenovo, and Samsung right behind
+03:52 it. There's a name for this now, AI
+03:54 inflation. And here's one more twist.
+03:56 Part of why Apple's cheapest desktop,
+03:58 the Mac Mini, keeps selling out is AI
+04:01 itself. Builders are snapping them up as
+04:03 tiny private AI servers, running agents
+04:06 on them around the clock instead of
+04:07 renting the cloud. Free tools like
+04:09 OpenClaw and AI agent you run yourself
+04:12 helped push that trend enough that
+04:14 Apple's own CEO named agent demand as
+04:17 one reason the Mac Mini has been sold
+04:19 out for months. So AI hits your wallet
+04:22 from more than one side. It eats the
+04:24 memory that makes every Mac pressure and
+04:26 it's part of why the cheap one keeps
+04:28 selling out. And here's the part that
+04:30 stinks. While you pay more, the
+04:32 companies that make this memory are
+04:34 having the best year in their history.
+04:36 Micron, one of only three companies that
+04:38 make most of the world's memory, just
+04:40 posted record profits, and it's now the
+04:42 single most traded stock in America.
+04:45 More money flowing through it every day
+04:47 than Nvidia or Tesla. It's become the
+04:49 center of the whole AI trade. The AI
+04:52 boom is quietly making them rich, and
+04:54 you're covering the bill. That's the
+04:55 part nobody mentions about this AI race.
+04:58 For the first time, it just showed up on
+05:00 your receipt. Imagine adding a new hire
+05:02 to your team's group chat, one that
+05:04 never sleeps. That's basically what
+05:06 Anthropic just launched. It's called
+05:08 Claude Tag and for now it lives inside
+05:10 Slack, the app that serious companies
+05:12 use for work instead of running
+05:14 everything on WhatsApp. You type at
+05:16 Claude in any channel, hand it a task
+05:19 like build scheduled exports and it
+05:21 takes over. This is where it stops being
+05:23 a chatbot. It pulls the right files from
+05:25 your drive, breaks the job into steps,
+05:27 updates the docs, and post a checklist
+05:30 of what's done. And this isn't them just
+05:32 selling it. Anthropic says 65% of their
+05:35 own product team's code already gets
+05:37 written this way and they have been
+05:39 testing it internally to speed up
+05:41 product iteration and prove business
+05:43 value before rolling it out to
+05:44 customers. There's one cloud per channel
+05:47 so a teammate picks up right where you
+05:49 left off. Switch on ambient behavior and
+05:51 it stops waiting to be asked nudging
+05:53 stalled threads and flagging what
+05:55 affects your work. Now the obvious worry
+05:58 an AI loose in your company files. that
+06:00 answer.
+06:01 >> Claude has access to the systems it
+06:03 needs on a per team per channel basis.
+06:05 So Claude in the legal channel can see
+06:07 contract information. In the engineering
+06:09 channel, it edits the codebase. But if
+06:11 you tag Claude in the legal channel to
+06:13 edit the codebase, it won't. Not because
+06:16 it's being polite, but because it
+06:17 literally cannot see it. Memory respects
+06:20 the same boundaries. So what it learned
+06:22 in a private channel or a DM stays
+06:24 there. And just to repeat, Claude has
+06:26 its own account. So every credential use
+06:28 is logged. The catch, it's beta and only
+06:31 on the paid team and enterprise plans
+06:33 for now. Claw design also got a major
+06:36 update last week and it barely resembles
+06:38 the old one. A full masterass is in
+06:40 production. So if you want it, let us
+06:42 know and we'll prioritize it. But step
+06:45 back for a second because this is bigger
+06:46 than a Slackbot. Andre Karpathi, who
+06:48 just joined Anthropic, called it the
+06:51 third big shift in how we use AI. First
+06:54 it was a website you visit, then an app
+06:56 you download. Now, it's a co-orker that
+06:58 lives inside your company with your
+07:00 memory and your tools working right next
+07:03 to your team. And here's the part worth
+07:05 sitting with. The more Claude runs your
+07:07 company, the more of your company lives
+07:09 inside Anthropic. Ashwin Gopinat, an
+07:12 exMIT professor, put it sharply. He says
+07:15 Claude Tag is a Trojan horse and not
+07:17 because Anthropic is doing anything
+07:18 evil, just because the incentives are
+07:21 obvious. His point is this. Swapping the
+07:23 AI model is easy, but the memory of how
+07:26 your company actually runs. The
+07:28 workflows, the customer promises, the we
+07:30 tried that and it flopped lessons,
+07:32 that's the part that gets stuck inside
+07:34 one vendor. Models can be swapped. Your
+07:37 company's memory can't not easily. My
+07:39 honest read, this is the direction. Full
+07:42 stop. AI is going from a tab you open to
+07:44 a teammate you manage. So don't fear it.
+07:47 Start using it now. Just keep one rule
+07:49 in mind. Rent the intelligence from
+07:51 whoever's best. this month. But own your
+07:53 context. And what do I mean by your own
+07:55 context? Think of it like this. Context
+07:58 is everything your AI knows about how
+08:00 you work. Your files, your past chats,
+08:03 your steps, your little preferences.
+08:05 Right now, imagine all of that getting
+08:08 saved inside one company's app. The day
+08:10 they raise the price or shut it off or
+08:13 you want to switch, you can't just pick
+08:14 it up and walk out because your AI's
+08:17 whole memory of you lives in their
+08:19 house, not yours. Owning your context
+08:22 just means keeping that memory somewhere
+08:24 you control. So any AI can use it and no
+08:27 single company holds your work hostage.
+08:29 That by the way is exactly why open
+08:31 models matter so much right now. So far
+08:34 AI has mostly been good at talking about
+08:36 things. Nvidia just took a big step
+08:38 toward AI that can actually do science.
+08:41 They launched the Bionmo agent toolkit
+08:43 and the simplest way to understand it is
+08:45 this. Right now, an AI can read about
+08:48 how to design a medicine, but it can't
+08:50 run the real scientific tools to do it.
+08:52 NVIDIA just handed AI agents those
+08:54 tools. So, you type something like,
+08:56 "Design 10 protein binders for PDL1 and
+08:59 show me the results." The agent plans
+09:02 the steps, runs them on Nvidia's GPU,
+09:04 and drops the structures into a 3D
+09:06 viewer. And that matters because
+09:08 discovering a new drug normally takes
+09:10 years and billions of dollars. The first
+09:12 slice of that finding the molecules
+09:14 Nvidia says just went from days to
+09:17 minutes and anthropic and open AI are
+09:19 already plugging in. Quick one for the
+09:21 people who liked GLM 5.2 that free
+09:24 Chinese model we covered last week. A US
+09:26 team just dropped their own free open
+09:28 coding AI called Onith. And the
+09:31 interesting bit is how it was made.
+09:33 Normally when an AI writes code, a human
+09:35 sets up all the rules around it. how it
+09:38 should try things, when to retry, how to
+09:40 check its own work. On figures out those
+09:43 rules by itself, then solves the
+09:45 problem. Like a worker who works out the
+09:47 best way to do a job instead of waiting
+09:49 to be told. And it's completely free and
+09:51 open. Anyone can download it and even
+09:54 use it commercially. The takeaway:
+09:56 building powerful free AI isn't just a
+09:58 China thing anymore. The US is in this
+10:00 race, too. After China answered the
+10:02 Fable 5 ban with GLM 5.2, two, a free
+10:05 model anyone can download. Japan just
+10:08 came back with a completely different
+10:09 kind of answer. It's called Sakana Fugu
+10:12 and instead of being one model, it's a
+10:14 team of the top available AIs, GPT,
+10:17 Gemini, Claude's, Opus, and it splits
+10:20 your task across them, then hands back
+10:22 one combined answer. The clever part,
+10:24 since it's not tied to any single model,
+10:26 if one ever gets banned tomorrow, Fugu
+10:29 just swaps it out and keeps running. And
+10:31 get this, Sakana says it hits Fable 5
+10:34 level scores on many benchmarks without
+10:36 using Fable 5 at all since that's the
+10:38 model nobody outside the US can touch
+10:41 anymore. Now testers are still putting
+10:43 those claims through their paces. So we
+10:45 did, too. We ran it head-to-head against
+10:47 Cloud Fable 5 and built a full video
+10:50 around what we found. Go watch that
+10:52 next. But first, let's wrap up the
+10:54 week's other major updates. This week,
+10:56 OpenAI posted a fun tweet for Messi's
+10:59 39th birthday, showing off how playful
+11:02 its newest model has become. You just
+11:04 type goat birthday and it knows you mean
+11:06 Messi, wishes him happy birthday, goat
+11:08 emoji and all. That's the new GPT 5.5
+11:12 instant, the default chat GPT, the free
+11:14 100s of millions of people use every
+11:17 day. So, we tested that part. We asked
+11:20 it to plan a 5-day Kerala trip, four
+11:22 people 80,000 rupees, a backwater stay,
+11:25 a hill station, only two hotel changes,
+11:28 and one person who can't sit in a car
+11:30 for more than 3 hours. See that little
+11:33 pause before it answers? It's working
+11:35 through all of it, not rushing. And look
+11:37 at the choices. It dropped Alppy, the
+11:40 famous backwater, and picked Kumarakcom
+11:42 instead, which is closer, quieter, and
+11:44 has the same backwaters. The pricey
+11:46 housebo swapped for a lakeside resort
+11:49 and a day cruise to protect the budget
+11:51 and it explained every single call.
+11:54 Genspark just launched something that
+11:56 turns one sentence into a finished app
+11:58 design in seconds. It's called GenSpark
+12:01 design and it's powered by Claude which
+12:03 has genuinely good taste. Say you want a
+12:05 note-taking app. You type exactly that.
+12:08 Design a note-taking app and right away
+12:10 it builds a full set of polished
+12:12 screens. Not a rough sketch, actual
+12:14 finished designs. Don't like the look?
+12:16 You just tell it. Make it more playful
+12:18 and it redesigns the whole thing on the
+12:20 spot. New colors, illustrations, the
+12:22 works. Here's the part I love. You can
+12:24 literally draw on the screen, circle an
+12:26 empty corner, write, add a dark mode
+12:29 toggle, and appears right there where
+12:31 you drew it. Like sketching on a napkin,
+12:33 except it actually builds what you
+12:35 sketched. And it goes further than
+12:37 screens. From that one app, it builds
+12:40 you a matching landing page, even a
+12:42 product demo video, all in the same
+12:44 style. But this is the moment that
+12:46 matters. When you finally like it, you
+12:48 hit one button, build it, and it turns
+12:51 that whole design into real working
+12:53 code. Normally, this takes a designer,
+12:55 then a developer, and weeks of back and
+12:58 forth. You just did all of it yourself
+13:00 in one flow. We loved this one so much,
+13:02 we actually tested it ourselves and
+13:04 built a full tutorial for you. But
+13:06 you'll have to wait till the end. We've
+13:08 still got some exciting updates to get
+13:09 through first. Open AAI just put codeex
+13:11 inside the chat GPT app on your phone
+13:14 and it lets you run tasks on your
+13:16 computer from there. Your laptop stays
+13:18 on at home. You're out with just your
+13:20 phone and you can hand it work from
+13:22 wherever you are. Here's what that looks
+13:23 like. You type a message like grab the
+13:26 latest video from the launch folder and
+13:28 send it to the team on Slack. Your
+13:30 computer picks it up, opens the right
+13:32 app, makes the file, and posts it in
+13:35 Slack. You can see it working step by
+13:37 step on your phone. And if it's in the
+13:39 middle of a longer job and hits a point
+13:41 where it needs your okay, it sends that
+13:43 to your phone, too. You tap approve and
+13:46 it carries on so it's not stuck waiting
+13:48 for you to get back to your desk. You
+13:50 can also connect more than one machine,
+13:51 your laptop, a Mac Mini, and send work
+13:54 to whichever one you want. Right now,
+13:56 it's rolling out as a preview on iPhone
+13:58 and Android. So, it's early, but it's a
+14:01 useful shift. Google just launched
+14:03 something that could replace expensive
+14:05 coaching for a lot of students and it's
+14:08 completely free. It's called study
+14:10 notebooks inside the Gemini app. You
+14:12 start a notebook, upload your own
+14:14 material, your textbook, your syllabus,
+14:16 and tell it what you're preparing for.
+14:18 First, it gives you a quick quiz, not to
+14:20 grade you, but to find where you're
+14:22 weak. Then, it builds short,
+14:24 personalized lessons aimed right at
+14:26 those gaps. And a dashboard tracks what
+14:29 you've got down and what still needs
+14:30 work. And here's the part that hits home
+14:33 for India. If you know what neat and g
+14:35 coaching costs these days, it's gone
+14:37 completely insane. Lacks of rupees most
+14:39 families just can't spare. This already
+14:42 works for both in your own language and
+14:44 it costs nothing. So a kid who could
+14:46 never pay for a coaching class can now
+14:48 get a proper study plan made just for
+14:50 them. Good coaching has always been
+14:52 about who can afford it. This finally
+14:55 changes that. You can now drop AI agent
+14:57 straight into notion, the app a lot of
+14:59 people already use to run their
+15:01 projects. Before this, the AI lived in
+15:03 some other tab. You'd ask it something,
+15:06 wait around, then copy the answer back
+15:08 into Notion yourself. Now, the agent
+15:10 just works inside Notion, and you hand
+15:12 it tasks like you would a teammate.
+15:15 Watch this board. A bug shows up as a
+15:17 task card. A clawed agent grabs it,
+15:20 reads through your whole workspace to
+15:22 figure out what's going on, finds the
+15:24 problem, writes out the fix, and you can
+15:26 see the card slide from triage over to
+15:28 plan on its own. Then a person takes a
+15:30 quick look, says looks good, and just
+15:32 tags cursor. Cursor picks it up, writes
+15:35 the actual code, sends it off for
+15:37 review, and the card slides all the way
+15:39 to done. Nobody dragged it. The agents
+15:41 moved it, and you don't have to stop at
+15:43 one. You can run a whole team of these
+15:45 at the same time. Different jobs going
+15:48 at once, even after you've shut your
+15:49 laptop for the day. And the whole time
+15:51 you're the one calling the shots. You
+15:53 decide what each agent can touch and you
+15:55 can watch exactly what it's doing. So
+15:57 that project board you already live in,
+15:59 it just turned into your newest set of
+16:01 teammates. Bite Dance just revealed a
+16:03 new version of its AI video generator,
+16:06 Cance 2.5, and it pushes past what these
+16:09 tools could do before. Three things got
+16:11 a big jump. First, length. Most AI video
+16:14 tools max out around 15 to 20 seconds.
+16:17 Seance can now make a single video up to
+16:20 30 seconds long, the longest of any tool
+16:23 right now. Bite Dance says longer clips
+16:25 mean the scene actually holds together
+16:28 instead of cutting off. Second, you can
+16:30 feed it a lot more up to 50 things at
+16:32 once. Images, clips, audio, handed
+16:35 photos of over 10 different actors and
+16:38 it arranges them all into one party
+16:40 scene. Everyone in the right place. But
+16:42 the editing is what stood out. Third,
+16:45 you can change one piece of a video
+16:47 without redoing the whole thing. A
+16:49 lipstick ad, same scene, same action,
+16:52 just swap the model and the language.
+16:54 The same ad runs in English, French,
+16:56 Japanese, Spanish, Korean, and Hindi.
+16:59 Lips matching each one. One ad instantly
+17:02 remade for every market. It's in final
+17:05 testing now with a full release in early
+17:07 July. But the direction is clear. AI
+17:09 video is going from short single clips
+17:12 to something that can carry a whole
+17:13 scene. Next, a free open-source AI agent
+17:17 called Hermes got two updates that come
+17:19 down to one idea. An AI you actually
+17:22 control and one that actually remembers.
+17:24 First, a new blank slate mode. Most
+17:27 agents come fully loaded, every ability
+17:29 switched on from the start. Hermes has
+17:31 over 60, but blank slate keeps almost
+17:34 all of them disabled. You enable only
+17:36 what you need and your choices are
+17:38 permanent even after an update. Second,
+17:40 a command called /arn. Point it at
+17:43 almost anything you already know. A
+17:45 folder of documents, API docs, a manual,
+17:48 a PDF, even a task you just walked it
+17:51 through and it reads all of it and turns
+17:53 it into one clean reusable skill. Next
+17:55 time, one word and it runs the whole
+17:57 thing. No explaining it again. Two
+17:59 updates, same direction. an agent you
+18:02 shape that then shapes itself around
+18:04 you. Next, Microsoft just made Excel a
+18:07 lot smarter. And this one hits anyone
+18:09 who lives in spreadsheets. You can now
+18:11 teach Copilot to do your boring monthly
+18:14 reports for you. Think about the same
+18:16 report you rebuild every single month.
+18:18 Same steps, same formatting, hours gone.
+18:21 Now you walk Copilot through your
+18:23 process just once, save it, and after
+18:25 that, anyone on the team types one line
+18:28 and it's done. So, you ask it for the
+18:29 quarter end report with the commentary
+18:31 and all, and it just goes spins up a
+18:34 fresh sheet, fills in the tables,
+18:36 formats everything the way your company
+18:38 likes it, and even writes out what the
+18:40 numbers actually mean. The kind of
+18:42 report that used to eat someone's whole
+18:44 day finished in seconds. The catch, it
+18:47 needs the paid Microsoft Copilot plan,
+18:49 and this is still rolling out. But the
+18:52 direction is clear. Your spreadsheets
+18:54 are about to start doing the boring part
+18:55 for you. Two chip stories this week and
+18:58 they matter more than they sound. The AI
+19:00 race is moving into the chip itself, the
+19:03 part that actually runs everything.
+19:05 First, OpenAI built its own chip called
+19:08 Jalapeno. Until now, they rented their
+19:10 computing power mostly from Nvidia. This
+19:13 once designed to make Chat GPT faster
+19:15 and cheaper to run, and they even used
+19:17 their own AI to help design it. Then IBM
+19:20 packed nearly 100 billion tiny switches
+19:23 onto a chip the size of your fingernail,
+19:26 crossing a technical limit many thought
+19:28 was years away. The kind of leap that
+19:30 keeps every future chip getting faster,
+19:33 though this one's still about 5 years
+19:35 from real products. Different ends of
+19:37 the same shift. The next phase of AI
+19:39 gets decided by who builds the hardware
+19:41 to run it, not just the smartest app.
+19:44 Figma, the tool that nearly every
+19:46 designer in the world uses to design
+19:48 apps and websites, just launched Figma
+19:51 Motion. Now you can make your designs
+19:53 actually move right inside Figma. Here's
+19:56 why that's a deal. Till now, Figma could
+19:59 only make still screens. If you wanted a
+20:01 button to slide or a screen to animate,
+20:04 you had to take it into a separate tool,
+20:06 do the work there, then hand it to a
+20:08 developer to rebuild from scratch. It
+20:10 broke every time. Not anymore. You turn
+20:13 on a timeline, mark where a thing starts
+20:16 and where it ends, and Figma fills in
+20:18 the movement on its own. Slide, grow,
+20:21 spin, fade, all of it. You can even just
+20:24 type what you want, like make this text
+20:26 glitch, and the AI animates it for you.
+20:29 And the best part, a developer can pull
+20:31 that finished animation out as ready
+20:34 code and drop it straight into the real
+20:36 app without rebuilding it from scratch.
+20:38 It's free right now and still in early
+20:40 testing, so expect a few rough edges.
+20:43 Grock just added something in Grock
+20:45 build that moves it closer to the big
+20:47 coding tools. It's called /goal. And the
+20:50 idea is simple. Normally when you use AI
+20:53 to build something, you babysit it, it
+20:55 does one step, stops, waits for you,
+20:58 does the next. With this, you just give
+21:00 it the goal once and walk away. So you
+21:02 type something like rebuild this part of
+21:04 my app and it plans the whole thing out,
+21:06 breaks it into steps, does each one, and
+21:09 here's the key part. It checks its own
+21:11 work at the end. If something's broken,
+21:13 it keeps going until it actually works.
+21:15 You can pause it, steer it, or just let
+21:17 it run. Now, fair point. This isn't
+21:20 something brand new. Claude Code and
+21:22 Codeex have done this for a while now.
+21:24 So this is Grock catching up to the
+21:26 pack. For two years, lawyers have been
+21:28 facing problems for citing cases that
+21:30 don't exist because their AI made it up.
+21:33 Perplexity decided to solve this
+21:34 problem. It built computer for council
+21:37 and AI agent for legal teams where every
+21:40 answer links back to a real source you
+21:42 can verify. It securely connects the
+21:44 tools lawyers already use like docuign
+21:46 for contracts and midpage for case law.
+21:49 Say you ask it to build a tracker for US
+21:51 privacy laws. It routes to the best
+21:53 model for each task, whether that's GPT
+21:56 5.5, Claudson 4.6 or Gemini 3.1 Pro and
+22:01 provides each answer with citations. You
+22:03 can track regulatory changes in your
+22:05 mail, manage NDAs in one place. Track
+22:08 all trademarks and even research deeply.
+22:10 The computer does the heavy lifting and
+22:12 the judgment remains yours. Okay, this
+22:15 is Gen Spark, the tool I promised you.
+22:17 one line of text and it builds the whole
+22:19 thing, the landing page, the app, even
+22:21 the launch video for it. And the best
+22:23 part is we're going to do all of it
+22:24 together, every single click. So, let's
+22:26 just get straight into it. Genpark is
+22:28 one big AI workspace. When you log in,
+22:30 this is the home screen. And yeah, it
+22:32 does a lot. AI employees and office
+22:34 suite, content tools, all of it. But we
+22:37 only need one thing today. Up at the
+22:39 top, let's go to build. And under it,
+22:41 there's an option called design and
+22:43 prototype. Let's click that. and it'll
+22:45 open up a new tab that asks one simple
+22:47 question. What would you like to design?
+22:49 Look at everything it can make.
+22:51 Websites, mobile apps, marketing, social
+22:54 posts, even videos, posters, and
+22:56 documents. One tool for nearly every
+22:59 visual thing a solo founder needs. And
+23:01 if you've used Claude design, this is
+23:03 Genpark's take on that same idea. Funny
+23:06 enough, it's actually powered by Claude
+23:08 under the hood. So, let's build
+23:10 something real. And I know the screen
+23:11 looks busy right now, but don't worry
+23:13 about a single button on it. The way
+23:15 this works is really simple. We paste in
+23:17 a prompt. We answer a few quick yes or
+23:20 no questions and we hit present. That's
+23:22 the whole skill. Let's start with the
+23:24 landing page. So, let's paste in the
+23:26 prompt. An interactive landing page for
+23:28 a notes app called staying ahead with
+23:30 dragable stickers, flipping Polaroid
+23:33 notes, a community wall, a signup form
+23:35 in cream and dusty rose colors. That's
+23:38 the whole instruction. Let's hit enter.
+23:40 Now watch this because it doesn't just
+23:42 start drawing. It stops and thinks
+23:45 first. See, it spins up a little project
+23:48 over on the right, gives it a name, and
+23:50 writes itself a little checklist before
+23:52 it builds anything, what layout it
+23:54 should go with, what colors to use, what
+23:57 interactions it should have. It's
+23:58 planning the job before it does the job.
+24:01 Then it asks me a few quick questions to
+24:03 get the details right. I answered those
+24:05 off camera and you'll see every single
+24:07 one of them on the finished page in a
+24:09 second. Okay, it's done. Let's hit
+24:11 present. And there's our page. Let's go
+24:13 through it top to bottom. Up here, the
+24:15 hero with the handwritten title and a
+24:17 sticker you can drag around. Scroll down
+24:19 to these feature cards and watch what
+24:21 happens when I hover over one. See that
+24:23 it flips like a real Polaroid. Let's
+24:26 keep going. And here's a community wall
+24:28 with handwritten notes pinned onto it.
+24:30 And right at the bottom, a proper signup
+24:32 form. Now, let's prove this is actually
+24:35 real. Let me drag across the text on the
+24:37 page. See how it highlights? This isn't
+24:39 a screenshot. It's a real working web
+24:41 page with live text you could edit. This
+24:44 is wild. And those questions it asked
+24:46 me, they're all listed right here on the
+24:48 page. Oh, and staying ahead, that's
+24:50 actually my own community. So, building
+24:52 this one felt a little personal. A
+24:54 landing page is one thing. Now, let's
+24:56 build the whole app. So, let's head back
+24:57 to the chat. And this time, we tell it
+24:59 to design an app UI. And watch how it
+25:02 interviews us. one question at a time.
+25:04 It asks what platform we want. So we go
+25:06 with iPhone. Then it asks which screens
+25:08 to design and gives us a whole list.
+25:10 Home, the notebook, the editor,
+25:12 onboarding, settings, profile. So we
+25:15 just tick all of them. It asks if we
+25:17 want everything on one canvas. Yes.
+25:20 Whether to keep the same look as the
+25:21 landing page. Yes. How much of that
+25:23 handwritten style we want? Just a few
+25:25 touches. What interactions to wire up?
+25:28 Tapping a notebook to open it. Swiping a
+25:31 pen tool. And finally, how many
+25:33 variations of each screen? There's a
+25:35 little slider, so let's set it to three
+25:37 and hit continue. Here's the thing. That
+25:39 whole stretch felt like a designer
+25:41 sitting across from you asking what you
+25:43 want. But really, we were just clicking
+25:45 iPhone, ticking a few boxes, and saying
+25:47 yes. Now, before it draws anything, it
+25:50 plans it out again. See it thinking? It
+25:52 writes out a full plan, an 11 screen
+25:54 structure grouped into onboarding, the
+25:57 core app, discover, and social with the
+25:59 exact style it's going to use. And then
+26:02 look at this. It's given us 11 full
+26:04 phone screens. Every single one we asked
+26:06 for. Let's pan across slowly. Here's the
+26:09 onboarding. The first few screens
+26:10 someone sees when they open the app.
+26:13 Then we move into the core of the app.
+26:15 The shelf, the notebook, the editor.
+26:18 Over here is discover with search and
+26:20 browse. And then the whole social side.
+26:23 Zoom into any one of them and look at
+26:25 the detail, the toggles, the little
+26:27 handwritten touches. And if there's
+26:29 something you don't like, let's just
+26:31 grab the pen up in the corner, circle
+26:33 the thing we want to change, like this,
+26:35 and tell it what to fix. And if you
+26:37 change your mind, you just undo it.
+26:39 Okay, this next part I did not see
+26:41 coming. Honest, I expected a gimmick.
+26:44 Let's ask Gen Spark to make a launch
+26:46 video for the app we just designed. In
+26:48 the chat, we just type create a launch
+26:51 video for this app and hit enter. And
+26:53 just like before, it scopes the whole
+26:55 thing out first. It asks how long we
+26:58 want it. So let's say 30 seconds. It
+27:00 asks what dimensions. We'll go with 16
+27:03 by9. It asks how it should be built,
+27:06 animated, AI generated or cinematic.
+27:09 Let's go animated. It asked for the
+27:11 story line, a day in the life or a
+27:13 straight product walkthrough. We'll keep
+27:15 it the walkthrough. Which screens to
+27:17 feature? All of them. The mood,
+27:19 mysterious and teasing, the audio, voice
+27:21 over, music, and sound effects. Then it
+27:24 asks for the little signature touches,
+27:26 handdrawn ink, stickers, landing, a
+27:28 cursor trail, and we say yes to all
+27:31 three. And finally, how we want it
+27:33 delivered. A player plus a file we can
+27:35 download. Continue. It plans it out one
+27:38 more time. And then it renders. That
+27:40 takes a moment. So let's jump straight
+27:42 to the result and hit present. Watch
+27:44 this. handdrawn elements animating in
+27:46 the title appearing and then a clean fly
+27:49 through of the exact app screens we
+27:51 built 2 minutes ago with music and
+27:53 motion behind it. So, one prompt just
+27:55 gave us a landing page, a full app
+27:58 design, and a finished launch video.
+28:00 That's the work of a designer, a
+28:02 developer, and a video editor. It's
+28:04 night and day from how this used to
+28:06 work. Before we ship it, two quick
+28:08 things that'll make this yours for the
+28:10 long run. First, the look. We don't want
+28:12 to rebuild the same style every single
+28:14 time, right? So, let's save it as a
+28:16 design system. We open it up, click use
+28:19 in new project, and now it shows up in
+28:21 my designs as a saved card. So, from now
+28:24 on, anytime you start something new, you
+28:26 click that card first, and everything
+28:28 you make just stays on brand
+28:30 automatically. Second, templates. If you
+28:33 don't feel like starting from a blank
+28:34 prompt at all, GenSpark already has
+28:36 ready-made ones, websites, social posts,
+28:39 documents. So, let's open this document
+28:42 template. We get a full preview of it.
+28:44 And if we like it, we just click make
+28:46 this template yours. And it prepares our
+28:48 own editable copy. And there it is,
+28:50 ready for your words and your brand. So,
+28:52 now you've got two ways in. You either
+28:54 describe something from scratch or you
+28:56 grab a template and make it your own.
+28:58 Either way, you're never staring at a
+29:00 blank page again. Now, this is the part
+29:02 that actually matters. Everything so far
+29:04 has been a design. A really good one,
+29:06 but still just a design. And to make it
+29:09 real, we have to put it live on the
+29:10 internet. So back in our app, up in the
+29:13 corner, there's a build button. Let's
+29:15 click it. Choose app and watch the
+29:17 screen split into two. On the left, Gen
+29:19 Spark actually starts writing the code
+29:22 line by line. And you don't have to read
+29:24 a word of it. Just watch it work. And on
+29:26 the right, a real working version of the
+29:28 app shows up. Let's tap through it.
+29:31 Scroll the notes. Drag things around.
+29:33 Open the screens we just designed. It
+29:35 all works. This isn't a picture anymore.
+29:37 It's a running app and we can do the
+29:39 exact same thing for the website. Then
+29:41 when we're ready, we can put it live on
+29:43 the internet for real. See these options
+29:45 up here? Publishing, hosting, version
+29:48 history, even a GitHub connection. Some
+29:50 of those words look technical. I get it.
+29:52 But you don't have to touch any of them.
+29:54 Genpark sets it all up and walks you
+29:56 through it. So, let's zoom all the way
+29:58 out. You started with one sentence and
+30:01 you walked away with a landing page, a
+30:03 full app design, a launch video, and a
+30:05 real live product on the internet. One
+30:07 person, one afternoon, no engineering
+30:10 team. So that's the week. And that AI
+30:12 from Japan that claims to match the band
+30:14 Fable 5, we put them head-to-head and
+30:16 the result genuinely surprised us. That
+30:18 full test is waiting for you too, right
+30:20 on the screen. and everything from
+30:22 today, every tool, every link, every
+30:24 guide, it lands inside our staying ahead
+30:27 community before it ever hits YouTube.
+30:29 That link is in the description. Come
+30:30 grab it. Last thing, AI moves a full
+30:33 week ahead every 7 days. And if you're
+30:35 not subscribed, YouTube simply won't
+30:36 show you the next one. So, subscribe and
+30:38 let's stay ahead of it together. See you
+30:40 next week.

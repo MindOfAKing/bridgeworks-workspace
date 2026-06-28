@@ -1,0 +1,253 @@
+00:01 How is it going? Joshua Thompson here
+00:04 talking about AI search. I want to go
+00:07 through and and talk about, you know,
+00:09 where are we in AI? How does AI search
+00:11 work? How much should you be panicked
+00:14 about it? And, you know, what is the
+00:17 future? What what's my look? Where, you
+00:20 know, where do we where do I think we're
+00:21 going with this? And what what's going
+00:23 to change? Now this is ever evolving but
+00:27 I think it's good to understand how AI
+00:29 works especially locally for for any
+00:31 business. So let's jump into this. You
+00:34 know I titled this AI the rise of AI
+00:38 local SEO is dead. Long live local SEO.
+00:43 Obviously this is the year 2025 where
+00:46 SEO is dead and everyone buys stuff from
+00:50 the phone book again, right? So AI is
+00:54 killing SEO and the internet. So that
+00:58 was a joke. Can't tell it's a joke.
+01:00 Whatever. So how does local AI search
+01:04 work? Let's take a look here. And I
+01:05 started with this screenshot here that I
+01:07 think is interesting. Just this idea of
+01:11 how AI is doing. This is actually the
+01:13 process of me doing some AI searches and
+01:16 looking at the results, right? We can
+01:18 see it kicks off some searches. It looks
+01:21 at some of the websites and then it
+01:23 gathers some information from maps. And
+01:25 this is Google Google's AI. But right
+01:29 there, that gives us some really
+01:30 interesting information that we'll
+01:33 continue to discuss. Just make sure I'm
+01:35 recording here. So, here is just some
+01:39 proof that I know what I'm talking about
+01:41 a little bit. Here's a AI search with me
+01:43 showing up number two. Here's a chat GPT
+01:47 search with me showing up number two.
+01:50 And then here is actually where I am
+01:52 showing up on this search which is
+01:54 number three, right? And number two out
+01:57 of the actual local businesses, right?
+01:59 With Clutch being an aggregator up there
+02:02 at the top result. Here's another uh
+02:05 client of mine, right? A gutter and
+02:08 roofing company. Here's them showing up
+02:09 number one for their search on Google AI
+02:13 on chat. showing up number one for their
+02:15 search here. And on actual Google Maps
+02:19 showing up number one for their search
+02:21 and then here's them showing up number
+02:24 one for their search in organic
+02:26 listings. So I just I give you this to
+02:30 to show you and and discuss what is
+02:33 happening here, right? What is actually
+02:35 happening with AI search? Well, here is
+02:39 me pulling from chat exactly what it did
+02:44 to get those results. So, as you can
+02:46 see, what AI is doing is it's taking the
+02:52 the search we've done and it's compiling
+02:55 a bunch of similar searches together and
+03:00 then giving us a result based on what
+03:02 shows up in those searches.
+03:05 So, it really is just doing, you know,
+03:11 what the searcher would normally do, but
+03:13 instead of one search, it's spreading it
+03:16 across and aggregating that information.
+03:18 So, if anything, now instead of having
+03:22 to show up for one search, we have to
+03:24 make sure we so show up for multiple
+03:26 searches if we want to show up in the AI
+03:30 SEO results.
+03:32 So, you know, chat GBT says that it's
+03:36 neutral and people wonder, you know,
+03:38 where do I have to rank if I want to
+03:39 rank in chat? Well, you know, there's
+03:42 two important studies here from search
+03:44 engine land on how chat simply uses
+03:47 Google. Here's number one, this article
+03:50 here about using Google. Here's another
+03:53 one where chat GPT is simply using
+03:56 Google which is basically telling us
+04:00 that if we want to rank locally on AI
+04:04 search, we need to number one rank on
+04:08 Google for multiple searches related to
+04:11 our business in the local area. Number
+04:13 two, rank on Google maps for potentially
+04:17 multiple searches in our local area. And
+04:20 then we need relevant content to uh to
+04:24 rank pages with on these results. Now
+04:28 the content, I'm not getting too deep
+04:30 into this, but I do think there's an
+04:32 interesting element here that you can
+04:34 also sway the content that AI puts out
+04:37 there about your business with something
+04:40 like a 15se secondond elevator pitch
+04:42 that you put on your website. Right? If
+04:44 I put on my website, you know, we've
+04:47 done 10,000 roof, you know, roofing
+04:52 installations or or whatever, 10,000
+04:54 fivestar reviews, whatever, whatever it
+04:56 is about us. If you put that information
+04:59 on your site in a lot of places, the AI
+05:01 will pick that up. you can kind of
+05:03 influence what it says, especially if
+05:06 you have these really strong 15 second,
+05:08 as I call them, like elevator pitch
+05:11 pieces of content that you kind of use
+05:13 over and over again. But, um, you know,
+05:16 that's that's just kind of what shows
+05:19 up, right? So,
+05:21 how do we rank higher in AI? And this is
+05:24 what I call don't step in the crap.
+05:28 There is a lot out there right now
+05:30 that's trying to sell fear and
+05:33 complexity because that's how people get
+05:36 you to spend money. But that doesn't
+05:38 mean it's going to be results for you.
+05:40 And this has been happening for a long
+05:42 time, right? Things like website speed,
+05:45 schema, AEO, GEO, they're just ways to
+05:49 over complicate
+05:51 what you need to do to rank on Google
+05:55 and now on AI.
+05:57 But they're not big ranking factors. In
+06:00 fact,
+06:02 you should really be under be able to
+06:04 simply to understand SEO pretty simply
+06:07 because SEO is actually relatively easy
+06:10 to understand. It's just time consuming
+06:13 to implement well. Otherwise,
+06:15 understanding SEO should be very simple
+06:19 to do. Um, and that that's this is how I
+06:22 explain it, right? This is my October
+06:24 method that I like to use just to break
+06:26 everything down into what works to rank
+06:30 my business higher locally. So, OCTBR
+06:35 October optimize everything. Make sure
+06:39 you have the right keywords and the
+06:42 right uh Google business profile name
+06:46 and you have the right, you know,
+06:47 categories, all that. Optimizing, right?
+06:51 making sure your site speed isn't so
+06:52 slow that people don't want to be there,
+06:54 but you know, optimizing your website
+06:57 and your and your Google business
+06:59 profile. Two is content, targeted
+07:02 content targeted around specific
+07:04 searches. Once again, if I want to show
+07:07 up for roofing in Boisey, well, I better
+07:09 have content on my website that about
+07:12 roofing in Boisey or there's no way I'm
+07:16 going to show up for that search.
+07:18 Similarly here you need to know or
+07:22 somebody needs to know what searches you
+07:25 are trying to rank for
+07:28 and and creating content around those
+07:32 searches so that you can rank right.
+07:34 You're not going to be able to rank
+07:35 without targeted content. Then comes the
+07:40 process that is that takes time and is
+07:44 what separates those who rank from those
+07:46 who don't. Backlinks and reviews.
+07:49 Backlinks and reviews. Backlinks and
+07:52 reviews. Right? This is how you build
+07:54 authority. This is how you build trust.
+07:57 This is what shows customers and Google
+08:00 that you are a solid business, right?
+08:05 It's it really is what separates
+08:07 everyone. No one wants to believe that
+08:08 backlinks and reviews matter so much,
+08:11 but they do, right? They're typically
+08:13 what separates the the top from the
+08:15 bottom, right? In any market. So
+08:19 cool. When's it time to panic? You know,
+08:22 maybe it's starting to get close to the
+08:24 time to panic, but you know, to me,
+08:27 look, here's one business. They had
+08:29 seven visitors from chat over a 30-day
+08:31 period. Here's another. They had two
+08:34 visits from chat. And I can't even tell
+08:36 you that half of these or all these
+08:37 aren't me, right? So
+08:40 I think you know you have to look at
+08:43 where your customers are and then
+08:49 and then you know spend money on those
+08:53 platforms kind of equivalently to where
+08:56 they are at. So you can be preparing for
+08:59 AI and look I'm starting to see much
+09:01 more much more come from AI even over
+09:04 the last 4 weeks 6 weeks more leads more
+09:08 traffic it is happening right
+09:12 but it's not even anywhere near what
+09:14 you're going to get from Google Maps or
+09:16 even Google search the nice thing is by
+09:19 preparing for by by doing what you need
+09:22 to do on maps and search you're going to
+09:24 be naturally preparing yourself for AI I
+09:28 so you don't even really have to spend
+09:30 on AI specifically if you're covering
+09:33 your other bases with maps and with
+09:36 search. So go where your customers are
+09:39 at, right? So what should you do? What
+09:41 should a local business be doing right
+09:43 now? Stacking reviews, building
+09:46 authority with backlinks, and creating
+09:49 content, making sure you have that
+09:50 content around your your business,
+09:54 right?
+09:56 um targeted content. That's that is what
+10:00 matters. So the more things change, the
+10:04 more they stay the same. And that's what
+10:06 I'll end with is look, Google has
+10:10 already gone through so many iterations
+10:13 of how to filter out garbage from from
+10:18 the the good, the helpful. right now.
+10:21 Not everything that ranks is is the
+10:23 best, but it's authoritative. Those
+10:27 websites often have strong backlinks.
+10:30 They build trust on maps. They have
+10:32 reviews. Right? This has come through a
+10:35 process of iteration and finding ways to
+10:39 get out the riff raff. So in my mind, it
+10:44 doesn't matter if somebody starts a new
+10:47 search engine or a new AI engine, they
+10:51 are going to find their way back to this
+10:53 place and then continue to iterate,
+10:56 right? How do we get to a point where
+10:58 you trust websites? Well, okay, what
+11:01 about websites and how much they mention
+11:03 other websites? What if good websites
+11:06 mentioning other websites makes them
+11:08 seem more uh uh trustworthy? Right?
+11:12 That's where backlinks come from.
+11:14 Reviews on your Google profile, right?
+11:16 All of these things have come through
+11:18 iterations and I don't see them going
+11:21 anywhere anytime soon. So, if you want
+11:25 to prepare for AI, these are the things
+11:27 you want to do. Hopefully, this makes
+11:30 sense. Um, if you have any questions or
+11:32 you want to talk more about this or
+11:34 anything does make sense, uh, feel free
+11:36 to reach out to me, joshitbeamseo.com.
+11:41 Otherwise, you know, I look forward to
+11:45 getting more from AI in the next few
+11:48 years and seeing where all this leads. I
+11:51 think it's a quite interesting time to
+11:53 be an SEO and to be a small business
+11:55 owner. I think there's a lot of
+11:56 opportunity here. That's all I got.
+11:58 We'll see you later. Peace.

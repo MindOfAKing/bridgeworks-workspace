@@ -1,0 +1,75 @@
+/* ===========================================================================
+   Oliviks — Color tokens
+   From the Oliviks Brand Book by Pomelli (04. Color Palette)
+   Barn Red #761212 · Papaya Orange #FAB73A · Chalk White #F7F9F4 · Jet Black #000
+   ===========================================================================*/
+:root {
+  /* ---- Brand core (exact brandbook hexes) ---- */
+  --barn-red:       #761212;   /* primary brand color */
+  --papaya-orange:  #FAB73A;   /* primary accent / appetite */
+  --chalk-white:    #F7F9F4;   /* brand background */
+  --jet-black:      #000000;   /* brand ink */
+
+  /* ---- Barn Red ramp (warm-shifted around #761212) ---- */
+  --red-900: #3d0808;
+  --red-800: #5a0e0e;
+  --red-700: #761212;  /* base */
+  --red-600: #8f1c1c;
+  --red-500: #a83030;
+  --red-300: #d99090;
+  --red-100: #f3dcdc;
+  --red-50:  #faecec;
+
+  /* ---- Papaya Orange ramp ---- */
+  --papaya-700: #c98a16;
+  --papaya-600: #e6a328;
+  --papaya-500: #fab73a;  /* base */
+  --papaya-400: #fcc865;
+  --papaya-200: #fde3ad;
+  --papaya-100: #fef2d8;
+  --papaya-50:  #fff9ec;
+
+  /* ---- Warm neutrals (tinted toward Chalk White, low chroma) ---- */
+  --neutral-0:   #ffffff;
+  --neutral-50:  #f7f9f4;  /* chalk white */
+  --neutral-100: #eef0ea;
+  --neutral-200: #e1e3db;
+  --neutral-300: #cdcfc7;
+  --neutral-400: #a3a59d;
+  --neutral-500: #74766e;
+  --neutral-600: #54564f;
+  --neutral-700: #3a3b36;
+  --neutral-800: #232420;
+  --neutral-900: #121210;
+  --ink:         #000000;  /* jet black */
+
+  /* ---- Semantic aliases ---- */
+  --brand-primary:        var(--barn-red);
+  --brand-primary-hover:  var(--red-800);
+  --brand-primary-press:  var(--red-900);
+  --brand-accent:         var(--papaya-orange);
+  --brand-accent-hover:   var(--papaya-600);
+
+  --text-strong:   var(--neutral-900);
+  --text-body:     var(--neutral-700);
+  --text-muted:    var(--neutral-500);
+  --text-on-red:   var(--chalk-white);
+  --text-on-accent:var(--neutral-900);
+  --text-link:     var(--barn-red);
+
+  --surface-page:   var(--chalk-white);
+  --surface-card:   var(--neutral-0);
+  --surface-sunken: var(--neutral-100);
+  --surface-ink:    var(--neutral-900);
+  --surface-accent: var(--papaya-50);
+
+  --border-subtle:  var(--neutral-200);
+  --border-default: var(--neutral-300);
+  --border-strong:  var(--neutral-400);
+
+  /* ---- Status (derived to match warm palette) ---- */
+  --success: #2f7d4f;
+  --warning: var(--papaya-600);
+  --danger:  var(--red-600);
+  --info:    #2b6b8f;
+}

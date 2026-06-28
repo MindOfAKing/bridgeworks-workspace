@@ -1,0 +1,14 @@
+00:00 I used AI to apply for 100 jobs in a
+00:02 single day and it landed me four real
+00:04 interviews. Just open Claude, go to
+00:06 connectors, install Appify, done. Now
+00:09 drop your resume in the chat and paste
+00:10 this one prompt and hit run. Claude now
+00:13 starts pulling live listings, the
+00:14 highpaying roles you are actually
+00:16 qualified for. You get the job title,
+00:18 the salary range, and the exact reason
+00:20 you're a fit. And every job comes with a
+00:22 fit score out of 100 so you can
+00:25 prioritize. comment job and I'll share
+00:27 the prompt and the full step by

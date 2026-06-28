@@ -229,3 +229,59 @@ Area: AI Delivery Verification, Website Production System, Cost Governance
 Change: Add workflow-fit checks before agentic delivery: PRD, review surface, verification method, cost cap, rollback path, and model/tool split for planning, execution, and review.  
 Evidence file: `pipeline/youtube-scout/transcript-extractions/yt-20260627-003-coding-agent-workflow-fit.md`  
 Status: Needs checklist row.
+
+## 2026-06-28
+
+### Action: Add AI Visibility Foundation QA Row
+
+Source: FutureProof / TryFocal - `The Ultimate AI Visibility Checklist (AEO/GEO for 2026)`  
+Decision: Adapt  
+Area: GEO / AEO, Foundation Website Production, Digital Growth Engine Reporting  
+Change: Add checks for crawler access, JavaScript-visible content, schema, direct answer blocks, FAQs, truthful comparison tables, outcome-specific review guidance, and external source mentions.  
+Evidence file: `pipeline/youtube-scout/transcript-extractions/yt-20260628-001-ai-visibility-foundation-checklist.md`  
+Status: Needs checklist integration. No gray-hat tactics, fake reviews, spam communities, or AI-ranking guarantees.
+
+### Action: Add Context Ownership Gate
+
+Source: Vaibhav Sisinty - `Claude's New Update Is Scarier Than You Think (+18 AI Updates)` and Patrick Debois - `Context Is the New Code for AI Agents`  
+Decision: Adapt  
+Area: Agency Operations, AI Growth Systems, Delivery Verification, Knowledge Map  
+Change: Add a gate for source location, exportability, access boundary, verification, context drift, cost, and client-data approval before adopting AI coworker, skill, agent, or connector workflows.  
+Evidence file: `pipeline/youtube-scout/transcript-extractions/yt-20260628-002-context-ownership-agent-work.md`  
+Status: Needs SOP row. No paid coworker, Copilot, or private connector adoption without approval.
+
+### Action: Add Root Bottleneck Check To Audit Previews
+
+Source: Alex Hormozi - `You Step on the Tail, But You're Looking at the Mouth`  
+Decision: Adapt  
+Area: Sales Qualification, Foundation Offer, Client Audit Previews, Scope Control  
+Change: Add a pre-audit check for acquisition, conversion, retention, value capture, delivery capacity, and visibility before prescribing website, automation, or GEO work.  
+Evidence file: `pipeline/youtube-scout/transcript-extractions/yt-20260628-003-root-bottleneck-diagnosis.md`  
+Status: Needs template integration.
+
+### Action: Create Foundation Mockup-First Sales Loop Checklist
+
+Source: `How to Sell Websites to Local Businesses In 2026 (START HERE)`  
+Decision: Adapt  
+Area: Foundation Offer, Sales And Prospecting, Audit Previews  
+Change: Create a proof-before-pitch checklist: prospect fit, visible website gap, one small mockup or audit screen, permission-based message, discovery questions, outcome math, and recurring-care qualification.  
+Evidence file: `pipeline/youtube-scout/transcript-extractions/yt-20260628-004-mockup-first-foundation-sales.md`  
+Status: Needs checklist. No outreach, free full build, or platform switch without Emmanuel approval.
+
+### Action: Add Local SEO And AI Search Signal Stack To Foundation QA
+
+Source: `Local SEO Signals That Actually Get Better SEO Results in 2026!` and `How Ai Search Actually Works (2026) - Understanding Ai Local SEO`  
+Decision: Adapt  
+Area: Foundation Website QA, GEO / AEO, Local SEO, Digital Growth Engine Reporting  
+Change: Add checks for GBP clarity, service/location page support, direct answer block, ethical review strategy, citations/backlinks, and a reporting split between local fundamentals and AI visibility experiments.  
+Evidence file: `pipeline/youtube-scout/transcript-extractions/yt-20260628-005-local-seo-ai-search-signal-stack.md`  
+Status: Needs QA and reporting integration. No fake reviews, paid backlink/citation campaigns, or AI-ranking guarantees.
+
+### Action: Add AI Subscription Router To Tool-Spend Gate
+
+Source: Paul J Lipsky - `ChatGPT Plus vs SuperGrok in 2026 (Don't Waste Your Money)`  
+Decision: Adopt as cost guardrail  
+Area: Finance Discipline, AI Tool Routing, Solo Operator Workflow  
+Change: Add a router before paid AI changes: job type, existing-tool capability, monthly cost, weekly frequency, data exposure risk, approval needed, and proof task.  
+Evidence file: `pipeline/youtube-scout/transcript-extractions/yt-20260628-006-ai-subscription-router.md`  
+Status: Needs SOP row. No SuperGrok or paid AI upgrade from this run.

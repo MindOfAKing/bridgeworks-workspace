@@ -1,0 +1,953 @@
+00:00 What if I told you that building a
+00:02 website in about 10 minutes could
+00:04 realistically make you $2 to $5,000
+00:08 every single month, not from ads or
+00:10 views, but by helping local businesses
+00:12 that already need this. So around 60% of
+00:15 small businesses still have outdated
+00:17 websites or no website at all. So that
+00:20 gap is the opportunity and it's exactly
+00:23 where this business model fits. So, in
+00:24 this video, I'm going to show you how to
+00:26 find clients who genuinely need your
+00:29 help, how to build professional websites
+00:31 in minutes using Base 44, and the
+00:33 strategies that actually work when it
+00:35 comes to closing deals. I'll also show
+00:37 you how to turn simple website builds
+00:40 into ongoing monthly retainers that can
+00:43 realistically reach $5,000 or more. And
+00:46 the reason this works is Base 44. Its AI
+00:48 lets you move fast and produce
+00:50 professional results without dealing
+00:52 with the usual headaches of WordPress,
+00:55 Wix, or custom coding. And with over
+00:57 400,000 users already using it, Base 44
+01:00 makes this approach scalable and
+01:02 practical, even if you're just getting
+01:04 started. So, all right, let's get into
+01:06 it. So, first things first, I've added a
+01:08 special link to Bass 44 in the
+01:10 description below. So, when you join B4
+01:12 through my link, you'll get free access
+01:14 to the B44 master class where you're
+01:17 going to learn how to build and sell
+01:19 websites, apps, and SAS businesses. Now,
+01:22 normally this master class costs 299
+01:25 bucks, but if you're watching this
+01:26 video, you can join completely free
+01:28 using the link below. So, let's start
+01:30 with one of the easiest ways to find
+01:33 local business clients, and that's
+01:34 Google Maps. Once you know what to look
+01:36 for, it's a gold mine. So, I'm going to
+01:38 open up Google Maps here and search for
+01:40 something like plumbers near me, right?
+01:42 Since I am in Amsterdam, I'm going to
+01:44 search for plumbers in Amsterdam. And
+01:47 I'm going to scroll through the listings
+01:49 on the map. And what we're looking for
+01:51 are businesses that don't have a real
+01:53 website or are relying on something
+01:55 like, let's say, Facebook Marketplace
+01:57 instead. So, when you click into a
+01:59 listing, check the website button. If
+02:01 there's no site or it links to social
+02:03 media, that's a strong signal they need
+02:06 help. In more competitive cities, it can
+02:08 be harder to find businesses with no
+02:10 website at all. Most plumbers I found
+02:12 already had sites which actually shows
+02:15 just how important SEO is. And even so,
+02:17 if a listing doesn't clearly show a
+02:19 proper website, that's still an
+02:21 opportunity. So, as I go through these
+02:23 results, I'm tracking everything in a
+02:25 simple Google sheet. Business name,
+02:27 their contact info, website status, and
+02:30 review count. Nothing too fancy, just
+02:32 enough to stay organized. I'm also going
+02:34 to quickly check their existing website
+02:36 if they have one because outdated
+02:38 designs, broken links, or sites that
+02:40 haven't been updated in years are all
+02:42 still great opportunities. Reviews
+02:44 matter, too. Businesses with around 20
+02:46 to 100 reviews are usually established,
+02:49 active, and able to afford ongoing
+02:51 services. So, once you start doing this
+02:53 consistently, you're going to realize
+02:55 how many solid opportunities are just
+02:57 sitting there on Google Maps waiting for
+03:00 someone to reach out. Once you do have a
+03:02 list of businesses, the next question is
+03:05 simple. What do you actually say? So,
+03:07 the good news is that you don't need to
+03:08 say anything fancy or salesy. Simple
+03:11 direct messages work best for businesses
+03:14 that already have a website. The angle
+03:16 is improvement. You're not criticizing,
+03:19 you're showing initiative. A message
+03:21 like this works well. Hey, business
+03:23 name. I noticed a few things on your
+03:25 website that are easy to fix. I built a
+03:27 new version optimized for more leads.
+03:30 You want to take a look? And for
+03:31 businesses without a website, it's even
+03:33 more straightforward here. Something
+03:35 like this. Hey, business name. I was
+03:37 looking for your website, but I couldn't
+03:39 find one, so I built one for you. Would
+03:41 you want to check it out? And the key
+03:42 here is leading with value. You're not
+03:44 asking if they want help. You're already
+03:46 showing them something that already
+03:49 exists. And you can tweak this slightly
+03:51 by industry, too. So, for restaurants,
+03:53 for example, focus on convenience. Hi,
+03:55 restaurant name. I noticed Kasa Mexico
+03:58 doesn't have online ordering. I built a
+04:00 quick system where customers can order
+04:02 from their phones. Do you want to see
+04:04 it? And for real estate, you can focus
+04:06 on leads and credibility. So for fitness
+04:08 studios, you can focus on bookings. The
+04:10 structure stays the same. You notice a
+04:13 problem, you build a solution, and then
+04:14 you just ask permission to show it. As
+04:16 for delivery, email, social DMs, phone
+04:19 calls, and even inerson outreach, all
+04:21 those can work. The channel matters less
+04:23 than the message. And if you keep it
+04:26 simple and value first, these scripts
+04:28 work across the board. Prospecting
+04:30 social media is another strong way to
+04:33 find clients as long as you don't treat
+04:35 it like spam. Now, the goal here is to
+04:37 be personal, observant, and helpful.
+04:41 Instagram is a great place to start.
+04:42 Look up local businesses like
+04:44 landscaping companies and then scan
+04:46 their profiles. And a lot of them post
+04:48 great work, but have outdated bios,
+04:51 broken website links, or no clear call
+04:53 to action. And that is your opening.
+04:55 Instead of pitching, send something more
+04:57 personal like, "Hey, business name. I
+05:00 love the work you did on whatever
+05:01 project that was. I noticed your website
+05:03 link isn't working, so I built a quick
+05:06 mockup for your business that captures
+05:08 leads automatically. Mind if I share it
+05:10 with you?" And because this message is
+05:12 specific and it is value first, it
+05:14 doesn't feel salesy. Approaches like
+05:16 this often get response rates in the 30
+05:18 to 40% range, which is far higher than
+05:21 generic cold DMs. Facebook works well,
+05:24 too, especially local business and
+05:26 community groups. When business owners
+05:28 post about needing a website update or
+05:31 losing customers, well, then you can
+05:33 offer a free mockup that shows how a
+05:35 modern site solves their problem, and
+05:37 that positions you as helpful, not
+05:39 pushy. LinkedIn is best for B2B services
+05:42 like consultants, coaches, and
+05:44 accountants. After connecting, a simple
+05:46 follow-up like this helps. I help
+05:48 profession capture more qualified leads
+05:51 through automated systems. Would a
+05:53 10-minute mockup for your business be
+05:56 useful? That works well because it
+05:57 focuses on ROI and efficiency. A simple
+06:00 conversational message often performs
+06:02 best. So again, when you lead with value
+06:05 and you show a real mockup, reply rates
+06:08 around 30 to 35% are common and many of
+06:10 those conversations turn into discovery
+06:12 calls. But not everything has to happen
+06:15 online. Some of the best clients come
+06:17 from simply showing up locally and
+06:20 having real face-to-face conversations.
+06:23 Chamber of Commerce events and local
+06:25 networking mixers are a great place to
+06:27 start. These are full of business owners
+06:29 who are already open to meeting people
+06:32 and you don't need a complex pitch. You
+06:34 just need something simple that works
+06:36 like this. I help local businesses
+06:38 capture leads they're currently losing.
+06:41 Would you like to see what I built for a
+06:43 similar business? And then from a single
+06:45 event, it's realistic to collect the say
+06:47 five to 10 contacts. And the key is
+06:49 following up within 24 hours with
+06:51 something personalized, ideally a quick
+06:54 mockup. Referral partnerships are
+06:56 another strong channel too. So think web
+06:58 designers who are overloaded or
+07:00 marketing agencies that need fast
+07:02 execution or consultants whose clients
+07:05 need websites. So instead of competing,
+07:08 you become their go-to solution.
+07:10 Offering a 20 to 30% commission on
+07:12 recurring revenue gives them a clear
+07:15 incentive to send clients your way. You
+07:18 can also create visibility. Wearing a
+07:20 shirt like I build websites in 15
+07:21 minutes. Ask me how. At things like
+07:24 coffee shops or co-working spaces
+07:26 naturally sparks conversations and
+07:28 removes cold outreach altogether. And
+07:31 finally, there's the doortodoor approach
+07:33 for high value prospects. This works
+07:36 best for businesses with clearly
+07:38 outdated websites. You just show up with
+07:40 an iPad, pull up the current site, then
+07:43 show a quick mockup that you built, and
+07:44 then you ask them, "What do you think?"
+07:46 Now, that combination of in-person
+07:48 presence and immediate value converts
+07:50 surprisingly well. So, now that we've
+07:52 covered how to find clients, let's go
+07:54 ahead and build a website in Base 44.
+07:56 After you create an account and you log
+07:58 in, you'll land on the dashboard here.
+08:01 And this is where all of your projects
+08:02 live and where you start new builds.
+08:05 From there, you jump into the AI
+08:07 generation screen. Describe what you
+08:09 want, and then B 44 creates the
+08:11 structure for you. A quick note here, B
+08:13 44 has websites and apps. Websites are
+08:15 for business sites, landing pages, and
+08:17 portfolios. Apps are for interactive
+08:20 builds like booking systems or ordering
+08:22 flows. For most local clients, you'll
+08:24 mostly stick to websites here. You also
+08:27 get templates and quick customization
+08:29 tools, so you can adjust the layout, the
+08:31 colors, and content to match a client's
+08:34 brand fast without having to write any
+08:36 code. Choose a real local business, for
+08:39 example, a landscaping company. And for
+08:42 this demo, I'm going to use a real local
+08:44 business as an example. Again, a
+08:47 landscaping company. I'm going to search
+08:49 for landscaping companies in Amsterdam.
+08:52 And then let's just go ahead and pick
+08:54 one at random. So even though this
+08:56 business already has a website, I'm not
+08:58 going to copy it. Instead, I'm going to
+09:00 ask B 44 to generate a fresh mock
+09:03 website first, and then we'll layer in
+09:06 the company's details after. So now I'm
+09:08 going to let Base 44 generate the first
+09:10 version of the site. In the prompt box
+09:12 here, I'm going to keep it simple and
+09:14 I'm going to type in please create a
+09:16 simple website for a landscaping
+09:18 company. And once I hit generate, you
+09:20 can see base 44 start building it in
+09:22 real time. And it kicks off immediately
+09:24 and begins putting the structure
+09:26 together. Now, what's happening here is
+09:28 pretty straightforward. Base 44 takes
+09:30 that natural language prompt and then
+09:33 translate it into an actual website
+09:35 build. So, you get a usable starting
+09:37 point without having to design
+09:39 everything from scratch. So right now
+09:42 the goal is to turn this mock site into
+09:44 something that actually looks like it
+09:46 belongs to a real business. So this is
+09:48 where we replace all the placeholder
+09:50 content with the company's real
+09:52 branding, their services and contact
+09:54 details. And for this part, I'm going to
+09:55 use a prompt like this. Please revamp
+09:58 our website's data and get the data from
+10:00 this website to replace it. And it's
+10:02 going to be on your screen here with the
+10:04 URL. Please update the logo and ensure
+10:07 the contact information as well as
+10:09 placeholder content we have is the same
+10:12 as their services. Lastly, please ensure
+10:14 that the website is 100% mobile
+10:16 responsive. So after running that
+10:18 prompt, you can see base 44 pull data
+10:20 from that existing website and then
+10:22 apply it directly to our build. So the
+10:24 logo and the branding are updated, the
+10:26 placeholder content is replaced with our
+10:28 actual services and the correct contact
+10:31 information and location are added as
+10:34 well. The site also ends up being fully
+10:36 mobile responsive, so it looks clean and
+10:38 it's usable on phones without any extra
+10:41 manual adjustments. A lot of websites
+10:43 look fine at first glance, but don't
+10:45 actually do anything for the business.
+10:47 They're online, but they don't bring in
+10:49 calls or messages or leads, which kind
+10:52 of defeats the point, right? So, this
+10:54 part is all about making sure the site
+10:56 isn't just good-looking, but actually
+10:58 effective. And to help with that, I'm
+11:00 going to ask B4 to optimize the
+11:02 website's SEO by using a simple prompt
+11:05 like this. Please optimize the SEO for
+11:07 its location. And from there, you can
+11:09 see the core features that every local
+11:11 business website should have. And the
+11:14 contact information here is clear and
+11:16 easy to find, including phone number,
+11:18 email, and address. Service descriptions
+11:21 are laid out clearly with pricing
+11:23 included where it makes sense. The site
+11:25 also highlights customer testimonials
+11:27 and reviews which are huge for trust,
+11:30 especially with local businesses. Now,
+11:33 combined with the mobile friendly layout
+11:35 we looked at earlier, the site loads
+11:37 quickly and it works smoothly on phones.
+11:40 On top of that, the locationbased SEO
+11:42 helps the business show up in local
+11:44 searches and clear call toaction buttons
+11:47 and contact forms make it easy for
+11:50 visitors to reach out or request a
+11:52 quote. All these pieces together are
+11:54 what turn a simple website into
+11:56 something that actually brings in leads.
+11:59 If you've built websites before, you
+12:01 know most of the time isn't spent
+12:03 designing. It's actually spent on setup
+12:05 and fixes and maintenance. And that's
+12:07 where B 44 stands out. The biggest
+12:10 difference is speed. With B 44, you can
+12:13 go from a prompt to a fully functional
+12:16 client ready website in about say 10 to
+12:18 15 minutes. WordPress usually takes what
+12:21 2 to four hours just for hosting themes
+12:23 and plugins and custom coding can take
+12:26 20 to 40 hours for a basic site. So when
+12:28 the time it takes to build one WordPress
+12:30 site, you can build several base 44
+12:32 mock-ups by then. Hosting and
+12:34 maintenance are built in. There's no
+12:36 server setup, no plugins to manage, and
+12:38 no updates to babysit. So when you do
+12:40 publish changes, they go live
+12:42 immediately, which makes managing
+12:44 multiple clients much easier. Design
+12:47 quality is another advantage, too. Base
+12:49 44 produces clean, modern websites with
+12:51 good spacing and mobile responsiveness,
+12:54 as you've seen, and solid typography,
+12:56 too. The results look professional and
+12:59 don't feel cheap like some templates.
+13:01 They easily compete with sites that
+13:03 would normally cost a few thousand. And
+13:06 all of this makes B 44 scalable because
+13:08 builds and updates take minutes, not
+13:11 hours. One person can realistically
+13:13 manage 10, 20 clients at once. Instead
+13:16 of dealing with technical overhead, your
+13:18 time goes into client work and growth,
+13:21 which is what makes this a sustainable
+13:23 business model. One of the easiest ways
+13:26 to get clients to say yes is to show the
+13:29 work before you ever ask for money. And
+13:31 that's the idea behind the free website
+13:33 mockup. And this works because people
+13:35 aren't imagining what their business
+13:38 could look like. They're actually seeing
+13:40 it right now before their eyes. So when
+13:42 someone receives something valuable
+13:44 upfront, it creates immediate buyin and
+13:46 trust. The only reason this is possible
+13:48 is speed. With Base 44, you can actually
+13:50 build a solid mockup in 10 to 15
+13:52 minutes. Now, here I'm going to show you
+13:54 examples using simple prompts like
+13:56 create a website for a fitness gym or
+13:58 create a website for a manufacturing
+14:00 plant. Then quickly layer in the
+14:02 branding, the services, and key
+14:04 features. And once the mockup is ready,
+14:06 the follow-up stays simple. Send a live
+14:08 link with something like this. I spent
+14:11 15 minutes building this for whatever
+14:13 the business name is. What do you think?
+14:15 And after sending that out, wait a day
+14:17 or two so that space keeps it natural
+14:19 and avoids any pressure. And if they're
+14:21 interested, shift into discovery instead
+14:23 of pricing. Ask what they actually want.
+14:26 More leads, better customer experiences,
+14:28 or smoother operations. And then connect
+14:32 those goals to what you can deliver. And
+14:34 this works because you're not pitching
+14:36 an idea. you're already showing
+14:38 something that they've already seen and
+14:40 started to value. The biggest pricing
+14:42 mistakes is charging one-time fees and
+14:45 then moving on. Monthly pricing works
+14:47 better for you and for the client, and
+14:49 it's easier to justify. The first tier
+14:51 is a basic website and hosting package,
+14:54 usually like $150 to $200 per month. And
+14:57 this covers a professional mobile
+14:58 responsive site, hosting, security, and
+15:01 basic updates. You position it as their
+15:03 digital storefront that runs 24/7
+15:06 without them worrying about tech. And
+15:08 the second tier adds lead capture and
+15:11 automation, typically $3 to $500 per
+15:14 month. This includes contact forms,
+15:16 email capture, simple CRM tracking, and
+15:18 automated follow-ups. The key feature
+15:20 here is framing lost opportunity. Even
+15:23 one extra customer per month often pays
+15:26 for the service itself. And the third
+15:28 tier is full marketing automation,
+15:30 usually$1 to $2,000 per month, aimed at
+15:33 more established businesses. This
+15:35 includes booking systems, dashboards,
+15:37 email campaigns, analytics, and
+15:40 integrations. The value is time savings,
+15:43 and efficiency. If it saves them hours
+15:46 every week, the pricing makes sense.
+15:48 Monthly pricing works because it lowers
+15:50 friction. A few hundred per month feels
+15:53 a lot more manageable, creates ongoing
+15:55 relationships, and makes ROI
+15:57 conversations simple. You're no longer a
+16:00 one-off website builder. You're a
+16:02 long-term partner. One of the most
+16:05 effective questions you can ask a
+16:07 business owner is simple. Something like
+16:09 this. When was the last time you updated
+16:11 your website? And most small businesses
+16:14 haven't touched their site in years. And
+16:16 when they hesitate, you've already
+16:18 surfaced a problem there. without
+16:20 pitching anything. You're not selling.
+16:22 You're not diagnosing. The reason this
+16:24 works is because it's non-threatening.
+16:27 You're just asking for information, not
+16:29 pushing a service. Their answer
+16:31 naturally reveals issues like outdated
+16:34 design or missing features or mobile
+16:36 problems or a site that doesn't generate
+16:38 leads. One strong follow-up is, "Well,
+16:41 if you could change one thing about it,
+16:43 what would it be?" From there, you can
+16:45 guide the conversation with valuebased
+16:48 questions like, "How many customers find
+16:51 you through your website versus word of
+16:53 mouth highlights missed opportunities?"
+16:56 Or, "What happens when someone fills out
+16:58 your contact form exposes broken
+17:01 processes?" Or, "Do you know how many
+17:03 visitors don't contact you, which then
+17:06 shows a lack of visibility?" Objections
+17:08 will come up, of course, and that's
+17:09 normal. If they say it's too expensive,
+17:11 bring it back to value. How much is one
+17:14 new customer worth? And if they say they
+17:16 don't need a website, then you can ask,
+17:18 "Where do people go when they want to
+17:20 verify that you're legitimate?" If they
+17:23 say they'll do it themselves, you can
+17:24 say, "How long have you been planning
+17:26 to? What if it was done next week?" And
+17:29 these questions work because they don't
+17:31 pressure anyone. They're just surfacing
+17:33 real problems and then letting the
+17:35 business owner arrive at the conclusion
+17:38 on their own, which is far more
+17:39 effective than trying to push and sell
+17:41 them. So once you understand their
+17:43 situation, how you explain your offer
+17:45 matters. And the key shift here is
+17:47 simple. Just stop talking about features
+17:49 and start talking about outcomes.
+17:52 Instead of saying responsive design or
+17:54 database integration, just translate
+17:57 that into results. So for example,
+18:00 customers can book appointments from
+18:02 their phone at 2 a.m. and you can wake
+18:04 up to a full calendar or every inquiry
+18:07 goes into one dashboard so no leads get
+18:09 lost. A powerful question to anchor the
+18:12 conversation is, "How much is one new
+18:15 customer worth to you?" And then
+18:17 whatever number they give becomes your
+18:19 reference point. So if they say $2,000,
+18:22 you respond with, "So if this system
+18:24 brings you just one extra customer every
+18:27 couple of months, it already pays for
+18:29 itself." And then from there, just keep
+18:31 the math simple. So you're getting about
+18:33 20 visitors a month with no capture
+18:36 system. That likely means you're losing
+18:38 around 10 potential customers. At $2,000
+18:41 each, that's $20,000 in missed revenue.
+18:43 If a $400 monthly system captures even
+18:46 25% of that, you're adding $5,000 per
+18:49 month. So, this works because you're not
+18:51 selling. You're just laying out the
+18:53 numbers. When the math is clear, the
+18:55 decision is easy. Once the website is
+18:58 live, this is where it starts to scale.
+19:00 These features turn a simple site into a
+19:03 real business system and opens the door
+19:05 to higher value upselles. One of the
+19:07 first upgrades is lead capture and then
+19:09 follow-up. So here I ask B 44 to expand
+19:12 the contact form and add automation.
+19:14 Please update the contact form, create
+19:16 an automated email system that sends a
+19:18 confirmation email if the user triggers
+19:20 the contact form. Also build a login
+19:23 page and make a dashboard to keep track
+19:25 of users that submit the form. Create
+19:27 options in the dashboard to send booking
+19:30 confirmation emails and mark bookings as
+19:33 confirmed, completed, or cancelled. So,
+19:36 this replaces basic contact forms with a
+19:38 simple workflow instead. Leads are
+19:40 tracked, confirmations are automatic,
+19:42 and nothing gets lost. You can also
+19:44 layer in appointment bookings on the
+19:47 same dashboard, too, allowing bookings
+19:49 to be confirmed, completed, or
+19:51 cancelled. And for service businesses,
+19:54 this alone saves time and prevents
+19:56 missed opportunities. For more advanced
+19:59 setups, these systems can connect to CRM
+20:03 or marketing tools. And the key point is
+20:05 that once leads are structured,
+20:07 automation becomes really easy. And this
+20:10 is where pricing naturally increases,
+20:12 too, because you're no longer just
+20:13 selling a website. You're selling
+20:15 automation, organization, and time
+20:18 savings. Another powerful upgrade is
+20:20 adding an AI chat widget to the website.
+20:23 So, I'm going to ask base 44 to do this
+20:25 with a simple prompt. Please create an
+20:27 AI chatbot for our website. Users should
+20:30 be able to talk to the chatbot to
+20:32 discuss general info about the business.
+20:34 And after that, the chatbot can hold
+20:37 full conversations on its own. It
+20:39 answers common questions, explains
+20:41 services, and helps visitors get the
+20:43 information they're looking for without
+20:45 the business owner actually needing to
+20:47 be involved. And anyone who engages with
+20:50 the chatbot is already showing intent,
+20:53 which then means they can be treated as
+20:55 a lead. Even if they don't fill out a
+20:57 contact form, that interaction alone
+21:00 signals interest. So, the big advantage
+21:02 here is availability. The chatbot works
+21:04 24/7 and while the business owner is
+21:07 busy or maybe asleep, the site is still
+21:09 responding, helping customers and
+21:12 capturing opportunities. And for busy
+21:14 business owners, this completely changes
+21:17 how their website works. So instead of
+21:19 being a passive brochure, it becomes an
+21:22 active salesperson answering questions
+21:24 instantly, qualifying leads and
+21:27 capturing interest around the clock
+21:30 without needing any additional staff or
+21:32 breaks or follow-ups. A website is
+21:34 useful, but for local businesses, being
+21:37 found is what actually matters, and
+21:39 that's where local SEO comes in. So to
+21:42 show this, I'm going to run an SEO
+21:44 optimization prompt in B 44 based on the
+21:47 business details and location. Please
+21:49 further optimize the website's SEO based
+21:52 on the new info we added, especially for
+21:55 the area or region it's in. So this
+21:57 prompt helps the site rank for local
+21:59 searches like service near me or service
+22:02 in say Amsterdam. Google My Business
+22:05 setup takes time because it requires
+22:07 verification. So I'm not doing it live
+22:09 here. The important part is that once
+22:11 the base 44 site is published, you can
+22:13 just use that link directly when
+22:16 creating or optimizing a Google business
+22:18 profile. The website becomes the
+22:20 foundation that everything points to. So
+22:23 reviews and local citations are the
+22:25 final pieces. Making reviews visible
+22:28 builds trust and listings on platforms
+22:30 like Google and Yelp and local
+22:32 directories improve credibility. Even a
+22:35 short setup can drive organic traffic
+22:36 that would otherwise cost hundreds per
+22:39 month in ads. So here you're going to
+22:41 move from building websites to acting as
+22:43 a marketing partner, helping businesses
+22:46 show up and get contacted. So right now
+22:50 base 44 doesn't have builtin
+22:52 functionality to directly connect social
+22:55 media accounts and automate posting or
+22:58 pull in social proof using native
+22:59 platform integrations. I tried this and
+23:02 even consulted with B 44 directly and
+23:04 those kinds of features require a full
+23:07 web app setup with official SDKs from
+23:10 platforms like Instagram and Facebook or
+23:12 X. So that said, this doesn't limit the
+23:15 business model nearly as much as it
+23:17 might sound and instead of thinking
+23:19 about B 44 as a social media tool, it's
+23:22 better to think of it as the central hub
+23:24 for everything else. So the website
+23:26 becomes the one place every platform
+23:29 just points to. social media, Google
+23:31 ads, email campaigns, and any other
+23:34 traffic source the business uses. So,
+23:36 when someone clicks a link from
+23:38 Instagram, Google, or an email, they
+23:40 just land on the base 44 website that's
+23:43 optimized for conversions, lead capture,
+23:45 and followup. And that's where the real
+23:47 value is here. Social platforms drive
+23:50 attention, but the website is where
+23:52 leads actually get captured and
+23:54 organized. This is also how you position
+23:57 yourself as more than just a website
+24:00 builder because you're not managing
+24:02 isolated tools. You're helping
+24:04 businesses connect all of their
+24:06 marketing efforts into one system. So,
+24:08 every post, every ad, every campaign,
+24:10 sends traffic to a site that actually
+24:12 converts, that tracks inquiries, and
+24:14 supports follow-up. And that integrated
+24:16 approach makes ROI much easier to
+24:18 explain, justifies higher monthly fees,
+24:21 and makes you harder to replace. So,
+24:24 you're not just building a website. No,
+24:26 you're managing the foundation of their
+24:29 entire digital presence. So, here I'm
+24:31 going to start with Lovable and focus
+24:33 mainly on speed and first impressions.
+24:36 To test it out, we're going to ask
+24:38 Lovable to create a simple website using
+24:40 this prompt. Please create a simple
+24:42 website for a local farm business. After
+24:45 running the prompt, you can see that
+24:47 Lovable moves pretty quickly. In this
+24:50 case, it generated the website in say
+24:53 about 2 and 1/2 minutes or so, which is
+24:55 genuinely fast. I scroll through the
+24:58 site here and visually it looks good.
+25:00 The layout is clean, the sections make
+25:03 sense, and for a design focused site, it
+25:05 does build a solid job right out of the
+25:07 gate. And from a usability standpoint,
+25:09 Lovable feels intuitive. You prompt it,
+25:12 it builds, and you immediately get
+25:14 something that you can review and tweak.
+25:17 While I'm not pulling from a specific
+25:20 community thread here, the general
+25:22 sentiment around Lovable is that it's
+25:24 fast and straightforward, especially for
+25:27 quickly generating good-looking designs.
+25:30 I didn't do a deep template comparison
+25:32 in this section, but based on speed and
+25:35 initial output alone, Lovable performs
+25:37 well for design first websites. And for
+25:40 this part, I'm going to rate Lovable
+25:41 around an eight out of 10. It's
+25:43 genuinely fast and produces
+25:45 solid-looking sites quickly, especially
+25:47 if your main priority is visual design
+25:50 and rapid generation. Next, let's go
+25:52 ahead and run the same test using Base
+25:54 44 with the exact same prompt. And Base
+25:56 44 completes the build in about 2
+25:58 minutes, which is a little bit faster.
+26:00 But the bigger difference here is what
+26:03 it produces. This isn't just a visual
+26:05 layout. The site comes with working
+26:07 functionality behind it. And you can see
+26:10 that when I publish the project,
+26:11 everything is already set up and live
+26:14 without requiring users to log in or any
+26:16 extra configuration. So by default, from
+26:19 the get- go, B4 builds websites with
+26:21 back-end functionality already in place.
+26:24 So forms and workflows and interactions
+26:26 actually work out of the box. This is
+26:28 where B4 really stands out. It's not
+26:30 just generating a nicel looking design
+26:32 and that's it. Nope. It's building
+26:34 something a real business can actually
+26:37 use right away. And because of that, I'm
+26:39 going to rate Base 44 a 9 out of 10.
+26:41 It's fast, but more importantly, it
+26:44 builds complete business solutions, not
+26:46 just pretty websites. For this part, I
+26:48 am going to ask Lovable directly what
+26:50 native integrations it supports by using
+26:53 this prompt. What other native
+26:55 integrations can you support? Please
+26:57 give me accounts and the list. So, based
+27:00 on its response, Lovable here currently
+27:02 supports around 16 native integrations
+27:05 and that gives a decent amount of
+27:07 flexibility. Yes, especially for simpler
+27:09 use cases. Where Lovable really shines
+27:11 is on the design and front-end side.
+27:14 It's great at producing polished user
+27:17 interfaces and clean client-f facing
+27:19 experiences. And that said, Lovable is
+27:21 still primarily front-end focused. It
+27:23 doesn't offer the same level of built-in
+27:26 back-end infrastructure or complex
+27:28 database handling or advanced business
+27:30 logic. For anything involving deeper
+27:33 workflows, automation, or data heavy
+27:35 systems, you're likely going to need
+27:37 external tools, or custom development to
+27:40 fill in those gaps. And because of that,
+27:42 I'm going to give Lovable's built-in
+27:44 functionality around a 6 out of 10. It's
+27:47 great for design again, but you'll need
+27:49 additional tools if you're building full
+27:51 business systems. So, now let's go ahead
+27:53 and take a look at Base 44's built-in
+27:55 functionality. You can see the back-end
+27:58 features directly here. Base 44 includes
+28:00 a native database by default. And if an
+28:03 app requires user login, users are
+28:05 automatically tracked. Even though this
+28:08 demo is mostly static, the full
+28:10 infrastructure, the database, the user
+28:12 handling, and the business logic, it's
+28:14 already here in place. The key
+28:16 difference is that none of this needs to
+28:18 be wired together manually. Base 44
+28:20 doesn't stop at generating a front end.
+28:22 The back end exists automatically, and
+28:25 you only use what you need. So if an app
+28:28 doesn't require login, still works and
+28:30 if it does, everything is already set up
+28:32 for you. There are also community
+28:34 discussions that highlight how flexible
+28:36 B4 is when scaling applications with
+28:40 most feedback pointing to the same
+28:42 advantage here. Backend functionality is
+28:46 handled for you instead of being added
+28:48 later on. While public case studies are
+28:50 still limited, one real example is chart
+28:53 detector.ai, AI which has been featured
+28:55 in a business insider and that shows B
+28:58 44 can support real production level
+29:00 applications because core business
+29:02 features like databases, authentication,
+29:05 workflows, and logic are included out of
+29:07 the box. I'm going to rate B 44 a 10 out
+29:10 of 10 here. It's not just a website
+29:12 builder. It's a full business ready
+29:14 platform. So, one thing that often gets
+29:17 overlooked is what happens after the
+29:19 site is built. specifically how easy it
+29:22 is for a client to take over and make
+29:24 changes on their own. So in that regard,
+29:26 you can see here the full lovable
+29:28 interface from the client's perspective.
+29:31 Everything is accessible in one place
+29:33 and once you understand how it works,
+29:36 it's definitely usable. Now that said,
+29:38 the interface can feel a bit
+29:40 intimidating at first, especially for
+29:42 non-technical users. While Lovable is
+29:45 marketed as beginnerfriendly, there is
+29:48 still a learning curve. Non-technical
+29:50 users still need to understand how to
+29:53 structure prompts properly, how the AI
+29:56 responds to instructions, and how to
+29:58 troubleshoot when the output isn't quite
+30:01 right. And that usually comes from trial
+30:03 and error, not instant intuition. You
+30:05 can also see community discussions where
+30:07 beginners share their early experiences
+30:10 with lovable, which shows that new users
+30:14 usually need some time to get
+30:16 comfortable with the platform. So then
+30:18 this becomes something to keep in mind
+30:20 when handing it off to your clients.
+30:22 Overall, Lovable works well for a client
+30:24 handoff if you're willing to spend some
+30:26 time onboarding and training. And
+30:29 because of that, I'm going to rate it a
+30:30 7 out of 10. Client handoffs look very
+30:33 different with B 44. And that mostly
+30:35 comes down to who the interface is
+30:37 designed for. So here you can see B 44's
+30:40 user interface, and the first thing that
+30:42 stands out is how lightweight and
+30:45 approachable it feels. The layout is
+30:47 cleaner, the theme is lighter, and
+30:49 there's less visual clutter overall. So,
+30:52 compared to Lovable, it's much easier
+30:54 for non-technical users to understand
+30:57 where to click, and what they're allowed
+30:59 to change. So, here, Base 44 is clearly
+31:02 built with business owners in mind.
+31:04 Clients can update text, images, and
+31:06 content through simple forms instead of
+31:09 editing layouts or rewriting prompts.
+31:11 They can view and manage database
+31:13 entries without needing any SQL
+31:15 knowledge and make basic workflow
+31:18 changes through conversational prompts
+31:21 rather than technical configurations.
+31:24 And because of that, routine updates
+31:26 don't require a developer. Clients can
+31:29 pretty much handle everyday changes all
+31:31 by themselves. Things like updating
+31:33 services, changing contact details, or
+31:36 managing leads, all without breaking
+31:38 anything or feeling overwhelmed. And
+31:40 that ease of use makes B 44 much easier
+31:42 to hand off and maintain long term. So
+31:45 for client-f facing management and
+31:47 ongoing maintenance, I'm going to give
+31:48 Base 44 a score here of 9 out of 10. Now
+31:52 pricing matters if you're planning to
+31:54 scale this into a business. Lovable's
+31:57 pro plan costs $25 per month or about
+31:59 $21 annually with roughly 150 credits
+32:02 per month. The business plan is 50 bucks
+32:04 per month or $42 annually, adding
+32:07 features like SSO and stronger data
+32:09 privacy controls. So, a typical client
+32:11 website uses around 20 to 40 credits,
+32:13 which is only $5 to $10 in build costs.
+32:16 So, if you're charging clients $300 to
+32:17 $500 per month, margins can be very high
+32:20 on paper. But the catch here is back-end
+32:23 usage costs. Lovable uses usagebased
+32:25 billing for back-end services. So, as
+32:28 traffic or data grows, monthly expenses
+32:30 can increase. In some cases, that can
+32:33 add $50 to 200 plus per month, making
+32:36 costs less predictable. Overall,
+32:38 Lovable's pricing is reasonable upfront,
+32:40 but back-end add-ons can reduce margins
+32:42 and scale. I'm going to give it a 7 out
+32:44 of 10 here. Base 44 takes a different
+32:46 approach to pricing, and it is one of
+32:48 its strengths. Plans range from free up
+32:51 to about $160 per month with everything
+32:54 already bundled in and that includes the
+32:56 database, the authentication, hosting,
+32:59 analytics, file storage, email, and
+33:01 autogenerated API. So there's no need to
+33:03 stitch together separate services. So,
+33:05 this all-in-one setup significantly
+33:08 reduces cost because now you're not
+33:09 paying extra for tools like Superbase,
+33:12 Versel, Authority email providers, which
+33:15 can easily add a h 100red bucks per
+33:17 month more in a traditional setup. With
+33:19 Base 44, one subscription replaces all
+33:22 of that. It also makes pricing
+33:24 predictable. There are no surprise usage
+33:27 fees or multiple subscriptions to manage
+33:30 as you do scale, which matters when
+33:32 you're running this as a business. Also,
+33:35 community feedback supports this. Base
+33:37 44 is often praised as good value for
+33:39 money with a 4.9 out of five rating on
+33:41 Product Hunt and users highlighting its
+33:44 clean, predictable development flow. And
+33:46 because of that, I'm going to give B 44
+33:48 an 8 out of 10 on pricing and
+33:49 profitability. It may look more
+33:51 expensive at first, but the bundled
+33:53 features do offer better overall value.
+33:56 When scaling as an agency, the key
+33:58 question is how well a platform handles
+34:00 multiple clients and projects. Lovable
+34:03 offers a wide range of reusable
+34:05 templates, making it easy to spin up new
+34:07 projects quickly, especially for design
+34:10 focused work. Community feedback on
+34:12 scalability is kind of mixed. Some users
+34:15 report smooth growth, while others note
+34:17 limitations once projects require more
+34:20 complex back-end logic or workflows.
+34:23 Lovable also supports team collaboration
+34:25 through shared workspaces. Teammates can
+34:28 view, edit, and publish projects
+34:30 together with paid plans offering
+34:33 role-based permissions. Overall, Lovable
+34:35 scales well for design and
+34:37 front-endheavy agencies. For more
+34:40 complex business applications, however,
+34:42 it can feel limiting without extra
+34:44 tools. So, I'm going to give it a 7 out
+34:46 of 10 here for scalability. And
+34:48 scalability is where B 44 really stands
+34:50 out for agencies. You can see here B
+34:53 44's built-in templates and how easily
+34:55 an existing website can be turned into a
+34:58 reusable template. Even without
+35:00 publishing it, the process is simple and
+35:02 clearly designed for reuse across
+35:05 multiple clients. So the key advantage
+35:07 here is that templates carry
+35:09 functionality, not just design. Forms,
+35:12 dashboards, and workflows can all be
+35:14 reused with minimal changes. Once you
+35:17 build something once, you're not
+35:18 starting from scratch again. Even
+35:20 without showing multiple advanced apps
+35:23 live, the structure makes the scaling
+35:25 potential obvious. You refine, you
+35:28 reuse, and adapt instead of rebuilding
+35:30 every time. Because of its template
+35:32 system and built-in backend, base 44 is
+35:35 well suited for managing multiple
+35:37 business applications. And for that
+35:40 reason, I'm going to give it a 9 out of
+35:41 10 for scalability. It's built for
+35:43 scaling real business solutions, not
+35:45 just one-off websites. So, at the end of
+35:48 the day here, this is a simple
+35:49 opportunity. Local businesses still need
+35:51 help. AI tools lower the barrier to
+35:54 entry, and recurring revenue beats
+35:56 one-off work every single time. So,
+35:58 going into 2026, the timing couldn't be
+36:00 better here. Businesses are falling
+36:02 behind online, while tools like Base 44
+36:05 let one person deliver professional
+36:07 results faster than ever. So there's a
+36:09 saying like the best time to plant an
+36:11 apple tree was yesterday. The second
+36:13 best time is today. So what you build
+36:16 now compounds client skills, income, and
+36:19 freedom. So don't wait any longer. Start
+36:21 with one mockup, reach out to one
+36:23 business, and learn as you go. And if
+36:25 this helped you out, please do like the
+36:27 video, subscribe to my channel for more,
+36:29 and drop a comment down below with what
+36:31 you're starting first. I'd love to hear
+36:32 back from you. Thanks for watching.

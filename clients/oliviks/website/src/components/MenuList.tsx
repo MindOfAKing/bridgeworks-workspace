@@ -1,27 +1,41 @@
 'use client';
 
-import { useMemo, useState } from 'react';
+import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Check, Flame, Plus, SlidersHorizontal } from 'lucide-react';
-import { menu, type Dish, type DishOptionGroup, type MenuCategory } from '@/data/menu';
-import { useOrder, type OrderItemOption } from '@/context/OrderContext';
+import { menu, type Dish, type MenuCategory } from '@/data/menu';
 import { DishImage } from './DishImage';
+import { waLink } from '@/data/site';
+
+const orderOnline = waLink("Hi Oliviks, I'd like to place an order:");
 
 export function MenuList({ categories: providedCategories }: { categories?: MenuCategory[] }) {
   const sourceMenu = providedCategories ?? menu;
-  const [active, setActive] = useState<string>('all');
-  const { addItem } = useOrder();
-  const categories = active === 'all' ? sourceMenu : sourceMenu.filter((c) => c.id === active);
+  const [active, setActive] = useState<string>('All');
+  const cats = ['All', ...sourceMenu.map((c) => c.title)];
+  const categories = active === 'All' ? sourceMenu : sourceMenu.filter((c) => c.title === active);
 
   return (
     <div>
-      <div className="sticky top-24 z-30 -mx-5 mb-12 border-y border-cocoa/10 bg-cream/95 px-5 py-4 shadow-sm backdrop-blur sm:-mx-8 sm:px-8">
-        <p className="sr-only">Category chips</p>
-        <div className="mx-auto flex max-w-5xl gap-2 overflow-x-auto pb-1">
-          <FilterButton id="all" label="All" active={active} onClick={setActive} />
-          {sourceMenu.map((c) => (
-            <FilterButton key={c.id} id={c.id} label={c.title} active={active} onClick={setActive} />
-          ))}
+      {/* Category chips */}
+      <div className="sticky top-[74px] z-20 -mx-7 mb-10 border-b border-cocoa/10 bg-cream/95 px-7 py-4 backdrop-blur-sm">
+        <div className="flex flex-wrap gap-2.5">
+          {cats.map((cat) => {
+            const on = cat === active;
+            return (
+              <button
+                key={cat}
+                type="button"
+                onClick={() => setActive(cat)}
+                className={`rounded-full border-2 px-4 py-2 text-[14px] font-semibold transition-all hover:-translate-y-px ${
+                  on
+                    ? 'border-palm bg-palm text-cream shadow-md'
+                    : 'border-cocoa/20 bg-white text-cocoa/70 hover:border-palm hover:text-palm'
+                }`}
+              >
+                {cat}
+              </button>
+            );
+          })}
         </div>
       </div>
 
@@ -32,17 +46,23 @@ export function MenuList({ categories: providedCategories }: { categories?: Menu
           animate={{ opacity: 1 }}
           exit={{ opacity: 0 }}
           transition={{ duration: 0.18 }}
-          className="space-y-16"
+          className="space-y-12"
         >
           {categories.map((cat) => (
             <section key={cat.id} id={cat.id} className="scroll-mt-40">
-              <div className="mb-8 flex flex-col gap-1 border-b border-cocoa/10 pb-6 sm:flex-row sm:items-end sm:justify-between">
-                <h2 className="font-display text-3xl font-bold text-cocoa sm:text-4xl">{cat.title}</h2>
-                <p className="max-w-xl text-sm leading-relaxed text-cocoa/55 sm:text-right">{cat.blurb}</p>
+              {/* Section header */}
+              <div className="mb-6">
+                <h2 className="font-display text-[32px] font-extrabold leading-tight tracking-tight text-cocoa">
+                  {cat.title}
+                </h2>
+                <p className="mt-1.5 max-w-[660px] text-[16px] text-cocoa/55">{cat.blurb}</p>
+                <div className="mt-3.5 h-[3px] w-[46px] rounded-full bg-gradient-to-r from-gold to-gold/50" />
               </div>
-              <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+
+              {/* Cards grid */}
+              <div className="grid gap-[22px] sm:grid-cols-2 lg:grid-cols-3">
                 {cat.items.map((dish, i) => (
-                  <MenuCard key={dish.name} dish={dish} category={cat.title} delay={(i % 3) * 0.06} onAdd={addItem} />
+                  <MenuCard key={dish.name} dish={dish} delay={(i % 3) * 0.06} />
                 ))}
               </div>
             </section>
@@ -53,23 +73,25 @@ export function MenuList({ categories: providedCategories }: { categories?: Menu
   );
 }
 
-function MenuCard({
-  dish,
-  category,
-  delay,
-  onAdd,
-}: {
-  dish: Dish;
-  category: string;
-  delay: number;
-  onAdd: (dish: Dish, category: string, options?: OrderItemOption[]) => void;
-}) {
-  const [selections, setSelections] = useState<Record<string, string>>(() => initialSelections(dish.optionGroups));
-  const selectedOptions = useMemo(
-    () => buildSelectedOptions(dish.optionGroups, selections),
-    [dish.optionGroups, selections],
-  );
-  const hasOptions = Boolean(dish.optionGroups?.length);
+function MenuCard({ dish, delay }: { dish: Dish; delay: number }) {
+  const isPopular = dish.tags?.includes('popular');
+  const heat = dish.tags?.find((t) => t !== 'popular');
+
+  // Protein/swallow note — pulled from description if it contains "Add a protein" or "Served with a swallow"
+  const optionsNote = dish.description.includes('Add a protein from Sides')
+    ? 'Add a protein from Sides — grilled chicken, turkey, mackerel, or beef'
+    : dish.description.includes('Served with one swallow') || dish.description.includes('Served with a swallow')
+    ? 'Served with a swallow — pounded yam or eba'
+    : dish.description.includes('Contains peanuts')
+    ? 'Contains peanuts'
+    : null;
+
+  // Strip the options note from the displayed description to avoid repetition
+  const displayDesc = dish.description
+    .replace(/ Add a protein from Sides[^.]*\.?/, '')
+    .replace(/ Dried fish variant on request, subject to availability\.?/, '')
+    .replace(/ Contains peanuts\.?/, '')
+    .trim();
 
   return (
     <motion.article
@@ -77,163 +99,56 @@ function MenuCard({
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true, margin: '-40px' }}
       transition={{ duration: 0.4, delay }}
-      className="menu-card group flex overflow-hidden rounded-xl border border-cocoa/10 bg-white shadow-sm ring-1 ring-transparent transition-all duration-300 hover:-translate-y-1 hover:shadow-lg hover:ring-gold/25"
+      className="group flex flex-col overflow-hidden rounded-[20px] border bg-white shadow-sm transition-all duration-300 hover:-translate-y-[7px] hover:border-gold/50 hover:shadow-lg"
+      style={{ borderColor: 'rgba(225,227,219,0.6)' }}
     >
-      <div className="flex w-full flex-col">
-        <div className="relative overflow-hidden">
-          <DishImage src={dish.image} alt={dish.name} className="h-52 w-full transition-transform duration-500 group-hover:scale-105" />
-          {dish.tags?.includes('popular') && (
-            <div className="absolute left-4 top-4">
-              <span className="inline-flex items-center gap-1 rounded-full bg-gold px-3 py-1 text-xs font-bold text-cocoa shadow-sm">
-                <Flame size={13} /> Popular
-              </span>
-            </div>
+      {/* Image */}
+      <div className="relative h-[172px] overflow-hidden bg-[#eef0ea]">
+        <DishImage
+          src={dish.image}
+          alt={dish.name}
+          className="h-full w-full transition-transform duration-500 group-hover:scale-[1.06]"
+        />
+        {isPopular && (
+          <span className="absolute left-3 top-3 rounded-full bg-gold px-3 py-1 text-[12px] font-semibold text-cocoa">
+            Popular
+          </span>
+        )}
+        {heat && (
+          <span className="absolute right-3 top-3 rounded-full bg-black/60 px-2.5 py-1 text-[11px] font-semibold tracking-[0.02em] text-white backdrop-blur-sm">
+            {heat}
+          </span>
+        )}
+      </div>
+
+      {/* Body */}
+      <div className="flex flex-1 flex-col gap-2 p-[18px_20px]">
+        <div className="flex items-baseline justify-between gap-3">
+          <h3 className="font-display text-[18px] font-bold text-cocoa">{dish.name}</h3>
+          {dish.price && (
+            <span className="shrink-0 font-display text-[15px] font-bold text-palm">
+              {dish.price}
+            </span>
           )}
         </div>
 
-        <div className="flex flex-1 flex-col p-5">
-          <div>
-            <h3 className="font-display text-xl font-bold text-cocoa">{dish.name}</h3>
-            {dish.price && (
-              <p className="mt-1 text-sm font-semibold text-palm">{dish.price}</p>
-            )}
-            <p className="mt-2 text-sm leading-relaxed text-cocoa/70">{dish.description}</p>
-          </div>
+        <p className="flex-1 text-[13.5px] leading-[1.5] text-cocoa/55">{displayDesc}</p>
 
-          {hasOptions && (
-            <div className="customize-panel mt-5 rounded-xl border border-gold/25 bg-gold/10 p-4">
-              <p className="mb-3 flex items-center gap-2 text-xs font-bold uppercase tracking-[0.16em] text-cocoa/60">
-                <SlidersHorizontal size={14} aria-hidden="true" />
-                Customize your plate
-              </p>
-              <div className="space-y-3">
-                {dish.optionGroups?.map((group) => (
-                  <OptionSelector
-                    key={group.id}
-                    group={group}
-                    value={selections[group.id] ?? ''}
-                    onChange={(value) => setSelections((current) => ({ ...current, [group.id]: value }))}
-                  />
-                ))}
-              </div>
-            </div>
-          )}
-
-          <div className="order-card-footer mt-auto pt-5">
-            {hasOptions && <p className="mb-3 text-xs font-medium text-cocoa/55">Customize first, then send direct.</p>}
-            <button
-              type="button"
-              onClick={() => onAdd(dish, category, selectedOptions)}
-              className="inline-flex w-full items-center justify-center gap-2 rounded-full bg-cocoa px-4 py-3 text-sm font-bold text-cream shadow-sm transition-all hover:bg-palm hover:shadow-md focus:outline-none focus:ring-2 focus:ring-gold focus:ring-offset-2 active:scale-[0.98]"
-            >
-              <Plus size={17} aria-hidden="true" />
-              {hasOptions ? 'Add customized order' : 'Add to order'}
-            </button>
+        {optionsNote && (
+          <div className="rounded-[6px] bg-[#faecec] px-3 py-1.5 text-[12px] text-palm">
+            {optionsNote}
           </div>
-        </div>
+        )}
+
+        <a
+          href={orderOnline}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="mt-1.5 rounded-full bg-gold py-2.5 text-center text-[14px] font-semibold text-cocoa shadow-sm transition-all hover:-translate-y-0.5 hover:shadow-md active:scale-95"
+        >
+          Order
+        </a>
       </div>
     </motion.article>
-  );
-}
-
-function OptionSelector({
-  group,
-  value,
-  onChange,
-}: {
-  group: DishOptionGroup;
-  value: string;
-  onChange: (value: string) => void;
-}) {
-  if (group.type === 'boolean') {
-    const checked = value === group.options[0]?.label;
-    return (
-      <label className="option-control flex cursor-pointer items-center justify-between gap-3 rounded-xl border border-cocoa/10 bg-white px-3 py-3 text-sm text-cocoa shadow-sm transition-colors hover:border-gold/70">
-        <span>
-          <span className="block font-semibold">{group.label}</span>
-          {group.options[0]?.priceNote && (
-            <span className="block text-xs leading-relaxed text-cocoa/55">{group.options[0].priceNote}</span>
-          )}
-        </span>
-        <span className={`grid h-6 w-6 place-items-center rounded-full border ${checked ? 'border-gold bg-gold text-cocoa' : 'border-cocoa/20 bg-cream text-transparent'}`}>
-          <Check size={15} />
-        </span>
-        <input
-          type="checkbox"
-          checked={checked}
-          onChange={(event) => onChange(event.target.checked ? group.options[0]?.label ?? 'Yes' : '')}
-          className="sr-only accent-gold"
-        />
-      </label>
-    );
-  }
-
-  return (
-    <label className="option-control block text-sm text-cocoa">
-      <span className="mb-1.5 block font-semibold">{group.label}</span>
-      <select
-        value={value}
-        onChange={(event) => onChange(event.target.value)}
-        className="w-full rounded-xl border border-cocoa/10 bg-white px-3 py-3 text-sm font-medium text-cocoa shadow-sm outline-none transition-colors focus:border-palm focus:ring-2 focus:ring-gold/40 accent-gold"
-      >
-        {group.options.map((option) => (
-          <option key={option.label} value={option.label}>
-            {formatOptionLabel(option)}
-          </option>
-        ))}
-      </select>
-    </label>
-  );
-}
-
-function initialSelections(groups: DishOptionGroup[] = []) {
-  return Object.fromEntries(
-    groups.map((group) => [group.id, group.type === 'single' ? group.options[0]?.label ?? '' : '']),
-  );
-}
-
-function buildSelectedOptions(groups: DishOptionGroup[] = [], selections: Record<string, string>): OrderItemOption[] {
-  return groups
-    .map((group) => {
-      const value = selections[group.id] ?? '';
-      const selectedOption = group.options.find((option) => option.label === value);
-
-      return {
-        groupId: group.id,
-        groupLabel: group.label,
-        value,
-        priceNote: selectedOption?.priceNote,
-        unitPriceFt: selectedOption?.unitPriceFt,
-      };
-    })
-    .filter((option) => option.value);
-}
-
-function formatOptionLabel(option: { label: string; priceNote?: string }) {
-  return option.priceNote ? `${option.label} — ${option.priceNote}` : option.label;
-}
-
-function FilterButton({
-  id,
-  label,
-  active,
-  onClick,
-}: {
-  id: string;
-  label: string;
-  active: string;
-  onClick: (id: string) => void;
-}) {
-  const isActive = active === id;
-  return (
-    <button
-      type="button"
-      onClick={() => onClick(id)}
-      className={`shrink-0 rounded-full px-4 py-2 text-sm font-bold transition-all ${
-        isActive ? 'bg-cocoa text-cream shadow-md' : 'border border-cocoa/15 bg-white text-cocoa/70 hover:border-palm hover:text-palm'
-      }`}
-    >
-      {label}
-    </button>
   );
 }

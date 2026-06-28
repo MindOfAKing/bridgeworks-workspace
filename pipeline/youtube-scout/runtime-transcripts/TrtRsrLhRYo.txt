@@ -1,0 +1,230 @@
+00:00 If your local rankings dropped or didn't
+00:01 really work this year, it's probably not
+00:03 because your market is too competitive.
+00:05 It's because Google quietly changed what
+00:08 it rewards. In 2026, local SEO isn't
+00:11 about doing more things. It's about
+00:13 doing three things correctly, and most
+00:15 local businesses are missing at least
+00:17 one. Fix these and you don't need more
+00:19 traffic, you need better local SEO
+00:21 signals. Today, I'm going to break down
+00:23 the three things that matter the most
+00:25 when it comes to local SEO in 2026, and
+00:28 how they can work together as a system
+00:30 to help you to rank online. And in case
+00:31 we haven't met yet, I'm Greg Sechrist,
+00:33 the co-founder of BKA Content. For 16
+00:36 years, we've helped thousands of
+00:37 companies to create and implement
+00:39 winning SEO content strategies to help
+00:41 them to rank higher online. So, what I'm
+00:43 going to share with you today isn't just
+00:45 theory, it actually works. So, let's get
+00:47 into it.
+00:48 >> [music]
+00:54 >> All right. So, local SEO used to be
+00:56 pretty checklist-based. You'd set up
+00:58 your Google Business Profile, you'd get
+01:00 a couple of reviews, and maybe you would
+01:01 create some local citations. And that
+01:03 worked until it didn't. Now, Google and
+01:06 AI search is asking one core question.
+01:09 Can we trust your business to solve a
+01:11 local problem for a local customer? So,
+01:14 everything we'll talk about today feeds
+01:15 into this question. And the very first
+01:17 place that Google looks to to see if
+01:19 this question can be answered is inside
+01:21 of your Google Business Profile. Your
+01:23 Google Business Profile is no longer
+01:25 just some sort of listing or something
+01:26 that maybe you should think about if
+01:28 you're a local business. It's literally
+01:30 the primary decision point for Google
+01:32 when it comes to local search. And
+01:34 because of this, less and less people
+01:36 are actually hitting your website, and
+01:38 instead, they're hitting your Google
+01:40 Business Profile. They use this profile
+01:42 to call, get directions to your
+01:43 business, and even message you using
+01:45 your Google Business Profile to get in
+01:47 contact with you. So, if your profile is
+01:49 weak, the rest of your local SEO isn't
+01:51 going to work as well. So, let me show
+01:53 you where most local businesses are
+01:55 getting their profile all wrong. So,
+01:57 here's an example if we type in HVAC in
+01:59 a city here, we click on this result,
+02:02 and you can see that this Google
+02:04 Business Profile description is
+02:06 literally one sentence, right? It says,
+02:08 "Heating and air conditioning contractor
+02:10 offering repairs and maintenance, as
+02:12 well as installations." While this may
+02:14 look good, it's actually horrible, and
+02:15 it's not optimized at all for Google.
+02:18 Even though in this description it does
+02:20 say that they do heating and air
+02:21 conditioning, and they offer repairs,
+02:23 Google has no idea where they actually
+02:25 do this, or who their customers are.
+02:27 That's why optimizing your Google
+02:29 Business Profile description is one of
+02:30 the easiest wins that you can do to see
+02:33 quick results. And if you want to learn
+02:35 the exact formula that works the best
+02:37 for Google Business Profiles, then make
+02:39 sure you click the link below where I go
+02:41 over it from start to finish how to use
+02:43 the formula that we use here at our
+02:45 agency to write a winning Google
+02:47 Business Profile description that'll
+02:49 help you to rank higher in the map pack.
+02:51 So, click that link below and watch that
+02:52 video. Now, the second biggest thing
+02:54 that local businesses get wrong and why
+02:56 their local SEO doesn't work is that
+02:58 once they have actually optimized their
+02:59 Google Business Profile and the
+03:01 description, their website page
+03:03 structure doesn't support what it is
+03:05 that they do and where it is that they
+03:07 do it. So, let me give you a good
+03:09 example of how you should do this,
+03:11 right? So, you can see here in this
+03:12 Google Business Profile, which is
+03:14 optimized, it shows all of the locations
+03:17 that this home builder builds homes in.
+03:20 It also says all of the services that
+03:23 this home builder does, right? Custom
+03:24 home building, ADUs, home additions, and
+03:27 whatnot. So, the nice thing about this
+03:29 Google Business Profile is you've sent
+03:30 really strong signals to Google that you
+03:33 service these certain areas, and these
+03:35 are the things that you do. But, the
+03:37 second part of this is do you have pages
+03:40 on your website that support the claims
+03:42 that you've made in your GBP profile?
+03:45 Having a one-page website that just
+03:47 talks about some of the locations and
+03:49 services that you make is not the way
+03:51 that Google wants the information.
+03:52 Google looks at your website like a
+03:54 hierarchy, and needs to know what are
+03:56 your most important pages at the top and
+03:58 how it trees down. So, for example, in a
+04:00 website that is well optimized for a
+04:03 GBP, the website would have your typical
+04:05 pages like your homepage, your services
+04:07 page, your locations page, your about us
+04:09 page, and contact us. But, then you
+04:11 would create individual service pages
+04:14 for all of the services that you
+04:15 provide. On top of that, you would
+04:18 create a master locations page, and then
+04:20 individual location pages for all of the
+04:23 locations that you service. But, this is
+04:25 where you can take this one step
+04:27 further, and this is how you can truly
+04:29 optimize and support your Google
+04:31 Business Profile. And that is with
+04:33 service plus location pages. So, for
+04:37 example, if I was an HVAC, electrical,
+04:40 or plumbing company, I would have
+04:41 specific pages for electrician in Ogden,
+04:44 plumbing in Ogden, HVAC in Ogden, and
+04:47 those all would be linked to from their
+04:49 master Ogden, Utah locations page. Now,
+04:52 based on how many locations you have and
+04:54 how many services you provide, this will
+04:56 give you an idea for how many types of
+04:58 pages you would actually need to create.
+05:00 But, the nice thing about doing this is
+05:02 it sends super clear signals to Google,
+05:04 and Google can understand the hierarchy
+05:07 of your website structure to understand
+05:09 what it is that you do and where it is
+05:11 that you do it to support your Google
+05:14 Business Profile. And the more signals
+05:16 that point Google to what it is that you
+05:17 do and where it is that you do it, the
+05:19 better chances your Google Business
+05:21 Profile is going to have of ranking
+05:22 above your competition that isn't making
+05:25 those signals very clear. The third
+05:26 thing that you should be focusing on in
+05:28 2026 for your local SEO is getting more
+05:31 five-star reviews. The nice thing about
+05:33 reviews is not only does it give Google
+05:35 a good signal that you're a good
+05:37 business to work with, but when people
+05:39 write reviews, they'll often talk about
+05:40 the service that you performed for them,
+05:43 maybe how long it took, and some extra
+05:45 data that's just really good for Google
+05:47 to contextually understand how it is
+05:49 that you provide services for people.
+05:51 Not only that, but it can make a big
+05:53 difference in the map pack. You can see
+05:55 here that, for example, for this search
+05:57 query, you can see that this one right
+05:59 here has 664
+06:02 five-star reviews compared to somebody
+06:03 with 90 or 53, right? This one right
+06:07 here has almost 6,000. Now, this is a
+06:09 sponsored result, but if I click on more
+06:11 businesses here, you'll quickly see that
+06:13 the ones that rank toward the top
+06:14 typically have a lot more reviews than
+06:17 the ones that are toward the bottom. So,
+06:18 this is why having a Google review
+06:20 strategy, meaning how do you get more
+06:22 five-star reviews from your customers,
+06:24 is incredibly important to have in 2026.
+06:27 And if you want to learn about how to
+06:28 get more reviews this year, make sure
+06:30 you click the link in the description
+06:31 below where I have an entire video
+06:33 around how to get more five-star reviews
+06:35 for your business. So, again, if you
+06:37 want to improve your local SEO in 2026,
+06:41 those are the three top things that you
+06:43 need to focus on. Number one, making
+06:45 sure that your Google Business Profile
+06:47 is optimized. Number two, making sure
+06:49 that your website page structure
+06:51 supports what your GBP says. And number
+06:54 three, getting more reviews that send a
+06:57 really good signal to Google that you're
+06:59 a good business to recommend and why
+07:01 they should rank you above someone else.
+07:03 When these three things align and
+07:05 support each other, your results
+07:07 compound. But, when one of these things
+07:09 is missing, everything slows down. So,
+07:11 if you want to take your local SEO to
+07:13 the next level in 2026, then you should
+07:16 join our school community. Inside of our
+07:18 school community, you can unlock our
+07:20 full local SEO course, which gives you
+07:22 the exact strategy that our experts use
+07:25 to help clients rank number one online
+07:27 for their local business. So, click the
+07:29 link below to join our school community
+07:30 and start getting better results for
+07:32 your business. If you like this video,
+07:34 please make sure that you hit like,
+07:35 subscribe, and turn on notifications so
+07:37 that you'll be alerted when we put out
+07:39 more helpful content like this. And if
+07:40 you want one more juicy nugget that has
+07:43 to do with local SEO, then make sure
+07:44 that you watch this video. In this
+07:46 video, we go over one of the aspects of
+07:48 local SEO that you can do that will help
+07:50 move the needle to help your company to
+07:52 rank higher. So, click this video, and
+07:54 we'll see you over there.
