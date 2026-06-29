@@ -1,0 +1,309 @@
+00:00 Most businesses are sitting on tens of thousands of dollars
+00:02 of potential revenue and they don't even know it.
+00:05 I'm talking about old leads, mis-deployments,
+00:08 mis-phone calls that all of these people showed interest
+00:12 at one point, but they weren't properly followed up with.
+00:15 So in this video, I'm gonna show you how you can go inside
+00:18 any local businesses, CRM, and find these massive
+00:23 hidden revenue opportunities, what to do about it,
+00:27 and exactly the templates and blueprint to just inject
+00:31 into their business to find this lost revenue.
+00:34 And yes, I know a lot of that sounds probably more
+00:37 complicated than actually is, but in this video,
+00:39 I'm gonna show you step-by-step how to do this,
+00:42 even if you're a total beginner,
+00:43 you don't need any prior market experience,
+00:45 you don't need any prior tech skills,
+00:46 you don't need to be some AI expert to go through
+00:48 and make this happen.
+00:49 And I wanna walk you through step-by-step
+00:52 every step of the process in this video.
+00:55 And if you like what I'm showing on this video,
+00:58 if you just smash the like button,
+00:59 drop a comment down below,
+01:01 I'll hook you up with my full step-by-step course
+01:03 that dives into this model and even more depth,
+01:06 shows you how to get clients, how to fulfill for clients,
+01:09 all that 100% for free, no upsells or hidden paywalls
+01:13 or anything like that, plus I'll hook you up
+01:15 with my templates, scripts, everything to run this full business.
+01:20 So now that you smash the like button,
+01:22 drop the comment down below,
+01:23 to get all these freebies and goodies from me,
+01:26 let me jump on my computer
+01:27 so I can show you this whole model step-by-step.
+01:30 So what we're gonna do is come over here
+01:31 to the simple automation software.
+01:33 And since I told you we're setting up two simple automations,
+01:36 we're just gonna click on this Automations tab.
+01:38 Now as I mentioned, this is a two-part automation sequence
+01:40 that takes less than 10 minutes to go through
+01:42 and set all this up,
+01:43 but what we're gonna do first is set up part two
+01:46 and you'll see why here in just a minute.
+01:48 So we're just gonna go over to Create Workflow,
+01:50 Start From Scratch,
+01:52 and then we'll just click Got it right here.
+01:54 And what we're gonna do is add an action,
+01:56 and I'll just move my heads so you guys can see
+01:58 this a little bit better.
+01:59 And this one is called the ELISA AI Appointment Booking Bot.
+02:04 So we'll just click on this.
+02:06 And now from here, we'll choose what calendar
+02:09 we want the appointments to be booked on
+02:11 for the small business owner.
+02:12 So this is obviously a demo,
+02:14 so we're gonna say Book a demo right here.
+02:16 And then the total bot processing duration,
+02:18 number of hours we can do whatever we want,
+02:20 I'm just gonna put in three right here.
+02:22 And then for this example,
+02:23 it's just gonna say, do you want to book an appointment?
+02:26 And one thing that's pretty cool,
+02:28 is you can actually come over here,
+02:29 and you can add a custom value that will automatically
+02:32 be updated with every contact that this bot reaches out to.
+02:36 So we're just gonna say Contact,
+02:37 and we're just gonna say their first name.
+02:39 So for example, I would say like, for me,
+02:41 I would say Jason, do you want to book an appointment?
+02:43 And for this, we're just gonna click on Save right here,
+02:46 and you can see it created all these different conditions.
+02:49 So it's gonna go and look at each individual contact
+02:52 and say, did it book an appointment?
+02:55 And it says, yes, you can easily go over here
+02:57 and add a tag saying the appointment was booked.
+03:00 Not even just do that really quick,
+03:02 just to show you guys, you just hit that plus button right there.
+03:04 We're just gonna say Tag, add Contact Tag,
+03:07 and we'll say demo, booked,
+03:10 and we'll just click on Add New Tag,
+03:12 and click Save Action.
+03:14 Super easy to go through and do.
+03:16 And then did the bot time out?
+03:18 So what we're gonna do if it times out
+03:20 is we're just gonna go and copy this action right here,
+03:23 this AI condition, we're gonna say Copy, Copy Action,
+03:27 and we're gonna copy it right here.
+03:29 Because now what it's gonna do
+03:30 is gonna time out for about three hours,
+03:33 and then if the person hasn't respond,
+03:35 the bot is gonna automatically follow up
+03:37 that person, send out another text
+03:39 just to go through and try to book another appointment.
+03:42 And then over here, what we can do
+03:43 is if the person did not book an appointment,
+03:45 but they responded to the initial text,
+03:48 then we can notify the sales rep
+03:50 or we can notify the business owner,
+03:52 and that's what we can go through and set up over here.
+03:54 Now you might be looking at this and be like,
+03:55 okay, well Jason, how do we actually get people
+03:58 responding to these messages right here?
+04:01 And that's where part one comes in.
+04:03 So what we're gonna do is we're just gonna name this one
+04:05 part two, and if you're looking at all this,
+04:08 pretty easy so far, right?
+04:10 I've shown you exactly what to click,
+04:12 how to add tags, everything from A to Z,
+04:15 and we could go through, we could hit Publish,
+04:18 Save, and so this is ready to go.
+04:20 Now, if we come over here to back to workflows,
+04:24 we're gonna create part one of this whole sequence.
+04:27 So we'll come over here to create workflow,
+04:29 we're gonna do start from scratch,
+04:32 and then we're gonna go over here,
+04:35 and we're just gonna do name this part one.
+04:38 And then what we're gonna do in this automation
+04:40 is we're gonna go over here and click this add button,
+04:42 and we're gonna do send SMS.
+04:45 And primarily what we wanna do
+04:46 is work with small business owners
+04:48 that have a database of phone numbers,
+04:51 which that is actually most businesses out there
+04:54 that have been in business for any number of years,
+04:56 because they're gonna have a database of pass clients
+04:58 of people that they've worked with,
+05:00 and we wanna go and just basically reactivate this database
+05:03 and get them coming back.
+05:04 So for this example, let's say that we are a dentist,
+05:07 and so we're gonna come over here,
+05:08 we're gonna say contact, first name,
+05:10 so it seems a little bit more personal.
+05:12 Jason, do you want,
+05:15 three teeth whitening, right?
+05:19 Something like that,
+05:20 and then we just go and click save,
+05:21 and we're trying to get a response
+05:23 to this initial text right here, okay?
+05:26 And then if they don't respond to this initial text,
+05:29 you can also go through and say,
+05:30 hey, we want to wait four hours or something like that,
+05:34 or whatever the timeframe might be.
+05:35 So we'll save four hours,
+05:38 and let's come over here, wait four hours, save action,
+05:43 and you can send another text.
+05:45 Hey, just wanted to follow up,
+05:46 are you sure you don't want that free teeth whitening, right?
+05:48 So just go and add another SMS over here, send SMS,
+05:53 and you get the whole idea, okay?
+05:54 So you go through and you type that in,
+05:56 I'm not gonna do that just for the sake of time,
+05:59 but you could even send another message a day later
+06:01 or whatever it might be.
+06:03 And now what you do,
+06:05 we'll just hit publish on this and save,
+06:07 and the trigger for people to enter into here,
+06:10 we're just gonna add all of our contacts
+06:12 with phone numbers into this sequence right here.
+06:15 And the cool thing is,
+06:16 if you're like wondering, well, Jason,
+06:18 I don't want them to continue to get texts if they responded,
+06:21 you can go over here and click on stop on response.
+06:25 And so what that stop on response does,
+06:27 is if somebody responds, obviously,
+06:30 after that first text message,
+06:32 it won't continue to send the messages.
+06:34 And so now we come back over to workflow number two,
+06:39 and we say, okay,
+06:41 and what's gonna trigger this over here,
+06:44 is people replying, so we'll say replied,
+06:48 customer replied, and I'll just move my head again,
+06:52 and we're gonna add a filter,
+06:54 and we're gonna say they replied to a workflow,
+06:58 and we'll say the phase one right there, save trigger, okay?
+07:05 So now we just click save right there,
+07:07 and the way this is all set up is now we go,
+07:12 and we take our contacts,
+07:14 and this is just a demo account right here,
+07:16 but we take all of them right here,
+07:18 and we would add them to the phase one workflow,
+07:20 so okay, proceed, and then so add them all to phase one,
+07:25 part one right here, and then you add an action,
+07:28 click add to automation, obviously,
+07:29 this is a demo account,
+07:30 it doesn't have phone numbers or anything like that,
+07:32 these are all demo fake contacts anyway.
+07:35 So it would add them all in,
+07:36 and they would get that first text right away
+07:39 that is saying, hey, do you want a free teeth whitening,
+07:44 the one that we set up just right here?
+07:46 And then if they respond to that,
+07:48 it's gonna automatically send them in to this part two,
+07:52 and remember, it's gonna stop on response,
+07:54 so it's gonna, on part one,
+07:56 it's not gonna continue to send the multiple text messages out,
+07:59 but it's gonna send them into this part two automation,
+08:03 where now the AI appointment booking bot
+08:05 is gonna be going through an auto booking
+08:07 all of these people that respond in a positive way
+08:11 on the calendar and it's going to add a tag.
+08:14 And then if the bot times out,
+08:16 we can go through and say, hey, AI condition,
+08:18 did a book appointment, so it's going,
+08:19 re going back through this entire process,
+08:22 and right here, we can add a tag again,
+08:25 the same exact tag that we added over here,
+08:27 so that it all maintains, so we got the demo booked,
+08:30 and then let me just move my head, save action,
+08:33 boom, just like that, and we've all set up.
+08:36 So I know that was a little bit more in depth of a setup,
+08:38 but guys, literally those two simple automations,
+08:41 you go and get a business owner
+08:43 that already has an existing database with phone numbers,
+08:47 you enroll all their contacts into that part one workflow,
+08:51 that automation, and then the system
+08:54 is gonna do everything for you.
+08:56 And typically what's gonna happen
+08:58 is it's gonna book dozens of appointments
+09:00 for that small local business owner,
+09:02 and typically what happens is it's gonna book dozens
+09:04 of appointments for that small local business owner.
+09:07 And so to get your foot in the door,
+09:09 what you can do is say, hey, in the next seven days,
+09:13 how many appointments would you like me to book for you
+09:15 for free?
+09:16 And I'm gonna go through and set this up
+09:18 and book as many appointments as I can for free
+09:20 for your business, which is pretty much a no brainer offer
+09:24 every single small local business owner
+09:26 that has an existing database with textible phone numbers
+09:29 is going to want that.
+09:31 And then once you set up these two simple automations
+09:33 like I showed you in less than 10 minutes
+09:36 for these businesses, then just enroll all their contacts
+09:39 into that part one, the system, the software,
+09:43 the automations are gonna automatically book the appointments,
+09:45 and then once an appointment is booked,
+09:48 they're gonna be able to close the deal
+09:50 because they already have a proven existing offer
+09:53 that they know how to sell.
+09:55 So you're not dealing with some newbie business owner
+09:58 that's trying to figure out their offer,
+09:59 trying to figure out what they sell and how they do it.
+10:01 And so these two simple automations
+10:03 are basically going to print money for the business owner,
+10:07 which in turn is going to print money for you.
+10:10 And so now what you can do is say, hey, on average,
+10:14 if I book an appointment for you,
+10:15 what is the value of that appointment?
+10:17 How much are you gonna make?
+10:18 And if they're like, oh, it's $300 or $500
+10:21 or whatever the number is, and you get, let's say,
+10:23 $12 appointments and it's $500.
+10:26 That's a $6,000 value.
+10:28 And so you could go through and charge $2,000, $2,500
+10:33 just for that first initial appointment booking
+10:36 after the free seven days.
+10:38 And then you go back to the business owner
+10:39 because you've already created massive value for them,
+10:42 and you say, hey, how would you like me to set this up
+10:45 for all new leads that are coming into your business?
+10:48 Every single new lead, and it's automatically done
+10:51 on autopilot.
+10:52 And they're probably gonna be like, oh, I would love that.
+10:55 And you're like, well, here's the deal.
+10:57 If you hire me, I'm gonna be pretty expensive.
+10:59 However, I can set this up with simple software and automations
+11:03 and it's only $500 per month,
+11:05 but it'll be able to continue to book you appointments
+11:07 just like I've shown you that we already have done
+11:10 for your business.
+11:11 And because this small business owner
+11:12 has already seen the massive value,
+11:14 and because they know that they're gonna make money
+11:18 because they're booking more appointments,
+11:20 the $500 per month is gonna be a no-brainer.
+11:23 Plus, it's no additional skin off their back
+11:26 because it's not really any additional work.
+11:28 It's just appointments automatically being booked by AI.
+11:32 And this is a simple service that you can set up.
+11:35 I literally just showed you step-by-step
+11:36 how to go through and set all this up.
+11:38 And like I said, if you just smash the like button
+11:40 and share this video with a friend
+11:42 who you'd either like to do this business with,
+11:45 or you think that would find this business pretty cool,
+11:47 and then drop a comment down below
+11:49 once you have liked and shared.
+11:51 I will share with you my private link
+11:53 to unlock my free step-by-step course.
+11:55 Show you all the sales scripts,
+11:57 show you how to get clients for free.
+11:59 I'll show you how to fulfill,
+12:00 how to set everything up in more detail.
+12:03 I'll even give you website templates
+12:04 so you can have a professionally designed website template
+12:07 set up for your business.
+12:08 The sales script, plus we'll even have a free live boot camp
+12:12 to help you get this entire business set up
+12:14 in less than 45 minutes tomorrow morning.
+12:17 And we'll even jump on a one-on-one kickoff call
+12:19 to make sure that you understand the software
+12:22 and have everything set up the right way.
+12:23 So with that said, make sure you smash the like button,
+12:26 share it with a friend,
+12:27 drop a comment down below once you've done that,
+12:29 and I will share with you the private link.
+12:31 And with that said, thank you so much for watching,
+12:33 and I'll see you in the next video.

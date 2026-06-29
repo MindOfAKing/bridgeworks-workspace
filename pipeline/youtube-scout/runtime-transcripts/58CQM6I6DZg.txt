@@ -1,0 +1,510 @@
+00:00 Claude code is the world's number one
+00:02 design agent and they just dropped
+00:04 Claude design 2.0. And in this video,
+00:06 I'll show you exactly how to use its
+00:08 most powerful new features across five
+00:11 levels and how to overcome its biggest
+00:14 limitation. So you don't waste your time
+00:16 and you get light years ahead of
+00:18 everybody else even if you've never even
+00:20 touched this before. And if you're new,
+00:21 I'm Jack. I built an AI startup with a
+00:23 gazillion customers. [music]
+00:25 Now I'm building my own AI startups and
+00:27 I share here the stuff that actually
+00:29 works. So if you [music] haven't
+00:30 already, grab that beautiful coffee and
+00:32 let's dive straight in. So these are the
+00:34 five levels of Claude design. By the
+00:35 way, if it's in your background, I'm
+00:37 currently in Budapest drinking that
+00:39 beautiful Budapest coffee. And I'm going
+00:41 to be honest, the lighting situation
+00:42 looked like I was an unlockable
+00:43 character 5 minutes ago. So thanks for
+00:45 bearing with me. Now, what actually is
+00:47 Claude design? Effectively, it is
+00:49 Claude's answer to creating beautiful
+00:51 design and Claude is at the moment Opus
+00:53 4.8, one of the best design agents on
+00:55 the planet. You can build websites,
+00:57 apps, prototype decks, effectively
+01:00 anything you want to. And initially, it
+01:01 got a million users in week one which
+01:03 leads us on to the change and why we
+01:05 need to talk about it in this video.
+01:07 They have done four big things and a few
+01:09 of the small things that I'm going to
+01:10 show you and how it's going to affect
+01:12 what you design. First of all, and this
+01:13 is the big one, credits go further.
+01:15 Biggest limitation was the fact that oh
+01:18 my gosh, like you would literally bleed
+01:21 credits. You just said the word Claude
+01:22 design and your Claude credits went
+01:24 broke. You can bring in design systems,
+01:26 you can design both ways and you can
+01:28 even edit on the canvas. So let me show
+01:30 you exactly what that looks like by
+01:31 jumping through to the very first level
+01:33 which is knowing exactly what the tool
+01:36 physically is. So you remember if you're
+01:38 on the basically the Claude website, on
+01:40 the left hand side, you click on design,
+01:42 you will see the interface. But you can
+01:44 also access this inside your Claude
+01:47 desktop app. Now on that Claude desktop
+01:49 app, if you click on chat in the top
+01:51 left and you come down here to design
+01:53 and just I just might have guessed it,
+01:54 click that design button, it actually
+01:56 opens up a new terminal. So, when you
+01:58 click on Claude, you can see one for
+02:01 basically Claude design and one for
+02:02 Claude itself. And you can do everything
+02:04 now inside the desktop app. Now, I know
+02:06 many of us have PTSD credit PTSD from
+02:09 using Claude design, but I'm going to
+02:10 show you it's actually pretty cool. So,
+02:11 let's familiarize ourselves with it. So,
+02:13 you can select effectively the thing
+02:14 that you want to design, prototypes,
+02:16 website animation frames, which is
+02:17 awesome. All your projects live
+02:19 underneath, which is fantastic. You can
+02:21 see all of the design system. So, if
+02:23 you've got a particular brand, we can
+02:24 build one of those and even have
+02:26 templates down there at the bottom. Now,
+02:28 you can select the design system when
+02:30 you're building, or you can just clear
+02:32 that and just go and create something
+02:33 brand new. And here, we can select the
+02:35 model. And I'm going to show something
+02:36 really interesting in this video that's
+02:38 going to help solve any issues you have
+02:40 with tokens. So, this takes us on to
+02:41 level two, where we're going to build
+02:42 something together. Now, what's really
+02:44 cool here is we can build it in any
+02:45 brand. We can give it a GitHub repo. It
+02:47 can design basically anything in brand.
+02:49 It will auto validate things. And we can
+02:51 even take that stuff, push it out to
+02:53 PowerPoint, PDF, Miro, Figma, anything
+02:56 that you want, you name it. So, let's go
+02:58 ahead and give that a crack. So, to
+02:59 really challenge it, I'm going to give
+03:01 it, for example, a link to a repo, and
+03:03 I'm also going to give it an image. So,
+03:04 let's give it a task. I'm going to come
+03:05 down. I'm going to select slides. We're
+03:07 going to go with no design system, like
+03:09 so. I'm going to give it the following,
+03:10 which is, "Hey there, I'd like to use
+03:12 this repository, this GitHub repo, and
+03:14 this image to design for me three
+03:16 beautiful slides in talking about why
+03:19 LaCroix is the best drink to be having
+03:21 in 2026."
+03:23 All right, further on in that, and let's
+03:25 go ahead and grab the actual GitHub
+03:27 repo. And here it is. This basically is
+03:29 a repo that I built just to kind of
+03:30 extract great design principles. So,
+03:32 come back over, drop that in there. Now,
+03:34 you can drop anything that you want into
+03:36 it. You can drop in Figma files, you can
+03:37 drop in images, whatever you like. And
+03:40 in fact, if I even open up these
+03:41 principles, you can see I have a really
+03:43 clear design style with this. If I copy
+03:45 this image, for example, come back over,
+03:47 drop it in, just literally copy and
+03:48 paste the images that you like, that you
+03:49 think are groovy and cool. It's really
+03:51 designed to make it as easy as possible.
+03:53 Then you can select the model Babel 5.
+03:55 She will be coming back. I'm hearing
+03:56 she's coming back. On that point by the
+03:58 way, it has been it rumored that
+04:00 GPT-4.6, which is the latest ChatGPT
+04:03 model, is allegedly that that big model,
+04:06 okay, which sounds a bit controversial,
+04:08 is supposed to rival if not exceed some
+04:10 of the fantastic models. So we're going
+04:11 to keep our eyes peeled for that because
+04:13 even with any model release we've seen
+04:15 with ChatGPT, Claude has always seemed
+04:17 to edge it. But there might be a model
+04:19 that even challenges is Claude, which
+04:20 I'm going to I'm going to cover in a
+04:21 second in this video. Now, the first
+04:22 thing that's come up here, for example,
+04:23 is going to show us some questions. So
+04:25 we're going to do this for the Let's
+04:26 just do it for the investors pitch.
+04:28 That's fine. Playful and bold, Wild Claw
+04:30 wins the most, zero sugar health, flavor
+04:32 variety, and lifestyle and vibe. That's
+04:34 fantastic. Use them as the main visual
+04:36 style. Just make something that's
+04:37 beautiful and follows the instructions
+04:39 and the visual style. So we're giving it
+04:40 some information, come down, and then
+04:41 click on continue. Beautiful. Now we
+04:43 have the presentation from Claude to
+04:44 LaCroix owns 2026. You'll see at the
+04:46 bottom we have speaker notes, which we
+04:48 can edit. We can just uh look at it if
+04:50 we want to. Then we have slide two,
+04:51 which is going to be three reasons it
+04:52 wins. It's cool cuz you see these
+04:54 squares and circles, it actually copied
+04:56 that from that initial image, which is
+04:57 cool. It's taking some creative license.
+04:59 Come down, and the commas can in the
+05:01 cooler wins the decade. Cool. That's
+05:03 decent. In this itself, you can do a
+05:05 couple of things. I can mark up so I can
+05:06 like basically say, "Hey, let's make
+05:10 this section bigger." So I can come down
+05:11 and say, "Hey there, make this section a
+05:13 little bit bigger." Okay, cool. Send
+05:14 that one off. While Claude is working in
+05:15 the background, you can drop comments on
+05:17 there, too. But probably the coolest one
+05:18 I think is going to be the edit feature.
+05:20 So I can just literally now edit it.
+05:21 Now, the reason why this is important is
+05:23 because previously we had to give a
+05:24 command, and AI had to go through the
+05:26 entire context window, which meant they
+05:27 just burned so many tokens. Now, let's
+05:30 say for example, I want to remove the
+05:31 apostrophe, I can just click on this,
+05:33 come over, and there you go, done. I
+05:34 don't have to say, "Hey Claude, remove
+05:36 the full stop." It can physically do it,
+05:37 and we can edit it. Then on the
+05:38 left-hand side you see you can actually
+05:40 edit everything. We can check out the
+05:41 font sizes, um play around with colors,
+05:44 just kind of edit everything in detail
+05:46 just like you would do in a Figma. So
+05:48 now Claude has made that image larger.
+05:49 If you want to, you can do presentation
+05:50 mode and actually go full screen with
+05:52 that and just say "Hey guys, here's my
+05:53 presentation. How good is life?" Cool
+05:55 though, we can actually go ahead and
+05:56 share this. And on the share link, you
+05:57 can do it to your workspace if you want
+05:59 to. Or if you come down to export, for
+06:01 example, you can see the different
+06:02 formats we have here. So, we can do this
+06:03 as a stand-alone HTML, or you can do it
+06:06 as a PowerPoint, export it in
+06:08 PowerPoint, and then actually edit it
+06:09 within that software yourself. Well,
+06:10 this leads us onto the coolest part of
+06:12 this and actually the biggest issue that
+06:14 I've covered so far. And that's the fact
+06:15 that it's not re-imagining. It's not
+06:17 creating things. What we can do with
+06:20 Claude design is actually use our
+06:21 inbuilt connectors that we already have
+06:24 in Claude code. Let me show you exactly
+06:26 what I mean. For example, we could
+06:27 scrape information about competitors or
+06:29 our websites. We can generate images
+06:31 ourselves within Claude design. And bear
+06:33 in mind, design is just one part of many
+06:35 in Claude code. So, if you want to get
+06:36 the full breakdown from foundation
+06:38 setup, building websites, power
+06:39 features, memory systems, Hermes,
+06:41 everything I have never covered on the
+06:43 channel, I'll put a link down below for
+06:44 the full Claude code course. With that
+06:46 as well, you also get access to the
+06:47 beautiful Claude code operating system,
+06:49 which is freaking unbelievable. And how
+06:52 you can take it to new level. Now, if I
+06:53 come back over and I land over here, I'm
+06:55 going to come back over now to the
+06:56 homepage real quick. And what I'm going
+06:58 to do is use a connector. I'm going to
+06:59 give it a very specific prompt. I'm
+07:00 going to say, "Hey there. I would like
+07:02 you to go over to glido.com and use my
+07:05 fire crawl connection, my fire crawl
+07:08 MCP, to extract the brand identity. And
+07:11 I want you to create for me an animation
+07:13 that is three pages long." Cool. And
+07:15 then what I'm going to do after I'm done
+07:17 that, I'm actually going to go ahead and
+07:18 say this. Go ahead and also use um an
+07:20 image generator to go ahead and generate
+07:23 some unique images or maybe one unique
+07:25 image based exactly on that style in
+07:28 that deck for me. Now, I'm going to
+07:29 deselect my design system here just for
+07:31 argument's sake and then come down and
+07:32 we're going to go ahead and choose
+07:33 animation. And then go ahead and send
+07:35 that one off. Now, for creating images
+07:36 itself, you could use Higgsfield. You
+07:38 could use something called Kia AI, which
+07:40 I think is probably the cheapest way to
+07:42 do it. Actually, uh once you connect
+07:43 that API key to your Cloud system. Now,
+07:45 the reason I love using Firecrawl is cuz
+07:47 you can actually extract information
+07:49 unbelievably easy. It is so cheap
+07:51 because essentially, if you scrape a
+07:53 website, you've got to take in all the
+07:54 tokens. With Firecrawl, you mess out all
+07:56 the HTML stuff. You can literally
+07:57 search, scrape, and track with it. I use
+07:59 it to get brand identities. It is super
+08:01 duper easy. All you do is literally
+08:02 connect it, and then you're rocking and
+08:04 rolling. So, if I come back over now to
+08:06 Cloud Design, you can see it's using
+08:07 Firecrawl to scrape and get that
+08:09 information, which is great because not
+08:11 every website is built for AI. Using
+08:14 tools like Firecrawl, we can actually
+08:15 get the right information way faster and
+08:17 do so much cool stuff. And just like
+08:18 this, guys, we now have our actual
+08:20 presentation. So, let's have a look at
+08:21 what it's designed for us here. And I'll
+08:23 tell you straight away, it has
+08:24 absolutely captured the Well, okay, this
+08:26 is cool. I like it. It's captured the
+08:27 actual font edge and the color scheme,
+08:29 which is all in type with your voice.
+08:30 That's very true. Speak naturally, it
+08:31 types out. So, it's actually grabbed
+08:32 this image. This is cool. Ah, that's
+08:34 really cool. Do you know, I'm actually
+08:35 genuinely impressed with this. I think
+08:37 this is really freaking decent. 20 hours
+08:39 a month saved. This is information it's
+08:40 going to have and grab from the website.
+08:42 It's also got the logo, which I think is
+08:43 freaking amazing, and giving it tools
+08:45 like Firecrawl absolutely crushes it. I
+08:47 do want to touch on actually what is
+08:48 going on here compared to Cloud Code and
+08:50 this because keeping this 100% real, to
+08:53 Cloud Design itself is just the ability
+08:55 to effectively edit it. It's this
+08:56 interface here and the ability to export
+08:59 it different things like PowerPoint and
+09:00 PDF. Cloud Design is using the Cloud
+09:03 Code model underneath. And so, by that
+09:05 virtue, anything you technically build
+09:07 in Cloud Design, you can, if you want
+09:09 to, build in Cloud Code. It's just
+09:11 trying to make it so easy. And if you're
+09:13 time poor, sometimes it's easy to go
+09:15 into Cloud Design and build the thing.
+09:16 Which interestingly takes us on to level
+09:18 four, which is the ability to basically
+09:20 pass information from Cloud Design back
+09:23 to Cloud Code. Now, you may want to do
+09:25 this if, for example, let's say that we
+09:27 build a dashboard, right? And then we
+09:30 actually want to take that dashboard and
+09:31 give it a database and build it out into
+09:33 a full system. Well, we can't do that in
+09:36 Design. So, for example, let's go over
+09:38 to our beautiful glido animation and
+09:39 let's share this number one. Now, you
+09:41 can export it to these different things.
+09:43 We don't want to do that. What we want
+09:44 to do is send it. Now, we can send it to
+09:46 Claude code, Canva, or Gamma. We're
+09:48 actually going to go ahead and send this
+09:49 one over to Claude code by clicking
+09:51 send. Now, two different ways. Now,
+09:52 there've been some complaints as well
+09:54 about it's not a clean crisp
+09:55 integration. You can send it to Claude
+09:57 code web. I wouldn't do that. If you're
+09:58 in the app, just honestly use the app.
+10:00 What you can do is literally copy this
+10:02 and effectively what it's doing is it's
+10:04 detailed where the files are living,
+10:06 which is super helpful. Or if you want
+10:07 to, you can just download it as a zip.
+10:09 That's completely cool if it just makes
+10:10 that a lot easier. But, I'm going to
+10:11 come down. I'm going to copy the prompt
+10:12 like so and then I'm going to head over
+10:13 to Claude code. And now, within Claude
+10:15 code, I'm going to literally paste that
+10:16 in and I'm going to say, "Do me a favor.
+10:18 Pull me together a very simple one-page
+10:21 website using the design principles in
+10:24 this with this video integrated into it,
+10:26 please." Send that one off and then we
+10:28 should be ready to rock and roll. So, we
+10:29 can bring it over to code when it
+10:31 reaches a certain level of complexity or
+10:32 if you just want to get the initial
+10:33 design done and then you can bring it
+10:35 back over. Beautiful guys. And then
+10:37 Claude has gone ahead and designed this.
+10:38 It's integrated the video into which is
+10:40 great and it's added some other
+10:41 beautiful bits and pieces, which is
+10:43 awesome. One interesting thing though,
+10:45 when I come back over here, is that when
+10:47 I actually exported it to Claude code,
+10:49 it was like, "That's cool." But, it
+10:51 couldn't find the video. So, what I did
+10:53 is I actually went back and I
+10:54 re-extracted it. I downloaded the zip.
+10:57 And actually, if you even listen to what
+10:58 Claude code tells us here, for example,
+11:00 at the moment the integration is a
+11:02 little dicey. When it downloaded it from
+11:04 the handover, it didn't have anything.
+11:06 But, when I took it from the zip,
+11:07 effectively it is the best way to go
+11:09 ahead and do that. So, just bear that in
+11:10 mind. And also, when you do download it
+11:12 as a zip, whatever you build in Claude
+11:13 design, you can take it anywhere that
+11:15 you want to and use by any single model
+11:18 that you'd like. Which interestingly
+11:19 takes us on to level five, which no
+11:22 one's really talked about when it comes
+11:23 to Claude code design. And before I show
+11:25 you that, just bear in mind, you always
+11:26 want to extract the zip. Extract the
+11:28 core code, then link it back up. I think
+11:31 the integration will pick up as time
+11:32 goes on, it's a great thing
+11:34 directionally. People have run into
+11:36 snags, so make sure you're going ahead
+11:37 and actually downloading it. Now, let's
+11:39 think about level five here. And we're
+11:41 talking about owning the entire stack
+11:44 here, right? So, how do we actually get
+11:45 to the point where we're not locked in
+11:47 with any specific model, but what if we
+11:49 want to use this design with a different
+11:51 model? What if we want to build on this
+11:53 with something else? Well, there's two
+11:54 ways that we can do this and I'm going
+11:56 to show you both and I want to make sure
+11:57 you got both of these in your arsenal so
+11:59 you're never caught short ever again.
+12:01 Now, firstly, we can head over to open
+12:03 design, which effectively is mirroring
+12:05 everything that Claude design does, but
+12:07 it runs locally on your computer and you
+12:08 can power it with any model you want to.
+12:10 To use this, come down to code like so,
+12:12 come over and literally copy this.
+12:13 You're going to open up a new session
+12:14 and say, "Hey there, I want you to
+12:16 download this repo and open it up for me
+12:18 in a local host." Ordinarily, when we
+12:20 get repos, we never give Claude this
+12:22 command unless you really know the repo
+12:24 that you're referencing. Ask Claude to
+12:25 always check it for you. Beautiful. Now
+12:27 that's done, I'm just going to go ahead
+12:28 and say, "Awesome, open that up for me,
+12:29 please." So, effectively, this is the
+12:31 software on your computer that you're
+12:33 now locally hosting and it just unlocks
+12:34 new capabilities. And when it opens up,
+12:36 you're going to come down and click on
+12:37 local coding agent, which is fantastic,
+12:40 and then we can pick all the things that
+12:41 we want to connect with. So, for this
+12:43 one, you can even use Claude code in it
+12:44 if you want to or you could use ChatGPT.
+12:46 So, use your ChatGPT $20 subscription to
+12:49 basically code anything you want to if
+12:50 you hit your limits, which is fine.
+12:52 We're going to skip all of this, come
+12:53 down, click on continue, and then we're
+12:55 ready to rock and roll on building a
+12:56 design system. And then, when you open
+12:58 design, I kind of I want to attach the
+13:00 exact same thing that we just built in
+13:02 Claude design and Claude code by coming
+13:04 down here, clicking on the plus button
+13:05 like so, and I'm going to attach a file.
+13:07 So, as you can see, I've got Claude as a
+13:09 and I'm going to come down and say,
+13:09 "Hey, on this website, I just want you
+13:11 to change the color from green to blue."
+13:13 I'm just doing this as an example, click
+13:14 off, send. But of course, before we do
+13:16 that, we can actually then go ahead and
+13:17 pick the model we want to. So, I'm going
+13:19 to go ahead with the Claude X CLI in
+13:20 this case and then send that one off.
+13:22 And CLI just means command line
+13:24 interface. It just means that on your
+13:26 computer you can access Codec, which is
+13:28 the chat GPT coder, just like Claude
+13:30 code is for Claude. It's just fancy
+13:32 speak for using different models,
+13:33 basically. An open design is a free
+13:36 repo. It's a free project people have
+13:37 built to let you use the kind of core
+13:40 ethos of Claude design, like it's kind
+13:42 of like skills, that kind of thing, uh
+13:44 in an open environment where basically
+13:45 you can use any model to power it.
+13:47 That's why this is so cool, and it's a
+13:48 great build on. It lets you keep on
+13:50 building if you hit your limit in Claude
+13:53 code. And then beautiful, just like
+13:54 guys, we've gone from green to blue. I
+13:55 think green is better if you ask me, but
+13:57 you get the idea of how this entire
+13:59 thing connects. And they get really
+14:00 creative, like here's an example of
+14:01 something that I built earlier. For
+14:02 example, you can see this is another
+14:04 instance of using Glado, using fire code
+14:06 coming down and connecting everything
+14:07 together, coming over and just seeing
+14:09 these beautiful basically these
+14:11 beautiful animations with this system.
+14:12 Now, one thing to bear in mind is if you
+14:14 do use open or tip, you can't export it
+14:16 like into PowerPoint. That is Claude
+14:18 design only. One of the really cool
+14:20 things that it does and why it's a great
+14:21 place to play around and build some
+14:23 stuff. And on top of that, you can also
+14:24 use GLM 5.2, which is around the same
+14:28 performance as Opus 4.8, but 1/6 of the
+14:31 cost. It lets you take it to completely
+14:33 new level, and you can do that by using
+14:35 it inside the terminal. And again, just
+14:37 build on any of the designs you've
+14:38 already built. But it does then take us
+14:40 on to a really important question. And
+14:42 that's essentially where do we actually
+14:43 go from here? Because a design is one
+14:46 thing, but it's only one part of a
+14:48 series of core things you need to
+14:50 understand with Claude code to advance
+14:52 your business and your personal life. So
+14:54 the next thing we need to do is learn
+14:55 how we can build those pieces together
+14:57 in a gigantic operating system, which
+14:59 we'll do right here in this video.

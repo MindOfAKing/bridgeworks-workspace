@@ -285,3 +285,59 @@ Area: Finance Discipline, AI Tool Routing, Solo Operator Workflow
 Change: Add a router before paid AI changes: job type, existing-tool capability, monthly cost, weekly frequency, data exposure risk, approval needed, and proof task.  
 Evidence file: `pipeline/youtube-scout/transcript-extractions/yt-20260628-006-ai-subscription-router.md`  
 Status: Needs SOP row. No SuperGrok or paid AI upgrade from this run.
+
+## 2026-06-29
+
+### Action: Add Core 30 GBP Page Map To Foundation QA
+
+Source: `The 30-Page Local SEO Hack Google's AI Is Already Rewarding`  
+Decision: Adapt  
+Area: Foundation Website QA, GEO / AEO, Local SEO, Digital Growth Engine Reporting  
+Change: Add a proportional page-map check that compares GBP primary category, secondary categories, services, homepage, service sections/pages, internal links, and buyer-intent first paragraph.  
+Evidence file: `pipeline/youtube-scout/transcript-extractions/yt-20260629-001-core-30-gbp-page-map.md`  
+Status: Needs checklist integration. No fake local pages, AI slop location pages, or 30-page default Foundation scope.
+
+### Action: Add AI Agent Worktree Isolation To Delivery Verification
+
+Source: `Run Multiple AI Agents in Parallel (Claude Code Tutorial)`  
+Decision: Adopt as delivery guardrail  
+Area: AI Delivery Verification, Website Production System, Agency Operations  
+Change: Use one git worktree per non-overlapping AI implementation task, one agent per worktree, and verify output before merge.  
+Evidence file: `pipeline/youtube-scout/transcript-extractions/yt-20260629-002-ai-agent-worktree-isolation.md`  
+Status: Needs SOP row. No commit, push, broad refactor, or client-work parallelism without approval and rollback.
+
+### Action: Add Draft-Only Design To Code Loop To Website Production Backlog
+
+Source: `Claude Design 2.0 Just Changed Everything...`  
+Decision: Adapt with constraints  
+Area: Website Production System, Foundation Prototype Drafts, Brand Assets  
+Change: Use design tools only as a draft bridge from brand context to editable mockup to code handoff. Prefer zip/file handoff when direct integration fails.  
+Evidence file: `pipeline/youtube-scout/transcript-extractions/yt-20260629-003-draft-only-design-to-code-loop.md`  
+Status: Watch / backlog note. No paid API spend, repo install, public sharing, or client-facing mockup without approval.
+
+### Action: Add Guarded CRM Reactivation Audit To Audit Preview Backlog
+
+Source: `How To Find 50K Hidden In Any Local Business's CRM (Charge 5K Per Job)`  
+Decision: Adapt with compliance and approval gates  
+Area: Sales And Prospecting, AI Growth Systems, Client Delivery  
+Change: Add a diagnostic module for dormant leads, missed calls, stale CRM contacts, consent status, value per appointment, and owner-approved reactivation options.  
+Evidence file: `pipeline/youtube-scout/transcript-extractions/yt-20260629-004-guarded-crm-reactivation-audit.md`  
+Status: Needs checklist. No SMS, WhatsApp, email, client contact, CRM access, or campaign execution without Emmanuel and client approval.
+
+### Action: Add Multi-Lens Research Brief To Competitive Intelligence SOP
+
+Source: `Stanford's Method Turns Claude Into a PHD Level Research Team`  
+Decision: Adapt  
+Area: Competitive Intelligence, Audit Previews, Offer Validation, Proof And Authority  
+Change: Add a research pattern using operator, buyer, skeptic, finance, and market-context lenses, followed by contradiction mapping and source verification.  
+Evidence file: `pipeline/youtube-scout/transcript-extractions/yt-20260629-005-multi-lens-research-brief.md`  
+Status: Needs SOP row. No external skill install or paid agent loop from this run.
+
+### Action: Add Search Everywhere Visibility Map To Foundation QA And DGE Reporting
+
+Source: `SEO Is Bigger Than Google Now. Here's the New Playbook`  
+Decision: Adapt  
+Area: Foundation Website QA, GEO / AEO, Local SEO, Digital Growth Engine Reporting  
+Change: Add a compact map for website clarity, GBP fit, local pack, AI answer presence, citation sources, third-party profiles, and proof gaps.  
+Evidence file: `pipeline/youtube-scout/transcript-extractions/yt-20260629-006-search-everywhere-visibility-map.md`  
+Status: Needs template. No fake reviews, spam profiles, paid citation campaigns, or AI-ranking guarantees.

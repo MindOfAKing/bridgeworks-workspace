@@ -1,0 +1,983 @@
+00:00 Hey, this is a video on how to use
+00:01 Claude Code completely free. So, Claude
+00:02 Code is the number one coding agent in
+00:03 the world right now, but it also costs
+00:05 between 20 to 200 bucks a month. It has
+00:07 pretty restrictive rate limits, as we
+00:08 know, and some people complain about
+00:10 quality fluctuations. In this video, I'm
+00:11 going to show you a free, fully
+00:13 open-source alternative method called
+00:14 free Claude Code that literally lets you
+00:16 use the exact same Claude Code
+00:17 interface, so the same terminal and the
+00:19 same commands, but with significantly
+00:21 more affordable back-end models that
+00:23 allow you to achieve somewhere between
+00:24 80 to 90% of the quality of Opus 4.7,
+00:26 but for between 2 to 5% of the cost. So,
+00:29 very high leverage. Let me show you how
+00:30 to do it. So, this is an app called
+00:31 Habitual that I just put together, and
+00:33 uh it's just a simple habit tracker app.
+00:35 What's funny is this would have cost me
+00:37 something like 5 to 10 dollars in in
+00:38 Anthropic credits. With Deep Seek Flash
+00:41 V4, which is the model that I was using
+00:42 inside of this free Claude Code uh
+00:44 configuration, I was able to build this
+00:46 for like 3 cents. So, that's not
+00:48 hyperbole. I literally did so for like
+00:50 several hundred times less money than I
+00:52 would pay to Anthropic. And it's not to
+00:54 say that this is the exact same quality
+00:55 of app that I would get if I built, you
+00:57 know, using Claude, but uh you know, the
+00:59 the coding models that are available now
+01:01 on platforms like OpenRouter, Nvidia
+01:03 NIM, and then Ollama, all three sources,
+01:05 which I'm going to run you guys through
+01:06 how to set up on your end, are actually
+01:08 quite powerful, and you can do more or
+01:09 less anything you would do with Claude
+01:10 Code, um you know, with one of those
+01:12 models instead of a traditional Opus
+01:14 back-end.
+01:15 The thing to know is, you know,
+01:16 obviously at really high levels of
+01:18 quality, which I think like the Claude
+01:19 Opus models are getting to, even a 1%
+01:22 improvement in quality might mean like
+01:23 really, really different results. So,
+01:25 I'm cognizant of that. But, I think a
+01:26 universe probably exists where you can
+01:27 fire off a lot of things with like Opus
+01:29 4.7 or another really advanced uh kind
+01:31 of frontier model, and then have, you
+01:33 know, Deep Seek, let's say, or G-line
+01:35 4.7 do a lot of like the heavy lifting
+01:37 work behind the scenes, the code
+01:39 refactoring, and so on and so forth, uh
+01:41 to save you like 5 to 10x what you what
+01:42 you normally would have spent. So, what
+01:44 I have over here on the left is a
+01:46 actually have Deep Seek running. You can
+01:47 see it's doing this in the exact same
+01:48 Claude Code interface, as per usual. We
+01:50 even have like thinking blocks that are
+01:52 kind of coming out. Um you can actually
+01:53 see that it's referencing Deep Seek V4
+01:55 Flash via proxy, and that's going to be
+01:57 the approach I'm going to show you.
+01:58 But, um for all intents and purposes, I
+02:00 mean, not really much else to say. You
+02:02 talk to it the same way that you do any
+02:04 sort of like Claude Opus model. Let me
+02:05 show you guys how to actually set this
+02:06 up. It's super easy. It takes just a few
+02:08 minutes, and then I can show you guys
+02:09 some examples of a different models and
+02:11 how to how to work with them. So, the
+02:12 way that typically Claude code works is
+02:14 you have it set up here in a terminal.
+02:16 Maybe you have it in Anti-Gravity. Maybe
+02:17 you have it in like the Claude desktop
+02:19 app or something like that. And then you
+02:20 send it something. So, you say, "Hey."
+02:22 And you know, the second that you send
+02:23 it a request, what it'll do is it'll
+02:25 push it over to its API right over here,
+02:28 and then you'll be billed usually based
+02:29 off token usage directly. Or, you know,
+02:31 if you're smart, what you'll do is
+02:32 you'll get a plan like pro or maybe max
+02:35 or whatever. And what these do is they
+02:37 basically subsidize the token usage a
+02:38 little bit in exchange for Claude or
+02:40 Anthropic, the parent company, knowing
+02:42 that you're going to pay a subscription
+02:43 every single month. And that's all well
+02:44 and good. It's just this is a fair
+02:45 amount of money, right? I would much
+02:47 prefer to spend $0.005 per million
+02:49 tokens instead of $5 per million tokens.
+02:52 Now, what our solution is going to do is
+02:54 when I send something over to Claude
+02:56 code, instead of it just going directly
+02:58 to Anthropic, what we're going to do is
+03:00 we're going to force it to instead push
+03:02 to our free Claude code proxy. And uh
+03:04 this is going to be set up as a local
+03:06 server on our computer, hence why it's
+03:07 this localhost, you know, 8082. You can
+03:09 put it on whatever freaking server you
+03:10 want. But, what this proxy will do then
+03:12 is it's then going to route it to one of
+03:13 three possibilities. The first is
+03:15 Nvidia's NIM, which uh is free, you
+03:17 know, with an account. I think you can
+03:18 also pay for some. That basically
+03:20 leverages a bunch of Nvidia GPUs to send
+03:22 requests. These models aren't as good as
+03:24 this next one which costs some money. Uh
+03:26 there's OpenRouter, which uh you know,
+03:27 you can get models down to like 14 cents
+03:29 per million. That's quite a far cry away
+03:31 from $25 per million, right? And then
+03:33 finally, you have Ollama. And Ollama
+03:35 actually uses like your your own GPU.
+03:37 So, you might have a GPU rig set up or I
+03:39 don't know, maybe you just have a gaming
+03:40 laptop or something. You can um set up
+03:42 models to run directly on that
+03:43 infrastructure. And if you're really
+03:45 good, you can actually set them up to
+03:46 run way faster than traditional uh you
+03:48 know, Claude models cuz you're not
+03:49 competing with millions of other people
+03:50 to send those requests. So, what we're
+03:52 going to do right now is I'm going to
+03:53 show you guys how to set up this
+03:54 section, which is the free Claude code
+03:55 proxy, and then after I'm actually just
+03:57 going to run through all three of these
+03:59 options as well as, you know, all of the
+04:00 models sort of on these platforms, so
+04:03 you guys could see everything that you
+04:04 need to do in order to set them up
+04:05 yourself. And you don't need any
+04:06 technical experience setting up local
+04:08 models or anything like that. I'm going
+04:09 to I'm going to walk you guys through it
+04:10 and handhold you from start to finish.
+04:12 Okay, so everything starts with this
+04:13 repo right here called free-claude-code
+04:15 by Ali Sherer. And it looks like this
+04:18 has gained a ton of popularity in a very
+04:20 short period of time. Just scrolling
+04:21 down here to its star history, it was
+04:23 basically a nothing in February and
+04:24 March, and just now it's hit an
+04:25 inflection point. A lot of people have
+04:26 been sharing and stuff like that. What
+04:28 you guys need to know is not about this
+04:29 specific repo. There are a lot of very
+04:30 similar approaches that do basically
+04:31 exactly what this thing does. So,
+04:33 uh should you not want to use this one
+04:35 or want to use a different one or should
+04:36 this become unavailable at any point in
+04:38 time, like just you know, don't The
+04:40 point The purpose of this guide is that
+04:41 you guys should see it in practice and
+04:43 then know how to set it up in your end.
+04:47 Okay, so what we need is we just need
+04:49 this little quick start down here, and
+04:50 I'll walk you guys through everything.
+04:52 Um just open up a terminal. And so, this
+04:54 terminal instance is currently running,
+04:55 you know, deepseek-v4-flash. This is
+04:57 like the one that's actually live. Uh
+04:58 so, what I'm going to do is I'm just
+04:59 going to exit out of this.
+05:01 And then I'm just going to clear. Okay?
+05:02 If you don't know how to do that, let's
+05:04 see if you have another terminal window
+05:05 open. You can also just head over to
+05:06 shell, new tab. Uh if you're running uh
+05:08 Windows, then you're going to have to
+05:09 use like Windows-specific thing called
+05:11 PowerShell, which is a little bit
+05:12 different, but um this quick start guide
+05:14 is going to run you guys through how to
+05:15 do everything regardless. So, because
+05:17 I'm on macOS or Linux, all I'm going to
+05:18 do is I'm just going to copy these three
+05:20 commands in.
+05:21 It's now going to go through and then
+05:22 install everything that it needs to. In
+05:24 my case, I already have all of it
+05:25 installed cuz I've obviously set this up
+05:26 before. Okay, then what I'm going to do
+05:28 is I'll just copy this next command
+05:29 over, give that a paste. So, it's going
+05:31 to clone directly in. Now, uh when I say
+05:33 clone directly in, you'll see this has
+05:35 actually changed, and that's because one
+05:36 of the three commands here was to go
+05:38 into the directory, and so now we're
+05:39 actually in the directory.
+05:41 Uh if you're on PowerShell, you just
+05:42 copy this command over. Um same thing
+05:44 with that.
+05:45 Okay, and so from here on out, we
+05:46 actually have like the folder set up.
+05:48 Like I know it sounds interesting and
+05:49 weird, but we've we've done like 80% of
+05:51 the work. Um just by copying this
+05:53 configuration, we have more or less
+05:54 everything we need aside from just the
+05:56 API key of the provider that we're
+05:58 using.
+05:59 The simplest and easiest provider to get
+06:01 set up with is OpenRouter, so that's
+06:02 what I'm going to show you guys first.
+06:04 And then after that we'll chat NVIDIA
+06:05 NIM and then finally Ollama. Um
+06:07 OpenRouter's probably the simplest like
+06:08 plug-and-play drop-in replacement for
+06:11 whatever you guys are currently using.
+06:12 If you guys have any experience sending
+06:13 API requests or whatever you guys for uh
+06:15 this video, then that'll be very very
+06:17 simple to you guys. And then if not, you
+06:19 know, I'll show you guys how to use even
+06:20 cheaper ones. But basically what you
+06:21 need to do is you just need to go and
+06:22 grab your your your uh OpenRouter uh uh
+06:25 path. So, that's pretty easy. All I need
+06:27 to do is just go to openrouter.ai. Now,
+06:29 I actually already have an account set
+06:30 up, so I'm just going to open up my
+06:32 account. And then uh here are all my
+06:34 requests that I've been making. I'm just
+06:36 going to go to API keys, and then I'm
+06:38 just going to go create. I'll say for
+06:40 YouTube.
+06:41 Then, I don't know, I'm just going to
+06:43 expire this in like a day. That way, if
+06:44 I forget the API key, nobody can uh you
+06:47 know, bill or run me up a million
+06:49 dollars. I'm also going to copy it, and
+06:50 you have to copy right there, otherwise
+06:52 it's going to uh basically exit out.
+06:54 And then what I'm going to do, and uh
+06:56 this may be kind of intimidating if
+06:57 you've never done it before, but I'm
+06:58 just going to find that folder. So,
+06:59 free-cloud-code. And the way that uh you
+07:01 can do this really quickly here is just
+07:02 PWD. So, in my case,
+07:04 users/nicksurvive/hello-world-claude/free-cloud-code.
+07:06 That's pretty straightforward. So, I'm
+07:07 going to go to finder.
+07:09 And uh I already had this open earlier,
+07:11 so I'm going to go hello-world-claude.
+07:14 And once you're done with that, you'll
+07:16 see the folder. Um what you guys will
+07:18 probably notice right off the bat if you
+07:19 just have like a vanilla Mac install on
+07:21 our developers is these files here are
+07:23 sort of like um you know, significantly
+07:25 less opaque. They're sort of shadowed
+07:27 out. And you may have never seen files
+07:28 like that before. What these are, these
+07:29 are hidden files. Anything on a Mac with
+07:31 a period in front of the file name
+07:33 basically just defaults to hidden. This
+07:34 is a convention that they use just so
+07:36 that, you know, if developers build
+07:38 something cool and and maybe potentially
+07:39 a little dangerous, um average, you
+07:41 know, computer users don't really have
+07:43 to worry about that. Um, but what's
+07:44 really cool is you can actually just
+07:45 show or hide hidden files at any time.
+07:47 And I've totally forgotten the hot key,
+07:48 so I'm just going to look up like macOS
+07:50 hidden file hot key.
+07:53 And, uh, right over here you can see
+07:54 it's command shift period. So, I'm going
+07:56 to go back over here, I hold command
+07:57 shift, press period, and boom, it just
+07:59 like removed all the hidden files, and
+08:01 then it's showing them. It's removing
+08:02 them, it's showing them. So, yeah, if
+08:04 you guys ever wonder about how to do
+08:05 that, um, just feel free to to look that
+08:06 up and it'll walk you through it. And
+08:08 the file you want to edit here is this
+08:10 on.env file right here.
+08:12 Okay, as you see, if I zoom way in on
+08:14 this, uh, once you open this up,
+08:16 there'll be placeholders for all of the
+08:17 API keys. Open router config, deepseek
+08:19 config, you know, LM studio config, and
+08:22 so on and so forth. Okay, so I'm going
+08:24 to paste the key in right over here, and
+08:26 then there's one more thing that you
+08:27 have to do. If you scroll all the way
+08:29 down to where it says open router, you
+08:30 also have to specify a model. And, uh,
+08:32 you might be wondering, where do I do
+08:33 that? If you scroll down, there's a
+08:34 little section where it says model,
+08:36 okay, right over here. What you have to
+08:37 do is you have to you have to choose the
+08:39 provider from open router. So,
+08:40 basically, if we want to use, um,
+08:42 deepseek four or something like that, we
+08:43 just go to browse all models.
+08:45 And then I'm just going to type deepseek
+08:48 v4 flash, this one right over here.
+08:50 There'll be this little copy right over
+08:51 here, deepseek {slash} deepseek, um, v4
+08:54 flash, okay. Once you pasted that and go
+08:56 open_router
+08:58 like this, and this should be the
+09:00 format, um, I've done this a couple of
+09:03 times. You see here it's open_router,
+09:05 that's where the provider, then deepseek
+09:07 deepseek v4 flash.
+09:09 If not, we'll figure it out. Okay, I'm
+09:10 going to save this, and once I'm done
+09:12 with that, um, I can actually now open
+09:13 up a terminal right over here, verify
+09:15 that I'm inside of this directory, okay,
+09:17 and we just did the editing on the, um,
+09:19 .env file, which is hidden, so you need
+09:21 to go ls -a if you want to see it.
+09:24 And then from here, we can actually just
+09:25 scroll up to step three, which is start
+09:27 the proxy, paste this in,
+09:29 and I may have this port set up. No, I
+09:31 don't, which is nice, cool. And now this
+09:32 is running. And now we just need to open
+09:34 up another terminal window. So, a lot of
+09:36 terminal windows here, let's just open
+09:37 that up.
+09:38 We should zoom way in, like I did a
+09:40 moment ago.
+09:41 I think that's about equal, right? This
+09:43 one's a little bigger.
+09:44 And then, uh we just run Claude Code
+09:46 with this proxy setup, okay? So, I'm
+09:48 going to copy this bash command, paste
+09:51 this in, and then, go enter.
+09:54 You can actually see we're running
+09:55 DeepSeek-v4-Flash via proxy down here,
+09:58 because we just made that request, and
+09:59 we sort of did that specification. Now,
+10:01 I'm going to go, "Hello."
+10:02 So, when you say, "Hello," um basically,
+10:04 this right over here is just a real-time
+10:06 log, where it's catching every incoming
+10:08 request. It's then sending that incoming
+10:11 request to, you know, DeepSeek or some
+10:13 other provider. DeepSeek is then
+10:14 catching that, and then they're sending
+10:16 it back. And so, you know, on the first
+10:18 initialization, it may take a little
+10:19 while, and that's more or less what
+10:20 happened here. The user just said,
+10:21 "Hello." Simple greeting. I should
+10:22 respond in kind with a concise, friendly
+10:24 greeting. "Hello, how can I help you
+10:25 today?"
+10:26 Now, what's really interesting is, when
+10:27 you ask it, "What model are you?"
+10:30 Because there's so much Claude stuff, um
+10:33 sort of baked into the the system
+10:35 prompt, it doesn't always know. And so,
+10:37 it's saying it's Claude Opus 4.6, the 1M
+10:39 context. When we're running as Claude
+10:40 Code, the CLI agentic interface. Um but
+10:42 what's really interesting is, despite
+10:43 the fact that it's really confident that
+10:45 it is,
+10:46 you know, if you go back to your Open
+10:47 Router, uh sorry, you got to go down to
+10:49 logs,
+10:50 you can actually see the request that we
+10:52 just sent. It's 5:39. I just sent a
+10:53 request over here to DeepSeek-v4-Flash.
+10:56 >> [gasps and sighs]
+10:56 >> And uh you know, you can actually see
+10:58 that the raw JSON down here with said
+11:00 request, as well. Like, this is the same
+11:02 request that we just sent a moment ago.
+11:05 And what's cool is, I mean, this one
+11:06 here,
+11:07 uh let's see, the input token was like
+11:09 30,000, so that's the whole system
+11:10 prompt of Claude Code. And then, the
+11:12 output was 47, which was literally like,
+11:13 "Hello, how can I help you today?"
+11:15 Uh so, we we do, unfortunately, have to
+11:16 feed in the whole system prompt to
+11:17 Claude Code. But I mean, that is
+11:18 literally what Claude Code is, right?
+11:19 It's just part of the deal.
+11:21 But yeah, now you literally have, like,
+11:22 an another model set up here. We're
+11:24 using DeepSeek-v4. Awesome. Build me a
+11:28 simple habit tracking app in a
+11:32 directory, let's call subdirectory
+11:34 called habit tracker.
+11:37 Make it super straightforward local.
+11:40 This is a demo.
+11:41 And I just want to give you guys like an
+11:42 actual live play-by-play. Because, you
+11:44 know, I think local models, well, not
+11:46 local models, sorry, non-frontier
+11:47 models. So, like DeepSeek instead of,
+11:49 you know, one of the big players,
+11:50 Anthropic, Google, you know, OpenAI.
+11:54 You know, like it's not as good and it's
+11:55 probably not going to be as fast. You
+11:57 can actually see the number of tokens
+11:58 that it produces over a time period.
+12:00 You know, like represented down over
+12:02 here and you'll see the speeds vary from
+12:03 time to time. This one over here was 30
+12:05 23.6, this one was 59.4. So, like, you
+12:08 know, it actually does take a little
+12:10 longer to do some things.
+12:11 Counterintuitively, it takes a lot less
+12:13 time to do other things cuz it's like
+12:14 different architecture, right? These
+12:16 models, and you know, DeepSeek in
+12:17 particular, I think is is out of China.
+12:19 These ones are like built with very
+12:20 different architecture in mind and they
+12:22 work a little bit differently. So, it's
+12:23 just worth it to like actually see
+12:24 what's going on and that's what I wanted
+12:25 to do here.
+12:27 What's really cool though is the whole
+12:27 Claude interface works basically the
+12:29 exact same as You hear how we have like
+12:30 the transfiguring? We got the cute
+12:32 little messages. It's clearly doing some
+12:34 thinking.
+12:35 You know, we can press option-enter to
+12:37 send a multi-line message. We can do a
+12:38 lot here. And now you can see that we
+12:40 actually have the app. So, the app lives
+12:42 at nicksari.com/habittracker. So, what
+12:43 I'm actually going to do is I'll just
+12:44 say open it in Chrome.
+12:47 And let's see if it can it can get that.
+12:50 So, just hit open it in Chrome and then
+12:51 boom, we have it right over here.
+12:52 >> [sighs]
+12:53 >> Hey, what's up? So, I'm going to add it
+12:55 and now I'm just going to kind of check
+12:57 my little habits. Boom, just did it.
+12:59 Fantastic and 07. Because of this, there
+13:01 are other strategies that you should use
+13:02 as well. Like, for instance, a common
+13:04 strategy that I like using is I just
+13:06 create a new instance every 50,000
+13:08 tokens or so because I find that quality
+13:10 goes down every 50,000 or so tokens. Uh
+13:13 that, you know, it's just not as smart
+13:15 or as capable. Obviously, you're trading
+13:16 off that intelligence and capability for
+13:18 money. So, what I did here is I just
+13:19 opened up a new uh you know, instance
+13:21 and then I said, "Hey, here's a file.
+13:23 This is way too simple. Make it look
+13:24 sci-quality at a serif font. Make it a
+13:26 much higher brow feel. Uh now it's
+13:28 running. So, as it correctly identified,
+13:30 the JavaScript is pretty clean there. Uh
+13:32 so, what it's going to do instead is
+13:33 just uh redesign both the HTML and the
+13:35 CSS, which is pretty neat. You can
+13:37 actually see the updates occurring
+13:38 basically live. I'm just refreshing this
+13:40 over and over and over again. Uh you
+13:42 know, it's already correctly established
+13:44 a nicer and sexier font, uh which is
+13:47 nice. So, I don't know. I mean, this
+13:48 isn't like an actual habit, right? So,
+13:49 what am I going to put here? I'll say,
+13:51 "20 push-ups." You know, and here I have
+13:53 my little thing. Nice colors, too. And
+13:56 you know, after another 5 or 10 minutes,
+13:57 I'm sure you could see how you could
+13:58 build something like this just as a
+14:00 demo. I should note that I did this
+14:02 entire build in like entirely using
+14:03 DeepSeek, whereas uh as I mentioned, I
+14:06 think probably the best thing to do if
+14:07 you really wanted a good combination of
+14:08 both cost and effectiveness would be to
+14:10 use a smarter model as an orchestrator
+14:12 and then have it send requests to
+14:13 smaller DeepSeek models with more
+14:15 limited context, like let's say 50 or
+14:16 100k. I'm just to ensure that like
+14:18 everybody's doing what everybody knows
+14:20 how to do the best. Okay, so that was
+14:22 OpenRouter. Let me show you guys now how
+14:23 to do NVIDIA NIM. Uh it's pretty
+14:25 straightforward, same idea. Just scroll
+14:26 down here to where you actually have
+14:28 your uh NVIDIA NIM API key section,
+14:30 model section. And then what you have to
+14:31 do is actually have to go sign up to
+14:33 NVIDIA's NIM platform. Now, in my case,
+14:36 I think I'm probably already signed up.
+14:38 May May May already have me signed in
+14:40 here. So, let me see. Yeah, it did. Um
+14:42 what I'll do, just to show you guys sort
+14:43 of what that process looks like, is just
+14:44 sign out. Okay, now all I have to do is
+14:46 sign in with my email address, which I
+14:48 should be able to do here. The sign-up
+14:50 flow is probably going to ask you to put
+14:51 your phone number in your email address,
+14:53 all that stuff. Um I'm just going to
+14:54 assume that you guys have phone numbers
+14:55 and are willing to do that. I also just
+14:57 don't want to share mine. And then from
+14:58 here, just click generate API key, and
+15:00 then I'll say "For YouTube."
+15:02 Okay, and then the expiration here,
+15:04 again, I'm just going to do I don't
+15:05 know. Why don't we do 12 hours?
+15:08 Then click generate key, and now you
+15:09 have the actual API key right here,
+15:10 which is awesome. Next thing you got to
+15:11 do is go to models really quickly. Um
+15:13 when you click on models, assuming that
+15:14 NVIDIA actually loads. Holy moly, that's
+15:17 slow. Um anyway, it'll open up this
+15:18 little models page, and then you can
+15:19 actually select whatever specific one
+15:21 you want.
+15:22 So, as you can see, you know, DeepSeek
+15:24 over here, so is GLM 5.1, GLM 4.7 right
+15:28 now is free, so it doesn't even cost you
+15:29 any money. That's what I'm going to be
+15:31 using just because I think that's
+15:33 probably like the simplest one
+15:35 to get set up with. And then, uh, just
+15:37 because this is taking a while, I'm just
+15:39 going to go Z A I / GLM
+15:41 -4.7. Okay, now we're actually in a
+15:44 little test page and we can actually
+15:45 have a conversation with it. We can
+15:46 actually say, "Hey."
+15:48 Um, this is now going to send the
+15:49 request to the model. The model's going
+15:50 to go through its whole thinking,
+15:52 uh,
+15:53 whatever, and then, you know, so I guess
+15:55 we just verify that that works. Not
+15:56 super relevant for us. All we have to do
+15:58 now is if you go back to this quick
+16:00 start, you'll see that it says
+16:00 nvidia_nim/z-ai/glm4.7.
+16:04 So, I think we actually probably already
+16:05 have this set up. I'm just going to
+16:06 double-check. I just go back to finder
+16:08 where you had that .env. Okay. Then from
+16:11 here, um, just scroll down until you
+16:13 have the NVIDIA API key, which we do.
+16:15 So, I'm just going to paste in my NVIDIA
+16:17 API key. Zoom in a bit for you guys.
+16:19 Then scroll down to again where it says
+16:21 model, and this is going to be where,
+16:23 uh, you'll put in the NVIDIA one, the
+16:25 one that we just had a moment ago. So, I
+16:26 think that's probably the one that we'll
+16:28 do. I'll use NVIDIA NIMs GLM 4.7 because
+16:32 it's free, and, you know, I want to show
+16:33 you guys how to do a free model.
+16:35 We'll paste that in. And now I'm just
+16:36 going to hold command and then press S.
+16:39 That's going to save it. Uh, you can you
+16:41 can see there are a lot of other, you
+16:42 know, different types of models and so
+16:43 on and so forth. And now what we can do,
+16:45 you know, this is currently actually
+16:47 doing a build right now, um, but as you
+16:48 can see, the tokens have stalled. And
+16:50 the reason why the tokens have stalled
+16:51 is cuz I just like changed the the file.
+16:53 What I What I'm going to do is I'm just
+16:54 going to delete both of these, okay? And
+16:56 I'm doing that by holding control and
+16:57 then pressing, uh, C.
+17:00 I'm going to clear these out.
+17:01 >> [sighs]
+17:01 >> And now I'm just going to run the server
+17:03 again. That's 8082. And then over here,
+17:06 I'm just going to go Anthropic off
+17:07 token, Anthropic base URL
+17:08 localhost:8082/cloud.
+17:11 Okay, so now I'm going to go, "Hey."
+17:13 It looks like the reason we're getting
+17:15 this is speed. I think that's because I
+17:17 have fast mode on, so let me just turn
+17:18 that off.
+17:20 Okay, cool. So, we just went hey, and
+17:21 then it's sending a request over to
+17:22 Nvidia now.
+17:25 So, now it's saying, "Hey, how can I
+17:26 help you today?" Fantastic. What you'll
+17:28 find is if you're using things that
+17:30 aren't supported by these models, like
+17:31 for instance, these models don't have
+17:32 fast mode, even though that's sort of
+17:33 like enabled within Claude Code, you
+17:35 send the request, you'll receive an API
+17:37 error being like, "Hey, what the hell's
+17:38 a speed thing? I don't have that." So, I
+17:40 just make sure you turn any of that any
+17:42 and all of that stuff off.
+17:44 Uh and then I'll say, "Hey, what's your
+17:45 working directory?" Just cuz I want to
+17:47 double-check and see what it's at.
+17:50 And uh you'll also notice that this is
+17:51 still broken. It says deep sea before
+17:53 flash, which is kind of funny. Uh this
+17:55 one says hello world Claude free Claude
+17:57 Code, awesome.
+17:59 Um you know,
+18:02 "How do we change the status line?"
+18:05 Let's just ask it that. Maybe you can
+18:07 actually do that. So, they can see here
+18:09 that that response took a little while,
+18:10 and then it asked about changing the
+18:12 status line. Um this thinking is
+18:14 occurring here in just one giant block
+18:16 as opposed to streaming, which is
+18:17 interesting. So, what it's doing now is
+18:19 it's spawning the status line setup
+18:21 agent, okay, which is something that's
+18:22 actually built into Claude Code,
+18:24 interestingly enough.
+18:25 But again, we're using a different model
+18:27 brain
+18:28 to power it. And so, that's what's
+18:30 really cool about this harness, like
+18:31 it's interoperable, and you can swap
+18:32 whatever other agents are inside of this
+18:34 container. Okay, and here it's now
+18:35 asking me what the model name is. For
+18:37 model name, I'm just going to say use
+18:38 GLM 4.7 for model name, and then
+18:42 everything else the same.
+18:44 And let's see if it can actually go do
+18:45 it, if it has enough context and
+18:47 intelligence to do it natively on its
+18:48 own. Okay, and then the last thing we
+18:50 need to do is we need to set up Ollama.
+18:51 So, Ollama's actually pretty
+18:52 straightforward. Just head over to
+18:53 ollama.com, and then there'll actually
+18:55 be a one-liner that you can just paste
+18:56 into your terminal. You can also
+18:58 download it through like more
+18:59 conventional means, um but I'm just
+19:00 going to use the shell, cuz that's easy
+19:02 for me.
+19:03 These guys are pretty cute. They're a
+19:04 lot more visual, so all their stuff will
+19:05 be really adorable. Once you're done,
+19:07 just type in Ollama,
+19:09 and it'll actually like get Ollama up
+19:11 and running on your computer. So, as you
+19:12 can see here, there's now chat with a
+19:13 model, launch open claw, launch claw to
+19:15 code, launch open code more, right?
+19:17 There's a lot more down here. Whatever
+19:19 files you want. Um just for examples,
+19:21 I'll go chat with a model, and then what
+19:23 do we want? I'm going to really simple
+19:24 one.
+19:25 Uh you can see that a couple of these
+19:26 are cloud, right? So, this one's
+19:27 actually in the cloud. That one's in the
+19:28 cloud. That one's in the cloud. That
+19:29 one's in the cloud.
+19:30 But, I want something like really,
+19:31 really, really basic and really simple.
+19:33 I think I'll probably just use Gemma 4
+19:35 because this one's 12 gigs, and I can
+19:37 probably download it through the video.
+19:38 So, I'll just click Gemma 4, download
+19:39 Gemma 4.
+19:40 Now, it's going to pull the manifest,
+19:41 and actually have to do the the
+19:42 download. Now, my internet's pretty
+19:43 fast, so I should be able to download,
+19:45 you know, this whole thing, which says
+19:47 it's around 10 GB or so in a couple of
+19:49 minutes. I'm just going to circle back
+19:50 when it's done. We'll also go back here
+19:52 to models, and then what we wanted was
+19:56 Oh jeez, what did we just download? I
+19:58 think it was Okay, awesome. So, we
+20:00 actually have Gemma 4. And the reason
+20:01 why I'm doing this is because I just
+20:02 want to get the uh the code. And it
+20:03 looks like the code is just Gemma 4
+20:05 itself, all lowercase. So, we should be
+20:06 able to do that pretty straightforwardly
+20:08 when it's done. K, and then I think
+20:11 we're now actually talking to it. So,
+20:12 I'll just say, "Hey."
+20:14 And yeah, you can see the thinking
+20:15 process is now being written. Uh what's
+20:17 cool is this is now entirely local on my
+20:18 computer. Um are you
+20:21 on the cloud or what? I don't actually
+20:23 know if it's going to know.
+20:24 >> [gasps]
+20:25 >> It's asking a philosophical question.
+20:26 Yeah, no, it clearly doesn't actually
+20:28 know where it's running. Um that's
+20:29 pretty funny. Anyway, regardless, uh we
+20:31 have basically everything that we we
+20:32 need set up, which is cool. So, I'm just
+20:34 actually just going to exit out of this.
+20:35 I think it's control D.
+20:37 K, once you're done with this, I'll just
+20:38 click control C. [snorts]
+20:40 K, and I'll clear it. Okay, and then
+20:42 once we're done, um we just need to
+20:43 write Ollama pull, and then it'll pull
+20:45 Gemma 4.
+20:47 That will actually like go and grab
+20:48 Gemma 4. I mean, in my case, I already
+20:50 have it on my computer cuz we just
+20:51 downloaded it. But, uh from there, we
+20:52 just go Ollama serve. Uh and I think the
+20:55 reason why it's served is it I think it
+20:57 like auto serves um when you do that
+20:59 now. It might not have used to do that.
+21:01 Alternatively, we might have just
+21:02 already been running it, which is great.
+21:04 Um that means we can now go through and
+21:05 then update the last thing that needs
+21:07 updating and then open up the file and
+21:09 then look for Ollama. You can see down
+21:11 here it says Ollama config local
+21:12 provider no API key provided. Then it
+21:14 gives me the base URL. And if you guys
+21:16 notice the base URL localhost colon
+21:18 11434 is the same as the 11434 here. And
+21:21 the localhost, another way to say that
+21:23 is just 12700
+21:25 one. So what this is saying is like,
+21:26 "Hey, you're currently running the
+21:28 server for Ollama on this."
+21:30 Which is obviously awesome to us. Okay,
+21:31 and then the last thing we have to do is
+21:32 we have to actually grab
+21:34 um whatever this is, Gemma 4 latest.
+21:37 Okay, and then copy that over and then
+21:39 paste it in right here.
+21:41 And we always have to prepend with
+21:42 Ollama if it's if it's listed up here.
+21:44 So Ollama and then Gemma 4 colon latest.
+21:47 Save that and then now we can actually
+21:48 go and run the app again. So we just ran
+21:50 the app and then uh I think it's over
+21:53 here.
+21:54 So we connect to that. And now we should
+21:56 be having a conversation with um Gemma
+21:59 4. So I'll say, "Hey." Let's see how it
+22:00 goes.
+22:01 You can see this is sent I think to a
+22:03 different endpoint. So this tells me
+22:05 it's probably right. What's really
+22:06 interesting is I just sent that and my
+22:08 computer just started getting really
+22:10 hot. The reason why is because all of
+22:11 this was occurring locally on my on my
+22:14 own computer. I can actually hear it
+22:15 humming now, which is really funny.
+22:18 Um that's because it's literally passing
+22:20 through that request and doing all the
+22:21 transformer multiplication uh matrix you
+22:24 know inversions or whatever the hell,
+22:25 like literally on my own computer, which
+22:28 is really cool to me.
+22:29 And it's now dying down because it's not
+22:32 actually doing the the run anymore.
+22:34 So that took a fair amount of time just
+22:35 to get this response, right? The reason
+22:37 why is because when you run on local
+22:38 models like Ollama, um it's it's really
+22:40 slow like to be honest because it's
+22:41 running on your own hardware, right? Uh
+22:43 it's differently if you're running on
+22:44 like dedicated GPUs like with OpenRouter
+22:46 or um even like Invidia NM.
+22:48 But here like I I am literally running
+22:49 on my MacBook and my MacBook is not
+22:51 optimized for this at all. So hopefully
+22:52 I'm still capable of recording without
+22:54 uh skipping frames or whatever, but
+22:56 yeah, that's uh that's how you run it
+22:57 locally on your on your computer as
+22:58 well.
+22:59 And I should note that this is a big
+23:00 model, you know? it's like uh you know,
+23:02 10 GB with 128k contacts running
+23:05 locally. You know, if you don't have a
+23:06 pretty good computer, you'll probably
+23:08 have to use a dumber model. So, um I
+23:10 don't know, you can go newest here to
+23:11 sort by like the the good ones, but a
+23:13 pretty reliable one was the Llama series
+23:15 of models for a while. So, uh you know,
+23:17 if you're running something a little bit
+23:18 smaller, maybe a Llama Let me see, Llama
+23:20 3.1, 3.2.
+23:23 These ones are okay.
+23:24 Uh this guy said it was Mythos, which is
+23:26 hilarious.
+23:28 You'll also see that uh models on Ollama
+23:30 are from different people.
+23:32 This is by Siddiqui
+23:33 uh Siddiqui Nashra, which is pretty
+23:35 interesting. And so, typically what
+23:36 they'll do is they'll like modify the
+23:38 model a little bit, they'll change it,
+23:40 they'll fine-tune it, they'll just make
+23:41 it make it different. So, feel free to
+23:43 take a look see through Ollama's um
+23:46 database of models and see if there's
+23:47 anything maybe that like works for you.
+23:49 A payroll-specific model,
+23:50 accounting-specific model, and and what
+23:52 have you. One more thing that I'll
+23:53 mention is um earlier I talked about
+23:56 having Claude orchestrate conversations
+23:58 between Deep Seek and then you know, a
+24:00 smarter model in order to do stuff. And
+24:02 so, what I've done here, if I just get
+24:03 my ugly head out of the way,
+24:05 is um is I've done that. I've uh
+24:07 basically said, "Hey, send a message to
+24:09 Deep Seek using the flow we created
+24:10 earlier, then tell me what it says
+24:12 back." And so, that's what it's doing
+24:14 right now. It's actually basically doing
+24:15 all this hosting stuff totally on its
+24:17 own.
+24:18 And as you can see, when you just send a
+24:19 message directly to Deep Seek, it says,
+24:20 "I am Deep Seek, the latest version of
+24:22 the AI model developed by Deep Seek
+24:23 company."
+24:24 Um you know, okay, great. Orchestrate it
+24:26 to build an app, guide it, and suggest
+24:29 it
+24:30 through the steps. App description,
+24:34 I don't know, simple calorie tracker,
+24:37 but MVP needs to appear super luxe and
+24:40 high-end for the purposes of a demo.
+24:44 And um you know, what's happening right
+24:45 now is like my much smarter model, Opus
+24:48 4.6 in this case. I know it's saying GLM
+24:50 4.7 down here, but that's because we
+24:51 actually just updated the status line
+24:53 manually, which you shouldn't probably
+24:54 do, by By way. I I hardcoded in GLM 4.7
+24:57 just as proof of concept.
+24:59 Uh but we're doing is we're using this
+25:00 much smarter Opus model to basically
+25:01 communicate with DeepSeek through the
+25:04 proxy server that we just set up. So,
+25:06 it's actually using, you know, Claude
+25:08 code under the hood, and then we're
+25:08 going back and forth. And as you can
+25:10 see, our simple prompt here was
+25:13 understood, digested, and then spat out
+25:15 by Opus. So, it's a lot more complex,
+25:17 and actually has some opinionated
+25:18 baked-in font choices and
+25:20 colors and stuff like that. And um it's
+25:22 just sending all of this over to
+25:24 DeepSeek right now. And it's just going
+25:26 to go back and forth with DeepSeek until
+25:27 we have, you know, an okay-looking app.
+25:29 And as you guys can see, the
+25:30 orchestration sort of approach put
+25:31 together this app, which is kind of
+25:32 neat. Uh this is just a a base calorie
+25:34 tracker, but still looks pretty cool.
+25:36 Obviously, some minor issues here, like
+25:38 the spacing. I think if I build in a
+25:40 better orchestration loop, like I had it
+25:42 do screenshots and stuff, it probably
+25:43 would have sorted that out. It even has
+25:45 some like quick-add calorie stuff, which
+25:47 is wild. Then you actually have the the
+25:48 log here as well. So, you can get, you
+25:50 know, arbitrarily complex, more or less
+25:52 as complex as you want. Looks like it
+25:53 even did a little calorie tracker app,
+25:55 which is awesome.
+25:56 So, that's pretty cool. And um you know,
+25:58 when Anthropic ran the same sort of
+26:00 infrastructure, uh I think pairing Opus
+26:02 4.6 with I think Sonnet 4.6, or maybe it
+26:04 was Opus 4.5 with Sonnet 4.5 sub-agents,
+26:07 cuz this is basically what we're doing,
+26:08 a sub-agent flow. Uh I think it
+26:09 performed like, I don't know, 15% better
+26:12 or something like that.
+26:13 So, what we're doing now is we're not
+26:14 just using sub-agents made by the same
+26:16 company. We're using sub-agents that are
+26:17 hundreds of times cheaper to do a lot of
+26:19 our intellectual heavy lifting. And then
+26:20 the Opus series is just going to take a
+26:22 look at it and be like, "That's good."
+26:23 or "That's bad." which is obviously a
+26:25 lot more profitable. Okay, so hopefully
+26:26 you guys appreciated that video. I had a
+26:27 lot of fun putting it together. Uh costs
+26:29 were a major concern of mine up until
+26:30 just a few years ago when I started, uh
+26:32 you know, making a fair amount of money
+26:33 with this stuff. So, obviously this sort
+26:35 of intelligence should be equally
+26:37 distributed, but for the near term, I
+26:39 doubt that it will be, simply because,
+26:40 you know, uh model companies got to eat,
+26:43 I guess. GPUs got to go burr.
+26:45 If you guys like this sort of thing, and
+26:46 you want to see how to maybe make some
+26:48 money as opposed to try and squeeze your
+26:49 wallet as much as you possibly can,
+26:51 definitely check out Maker School, it's
+26:52 my day-by-day accountability program
+26:54 where I basically show people how to
+26:55 take their skills with Cloud Code and
+26:57 then other no-code automation platforms
+26:59 as well like N8n and so on and so forth.
+27:01 And then you use that to sell AI agents
+27:03 and full workflow automation to
+27:05 companies to make a living. We have a
+27:07 90-day guarantee where you will get your
+27:09 first client within 90 days or I will
+27:10 pay you all of the money that you spent
+27:11 on my program back. It's been run
+27:14 through by over 10,000 people to date
+27:16 and I'm not going to sit here
+27:17 advertising any more than that but it's
+27:19 pretty cool. There's basically no
+27:20 downside to signing up. Aside from that,
+27:22 if you could do me a big solid, just
+27:23 like and subscribe to the video. Every
+27:25 little bit of engagement helps and I'm
+27:26 starting a big YouTube run here so
+27:27 that'd be quite valuable. And yeah, let
+27:30 me know what you guys want to see next
+27:31 because I make videos like this
+27:32 basically entirely based off of your
+27:33 requests and recommendations. This one
+27:35 was made directly by a request that I
+27:37 received a couple of days ago. Have a
+27:38 lovely rest of the day and I'll catch
+27:40 all y'all in the next video.

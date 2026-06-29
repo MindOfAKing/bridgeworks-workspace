@@ -1,0 +1,918 @@
+00:00 If you want better SEO results and
+00:02 better AI search visibility, you've got
+00:04 to know how to do keyword research like
+00:06 a pro. And in this video, I'm going to
+00:08 show you four keyword research
+00:10 techniques that will unlock so many
+00:12 opportunities, you probably won't need
+00:15 to run a full keyword research process
+00:17 again for the next 6 to 12 months. My
+00:20 name is Nathan Gotch and I've been doing
+00:22 SEO since 2013 and I've led hundreds of
+00:25 successful SEO and AI search campaigns.
+00:28 So, let's walk through my keyword
+00:30 research process from start to finish.
+00:33 So, this is the exact template that we
+00:35 use on every SEO campaign and this is
+00:38 one we've been we've built many, many
+00:40 years ago and we've continually just
+00:41 refined and improved over time. And so,
+00:44 it might look a little overwhelming at
+00:45 first, but I can assure you once you
+00:46 understand how this template works, it's
+00:49 it's really something you're going to
+00:50 want to swipe, something you're going to
+00:51 take a lot of these these elements. So,
+00:53 let me walk you through this real
+00:54 quickly. So, a couple key things here is
+00:56 this is really built for an agency
+00:58 situation and you know, an agency that's
+01:01 working with a client, but you could use
+01:02 this for your own campaign. You would
+01:04 just be the client, okay? So, let's say
+01:07 Rankability was the client, all right?
+01:08 That would's how it would work. So, that
+01:10 is really kind of the container. Now, a
+01:12 couple key things here. Uh priority is
+01:14 very important, which is just measuring,
+01:16 you know, what is going to be the
+01:17 priority of these keywords and I'll show
+01:18 you in step three how to actually
+01:20 prioritize your keywords, okay? Source
+01:23 is important. Where did you actually
+01:24 find that keyword? So, I'm going to be
+01:26 walking through many different
+01:27 techniques where you can find keywords
+01:28 here in a second. Cluster is also
+01:31 critical. You want to put every single
+01:33 keyword that you find into a bucket. You
+01:35 want to have it in its appropriate
+01:37 cluster because what that allows you to
+01:39 do is see, okay, where do we have a a
+01:41 lot of focus right now or where do we
+01:43 have big gaps, okay? You can at a very
+01:45 high level, you can see that right away
+01:47 when you start to fill this in.
+01:49 Obviously, the keyword or topic that
+01:50 you're going to go after, SERP features
+01:53 is very, very important to put in here
+01:54 as well because this will ultimately
+01:57 help you estimate what the organic CTR
+01:59 is going to be, okay? But not only that,
+02:02 as I'll show you here very soon,
+02:04 you can also look at the SERPs as a a
+02:07 way to determine what your strategy
+02:09 should be as far as attacking different
+02:11 elements in those SERPs, okay? So, then
+02:13 we have search volume which goes without
+02:15 saying. We have KD which is just
+02:17 measuring how many links a particular
+02:19 page has
+02:20 uh in the top 10, and that's very
+02:23 important because it ultimately
+02:24 determine what our link budget is going
+02:26 to have to be.
+02:27 Cost per click, this one always confuses
+02:29 a lot of people, but this is actually
+02:31 very important for keyword selection.
+02:34 So, uh cost per click doesn't matter for
+02:37 SEO per se, but it matters for
+02:39 determining keyword value. So, if you
+02:41 see that a lot of advertisers are, you
+02:44 know, advertising for a particular
+02:45 keyword, that means it's likely very
+02:47 valuable, okay? So, that's why this is
+02:49 important. So, when we get to the
+02:51 filtering process, you're going to
+02:52 filter keywords that do have higher CPC
+02:55 value cuz it means more than likely
+02:58 they're they're more valuable than those
+03:00 that do not, okay?
+03:02 Current position, this is where you
+03:04 currently rank for this particular
+03:06 keyword, okay? So, there's kind of two
+03:08 different keyword research approaches
+03:09 you want to have. You have the one where
+03:11 you're uh extracting your existing
+03:14 keywords from the keywords you already
+03:16 rank for in the top 100, and then
+03:18 another part of the keyword research
+03:19 process is just identifying completely
+03:21 new keywords, those that your website
+03:23 does not currently rank for, okay? So,
+03:24 those are kind of the two different uh
+03:26 routes that you can take, okay? Your
+03:28 current URL, this is simply what URL is
+03:30 actually ranking for this keyword in the
+03:32 top 100.
+03:34 Next thing which is absolutely critical
+03:36 is intent, okay? So, I've I have some
+03:39 rejects in here that automatically
+03:41 filters this through, but basically what
+03:43 happens as soon as you put a keyword in,
+03:44 it will automatically categorize it as
+03:46 informational or commercial intent. Now,
+03:49 we've kept these categories
+03:51 intentionally broad. There's obviously
+03:52 many different subsets of search intent,
+03:56 but just to keep it simple, we focus on
+03:58 that. Okay? So, if you can just break it
+03:59 down into informational, commercial,
+04:01 you're going to be in pretty good shape.
+04:03 Okay?
+04:04 And then the opportunity. So, this is
+04:05 just our own personal categorization,
+04:07 but basically the way we look at it is
+04:09 any keyword that's ranking between
+04:11 positions 2 and 15 is what we define as
+04:15 a low-hanging fruit. Okay? Then aside
+04:18 from that, if it's from 16 to 50, we
+04:20 just we just label that as an existing
+04:22 keyword. Still very important, but just
+04:24 goes in that existing bucket. Then any
+04:26 keywords beyond position 50 is what we
+04:30 call a clustering opportunity. Now, not
+04:33 every keyword in that range will qualify
+04:35 as a clustering opportunity, but the
+04:38 reason why we say that is because a lot
+04:39 of keywords that are underperforming,
+04:41 you will often find that the page that's
+04:43 currently ranking, let's say it's
+04:45 ranking number 72, that page is either
+04:48 not relevant enough, not good enough, or
+04:50 some other reason why it's not ranking.
+04:52 So, we really want to isolate that group
+04:54 of keywords and say, "Okay, why why is
+04:56 this page not performing very well for
+04:59 this particular keyword?" Now, you could
+05:00 technically have a perfect page for that
+05:03 keyword, but it may be lacking internal
+05:05 link coverage. It may be lacking uh
+05:07 proper topic coverage around that core
+05:10 topic. It could be lacking backlinks.
+05:12 Okay? So, there's other variables, other
+05:14 reasons why a a page could be
+05:16 underperforming, but we do find a lot of
+05:18 the time that there's sometimes an
+05:20 intent mismatch. Okay? So, that's why
+05:23 identifying that clustering opportunity,
+05:24 which is any keywords beyond position
+05:27 50. Okay? Those are what you would
+05:28 identify. Okay?
+05:30 So, you do that that gets automatically
+05:32 categorized.
+05:33 And then we'll keep going through here.
+05:35 We'll skip through some of this. And
+05:36 then the right side of this part is the
+05:38 prioritization, which we'll be getting
+05:40 into more, but basically the way this
+05:41 template works is it automatically does
+05:43 all of this. Okay? So, it's got to, you
+05:45 you all these formulas in here. And as
+05:46 soon as a keyword gets put in there,
+05:48 this has its own kind of automatic
+05:50 scoring mechanism so that you can get a
+05:53 an end score here, a point total. So,
+05:56 then you know, like, okay, based on all
+05:58 these variables that we have, these are
+06:00 likely some of the you know, this group
+06:02 of keywords are the best ones to go
+06:03 after based on
+06:05 our current position of our website and
+06:08 the strength of our website. And then
+06:10 also just generally the the quantifiable
+06:12 metrics that we'll use for that
+06:13 particular keyword. Okay, so
+06:15 this is critical. Okay? There is you
+06:18 cannot do keyword research without
+06:19 having a good template. So, you have to
+06:21 have a template. You can take a lot of
+06:23 what I've showed you here and you can of
+06:24 build your own if you want, totally
+06:25 doable.
+06:27 Um or I just have these in Search OS.
+06:29 Okay? So, I I put all my templates in
+06:30 Search OS.
+06:32 Uh and you can see here, you know, you
+06:33 just open this up and this is on version
+06:35 2.1.
+06:36 Um and you can just go ahead and use
+06:38 these templates and keep getting access
+06:39 to them as we update them. All right, so
+06:41 now that you know that you need to have
+06:42 a proper keyword research template, the
+06:44 next step is to actually go out there
+06:47 and find keywords. The first technique
+06:48 is to just use Google search data. So,
+06:51 if you go into Google Ads and you go to
+06:53 the Keyword Planner, you're going to see
+06:55 directly from the source as far as
+06:57 search volume. Okay? So, you click on
+06:59 get search volume and forecast and we'll
+07:01 just do a simple example for let's say
+07:03 SEO to keep it really simple.
+07:05 And we'll run this through and then
+07:06 we're able to see
+07:08 the exact search volume and even the
+07:10 trend data related to that particular
+07:12 keyword. Okay? Now, obviously, you're
+07:13 going to want to expand this much more,
+07:15 but just to put a seed in there. Now,
+07:16 you can go to keyword ideas and we can
+07:19 expand that keyword set a lot more.
+07:21 Okay? So, when I do SEO, you know, add
+07:23 that in there, we'll do SEO services,
+07:25 we'll do AEO services, we'll do AI
+07:29 search optimization,
+07:31 and so on and so forth. You just keep
+07:33 adding these seeds related to whatever
+07:35 you're going after. Okay? Then we do get
+07:37 results and then we're going to be able
+07:39 to see a decent amount of keywords.
+07:41 Okay? And so, this is really good for
+07:43 just kind of like that high-level
+07:45 analysis as far as the Google as far as
+07:48 Google Ads go, as far as Google search
+07:50 data goes.
+07:51 But, it it it's missing a lot, okay? So,
+07:53 it's going to give you demand data as
+07:56 far as volume and trending, but it's not
+07:58 going to give you a whole lot after
+08:00 that, okay? Now, just to add some
+08:02 clarifications on this, this competition
+08:04 column, this is not SEO competition.
+08:06 This is purely competition if you're
+08:08 running Google Ads, okay? So, just want
+08:11 to make that clarification there. This
+08:12 is Do not use that as competition for
+08:15 organic. That's purely for ads. But,
+08:17 like I said, this is still really really
+08:19 powerful just for, you know, getting a
+08:21 quick look into keyword data. And
+08:23 obviously, you don't have to invest in
+08:24 any tools. You just come in here and you
+08:26 you have Google Ads
+08:28 give you that data, okay? So, that's the
+08:29 first technique. The second technique is
+08:31 another Google product is Google Search
+08:33 Console. Once again, it's free to use.
+08:35 You sign up. You can get your query
+08:37 data. And you can get a lot of great
+08:39 insights by doing this, okay? It's not
+08:42 It's missing a lot, once again, because
+08:44 like we look at this and we see, "Okay,
+08:46 well, we look at these keywords."
+08:48 And we can see kind of four metrics. We
+08:50 can see clicks, impressions, CTR, and
+08:52 position, okay? That's all great, but
+08:55 once again, it's missing some critical
+08:58 some critical competition data, okay?
+09:00 You see this data and you're like,
+09:01 "Okay, this is cool. It's got a lot of
+09:03 demand, but it doesn't tell the whole
+09:04 story of who you're up up against for
+09:07 those keywords." And that's absolutely
+09:09 critical, okay? But, this is good, once
+09:11 again, for a high-level overview. It's
+09:13 It has tons of useful data. So, very
+09:15 quickly, you can use Google Ads and also
+09:19 Google Search Console
+09:20 to to really You could technically build
+09:22 a whole keyword strategy doing that,
+09:24 okay?
+09:25 It's not going to be comprehensive, but
+09:27 it it can get you in in a good place.
+09:29 Let's just say that, okay? The next
+09:31 technique you can use, you can actually
+09:32 go directly into Google itself, okay?
+09:35 So, we're going to go into Google
+09:37 and let's just search something like
+09:39 SEO. We'll keep it on the SEO topic. All
+09:41 right, so we're going to go down here.
+09:42 We search SEO and there's a couple ways
+09:44 you can actually do this on Google. So,
+09:46 you can actually go into here and just
+09:47 start doing suggested um keywords. Okay,
+09:51 so you just keep running different
+09:52 queries like this and you can start
+09:53 seeing the different keywords that are
+09:54 popping up. These are all suggested
+09:57 options. These are all keywords that you
+09:59 could technically pursue. Okay, another
+10:02 thing you could do is you come down here
+10:03 and go to people also ask. Okay, you
+10:06 could technically just copy all of
+10:07 these, pop them into your uh keyword
+10:10 database and you'll be good to go. Just
+10:12 make sure you label them as people also
+10:14 ask. Okay, and each time you expand
+10:16 these, just keep doing this over and
+10:17 over and there's plenty of extensions
+10:19 that do this. But just manually, you can
+10:21 do this and you can copy them just like
+10:24 this and pop them into your keyword
+10:26 template. Okay, another thing is for
+10:28 some queries, you will see this things
+10:31 to know, but usually only for queries
+10:33 that have a lot of search demand. You'll
+10:34 see this, but still some useful stuff
+10:37 you could pull from here, right? Still,
+10:38 you know, kind of blends a little bit,
+10:40 you know, with people also ask, but you
+10:42 might find some unique ideas in there as
+10:45 well. So, the all of these ideas that
+10:47 you find are what are going to be
+10:48 defined as zero volume keywords. That
+10:51 does not mean that they're bad keywords.
+10:53 It just means they don't have
+10:54 quantifiable demand and that is not a
+10:57 problem because most keywords are
+10:59 completely unknown to SEO tools, right?
+11:02 Even Google itself doesn't know about
+11:05 the large majority of keywords that even
+11:06 exist. And this is only getting more
+11:08 complicated over time because the length
+11:11 of a query keeps expanding because of AI
+11:13 platforms. Very much more conversational
+11:16 queries. Okay, so the length of a query
+11:18 is expanding, which means there's much
+11:20 more complexity in these queries. So,
+11:22 then you can do the same exact thing on
+11:24 Replit. You just go into Replit and you
+11:25 can search something like SEO
+11:28 and you can either start to look at some
+11:30 of these existing topics here and start
+11:31 to add these to your database, or you
+11:33 can actually go into the the subreddit
+11:37 itself and start to see what are the
+11:39 topics that are being talked about a lot
+11:40 because a lot of these topics that pop
+11:43 up in these subreddits don't typically
+11:45 have search volume and any any volume
+11:48 that they may get is always going to be
+11:50 lagging and in the future. So, the
+11:52 advantage here is that you're going to
+11:53 find these ideas that people are talking
+11:55 about right now, you're going to jump on
+11:57 these topics, you're going to be able to
+11:58 get some early momentum on these topics
+12:00 and that can give you huge advantage
+12:02 over your competitors. Now, on YouTube
+12:04 we can do the same exact thing. We go to
+12:05 SEO and we can do once again suggested
+12:08 searches and see, okay? Honestly, most
+12:11 of these are going to be very similar to
+12:12 Google. So, you're not going to find
+12:13 anything very different by doing this,
+12:16 but it's actually much better just to go
+12:17 into the actual channels that exist,
+12:20 okay? So, we can look at any of these
+12:22 channels here. We'll go into my buddy
+12:23 here, Matt D'Avella, and what I would do
+12:26 is I would go to his videos and I would
+12:28 go by Well, first, you know, you can do
+12:31 by popular, but I'd be I'd be careful by
+12:33 doing popular because YouTube changes so
+12:35 much. So, like for example, if you did
+12:37 this exact topic that he did here that
+12:39 was from 5 years ago that has insane
+12:41 amount of views, you're not going to get
+12:43 the same amount of views on your video
+12:45 by targeting this topic, okay? Even this
+12:47 one here about ChatGPT, which both he
+12:50 and I attacked this, you know, this
+12:52 topic as soon as ChatGPT came out,
+12:54 you're not going to get the same amount
+12:55 of views because there's the the
+12:57 platform has been flooded by content
+13:00 that's all about that topic now. So, you
+13:03 have to be a first mover on these
+13:04 topics. So, a better thing to do is go
+13:06 to latest and then look at the latest
+13:08 topics that have driven the most views.
+13:10 And then the last technique I'll show
+13:11 you for finding keywords is just to use
+13:14 a tool like Rankability. So, this is
+13:16 what I personally use. So, all these
+13:17 things that I just showed you today,
+13:19 this streamlines all of that into one
+13:22 simple operation. So, within, you know,
+13:24 3 to 5 minutes, you'll have done
+13:26 everything I just showed you and you can
+13:27 be completely done. That's and that's so
+13:29 to me, you know, better use your time.
+13:31 That's why I use it. Uh but I'll just
+13:33 show you real quickly what this looks
+13:34 like. So, this is for St. Louis SEO
+13:36 consultant. So, we'll go ahead and just
+13:38 run, you know, things like that are very
+13:39 similar to what we do. St. Louis SEO
+13:41 agency, same uh see here, St. Louis SEO
+13:45 consultant.
+13:47 And then we can say, you know, say we'll
+13:48 do St. Louis um
+13:52 uh we'll do St. Louis AI search
+13:56 optimization
+13:58 services. And then we'll do St. Louis
+14:01 AEO services, okay? So, those are just
+14:05 seeds, by the way. You just enter some
+14:06 seeds. They don't have to be exact to
+14:09 what, you know, what you think it is.
+14:10 Don't try to you don't have to figure it
+14:11 all out. But the more specific you are,
+14:13 the better, okay? So, then what you can
+14:15 do here is you can do by all sources,
+14:16 which means it's going to go and and
+14:18 look at all the different sources that
+14:19 we talked about here plus more, which
+14:21 I'll show you in a second. But if you
+14:22 wanted to if you wanted to kind of uh
+14:24 get the the tool to get more focused on
+14:26 a particular group, you could do
+14:28 trending, you could do Reddit, YouTube,
+14:30 and even e-commerce, okay? So, actually
+14:32 we'll extract topic ideas from Amazon,
+14:34 Walmart, and eBay, okay? So, this just
+14:37 these are different routes you can take.
+14:38 But for this for the sake of this
+14:40 example, I'm just going to go
+14:42 uh with with all sources, okay?
+14:45 Now, this is where things go to the next
+14:46 level.
+14:47 You can integrate your knowledge base,
+14:50 okay? So, we'll go over here to advise,
+14:53 and you'll see in the advise section
+14:55 you can integrate a couple things.
+14:58 Number one is you can integrate your
+14:59 knowledge base artifacts, and you can
+15:01 integrate data into this advisor. Now,
+15:04 I'll show you in the context of
+15:06 Rankability cuz I have way more
+15:07 knowledge knowledge base artifacts in
+15:09 here. But you can see here, these are
+15:11 all the different knowledge base
+15:12 artifacts, and these are directly from
+15:15 the website, okay? So, what it will do
+15:18 is when you do that keyword research,
+15:20 it's actually going to go to that
+15:21 content and extract first-party topic
+15:24 ideas from that content, okay? So,
+15:27 whatever you put in into your knowledge
+15:28 base, this tool will use it to to
+15:31 generate content ideas that your
+15:33 competitors are absolutely ignoring nor
+15:35 would even have access to, okay? That's
+15:37 how valuable this is going to be. So,
+15:39 you go ahead and click that on and then
+15:41 also Google Search Console. This is
+15:42 incredibly powerful. So, I just showed
+15:44 you how you could do that yourself, but
+15:45 this is a little more powerful because
+15:47 you when you click this on,
+15:49 instead of going into Google Search
+15:50 Console like this and you've got like,
+15:52 "Okay, where do I start? I've got all
+15:53 this data. I've got 14 million
+15:55 impressions and I got to dig through.
+15:57 Like, where do I even begin?" Well, you
+15:59 can certainly mess around with filters
+16:00 and it's it's decent. Or you could just
+16:03 use this tool which makes it way easier
+16:05 because what happens is when you put
+16:06 these seeds in,
+16:08 uh it goes through in Google and and uh
+16:10 Rankability will automatically filter
+16:12 and only give you the keywords that are
+16:14 directly related to the seeds that you
+16:17 entered. So, you have to waste all your
+16:18 time filtering through all the keywords
+16:20 to try to find relevance, okay? So, once
+16:22 that's all good, you just go ahead and
+16:23 click start keyword research. Okay, so
+16:25 that typically takes about 3 to 5
+16:27 minutes to complete and you'll see why
+16:29 because it's quite intense. So, I want
+16:31 to show you a couple of things. First,
+16:33 when you when you get your initial
+16:34 report here, it's it it's simple by
+16:37 design, but it's really when you start
+16:38 to go into the filters where you really
+16:40 start to see some good stuff, okay? So,
+16:42 couple of key things to look at here.
+16:43 Number one is obviously look at the
+16:45 relevance of the topics. As I mentioned,
+16:48 that we're really really focused on
+16:50 relevance, okay? That is the key. We
+16:52 want to try to get the most relevant
+16:53 topics imaginable. But then, we also
+16:56 have the source, okay? And I'll show you
+16:57 all the different sources that this
+16:58 pulls from, but we can see we got
+17:00 Google, Google Search Console, and I'll
+17:01 show you the other ones. We've got
+17:03 automatic clustering. So, you can
+17:05 certainly go and do this yourself. You
+17:07 can even use ChatGPT to help you with
+17:08 clustering, but this also just does it
+17:10 automatically. And then we've got all
+17:12 the standard data I talked about
+17:13 earlier, okay? Now, let's open up the
+17:15 filters. I'll show you a couple of
+17:16 things. First, um you can sort this
+17:18 obviously if you want to really quickly,
+17:20 but we can also look by cluster, okay?
+17:22 We can sort it by cluster, and then we
+17:24 can also sort it by sources. So, like I
+17:26 mentioned, first we can look at just
+17:28 pure Google search data, okay? So, this
+17:30 is the pure Google search data that uh
+17:33 is coming directly from Google. This is
+17:36 coming directly from Google, okay? Then
+17:38 we go over here, we go to AI. Now, we're
+17:40 doing this by doing a lot of advanced
+17:41 stuff on the back end, but you can see a
+17:43 lot of these topics are really, really
+17:45 unique, okay? They're not all going to
+17:46 be great cuz obviously it's AI, but it
+17:49 gives you some kind of unique angles
+17:50 that you probably wouldn't have even
+17:51 thought of. We also pull from Reddit, as
+17:53 I showed you earlier. So, instead of
+17:55 having to dig through Reddit, this does
+17:56 it automatically. We also have YouTube.
+17:58 Instead of having to dig through
+18:00 YouTube, you can just go ahead and see
+18:01 the ideas right here. You can see we
+18:03 pulled some ideas from the knowledge
+18:05 base. This particular client did only
+18:07 had one page in the knowledge base, but
+18:09 the more comprehensive your knowledge
+18:10 base is, the more ideas that this will
+18:13 generate, okay?
+18:15 And then trending topics, okay? Going
+18:16 and finding unique ideas related to
+18:19 these core topics. And then of course
+18:21 the big one, which is Google Search
+18:23 Console. And as you can see, there's
+18:25 tons of ideas in Google Search Console
+18:27 that you can go after, all right? So,
+18:29 this is a way to really streamline your
+18:32 keyword research efforts. And
+18:33 ultimately, the goal here is to do
+18:35 keyword research once and not have to
+18:37 worry about it. And this brings me to
+18:38 step number three, which is actually
+18:40 prioritizing your keywords. So, now you
+18:42 know how to find keywords. Showed you a
+18:43 bunch of different tools you can use.
+18:45 But now, what do you actually do to
+18:47 determine what keywords to go after and
+18:49 in what order? Okay, so now what you're
+18:51 looking at is data that I extracted
+18:52 directly from Rankability and then just
+18:54 put it into our template. Now, we don't
+18:57 necessarily always use this template.
+18:58 Usually, just we'll control it all
+19:00 within Rankability, but if you're, you
+19:01 know, using any type of keyword research
+19:03 technique, this is a good place to kind
+19:04 of put all of your topics in here. And
+19:07 so, you put this in, and there are a
+19:08 couple things can happen when you create
+19:10 a template like this.
+19:12 Number one is automatic categorization
+19:14 of intent. Once again,
+19:15 this is done in Rankability, but if you
+19:17 want to do kind of have a more manual
+19:19 route, you can do that. We can also see
+19:21 categorization by opportunity, okay? So,
+19:23 we got the low-hanging fruits, and then
+19:25 we've got the other opportunities uh
+19:27 that also exist in here. So, like I
+19:28 mentioned earlier, clustering
+19:30 opportunities, we can see these, and
+19:32 these are keywords that are just not
+19:34 performing well, okay? So, good example
+19:36 of this is looking through some of these
+19:38 and saying like, are there any keywords
+19:39 here that maybe we should create a
+19:40 dedicated page for, okay? So, an example
+19:42 would be like St. Louis digital
+19:44 marketing. This is a good one cuz you
+19:46 don't have any page on this website
+19:47 about digital marketing services. So,
+19:49 this would be a good one to splinter and
+19:51 build a dedicated page for. And so, you
+19:53 get the idea, right? And these are not
+19:54 ranking well. So, that's a clustering.
+19:56 Then we go over here, and we can start
+19:58 to see how this data will start to uh
+20:00 kind of come together, and this will
+20:02 help you ultimately determine what
+20:04 keyword you want to go after, okay? So,
+20:06 when you look at this, as I mentioned,
+20:07 not all of the data's in here. You got
+20:09 to go and find target word count, you
+20:10 need to find lowest DR. These are
+20:13 kind of manual, you have to go through
+20:14 and do these, okay? Uh and then also
+20:17 relevance, you you can pull that
+20:19 relevant score directly from
+20:21 Rankability, but in general here, um you
+20:24 can see how this starts to come
+20:25 together. Even with not hitting all the
+20:26 metrics, you can see we can even just
+20:28 start to sort this, and we'll see what
+20:31 keywords are getting good scores, okay?
+20:33 So, we look over, St. Louis SEO company
+20:36 is getting a good score because we're
+20:38 ranking well for it, it has high CPC, uh
+20:41 and that means it's a good target, okay?
+20:43 And all of these make a lot of sense,
+20:45 okay? The reason why it's missing on
+20:47 some elements is the relevance, but we
+20:49 can see even AI SEO agency, this is a
+20:51 great keyword. We're not ranking well
+20:53 for it, but it's incredibly valuable,
+20:55 okay? And in the in the in the context
+20:57 of St. Louis, we'd want to rank for best
+21:00 AI SEO agency in St. Louis, okay? We
+21:03 wouldn't care about going national for
+21:04 that, we want to stay in whatever the
+21:06 target market is. So, this is the
+21:08 process you can go through to start to
+21:09 filter through these keywords. Now, the
+21:11 way that I've been doing it recently is
+21:13 I just do this all inside of
+21:14 Rankability. So, I find a keyword in
+21:17 here like this and I say, "Okay, that
+21:18 looks like a good keyword." So, then
+21:20 I'll go over here, St. Louis SEO
+21:22 services. Let's say I'll mark a few of
+21:23 these that I want. St. Louis SEO
+21:25 consultant, St. Louis AEO, and then
+21:28 let's try to find maybe one more good
+21:29 one here. Uh we'll just add these. Okay,
+21:32 so we'll add these to our main list.
+21:34 And then this is where the magic
+21:35 happens. So, you can do this uh two
+21:38 different ways. Okay, the first way is
+21:40 you can click into a particular keyword.
+21:43 This is where you start to go to the
+21:44 next level, but you can also do this
+21:45 manually, right? You take this keyword,
+21:48 go in here in incognito window, and just
+21:50 start analyzing uh what's showing up.
+21:53 Now, when I'm doing an analysis for a
+21:54 particular keyword, I'm looking at
+21:56 what's showing up in the SERPs. Who am I
+21:58 competing against? So, a couple key
+21:59 things I'm looking at here. Number one
+22:01 is
+22:02 uh what are the SERP features that are
+22:03 popping up? Well, we got a local pack,
+22:05 okay? So, yes, traditional search result
+22:08 above the local pack, but that's
+22:09 extremely rare. Usually a local pack is
+22:11 above the fold uh is usually the first
+22:14 SERP feature. But, what that tells us is
+22:16 we want to occupy two different spots
+22:18 here. We want to rank want to rank in
+22:20 the traditional, but we also want to
+22:22 rank in the Google Business Profiles in
+22:24 the local pack, okay? So, now we've
+22:26 occupied two spots on the first page.
+22:29 That's critical. But then we go down
+22:31 here and we see, is there anything else
+22:32 here that uh we we need to be thinking
+22:34 about? Number one is Yelp is here, okay?
+22:37 So, we go and look at Yelp and we see,
+22:39 like, are we actually showing up in this
+22:41 listing? Because this is critical for uh
+22:44 AI search optimization, right? You can
+22:47 do well in Google, but if you're not
+22:48 showing up in these directories, you're
+22:49 probably not going to do really well in
+22:51 ChatGPT or Perplexity or the other
+22:53 non-Google AI platforms. So, I would
+22:56 look at it and say, "Okay, it looks like
+22:57 we probably have a gap here. We probably
+22:59 need to go and build a profile here,
+23:01 okay?"
+23:02 And then so on and so forth. I'm looking
+23:04 through There's another one, Clutch,
+23:05 another great example.
+23:06 Uh are we showing up here? If the
+23:08 answer's no, we go build a profile here,
+23:10 we start working to build our profile
+23:12 here, and that becomes an important part
+23:14 of our work, okay? So, this is what
+23:16 we're looking for. And so, all of those
+23:18 things that I talked about today as far
+23:19 as
+23:20 uh the value of a keyword and uh the
+23:23 competition and the organic CTR
+23:24 potential, like that's all combined into
+23:26 this one
+23:27 uh KO score that we call it, okay? Now,
+23:30 competition, this is what makes this
+23:32 very unique. You If you've used any
+23:33 tools in the past, you've probably seen
+23:35 competition as KD or some sort of other
+23:38 metric. Those metrics are fine, but the
+23:41 the biggest problem with those metrics
+23:42 is they're only measuring how many links
+23:44 you need on the page level. And what
+23:46 this is measuring is it's looking at the
+23:48 competitors' overall domain strength,
+23:51 and then also looking at how many links
+23:53 you're going to need on the page level.
+23:54 You need both of those combined together
+23:55 to truly know how competitive a
+23:57 particular SERP is, okay? So, you can
+24:00 use this to ultimately guide you in your
+24:02 keyword selection process, okay?
+24:05 And then uh we There's some automatic AI
+24:08 analysis on every keyword here.
+24:10 And then in the SERPs, like all that
+24:12 SERP analysis we just did, uh you can do
+24:14 it live here, right? So, we've got We
+24:16 can see Google Business Profiles, we can
+24:18 see the traditional search results, and
+24:21 this is just kind of a geeky thing, but
+24:23 you can see even uh how keyword rich the
+24:26 Google Businesses are, the Google
+24:28 Business Profiles, and also how keyword
+24:30 rich the rankings are, right?
+24:32 Highlighting each individual keyword of
+24:35 that query. So, you can see kind of, you
+24:37 know, what you're up against, right?
+24:39 It's very important. And then we can
+24:40 also see the position history over time,
+24:43 uh how this changes. But, go back over
+24:45 here, and a couple kind of key elements
+24:48 is we're going to continue to add to
+24:49 this, but if you look on YouTube, you
+24:51 can actually see who's popping up for
+24:53 this query on YouTube as well. So, when
+24:56 I look at this, if I really wanted to go
+24:58 hard on, you know, St. Louis SEO
+25:00 consultant, like I have a video here
+25:02 that's ranking at the top that's 11
+25:03 years old. So, I could easily dominate
+25:08 YouTube for this keyword, right? Like it
+25:10 would be like no work at all. And then
+25:12 we see all the stuff that's popping up
+25:14 is all old videos that are, you know, no
+25:16 offense, outdated uh and would should be
+25:19 easy to beat, okay? So, you want to be
+25:22 thinking about this search everywhere
+25:24 optimization strategy. Don't just think
+25:25 about Google. Think about traditional
+25:27 search, local pack, YouTube, and of
+25:31 course, AI mode, which matters a lot,
+25:33 right? We want to see just because we're
+25:35 doing well in traditional does not
+25:36 necessarily guarantee that we're going
+25:38 to do well in AI mode, okay? And that
+25:40 we've seen this time and time again,
+25:43 okay? And you can even see here uh that,
+25:46 you know, St. Louis SEO consultant,
+25:47 which is ranking incredibly well in
+25:49 traditional, isn't even being used as a
+25:52 citation source or a source of retrieval
+25:54 here, okay? So, once again, proving that
+25:57 just doing good SEO does not necessarily
+26:00 translate really well into into AI mode.
+26:03 And I'll just show you an example. St.
+26:05 Louis SEO consultant ranks really,
+26:07 really well, okay? So, we'll go to like
+26:09 local, you know, it's got a we built a
+26:11 Google Business Profile just kind of
+26:12 prove our point how powerful having
+26:14 keyword-rich business names is and like
+26:16 it's number seven, it has no reviews,
+26:18 and it's a service area business.
+26:21 It it just has no business being here,
+26:23 no pun intended, but it's because that
+26:25 keyword-rich nature, right? It's really,
+26:27 really powerful. Um and then we go down
+26:29 here, you can see how it's doing well in
+26:31 the in the grids. And then we go up here
+26:33 though and we look at the traditional
+26:34 search, you see this this particular
+26:36 keyword-rich domain, it ranks
+26:39 basically on every search engine, right?
+26:41 Crushes across all the search engines,
+26:44 but we go to AI answers and it's doing
+26:46 okay, right? It's got Perplexity, it's
+26:48 got Grok, but it's missing a lot, right?
+26:51 It doesn't have chat GPT, AI overuse,
+26:53 Gemini AI mode, like it's missing a ton
+26:56 of places.
+26:57 Um and you know, obviously that's not
+26:59 ideal, right? And but the reason I'm
+27:01 showing you that is because just doing
+27:02 well there, you know, doing well even in
+27:05 citation, doing well in traditional
+27:06 search doesn't necessarily guarantee
+27:09 performance in the actual AI answer,
+27:11 okay? And that's a topic for a different
+27:13 time. But for now, that is how I go
+27:15 about doing keyword research these days.
+27:18 And you can like I mentioned, there's so
+27:20 many tools out there you can use.
+27:21 There's so many different ways to find
+27:22 keywords. But the way that I've just
+27:25 been able to make my life a lot easier
+27:26 is just to use Rankability cuz it gets
+27:28 the keyword research process done in a
+27:30 couple of minutes and then I can spend
+27:31 my time on what actually matters. Go to
+27:34 my list and I can really dig into these
+27:36 keywords and get a really good
+27:37 understanding
+27:39 um of what I'm up against, right?
+27:41 Because at the end of the day, it's not
+27:42 about being able to find keywords.
+27:44 That's actually the easy part. The hard
+27:46 part is knowing uh what keywords to pick
+27:49 because if you pick the wrong keywords,
+27:51 you could waste a lot of time, energy,
+27:54 and money going after a keyword that's
+27:56 just going to be junk, right? And what
+27:59 you want to do is is be very deliberate
+28:01 with that process. Uh and one thing that
+28:03 might help is
+28:05 think in terms of clusters, okay? So
+28:07 when you pick a keyword, let's say in
+28:09 this case I'm doing AEO services in St.
+28:11 Louis,
+28:12 I'm going to go after this core topic of
+28:15 AEO or AEO services and I'm going to uh
+28:18 build out many supporting assets around
+28:21 this topic. I'm not just going to go
+28:22 after this once and then move on to, you
+28:24 know, St. Louis link building services,
+28:26 right? I'm not going to I'm not going to
+28:28 go that quickly. I'm going to go a mile
+28:30 deep on this cluster and then once I
+28:32 feel like I've exhausted that cluster to
+28:34 the fullest extent, then I move on to
+28:36 the next one, okay? This is a mistake I
+28:38 see all the time. People bouncing from
+28:41 one, you know, topic to the next without
+28:43 fully covering that topic. You have to
+28:45 absolutely cover it all the way. So,
+28:48 this is actually a really good keyword
+28:50 to to finish off here because you'll see
+28:51 zero search volume, okay? But, if we
+28:53 actually look, AEO services, all right?
+28:56 And this is why localized keywords are
+28:57 tricky. But, if we go in here and we
+28:59 look at AEO services, we'll see 210
+29:02 searches. Now, this is national
+29:04 national, you know, volume. But, even
+29:07 national volume isn't accurate. What you
+29:09 really want to be looking at is this.
+29:11 How much is this keyword topic or how
+29:13 much is this service offering or idea
+29:17 growing year over year, okay? Because
+29:20 there's an obvious trend going on now,
+29:22 right? It's It's slow, but it's
+29:25 beginning to grow. So, you're not going
+29:27 to find volume for a keyword like this
+29:29 cuz it's so new. Doesn't mean people
+29:31 aren't searching it, though. And that's
+29:33 why when I see stuff like this, I get
+29:35 really excited because I know when I
+29:37 start to look at the search results,
+29:38 this is why having that kind of
+29:39 keyword-rich highlighting here is so
+29:41 important. But, check this out. We look
+29:43 up AEO services, okay? Check this out.
+29:46 Not a single competitor, not even one,
+29:50 is targeting this keyword right now. Not
+29:52 a single one, right? So, right this
+29:54 second, I could go and build an asset,
+29:56 boom, get it published, start ranking,
+29:58 start getting that leverage, start
+30:00 getting those clicks, and then it
+30:01 becomes really really hard for the
+30:03 competitors to catch up because once
+30:05 you've you've already started to rank,
+30:07 you start to get all the positive
+30:08 signals, which we know
+30:10 helps you solidify rankings even better,
+30:12 okay? So, this is why these zero-volume
+30:14 keywords are so powerful. And And this
+30:16 is why you know, you got to jump on
+30:19 them. Jump on them fast, especially if
+30:20 you're an agency. You got to start going
+30:22 after these keywords. So, hope that
+30:23 helps. If you like this video, as
+30:25 always, please like it. I got a lot of a
+30:27 lot of cool videos coming here very
+30:29 soon. So,
+30:30 So, anyway, subscribe to get first
+30:32 access. Thank you so much for watching.

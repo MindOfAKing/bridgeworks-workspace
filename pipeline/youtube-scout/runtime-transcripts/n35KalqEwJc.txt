@@ -1,0 +1,482 @@
+00:00 In this video, I'm going to cover one of
+00:01 my favorite ways to optimize my
+00:03 day-to-day coding workflow, and that's
+00:05 by using Git Work Trees with Claude. So,
+00:07 typically, if you're working with
+00:09 Claude, you'll open a session, give it a
+00:11 task, review it, and continue to iterate
+00:13 until that task is completed. But what
+00:15 are you doing when your LLM is actively
+00:18 thinking and working? Sometimes it can
+00:19 feel like you're just twiddling your
+00:20 thumbs, waiting for something else to
+00:22 do. But if you look at your backlog,
+00:25 chances are there's several tasks that
+00:27 aren't actually dependent on one
+00:28 another. So there's no reason that one
+00:30 task has to finish before you start the
+00:32 next. But if you open two terminals and
+00:35 you run claude code in both, you do get
+00:38 to work on both tasks, but you'll
+00:39 quickly realize that just makes a mess.
+00:42 When two agents are in the same working
+00:44 directory, they read and write to the
+00:46 same files. So as each agent is working,
+00:49 the code is changing right in front of
+00:50 them, and they have no idea why or how.
+00:53 And all of a sudden, everything just
+00:55 breaks. So what's actually the solution
+00:58 here? Well, it's not a change in cloud
+01:01 code or any other LLM that you're
+01:02 working with, but it's a change in how
+01:05 you're using GitHub. A Git repository
+01:07 has two things. The object store, which
+01:10 has all your commits, all your history,
+01:12 all your branches, and then the working
+01:14 tree, which are the files that you
+01:16 actually see on disk when you open your
+01:18 editor, meaning the files that are on
+01:21 your machine. Normally, these are
+01:23 coupled, one repo, one working tree. You
+01:26 check out a branch, your files change to
+01:28 match that branch, and you can only be
+01:30 on one branch at a time in one directory
+01:33 on your computer. But git work trees are
+01:35 how you decouple them. So you still have
+01:38 one object store. So you have one repo,
+01:41 one git directory, one history, but now
+01:43 you have multiple working trees. And
+01:46 each working tree is a separate
+01:47 directory on your computer checked out
+01:50 to a different branch. So it's
+01:52 completely independent at the file
+01:54 level. and changes in one working tree
+01:57 do not affect any other. You can think
+01:59 of it this way. Your main repo is the
+02:01 source of truth. And a work tree is like
+02:04 a satellite. It's a separate checkout of
+02:06 the same repo on a different branch in a
+02:09 different folder. So they share the same
+02:11 history and they share the same remotes,
+02:13 but they don't share files on your
+02:16 computer storage. So as each agent
+02:18 builds out its own feature that it's
+02:19 tasked with, it's not affecting any
+02:21 other. Now, let's walk through how to
+02:23 actually do this in practice. So, first
+02:25 we're going to use the git CLI to create
+02:27 and manage work trees. So, navigate into
+02:30 a directory that has an active git repo.
+02:33 So, I'm currently in my AI agent project
+02:36 and we're just going to type in get work
+02:38 tree list.
+02:40 And this is going to list out all of the
+02:41 work trees that you have associated with
+02:43 this repository. Now, you can see I
+02:45 already have some work trees connected
+02:46 here. This is because it's my current
+02:48 project at work. So, by the end of this
+02:50 video, you'll actually get a sneak peek
+02:52 into what my screen looks like when I'm
+02:54 deep into building a real project. But
+02:56 if you're following along, you won't
+02:58 have any work choose here. It'll just
+03:00 return main. So, let's make your first
+03:02 one. But before we make your first one,
+03:04 I'm just going to give some additional
+03:06 context of what we're actually typing in
+03:08 here. So, when I ask get workree list,
+03:12 it returns every workree that's
+03:14 connected to my current repository. And
+03:16 this is the directory that that code is
+03:19 on on my machine. So each of these
+03:21 directories are where the files live for
+03:24 each corresponding workree. And then
+03:26 here you can see each of these are the
+03:29 branches that are associated with each
+03:30 work tree. So you can see here, as we
+03:32 talked about earlier, each work tree
+03:34 does have its own directory on your
+03:36 local machine because as it's building
+03:38 out a feature, it's going to be able to
+03:40 update those local files for the
+03:42 specific branch and not interact with
+03:44 other agents that are running working in
+03:46 different directories. So now if I type
+03:50 in get status,
+03:53 sorry, not get status. If I type in get
+03:55 branch,
+03:57 you're going to see all of the branches
+03:59 that are currently associated with the
+04:01 repository that I have. So everything
+04:03 that's teal is actually a branch that is
+04:06 open but in a different directory with a
+04:09 different work tree. And here in this
+04:11 directory, I have main open as my
+04:14 branch. And then these white branches
+04:16 are branches that I have locally, but I
+04:18 don't have them open anywhere in a work
+04:20 tree. Now, you can probably see a theme
+04:22 here with naming. I like to have all of
+04:24 my working directories start with the
+04:26 name of the project. So then when I type
+04:29 ls into my machine, all of the work
+04:31 trees that I currently have are going to
+04:33 show up in one place. So it's pretty
+04:34 easy to find. And then I like to name
+04:37 each work tree corresponding to the
+04:39 specific feature that I want to
+04:41 implement. So that way when I'm working
+04:43 with multiple terminals open and I'm
+04:45 working on multiple features at once,
+04:47 I'm not going to get confused what's
+04:48 happening where and I'm also going to
+04:51 remember the exact feature that I'm
+04:53 working on and make sure that that
+04:54 feature doesn't overlap with any of the
+04:56 work that I'm doing on another branch.
+04:58 And then once that feature is done, I'm
+05:00 going to be able to commit that work and
+05:02 then merge it to either your staging
+05:04 branch or your main branch or whatever
+05:06 workflow you have set up. Now that's
+05:08 just how I like to name things.
+05:10 Obviously, you can name this however you
+05:11 want. Um, this is just a method that I
+05:14 found was really helpful. Now that we've
+05:16 gone over that, it's time to actually
+05:18 create your first work tree. So, in your
+05:20 directory, you're going to type in get
+05:22 workree ad.
+05:27 Now, we're going to go back one
+05:28 directory because you want to get out of
+05:30 this project. So, now you have a whole
+05:33 another folder that's being created just
+05:36 back one directory so they don't
+05:38 overlap. So I'll name it AI agent. And
+05:40 for this work tree, we're just going to
+05:42 implement a new endpoint. So I'll make
+05:45 it endpoint.
+05:47 And now we're going to create a new
+05:49 branch. So if I do dashb
+05:51 and I'll do new endpoint.
+05:56 And then I'm going to specify what
+05:58 branch I want to create this branch off
+06:00 of. So I currently work with and staging
+06:04 and I'm updating staging right now. So,
+06:06 I'm just going to make this. So, I'm
+06:09 just going to make this branch off of my
+06:11 staging branch. So, we'll do
+06:13 origin-staging.
+06:14 If you're currently working with just a
+06:16 main branch, you can do origin slain.
+06:19 And
+06:21 now you can see it's preparing the work
+06:23 tree. It created a new branch and it's
+06:26 set to track against my staging branch.
+06:29 And the head is now at the last commit
+06:33 that I had to my staging branch. So now
+06:36 we can type again get status.
+06:40 Sorry, not get status. I keep doing
+06:41 that. We're going to type in get branch.
+06:44 And
+06:47 here you can see I have a new branch
+06:48 created. So this is my new endpoint and
+06:50 it's teal because it's connected to a
+06:51 new work tree that I just created. So if
+06:53 I type in get workree list, we should be
+06:56 able to see this new work tree as part
+06:58 of the list. And you can see it here,
+07:00 the AI agent endpoint. Now, let's walk
+07:02 through an example of actually using
+07:05 these work trees in practice so you can
+07:07 get a feel of what an optimized workflow
+07:10 look like and how you can adjust your
+07:11 current coding workflow. So, here you
+07:14 can see I have a few different work
+07:16 trees and branches already set up and
+07:19 we're going to work through two of them.
+07:22 So, first let me open a new tab here and
+07:25 I'm going to cd back one directory
+07:26 because I was in that main branch
+07:28 directory. And if I type in ls, it's
+07:31 going to show me all of the directories
+07:32 in this folder. And just showing why I
+07:36 like naming all of my work trees with
+07:37 the name of the project in the beginning
+07:39 because now you can see all of the work
+07:40 trees I have are conveniently located in
+07:43 one spot. So now let's CD into
+07:47 the dashboard feature. And that's going
+07:49 to be one thing that I'm going to be
+07:50 working on. Now I'm going to open up
+07:52 Codeex. I've recently been using Codeex
+07:56 a lot more often than Claude. It's going
+07:57 to work exactly the same if you're using
+07:59 Claude. Um, either way, your preferred
+08:02 LLM here. And now I opened up my codec
+08:06 session within my dashboard creation
+08:10 workree. Now, I already pre-wrote out
+08:15 what step I wanted to add in to this
+08:17 feature just so you didn't have to
+08:21 watch me type this all out cuz it's
+08:23 pretty long. But basically, it's just
+08:26 adding in the capability for this
+08:29 dashboard to interact with DeFi Lama. So
+08:32 that's the next feature that I'm adding
+08:34 into this dashboard. And since this is a
+08:36 backend update, I know that it's not
+08:38 going to affect the other feature that
+08:40 I'm going to be working on in my next
+08:42 work tree, which we'll go over in a
+08:43 second. But here you can see it's just
+08:47 specifying that I want to add in market
+08:50 context for the dashboard that I'm
+08:52 creating. and it's going to give some
+08:54 detailed information so my agent knows
+08:56 exactly what it needs to do for this new
+08:58 dashboard feature in my AI agent
+09:00 project. Now, while that's running, I'm
+09:02 going to open up a new tab and we're
+09:04 going to split screen this so we can
+09:06 keep tabs on what's going on on both
+09:08 sides here.
+09:12 Okay. So, now I'm going to get out of
+09:14 this work tree and we'll ls again. And
+09:17 I'm going to also work on the HubSpot
+09:20 access that I'm creating for my AI
+09:23 agent. So we'll cd over there
+09:30 and then once again I'm going to open up
+09:31 codeex.
+09:34 Now here you can see why I like to name
+09:36 the directories the same as the feature
+09:38 that I'm implementing because you can
+09:40 see in this terminal it's labeled
+09:42 HubSpot access and this terminal is
+09:44 labeled dashboard creation. So now,
+09:46 here's a good example of why you want to
+09:48 make sure you're always reading what
+09:51 Codeex or Claude or whoever is prompting
+09:54 you to do next. Because now this is
+09:56 saying to switch to a new branch for
+09:59 just Defy Llama, which I want this to
+10:02 actually be part of the dashboard that
+10:03 I'm creating and have this all in one
+10:04 branch in one feature. So let's just
+10:07 double check and make sure this is on
+10:09 the correct branch. So this is on the
+10:12 dashboard creation branch. So we're just
+10:13 going to tell this no, I don't want a
+10:15 separate branch. I want this all
+10:16 together.
+10:19 So, we'll say stay on the
+10:44 Okay, so now we have our dashboard
+10:46 working on our left side and And then
+10:49 here I'm going to work on updating the
+10:51 UI for the HubSpot access of this agent.
+10:54 Now I already have this running locally.
+10:56 So I'm actually going to pull this up.
+10:59 And this I ran locally directly from
+11:02 this AI agent HubSpot access directory.
+11:05 So I know that this is connected to my
+11:07 HubSpot access branch and this HubSpot
+11:09 access workree. So as I update on this
+11:12 side, my UI is going to update. So,
+11:17 one of the simple changes that I want to
+11:19 make here is just adding a select all or
+11:22 unselect all box in the HubSpot card.
+11:25 So, we're just going to add that
+11:52 Okay. So, we're going to leave this UI
+11:54 on the back. We're going to have our
+11:56 HubSpot agent running and then we're
+11:58 also going to have our dashboard
+12:00 running. So, usually if I have both of
+12:03 those running and I still have some time
+12:04 left, I'll probably switch over to
+12:06 another branch and start working on
+12:07 that, too. But for this video, just for
+12:09 simplicity, you can see that we have two
+12:11 different workflows happening at once
+12:13 with two different features that don't
+12:15 overlap each other. And they're existing
+12:18 in two different directories here. So
+12:20 the local code that is being worked on
+12:23 by each agent is going to be separate,
+12:25 stored in separate locations on my
+12:27 computer. And that's what's enabling
+12:30 both of these to be working together. So
+12:32 once we have these updates, I'm going to
+12:33 show you how to push and merge when you
+12:36 get to get. Um,
+12:38 but for now, we're just going to let
+12:40 these run and then I'll speed everything
+12:42 up in the video and show you the next
+12:44 steps. So now you can see that both of
+12:46 these sessions have completed. So if we
+12:49 look at the right session, you can see
+12:51 that the UI update has been made. So, if
+12:54 I go back to what I'm running locally,
+12:56 you can see here is my select all button
+12:59 that has been added and we can test it
+13:01 out. It works as expected. So, this
+13:04 side's good to go. Now, on this side, it
+13:06 was a much more complex addition by
+13:09 adding the D5 Lama integration into the
+13:11 dashboard. So, this I'm going to have to
+13:14 write some tests and actually test it
+13:16 out on my side to make sure everything
+13:18 works before I actually commit this. But
+13:20 for this video, we'll skip ahead. So I'm
+13:23 going to open another tab on both sides.
+13:25 And you can see I'm in the respective
+13:28 folder for each of these work trees. Now
+13:30 I'm just going to type in get status to
+13:31 show that these have worked on two
+13:33 different local directories and the work
+13:36 has not affected each other. So if I
+13:38 type in get status on each side,
+13:42 you can see the updates are very
+13:43 different. So on the left we have mainly
+13:47 all backend updates working with our PHP
+13:49 files and then on the right we have our
+13:52 front-end updates with our HTML CSS
+13:54 files. So that's what it looks like with
+13:56 GitHub. And if I commit this change, um
+14:13 now I'll commit this change and I'll
+14:14 open GitHub so you see what it looks
+14:16 like. So I'll go to my AI agent project
+14:18 and we're going to go to the branches.
+14:21 And this one I'm working on the HubSpot
+14:23 access branch. And you can see that
+14:25 there was a commit just now.
+14:32 And I'm working with my staging
+14:33 environment. So I'm just going to make a
+14:35 PR to staging and be able to merge this
+14:38 new update. And you can see each of
+14:40 these are working on their own branch.
+14:42 And you'll be able to merge each feature
+14:44 into its next branch um once you commit
+14:47 and push to GitHub. And just to be
+14:50 aware, there may be merge conflicts that
+14:52 you're going to have to resolve if
+14:54 you're working with multiple agents and
+14:56 some of the files do happen to overlap.
+14:59 So that's one thing to keep note of.
+15:01 Now, now that you're able to see an
+15:03 example workflow in action, let's talk
+15:05 about some more advanced patterns when
+15:08 using work trees with Claude or Codeex.
+15:11 So first we'll start with the MD file in
+15:13 workspaces. So with claude you have a
+15:16 root claude MD. With codeex you're going
+15:19 to have an agents.md.
+15:21 So let's just show an example here. I'm
+15:23 going to open my code and I have my
+15:25 agents MD file for this project to work
+15:28 with codeex. And you can see
+15:34 you can see that it just defines
+15:36 additional instructions about this
+15:38 project to be able to give it as context
+15:41 for the LM that I'm working with. So
+15:43 because this exists, this means that the
+15:45 project context is automatically
+15:47 available in every single work tree that
+15:50 you set up without any extra setup. So
+15:53 one MD file for agent context is going
+15:56 to benefit all of the agents that you
+15:58 have running in multiple sessions. But
+16:01 where this gets interesting is you can
+16:03 add a workree specific MD file for tasks
+16:07 that need additional context. So you
+16:09 just create another claude MD or agents
+16:13 MD if you're working with codecs in the
+16:15 work tree route with additional context
+16:17 and this gives scoped context for scoped
+16:21 work when you're working with a specific
+16:22 feature in a work tree. Now the next
+16:25 pattern is my favorite one which is
+16:27 agent versus agent comparison. In my
+16:29 opinion the most useful work tree
+16:31 pattern is actually not parallelism but
+16:33 comparison with multiple agents. So how
+16:36 this works is you give two agents the
+16:38 exact same task in two separate work
+16:40 trees. So you review both outputs and
+16:43 you pick the better one and discard the
+16:45 other. This is really useful for
+16:47 architecture decisions where there are
+16:49 multiple valid approaches and you want
+16:51 to see both implemented before
+16:53 committing to a final design. So this
+16:56 essentially gives you a free
+16:57 architecture exploration because the
+17:00 cost of exploring two approaches is not
+17:02 double the time in this case. It's the
+17:05 same time with half the opportunity
+17:07 cost. Now, the next pattern I'm going to
+17:09 talk about is using T-Mux with your
+17:12 agent. So, if you run multiple agents
+17:15 regularly, T-Mux is worth learning. It
+17:17 lets you create named sessions for each
+17:20 work tree, detach, and reattach without
+17:23 losing the agents context, and you can
+17:25 see all of the active sessions at a
+17:27 glance. So, let me go over the basic
+17:30 setup. I'll navigate back to my terminal
+17:32 and you can check to see if you have
+17:33 T-Mox on your computer here. If you
+17:36 don't, you can just install with Brew
+17:37 Install Brew Install T-Mux and you'll be
+17:39 good to go. Now, we're going to create a
+17:43 named session for each of these
+17:45 workflows. So, we'll do T-Mox
+17:49 new session.
+17:53 And then we're going to name the
+17:54 session. So, we'll name this one
+17:56 HubSpot.
+18:01 And then you're going to specify where
+18:03 you want this session to exist based off
+18:06 of the current directory that you're in.
+18:07 So I'm currently in my AI agent
+18:09 directory. I want it to exist within the
+18:11 AI agent HubSpot access directory. So
+18:14 I'm going to do dash c and we're going
+18:16 to go back and then do AI
+18:20 agent.
+18:27 Okay, so now you can see it autocreated
+18:30 a persistent session here inside my AI
+18:32 agent HubSpot access. So now if I go
+18:35 back to my AI agent directory, I can
+18:36 type in T-Mux LS and that's going to
+18:40 show me all of my active sessions and
+18:43 whether it's attached or detached. So
+18:46 now with this running, your agent
+18:47 sessions persist even if you close a
+18:49 terminal. So you can check in on any
+18:52 agent at any time. And this is a setup
+18:54 that I'm moving towards in my day-to-day
+18:56 workflow. So, you have a named Teamwork
+18:59 session per workree, each with its own
+19:01 cloud code instance, and each on its own
+19:03 task. Now, let's just recap when to use
+19:06 a work tree and when not to. So, I'll
+19:08 use a work tree if there are two or more
+19:11 tasks that I want to do today that don't
+19:13 share the same file. or if the task is
+19:16 risky enough that I want to see two
+19:18 different approaches before actually
+19:20 committing to one then again I'll use a
+19:22 work tree. Now if a single task spans
+19:26 the whole codebase then I'd recommend
+19:29 just sticking to a single session that
+19:30 day and if the task is more of an
+19:33 exploratory task then again I'd say keep
+19:36 it to a single session and let the agent
+19:39 be able to roam throughout the codebase.
+19:41 But overall, work trees have helped me
+19:43 optimize my daily workflow and just
+19:45 become a lot more efficient. So, I hope
+19:48 it helps you as much as it's helped me.
+19:50 Let me know any questions or comments
+19:52 you have below and stay tuned for more
+19:54 AI videos.

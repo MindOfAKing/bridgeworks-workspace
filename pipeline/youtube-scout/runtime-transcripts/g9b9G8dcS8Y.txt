@@ -1,0 +1,558 @@
+00:00 There are six patterns that separate the
+00:01 people who actually get how to use
+00:03 dynamic workflows to their fullest
+00:05 potential versus those who just turn it
+00:07 on once and never use it again. The
+00:09 engineers at Anthropic that both design
+00:11 and built this feature just released a
+00:13 full masterclass on how to get the most
+00:15 out of it. So, in this video, I'm going
+00:17 to break it down for you and give you
+00:18 the TLDR so you don't have to read it
+00:20 yourself and you can just take all the
+00:22 nuggets. I went through the whole thing
+00:23 and pulled the six core design patterns
+00:25 that everything else is built on. And on
+00:27 top of that, it has some Easter eggs
+00:29 [music] on when and when not to use
+00:31 workflows as well as how to share them
+00:33 with a team. So, if you're ready to take
+00:34 your workflows to the next level, then
+00:36 let's dive in. Now, most people think
+00:38 that a dynamic workflow is just a
+00:39 fancier way to spin up agents, but
+00:41 that's not the real unlock. The real
+00:43 unlock is in understanding that this is
+00:45 a brand new way for Claude code to
+00:47 design and create a harness on the fly,
+00:50 which is like a little machine that can
+00:52 be custom-built for whatever task that
+00:54 you hand it. Now, once you understand
+00:56 these six shapes that this machine can
+00:57 take, then you can apply them to pretty
+00:59 much any scenario. But, before I can
+01:01 even go through all of the patterns at
+01:03 length, it's important to understand the
+01:05 core mechanics underneath them because
+01:07 they are the very reason why this
+01:09 feature even exists. So, normally, when
+01:11 you give Claude code a task and you're
+01:14 only dealing with one context window,
+01:16 that context window is a glorified
+01:18 short-term memory for that particular
+01:20 task. And for most things, this works
+01:22 just fine. But, when you have
+01:24 longer-running tasks or more complex
+01:26 tasks and you find yourself half a
+01:28 million, 600,000 tokens into a
+01:30 conversation, this is when things start
+01:32 to unwind. And then you have things that
+01:34 are called agent laziness, where you
+01:36 give it 15 tasks, it says it's going to
+01:39 do said tasks, but it only actually
+01:40 accomplishes seven. And the next one is
+01:42 self-preference, and this is a huge one.
+01:45 So, this is essentially having Claude
+01:47 code audit itself and saying that it did
+01:49 a great job. You're basically asking a
+01:52 single session that's currently running
+01:54 how its code is doing or the quality of
+01:56 its output. It's going to be biased like
+01:58 a person who creates their own
+02:00 deliverable to say that it's better than
+02:01 it actually is.
+02:03 And the last one is gold drift, where
+02:05 pretty much you have an overall goal at
+02:07 the beginning of a session, but after a
+02:08 long running conversation and tons of
+02:11 auto compactions and tool calls and
+02:13 summarizations, that detail that you had
+02:16 at the very beginning that made it fully
+02:18 synthesize and understand what it's
+02:20 trying to accomplish and how it should
+02:21 do so starts withering away. So a
+02:24 dynamic workflow fixes all of these
+02:26 problems by not focusing on one single
+02:28 cloud session, but instead spins up a
+02:31 series of agents, many of which will be
+02:33 Sonnet 4.6 by default, to go and have
+02:36 individual context windows to solve each
+02:38 problem separately. So now we can get
+02:40 into the nitty-gritty, and these are the
+02:42 six core patterns. One is called
+02:44 classify and act, the second is fan out
+02:46 and synthesize, then we have adversarial
+02:48 verification, generate and filter,
+02:51 tournament, which is my favorite, and
+02:53 then loop until done. For each one of
+02:55 these, I'm going to walk you through
+02:56 what it is, how it works, and much more
+02:58 importantly, how you can actually use
+03:00 it. We'll start at the simplest one and
+03:02 work our way from there. So for the
+03:04 first one, classify and act, this is
+03:06 pretty much having the equivalent of a
+03:08 receptionist at the front door
+03:10 classifying what a task should be
+03:12 grouped into, or which agents are
+03:14 responsible for said task. So it's meant
+03:17 to just have a very basic language model
+03:19 right here. We have a task, this has
+03:21 some form of system prompt. Once the
+03:23 system prompt filters which is the
+03:25 responsible agent, this becomes the
+03:27 critical path or the chosen path. So a
+03:29 common example of when you'd use this is
+03:31 something like inbox triaging. We have
+03:33 an email come in, and then the AI
+03:35 decides, is this a bug? Is this a
+03:37 request for a refund? Is this an upgrade
+03:40 request or something along those lines?
+03:42 Once it classifies it, it will route it
+03:44 to the right agent. Another way to think
+03:46 about this is that you're basically
+03:47 quarantining what should be done with
+03:49 that task or input before it goes to the
+03:52 next stage. So, at the very beginning,
+03:54 you have a reader agent, then you have a
+03:56 ticket, and then it gets pushed onto the
+03:58 next part of the process where you have
+03:59 a trusted agent go and take action upon
+04:02 that input. A practical application
+04:04 prompt would be build a workflow that
+04:06 triages my inbox in name of folder by
+04:09 spawning a classifier agent that reads
+04:12 each ticket and routes it to a bug,
+04:14 refund, lead, spam handler, and
+04:17 deduplicating, basically removing
+04:18 duplicates, against what is already
+04:20 tracked before any handler acts. And
+04:22 then we tell it how the quarantine
+04:24 process should be executed. And the next
+04:26 process is called fanning out and
+04:28 synthesizing. And this is essentially
+04:30 the process of taking a task, breaking
+04:32 it into micro parts optimized for
+04:35 individual, mutually exclusive agents to
+04:38 take care of them, and then you
+04:39 synthesize all of their individual
+04:41 results, their individual contributions,
+04:43 and then you bring them to one overall
+04:45 result. So, a very practical and common
+04:47 application is deep research where you
+04:50 basically have one core thing you're
+04:51 trying to understand. So, let's say you
+04:53 want to research the best ways to use
+04:55 agent harnesses. It would go and see
+04:57 what are all the different lenses for
+04:59 this problem, and let's assign one
+05:01 agent, by default most likely a Sonnet
+05:04 4.6 agent, for this angle of this
+05:07 research question. And once they all
+05:08 work in parallel, we'll retrieve all
+05:10 their answers at the very end, just like
+05:12 sub agents, and then have one overall
+05:14 result. Other than research, you could
+05:16 also apply this to a due diligence
+05:17 scenario where you have financials,
+05:19 contract, legal. Then you have some
+05:21 agent, and each one of those agents
+05:23 pulls out all the salient points for
+05:25 some form of red flag memo. So, going to
+05:28 the terminal, this is a good prompt
+05:30 application of this concept. Build a
+05:32 workflow that does due diligence on the
+05:34 data room in folder by fanning out,
+05:37 keyword here, one sub agent per folder,
+05:40 each in its own clean context, so the
+05:42 files never cross contaminate, and have
+05:45 every agent return a structured summary
+05:47 with the exact source path for each
+05:49 finding. So, we're creating basically
+05:50 citations within documents. Then run a
+05:53 barrier synthesize step that waits for
+05:56 all of them to finish and merges their
+05:58 outputs into one sided due diligence
+06:00 demo at name of your desired demo, where
+06:03 every claim links back to the file it
+06:05 came from. So, a little bit of extra
+06:07 emphasis here on the citations. And by
+06:09 the way, if you're enjoying this
+06:10 content, you like the way that I break
+06:11 down all these concepts, then you're
+06:13 going to love all of these exclusive
+06:15 content you'll find in my Claude Code
+06:17 Living Course. I add at least one brand
+06:19 new module every single week that you'll
+06:21 never see on YouTube. So, if you want
+06:23 access to that, our team of coaches
+06:25 included in your membership, along with
+06:27 tons of other goodies and great builders
+06:29 you'll find in there, then check out the
+06:31 first thing down below and I'll see you
+06:32 inside. All right, back to the video.
+06:34 Now, this next example is one that I
+06:35 really want you to retain. It's called
+06:37 adversarial verification and it's meant
+06:39 to plug a hole in the issue of
+06:42 self-preference. So, instead of having
+06:44 Claude Code think it's awesome all the
+06:46 time, you very intentionally employ
+06:49 three different skeptics or devil's
+06:51 advocates to look at the output and then
+06:54 cross-reference it against some
+06:55 checklist or rubric. So, one extra step
+06:58 you can take here is before you even
+07:00 execute the workflow, is you create the
+07:02 proper rubric. Because once you do the
+07:04 rubric, it's basically your pseudo plan
+07:06 that your other agents can push against
+07:09 and play devil's advocate using that as
+07:11 its core source.
+07:13 The natural application of this is
+07:14 fact-checking. So, if you produce
+07:16 anything with AI, like a blog or an
+07:18 article or anything where you're worried
+07:20 about all the facts being 100% coherent
+07:22 and correct, running this kind of
+07:24 devil's advocate at scale can help you
+07:27 find any issues or any controversial
+07:29 statements prematurely. So, if you want
+07:30 to see a tactical example of this, you
+07:33 imagine that you have a blog that you're
+07:34 drafting. And then from this blog, you
+07:36 have an extractor. And then from this
+07:38 extractor, you pull out individual
+07:40 claims. Once you have the claims, you
+07:42 need to decide if they're factual or
+07:44 non-factual, then you spin up a series
+07:46 of sub-agents. Each one checking one
+07:49 individual claim and going down a rabbit
+07:51 hole. And once they come back with their
+07:53 false positives, false negatives, then
+07:55 you can create a verified report on what
+07:58 needs to change in this block. If you
+08:00 wanted to execute this, you could use a
+08:01 prompt like this. Where you say, "Use a
+08:03 workflow to go through my blog post and
+08:06 verify each factual and technical claim
+08:09 before I ship it." Have agent extract
+08:12 each claim into its own item. Then for
+08:14 every claim, spin off a separate agent
+08:16 that checks it against the real source.
+08:18 So we're making sure that we don't have
+08:19 individual agents also having
+08:21 self-preference bias. So the rest of the
+08:24 prompt basically walks through the
+08:25 behavior of making sure that when it's
+08:27 done, give me back the list of claims
+08:30 that have failed and the exact reason
+08:31 why each failed so that I know what to
+08:33 fix. And ideally, where the bias of the
+08:35 language model that might have drafted
+08:37 or written that blog post might have
+08:39 come from. And the next pattern is
+08:40 called generate and filter. And the
+08:42 whole point of this is to spin up a
+08:44 series of agents to over generate a
+08:47 series of ideas, project names, it could
+08:49 be whatever you're trying to ideate
+08:51 about. And once you have those ideas,
+08:54 it's easier to go from 1,000 ideas to
+08:56 three versus to go from 10 to three. So
+08:59 it just basically gives you more
+09:01 variety. So I could use it for example
+09:02 to say, "What should I title this video
+09:05 so it communicates the concept without
+09:07 being clickbaity? Find me a balanced 500
+09:10 titles that have performed really well
+09:11 on YouTube in the past 6 months." So you
+09:14 practically use this wherever taste is
+09:16 required. So if you need your opinion on
+09:19 a cold email opener or the name of a
+09:21 brand new product or where you should
+09:23 execute a certain pop-up offer, this
+09:26 would be a helpful way to go and do the
+09:28 research individually, maybe do some
+09:30 market research analysis, maybe you hook
+09:32 up some skills for these agents to be
+09:34 able to use to survey, scrape, do
+09:36 whatever they need to come back with the
+09:38 richest information possible, and then
+09:40 you synthesize and digest that down to
+09:43 just a few ideas. And if you want to get
+09:45 fancier with it, then you can always
+09:46 integrate the judge in the workflow. So,
+09:48 you have a series of agents, spin up all
+09:50 the ideas, then you have a series of
+09:52 judges that then critique all the ideas,
+09:55 then you have some rubric, again, ideal
+09:57 that you put together, so you can
+09:58 quality control the quality controllers,
+10:01 and then you get the tested, synthesized
+10:03 picks at the very end. To apply this,
+10:05 you could send over a prompt like this,
+10:07 where it says, "Use a workflow to
+10:08 brainstorm a 40 video title and headline
+10:11 angle options for the topic in name of
+10:13 topic with one generator agent, then
+10:16 hand them all to a judge agent that
+10:18 scores every option against a series of
+10:20 criteria." And then at the very end
+10:22 here, we say, "The generator that
+10:24 brainstorms and the judge that scores
+10:26 must be different agents." So, I might
+10:28 be spoon-feeding or over-telling it what
+10:30 to do, but it's never a bad idea to
+10:33 over-explain yourself to a language
+10:35 model. Now, like before, pattern five is
+10:37 my favorite, and it's called the
+10:39 tournament pattern. And the way it works
+10:40 is this, instead of dividing up the work
+10:42 amongst multiple agents, like we saw in
+10:44 prior patterns, this one takes single
+10:47 ideas, sends them to fresh new agents,
+10:50 and asks it some controversial question,
+10:52 "Should we go with this decision or
+10:54 not?" And then this agent will go
+10:55 through every single reason which one of
+10:58 the two options, it could be three
+10:59 options, four, is the best and why. And
+11:02 then all of the good ideas or the good
+11:04 proposals or good decisions move on to
+11:07 the next round until you get to the
+11:08 final bracket. So, this will keep going
+11:11 pairwise until we get to the very end
+11:13 where we have a final, then at each
+11:15 stage, we have an unbiased agent with a
+11:18 fresh context window. Instead of having
+11:20 Claude code look at 500 different
+11:23 decisions, its context window, its
+11:25 memory, its auto compaction, all of that
+11:27 will lead to less accurate decisions.
+11:30 So, when you break apart all the
+11:32 possible decision space into all these
+11:34 separate agents, you have a different
+11:36 way to also trace how a decision is
+11:38 made. And you could probably imagine the
+11:40 example use case of where this would be
+11:41 helpful. Imagine you have 5,000 resumes,
+11:44 and instead of shoving those 5,000
+11:46 resumes through a typical applicant
+11:48 tracking system or one Claude code
+11:51 session where it will inevitably find
+11:53 bias, context window issues, bloating,
+11:56 you basically break apart all those
+11:58 resumes into specific stacks. Do we pick
+12:01 this person or this person and explain
+12:03 why. Applying this, you could have a
+12:04 thousand different items, and then you
+12:06 have different rounds. Round one could
+12:08 be assessing all items based on X
+12:11 criteria. Then the next round would be
+12:13 on B criteria. And then we would keep
+12:16 going until we get to the final round.
+12:18 So, the one key caveat here is that each
+12:21 round could technically have its own
+12:23 rubric. So, it doesn't have to be 7, 10,
+12:26 50 rounds with the exact same criteria.
+12:29 In a prompt for this could say, "Use a
+12:30 workflow to rank every resume for the
+12:32 back-end engineer role by running a
+12:34 tournament of pairwise comparisons
+12:37 against a rubric instead of scoring each
+12:40 one cold where each head-to-head match
+12:42 is its own comparison agent and the
+12:44 deterministic loop holds the brackets so
+12:46 only the running order stays in
+12:47 context." So, if you want to steal a lot
+12:50 of my wording here, you're going to be
+12:51 able to access all these prompts in the
+12:53 second link down below, so don't worry
+12:54 about it for now, but we're basically
+12:56 just setting the tone for this whole
+12:58 bracket to transpire. Now, the last
+13:00 pattern is called loop and done. And
+13:02 this is very similar to something like
+13:04 slash goal, where all you do is instead
+13:06 of telling the agent, "Go and do X 10
+13:09 times," you just say, "Don't stop until
+13:12 you reach this specific outcome." So, if
+13:15 you have brand new findings for a
+13:16 particular matter, it will keep going
+13:18 and spin up brand new agents to go
+13:20 through, double-check, triple-check
+13:22 until you reach the specific desired
+13:24 result. So, maybe you have a bug that
+13:26 occurs in a platform you've put
+13:27 together. Maybe you vibe coded it. And
+13:29 maybe this bug happens once every 30
+13:31 times, but you can't usually spot it.
+13:33 You have to keep refreshing. You have to
+13:35 keep trying different combinations to
+13:37 reproduce the bug. You could
+13:39 theoretically say, go through and run
+13:42 this until you receive the bug. And then
+13:44 once you get the bug, try and trace
+13:46 what's happening and how we can resolve
+13:48 it. And if we need another application,
+13:50 imagine you send this loop and done on a
+13:53 wild goose chase to go through all of
+13:55 your conversations, your JSON L files
+13:58 that represent your Claude code
+13:59 sessions, and you say, keep looking
+14:01 through every single one of these
+14:02 conversations for every pattern I've
+14:05 made until you have a comprehensive
+14:07 non-duplicative list of every single
+14:09 thing that I could improve to be that
+14:11 much better at Claude code. So, you
+14:12 could say something like, build a
+14:14 workflow that hunts down a flaky test
+14:16 that fails maybe one in 50 runs, keep
+14:19 forming theories about the cause and
+14:21 adversarial testing each one in its own
+14:24 isolated work tree. And when it comes to
+14:26 the prompt, it could look something like
+14:27 this. Build a workflow that hunts down
+14:30 what's called a flaky test in the test
+14:32 folder that fails maybe one in 50 runs.
+14:36 Keep forming theories about the cause
+14:38 and adversarial testing each one in its
+14:40 own isolated work tree. This is
+14:42 basically a separate session for an
+14:44 agent looping and spawning new attempts
+14:47 with no fixed pass count. So, basically
+14:49 telling it, we are not telling you to go
+14:51 check this 10 times or 20 times. Keep
+14:53 checking it until this specific result
+14:56 is achieved. Now, those were these six
+14:57 core patterns, but this is how you go
+14:59 from just knowing about them to actually
+15:01 becoming dangerous with them, which is
+15:03 stacking them on top of each other. So,
+15:05 imagine you have a realistic scenario
+15:07 where you vibe coded some CRM. And this
+15:09 CRM has an onboarding flow for clients.
+15:12 And you want to find ways to improve
+15:14 that onboarding flow, make it very
+15:15 thoughtful, and think of different order
+15:17 consequences. Maybe you go and say, fan
+15:20 out a series of agents to look at the
+15:21 code base and pull out all the insights
+15:24 on what should change and why.
+15:26 And then once that is pulled out, then
+15:28 you move on to pattern number three,
+15:29 which was the adversarial verify step.
+15:32 So now it has a series of devils
+15:34 advocates that goes against all the
+15:36 findings that were found.
+15:38 Then from that step, maybe you add on a
+15:40 loop until done. So maybe you combine a
+15:42 slash goal in the scenario, and then you
+15:44 apply that to this specific
+15:46 circumstance. So maybe you have a
+15:47 process that keeps going until it can't
+15:49 find any more optimizations that it
+15:51 could possibly make given the specific
+15:53 avatar who's using the platform. The
+15:55 best part about this is that you don't
+15:57 have to design it by hand. It's really a
+15:58 matter of just using the keywords in the
+16:00 right way to get the confirmed result or
+16:03 the ideal result. If you wanted to put
+16:04 all of this into one single prompt, you
+16:07 could say something like build a
+16:08 workflow that audits every file under
+16:11 code base, fans out one agent, keyword
+16:14 right here, fans out, per file, has a
+16:17 separate agent try to refute each of the
+16:19 findings against the code. So this is
+16:21 our adversarial verify, and loops until
+16:25 a clean pass turns up with no new
+16:27 issues. Return only the confirmed
+16:29 issues, each with the file and the exact
+16:31 line. Then you for good measure, you
+16:33 could add slash goal, do not stop until
+16:36 a full clean pass finds no new issues.
+16:39 Now do you need this last sentence?
+16:40 Maybe not, it would get the idea, but if
+16:42 you want to add it for an additional
+16:44 layer, then you can absolutely do so.
+16:46 Now like I said before, you can also
+16:47 share workflows very similar to how you
+16:49 share skills. And pretty much every
+16:52 workflow is purely a JavaScript file.
+16:55 And when you combine this JavaScript
+16:56 file with your skill file and maybe any
+16:59 additional markdown file that it depends
+17:01 on, all you'll get is one overall folder
+17:04 with the skill MD, the JavaScript file,
+17:06 and anything else that's involved. So it
+17:08 will look something like this. If we go
+17:11 into this folder, you'll have this
+17:13 rubric, you'll have the skill MD, and
+17:15 then you'll have this verify claims
+17:17 workflow. javascript file. If you're not
+17:20 familiar, if you ever want to save a
+17:22 workflow, all you'd have to do is go
+17:24 into Let's say we run this. So we do
+17:26 {slash} workflows.
+17:29 This would show you any workflows
+17:31 running at the moment. And then while
+17:32 this is running, you could always save
+17:35 that specific workflow. Once it saves,
+17:37 it'll allow you to store this as that
+17:39 JavaScript file that I referred to
+17:41 before. And one additional thing that
+17:42 they write in the guide is that you can
+17:44 basically always tell Claude Code what
+17:46 its budget is when it comes to token
+17:48 usage because this is a very
+17:50 token-consuming
+17:52 feature, which should be used sparingly
+17:54 for very large use cases or use cases
+17:57 that have different layers of
+17:58 complexity. So one of the examples of
+18:01 when to not use a workflow are for basic
+18:03 tasks. So if you have a platform and you
+18:06 have a series of buttons that you want
+18:07 to change the color of or you want them
+18:09 to pulsate when you click on them, you
+18:11 wouldn't spin up an agent team just to
+18:13 do that. You could do that individually
+18:15 just using basic prompts. So as we get
+18:17 infinitely better models and we go from
+18:19 4.8 to 4.9 to 5, you'll be able to do a
+18:22 lot more with a lot less. So you won't
+18:24 need agents for all tasks, but when it's
+18:26 time to use the power of agents, they
+18:29 will be there and you'll be able to use
+18:30 these swarms for much more complex
+18:32 matters. So hopefully this breaks down
+18:34 and demystifies all the power and all
+18:36 the potential that you might be leaving
+18:38 on the table by not using these patterns
+18:40 in your day-to-day. Like I said, you'll
+18:42 find all the prompts I showed you along
+18:44 with some additional goodies like an
+18:45 example of that skill folder with the
+18:48 workflow inside of it in the second link
+18:50 down below so you can use it, get
+18:52 started, and start leveling up your
+18:53 workflows like I promised. If you want
+18:55 to take your agentic workflows and
+18:57 agentic OS systems to the next level and
+18:59 you want to master Claude Code, then
+19:01 make sure you check out the first link
+19:02 down below for my early adopters
+19:04 community. This week's upcoming live
+19:06 module will be a deeper dive on dynamic
+19:09 workflows and how I've used it in myself
+19:11 for things like travel and personal
+19:13 stuff outside of core business use
+19:15 cases. And for the rest of you, if you
+19:17 found this helpful and novel, I'd super
+19:18 appreciate a like on the video and a
+19:20 comment if you so choose, and I'll see
+19:22 you in the next one.

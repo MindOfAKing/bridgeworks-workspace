@@ -99,7 +99,8 @@ def md_to_html(md, skip_to_rule=True):
             close_lists(); out.append(f"<blockquote>{inline(st[2:])}</blockquote>")
         elif re.match(r"^\d+\.\s", st):
             if not in_ol: close_lists(); out.append("<ol>"); in_ol=True
-            out.append(f"<li>{inline(re.sub(r'^\d+\.\s','',st))}</li>")
+            item_text = re.sub(r"^\d+\.\s", "", st)
+            out.append(f"<li>{inline(item_text)}</li>")
         elif st.startswith("- "):
             if not in_ul: close_lists(); out.append("<ul>"); in_ul=True
             out.append(f"<li>{inline(st[2:])}</li>")

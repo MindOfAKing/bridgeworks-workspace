@@ -500,3 +500,99 @@ Action: Add an AI Subscription Router row to the Skill Adoption Gate / Model Rou
 Owner: Emmanuel / BridgeWorks
 
 Status: Needs SOP row. No SuperGrok or paid AI upgrade from this run.
+
+### 2026-06-29 - Core 30 GBP Page Map
+
+Source: `The 30-Page Local SEO Hack Google's AI Is Already Rewarding`
+
+Decision: Adapt
+
+BridgeWorks area: Foundation website QA, local SEO, GEO / AEO, Digital Growth Engine reporting
+
+Reason: The transcript gives a concrete local SEO structure: treat the Google Business Profile as the local money page, then make the website match GBP categories, services, internal links, and buyer intent. This is useful, but BridgeWorks should not turn it into a default 30-page Foundation scope.
+
+Action: Add a proportional Core 30 GBP Page Map row to Foundation QA and DGE reporting backlog.
+
+Owner: Emmanuel / BridgeWorks
+
+Status: Needs checklist integration. No fake local pages, no AI slop location pages, no AI-ranking guarantees.
+
+### 2026-06-29 - AI Agent Worktree Isolation
+
+Source: `Run Multiple AI Agents in Parallel (Claude Code Tutorial)`
+
+Decision: Adopt as delivery guardrail
+
+BridgeWorks area: AI Delivery Verification, Website Production System, Agency Operations
+
+Reason: Parallel agents can speed up AI-assisted delivery only if each agent has isolated files and a separate branch. This reduces collision risk for Codex / Claude Code work and fits Emmanuel's AI-as-build-method reality.
+
+Action: Add an AI Agent Worktree Isolation row to the AI Delivery Verification Checklist and Website Production System.
+
+Owner: Codex / Claude Code after approval
+
+Status: Needs SOP row. No commit, push, broad refactor, or client-work parallelism without approval and rollback.
+
+### 2026-06-29 - Draft-Only Design To Code Loop
+
+Source: `Claude Design 2.0 Just Changed Everything...`
+
+Decision: Adapt with constraints
+
+BridgeWorks area: Foundation website prototypes, brand assets, client review drafts, website production system
+
+Reason: The workflow can shorten draft visual exploration by moving from brand context to editable mockup to code handoff. The risks are paid APIs, unknown repos, unreliable handoff, and over-polishing instead of shipping.
+
+Action: Add a Draft-Only Design To Code Loop note to the Website Production System backlog, linked to the existing `design.md` action.
+
+Owner: Emmanuel / BridgeWorks
+
+Status: Watch / Needs backlog note. No paid API spend, repo install, public sharing, or client-facing mockup without approval.
+
+### 2026-06-29 - Guarded CRM Reactivation Audit
+
+Source: `How To Find 50K Hidden In Any Local Business's CRM (Charge 5K Per Job)`
+
+Decision: Adapt with constraints
+
+BridgeWorks area: Sales and prospecting, AI Growth Systems, audit previews, client delivery
+
+Reason: The transcript gives a concrete local-business diagnostic: old leads, missed calls, and stale CRM contacts may hold recoverable demand. BridgeWorks should adapt this as an audit and approval-gated recovery sprint, not as unsupervised SMS outreach.
+
+Action: Add a Guarded CRM Reactivation Audit checklist covering consent, opt-outs, data source, value per appointment, owner approval, stop-on-response, manual handoff, and paired reporting.
+
+Owner: Emmanuel / BridgeWorks
+
+Status: Needs checklist. No SMS, WhatsApp, email, client contact, CRM access, or campaign execution without approval.
+
+### 2026-06-29 - Multi-Lens Research Brief
+
+Source: `Stanford's Method Turns Claude Into a PHD Level Research Team`
+
+Decision: Adapt
+
+BridgeWorks area: Competitive intelligence, audit previews, offer validation, proof and authority
+
+Reason: The transcript provides a practical research workflow: multiple lenses, contradiction mapping, synthesis, and source verification. This fits BridgeWorks where claims must be accurate before they become audit findings, case-study language, or client-facing strategy.
+
+Action: Add a Multi-Lens Research Brief SOP row using operator, buyer, skeptic, finance, and market-context lenses, followed by confirmed / corrected / demoted source labels.
+
+Owner: Emmanuel / BridgeWorks
+
+Status: Needs SOP row. No external skill install or paid agent loop from this run.
+
+### 2026-06-29 - Search Everywhere Visibility Map
+
+Source: `SEO Is Bigger Than Google Now. Here's the New Playbook`
+
+Decision: Adapt
+
+BridgeWorks area: Foundation website QA, local SEO, GEO / AEO, Digital Growth Engine reporting
+
+Reason: The transcript reframes SEO as search-everywhere optimization. Traditional search, GBP, local packs, third-party profiles, reviews, social platforms, and AI citations now interact. BridgeWorks should turn this into a clear visibility map, not AI-ranking hype.
+
+Action: Add a Search Everywhere Visibility Map template covering website clarity, GBP fit, local pack, AI answer presence, citation sources, third-party profiles, reviews, and proof gaps.
+
+Owner: Emmanuel / BridgeWorks
+
+Status: Needs template. No fake reviews, spam profiles, paid citation campaigns, or AI-ranking guarantees.

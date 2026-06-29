@@ -1,0 +1,82 @@
+{
+  "source": "web-fallback",
+  "date": "2026-06-29",
+  "run_time_local": "19:00 CEDT",
+  "api_status": "YouTube Data API blocked with HTTP 403 Forbidden",
+  "queries": [
+    "site:youtube.com/watch AI automation agency n8n Claude Code business uploaded June 29 2026",
+    "site:youtube.com/watch Claude Code AI agent workflow June 29 2026 YouTube",
+    "site:youtube.com/watch AI visibility GEO SEO local business 2026 YouTube June 29 2026",
+    "site:youtube.com/watch local business website conversion SEO AI 2026 YouTube June 29 2026"
+  ],
+  "items": [
+    {
+      "title": "How To Find 50K Hidden In Any Local Business's CRM (Charge 5K Per Job)",
+      "url": "https://www.youtube.com/watch?v=Zew2j7mMZ2U",
+      "source_query": "rss-watchlist: Jason Wardrop",
+      "fit": "high",
+      "reason": "Direct fit for guarded CRM reactivation audits, speed-to-lead diagnosis, and local service business revenue recovery. Transcript fetched.",
+      "transcript_status": "fetched",
+      "transcript_file": "pipeline/youtube-scout/runtime-transcripts/Zew2j7mMZ2U.txt",
+      "decision": "Adapt into guarded CRM reactivation audit, not an unsupervised SMS campaign"
+    },
+    {
+      "title": "Stanford's Method Turns Claude Into a PHD Level Research Team",
+      "url": "https://www.youtube.com/watch?v=Tj3018n5MVg",
+      "source_query": "rss-watchlist: Nate Herk",
+      "fit": "high",
+      "reason": "Useful for BridgeWorks competitive intelligence, prospect research, offer validation, and transcript-review routines because it adds multi-lens contradiction and source verification. Transcript fetched.",
+      "transcript_status": "fetched",
+      "transcript_file": "pipeline/youtube-scout/runtime-transcripts/Tj3018n5MVg.txt",
+      "decision": "Adapt into Multi-Lens Research Brief SOP"
+    },
+    {
+      "title": "SEO Is Bigger Than Google Now. Here's the New Playbook",
+      "url": "https://www.youtube.com/watch?v=lkFA-aBN_LM",
+      "source_query": "AI visibility GEO SEO local business 2026 YouTube June 29 2026",
+      "fit": "high",
+      "reason": "Strong fit for DGE, Foundation SEO, local visibility, AI search retrieval-source mapping, and Emmanuel authority positioning. Transcript fetched.",
+      "transcript_status": "fetched",
+      "transcript_file": "pipeline/youtube-scout/runtime-transcripts/lkFA-aBN_LM.txt",
+      "decision": "Adapt into Search Everywhere Visibility Map"
+    },
+    {
+      "title": "If I Had to Do Keyword Research in 2026, I'd Do This",
+      "url": "https://www.youtube.com/watch?v=Fh_54G6p_cs",
+      "source_query": "AI visibility GEO SEO local business 2026 YouTube June 29 2026",
+      "fit": "medium-high",
+      "reason": "Relevant keyword research process, but lower priority than the broader Search Everywhere map for this run. Transcript fetched and parked.",
+      "transcript_status": "fetched",
+      "transcript_file": "pipeline/youtube-scout/runtime-transcripts/Fh_54G6p_cs.txt",
+      "decision": "Park for Foundation keyword map work"
+    },
+    {
+      "title": "Master All 6 Claude Code Dynamic Workflows",
+      "url": "https://www.youtube.com/watch?v=g9b9G8dcS8Y",
+      "source_query": "Claude Code AI agent workflow June 29 2026 YouTube",
+      "fit": "medium-high",
+      "reason": "Useful for AI delivery verification, but overlaps with the morning worktree-isolation action. Transcript fetched and parked for SOP refinement.",
+      "transcript_status": "fetched",
+      "transcript_file": "pipeline/youtube-scout/runtime-transcripts/g9b9G8dcS8Y.txt",
+      "decision": "Park for AI Delivery Verification refinement"
+    },
+    {
+      "title": "N8N Tutorial: Building N8N Ai Agents (Beginner to Pro)",
+      "url": "https://www.youtube.com/watch?v=lSwMtsm6oDU",
+      "source_query": "AI automation agency n8n Claude Code business uploaded June 29 2026",
+      "fit": "medium",
+      "reason": "Potential automation learning item, but not extracted because the active run had higher-fit local CRM, research, and GEO items.",
+      "transcript_status": "not fetched",
+      "decision": "Queue only if a live client automation task needs it"
+    },
+    {
+      "title": "How to Use Claude Code for FREE (2026)",
+      "url": "https://www.youtube.com/watch?v=U6gg_bi1I70",
+      "source_query": "AI automation agency n8n Claude Code business uploaded June 29 2026",
+      "fit": "medium",
+      "reason": "Already fetched in the morning run and parked behind tool-cost governance.",
+      "transcript_status": "already fetched earlier",
+      "decision": "Park"
+    }
+  ]
+}

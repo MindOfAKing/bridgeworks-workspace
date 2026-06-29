@@ -1,0 +1,93 @@
+{
+  "source": "web-fallback",
+  "date": "2026-06-29",
+  "run_time_local": "10:53 CEDT",
+  "api_status": "YouTube Data API blocked with HTTP 403 Forbidden",
+  "queries": [
+    "site:youtube.com/watch AI automation agency n8n Claude Code business uploaded June 29 2026",
+    "site:youtube.com/watch Claude Code AI agent workflow June 2026 YouTube",
+    "site:youtube.com/watch AI visibility GEO SEO agency 2026 YouTube June 2026",
+    "site:youtube.com/watch local business website conversion AI SEO 2026 YouTube June 2026",
+    "site:youtube.com/watch Google Business Profile local SEO AI search 2026 YouTube"
+  ],
+  "items": [
+    {
+      "title": "The 30-Page Local SEO Hack Google's AI Is Already Rewarding",
+      "url": "https://www.youtube.com/watch?v=JSyApiAqsMw",
+      "source_query": "local business website conversion AI SEO 2026 YouTube / Google Business Profile local SEO AI search 2026 YouTube",
+      "fit": "high",
+      "reason": "Direct fit for Foundation website structure, Google Business Profile alignment, AI search readiness, local service pages, and Digital Growth Engine reporting. Transcript fetched.",
+      "transcript_status": "fetched",
+      "transcript_file": "pipeline/youtube-scout/runtime-transcripts/JSyApiAqsMw.txt",
+      "decision": "Adapt into Core 30 GBP-to-website page map"
+    },
+    {
+      "title": "Run Multiple AI Agents in Parallel (Claude Code Tutorial)",
+      "url": "https://www.youtube.com/watch?v=n35KalqEwJc",
+      "source_query": "Claude Code AI agent workflow June 2026 YouTube",
+      "fit": "high",
+      "reason": "Strong fit for AI-assisted delivery discipline. It gives a practical git worktree pattern for running parallel Codex / Claude Code tasks without file collisions. Transcript fetched.",
+      "transcript_status": "fetched",
+      "transcript_file": "pipeline/youtube-scout/runtime-transcripts/n35KalqEwJc.txt",
+      "decision": "Adapt into AI agent worktree isolation SOP"
+    },
+    {
+      "title": "Claude Design 2.0 Just Changed Everything...",
+      "url": "https://www.youtube.com/watch?v=58CQM6I6DZg",
+      "source_query": "rss-watchlist: Jack Roberts",
+      "fit": "medium-high",
+      "reason": "Useful for fast brand-to-prototype assets, client review drafts, and handoff from design to code. Guarded because paid APIs, repo installs, and connector use need approval. Transcript fetched.",
+      "transcript_status": "fetched",
+      "transcript_file": "pipeline/youtube-scout/runtime-transcripts/58CQM6I6DZg.txt",
+      "decision": "Adapt as draft-only design loop"
+    },
+    {
+      "title": "How to Use Claude Code for FREE (2026)",
+      "url": "https://www.youtube.com/watch?v=U6gg_bi1I70",
+      "source_query": "AI automation agency n8n Claude Code business uploaded June 29 2026",
+      "fit": "medium",
+      "reason": "Relevant to tool-cost control, but it requires proxy setup and API keys. Parked behind existing Model Routing Trial Sheet and Skill Adoption Gate. Transcript fetched but no adoption.",
+      "transcript_status": "fetched",
+      "transcript_file": "pipeline/youtube-scout/runtime-transcripts/U6gg_bi1I70.txt",
+      "decision": "Park / Review only"
+    },
+    {
+      "title": "I Used Higgsfield Inside Photoshop and It Changed Everything",
+      "url": "https://www.youtube.com/watch?v=F4yMZ-ernxM",
+      "source_query": "rss-watchlist: Zubair Trabzada",
+      "fit": "low-medium",
+      "reason": "Creative image workflow fit only if Photoshop and Higgsfield are already approved. Not relevant to current Foundation delivery path. Transcript fetched and parked.",
+      "transcript_status": "fetched",
+      "transcript_file": "pipeline/youtube-scout/runtime-transcripts/F4yMZ-ernxM.txt",
+      "decision": "Park"
+    },
+    {
+      "title": "The 5 Ingredients Of Success (Learn These To Never Get Replaced by AI)",
+      "url": "https://www.youtube.com/watch?v=K2QvCV1PB1w",
+      "source_query": "rss-watchlist: Dan Koe",
+      "fit": "medium",
+      "reason": "Useful for Emmanuel authority layer and one-person-business thinking, but less direct than Foundation, delivery, and design workflow items. Transcript fetched and parked for writing use.",
+      "transcript_status": "fetched",
+      "transcript_file": "pipeline/youtube-scout/runtime-transcripts/K2QvCV1PB1w.txt",
+      "decision": "Park for authority content"
+    },
+    {
+      "title": "N8N Tutorial: Building N8N Ai Agents (Beginner to Pro)",
+      "url": "https://www.youtube.com/watch?v=lSwMtsm6oDU",
+      "source_query": "AI automation agency n8n Claude Code business uploaded June 29 2026",
+      "fit": "medium",
+      "reason": "Potential automation learning item, but not extracted because BridgeWorks already has active n8n and article-to-three-drafts backlog items. Higher-fit Foundation and delivery items won the transcript budget.",
+      "transcript_status": "not fetched",
+      "decision": "Queue later only if a client automation task needs it"
+    },
+    {
+      "title": "Strategizing for SEO & GEO Success in 2026",
+      "url": "https://www.youtube.com/watch?v=PAbavlRhko0",
+      "source_query": "AI visibility GEO SEO agency 2026 YouTube June 2026",
+      "fit": "medium",
+      "reason": "Relevant topic, but lower fit than the Core 30 local SEO video because it appears webinar-style and less directly tied to Foundation website page structure.",
+      "transcript_status": "not fetched",
+      "decision": "Park"
+    }
+  ]
+}

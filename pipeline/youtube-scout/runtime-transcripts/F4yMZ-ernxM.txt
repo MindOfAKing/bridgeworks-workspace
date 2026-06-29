@@ -1,0 +1,457 @@
+00:00 So Photoshop just got a massive upgrade
+00:02 because now Hicks field is inside of
+00:04 Photoshop. Now with this plugin,
+00:06 honestly, this takes your Photoshop
+00:08 skills to a whole new level. The things
+00:11 you're capable of doing now is
+00:13 mind-blowing. Things like real-time that
+00:15 will turn your sketches into real images
+00:17 as you draw, decompose any image into
+00:20 editable layers, restyling any photo,
+00:24 relighting photos, and much, much more.
+00:26 And of course, you're capable of
+00:27 generating AI images directly inside
+00:30 Photoshop with the Hicks field plugin.
+00:31 So in this video, I'm going to show you
+00:33 step-by-step how to install this, how
+00:35 you can use this, and then we're going
+00:36 to walk through a few examples, so that
+00:38 way you can really see what this thing
+00:40 is capable of because like I said, if
+00:42 you're a Photoshop user, this is going
+00:44 to take you to a whole new level. All
+00:46 right, let's jump right in. All right,
+00:48 to install this, go ahead and click on
+00:49 the link in the description. It's going
+00:50 to bring you right here. All you have to
+00:51 do is click on download. Now it's going
+00:53 to download the Hicks field uh plugin
+00:56 essentially. All you have to do is just
+00:57 click on this, and this is going to take
+00:59 you directly to this page inside your
+01:01 Photoshop. Of course, make sure you have
+01:03 your Photoshop open. It just says
+01:04 install a non-marketplace plugin. So all
+01:07 you have to do is just click on install.
+01:08 It says install Hicks field plugin. You
+01:10 click on okay. This is going to go ahead
+01:12 and install the Hicks field plugin. Now
+01:14 all you have to do is click on open
+01:16 Photoshop, and this will show up after
+01:19 of course you give it permission. So for
+01:21 the first time when you come in here,
+01:22 obviously my I I already did this, so
+01:25 that's why it directly opened the
+01:26 plugin. But if you come here for the
+01:28 first time, it's going to take you
+01:30 through an authentication layer, so it's
+01:31 going to open up a browser where it will
+01:33 have you or it will ask you to allow
+01:36 Hicks field to access Photoshop, right?
+01:38 You give it permission, and now you'll
+01:40 be able to have this little uh plugin or
+01:44 this little window right here. If for
+01:45 some reason this doesn't show up, so
+01:46 let's say this doesn't show up right
+01:48 here, all you have to do is just head
+01:50 over on top to your plugins and just
+01:51 click on Hicks field, and this will come
+01:53 back again. So very, very simple here.
+01:56 So I'm going to go ahead and actually
+01:57 put this on uh the side here, so that
+01:59 way we don't have to
+02:01 um move this thing around. I'm going to
+02:03 keep it on the side because I kind of
+02:04 like using it right here next to me. All
+02:06 right. So, now let me walk you through a
+02:08 few of the different features that's
+02:09 available inside the Hexfield plugin
+02:12 inside your uh Photoshop here. So,
+02:14 obviously I just I'm just starting with
+02:15 the blank canvas. So, right away as you
+02:17 can see, of course, you have the These
+02:18 are the generations that I did. So,
+02:20 ignore that for now. Yours is going to
+02:21 look blank. But just quickly,
+02:24 so these are the things that you're able
+02:26 to create, right? Image generation right
+02:27 away. This is something that you can
+02:29 generate an image from scratch like uh
+02:32 with a simple prompt. So, let's say So,
+02:34 I said, "Image of a man in his mid-30s
+02:36 sitting at a cafe drinking coffee,"
+02:38 right? So, I'm just going to
+02:39 um add that prompt. Then of course, you
+02:41 have the ability to choose whatever uh
+02:43 image model you want. So, all of the
+02:45 image models are available here inside.
+02:47 So, you don't have to go to Hexfield or
+02:49 another third-party application. I'm
+02:51 going to choose GPT image 2 because
+02:53 honestly it's the best one uh in my
+02:55 opinion. And you can choose the quality
+02:56 here, 1K, 2K, 4K. And I'm going to leave
+02:59 it at 2K, which is good enough. And you
+03:00 just press enter here. Of course, it
+03:02 will charge you seven tokens. But that's
+03:03 pretty cheap to be honest, right? So,
+03:05 while this is generating, so this is
+03:07 going to generate the image from
+03:08 scratch, right?
+03:10 So, that's basically the first action or
+03:12 the first thing you can do right here.
+03:14 Generating brand new images just through
+03:17 prompt. And of course, this is something
+03:19 uh that could be done outside in, you
+03:21 know,
+03:22 uh OpenAI in GPT or in uh Hexfield
+03:26 itself. But like I said, with the
+03:28 plugin, now you have access directly
+03:30 inside your Photoshop. So, if you are,
+03:32 you know, creating something or you want
+03:34 to create something from scratch, you
+03:36 prompt it and you can add that image
+03:38 inside your Photoshop, where then you
+03:40 can do editing. So, let's go ahead and
+03:41 let this thing generate the image. All
+03:44 right, perfect. So, there you go. Now
+03:45 the image got image got generated. So,
+03:47 all I have to do is just click on this,
+03:49 and this is going to bring this image
+03:50 right to my canvas. And now that I have
+03:52 the ability to basically edit this
+03:54 however I want to, right? So, that's
+03:57 kind of the first or the first use case
+03:59 for this, generating native images right
+04:01 away from this plugin. Now, let me go
+04:03 ahead and show you some a few other
+04:06 features or
+04:08 other apps or things you can do with it.
+04:09 I mean, obviously, you can see there's a
+04:11 bunch of different stuff like real-time
+04:12 AI. We're going to talk about this and
+04:14 I'm going to show you because this is
+04:15 one of the coolest features, honestly.
+04:17 You can do product mockups, obviously.
+04:19 You can create storyboard angles. You
+04:21 can remove background. Let's say you
+04:22 don't like the background here. You can
+04:23 just click on remove background, it'll
+04:24 do it. You can expand the image in the
+04:26 canvas, right? So, you can do face swap,
+04:29 right? So, if I click on face swap now,
+04:30 you can have
+04:31 an image that you want to target and
+04:33 then also upload the face that you want
+04:35 to change or do the face swap there. So,
+04:38 very simple there and very, very useful,
+04:40 of course. And then, also, you have the
+04:42 ability to do upscale, right? This is if
+04:44 you are generating an image that the
+04:45 quality is lower, let's say, for
+04:47 whatever reason, you want to change the
+04:49 scale or upscale it, you can do this
+04:51 from here. Skin enhancer, this is
+04:53 another great one. For instance, if
+04:54 you're
+04:55 doing some kind of professional shot,
+04:56 that's a big one. Relight, this is a
+04:58 really cool cool one that you can do.
+04:59 So, let's go ahead and test this one
+05:00 out. Let me actually get rid of this
+05:02 image. I want to go ahead and start
+05:03 scratch so from scratch. So, once you
+05:05 click on relight, you have the option to
+05:07 upload an image. So, I'm just going to
+05:09 go ahead and upload one of my images.
+05:10 Let's say I have this
+05:13 image right here, right? This is just
+05:15 like a blank
+05:16 image which is with the black
+05:18 background. There's no lighting in this,
+05:20 right? So, now I can just drag. Look at
+05:23 this. I can drag the the object here and
+05:26 it shows me where the lighting could be
+05:28 applied, right? So, I can rotate it from
+05:30 different angles. Let's say I want to
+05:31 apply light from like
+05:34 top right here, right? Because I want to
+05:36 light my face from the left-hand side
+05:38 here. So, I leave the lighting there and
+05:41 now, in the bottom, you have the option
+05:43 to obviously increase the brightness and
+05:45 then color as well. Let's let's choose a
+05:46 different color instead of white so that
+05:48 way you can see exactly
+05:50 how this works. So, let's say I want to
+05:52 apply like green light, right? Cuz
+05:54 that's going to be pretty obvious.
+05:55 Uh let me choose a darker green. There
+05:58 you go. So, now same thing. All you have
+05:59 to do is click on generate. It's just
+06:00 going to use two tokens, which is super
+06:03 worth it in my opinion. So, afterwards
+06:05 it's going to actually
+06:07 understand or take that image that you
+06:09 uploaded and it's going to go it's going
+06:11 to go ahead and apply
+06:13 uh the lighting to it. And of course,
+06:14 you all always have the option to
+06:16 relight it, right? So, let's go ahead
+06:18 and give this a couple of seconds so it
+06:20 generates the image. Okay, perfect.
+06:21 There you go. So, if I click on this
+06:23 now, bring this to the canvas and you
+06:24 can see very clearly here that the green
+06:27 lighting that we chose from the top
+06:29 right-hand corner here shows up right
+06:31 here, right? So, this is incredible.
+06:33 Honestly, like the things you're able to
+06:34 do now uh if you've for instance seen
+06:37 those um
+06:39 you know, thumbnails for instance on
+06:40 YouTube or some of these professional
+06:42 photographs. I mean, the shadows and
+06:44 everything that this thing captures is
+06:46 absolutely incredible. Look at Look at
+06:47 how the shadow in the front here looks
+06:50 based on the lighting that's coming in
+06:52 from the right-hand side, right? You can
+06:53 see on my shoulder uh right under my
+06:56 neck, the lighting is exactly perfectly
+06:58 as it's uh if somebody would actually do
+07:01 this naturally, right? On the right-hand
+07:02 side, obviously you have the full light
+07:04 on this side and then the shadow cast
+07:06 follows the exact uh alignment of the
+07:10 light that's being applied. So, again,
+07:12 you can
+07:13 do things with this now that's going to
+07:15 make your life a lot easier versus
+07:16 before you had to do all of this
+07:18 manually and it would take you a lot of
+07:20 time. This just makes you extremely
+07:22 efficient if you're a Photoshop user.
+07:23 So, lighting is an absolutely incredible
+07:27 uh feature that it has that really
+07:28 changes the game for heavy Photoshop
+07:30 users. So, let's go ahead and now try
+07:31 something else. I'm going to go ahead
+07:33 and get rid of this.
+07:34 So, another one obviously you can do is
+07:36 skin enhancer that I mentioned before.
+07:38 You can do um angles. You can change the
+07:41 camera angles.
+07:42 >> [clears throat]
+07:43 >> You can do stylize, right? You can try
+07:44 on complete outfits. This is a really
+07:46 cool one as well. Honestly, I wish I
+07:47 could go through all of this because I
+07:49 don't want to make this video too long
+07:50 cuz otherwise this will be like a 2-hour
+07:52 video if I went through all of it, but
+07:53 this is something that you can play
+07:54 around yourself. Uh I want to try out
+07:56 this real-time AI because this is
+07:58 absolutely mind-blowing. So, if I click
+08:00 on this,
+08:01 so now as you can see on the right-hand
+08:03 side, this is going to generate Oops,
+08:06 let me bring the canvas here.
+08:09 This is basically in real time going to
+08:11 generate the sketches that you draw here
+08:13 on the right-hand side. So, right now
+08:14 it's just This is kind of like a
+08:15 placeholder image. So, let me make this
+08:17 a little bigger.
+08:19 So, you can see while I draw here.
+08:22 >> [clears throat]
+08:23 >> Okay, so on the right-hand side I'm
+08:24 going to just go ahead and start drawing
+08:25 something. But before I do that, on the
+08:27 bottom here, if you click on water,
+08:29 right? Or whatever, this is the
+08:31 different styles that it's doing. So,
+08:32 right now it's watercolor, but you have
+08:34 the option to actually choose whatever
+08:35 style you want, right? So, you have
+08:37 cartoon, you have sketch, you have pop
+08:40 art. This pop art is really cool. You
+08:41 can try this out. This is really fun to
+08:42 play with. Abstract, this is a good one,
+08:45 too. You can do custom, photo. This is
+08:47 going to a really good one. Anime,
+08:49 right? So, you have 3D, you have
+08:51 cinematic, you have lots of different
+08:53 options here depending on whoever you
+08:55 are.
+08:56 Uh you know, like if you're into art and
+08:57 drawing and stuff like that, check this
+08:59 out cuz this is honestly incredible. I
+09:01 suck at art, but I'm going to go ahead
+09:02 and just showcase how this thing works.
+09:04 So, I'm going to choose the photo option
+09:05 actually because this is really cool
+09:07 here. So, I'm going to leave it at
+09:08 photo. So, now on the right-hand side to
+09:10 see uh um it says ready, but on the
+09:12 left-hand side it's
+09:13 obviously this is blank right now. As
+09:15 soon as I start drawing, you will see
+09:17 that it will start to sketch, it will
+09:18 start to like make things different.
+09:20 Now, you know, I'm horrible at drawing,
+09:22 but let's just start uh I'm just going
+09:23 to give this shot. All right, so I'm
+09:25 just going to start drawing something,
+09:26 right? So, obviously this is uh a photo
+09:29 photo realistic that I chose, right?
+09:30 Like I mentioned, you have the option to
+09:33 uh choose whatever you're into, uh but I
+09:36 think this photo is a really good way to
+09:38 kind of showcase the power of this tool.
+09:40 So, let me go ahead now start to
+09:41 sketching. I'm just going to draw some
+09:42 like
+09:44 uh you know, weird cartoon character,
+09:46 let's say, right? So, I'm just going to
+09:47 do like a
+09:49 odd shape here, right? This is odd shape
+09:52 face.
+09:55 So, I'm going to give it eyes.
+09:58 Nose.
+10:01 Like I mentioned, I am terrible at
+10:03 drawing, so please excuse me. So, I'm
+10:05 just going to go ahead and give this
+10:07 guy some curly hair. And on the
+10:09 right-hand side, as you can see, it says
+10:11 generating, right? So, let me just make
+10:14 this so.
+10:16 Okay. Give it some more hair.
+10:21 Some
+10:21 ears, okay.
+10:24 Give it a neck.
+10:30 And I'll have it a square body here.
+10:39 Okay.
+10:41 Give it legs.
+10:44 Giant boots.
+10:47 So, on the right-hand side, as you can
+10:48 see, it's still generating. It kind of
+10:49 understands exactly like what you're
+10:51 trying to do, right? Uh and as it as you
+10:54 keep drawing, it will basically generate
+10:56 like new or it will keep generating
+10:59 different things. So, if you give it a
+11:01 couple of seconds, it will
+11:04 finish up the drawing. Look [laughter]
+11:05 at how cool this is.
+11:07 This is awesome. I love this. This is so
+11:10 much fun, honestly. Like, if you
+11:12 Um and you can drag this around,
+11:13 obviously, right? So, oh, I I
+11:16 I removed it there. Let me go back to
+11:18 that one. So, there you go. This was the
+11:19 one that I did earlier, right? So, same
+11:21 thing. You can see, as you keep drawing,
+11:23 right? As you keep changing different
+11:24 things. So, right now it has this wooden
+11:26 body, so it just gives you like the
+11:28 different angles as you draw more, cuz
+11:30 it's trying to understand, okay, what
+11:31 are you trying to do, right? What are
+11:33 you trying to generate? And since since
+11:35 this is the photo one, that's why it's
+11:36 generating this cool little figure
+11:38 because and it's pretty accurate, to be
+11:39 honest. You can imagine this is
+11:40 something that you can really play
+11:42 around and have a lot of fun with. And
+11:43 like I mentioned, as far as like if you
+11:45 just keep drawing here, right? If you if
+11:48 you just add things here,
+11:51 you can see it's going to start to
+11:52 generate now as you There you go, it
+11:54 says generating now. So now it's going
+11:55 to just keep adding to to the image
+11:58 itself.
+12:00 I don't know what I'm doing, by the way,
+12:01 so I'm just going to keep doing things.
+12:04 There you go. So I guess it's
+12:06 uh it's kind of like this little weird
+12:08 figure, but you can see the kind of the
+12:09 shape of his face is exactly what's
+12:12 shown here. There you go. So it's just
+12:14 going to keep like
+12:15 um generating new images as you uh draw
+12:18 different things. Like I said, this is
+12:19 super cool and really fun to play with.
+12:21 So let me get rid of this now
+12:24 and start fresh again.
+12:26 This time I'm going to use anime.
+12:31 Okay. So let's try anime now.
+12:34 So I'm going to do
+12:40 I'm just going to start by So that's
+12:42 obviously it's it's anime there.
+12:51 I just want to showcase how this thing
+12:53 is
+12:57 really cool here.
+13:01 I'm sure this is going to draw
+13:03 something.
+13:05 Oh my god, I'm terrible at drawing.
+13:07 >> [snorts]
+13:11 >> Let's see what it comes up with.
+13:17 >> [laughter]
+13:18 >> That's awful.
+13:20 I think my drawing skills are terrible,
+13:23 that's why this is happening.
+13:30 >> For some reason it thinks that
+13:31 >> [laughter]
+13:33 >> So there you go. I mean the point is you
+13:34 can see that depending on whatever style
+13:36 you choose, right? Like it generates
+13:40 really cool images and
+13:43 on the style whatever you choose. The 3D
+13:44 is also another really good
+13:47 one to try out because let's say you're
+13:49 trying to draw objects, right? So this
+13:50 is something that would really visualize
+13:53 your
+13:54 This will be useful for people who are
+13:56 actually drawing tools and stuff like
+13:57 that. So very cool to play around with.
+13:59 This is definitely not anime, but I just
+14:01 wanted to showcase how different options
+14:04 here give you different abilities to
+14:07 draw with whatever style you choose
+14:10 there. So check that out. That's a lot
+14:11 of fun, too. And again, like I
+14:13 mentioned, you have a lot of other
+14:15 you know, options here as far as with
+14:17 actual photos. So let's say let me get
+14:19 rid of this.
+14:22 Let's say you want to upload this photo.
+14:25 Right? And you know, you want to remove
+14:27 background or add something to it,
+14:29 right? So let me just make this bigger.
+14:33 Um
+14:34 style is you can up upload a full body.
+14:37 You can do outerwear, tops, and
+14:39 everything else. Like this is really
+14:41 cool one, especially if you're into in
+14:42 the fashion industry. You can imagine
+14:44 this really does change.
+14:47 It makes your life a lot easier as far
+14:49 as
+14:50 using Photoshop and everything. So check
+14:52 it out again. This video is getting
+14:53 longer. I don't want to make this longer
+14:55 than it is, but this is a lot of fun.
+14:57 Make sure you check it out. This is
+14:58 again really changes and gives you
+15:01 makes you very efficient when it comes
+15:03 to using Photoshop. So hopefully you
+15:04 guys found this helpful. Make sure you
+15:06 like and subscribe. If you have any
+15:07 questions or comments, put them in the
+15:09 description below. Thanks for watching
+15:11 and I'll see you on the next one.
