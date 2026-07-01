@@ -45,7 +45,8 @@ export const site = {
 
   // --- Ordering configuration -------------------------------------------------
   ordering: {
-    mode: 'whatsapp' as const,
+    mode: 'shop' as const,
+    shopUrl: 'https://shop.oliviks.com/shop',
     showPlatforms: true,
     wolt: 'https://wolt.com/en/hun/budapest/restaurant/oliviks-nigerian-kitchen',
     marwa: 'https://www.marwa.hu/store/113/oliviks-kitchen',

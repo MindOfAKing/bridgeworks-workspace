@@ -1,10 +1,8 @@
 import type { Metadata } from 'next';
 import Image from 'next/image';
 import Link from 'next/link';
-import { ArrowRight, CalendarDays, MessageCircle, Phone, UsersRound, Utensils } from 'lucide-react';
+import { ArrowRight, CalendarDays, MessageCircle, Phone, Star, UsersRound, Utensils } from 'lucide-react';
 import { ContactForm } from '@/components/ContactForm';
-import { DishImage } from '@/components/DishImage';
-import { CateringGallery } from '@/components/CateringGallery';
 import { Reveal } from '@/components/Reveal';
 import { site, telLink, waLink } from '@/data/site';
 
@@ -15,12 +13,7 @@ export const metadata: Metadata = {
 };
 
 const eventTypes = ['Birthdays', 'Weddings', 'Baby showers', 'Anniversaries', 'Office lunches', 'Drop-off catering'];
-
-const cateringFavorites = [
-  { name: 'Jollof rice trays', image: '/images/dish-jollof-rice.jpeg' },
-  { name: 'Egusi soup and swallow', image: '/images/hanna/egusi-soup.jpg' },
-  { name: 'Suya and small chops', image: '/images/hanna/suya-sticks.jpg' },
-];
+const pillDelay = ['anim-d-100', 'anim-d-170', 'anim-d-240', 'anim-d-310', 'anim-d-380', 'anim-d-450'];
 
 const enquirySteps = [
   {
@@ -46,110 +39,114 @@ export default function CateringPage() {
   );
 
   return (
-    <div className="menu-page-bg">
+    <div>
+      {/* ================= Hero — full-bleed image ================= */}
+      <section className="relative h-[72vh] min-h-[500px] w-full overflow-hidden">
+        <Image
+          src="/images/catering-buffet.png"
+          alt="Oliviks Nigerian catering spread — jollof rice, egusi, vegetable soup, fried plantain and more"
+          fill
+          className="object-cover object-center"
+          priority
+        />
+        <div className="absolute inset-0 bg-gradient-to-t from-palm-900/95 via-ink/40 to-ink/10" aria-hidden="true" />
 
-      {/* Hero */}
-      <section className="container-x relative pb-8 pt-14">
-        <div aria-hidden="true" className="menu-hero-glow pointer-events-none absolute left-[-6%] top-[-30px] z-0 h-[360px] w-[60%]" />
-
-        <div className="relative z-10 grid items-center gap-10 lg:grid-cols-[1.3fr_0.7fr]">
-
-          {/* Left */}
-          <div>
-            <span className="inline-flex rounded-full bg-gold px-4 py-2 text-[11px] font-bold uppercase tracking-[0.18em] text-cocoa">
-              Oliviks Catering
-            </span>
-            <div className="mt-4 h-[3px] w-10 rounded-full bg-gradient-to-r from-palm via-gold to-gold/50" />
-            <h1 className="mt-4 font-display text-[clamp(2.6rem,6vw,3.75rem)] font-extrabold leading-[1.02] tracking-tight text-cocoa">
-              Nigerian food,<br />made to share.
-            </h1>
-            <p className="mt-5 max-w-[540px] text-[18px] leading-relaxed text-cocoa/70">
-              Birthdays, weddings, baby showers, office lunches, and drop-off orders.
-              Tell us the date, headcount, and dishes you want.
-            </p>
-            <div className="mt-7 flex flex-wrap gap-3">
-              <a
-                href={cateringWa}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 rounded-full bg-gold px-7 py-3.5 text-[16px] font-semibold text-cocoa shadow-[0_10px_28px_rgba(250,183,58,0.35)] transition-all hover:-translate-y-0.5 active:scale-95"
-              >
-                <MessageCircle size={18} /> Book Catering
-              </a>
-              <a
-                href={telLink}
-                className="inline-flex items-center gap-2 rounded-full border-2 border-palm px-7 py-3.5 text-[16px] font-semibold text-palm transition-all hover:-translate-y-0.5 active:scale-95"
-              >
-                <Phone size={16} /> Call {site.phone.display}
-              </a>
+        {/* Floating review badge */}
+        <div className="animate-float anim-d-500 absolute right-6 top-8 hidden sm:right-10 sm:block">
+          <div className="flex items-center gap-3 rounded-2xl border border-white/20 bg-white/[0.12] px-5 py-3.5 backdrop-blur-sm">
+            <Star className="shrink-0 text-gold" size={18} fill="currentColor" aria-hidden="true" />
+            <div>
+              <p className="text-[15px] font-semibold leading-tight text-cream">
+                {site.reviews.rating} on Google
+              </p>
+              <p className="mt-0.5 text-[11px] text-cream/65">{site.reviews.count}+ reviews</p>
             </div>
           </div>
+        </div>
 
-          {/* Right — image + events card */}
-          <div>
-            <div className="overflow-hidden rounded-[20px] shadow-lg">
-              <Image
-                src="/images/catering-spread.jpg"
-                alt="Oliviks catering spread"
-                width={600}
-                height={420}
-                className="w-full object-cover"
-                priority
-              />
-            </div>
-            <div className="mt-4 rounded-[20px] bg-[#fff9ec] border border-gold/30 px-6 py-5">
-              <p className="text-[13px] font-semibold uppercase tracking-[0.12em] text-palm">We cater for</p>
-              <div className="mt-3 grid grid-cols-2 gap-2">
-                {eventTypes.map((item) => (
-                  <span key={item} className="rounded-[10px] border border-[rgba(225,227,219,0.8)] bg-white px-3 py-2 text-[13px] font-medium text-cocoa/75">
-                    {item}
-                  </span>
-                ))}
-              </div>
-            </div>
+        {/* Text over image */}
+        <div className="absolute inset-0 flex flex-col items-center justify-end px-6 pb-16 text-center">
+          <span className="animate-hero-down anim-d-100 mb-5 inline-flex rounded-full bg-gold px-4 py-2 font-display text-[11px] font-bold uppercase tracking-[0.18em] text-ink">
+            Oliviks Catering
+          </span>
+          <h1 className="animate-hero-up anim-d-220 font-display text-[clamp(2.6rem,6.5vw,4.6rem)] font-extrabold leading-[1.0] tracking-tight text-cream">
+            Nigerian food,
+            <br />
+            <span className="text-gold">made to share.</span>
+          </h1>
+          <p className="animate-hero-up anim-d-380 mt-5 max-w-[520px] text-[17px] leading-relaxed text-cream/80">
+            Birthdays, weddings, baby showers, office lunches, and drop-off orders. Tell us the
+            date, headcount, and dishes.
+          </p>
+          <div className="animate-hero-up anim-d-520 mt-7 flex flex-wrap justify-center gap-3">
+            <a
+              href={cateringWa}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn-appetite animate-pulse-glow text-[16px]"
+            >
+              <MessageCircle size={18} aria-hidden="true" /> Book Catering
+            </a>
+            <a href={telLink} className="btn-chalk-outline text-[16px]">
+              <Phone size={16} aria-hidden="true" /> Call {site.phone.display}
+            </a>
           </div>
-
         </div>
       </section>
 
-      {/* Gallery */}
-      <section className="container-x py-14">
-        <Reveal>
-          <div className="mb-8">
-            <p className="text-[12px] font-semibold uppercase tracking-[0.16em] text-palm">The setup</p>
-            <div className="mt-3 h-[3px] w-10 rounded-full bg-gradient-to-r from-palm via-gold to-gold/50" />
-            <h2 className="mt-4 font-display text-[32px] font-extrabold tracking-tight text-cocoa">
-              What a Nigerian spread looks like.
-            </h2>
-            <p className="mt-2 max-w-xl text-[16px] text-cocoa/60">
-              Real Nigerian party food: rice trays, soups, suya, puff puff, plantain, and drinks.
-            </p>
+      <div className="ankara-rule-thin" />
+
+      {/* ================= Event types strip ================= */}
+      <section className="border-b border-ink/10 bg-white">
+        <div className="container-x py-6">
+          <div className="flex flex-wrap items-center gap-3">
+            <span className="mr-2 text-[12px] font-bold uppercase tracking-[0.16em] text-palm">
+              We cater for
+            </span>
+            {eventTypes.map((item, i) => (
+              <span
+                key={item}
+                className={`animate-hero-up rounded-full border-2 border-ink/10 bg-gold-50 px-4 py-1.5 font-display text-[13px] font-semibold text-cocoa/75 ${pillDelay[i]}`}
+              >
+                {item}
+              </span>
+            ))}
           </div>
-        </Reveal>
-        <CateringGallery />
+        </div>
       </section>
 
-      {/* How it works */}
-      <div className="bg-cocoa">
-        <div className="container-x py-14">
+      {/* ================= How it works ================= */}
+      <div className="grain relative overflow-hidden bg-ink">
+        <div className="dots-bg absolute inset-0" aria-hidden="true" />
+        <div aria-hidden="true" className="absolute -right-24 -top-24 h-80 w-80 rounded-full border border-white/[0.05]" />
+        <div aria-hidden="true" className="absolute -left-16 bottom-0 h-56 w-56 rounded-full border border-gold/[0.08]" />
+
+        <div className="container-x relative z-10 py-16 sm:py-20">
           <Reveal>
             <div className="mx-auto max-w-2xl text-center">
-              <p className="text-[12px] font-semibold uppercase tracking-[0.16em] text-gold">How it works</p>
-              <div className="mx-auto mt-3 h-[3px] w-10 rounded-full bg-gradient-to-r from-gold to-gold/40" />
-              <h2 className="mt-4 font-display text-[30px] font-extrabold tracking-tight text-cream sm:text-[2rem]">
+              <p className="eyebrow-onred justify-center [&::after]:hidden">How it works</p>
+              <h2 className="mt-4 font-display text-[clamp(1.8rem,3.5vw,2.4rem)] font-extrabold tracking-tight text-cream">
                 Simple catering enquiries, handled directly by the kitchen.
               </h2>
             </div>
           </Reveal>
-          <div className="mt-10 grid gap-5 md:grid-cols-3">
+          <div className="mt-12 grid gap-5 md:grid-cols-3">
             {enquirySteps.map(({ icon: Icon, title, text }, i) => (
-              <Reveal key={title} delay={i * 0.08}>
-                <article className="rounded-[20px] border border-white/10 bg-white/5 p-7">
-                  <div className="flex h-11 w-11 items-center justify-center rounded-full bg-gold/15">
-                    <Icon className="text-gold" size={22} />
+              <Reveal key={title} delay={i * 0.12}>
+                <article className="group h-full rounded-2xl border border-white/10 bg-white/5 p-7 transition-colors hover:bg-white/[0.08]">
+                  <div className="flex items-center gap-4">
+                    <span
+                      aria-hidden="true"
+                      className="font-display text-[1.8rem] font-extrabold leading-none text-transparent [-webkit-text-stroke:1.5px_#FAB73A]"
+                    >
+                      {String(i + 1).padStart(2, '0')}
+                    </span>
+                    <div className="flex h-11 w-11 items-center justify-center rounded-full bg-gold/15 transition-colors group-hover:bg-gold/25">
+                      <Icon className="text-gold" size={22} aria-hidden="true" />
+                    </div>
                   </div>
-                  <h3 className="mt-5 font-display text-[19px] font-bold text-cream">{title}</h3>
-                  <p className="mt-3 text-[14px] leading-relaxed text-[#a3a59d]">{text}</p>
+                  <h3 className="mt-5 font-display text-[19px] font-extrabold text-cream">{title}</h3>
+                  <p className="mt-3 text-[14px] leading-relaxed text-stone-400">{text}</p>
                 </article>
               </Reveal>
             ))}
@@ -157,88 +154,59 @@ export default function CateringPage() {
         </div>
       </div>
 
-      {/* Party favorites */}
-      <section className="container-x py-14">
+      {/* ================= Menu link strip ================= */}
+      <section className="container-x py-12">
         <Reveal>
-          <div className="grid gap-10 lg:grid-cols-[0.9fr_1.1fr] lg:items-center">
+          <div className="flex flex-col items-center gap-4 rounded-3xl border-2 border-ink/10 bg-white px-8 py-10 text-center sm:flex-row sm:justify-between sm:text-left">
             <div>
-              <p className="text-[12px] font-semibold uppercase tracking-[0.16em] text-palm">Party favourites</p>
-              <div className="mt-3 h-[3px] w-10 rounded-full bg-gradient-to-r from-palm via-gold to-gold/50" />
-              <h2 className="mt-4 font-display text-[30px] font-extrabold tracking-tight text-cocoa sm:text-[2rem]">
-                Build a Nigerian party table.
-              </h2>
-              <p className="mt-5 text-[17px] leading-relaxed text-cocoa/70">
-                Start with rice trays, soups and swallow, suya, plantain, puff puff, or let us recommend a menu.
-                Message first for larger groups so Oliviks can confirm availability and quantities.
+              <p className="font-display text-[20px] font-extrabold text-cocoa">
+                Not sure what to order?
               </p>
-              <div className="mt-8 flex flex-wrap gap-3">
-                <Link
-                  href="/menu"
-                  className="rounded-full border-2 border-cocoa/20 px-6 py-3 text-[14px] font-semibold text-cocoa/70 transition-all hover:border-palm hover:text-palm active:scale-95"
-                >
-                  View menu <ArrowRight size={16} className="inline ml-1" />
-                </Link>
-                <a
-                  href={cateringWa}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-flex items-center gap-2 rounded-full bg-palm px-6 py-3 text-[14px] font-semibold text-cream transition-all hover:-translate-y-0.5 hover:shadow-md active:scale-95"
-                >
-                  Request catering quote <MessageCircle size={16} />
-                </a>
-              </div>
+              <p className="mt-1 text-[15px] text-cocoa/60">
+                Browse the full menu, then come back to book.
+              </p>
             </div>
-
-            <div className="grid gap-4 sm:grid-cols-3">
-              {cateringFavorites.map((item, i) => (
-                <Reveal key={item.name} delay={i * 0.07}>
-                  <article className="group overflow-hidden rounded-[20px] border border-[rgba(225,227,219,0.6)] bg-white shadow-sm transition-all duration-300 hover:-translate-y-[6px] hover:shadow-lg">
-                    <div className="h-44 overflow-hidden bg-[#eef0ea]">
-                      <DishImage src={item.image} alt={item.name} className="h-full w-full transition-transform duration-500 group-hover:scale-[1.06]" />
-                    </div>
-                    <div className="p-4">
-                      <h3 className="font-display text-[15px] font-bold text-cocoa">{item.name}</h3>
-                    </div>
-                  </article>
-                </Reveal>
-              ))}
-            </div>
+            <Link href="/menu" className="btn-ghost shrink-0 px-6 py-3 text-[14px]">
+              View menu <ArrowRight size={16} aria-hidden="true" />
+            </Link>
           </div>
         </Reveal>
       </section>
 
-      {/* Enquiry block */}
+      {/* ================= Enquiry block ================= */}
       <section className="container-x pb-20">
         <Reveal>
-          <div className="overflow-hidden rounded-[20px] shadow-lg lg:grid lg:grid-cols-[0.95fr_1.05fr]">
-            <div className="bg-palm p-8 text-cream sm:p-10">
-              <span className="inline-flex rounded-full bg-gold px-4 py-2 text-[11px] font-bold uppercase tracking-[0.18em] text-cocoa">
+          <div className="overflow-hidden rounded-3xl border-2 border-ink/10 lg:grid lg:grid-cols-[0.95fr_1.05fr]">
+            <div className="grain bg-palm-800 p-8 text-cream sm:p-10">
+              <span className="inline-flex rounded-full bg-gold px-4 py-2 font-display text-[11px] font-bold uppercase tracking-[0.18em] text-ink">
                 Catering enquiry
               </span>
-              <h2 className="mt-5 font-display text-[28px] font-extrabold leading-tight sm:text-[2rem]">
+              <h2 className="mt-6 font-display text-[clamp(1.7rem,3vw,2.2rem)] font-extrabold leading-tight">
                 Send the details and we will reply.
               </h2>
-              <p className="mt-4 text-[16px] leading-relaxed text-cream/82">
-                Use the form or WhatsApp. Include the date, headcount, dishes, and whether you need pickup or drop-off catering.
+              <p className="mt-4 text-[16px] leading-relaxed text-cream/80">
+                Include the date, headcount, dishes, and whether you need pickup or drop-off
+                catering.
               </p>
-              <div className="my-6 h-px bg-white/20" />
+              <div className="my-6 h-px bg-cream/20" aria-hidden="true" />
               <a
                 href={cateringWa}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 rounded-full border-2 border-cream/40 px-6 py-3 text-[14px] font-semibold text-cream transition-all hover:border-cream hover:bg-cream/10 active:scale-95"
+                className="btn-chalk-outline px-6 py-3 text-[14px]"
               >
-                <MessageCircle size={16} /> WhatsApp Catering Request
+                <MessageCircle size={16} aria-hidden="true" /> WhatsApp Catering Request
               </a>
             </div>
-            <div className="bg-[#fff9ec] p-6 sm:p-8">
-              <p className="mb-5 text-[13px] font-semibold uppercase tracking-[0.12em] text-palm">Or send a message</p>
+            <div className="bg-gold-50 p-6 sm:p-8">
+              <p className="mb-5 text-[13px] font-bold uppercase tracking-[0.14em] text-palm">
+                Or send a message
+              </p>
               <ContactForm />
             </div>
           </div>
         </Reveal>
       </section>
-
     </div>
   );
 }

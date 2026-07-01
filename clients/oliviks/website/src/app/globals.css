@@ -2,8 +2,19 @@
 @tailwind components;
 @tailwind utilities;
 
+/* ===========================================================================
+   Oliviks Kitchen — global styles
+   Brand: Barn Red #761212 · Papaya Orange #FAB73A · Chalk White #F7F9F4 · Jet Black
+   Direction: bold editorial. Heavy Rubik display type, barn-red ink sections,
+   arch-topped food photography, papaya as sharp accent, ankara stripe rules.
+   ===========================================================================*/
+
 :root {
   color-scheme: light;
+  --barn-red: #761212;
+  --papaya: #fab73a;
+  --chalk: #f7f9f4;
+  --ink: #121210;
 }
 
 html {
@@ -14,55 +25,210 @@ html {
 body {
   max-width: 100vw;
   overflow-x: hidden;
-  background-color: theme('colors.cream');
-  color: theme('colors.cocoa');
+  background-color: var(--chalk);
+  color: #111111;
   -webkit-font-smoothing: antialiased;
 }
 
+::selection {
+  background: var(--papaya);
+  color: var(--ink);
+}
+
 @layer components {
-  /* Brand button styles */
-  .btn-primary {
-    @apply inline-flex items-center justify-center gap-2 rounded-full bg-palm px-6 py-3
-      font-medium text-cream shadow-sm transition-all hover:bg-[#5a0d0d]
-      hover:shadow-md active:scale-95;
-  }
-  .btn-ghost {
-    @apply inline-flex items-center justify-center gap-2 rounded-full border border-cocoa/20
-      px-6 py-3 font-medium text-cocoa transition-all hover:border-palm hover:text-palm active:scale-95;
-  }
   .container-x {
     box-sizing: border-box;
     max-width: min(1180px, 100vw);
     @apply mx-auto w-full px-5 sm:px-8;
   }
+
+  .btn-primary {
+    @apply inline-flex items-center justify-center gap-2 rounded-full bg-palm px-7 py-3.5
+      font-display font-semibold text-cream shadow-sm transition-all
+      hover:-translate-y-0.5 hover:bg-palm-800 hover:shadow-md active:scale-95;
+  }
+  .btn-ghost {
+    @apply inline-flex items-center justify-center gap-2 rounded-full border-2 border-cocoa/15
+      px-7 py-3.5 font-display font-semibold text-cocoa/75 transition-all
+      hover:-translate-y-0.5 hover:border-palm hover:text-palm active:scale-95;
+  }
+  /* Appetite CTA — papaya with ink text. The highest-contrast action on any page. */
+  .btn-appetite {
+    @apply inline-flex items-center justify-center gap-2 rounded-full bg-gold px-7 py-3.5
+      font-display font-bold text-ink shadow-[0_10px_28px_rgba(250,183,58,0.4)]
+      transition-all hover:-translate-y-0.5 hover:bg-gold-400 active:scale-95;
+  }
+  .btn-chalk-outline {
+    @apply inline-flex items-center justify-center gap-2 rounded-full border-2 border-cream/40
+      px-7 py-3.5 font-display font-semibold text-cream transition-all
+      hover:-translate-y-0.5 hover:border-cream hover:bg-cream/10 active:scale-95;
+  }
+
   .eyebrow {
-    @apply text-sm font-semibold uppercase tracking-[0.18em] text-palm;
+    @apply flex items-center gap-3 text-[12px] font-bold uppercase tracking-[0.22em] text-palm;
+  }
+  .eyebrow-num {
+    @apply font-display text-[12px] font-extrabold text-ink;
+  }
+  .eyebrow::after {
+    content: '';
+    @apply h-[2px] w-10 bg-gold;
+  }
+  .eyebrow-onred {
+    @apply flex items-center gap-3 text-[12px] font-bold uppercase tracking-[0.22em] text-gold;
+  }
+  .eyebrow-onred::after {
+    content: '';
+    @apply h-[2px] w-10 bg-gold/50;
   }
 }
 
-/* Ankara-inspired top border accent */
+/* ---- Ankara stripe rule — brand divider ---- */
 .ankara-rule {
   height: 6px;
   background: repeating-linear-gradient(
     135deg,
     #761212 0,
     #761212 14px,
-    #FAB73A 14px,
-    #FAB73A 28px
+    #fab73a 14px,
+    #fab73a 28px
+  );
+}
+.ankara-rule-thin {
+  height: 4px;
+  background: repeating-linear-gradient(
+    135deg,
+    #761212 0,
+    #761212 10px,
+    #fab73a 10px,
+    #fab73a 20px
   );
 }
 
-/* Menu page gradients */
-.menu-page-bg {
-  background: linear-gradient(180deg, #fffaf1 0, #F7F9F4 380px);
+/* ---- Grain texture overlay for red/ink sections ---- */
+.grain {
+  position: relative;
+  isolation: isolate;
 }
-.menu-hero-glow {
-  background: radial-gradient(closest-side, rgba(250,183,58,0.16), rgba(250,183,58,0));
+.grain::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  pointer-events: none;
+  opacity: 0.28;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='140' height='140'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.5'/%3E%3C/svg%3E");
+}
+.grain > * {
+  position: relative;
+  z-index: 2;
 }
 
-/* Reduced motion */
+/* ---- Arch frame — West African doorway motif for feature photography ---- */
+.arch {
+  border-radius: 999px 999px 22px 22px;
+  overflow: hidden;
+}
+.arch-sm {
+  border-radius: 999px 999px 16px 16px;
+  overflow: hidden;
+}
+
+/* ---- Dot pattern for ink sections ---- */
+.dots-bg {
+  background-image: radial-gradient(circle, rgba(255, 255, 255, 0.055) 1.5px, transparent 1.5px);
+  background-size: 22px 22px;
+}
+
+/* ---- Marquee ticker ---- */
+@keyframes marquee {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+.marquee {
+  display: flex;
+  overflow: hidden;
+  user-select: none;
+}
+.marquee-track {
+  display: flex;
+  flex-shrink: 0;
+  align-items: center;
+  min-width: 100%;
+  animation: marquee 28s linear infinite;
+}
+
+/* ---- Dotted price leader for menu rows ---- */
+.price-leader {
+  flex: 1;
+  border-bottom: 2px dotted rgba(17, 17, 17, 0.25);
+  margin: 0 10px;
+  transform: translateY(-4px);
+}
+
+/* ---- Entrance animations ---- */
+@keyframes heroFadeUp {
+  from { opacity: 0; transform: translateY(26px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+@keyframes heroFadeDown {
+  from { opacity: 0; transform: translateY(-16px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-10px); }
+}
+@keyframes spinSlow {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+@keyframes pulseGlow {
+  0%, 100% { box-shadow: 0 10px 28px rgba(250, 183, 58, 0.35); }
+  50% { box-shadow: 0 14px 42px rgba(250, 183, 58, 0.65); }
+}
+
+.animate-hero-up { animation: heroFadeUp 0.7s cubic-bezier(0.22, 1, 0.36, 1) both; }
+.animate-hero-down { animation: heroFadeDown 0.6s cubic-bezier(0.22, 1, 0.36, 1) both; }
+.animate-float { animation: float 5s ease-in-out infinite; }
+.animate-float-slow { animation: float 7s ease-in-out infinite; }
+.animate-spin-slow { animation: spinSlow 22s linear infinite; }
+.animate-pulse-glow { animation: pulseGlow 2.5s ease-in-out infinite; }
+
+/* Animation delay utilities for staggered entrances */
+.anim-d-100 { animation-delay: 0.1s; }
+.anim-d-170 { animation-delay: 0.17s; }
+.anim-d-220 { animation-delay: 0.22s; }
+.anim-d-240 { animation-delay: 0.24s; }
+.anim-d-310 { animation-delay: 0.31s; }
+.anim-d-380 { animation-delay: 0.38s; }
+.anim-d-450 { animation-delay: 0.45s; }
+.anim-d-500 { animation-delay: 0.5s; }
+.anim-d-520 { animation-delay: 0.52s; }
+.anim-d-1200 { animation-delay: 1.2s; }
+
+/* ---- Legacy helpers kept for admin pages ---- */
+.menu-page-bg {
+  background: linear-gradient(180deg, #fffaf1 0, #f7f9f4 380px);
+}
+.menu-hero-glow {
+  background: radial-gradient(closest-side, rgba(250, 183, 58, 0.16), rgba(250, 183, 58, 0));
+}
+
+/* ---- Reduced motion ---- */
 @media (prefers-reduced-motion: reduce) {
   html {
     scroll-behavior: auto;
+  }
+  .animate-hero-up,
+  .animate-hero-down,
+  .animate-float,
+  .animate-float-slow,
+  .animate-spin-slow,
+  .animate-pulse-glow,
+  .marquee-track {
+    animation: none;
+    opacity: 1;
+    transform: none;
   }
 }
