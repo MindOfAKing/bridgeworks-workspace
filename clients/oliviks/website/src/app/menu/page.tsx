@@ -98,6 +98,10 @@ export default async function MenuPage() {
               where needed. Pickup at Rákóczi tér 9. Already on Wolt or Marwa? You can order there
               too.
             </p>
+            <p className="mt-2 text-[13px] leading-relaxed text-cocoa/50">
+              Prices shown here are our in-store menu prices. Online and delivery prices include a
+              small markup that covers ordering costs.
+            </p>
           </div>
           <div className="flex flex-wrap gap-3">
             <a
