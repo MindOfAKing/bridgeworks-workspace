@@ -1,0 +1,421 @@
+00:00 I don't think there's a better model
+00:01 right now in the market than the
+00:03 SeaDance 2.0. The quality of the videos
+00:06 that you're able to create with this
+00:07 model is mind-blowing. Not only is it
+00:10 easy for you to generate with single
+00:12 prompts, but on top of that with this
+00:14 type of quality and this type of
+00:16 understanding that this this model has,
+00:18 it has actually never been easier to go
+00:20 viral right now. Some of these videos
+00:22 that I'm going to show you, whether it's
+00:24 short-form or long-form content, you're
+00:26 going to be surprised at the quality
+00:28 that AI is capable of generating now
+00:31 because there is no way to tell the
+00:32 difference between an AI content or a
+00:36 regular production quality video
+00:38 anymore. And in this video, I'm going to
+00:40 explore all of that. So, let's jump
+00:41 right in. All right, first of all, let's
+00:43 just take a look at a few examples so
+00:45 that way you can really see the quality
+00:47 of how incredible SeaDance 2.0 is.
+00:50 Again, when it says 4K, it's not
+00:52 kidding, right? 4K is absolutely what
+00:55 was missing from a lot of the models
+00:57 like Kling and VO3.1 and all these other
+01:02 AI video models. But now, with the
+01:04 SeaDance introducing the 4K quality,
+01:07 it's almost like I mentioned impossible
+01:09 to now tell the difference between a
+01:11 video that's been generated in a high
+01:13 studio production quality versus
+01:16 something with AI because not only does
+01:18 this thing
+01:19 generate 4K quality, but on top of that,
+01:22 what it's capable of creating with the
+01:24 character consistency, with the movement
+01:26 of camera, with slow-mo shots, and
+01:29 everything else is absolutely
+01:31 remarkable. As you can see right here in
+01:32 some of these examples, again, this is
+01:34 something that
+01:35 video production company would would
+01:38 create. But as you can see, it's all
+01:40 done with single prompt. So, obviously,
+01:43 it is a little costly, but it makes
+01:44 sense because the quality of the video
+01:46 that it generates is something that's
+01:48 remarkable.
+01:49 But anyway, so let's go ahead and let me
+01:50 show you a few examples. First of all, I
+01:52 want to explore the concept of
+01:54 short-form because if you have noticed,
+01:56 some of these videos or some of these
+01:59 short form content on Tik Tok that have
+02:01 gone viral or recently these ones that
+02:04 are these cute little kind of fruits and
+02:07 vegetables in and cute animal baby style
+02:10 and they're being fed their own exact
+02:14 kind of fruit per se, right? So, for
+02:16 example, this thing had 269.4
+02:19 million views and it's basically this
+02:22 orange cute baby thing that's being fed
+02:25 a spoon of orange and it kind of chews
+02:27 it. So, you can see this
+02:29 and and one of the reasons why this is
+02:31 so good is again the quality of the
+02:34 content itself, right? So, not only is
+02:36 this
+02:37 not not just one, multiple of these
+02:39 videos in this account. Look at this one
+02:40 for instance, fried egg eating ASMR.
+02:43 This one has over 45 million views and
+02:47 it has 1.1 million likes. And again, of
+02:51 course, as far as
+02:53 the comments and interaction with these
+02:55 videos are incredible. And again, why?
+02:57 It's because the quality of the video,
+02:58 right? Now, honestly, there's nothing
+03:00 else to it cuz before you could create
+03:02 content like this, but it's just that
+03:03 the quality was really bad and therefore
+03:06 it was very difficult
+03:08 for people to like, you know, stay on
+03:10 and watch these things. But the reason
+03:11 why now they're so satisfying is because
+03:13 the quality of the content is
+03:15 incredible. So, then I went ahead and
+03:16 actually tried it out and I figured why
+03:19 not see if I can create something
+03:21 similar to this even with the better
+03:22 content. So, obviously I'm using Higgs
+03:24 Field by the way inside I'm sorry, I'm
+03:27 using C C Dance 4.0 or 2.0 4K model
+03:30 inside
+03:32 my Higgs Field. I'm going to put the
+03:33 link in the description you guys can
+03:34 access it. So,
+03:36 >> [cough]
+03:36 >> let me go ahead and show you now
+03:39 a few examples of this, right? So, first
+03:41 of all, I want to focus on this one cuz
+03:43 this is very cute, right? So, this is I
+03:45 all I did was I said a hyperrealistic
+03:48 ASMR macro video some cozy dimly lit
+03:51 kitchen warm cinematic lighting, dark
+03:53 soft focus background. On a wooden table
+03:55 sits an adorable anthropomorphic baby
+03:58 kiwi, right? So, it's basically the baby
+04:00 kiwi being fed. So, let's go ahead and
+04:02 take a look at this video so that way
+04:04 you can see the quality of how it
+04:06 generated. By the way, this does have
+04:08 volume because
+04:10 you are able to see kind of the
+04:12 this fruit baby thing kind of chew and
+04:15 make those cute little noises. But right
+04:17 away, as you can see, just the quality
+04:19 of the video is absolutely remarkable.
+04:22 So, let me go ahead and play this.
+04:29 That's absolutely adorable.
+04:34 And this one is 10 second, by the way,
+04:36 and I kind of
+04:37 modeled it after, again, this account
+04:39 right here because majority of the
+04:41 videos are between 8 to 10 seconds.
+04:43 So, I wanted to make sure I'm kind of
+04:45 staying consistent with
+04:47 with that particular timeline. Same
+04:49 thing, this one I did the same thing
+04:51 except I said this time it will be a
+04:54 anthropomorphic baby peach.
+04:56 Small, round, fuzzy.
+04:58 With a chubby cute face, big glossy
+05:01 round eyes, rosy cheeks, and tiny
+05:04 smiling mouth sitting upright. So, I'm
+05:05 describing exactly on the prompt. And by
+05:07 the way, I'm going to if you guys want
+05:09 to access these prompts, just comment
+05:11 prompt in the video and I'm going to
+05:12 send you this.
+05:14 But take a look at this. Let's go ahead
+05:15 and start from here.
+05:19 I'm going to zoom this in so you guys
+05:20 can see better cuz I think in the
+05:22 in the screen, oops, didn't mean to do
+05:25 that.
+05:26 Cuz if I maximize this,
+05:31 let me go ahead and maximize this. There
+05:34 you go.
+05:36 So, let's play this.
+05:39 Oops.
+05:45 I mean, look at how crisp the quality of
+05:47 this video is. That's adorable.
+05:50 Right? You can see just the amount of
+05:52 details that are inside
+05:54 uh or just the amount of details that
+05:56 are in this
+05:57 uh image in the video and just the
+05:59 movement of the eyes and everything is
+06:01 just absolutely remarkable, right? So,
+06:03 you can see how uh well done this is.
+06:06 And then obviously these other ASMR
+06:08 videos like of these fruits that are
+06:10 being cut, right? That's another one
+06:12 that you can see. These are also very
+06:13 popular um Tik Tok kind of trend, but
+06:17 again, the reason is because of just the
+06:18 quality, right? So, you can see just the
+06:20 crispness, the sharpness of the image,
+06:23 uh the knife, kind of the shadow, and
+06:25 everything else. Like, this is something
+06:27 that's uh truly mind-blowing. So, these
+06:30 are kind of kind of these ASMR videos.
+06:32 So, feel free to check this out. Like I
+06:33 said, uh if you guys want the prompts, I
+06:35 can send you the prompt. Just comment
+06:37 prompt. If not, you know, you can use
+06:38 Chat GPT or Claude or whatever it may
+06:40 be.
+06:42 And you can generate prompts like this,
+06:44 and you can come back to your Hicks
+06:45 Field um and go to on top right here.
+06:48 You can go to on top and click on the
+06:50 models and see dance 2.0 4K, right? So,
+06:53 if you just click on this, uh it's going
+06:55 to bring you to the place where you can
+06:57 generate this. So, let me stop this
+06:59 video so that way we can
+07:01 um
+07:03 I'm going to show you something else.
+07:04 All right. So, that was kind of like the
+07:06 uh 9 by 16 like generating shorts.
+07:10 But, we also obviously SeaDance 2.0 4K
+07:13 has the ability to generate um
+07:16 um content in 16 by 9, right? So, one of
+07:19 the examples is obviously using this to
+07:21 create commercials. Now, commercials is
+07:24 one of those things that could be
+07:25 something that could be monetized, but
+07:27 on top of that, like it's not only being
+07:30 done for uh you know, personal use. This
+07:33 is something that you can actually take
+07:34 to a business, right? So, whether it's
+07:36 your local restaurants or uh or just
+07:39 working online with the companies.
+07:42 Again, the quality of this is something
+07:44 that
+07:46 you basically cannot replicate, right?
+07:48 So, let's go ahead and play. I created
+07:50 this fictional kind of perfume brand,
+07:52 but you can see just the quality of the
+07:54 video. Take a look at this.
+08:04 I mean, just sharpness of the image in
+08:05 the video is just mind-blowing, in my
+08:07 opinion.
+08:08 Look at those water droplets, right?
+08:11 Again, this is just for like a perfume,
+08:13 but this could be applied to anything,
+08:15 right? So, if you see on the right-hand
+08:16 side,
+08:18 I just said create a premium 4K
+08:20 cinematic product commercial for a
+08:21 luxury grass serum bottle displayed in a
+08:24 clean studio setting. So, that's where
+08:26 you can kind of describe the setting,
+08:27 you can describe
+08:29 where the product is located, the
+08:31 environment, the camera movement, and
+08:33 it's really good at capturing that. And
+08:35 that's one of the use cases that
+08:38 HeyGen even mentions on their website.
+08:40 So, if I go right here,
+08:43 you can see the product. So, this one
+08:44 for instance, right?
+08:46 So, this is for like a shoe design. Take
+08:48 a look at the shoe commercial. Take a
+08:49 look at that, right?
+08:51 Just kind of the way it zooms and really
+08:53 captures the product details. It's It's
+08:57 something, like I said, it's hard to
+08:59 differentiate that this is made by AI
+09:01 or something that was done in a high
+09:05 production studio, right? All right. So,
+09:07 that's again on the commercial side.
+09:08 That's the product commercialized
+09:10 commercial side. That's something that
+09:12 you can really capture and play around
+09:13 with this and see the difference between
+09:15 the quality of the 4K that's generated
+09:18 by C Dance 2.0 versus like a HD or a 720
+09:23 that you can generate with other models
+09:26 as well. And of course, obviously right
+09:27 here, as you can see on the bottom here,
+09:29 you have the option to generate in less
+09:31 than 4K. You don't have to, right? But
+09:33 obviously with
+09:35 the C Dance 2.0's uniqueness, at least
+09:37 with this version, is the fact that you
+09:39 can generate 4K quality, which a lot of
+09:42 the professional, you know,
+09:44 ads or or
+09:46 any video [snorts] that
+09:48 you want for personal use or like I
+09:49 said, for commercial use, that 4K really
+09:53 comes and makes a big difference there.
+09:56 So, another use case for
+09:58 kind of the C dance 4K video is the
+10:02 concept of having a
+10:04 character consistency. Cuz one of the
+10:06 problem with a lot of AI models is the
+10:08 fact that the character consistency
+10:11 always you run into issues, right? So,
+10:13 for instance, if it's generating a
+10:15 multiple shot scene, like in this one
+10:17 that we're about to see, a lot of times
+10:20 it's very hard for it to maintain the
+10:22 same character, right? Especially when
+10:24 it comes to if there's like an actual
+10:26 human in the picture.
+10:28 And that's something that if you're
+10:29 creating, you know, a brand commercial
+10:32 for your brand or or for a client, for
+10:34 instance, that's very important because
+10:36 if if you have multiple characters in
+10:39 the same scene or even if it's like a
+10:41 slight difference, people will be able
+10:43 to tell. And as soon as like, you know,
+10:44 people realize that, hey, this is an AI
+10:46 slop, like they will immediately get
+10:49 turned off. So, that's why it's such an
+10:51 important aspect of a video generation
+10:55 an AI video model to make sure that it
+10:58 maintains not only the quality, but also
+11:00 the character itself. And this is one of
+11:02 the things that
+11:04 um
+11:05 C dance 2.0 is really good at
+11:07 maintaining the character, but on top of
+11:09 that, like I said, now that it's 4K, it
+11:11 makes makes it even 10 times better. So,
+11:14 in this one, for instance, I just
+11:15 basically said, create a premium 4K
+11:18 cinematic commercial featuring one
+11:19 consistent fictional character as the
+11:21 face of the luxury coffee brand. Now, of
+11:23 course, you can replace this and upload
+11:25 an actual media, right? So, let's say
+11:27 you want to upload your picture or
+11:29 whatever it may be, this is where you
+11:30 can now upload different media to make
+11:32 sure that it actually captures all of
+11:34 those details.
+11:36 Uh
+11:37 but I but of course for this example I
+11:39 just said to kind of create this
+11:41 originally. So that's why it's just
+11:42 creating one character which is which is
+11:45 this Asian guy in his
+11:47 mid-30s, right? So I said the character
+11:49 must remain in the same person
+11:50 throughout the entire video, same face,
+11:52 same hairstyle, same age, same outfit,
+11:55 same body type, and same overall
+11:57 identity across every shot. And I'm
+11:59 maintaining I'm I'm mentioning the
+12:01 character details. So obviously I'm
+12:03 saying a fictional professional founder
+12:04 in his early 30s, confident, calm,
+12:06 wearing a clean black turtleneck and a
+12:09 beige tailor coat. So the reason why I'm
+12:11 I'm I'm giving you guys these details is
+12:13 because like I mentioned
+12:15 it's very important to explain this
+12:17 in the prompt and to make sure that it
+12:20 actually shows up in the generation of
+12:23 the video itself and it should maintain
+12:24 all of this throughout. And this is like
+12:26 I said one of those things that was very
+12:28 difficult that that that this face is
+12:30 pretty difficult for a lot of AI models,
+12:32 the AI video models, but with C dance
+12:35 it's really good at kind of maintaining
+12:37 that. So I describe the scene, a luxury
+12:39 coffee studio with warm cinematic
+12:41 lighting, wood texture, glass, stainless
+12:44 steel, soft morning light, and a premium
+12:46 brand atmosphere. I'm giving it the shot
+12:48 sequence. So these are the multiple
+12:49 shots, right? The first one is going to
+12:50 be a close-up of the same character
+12:52 entering the audio. The second one is a
+12:54 medium shot of the character picking up
+12:55 a premium coffee bag, and the third one.
+12:57 So as you can see these are this is a
+12:59 six shot uh
+13:01 um
+13:02 video, right? So that's why like I
+13:03 mentioned in these multiple different
+13:05 shots you want to make sure that the AI
+13:07 model is able to capture the video or
+13:10 the character consistency throughout. So
+13:12 let's go ahead and play this and we can
+13:14 we can see
+13:16 what this looks like afterwards. So I'm
+13:17 just going to press play here.
+13:33 >> Perfect. So, you can see
+13:35 the same guy kind of entering the same
+13:37 clothes, the turtleneck, the kind of the
+13:39 hair,
+13:40 uh the body style, everything is staying
+13:43 uh consistent in all of these different
+13:44 shots, kind of the the different
+13:46 close-ups and coming out. All of this is
+13:48 very, very important, like I mentioned,
+13:49 so that's why this becomes such a uh
+13:52 high-quality video because not only you
+13:55 have the 4K quality that is shown, but
+13:57 on top of that, it's maintaining that
+13:59 character consistency at every single
+14:02 shot and every single close-up, side
+14:04 profile, uh hero shot, or
+14:08 kind of an expanded view.
+14:10 And obviously, it has the ability to
+14:13 have the person or have the character in
+14:15 the video be consistent throughout
+14:17 whatever it's doing, whether it's kind
+14:19 of like uh walking in the environment,
+14:21 doing something, in this case like
+14:23 pouring coffee. He's actually using, as
+14:25 you can see right here, kind of that
+14:26 espresso machine, right? So, it's really
+14:28 maintaining everything. And like I
+14:29 mentioned, now this is very hard to
+14:32 differentiate between this being
+14:34 AI-generated and something that was
+14:36 generated in a high-quality studio with
+14:38 actual human actors, right? So, uh
+14:40 that's what I was mentioning that this
+14:42 is such an important aspect to this. But
+14:44 anyways, I don't want to make this video
+14:46 too long, but I just wanted to showcase
+14:48 these examples of how incredible this
+14:50 model is. So, whether you're creating
+14:52 short-form content uh for your TikToks
+14:56 and Instagrams of the world, or you are
+14:58 creating these, you know, wide-angle or
+15:01 commercials, or kind of character
+15:04 consistency videos, you know, Seedance
+15:06 2.0 4K model beats every single model
+15:10 out there in the market. So, make sure
+15:11 you guys check this out. Again, I'm
+15:13 going to put the link in the description
+15:14 for uh the Higgs Field so that we guys
+15:16 can access this inside Higgs Field. Uh
+15:19 let me know in the comments if you guys
+15:21 have any questions. Make sure you like,
+15:22 subscribe. Thanks for watching. I'll see
+15:24 you on the next one.

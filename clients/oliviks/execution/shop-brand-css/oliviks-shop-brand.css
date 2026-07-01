@@ -1,0 +1,162 @@
+/* ===========================================================================
+   Oliviks Shop (shop.oliviks.com) — brand alignment CSS
+   Matches the new oliviks-kitchen Vercel site (July 2026 rebuild).
+
+   HOW TO USE (2 minutes, no code knowledge needed):
+   1. Log in to WordPress admin on shop.oliviks.com
+   2. Go to Appearance -> Customize -> Additional CSS
+   3. Paste this entire file BELOW any CSS already there
+   4. Click Publish, then hard-refresh the shop (Ctrl+Shift+R)
+
+   Brand: Barn Red #761212 · Papaya Orange #FAB73A · Chalk White #F7F9F4 · Jet Black
+   Theme on the shop: Rishi + Elementor + Essential Addons (verified 2026-07-01)
+   ===========================================================================*/
+
+/* ---- 1. Kill the leftover olive green accent, set brand palette ---- */
+:root {
+  --paletteColor1: #111111;
+  --paletteColor2: #111111;
+  --paletteColor3: #fab73a;
+  --paletteColor4: #761212; /* was #4e7302 olive green */
+  --paletteColor7: #f7f9f4;
+}
+
+body {
+  background-color: #f7f9f4;
+  color: #111111;
+}
+
+/* ---- 2. Typography — match the site's Rubik display weight ---- */
+h1, h2, h3, h4,
+.woocommerce-loop-product__title,
+.product_title {
+  font-family: 'Rubik', system-ui, sans-serif !important;
+  font-weight: 800 !important;
+  letter-spacing: -0.01em;
+  color: #111111;
+}
+
+body, p, li, input, textarea, select, .woocommerce {
+  font-family: 'Manrope', system-ui, sans-serif;
+}
+
+/* ---- 3. Buttons — pill shape, barn red primary / papaya add-to-cart ---- */
+.woocommerce a.button,
+.woocommerce button.button,
+.woocommerce input.button,
+.woocommerce #respond input#submit,
+.woocommerce-page a.button,
+button[type="submit"],
+.eael-load-more-button {
+  border-radius: 999px !important;
+  font-family: 'Rubik', system-ui, sans-serif !important;
+  font-weight: 600 !important;
+  background-color: #761212 !important;
+  color: #f7f9f4 !important;
+  border: none !important;
+  padding: 12px 26px !important;
+  transition: transform 0.2s ease, background-color 0.2s ease, box-shadow 0.2s ease !important;
+}
+
+.woocommerce a.button:hover,
+.woocommerce button.button:hover,
+.woocommerce input.button:hover,
+.eael-load-more-button:hover {
+  background-color: #5a0e0e !important;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(118, 18, 18, 0.25);
+}
+
+/* Appetite CTAs — papaya with dark text, same as the site's Order Online */
+.woocommerce a.add_to_cart_button,
+.woocommerce button.single_add_to_cart_button,
+.woocommerce a.checkout-button,
+.woocommerce #payment #place_order {
+  background-color: #fab73a !important;
+  color: #111111 !important;
+  font-weight: 700 !important;
+  box-shadow: 0 8px 22px rgba(250, 183, 58, 0.4) !important;
+}
+
+.woocommerce a.add_to_cart_button:hover,
+.woocommerce button.single_add_to_cart_button:hover,
+.woocommerce a.checkout-button:hover,
+.woocommerce #payment #place_order:hover {
+  background-color: #fcc865 !important;
+  color: #111111 !important;
+}
+
+/* ---- 4. Product cards — rounded, subtle border, lift on hover ---- */
+.woocommerce ul.products li.product,
+.eael-product-wrap {
+  background: #ffffff;
+  border: 2px solid rgba(17, 17, 17, 0.08) !important;
+  border-radius: 16px !important;
+  overflow: hidden;
+  transition: transform 0.25s ease, border-color 0.25s ease, box-shadow 0.25s ease;
+}
+
+.woocommerce ul.products li.product:hover,
+.eael-product-wrap:hover {
+  transform: translateY(-6px);
+  border-color: #111111 !important;
+  box-shadow: 6px 6px 0 0 #fab73a;
+}
+
+.woocommerce ul.products li.product img,
+.eael-product-wrap img {
+  border-radius: 12px 12px 0 0;
+}
+
+/* ---- 5. Prices — barn red, Rubik, bold (same as the site menu) ---- */
+.woocommerce-Price-amount,
+.eael-product-price,
+.woocommerce div.product p.price {
+  color: #761212 !important;
+  font-family: 'Rubik', system-ui, sans-serif !important;
+  font-weight: 700 !important;
+}
+
+/* ---- 6. Badges and ratings ---- */
+.woocommerce span.onsale {
+  background-color: #fab73a !important;
+  color: #111111 !important;
+  border-radius: 999px !important;
+  font-family: 'Rubik', system-ui, sans-serif !important;
+  font-weight: 700 !important;
+}
+
+.woocommerce .star-rating span,
+.eael-star-rating .rating {
+  color: #fab73a !important;
+}
+
+/* ---- 7. Links and form focus ---- */
+a {
+  color: #761212;
+}
+
+.woocommerce form .form-row input.input-text:focus,
+.woocommerce form .form-row textarea:focus {
+  border-color: #761212 !important;
+  outline: none;
+}
+
+.woocommerce form .form-row input.input-text,
+.woocommerce form .form-row textarea,
+.woocommerce form .form-row select {
+  border-radius: 12px;
+  border: 1px solid rgba(17, 17, 17, 0.15);
+  padding: 10px 14px;
+}
+
+/* ---- 8. Notices — keep them on-brand ---- */
+.woocommerce-message,
+.woocommerce-info {
+  border-top-color: #761212 !important;
+}
+
+.woocommerce-message::before,
+.woocommerce-info::before {
+  color: #761212 !important;
+}

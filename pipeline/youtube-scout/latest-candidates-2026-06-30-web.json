@@ -1,0 +1,73 @@
+{
+  "source": "web-fallback-and-api-metadata",
+  "date": "2026-06-30",
+  "run_time_local": "11:25-12:05 CEDT",
+  "api_status": "Configured YouTube Data API script `run_youtube_digest_fetch.py` failed with HTTP 403 Forbidden. RSS fallback worked. The older channel helper returned partial metadata but is not treated as the primary connector because the configured script is still blocked.",
+  "queries": [
+    "site:youtube.com/watch AI automation agency n8n Claude Code business uploaded June 30 2026 YouTube",
+    "site:youtube.com/watch Claude Code AI agent workflow June 30 2026 YouTube",
+    "site:youtube.com/watch AI visibility GEO SEO local business 2026 YouTube June 30 2026",
+    "site:youtube.com/watch local business website conversion SEO AI 2026 YouTube June 30 2026"
+  ],
+  "items": [
+    {
+      "title": "I Automated a $2M Business in 9 Days. Here's Every Workflow",
+      "url": "https://www.youtube.com/watch?v=s0kk2w21xUA",
+      "source_query": "api-topic-search: AI automation agency workflow",
+      "fit": "high",
+      "reason": "Direct fit for service-business automation audits: lead response, lead scoring, booking, follow-up, contracts, invoices, and reviews.",
+      "transcript_status": "fetched",
+      "transcript_file": "pipeline/youtube-scout/runtime-transcripts/s0kk2w21xUA.txt",
+      "decision": "Adapt into Seven-Workflow Automation Leak Audit"
+    },
+    {
+      "title": "How I Build Professional Local Business Websites in 2026 (SEO optimised - Claude code)",
+      "url": "https://www.youtube.com/watch?v=2Rj69MhAyds",
+      "source_query": "web-fallback: local business website conversion SEO AI 2026",
+      "fit": "high",
+      "reason": "Strong fit for BridgeWorks Foundation website QA, local SEO, service/location page structure, schema checks, and static-first website production standards.",
+      "transcript_status": "fetched",
+      "transcript_file": "pipeline/youtube-scout/runtime-transcripts/2Rj69MhAyds.txt",
+      "decision": "Adapt into Foundation Local SEO Site Architecture Gate"
+    },
+    {
+      "title": "N8N Agents Are Old, Use Claude Skills to Automate ANYTHING!",
+      "url": "https://www.youtube.com/watch?v=MLTCxU-U2Cw",
+      "source_query": "web-fallback: AI automation agency n8n Claude Code business",
+      "fit": "high",
+      "reason": "Useful for Emmanuel's no-manual-code operating layer: skill engineering, repeatable context, scheduled tasks, and proof-based skill creation.",
+      "transcript_status": "fetched",
+      "transcript_file": "pipeline/youtube-scout/runtime-transcripts/MLTCxU-U2Cw.txt",
+      "decision": "Adapt into Skill Engineering Gate for repeatable BridgeWorks workflows"
+    },
+    {
+      "title": "Seedance 2.0 4K Is Actually Insane",
+      "url": "https://www.youtube.com/watch?v=UGHcdMejjXY",
+      "source_query": "rss-watchlist: Zubair Trabzada",
+      "fit": "medium",
+      "reason": "Useful for draft-only ad creative and product commercial tests, but lower priority than website QA and automation diagnostics.",
+      "transcript_status": "fetched",
+      "transcript_file": "pipeline/youtube-scout/runtime-transcripts/UGHcdMejjXY.txt",
+      "decision": "Park for future draft-only creative sprint. No paid tool or client-facing video action."
+    },
+    {
+      "title": "How to Build & Sell AI Agents in 2026: Ultimate Beginner's Guide",
+      "url": "https://www.youtube.com/watch?v=AYQtRqW1xX4",
+      "source_query": "web-fallback: AI automation agency n8n Claude Code business",
+      "fit": "medium-high",
+      "reason": "Relevant, but transcript is very long and overlaps with existing AI automation offer guardrails. Not extracted in this bounded run.",
+      "transcript_status": "fetched",
+      "transcript_file": "pipeline/youtube-scout/runtime-transcripts/AYQtRqW1xX4.txt",
+      "decision": "Park unless Emmanuel asks for an AI-agent offer deep dive."
+    },
+    {
+      "title": "How Agencies Can FULLY Automate Client Fulfillment with AI",
+      "url": "https://www.youtube.com/watch?v=_H22UpqYvoE",
+      "source_query": "api-topic-search: AI automation agency workflow",
+      "fit": "medium",
+      "reason": "Potentially relevant, but lower source trust and narrower metadata. Not fetched because higher-fit transcripts were available.",
+      "transcript_status": "not fetched",
+      "decision": "Queue only if client-fulfillment automation becomes this week's priority."
+    }
+  ]
+}

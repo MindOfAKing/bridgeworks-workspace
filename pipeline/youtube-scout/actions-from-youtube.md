@@ -341,3 +341,59 @@ Area: Foundation Website QA, GEO / AEO, Local SEO, Digital Growth Engine Reporti
 Change: Add a compact map for website clarity, GBP fit, local pack, AI answer presence, citation sources, third-party profiles, and proof gaps.  
 Evidence file: `pipeline/youtube-scout/transcript-extractions/yt-20260629-006-search-everywhere-visibility-map.md`  
 Status: Needs template. No fake reviews, spam profiles, paid citation campaigns, or AI-ranking guarantees.
+
+## 2026-06-30
+
+### Action: Create Seven-Workflow Automation Leak Audit Template
+
+Source: `I Automated a $2M Business in 9 Days. Here's Every Workflow`  
+Decision: Adapt  
+Area: AI Growth Systems, Sales And Prospecting, Client Delivery  
+Change: Add a service-business automation audit covering lead response, lead scoring, booking, follow-up, contracts, invoices, reviews, approval gates, and paired reporting.  
+Evidence file: `pipeline/youtube-scout/transcript-extractions/yt-20260630-001-seven-workflow-automation-leak-audit.md`  
+Status: Needs template. No CRM access, SMS, email, payment setup, review automation, client contact, or campaign execution without approval.
+
+### Action: Add Foundation Local SEO Site Architecture Gate
+
+Source: `How I Build Professional Local Business Websites in 2026 (SEO optimised - Claude code)`  
+Decision: Adapt  
+Area: Foundation Website QA, GEO / AEO, Local SEO, Digital Growth Engine Reporting  
+Change: Add a pre-design architecture gate for services, locations, page map, 2-second homepage clarity, local proof, internal links, schema, mobile QA, speed, and staging review.  
+Evidence file: `pipeline/youtube-scout/transcript-extractions/yt-20260630-002-foundation-local-seo-site-architecture-gate.md`  
+Status: Needs checklist integration. No fake local pages, AI slop location pages, paid SEO data use, or default oversized page scope.
+
+### Action: Add Skill Engineering Gate To Operating-Layer Backlog
+
+Source: `N8N Agents Are Old, Use Claude Skills to Automate ANYTHING!`  
+Decision: Adapt  
+Area: Agency Operations, AI Growth Systems, Content And Visibility Systems  
+Change: Before adding a skill, plugin, or agent workflow, require repeated task, current owner, context files, output spec, approval gate, tool/API need, data risk, error handling, test prompts, and proof output.  
+Evidence file: `pipeline/youtube-scout/transcript-extractions/yt-20260630-003-skill-engineering-gate.md`  
+Status: Needs SOP row. No plugin install, paid API key, Gmail action, publishing, or client connector workflow from this run.
+
+### Action: Add Design System Export Gate To Website Production Backlog
+
+Source: `Claude Just Got An Insane Update, And This Is The Only Tutorial You Need (Free)`  
+Decision: Adapt  
+Area: Website Production System, Digital Infrastructure, Content And Visibility Systems  
+Change: Add a gate before AI-generated decks, carousels, landing pages, and client review assets: brand packet, reusable design system, draft output, human edit, export/code handoff, and verification.  
+Evidence file: `pipeline/youtube-scout/transcript-extractions/yt-20260630-004-design-system-export-gate.md`  
+Status: Needs backlog integration. No Claude Design upgrade, Open Design install, GitHub setup, Higgsfield connector, client data upload, or publishing from this run.
+
+### Action: Add Guarded AI Employee Scope Filter To Audit Preview Backlog
+
+Source: `NEW AI → CLONE This Once → Sell AI Employees For 299/mo`  
+Decision: Adapt with constraints  
+Area: AI Growth Systems, Foundation Offer, Sales And Prospecting, Client Delivery  
+Change: Convert the AI employee bundle into a diagnostic scope filter for website presence, GBP, lead capture, missed calls, booking, reviews, inbox, CRM, follow-up consent, reporting, and rollback.  
+Evidence file: `pipeline/youtube-scout/transcript-extractions/yt-20260630-005-guarded-ai-employee-scope-filter.md`  
+Status: Needs checklist. No free-website outreach, client contact, CRM access, SMS, WhatsApp, email, phone, review, payment, vendor setup, or SaaS commitment from this run.
+
+### Action: Add Automation Fit Filter To AI Growth Systems Backlog
+
+Source: `Don't Fall For This AI Trap`  
+Decision: Adopt  
+Area: AI Growth Systems, Client Delivery, Agency Operations  
+Change: Add a pre-automation filter for repeatability, input structure, rule clarity, edge cases, failure cost, approval owner, human judgment, and proof output before recommending AI workflows.  
+Evidence file: `pipeline/youtube-scout/transcript-extractions/yt-20260630-006-automation-fit-filter.md`  
+Status: Needs SOP row. No client workflow automation or tool install from this run.

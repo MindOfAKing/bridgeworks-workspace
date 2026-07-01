@@ -1,0 +1,657 @@
+00:00 Claude just made a massive upgrade to
+00:02 their design tool, Claude Design. They
+00:04 rebuilt it completely from the ground
+00:06 up, and this new version finally stopped
+00:09 burning through your Claude Limit. Now,
+00:11 here's the catch. To actually use it,
+00:13 you need a paid Claude subscription. But
+00:15 there's also a free open-source version
+00:17 of it that gives you almost the same
+00:19 thing. And if you've got a Chat GPT or
+00:21 Gemini subscription, you can run that
+00:23 free version without paying a single
+00:25 penny. And here's the promise. By the
+00:27 end of this video, you'll go from a
+00:29 complete beginner to building five real
+00:32 things on your own, things that normally
+00:34 take hours by hand. We'll also set up
+00:36 that free version together step by step
+00:39 so you can run all of this without
+00:41 paying for Claude. And obviously, I'll
+00:43 share every prompt, the brand files, and
+00:46 the link to that free tool in my
+00:48 WhatsApp community, staying ahead. You
+00:50 can find the link in the description so
+00:52 that you can build along with me and end
+00:54 up learning this powerful tool. Now,
+00:56 let's get into it.
+01:02 So, let's start where you already are on
+01:04 claude.ai, the normal Claude chat you
+01:06 use every day. Look at the left sidebar.
+01:09 There's a small design icon, the one
+01:11 shaped like a ruler and a pen. Let's
+01:13 click it. And we're inside Claude
+01:15 Design. Brand new screen. It asks what
+01:18 we want to design today with one box to
+01:20 type in and a few options sitting above
+01:22 it. Let me walk you through those
+01:24 options first because once you know
+01:26 them, the rest is easy. Up top, let's
+01:29 open templates. So, you can make a
+01:31 prototype, slides, a document, a
+01:33 wireframe, or an animation. You can also
+01:36 start from a blank page. We'll use most
+01:38 of these by the end. Next to that is
+01:40 design system. Let's leave this one
+01:42 alone for now. We'll set it up properly
+01:44 in a bit. And it's the thing that makes
+01:46 everything come out looking like your
+01:48 brand. Then there's the model. Let's
+01:50 pick Claude Opus 4.8. the most capable
+01:53 one. And this little plus is where you'd
+01:55 attach your own things. A Figma file,
+01:58 your code from GitHub, that kind of
+02:00 stuff. So, here's build number one, a
+02:02 slide deck. The most common thing people
+02:03 make here. Let's click slides. Now,
+02:06 here's the part that saves the work.
+02:07 We're not writing a single slide
+02:09 ourselves. We're going to start from
+02:10 something that already exists. So, let's
+02:13 go to my YouTube channel to a video I
+02:15 made called Forget Prompt Engineering.
+02:17 This is what actually matters in AI.
+02:20 It's all about the ADAPT framework. how
+02:22 a complete beginner actually gets good
+02:24 at AI. Let's open the transcript of that
+02:27 video and copy the whole thing. And if
+02:29 you're new to that word, a transcript is
+02:31 just the full text of everything said in
+02:34 the video. That's it. We're going to
+02:35 hand that text to Claude and let it do
+02:37 the heavy lifting. Back in Claude
+02:39 design, let's paste that whole
+02:40 transcript into the box and underneath
+02:43 it, let's tell Claude what we want in
+02:45 plain English, like we're talking to a
+02:47 person. something like this is a video
+02:50 on how to learn AI and the adapt
+02:52 framework. Now build me a
+02:53 beginnerfriendly zero to pro AI learning
+02:56 road map from this transcript and let's
+02:58 hit send. Now watch what it does. It
+03:01 doesn't just throw a deck at us. It
+03:03 comes back and asks a few questions
+03:04 first the same way a good designer would
+03:07 before starting anything. It wants to
+03:09 know what format we want. And since
+03:11 we're building a presentation, let's go
+03:13 with the slide deck. Quick side note,
+03:15 see this option that says decide for me?
+03:17 If you ever can't be bothered to pick,
+03:19 you can let Claude choose for you. But
+03:21 let's do it properly. Next, it asks who
+03:23 this is for. And for us, that's complete
+03:25 beginners, people who are just getting
+03:27 curious about AI. So, let's choose that.
+03:30 Then, it asks how much detail to put on
+03:32 each stage. And since our video is full
+03:34 of tools and steps, let's go with full
+03:37 and see how it handles all that
+03:39 information. For the look and feel,
+03:41 let's tell it to explore a few options
+03:43 for us. For colors, the default is that
+03:45 dark cloud style which we don't really
+03:47 want on our own brand. So instead of
+03:49 picking a color, let's just type decide
+03:51 for me based on my audience. It asks
+03:54 whether to include the actual tool names
+03:56 and yes, those really help beginners. It
+03:58 asks about adding a call to action, and
+04:00 that's fine, too. And the last one just
+04:02 asks if there's anything else we want to
+04:04 add, and there isn't. So, let's
+04:06 continue. And now it gets to work. Look
+04:08 at the left panel. It's thinking and
+04:10 it's writing out something it calls a
+04:12 scratch pad, which is really just it
+04:13 planning the whole thing before it
+04:15 builds a single slide. Then it starts
+04:17 building slide by slide right in front
+04:19 of us. This takes a couple of minutes,
+04:21 so it's sped up here. And there it is.
+04:23 Look at this. From one YouTube
+04:25 transcript, Claude built a full 23 slide
+04:28 deck. Slide one, adapt, a beginner's
+04:31 road map to AI. Then a slide on why this
+04:34 matters now with real numbers on it.
+04:36 Then the whole framework laid out, one
+04:39 slide for each letter. Acknowledge,
+04:41 dabble, amplify, problem solve, tie
+04:44 together. There's even a starter toolkit
+04:46 slide with the tools on it. 23 slides
+04:49 from one video and we designed nothing.
+04:51 And this is where the new version really
+04:53 shows itself. This deck isn't just a
+04:56 picture you stare at. It actually
+04:58 presents. Let me show you. Up in the top
+05:00 right, let's click present. and then in
+05:02 this tab and it opens a presenter view.
+05:04 The exact thing you get in PowerPoint or
+05:06 Google Slides. The current slide is
+05:08 here. The next slide is previewed on the
+05:10 side. There's a running timer and down
+05:13 here are speaker notes. The words you'd
+05:15 actually say out loud for each slide
+05:17 written for you. We can pause the timer
+05:19 whenever. Let's hit escape to come out
+05:22 of it. And if you'd rather just run it
+05:24 on a screen, let's click present again
+05:26 and choose full screen. And there's your
+05:28 deck, full screen, ready to present in a
+05:30 room. Escape again. There's even a new
+05:32 tab option which opens the whole thing
+05:35 in a clean viewer in its own tab. So,
+05:37 this is a real presentation tool now,
+05:40 not just a design. That's the big
+05:41 change. Now, what if something's wrong
+05:43 and you just want to fix it yourself? In
+05:45 the old version, you couldn't. Here, you
+05:47 can. Let's find the edit toggle in the
+05:49 top right and switch it on. Now, let's
+05:51 click straight into the title text on
+05:53 the slide. See this little toolbar that
+05:55 pops up? It's just like any text editor.
+05:57 Let's add to the title zero to hero.
+06:00 Now, let's highlight those words and
+06:01 make them bold or itallic or underlined.
+06:04 We can turn them into a bullet list or a
+06:06 numbered list. We can even add a link.
+06:08 So, let's grab the YouTube URL and paste
+06:10 it right in. So, you can edit any text
+06:13 on any slide directly without prompting.
+06:15 And that helps in saving Claude. And in
+06:17 the hook, we should play an angle where
+06:19 we are saying something new has come,
+06:21 just released or something like that.
+06:23 Keep it short. Then you can say
+06:25 masterclass and then you can do a
+06:26 listing of the listicles like that
+06:28 tokens as well. Now look at the left
+06:30 panel while we're in edit mode. There
+06:32 are three tabs here. Simple, pro, and
+06:34 code. Let me show you all three and I'll
+06:36 tell you exactly which one is for you.
+06:39 Simple is for everyone. Let's open it.
+06:41 This is your typography, the font, the
+06:44 size, the weight, the color. Let's
+06:46 change the font. Try playfair display.
+06:48 And that's not quite it. So let's switch
+06:50 to popins. We can drag the size up or
+06:53 down. We can change the color. Let's
+06:55 make this text white. We can change the
+06:57 weight to light. There are even shapes
+06:58 and a pen if you want to draw on a
+07:00 slide. So, that's simple. And for most
+07:02 of you, simple is all you'll ever touch.
+07:04 Now, let's click pro. I know this panel
+07:07 looks like a cockpit. Here's the thing.
+07:08 You do not need it. This is for
+07:10 designers who want to control every
+07:12 pixel. The exact width and height, the
+07:15 spacing, the padding, the layers, the
+07:17 way things line up. If that's you, it's
+07:19 all here. the same controls you'd get in
+07:21 a proper design tool. If that's not you,
+07:24 just know it exists and move on. Nothing
+07:26 breaks if you never open it. And the
+07:28 last tab, code. Let's click it. When you
+07:30 select anything on the slide, this shows
+07:33 you the actual code behind it. This
+07:35 one's for developers. If you're not a
+07:37 developer, then you can completely
+07:39 ignore this tab. Let's not keep any of
+07:41 these changes. So, let's hit discard.
+07:43 And the slide goes right back to how it
+07:45 was. Nothing you try in here is
+07:47 permanent until you save it. Now, let's
+07:50 go back to the chat side. If you want to
+07:52 restyle things, but you're not sure
+07:53 exactly what to ask for, there's tweaks.
+07:56 Let's open it. And if you have no idea,
+07:58 click ideas, and Claude suggests a
+08:00 change and applies it for you. Now, it
+08:02 gives us a little panel of options. We
+08:04 can switch the whole color palette.
+08:06 Forest for green, indigo for blue, plum
+08:09 for pink, mono for black, and white. We
+08:11 can change the fonts. We can change the
+08:13 background tones. And once you like a
+08:15 combination, let's click save as default
+08:17 so it sticks. Here's one that surprised
+08:19 me. Comments. Let's click the comments
+08:21 tab and then click anywhere on the slide
+08:23 to drop a little pin. The same way you
+08:25 leave a note in Google Slides or Canva.
+08:27 Let's type a quick note. Say, "Change
+08:29 this title to something cleaner."
+08:31 Normally, a note like that just sits
+08:33 there until a human deals with it. But
+08:35 here, let's click resolve with Claude
+08:37 and watch. Claude reads the note, makes
+08:40 the change itself, and closes it. So,
+08:42 you can leave feedback like you would
+08:44 for a teammate. And the teammate doing
+08:46 the work is Claude. There's one more and
+08:48 it's my favorite way to give feedback.
+08:50 Markup. Let's click it. And now let's
+08:52 just draw a box around the word adapt on
+08:54 the title slide and type what we want.
+08:57 Something like connect adapt to its full
+08:59 form in a cleaner way. Let's send that.
+09:02 It thinks for a moment and then it redes
+09:04 that part of the slide linking each
+09:06 letter to what it stands for exactly
+09:09 where we circled. So you point at the
+09:11 thing, you tell it what you want and it
+09:13 changes that thing. That simple. a
+09:15 couple of small ones so you know they're
+09:17 there. Over in the left panel under
+09:19 pages, you can add a fresh blank page
+09:22 and start something new or delete one
+09:24 you don't want. Let's get rid of this
+09:26 one and stay on our road map. And
+09:27 there's an all project files view where
+09:29 Claude keeps everything it built neatly
+09:32 organized. You don't need to touch any
+09:34 of it. Claude's handling that for you.
+09:36 It's just there if you're ever curious.
+09:39 And you don't always have to do things
+09:41 by hand. Let's go back to the chat and
+09:43 just ask. Let's type add the icons and
+09:46 logos for all the tools mentioned in the
+09:48 deck. Send it. It works for a moment and
+09:50 when we come back to the starter toolkit
+09:52 slide, every tool now has its logo
+09:55 sitting next to it. Chat GPT Claude
+09:57 Gemini all plays neatly. So between
+10:00 editing by hand and just asking in chat,
+10:02 you've got both. So build one is good,
+10:04 but there's one problem. It doesn't look
+10:06 like your brand yet. The colors, the
+10:08 fonts, they're Claude's choices, not
+10:10 yours. And before we make the next four
+10:12 builds, this is the one setup that fixes
+10:14 that for all of them at once. A design
+10:17 system. So what is a design system? In
+10:19 plain English, it's your brand's rule
+10:21 book. Your colors, your fonts, your
+10:23 spacing, the way your buttons and cards
+10:25 look all written down in one place. Once
+10:28 Claude has it, everything it makes for
+10:30 you comes out in your brand
+10:32 automatically without you explaining it
+10:34 every single time. That's the whole
+10:36 idea. Let me build one so you can see
+10:38 it. There are two ways in. Let's go to
+10:40 design systems and click setup or use
+10:42 this floating button in the bottom
+10:44 corner. Same thing. A box pops up with
+10:46 two choices. Create here or create using
+10:49 claude code. Claude code gives the
+10:51 highest fidelity if you've got an actual
+10:53 codebase. But for most people, let's
+10:55 just click create here. Now a form opens
+10:57 asking about our company. Let's give it
+10:59 a name and a quick line about who we
+11:00 are. We'll call it staying ahead and say
+11:03 a community of curious AI folks who want
+11:05 to become prousers of AI. So that's who
+11:08 the brand is in one sentence. Then it
+11:09 asks for any design material we have.
+11:11 You can link your GitHub, link code from
+11:14 your computer, upload a Figma file, or
+11:16 just add fonts, logos, and assets. This
+11:19 is the part people overthink. You don't
+11:21 need a fancy brand kit. Let's just drop
+11:24 in a screenshot of our colors and fonts,
+11:26 and that's enough. You can also type
+11:28 extra notes about your brand voice if
+11:29 you want, but we'll keep it simple.
+11:31 Let's continue to generation. It tells
+11:33 us this takes about 5 minutes. So, let's
+11:36 hit generate. And here's what it gives
+11:38 back. A full design system. We didn't
+11:40 even upload a logo and it still made us
+11:42 a staying ahead one. Then the brand
+11:44 colors, the neutral shades, the colors
+11:46 for things like errors and success. And
+11:48 the building blocks, forms, inputs,
+11:50 checkboxes, navigation, spacing, the
+11:52 corner roundness, the type sizes, the
+11:55 buttons, the cards, all of it ready to
+11:57 use. So now, let's go back to build one
+11:59 and put it into this brand. Let's open
+12:01 the design system panel on the deck. It
+12:03 says no design systems yet, which just
+12:05 means we need to refresh the page. Let's
+12:07 do that. Open it again. And now our
+12:10 staying ahead system is there. So, let's
+12:11 pick it. And here's the payoff. Let's go
+12:13 to the chat and type one line, convert
+12:16 the whole deck to our design system.
+12:18 That's it. One sentence and it goes
+12:21 through every single one of those 23
+12:23 slides and reskins them in our colors,
+12:26 our fonts, our look. We didn't redo a
+12:29 single slide by hand, night and day. And
+12:32 this is the thing to really hold on to
+12:34 because it's why the next four builds
+12:36 are so fast. You build a brand once and
+12:38 from here on everything you make just
+12:41 inherits it automatically. Build two, a
+12:44 document, and watch how quick this is
+12:46 now that the brand exists. Same content
+12:48 as a deck in completely different
+12:50 format. Let's go back, refresh, pick our
+12:52 staying ahead system again, and this
+12:54 time choose the document template. Let's
+12:57 make an infographic. We'll use the exact
+12:59 same video transcript as before. Let's
+13:01 paste it in and type. Draft a one-page
+13:04 road map infographic for this. Send it.
+13:06 And because our design system is already
+13:08 attached, what comes back is the same
+13:10 content as our deck, but as a single
+13:12 onbrand infographic in our colors
+13:15 without us doing anything extra, two
+13:17 builds down, both from one video. Build
+13:19 three, a social carousel. Let's take
+13:21 that onepage road map and make it
+13:23 social. First, the export options
+13:26 because you'll want these. Let's click
+13:27 export. You can pull it down as a PDF,
+13:30 as a PowerPoint, as a project file, or a
+13:33 standalone HTML to put it on the web.
+13:35 So, whatever you need it as, it's here,
+13:37 but let's repurpose it instead. Let's
+13:39 use the voice option and just say, make
+13:41 an Instagram carousel of this. And it
+13:43 turns our one pager into a proper social
+13:45 carousel. Slide by slide in our brand
+13:48 dark slides with our green accents. It's
+13:50 ready to post. And if we wanted, we
+13:52 could ask it to add icons or change
+13:55 anything. So that's three, a deck, an
+13:57 infographic, and a carousel. All from
+14:00 one video, all on one brand. Build four,
+14:02 an animation. And this one can borrow
+14:05 another tool to help. So let me show you
+14:06 that first. Up on the plus in the top
+14:09 left, there's manage connectors. This is
+14:11 where Claude links to other tools, your
+14:13 GitHub, your Google Drive, Slack, and
+14:16 the one we want, Higsfield. A connector
+14:18 is just a bridge that lets Claude use
+14:20 another tool here to generate images or
+14:23 video when it needs them. So with
+14:25 Higsfield connected, Claude can call it
+14:27 mid-built. Now let's make an animated
+14:29 launch video for our WhatsApp community.
+14:32 Let's pick the animation template and
+14:34 type make an animated launch video for
+14:36 the staying ahead WhatsApp community and
+14:38 use Higsfield if you need any images or
+14:41 video. Then it asks a stack of settings.
+14:43 The aspect ratio, the length, the motion
+14:45 vibe, the energy, all of it. Let's just
+14:48 hit decide for me on everyone and let
+14:50 Claude choose. Continue. And here's what
+14:52 comes back. A clean kinetic text
+14:54 animation, a green highlight on become
+14:57 the pro user of AI, a little chat
+14:59 mockup, a counter ticking landing on a
+15:01 join the WhatsApp community card. One
+15:03 drop a week, no spam. For a textbased
+15:05 launch video like this, it didn't even
+15:07 need Higsfield. It just animated the
+15:09 text itself. And for a launch clip or a
+15:11 quick promo, that works really well.
+15:13 Now, one thing, so you point this at the
+15:15 right job. When we pushed it the other
+15:17 way toward a complex artistic scene from
+15:19 a reference image, that's when it called
+15:21 Higsfield to generate the picture and it
+15:23 floated a few elements around with some
+15:25 sparkle, but it isn't doing real
+15:28 layerbylayer animation the way an editor
+15:30 would in After Effects because these run
+15:32 on HTML and CSS. So, for clean text,
+15:35 launch videos, and promos, it's great.
+15:37 for heavy artistic work. That's still an
+15:39 editor's job. Build five. And this one's
+15:42 different. An actual page someone could
+15:44 use. Two templates do this. Wireframe
+15:46 and prototype. Quick plain version. A
+15:48 wireframe is the rough skeleton of a
+15:50 page. And a prototype is the polished
+15:52 interactive version of it. You can build
+15:55 either one on its own here. Let's start
+15:57 with the wireframe. Let's click that
+15:59 template and type build a small landing
+16:01 page for the staying ahead community to
+16:04 join the WhatsApp community and add a
+16:06 small form for their details. Send it.
+16:08 And again, it asks a few quick
+16:09 questions. First, it wants to know which
+16:11 fields to collect. So, let's say full
+16:13 name, email, WhatsApp number, their
+16:16 role, and their city. It asks what
+16:18 happens after someone submits. So, let's
+16:20 choose show a success message with a
+16:22 join WhatsApp button. And it asks about
+16:24 the layout. So, let's keep it a simple
+16:27 centered column. Let's continue. It
+16:29 builds for a moment and here's the page.
+16:31 It grabbed our brand logo on its own,
+16:33 wrote a headline, join the WhatsApp
+16:35 where we stay ahead, and laid out the
+16:37 full form with every field we asked for
+16:40 and a join button. Now, we clicked
+16:42 wireframe, but that already looks close
+16:44 to finished. So, let's see what the
+16:45 prototype adds. Let's copy that same
+16:47 prompt, go back to the homepage, paste
+16:50 it in, and this time, click the
+16:51 prototype template send. It asks a
+16:54 richer set of questions this time which
+16:56 is the difference. It asks about the
+16:57 fields again and now also about a
+17:00 company field, the headline style, what
+17:02 the success state should do and whether
+17:04 to show social proof like a member
+17:05 count. Let's say yes to the member
+17:07 count. Let's continue. This one takes a
+17:09 bit longer because it's more complete.
+17:11 And here's the prototype. A bold
+17:13 headline, become the prouser of AI. The
+17:15 full form with realistic example details
+17:18 already filled in so you can see how
+17:20 it'll look. a bright green join the
+17:22 WhatsApp community button and a little
+17:24 member count badge for social proof.
+17:26 It's a polished interactive page. To
+17:28 actually make that form work and collect
+17:30 real signups, we hand it to cloud code.
+17:33 So, let's do that. Up in share, you've
+17:35 got the same export options, PDF,
+17:37 project file, PowerPoint, HTML. But look
+17:39 at this other tab, send to. You can push
+17:42 this design straight to Cloud Code to
+17:43 turn it into a real working website.
+17:46 There's a whole list of other places,
+17:47 too. And for a live page like this, the
+17:49 ones that make sense are the website
+17:51 builders, Wix, Versil, Lovable, Replet.
+17:54 The one we'll use is Cloud Code. So,
+17:56 let's click it. It opens a little box
+17:58 that gives you a command to copy or lets
+18:01 you download the files or open it in
+18:03 cloud code on the web. So, you design
+18:05 the page here and you take it to code to
+18:07 ship it for real. And this is the one I
+18:09 told you about at the start, the move
+18:11 almost nobody finds. Let's go back to
+18:13 the homepage and open our design system,
+18:15 the staying ahead one. Let's open it in
+18:17 its own tab. There's our whole brand.
+18:20 The colors, the fonts, the components.
+18:22 Now, let's click share. Send to enclain
+18:31 your whole brand. Your colors, your
+18:33 fonts, all of it. And that burns through
+18:35 your usage fast. But when you send your
+18:37 design system to Claude Code like this,
+18:39 Claude Code already has your brand as
+18:41 readymade building blocks. So, it builds
+18:44 every landing page and website straight
+18:46 from your brand without you describing
+18:48 it again. You set your brand up once and
+18:51 you stop spending tokens on the same
+18:53 thing over and over again. Because of
+18:55 this trick, you end up saving a huge
+18:57 amount of tokens. Now, I saved the best
+19:00 for the very end because everything we
+19:02 just did still runs on your Claude
+19:04 subscription. So, what if you wanted to
+19:06 do all of this without that? There's a
+19:08 free open-source tool built as an
+19:10 alternative to claudes and it's called
+19:13 Openesign. You'll find it at
+19:15 open-design.ai.
+19:17 It's got a desktop app for Mac. So,
+19:19 let's download it and I'll drop the full
+19:21 setup, the links, all the files I'm
+19:23 using in the WhatsApp community, so you
+19:25 can just follow along from there. So,
+19:27 here's the clever bit. Open Design
+19:29 doesn't have its own paid model. It runs
+19:31 on top of whatever AI agent you already
+19:34 have. Codeex, Claude Code, Gemini,
+19:36 Cursor, a whole list of them. So, you're
+19:39 not paying for another subscription on
+19:40 top. You point it at one you already use
+19:42 and it just works. And that's exactly
+19:44 what's going to make this almost free.
+19:45 You'll see in a second. First thing,
+19:47 let's bring our brand over. So, we're
+19:49 not starting from scratch. Remember that
+19:51 design system we built earlier in Cloud
+19:53 Design. Let's just carry it across. So,
+19:55 let's hop back into Cloud Design. Open
+19:56 the design system and hit share, then
+19:59 export. Let's grab it as a project zip.
+20:01 Now, back in Open Design, let's click
+20:03 add. pick that zip and tell it to
+20:05 extract the design system and watch it
+20:08 pulls our whole staying ahead brand in.
+20:10 Now, it's not a pixel perfect copy. A
+20:12 couple of things move around, but our
+20:14 colors, our fonts, the overall feel,
+20:16 it's all here. So, the brand we set up
+20:18 once is already working in a second
+20:20 tool. And before we build, look at
+20:21 everything it can make. Slide decks,
+20:24 wireframes, mobile apps, documents,
+20:27 motion graphics, even images, posters,
+20:30 videos, and voiceovers. It's actually
+20:32 got more options than claw design, but
+20:34 let's keep it simple and do the exact
+20:37 same thing we did before, a slide deck.
+20:39 Now, when you first set it up, it asks
+20:41 which AI agent you want to run it on. I
+20:44 tried one called Hermes first and it
+20:45 didn't connect for me. So, let's just go
+20:47 back into settings and pick a different
+20:49 one. And here's everything you can
+20:51 install. Cloud Code, Codeex, Gemini,
+20:53 Open Code, and more. There's even one
+20:56 called Anti-gravity that hands you free
+20:58 credits if you want to go as cheap as
+21:00 possible. But let's use codecs. And
+21:02 here's why. Because this is the part
+21:04 that matters for a lot of you. Not
+21:06 everyone watching has a clawed
+21:08 subscription. Or maybe you've already
+21:10 burned through your usage. That's
+21:12 completely fine. A huge number of people
+21:14 already have a chat GPT subscription
+21:16 sitting right there. And you can plug
+21:18 that straight into open design through
+21:20 codeex. So you can run this entire thing
+21:23 on something you're already paying for.
+21:25 Nothing extra. Now to install it,
+21:28 clicking the button opens GitHub. And I
+21:30 know GitHub looks intimidating if you're
+21:32 not a coder. So here's the move. Don't
+21:34 read any of it. Let's just copy that
+21:36 GitHub link, paste it into Codeex, and
+21:38 say, "Install the Codeex CLI for me." It
+21:41 asks for permission. We say yes, and it
+21:43 does the whole thing itself. That's the
+21:45 trick with all of this. Anytime AI
+21:47 throws GitHub at you, you don't decode
+21:49 it. You just hand the link to your AI
+21:50 and let it do the work. Once it's
+21:52 installed, let's come back, hit rescan,
+21:54 and now codec shows up. Let's pick it
+21:56 and click test just to make sure it's
+21:58 actually connected and it's working.
+22:00 Done. Now let's do the exact same thing
+22:02 we did in claw design. Home tab slide
+22:05 deck and let's paste in the same prompt
+22:07 we used before. Send it. And just like
+22:09 before it comes back with a few
+22:10 questions. How many slides? Let's say
+22:12 15. What's it for? The ADAP framework.
+22:15 The tone. Let's keep it premium. How
+22:17 closely to follow the script? Let's turn
+22:19 it into a teaching deck with speaker
+22:21 notes. Continue. And Codeex starts
+22:23 building it out. And here's what comes
+22:25 out. A full ADAP slide deck built by a
+22:29 free tool running on an agent you
+22:31 already pay for. And it does pretty much
+22:33 everything Claude Design did. You can
+22:35 flip between desktop, tablet, and mobile
+22:37 views. You can drop a comment or mark up
+22:39 a slide and send it straight to the
+22:41 agent to fix. You can edit the text,
+22:44 present it full screen, export it as
+22:46 HTML, or push it to your coding tools.
+22:49 So that's the whole thing. almost
+22:50 everything Claude Design does in a free
+22:52 open-source tool running on whatever AI
+22:55 you've already got. And by the way, that
+22:58 design system file, the exact prompts,
+23:00 the brand setup I just used, they're all
+23:02 waiting in the WhatsApp community. If
+23:04 you want to copy this exact workflow
+23:06 instead of rebuilding it from scratch,
+23:08 that's where it is. Free link in the
+23:10 description. So, let's step back and
+23:12 count it up. From one video and a few
+23:14 sentences, we built five things. a slide
+23:17 deck, a one-page infographic, a social
+23:20 carousel, an animated launch video, a
+23:22 full landing page, everyone on our own
+23:25 brand, and not one of them designed by
+23:27 hand. And then we handed it to code to
+23:29 ship for real. If you want to see where
+23:30 this goes next, I just made a full
+23:32 walkthrough on cloud code, the tool we
+23:34 ended on, and it's right here. Go watch
+23:37 that one next. And if you want more of
+23:38 these proper detailed AI builds that
+23:41 make you more capable at your work,
+23:43 subscribe because the next one is
+23:45 already coming.

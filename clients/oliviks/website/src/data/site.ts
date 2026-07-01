@@ -38,6 +38,13 @@ export const site = {
   reviews: { rating: '4.8', count: '493', source: 'Google' },
   press: ['Origo', 'We Love Budapest', 'WMN'],
 
+  // Restaurant Guru Certificate of Excellence, received 30 June 2026.
+  award: {
+    label: 'Restaurant Guru 2026',
+    title: 'Top 100 restaurants with banquet room in Budapest',
+    url: 'https://restaurantguru.com/Oliviks-Kitchen-Budapest',
+  },
+
   social: {
     facebook: 'https://www.facebook.com/OliviksKitchen',
     instagram: '', // add when confirmed

@@ -102,7 +102,17 @@ export default function AboutPage() {
             <p className="font-display text-[clamp(1.2rem,2.5vw,1.6rem)] font-extrabold">
               {site.reviews.rating}★ rated on Google. Featured by {site.press.join(', ')}.
             </p>
-            <p className="mt-2 text-sm italic text-stone-400">&ldquo;Honest food with soul.&rdquo;</p>
+            <p className="mt-2 text-sm text-stone-400">
+              <a
+                href={site.award.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="font-semibold text-gold transition-colors hover:text-gold-400"
+              >
+                {site.award.label} Certificate of Excellence
+              </a>{' '}
+              &middot; <span className="italic">&ldquo;Honest food with soul.&rdquo;</span>
+            </p>
           </div>
         </Reveal>
       </section>

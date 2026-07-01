@@ -82,6 +82,18 @@ export default function HomePage() {
                     {site.press.join(' · ')}
                   </span>
                 </p>
+                <div className="h-8 w-px bg-cream/20" aria-hidden="true" />
+                <a
+                  href={site.award.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-[13px] leading-tight text-cream/70 transition-colors hover:text-cream"
+                >
+                  {site.award.label}
+                  <span className="mt-0.5 block font-display font-bold text-gold">
+                    Certificate of Excellence
+                  </span>
+                </a>
               </div>
             </div>
 

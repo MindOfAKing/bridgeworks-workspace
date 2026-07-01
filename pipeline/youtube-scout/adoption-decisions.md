@@ -596,3 +596,99 @@ Action: Add a Search Everywhere Visibility Map template covering website clarity
 Owner: Emmanuel / BridgeWorks
 
 Status: Needs template. No fake reviews, spam profiles, paid citation campaigns, or AI-ranking guarantees.
+
+### 2026-06-30 - Seven-Workflow Automation Leak Audit
+
+Source: `I Automated a $2M Business in 9 Days. Here's Every Workflow`
+
+Decision: Adapt
+
+BridgeWorks area: AI Growth Systems, Sales and prospecting, client delivery
+
+Reason: The transcript gives a concrete service-business diagnostic across lead response, qualification, booking, follow-up, contracts, invoices, and reviews. BridgeWorks should adapt the audit sequence, not copy the revenue claims or promise automation before scope and approvals exist.
+
+Action: Create a Seven-Workflow Automation Leak Audit template for audit previews.
+
+Owner: Emmanuel / BridgeWorks
+
+Status: Needs template. No CRM access, SMS, email, payment setup, review request automation, client contact, or campaign execution without approval.
+
+### 2026-06-30 - Foundation Local SEO Site Architecture Gate
+
+Source: `How I Build Professional Local Business Websites in 2026 (SEO optimised - Claude code)`
+
+Decision: Adapt
+
+BridgeWorks area: Foundation website QA, local SEO, GEO / AEO, Digital Growth Engine reporting
+
+Reason: The transcript reinforces that AI-built websites need search structure before polish: services, locations, page map, local proof, schema, mobile QA, speed, and staging checks. This fits the BridgeWorks static-first Foundation offer if scaled to scope and budget.
+
+Action: Add a Foundation Local SEO Site Architecture Gate to website production and DGE reporting backlog.
+
+Owner: Emmanuel / BridgeWorks
+
+Status: Needs checklist integration. No fake local pages, AI slop location pages, paid SEO data use, or default oversized page scope.
+
+### 2026-06-30 - Skill Engineering Gate
+
+Source: `N8N Agents Are Old, Use Claude Skills to Automate ANYTHING!`
+
+Decision: Adapt
+
+BridgeWorks area: Agency Operations, AI Growth Systems, Content And Visibility Systems
+
+Reason: The transcript's useful lesson is to define repeatable task context, examples, workflow steps, error handling, and proof tests before calling something an agent or skill. This fits Emmanuel's AI-as-build-method reality and reduces tool-sprawl risk.
+
+Action: Add a Skill Engineering Gate row to the existing Skill Adoption Gate and AI Operating Layer backlog.
+
+Owner: Codex / Emmanuel
+
+Status: Needs SOP row. No plugin install, paid API key, Gmail action, publishing, or client connector workflow from this run.
+
+### 2026-06-30 - Design System Export Gate
+
+Source: `Claude Just Got An Insane Update, And This Is The Only Tutorial You Need (Free)`
+
+Decision: Adapt
+
+BridgeWorks area: Website Production System, Digital Infrastructure, Content And Visibility Systems
+
+Reason: The transcript shows that AI design output improves when the brand system is defined once, reused across assets, and handed to code as structured context instead of being re-explained in every prompt.
+
+Action: Add a Design System Export Gate to website production and asset-factory backlog: brand packet, reusable design system, draft output, human edit, export/code handoff, and verification.
+
+Owner: Emmanuel / BridgeWorks
+
+Status: Needs backlog integration. No Claude Design upgrade, Open Design install, GitHub setup, Higgsfield connector, client data upload, or publishing from this run.
+
+### 2026-06-30 - Guarded AI Employee Scope Filter
+
+Source: `NEW AI → CLONE This Once → Sell AI Employees For 299/mo`
+
+Decision: Adapt with constraints
+
+BridgeWorks area: AI Growth Systems, Foundation Offer, Sales And Prospecting, Client Delivery
+
+Reason: The transcript maps a useful local-business upgrade stack: website, chat, missed-call response, booking, reviews, inbox, CRM, and follow-up. The unsafe part is defaulting to free-website outreach and vendor-led resale before scope, trust, and consent are clear.
+
+Action: Add a Guarded AI Employee Scope Filter to audit previews and Foundation upsell thinking.
+
+Owner: Emmanuel / BridgeWorks
+
+Status: Needs checklist. No free-website outreach, client contact, CRM access, SMS, WhatsApp, email, phone, review, payment, vendor setup, or SaaS commitment from this run.
+
+### 2026-06-30 - Automation Fit Filter
+
+Source: `Don't Fall For This AI Trap`
+
+Decision: Adopt
+
+BridgeWorks area: AI Growth Systems, Client Delivery, Agency Operations
+
+Reason: The transcript gives a concise guardrail: power users know what not to automate. This protects BridgeWorks from building AI workflows before task clarity, repeatability, edge cases, approvals, and failure cost are understood.
+
+Action: Add an Automation Fit Filter before n8n, AI agent, CRM, SMS, email, creative, or reporting automation recommendations.
+
+Owner: Emmanuel / BridgeWorks
+
+Status: Needs SOP row. No client workflow automation or tool install from this run.

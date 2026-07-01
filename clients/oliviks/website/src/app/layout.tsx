@@ -9,7 +9,7 @@ import { restaurantSchema } from '@/lib/schema';
 
 const rubik = Rubik({
   subsets: ['latin'],
-  weight: ['400', '500', '600', '700'],
+  weight: ['400', '500', '600', '700', '800', '900'],
   variable: '--font-rubik',
   display: 'swap',
 });

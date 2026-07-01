@@ -41,6 +41,7 @@ export function restaurantSchema() {
       ratingValue: site.reviews.rating,
       reviewCount: site.reviews.count,
     },
-    sameAs: [site.social.facebook, site.social.instagram].filter(Boolean),
+    award: `Restaurant Guru Certificate of Excellence 2026: ${site.award.title}`,
+    sameAs: [site.social.facebook, site.social.instagram, site.award.url].filter(Boolean),
   };
 }

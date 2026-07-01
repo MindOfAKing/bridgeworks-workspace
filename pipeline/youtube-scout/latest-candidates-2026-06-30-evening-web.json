@@ -1,0 +1,49 @@
+{
+  "run_at_utc": "2026-06-30T17:01:34Z",
+  "source": "web_search_fallback",
+  "reason": "YouTube Data API script returned HTTP 403 Forbidden, so web search was used alongside RSS watchlist fallback.",
+  "queries": [
+    "site:youtube.com/watch AI automation agency n8n workflow local business June 2026 YouTube",
+    "site:youtube.com/watch Claude Code AI agents workflow June 2026 YouTube",
+    "site:youtube.com/watch AI visibility GEO local SEO 2026 YouTube",
+    "site:youtube.com/watch local business website conversion SEO 2026 YouTube"
+  ],
+  "items": [
+    {
+      "title": "I Built The LAST Ai Agent You Ever Need in n8n (No Code)",
+      "url": "https://www.youtube.com/watch?v=7GhImPHPuLk",
+      "source_query": "AI automation agency n8n workflow local business",
+      "fit_note": "Possible automation architecture candidate, but not chosen because RSS watchlist had fresher, more BridgeWorks-specific candidates."
+    },
+    {
+      "title": "Master All 6 Claude Code Dynamic Workflows",
+      "url": "https://www.youtube.com/watch?v=g9b9G8dcS8Y",
+      "source_query": "Claude Code AI agents workflow",
+      "fit_note": "Already seen in the current local runtime transcript set and not re-extracted this run."
+    },
+    {
+      "title": "How to Properly Use Claude Code Agent Teams (FULL LIVE BUILD)",
+      "url": "https://www.youtube.com/watch?v=uvs1Igr4u6g",
+      "source_query": "Claude Code AI agents workflow",
+      "fit_note": "Potential future delivery-verification candidate. Parked because 2026-06-29 already added worktree isolation."
+    },
+    {
+      "title": "The Complete SEO & AI SEO Course for 2026 (Full Beginner's Guide)",
+      "url": "https://www.youtube.com/watch?v=7DRO4rEIHDk",
+      "source_query": "AI visibility GEO local SEO 2026",
+      "fit_note": "Potential long-form GEO learning candidate. Parked because 2026-06-28 and 2026-06-30 already created Foundation AI visibility and local SEO gates."
+    },
+    {
+      "title": "The AI Visibility System That Makes Your Business The Obvious Choice",
+      "url": "https://www.youtube.com/watch?v=WVl2C9Mg6D8",
+      "source_query": "AI visibility GEO local SEO 2026",
+      "fit_note": "Potential local AI visibility candidate. Parked for later transcript fetch if Foundation QA still has gaps."
+    },
+    {
+      "title": "11 Best Free SEO Tools for Business Websites [MUST-HAVES]",
+      "url": "https://www.youtube.com/watch?v=JRF9zpPpQGQ",
+      "source_query": "local business website conversion SEO 2026",
+      "fit_note": "Useful free-tool angle, but lower fit than transcript-read RSS candidates for this run."
+    }
+  ]
+}

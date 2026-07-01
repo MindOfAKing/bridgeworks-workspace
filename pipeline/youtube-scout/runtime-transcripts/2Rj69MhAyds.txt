@@ -1,0 +1,1274 @@
+00:00 Right now, thousands of [music] people
+00:01 are searching Google for local
+00:03 businesses exactly like the ones you're
+00:05 building a website for now. And the
+00:06 business that shows up first wins the
+00:08 customers. And here's the problem.
+00:10 Everybody is building websites [music]
+00:11 with AI now. And they might look
+00:12 incredible, but almost none of them are
+00:14 actually showing up in Google search
+00:16 because looking good and getting found
+00:18 are two completely different things. And
+00:20 the thing that decides who ranks is the
+00:23 one step that every AI website video
+00:26 misses and that is the structure
+00:28 underneath. So in this video I'm
+00:30 building a complete local business
+00:32 website end to end with nothing left out
+00:35 using Claude code design and Astro.
+00:38 We're going to cover research design
+00:40 structure the build the technical SEO
+00:42 components and even ship this thing. So
+00:44 let's get to it. The first step does not
+00:46 start with the design or the build of
+00:48 the website, but it starts with a little
+00:49 bit of research and getting the
+00:51 structure of the website right. This is
+00:52 probably the most important step apart
+00:54 from optimizing the website, which we'll
+00:56 do in a couple of steps. But without
+00:58 getting this right, the rest does not
+01:00 work. And we want by the end of this
+01:02 step something that looks like this. I
+01:04 know it's very simple, but this is
+01:05 really going to help. All this is is to
+01:07 do some research in what are all the
+01:09 transactional keywords, the
+01:10 service-based keywords, and how they're
+01:12 going to kind of fit in alignment in the
+01:14 website altogether. See, most of these
+01:16 AI built websites, they look nice, but
+01:18 for the most part, they all tend to have
+01:19 this really simplistic structure to
+01:21 them. You have a homepage and you have a
+01:23 couple of pages on the site, maybe an
+01:24 about, a contact, one page with all the
+01:27 services in it and then one page with
+01:28 all the areas served in it, which is a
+01:31 huge mistake and it can rank you
+01:34 sometimes depending on the competitive
+01:35 niche that you're in. But for the most
+01:37 part, it probably won't rank very well.
+01:39 Instead, what we're looking to build is
+01:41 a website with a much more structured
+01:43 silo. I know this looks a little bit
+01:44 scary, but let me explain this a little
+01:46 bit and let me show you how we're going
+01:47 to build this nice and easy. So, for the
+01:49 same type of business, we're going to
+01:50 have a service hub or a parent page with
+01:53 all these services listed in it. And
+01:55 then each one of the services is going
+01:56 to have their own dedicated page. This
+01:59 allows you to actually rank for that
+02:01 service in that area as opposed to all
+02:03 your services being squished into one
+02:05 page and barely getting any SEO
+02:07 breathing room, if that makes sense. In
+02:09 addition, we want to create the same
+02:10 silo, but for the area served. So again,
+02:13 we're going to have a parent page for
+02:15 all the areas serviced and each area is
+02:18 going to get its own dedicated page.
+02:19 These are the hardest pages to get right
+02:21 because they need to differentiate in
+02:22 the content 50% from one page to the
+02:25 other. So you don't get done for content
+02:26 duplication or simply the page just
+02:28 won't get indexed because Google reads
+02:30 the location page to another location
+02:32 page and kind of says, "Eh, they're
+02:34 practically the same. I'm not going to
+02:35 waste my crawling budget on that." But
+02:37 we're going to get this right and that
+02:39 starts with research. So, part of the
+02:42 prompts that I'll give you for free.
+02:43 They'll be accessible in our free
+02:44 community below. The first one is the
+02:46 site architecture and silo prompt. It
+02:49 looks a little bit like this. And all it
+02:50 is is going to get you nice and uh
+02:52 organized. And it's going to do a little
+02:53 bit of research to fundamentally create
+02:56 the structure that Claude is going to
+02:58 follow for the rest of the website
+03:00 build. Now, there is a couple of things
+03:01 that you need to fill out from this
+03:02 prompt. the business type, the brand
+03:04 name, the locations that you're trying
+03:07 to rank in, all of the services that
+03:09 you've got to offer as well. That's
+03:11 really, really important for you to fill
+03:13 out. Obviously, to spare you with the
+03:15 boringness of me filling it out, I've
+03:17 got the prompt already filled out. And
+03:19 this is what we're going to give to
+03:20 Claude Code. Now, before we give this to
+03:22 Claude Code, we need to ensure we have a
+03:24 couple of things connected. And I've
+03:25 done many videos on this, but just
+03:27 quickly, you need to install data for
+03:29 SEO for Claude Code. Natively, Claude
+03:32 Code or Codeex or any AI tool doesn't
+03:35 natively have access to SEO data like
+03:37 keyword research, keyword similarity,
+03:39 the estimated monthly search volume of a
+03:41 search. That is the stuff that we really
+03:43 need to give Claude code to do this
+03:46 correctly. My preference is data for SEO
+03:48 because they are very affordable.
+03:50 They're a pay as you go program, meaning
+03:53 if you don't use it, you don't pay for
+03:55 it. And if you sign up with the link
+03:56 below, you're going to get a couple of
+03:58 free credits with data for SEO and those
+04:00 going to be more than enough for this
+04:02 entire website build. I've done a whole
+04:04 video tutorial on how to do this
+04:05 installation. I'll leave this link
+04:07 below. I have a folder in my desktop
+04:10 which I'm going to do all this work in
+04:11 from. It's called just the local
+04:13 plumbing website. I'm going to open this
+04:16 up with uh the terminal and clawed code.
+04:19 I prefer to use a thing called semox
+04:23 which is just a wrapper for clawed code.
+04:25 That's all that is. But if you prefer
+04:27 using visual code studio or just clawed
+04:29 code from the terminal or even the
+04:30 desktop application, this will work in
+04:32 the same way. With claude code activated
+04:34 within that project folder. I'm going to
+04:36 grab my completed prompt here. I'm going
+04:38 to paste that entire prompt that I've
+04:40 already prepopulated in here and I'm
+04:41 going to give it to Claude Code inside
+04:43 that project folder and give it a couple
+04:45 of minutes to do its thing. It might ask
+04:46 you a couple of questions. answer it to
+04:48 the best of your ability. But by the
+04:49 end, we need a CSV file that we can just
+04:52 use in Sheets or in Excel. After a
+04:54 couple of minutes, you should get a
+04:55 little bit of a report here telling you,
+04:57 okay, out of all your services pages,
+04:59 this would be the primary term, and this
+05:00 is the estimated monthly search volume.
+05:03 Now, take the search volume with a grain
+05:05 of salt because even if it's data for
+05:07 SEO or ahrefs or SEM Rush, all these SEO
+05:11 tools, they're not absolute sources of
+05:12 truth. So as long as there's some search
+05:14 volume, it'll be enough for you to
+05:16 concentrate on that page as it's an
+05:18 individual page. So we can see that most
+05:20 of the services have some uh search
+05:23 volume, which is great. And even the
+05:24 areas as well that we want to target,
+05:26 which is fantastic. Perfect. So now it's
+05:29 giving me the outputs here. Step three,
+05:31 step four. And if I look at the folder,
+05:34 it looks like it's got all the
+05:35 information, but it hasn't created that
+05:37 CSV file that I want. So let's ask it to
+05:39 do that. I'm going to say, great. can
+05:41 you please generate that CSV file? And
+05:43 that should be it. Okay. Now, if I look
+05:45 at the folder again and I look at the
+05:48 file, I've got here the page title, the
+05:49 target keyword, the search volume, and
+05:52 the slug. This is really what I'm
+05:54 looking for, right? So, I just want a
+05:56 structure that Claude Code is going to
+05:58 follow and not get creative on us when
+06:01 we're building the website. It's also a
+06:02 good way for you to keep yourself in
+06:04 trackable everything that you're working
+06:06 on. So, I'm pretty happy with this. If
+06:08 you want to add more pages, blog posts,
+06:10 or I don't know, calculators, or
+06:12 whatever you want, make sure you put it
+06:14 in this section of the build. If you've
+06:16 been using Claude Code for a little
+06:18 while and you have the Figma plug-in
+06:20 installed, you can check by going
+06:22 forward/mcp,
+06:24 you can see here that I've got the Figma
+06:27 plug-in installed and I can say, okay,
+06:29 uh, can you place that uh, structure
+06:32 into a Figma board so I can check it out
+06:35 as well, please? That way you can kind
+06:36 of visualize as well. I think for me
+06:38 anyway, that helps a lot to make sure
+06:40 that I'm not making some serious errors.
+06:42 And this is the time to get this right.
+06:44 So with my structure all laid out and
+06:46 with my Figma board even drawn out so I
+06:48 can either share it with my teammates or
+06:50 if you're building this for a client, it
+06:51 would be a great time to show this to
+06:53 the client before you move any further
+06:55 because they might be able to tell you,
+06:57 you know what, I actually have more
+06:58 service areas or more services that I
+07:01 want to offer. This kind of helps maybe
+07:03 bring those to mind as well. Let's move
+07:05 on to stage two. Part number two is
+07:07 about designing the website. Hi guys,
+07:09 just a quick one here. If you want to
+07:11 learn how to rank your website number
+07:13 one in the local map packs and
+07:15 organically like Will here, one of our
+07:17 community has already done. The AR
+07:19 ranking school community is for you
+07:20 where we'll teach you and we'll support
+07:22 you to do this so you can rank number
+07:23 one in the AI search engines. Link
+07:26 below. Back to it. More importantly,
+07:28 it's about keeping the same design
+07:29 aesthetic throughout the entire build.
+07:32 You don't have to use Claude design, but
+07:34 it is what I'm using at the moment. I'm
+07:37 seem to really like it and the handoff
+07:38 from Claude Design to Claude Code is
+07:40 very, very easy. Obviously, they're in
+07:43 the same ecosystem. However, if you
+07:44 don't like Claude Design because it does
+07:47 eat tokens like a fat kid loves cake.
+07:49 So, you got to be wary of that. You can
+07:50 use other tools. The other of my
+07:52 preference is Google Stitch. Google
+07:54 Stitch makes it very very easy as well
+07:55 to design a homepage and you can export
+07:58 this selection as a Figma file and even
+08:01 as a zip file which I recommend you do
+08:03 so once you like the design that you're
+08:05 ready with. It's very easy. You just
+08:07 talk to it like you would any other AI
+08:09 application till you find the design.
+08:11 One of the things that really starts
+08:12 differentiating your website build or
+08:14 our website builds with any other AI
+08:16 website builds is inspiration. Here are
+08:18 two websites that I use often to get
+08:20 inspiration so my websites don't look so
+08:22 AI generated. Although I'm sure I'm
+08:24 going to get braided in the comments,
+08:25 someone saying, "Your website still
+08:27 looks AI generated." Whatever. It ranks
+08:28 and it gets leads. That's the main
+08:30 thing. But if you need inspiration, go
+08:32 to dribble and have a look around. It's
+08:33 fantastic. You can literally just copy
+08:35 the image that they give you and give it
+08:37 to Claude Design or to Stitch to get
+08:39 some inspiration from. My favorite place
+08:41 though to get inspiration on certain
+08:43 components that really differentiate
+08:45 your website and I think give it that
+08:47 little genre or that little bit
+08:49 higherend look and feel is 21stdev.com.
+08:53 They have a lot of different components
+08:55 that you can have a look at here like
+08:57 maps, images, scroll areas, testimonial
+09:00 sections for example that you can kind
+09:02 of input into your website. The
+09:04 beautiful thing is once you click on an
+09:06 item, for example, if I want this type
+09:08 of button, they give you the code, but
+09:10 they also give you the prompt that you
+09:12 can copy exactly to claude code and say,
+09:14 "Hey, for all the buttons in the
+09:16 website, I want you to use this type of
+09:18 style and design. Just make sure that it
+09:21 has our brand colors." And then your
+09:23 website has these cool buttons or
+09:24 features that otherwise wouldn't be
+09:27 natively into a claude code build
+09:30 website. If you have no idea where to
+09:32 start with the design and you don't find
+09:34 that you kind of natively are a good
+09:36 designer, there's a prompt again in the
+09:38 free resources below that are available
+09:39 in our free community where you can give
+09:41 this prompt to any AI system really that
+09:44 will create an MD file with all of the
+09:47 brand guidelines, look and feel. You can
+09:49 do it as many times as you want until
+09:51 you're happy with the overall design.
+09:53 This is something that you want to give
+09:54 Claude code later or any other AI tool
+09:57 that you're using to build this website
+09:58 with. If you're using Claude design, you
+10:01 want to go to prototype and let's start
+10:02 a new project here. I'm going to go uh
+10:05 plumbing website YouTube tutorial. In
+10:09 design system, I'm going to make sure
+10:10 that I don't have one selected. So, it
+10:12 doesn't have a design system that I'm
+10:14 already using and I'm going to go to
+10:15 high fid high fidelity and create. There
+10:19 are two to three main pages that you
+10:21 want to create in this part. That is the
+10:23 homepage, the main services page, and
+10:25 the main area page. With those three
+10:27 components done, you can then hand this
+10:29 off to Claude Code. But here, for
+10:31 example, I want to describe in detail
+10:33 the type of business that we're building
+10:35 the website for. Now, I've created the
+10:37 fake company details here. I'm just
+10:39 going to copy this stuff here from Chat
+10:42 GBT. Again, this is a fake business. I'm
+10:44 going to go back to my claw design and
+10:46 say I
+10:49 to build a website for this business and
+10:53 paste a couple of things there and hit
+10:55 enter. What I like about Claude design
+10:57 is that it's going to ask questions
+10:58 about which way you want to go. Do you
+11:00 like this font or that font? This color
+11:02 or that color. It will take a little
+11:04 while for you to finish this, but I
+11:05 really like the way Claude Design is
+11:08 very much of an interactive element
+11:09 here. You'll see that it's going to
+11:11 start asking me questions. So, as we can
+11:13 see, Claude Design has a few questions
+11:15 about Buong City Plumbing site. So, what
+11:18 do you want help scope with? A single
+11:19 loading page, a multi-page site here.
+11:22 Uh, the visual direction. So upscale,
+11:26 you get the idea. You want to answer all
+11:27 these things. If you don't know what to
+11:29 answer, it has an option for you. Most
+11:31 of the times you're saying decide for
+11:32 me. So I'm going to say that. And here,
+11:36 which services should I feature? Uh t uh
+11:39 uh um
+11:42 perfect
+11:45 request to quote book online.
+11:55 Okay, once you press continue, it's
+11:57 going to take a couple of minutes to
+11:58 give you the first iteration and you
+12:01 should get a homepage right here which
+12:03 you can go and edit yourself. I don't
+12:05 mind this. There's a couple of things
+12:06 that you want to consider when you are
+12:08 designing a homepage, a service page,
+12:10 and a service area page. With a
+12:12 homepage, you want to use the two-cond
+12:14 rule, and that is when I land on the
+12:16 page, I should understand within 2
+12:18 seconds what it is that you've got to
+12:20 offer and what you want me to do. And
+12:22 I'm being quite literal there. So, here
+12:24 it says Houston Plumbers. Perfect.
+12:26 There's no mistake there. And you can
+12:27 call or book online. Fantastic. I knew
+12:29 exactly what I needed to do here. What I
+12:32 don't recommend you do is get all artsy
+12:34 and go like the number one plumber for
+12:37 all of your needs or just something too
+12:40 editorial. Get to the point right away,
+12:42 particularly when it comes to these
+12:43 localbased service businesses. If we
+12:45 scroll down here, we've got some value
+12:48 or some trust here. So, you want the
+12:50 licensing, the reviews. This is just
+12:52 going to add a lot of trust for the
+12:53 website, which is what you want to do as
+12:55 soon as you can. We've got all the
+12:57 services that they offer right there. a
+12:59 couple of how it works for them, the
+13:02 reviews you want to add in there as soon
+13:04 as you can, the map here of all the
+13:06 areas that you service, FAQ section at
+13:08 the bottom, and a few more other things
+13:10 as well. There are at least two pages
+13:12 that you want to build in this instance.
+13:14 So, I've built the main homepage here,
+13:16 and I've built the Katy Texas, which is
+13:19 a locationbased area page. Again, just
+13:22 so that uh we don't get very confused in
+13:25 terms of what we want to add in here. So
+13:27 once you are happy here with all the
+13:29 design, you see that I've even embedded
+13:31 a map of Katy there. I'm going to give
+13:33 you a uh checklist that you should
+13:36 consider when creating this localized
+13:38 pages here. That is really important for
+13:39 you to follow so you don't get these
+13:42 pages de-index here. We got FAQs and a
+13:45 nice little section here with [snorts]
+13:47 Claude Design. I've done a video about
+13:49 how it works and everything like that.
+13:50 But just nice and quickly, you can edit
+13:52 things very easily. If I go to the edit
+13:54 button and I want to change this here
+13:56 for example fast license yada yada yada
+13:59 and I can say you know what I don't like
+14:01 the mdash I'm just going to delete this
+14:03 whole thing I can do so here so it's a
+14:05 mixture of if you want to prompt it you
+14:06 can do that or if you want to do
+14:08 anything else that's fine as well we can
+14:10 change this all when we're doing it with
+14:12 clawed code but from a visual
+14:13 perspective it's really really nice to
+14:16 do this before you start kind of
+14:18 building the entire thing with claude
+14:19 code and Astro so if you are happy with
+14:22 the sign. What you can do is go to share
+14:25 here. You can go to send to and I can
+14:28 send to claude code and I can uh
+14:31 actually like to download the entire zip
+14:34 here. I'm going to download the zip and
+14:36 you want to place it that whole zip file
+14:38 in the folder which we have done the
+14:41 keyword research and the uh website
+14:43 structure design in already. I've just
+14:45 placed that zip file that Claude code
+14:47 gave me right in here. I can open it up
+14:49 if I want to, but Claude is going to be
+14:51 uh smart enough to do that. Phase three
+14:53 is about getting an image style guide. A
+14:55 lot of people don't do this and they
+14:57 just create random images with AI or
+14:59 they have really old images their client
+15:01 gives them that just don't look nice.
+15:04 But just by taking a couple of five
+15:06 minutes and generating a style guide for
+15:08 the images, and if you have a nice image
+15:11 generator, I'll show you the ones that I
+15:12 use, you're going to have the ability to
+15:14 create practically any image that you
+15:15 want, but it will look like it was taken
+15:18 by the same camera, the same lens, and
+15:20 it's just going to have a kind of
+15:22 formality to it that is going to look
+15:24 nice throughout the entire website, and
+15:26 it won't look random from page to page.
+15:29 So, you can see here that all these
+15:30 photos that I've done kind of look all
+15:32 the same. All the gentlemen have the
+15:34 kind of same looking uniforms and it
+15:37 just looks kind of good. The way to
+15:39 constantly get images that look cohesive
+15:42 like this is by having two main things.
+15:44 You want a style guide here. So this is
+15:48 the art director you can call it and
+15:51 then a reusable prompt template that you
+15:54 can place in but change the scene in
+15:57 here. So you see here in this I've got
+15:59 the style wrapper. So, create an image,
+16:01 authentic local service, photography,
+16:03 yada yada, the camera that it was shot
+16:05 in, the focal length, the lighting used,
+16:07 the color grading. It's got all those
+16:08 things. And this is something I'm going
+16:10 to reuse all the time, but I'm going to
+16:12 change the scene. Again, it's just going
+16:14 to allow for some cohesion because I
+16:16 want you to create highquality websites,
+16:18 not just AI generated slop, although it
+16:20 is generated with AI, but we're just
+16:22 using it in a much more smart manner.
+16:24 So, how do I get this prompt here that I
+16:25 can reuse all the time? Well, in the
+16:27 resources below, there's going to be a
+16:29 prompt called the image style guide
+16:31 prompt. Really easy to use. All you got
+16:33 to do is place it once here. I'm going
+16:35 to copy this entire thing. And you need
+16:37 to obviously fill out a couple of things
+16:39 from this prompt. Now, I've just got
+16:40 this prompt copied in a Google doc so
+16:41 you can see here, but you wanted to
+16:43 input the business type, the brand,
+16:44 personality, the color palette, and the
+16:46 mood as well. You can change the camera
+16:49 lens. If you want it to look a little
+16:50 bit less professional, you can put, hey,
+16:52 these are shot in an iPhone 13 or
+16:55 whatever you want, right? The idea here
+16:57 is to experiment a little bit. So I'm
+16:59 going to copy this whole thing and let's
+17:02 create a pallet, a style guide for this
+17:04 new website. So with that prompt, I just
+17:06 gave it to GPT. You can do this with any
+17:08 AI, but I want here this main style
+17:12 wrapper, right? And the style wrapper
+17:14 has the camera, the focal length, the
+17:15 composition, and everything else here.
+17:17 That is the one that I'm going to use
+17:18 all the time. But I'm just going to
+17:20 change the scene. So ideally this scene
+17:22 will make the image for all the
+17:25 different services, right? Let's give
+17:26 this a go and I can show you that I can
+17:28 do this in any image generator uh and it
+17:30 will work just fine. I've got it here to
+17:32 create a lot of different scenes and
+17:34 again um this is the one thing that I
+17:35 will change each time, but I'm going to
+17:40 use the same style guide. So I've asked
+17:42 it to create some scenes for outside of
+17:44 the house. I'm just going to copy this
+17:46 uh into the Google sheet. And remember,
+17:49 I've got the style guide here. So, I'm
+17:51 always going to use that one, but I'm
+17:53 going to change each one of these ones.
+17:55 So, let's say, for example, the sewer
+17:58 line repair. Let's test this one out.
+18:00 I'm going to use two image models so you
+18:03 can see the difference. I've got here
+18:04 Nano Banana 2 in Google AI Studio. You
+18:07 can also use Gemini. I just like
+18:09 creating batches of images in either
+18:11 Google AI Studio or you can also use
+18:14 OpenAI's image GPT2. If you haven't seen
+18:17 this platform, it's called the platform.
+18:20 OpenAI, the playground, and it just
+18:22 allows you to play around with models in
+18:24 a different way than you would in the
+18:26 normal chat interface. By all means, you
+18:28 can use this in the chat interface if
+18:29 you want, but I'm just going to go here,
+18:31 images, and I'm going to paste the scene
+18:33 here, and I'm going to then copy the
+18:36 actual composition and all the style
+18:39 guide here. I'm going to go back to
+18:41 images here, and I'm actually going to
+18:42 copy the entire prompt that I've just
+18:44 done. I'm going to select here a couple
+18:46 of components. So I just want a
+18:48 landscape images. The quality is going
+18:50 to be pi shore. And that is it. I'm
+18:54 going to hit enter. And I can do the
+18:56 same thing with Google AI studio. That's
+18:58 using Nano Banana 2 Pro. I've used the
+19:01 exact same prompt by the way. And I'm
+19:03 just going to go the output format
+19:04 should be images only. And let's run
+19:06 this right away. Generally, Nano Banana
+19:09 Pro 2 is way faster at generating
+19:13 images. If that's really important to
+19:15 you, then probably stick with Nano
+19:16 Banana. The idea here is that both
+19:18 models are more than good enough to do
+19:20 what it is that you're after. So, here,
+19:21 for example, I get the first one back.
+19:24 Pretty solid. Looks very real. Uh I'm
+19:28 sure if you're a plumber, you can tell
+19:29 one or two things that are wrong, but
+19:30 you know, for the most part, that's
+19:31 pretty good. While we're at it, let's
+19:33 just try it in normal chatbt as well.
+19:34 I'm going to make sure that I've got
+19:36 create image the auto. I want to set
+19:38 widescreen as well. I'm going to paste
+19:40 that exact same prompt here. I'm going
+19:42 to select this to thinking. That does
+19:44 make a little bit of a difference. You
+19:46 just give it the opportunity for GBT to
+19:48 think more about your request before
+19:50 creating the image, which if it's a
+19:52 rather big prompt like here, then give
+19:54 it that chance to. It will take a little
+19:56 while though. Okay. And this is the
+19:59 OpenAI image. Again, looks fairly
+20:03 spot-on. It doesn't actually look so
+20:05 pristine. So, I like it a little bit
+20:07 more. I'm kind of leaning towards GPD
+20:09 image for this. Looks pretty good.
+20:11 Again, here's the difference. That's
+20:13 Nano Banana Pro GPT images. I think GPT
+20:17 images just makes it look a lot more
+20:19 real. And that is from the chat as well,
+20:22 which I kind of like. Just looks fairly
+20:24 good to be honest. So, if you're happy
+20:26 with your style guide for the images,
+20:28 make sure you save this somewhere.
+20:30 That's going to be part of the brand
+20:31 guidelines that you want to place into
+20:32 the photo or keep it somewhere where
+20:34 you're not going to lose it because
+20:36 ideally we want an image for each one of
+20:38 these services that's going to
+20:40 illustrate the service provided. It's
+20:41 just going to differentiate the pages
+20:43 and it's going to allow you to do a
+20:45 little bit of image SEO for the images
+20:47 which is just another aspect that not
+20:49 many people do. But because I want you
+20:50 to create a very good website, I want to
+20:52 make sure you do that as well. Step
+20:54 number four is about more research. Hi
+20:56 guys, just a quick one. Ranking in the
+20:58 AI search engines like Google AI
+21:00 overviews doesn't have to be
+21:02 complicated. Inside the AI ranking
+21:03 school community, I learned how to do
+21:05 that for multiple of his clients which
+21:07 are now ranking for the right service
+21:08 keywords in the right locations inside
+21:10 Google AI overviews. And if you want to
+21:12 learn how to rank in this new age of AI
+21:14 search engines like Google AI overviews
+21:16 or GBT search, the AI ranking school
+21:19 community is for you. Link below. Back
+21:21 to it. One of the components that I
+21:23 discussed in the beginning of the video
+21:26 was this silo here. the service areas
+21:28 hub and it can work really well if done
+21:31 correctly. This essentially is
+21:33 programmatic SEO to a sense but we want
+21:35 to take it a step further where each one
+21:37 of these pages this content is going to
+21:39 be very specific to that area. This does
+21:41 a couple of things. It's going to
+21:42 improve the SEO but it's going to make
+21:44 sure that it's indexed and it's going to
+21:46 differentiate each area to area because
+21:49 we've done the detailed research. So how
+21:51 do I even go about thinking of well how
+21:54 do I do research for each one of the
+21:55 sections? Well, for that, I've got
+21:57 another prompt for you. The prompt again
+21:59 is located in the free resource res
+22:01 resources below in our free community.
+22:02 And the prompt kind of tells you how to
+22:05 use it here. It says you're a local
+22:07 market researcher for a business type.
+22:09 Again, you need to fill in all the
+22:11 places in here. And it's researching
+22:13 certain sections, but it'll change
+22:16 dramatically depending on the type of
+22:18 business. So, if you're a lawyer, if
+22:20 you're a financial adviser, if you are
+22:21 whatever website you're building for,
+22:24 this will change quite a bit. So, I've
+22:26 already filled out this prompt, for
+22:28 example, and it looks like this here.
+22:30 So, you're a local, let me zoom in a
+22:32 little bit. You're a local researcher
+22:34 for a plumbing company. Research the
+22:36 specific for one service uh area so that
+22:38 the websites page can speak with genuine
+22:41 local authority. That's the main thing
+22:42 that we're after here. Use real
+22:44 verifiable details. If you're unsure of
+22:47 a fact, say so rather than inventing it.
+22:49 I've done the inputs here.
+22:52 Perfect. And here's the main thing.
+22:54 content angles, five specific area, true
+22:56 to talking points that the page should
+22:59 make that would not apply identically,
+23:01 yada yada that we want to create 40 to
+23:03 50% differentiation. That's the main
+23:05 thing here. This is what's really going
+23:06 to help. So, I'm going to copy this
+23:08 whole thing. And depending on what AI
+23:11 you have, you might have to do this with
+23:13 different things. So, for example, if
+23:15 you don't have the $200 subscription
+23:17 with clawed code, doing this for every
+23:20 single one of the areas is going to eat
+23:21 up all the tokens very, very quickly.
+23:23 You can do this with deep research as
+23:25 well. So if you've got chat GBT, you can
+23:29 do this deep research feature here.
+23:31 Paste the prompt in there, but only
+23:33 change the area. So hey, do this for
+23:36 this specific area. And because we've
+23:38 done the research here, we're going to
+23:39 do this for Katy Cyprus, for example,
+23:42 and we got to do the locations here. So
+23:44 if I want to do it for Katie in Texas,
+23:46 I'm going to copy this here. I'm going
+23:48 to go back to chatbt and I'm going to
+23:50 say do this for Katy Texas and I'm going
+23:54 to hit enter. If you don't have chatbt
+23:57 or the ability to do deep research, you
+23:59 can also do this with Gemini. I'm going
+24:01 to do this with deep research now in
+24:03 Claude Code. So, if you didn't know, you
+24:06 can do all of this with Claude Code now.
+24:08 So, in that same folder structure that
+24:10 I'm building the website on, I'm just
+24:11 going to start a brand new conversation
+24:14 here, uh, brand new tab here, and I'm
+24:17 going to start doing the research. I'm
+24:19 going to paste the prompt that I've got
+24:21 for the research here. And I'm going to
+24:23 say use the slashde
+24:26 research feature. And you can see it's
+24:28 enabled because if I written it
+24:30 correctly, it'll show me this thing in a
+24:32 different color, which is great. Let's
+24:33 start with Katy, Texas. Then we will
+24:36 move to all the other locations once I
+24:38 approve the first one. And I'm going to
+24:39 hit enter and see what it comes back
+24:41 with. I want to verify the research with
+24:43 one location before I go tell it to do
+24:45 the other 20 locations so I don't waste
+24:47 all the tokens. After a couple of
+24:49 minutes, I've got some research for
+24:51 Katie Texas. So the bottom line, Katie's
+24:53 plumbing demand is driven by two
+24:54 verified area specific things. Expansive
+24:57 Gold Coast line claw. So black gumbo
+25:00 clay. This is what's going to make the
+25:03 page so much different than anything
+25:04 else. That's what we want. See, it says
+25:06 that swells up and shrinks seasonally,
+25:08 stressing the slabs. So, yeah, perfect.
+25:11 And then another one here that is most
+25:13 of Kitty's housing is newer, but older
+25:15 ones pocket uh carry polyutane
+25:19 risk. This is the type of information we
+25:21 want because we're getting into the
+25:22 specific about this area and that's
+25:24 what's going to make the page very, very
+25:26 different. Here, I've got a little bit
+25:27 of housing stock as well. Uh local
+25:30 conditions that are really about this
+25:32 area, common problems. Amazing. So if
+25:34 you are happy with that I can do a easy
+25:37 prompt like great turn that into an MD
+25:39 file and do the same research for all of
+25:41 the other locations that we need to
+25:43 build the website on. You can refer to
+25:44 the CSV file for the locations. Perfect.
+25:47 And now we can see that it found the
+25:49 service areas in the CSV and it's
+25:51 starting to do the rest. Goes without
+25:52 saying that's going to take a little
+25:54 while but that is okay. This is what's
+25:56 really going to differentiate our
+25:58 website with anyone else's. We've done
+26:00 their high quality research. Remember
+26:02 again, you can also do this with deep
+26:04 research from Chat GBT or Gemini. They
+26:06 do fairly do a good job. You will have
+26:08 to do it manually for each one of the
+26:10 locations. Download the MD file, which
+26:13 Chat GBT gives you the ability to
+26:15 download that and then put it in that
+26:16 folder with the name of the location. It
+26:19 will take a little bit longer, but still
+26:20 just as good. Part number five comes the
+26:23 build, but I don't really want to
+26:24 concentrate on the actual build too
+26:26 much. That's the easy part. I want you
+26:28 to really concentrate on the content
+26:30 rules which we need to apply to each one
+26:32 of these pages. You see here that within
+26:34 the folder that I'm working on with the
+26:36 website, I've got a location research.
+26:38 This was all the research done from
+26:40 Claude. It took a little while. And let
+26:42 me show you what one of these would look
+26:44 like. This is the research for Atas
+26:46 Scosia. You get the bottom line, the
+26:48 housing stock, the systems and
+26:50 materials, legal conditions and all
+26:52 these common problems that are found in
+26:55 this certain area about plumbing which
+26:57 is really going to differentiate here
+26:58 the content and we've got the key
+27:00 sources. So if you want to you can go
+27:02 and make sure that it didn't kind of
+27:04 make this stuff up. Now I've done very
+27:06 detailed videos on the nitty-gritty of
+27:09 building a website the way we're going
+27:10 to build it. I'm going to use Astro,
+27:12 which is a web framework for just
+27:14 contentdriven websites, simple SEO
+27:17 websites, and we're going to host this
+27:19 whole thing on Cloudflare. I like
+27:21 Cloudflare. It works very well with
+27:23 Astro. They in fact bought Astro, so the
+27:25 integration is quite nice. So, that's
+27:27 what we're going to do right now. The
+27:29 build's going to be very easy. I'm just
+27:31 going to copy this and I'm going to go
+27:33 back to prompt my website builder here.
+27:35 And I'm going to say something along the
+27:37 lines of I want you to build now the
+27:39 homepage and one of the first location
+27:42 pages and all the services pages so that
+27:44 I can take a look at. Make sure you
+27:45 build it with Astro that is the npm you
+27:48 need to install to have the
+27:50 requirements. Make sure that you use the
+27:51 design elements within this folder that
+27:53 I've provided from claw design. I like
+27:56 to place in this in ultrathink when I
+28:00 start think
+28:02 when I start the build. Sorry. So,
+28:04 ultrathink.
+28:07 And also, I'm going to put it on plan
+28:09 mode. You can see here if I press shift
+28:11 tab, it'll cycle through all the modes.
+28:14 I'm going to go to plan mode as well.
+28:16 This allows it to really think about
+28:18 what I've asked it to do and plan with a
+28:20 lot of thinking capacity about the build
+28:23 before it starts getting to the actual
+28:24 build. And whilst yes, this uses a fair
+28:27 bit of tokens when we're starting off, I
+28:29 find that it ends up being a lot more
+28:31 efficient because it really thought
+28:32 about the entire build first. Okay, it
+28:35 build for about 21 minutes. I didn't ask
+28:37 it to generate all the pages because I
+28:39 just want to check how the build is
+28:41 going right now. Now, by default, when
+28:44 you build with Astro, the site is going
+28:47 to be built locally in your system, and
+28:49 you can find it in your browser if it's
+28:51 uh launched in local 4321, for example.
+28:55 Let me show you what I mean. So, I'm
+28:56 just going to say uh can you launch the
+28:59 site locally first? I can take a look.
+29:04 Okay, perfect. So, it is live on
+29:07 localhost 4321. Let's take a look here.
+29:10 and it's created the service area, the
+29:13 services and the slab leak repair. Let's
+29:16 take a look. But I'm on Chrome browser.
+29:18 Now I've got local host 4321. And there
+29:20 we see the website right away. So it's
+29:23 not looking too bad. Slight animations
+29:25 here. Little dispatch live. Okay. Okay.
+29:29 Not too bad.
+29:32 Call centers. Nice. The reviews, the
+29:36 hours here, uh FAQs. Okay. Not too bad.
+29:40 I could add a couple of more components
+29:41 here, but that is okay. I want to have a
+29:43 look at the services. Fantastic. Okay,
+29:46 nice. I've got all the services here.
+29:50 Great. So, this is our service hub page.
+29:52 Remember, we made this in the Figma just
+29:55 to kind of plan [snorts] it out first.
+29:57 And this is the slab leak repair in
+30:00 Houston, Texas. Nice, you know, call to
+30:02 action book online. Signs of slab leak.
+30:06 Okay, perfect. So obviously I want a
+30:09 image here. So I can add an image to
+30:12 that. So again remember I've got the
+30:14 style guide here that I'm just going to
+30:16 copy. And I've got the scene already
+30:19 written here in my image generator of
+30:22 choice which we came to the
+30:24 understanding that we preferred GBT
+30:25 image 2. Again I'm going to do the
+30:27 landscape image here. And I can even get
+30:30 it to generate two. So I can see two
+30:32 variations and then pick the one I like.
+30:34 So let's do that. And here is the two
+30:35 images here. this one or that one. I
+30:38 think this one looks a little bit more
+30:42 spoton. Perfect. Let's download that bad
+30:45 boy. Fantastic. And I can do that right
+30:48 here. And let's add it into that page.
+30:51 With the image downloaded, I can go back
+30:52 to the conversation that I'm having. And
+30:54 if you're using Claude Code, you can
+30:57 just simply drag that image in there and
+30:58 say, "Can you please add this feature
+31:00 image into the slab leak repair page so
+31:03 we can take a look? Please uh make sure
+31:05 that it's you convert it to a webp
+31:07 image. Something really important that
+31:09 you need to keep in mind, you want a
+31:10 very light and quick website. Any of
+31:13 these AI image generators by default
+31:14 they tend to give you images by a PNG
+31:18 the higher quality, but you don't need
+31:20 that and you don't want that as well. So
+31:22 you want to make sure that the image is
+31:23 a webp when you upload them. And
+31:26 actually, if you're doing these images
+31:27 in the platform from the playground on
+31:29 OpenAI, you can select here the advanced
+31:32 settings and the output format to be
+31:35 actually webpile. That way, you don't
+31:36 even have to convert them, which is a
+31:38 nice little addition as well. And now,
+31:40 right away, I can see it here. Slab link
+31:42 repair in Houston. This is going to make
+31:43 the pages look a lot more different from
+31:45 each other. But also, we can add some
+31:47 image SEO components in here. That is
+31:49 also going to help us. Here we got some
+31:52 signs of slab break. This is
+31:54 againformational content which is really
+31:56 good but also content that's going to
+31:58 differentiate this service page from
+32:00 another service page which again is very
+32:01 very important for us to do. Fantastic
+32:04 here. Okay,
+32:07 good. This looks pretty good. As always,
+32:09 you do want to check the mobile version
+32:11 of the website. I've got a nice little
+32:13 plugin here. It's called the mobile
+32:15 simulator. when I click it right away, I
+32:18 can see here that the mobile version
+32:20 looks okay, but I've got the image in
+32:22 the background here after. So, I want to
+32:25 maybe try and fix that right away. So,
+32:26 I'm just going to ask it to do that with
+32:29 fix the image of the the design of the
+32:32 mobile. Sorry. And I want to get one
+32:33 page right and then just replicate it
+32:35 across everything else. I tend to like
+32:38 designing this on kind of my Chrome
+32:40 browser as opposed to Claude design or
+32:42 the other stuff. I can just see it right
+32:44 away what it's going to look like in the
+32:47 browser, which I think is a lot better
+32:49 than kind of winging the whole thing on
+32:51 Claude Design. Okay, let's take a look
+32:53 here. I'm just going to refresh this and
+32:56 again uh have a look at the mobile. Much
+32:59 better, right? I can see right away what
+33:00 he's working on. Slab leak repair in
+33:02 Houston. I've got a call to action.
+33:04 That's what I want. That's what's going
+33:05 to get me the conversions. So, I'm
+33:07 pretty happy with the service page
+33:09 template. Let's go to the area service
+33:11 page template. I want to go to Katie
+33:13 because I know that's the one that we've
+33:14 kind of got here. Okay. And the these
+33:17 are all the services here. So what's
+33:19 going to happen from a backlinking
+33:21 perspective? Whilst we've got all these
+33:23 area pages, right? There's about 20 of
+33:25 them, we can have then dedicated area
+33:28 and service page. So for example, if I
+33:30 clicked on something like the slab leak
+33:33 repair from Katie, it would take me just
+33:35 to the main services page for slab leak
+33:38 repair. You can get very specific, but
+33:41 it really depends on how competitive the
+33:43 niche is. Let's fix this page though for
+33:46 Katie and let me show you what I'm
+33:47 talking about. And if I look at this
+33:49 page here, we probably need to change
+33:50 the image, but that's okay. So, plumber
+33:52 in Katie, Texas. That's going to be good
+33:53 from an SEO perspective. That should be
+33:55 the H1. We'll check that in a second.
+33:58 This is probably the most important
+34:00 section. So, local conditions. Again,
+34:02 this is going to be what differentiates
+34:04 our page and it's going to make it
+34:05 probably rank a lot higher and
+34:07 definitely differentiate itself between
+34:08 the other location pages. Recent jobs if
+34:11 you've got them, what the neighbors say
+34:14 here. Again, I've got a checklist for
+34:15 you to follow for this. Don't worry. The
+34:18 embedded map of Katie here, which I
+34:20 really like. It adds another kind of a
+34:22 differentiator from this location page
+34:24 to the other. Questions from Katie home
+34:28 owners. Very specific to this area
+34:30 again. Cool. Okay. looking really,
+34:32 really good here. Okay, so I want to
+34:34 work on the service area, one of the
+34:36 pages, specifically Katie. I know
+34:39 there's just a little bit more content
+34:41 from that research that we did and we um
+34:43 you know, we spent Claude spent a lot of
+34:45 time doing that. I just want to see here
+34:48 why the Katy truth. Perfect. Okay, so
+34:50 this is exactly what I was having a look
+34:53 at here. So the Katie ground truth here,
+34:58 black gumbo. So Katie sits on an
+35:00 expansive go coast primarily K. Perfect.
+35:04 This is what I wanted here. Hard freeze
+35:06 winter. So we say for example in
+35:09 February 2020 Houston fell to 13
+35:11 Fahrenheit bursting exposed house bibs
+35:14 attic pipes. Fantastic. We're showing
+35:16 that we demonstrate that we're not only
+35:18 an expert in the field but an expert in
+35:19 this specific location. This is what's
+35:22 really going to help here. The one thing
+35:24 that you do want to do is make sure that
+35:25 instead of these kind of links, I want
+35:28 to link to the contextual keyword as
+35:30 opposed to this little one here. I don't
+35:32 like this and having the sources. You
+35:33 don't want to take away from the fact
+35:35 this is still a transactional page,
+35:37 right? And this kind of takes away from
+35:38 that. So, let's just say that with the
+35:40 sources, this looks good, but can you
+35:42 link to the contextual keyword, not just
+35:43 have a sources at the end, please? And
+35:45 it's already kind of saying, hey, cool.
+35:47 Do you want me to convert this to a city
+35:49 template? So, it's going to fill in all
+35:50 the information, but the design's going
+35:52 to stay the same. That's what we want,
+35:53 right? We don't have to change the
+35:54 design so much from page to page, but
+35:56 the content is really important that we
+35:57 do that. Okay, now it seems to have
+35:59 finished. And yeah, much better. And
+36:01 it's it should be linking to the
+36:03 contextual keyword. It is there during
+36:05 the winter. Perfect. We can see that
+36:07 it's not going to disrupt from the, you
+36:10 know, us getting that conversion, but it
+36:11 is providing that quality content there.
+36:14 Fantastic. I'm really starting to like
+36:16 this. We've got that embedded stuff
+36:18 here. And again, I just want to show you
+36:20 the internal linking component. Right.
+36:22 So, we've got all the services provided
+36:23 here and the URL structure is
+36:25 services/kat.
+36:27 These are all the services, plumbing
+36:28 services in Katy. But if I click on slab
+36:31 repair, it's just going to go to the
+36:32 main slab repair page. That's more than
+36:35 enough. Again, depending on the
+36:37 competition that you're in, if it's
+36:39 extremely competitive, then you're
+36:40 probably going to have to create a page
+36:42 that instead links to the general slab
+36:44 leak repair page. It'll link to services
+36:47 Katie and then slab repair services in
+36:51 Katie. if that makes sense. That
+36:52 requires even more research. But for
+36:53 now, this structure should be okay for
+36:55 80% of use cases out there. Okay. And
+36:58 when you're doing one of these localized
+37:00 pages, even the services pages, here's a
+37:02 list that you should probably follow.
+37:03 Again, this will be linked in the video
+37:05 description below in the free community.
+37:07 Here's all the things that you want to
+37:09 try and follow. You probably won't be
+37:11 able to follow all of these depending on
+37:13 the industry that you're in. That's why
+37:14 it's difficult to create this into a
+37:16 skill or whatever. But you see here that
+37:18 I've got a couple of rules above the
+37:19 fold. for the H1 reads the trade or the
+37:21 service in the city. Primary call to
+37:23 action is above the fold. A bunch of
+37:25 things here, local proof, review
+37:27 testimonials, genuine local content,
+37:29 which is all the research we made in the
+37:31 beginning, the services offered here,
+37:33 the map that is embedded, and a bunch of
+37:36 other things that you should probably
+37:37 follow. Again, you really need to have
+37:39 it done in one page and then you can
+37:41 tell Claude Code, great, this is a
+37:43 template. Do it for the rest of the
+37:44 pages as we have done it. Again, I'll
+37:47 leave this link below. And I just want
+37:49 to do a quick test here of all the SEO
+37:51 components. I've got a free extension
+37:53 called SEO Wallet. You can download it
+37:55 again. And I want to check it just
+37:56 clearly here. So, the title tag is
+37:58 plumber and Katie. Fantastic. That's
+38:00 what I want. The meta description is
+38:02 really good. It's given me a call to
+38:03 action at the end. Call this number.
+38:05 That's okay. And I've got the headings
+38:07 here. Plumber and Katie. Plumber
+38:09 services in Katy homes. Drain cleaning.
+38:11 So, I've got all of the right keywords
+38:13 there, which makes sense. More
+38:15 importantly, I've got the right schema.
+38:16 I've got the plumber schema, which is
+38:19 what I want. And again, Claude Code
+38:21 should do this, particularly if you gave
+38:23 it the instructions that I provided
+38:24 earlier when it's building this thing.
+38:26 So, I've got the exact service plumber,
+38:28 and I've got the FAQ page. That's pretty
+38:31 good schema. I'm pretty happy with that.
+38:33 Now, you would go and build all of the
+38:35 other pages locally before you push it
+38:37 to Cloudflare. But I'm going to push to
+38:39 Cloudflare what we've got now because I
+38:41 want to show you a couple of things that
+38:42 you need to keep in mind here. So, I'm
+38:43 just going to tell it, hey, can you push
+38:45 this to a staging site in Cloudflare
+38:47 using Orangler? Of course, you need
+38:49 Cloudflare already authenticated within
+38:51 your Clawed Code. Again, the video that
+38:53 I've got listed below will show you how
+38:55 to do all of that, but I want to show
+38:57 you a couple of things here. Okay,
+38:58 great. And now I should have the staging
+39:00 site here. This is the first time that
+39:01 I'm going to click on it. So, let's have
+39:04 a look here. And there you go. There's
+39:06 our staging site already. You can see
+39:08 that it is not on my local browser and
+39:11 it seems to be doing okay. The reason
+39:13 why I want to put it in a staging site
+39:14 first is you want to check a couple of
+39:16 things. First and foremost, the loading
+39:18 time speed. This is really, really
+39:20 important, but something that people
+39:22 still don't do correctly. Uh, what you
+39:24 want to do is go to something like
+39:26 GTMetrics for example, and I like to use
+39:29 two types of speed tools here. I like
+39:32 two data sets. Sometimes they give you
+39:34 completely different data, and you want
+39:35 to make sure that you're doing this
+39:36 correctly as well. And right away
+39:38 because we built this on Astro, but also
+39:40 because we asked it to create generate
+39:41 all the images in WEBP files, we're
+39:43 loading at an A really, really quick.
+39:45 You want to make sure that this fully
+39:47 loaded time is at least slower than 2
+39:49 and 1/2 seconds. And you can see this is
+39:51 not even a second, which is great. It's
+39:53 a really important SEO factor, but also
+39:55 a conversion factor that a lot of people
+39:57 forget. And again, because we're doing
+39:59 this with clawed code, I just wanted to
+40:00 show you something really quickly that I
+40:02 mentioned before. I've got the image
+40:04 here, and I've got the page for the slab
+40:06 leak repair here. If I check on the
+40:08 image SEO, I've got the old tag here. A
+40:11 city plumber repairing a slab leak
+40:12 through an access point cut in a Houston
+40:15 home floor. It's really sneaky because
+40:18 it's adding those keywords, but in a
+40:19 natural manner, helping our image SEO,
+40:22 which is just another component that's
+40:23 going to help you. I'm not saying that's
+40:24 going to be the one thing that's going
+40:25 to generate you a lot of leads, but you
+40:27 want to make sure that you're always
+40:28 kind of improving on these 1%
+40:30 improvements. That is one of them right
+40:32 away. Let's go back here to the
+40:34 homepage. And I'm pretty happy with
+40:36 that. If you build the whole page and
+40:38 you're really happy with this, the next
+40:39 thing to do is to launch it. And you got
+40:42 to make sure you have your Google
+40:43 Analytics installed as well as your
+40:45 Google Search Console. I've done Google
+40:46 Search Console before. Let's do Google
+40:48 Analytics really, really quickly. Hi
+40:50 guys, just a quick one. Inside the AR
+40:51 ranking school community, Steven learned
+40:53 how to index more than 800 local
+40:55 services pages, which resulted in more
+40:58 than 105 online booked appointments in
+41:01 one single month from organic traffic
+41:03 alone. If you want to invest in your
+41:05 skills to improve your SEO for yourself
+41:07 or for your clients, the AR ranking
+41:09 school community is where you need to
+41:11 be. Link below. Now, back to it. So, in
+41:14 a Google Analytics account, you want to
+41:16 go to down to admin. And you want to
+41:18 create I'm going to create a whole
+41:20 account here as opposed to property. And
+41:22 I'm just going to name this test. And
+41:26 I'm going to go to next. Property name
+41:28 required again. Testing plumbing
+41:32 industry required. services. Let's see
+41:34 if we've got plumbing in here. I'm just
+41:37 going to go other business activities.
+41:39 Um, I'm going to want to generate leads
+41:42 and it's going to give you yes, I
+41:44 accept. You want to choose the platform.
+41:46 Obviously, this is a website and we're
+41:48 going to name the site here. Put the
+41:50 name of the website and go to create and
+41:52 continue. Perfect. Now, we want to go to
+41:54 add stream here and it's going to say
+41:57 set up a Google tag. It's going to give
+41:58 you a lot of ways to do this.
+42:00 Thankfully, because we're doing this
+42:02 with Claude code, there's not much that
+42:04 we actually have to do, which is copy
+42:06 this tag that it's provided. You're
+42:07 going to go back to the conversation
+42:09 you're having with Claude and say,
+42:10 "Great. Uh, can you install this tag?"
+42:14 I'm going to paste it and say, make sure
+42:16 that you are, uh, tracking all the
+42:19 clicks and the form submissions. That
+42:20 way, the tracking is really already done
+42:23 very well in Google Analytics and you
+42:24 are getting correct data from the get-
+42:26 go. Now, Floyd said that it finished
+42:28 adding the Google Analytics tag. You
+42:30 always want to double check,
+42:32 particularly these are really important
+42:33 things. You want to be tracking this
+42:34 correctly. There's a uh Chrome extension
+42:36 called the tag assistant. I've clicked
+42:38 that and it just checks that I've got
+42:39 the right one. And in fact, I've got the
+42:41 Bay City Plumbing tag, which is the one
+42:43 that we just generated. Perfect. We seem
+42:46 to be tracking everything correctly. So,
+42:48 again, now I have a website that is
+42:49 really optimized from an SEO
+42:51 perspective. Not only because it's
+42:52 loading very very quickly, but if I look
+42:54 at all of the schema components here as
+42:56 well, the structured data, I've got the
+42:58 plumber business, I've got the FAQ, and
+43:00 if I go to the services like the slab
+43:03 leak repair page, I can see here, let me
+43:05 double check, I've got all the
+43:06 structured data, the plumber data, the
+43:09 services data, and the schema. Again,
+43:11 not going to be something that's going
+43:12 to rank you just because you've got
+43:14 this, but it's really important that you
+43:16 do have it to facilitate you being found
+43:18 in the AI search engines and traditional
+43:20 SEO as well. I should mention, it goes
+43:22 without saying that I don't have the
+43:23 correct domain name here. I didn't want
+43:25 to purchase one just for this tutorial,
+43:27 so I'll just leave it as the staging
+43:29 site there, but I just wanted to show
+43:30 you the whole workflow of how to do a
+43:33 really highly optimized local business
+43:36 website. There's a couple more things
+43:37 you want to keep in mind. You want to
+43:39 make sure that you are connecting the
+43:40 Google My Business to this. And with the
+43:42 Google My Business, all these services
+43:44 that you've got listed in Google
+43:46 Business should be the same services
+43:47 that you've got listed on the website.
+43:49 You want those to have the same
+43:51 information as well. I've done plenty
+43:52 more tutorials on how to automate and
+43:54 how to optimize Google Business stuff.
+43:56 You can check those out, but I think
+43:57 I'll leave it there for now. I'm pretty
+43:58 happy with this one. I hope you enjoyed
+44:00 the video. I'll catch you in the next
+44:01 one. case.

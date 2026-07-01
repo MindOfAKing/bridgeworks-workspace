@@ -1,0 +1,885 @@
+00:00 It is 2026 and if you're still building
+00:02 AI agents with N 10, you need to watch
+00:05 this video. Hi everyone, I'm Ishan
+00:07 Sharma and I had an amazing time at Mesa
+00:09 School of Business in Bangalore, where I
+00:11 gave a talk about how you can use Claude
+00:14 to build agents that can automate all of
+00:16 your tasks. In this video, you'll learn
+00:18 about different ways to build AI agents
+00:21 with tools like N 10, make, and then
+00:23 finally, the best way to build agents
+00:26 using Claude skills in 2026. Make sure
+00:29 that you watch this till the end and
+00:30 this is how the talk went. We'll
+00:32 understand how you can build agents
+00:34 without writing a single piece of code.
+00:36 I literally asked it, "Take up this
+00:38 video on my desktop, remove all the
+00:39 silences from it using Final Cut Pro,
+00:41 export that video, upload it on Google
+00:43 Drive, and send me the Google Drive
+00:45 link." And it did that. There's a new
+00:46 field coming up, which is called as
+00:48 skill engineering. So, like you had
+00:49 prompt engineering, there's something
+00:50 called as skill engineering. So, instead
+00:51 of you writing code or creating these
+00:53 workflows, you can now start creating
+00:55 these skills and the person who creates
+00:58 the best skill gets used a lot more.
+01:00 Companies that start adopting it and you
+01:01 get paid for the work that you've done.
+01:03 So, that's the ultimate power. It's not
+01:05 about a $20 tool which can help me out
+01:08 with something. It's about the person
+01:10 who's actually using that tool. And if
+01:12 you can build an automated system, which
+01:15 is not just a tool, but actually gets
+01:17 the whole work done that a person was
+01:19 doing,
+01:20 that's where you can command hundreds of
+01:22 dollars a month.
+01:24 So, now, today in this session, we'll
+01:27 understand how you can build agents
+01:29 without writing a single piece of code.
+01:31 I'm sure a lot of you have already built
+01:33 agents yourself. I'll show you various
+01:35 platforms and now you tell me yourself,
+01:38 what's the most intuitive way to build
+01:40 agents in 2026?
+01:43 We'll look at the latest updates from
+01:44 Claude. We'll look at N 10, make, and
+01:47 how you can use them to build agents.
+01:50 And we'll have fun, right? I want you to
+01:52 interact as much as possible, to ask
+01:54 questions as much as possible, and let's
+01:56 get started. So, what is an agent? Let's
+01:59 start from the very basics. So,
+02:00 basically all of you have looked at
+02:02 workflows, right? Automations, Zapier,
+02:06 basically what used to what they used to
+02:09 do. So, you attach multiple services,
+02:11 you connect them together, and they do
+02:13 your work on your behalf.
+02:15 What agents does is it can it can do it
+02:18 repeatedly on its own.
+02:20 Without you having to, you know, start
+02:23 it on your on your own.
+02:25 So, it takes care of it without any
+02:27 problem, and you can just keep running
+02:28 it in the cloud, and it keeps getting
+02:30 executed.
+02:31 I recently made a video about Claude
+02:32 CoWork and showed how I built a very
+02:35 simple scheduled task in which you can
+02:37 basically ask it to research my Twitter.
+02:41 It scrolls my Twitter feed, finds the
+02:43 best performing tweets about AI news,
+02:45 takes that text, converts it into a reel
+02:48 script of my style, and then sends me a
+02:50 PDF with the link of the tweet, with the
+02:53 script, and does that every single day
+02:56 at 10:00 a.m. Now, imagine how much time
+02:57 I'm able to save now. This is the job of
+02:59 two people.
+03:01 One
+03:02 who's researching the web and coming up
+03:04 with ideas for content to create, and
+03:06 another who creates scripts.
+03:09 And now I'm able to do all of that at
+03:11 10:00 a.m. without any problems.
+03:14 This is an agent which will keep running
+03:16 on my behalf. This is also an agent. We
+03:18 did not write any code for it. We simply
+03:20 used Claude. And you'll see a running
+03:22 theme throughout this chat that
+03:25 Claude is actually the best way to
+03:27 create agents, and I'll show you how it
+03:29 works. But let's go back. How many of
+03:32 you have seen my videos on make.com?
+03:36 Yep, you you've seen those videos. So,
+03:37 basically the idea is that you have
+03:40 code, so you can write code and make
+03:42 agents yourself. But if you do not know
+03:44 that, you can still use these
+03:45 drag-and-drop tools like Make,
+03:47 Crew AI. There are many more other
+03:49 options as well. There's a very cool
+03:50 tool called Lindy AI that you can use to
+03:52 create these very simple connections and
+03:55 create agents that run on your behalf,
+03:57 checking your emails, uh
+04:00 creating invoices, various other tasks
+04:02 that you can create with it. Now,
+04:04 I'll show you an example of what that
+04:06 looks like. Do you know what this is?
+04:09 What what are we using right now?
+04:12 Yes, so this is a make scenario.
+04:14 Scenario is basically their word for an
+04:16 automation.
+04:17 You can see multiple services being
+04:19 connected. We use APIs to connect them
+04:21 together. We use like we have we need to
+04:24 have an understanding of like REST APIs,
+04:26 endpoints, connecting them together, and
+04:28 seeing if it still works. So, this
+04:31 particular automation, what it does is
+04:33 that So, what you'll see is that it has
+04:35 a webhook. So, that's how I trigger this
+04:38 automation.
+04:39 Now, currently I'm doing it myself, so
+04:41 it makes it an automation, but I can
+04:43 also schedule it, so it continuously
+04:45 happens on my behalf, which makes it
+04:47 basically an agent.
+04:49 Now, if you look at this,
+04:51 on the other hand, we have a Perplexity
+04:53 API.
+04:54 Now, what it does is that it scans the
+04:55 internet for AI news. It gets those
+04:57 articles. It takes that, and then it
+05:01 gets the content, it turns that into a
+05:04 LinkedIn post,
+05:06 and then even creates an image for that
+05:08 LinkedIn post, as you can see right
+05:10 here, and it just sends that to me on my
+05:13 email.
+05:15 Simple. That's how it works.
+05:17 So, it'll take a link,
+05:19 it'll take the content of that news
+05:21 article, and it'll then send me that
+05:25 LinkedIn post that it made with Gemini,
+05:27 and you can see the entire
+05:31 prompt. So, this is where I write the
+05:32 prompt. Act like a top-tier content
+05:35 strategist.
+05:36 Top AI news summary source generate.
+05:39 Follow this format.
+05:41 This is the tone, and this is the
+05:42 LinkedIn caption.
+05:44 So, I'm creating a reel and a LinkedIn
+05:45 caption for this at the same time.
+05:49 And I have to specify everything. So,
+05:51 I've picked up this connection with a
+05:53 Gemini API. I've picked up my model.
+05:57 Okay, so as you can see, on make, I have
+06:00 this workflow and it's trying to get
+06:02 triggered, give me the news, send me the
+06:05 information, turn it into a LinkedIn
+06:08 caption and an Instagram reel, and
+06:10 generates an image.
+06:12 If you will see over here, this is the
+06:13 prompt for the image.
+06:15 So, I basically said create a highly
+06:16 stylized Lego style digital illustration
+06:18 of a cheerful person.
+06:20 So, I need to give a very elaborate
+06:22 prompt and this I have to write myself.
+06:24 And the result is basically the topic
+06:27 that we are talking about. Maybe there's
+06:29 some new launch by some new company.
+06:31 There's a new AI tool that just
+06:33 launched. So, we get this result as a
+06:35 variable that we pass on from the past
+06:37 from the previous service module into
+06:40 the next one.
+06:42 You call it node in N8N and that's
+06:44 basically how it works.
+06:46 Now, what do you think is the problem
+06:47 with with
+06:49 platforms like these?
+06:51 So, all it does is that I enter a
+06:53 YouTube video link. There is a API which
+06:57 transcribes that YouTube video. So, I
+06:59 get the captions of the entire YouTube
+07:00 video. It then throws that into a LLM.
+07:04 In this case, we have Gemini and it
+07:06 generates an image which is an
+07:08 infographic based on those captions.
+07:11 So, I wanted to generate a infographic
+07:15 summary of a YouTube video.
+07:18 Now, I can't just
+07:19 send the YouTube video link and let it
+07:21 figure it out because a YouTube video,
+07:23 you can't just directly get captions.
+07:25 You need to have a
+07:27 service in the middle which extracts the
+07:28 captions from it.
+07:30 And then, there was a HTTP request to
+07:32 actually host this image somewhere.
+07:35 So, you get a image as a base 64 file
+07:39 which you have to then send and upload
+07:41 somewhere. So, in this case I'm using
+07:43 something called as Cloudinary.
+07:45 And then at the end I get a link which
+07:48 I'm displaying on the form
+07:50 ultimately. Now, this is again can be
+07:53 self-hosted. You can use something
+07:56 called as Hostinger
+07:58 what we have over here. So, we can go to
+08:00 VPS and you can set up a VPS
+08:03 and you can start creating automations
+08:06 here
+08:07 and you can just run it. So, if you will
+08:08 see over here
+08:10 where did we go? Yeah, so there is this
+08:12 link that I can click on and I can send
+08:14 this link to anyone and they can just
+08:16 start using this as an app.
+08:18 So, this is basically like a small
+08:20 website where you can go, input a
+08:22 YouTube video and get an infographic
+08:24 summary out of that.
+08:26 But there's a still a big problem. See,
+08:28 I had to figure out everything on my
+08:29 own.
+08:31 I had to figure out
+08:32 how do I get the captions from the
+08:35 YouTube video?
+08:36 So, I did a lot of like searching,
+08:38 asking ChatGPT, how do you create a very
+08:41 simple
+08:43 uh caption from a YouTube video? So, it
+08:45 said that, you know, you should go to
+08:46 Apify, find some API that works over
+08:48 there and then connect it in your n8n
+08:51 app. And so, I did that. I tried with a
+08:54 bunch of them, then finally something
+08:55 worked and I have was constantly looking
+08:58 up like different n8n
+09:00 uh
+09:02 like how do you use n8n effectively?
+09:04 And I was figuring it out on the go.
+09:06 And that's a problem. Right? Like you
+09:09 can start building something, but if you
+09:11 don't know what services is required in
+09:12 the middle, you will not be able to make
+09:14 it. A lot of us are using AI tools and
+09:17 there's so many like AI tool startups
+09:18 today. So, every person is trying to
+09:21 make a AI tool, launch it, get customers
+09:24 and grow it. There are two big risks.
+09:26 Number one is that every AI tool is
+09:29 essentially like a feature add-on into
+09:31 the biggest tools out there.
+09:33 Like ChatGPT or Claude or Gemini. They
+09:35 can just launch one new feature, and
+09:37 suddenly your entire AI tool is
+09:39 obsolete.
+09:40 For example, if you noticed, Gemini
+09:43 launched this feature in India called as
+09:45 prepare for IIT-JEE.
+09:47 You know?
+09:49 So, basically you just ask it to
+09:50 generate like a mock test paper, and you
+09:52 can actually attempt it in real time and
+09:54 improve. I'm sure there must be an app
+09:56 which was made for this
+09:59 in India. Someone would have thought of
+10:00 it. Someone would have made this app,
+10:02 pushed it out on App Store, or made a
+10:04 website, and overnight their business is
+10:06 gone.
+10:08 That's just one example. There's like so
+10:09 many connectors and plugins that you can
+10:13 attach with Claude or with ChatGPT to
+10:15 actually achieve
+10:17 most of the work that tools are being
+10:19 launched for,
+10:21 and they're charging you extra money
+10:22 for.
+10:23 That's a big problem. The second problem
+10:25 is that
+10:27 what do you think companies spend the
+10:28 most amount of money on today?
+10:31 Apart from like AI training and
+10:33 inference.
+10:37 Exactly. People spend the most amount of
+10:39 money on people.
+10:41 Right?
+10:42 And that it's not about a $20 tool which
+10:45 can help me out with something. It's
+10:47 about
+10:48 the person who's actually using that
+10:50 tool.
+10:51 And that person is being paid like
+10:53 $5,000 a month, $10,000 a month to
+10:56 actually use that tool.
+10:58 So, the real value is not in building
+10:59 that tool. It's actually in the person
+11:02 themselves.
+11:04 The person who's using the tool to get
+11:06 things done. And if you can build an
+11:09 automated system which is not just a
+11:11 tool,
+11:12 but actually gets the whole work done
+11:14 that a person was doing,
+11:16 that's where you can command hundreds of
+11:18 dollars a month, and companies would
+11:20 happily pay you for it.
+11:22 Make sense?
+11:24 And that's why everyone wants to build
+11:26 agents today.
+11:28 So, that they can they can replace the
+11:30 job of an actual person.
+11:32 I just give you an example of of a agent
+11:34 I made that gives me
+11:36 10 scripts to make videos on at 10:00
+11:40 a.m. every day.
+11:41 Right? That's an actual end-to-end
+11:43 workflow. And I get, as a result, all
+11:46 the scripts that I can quickly start
+11:47 making.
+11:48 And that's really powerful. So, whenever
+11:51 you're thinking of making something,
+11:52 think about how can you replace an
+11:54 actual function of a person.
+11:57 And you will be amazed to see how much
+12:00 companies are willing to pay for that.
+12:03 Another important thing to realize is
+12:04 that
+12:05 while all of these tools charge $20 or
+12:09 even the max subscription is $200,
+12:11 companies are still paying tens of
+12:13 thousands of dollars to agencies who are
+12:15 setting up these things for them
+12:17 in their organization. So, if you can
+12:20 build an agency which can help them with
+12:23 consulting and actually executing that
+12:27 workflow in their workspace, you will be
+12:30 rewarded for that as well. So, there are
+12:32 these two big opportunities you should
+12:34 be looking out for.
+12:35 Now, as you just saw, we looked at Make.
+12:39 We also looked at n8n.
+12:41 These are great drag-and-drop workflow
+12:43 builders, and you can do so much with
+12:45 them. Especially with n8n, the sky is
+12:47 the limit. You can attach it to pretty
+12:48 much everything. Now that we have MCPs,
+12:51 you can be pretty much take any tool and
+12:54 just start combining it with your
+12:55 concurrent workflow and start building
+12:58 things on top of that.
+12:59 But, for most people who do not
+13:01 understand like APIs and endpoints and
+13:04 how to debug this, there's a very cool
+13:07 thing that you can actually be doing,
+13:08 and that is using Claude. So, Claude, a
+13:11 couple months ago, came up with this
+13:12 thing called co-work, which you would
+13:14 have tried out as well. It's basically
+13:16 Claude code, but for people who are not
+13:18 coders. So, you're able to ask it to
+13:21 build anything, do anything on your
+13:24 local system. And there's also this new
+13:26 feature came out called dispatch. So,
+13:28 you can just use your phone, ask it to
+13:30 do this on your computer, and it just
+13:32 does it on your behalf. I literally
+13:33 asked it to take up this video on my
+13:36 desktop, remove all the silences from it
+13:39 using Final Cut Pro,
+13:41 export that video, upload it on Google
+13:43 Drive, and send me the Google Drive link
+13:45 on my phone.
+13:47 I was not at my home, so I wanted to get
+13:48 that Drive link so I can edit that
+13:50 video, post it somewhere. And it did
+13:52 that.
+13:53 It didn't use Final Cut Pro. It actually
+13:54 made some Python script and actually
+13:56 figured it out, but it got the job done.
+13:59 And that's the most impressive part.
+14:01 So, you don't have to
+14:03 worry about what's happening in the
+14:06 middle.
+14:07 You can just ask it to do things. It
+14:09 tried using Final Cut Pro.
+14:11 It tried creating a new project. How
+14:13 many of you know how to edit videos?
+14:16 So, basically you create a project, you
+14:18 import media into the project, and then
+14:20 you add it to the timeline. So, it did
+14:21 all of that. It just didn't know how to
+14:23 cut stuff.
+14:24 It just did not know how to do that. So,
+14:26 what it did instead is that it used some
+14:28 FFmpeg, you know, uh
+14:31 some fix it used to actually cut the
+14:33 silences, and then exported the video on
+14:35 its own using a Python script, and then
+14:37 sent it to me on my phone itself.
+14:40 And that's just one example. You can do
+14:42 a lot more with Claude CoWork, with
+14:45 dispatch, and I think I just told you
+14:47 this thing called as scheduled tasks.
+14:50 So, that's basically you creating your
+14:51 own personal agents that run on your
+14:53 behalf.
+14:54 There's also something really cool that
+14:55 you can be building if you do something
+14:57 every single day. Like, what's one task
+14:59 that you do every single day?
+15:01 Apart from writing assignments, cuz that
+15:03 you should do yourself.
+15:06 Edit videos. You're editing videos every
+15:08 day?
+15:10 Okay. Okay, what else?
+15:14 Checking your tasks.
+15:16 Right.
+15:17 Right.
+15:18 Mhm. What else?
+15:20 What's like a task that you do every
+15:21 single day? You look at your emails?
+15:24 >> Yeah.
+15:25 >> You You try to like apply for like jobs
+15:28 or experiences or book tickets. So, we
+15:31 all do that, right? Now, you can
+15:33 actually automate this by setting up a
+15:35 skill for that on Claude. Skill gives
+15:38 you a specific knowledge for some task.
+15:40 So, with Claude, you have a very
+15:43 powerful and an intelligent machine.
+15:46 So, it has a lot of intelligence built
+15:48 in. It can do a lot of like mathematical
+15:50 stuff, like logical reasoning, but
+15:52 that's just that.
+15:53 Building a skill gives it context about
+15:56 the problem you're trying to solve.
+15:58 So, yes, it can create images for you,
+16:00 but if you want thumbnails in the style
+16:02 of Ishan Sharma's YouTube videos, you
+16:04 have to give it context.
+16:06 And if you're doing that over and over
+16:08 again, it's best to use a Claude skill
+16:11 to set it up
+16:13 so that it can keep working without you
+16:15 having to do the same thing over and
+16:16 over again.
+16:18 So, you save your time and are able to
+16:19 execute it much faster.
+16:21 A very simple example of a skill I just
+16:23 built is the same thing, to generate an
+16:25 infographic. So, I'll just show you how
+16:27 it works, and we can also create a new
+16:29 skill while we're at it today.
+16:32 So, let's go to Claude. So, basically,
+16:36 you can go on to your settings, can go
+16:39 on to your capabilities, and you'll find
+16:41 skills over here.
+16:42 You can go to customize.
+16:44 You can even find it when you're on your
+16:46 over here, and you can go and start
+16:48 customizing skills over here. You manage
+16:51 skills.
+16:52 Now, here, what you will notice is that
+16:54 I have one personal skill enabled, which
+16:56 is the generate infographic skill.
+16:58 Every skill has the name, the
+17:00 description, and the actual skill.md
+17:04 file.
+17:05 Skill.md is basically instructions for
+17:09 how you're supposed to execute this
+17:10 particular task.
+17:12 So, if you go down, you'll actually see
+17:14 that this is the steps that it needs to
+17:15 follow. Step one, step two.
+17:19 Step one is to extract the topic. So,
+17:21 the way this works is that I give it I
+17:23 trigger this skill, give it the topic
+17:26 the content to make the script on. And
+17:29 then I ask it for my style preferences.
+17:31 So, I've given it two variants. One is a
+17:34 professional style infographic and the
+17:35 other is a cartoon style infographic.
+17:38 And then I asked it to build the image
+17:40 prompt. So, it has two prompts made for
+17:42 each of these
+17:43 styles of infographics I want to create.
+17:46 Once I pick one, it then starts creating
+17:49 it on my behalf. The way it does that is
+17:51 by calling an API for Gemini.
+17:55 So, I just I just went on to AI Studio.
+18:00 And I clicked on get an API key.
+18:03 And I can simply
+18:05 create a new API key right here.
+18:08 And then
+18:09 I can give that key key to this
+18:11 skill and then ask it to call this
+18:14 particular model which is Gemini 3 Pro
+18:16 image preview. This is the Nano Banana
+18:18 Pro model name. So, it will call this,
+18:22 it will send the prompt to it, and then
+18:23 it will give get the response and
+18:25 display the image in line.
+18:28 These are the steps
+18:29 to follow. And then it has some more
+18:31 stuff for error handling and notes.
+18:34 Now, one thing to notice here is that
+18:36 all of this you can build without
+18:39 writing code, without understanding
+18:41 about endpoints and APIs or any of that
+18:43 stuff. You can simply go on to Cloud.
+18:47 I like to go to code and just say make a
+18:49 new skill.
+18:51 That's all.
+18:52 So, it has the skill called as the skill
+18:54 creator, which is sort of a meta skill
+18:57 that you can use to start creating
+18:59 skills. So, I just said I want to create
+19:01 a skill that takes input as text and
+19:03 generates this dimensions in infographic
+19:07 image explaining the topic visually.
+19:09 And I've attached a few reference
+19:10 infographics as well for inspiration.
+19:12 So, it gets the style and I've given it
+19:15 how do you generate the image? So,
+19:17 generate generating the image happens to
+19:19 Nano Banana Pro API. This is the API key
+19:21 that you have.
+19:23 And then I've just asked it to tell me
+19:25 if there's anything else that you need.
+19:28 Ask me what else you need to know.
+19:30 That's all.
+19:31 And when I did that, it started asking
+19:33 me questions. How do you want to trigger
+19:35 this skill? What is your style
+19:37 preferences? What does the output look
+19:39 like? Should it be an image saved to a
+19:42 file? Should it display it inline or
+19:44 both? And then we have an API key data.
+19:47 So, it says, "I'm not familiar with this
+19:48 API. Can you share the API endpoint base
+19:51 URL?"
+19:52 If you you're someone who doesn't know
+19:54 code, you can just say that, "Hey,
+19:55 figure it out." I just said, "Search
+19:57 about it online and figure it out." It's
+19:59 an image generation model from Google
+20:00 Gemini whose API key I've given to you.
+20:03 Use the MCP if available and is a better
+20:05 approach. So, just do what gets the job
+20:07 done. That's all I told it to do.
+20:09 And then it figured stuff out. It
+20:11 searched online. It went into the
+20:13 documentation and understood how to use
+20:15 the Gemini Nano Banana Pro API to
+20:18 actually create this image for us.
+20:21 It figured it out and it made this very
+20:22 simple folder.
+20:24 So, let's go back to this and actually
+20:26 see what's happening.
+20:28 So, in this skill I can go on to manage
+20:30 and I'll see I have a skill.md and I
+20:32 have this folder called scripts.
+20:34 And here I have a generate_image.py.
+20:37 So, this is the Python script that's
+20:39 gets that gets run if I want to generate
+20:42 something with the API
+20:44 of Nano Banana Pro. So, if you go down,
+20:47 you can see that we have this prompt
+20:49 that you want to pick and then it
+20:51 generates it and then it gives it to me.
+20:55 So, if you go into the code part,
+20:57 I'll scroll
+20:59 and I just said generate, here are the
+21:01 five common types of developer jobs,
+21:03 each in two short lines.
+21:06 And then we have this data. So, I want
+21:09 to take this text and I want to convert
+21:10 it into an infographic. I told it to do
+21:12 that and it used a skill. So, I was able
+21:15 to trigger the skill by saying generate
+21:17 infographic.
+21:18 I I gave it the text. It took the text.
+21:21 It was asking, "Which one do you want to
+21:22 go with?" So, I picked one and then it
+21:25 ran the command. It read the file and it
+21:27 made this infographic for me.
+21:29 So, if you go back to this,
+21:33 there's a scripts folder. So, this is
+21:35 where you add the references. There's a
+21:37 references folder as well that you can
+21:38 create here and start adding references.
+21:40 For example, I made a very simple
+21:42 project on Claude, which Let me just
+21:45 show you how it works.
+21:46 So, I'm here.
+21:48 I can go on to my projects
+21:51 and this is the project that I have,
+21:53 real scripting for me.
+21:56 So, I gave it
+21:58 examples of the scripts I want to
+22:00 create. I gave it my previously made
+22:02 skills and then it started working on it
+22:05 and now I can just enter any text and it
+22:08 just create scripts on my behalf. It's a
+22:10 very simple project that I created, very
+22:11 simple similar to a custom GPT or a gem
+22:14 that you can create.
+22:16 Now, I can actually ask it to schedule
+22:19 this task every day and then turn it
+22:21 into an agent.
+22:23 So, that's the ultimate power. But,
+22:25 let's create a skill from scratch.
+22:28 Shall we?
+22:30 Okay.
+22:31 So, I just say that hey, make a new
+22:33 skill.
+22:34 That's all I need to do. Let me select a
+22:37 new folder.
+22:45 Let's go to new skill.
+22:48 Make a new skill.
+22:57 So, you can see it's it launched a skill
+22:59 creator
+23:01 and then
+23:02 it's going to ask us, "What do you want
+23:03 the skill to do?
+23:04 I want it to generate
+23:09 a YouTube video script
+23:12 no less than 1,500 words.
+23:17 And please find attached the
+23:21 the reference script
+23:26 for Inspo.
+23:27 And we can also say observe
+23:30 the style, the tone,
+23:33 the words being used.
+23:36 And
+23:39 what else?
+23:42 What else do you want me to notice?
+23:46 Structure
+23:49 of the video. Huh. So, we can even give
+23:51 it like an image.
+23:53 Please find attached the image of the
+23:55 channel
+23:56 on YouTube for better reference for
+24:00 context. So, I can basically just go on
+24:02 to YouTube.
+24:04 And I can actually ask it Let me
+24:08 actually open YouTube in incognito.
+24:12 Yes, let's just go on to my channel for
+24:15 reference.
+24:19 Let's just give it this as context.
+24:26 And then, I want to get a script. So,
+24:28 I'll go and find a script
+24:31 that works for me. So, let me go on to
+24:34 doc.
+24:35 There was a script I wrote which was
+24:37 about the dark reality of Kota.
+24:40 How many of you gave the IIT JEE exam?
+24:44 So many of you.
+24:46 So, you can relate with this probably.
+24:47 But, I'll just download this as a doc.
+24:50 And we'll go here and we'll just add
+24:54 this file over here.
+24:56 So, we'll just say dark reality.
+25:00 Uh
+25:01 So, we can say that
+25:04 I'll input the topic
+25:07 and a few links
+25:10 to get started.
+25:12 That's all.
+25:13 So, I can just create this
+25:16 call this skill
+25:19 YT script
+25:21 gen. That's all. So,
+25:24 this is
+25:26 one way to get started with a skill.
+25:28 You can even create a skill and
+25:30 customize a skill based on
+25:32 what you want it to do. So, basically, I
+25:34 can
+25:35 go on to chat and I can explore the type
+25:37 of plugins that Claude already has
+25:40 built.
+25:41 So, plugin, think of it as like a
+25:43 umbrella term which has lots of skills
+25:45 inside of it.
+25:46 So, one plugin could be like a marketing
+25:48 plugin. A marketing plugin can have
+25:50 one plugin which generates scripts, one
+25:53 plugin which generates skill which
+25:55 generates infographics, one skill which
+25:57 generates something else, comes up with
+25:59 title ideas, comes up with with caption
+26:01 generation, and then it gives all of
+26:04 that to me so that I can build anything
+26:05 that I want. So, the plugin is the
+26:07 marketing plugin, and the skills are all
+26:09 the tasks that comes underneath it.
+26:12 It's asking me to execute something.
+26:14 See, I don't need to figure out what it
+26:16 is doing. I can just keep asking it to
+26:18 proceed and just get it going.
+26:21 If you're someone who doesn't understand
+26:23 code, that's the best you can do. And it
+26:25 just figures things out on its own. If
+26:26 it throws an error when you are trying
+26:28 to build something, you can simply just
+26:30 take a screenshot of that and ask it to
+26:32 look at that and fix it.
+26:34 And then, it's going to create the skill
+26:36 for us. So, this is the actual
+26:40 real meat of what we want. This is the
+26:42 prompt. So, we are able to identify the
+26:45 hook, the structure, the tone, the
+26:46 intro, editorial notes,
+26:49 rhetorical questions, storytelling,
+26:50 disclaimers. It was basically able to
+26:52 understand how the script was written.
+26:55 So now, I just need to give it a topic
+26:57 and then it will start working on it.
+26:59 What's a video you want to make a script
+27:00 of?
+27:01 >> Any Mr. Beast video.
+27:03 >> Mr. Beast video. How then give me a
+27:04 challenge.
+27:06 Mr. Beast is the shark is the shark in
+27:07 on Shark Tank India.
+27:09 Uh let's let's make that.
+27:11 So it says skill draft is done. Now let
+27:13 me set up test cases and run them. There
+27:15 are three realistic test prompts I'd
+27:16 like you to try.
+27:18 Write a script about dark reality of
+27:20 India's EdTech boom, script on how AI is
+27:22 replacing jobs in India.
+27:24 Want to add or change anything before I
+27:27 run them or should I go ahead?
+27:29 We can just say go ahead with this.
+27:32 Now the good thing is that when you're
+27:34 using a skill and you're giving it
+27:35 feedback, it actually improves. It gets
+27:37 better with time and the more you use
+27:39 the skill, the better it learns about
+27:41 what was the better output.
+27:44 Now one cool thing is that you also have
+27:46 Claude and Chrome enabled on this.
+27:48 So I can just ask it to like go to my
+27:51 Twitter, find something that's trending,
+27:53 take that topic and make a YouTube video
+27:55 script on that.
+27:57 And it'll do that. Let's actually try
+27:58 that out. Basically, if I go to Co-work
+28:00 and I'll show you a task which is the
+28:03 daily AI news roundup.
+28:05 So this is a agent basically you can
+28:07 call it which I've created.
+28:10 It runs every day at 10:00 and I can
+28:11 just start running it now and show you
+28:13 how it works.
+28:15 So it's in progress, schedule task.
+28:19 And you can actually view it running in
+28:21 the background.
+28:25 So it's reading skill.md.
+28:31 You can actually open this and see what
+28:33 skill is it using.
+28:38 This is a tool that it is using,
+28:39 updating to-do list.
+28:41 So it made this plan for what it wants
+28:43 to execute. It has the instructions. It
+28:47 has the context. The connector here is
+28:49 Claude in Chrome, and then it just
+28:51 starts getting to work.
+28:55 So, if you'll go here,
+28:57 you can see that it started a new page,
+29:00 and it's automatically like using my
+29:02 Twitter to find interesting things.
+29:06 And while it does that, I can start
+29:07 doing other tasks as well.
+29:09 So, we can actually go here,
+29:12 go back to our code,
+29:15 and just allow it
+29:17 to get things done.
+29:30 Now, while it does this, I can also show
+29:32 you on chat.
+29:33 Just create a new chat,
+29:35 and you go on to plus, you can actually
+29:37 start
+29:38 finding new skills for you. So, you go
+29:40 on manage skills, you can look at all
+29:42 the skills that Claude already has.
+29:44 Right? This is algorithm art, creating
+29:47 algorithmic art using P5.js. That's one
+29:49 example.
+29:50 Brand guidelines, canvas design. You can
+29:52 now start customizing it if you want to.
+29:55 So, I can enable this,
+29:57 and I can start
+29:58 customizing any of these skills that I
+30:00 have over here. Now, you can also look
+30:03 at plugins. So, you can browse plugins,
+30:06 and you'll find the type of plugins that
+30:07 you currently have. So, there's
+30:08 productivity plugins, there's a design
+30:10 plugin, there's a marketing plugin.
+30:12 Like, if you install any of these,
+30:15 we can now start managing these plugins
+30:16 and look at all the skills that they
+30:18 have.
+30:18 So, we have a campaign plan, we have a
+30:20 brand preview, we have a competitive
+30:22 brief.
+30:23 And we can just start enabling these and
+30:25 trying these out. So, if I am on
+30:28 content creation,
+30:30 I can just go on to plus,
+30:33 I can go on to
+30:35 a skill,
+30:37 and I can
+30:38 start enabling and using these
+30:41 over here.
+30:44 So, I can customize and I can start
+30:46 using them.
+30:50 And I can even create connectors. So,
+30:51 connectors is basically a way for you to
+30:53 connect different apps to Claude so that
+30:55 so that it can reference that without
+30:57 having to use Claude in Chrome all the
+30:59 time. And it's actually much faster and
+31:00 better that way.
+31:02 Let's go back and see what's happening.
+31:06 So, while this happens,
+31:08 the one thing to take away from this
+31:10 session is that there's a new
+31:12 field coming up which is called as skill
+31:14 engineering.
+31:16 Right? So, like you had prompt
+31:17 engineering, there's something called a
+31:19 skill engineering. So, instead of you
+31:20 writing code
+31:22 or creating these workflows on N10, you
+31:24 can now start creating these skills. And
+31:28 the person who creates the best skill
+31:30 gets used a lot more, companies then
+31:32 start adopting it, and you get paid for
+31:35 the work that you've done.
+31:37 Skill engineering again is all about
+31:39 being as explicit about what you want it
+31:43 to do in the skill.md section, having
+31:45 enough references, and then allowing it
+31:48 to update on itself.
+31:51 So, that's basically how it works. Okay,
+31:52 our PDF is ready. So, it went into it.
+31:55 It gave us these seven scripts.
+31:58 And we can start shooting these reels
+31:59 and hoping that some of this goes viral.
+32:01 So, that's just one example. But
+32:03 basically, we have the skill with us.
+32:06 And then we can just use the skill to
+32:07 create the video script for us.
+32:10 As you can see right here.
+32:12 Write our YouTube script
+32:14 about the EdTech boom. And this is the
+32:17 script that it wrote.
+32:19 Now, I can make any changes to this if I
+32:21 want.
+32:22 So, that's basically how you create a
+32:23 skill
+32:24 with Claude
+32:26 and automate tasks. Thank you for
+32:28 joining me here. This was great talking
+32:31 with you all.
+32:53 >> Mhm.

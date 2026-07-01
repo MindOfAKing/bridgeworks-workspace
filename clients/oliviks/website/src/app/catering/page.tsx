@@ -7,7 +7,7 @@ import { Reveal } from '@/components/Reveal';
 import { site, telLink, waLink } from '@/data/site';
 
 export const metadata: Metadata = {
-  title: 'Catering — Oliviks Kitchen',
+  title: 'Catering | Oliviks Kitchen',
   description:
     'Book Oliviks Kitchen for Nigerian catering in Budapest: birthdays, weddings, baby showers, office lunches, anniversaries, and drop-off catering.',
 };
@@ -44,7 +44,7 @@ export default function CateringPage() {
       <section className="relative h-[72vh] min-h-[500px] w-full overflow-hidden">
         <Image
           src="/images/catering-buffet.png"
-          alt="Oliviks Nigerian catering spread — jollof rice, egusi, vegetable soup, fried plantain and more"
+          alt="Oliviks Nigerian catering spread: jollof rice, egusi, vegetable soup, fried plantain and more"
           fill
           className="object-cover object-center"
           priority
@@ -91,6 +91,14 @@ export default function CateringPage() {
               <Phone size={16} aria-hidden="true" /> Call {site.phone.display}
             </a>
           </div>
+          <a
+            href={site.award.url}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="animate-hero-up anim-d-520 mt-5 text-[13px] font-semibold text-cream/70 transition-colors hover:text-cream"
+          >
+            {site.award.label}: <span className="text-gold">{site.award.title}</span>
+          </a>
         </div>
       </section>
 

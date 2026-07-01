@@ -47,7 +47,7 @@ export const menu: MenuCategory[] = [
       {
         name: 'Jollof rice',
         description:
-          'Long-cooked tomato rice with a smoky edge. This is the dish Nigerian parties are built around. A smart first order if you want to understand why. Add a protein from Sides — grilled chicken, turkey, mackerel, or beef.',
+          'Long-cooked tomato rice with a smoky edge. This is the dish Nigerian parties are built around. A smart first order if you want to understand why. Add a protein from Sides: grilled chicken, turkey, mackerel, or beef.',
         price: '2,500 Ft',
         image: '/images/dish-jollof.png',
         tags: ['popular'],
@@ -55,14 +55,14 @@ export const menu: MenuCategory[] = [
       {
         name: 'Fried rice',
         description:
-          'Basmati rice cooked with turmeric and stir-fried with mixed vegetables. Lighter than jollof, bright and savory. Add a protein from Sides — grilled chicken, turkey, mackerel, or beef.',
+          'Basmati rice cooked with turmeric and stir-fried with mixed vegetables. Lighter than jollof, bright and savory. Add a protein from Sides: grilled chicken, turkey, mackerel, or beef.',
         price: '2,500 Ft',
         image: '/images/dish-fried-rice.png',
       },
       {
         name: 'Pilau rice',
         description:
-          'Basmati rice cooked in aromatic spices. Warm, fragrant, and filling. A heartier rice plate when you want more depth. Add a protein from Sides — grilled chicken, turkey, mackerel, or beef.',
+          'Basmati rice cooked in aromatic spices. Warm, fragrant, and filling. A heartier rice plate when you want more depth. Add a protein from Sides: grilled chicken, turkey, mackerel, or beef.',
         price: '3,500 Ft',
         image: '/images/dish-pilau-rice.png',
       },
