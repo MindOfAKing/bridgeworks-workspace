@@ -692,3 +692,83 @@ Action: Add an Automation Fit Filter before n8n, AI agent, CRM, SMS, email, crea
 Owner: Emmanuel / BridgeWorks
 
 Status: Needs SOP row. No client workflow automation or tool install from this run.
+
+### 2026-07-09 - Proactive Agent Routine Gate
+
+Source: `Build a proactive agent workflow with Claude Code`
+
+Decision: Adapt
+
+BridgeWorks area: Agency Operations, AI Growth Systems, Delivery Verification
+
+Reason: The transcript gives a useful structure for scheduled or event-triggered AI work: prompt, source repo or files, connectors, trigger, watchability, steering, and resumability. BridgeWorks should adopt the design discipline, not enable new connected routines yet.
+
+Action: Create a Scheduled Routine Design Card for YouTube Digest, Inbound Prospect Triage, Oliviks QA, and future automation jobs.
+
+Owner: Codex / Emmanuel
+
+Status: Needs template. No Claude Code routine enablement, webhook setup, GitHub PR creation, or connected-account action without approval.
+
+### 2026-07-09 - Loop-To-Skill Operating Pattern
+
+Source: `How to Start Writing Loops for Advanced AI Models like Fable 5 + GPT 5.6 (Clearly Explained)`
+
+Decision: Adopt internally
+
+BridgeWorks area: Agency Operations, AI Growth Systems, Website Production System
+
+Reason: The transcript clarifies when to move from one-off prompts to repeatable loops: a clear objective, scoped steps, exit condition, and proof. This fits BridgeWorks recurring QA, content, SEO, and research work.
+
+Action: Add a Loop-To-Skill Gate before creating new BridgeWorks skills: repeated task, goal, steps, exit condition, proof, allowed files, approval gate, and two successful runs before skill conversion.
+
+Owner: Codex / Emmanuel
+
+Status: Needs SOP row. No new plugin or client-data workflow from this run.
+
+### 2026-07-09 - Value Event Dot Plot Reporting Card
+
+Source: `See How Customers Actually Use Your Product`
+
+Decision: Adopt
+
+BridgeWorks area: Reporting, Build Brief, Digital Growth Engine, Client Delivery
+
+Reason: The transcript shows how aggregate metrics can hide whether individual users or client accounts are getting value. A dot plot fits early-stage Build Brief, DGE, and small client reporting better than a bloated dashboard.
+
+Action: Create a Value Event Dot Plot report card for internal products and client workflow prototypes.
+
+Owner: Emmanuel / BridgeWorks
+
+Status: Needs template. No analytics implementation or client dashboard promise from this run.
+
+### 2026-07-09 - AI Visibility Scope Map
+
+Source: `The $5K/Month AI Service Local Businesses Are Begging Their Agencies For`
+
+Decision: Adapt with constraints
+
+BridgeWorks area: GEO / AEO, Foundation Website QA, Digital Growth Engine Reporting
+
+Reason: The transcript gives clear client language for AI visibility as recommendation confidence, supported by consistent data, reviews, structured pages, mentions, and constrained prompt tests. The vendor pricing and package claims do not fit BridgeWorks without proof.
+
+Action: Add an AI Visibility Scope Map to DGE and Foundation reporting backlog.
+
+Owner: Emmanuel / BridgeWorks
+
+Status: Needs backlog integration. No AI-ranking guarantees, paid listing tools, fake reviews, client pitch, or external publishing from this run.
+
+### 2026-07-09 - GBP-To-Site Content Map
+
+Source: `Claude Code Local SEO: How I Got 50,000 Google Clicks/Mo (Steal This)`
+
+Decision: Adapt with constraints
+
+BridgeWorks area: Foundation Website QA, Local SEO, GEO / AEO, Website Production System
+
+Reason: The transcript maps local SEO from GBP categories, services, service areas, photos, hours, reviews, service pages, localized content, static generation, Lighthouse, and skills. This fits the Foundation website QA backlog if truth and approval gates stay strict.
+
+Action: Add a GBP-To-Site Content Map to Foundation Website QA and DGE reporting backlog.
+
+Owner: Emmanuel / BridgeWorks
+
+Status: Needs checklist integration. No fake service areas, review gating, autoposting, paid SEMrush/Make spend, GitHub push, or client publishing from this run.

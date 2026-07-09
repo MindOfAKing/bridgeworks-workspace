@@ -1,0 +1,229 @@
+00:00 Most real estate agents are paying thousands of dollars every single month just to generate
+00:04 leads for their real estate business.
+00:06 Then they lose a huge percentage of these leads because they can't follow up or respond
+00:11 to these leads fast enough.
+00:12 And this is where the simple Go High Level AI setup comes in that I want to show you everything
+00:17 step by step inside of this video.
+00:19 And if you're brand new here to the channel, my name is Jason Wardrop and from 2015 to
+00:23 2021, I worked with over 15,000 real estate agent clients.
+00:28 So I know that this is a huge pain point that is very easy to fulfill with the high level
+00:34 software.
+00:35 So in this video, I'm going to show you step by step how to use Go High Level AI to
+00:39 help these real estate agents follow up with their leads generate more leads and actually
+00:44 convert these leads.
+00:46 They're generating into book deployments.
+00:48 So they have a lot fewer leads slipping through the cracks.
+00:51 And the best part about this is this is the same exact offer that you can package into
+00:56 one simple service charges much is 500 to $1,000 per month for this and then take the
+01:03 same packaging, this same offer and resell it to one agent and the next and the next without
+01:10 having to customize anything on top of it.
+01:12 So let's jump onto my computer so I can show you everything step by step.
+01:16 But before we do, I just want to let you know about my brand new AI workshop where I walk
+01:20 you through everything step by step of how to get clients, how to fulfill for clients.
+01:25 I hook you up with all my templates and scripts and I show you some really cool AI tools
+01:29 that I built that I just want to give to you to help you grow your business.
+01:34 So if you guys want that, just smash like button, drop a comment down below and I'll
+01:37 hook you up with the private link to unlock that free AI workshop 100% for free.
+01:43 I'll show you how to get the template scripts, everything without having to invest in some
+01:46 $997 course.
+01:48 So now these smash like button, drop to comment down below so I can hook you up with
+01:51 all those freebies.
+01:53 Let's jump onto my computer so I can show you guys this setup step by step.
+01:56 Okay, so now that you've smashed like button, drop to comment down below so I can hook you
+01:59 up with the private link to unlock all of my courses, template scripts, everything 100% for free.
+02:04 Here is a live look of at exactly what we're going to be doing.
+02:08 So here is a real website that I built in a matter of seconds, which I'm going to show you how to
+02:12 do here in just a second plus give you the copy and paste prompt, everything.
+02:17 And you can see right here, this is for an agent in South Florida in Miami.
+02:22 It pulled in her average sales price, her recent sales, her active listings that we can click out
+02:27 and go and see all these different listings has all of her client testimonials and a contact form.
+02:33 And as you see this, I am not a website designer.
+02:36 I don't know how to code.
+02:37 I don't know how to design.
+02:38 I have zero artistic abilities whatsoever.
+02:41 But I was able to make this in a matter of seconds.
+02:45 And you will be able to do the exact same thing.
+02:47 But first, before I show you how to do that, the key thing here is we need to get a real estate
+02:53 agent as a client.
+02:55 So you might be thinking, well, how do we go through and find realtors?
+02:58 And that is where this whole zillow hack comes into place.
+03:01 So if we go here to zillow, typically most people are using zillow to go search for homes in their
+03:07 community or in their dream neighborhood or their dream location.
+03:12 However, I use zillow a bit differently than most people.
+03:16 So what I like to do is I like to come up here to find an agent and I'll go and say real estate
+03:21 agents right here.
+03:22 And so now what I can do is I can see all of the realtors in my local area or I can go and type
+03:28 in a specific location.
+03:30 So for this one, I'm just going to say Dallas, Texas.
+03:34 Okay.
+03:35 And then I'm just going to click this and hit enter.
+03:37 And what happens is zillow will show me all of the top realtors in this specific area.
+03:44 So I did this for Dallas, Texas.
+03:45 You could do it for Miami, Florida, Southern California, anywhere.
+03:48 And you could do this again and again and again.
+03:51 And you can see there are pages of results.
+03:54 Now, the reason why I like to go on zillow as a post who on Google or in some Facebook group
+04:00 is because we can see if these agents are even successful or not.
+04:03 Because a lot of agents are just part time.
+04:06 And if they're just part time agents and kind of just doing as a casual side hustle,
+04:10 more than likely, they're not going to have the budget to go through and pay you
+04:14 to help them generate leads, book more appointments and ultimately grow their business,
+04:18 which is what we're going to be doing.
+04:20 And that is what these top agents are going to pay us to do.
+04:23 So you can see right here, we've got a few different filters.
+04:25 We can say which agents are buying agents, sellered agents.
+04:28 We can see which ones are top agents.
+04:30 If we only want to sort by the top agents.
+04:32 And so now what I'm going to do is I'm just going to go through and click right here
+04:36 on Michelle Beach.
+04:38 And this zillow profile page, this is almost like a Facebook business profile page,
+04:42 where it has a little bit more information on her, her active listings, some reviews,
+04:47 kind of the area that she works in, past listings.
+04:51 And then if we scroll all the way down here, we'll be able to find her contact information,
+04:55 where we can see her phone number, her email address, her actual address of her office,
+05:00 and so we can go through and reach out to her.
+05:02 Now, before I want to reach out to her, what I like to do is I like to go in and I'm going to use
+05:07 this copy and paste prompt to make a professional website design just like this for this agent.
+05:15 Okay?
+05:16 And so what I'm going to do is I'm going to come over here and I'm just going to copy this
+05:19 prompt.
+05:20 So this prompt says, make professionally designed real estate website for this agent.
+05:24 And I'm going to put in the link and I want their active listings and reviews embedded
+05:27 into the site with a contact form, chat widget, and automated conversation AI agent, train
+05:33 on this realtor's business to answer any questions a website visitor has when visiting
+05:38 their website.
+05:39 So now I'm going to come over here to this AI software right here.
+05:42 I'm going to just paste in this prompt and then I'm going to also grab the URL so it knows
+05:48 which website I'm actually talking about here.
+05:50 So I'm just going to paste in this link and then I'm going to hit enter and this is going
+05:55 to automatically build this entire website for me, customize for Michelle, her contact
+06:02 information, her reviews, her past homes that she sold, her active listings, everything
+06:07 from a to Z.
+06:09 Now real quick, while this is being built out, I just want to invite you.
+06:12 If you want to go through and get access to this exact AI software that I use to run
+06:16 my entire business, I'll hook you up with an extended third day free trial down in the
+06:21 description as well as in the top comment.
+06:23 And you'll also get access to all of my courses, templates, scripts that I've used to
+06:29 get thousands of paying real estate clients 100% for free.
+06:33 Not only will you get access to all of these courses, but you'll get access to this private
+06:37 community where I go through and I do weekly live Q&A calls to help you out with anything.
+06:43 And like I said, if you get started with that extended third day free trial, it will cost
+06:47 you nothing extra, but I will get a little bit of a kick back because of that I can go through
+06:51 and give you my entire business model, everything that has worked for me from a to Z plus coaching,
+06:58 plus community plus weekly live calls and a one-on-one kickoff call, all 100% for free.
+07:03 You'll also even get access to this private community where I'll show you a simple business
+07:08 model that I've used to make over $10 million online using this exact same software.
+07:13 So once again, if you want to go through and get started with that, there's a third day
+07:17 extended free trial to the software right down below and you'll be able to unlock access
+07:21 to everything.
+07:22 Okay, check this out.
+07:23 Just finished, find your Dallas dream home.
+07:26 It just made this entire website with the featured listings with the reviews that we can
+07:32 now go through and send to Michelle and get her as a client.
+07:37 Now this whole client acquisition model works on the law of reciprocity.
+07:42 So now we're going to go through and reach out to Michelle with this completed, professionally
+07:46 designed website 100% for free.
+07:49 We can tell her, Hey, we built this for free.
+07:52 We want to go through and help you out.
+07:53 And because you've actually offered value up front from the very beginning, the chances
+07:58 of this real estate agent responding to you go up dramatically.
+08:03 And so from here, then you might be thinking, Well, Jason, how do we actually go through
+08:06 and make money?
+08:07 Well, the cool thing about this AI software right here, and that's why I highly recommend
+08:11 going through and checking it out, getting started with the extended third day free trial,
+08:14 is that you can white label it.
+08:16 And what white labeling means it means you can connect your own logo, put your own domain
+08:20 on it, connect your own payment processor.
+08:22 So you get to collect 100% of the payments.
+08:25 You're not doing any commission splits or anything like that.
+08:28 And this software platform even lets you bring on unlimited clients.
+08:34 It's not like you get to 10 clients and they're charging you more per user per client.
+08:38 It is unlimited clients, which is amazing.
+08:41 And then you could take this website right here, and you can see right here, it's saying,
+08:44 Hey, connected to the CRM.
+08:46 This AI software has a full CRM built into it.
+08:49 And then also, if we come up here and hit publish, remember, we said, Hey, add a chat widget
+08:55 to this page and create a conversational AI agent that's going to be able to respond
+09:00 to all of the questions that we might have.
+09:03 So if we go through and we open up this website, and I'm just going to move my head right
+09:07 there.
+09:08 So we might see something like what is the best phone number to reach you.
+09:14 And I don't know whatever the question might be, but it's already all trained.
+09:18 Let me zoom in right here.
+09:19 And it says, you can reach Michelle directly at her phone number.
+09:22 Would you like me to have her call you?
+09:24 And they could say, yes, that would be great or whatever it is.
+09:27 And the AI chatbot is already trained not only to turn more of these website visitors into
+09:33 sales conversations, but actual real life booked appointments on Michelle's calendar,
+09:39 which brings a tremendous amount of value to Michelle in her real estate business.
+09:44 Now one more thing I want to go through and show you to, which is crazy that we can do
+09:47 this with this software.
+09:48 I just want to try to show you the power of the software and all the things that we can
+09:52 do.
+09:53 There is another tool that we have called ask AI.
+09:56 And what I'm going to do is I'm just going to do a simple prompt in here.
+09:58 Okay, I'll just zoom in so you guys can see exactly right around right here.
+10:01 I said, create three Facebook posts for this real estate agent put in the link and schedule
+10:05 them out one per day over the next three days.
+10:08 And I'm just going to hit enter.
+10:09 Now this is a service that I have offered to real estate agents in the past to go through
+10:13 and create social media content for them to post on Facebook, on Instagram, Twitter,
+10:18 on all the different social media plurial files.
+10:20 But in the past, what we had to do is we had to use a simple service like Canva, but we
+10:24 had to go through and actually create the content.
+10:27 And then we would take that content.
+10:29 Then we would move it over to an automation scheduler to post on social media.
+10:33 But now with AI, I can literally prompt it just like I showed you and say, hey, create
+10:39 social media posts for Facebook or Instagram or Twitter or all of them.
+10:44 And I wanted to be images or videos or just text based or whatever it might be.
+10:49 And then I want you to schedule it out because the cool thing about this AI software.
+10:53 And as I was showing you earlier, you can white label it.
+10:55 So where I see your logo, you can throw your own logo, connect your own domain, connect
+11:00 your own payment processor.
+11:01 So as you get clients, these real estate clients and let's say you're charging $299 per
+11:06 month, you not only keep the $299 per month.
+11:09 And if you get five clients, 10 clients, you can see how this month recurring revenue
+11:13 really starts to stack up and you're not having to do any commission splits.
+11:17 And you have this software that's already pre-built, pre-coded in addition to all of this.
+11:23 It has an automation scheduler to automatically post to social media for your clients.
+11:29 So the cool thing for you is in the past, I had to go through and hire account managers.
+11:33 I would do the sales, but then an account manager would go and create the content and
+11:37 then schedule the content and then get the okay from the client to be able to actually
+11:41 post the content.
+11:43 But now all you would have to do is literally get in contact with the realtor, sell them,
+11:49 and then tell AI exactly what to do.
+11:51 So now you're not have to hire humans and you have waveless overhead and way more leverage
+11:57 and scalability.
+11:58 Now if we zoom in here, you can see this is just a demo account.
+12:01 And so what it's telling me is it's saying, hey, which Facebook page we should connect
+12:04 to because I don't have one connected and I also don't have Michelle Beaches Facebook
+12:08 page connect because I'm just using this for an example.
+12:11 But you can see these are all different social media posts.
+12:14 This one didn't do images because I was like, I don't want to make images because sometimes
+12:18 that takes a little bit longer.
+12:19 But it could do full on images has all these posts that if I had the Facebook page connected,
+12:24 I just say post and then it were scheduled out and it would go through and automatically
+12:30 schedule out the post on whatever cadence that I would want to go through and schedule
+12:34 it.
+12:35 So there you go, guys.
+12:36 This is one of my favorite business models because you're able to go and create monthly
+12:41 recurring revenues.
+12:42 So you're not starting at zero at the beginning of every single month.
+12:45 And you can see with AI with these AI software, there is massive leverage and scale to this
+12:52 business.
+12:53 There's not a ton of overhead.
+12:54 You're not going to go through and hire a massive team to run this.
+12:58 And there's nothing stopping you from getting 10 clients, 20 clients, even hundreds of clients
+13:04 using this exact setup.
+13:06 So once again, if you want all my courses, templates, scripts, my live community, a one-on-one
+13:10 kickoff call, plus weekly live Q&A calls with me to go through and show you guys exactly
+13:16 how I went and grew my business, a thousands of paying clients.
+13:20 All you get to got to do to get started is just jump into the extended 30 day free trial
+13:25 to this AI automation software.
+13:27 There's a link down in the description as well as in the top comment.
+13:31 You'll be able to get instant access to everything that I offer.
+13:35 And like I said, it's going to cost you nothing more.
+13:37 I'll get a little bit of a kick back in return, but that's what allows me to go through and
+13:41 offer all of this to you for free to help you scale your own online business.
+13:46 So anyway, with that said, thanks so much for watching, guys.
+13:49 And I'll see you in the next video.

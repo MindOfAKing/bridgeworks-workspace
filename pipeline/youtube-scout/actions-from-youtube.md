@@ -397,3 +397,50 @@ Area: AI Growth Systems, Client Delivery, Agency Operations
 Change: Add a pre-automation filter for repeatability, input structure, rule clarity, edge cases, failure cost, approval owner, human judgment, and proof output before recommending AI workflows.  
 Evidence file: `pipeline/youtube-scout/transcript-extractions/yt-20260630-006-automation-fit-filter.md`  
 Status: Needs SOP row. No client workflow automation or tool install from this run.
+
+## 2026-07-09
+
+### Action: Create Scheduled Routine Design Card
+
+Source: `Build a proactive agent workflow with Claude Code`  
+Decision: Adapt  
+Area: Agency Operations, AI Growth Systems, Delivery Verification  
+Change: Add a routine card for scheduled and event-triggered jobs covering trigger, source files, allowed tools, output file, approval gate, verification proof, stop conditions, and forbidden actions.  
+Evidence file: `pipeline/youtube-scout/transcript-extractions/yt-20260709-001-proactive-agent-routine-gate.md`  
+Status: Needs template. No Claude Code routine enablement, webhook setup, GitHub PR creation, or connected-account action without approval.
+
+### Action: Add Loop-To-Skill Gate
+
+Source: `How to Start Writing Loops for Advanced AI Models like Fable 5 + GPT 5.6 (Clearly Explained)`  
+Decision: Adopt internally  
+Area: Agency Operations, AI Growth Systems, Website Production System  
+Change: Before creating a new skill, require repeated task, objective, loop steps, exit condition, proof, allowed files, approval gate, and two successful runs.  
+Evidence file: `pipeline/youtube-scout/transcript-extractions/yt-20260709-002-loop-to-skill-operating-pattern.md`  
+Status: Needs SOP row. No new plugin or client-data workflow from this run.
+
+### Action: Create Value Event Dot Plot Reporting Card
+
+Source: `See How Customers Actually Use Your Product`  
+Decision: Adopt  
+Area: Reporting, Build Brief, Digital Growth Engine, Client Delivery  
+Change: Add a simple reporting card where each row is a user, client, or account and each column is a day or week. Dots must represent real value events, not vanity activity.  
+Evidence file: `pipeline/youtube-scout/transcript-extractions/yt-20260709-003-dot-plot-reporting-card.md`  
+Status: Needs template. No analytics implementation or client dashboard promise from this run.
+
+### Action: Add AI Visibility Scope Map
+
+Source: `The $5K/Month AI Service Local Businesses Are Begging Their Agencies For`  
+Decision: Adapt with constraints  
+Area: GEO / AEO, Foundation Website QA, Digital Growth Engine Reporting  
+Change: Add a scope map for Google/local foundation, business-data consistency, review and proof signals, structured pages and schema, third-party references, constrained AI prompt tests, and caveated reporting.  
+Evidence file: `pipeline/youtube-scout/transcript-extractions/yt-20260709-004-ai-visibility-package-scope-map.md`  
+Status: Needs backlog integration. No AI-ranking guarantees, paid listing tools, fake reviews, client pitch, or external publishing from this run.
+
+### Action: Add GBP-To-Site Content Map
+
+Source: `Claude Code Local SEO: How I Got 50,000 Google Clicks/Mo (Steal This)`  
+Decision: Adapt with constraints  
+Area: Foundation Website QA, Local SEO, GEO / AEO, Website Production System  
+Change: Add a pre-page-planning map connecting GBP primary category, real services, service areas, photos, hours, review policy, service pages, localized content, static generation, and Lighthouse QA.  
+Evidence file: `pipeline/youtube-scout/transcript-extractions/yt-20260709-005-local-seo-claude-code-foundation-qa.md`  
+Status: Needs checklist integration. No fake service areas, review gating, autoposting, paid SEMrush/Make spend, GitHub push, or client publishing from this run.

@@ -1,0 +1,373 @@
+00:09 One of the biggest mistakes I see
+00:10 founders make is relying on aggregate
+00:13 user metrics instead of understanding
+00:15 how any individual users use their
+00:17 product. In my last video, I talked
+00:19 about cohort retention curves and how
+00:21 you can use those to separate groups of
+00:24 users and track what they do over time
+00:26 throughout using your product. And I
+00:28 think that's the best tool that you've
+00:29 got to figure out if people keep using
+00:31 your product. But what you don't know is
+00:33 how are they using your product? How are
+00:35 they interacting? What features are they
+00:37 using? What's the frequency of use?
+00:39 What's the the pacing of how they use
+00:40 the product? And most founders just like
+00:43 ignore this. But I think it's the most
+00:45 important signal to figure out if you've
+00:46 built something that people want. So you
+00:48 want to be able to look at what
+00:49 individual users are doing. But that's a
+00:52 lot, right? if you even have like 10 or
+00:54 20 users, um it's pretty challenging to
+00:56 just tail the logs and watch every event
+00:58 that every user is doing. So with
+01:00 aggregate data, the graphs that we're
+01:02 all used to talking about, things like
+01:05 DAUs or MAUs, um these lump all of your
+01:09 users together, and you can't really get
+01:11 a sense of what any individual user is
+01:13 doing. And if you have any amount of
+01:15 growth, those graphs tend to be going up
+01:18 and to the right. um even if users
+01:20 aren't actually enjoying using your
+01:22 product. So today I want to tell you
+01:24 about a tool that we came to in my
+01:26 startup that allows you to understand
+01:28 what's going on with individual users
+01:30 while also giving you a big picture view
+01:32 of how your entire product is performing
+01:35 and we call it the dot plot. So let me
+01:37 show you what a dot plot looks like.
+01:39 Based on the name you can figure out
+01:40 probably involves dots. What you
+01:42 basically do is just make a
+01:44 two-dimensional grid like a spreadsheet
+01:46 where there are a bunch of columns and a
+01:48 bunch of rows. Each row represents one
+01:52 individual user. If I'm one of the
+01:54 users, I'll I'll write my name here.
+01:55 Dave, I'm one of the users. Uh, and
+01:57 every other user of your product gets
+01:59 their own row.
+02:03 And then every column represents a time
+02:05 period. I think days are usually the
+02:07 right thing to use for your product, but
+02:08 it probably depends a bit on the nature
+02:10 of your product. So, let's just draw in
+02:12 the days. I'll just do Monday, Tuesday,
+02:15 Wednesday, Thursday, Friday. And you can
+02:18 make this as big or as small as you
+02:21 want. For the sake of this example, I'll
+02:23 just do like a week or two of days just
+02:26 to show you what's going on here. And
+02:28 then the idea, it's called a dot plot,
+02:30 is you put some dots in each of the
+02:31 cells. You want to pick an event that
+02:34 your user does in the process of using
+02:36 your product that you think represents
+02:37 value in the product. Maybe it's um you
+02:40 know sharing a photo if you're building
+02:42 a photo app or listening to a song if
+02:43 you're building a music app or
+02:45 processing an invoice if you're building
+02:47 a B2B invoice processing product and you
+02:50 can just put a dot for each day that
+02:52 each user uses the product. Let's say
+02:54 we're Spotify and we're building a music
+02:56 streaming app and we want to see how our
+02:58 users are using it. Let's pick the event
+03:00 that we're going to chart here being
+03:01 listen to a song. So anytime a user
+03:03 listen to a song during a day we're
+03:05 going to put a dot. Uh so for me let's
+03:07 say I
+03:09 listen to Spotify song on Monday and
+03:12 Tuesday and not on on Wednesday but
+03:15 Thursday and Friday again and then maybe
+03:17 again on Monday and Wednesday. Another
+03:20 thing you can do um to make a record of
+03:24 the first day that a user used a
+03:25 product, the day that they onboarded,
+03:27 you can put another symbol like let's
+03:28 say we on a user's first day we'll just
+03:31 draw a little ring around the dot like
+03:32 that just to give us a little bit more
+03:34 signal. And what you'll eventually start
+03:36 seeing is a pretty high density
+03:40 visualization of individual users and
+03:43 their usage over time. What's really
+03:45 cool about this is it lets you figure
+03:48 out patterns
+03:50 that you probably would not have seen
+03:53 with your human brain just looking at
+03:56 aggregate charts or looking at
+03:58 individual user logs. Okay, so let's
+04:00 look at this example I've just drawn.
+04:02 Um, for our Spotify app, what do we see?
+04:05 What patterns have emerged now that we
+04:07 can see individual users and their own
+04:09 behavior? Well, one thing I see is it
+04:11 seems like there's a set of people who
+04:13 use the product on weekdays, right?
+04:16 We've got myself, we've got user number
+04:19 three here, user four used it on a
+04:20 Monday, user six used it during the
+04:22 week, and there's a couple users who
+04:24 seem to kind of only use it on the
+04:25 weekends. That's an interesting
+04:26 observation that might help me redesign
+04:29 my product in a different way or target
+04:32 different users. Maybe understand which
+04:34 users are the most valuable ones to me.
+04:35 Do I want the weekday worktime listeners
+04:38 or do I want the weekend users? We would
+04:40 have no idea about this if we didn't
+04:42 have a dot plot visualization like this.
+04:44 Another thing I can see is a a measure
+04:47 of retention. Like do we see a lot of
+04:49 users like user 4 that try the app on
+04:52 one day and then never come back? If we
+04:54 see that on a bunch of our rows, we have
+04:56 an idea of a potential problem that
+04:58 we've got in our onboarding or other
+05:00 things. As you get more sophisticated
+05:02 with dot plots, you can make them as
+05:04 intricate as you want. At Bump, we had
+05:06 different symbols that we would put into
+05:08 these cells. So, we knew whether you
+05:10 shared your contact information using
+05:11 Bump or if you shared a photo. And it
+05:14 gives you a lot more granularity, and
+05:15 you can kind of go as deep as you want
+05:17 on this. This idea of dot plots might be
+05:20 familiar to some of you. You've probably
+05:21 seen it at the top of GitHub pages. Um,
+05:24 this is basically what a GitHub graph
+05:26 looks like. They've just wrapped the
+05:27 days around per week. Another thing you
+05:29 can do is instead of just tracking user
+05:32 actions, you can track user state. So,
+05:36 was this user using an iPhone or an
+05:38 Android phone? Uh, were they on the web?
+05:40 Was this user coming from the United
+05:42 States or a different country? Sometimes
+05:44 you have demographic information about
+05:46 your users. Is this a user that makes a
+05:48 lot of money or is this a college kid
+05:50 that uh you just you just got on, you
+05:53 know, Reddit or something? You can
+05:54 encode those states with other symbols
+05:57 or shading the cells different colors.
+06:00 You can write things over here. So like
+06:02 I might say, you know, this is a iOS
+06:05 user and this is an iOS user, but these
+06:08 ones are Androids. And another thing you
+06:10 can do then is sort your rows based on
+06:13 whatever attributes you want to sort
+06:14 them by. So you might say, I only want
+06:16 to look at iOS users first, or I only
+06:18 want to look at users whose first time
+06:21 using the app was this Monday. So let's
+06:23 resort so we only see people that have
+06:25 rings around their first day. What you
+06:27 find when you look at this in aggregate,
+06:29 you can then kind of zoom out and see an
+06:31 entire page of these. Is your brain will
+06:34 start to notice these patterns in a way
+06:37 that you would never have figured out on
+06:39 your own. uh op priori. This is actually
+06:41 an idea that I remember hearing about 10
+06:44 years ago from Max Levchin, one of the
+06:46 founders of PayPal. They had a big fraud
+06:49 problem at PayPal when they first
+06:50 launched, but they didn't know the
+06:52 patterns to look for. So, what they did
+06:54 instead is build a visualization, a
+06:57 graph of all the transactions that were
+06:59 happening on PayPal. And they just had
+07:01 humans sit and stare at screens of these
+07:04 drawings and graphs. And while the
+07:06 humans didn't know what exactly was
+07:08 going on, they were able to look at the
+07:10 screen and say that thing happening
+07:12 there, that's different and uh probably
+07:15 fraud. And then they would go and dig in
+07:17 to that. It's kind of the same idea with
+07:19 dot plots. You can look at these these
+07:21 charts and figure out, huh, there's
+07:24 something going on with users. I see
+07:25 this pattern emerging. And then you can
+07:28 go dig into it a lot deeper. So to
+07:30 illustrate the point I was talking about
+07:31 where dot plots give you a lot more
+07:33 granularity about what's going on with
+07:35 your users, let's draw the DAU graph for
+07:38 these users. So what you would have seen
+07:41 had you only been looking at your DAU
+07:42 graph. I'll just draw it on top of here
+07:44 to illustrate.
+07:46 So again like imagine each of these days
+07:48 is the same day above. The DAU graph
+07:52 here looks like this.
+07:56 On day one it's two
+07:59 On day two, it's three.
+08:03 On day three, it's two.
+08:06 Two. Two. Two. Two. One. Zero. One.
+08:15 So, if you were just looking at DAUs,
+08:18 this is the graph you would see. And it
+08:20 really doesn't tell you all that much.
+08:22 It basically tells you, yeah, we're not
+08:24 growing. We have some users. Instead,
+08:27 looking at the dot plot, we have a much
+08:29 richer understanding of our users. We
+08:31 know something about their behavior,
+08:33 maybe something about their lives. We
+08:34 probably have inferred from this that
+08:36 these people that use it during the
+08:38 week, probably they're doing it at the
+08:40 office or in some other place where they
+08:42 can listen to music every single day of
+08:44 the work week. And again, you can go a
+08:46 lot deeper on this. And if you change
+08:47 the dots to be different symbols, for
+08:49 example, in in our Spotify example, we
+08:52 could choose to represent different
+08:54 features of the product. Let's say if a
+08:57 if a user uses search in Spotify, we'll
+09:00 put a little S next to it. Or if they
+09:03 use maybe a playlist, they join a public
+09:06 playlist. Let's say we could put a P
+09:08 there. And you might start to see
+09:10 patterns where specific features maybe
+09:13 drive behaviors in the product that you
+09:16 actually want. Let's just say for the
+09:18 sake of argument that we see this one
+09:20 user here that joined a public playlist.
+09:22 they then have a string of many many
+09:25 consecutive days of using the product.
+09:27 We could then infer like oh maybe the
+09:29 playlist feature is really causal to
+09:31 having people be really active in our
+09:32 product. This is the sort of stuff that
+09:34 you can learn with dot plots. So what's
+09:37 really great for most founders you have
+09:39 a very small number of users at the
+09:41 beginning and so you can literally look
+09:43 at every single user of your product on
+09:45 every single day they've ever used it
+09:47 and it all fits on one screen on your
+09:50 monitor. Um, that's really great, but it
+09:53 actually does scale to when you have
+09:55 thousands or millions or billions of
+09:57 users. This is a tool that we used at
+09:59 Google Photos, uh, when we had well more
+10:01 than a billion users. And the idea is
+10:04 you can just choose to sample your users
+10:06 and represent them on a dot plot however
+10:08 you want. So, we would have days where
+10:10 we print out dozens of these pieces of
+10:12 paper with dot plots on them for
+10:14 different samples of our user base. I
+10:16 would print out a piece of paper and
+10:18 hand one of our team members like,
+10:19 "Here's the iOS users in France. I want
+10:21 you to understand what they're doing."
+10:23 And I would hand another piece of paper
+10:24 to somebody else and say, "These are the
+10:26 users on web in the United States who
+10:27 make more than $80,000 a year. Let's see
+10:29 what they're up to." And we would have
+10:31 days where we just sit in the office and
+10:32 look at these dot plots and try to draw
+10:34 conclusions about what's going on with
+10:36 our users. So, you might be thinking to
+10:38 yourself, "This is cool, Dave, but uh
+10:40 we're a B2B product and we just sell
+10:42 seats to businesses and they pay for And
+10:45 so I that's all that matters, right?
+10:47 Turns out that doc plots could be really
+10:49 useful to you, too. Let me give you a
+10:51 specific example. I worked with a
+10:53 company in the most recent YC batch uh
+10:55 that had a very name brand customer that
+10:58 signed up and bought their product. I
+11:00 think it was like a $80,000 a year
+11:02 contract. Um they onboarded the company.
+11:05 The company said they wanted 10 seats
+11:07 and later the company churned. Let me
+11:10 show you what they could have figured
+11:11 out had they been using dot plots. So
+11:13 this is what it actually looked like.
+11:15 The company bought 10 seats, but only
+11:17 three seats ever activated. Only three
+11:19 of those people ever tried the product.
+11:21 And if you look at their usage, they
+11:23 weren't getting a lot of value from it.
+11:25 Nobody used it more than 2 days per
+11:28 week. Um, and it looks like pretty
+11:30 sporadic usage. And it turns out what
+11:32 happened is the company was in the
+11:34 state. The champion had gotten excited
+11:37 about this product and bought it. And
+11:39 then the champion left the company. And
+11:40 as soon as the champion left, a new
+11:42 person came in and they said, "Why are
+11:44 we using this software? We're going to
+11:45 churn." And so they opted out of a
+11:47 renewal clause at the last moment. The
+11:49 company could have known that this
+11:51 contract was in jeopardy by looking at
+11:53 the dot plot. So there's a few ways you
+11:55 can misuse dot plots. U the number one
+11:58 thing is to just chart the wrong event.
+12:00 A lot of founders might want to uh
+12:02 populate their dot plot with the easiest
+12:04 way to populate it so it feels good and
+12:06 you see a lot of dots. Maybe you'll pick
+12:08 like opened the app or signed in to the
+12:10 product. Those are pretty bad events to
+12:13 choose because they don't really measure
+12:15 whether the user is getting real value.
+12:17 So, I suggest you pick something that
+12:18 actually represents value being created
+12:20 for the user. Listen to a song, shared a
+12:23 photo, um something like that that's a
+12:25 real event. The other mistake you can
+12:26 make is picking a time period that's too
+12:29 wide. Sometimes founders want to make it
+12:32 look better and they pick weeks, like
+12:33 week one, week two, week three. it's way
+12:35 harder to figure out what's actually
+12:37 going on unless you look at it at the
+12:38 day or maybe even like subday
+12:40 granularity. So I would go so far as to
+12:43 say until you have hundreds of users,
+12:46 the dot plot could be your only
+12:48 dashboard. What's great about dot plots
+12:50 is they're just a logs visualization
+12:52 tool. There's no fancy computations
+12:54 happening here. You basically just need
+12:55 to parse your logs and put them into a
+12:58 2D grid. This is a thing that modern AI
+13:01 coding tools can whip up in like 10
+13:03 minutes. These are best used in
+13:05 conjunction with cohort retention
+13:07 curves. Cohort retention curves teach
+13:09 you in aggregate whether groups of users
+13:11 that you acquire stick with you over
+13:13 time. That's very important. You should
+13:15 definitely be measuring that. But the
+13:16 dot plot shows you how those users are
+13:18 actually using your product. And they
+13:20 give you the color to go ask the right
+13:22 questions of your users, to go build the
+13:24 right features, to fix things that are
+13:26 broken in your product that you would
+13:28 never learn by looking at aggregate
+13:30 metrics. So, cohort retention curves and
+13:33 dot plots are, in my experience, two of
+13:35 the most important tools that you've got
+13:37 to understand your users. Good luck.

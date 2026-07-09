@@ -1,0 +1,335 @@
+00:00 Every single day, we're talking to
+00:01 agency owners who are [music] hearing
+00:03 the exact same thing on their discovery
+00:04 calls. "What are you doing with AI?"
+00:07 Small business owners are all asking
+00:09 their agencies [music] about AI search
+00:11 optimization, and they want answers now.
+00:14 Here's what's actually happening out
+00:15 there. A local business owner opens
+00:17 ChatGPT [music] on their phone, and they
+00:18 type, "Who's the best accountant in
+00:20 Denver for small businesses?" And
+00:22 ChatGPT gives them three names. Then
+00:24 that business owner calls their
+00:26 marketing agency and asks, "Why aren't
+00:28 we one of those? What are you doing
+00:30 about this?" And most agencies don't
+00:32 have an answer, so they scramble through
+00:34 their dashboards to try [music] and make
+00:35 sense of one. Meanwhile, that business
+00:37 owner is already looking for another
+00:39 agency that does have an answer. And
+00:41 here's what kills me. Most agencies are
+00:44 leaving money on the table [music]
+00:45 because they don't know how to
+00:46 effectively layer AI visibility into
+00:49 their offering. For those of you who
+00:50 don't know me, I'm Kendall, part of the
+00:52 team [music] here at Vendasta, where we
+00:53 work with over 66,000 agencies serving
+00:56 millions of local businesses. [music]
+00:58 That gives me a front-row seat to what
+01:00 agencies are actually selling, what
+01:02 sticks with clients, and where the real
+01:04 money is being made right now. And
+01:06 here's what I'm seeing. The agencies
+01:07 adding AI visibility to their SEO
+01:09 retainers are charging more than they
+01:11 were 6 months ago, and closing deals
+01:14 faster than ever before. But the real
+01:16 reason I decided to make this video
+01:18 today is because 47% of brands still
+01:20 have zero strategy for AI visibility.
+01:23 Only 34% of companies have even trained
+01:26 their teams on this, which means if
+01:28 you're watching this video, you're about
+01:30 to be way ahead of almost half the
+01:31 market. And unlike traditional SEO,
+01:34 where you're competing against years of
+01:36 accumulated domain authority and
+01:38 backlinks, AI visibility is a level
+01:40 playing field. Your local pizzeria
+01:42 client has just as much of a chance of
+01:44 being recommended as Domino's if they're
+01:47 positioned correctly and if their
+01:48 information ecosystem is dialed in. This
+01:51 is the biggest opportunity to add
+01:53 recurring revenue to your agency, and
+01:55 I'm going to hand you the exact package
+01:57 we've built including the pricing,
+01:58 deliverables, tools, and pitch. You're
+02:00 going to walk away from this video with
+02:02 a complete AI visibility service you can
+02:04 sell next week. Let's get into it.
+02:07 Before [snorts] we get into how to
+02:08 create AI visibility packages, I need to
+02:11 make sure you understand the problem
+02:12 well enough to explain it to your
+02:13 clients because you're going to need to
+02:15 educate them. Most small business owners
+02:17 assume that AI search works just like
+02:19 Google. They think, "I rank on Google,
+02:21 so I should show up in ChatGPT, too,
+02:24 right?" But Google is a search engine
+02:26 and AI is a recommendation engine. When
+02:29 someone searches Google for plumber in
+02:31 Austin, Google shows them a list of
+02:33 options and lets them choose. When
+02:35 someone asks ChatGPT, "Who's a good
+02:37 plumber in Austin?" ChatGPT doesn't show
+02:39 a list. It makes a recommendation. It
+02:41 picks for them. That's a fundamentally
+02:44 different game. Your clients can rank
+02:46 number one on Google and still be
+02:47 completely invisible to AI because AI
+02:50 doesn't just read their website. It
+02:52 reads the entire internet's opinion
+02:54 about them. AI is looking for consensus.
+02:57 It's asking, "What does the web say
+02:59 about this business? Is the information
+03:01 consistent? Do third parties validate
+03:04 what this business claims? Is there
+03:06 enough evidence for me to confidently
+03:08 recommend them?" If a business only has
+03:10 a website and a Google Business Profile,
+03:12 AI has low confidence. The
+03:14 recommendation goes to someone else. If
+03:16 they have consistent information across
+03:18 50-plus directories, recent positive
+03:20 reviews on multiple platforms, local
+03:22 news mentions, clear structured data,
+03:25 and third-party validation, AI can
+03:27 confidently recommend them. And that's
+03:29 the gap you're helping clients close. AI
+03:31 search works in three layers. Layer one,
+03:34 physical availability, your traditional
+03:36 SEO. Can people find you when they
+03:39 actively search on Google? This is your
+03:40 existing local SEO work and it's still
+03:43 critical. Layer two, mental
+03:45 availability, brand marketing. Do people
+03:47 think of you when a need arises? Are you
+03:49 a familiar and trusted name? This is PR
+03:52 and brand building. And layer three, AI
+03:55 availability, the new layer. When
+03:57 someone asks AI for a recommendation, do
+04:00 you get named? This is what we're
+04:02 adding. Most agencies only deliver layer
+04:04 one. Some touch layer two, but rarely
+04:07 anyone addresses layer three. That's
+04:09 your opening. So, we've created a
+04:12 rebrandable AI visibility page you can
+04:14 customize for your own website. So,
+04:16 let's scroll down to the complete
+04:18 package structure. As you can see, there
+04:20 are three tiers with different price
+04:22 points depending on the needs and size
+04:24 of the local business.
+04:25 Tier one, AI visibility foundation for
+04:28 $997 a month. This is your entry point.
+04:31 It's designed for local businesses that
+04:33 understand they need to address AI
+04:35 visibility, but aren't ready to go all
+04:37 in yet. First, the AI visibility audit.
+04:40 I'd recommend a deep dive initially, but
+04:42 after that, you're running this
+04:44 quarterly. You're testing 20 constrained
+04:46 prompts against ChatGPT, Perplexity, and
+04:48 Google Gemini. And by constrained
+04:50 prompts, I mean specific narrow queries,
+04:53 not broad terms. You're not just testing
+04:55 best plumber, you're testing best
+04:57 plumber in Austin for emergency pipe
+04:59 repairs, or plumber in Austin who works
+05:01 on older homes. The more specific the
+05:03 prompt, the more AI has to evaluate
+05:06 options and make a strong
+05:08 recommendation. You're documenting
+05:10 everything. Does the client appear? What
+05:12 position are they in? And who else gets
+05:14 mentioned? Second, citation and NAP
+05:16 consistency. This is where you're
+05:18 offering to audit and correct their
+05:20 name, address, and phone number across
+05:22 hundreds of directories. And Yelp, then
+05:24 Apple Maps, then Bing Places, then
+05:26 industry-specific directories. If you've
+05:28 hooked up Vendasta's Local SEO with
+05:30 Listing Sync Pro, your clients can
+05:32 instantaneously update all of their
+05:34 business information from a single
+05:35 dashboard. That way, AI and consumers
+05:38 will always find the most up-to-date
+05:40 information. And third, Google Business
+05:42 Profile Optimization. This is weekly
+05:44 work. You're optimizing their Google
+05:46 Business Profile like a landing page for
+05:49 AI-powered search. Use the exact
+05:51 address, name, primary category, and
+05:53 service areas to match how people search
+05:55 locally. Keep hours, services, photos,
+05:57 and contact details complete, current,
+06:00 and consistent everywhere online. Post
+06:02 weekly updates and offers so Google sees
+06:04 an active trusted business. Earn steady
+06:07 authentic reviews and reply to everyone
+06:09 to build credibility and visibility. Add
+06:11 service keywords naturally in the
+06:13 description so AI systems can understand
+06:15 what they do and who they serve. Fourth,
+06:18 basic schema implementation. You're
+06:20 adding a local business schema on every
+06:22 location page, a service schema for each
+06:24 core offering, FAQ schema. This is huge
+06:28 for AI extraction, by the way. Add
+06:30 review schema for first-party reviews
+06:32 only. This structured data helps AI
+06:34 understand exactly what the business
+06:36 does, where they operate, and what
+06:38 services they offer.
+06:39 Fifth, monthly visibility report. You're
+06:42 tracking their AI visibility score month
+06:44 over month, documenting which prompts
+06:46 they appear in, tracking citation growth
+06:49 across directories, and giving them
+06:50 specific action items for the next
+06:52 month.
+06:53 Tier [snorts] number two, AI visibility
+06:55 growth for $2,500 a month. This is your
+06:57 sweet spot. This is where most serious
+07:00 local businesses should be. If someone
+07:02 is in a competitive market and wants to
+07:04 win recommendations, not just
+07:06 participate, this is the tier. You're
+07:08 including everything from tier one plus
+07:11 AI-optimized content creation. Now, let
+07:14 me be clear. This does not mean creating
+07:16 another batch of 10 tips for choosing
+07:18 the right plumber articles that
+07:19 potentially rank on Google someday. This
+07:22 is more about creating answer-ready
+07:25 content, content that AI can extract and
+07:28 reference in a recommendation.
+07:30 This means expanding monthly to their
+07:32 FAQs based on the actual prompts people
+07:35 are using in AI. You're
+07:36 reverse-engineering what people ask, and
+07:39 then creating content that directly
+07:41 answers those questions. You're refining
+07:43 service descriptions to include clear
+07:45 extractable statements. It also comes
+07:47 down to creating competitive comparison
+07:48 content that positions your client as
+07:50 the answer. You know, why choose us over
+07:52 competitor X kind of content.
+07:55 Third-party mention building. This is
+07:57 the PR layer and it's critical to
+07:59 building the consensus AI is looking
+08:01 for. You're doing local PR outreach with
+08:03 a target of one to two placements per
+08:05 month. Getting your client mentioned in
+08:07 local news, local blogs, and industry
+08:08 publications. You're submitting to
+08:10 industry directories beyond the basics
+08:12 such as trade associations, professional
+08:14 organizations, and niche directories in
+08:16 their space. You're building partnership
+08:18 co-mentions with complimentary local
+08:20 businesses.
+08:21 A wedding photographer gets mentioned
+08:23 alongside a wedding planner. A real
+08:25 estate agent gets mentioned alongside a
+08:27 mortgage broker. These co-occurrences
+08:29 build relationships between entities
+08:31 that AI recognizes.
+08:33 Advanced prompt strategy. You're
+08:35 expanding from 20 prompts to 50 plus
+08:37 prompt variations. You're doing
+08:39 generative engine optimization or GEO
+08:41 specific testing at the neighborhood
+08:43 level, not just the city level. You
+08:45 know, best dentist in Westlake Hills
+08:47 versus best dentist in Austin. You're
+08:50 tracking which prompt categories they're
+08:52 winning and which ones they're losing.
+08:54 And you're doing monthly prompt
+08:55 expansion as you learn what's working
+08:57 and find new opportunities. Review
+09:00 engineering. This is about creating a
+09:02 review engine that runs on its own.
+09:04 You're setting up a review generation
+09:06 workflow and automated follow-ups after
+09:07 service completion, making it easy for
+09:10 happy customers to leave reviews. You're
+09:12 diversifying which platforms those
+09:13 reviews land on, especially reviews that
+09:15 mention specific services, which help AI
+09:18 understand what the business does well
+09:20 and specializes in. You're monitoring
+09:22 sentiment and response times.
+09:24 By the way, reviews are so critical to
+09:26 AI visibility that I'm doing a whole
+09:29 video breaking down exactly how to build
+09:31 an AI review engine that feeds AI
+09:32 recommendations. If you're serious about
+09:34 offering that service, make sure you're
+09:37 subscribed so you don't miss that video.
+09:39 Advanced reporting. So, you're tracking
+09:41 competitive share of voice. How often is
+09:44 your client recommended versus their
+09:45 competitors for the same prompts? You're
+09:47 doing sentiment analysis. When AI
+09:49 mentions your client, is it saying
+09:51 positive things or just neutral facts?
+09:53 And you're setting up revenue
+09:55 attribution in GA4 so you can accurately
+09:57 track AI referred traffic and
+09:59 conversions.
+10:00 Tier three, AI visibility dominance for
+10:03 $5,000 plus a month.
+10:05 This tier is built for multi-location
+10:07 businesses or highly competitive markets
+10:09 where the goal isn't just to
+10:10 participate, it's to dominate the
+10:12 recommendations. So, everything in tier
+10:15 one plus tier two plus a dedicated
+10:19 digital PR campaign. So, not just
+10:21 opportunistic outreach, but an actual
+10:23 monthly PR campaign. You're creating
+10:25 data studies and original research that
+10:28 journalists want to cover. You're
+10:29 placing expert commentary from the
+10:31 business owner in relevant publications.
+10:33 You're building ongoing relationships
+10:35 with local media. Knowledge graph
+10:37 enhancement. This is about making sure
+10:39 AI platforms understand exactly what
+10:41 entity this business is. You're
+10:43 optimizing how they appear in knowledge
+10:45 graphs. You're getting them listed in
+10:47 industry databases and professional
+10:49 associations that AI references.
+10:52 Multi-location coordination. Now you're
+10:55 doing neighborhood level content for
+10:57 each location. You're coordinating
+10:58 reputation management centrally while
+11:00 still feeling local.
+11:02 Executive visibility. You're building
+11:04 the personal brand of the business owner
+11:06 or key executives. Thought leadership
+11:08 content, podcast appearances, speaking
+11:11 opportunities, industry recognition.
+11:13 This matters because AI increasingly
+11:15 connects businesses to the people behind
+11:17 them. A well-known founder adds
+11:19 credibility to the business.
+11:21 All right. So, these are three
+11:23 high-value packages that will resonate
+11:25 with any local business.
+11:27 If this was valuable, hit subscribe.
+11:29 We'll continue to deep dive into how
+11:31 agencies can actually monetize these
+11:32 shifts in the market, and I know you
+11:35 don't want to fall behind. See you in
+11:37 the next one.

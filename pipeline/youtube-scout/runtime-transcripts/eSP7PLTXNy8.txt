@@ -1,0 +1,580 @@
+00:19 Hello everyone. How are you?
+00:22 Good. Okay, amazing. Welcome to the last
+00:25 workshop session of the day. I hope
+00:27 you've all enjoyed the very first day of
+00:29 code with Claude. Uh my name is Maya.
+00:32 I'm a member of our applied AI team here
+00:34 in Anthropic. Uh what that means is I
+00:37 spend about half my time developing our
+00:39 own first-party products and features,
+00:41 and the other half of my time helping
+00:43 customers develop their very own
+00:45 products, features, agents on top of our
+00:47 models.
+00:49 Today, I'm here to talk to you about how
+00:51 to build a proactive agent workflow with
+00:54 Claude Code.
+00:55 Um can I get a show of hands? Who has
+00:58 used our routines feature inside of
+01:00 Claude Code?
+01:02 All right, some folks over here.
+01:03 Awesome, awesome. Um that's what I'm
+01:05 going to be talking about today.
+01:07 Okay, so first off, a question for the
+01:10 group here.
+01:11 Who has tried to run Claude Code on a
+01:14 cron?
+01:15 Can I get a show of hands? Folks, put
+01:17 your hands up high. Awesome, awesome. Um
+01:19 now, keep your hands up if you've
+01:21 enjoyed building all of that infra and
+01:24 maintaining that job.
+01:26 All right, we have one guy back there.
+01:27 We have one guy. Thank you. Thank you
+01:29 for your effort. Thank you for your
+01:30 work. Um we felt similar pain internally
+01:33 at Anthropic as we tried to develop uh
+01:36 proactive agents uh that run on Claude
+01:39 Code, uh and we decided to do something
+01:41 about it.
+01:43 So, we believe that coding agents
+01:46 shouldn't wait for you to press enter to
+01:48 get started.
+01:50 Right now, Claude Code is a really
+01:52 powerful coding tool,
+01:54 but we want to take Claude Code and turn
+01:56 it into a really powerful coding
+01:58 teammate.
+02:00 A teammate notices when something breaks
+02:03 and does something about it.
+02:05 Right now, a tool waits for you to enter
+02:07 your prompt and actually press enter.
+02:11 So, the goal of today's presentation is
+02:13 to talk about how we have created this
+02:16 feature called routines to take Claude
+02:18 Code from a tool today
+02:21 into the teammate of tomorrow.
+02:26 So, today we'll be talking about four
+02:27 things.
+02:28 I'll go through some of the challenges
+02:30 that you folks have felt building
+02:32 proactive agents today.
+02:35 I'll go through this new feature inside
+02:37 of Claude Code called routines.
+02:39 We'll go through a real example about
+02:42 how we use routines internally at
+02:43 Anthropic to automate documentation
+02:46 creation.
+02:47 And then finally, we'll talk about
+02:48 applying routines to your own workflows.
+02:53 So,
+02:55 I want to talk first through the
+02:57 challenges with building proactive
+02:59 agents today.
+03:00 We all know it's doable,
+03:02 but I want to talk about what what's a
+03:04 little bit cumbersome with this.
+03:07 The first thing that's a little bit
+03:08 difficult with building proactive agents
+03:10 today is deciding where these agents
+03:12 should run.
+03:14 You probably don't want them running on
+03:16 your local machine because if you close
+03:17 your laptop or your laptop dies, your
+03:20 agent session is done.
+03:22 What that means is you'll need to manage
+03:23 things like hosting, data persistence,
+03:27 and authentication.
+03:29 Basically, you'll need to build a whole
+03:31 infra stack outside of your prompts,
+03:33 which is doable, but it's a lot of work
+03:36 and there's a lot of boilerplate code
+03:37 there.
+03:39 The next thing you'll need to do is
+03:40 figure out when to actually kick off
+03:42 these sessions and trigger these agents.
+03:46 Again, you can build things and build on
+03:48 top of cron, or you can do things like
+03:51 uh post to endpoints that you have to
+03:53 spin up. Um but again, there's there's a
+03:56 lot of infra that you need to build
+03:57 yourself here.
+03:59 Finally, the challenge with building
+04:01 proactive agents today is sometimes you
+04:03 want to be a human in the loop, but
+04:05 other times you want to be a human out
+04:07 of the loop with these agents. Um right
+04:09 now when you kick off a headless Cloud
+04:11 Code session, it's often hard to figure
+04:13 out what your agent is actually doing in
+04:15 real time. There's no way to watch,
+04:18 steer, bound, or even resume your agent
+04:21 session. It's a It's difficult to do
+04:22 that. Um so we wanted to address each of
+04:25 these three issues
+04:27 um and build routines. Routines is a
+04:30 brand new feature inside of Cloud Code.
+04:33 It's an automation where you can kick
+04:35 off a remote Cloud Code session by only
+04:38 defining the prompt, what repos you want
+04:41 to connect it to,
+04:42 what connectors it has available to work
+04:44 with, and a trigger.
+04:47 Cloud Code handles the rest.
+04:52 So there were three kind of main things
+04:54 we were thinking about as we went ahead
+04:56 and developed this routines feature
+04:58 inside of Cloud Code.
+05:01 The first thing is that we wanted these
+05:03 agents to be always available.
+05:06 These agents, these routines run on
+05:08 Cloud Code's managed infrastructure.
+05:11 And what what's nice with that is that
+05:13 we deal with the hosting, the session
+05:15 state, and the connector all for you.
+05:18 Nothing depends on your laptop being
+05:20 opened,
+05:22 and we deal uh with all of the Cloud
+05:24 stuff for you, which I think is quite
+05:25 nice.
+05:27 The next thing is we want these agents
+05:29 to be able to work proactively with
+05:31 customizable triggers.
+05:33 You might want to kick them off on a
+05:35 time-based schedule, or you might want
+05:38 to work uh event-based. Uh we have the
+05:41 ability to work natively with GitHub
+05:43 events, as well as your own custom
+05:45 events that you can post to
+05:48 um webhooks and endpoints
+05:50 with the event payload as context.
+05:53 Finally, and the last point that I think
+05:55 is really nice is that these Claude Code
+05:58 sessions that get get launched with
+06:00 these routines are interactive and
+06:02 steerable as if you were launching
+06:04 Claude Code in the terminal.
+06:06 Every routine is really just a Claude
+06:08 Code session under the hood that you can
+06:10 open, you can watch, follow up on,
+06:13 steer, and resume um from web, CLI, and
+06:17 desktop.
+06:20 And so, I want to walk you guys through
+06:22 a real use case that
+06:24 uh we use here at Anthropic internally.
+06:27 So, the question for us and for a member
+06:29 of our engineering team is how can we
+06:31 automate docs creation with routines?
+06:37 So, just to add a little bit of data
+06:39 behind this, weekly PRs for Claude Code
+06:42 have gone up 200% since the beginning of
+06:44 the new year.
+06:46 This has been super awesome for our
+06:49 Claude Code engineering team.
+06:51 Um
+06:52 their productivity is insane. This has
+06:54 been really awesome for you folks
+06:56 because you get new features inside of
+06:58 Claude Code very, very quickly.
+07:01 The one person that this has not been so
+07:03 awesome for is the one engineer
+07:05 responsible for maintaining our
+07:07 documentation across Claude Code and the
+07:09 agent SDK. And so, when routines
+07:11 launched, she was a super big fan and
+07:14 early adopter. And I want to walk you
+07:15 through how she set up a couple routines
+07:18 to help automate documentation creation
+07:20 for Claude Code and our Claude agent
+07:22 SDK.
+07:24 So, on my side here, I have the terminal
+07:27 open, and I encourage you all to open
+07:29 your terminal and launch Claude Code.
+07:33 And inside of the terminal here, I'm
+07:35 able to type what we see on the screen
+07:36 here, /schedule,
+07:39 and actually type in something that
+07:41 Sarah, our documentation uh queen, uh
+07:45 has done to actually set up this
+07:46 routine. So, she went and typed in once
+07:48 a week, "Please review all the new
+07:50 changes merged to main against our
+07:52 documentation repo and create a PR to
+07:55 update docs if you see any changes."
+07:58 I encourage you folks to think right
+08:00 now, what are some tasks that you do
+08:02 every day that would help if they could
+08:05 run on a schedule or if Claude code
+08:07 could actually initiate these sessions
+08:09 for you.
+08:10 Um I encourage you to think about that.
+08:13 After kicking this off inside of Claude
+08:15 code, Claude comes back and prompts me
+08:17 with a couple questions.
+08:19 It might ask, "Hey Maya, what time every
+08:21 week do you want me to actually kick
+08:22 this off? Or once I create a PR, do you
+08:25 want me to notify you in any way? Maybe
+08:27 ping you on Slack?"
+08:29 And once I answer these questions,
+08:31 Claude actually goes ahead and creates a
+08:32 routine
+08:34 that we'll view in a little bit inside
+08:35 of Claude code on the web.
+08:40 But first, I want to walk through the
+08:42 three main decisions you'll need to make
+08:44 as you create any routine. The first
+08:46 decision is you'll need to figure out
+08:48 when your routine should trigger.
+08:51 What's actually the event or is there a
+08:53 certain cadence that you want this to
+08:55 run?
+08:57 The second decision is what context or
+09:00 what information does Claude need to
+09:01 have to actually be successful here?
+09:04 Do you need access to certain docs or
+09:07 does Claude need access to certain tools
+09:09 to ping you?
+09:11 Finally, the last thing to think about
+09:13 is how do you actually steer Claude in
+09:15 the session to keep it honest?
+09:17 How do you guide Claude Claude to the
+09:19 output that you want? And so, we'll dive
+09:21 into each one of these and I'll talk
+09:23 through how Sarah, a member
+09:26 of our team, actually does this to
+09:27 automate documentation creation.
+09:31 So, the first one is the trigger.
+09:34 When should this event actually run?
+09:38 So, inside of routines, there's
+09:39 basically two ways to do this.
+09:41 You can have things kick off on a
+09:43 schedule, on a time-based trigger.
+09:46 For that earlier example I showed you,
+09:48 uh this is how we do a weekly review of
+09:52 differences between our source code for
+09:54 Claude code as well as our documentation
+09:56 repo.
+09:58 You can also have routines kick off uh
+10:01 on an event-based cadence. So, maybe
+10:03 every time a release is cut, uh you can
+10:06 diff the release branch against the docs
+10:08 and see if there's any new features that
+10:10 you'll need to spin up PRs for in our
+10:12 documentation repo.
+10:14 Or maybe your engineers actually
+10:16 deploying uh changes and creating PRs
+10:18 might tag their changes. Maybe this is
+10:20 like a new feature. They could tag it
+10:22 with a label that says need docs, and
+10:24 you could actually kick off Claude code
+10:26 sessions anytime one of these uh
+10:29 labeled PRs get merged.
+10:35 The next thing you'll need to think
+10:36 about is context.
+10:38 What does your agent actually need to
+10:40 know to be successful?
+10:43 Likely, you'll need to give it access to
+10:46 either one or more code-based repos. So,
+10:49 for this docs example, uh we need to
+10:51 give Claude access to not only our
+10:53 Claude code source code to figure out
+10:55 what new changes exist there, but also
+10:57 our docs repo, right? For Claude to
+10:59 actually create uh new PRs there.
+11:04 Next, you might want to provide
+11:05 additional context to these sessions.
+11:08 Uh maybe for this one example, I want
+11:10 Claude to have access to all of our
+11:12 existing marketing briefs. Maybe I want
+11:15 Claude to use similar language and
+11:17 verbiage that we use
+11:19 uh in other marketing materials
+11:21 externally at Anthropic. So, maybe all
+11:23 of this lives inside of Google Drive,
+11:25 and I'll want to give Claude access to
+11:27 these files during the session, so I'll
+11:28 hook up the drive connector.
+11:31 Or maybe anytime Claude creates a PR,
+11:34 um I'll actually want it to ping me on
+11:36 Slack. Uh so I'll give it access to the
+11:38 Slack connector.
+11:40 It's important to think about this as
+11:42 you're setting up the routine because
+11:44 whatever context Claude has, that's uh
+11:47 the ceiling of how successful Claude
+11:50 will be.
+11:53 Finally, the last thing to think about
+11:55 here is steerability.
+11:57 How do we actually ensure the quality um
+12:01 of Claude's outputs?
+12:03 There are a couple ways to do this.
+12:05 Um
+12:06 one thing that I think is quite
+12:07 interesting is to actually invest in
+12:10 agent-on-agent review.
+12:12 If folks have actually designed
+12:14 multi-agent systems here and have heard
+12:16 of the generator uh critiquer pattern,
+12:19 uh this is something that we've borrowed
+12:20 here.
+12:22 You can actually set up one routine to
+12:24 go ahead and create uh docs PRs, and you
+12:27 can set up another routine that maybe
+12:28 triggers on that PR's creation, um to
+12:32 actually go ahead and leave comments on
+12:33 the PR before a human actually gets to
+12:36 it.
+12:38 Another option, we had emphasized it's
+12:40 nice to have a human out of the loop,
+12:42 but sometimes you actually do need to
+12:43 monitor these Claude code sessions and
+12:45 maybe nudge Claude in a different
+12:47 direction.
+12:48 What's really nice and what I'll show
+12:49 you in a second is that you can actually
+12:51 open Claude code on the web and you can
+12:53 view what's happening inside of a live
+12:55 session as if you would working with
+12:57 Claude in the terminal.
+12:59 You can ask it questions mid-session.
+13:01 You can push it in another another
+13:03 direction.
+13:04 You You can also resume a past routine
+13:07 or a past session and continue the
+13:09 conversation.
+13:12 Finally, the last thing we do and what I
+13:13 think is quite obvious is that we verify
+13:16 Claude's outputs.
+13:18 For this documentation example, we
+13:20 actually render the page that or the
+13:22 documentation page that Claude has
+13:23 changed and created, and we confirm
+13:25 those outputs are what we expect.
+13:29 And so now I'll jump back into that
+13:31 initial routine that we've kicked off
+13:33 here in this demo. Um and we'll jump to
+13:36 the demo slides. Awesome. And so we can
+13:39 see right now I'm in Claude.ai and I can
+13:42 go over to this left side panel and
+13:44 actually kick click on this uh code
+13:47 button.
+13:50 And I can jump into routines on this
+13:52 left-hand side.
+13:54 And I can actually click on this routine
+13:57 that I had created earlier.
+14:00 On the left-hand side here you can see
+14:02 that it's connected to two repositories,
+14:05 our uh mocked up Claude code source code
+14:09 as well as our Claude code
+14:10 documentation.
+14:12 You can see that this runs every Monday
+14:14 at 10:00 a.m. and it's connected to
+14:16 GitHub as well as Slack.
+14:20 These instructions here on the
+14:21 right-hand slide side Claude generated
+14:24 for me based on the initial prompt that
+14:26 I pasted in and the questions that I
+14:28 answered.
+14:29 We can see here that
+14:31 uh this is a a weekly documentation sync
+14:34 uh for our Claude code fork.
+14:38 And I can actually go ahead and click on
+14:41 a session here.
+14:42 And I can see that these initial
+14:44 instructions are what uh gets pasted in
+14:47 for the very beginning of this Claude
+14:49 code session.
+14:51 We can see that Claude has read these
+14:53 instructions and started by looking at
+14:56 the source code repository to see uh any
+14:59 changes, any recent PRs that have been
+15:01 merged, looked at our change log, and
+15:03 compared that to what's inside of the
+15:05 documentation repo.
+15:07 We can see Claude's actually found some
+15:09 changes here and gone ahead and opened a
+15:11 PR for me.
+15:14 This is one example where you can kick
+15:16 off a routine on a schedule.
+15:19 Now I want to show you another example
+15:21 where we can actually kick off a routine
+15:24 uh based on a GitHub event.
+15:27 So here I've actually created a new
+15:29 routine and I've already filled some of
+15:30 this in.
+15:32 I want to make another documentation
+15:35 automation
+15:36 routine.
+15:37 And but this time I want this to
+15:39 actually trigger every time I create a
+15:41 new GitHub issue.
+15:43 So I pasted in some instructions here
+15:45 basically to investigate the issue that
+15:48 this session triggers on.
+15:50 Figure out if it's to a documentation
+15:52 gap and then if it is and if you believe
+15:55 that this is a gap,
+15:56 go ahead, open a PR and actually ping me
+15:59 in this channel.
+16:00 So I've gone ahead and connected our
+16:02 Claude code documentation repo as well
+16:04 as our source code again and I want to
+16:06 show you how I actually set up this
+16:08 trigger.
+16:09 Like I had mentioned before, there's two
+16:11 different types of triggers, schedule
+16:13 based and event based and within event
+16:15 based triggers, we have native GitHub
+16:17 events supported here as well as the
+16:19 ability to trigger from your own code by
+16:22 sending a post request.
+16:24 So here I'll create a
+16:26 GitHub event trigger and trigger on
+16:29 issue opens anytime I open an issue
+16:32 inside of this Claude code documentation
+16:34 repo and I want this connected to Slack
+16:37 so I can send me a ping anytime I make a
+16:39 PR
+16:40 as well as our GitHub NCP.
+16:44 So I will go ahead and create this here
+16:46 and now let's make sure that this is
+16:49 working. So I have a new issue open here
+16:52 that I'm about to create inside of our
+16:54 Claude code docs repo.
+16:56 So I happen to know that there are a few
+16:58 few tools missing from docs in this new
+17:01 version. So I'm going to go ahead and
+17:03 actually create this.
+17:07 So I can see here
+17:09 that I've gone ahead and created that
+17:11 and now let's refresh this page.
+17:14 And we can can actually that a new run
+17:17 has gotten picked up here.
+17:19 We can see that these initial
+17:20 instructions are the very first prompts.
+17:22 Um and we can see that this additional
+17:25 context from this issue were passed in
+17:26 as well.
+17:28 I happen to know that I actually already
+17:30 have another PR open for this. So, let
+17:32 me just guide Claude to stop this
+17:35 session.
+17:36 I've already made these changes.
+17:45 And we can see here the ability to
+17:47 actually steer Claude in real time after
+17:50 routine gets kicked off.
+17:53 Awesome.
+17:54 Um now, let's come back and talk about
+17:57 the different ways uh that we can use
+17:59 routines to actually automate your
+18:01 challenges as uh developers.
+18:04 I want to talk through um
+18:06 a couple ways that we could turn common
+18:09 software engineering or developer
+18:10 challenges into routines with Claude
+18:13 Code.
+18:15 The first one I want to talk through is
+18:17 this deploy verifier. Um maybe you have
+18:21 recently
+18:23 uh
+18:23 just deployed changes to an to a service
+18:25 and you want to make sure that this
+18:27 service is healthy and you shouldn't
+18:28 roll back these changes.
+18:31 I want to think about this uh in three
+18:33 ways. First, what should my trigger be
+18:36 here?
+18:37 Second, what context is important to
+18:39 provide to Claude in this routine? And
+18:41 lastly, how do I plan to actually
+18:43 interact or steer this routine to keep
+18:45 Claude honest?
+18:47 I happen to know that my CD pipeline can
+18:50 post after every deploy.
+18:52 So, this seems like a pretty good
+18:53 trigger to actually kick off this
+18:55 routine on.
+18:56 I can actually post to this uh webhook
+18:59 that we support inside of routines, and
+19:01 this can actually kick off my Claude
+19:03 Code session.
+19:05 In terms of what context I think is
+19:07 important to provide Claude here, I can
+19:09 think of a couple things.
+19:11 One, it's probably nice to give Claude
+19:13 access to the source code for the
+19:14 service that we reach it recently
+19:16 deployed on.
+19:18 Next, it's probably important to give
+19:20 Claude access to monitoring tools. Maybe
+19:22 that's DataDog, maybe that's Grafana. I
+19:25 don't know what you folks use, but
+19:27 um
+19:27 likely helpful to give Claude access to
+19:29 these uh monitoring tools.
+19:32 And maybe if something goes down, I want
+19:34 Claude to alert me. I want Claude to
+19:36 ping me on Slack or send me an email, um
+19:38 or maybe maybe even send me a text using
+19:41 Twilio or something like that.
+19:43 These are some of the connectors or the
+19:44 tools that I would give Claude access to
+19:46 inside of this session.
+19:49 In terms of keeping Claude honest or
+19:51 actually steering my session,
+19:53 maybe I'd start by having Claude run an
+19:56 investigation for me and giving me an
+19:58 eventual no-go or no-go decision to
+20:01 actually roll back this change.
+20:03 I could jump into Claude code on the web
+20:05 and actually view and read Claude's
+20:07 analysis for this session.
+20:10 Then maybe I can continue to work with
+20:11 Claude if I actually think that this
+20:13 should be rolled back and actually use
+20:15 Claude to help me roll back a change.
+20:19 Maybe eventually, as I watch Claude work
+20:21 more and more and trust its decisions, I
+20:23 can let Claude roll back the change
+20:25 itself if, based on the monitoring
+20:27 monitoring data it has access to,
+20:30 uh if I deem that that's the right
+20:31 decision.
+20:33 There are other challenges, like maybe
+20:35 you want to build an on-call
+20:36 investigator, or maybe you're actually a
+20:38 PM and your job is to go through uh a
+20:42 lot a lot of issues inside of your
+20:44 backlog. Maybe that's GitHub issues,
+20:46 maybe that's posts inside of a Slack
+20:48 channel, and maybe you want to kick off
+20:50 a weekly job that actually reads through
+20:52 all of these issues. Um maybe it's
+20:54 kicked off on a time-based trigger, you
+20:56 give it access to GitHub and Slack and
+20:59 wherever your issues live, um and you
+21:01 use Claude to actually help you
+21:02 prioritize and maybe open PRs for the
+21:05 most important issues.
+21:07 Okay, my final takeaways here.
+21:09 Uh
+21:10 Proactive agents beat reactive agents.
+21:13 We want Claude to go from a tool to a
+21:15 teammate.
+21:17 You can move from an agent that is
+21:19 waiting for you to actually press enter
+21:22 and create a PR to an agent that reacts
+21:24 to problems and opens a PR itself.
+21:29 We built routines so you don't have to
+21:31 focus on maintaining all of this infra,
+21:33 but instead you can actually concentrate
+21:35 on your domain and process expertise.
+21:39 This is what routines handle for you.
+21:41 And finally, I encourage you to get
+21:43 started with routines today.
+21:46 You're a single {slash} schedule
+21:48 commands
+21:49 inside of Claude code away from creating
+21:52 your very first routine.
+21:54 Awesome. Thanks so much.

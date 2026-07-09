@@ -1,0 +1,68 @@
+{
+  "created_at": "2026-07-09T19:17:32+02:00",
+  "source": "web fallback searches",
+  "queries": [
+    "site:youtube.com/watch AI automation agency n8n business workflow July 2026",
+    "site:youtube.com/watch Claude Code AI agent workflow July 2026 YouTube",
+    "site:youtube.com/watch AI SEO GEO visibility local business 2026 YouTube",
+    "site:youtube.com/watch local business website SEO Claude Code 2026 YouTube"
+  ],
+  "items": [
+    {
+      "video_id": "eSP7PLTXNy8",
+      "title": "Build a proactive agent workflow with Claude Code",
+      "url": "https://www.youtube.com/watch?v=eSP7PLTXNy8",
+      "source": "web fallback",
+      "fit": "high",
+      "reason": "Scheduled and event-triggered code agents map to BridgeWorks automation runbooks, if bounded by approval and verification."
+    },
+    {
+      "video_id": "BTnU_cCx36Y",
+      "title": "Claude Code Local SEO: How I Got 50,000 Google Clicks/Mo (Steal This)",
+      "url": "https://www.youtube.com/watch?v=BTnU_cCx36Y",
+      "source": "web fallback",
+      "fit": "high",
+      "reason": "Local SEO, GBP, service pages, static generation, technical QA, and Claude Code workflows map to the Foundation website QA backlog."
+    },
+    {
+      "video_id": "Umze0d97qVE",
+      "title": "The $5K/Month AI Service Local Businesses Are Begging Their Agencies For",
+      "url": "https://www.youtube.com/watch?v=Umze0d97qVE",
+      "source": "web fallback",
+      "fit": "medium-high",
+      "reason": "AI visibility packaging is relevant, but vendor pricing and guarantee framing need strong BridgeWorks constraints."
+    },
+    {
+      "video_id": "1d77LRUS-wc",
+      "title": "Stop Learning n8n in 2026... Learn THIS Instead",
+      "url": "https://www.youtube.com/watch?v=1d77LRUS-wc",
+      "source": "web fallback",
+      "fit": "medium",
+      "reason": "Possible automation workflow framing. Not extracted because higher-fit watchlist and web candidates were available."
+    },
+    {
+      "video_id": "ZXtVvroop_U",
+      "title": "8 Insane AI Agent Use Cases in N8N! (automate anything)",
+      "url": "https://www.youtube.com/watch?v=ZXtVvroop_U",
+      "source": "web fallback",
+      "fit": "medium",
+      "reason": "Potential use-case list. Parked because title suggests broad tool examples rather than current Foundation or DGE work."
+    },
+    {
+      "video_id": "bwShZP758Xg",
+      "title": "The Ultimate AI Visibility Checklist (AEO/GEO for 2026)",
+      "url": "https://www.youtube.com/watch?v=bwShZP758Xg",
+      "source": "web fallback",
+      "fit": "already extracted",
+      "reason": "Already processed in the 2026-06-28 digest."
+    },
+    {
+      "video_id": "2Rj69MhAyds",
+      "title": "How I Build Professional Local Business Websites in 2026 (SEO optimised - Claude code)",
+      "url": "https://www.youtube.com/watch?v=2Rj69MhAyds",
+      "source": "web fallback",
+      "fit": "already extracted",
+      "reason": "Already processed in the 2026-06-30 midday digest."
+    }
+  ]
+}

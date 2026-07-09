@@ -1,0 +1,1896 @@
+00:00 This video is a complete Claude Code
+00:02 master class for local SEO. And
+00:04 specifically, we're talking about two
+00:06 strategies today that allowed me to rank
+00:09 number one for the previous business I
+00:11 just sold on Google for the most
+00:13 competitive keyword in the industry. And
+00:15 also how I generated 1,500 clicks every
+00:18 single day, which is approximately
+00:20 50,000 clicks a month, which allowed me
+00:22 to generate over half a million dollars
+00:24 in revenue. So, let's get into it
+00:26 because today we're going to be
+00:28 condensing down seven years of knowledge
+00:30 into one video so that hopefully you can
+00:32 see fantastic results as well. We're
+00:35 going to be focusing on local SEO in
+00:37 this video. And before we dive into it,
+00:39 let's break down the difference between
+00:41 general SEO and local. There is a ton of
+00:44 overlap of course, but the distinction
+00:46 with general SEO is that you're
+00:48 essentially trying to rank as high up on
+00:49 Google as possible because the higher up
+00:51 you get, the more clicks you get, which
+00:53 means the more money you generate. Not
+00:55 every single listing or ranking is
+00:57 equal. Whoever's in the first place is
+00:59 going to get 30% of all clicks. So, if
+01:01 we take a look at Homestar for example
+01:03 here, he's they're literally dominating
+01:05 by generating 30% of all the clicks.
+01:08 This is digital real estate that's very
+01:10 valuable. And at the bottom here,
+01:12 whoever number 10 is, okay, this person
+01:15 right here, they're getting like 2.4% of
+01:18 all the clicks. Okay? Now, with SEO,
+01:20 localized SEO, the distinction is is
+01:23 that you're ranking on Google just like
+01:25 general SEO, but you're doing so for a
+01:28 particular region or city. And in
+01:30 addition to that, you also have Google
+01:32 Map listings that you can rank for as
+01:34 well that we're going to be talking
+01:36 about. And these drive a whole bunch of
+01:39 clicks. Okay. Not only that, but with
+01:41 local SEO, it's just so much easier to
+01:44 rank for because you're not competing
+01:47 with the entire internet and the world's
+01:49 best marketers. You're just competing
+01:50 with Sally down the street who might not
+01:52 even know what Google is and certainly
+01:54 doesn't know how to rank on it. So, the
+01:56 barrier to entry is just way lower.
+01:59 Okay, perfect. I think that this is one
+02:01 of the lowest hanging fruits out there
+02:03 because if you were to start in paid
+02:05 advertisement, general SEO or social
+02:07 media, the effort's going to be higher,
+02:09 the cost is going to be higher and the
+02:10 results are going to take longer to get.
+02:12 With Google My Business, which is the
+02:14 first thing we're going to be talking
+02:15 about, you pretty much the average
+02:18 person gets 1,200 views every single
+02:20 month. So, this is just free advertising
+02:23 Google is giving you for being a
+02:25 business. So, unless you hate money,
+02:26 this is probably a pretty good place to
+02:28 start, especially considering the fact
+02:30 that it's very easy to do and it's free
+02:32 to get started. Now, we're covering four
+02:34 major sections, which is literally
+02:36 everything you need to know in order to
+02:39 succeed at a local level with SEO. We're
+02:41 going to first start off with creating a
+02:44 optimized Google My Business profile.
+02:47 Then, we're going to be talking about
+02:48 posting on Google My Business, then
+02:50 reviews, and then we're going to be
+02:51 talking about generating localized blog
+02:53 posts and service pages. So that not
+02:56 only can we compete in these Google Maps
+02:59 listings, but we can also compete down
+03:01 here with HomeStar and Brothers Plumbing
+03:04 and all the other guys that are doing
+03:06 really well in local SEO. So let's get
+03:08 into it. The first thing is setting up a
+03:10 Google My Business profile. This is
+03:12 free. It takes 2 minutes. You'll go to
+03:14 Google and you'll type in Google
+03:16 business profile. You'll click get
+03:18 started. Okay? And it'll take
+03:19 approximately 2 minutes to set up your
+03:22 account. I'm not going to walk through
+03:23 this just because it mostly asks for
+03:24 your phone number and your address and
+03:27 all of that kind of stuff. But just keep
+03:29 in mind that in order for you to verify
+03:32 your profile, this might take 10 to 14
+03:35 days. Google may have to send you some
+03:36 mail. You have to submit a code and then
+03:39 you're good to go. All right, so let's
+03:41 get started optimizing our Google
+03:42 business profile. The first thing that I
+03:44 want to point out here is that the
+03:45 number one indicator in 2026 for whether
+03:47 your profile is going to be shown or not
+03:48 is proximity. And this is completely out
+03:51 of your control. there's nothing you can
+03:52 do to optimize for it. So, what I mean
+03:54 by that is let's say that you have a
+03:56 barber shop, okay? And this is your
+03:58 business here. Your client's over here.
+04:00 No matter how much optimization you do,
+04:02 Google is just very unlikely to show
+04:05 this client your barber shop over here.
+04:07 It's going to show this client some
+04:09 something really similar or really
+04:11 really close to where they actually
+04:13 live. Okay? We're going to be focusing
+04:15 on the things that we actually have
+04:17 control over. But I want to also point
+04:19 out that there's two types of Google
+04:22 business profiles. There's types where
+04:24 clients come to you and where you go to
+04:26 clients. So for a barber, for example,
+04:29 you're likely going Google's going to
+04:31 likely ser show results very close by.
+04:34 But if the service is something where
+04:37 the provider travels to the client, like
+04:39 my previous business, you have a much
+04:41 better chance at ranking high across the
+04:45 entire city because the client doesn't
+04:46 really care if the service provider,
+04:48 let's say it's a plumber, has to travel
+04:51 2 hours or 30 minutes to get there. It's
+04:54 all the same to them. Okay, so that's
+04:56 the first thing. We're going to be
+04:57 covering things that we actually do have
+04:59 control over. But let's talk about the
+05:01 goal. When it comes to Google My
+05:02 Business, there's something called a top
+05:05 three map pack. And what that means,
+05:07 because that's just really fancy
+05:09 terminology, all we're saying here is we
+05:11 want to rank up at the very top of
+05:13 Google here. Okay? In the top three
+05:15 listings. And when I say top three, this
+05:18 is not a listing over here because
+05:20 technically this is a sponsored Google
+05:22 ad. And 50% of the click shares go to
+05:26 these three. meaning that approximately
+05:28 half of all clicks will go to whoever
+05:31 has optimized their page and is, you
+05:33 know, obviously closest to the client
+05:34 and all that kind of stuff. But these
+05:36 people will get the most clicks and 50%
+05:39 of additional clicks will go to people
+05:41 searching for more, scrolling down and
+05:44 finding other businesses. Okay? So, it's
+05:46 dominated by the people at the top,
+05:50 which is no surprise. So, there's four
+05:53 fields that are going to define 80% of
+05:56 your local SEO on your Google My
+05:58 Business. And it comes down to
+05:59 categories, services, service areas, and
+06:03 reviews. It's worth pointing out that as
+06:06 we go through all of these, there's a
+06:08 lot of um there's a lot of contrarian
+06:11 opinions on SEO in the space. If you ask
+06:14 a bunch of different people, they're
+06:15 probably going to tell you slightly
+06:17 different variations of the same thing.
+06:19 And the reason why is because Google
+06:21 doesn't come out and say, "Hey, these
+06:22 are the top 10 indicators on how you can
+06:25 have the most optimized profile
+06:26 possible. Nobody knows it. They're just
+06:29 making their best guesses based on their
+06:30 own experience and studies they find
+06:32 online." And so that's what I'm doing
+06:34 here. But these are coming based off my
+06:36 own experiences and of course studies I
+06:38 found. So the first thing is is whatever
+06:41 your Google My Business profile category
+06:43 is, this is probably the number one
+06:45 ranking factor you have. So, inside of
+06:47 Google My Business, and don't worry, you
+06:49 don't have to change anything because
+06:50 we're going to use AI to generate most
+06:53 of this profile for you. If you come in
+06:55 and edit it, and this is after you've
+06:58 signed up for your account, which should
+06:59 take 2 minutes, you should have the
+07:00 ability to edit your profile right over
+07:02 here. When you search up your results,
+07:05 this is a client of mine. The category
+07:07 that we select is going to be massive.
+07:10 Okay, we can add one primary category
+07:13 and then nine secondary categories. Here
+07:16 we're going to use AI to be able to find
+07:18 these for us. Okay. And then you have
+07:20 the final say on whether you want to add
+07:22 them or not. The next thing is services.
+07:25 Okay. So inside of our profile, we have
+07:27 the ability to add services. This is
+07:29 something that a lot of people don't do.
+07:31 Typically, you can add anywhere between
+07:33 10 up to approximately 50. And these are
+07:36 just different service offerings that
+07:38 you have, but these will help gain
+07:40 exposure, okay? If you put the right
+07:42 services in. And then we have service
+07:45 areas. This will depend on the type of
+07:47 Google business profile you have. So if
+07:49 you are a for example a barber, okay,
+07:53 you have one predefined location and
+07:55 that's it. Okay, you're going to get
+07:57 traffic from people around you. However,
+08:00 if you're a plumber, okay, your business
+08:02 might be over here, for instance. Oops.
+08:05 But you can still have traffic coming in
+08:08 from all over the place. And if we
+08:10 actually zoom out here, okay, maybe.
+08:13 Okay, right here you'll notice that
+08:15 there's a lot of different
+08:17 municipalities around like BMPon,
+08:19 Missaga, Oakville, G, and so on and so
+08:22 forth. You as a um you as a plumber can
+08:27 actually rank across all of these
+08:29 different municipalities because again,
+08:31 you're going to the customer rather than
+08:33 the customer going to you. Okay? So you
+08:36 can type in Toronto, Missaga, and all
+08:39 these other sub suburbs around the main
+08:42 city. And then we also have reviews,
+08:45 which is absolutely massive. And this is
+08:47 something we're going to be talking
+08:48 about later on. Now, in order to
+08:50 populate this whole profile correctly,
+08:52 I've put together um a complete
+08:56 checklist, which we can load into Claude
+08:58 Code, and Claude's just going to build
+09:00 out our entire optimized profile for us.
+09:03 In order to get started, we need to have
+09:05 access to Claude code. Let me give you a
+09:08 10-second crash course if you've never
+09:09 used Claude whatsoever in your life
+09:11 before. In front of us, we have a tool
+09:14 called Anti-gravity. We need to go ahead
+09:16 and install this. And we can do that by
+09:18 searching for anti-gravity. Google. This
+09:20 is a free Google product that you can
+09:21 download onto your computer. And
+09:23 technically, it's called a coding
+09:25 workspace. Okay, which sounds scary. You
+09:28 don't need to have any technical
+09:29 experience at all. You don't need to be
+09:31 a programmer. Claude Code will do all
+09:33 the programming for you. You are the
+09:35 boss. Claude Code is the employee. You
+09:36 tell it what to do and it gets the job
+09:38 done for you. Okay. So, inside of
+09:41 anti-gravity once we've downloaded it on
+09:43 the sidebar, we have access to
+09:45 extensions and claude code you can think
+09:47 about as an extension inside of
+09:50 anti-gravity. So, you can search for it
+09:52 and then once you find it, you download
+09:53 it, you're good to go. You do need a
+09:55 paid subscription in order to use clawed
+09:58 code. But if you're just getting started
+10:00 like for the first time and you don't
+10:02 want to pay the subscription, you can
+10:04 always use the free agent builder inside
+10:06 of anti-gravity. How you access this is
+10:08 hitting this button right over here.
+10:10 Okay, you can open up the agent builder
+10:12 and follow along here instead of using
+10:14 claude code. But for the rest of the
+10:16 video, I'm going to be using claude
+10:18 code. So, anytime we create a new
+10:20 project, like the project we're creating
+10:22 now, to optimize our Google My Business
+10:24 profile, we need to open up a new
+10:26 folder. Every project lives within a
+10:28 folder. And I like to keep all my
+10:30 projects nice and organized within a
+10:31 main clawed cold folder. And we'll call
+10:34 this local um SEO. Okay, this is going
+10:38 to be an empty folder that we're going
+10:40 to open up. And we can see that it
+10:42 exists right over top here. We're going
+10:44 to add one uh file and this is going to
+10:47 be Google business profile-s setup.mmd.
+10:51 The name really honestly does not
+10:53 matter. You can call this whatever it is
+10:54 you want. This is just for your own
+10:56 reference. And we need to first of all
+10:58 I'm going to explain how we get this
+10:59 file and then I'm going to explain what
+11:01 the hell is actually going on. In the
+11:03 description down below of this video,
+11:05 there's going to be a link to my free
+11:07 school community. you'll land on this
+11:09 page. And in this page, you'll have
+11:11 access to all of these files for today's
+11:13 build for free. And we need to
+11:16 specifically grab the um the Google
+11:19 business profile setup. So, when you
+11:21 click this link, you're going to have
+11:22 access to this document right here. You
+11:26 just copy it, paste it in, and save it,
+11:28 and you're done. Okay, that's it. For
+11:30 some reason, it didn't say or copy in
+11:32 for me. Okay, there we go. We'll hit
+11:34 file, save, and that's it. All this is
+11:36 doing this document is we're telling
+11:38 Claude how we can optimize our Google
+11:42 business profile very quickly so that
+11:45 you don't have to spend two hours doing
+11:46 it. Claude's going to do the heavy
+11:48 lifting for you. We can access Claude by
+11:50 hitting this button right up top here.
+11:52 And then we're just going to paste in
+11:53 please read the at. You can type in add
+11:56 and then reference the exact file we
+11:58 just created. And we can also say here's
+12:01 my business. and we can give a link to
+12:05 our business so that it can learn more
+12:07 about us. So, head over to your site,
+12:09 copy the link, and paste it in here. And
+12:12 Claude is now going to build out your
+12:14 optimized Google My Business profile.
+12:17 Cool. So, we're all set. Claude has done
+12:18 a ton of research, and it's put together
+12:20 this brief for us where we can now just
+12:22 copy and paste all of this information
+12:25 into our Google business profile. I just
+12:27 want to preface. Of course, you should
+12:29 double check it and make sure you're
+12:30 happy with the results, but we can
+12:32 really quickly go through all the major
+12:35 points here. Okay, the first thing is is
+12:37 it's going to give you all of this
+12:39 information here. Okay, in this example,
+12:41 this is just demo info. Then it's going
+12:43 to give you those categories that you
+12:45 can add into goo your Google business
+12:47 profile. So, if we click edit over here,
+12:50 we have access to categories and it's
+12:52 going to tell you your primary category
+12:54 over here. And it's also going to tell
+12:56 you your secondary category. Now, the
+12:58 way I program this is this is going to
+13:01 steal your competitor's information. So,
+13:03 it's going to find the top
+13:05 psychotherapists or competitors in your
+13:08 space and it's going to understand what
+13:09 are they doing, how are they ranking so
+13:11 well, maybe we should copy what the
+13:13 winners are doing because it's obviously
+13:15 working for them. And it can work for
+13:17 us, too. So, it's going to grab all
+13:18 these categories for you. Okay. It's
+13:21 going to give you some backup categories
+13:22 as well in case you want to add those
+13:24 in. Not every single category might work
+13:27 here. Okay? So there it might make up a
+13:30 couple that don't exist because Google
+13:31 business uh profiles are always updating
+13:34 these categories when we're pulling it
+13:35 in from third party sources. The next
+13:37 thing is is that it's going to give us
+13:39 these services that we can add into our
+13:41 page. So if we exit out of this, okay,
+13:44 we can edit the services. Just before we
+13:46 do that, I want to point out all of
+13:48 these fields are going to be covered.
+13:49 You can add in absolutely everything
+13:51 here. We're just going to be going over
+13:53 the main things that you need to focus
+13:55 on, which the next thing is services.
+13:57 Okay? So, these are ways that you can
+14:01 gain exposure locally through SEO. So,
+14:04 this actually matters tremendously.
+14:06 Here's the problem, though, that not
+14:08 every service is created equal. You need
+14:10 to find winning services. And
+14:13 unfortunately, Claude Code has no idea
+14:16 what a winning service actually is
+14:18 because it doesn't know how many
+14:20 searches are for these individual
+14:22 keywords. So, what we need to do is our
+14:24 responsibility is find the winning
+14:26 keywords from what Claude is giving us.
+14:29 Let me explain how this actually works.
+14:32 You'll copy all of these individual
+14:34 names, okay, of the services. And you're
+14:37 going to use a tool called Seamrush. You
+14:39 can start with a 7-day free trial and
+14:41 get this done. I've been using these
+14:43 guys for maybe like four years or
+14:45 something like that. We're going to
+14:46 paste in the individual keyword here.
+14:48 Okay. And you also want to make sure the
+14:51 country that you're selecting is
+14:52 whatever country you're located in.
+14:54 There's just one additional thing worth
+14:56 mentioning here. You'll see there's no
+14:58 volume. We don't want to search for a
+15:00 generic keyword. We want to search for
+15:02 this keyword in the city that we're
+15:04 located in and the primary city, not a
+15:06 suburb, not some smaller, you know,
+15:09 whatever. The main city. So, let's go
+15:11 back to Toronto for example here.
+15:13 Whatever major city you're in, make sure
+15:15 to put it there. We have no results for
+15:18 this keyword. So, probably it's best to
+15:21 avoid adding this as a service because
+15:24 nobody is searching for this keyword.
+15:26 Okay. Now, if we compare this to couples
+15:28 therapy, we can copy this in and we can
+15:31 go back and paste it in with leaving
+15:34 Toronto at the end. And now we see
+15:36 there's 1,300
+15:38 results. Okay. Okay, so the question is
+15:39 is what would you rather rank for? A
+15:41 keyword that gets 1,300 results or
+15:44 something that gets zero results.
+15:46 Obviously, you'd want to rank for
+15:48 something that gets way more results.
+15:50 Awesome. Same kind of thing. We'll go
+15:52 through this one more time and add in
+15:54 family therapy and so on and so forth.
+15:56 Okay, this one 480 results. Perfect. We
+16:00 can add in up to 30 to 50 of these
+16:03 services. Cool. So, moving on past this,
+16:05 the next thing is products here. Okay.
+16:08 And this report's also going to generate
+16:09 products for us. Now, I want to say that
+16:12 obviously Claude scraping your website
+16:14 might not find all the products, so this
+16:15 might be slightly more manual, but it'll
+16:17 give you some great ideas as well. You
+16:19 can add in all of these features when we
+16:22 click get started here. Product name,
+16:23 category, price, description, all that
+16:25 kind of stuff. Products are not going to
+16:29 give you more search impressions. So,
+16:32 it's not going to result in more people
+16:34 seeing your profile. What products will
+16:36 do is increase the click-through rate or
+16:38 conversion on your profile. Okay? So, if
+16:41 somebody comes across your profile and
+16:43 sees these products, they're going to be
+16:44 more likely to be like, "Huh, let me
+16:46 check this out and inquire with these
+16:48 guys." And the reason for that is
+16:49 because if you're like, and I'm just
+16:50 going to give a extreme example here,
+16:53 90% off fire sale. Somebody's like,
+16:55 "Huh, maybe I should click on that
+16:57 because I'm interested now." And then
+16:58 they go to your website and become a
+16:59 lead and so on and so forth, but it's
+17:01 not going to increase the amount of
+17:03 interactions here. So the next thing is
+17:05 service areas. So under edit profile, if
+17:08 we scroll down here, we have access to a
+17:11 ton of service areas. Now, this really
+17:13 depends on the type of business you are.
+17:15 If you're a plumber, okay, and you're
+17:17 over here and you have a fine, like you
+17:19 have a specific address where clients
+17:21 come and you service them at, you're not
+17:23 going to be able to edit this. But if
+17:24 you're a plumber and you service
+17:26 multiple different jurisdictions or
+17:27 locations, you're going to your clients,
+17:29 then you're going to be able to add in
+17:30 multiple service areas. And you can add
+17:32 up to 20 here. You want to The golden
+17:36 rule here is that you add locations that
+17:39 you're able to access or drive to in 2
+17:41 hours or less. Okay. And our report is
+17:45 going to be able to pull in all of the
+17:47 different service areas that you can go
+17:49 to. So in our report here, we can see
+17:52 that uh we have all of these locations.
+17:54 And again, just make sure that you
+17:56 review it and you're happy with it.
+17:58 Okay. And so this whole report is going
+18:00 to automate the process of setting up
+18:02 the profile. But there's one really
+18:03 important thing that I want to stress
+18:05 when you're setting up a profile. And
+18:06 that is the BS test. Okay? So if it is
+18:10 real, then you keep it. If it smells
+18:12 like BS, then remove it. Don't add in
+18:15 categories just for the sake of adding
+18:17 in categories. Don't add in services for
+18:19 the sake of adding in services. Don't
+18:20 add in service areas for the sake of
+18:22 adding in service areas. Google's
+18:24 getting really good at finding like
+18:26 spammy or fake profiles. You just want
+18:30 to make sure that you're not giving
+18:31 reasons for Google to ban your account
+18:33 for no reasons. Just make sure to play
+18:35 it safe. Only provide categories or
+18:37 services or service areas that you can
+18:40 actually confidently um service. Okay?
+18:43 And again, like I said before with
+18:45 categories, there's mixed reviews. Some
+18:47 places will say only do five. Other
+18:49 places will say do 10. Um but you have
+18:51 maximum of 10 year. Other places will
+18:53 say do 10 services. Other places will
+18:55 say capitalize on all 50. And other
+18:58 places, same kind of deal with service
+19:00 areas. You have up to 20. From the
+19:01 research that I've done, okay, it
+19:03 appears that the best option to maximize
+19:06 your presence online is to do 20 service
+19:08 areas, up to 50 services, and up to 10
+19:12 categories. But that's not coming from
+19:14 my own data. That's coming from data
+19:15 that I found online. Cool. There's also
+19:18 four levers that you can pull to
+19:20 increase your profile online. We've
+19:21 already covered the first two, which is
+19:23 the primary category. You need to make
+19:24 sure you actually select the right one.
+19:26 If you don't, this could tank your SEO
+19:28 services. If you have 100 plus photos,
+19:31 you can actually get 520%
+19:34 more phone calls just because people
+19:36 trust businesses that have photos,
+19:39 especially if they're genuine photos.
+19:40 You don't want to have like stock images
+19:42 here. That can also tank your trust and
+19:44 and hurt your long-term SEO strategy.
+19:47 And then the last thing here is that you
+19:48 can have a time. you can update when
+19:52 your business is actually open. So, if
+19:53 we go into the edit profile here, a lot
+19:56 of businesses will say 9 to5 and that's
+19:58 totally fine, but outside of the 9 to5
+20:00 range, Google Maps may not actually
+20:02 really show your profile, especially
+20:04 when people search for businesses that
+20:06 are open. Now, one workaround that you
+20:09 could explore is you could have an AI
+20:11 agent, like an AI inbound receptionist
+20:14 that is able to handle those calls
+20:16 outside of business hours and then set
+20:18 up appointments for you. And then you
+20:19 could put like 24/7 or whatever the case
+20:21 may be. That's just optional. Next, we
+20:24 have citations. And this is very
+20:27 important. This is not necessarily tied
+20:29 to the Google business profile, but it's
+20:31 the next layer to it. What citations are
+20:34 is their third-party sites. So, think
+20:37 about Yelp. That's a citation, Facebook
+20:40 citation, Bing citation, Better Bureau
+20:42 of Business, Yellow Pages. All of these
+20:45 businesses you can add your profile to.
+20:48 And then that profile can contain things
+20:50 like name, address, and phone number.
+20:53 Okay? And when Google searches for your
+20:56 business and it finds your references,
+20:59 your profiles in all of these different
+21:01 um websites, they're going to be like,
+21:04 "Huh, this is a real business. Like, I
+21:06 can verify it. I trust this business
+21:08 more." So, all you're doing here is
+21:10 you're providing a strong trust signal
+21:11 to Google. And when you have a stronger
+21:13 trust signal, then you will go through
+21:15 the ranks higher in Google. This is
+21:17 something that's going to take you quite
+21:18 a bit of time, probably like a day or
+21:20 two to do. You can also set up something
+21:22 automated like through Seamrush. They
+21:24 have a uh they have a local SEO option
+21:27 here to manage your listings, but this
+21:30 is completely optional uh if you want to
+21:32 do that. Cool. And the most common
+21:34 question I get is, Jonno, if Google
+21:36 business profiles are so powerful, why
+21:38 don't I just create like 40 of these?
+21:41 And the answer is a bit more layered and
+21:43 nuanced than that. The first thing is is
+21:45 you actually need a physical address to
+21:47 create a Google business profile. You
+21:49 can't just yolo it and throw 40 profiles
+21:51 up. You can't just create 40 burner
+21:53 emails and create this. You actually
+21:54 need to tie it to an address and you
+21:56 need to verify that address because
+21:58 Google will send you mail. You have to
+21:59 you have to receive that and and confirm
+22:01 the code. The other thing is is if you
+22:03 can do it, of course, typically
+22:06 speaking, more Google business profiles
+22:08 will rank better than fewer, of course,
+22:11 but they have to be quality profiles.
+22:13 They can't just be garbage profiles.
+22:15 Like you can't just throw something up
+22:16 and and have like zero reviews and a
+22:19 halfbaked profile and expect to get
+22:21 results. They all have to be high
+22:23 quality. Luckily with Google Business
+22:24 profiles, it's pretty easy to set up
+22:27 like we just did here. The only hard
+22:29 part is getting reviews and you don't
+22:30 want to dilute all these profiles so you
+22:32 only have like two or three reviews
+22:34 across everything. So as long as you can
+22:35 manage the reviews adequately, then
+22:37 yeah, you can have them. The biggest
+22:39 danger is just make is just not having a
+22:42 lot of reviews and then people just
+22:43 don't trust your profile. If you are a
+22:46 business that travels to the the you
+22:49 know places you work like a plumber or a
+22:51 wedding photography company then you can
+22:53 have multiple service areas like we've
+22:55 already discussed. But there is one huge
+22:58 red flag about this okay which is Google
+23:01 business profile suspensions. And you
+23:02 just want to be super careful about this
+23:04 kind of stuff. This happens way more
+23:06 often than you think. Google is clamping
+23:08 down and they are suspending so many
+23:11 different profiles. So, I want to really
+23:13 quickly go over some of the most common
+23:15 reasons. Don't create a fake listing.
+23:17 Don't have your address be a UPS or a PO
+23:21 box or a co-working space or a shared
+23:22 office. Don't have a place where there's
+23:25 multiple Google business profiles
+23:27 located at the same place. Don't have a
+23:28 homebased office, but then try and pass
+23:30 it off as a visible office where people
+23:32 can view you. That's not going to work
+23:34 as well. Don't choose random cities
+23:36 across the country or whatever the case
+23:39 may be, right? Just make sure it's
+23:41 legit. Play it like play it safe. Do the
+23:45 long-term game and those are going to
+23:46 get you the best results. One other
+23:48 thing that you could do on this is
+23:50 identity attributes. So on your Google
+23:51 profile when you add a okay right over
+23:54 here um you can choose at the bottom
+23:58 things like are you um do you identify
+24:01 as womanowned or do you identify as uh I
+24:05 don't know LGBTQ plus friendly and those
+24:09 can help you get a bit more clicks as
+24:11 well. Cool. Moving on. The next thing is
+24:14 using cloud code to automate Google
+24:16 business profile postings. Okay. So, if
+24:19 we look at our profile down here, you're
+24:22 able to post on Google, your Google
+24:25 business profile. But the problem with
+24:26 this is that it's time consuming. It's
+24:29 annoying to do and nobody really likes
+24:32 doing it. And so, your options for most
+24:34 people are just don't do it or hire like
+24:35 a SEO agency and pay like 500 bucks a
+24:38 month to do it. Let me show you how you
+24:40 can automate this with Claude code.
+24:42 We're going to do one prompt and we can
+24:44 generate a month worth of posts that you
+24:46 could take and then just post
+24:48 automatically. Um or just post every
+24:50 single day or whatever the case may be.
+24:53 Cool. Now, one thing with Google
+24:54 business profile posting, man, that is
+24:56 like such a mouthful to say, is that
+24:58 really the main purpose of it is not
+25:01 directly to increase the amount of views
+25:03 you get on your profile, but it's to
+25:06 convert the existing views you get into
+25:09 leads or calls. So, what I mean by that
+25:11 is take a look at this Google business
+25:13 profile here, okay? The post that we're
+25:15 talking about down here, it's not going
+25:17 to wildly get you like another thousand
+25:19 people viewing your your your profile
+25:21 every single month. What it's going to
+25:22 do is it's going to take the views
+25:24 you're already getting and it's going to
+25:26 increase the likelihood that they visit
+25:29 your website or they give you a call.
+25:31 Now, indirectly, they can increase your
+25:36 searches. Okay? And here's the four ways
+25:38 they do that. First of all, if they
+25:41 increase the amount of people actually
+25:43 visiting your site or calling you,
+25:44 Google's going to pay attention to the
+25:46 fact that more people are interacting
+25:47 with your business and think, hm, if all
+25:49 these people are interacting with this
+25:50 business, let's show it to more people.
+25:53 The second way is through feeds, the
+25:56 Google AI feed. So, if you take a look
+25:59 at this search result here, New York
+26:01 landscaping company, we can see this AI
+26:03 overview and we can see all of these
+26:05 additional links. Google can pull in
+26:07 your Google business posts and add them
+26:10 to this AI feed, which can increase the
+26:14 amount of views you get. Also, the other
+26:17 thing is is that if you haven't posted
+26:20 in 3 months on your profile, Google
+26:22 might think that you're closed or you're
+26:23 out of business or you're not that
+26:25 active. And so, as you're posting more,
+26:27 it's going to show your business more
+26:29 actively. And the last thing here is
+26:31 that you'll have a yellow badge magnet.
+26:33 So, I'm not sure if I'm going to be able
+26:35 to find it here. Okay, we can try and
+26:37 scroll down and see if we can find it
+26:39 for the search result, but essentially
+26:41 what happens is that if you have Google
+26:44 business profile posts and it matches
+26:48 the keyword that somebody searched, it
+26:49 will give you a badge on Google Maps
+26:52 here and it will draw attention to your
+26:54 listing and potentially increase the
+26:56 amount of people that are actually
+26:58 viewing your business. Okay, so that's
+27:01 more or less how it works. Let's go on
+27:03 to actually automating the process of
+27:06 Google business profile posts. And how
+27:08 we're doing this is a twostep process. I
+27:11 guess three technically. We're going to
+27:13 generate the posts in Claude. Okay. And
+27:15 then we're going to send those posts
+27:17 over to Google Business Profile. But
+27:18 we're doing that through a free
+27:20 application called make.com. Okay. And
+27:22 the reason we're using make.com here is
+27:25 because you could technically go from
+27:27 claude to Google business profile. But
+27:29 the the problem is is you have to uh you
+27:32 have to get a API key. Okay? And that
+27:35 takes up to 14 days to wait. And with
+27:38 make you can get access to this
+27:40 absolutely immediately. So even if you
+27:42 want to get this API key, I highly
+27:43 recommend starting with make and then
+27:45 switching over to the API key later on.
+27:47 Okay, so let's get into this. The first
+27:50 thing is is down below in the
+27:52 description, there's going to be a link
+27:53 to my free community. Okay? And very
+27:55 similarly to how we did the setup with
+27:58 Google business uh your Google business
+28:00 profile. We're going to do the same
+28:02 thing, but now for posting. Okay? So,
+28:05 there's going to be a link here. You can
+28:06 grab this and back inside of Cloud Code.
+28:09 We're going to create another file here
+28:11 called Google Business Profile Posts.
+28:14 Okay? You can name it whatever it is you
+28:16 want. We're going to drop this in. And
+28:18 this document here is going to help you
+28:21 build uh very good Google business
+28:25 profile posts automatically so that you
+28:28 don't have to think about this and do it
+28:30 every single day manually yourself. So,
+28:33 so let's just go ahead and give it a
+28:35 shot here. Can you please, and I don't
+28:38 know why I just feel like compelled to
+28:40 say please every single time I'm talking
+28:41 to Claude, read the Google business post
+28:45 uh article we just or document we just
+28:48 created and generate a post for me based
+28:52 on my business here. And very similarly
+28:56 to before, we're going to link in our
+28:58 website so it can actually scan it,
+29:00 understand what we do, all that kind of
+29:02 stuff. Cool. So, we've got the result
+29:04 back and we can just read the first
+29:05 sentence. A Riverdale dad came in after
+29:07 the same Sunday night argument with his
+29:08 wife had played out for blah blah blah
+29:10 blah blah. This sounds like AI slob just
+29:13 a bit. It sounds like a generic AI post.
+29:16 What we want to do, not only for the
+29:18 Google business profile posts, but also
+29:20 for reviews and also for blog posts and
+29:23 service pages is we want our post to
+29:25 sound like we're the ones that wrote it.
+29:28 And so, how we can do this is we can add
+29:30 a folder here called reference. Okay?
+29:32 And in reference, we can add another
+29:33 file called humor.md. We can add another
+29:36 file called um vocabulary
+29:41 MD. We can add another one called tone
+29:44 MD. And maybe one final one like beliefs
+29:49 MD. And we want to add data to this
+29:53 about what our beliefs are, what our
+29:55 humor sounds like, what our tone is, the
+29:57 words we choose. And so when we write a
+30:00 Google business profile like post like
+30:02 this, we're pulling from how we would
+30:04 sound ourselves. And then that way
+30:06 Claude understands how to write like
+30:08 Jonno or how to write like you. And then
+30:10 it actually sounds like you were the one
+30:11 who freaking wrote the post even though
+30:13 you had AI do it completely yourself.
+30:15 Okay. So how we're going to do this is
+30:18 we're going to populate all of these
+30:20 documents. The easiest and fastest way
+30:23 to do that is just to pull up either
+30:25 your LinkedIn profile or you can pull up
+30:27 your emails or wherever you've written
+30:29 stuff down. Okay? It could even be sales
+30:31 call transcripts. It could be um it
+30:34 could be whatever. It doesn't matter.
+30:36 Anywhere that you've written something,
+30:38 just go find that writing and then copy
+30:40 it in, okay, to Claude. And you can add
+30:43 in multiple references. And you can say,
+30:46 "Please extract from these posts data to
+30:50 put into my at beliefs,
+30:53 at humor,
+30:56 at tone, and at vocabulary."
+31:01 Okay? I want to make sure that you
+31:05 understand
+31:07 what I sound like so you can write like
+31:11 me. Cool. And there's one additional
+31:14 thing that we can do here and we can add
+31:16 in businesscontext.md
+31:19 and we can go over to our website. We
+31:22 can pull in the URL and you can say pull
+31:25 up this website
+31:28 add to business context
+31:32 what I do. Okay. And now we're going to
+31:34 populate information on our business and
+31:36 how we write so that Claude can actually
+31:39 start sounding like us. Cool. So, we're
+31:40 just wrapping this up and just by
+31:42 pasting into LinkedIn posts, you can
+31:44 kind of see how I speak and obviously
+31:46 the more info you provide, the better
+31:48 it's going to be. But tone, direct,
+31:50 plain spoken, confident without being
+31:52 cocky. Vocabulary, you can see the word
+31:54 choice I use, TLDDR, dropped,
+31:56 masterclass, stack, scale. In humor, one
+31:59 of my favorite ones, uh, we can see dad
+32:01 joke energy on purpose, lyrical flips
+32:04 and pop riffs, self-aware narration,
+32:06 internet native slang on purpose, and so
+32:10 on and so forth. So now we can start
+32:12 using this to generate these posts for
+32:16 Google, our Google business profile. Now
+32:19 before we go ahead and test out posting
+32:21 on our Google business profile, the one
+32:23 thing is that we have this particular
+32:26 make.com scenario which I'm going to
+32:27 pass down below for free. So how this
+32:30 works if we go back to our slideshow is
+32:33 we send from claude. Okay, that writes
+32:35 the Google business profile to make and
+32:38 then make to Google business profile.
+32:40 Okay, this is the workflow here. This
+32:42 should work out of the box. The only two
+32:44 things you need to do is connect in your
+32:45 Google business profile right over here
+32:47 and then tell Claude to send the data
+32:49 over here. So, we can copy this and
+32:52 paste it into the message down below.
+32:55 And we can also add additional context
+32:57 here where we're saying, please create a
+33:00 new post and send it to the make.com web
+33:03 hook that we've just added here. And now
+33:05 I'm asking it to reference all of these
+33:08 files that we just created so that it
+33:10 sounds like we're writing it ourselves.
+33:13 So, I'm going to send this off and
+33:14 return back when it's done. But just
+33:15 make sure before you send it off to run
+33:17 this once. Wait for new data and we'll
+33:20 see the results coming in live. Cool.
+33:22 So, the results have been sent over.
+33:25 Okay, we can see them arriving here. And
+33:28 then we can see it being posted on
+33:30 Google My Business. And if we head back
+33:33 and refresh the page, we can see our new
+33:37 post over here. Let me just see. Okay,
+33:40 cool. Old way. Show up. Vent for 50
+33:42 minutes. Leave with no plan. New way.
+33:44 Every session has a shape. Clarify
+33:46 what's actually happening. Connect it
+33:47 with the pattern underneath. Tackle the
+33:49 root headon. That's it. Okay. So, sounds
+33:52 way better. And this actually sounds
+33:53 like exactly how I would write a post
+33:56 like this. The picture is being pulled
+33:58 in from a stock library. This is the
+34:01 last resort. Ideally, you'd want to add
+34:03 your own real business posts or you
+34:06 connect into something like fall.ai AI
+34:10 and you can generate images through a
+34:13 platform just like this. And there's a
+34:15 million of these platforms. So you don't
+34:17 have to choose this one. But that's just
+34:19 an example of how you could do it. Okay.
+34:21 So that's Google business profiles.
+34:23 We're going to come back to this at the
+34:24 end of the video and talk about how we
+34:26 can turn this into a repeatable skill
+34:28 that we can pump out every single day on
+34:30 autopilot. The next thing that we're
+34:32 going to talk about is Google reviews.
+34:34 So, by far, Google reviews is probably
+34:37 the number one thing that you can do to
+34:39 actually get more visibility on your
+34:41 Google My Business profile. And there's
+34:43 kind of two components to this. The
+34:45 first component is you need to get at
+34:47 least 10 reviews. If you don't get to 10
+34:50 reviews, you're kind of stuck in this
+34:52 weird spot where Google's likely not
+34:56 going to show your business very often,
+34:58 at least according to the research that
+35:00 I found online. And then after that,
+35:02 what matters probably even more to your
+35:05 searches is the velocity. Okay, so let's
+35:09 just back up here and go over this
+35:11 together. So if we take a look at this
+35:13 the this listing for plumbers in
+35:15 Toronto. As a consumer, if I'm looking
+35:17 at this, the thing I care about the most
+35:19 is the review number and obviously how
+35:22 high the review is. Counter
+35:25 counterintuitively, I actually trust
+35:27 five star slightly less than 4.7 to 4.9
+35:30 because at five star and 25 ratings, I'm
+35:32 like, huh, this must be fake or
+35:34 fabricated or they're they're hiding
+35:36 something. Seems a bit unrealistic to
+35:38 me. 4.9 it's like, okay, they probably
+35:41 have a couple bad reviews. That's to be
+35:42 expected, right? So that's just one
+35:45 point psychologically speaking, but um I
+35:48 really care about re obviously the
+35:50 review number and the the the rating
+35:53 itself, but Google also cares about the
+35:55 velocity. So what it doesn't want to see
+35:57 is you get 50 posts or reviews one month
+36:01 and then you never get reviews again.
+36:03 They're going to be like, "Okay, that's
+36:04 not a good sign, right? It doesn't show
+36:06 us that your business is active and
+36:07 you're actively getting new clients.
+36:09 Maybe you shut down, whatever the case
+36:10 may be." So, they're really concerned
+36:12 about velocity. So, they want to see you
+36:14 get a certain amount of reviews every
+36:17 single month. Ideally, it' be like eight
+36:19 reviews every single month. Okay?
+36:21 Something like that. Okay? So, it's not
+36:23 just about getting a high amount of
+36:25 reviews or just getting to 10. That's
+36:27 the first threshold. And then you need
+36:28 to consistently get new ones. Cool. So,
+36:32 what we're going to do is we're going to
+36:33 build out an engine that gets you the
+36:35 reviews you're looking for. There's
+36:37 three parts to this. Part number one is
+36:39 that we actually have to ask clients to
+36:42 leave us good reviews. If you run a
+36:44 business, the lifeblood of that local
+36:46 business is reviews. You got to ask
+36:48 people for them. If you're not asking
+36:50 people for reviews, you're leaving money
+36:51 on the table. Next, we want to qualify
+36:53 those reviews. If it's a one out of five
+36:56 and somebody's screaming at you being
+36:57 like, "You ruined my life." Probably
+36:59 don't want that on Google. You want to
+37:01 filter those out. So we will create a
+37:04 filtering mechanism and then if it's a
+37:05 four or a five then we will push them to
+37:08 Google to leave the review and then once
+37:10 they leave it on Google then we will
+37:12 reply to it. Okay. So let's kind of talk
+37:16 about how this works. Um in terms of
+37:19 sending reviews to people. We're not
+37:20 going to cover this extensively because
+37:22 most of the time what people will do is
+37:24 they will just manually send out an
+37:26 email which is the worst thing you'd
+37:28 want to do. You'd want to have like a
+37:29 CRM setup where you just automatically
+37:31 send off reviews after every single
+37:33 client is done. I don't want to cover
+37:35 CRM automation in here because I anytime
+37:38 you bring up a CRM automatically 90% of
+37:40 the people watching this will not be
+37:42 able to follow along. So, we're just
+37:43 going to skip over this and just know
+37:45 that you can automatically there's ways
+37:47 to set up automated emails or text
+37:49 messages notably through a CRM so that
+37:52 when a project finishes you get to uh
+37:55 ask them for review. The more important
+37:57 thing that we're going to set up is this
+37:58 review gate. And then after the review
+38:00 gate, we're going to reply automatically
+38:03 on Google My Business, okay, to the
+38:05 reviews coming in. So, back inside of
+38:08 Claude, what we're going to do is we're
+38:10 going to build out an entire web-based
+38:12 application. Okay, so here's the
+38:14 question. Can you please build a web app
+38:16 using Nex.js? It's a one-page
+38:19 application and it has a form on it.
+38:21 There's two questions. On a one to five
+38:24 point scale, how likely are you to refer
+38:26 us to your friends and family? And the
+38:27 second question is is can you give us
+38:30 any feedback? And this is just a long
+38:32 form kind of question. And we also want
+38:34 the form to be beautiful. I'm going to
+38:35 send it off and return back when it's
+38:36 done. Cool. So, we're all set. We can
+38:38 take a look at the form by clicking this
+38:39 link. And we have two questions just
+38:41 like we asked. One is a 1 to5 scale
+38:44 question and the other is an input
+38:46 field. Now, I did forget one thing and I
+38:48 added it in here. Let me walk you
+38:50 through how this works. we forgot the
+38:52 feedback or we forgot the uh filtering
+38:54 mechanism. So if it's a one to three
+38:57 star rating, you do not want somebody to
+38:59 go to to go to Google and be like, "This
+39:02 was a horrible experience. Never go work
+39:04 with these com this company ever again."
+39:06 That's a nightmare, right? And you're
+39:08 going to be paying the price for years
+39:09 to come. How you can avoid that is if
+39:12 somebody leaves you a one to three star
+39:13 rating, send the message to yourself on
+39:16 Slack so that you can handle that behind
+39:18 the scenes. Maybe you offer a refund,
+39:20 maybe you sweet, you know, talk to them
+39:22 and and solve something, right? Um, so
+39:24 that it doesn't come to leaving a bad
+39:26 review. So, how we do this is we send
+39:28 off a prompt inside cloud code like
+39:30 this. If the forum gives us a one to
+39:32 three, send the the feedback to this web
+39:37 hook, which is a make.com scenario.
+39:40 Okay, I'm going to include this in the
+39:41 link down below for free, but
+39:43 essentially I copied this web hook here
+39:45 and we're sending the form data. Okay.
+39:47 So again, if somebody gives us a one to
+39:51 three here, it's going to send this
+39:53 feedback when they submit the form over
+39:56 to this web hook and then that's going
+39:58 to push it over to Slack so that I can
+40:00 know that somebody left me a bad review.
+40:03 Now the second part is if we get a one
+40:06 to five point or or a four or five
+40:08 rating, what we want to do is we want to
+40:11 send people over to leave a review
+40:13 automatically on Google. Okay? And how
+40:16 we do that is we just add one additional
+40:20 prompt here where we find our Google
+40:23 business profile, click on the reviews,
+40:26 get more reviews, copy this link. Okay,
+40:29 this is what you share with your clients
+40:30 to allow them to add a review to your
+40:33 Google business profile and say if the
+40:35 form is a four to five um please
+40:39 redirect users here and then you paste
+40:43 that link. Cool. And so with that, when
+40:45 people submit a four or five star
+40:47 review, it will direct them immediately
+40:48 over to Google like we can see right
+40:50 over here. Okay. And again, you could
+40:52 choose just five. Maybe you'd want to
+40:54 filter out four star reviews. I think
+40:56 that would be a mistake because a lot of
+40:58 people trust a 4.9 more than they trust
+41:01 a five out of five. Okay, perfect. Last
+41:03 thing with this is replying to reviews.
+41:06 And I'm going to send over a make.com
+41:07 scenario for this. Essentially, what's
+41:09 going on here? I'm just going to briefly
+41:11 walk through this because I don't want
+41:12 this to dominate the uh the video here,
+41:15 but we have a make.com scenario set up.
+41:17 And this workflow is going to be down
+41:19 below in the description for you guys to
+41:20 grab for free. But what's going on is
+41:22 when somebody leaves a review,
+41:24 automatically you're going to be
+41:25 notified in make. And we're going to
+41:27 check is that review a four to five star
+41:29 rating? If so, it's going to go up this
+41:30 path. And if it's a 1 to three, it's
+41:32 going to go down this path. We're not
+41:34 going to automate the process of
+41:35 replying to a one to three star review
+41:37 because if that is truly a catastrophic
+41:40 review. Sometimes having an AI generated
+41:43 response could potentially piss somebody
+41:45 off even more. So you don't want them to
+41:47 be even more mad than they already are.
+41:49 So you want to deal with it delicately.
+41:51 And then if it's a four to five star
+41:52 review, we could have AI automatically
+41:54 reply and then post it right back onto
+41:56 Google My Business. Okay. So that's
+41:59 essentially it for this section. Okay.
+42:02 Now, what we're going to do is we're
+42:04 going to talk about local blogs and
+42:07 service pages. Okay? So, if we head back
+42:10 to Google here, we have the maps that
+42:13 we've been talking about for the first
+42:16 portion of this video. But now that we
+42:18 can move on to the listings down below,
+42:21 and these are both service pages and
+42:24 blog posts that we're going to be
+42:25 ranking for. Okay? So, service pages are
+42:29 money keywords. It's some something that
+42:31 somebody types in when they're directly
+42:33 looking to purchase something. So if you
+42:36 type in buy Nike shoes, this is a
+42:38 transactional keyword that somebody
+42:40 searches up when they want to buy Nike
+42:42 shoes. And very similarly, when somebody
+42:44 types in plumber in Toronto, they're
+42:47 looking to hire a plumber in Toronto. So
+42:50 this is something that somebody would
+42:52 click on, become a lead, and then become
+42:54 a paying customer. And then we have blog
+42:56 searches. Okay? And localized blog
+42:59 searches look like this. Best wedding
+43:01 venues in Toronto. The keyword is
+43:03 Toronto. Because if you were to get rid
+43:05 of this, okay, and you just had best
+43:08 wedding venues, what is that? Best
+43:09 wedding venues in North America, in the
+43:12 world, in California, in Los Angeles,
+43:15 you don't know. And if you don't tack on
+43:17 the keyword or the city at the end, then
+43:20 you're just generically ranking, which
+43:22 means it's going to be harder to rank
+43:23 number one. And number two, um, you're
+43:27 going to get traffic from across the
+43:29 world which might not be able to convert
+43:30 into paying customers. Okay. Now, the
+43:33 other benefit is is that when you, let's
+43:36 say you're a wedding photography
+43:37 company, you create a blog post called
+43:40 best wedding venues in Toronto, you're
+43:44 not directly creating a blog post about
+43:47 your service, but you're creating a blog
+43:48 post targeting customers that will need
+43:51 your service. Because if somebody's
+43:52 looking for a wedding venue, chances are
+43:54 they're also looking for a wedding
+43:56 photographer as well. So, they might
+43:57 come to your blog post uh about wedding
+43:59 venues and then end up booking you. And
+44:01 even if they don't book you, here's a
+44:03 great secret is you can set up a Google
+44:06 tag and a Facebook pixel that tracks
+44:08 that user on Google and Facebook and you
+44:11 can remarket to them. Meaning, you can
+44:12 show Facebook ads and Google ads to
+44:14 those people that have already shown
+44:16 expressed explicit interest in the
+44:19 product or service that you're selling.
+44:21 Okay? Okay, so that's a great
+44:22 opportunity as well. Now, let's move on.
+44:25 The first thing is we need to create a
+44:28 service page. Okay, that's the first
+44:30 thing we're going to do is talk about
+44:31 these money keywords. Now, in order to
+44:34 build this out, I need to show you this
+44:36 slide because I would be doing you a
+44:38 disservice if I didn't. It is a bit
+44:40 complicated, but we're going to make it
+44:41 super simple. There's three ways you can
+44:43 build sites using cloud code. The first
+44:45 is SSG, which stands for static site
+44:48 generation. The second is SSR which
+44:50 stands for server side rendering and the
+44:52 third is uh client side rendering. You
+44:54 only want static site generation. This
+44:57 option right here Google like you can
+44:59 think about it as analogy uh as you
+45:02 buying a pizza. With static site
+45:03 generation, you come into the store, you
+45:05 buy a slice, you leave in two seconds.
+45:07 Okay, that's what Google wants. They
+45:09 want to crawl your website, find the
+45:11 page so they can index it really quickly
+45:13 on Google so that you can rank for this.
+45:15 You can't index a page if Google doesn't
+45:17 know your page exists or if they can't
+45:19 read it. Okay? They can only index it
+45:22 and serve it to, you know, people
+45:24 looking on Google if they know it exists
+45:26 and they can actually read it. And this
+45:28 is what serverside rendering or static
+45:30 site generation actually does. They can
+45:32 read it and then serve it easily. With
+45:34 serverside rendering, it's like walking
+45:36 into a pizza shop and they have to bake
+45:38 it and then you have to wait 20 minutes
+45:40 and then you get it and then you leave.
+45:42 it's not as optimized for um for SEO.
+45:46 And then the last one is you literally
+45:48 walk into that pizza shop, you make the
+45:49 pizza yourself. And uh and yeah, this no
+45:52 matter what you do 10, 20, 30 years
+45:54 later, you're not going to be able to
+45:55 rank on Google. There's just nothing you
+45:57 can really do about it. So you
+45:58 definitely don't want to do client side
+46:00 rendering at all. We need to do server
+46:02 static site generation. Okay. So let's
+46:05 move on to service pages. Now, we're
+46:07 going to talk about the theory, then
+46:08 we're going to build one out as an
+46:10 example so that you get the point. You
+46:13 can think about service pages like a
+46:16 matrix. These are your money keywords.
+46:18 These are keywords where the intent
+46:20 behind somebody is to purchase from you,
+46:22 to give you money. Okay? So, what you
+46:25 want to do is you want to create as many
+46:26 of these pages as possible to surface
+46:28 for as many different keywords as
+46:30 possible. plumbing in Toronto is great,
+46:33 but you might have another 50 services
+46:35 that you could rank for that people are
+46:36 searching for. And if you don't create
+46:38 pages for all of those, you're missing
+46:41 opportunities. It's like you're going to
+46:42 miss a 100% of the shots you don't take.
+46:44 So, you might as well start taking some
+46:46 shots because some of them will land and
+46:48 some of them will lead to clients. Okay?
+46:50 So, here's how it works. It's like a
+46:52 zipper. Okay? Your jacket has a zipper.
+46:54 One side zips into the other side. On
+46:58 one side, you have cities. Okay? On the
+47:01 other side, you have services. You zip
+47:03 these together. So, emergency plumbing
+47:06 Toronto, emergency plumbing Missaga,
+47:08 emergency plumbing in Bmpton, emergency
+47:10 plumbing Scarboro, drain cleaning
+47:12 Toronto, drain cleaning Missaga, drain
+47:14 cleaning Bmpton, draining cleaning
+47:15 Scarboro, and so on and so forth. So,
+47:17 you create all these service pages for
+47:19 the service in the city. Okay, that
+47:22 means you rank. If you only did one
+47:24 page, your shot of at hitting is like
+47:27 one. Okay, if you create 50 pages, you
+47:30 have 50 times the likelihood of one of
+47:32 those ranking. Okay, so that's kind of
+47:35 the idea behind this. You don't want to
+47:37 go crazy with this. You don't want to
+47:38 create a,000 pages. The idea, like
+47:41 there's no stat online that's going to
+47:43 say create exactly 59.715
+47:47 of these. That just doesn't exist. I
+47:49 would say anywhere between
+47:50 conservatively 10 of these up to 400 is
+47:53 probably what you want to do. it. The
+47:55 higher up you go, the more risk you take
+47:57 because Google doesn't like thin
+47:59 content. Thin content means that you
+48:02 have 400 pages with more or less the
+48:04 same content on it. Okay? You need to
+48:06 you need to be mindful of that. Cool.
+48:09 Now that you understand the strategy,
+48:11 now let's move on to the second part
+48:12 where we actually have to find these
+48:14 keywords. Now, the easiest way probably
+48:17 to get started is to head over to
+48:19 something like Samrush. Okay? And
+48:22 Semrush allows you to find keywords. The
+48:25 reality is, like we were talking about
+48:27 before, not all keywords are created
+48:29 equal. Some will get you zero hits a
+48:30 month. Some will get you 500. Some will
+48:32 get you a thousand. You want to use
+48:34 Samrush so that you can actually find
+48:36 the winning keywords and start ranking
+48:38 for keywords that will bring you leads.
+48:40 So, inside of Samrush, we're going to go
+48:42 to um SEO and then keyword magic tool
+48:46 and we're going to type in a keyword
+48:48 like plumbing, for example. Okay. and we
+48:51 are going to rank for cost per click USD
+48:54 downwards. What this means is that these
+48:56 are the keywords people are spending
+48:58 money on trying to acquire customers.
+49:00 Chances are if people are spending money
+49:01 on these keywords, okay, there's money
+49:03 to be made here and we want to rank for
+49:05 these as well. So, not all keywords we
+49:07 want to do. Like if we're a plumbing
+49:09 company, we don't want to rank for
+49:10 software because that's not what we
+49:12 sell. Best plumbing estimate software.
+49:14 Nope, not at all. Um, so let's just find
+49:17 a couple that we actually like and then
+49:19 we'll add it into our our thing. So
+49:22 plumbing, berry plumbing. Okay, so this
+49:24 is something where it's like people are
+49:26 ranking in a city called Berry for the
+49:28 keyword plumbing. Okay, these are very
+49:31 similar. These are essentially this
+49:32 exact same page that we'd be ranking
+49:34 for. And then um
+49:38 let's see if we can find another one.
+49:40 Emergency Plumbing, Newark. These are
+49:42 two different services. So you kind of
+49:44 get the point. You want to find services
+49:46 that people are ranking for or services
+49:49 that you know would be you you could
+49:52 rank for and then we are going to send
+49:54 the keywords to a list. Now I already
+49:58 have my list created here called money
+50:00 pages but you just essentially create a
+50:02 new list and then add those keywords to
+50:04 it. Once we've identified the keywords,
+50:06 okay, we can export all of these into a
+50:09 CSV file and we can upload that CSV file
+50:13 or just drag it into Claude code over
+50:15 here. And the idea here is that we get
+50:18 Claude Code to generate the whole page
+50:21 for us. So, let's say we have this
+50:23 keyword plumbing service Burnaby. I'm
+50:26 just going to change this to Toronto
+50:28 because that's the city that we're
+50:29 talking about here. I'm going to tell
+50:31 Claude, please create a service page for
+50:34 me for this keyword.
+50:37 Okay, awesome. And the only other thing
+50:39 that we want to do is we want to give it
+50:40 a style so it actually looks good and it
+50:42 doesn't look absolutely horrible when we
+50:44 create these pages. Please copy the page
+50:48 layout of the screenshot and make this a
+50:53 plumbing page. Okay. So, we are going to
+50:56 go over to a site called Dribble and
+50:58 we're going to find Dribble is just a
+51:00 place that you that designers can upload
+51:03 beautiful graphics like websites and
+51:05 we're going to type in something like
+51:07 Facebook ads website. Okay, we're going
+51:10 to find something that we like. In my
+51:12 case, I'm going to go with this one. We
+51:14 can save this screenshot or save this
+51:17 image and then upload that into our claw
+51:21 prompt here. So that we're telling it to
+51:23 essentially duplicate this screenshot
+51:26 right here for our landing page. So we
+51:29 are all set and I have received the
+51:32 page. Okay. And it looks very similar to
+51:35 this website. Like we can see that we
+51:37 have this dashboard and the same kind of
+51:39 page layout. Everything is good. Now,
+51:41 one other thing worth mentioning is I
+51:43 forgot to say, but in the prompt, you
+51:46 should just say, "Please make sure
+51:49 this is a static site generation site."
+51:52 And that's all you have to do to make
+51:53 your page SEO optimized through Cloud
+51:56 Code. And then you're done. Okay, that's
+51:58 that's a one-time thing. So, if we head
+52:00 back to the page, we have the keyword
+52:02 that we're ranked for, plumbing services
+52:04 in Toronto. Okay, now the only other
+52:07 thing worth mentioning here is something
+52:08 called a keyword cluster. Now, we are
+52:11 ranking for one keyword right now, which
+52:13 is great, but we could double dip and
+52:15 rank for a second keyword or a third
+52:18 keyword or fourth fourth keyword on this
+52:20 page. And that's called a keyword
+52:21 cluster. So, by default, you could say
+52:24 how to unclog a drain. We're going to
+52:26 rank for this. But we could also get
+52:29 Claude to add in all these secondary and
+52:31 tertiary keywords that we could rank
+52:33 for. So, we could say we could add
+52:35 unclog kitchen sink, unclog bathroom
+52:38 sink, drain won't drain, slow draining
+52:41 sink, and all this kind of stuff. So
+52:43 that when we build out all these index
+52:44 pages, okay, um they also have a cluster
+52:47 of multiple keywords that we're ranking
+52:50 for. Do you see what I mean? Like
+52:51 there's one primary keyword and then
+52:53 multiple secondary keywords, meaning
+52:56 that every individual page has multiple
+52:58 shots at ranking for a ton of different
+53:00 things simultaneously. And essentially
+53:03 all we have to do is tell Claude, please
+53:06 um create a keyword cluster for this
+53:10 service page
+53:12 and rank for four to five other keywords
+53:17 as well. And then Claude will go to work
+53:19 for us finding these additional
+53:21 secondary and tertiary keywords and then
+53:23 adding them to our page right over here.
+53:26 All right, so moving on past this, we
+53:28 have localized blog posts. Now,
+53:30 generally speaking, when you create a
+53:32 blog post, you might say something like
+53:33 top 10 wedding venues. The problem is is
+53:35 again, this could be anywhere in the
+53:38 world and you'll get lo you'll get
+53:40 worldwide traffic. We want to get
+53:42 traffic in the city that we're servicing
+53:45 clients in. And so, if that's Toronto,
+53:47 we want to tag the city on the end of
+53:50 the keyword that we're ranking for. So,
+53:52 for example, instead of top 10 wedding
+53:54 venues, it's top 10 wedding venues in
+53:56 Toronto, top 10 wedding DJs in Toronto,
+53:59 top 10 wedding caterers in Toronto, or
+54:01 how much does a wedding photographer
+54:03 cost in Toronto, because the cost in
+54:05 Toronto might be different than the cost
+54:06 in India, for example. So, that's more
+54:10 or less what we have to do. And the
+54:12 other thing is is that you can get
+54:15 pretty creative with this. If we're in
+54:16 the wedding space, you can write blog
+54:19 posts obviously about wedding
+54:21 photography, but you could also reach
+54:23 out to the next of kin industries like
+54:25 top 10 wedding DJs, for example, because
+54:27 if somebody needs a wedding DJ, they
+54:28 probably also need a wedding
+54:29 photographer. So, you can essentially
+54:31 capitalize on that search traffic as
+54:33 well. Cool. So, back inside Samrush, we
+54:36 can enter in the keyword like wedding
+54:38 venues. Okay. And let's sort by volume
+54:42 again. We can see there's tons of
+54:44 different uh there's tons of different
+54:46 there's tons of volume for all these
+54:48 different keywords. And if we type in
+54:50 Toronto here, it's going to be way less
+54:52 because now it's super localized. But
+54:53 even then, wedding venues in Toronto,
+54:56 Ontario is a pretty big one. Wedding
+54:58 venues in Toronto. These are very
+55:00 similar keywords. I probably wouldn't
+55:02 rank for both because there might be
+55:04 keyword cannibalism where one overtakes
+55:06 the next. You never want to create
+55:08 multiple pa uh blog posts or service
+55:10 pages for literally the exact same
+55:12 keyword. Um Toronto wedding venues is
+55:15 more or less the same thing. Um gu but
+55:18 garden wedding venues is slightly
+55:20 different because this is a very
+55:21 specific niche in this and there would
+55:23 be technically a different audience and
+55:25 a different search interest. So you
+55:27 could do this as well. So anyways, we
+55:30 can just add these keywords to a new
+55:32 list called localized blog posts. Okay.
+55:35 And we can open this up and same as
+55:37 before, we can export the CSV and inside
+55:39 cloud code, we can add it in here. Cool.
+55:41 So, I'm just going to go ahead and
+55:42 create a blog post for this. So, we're
+55:44 back and here's the blog post we've
+55:46 written. What are the best wedding
+55:47 venues in 20 in Toronto 2026 guide? What
+55:50 are the best venues wedding venues in
+55:52 Toronto is one of the most common
+55:54 questions asked by couples planning blah
+55:56 blah blah blah blah. Again, super
+55:58 boring. There's no humor. There's no
+56:00 personality. There's no nothing to this.
+56:02 This sounds like a lop. This is where
+56:04 most people give up. What we want to do
+56:06 is a couple things. Okay, we want to
+56:09 essentially uh rewrite this with our own
+56:12 tone of voice. So, coming back into
+56:15 Claude, we can rewrite this blog post by
+56:18 referencing our beliefs and our humor
+56:20 and our tone and our vocabulary and so
+56:23 on and so forth. Just one other quick
+56:25 little tip on this is you can also get
+56:28 Claude to research competitors. So, we
+56:31 could type this into Google, this exact
+56:33 keyword here, and we can get Claude to
+56:36 reference any blog post that actually
+56:38 exists on this, and research what
+56:41 they're doing well and incorporate that
+56:43 into our blog post. So, we could say,
+56:45 "Please research the top three best blog
+56:48 posts for that keyword and pull in the
+56:51 average page length,
+56:55 other keywords,
+56:57 etc." Okay? And so, we can send this off
+57:00 and return back when it's done. Cool.
+57:02 So, we are all set. We have written the
+57:04 blog. And I notice I said etc there at
+57:07 the end. So, I just wanted to clarify.
+57:08 You can grab averages of like words and
+57:11 header twos and images and anything
+57:14 they're doing on their page. Just get
+57:16 the average of it because whatever
+57:17 they're doing is working. That's why
+57:19 they're in the top three rankings. So,
+57:21 we want to copy what's already working
+57:23 instead of reinventing the wheel. So,
+57:25 here we go. Here's our blog post. TLDDR
+57:27 10 venue venues couples actually book in
+57:30 2026 with capacity. What's the cheapest
+57:33 weekend slots really cost? And the one
+57:35 thing each place gets wrong. Also, dad
+57:38 jokes. My 14-year-old would be
+57:39 mortified. Anyways, switching to serious
+57:41 face. Let's get into it. Okay. Way more
+57:44 enjoyable to read. And the huge pull
+57:47 here is that reading blog post is
+57:50 boring. Nobody likes reading blog posts
+57:52 in general. They're going there because
+57:53 they have a problem, they need the
+57:55 answer, and they're bouncing. But if you
+57:56 can make it more enjoyable, people will
+57:57 last longer. They'll read more of the
+57:59 blog post. And if they read more of the
+58:01 blog post, then you'll send the right
+58:02 signals to Google. Okay? Like the person
+58:06 went further down the page depth and
+58:08 they um and they uh didn't bounce off as
+58:12 much and they were more engaged and all
+58:14 this kind of stuff will signal back to
+58:16 Google and Google be like, "Okay, people
+58:18 are resonating with this blog post.
+58:19 Let's increase the ranking or the or the
+58:22 placement on Google." and that will have
+58:25 your blog post soar through the
+58:26 rankings. Okay, you want to send the
+58:28 right signals to Google. The best way to
+58:32 do that is through high quality content.
+58:34 Content is king. Most people that write
+58:37 AI content completely miss this and then
+58:40 they wonder why their blog posts never
+58:42 rank. There's a million and one
+58:43 indicators on Google that you can
+58:45 search, you know, to try and score
+58:47 higher, but at the end of the day, it's
+58:49 like if your content's crap, people are
+58:51 are just not going to read it. And no
+58:52 matter what you do for optimization, it
+58:54 doesn't matter because nobody wants to
+58:56 read the stuff you're putting out. Make
+58:58 sure your blog posts are actually
+59:00 enjoyable to read. And the best way to
+59:02 do that, in my opinion, by far is humor.
+59:04 You have to be funny in my opinion, uh,
+59:07 at least from, you know, and I guess you
+59:10 don't have to be, but I think that's the
+59:11 easiest way for your blog post to land
+59:16 well with people is if it's funny and
+59:18 it's enjoyable to read. So, I would
+59:20 focus on that. more than anything else.
+59:23 Okay, the last thing we're going to do
+59:25 in this blog post is we are going to
+59:27 optimize it and we're going to do both
+59:29 onpage and technical SEO allin one.
+59:33 These used to be full-time jobs like
+59:35 literally um for some of these companies
+59:37 like Homestars, for example, they
+59:39 probably have entire teams of people
+59:41 doing SEO, okay? And you're competing
+59:43 against these people. They have teams
+59:44 doing on-page SEO. They have teams doing
+59:47 off-page SEO, doing all the things to
+59:50 make sure that their website ranks well
+59:52 on Google. And the reality is is that it
+59:55 would be just too much for a single
+59:57 business owner to do or a small team of
+59:59 people to do it. This is all the stuff
+60:01 that goes into onpage SEO. It's just way
+60:03 too much stuff. I mean, most people
+60:04 would give up before they started. With
+60:06 Claude Code, it can do all of the stuff
+60:08 in like two seconds automatically. All
+60:11 we have to do is just copy this entire
+60:14 um checklist,
+60:15 go back into Claude Code and say,
+60:18 "Please optimize that blog post for
+60:22 onpage SEO following this checklist."
+60:26 Okay, we're going to paste it all in.
+60:28 And then on top of that, we also need to
+60:30 do technical SEO. Now, technical SEO is
+60:33 mostly like core web vitals and page
+60:35 load speed. And if that's just gibberish
+60:38 to you, you really don't need to know
+60:39 that much about it. The only thing you
+60:41 need to know is what I'm going to show
+60:42 you because this is going to bypass 20
+60:44 hours worth of work potentially per
+60:46 page. So, we're going to hit this the
+60:48 three dots here, more tools, developer
+60:51 tools, and then we are going to head
+60:53 over to Lighthouse. If you don't see
+60:54 this, you hit the the two arrows here
+60:56 and you go to wherever it says
+60:58 Lighthouse and you analyze the page. You
+61:00 want to make sure you're analyzing it on
+61:01 a mobile device and not a desktop.
+61:04 What's going to happen is Google, this
+61:05 is a free Google product, it's going to
+61:07 analyze your page. It's going to give
+61:09 you a score. Okay, we have performance
+61:11 77, accessibility um is pretty good and
+61:14 everything else is 100 out of 100. This
+61:16 performance means that pe your page is
+61:19 slow and Google's not going to rank you
+61:21 as high as you could if you just fix
+61:23 this. So, in the good old days, you'd
+61:25 have to know things like what missing
+61:27 source maps for large party JavaScript
+61:29 means or things like background and
+61:31 foreground colors or not having enough
+61:35 contrast or page prevention, reduced
+61:38 unused JavaScript, all this stuff,
+61:39 right? It's it's just a it's just a lot
+61:41 to kind of understand. You don't need to
+61:43 understand any of this because all you
+61:45 have to do is open up all these tabs,
+61:47 okay? go to the bottom and then you're
+61:50 going to copy this whole thing
+61:54 and then you're going to paste it into
+61:56 claude and say please correct the
+61:59 technical SEO2. Cool. So, we're back.
+62:02 Let's take a look at the results. Before
+62:04 we had 77 out of 100 and then 96 on
+62:07 accessibility. And now we can try it
+62:10 again with the new page by hitting the
+62:11 three dots. More tools and we have
+62:14 developer tools down here. Again, you'll
+62:15 hit three the two dots over here. find
+62:17 Lighthouse and then analyze the page
+62:19 load speed and make sure as well this is
+62:22 on mobile otherwise you're not really
+62:24 comparing apples to apples right if you
+62:26 have one on uh mobile and another on
+62:29 desktop and now we have a performance
+62:31 score of 82 before it was 77 so it's
+62:34 gone up now you're going to have to
+62:35 iterate a couple times on this to get it
+62:37 as close to 100 or 100 um and that's
+62:41 going to take maybe five or 10 minutes
+62:43 to do but just keep in mind that before
+62:45 people like Homestar used to hire entire
+62:48 full-time teams to do what we're doing
+62:51 in a fraction of the time. It's not even
+62:53 funny. And then for the onpage SEO
+62:55 stuff, if we come back here, there's
+62:57 just a lot of stuff that uh is going on
+62:59 here. So, we're not going to have time
+63:00 to go through everything, but let's take
+63:02 external links and internal links as an
+63:04 example. These are links, internals to
+63:07 your page, externals to third-party
+63:10 pages. So, I'm just going to refresh
+63:12 here. And I don't know, Casaloma. we can
+63:15 see that it's grabbed the link for their
+63:17 URL and now we're directing over there.
+63:20 Okay. And then we also have view on
+63:22 Google Maps and all this kind of stuff.
+63:25 So that's really cool as well. Um and
+63:28 then yeah, we probably have internal
+63:29 pages for our website as well. And so
+63:33 one more time, it's pro like the
+63:35 internal or the onpage SEO is probably
+63:37 not going to be perfect out of the box.
+63:39 You may have to go back and forth, make
+63:41 sure everything's working the way you
+63:42 want to, but it should be able to get
+63:44 pretty much most of it out of the box.
+63:47 Okay, so that is how we do technical and
+63:49 on-page SEO. We took full-time jobs,
+63:52 teams worth of full-time jobs, and we
+63:54 made it like a 5 to 10 minute process.
+63:56 All right, moving on to the next thing.
+63:57 We got skills up top here, which is
+63:59 tying everything together. It's great
+64:01 that we created a blog post. It's great
+64:03 we created a landing page. It's great
+64:04 that we created a Google business
+64:05 profile post and whatever, right? But if
+64:08 you want to create four blog posts a
+64:09 day, if you want to create whatever, you
+64:11 don't want to have to go through that
+64:12 whole process every single time. So we
+64:14 can call create something called a skill
+64:16 where we just type one word and it
+64:18 creates the whole blog post for us. It
+64:20 creates the whole landing page for us.
+64:21 It creates the whole Google My Business
+64:23 profile post for us and then posts it
+64:25 online. So what we can do in Claude is
+64:27 we can say something like this call
+64:29 create please create a skill called
+64:32 slashblog. Okay, that's literally what
+64:34 it's going to be. um that or blog post
+64:37 or whatever that generates a blog post
+64:40 that's both onpage optimized and
+64:43 technical optimi technically optimized
+64:45 like we just covered. Okay, it'll grab
+64:47 one keyword from our blog keyword right
+64:50 over here. Okay, it'll grab something
+64:51 that we haven't done yet. And then it
+64:53 will be able to research the top three
+64:56 pages on Google and take out the average
+64:58 results like word count, H2s, images,
+65:00 all that kind of stuff. And then it will
+65:02 log the blog post created blog post
+65:04 created so that we don't duplicate the
+65:06 same keyword because obviously you don't
+65:08 want to create five blog posts for the
+65:09 same thing. And so it will take
+65:11 everything we just did and then it will
+65:13 bottle it up um in one reusable template
+65:16 that we can call over and over and over.
+65:19 Cool. So we are all set here. And in
+65:21 order for this to take effect we need to
+65:23 create or open up a new chat and then we
+65:25 can just type in blogpost.
+65:28 And ideally, you just type in a keyword
+65:30 like how to choose a wedding venue,
+65:33 okay,
+65:35 Toronto, and it would literally go ahead
+65:37 and build out that whole page
+65:39 considering onpage SEO optimization,
+65:42 technical optimization, and everything
+65:44 else we've covered automatically without
+65:46 you doing anything else. And then you
+65:48 can go ahead and you can duplicate this
+65:51 by creating a skill for landing pages
+65:53 and then Google business posts and all
+65:56 of that kind of stuff so that you don't
+65:58 have to start from the ground up every
+65:59 single time. Now the last thing that we
+66:01 have to do in this video is deploy the
+66:03 site live because right now this is on a
+66:04 local host which means that technically
+66:06 nobody else in the internet can access
+66:08 it. Locost just means that um that
+66:11 Claude has taken all these files and
+66:14 it's rendering these files in your
+66:15 browser. Okay, so it's just computer
+66:17 files making up this website page, but
+66:20 what right now we need it to be
+66:21 published so anyone can view it. And
+66:23 that's a three-part process. We we push
+66:25 the code from cloud code to GitHub and
+66:27 GitHub disversal. Both of these are
+66:29 free. Um GitHub is the first step. It's
+66:32 like Google Drive, but for code, you
+66:34 just publish your code online. So you we
+66:36 can create a free um a free profile by
+66:40 going to GitHub and and creating an
+66:41 account. And then inside the top right
+66:43 corner, we'll go to repositories and we
+66:45 will create a new one. This is going to
+66:47 be called whatever it is you want. Uh
+66:49 local. And just make sure this is set to
+66:52 private. Create the repository and copy
+66:54 the code that you see right over here.
+66:57 And then inside of cloud, just say
+66:59 please push um this whole project to
+67:05 GitHub. Okay? And it will take all the
+67:08 code here and then paste it right over
+67:11 here. Now, I've already done this. Okay,
+67:13 you can see my local SEO um repository
+67:17 here. And once we have this, then we can
+67:20 head over to Versell and create an
+67:22 account there and deploy the site live.
+67:24 This is free as well. We'll click add
+67:27 new project. Okay, we need to connect
+67:29 GitHub to Verscell. It's going to prompt
+67:32 you to do that. And then once that's
+67:34 done, we can import in our project.
+67:37 Okay, the only thing we need to do is
+67:39 make sure the application preset is set
+67:41 to Nex.js. This is the framework or the
+67:43 technology we're using to build this
+67:45 application. We'll click deploy and in
+67:47 60 seconds the site will be live. All
+67:49 right, so the site is live. Took about
+67:51 30 seconds. We can continue to the
+67:52 dashboard and click this link to view
+67:55 our website live. So this is now
+67:58 accessible for anyone on the world to
+68:00 view. And if you don't like the domain
+68:03 local-seer.ver.app,
+68:07 app because it's not that sexy and it's
+68:09 not something that would be easy to uh
+68:11 it's it's not a domain you'd want to use
+68:13 for an actual business. We can head back
+68:15 into the dashboard. Go over to um
+68:18 domains down here and you can either buy
+68:20 something through Verscell or you can
+68:22 buy a domain at a place like NameCheep
+68:25 as well and then hook it up to Verscell
+68:27 through the domain tab right over here.
+68:29 So that's it for this video guys. Thank
+68:31 you so much for watching. I hope you
+68:32 found value in it. If you did, make sure
+68:34 to hit that subscribe button and that
+68:35 like button down below. All of the free
+68:38 blueprints for this video and all the
+68:40 other videos I release on YouTube are
+68:42 going to be in my free school community
+68:44 for you to go ahead and download in the
+68:46 classroom section. You can go to the
+68:47 free YouTube blueprints and there's so
+68:49 many in here. If you want to automate
+68:51 your life or your business, this is a
+68:53 great place to start. I have a paid
+68:55 community as well there where there are
+68:56 two transformations. The first is for
+68:59 those of you who are looking to become a
+69:01 freelancer or create your own a
+69:02 automation business. I'll show you how
+69:04 you can find, close, and fulfill your
+69:05 first deal within 30 days or less.
+69:08 Literally, hundreds of people have made
+69:09 it work in this community. And a lot of
+69:11 those people had no freelancing or
+69:13 business background whatsoever. And the
+69:15 second transformation is how you can use
+69:17 tools like Cloud Code and others to
+69:19 automate up to 80% of your business. You
+69:22 can copy and literally deploy the exact
+69:25 blueprints that allowed me to scale to
+69:27 seven figures and automate pretty much
+69:28 everything I was doing manually. And of
+69:31 course, as you're going through this
+69:32 journey, whichever path you're on,
+69:34 whether you're trying to build your own
+69:36 business or automate it, you're always
+69:38 going to run into problems along the
+69:39 way, you can always jump on to one of
+69:41 the seven calls that we have every
+69:42 single week, and we can talk face to
+69:44 face and help you get unstuck from
+69:47 whatever problem you're you're currently
+69:49 experiencing. Chances are I've
+69:51 experienced it as well because I've
+69:52 created two seven figureure businesses
+69:53 in my life. And lastly, if you don't
+69:56 want to automate things yourself and you
+69:58 have a business, you can take a look at
+69:59 my agency where we help automate your
+70:02 work for you. The first step is just
+70:04 jumping on a f a free 30-inute call and
+70:06 we'll show you exactly how you can use
+70:08 AI to increase your profitability.
+70:10 Whether you work with us or not, we'll
+70:11 still show you uh the road map required
+70:14 for your business. And if we can't show
+70:16 you that, we'll pay you $200 for showing
+70:17 up. So, thanks guys for watching and
+70:19 I'll see you in the next

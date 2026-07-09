@@ -1,0 +1,634 @@
+00:00 If you've been using coding agents like
+00:01 Claude Code, Codex, Concursa, and you've
+00:03 heard people talking about writing loops
+00:06 instead of prompts, but you're unsure
+00:07 where to begin, confused, and don't even
+00:09 really know what a loop is, well, I'm
+00:11 going to break down in this video
+00:12 exactly what a loop is, how you can get
+00:15 started writing loops instead of
+00:16 prompts, and how you can turn those
+00:18 loops into reusable skills. And this is
+00:20 going to be especially important with
+00:22 the next generation of AI models like
+00:24 Claude Fable 5 and GPT 5.6. So, in this
+00:28 video, we're going to break down exactly
+00:30 what are loops, how to actually write
+00:32 loops, and then how to systematize those
+00:34 loops so that you can reuse them again
+00:37 and again. If you don't know me, my name
+00:38 is Chris, and for the last 15 years,
+00:39 I've been designing apps and advising
+00:41 startups on product and design, and I've
+00:42 helped hundreds of people build real
+00:44 products and real projects using AI and
+00:47 get real customers over in my community.
+00:49 And with that said, let's break down
+00:50 exactly what loops are and how you can
+00:52 start using. So, let's break down
+00:53 exactly what a loop is, why you should
+00:56 use them, and how you actually write
+00:57 them as well. Now, people predominantly
+01:00 talk about using loops instead of
+01:02 writing prompts when they're talking
+01:03 about coding projects and software
+01:05 engineering, things like building
+01:07 websites and writing and apps using AI
+01:09 coding agents like Claude Code, Codex,
+01:11 Concursa. But the actual fact is, you
+01:13 can use loops when you're using any sort
+01:16 of AI agent. So, if you're using Claude
+01:18 Code or Claude Co-work, or you're using
+01:21 a tool like Codex for knowledge work,
+01:23 things like creating marketing assets,
+01:25 doing research, helping with business
+01:26 strategy, analyzing data or analytics
+01:29 for your product or for ads, or even
+01:31 design work and creating creative
+01:33 assets, you can still use loops here.
+01:35 And it's really important to understand
+01:37 what a loop is and how it works so that
+01:39 you can identify exactly when you should
+01:41 be writing a loop and exactly when you
+01:42 should be writing a prompt instead. So,
+01:45 in order to demonstrate what a loop is,
+01:47 I want to first start right at the
+01:49 beginning. By the end of this, you're
+01:51 going to have a full understanding of
+01:52 what a loop is, and even a more advanced
+01:55 version of loop writing, and a way of
+01:57 turning a loop into a repeatable process
+02:00 that you can use regardless of if you're
+02:02 doing knowledge work, creating design,
+02:04 creating marketing assets, doing
+02:05 research, or building a project like an
+02:08 app or a website. So, let's first have a
+02:10 look at what the first version of AI
+02:14 actually did. So, this is a large
+02:16 language model like Lord Ocus or Claude
+02:18 Sonnet, and the large language model
+02:21 interaction is basically where we ask
+02:23 the LLM a question. So, we are the user
+02:26 here with this icon. This is the human
+02:29 interacting with whatever we have on the
+02:31 right-hand side, and we're going to use
+02:32 this pattern as I go through and
+02:34 demonstrate what a loop is and how to
+02:36 use loops. But, the first version of AI
+02:39 was basically a human asking a question
+02:42 or prompting an LLM, and then getting an
+02:44 answer to that question back. Now, we
+02:46 mostly don't see this interaction
+02:48 anymore. Even if you're using something
+02:50 like ChatGPT or Claude, most of the time
+02:52 these tools are actually working as
+02:54 agents and doing a lot of other tools
+02:56 and reasoning and thinking in the
+02:57 background as well. It's not just a
+02:59 single like user make question and you
+03:01 get a response back. We've kind of moved
+03:03 on from this model. This was kind of
+03:04 happening 2 years ago when we first kind
+03:07 of saw the first versions of of GPT and
+03:09 Claude that were actually mainstream.
+03:11 And the way of getting a good result
+03:13 from this system was basically prompt
+03:15 engineering because if you engineer into
+03:17 a better prompt, you would get a better
+03:18 result as an output. Basically, the
+03:20 quality of the prompt that you put into
+03:22 the LLM determines the quality of the
+03:24 output you would get back. And it was a
+03:26 call and response. So, you would submit
+03:27 a question, get an answer back, and that
+03:29 was kind of the end of the interaction,
+03:31 and you'd keep doing that throughout the
+03:32 conversation. The next phase of AI is
+03:35 really the AI agent. So, the agent is
+03:37 basically a reasoning loop, a thinking
+03:40 loop on top of the LLM layers. So, as we
+03:43 had before, we had a human basically
+03:45 sending something to our AI entity,
+03:48 which in this case is an agent, and then
+03:50 the agent is using the
+03:52 basically to do a loop of asking
+03:55 basically getting a response back,
+03:57 reasoning about whether or not it was
+03:58 the correct response or not, doing
+04:00 another action like browsing the web,
+04:01 getting the results from that back,
+04:03 combining the two together. And this is
+04:05 primarily the interaction that we see
+04:07 today with most of the AI chat tools you
+04:09 can use. This is primarily the
+04:11 interaction of things like Claude. This
+04:12 is the interaction with ChatGPT. And
+04:14 this is the interaction with Claude Code
+04:16 and Code Work basically that you're
+04:17 having. Although it's getting
+04:18 increasingly more complex. And I'm not
+04:20 going to involve things like sub-agents
+04:22 or any other complex stuff here. I just
+04:24 want to indicate where we've gone from
+04:26 basically an LLM to an agent to then
+04:29 writing loops with agents. And the
+04:32 primary way of getting a better result
+04:33 from the agent in this model here is
+04:36 called context engineering. Because the
+04:38 better information that we provide the
+04:40 agent, the more knowledge it has about
+04:43 us, the better it can understand the
+04:45 questions that we're asking. So if we
+04:47 say, "How can my business make a million
+04:49 dollars?" If it knows the type of
+04:51 business that we run, how many customers
+04:52 we have, where our customers are based,
+04:55 what products and services we offer to
+04:56 those customers, how successful those
+04:58 are, and any data about our business as
+05:00 well, that agent is going to combine
+05:02 that with our question to provide us
+05:04 with a better outcome. And it's also
+05:06 going to take a task that we've given
+05:08 it, and it's going to it's going to go
+05:10 back and forth with the LLM and with any
+05:12 tools and tools are a part of this as
+05:14 well. So we can basically put in tools
+05:16 here like Google Docs as well. The agent
+05:18 will interact with all of these things
+05:20 including skills here potentially as
+05:22 well, in order to get us a good result.
+05:25 And this is the majority of our
+05:27 interactions today with AI tools is
+05:29 through and this kind of agent system.
+05:31 So the next step on from this is writing
+05:34 loops. And the best way to think about
+05:36 this, where we have the human on the
+05:37 left and the agent on the right hand
+05:39 side, is that the agent is now going in
+05:41 a loop until it is complete. And so here
+05:44 is the way that a loop works. And an
+05:47 example of of how a loop would work as
+05:49 well. So, what we have here is we have
+05:52 on the left-hand side, we have us, and
+05:54 we put in instead of putting in a task
+05:56 the agent to complete, which is what we
+05:58 would do in the agent model, we would
+06:00 give the agent a task, it would use all
+06:02 of the knowledge and the connectors and
+06:03 the tools that it has access to, and it
+06:05 would give us back a result of that task
+06:07 when it had finished the task. What
+06:09 we're instead giving the agent, giving
+06:11 them loop with our agent, is an
+06:14 objective. And then we're getting an
+06:15 outcome back. And so, we're thinking at
+06:17 a higher level of abstraction here. We
+06:19 put in an objective as a loop for our
+06:22 agent, and then the agent basically
+06:24 operates in these steps around the loop.
+06:27 And so, an example of this would be what
+06:29 if I want to improve the amount of
+06:31 traffic I'm getting to my website
+06:33 through SEO? Instead of saying, "Can you
+06:36 build me five pages that are optimized
+06:38 for these keywords on my website?" and
+06:40 giving that task to an AI agent, and
+06:42 then getting it to complete building
+06:44 those pages, and then publish those
+06:46 pages on our website. Better way of
+06:47 working with loops is to give an
+06:49 objective instead of the actual task
+06:51 that we want it to complete. So, an
+06:52 example of an objective might be that we
+06:54 want the agent to work in a loop to fix
+06:57 all of the bugs that we have inside of
+06:59 our application, and then only come back
+07:01 to us once it has tested the full
+07:03 application and verified that there are
+07:05 no serious bugs or security issues left.
+07:08 And then, after the agent has completed
+07:10 that task, the agent will come back to
+07:11 us with an outcome and a report of what
+07:14 it has done and the result of that loop
+07:16 that we have given it, that objective
+07:17 that we have given it. And this is
+07:19 loosely called loop engineering. I don't
+07:21 know if that's a specific term, but I'm
+07:23 calling it loop engineering. Basically,
+07:24 how do we engineer a loop? And so, a
+07:27 good example of this here in our loop
+07:29 that we're writing is we say something
+07:31 like, "Keep working through these steps
+07:33 until you achieve this goal. First,
+07:36 create a plan, then build the plan, then
+07:38 write and run tests for the output,
+07:40 verify and find anything you need to
+07:42 fix, and then once you found stuff you
+07:43 need to fix, you then create a plan, you
+07:45 then build the plan, i.e., fix the
+07:47 issues, you then write and run tests for
+07:49 the output that we've created, you then
+07:50 verify and find anything else that we
+07:52 need to fix, and then we go back into it
+07:54 again until we have basically satisfied
+07:56 the conditions of build this entire
+07:59 feature or test the entire app for bugs,
+08:02 basically. Now, it's an
+08:03 oversimplification of the loop to say
+08:05 that we can just prompt it go and fix
+08:07 all of the bugs for our software because
+08:09 realistically, there's always going to
+08:11 be some sort of bugs somewhere in any
+08:12 sort of software that we build. But you
+08:14 can take this of this idea of running a
+08:17 loop for any objectives that you might
+08:19 have, not necessarily related to coding
+08:21 work or building apps or websites, but
+08:23 also to knowledge work, things like SEO,
+08:26 ad optimization, conversion rate
+08:27 optimization, and any of those sorts of
+08:29 things where we have some data to
+08:31 connect to as well. And so now we
+08:32 understand the concept of a loop where
+08:34 we basically instead of asking the agent
+08:36 to do one thing or getting the agent to
+08:38 write a plan and then doing that plan,
+08:40 we basically ask the agent to go through
+08:42 a series of steps and to keep going
+08:44 through those steps until it verifies
+08:46 that it achieves a certain condition.
+08:48 How do we actually write good loops? And
+08:50 what features can we use to actually
+08:52 execute these loops with our coding
+08:54 agents and with our agents in tools like
+08:56 Claw Code, Cursive, and Codex? Quick
+08:58 break to talk about this video's
+08:59 sponsor, Mem Zero. And if you're
+09:01 building agents or you're building
+09:03 agent-based products with AI and you
+09:05 want to give it some sort of memory
+09:06 layer so that your customer's data and
+09:08 information will always be remembered by
+09:10 your AI agents, then Mem Zero is the
+09:12 tool to use. Not only are they backed by
+09:14 Y Combinator, they also give you a super
+09:16 easy setup path and infrastructure for
+09:18 integrating memory with your AI agents
+09:20 and AI agent products. With over 100,000
+09:23 developers building with Mem Zero to
+09:25 give production-grade agents real memory
+09:27 access so that your agents can learn
+09:30 your customer's preferences and remember
+09:31 them over time in a way that not only
+09:33 scales, but gives your customers a much
+09:36 better experience as well. Now, if you
+09:37 want to get started with Mem Zero, all
+09:39 you have to do is go to their docs and
+09:41 click on the path that is right for you,
+09:43 whether you're adding a memory to your
+09:44 app, adding memory to your agent, or
+09:47 your agent is signing up for Mem Zero
+09:49 itself. This will ensure that you get up
+09:50 and running with Mem Zero in no time at
+09:53 all. And they even give you access to
+09:55 specific cookbooks that allow you to
+09:57 build a Mem Zero based on the most
+09:59 common ways that people are integrating
+10:01 memory with their AI agents and the PI
+10:03 agent products. Personally, I think Mem
+10:05 Zero is a great option if you're adding
+10:07 memory for agents and you want a really
+10:08 easy path to actually set it up, keep it
+10:10 maintainable, and be able to scale it to
+10:12 production and beyond. You can check it
+10:14 out over at memzero.ai. And with that
+10:16 said, let's get straight back to the
+10:17 video. And so, how do you actually run a
+10:19 loop? Well, there is a feature inside of
+10:22 most coding agents, most AI agent tools.
+10:25 The three kind of biggest AI agent tools
+10:27 people are using, Claude Code, Codex,
+10:29 and Cursor. And that is called {forward
+10:31 slash} goal. Now, I'm not actually sure
+10:32 on {forward slash} goal with Cursor at
+10:34 the moment, but it's definitely in
+10:35 Claude Code and Codex. And what goal
+10:37 does is it basically keeps the agent
+10:39 working until the goal condition is
+10:41 satisfied. We just have to be specific
+10:43 about what the goal is. And also,
+10:45 sometimes just prompting the loop or the
+10:47 goal works, too. So, you don't
+10:49 necessarily have to use {forward slash}
+10:50 goal. Sometimes you can just say, "Go do
+10:52 these steps and keep going until you
+10:54 achieve this condition." But using
+10:56 {forward slash} goal explicitly tells
+10:58 the agent to actually just go and do
+11:00 that until the goal is satisfied. And
+11:02 so, how do we actually do this well? So,
+11:03 how do we do loop engineering so that
+11:06 our loops are actually written well and
+11:08 are going to work better? Well, we have
+11:10 to do two things really, really well. We
+11:12 have to make sure that the clarity of
+11:14 the goal condition is really, really
+11:16 clear, it's really, really strong, so
+11:17 that the agent knows exactly what the
+11:20 goal condition is, what the exit
+11:22 condition for that loop is. And we also
+11:24 have to be really specific and have a
+11:26 clear scope for what the loop steps
+11:29 should be as well. If if unclear of
+11:31 this, you can also get AIs help you
+11:34 write a loop to be able to achieve
+11:35 something. But the best way of thinking
+11:37 about it is really start from the goal,
+11:40 i.e. what do you want to achieve, and
+11:41 then specify a loop to achieve it. So
+11:45 these are the kind of two steps you
+11:46 would go through to write a loop for an
+11:48 AI agent like Claude Code, Codex, or
+11:50 Codium. And if you don't exactly know
+11:52 how to specify the loop to achieve the
+11:54 objective, you can also work with your
+11:56 agent to figure out what those steps
+11:58 might be as well. And you think about
+11:59 this as a step-by-step process that an
+12:01 employee or someone might work through
+12:03 if they were doing this task manually
+12:05 themselves. That's basically what the
+12:06 loop is. And the benefit of being able
+12:09 to work in a loop is that previously, a
+12:11 human would have to have input at all of
+12:14 these different steps along the way. The
+12:16 human would have to say build it, the
+12:19 human would have to go and test it, the
+12:20 human would have to verify that there
+12:22 were no bugs, and then the human would
+12:24 have to plan the next thing, and then go
+12:26 and build that, and then go and test it.
+12:28 And you might have experienced this if
+12:29 you built anything with Claude Code or
+12:31 Codex or Codium, where you've built
+12:33 something, there's been a bunch of bugs,
+12:34 you then have to prompt to fix the bugs,
+12:36 then you went back and tested them and
+12:37 there were different bugs, then you had
+12:39 to go and fix those ones, and then you
+12:40 kind of going back and forth in this
+12:42 loop, and all the while the agent is
+12:44 taking maybe 10-15 minutes to do its
+12:46 work, you lose track and go on to
+12:48 something else, and then you actually
+12:49 miss when that agent messages you back.
+12:52 And so it's very inefficient to kind of
+12:53 work in this manner, and that's why
+12:55 we're writing these loops instead of
+12:57 just writing tasks to send to our agent.
+13:00 Now you don't have to write a loop for
+13:01 everything, and actually part of this is
+13:03 knowing when to write a task and when to
+13:05 write a loop for your agent that you're
+13:07 working with. Now I appreciate that this
+13:08 might be an oversimplification of the
+13:10 entire process, but I'm really trying to
+13:12 distill this whole process down in a way
+13:15 that most people can understand and try
+13:16 to make it as simple as possible to
+13:18 understand. I'm not here to break down
+13:21 the most in-depth technical guide for
+13:23 creating loops possible. I would just
+13:24 want to show you the basics of what a
+13:26 loop is, how do I actually create it in
+13:28 a normal kind of explanation here so
+13:30 that you have a good idea of how to
+13:32 start actually writing loops.
+13:34 So, what can you actually do with loops?
+13:36 What are some examples and how can you
+13:37 take loops even further? Oh, there is a
+13:40 next step to loops here as well. What if
+13:43 you have a loop like a design review
+13:45 loop where you want to check everything
+13:47 in a feature that you've built versus
+13:49 your design system and you want to fix
+13:51 any inconsistencies and then you want to
+13:52 go through and check it again and then
+13:54 you want to fix any and more
+13:55 inconsistencies and basically keep
+13:57 checking it until it's fixed everything.
+13:58 So, like a design system review loop,
+14:01 for example. What if there's What if you
+14:03 have something like that where you might
+14:04 want to do it over and over and over
+14:06 again based on every single feature that
+14:08 you're building. Well, this is where
+14:10 skills come in and we can turn a loop
+14:13 into a skill that we can reuse. All we
+14:15 have to do here is we basically have to
+14:17 take the the loop that we have written
+14:19 and write those rules for that loop into
+14:21 a skill that we can then use with our
+14:23 agent to do that in the future by just
+14:26 saying use skill. So, example for
+14:28 example, we would say use the design
+14:30 review loop skill and that would then
+14:32 execute the loop which goes through
+14:34 these steps. Maybe it's not plan, build,
+14:37 test, verify here, but you identify the
+14:39 steps that you want to run in your loop
+14:40 and then we basically create this as a
+14:42 skill.md, a skill file that we can reuse
+14:46 with our AI agent over and over again.
+14:48 This is an easy way of turning a loop
+14:50 into a repeatable process that you can
+14:51 do for these repeated tasks and also if
+14:54 you want to go step even further than
+14:56 this as well, you can do I've called
+14:58 these elite loops here, but basically
+15:01 you can take loops even further where
+15:03 you then connect your loop to external
+15:06 tools, external plugins, skills,
+15:09 connectors, MCPs as well. So, not only
+15:12 are you running a loop with your agent,
+15:14 you're running a loop using specific and
+15:17 explicit tools that you're outlining in
+15:19 the loop skill that you have created.
+15:22 So, say for an example, you wanted to
+15:24 create a loop that every day it improved
+15:29 the amount of traffic coming through SEO
+15:31 to your website through creating new
+15:34 blog pages. Basically, you might want to
+15:36 a connect to there that connects this to
+15:38 Ahrefs from an SEO point of view to see
+15:41 what keywords are you ranking for, what
+15:42 keywords should it be building for, how
+15:44 much opportunity is there per different
+15:46 keyword, or anything else related to SEO
+15:49 so that your agent has access to that
+15:51 data when it is running this loop or
+15:53 running this skill loop. Or you might
+15:55 want to connect it to a thing like post
+15:56 things like Posthog for analytics, other
+15:58 tools for customer feedback, Google Docs
+16:00 for business information. The amount of
+16:02 tools that you connect to can connect
+16:04 these loops to is kind of endless. And
+16:06 so, there is a huge opportunity for
+16:08 creating tons and tons of these loops
+16:10 within your business, for your product,
+16:13 for your app that you're building, for
+16:14 your website to do all sorts of
+16:16 different things. There's a huge amount
+16:18 of potential here to be able to actually
+16:20 achieve these incredible outcomes
+16:22 through writing very high-quality loops
+16:24 for your AI agent tools. And so, before
+16:27 I finish up, I want to go through some
+16:28 examples of loops as well just to give
+16:30 you an idea of how a loop actually
+16:33 works. So, I have these loops from a
+16:35 couple of people um just through X that
+16:38 I've kind of found. Basically, a
+16:39 promise-to-proof
+16:41 loop, which is a loop of it listing
+16:43 every customer-facing promise. So,
+16:45 reading through marketing docs, demos,
+16:48 and even what your AI tells users, label
+16:51 each proven or misleading or unsupported
+16:54 promise against actual behavior, fix the
+16:56 riskiest mismatch, and repeat until no
+16:59 high-risk unsupported promise remains.
+17:01 Great for founder audience shipping
+17:03 fast. So, if you're promising a lot of
+17:05 stuff with your software, and you want
+17:07 to just make sure that you got
+17:08 everything aligned, and you want to fix
+17:09 the messaging across anywhere where
+17:11 you're saying that you want to promise
+17:12 something that you're not actually
+17:13 delivering, this is a good one to do
+17:15 that. Or a recent feedback speed one
+17:18 from Matthew Berman. Basically, where
+17:19 you take customer feedback. So, it says
+17:21 gather every thread where you reported a
+17:24 bug, de-dupe into failure patterns,
+17:26 audit the whole project for each
+17:27 pattern, fix confirmed instances, add
+17:30 regression coverage, and repeat until
+17:31 the audit finds nothing. Now, this is a
+17:33 little bit of technical language, but
+17:35 basically, what that means is take any
+17:37 bug that's been reported, identify what
+17:39 the failure pattern was, and audit the
+17:41 whole project for all of those failure
+17:43 patterns, and then fix any where that
+17:45 those patterns actually occur in your
+17:47 code, and then keep repeating that task
+17:49 until the audit doesn't find any more
+17:51 issues. So, basically, a kind of
+17:53 security bug fixing loop within a code
+17:56 project. And I also want to show you one
+17:58 of the loops I've built inside of
+17:59 Builder OS as well, called the build MVP
+18:02 loop. And this is a loop that basically
+18:04 builds a full application from scratch
+18:07 by basically following a set of spec
+18:09 documents and building one task at a
+18:11 time and testing each task as it goes to
+18:14 verify that it works before moving on to
+18:16 the next tasks, and doing that until
+18:18 every single task in task list is
+18:20 completed. And so, let me jump into Clow
+18:22 code and I can show you what that looks
+18:24 like. So, this is the build MVP loop
+18:26 that I have inside of Builder OS here,
+18:28 and you can basically see that this
+18:30 skill has the work loop called out
+18:32 explicitly here, but it also has a
+18:34 couple of other things inside the skill
+18:36 as well. And this is the benefit of
+18:37 using skills for loops is that you can
+18:39 also determine things like rules, and
+18:41 also what you want the AI to do when it
+18:43 finishes going through that loop as
+18:45 well. So, it can get to the end and it
+18:47 can do a couple of extra actions for you
+18:49 at the end if there's anything else that
+18:50 you want to add on the end. And the way
+18:52 that this build MVP loop works inside of
+18:54 Builder OS is basically that it takes a
+18:56 set of documents that you've already
+18:58 generated, it finds the first unchecked
+19:00 task in a road map, it then re-sorts the
+19:03 task needs, it implements the task
+19:05 exactly as specified, and then tests and
+19:07 verifies that task before moving on to
+19:09 the next one, and then marks the task as
+19:12 complete, and then once it gets to the
+19:14 end of a phase of tasks, it runs the app
+19:17 end-to-end, and it confirms whether the
+19:19 test is complete and whether the and
+19:21 whether the goal is true for that entire
+19:23 phase. And this skill is the reason why
+19:26 you can build entire applications,
+19:28 entire products with Builder OS with
+19:30 just one prompt to using this skill. You
+19:32 basically create the documents that you
+19:34 need, and then you say, "Build the app
+19:36 using the Build MVP skill." And it
+19:38 builds the whole app from start to
+19:41 finish. That is really the power of
+19:43 building with loops, of using loops
+19:45 inside of your projects. And so, start
+19:47 thinking about what objectives you
+19:49 actually want to achieve, what goals do
+19:50 you have for your business, for your
+19:52 projects, for your apps and your
+19:53 websites, and how do you turn those
+19:55 goals into a loop that an AI agent can
+19:59 continue to execute on until it reaches
+20:02 a specific goal condition that
+20:04 designates to this complete and it's got
+20:06 you the outcome that you wanted. And
+20:08 that's everything that you need to know
+20:09 in order to get started with loops. So,
+20:12 that was my breakdown of how to write
+20:14 loops instead of writing prompts for AI
+20:17 agents like Flow Code, Code X, and
+20:18 Cursor. Now, I am not coming at this
+20:20 from the point of view of a developer,
+20:22 I'm coming at this from the point of
+20:23 view of a non-technical person and
+20:25 trying to put together and guide as best
+20:27 as possible for non-technical people and
+20:30 people just getting started with loops
+20:31 to understand the concept of what a loop
+20:33 is, how to actually write a loop, and
+20:36 then how to turn that loop into a
+20:37 repeatable skill that you can use with
+20:39 your agent again and again, and
+20:41 basically remove yourself as the blocker
+20:44 for your agent actually being able to
+20:46 complete the work and achieve the
+20:48 outcome that you want the agent to help
+20:50 you achieve. I'd love to know your
+20:52 thoughts on writing loops, but as I am
+20:53 really just getting started with this
+20:55 myself as well. So, if you have any
+20:56 thoughts or you've been using any loops,
+20:58 I'd love to hear more about them in the
+20:59 comments down below. And if you are
+21:01 building an app with AI or you're
+21:03 building any sort of product with AI,
+21:05 then I've got a community of young
+21:06 people do that over at score.com for
+21:07 such AI apps where I've helped hundreds
+21:09 of people build and launch real projects
+21:11 and get real paying customers. So, you
+21:13 can find out more and you can also learn
+21:15 how to use builder OS by clicking the
+21:17 link in the description down below.
+21:19 Thank you for watching and I'll see you
+21:20 next time.
