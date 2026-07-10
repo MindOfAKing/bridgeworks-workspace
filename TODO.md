@@ -1,146 +1,54 @@
 # BridgeWorks To-Do List
-*Last updated: 2026-04-29*
 
-## Completed
+*Last updated: 2026-07-10*
 
-### CEE FM Site Fixes
-- [x] Fix stats counter bug
-- [x] Fix schema data (ratingCount 50, removed Romania/Slovakia)
-- [x] Fix llms.txt (50+ projects, Hungary only)
-- [ ] Add visible phone number with click-to-call — ON HOLD (owners prefer no personal line)
+## Active — Oliviks Foundation (contract signed 2026-04-29, 272,611 HUF fixed fee)
 
-### BridgeWorks Launch Content
-- [x] Blog: GEO explainer
-- [x] Blog: SEO vs GEO comparison
-- [x] Blog: CEE FM case study (real audit data)
-- [x] Build /geo-audit lead magnet page on bridgeworks.agency
-- [x] Update homepage FreeAudit CTA to link to /geo-audit
-- [x] Fix false "competitor comparison" claim across all audit references
-- [x] Add competitive analysis upsell hook on /geo-audit page
+Deposit 136,306 HUF paid June 2026. Balance 136,305 HUF due on handover. Full gate detail: `clients/oliviks/delivery/FOUNDATION-DELIVERY-MATRIX-2026-07-09.md`.
 
-### CEE FM Apr Delivery (Weeks 1-4 of 16)
-- [x] Brand visual design package — cancelled by client (Apr 12, EUR 625 declined)
-- [x] Solar add-on pitch — declined by Victor (Apr 16, EUR 550, do not re-pitch)
-- [x] April content calendar published: 12/12 posts (Apr 1-24)
-- [x] Brand visual ad-samples produced (4 ads + 4 final HU/EN videos + VO audio)
-- [x] AI visibility (GEO score) progression: 16 (Mar baseline) → 29 (Apr 3 audit) → 47 (Apr 22 audit) → 61 (Apr 30 audit, post-Wk5 fixes). Source: clients/ceefm/reports/GEO-AUDIT-REPORT-2026-04-30.md. Replaces prior "82/100" marketing-post claim which was not audit-backed.
-- [x] Week 1 diagnosis, Week 2 system layer, Week 3 content arch, Week 4 handover docs
+- [x] Shop catalog: 33/33 dishes deep-linked, WooCommerce API cleanup done — shipped 2026-07-09
+- [x] Supabase CMS wired end-to-end, admin PATCH verified — 2026-07-09
+- [x] GBP manual pass: award post, Foodora-vs-Wolt correction, Lili review reply — done 2026-07-10
+- [ ] Shop SSL fix (AutoSSL via Namecheap cPanel — Hosting List → cPanel, not the WP shortcut) — top remaining blocker
+- [ ] Confirm `oliviks.com` points at the new Vercel site (domain cutover gate)
+- [ ] Email/WhatsApp infrastructure: provider account (client-owned), WhatsApp Business number, first-subscriber incentive — all copy drafted, none operational
+- [ ] 3 one-page handover docs: Website, GBP, Email/WhatsApp
+- [ ] Markup pass from Aese on the 9 new shop products
+- [ ] Request final 136,305 HUF payment once handover gates close
 
-### Launch Prep (drafted; launch postponed from Apr 18)
-- [x] LinkedIn countdown sequence drafted (16 posts in personal-brand-workspace)
-- [x] The Bridge Issue 002 newsletter drafted
-- [x] Sunday auto-refresh routine scheduled (trig_01HPBodf1RzMLpyWsmQXisze, runs Sun 18:00 Budapest)
+## Active — BridgeWorks backend (systems, still open)
 
----
-
-## This Week (Mon Apr 27 - Sun May 3) — Week 5/16 of CEE FM, Backend Build Week 2
-
-### BridgeWorks backend (the launch blocker)
 - [ ] Invoicing template via szamlazz.hu (NAV-compliant, EN+HU)
 - [ ] VAT handling for EU clients (HU + reverse charge logic)
-- [x] Contract template EN/HU + signing flow — **shipped 2026-05-05** at `business-brain/world-model/org/brand/bridgeworks/`: `CONTRACT-TEMPLATE-EN.md`, `CONTRACT-TEMPLATE-HU.md` (DeepL draft + manual cleanup pass; 24 placeholders, all council-reviewed legal phrases preserved), `CONTRACT-SIGNING-FLOW.md`, `translate-contract-template.py` (re-runnable if EN template changes).
-- [x] Onboarding doc / week-1 client handbook — **EN shipped 2026-05-05** at `business-brain/world-model/org/brand/bridgeworks/CLIENT-ONBOARDING-EN.md`. Parameterized from existing `Client Onboarding · BridgeWorks.pdf`, with terms reconciled to the contract template (8-day payment window, AAM not "VAT registered", end-of-month retainer cadence, 5-day deemed-acceptance language). HU translation pending — re-runnable via the same DeepL pattern as the contract template.
 - [ ] Payment flow for NGN clients (avoid 4% card fee)
+- [x] Contract template EN/HU + signing flow — shipped 2026-05-05
+- [x] Onboarding doc / week-1 client handbook (EN) — shipped 2026-05-05, HU translation still pending
 
-### CEE FM (closed — archive only)
-CEEFM is no longer an active client as of 2026-06-19. Do not treat the items below as current delivery work, recurring content, outreach, or a live retainer. Keep only for verified case-study/archive reference.
+## Active — Content
 
-**Archived April/May delivery notes:**
-- [ ] **URGENT: Draft CEE FM May content calendar** (12 posts, first Tue May 5)
-- [x] Add Hungarian legal imprint to footer (Cégjegyzékszám 13-09-227045, Adószám 22734015-2-13, registered seat 2724 Újlengyel Petőfi Sándor utca 48) — deployed 2026-04-29. *Budapest telephely question still open with Victor.*
-- [~] Fix founding year: schema + llms.txt corrected to 2010-05-18 on 2026-04-29. **Still pending:** homepage stat tile says "10+ Years Experience" and llms.txt:38 still says "12 years of operational experience" — needs Emmanuel's call on whether to change marketing claims (now ~16 years from 2010).
-- [ ] Audit "50+" claims in content/llms.txt — clarify as projects/properties not employees. **Confirmed headcount: 8 fő** per cégadatok screenshot (2026-04-29). The "50+" must remain framed as projects/properties only.
-- [x] Replace JS stat counters with server-rendered text — done Apr
-- [x] ~~Surface EU Ecolabel cert block on homepage with logo + cert number~~ — **CANCELLED 2026-04-29.** CEEFM does not hold the EU Ecolabel Indoor Cleaning Services licence (verified against public ECAT registry; Victor confirmed). Removed `hasCredential` block from schema; softened llms.txt to truthful product-use wording ("EU Ecolabel-certified cleaning products used on properties where client procurement standards require them"). CEEFM uses Ecolabel products via Limehome procurement direction but does not name suppliers (Victor's call: avoid free ads).
-- [x] Replace LocalBusiness JSON-LD with full ProfessionalService block per GEO audit Appendix A — completed across 2026-04-22 (skeleton) and 2026-04-29 (filled in legalName, taxID, foundingDate, full Újlengyel address, geo coords, openingHoursSpecification 7 days, sameAs LinkedIn, 7 hasOfferCatalog items including new SolaCare offer)
-- [x] Add security headers via public/.htaccess (Hostinger/Apache) — done 2026-04-22 (HSTS, X-Frame-Options, X-Content-Type-Options, Referrer-Policy, Permissions-Policy, Cache-Control). Used `.htaccess` not `_headers` because Hostinger is Apache, not Cloudflare/Netlify.
+- [ ] Content gap: no posts drafted or queued for the week of Jul 7-13, 2026
+- [x] Content-week-bot pre-drafted Jul 14-20 (9 posts, calendar events, Gmail draft) — 2026-07-09
+- [ ] Set up The Bridge Issue 002 in Beehiiv (overdue since launch week, April)
+- [ ] Add client logo bar to BridgeWorks homepage (Limehome anchor + anonymized references)
 
-**New items from Victor 04-23/04-29 thread + 04-29 site push:**
-- [x] SolaCare added as 7th service tile (EN + HU) with outbound link to https://solacare.hu/ — deployed 2026-04-29 per Victor's WhatsApp authorization ("for now, add it as sublink to the page. And then combine it as a service")
-- [ ] **IMMEDIATE: Send Victor live ceefm.eu link** via WhatsApp so he can see the SolaCare tile + scroll to the imprint footer
-- [ ] **Call with Victor today after kitchen shift** — full call prep sent to Telegram (BridgeWorks Agency Engines chat, 2026-04-29 11:xx). Critical: get answers to the 2 unanswered scope questions from the 04-23 email before May plan is drafted.
-- [ ] **April monthly report + May plan + KPI** — due 2026-04-30 (tomorrow). Ship with conditional May section: Plan A if SolaCare outreach absorbed, Plan B if separate engagement. Use `/monthly-report` skill.
-- [ ] Re-ask Victor the 2 unanswered questions from 2026-04-23 email: (a) outcome target for the 16-company list — meetings vs leads vs signed O&M contracts; (b) who runs the outreach — BridgeWorks vs Victor vs hybrid
-- [ ] **After call:** run `/post-call-followup` immediately — produces follow-up email to Victor + internal action items, saves to FOLLOWUP-victor.md
-- [ ] Hold scope line: "merge both projects under CEEFM" must not absorb SolaCare work into CEEFM-PROP-001 retainer for free. Add as Phase 2 / SolaCare add-on with separate fee.
-- [ ] SolaCare 16-company outreach email template (EN + HU) — **blocked on Victor's scope answers above**
-- [ ] TikTok + Facebook expansion plan for CEEFM and/or SolaCare — **blocked on Victor's brand/budget signal**
+## Archive — CEEFM (closed 2026-06-19, no active work unless reactivated)
 
-### BridgeWorks site
-- [ ] Add client logo bar to homepage (Limehome anchor + anonymized references)
-- [ ] Set up The Bridge Issue 002 in Beehiiv (overdue from launch week)
+CEEFM Kft engagement ended 2026-06-19. Do not schedule content, outreach, or reports against this client without Emmanuel explicitly reactivating it. Full context: `clients/ceefm/CLAUDE.md`.
 
-### Content this week (per CONTENT-WEEK-2026-04-27.md)
-- [ ] Personal LinkedIn x4 (Mon, Wed, Fri, Sun)
-- [ ] BridgeWorks LinkedIn x2 (Thu method, Sat results)
-- [ ] Twitter/X x3 (Mon, Wed, Fri)
-- [ ] Generate visuals via /generate-social-visual
+**Outcome on record:** GEO score 16 (Mar baseline) → 74/100 at close, verified (per `world-model/clients/ceefm/status.md`; an interim 82 reading on 2026-04-25 was never reproduced and is superseded). Payment collected in full per the same source.
 
----
+**Delivered during engagement (kept for case-study reference only):**
 
-## Backlog
+- Hungarian legal imprint, ProfessionalService JSON-LD, security headers, SolaCare service tile, server-rendered stat counters — all deployed
+- April content calendar: 12/12 posts published
+- Brand visual design package — cancelled by client 2026-04-12 (declined, EUR 625)
+- Solar add-on pitch — declined by Victor 2026-04-16 (EUR 550, do not re-pitch)
+- Case study documented for BridgeWorks portfolio: use anonymized only
 
-### CEE FM archived roadmap (do not execute unless reactivated)
-Original proposal CEEFM-PROP-001 had ads + outreach launching Wk 1-4. This roadmap is historical as of 2026-06-19 because CEEFM is no longer an active client.
+**Left unresolved at close (historical, not owed):** May/June content calendars, GBP claim + Wikidata + directory listings, case-study pages, paid acquisition phase, cold outreach expansion. None of this converts to open work — engagement ended before these phases started.
 
-**Wk 5 (GEO 30-day Wk 1) — Truth & Trust Foundations:**
-- [x] Hungarian legal imprint live — deployed 2026-04-29
-- [x] Complete ProfessionalService JSON-LD per GEO audit Appendix A — deployed 2026-04-29
-- [x] ~~EU Ecolabel surfaced on homepage~~ — cancelled; CEEFM does not hold the licence. False credential removed from schema instead.
-- [x] Security headers added (via .htaccess, Apache/Hostinger) — done 2026-04-22
-- [ ] May calendar published for CEE FM (12 posts) — pending
+## Backlog / parked
 
-**Wk 6 (GEO 30-day Wk 2) — Entity & Platform Signals:**
-- [ ] Google Business Profile claimed, 10+ photos, services, hours
-- [ ] LinkedIn company page completion (description, banner, services, founding posts)
-- [ ] Wikidata item created for CEEFM Kft
-- [ ] List on IFMA Hungary, Budapest Chamber of Commerce, facility-management.hu
-- [ ] Bing Webmaster Tools verified, IndexNow key file, sitemap submitted
-- [ ] llms.txt updated with Limehome metrics + Hungarian section + /llms-full.txt published
-
-**Wk 7 (GEO 30-day Wk 3) — Content Breadth & Case Studies:**
-- [ ] /case-studies/limehome dated full page with metrics
-- [ ] 3 additional case studies from existing 50+ projects
-- [ ] Single-page site split into 6 dedicated service pages
-- [ ] /about page with named leadership, photos, credentials, bios
-- [ ] FAQPage JSON-LD wrapping existing FAQ
-- [ ] Replace Unsplash stock with real CEEFM photography
-
-**Wk 8 (GEO 30-day Wk 4) — Topical Authority & Freshness:**
-- [ ] /insights launched with 4 pillar articles (HU FM compliance, hotel turnover SOPs, apartment maintenance, green cleaning)
-- [ ] Sitemap lastmod dates via @astrojs/sitemap config
-- [ ] HU translations for all new pages via scripts/translate.mjs
-- [ ] First monthly operations note on LinkedIn linking to a dedicated site page
-- [ ] **Re-run GEO audit. Target: 70+/100 (from 47).** Decision gate: if score < 65, extend foundation work by 2 weeks. If 65+, proceed to ads.
-
-**Wk 9-12 — Paid acquisition (originally proposal Phase 2):**
-- [ ] Ad creatives produced (already drafted in brand-visuals/ad-samples/)
-- [ ] Google Ads or Meta selected based on Wk 8 audience analysis
-- [ ] Initial 2-week test campaign with 3+ variants
-- [ ] Cold email sequence (3 emails EN/HU) drafted and first 50 targets contacted
-- [ ] Weekly ad performance report to Victor
-- [ ] Phase target: 2-5 qualified leads booked
-
-**Wk 13-16 — Compound:**
-- [ ] Winning ads scaled, losing variants killed
-- [ ] Cold outreach expanded based on Wk 9-12 reply data
-- [ ] Full system running end-to-end
-- [ ] Case study documented for BridgeWorks portfolio + CEE FM site
-- [ ] Retainer continuation conversation with Victor
-
-**Recurring across all weeks:**
-- [ ] LinkedIn 3x/week (Tue/Wed/Thu) bilingual EN/HU
-- [ ] Monthly performance review call with Victor
-- [ ] CEE FM June calendar drafted by end of May
-
-### Open proposals
-- [ ] CEE FM Ops Platform — Apr 17 proposal sent (3 tiers: 1.2K / 4.5K / 12K EUR). Awaiting Victor's answers to 8 scoping questions.
-
-### Internal systems
-- [ ] Set up pipeline cron schedules (daily 7:03, weekly Mon 9:07, monthly 1st 10:13)
+- [ ] Set up pipeline cron schedules (daily/weekly/monthly)
 - [ ] Fix youtube-analytics script for v1.2.4 API compatibility
 - [ ] Scope command center (Notion vs dashboard vs Sheets expansion)
-- [ ] **Schedule one-time GEO audit re-run for 2026-05-13** — parked 2026-04-29 pending Victor call. Will measure delta from 47/100 baseline. Use `/schedule` to create a remote agent that fetches ceefm.eu, scores against 6 categories, emails delta report. Resume after May plan locks scope (so re-audit measures against final scope).
-
-### New leads / pipeline
-- [ ] Oliviks: marketing audit drafted, no engagement scoped. Decide: pursue, drop, or repurpose.
