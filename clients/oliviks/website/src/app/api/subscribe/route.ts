@@ -59,13 +59,47 @@ export async function POST(req: Request) {
     incentive: (body.incentive ?? '').slice(0, 120) || null,
   });
 
-  if (error) {
-    // Duplicate email = already on the list. Treat as success, don't leak details.
-    if (error.code === '23505') {
-      return NextResponse.json({ ok: true, already: true });
-    }
+  const duplicate = error?.code === '23505';
+  if (error && !duplicate) {
     return NextResponse.json({ error: 'Could not sign you up right now. Please try WhatsApp.' }, { status: 502 });
   }
 
-  return NextResponse.json({ ok: true });
+  // Push into MailerLite so the welcome automation and specials can send.
+  // Supabase stays the owned backup list. If MailerLite is down or unset, the
+  // signup is already safely stored above, so we never fail the user for it.
+  if (email) {
+    await addToMailerLite(email, {
+      whatsapp,
+      locale: body.locale === 'hu' ? 'hu' : 'en',
+      source: (body.source ?? 'website').slice(0, 40),
+    }).catch(() => {});
+  }
+
+  return NextResponse.json({ ok: true, already: duplicate });
+}
+
+async function addToMailerLite(
+  email: string,
+  fields: { whatsapp?: string; locale?: string; source?: string },
+) {
+  const key = process.env.MAILERLITE_API_KEY;
+  const groupId = process.env.MAILERLITE_GROUP_ID;
+  if (!key) return;
+
+  await fetch('https://connect.mailerlite.com/api/subscribers', {
+    method: 'POST',
+    headers: {
+      Authorization: `Bearer ${key}`,
+      'Content-Type': 'application/json',
+      Accept: 'application/json',
+    },
+    body: JSON.stringify({
+      email,
+      // MailerLite honours the account's double opt-in setting for API subscribers.
+      groups: groupId ? [groupId] : undefined,
+      fields: {
+        phone: fields.whatsapp || undefined,
+      },
+    }),
+  });
 }
