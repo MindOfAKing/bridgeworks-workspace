@@ -60,6 +60,13 @@ export const site = {
   },
 
   founders: 'Cynthia & Aese',
+
+  // Retention capture (Foundation A3). Incentive wording is the proposal's example;
+  // CONFIRM final offer with Aese before promoting heavily.
+  retention: {
+    incentive: 'Free puff puff with your first pickup order',
+    incentiveShort: 'Free puff puff on your first order',
+  },
 } as const;
 
 export const waLink = (text?: string) =>

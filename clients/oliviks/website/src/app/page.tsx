@@ -3,6 +3,7 @@ import Link from 'next/link';
 import { ArrowRight, ArrowUpRight, MapPin, Star } from 'lucide-react';
 import { Reveal } from '@/components/Reveal';
 import { DishImage } from '@/components/DishImage';
+import { NewsletterSignup } from '@/components/NewsletterSignup';
 import { site, telLink } from '@/data/site';
 import { menu } from '@/data/menu';
 
@@ -286,6 +287,31 @@ export default function HomePage() {
               <p className="absolute bottom-4 left-5 font-display text-[14px] font-bold text-cream">
                 Party trays, ready to serve
               </p>
+            </div>
+          </Reveal>
+        </div>
+      </section>
+
+      {/* ================= Retention capture (Foundation A3) ================= */}
+      <section className="border-y border-ink/10 bg-gold-50">
+        <div className="container-x grid items-center gap-10 py-16 sm:py-20 lg:grid-cols-[1fr_1fr]">
+          <Reveal>
+            <div>
+              <p className="eyebrow">
+                <span className="eyebrow-num">04</span> Eat again, for less
+              </p>
+              <h2 className="mt-4 font-display text-[clamp(1.9rem,4vw,2.7rem)] font-extrabold leading-[1.05] tracking-tight text-cocoa">
+                {site.retention.incentive}.
+              </h2>
+              <p className="mt-4 max-w-md text-[16px] leading-relaxed text-cocoa/70">
+                Join the Oliviks list for first dibs on weekly specials and the occasional treat.
+                One email to claim your offer, then only the good stuff. No spam.
+              </p>
+            </div>
+          </Reveal>
+          <Reveal delay={0.1}>
+            <div className="rounded-3xl border-2 border-ink/10 bg-white p-6 sm:p-8">
+              <NewsletterSignup source="home" />
             </div>
           </Reveal>
         </div>
