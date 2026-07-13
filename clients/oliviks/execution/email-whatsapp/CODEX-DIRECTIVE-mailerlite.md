@@ -81,11 +81,16 @@ Cynthia and Aese, Oliviks Kitchen
 
 Set the automation status to **Active** when built.
 
-## TASK 3 — Rebrand the WooCommerce order-receipt email (optional, if not already done)
-WordPress admin at https://shop.oliviks.com/wp-admin (user: bridgeworks) →
-WooCommerce → Settings → Emails. Set header/base color to Barn Red #761212, accent
-Papaya #FAB73A, upload the Oliviks logo, set "From" name to "Oliviks Kitchen" and a
-sensible from-address. Keep it simple and on-brand.
+## TASK 3 — WooCommerce order-receipt email — DONE 2026-07-14 (do not redo)
+Rebranded via the WooCommerce REST API: from name "Oliviks Kitchen", from address
+olivikskitchen@gmail.com (was the previous dev's personal gmail), base color barn red
+#761212, chalk background, ink text, Oliviks footer.
+Two optional enhancements left for whoever has the WP UI + a proper asset:
+1. Upload a WHITE/inverted Oliviks logo as the email header image (a dark logo would
+   clash on the barn-red header, so none was set).
+2. Deliverability: from-address is a gmail on a non-gmail server, so SPF/DKIM won't
+   cover it and receipts may land in spam. Better long-term: a domain address like
+   no-reply@oliviks.com (needs that mailbox created on Namecheap Private Email).
 
 ---
 
