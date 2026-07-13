@@ -43,7 +43,7 @@ export default function CateringPage() {
       {/* ================= Hero — full-bleed image ================= */}
       <section className="relative h-[72vh] min-h-[500px] w-full overflow-hidden">
         <Image
-          src="/images/catering-buffet.png"
+          src="/images/catering-buffet.jpg"
           alt="Oliviks Nigerian catering spread: jollof rice, egusi, vegetable soup, fried plantain and more"
           fill
           className="object-cover object-center"

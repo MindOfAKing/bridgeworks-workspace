@@ -213,8 +213,8 @@ export default function HomePage() {
             <div className="relative mx-auto w-full max-w-[360px]">
               <div className="arch relative aspect-[4/5] border-2 border-ink/10">
                 <Image
-                  src="/images/founders.png"
-                  alt="Cynthia and Aese, founders of Oliviks Kitchen"
+                  src="/images/founders.jpg"
+                  alt="Cynthia and Aese, founders of Oliviks Kitchen, at the counter"
                   fill
                   className="object-cover"
                   sizes="(max-width: 1024px) 90vw, 360px"
