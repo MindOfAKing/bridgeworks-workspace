@@ -108,8 +108,9 @@ Do the QUICK path (no DNS):
 1. MailerLite (logged in, Google SSO as olivikskitchen@gmail.com) → Settings →
    Domains / "Sender" / "Verify email".
 2. Add sender email **olivikskitchen@gmail.com** (matches the WooCommerce from-address).
-3. MailerLite emails a verification link to olivikskitchen@gmail.com. Open that inbox
-   (Emmanuel has client email access) and click the link to verify.
+3. MailerLite emails a verification link to olivikskitchen@gmail.com. That Gmail inbox
+   is ALREADY OPEN in a Chrome tab (same as MailerLite) — switch to it, open the
+   MailerLite verification email, and click the confirm link.
 4. If MailerLite shows an account-approval / "request sending access" form for the new
    account, complete it honestly (restaurant sending weekly specials + order-related
    updates to opted-in customers).
