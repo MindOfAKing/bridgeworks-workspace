@@ -3,7 +3,11 @@
 The WhatsApp side of the retention system. Open rates on WhatsApp run 70–90% vs
 20–30% on email, so for weekly specials this is the strongest channel.
 
-Needs from Aese: a business WhatsApp number and willingness to keep a broadcast list.
+**Business WhatsApp number (confirmed 2026-07-14):** +36 70 567 3070 — the same number
+used across the website. Join link: https://wa.me/36705673070?text=Join%20the%20Oliviks%20specials%20list
+
+Still needs from Aese: create the broadcast list inside the WhatsApp Business app on
+that number's phone, and add opted-in contacts to it (this is a manual in-app step).
 
 ---
 
@@ -27,15 +31,18 @@ Come hungry. Reply STOP to leave the list.
 
 ---
 
-## Counter QR code (deliverable #7)
+## Counter QR code (deliverable #7) — DONE, ready to print
 
-Print a small card for the pickup counter: "Join our specials list — free puff puff on
-your first order." with a QR code that opens WhatsApp to the Oliviks number with a
-pre-filled "Join" message, or points to the website sign-up.
+Print-ready assets are in `print-assets/`:
+- `oliviks-whatsapp-counter-card.png` — full branded counter card (barn red, QR, offer).
+  Print at A5/A4 and stand it at the pickup counter.
+- `oliviks-whatsapp-qr.png` — the bare QR (barn red on chalk) if you want to place it
+  in your own layout.
 
-Generate once the business WhatsApp number is confirmed:
-`https://wa.me/<number>?text=Join%20the%20Oliviks%20specials%20list`
-Then make a QR of that link (any free QR generator) and print it.
+Both encode: `https://wa.me/36705673070?text=Join%20the%20Oliviks%20specials%20list`
+Scanning opens WhatsApp to the Oliviks number with "Join the Oliviks specials list"
+pre-filled. Aese replies with the opt-in message below and adds them to the broadcast
+list.
 
 ---
 
