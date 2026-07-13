@@ -92,6 +92,35 @@ Two optional enhancements left for whoever has the WP UI + a proper asset:
    cover it and receipts may land in spam. Better long-term: a domain address like
    no-reply@oliviks.com (needs that mailbox created on Namecheap Private Email).
 
+## TASK 1 + 2 STATUS (done 2026-07-14, verified by Claude)
+Double opt-in enabled, welcome automation built and Active (trigger: joins group
+"Oliviks subscribers"; Email 1 immediate, +2 days Email 2, +5 days Email 3).
+Integration verified end-to-end: a live signup lands in Supabase + MailerLite and now
+arrives as **unconfirmed** (proving double opt-in works). Group + automation correct.
+
+## TASK 4 — Verify the MailerLite SENDER so emails actually send (THE LAST STEP)
+Problem found during verification: no confirmation email is delivered yet, because a
+brand-new MailerLite account cannot send anything until a sender identity is verified
+(and the account may need a one-time sending approval). Until this is done, signups are
+captured but no confirmation/welcome/specials emails go out.
+
+Do the QUICK path (no DNS):
+1. MailerLite (logged in, Google SSO as olivikskitchen@gmail.com) → Settings →
+   Domains / "Sender" / "Verify email".
+2. Add sender email **olivikskitchen@gmail.com** (matches the WooCommerce from-address).
+3. MailerLite emails a verification link to olivikskitchen@gmail.com. Open that inbox
+   (Emmanuel has client email access) and click the link to verify.
+4. If MailerLite shows an account-approval / "request sending access" form for the new
+   account, complete it honestly (restaurant sending weekly specials + order-related
+   updates to opted-in customers).
+
+OPTIONAL later upgrade (better inbox delivery, needs DNS): verify the whole domain
+oliviks.com — MailerLite gives SPF/DKIM/CNAME records to add in cPanel DNS Zone Editor.
+This is NOT the domain flip; it only adds email records and changes nothing about the
+website. Leave for later unless asked.
+
+After verifying, re-run the VERIFY steps below. Emails should then deliver.
+
 ---
 
 ## VERIFY when done
