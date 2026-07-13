@@ -1,4 +1,20 @@
-# Shop SSL fix — status
+# Shop SSL fix — RESOLVED 2026-07-13
+
+**RESOLVED.** shop.oliviks.com now serves a valid cert (CN=shop.oliviks.com, Sectigo
+PositiveSSL, valid to 26 Jan 2027, HTTPS redirect on). Verified externally: root 200,
+product pages 200, oliviks.com redirects cleanly to https://shop.oliviks.com/ (200),
+no more security warning. The checkout is secure.
+
+**What finally worked:** after the alias→add-on conversion (Namecheap support), the
+free cert kept failing to auto-install. The fix was cPanel → Namecheap SSL →
+"Sign in with Namecheap" (SSO) → Sync → the PositiveSSL cert (ID 35108174) showed
+"Ready for installation" for shop.oliviks.com → Install → select shop.oliviks.com →
+Install Certificate. Status went in-progress → Active within ~1 min. This PositiveSSL
+is Namecheap-managed and renews. The domain flip precondition is now met.
+
+---
+
+# (history) Shop SSL fix — status
 
 **Problem:** shop.oliviks.com serves the shared-server cert (CN=*.web-hosting.com),
 not a cert for the domain, so every visitor gets a browser security warning. Because

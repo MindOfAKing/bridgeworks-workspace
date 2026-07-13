@@ -1,4 +1,4 @@
-﻿# Oliviks Retention Pack
+# Oliviks Retention Pack
 
 Date: 2026-06-05
 Purpose: First-pass email and WhatsApp content for Foundation setup. Requires client approval before publishing or sending.
