@@ -8,12 +8,12 @@ import { site } from '@/data/site';
 export const metadata: Metadata = {
   title: 'About',
   description:
-    'How Oliviks started: Cynthia and Aese built a Nigerian kitchen in Budapest after studying in Debrecen.',
+    'How Oliviks started: Cynthia, a Culinary Institute of Europe trained chef, and Aese built a real Nigerian kitchen in Budapest.',
 };
 
 const values = [
   { title: 'Nigerian kitchen', body: 'Oliviks is a Nigerian kitchen, not an African-themed one.' },
-  { title: 'Made from scratch', body: 'Cynthia comes from a family of cooks. Recipes are made from scratch.' },
+  { title: 'Made from scratch', body: 'Cynthia is a trained chef from a family of cooks. Recipes made from scratch.' },
   { title: 'For regulars and first-timers', body: 'Nigerians, Hungarians, students, and repeat guests all find something here.' },
   { title: 'Proof in Budapest', body: `${site.reviews.rating} stars on Google. Featured by ${site.press.join(', ')}.` },
 ];
@@ -42,8 +42,10 @@ export default function AboutPage() {
                 </p>
                 <p>
                   So they cooked it themselves. Oliviks Kitchen opened in Budapest as a Nigerian
-                  kitchen, not an African-themed one. Cynthia comes from a family of cooks. The
-                  recipes come from that table, made from scratch, seasoned the way they should be.
+                  kitchen, not an African-themed one. Cynthia comes from a family of cooks and
+                  trained in Culinary Arts at the Culinary Institute of Europe. The recipes come
+                  from that table, the technique from that training, made from scratch and seasoned
+                  the way they should be.
                 </p>
                 <p>
                   Budapest answered. The room fills with Nigerians looking for home, Hungarians
@@ -66,8 +68,8 @@ export default function AboutPage() {
             <div className="mx-auto w-full max-w-[380px] lg:sticky lg:top-32">
               <div className="arch relative aspect-[4/5] border-2 border-ink/10">
                 <Image
-                  src="/images/founders.jpg"
-                  alt="Cynthia and Aese, founders of Oliviks Kitchen, at the counter"
+                  src="/images/founders-about.jpg"
+                  alt="Cynthia in her Culinary Institute of Europe chef jacket with Aese"
                   fill
                   className="object-cover"
                   sizes="(max-width: 1024px) 90vw, 380px"
@@ -117,12 +119,47 @@ export default function AboutPage() {
         </Reveal>
       </section>
 
+      {/* ================= Credentials ================= */}
+      <section className="border-b border-ink/10 py-16 sm:py-20">
+        <div className="container-x grid items-center gap-10 lg:grid-cols-[0.85fr_1.15fr]">
+          <Reveal>
+            <div className="relative mx-auto w-full max-w-[400px]">
+              <div className="arch relative aspect-[4/5] border-2 border-ink/10">
+                <Image
+                  src="/images/cynthia-certificate.jpg"
+                  alt="Cynthia holding her Culinary Arts certificate from the Culinary Institute of Europe"
+                  fill
+                  className="object-cover"
+                  sizes="(max-width: 1024px) 90vw, 400px"
+                />
+              </div>
+            </div>
+          </Reveal>
+          <Reveal delay={0.1}>
+            <div>
+              <p className="eyebrow">
+                <span className="eyebrow-num">02</span> Trained hands
+              </p>
+              <h2 className="mt-4 font-display text-[clamp(1.9rem,4vw,2.7rem)] font-extrabold leading-[1.05] tracking-tight text-cocoa">
+                Culinary Arts, Culinary Institute of Europe
+              </h2>
+              <p className="mt-5 max-w-[540px] text-[17px] leading-relaxed text-cocoa/70">
+                The recipes are Cynthia&apos;s family&apos;s. The technique is trained. Cynthia is a
+                certified Culinary Arts graduate of the Culinary Institute of Europe here in
+                Budapest. That is why the Nigerian classics you order taste the same, plate after
+                plate.
+              </p>
+            </div>
+          </Reveal>
+        </div>
+      </section>
+
       {/* ================= Values ================= */}
       <section className="border-b border-ink/10 bg-gold-50 py-16 sm:py-20">
         <div className="container-x">
           <Reveal>
             <p className="eyebrow">
-              <span className="eyebrow-num">02</span> What stays true
+              <span className="eyebrow-num">03</span> What stays true
             </p>
           </Reveal>
           <div className="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
