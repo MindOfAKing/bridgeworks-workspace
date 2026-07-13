@@ -255,7 +255,7 @@ export const menu: MenuCategory[] = [
         description:
           'Crunchy fried dough made with flour, sugar, milk, and eggs. Lightly sweet and easy to snack on. Good on its own or with a drink.',
         price: '1,000 Ft',
-        image: null,
+        image: '/images/dish-chin-chin.jpg',
       },
       {
         name: 'Fish roll',
