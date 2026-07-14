@@ -2,9 +2,9 @@
 
 Single source of truth for numbers used in client-facing reports and the handover. Every fact lists its source file. **Reports must draw only from here.** If a number is not in this file with a traceable source, it does not go in a client document.
 
-This file exists because a draft handover once cited a "68/100 May re-audit" that had no source. The last verified score is 74/100 from end of April. Do not invent interim numbers.
+This file exists because a draft handover once cited a "68/100 May re-audit" that had no source. Do not invent interim numbers.
 
-_Last reconciled: 2026-05-29_
+_Last reconciled: 2026-07-14_
 
 ---
 
@@ -28,9 +28,13 @@ _Last reconciled: 2026-05-29_
 | April 3 | 29/100 | same |
 | April 22 | 47/100 | same |
 | April 30 morning | 61/100 | same |
-| April 30 evening | 74/100 (LAST VERIFIED) | reports/GEO-AUDIT-REPORT-2026-04-30-evening.md |
+| April 30 evening | 74/100 | reports/GEO-AUDIT-REPORT-2026-04-30-evening.md |
+| June 10 | 77/100 | reports/GEO-AUDIT-REPORT-2026-06-10.md |
+| June 11 | 78/100 (LAST VERIFIED, post-handover fixes) | reports/GEO-AUDIT-REPORT-2026-06-11.md |
 
-**No May re-audit is on file.** May plan targeted 80+. Any score after April 30 must come from a fresh live audit, not memory.
+**No May re-audit is on file.** May plan targeted 80+. Any score after June 11 must come from a fresh live audit, not memory.
+
+**Public number rule (2026-07-14):** the website and case study use **16 -> 77** (March baseline -> June 10 final audit, the engagement-close figure in the handover). The June 11 78 came from fixes applied after the handover was issued; use it only in internal context with the date attached. Never publish "16-week engagement" or "completed": the contract was 16 weeks, the client terminated at week 9; public phrasing is "engagement, March to June 2026" and "engagement closed June 2026".
 
 ### Category breakdown (April 30 evening audit)
 AI Citability 72 · Brand Authority 68 · Content E-E-A-T 67 · Technical GEO 92 · Schema 82 · Platform Opt. 74

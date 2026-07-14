@@ -7,7 +7,7 @@ BridgeWorks is an AI-Powered Digital Growth Studio serving small businesses acro
 - **Oliviks**: Foundation engagement (Foundation-only scope per contract dated 29 April 2026). Website rebuild + Google Business Profile optimization + email/WhatsApp infrastructure. Total fee 272,611 HUF. Deposit 136,306 HUF paid June 2026; balance 136,305 HUF due on handover (end of week 3 from kickoff). Deposit invoice EO-2026-11 sent 6 June. Photos received (Hanna Mühl shoot, Drive folders forwarded 7 June). Kickoff still blocked on: working WP admin account, GBP manager access, WhatsApp number, first-subscriber incentive. Contact: Aese Agaigbe, olivikskitchen@gmail.com (also agaigbeaese@gmail.com). Client folder: `clients/oliviks/`
 
 ## Past Clients
-- **CEEFM Kft**: 16-week digital growth engagement, late March to June 2026. Contract terminated June 2026. Final GEO score 77/100 (from 16). Handover doc drafted (`clients/ceefm/CEEFM-HANDOVER-2026-06-10.md`), pending review and send. Case study use: anonymized only.
+- **CEEFM Kft**: 16-week digital growth engagement, late March to June 2026. Contract terminated June 2026. Final GEO score 77/100 at the 2026-06-10 audit (from 16); 78 on 2026-06-11 after post-handover fixes; source of truth: `clients/ceefm/VERIFIED-FACTS.md`. Contract was 16 weeks, terminated by client at week 9; public phrasing is "engagement, March to June 2026", never "16-week" or "completed". Case study: named use approved 2026-07-14 for bridgeworks.agency; client-sensitive internals stay private.
 
 ## What Lives Here
 - `clients/` - Client-specific folders with deliverables, trackers, case studies

@@ -35,7 +35,7 @@ Deposit 136,306 HUF paid June 2026. Balance 136,305 HUF due on handover. Full ga
 
 CEEFM Kft engagement ended 2026-06-19. Do not schedule content, outreach, or reports against this client without Emmanuel explicitly reactivating it. Full context: `clients/ceefm/CLAUDE.md`.
 
-**Outcome on record:** GEO score 16 (Mar baseline) → 74/100 at close, verified (per `world-model/clients/ceefm/status.md`; an interim 82 reading on 2026-04-25 was never reproduced and is superseded). Payment collected in full per the same source.
+**Outcome on record:** GEO score 16 (Mar baseline) → 77/100 at the 2026-06-10 final audit, verified (per `clients/ceefm/VERIFIED-FACTS.md`; an interim 82 reading on 2026-04-25 was never reproduced and is superseded). Payment collected in full per the same source.
 
 **Delivered during engagement (kept for case-study reference only):**
 
@@ -43,7 +43,7 @@ CEEFM Kft engagement ended 2026-06-19. Do not schedule content, outreach, or rep
 - April content calendar: 12/12 posts published
 - Brand visual design package — cancelled by client 2026-04-12 (declined, EUR 625)
 - Solar add-on pitch — declined by Victor 2026-04-16 (EUR 550, do not re-pitch)
-- Case study documented for BridgeWorks portfolio: use anonymized only
+- Case study documented for BridgeWorks portfolio: named use approved 2026-07-14; client-sensitive internals stay private
 
 **Left unresolved at close (historical, not owed):** May/June content calendars, GBP claim + Wikidata + directory listings, case-study pages, paid acquisition phase, cold outreach expansion. None of this converts to open work — engagement ended before these phases started.
 
