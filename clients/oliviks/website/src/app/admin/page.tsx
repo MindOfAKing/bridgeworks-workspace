@@ -81,9 +81,12 @@ export default async function AdminPage() {
       </section>
 
       <section className="mt-8 rounded-3xl border border-gold/35 bg-gold/10 p-6 text-cocoa">
-        <h2 className="font-display text-xl font-bold">Next activation step</h2>
+        <h2 className="font-display text-xl font-bold">How to use this page</h2>
         <p className="mt-2 text-sm leading-relaxed text-cocoa/70">
-          Create the Supabase project, run <code className="rounded bg-white px-1.5 py-0.5">supabase/schema.sql</code>, then add the environment variables from <code className="rounded bg-white px-1.5 py-0.5">.env.example</code> to Vercel. After that, the admin editor can be connected to owner login and write actions.
+          Pick a dish, edit its name, description, price, image, or availability, paste the
+          admin access code, and save. The public menu updates within about a minute. Note:
+          this edits the website menu; the prices customers pay at checkout are set in
+          WooCommerce on shop.oliviks.com.
         </p>
       </section>
     </div>

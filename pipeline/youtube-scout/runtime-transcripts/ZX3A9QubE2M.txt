@@ -1,0 +1,405 @@
+00:01 Let's set up our first N10 workflow. Now
+00:04 in this workflow, couple of things that
+00:06 we're going to be doing is we're going
+00:08 to be triggering a form and also we're
+00:10 going to analyzing all the rest of the
+00:12 form which is going to be a Python
+00:15 script and then we're going to pass into
+00:16 another Python script to split all the
+00:18 businesses that shows up. Then we're
+00:20 going to be entering a while loop. This
+00:22 loop is going to be processing the
+00:24 business one after the other until it's
+00:27 able to exhaust all the businesses is
+00:30 able to pull from
+00:34 from Google. Now if you click on that
+00:38 one of the first thing you're going to
+00:40 see is you're going to see a form that's
+00:42 going to show up. This is going to be
+00:44 the form and it's going to tell you that
+00:46 this is a test version of your form. Now
+00:49 in this case here we would like to
+00:50 specify that this is going to be let's
+00:52 say restaurant
+00:55 restaurant where New York
+01:00 and you can also specify the state which
+01:02 state do you want it to be is going to
+01:04 be in New York and you click on submit
+01:06 once you click on submit guess what's
+01:08 going to happen in the background your
+01:11 agent is going to start working now when
+01:14 your agent start working you start
+01:16 seeing all the activities taking place.
+01:19 As you can see, what he's doing here is
+01:21 he obtains a form.
+01:24 He fetches the API. It sends a request
+01:26 here to split all the businesses. When
+01:28 is able to split all the businesses, you
+01:30 can also see number of items that has
+01:32 been processed. When it split the
+01:34 businesses, it's able to obtain about 20
+01:36 businesses. When you obtain the 20
+01:37 businesses, it goes into a while loop.
+01:39 Basically, I'm going to take the very
+01:41 first business. I'm going to process it.
+01:43 I'm going to save it. I'm going to take
+01:45 the first business. I need to get the
+01:47 place where the business is located. I
+01:49 need to format the business. I need to
+01:50 wait for a few seconds. Then I need to
+01:52 save it in an Excel sheet. Here we
+01:54 decide to call it brea spa. That's the
+01:57 name of the Excel sheet. Um that's the
+01:59 name of we try to we decide to give it.
+02:01 Now here where is it getting saved at?
+02:06 It's getting saved into this Excel sheet
+02:08 and it leads.
+02:16 Oh, it's not actually getting saved
+02:17 here. It's getting saved into a whole
+02:19 different business entirely. However,
+02:22 let's um stop this workflow.
+02:25 Let's go through what is going on. Then
+02:27 I'm going to show you where this is
+02:28 business is getting saved. Now, let me
+02:30 click on this. You get to see list of
+02:33 all the businesses. Now, as you can see,
+02:36 if when I clicked on it, I could
+02:38 actually see this. Um previously, this
+02:40 wasn't selected. That is why I couldn't
+02:42 see any record um showing up here. So
+02:45 now that I've actually selected it, what
+02:48 you should see, you should be seeing all
+02:49 the all the leads getting saved into
+02:52 this location. I should save this, close
+02:55 it, save it. Once I resume the the run,
+03:00 it's going to continue. Now, um, next
+03:04 thing we need to understand here is
+03:06 understanding the workflow. Let's
+03:08 understand our workflow. Once double
+03:10 click on this, you see this information
+03:12 here. So, as you can see here, you can
+03:15 specify this is um business scraper
+03:18 business type. You can specify type of
+03:20 the business. Is it going to be a salon,
+03:22 barber shop, or hairdresser? Or you can
+03:25 also specify the city, New York City,
+03:27 New Jersey, if that's what you want. And
+03:28 then list of all these states that you
+03:31 want to pull this information from.
+03:33 And don't worry about this. I have the
+03:36 code here which you can actually save
+03:38 and you can import.
+03:40 Also the next thing is going to do here
+03:42 is um this is a Python script and what
+03:45 it does is it actually scraped through
+03:48 the Google API and it obtains um list of
+03:51 all the businesses. If you're worried
+03:53 about um Google um token don't worry I
+03:55 have a way that you can actually safely
+03:58 put the data from Google. Now the next
+04:01 thing is after you obtain this
+04:04 information as you can see on the right
+04:06 hand side is able to obtain the
+04:09 restaurant which is the payload that was
+04:11 sent from the form and as you can see
+04:12 the city is New York the state is New
+04:14 York this is when it was submitted. Now
+04:16 on the right hand side you can actually
+04:18 see the response you got from Google
+04:22 and all these are pretty much
+04:23 interesting data that can actually be
+04:25 passed like the restaurant this is a
+04:27 food and you can also see the restaurant
+04:29 um rating you can see all the
+04:31 information now the next thing is you
+04:33 need to obtain all this information and
+04:35 then you need to split it how can you do
+04:37 that
+04:39 let's minimize this let's have a good a
+04:41 good view we need to pass all this data
+04:44 that was obtained from Google if I
+04:46 expand this you can see all these data
+04:48 is from Google. Now it has been
+04:49 structured into a proper table. Here you
+04:51 can see the place ID, the name and the
+04:54 address.
+04:55 If I just click on next, you can see the
+04:57 next business here.
+05:00 Now what's the next thing? Let's uh set
+05:02 up a a while loop. Now this is a loop
+05:04 that's going to take each business. As
+05:06 you can see, it took the first business.
+05:08 It's going to process it. Now this red
+05:11 limiting is going to wait for 2 seconds.
+05:13 Why? because you cannot pull way too
+05:15 much information from Google. Uh you
+05:17 need to wait for a few seconds to pull
+05:19 the next information.
+05:22 Now the next one is we need to get the
+05:24 place more details about the business
+05:26 that we're looking at. Now that
+05:27 particular business is going to pull the
+05:29 information and it's going to try and
+05:31 get um the details of the of the
+05:33 business. For example, the location, the
+05:36 phone number of the business and then
+05:38 also the name and the rating of the
+05:40 business. And um this is type of
+05:42 business is a bar. The establishment is
+05:44 food and also point of interest
+05:46 restaurant. You could also have the
+05:47 Google map URL as well. And also the
+05:50 user rating total. These are number of
+05:51 total number of users rating that um
+05:53 that business has and business also have
+05:56 a website. As you can see here if you
+05:58 click on formatting the business. Now
+06:00 that you have that information, it is
+06:02 better for you to structure it properly.
+06:04 the name, the category, the address, the
+06:06 phone number, the website and then also
+06:09 the Google maps information here as the
+06:12 rating with a number of views, latitude
+06:14 and longitude. Also wait for a few
+06:17 seconds and guess what you save the
+06:18 information into
+06:21 your Excel sheet here. I decid to call
+06:23 it bread. That's just in case if I want
+06:26 to like categorize that. And then here
+06:28 you specify the credentials
+06:31 your credential here.
+06:33 And then after that the next thing is um
+06:36 resources um sheet with within document.
+06:39 You specify that and then also list of
+06:41 all your documents. If you click on this
+06:43 you see list of all your documents here
+06:46 and then delete. The document you want
+06:47 to select here is any lead. Right click
+06:50 on it you see deletes here.
+06:53 Now also you want to map each column
+06:55 manually which means that each of these
+06:57 column should be automatically be
+06:59 matched. You don't want to do manual.
+07:00 You want to do map automatically.
+07:05 Now let's run our workflow. But before
+07:07 we run it, let me walk you through the
+07:09 loop business. Now this goes into a
+07:11 loop. You wait for a few minutes. It
+07:13 goes into the loop as you can see. Now
+07:15 let's close it.
+07:18 We're also going to trigger our workflow
+07:19 again. And this is going to start all
+07:21 over again. And then you see a red
+07:23 stuff. Just ignore that on my side.
+07:32 Now when the pop-ups comes up, the first
+07:34 thing you need to do is you can actually
+07:36 specify. Let's go back to this. Let's
+07:38 say um restaurant
+07:41 or let's call it a different business um
+07:43 salon
+07:47 New York.
+07:52 as the states. Let's select New York.
+07:57 Click on submit. Your form gets
+07:59 submitted. As you can see, the agent is
+08:02 working. The AI automation is working
+08:04 the way it should.
+08:06 Then it's going to go into the loop.
+08:08 It's going to grab the first business.
+08:10 It's going to process it, send it to the
+08:12 um brea document. As you can see now
+08:15 here you can sit down and watch as the
+08:18 agent populates the list of all the
+08:21 businesses that is obtaining. Now this
+08:23 saves you time instead of you going to
+08:24 the going to the internet trying to
+08:26 update this information. Guess what? You
+08:28 can sit down, relax and also allow the
+08:31 agent to do its thing. Now what is also
+08:34 interesting is you could also set it up
+08:36 in such a way that this process can be
+08:38 automated by setting up something called
+08:40 scheduleuler. You can schedule the job
+08:42 to run at a specific time. For example,
+08:45 you want the job to run by 700 p.m.
+08:47 every single day. That could also be um
+08:50 set up. That way, you are basically
+08:52 bypassing the need to trigger a form
+08:54 field and the agent does the AI agent
+08:59 handles everything. Now, can we call
+09:01 this an AI agent? Well, we can call this
+09:03 is an process automation.
+09:07 Now this process has been automated and
+09:09 you can also see this business as this
+09:11 rating on the Google map. You can also
+09:13 see the business here. I click on this I
+09:16 should be seeing Bon Bon Salon. If you
+09:19 click on it
+09:22 as you can see this is Bon Bon Salon.
+09:25 The rating is 4.9. Let's compare that
+09:27 with that we have 4.9. The number of
+09:30 view count that we have is 2354.
+09:32 Here you see 2354.
+09:35 you have the right information and then
+09:37 also you also get do have the address
+09:40 and the phone number if you want to call
+09:41 the business to call the business this
+09:44 is the phone number 212286
+09:47 5300
+09:49 5300 and also there's a business address
+09:52 as well
+09:54 so you get to have a lot of information
+09:56 um directly into your Google sheet
+10:04 Now if also want to let's say you want
+10:06 to do it for a different city you could
+10:08 also specify a different city but for
+10:10 now we are able to pull about 20
+10:13 different um businesses directly from
+10:15 where? From Google using what? Using our
+10:18 N10 lead generator. Now this is your
+10:20 lead. You could decide to call the
+10:22 customer. You could decide to call the
+10:23 business. Uh now that you've been able
+10:25 to automate the leads generation
+10:27 directly into your inbox also this is
+10:30 what I was talking about regarding the
+10:31 daily trigger. You could also have a
+10:33 daily trigger run. It runs trigger
+10:35 interval 24 hours. Hours between
+10:38 triggers is um 24. You could decide to
+10:40 say, okay, I want you to run 4 hours
+10:42 between different inter um between
+10:46 different triggers. You can also specify
+10:47 the minutes that it runs. And then you
+10:49 can also add um different rules. This is
+10:52 hours. This is different day. But for
+10:54 now, let's stick to
+10:57 hours. Every four hours, this is going
+10:59 to run.
+11:01 Now understanding the flow, let's have a
+11:04 wider perspective about the flow.
+11:06 There's a form that got triggered and
+11:08 then also uh you get to see that one
+11:10 item was sent to the script. The script
+11:12 was able to process it and was able to
+11:14 obtain huge amount of data. Now data is
+11:17 a lot. So these are split businesses
+11:19 tend to split the business and uh it
+11:21 send it individually over to it sends
+11:23 the business to this loop each business.
+11:26 Now the loop each business receives all
+11:28 payload of all the business. Then it
+11:30 start processing one after the other. It
+11:32 sends it obtain the um the business um
+11:36 location. You format it. You wait for a
+11:38 few seconds. Save it to an Excel sheet.
+11:42 The next one it obtain the next business
+11:45 obtain the uh the business location.
+11:47 Process it and save it to an Excel
+11:49 sheet. Now this process goes on and on
+11:51 20 times while you see that and you just
+11:53 wait for it to get populated. Now let's
+11:55 also add more details here as well.
+12:00 Now assuming you would like to uh split
+12:04 this workflow into different um flow
+12:07 where this is for
+12:10 salon right now. This is salon. You can
+12:14 also decide to create another business.
+12:17 Let's say um this another sheet, excuse
+12:20 me, for restaurant
+12:26 and this is your lead document. Now in
+12:28 this your lead document,
+12:31 your lead um sheet you like to process
+12:34 the data
+12:36 for the restaurant. You could decide all
+12:39 you need to do is just come to your
+12:40 Excel sheet. This shows up and then you
+12:43 specify a restaurant. Right now once
+12:45 that is done you can decide to close
+12:47 this. Once you close it then you have
+12:50 that information there. Now let me close
+12:53 this.
+12:55 I'm going to execute that because that
+12:57 was changed. You can see the icon. It
+12:59 changed from green to this. Why? Because
+13:01 it was recently modified.
+13:03 As you can see it was recently modified.
+13:06 Now let's trigger
+13:09 our workflow.
+13:27 Okay, let me stop this. Let's check our
+13:30 workflow
+13:35 and we type restaurant.
+13:39 Let's
+13:44 see New York
+13:52 and then click on submit
+13:55 and then the process begins.
+14:02 Okay, let's do it again.
+14:05 Oh, I forgot to click on trigger.
+14:10 Now it has been triggered.
+14:24 Now it's waiting for the impute. It's
+14:25 waiting for it to be execute. Waiting
+14:27 for a trigger event trigger.
+14:32 Let me stop this.
+14:38 Let me save my changes. Changes that was
+14:40 made here to the restaurant.
+14:45 Now let me trigger a new flow.
+15:07 to get a new flow.
+15:31 Okay. New York. Let's say in work, New
+15:34 Jersey.
+15:42 Okay.
+15:43 A new event has been sent.
+15:48 Now, the event that was sent this that
+15:50 was done off screen.
+15:55 Now what's going to be happen is a
+15:58 restaurant has been
+16:01 has been sent for restaurant in Newark
+16:03 New Jersey
+16:07 as you can see
+16:09 the Yard restaurant photos of Spain adga
+16:12 grill dump restaurant and these are the
+16:15 location this phone number this website
+16:17 there's a location the rating review
+16:20 count the longitude and latitude the AI
+16:23 agent is putting it up here
+16:29 and it's saving it in Google sheet. Now
+16:33 you can also see um the total history of
+16:35 the execution as well. If you click on
+16:37 this you get to see all the history of
+16:39 the execution and you can also stop the
+16:42 execution here. Um there was an error
+16:44 earlier as you can see that was
+16:45 yesterday and you can also go back and
+16:48 also check out the error as well.
+16:51 Now in this case here let's go back to
+16:53 our editor. Our script is still running.
+16:56 As you can see, the workflow stays. Now,
+17:00 while this is running, let me use
+17:01 opportunity to also explain. There are a
+17:03 couple of things you can also do. You
+17:05 can also add a new workflow to this
+17:07 flow. You could also decide to put a
+17:09 comment. For example, we would like to
+17:10 put a comment here.
+17:15 Let's zoom in so that you see what's
+17:16 going on. This one say I'm done. I'm not
+17:19 done yet.
+17:28 Check the restaurant.
+17:33 Let's click on outside. Check the
+17:35 restaurant. As you can see, double click
+17:37 to edit. If you double click on it, you
+17:38 can also edit it.
+17:56 here is a note. You can take the note
+17:59 and you can attach it to any section of
+18:01 your choice. Now,
+18:04 another interesting thing that could
+18:05 also be done, you see, you can add it
+18:07 here. You can also duplicate the notes
+18:09 by pressing command D
+18:12 or you can also click on or right click
+18:14 on it. You can click on duplicate. You
+18:16 can put a note anywhere. So if anybody
+18:19 is taking a look at this, they can also
+18:21 have some context. Guess what? You can
+18:23 also change the color. You can also
+18:26 change the color here.
+18:29 Now this is how you create a lead agent,
+18:34 a lead automation via anything.

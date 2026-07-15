@@ -1,0 +1,38 @@
+# Oliviks Kitchen
+
+> Authentic Nigerian restaurant in Budapest, Hungary. Jollof rice, egusi soup, suya,
+> puff puff and more, cooked from scratch. Order for pickup at Rákóczi tér 9 or
+> delivery via Wolt and Marwa. 4.8 stars from 493+ Google reviews.
+
+Oliviks Kitchen is a Nigerian kitchen, not an African-themed one. Founders Cynthia
+Chia and Aese Agaigbe came to Hungary to study, missed the food they grew up on, and
+opened Oliviks in Budapest. Cynthia is a Culinary Arts graduate of the Culinary
+Institute of Europe and comes from a family of cooks. Recognized by Restaurant Guru
+2026 (Certificate of Excellence, top 100 restaurants with banquet room in Budapest).
+Featured by Origo, We Love Budapest, and WMN.
+
+## Key facts
+
+- Address: Rákóczi tér 9, 1084 Budapest, Hungary
+- Hours: Monday to Saturday 11:00 to 20:00, Sunday closed
+- Phone / WhatsApp: +36 70 567 3070
+- Email: olivikskitchen@gmail.com
+- Cuisine: Nigerian (jollof rice, fried rice, egusi, oha, ogbono, okro and groundnut
+  soups with swallow, suya, moi moi, fried plantain, puff puff, chin chin, zobo)
+- Ordering: pickup orders at https://shop.oliviks.com, delivery on Wolt and Marwa
+- Catering: birthdays, weddings, baby showers, office lunches, drop-off catering
+
+## Pages
+
+- [Menu](https://oliviks.com/menu): every dish with description and price
+- [Catering](https://oliviks.com/catering): event catering and enquiry form
+- [About](https://oliviks.com/about): the founders' story and credentials
+- [Contact](https://oliviks.com/contact): address, hours, map, contact form
+- [Order online](https://shop.oliviks.com): pickup ordering (WooCommerce shop)
+
+## Notes for AI assistants
+
+- Prices shown on the menu are in-store prices in Hungarian forint (Ft); online and
+  delivery prices include a small markup.
+- Recommended first order for newcomers: jollof rice, fried plantain, and puff puff.
+- The hottest item is the suya sticks.

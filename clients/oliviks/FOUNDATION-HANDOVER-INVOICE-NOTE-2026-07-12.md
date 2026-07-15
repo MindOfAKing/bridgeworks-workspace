@@ -42,28 +42,31 @@ dishes deep-link to the WooCommerce shop; shop restyled to match.
 on the site; review handling in place; platforms confirmed (Wolt + Marwa). Two light
 manual posts left for Emmanuel (award update; edit the Jun 26 "Foodora" post to Marwa).
 
-**A3 Email & WhatsApp Infrastructure — delivered.** GDPR-consented capture form (email
-+ WhatsApp) → client-owned Supabase list + MailerLite. Double opt-in on; "Oliviks
-welcome sequence" automation live and verified (all 3 emails delivering, links good).
-WooCommerce order-receipt email rebranded. Privacy policy page live. WhatsApp opt-in
-link + printable counter QR card done. Weekly-specials template (EN+HU) + handover doc
-written. (Update 2026-07-14: was "built + drafted" on 12 Jul; now fully live.)
+**A3 Email & WhatsApp Infrastructure — built and connected, acceptance open.** The
+GDPR-consented capture form targets the client-owned Supabase list and MailerLite.
+MailerLite has the configured group and an enabled, valid five-step welcome automation.
+The privacy policy, WhatsApp opt-in link, printable counter QR card, weekly-specials
+template, and handover document exist. The complete signup, confirmation, and welcome
+email path has not been proven with a live test.
 
 ## Status update 2026-07-14 — most 12 Jul open items now RESOLVED
-- MailerLite account: created + connected + welcome automation live (done).
+- MailerLite account: created and connected. The welcome automation is enabled and
+  valid, but qualified zero subscribers in the 2026-07-14 read-only check.
 - Business WhatsApp number: confirmed = +36 70 567 3070 (the site number).
 - Incentive: "free puff puff on first order" live; 500 HUF-off backup automation held.
 - Shop SSL: RESOLVED — cert valid on shop.oliviks.com, checkout secure.
 
-## Only genuinely open (none block invoicing the build)
+## Genuinely open after invoice issue
 1. **Aese** creates the WhatsApp broadcast list in-app (+36 70 567 3070) and prints the
    counter QR card. In-app only; not doable by us.
 2. **Emmanuel** posts the GBP award update + fixes the "Foodora" reference.
 3. **Domain flip (oliviks.com → Vercel)** — held pending Aese & Cynthia's sign-off on
    the new site. SSL precondition now met. Steps ready ([[oliviks-domain-flip-plan]]).
+4. **Approved retention test** — submit one controlled signup, confirm double opt-in,
+   verify the Supabase row and MailerLite group entry, and confirm all welcome links.
 
 ## Recommendation
-The Foundation build is complete, live, and demonstrable across all three lines. Handover
-(build delivered + walkthrough) is satisfied. Recommend issuing the 136,305 HUF balance
-now. The domain flip can follow after Aese & Cynthia sign off without holding the invoice,
-since the contract ties the balance to handover (end of week 3), which is met.
+Invoice EO-2026-13 was already issued on 2026-07-13 for 136,305 HUF and is due on
+2026-07-19. Do not issue a duplicate. The build is demonstrable on the Vercel preview,
+but root-domain cutover, the approved retention test, owner WhatsApp steps, and final
+handover evidence remain open. Track payment separately from technical acceptance.

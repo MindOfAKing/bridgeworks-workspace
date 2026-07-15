@@ -1,0 +1,25 @@
+date,stage,asset_or_url,metric,baseline_value,final_value,source,evidence_file,next_action
+2026-07-14,baseline,old website,homepage_desktop_screenshot,,captured,https://oliviks.com/,before/legacy-home-desktop-2026-07-14.png,recapture only if legacy changes before cutover
+2026-07-14,baseline,old website,homepage_mobile_screenshot,,captured,https://oliviks.com/,before/legacy-home-mobile-2026-07-14.png,retain for before-after proof
+2026-07-14,baseline,old ordering journey,ordering_route_clarity,,86 homepage hrefs / 11 inline add-to-cart actions / separate shop cart account menu and product routes,public HTML and visual check,decisions/OLIVIKS-ORDERING-JOURNEY-COMPARISON-2026-07-14.md,repeat route comparison after cutover
+2026-07-14,baseline,old website,page_speed_mobile,,LCP 23280 ms / FCP 8840 ms / load 35834 ms / transfer 5556 KB / 102 resources,controlled public Chrome trace,metrics/OLIVIKS-FUNCTIONAL-PERFORMANCE-AUDIT-2026-07-14.md,retain as legacy baseline
+2026-07-14,baseline,old website,page_speed_desktop,,LCP 4952 ms / FCP 3228 ms / load 6475 ms / transfer 3698 KB / 108 resources,controlled public Chrome trace,metrics/OLIVIKS-FUNCTIONAL-PERFORMANCE-AUDIT-2026-07-14.md,retain as legacy baseline
+2026-07-14,final,new website,preview_status,,200,https://oliviks-kitchen.vercel.app/,metrics/OLIVIKS-DELIVERY-VERIFICATION-2026-07-14.md,get written client approval
+2026-07-14,final,new website,live_domain,,not achieved; legacy WordPress still served,https://oliviks.com/,metrics/OLIVIKS-DELIVERY-VERIFICATION-2026-07-14.md,approve and complete domain cutover
+2026-07-14,final,new website,responsive_home_mobile,,390 inner / 390 scroll,Playwright,after/preview-home-mobile-2026-07-14.png,repeat on production domain
+2026-07-14,final,new website,responsive_menu_mobile,,390 inner / 390 scroll,Playwright,after/preview-menu-mobile-2026-07-14.png,repeat on production domain
+2026-07-14,final,new website,responsive_contact_mobile,,390 inner / 390 scroll,Playwright,after/preview-contact-mobile-2026-07-14.png,repeat on production domain
+2026-07-14,final,new website,page_speed_mobile,,preview LCP 2840 ms / FCP 2608 ms / load 6867 ms / transfer 390 KB / 21 resources,controlled public Chrome trace,metrics/OLIVIKS-FUNCTIONAL-PERFORMANCE-AUDIT-2026-07-14.md,repeat on production root after launch
+2026-07-14,final,new website,page_speed_desktop,,preview LCP 2804 ms / FCP 1500 ms / load 3258 ms / transfer 672 KB / 31 resources,controlled public Chrome trace,metrics/OLIVIKS-FUNCTIONAL-PERFORMANCE-AUDIT-2026-07-14.md,repeat on production root after launch
+2026-07-14,final,new website,schema_validation,,local JSON-LD parseable as Restaurant with name URL phone address geo menu hours rating and sameAs,Chrome runtime inspection,metrics/OLIVIKS-FUNCTIONAL-PERFORMANCE-AUDIT-2026-07-14.md,confirm coordinates and review count then validate after launch
+2026-07-14,final,new website,sitemap_status,,local build pass; preview 404,Next.js build and public check,metrics/OLIVIKS-DELIVERY-VERIFICATION-2026-07-14.md,deploy then verify public URL
+2026-07-14,final,new website,robots_status,,local build pass; preview 404,Next.js build and public check,metrics/OLIVIKS-DELIVERY-VERIFICATION-2026-07-14.md,deploy then verify public URL
+2026-07-14,final,new website,llms_status,,preview 200,https://oliviks-kitchen.vercel.app/llms.txt,metrics/OLIVIKS-DELIVERY-VERIFICATION-2026-07-14.md,recheck on production domain
+2026-07-14,final,WooCommerce shop,public_route_health,,200; title Oliviks,https://shop.oliviks.com/,metrics/OLIVIKS-DELIVERY-VERIFICATION-2026-07-14.md,repeat checkout-path QA after cutover
+2026-07-14,final,Supabase,menu_data,,5 categories / 33 items / 0 subscribers,Supabase read-only audit,metrics/OLIVIKS-DELIVERY-VERIFICATION-2026-07-14.md,run controlled signup test after approval
+2026-07-14,final,MailerLite,subscriber_group,,0 active / 1 unconfirmed / 0 unsubscribed,MailerLite read-only API,metrics/OLIVIKS-DELIVERY-VERIFICATION-2026-07-14.md,complete controlled double-opt-in test
+2026-07-14,final,MailerLite,welcome_automation,,enabled / valid / 5 steps / 0 qualified,MailerLite read-only API,metrics/OLIVIKS-DELIVERY-VERIFICATION-2026-07-14.md,verify welcome delivery with approved test address
+2026-07-14,final,Google Search Console,property_status,,Oliviks property absent,Google Search Console read-only audit,metrics/OLIVIKS-DELIVERY-VERIFICATION-2026-07-14.md,add and verify property after approval
+2026-07-14,final,Google Business Profile,profile_changes_published,,partial evidence only,Gmail and local GBP baseline,metrics/OLIVIKS-DELIVERY-VERIFICATION-2026-07-14.md,capture final live state
+2026-07-14,final,WhatsApp,opt_in_qr_scan_success,,not proven,client handover correspondence,metrics/OLIVIKS-DELIVERY-VERIFICATION-2026-07-14.md,owner creates list and approves print/scan test
+2026-07-14,commercial,invoice EO-2026-13,balance_invoice,,136305 HUF issued; due 2026-07-19; payment unverified,Gmail message 19f5cb7a0b6b35ac,metrics/OLIVIKS-DELIVERY-VERIFICATION-2026-07-14.md,do not duplicate; verify payment separately

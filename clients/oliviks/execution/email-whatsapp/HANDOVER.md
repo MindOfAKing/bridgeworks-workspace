@@ -26,16 +26,20 @@ send them weekly specials.
 - Website sign-up form (email + WhatsApp + consent)
 - Private subscriber list (you own it)
 - Privacy policy page
-- Welcome emails written (3), weekly specials template (EN + HU) — ready to load
+- MailerLite group `Oliviks subscribers` connected to the website configuration
+- Enabled and valid five-step `Oliviks welcome sequence` automation
+- Welcome emails written (3), weekly specials template (EN + HU)
 
-**Needs a decision or an account from you before first send:**
-1. **Email tool account.** Create a free MailerLite account (mailerlite.com) with the
-   Oliviks email. BridgeWorks cannot create accounts for you. Once it exists, we
-   connect it and load the welcome emails. Free up to 1,000 subscribers.
-2. **Business WhatsApp number.** Decide which number is the Oliviks WhatsApp. We set
-   up the broadcast list and a QR code for the pickup counter.
-3. **Confirm the offer wording** and how it is redeemed (show email at counter, or a
-   code).
+**Still needs proof or an owner action:**
+1. **End-to-end signup test.** On 2026-07-14 MailerLite contained one unconfirmed
+   subscriber, the automation had qualified zero subscribers, and Supabase contained
+   zero subscriber rows. The form-to-database-to-double-opt-in-to-welcome-email path
+   is not yet proven.
+2. **WhatsApp broadcast list.** Create the list on the business phone using
+   +36 70 567 3070. BridgeWorks can guide this but cannot complete the in-app step.
+3. **Counter card.** Print and place the prepared QR card.
+4. **Offer acceptance.** Confirm the free-puff-puff wording and counter redemption
+   method in writing.
 
 ---
 

@@ -1,0 +1,63 @@
+{
+  "generated_at": "2026-07-15T23:12:38+02:00",
+  "source": "web-search-fallback",
+  "notes": [
+    "YouTube Data API connector returned HTTP 403 Forbidden, so web search was used as a fallback.",
+    "Dates are search-result freshness hints, not canonical YouTube API dates. oEmbed was used only for title and channel confirmation where possible."
+  ],
+  "queries": [
+    "site:youtube.com/watch AI automation agency n8n Claude Code local business SEO after:2026-07-09",
+    "site:youtube.com/watch \"Claude Code\" \"AI agent workflow\" after:2026-07-09",
+    "site:youtube.com/watch \"AI visibility\" GEO local business SEO after:2026-07-09"
+  ],
+  "items": [
+    {
+      "source": "web-search",
+      "video_id": "xCetPeRKN1U",
+      "title": "Build & Deploy Client Websites Using Only Claude Code (₹70K/Month)",
+      "channel": "Anaam Rasool",
+      "url": "https://www.youtube.com/watch?v=xCetPeRKN1U",
+      "fit_reason": "Potentially relevant to Foundation website build workflow and local-business website demos, but transcript language was not English."
+    },
+    {
+      "source": "web-search",
+      "video_id": "ZX3A9QubE2M",
+      "title": "How To Build an AI Lead Generator with n8n Step by Step",
+      "channel": "Tito Space",
+      "url": "https://www.youtube.com/watch?v=ZX3A9QubE2M",
+      "fit_reason": "Relevant to prospect research automation, but must stay approval-gated and non-outreach."
+    },
+    {
+      "source": "web-search",
+      "video_id": "8rVQuZlRaqo",
+      "title": "Steal My Actual AI Agent Workflow (2027)",
+      "channel": "Nick Saraev",
+      "url": "https://www.youtube.com/watch?v=8rVQuZlRaqo",
+      "fit_reason": "High fit for BridgeWorks scheduled routines, AI-human work queues, evals, and verification gates."
+    },
+    {
+      "source": "web-search",
+      "video_id": "OdEXA4yrFaQ",
+      "title": "GEO (AI SEO) vs SEO: Why It Matters in 2026",
+      "channel": "Jason Gan",
+      "url": "https://www.youtube.com/watch?v=OdEXA4yrFaQ",
+      "fit_reason": "Relevant to AI visibility explanation for local SMEs."
+    },
+    {
+      "source": "web-search",
+      "video_id": "pf5Qax_Tazc",
+      "title": "AI Search Optimization: How to Rank Your Brand in the Age of GEO | Chirag Kulkarni",
+      "channel": "The GEO Blueprint: AI Search",
+      "url": "https://www.youtube.com/watch?v=pf5Qax_Tazc",
+      "fit_reason": "High fit for AI visibility methodology, brand mentions, citations, and authority signals."
+    },
+    {
+      "source": "web-search",
+      "video_id": "XScr5NW9PzM",
+      "title": "Your Competitor Is Getting Recommended by ChatGPT. Here's Why | Ranko AI Visibility",
+      "channel": "WorksBuddy",
+      "url": "https://www.youtube.com/watch?v=XScr5NW9PzM",
+      "fit_reason": "Potential AI visibility competitor-monitoring angle. Not extracted this run because higher-fit transcripts were available."
+    }
+  ]
+}

@@ -6,6 +6,18 @@
       "runtimeExecutable": "npm",
       "runtimeArgs": ["run", "dev", "--prefix", "website"],
       "port": 3000
+    },
+    {
+      "name": "bridgeworks-agency",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["run", "start", "--prefix", "C:/Users/User/bridgeworks-agency", "--", "-p", "3105"],
+      "port": 3105
+    },
+    {
+      "name": "memo-viewer",
+      "runtimeExecutable": "python",
+      "runtimeArgs": ["-m", "http.server", "3106", "--directory", "C:/Users/User/AppData/Local/Temp/claude/C--Users-User-Projects-bridgeworks-workspace-clients-oliviks/79bc6b47-2326-439b-83cc-cd617916c72b/scratchpad"],
+      "port": 3106
     }
   ]
 }

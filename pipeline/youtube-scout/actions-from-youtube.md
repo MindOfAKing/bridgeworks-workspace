@@ -444,3 +444,50 @@ Area: Foundation Website QA, Local SEO, GEO / AEO, Website Production System
 Change: Add a pre-page-planning map connecting GBP primary category, real services, service areas, photos, hours, review policy, service pages, localized content, static generation, and Lighthouse QA.  
 Evidence file: `pipeline/youtube-scout/transcript-extractions/yt-20260709-005-local-seo-claude-code-foundation-qa.md`  
 Status: Needs checklist integration. No fake service areas, review gating, autoposting, paid SEMrush/Make spend, GitHub push, or client publishing from this run.
+
+## 2026-07-15
+
+### Action: Create Paid AI Readiness Diagnostic Outline
+
+Source: Greg Isenberg - `The $1,000/hour Solo AI business (Full Course)`
+Decision: Adapt
+Area: AI Growth Systems, Sales And Prospecting, Client Delivery
+Change: Create a diagnostic-first offer outline covering owner interview, transcript pain extraction, tool/process QA, effort versus impact, 4-day quick-start plan, and bounded implementation upsell.
+Evidence file: `pipeline/youtube-scout/transcript-extractions/yt-20260715-001-ai-tools-assessment-diagnostic.md`
+Status: Outline created at `operations/client-acquisition-engine/offers/PAID-AI-READINESS-DIAGNOSTIC-OUTLINE-2026-07-15.md`. Do not import the $999 price anchor or guarantee without BridgeWorks proof.
+
+### Action: Create AI Work Queue Eval Card
+
+Source: Nick Saraev - `Steal My Actual AI Agent Workflow (2027)`
+Decision: Adopt internally
+Area: Agency Operations, AI Growth Systems, Client Delivery
+Change: Add a card for recurring AI work with task state, AI-ready signal, source context, allowed actions, eval checklist, proof output, and human approval point.
+Evidence file: `pipeline/youtube-scout/transcript-extractions/yt-20260715-002-ai-human-work-queue-evals.md`
+Status: Needs template. No new task software, webhook, connector write, or public action without approval.
+
+### Action: Add Local Lead Infrastructure Stack To Lead Leak Review Backlog
+
+Source: Jason Wardrop - `I Cloned One 'AI Employee' → Now I Sell It To Every Local Business ($299/mo Each)`
+Decision: Adapt with constraints
+Area: AI Growth Systems, Foundation Offer, Sales And Prospecting
+Change: Add website, lead capture, missed-call text-back, booking, review request route, follow-up, unified inbox, and CRM as Lead Leak Review checks.
+Evidence file: `pipeline/youtube-scout/transcript-extractions/yt-20260715-003-local-ai-employee-scope-filter.md`
+Status: Needs checklist. No free website build, demo deployment, call, text, client-facing pitch, software signup, or vendor commitment.
+
+### Action: Create Prospect Research Intake Guardrail
+
+Source: Tito Space - `How To Build an AI Lead Generator with n8n Step by Step`
+Decision: Adapt later
+Area: Outreach Infrastructure, Competitive Intelligence, AI Growth Systems
+Change: Add a guardrail for approved niche, city, source, allowed fields, manual verification, duplicate checks, and no-outreach status before any automated prospect research workflow runs.
+Evidence file: `pipeline/youtube-scout/transcript-extractions/yt-20260715-004-n8n-prospect-research-intake-guardrail.md`
+Status: Needs guardrail. No n8n import, activation, CRM write, Google Sheet write, call, email, or outreach from this run.
+
+### Action: Add AI Visibility Authority Signal Map
+
+Source: The GEO Blueprint - `AI Search Optimization: How to Rank Your Brand in the Age of GEO | Chirag Kulkarni`
+Decision: Adopt as methodology
+Area: Content And Visibility Systems, AI Visibility, Digital Growth Engine Reporting
+Change: Add query-level mapping of answer, competitors, owned-source evidence, third-party evidence, reviews/directories, content gaps, confidence, and truthful next action.
+Evidence file: `pipeline/youtube-scout/transcript-extractions/yt-20260715-005-geo-authority-signal-map.md`
+Status: Needs methodology integration. No AI-ranking promises, paid tool dependency, fake reviews, fake mentions, or citation spam.

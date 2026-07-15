@@ -27,16 +27,16 @@ Final handover under contract section 4 requires all four conditions below.
 |---|---|---|---|---|
 | Website live on `oliviks.com` | Contract section 4 | Blocked | Local/live preview evidence exists for `https://oliviks-kitchen.vercel.app`; no evidence found that `oliviks.com` points to the new Vercel site. | Needs explicit production/domain approval and domain cutover evidence. |
 | GBP changes published | Contract section 4, section 2.2 | Partial | `reports/gbp-evidence/GBP-BASELINE-2026-06-26.md` says description submitted and pending Google review. Action checkboxes remain unchecked. | Needs GBP access/evidence screenshots for categories, attributes, Q&A, posts, photos, menu, NAP cleanup. |
-| Email and WhatsApp systems operational | Contract section 4, section 2.3 | Draft ready / blocked | `execution/RETENTION-PACK-OLIVIKS-2026-06-05.md` contains copy, welcome sequence, WhatsApp templates, GDPR notes. | Needs client-owned provider account, WhatsApp number, incentive approval, popup integration, test subscriber, QR flow, WooCommerce/list integration. |
-| One-page handover document for each workstream | Contract sections 2.2, 2.3, 4 | Not started / unknown | No final handover docs found in local search. | Create A1 Website, A2 GBP, A3 Email/WhatsApp one-page handover docs after live systems are verified. |
+| Email and WhatsApp systems operational | Contract section 4, section 2.3 | Partial / blocked | MailerLite group and enabled valid 5-step automation verified; 0 active, 1 unconfirmed, 0 qualified. Supabase has 0 subscribers. | Needs approved end-to-end subscriber test, client WhatsApp list/QR action, and handoff proof. |
+| One-page handover document for each workstream | Contract sections 2.2, 2.3, 4 | Partial | `OLIVIKS-HANDOVER-2026-07-14.md` and workstream handover material exist. | Deliver owner walkthrough and capture client acceptance after live systems are verified. |
 
 ## Kickoff and client responsibility gates
 
 | Gate | Contract source | Current status | Evidence | Next action |
 |---|---|---|---|---|
-| First payment received, 136,306 HUF | Contract sections 4 and 5 | Unknown | No payment proof inspected in local Oliviks folder. | Emmanuel confirms paid/invoiced status before treating final payment as due. |
+| First payment received, 136,306 HUF | Contract sections 4 and 5 | Recorded paid / not independently verified | `FOUNDATION-HANDOVER-INVOICE-NOTE-2026-07-12.md` records EO-2026-11 as paid in June. | Emmanuel retains bank/payment evidence if needed. |
 | WordPress admin access | Contract section 6 | Unknown / possibly obsolete | Contract required WP access. Current path appears to be Next.js/Vercel replacement. | Decide whether WP access is still needed for redirects, backup, order receipt, old-site cleanup, or domain migration. |
-| GBP manager access | Contract section 6 | Unknown | GBP baseline exists, but completion proof not found. | Confirm access and whether BridgeWorks can publish. |
+| GBP manager access | Contract section 6 | Done | Gmail correspondence shows Emmanuel received manager access on 2026-06-11. | Use access only for approved publication and capture final evidence. |
 | 30 to 50 photos or written permission to source existing assets | Contract section 6 | Partial | Design system assets and legacy media are present. QA says legacy WordPress photos improved credibility. | Confirm client-approved final photo set and rights. |
 | Business WhatsApp number | Contract section 6 | Unknown | Retention pack has copy, but no operational proof. | Client confirms WhatsApp Business number and opt-in method. |
 | First-subscriber incentive | Contract section 6 | Draft ready | Retention pack recommends free puff puff or 500 HUF off. | Client chooses final incentive. |
@@ -54,13 +54,13 @@ Final handover under contract section 4 requires all four conditions below.
 | A1.5 | Cleanup: `/sample-page/`, `/cart-2`, `/checkout-2`, `/my-account-2` deleted or redirected | Blocked / unknown | No WordPress access or redirect evidence found. | Need old-site backup and redirect checks against production domain. If new Vercel site replaces WP, add Vercel redirects or domain-level 301 plan. |
 | A1.6 | Contact page rebuilt, chef hotline renamed, Google Map embedded, address structured data | Done local / partial | `website/src/app/contact/page.tsx`; `website/src/lib/schema.ts`; `website/src/data/site.ts` contains Rákóczi tér 9. | Verify Google Map embed and schema on live URL. |
 | A1.7 | Empty Shop page resolved, either populated or removed from navigation | Partial / needs live check | Next.js routes include `/menu`, no `/shop` route found. | Need verify old production `/shop` does not remain in nav or resolves appropriately after domain cutover. |
-| A1.8 | Pricing visible on every menu item | Partial | Script count found `price_null_count: 0` and 33 price strings in `src/data/menu.ts`. | QA report still mentions `Price TBC` for Pepper soup and Abacha/Fish placeholders. Confirm whether TBC is acceptable or replace with owner-approved prices before handover. |
+| A1.8 | Pricing visible on every menu item | Done preview / needs approval | Supabase read verified 33 current menu items with price labels; preview menu no longer shows the stale Banga, Abacha, or `Price TBC` entries. | Capture final owner approval and repeat on production domain. |
 | A1.9 | SEO basics: meta descriptions, Open Graph tags, alt text, focus keyword per page | Partial | `website/src/lib/schema.ts`; app pages exist; README says meta/OG built. | Need focused SEO verification: metadata per page, OG image, alt text audit, focus keyword log. |
 | A1.10 | Page speed pass, image compression, caching, Elementor bloat reduced where possible | Partial | Next.js build passes. Legacy photo QA exists. | Need live Lighthouse/PageSpeed or at least mobile performance pass. Elementor bloat reduction only applies if staying on WP; current path is Next.js replacement. |
 | A1.11 | Mobile responsive QA across all pages on iOS and Android | Partial / strong local evidence | `.hermes/qa/live-visual-review/report.md` checked Home, Menu, About desktop/mobile. `.hermes/qa/report.md` mentions cart QA. | Need Contact, Catering, Admin if included, and live production domain/mobile screenshots. |
 | A1.12 | Pre-handover backup of existing site | Unknown / blocked | No backup evidence found in inspected files. | If old WP is still live, create/record backup before domain cutover or live mutation. |
 | A1.extra | Contact form via Resend | Partial / blocked | `website/src/app/api/contact/route.ts` includes Resend. README lists `RESEND_API_KEY`, `CONTACT_TO`, `CONTACT_FROM`. | Add Vercel env vars and run live form test after approval. |
-| A1.extra | Supabase admin/CMS path for client-editable menu | Done local / blocked for activation | `website/src/app/admin/page.tsx`; `website/src/lib/cms/menu.ts`; `website/supabase/schema.sql`; `seed-menu.sql`; `activate.sql`; `supabase/README.md`. | Create/link Supabase project, run SQL, add Vercel env vars, redeploy, verify `/api/admin/menu` returns `source: "supabase"`. |
+| A1.extra | Supabase admin/CMS path for client-editable menu | Connected preview / handover partial | Project `toltnysainnkpxfxibff` is healthy; preview admin reports Supabase and shows 33 items. | Replace temporary shared-secret workflow with an approved owner-auth plan if ongoing editing is included, then complete walkthrough. |
 | A1.extra | Local code health | Done local | Previous Projects sweep: `npx tsc --noEmit`, `npm run lint`, `npm run build`, `npm audit --audit-level=moderate` all green. | Keep as code evidence, not handover completion evidence. |
 
 ## A2. Google Business Profile Optimization, 65,427 HUF
@@ -84,15 +84,15 @@ Final handover under contract section 4 requires all four conditions below.
 
 | # | Proposal deliverable | Current status | Local evidence | Missing / next action |
 |---|---|---|---|---|
-| A3.1 | Email provider account set up, MailerLite or Beehiiv free tier, owned by client | Not started / blocked | Retention pack recommends assets but no account evidence found. | Client chooses provider and owns login. Do not create or mutate account without approval. |
+| A3.1 | Email provider account set up, MailerLite or Beehiiv free tier, owned by client | Connected / ownership not reverified | MailerLite group `Oliviks subscribers` and automation were verified read-only. | Confirm client ownership/access in the walkthrough. |
 | A3.2 | Email capture popup with first-order incentive | Draft ready / blocked | Retention pack contains popup copy and incentive options. | Need final incentive approval, provider form, site integration, mobile test. |
-| A3.3 | 3-email welcome sequence | Draft ready / blocked | `execution/RETENTION-PACK-OLIVIKS-2026-06-05.md` has all 3 emails. | Needs provider setup, double opt-in, test subscriber, approval. |
+| A3.3 | 3-email welcome sequence | Configured / untested | MailerLite automation is enabled, valid, has 5 steps, and has 0 qualified subscribers. | Run one approved double-opt-in and welcome-delivery test. |
 | A3.4 | Weekly specials email template EN/HU | Partial / draft ready | Retention pack has English weekly template. GBP pack includes some HU drafts, but retention pack is not fully HU. | Add Hungarian weekly template or native polish pass if EN/HU is required. |
 | A3.5 | Branded WooCommerce order receipt email | Draft ready / blocked | Retention pack includes receipt rebrand notes. | Needs WordPress/WooCommerce access or alternative if Next.js path replaces WP ordering. |
 | A3.6 | GDPR compliance: consent, double opt-in, unsubscribe, privacy policy update | Draft ready / blocked | Retention pack contains consent text and privacy notes. | Needs provider implementation and privacy policy page/update. Verify double opt-in and unsubscribe. |
 | A3.7 | WhatsApp Business broadcast list with website and counter QR opt-in | Draft ready / blocked | Retention pack has WhatsApp opt-in copy, consent line, welcome message, broadcast template. | Needs client WhatsApp Business number, QR generation, counter placement, test scan. |
 | A3.8 | WooCommerce integration: customers added to list with double opt-in | Not started / blocked | No integration evidence found. | Needs WooCommerce access, chosen email provider, GDPR setup. If current ordering is not WooCommerce, define replacement integration. |
-| A3.9 | One-page Email and WhatsApp handover document | Not started / unknown | Retention pack has a handover checklist, not a final handover doc. | Draft after account/provider/WhatsApp are operational and tested. |
+| A3.9 | One-page Email and WhatsApp handover document | Drafted / acceptance pending | `execution/email-whatsapp/HANDOVER.md` records current provider state and owner actions. | Deliver walkthrough after retention and WhatsApp tests are evidenced. |
 
 ## Proposal optional items and scope control
 
@@ -109,15 +109,12 @@ Final handover under contract section 4 requires all four conditions below.
 
 1. Confirm commercial gate: signed contract, first payment, and current client-approved scope.
 2. Confirm whether the active website path is Next.js/Vercel replacement or WordPress improvement.
-3. If Next.js is accepted, decide whether old WordPress cleanup/redirects are still owed and how to evidence them.
+3. Obtain written client approval for the Next.js preview before domain or DNS changes.
 4. Get final client approval for menu list, prices, `Price TBC` items, photos, address, order flow, and platform wording.
 5. Prepare A2 GBP publication batch from existing drafts, then publish only after explicit approval and access.
-6. Prepare A3 provider setup decision card: MailerLite vs Beehiiv, incentive, WhatsApp number, QR flow, WooCommerce/list integration path.
-7. Create three one-page handover docs after systems are verified:
-   - Website handover
-   - GBP handover
-   - Email and WhatsApp handover
-8. Before requesting final payment, collect handover proof:
+6. Approve and run one controlled MailerLite double-opt-in/welcome test; complete the client-owned WhatsApp number, QR, and list flow.
+7. Deliver the existing handover material in an owner walkthrough and capture acceptance.
+8. Before claiming final completion, collect handover proof:
    - production URL/domain evidence
    - live GBP screenshots
    - test email subscriber evidence
@@ -126,4 +123,4 @@ Final handover under contract section 4 requires all four conditions below.
 
 ## Bottom line
 
-The local website code is healthy and materially advanced. The Foundation engagement is not complete until the Google Business Profile and Email/WhatsApp workstreams are operational, evidenced, and handed over. The biggest current risks are external access, approval, domain/live deployment, GBP publication proof, and retention-system implementation.
+The website preview and its Supabase menu are healthy and materially advanced. The Foundation engagement is not complete until the root-domain launch, Google Business Profile evidence, retention/WhatsApp tests, and handover acceptance are complete. The biggest current risks are client approval, domain configuration, final GBP proof, controlled retention testing, and acceptance evidence.

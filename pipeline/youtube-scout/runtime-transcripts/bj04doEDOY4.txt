@@ -1,0 +1,496 @@
+00:00 After receiving a massive number of
+00:02 updates over the past few weeks, Claude
+00:04 is now more powerful than ever before.
+00:07 But opening it up for the first time may
+00:09 feel confusing if you're relying on any
+00:12 Claude tutorial that's more than a week
+00:14 old. So this video will be the most
+00:16 up-to-date guide you need to get started
+00:19 with the new Claude. I'll cover
+00:21 everything that matters and show you
+00:22 step-by-step how to use Claude in a way
+00:25 that anyone can understand. You can
+00:27 start by coming to claude.ai.
+00:29 If you don't have an account already,
+00:30 you can sign up for one here. Then you
+00:33 can take a look at the different pricing
+00:34 plans. The good news is that you can try
+00:36 out Claude for free. However, if you are
+00:39 going to use this seriously, I would
+00:41 suggest you at least sign up for their
+00:42 pro plan. That includes more usage than
+00:45 the free plan, and includes Claude Code,
+00:47 Claude Cowork, and Claude Design. We'll
+00:49 cover all of that in this video. Once
+00:52 you have an account and you're logged
+00:54 in, your dashboard will look like this.
+00:57 Right here in the middle is the prompt
+00:58 box. This is where you can begin
+01:00 chatting with Claude. If you've ever
+01:03 used ChatGPT or Gemini in the past, this
+01:06 will work very similarly. You type in a
+01:09 prompt, send it along, and then you can
+01:11 chat back and forth with Claude. But
+01:13 before you start really using this,
+01:15 there are some settings that I suggest
+01:16 you change. Come down to the bottom
+01:19 left, you should see your name here, and
+01:20 you can click on that. Then click on
+01:22 settings. We'll start by coming over to
+01:25 capabilities. You want to make sure that
+01:27 search and reference chats is toggled
+01:30 on. And if you see generate memory from
+01:32 chat history, you want that toggled on
+01:34 as well. That will allow Claude to learn
+01:38 about you as time goes on, so that the
+01:41 responses it sends you in the future are
+01:43 more personalized for you. If you've
+01:45 already been using an AI provider in the
+01:48 past, you can click right here where it
+01:50 says start import, and that will walk
+01:52 you through the process of importing
+01:54 your memory from that other AI provider.
+01:57 Next, let's come on the left here where
+01:59 it says general. Down here, you'll see
+02:01 the instructions for Claude. This is
+02:03 where you can give Claude instructions
+02:05 and context that you want it to keep in
+02:07 mind across all of your chats.
+02:10 What I've put together for you is this
+02:11 template where you can fill in just some
+02:13 basic information about who you are,
+02:16 what you're going to use Claude for, how
+02:18 you want Claude to respond, and any
+02:20 other context you want it to know about
+02:21 you. You could spend just a couple of
+02:24 minutes filling this out, copy it, and
+02:26 then paste it into the instructions.
+02:28 Then Claude will know all of that about
+02:31 you and how you want it to act and
+02:33 respond when you're chatting with it.
+02:36 There are a lot of other settings in
+02:37 here, but the default settings for all
+02:39 those are more than fine, so we can
+02:41 leave those alone and then close the
+02:43 settings. Next, look on the top left
+02:45 here, you should notice that you can
+02:47 toggle between home and code.
+02:50 Code is Claude code. This is designed
+02:52 for coders and developers.
+02:55 We're not going to be spending any time
+02:56 going over that in this video, but there
+02:58 are plenty of other videos on YouTube if
+03:01 you are a coder and developer as to how
+03:03 to use Claude code. So, we're going to
+03:05 stick inside of home. Home is made up of
+03:08 two different parts. Inside the prompt
+03:11 box right here, we can see both of them.
+03:13 We have regular chat and we have
+03:15 co-work.
+03:16 Chat is where you go when you just want
+03:18 to have a back-and-forth conversation
+03:20 with Claude.
+03:22 For instance, here I asked Claude chat,
+03:24 "What is the best way to optimize my
+03:26 sleep?" It sent me a response. I asked
+03:28 it a follow-up question. It sent me
+03:30 another response, and we had this
+03:31 back-and-forth conversation.
+03:33 So, if the end goal is the chat itself,
+03:37 that is when you'd want to use Claude
+03:39 chat. The other option is Claude
+03:41 co-work. Co-work is what you want to use
+03:44 when you want Claude to do work for you.
+03:47 For example, right here I told Claude
+03:50 co-work to put together a presentation
+03:52 for me about how to optimize sleep. I
+03:54 told it go out and find the most current
+03:56 research, look at some anecdotal
+03:58 reports, and put together an HTML
+04:01 report. And it not only gave me the
+04:03 information like it did in the chat, but
+04:06 it also put together this presentation
+04:08 for me. There's definitely some overlap
+04:11 between what you can do with chat and
+04:13 what you can do with Co-work, but it is
+04:15 important to know when you should use
+04:17 which one. The good news though is that
+04:20 if you mess this up and you accidentally
+04:22 start a chat in Co-work, or you have
+04:25 chat do some work for you, it's not
+04:27 going to matter too much. But the better
+04:30 that you get at delegating the right
+04:32 task to the right mode, the better the
+04:35 results are you are going to get out of
+04:37 Claude. That will just come with some
+04:39 time and experience. What you'll also
+04:41 notice is that both chat and Co-work
+04:43 share the same dashboard. So if we come
+04:45 over here on the left under the recent
+04:47 section, you'll notice that right here
+04:49 is the chat that I just started. And we
+04:52 know that this is a chat because it has
+04:54 a chat bubble next to it. This is my
+04:57 Co-work task, and we know that because
+04:59 it has this checklist next to it. This
+05:01 will show you all your most recent chats
+05:03 and tasks sorted so that the one that
+05:06 you most recently interacted with
+05:08 appears at the top. For any of these,
+05:10 you can click on these three dots on the
+05:11 right and pin them so that they get
+05:14 moved up here and don't get lost.
+05:17 You can also click on these three dots
+05:18 and rename them or add them to a
+05:20 project. We haven't talked about
+05:22 projects yet, but you can find those by
+05:25 clicking up here where it says projects.
+05:27 Projects are dedicated workspaces where
+05:30 you can organize chats, files, and
+05:32 instructions around one ongoing task or
+05:34 topic. For instance, right here I have
+05:36 one called invoices. If we open this up,
+05:39 you'll notice that right here on the
+05:41 right I have instructions that apply to
+05:44 any chat or Co-work task that I start
+05:47 from within this project. So, since this
+05:50 is the project that I use for creating
+05:52 invoices, these instructions tell it to
+05:55 always output invoices in a particular
+05:57 style.
+05:59 There's also a section here for memory.
+06:01 This is a memory system that exists
+06:03 across the project. So, as Claude learns
+06:06 more about the type of work I do inside
+06:09 my invoices project, it will update this
+06:12 memory so that's more helpful in the
+06:14 future.
+06:15 You can also add contacts, things like
+06:17 PDFs, documents, or other text that
+06:20 Claude can use as a reference when you
+06:23 work inside this project. To set up a
+06:25 new project, you can click on the left
+06:27 where it says projects.
+06:29 Click on new project and give it a name.
+06:32 Then you can click on create project.
+06:34 And over here on the left, you can click
+06:36 on the plus icon, give it the project
+06:38 instructions, then click on the plus
+06:40 icon under context, and upload any files
+06:43 from your device, GitHub, or Google
+06:45 Drive.
+06:46 If you have some projects that you use
+06:47 quite frequently, you can return back to
+06:50 projects over here on the left and pin
+06:52 them so that they always appear on the
+06:54 left sidebar.
+06:56 So, you can click on these three dots,
+06:57 click on pin,
+06:59 and now over here on the left under
+07:01 pinned, you'll not only see your pinned
+07:03 tasks and chats, but you'll also see
+07:05 your pinned projects. This makes it a
+07:08 lot easier to return back to them later.
+07:10 Now, like I said before, any chat or
+07:12 co-work task you start inside a project
+07:15 will stay inside this project. So, over
+07:17 here as this is working, we can return
+07:20 back to the sleep project and we can see
+07:23 that chat right here.
+07:25 But, you can also add other tasks and
+07:27 chats that you didn't start from within
+07:30 the project. Over here on the left is
+07:32 the task we started before. I can click
+07:35 on these three dots, hover over add to
+07:37 project, and choose the sleep one. So,
+07:40 now that appears right here.
+07:42 And then here is the chat that we had
+07:44 about sleep, and I'll do the same thing.
+07:47 So, what I want to point out for you
+07:48 here is not only that you can move
+07:50 things into projects, but also that you
+07:53 can have both chat chats and co-work
+07:56 tasks within projects. I'll say in
+07:59 general, pretty much everything we're
+08:01 setting up here in Claude works with
+08:03 both chat and co-work. So, all the
+08:05 settings we went over before, the
+08:07 instructions for Claude, and the
+08:08 projects work with chat and co-work.
+08:11 Both of them also use the same
+08:13 connectors and skills. Connectors are
+08:15 how you connect Claude with third-party
+08:17 tools.
+08:18 If you click on the left here where it
+08:20 says customize, that will open up the
+08:22 settings, and then down here you can
+08:24 click on connectors.
+08:26 These are all the third-party connectors
+08:29 that you currently have added to your
+08:31 Claude account. You can click on the top
+08:33 right here and click on browse
+08:34 connectors to see new ones that you can
+08:37 add.
+08:38 Some of the most popular ones are of
+08:39 course Gmail, Google Drive, and
+08:42 Calendar, but you can come in here and
+08:44 find any tool that you commonly use and
+08:47 see if it's available as a connector.
+08:49 And what's great about that is now
+08:51 Claude will have access to the
+08:53 information inside that app or tool you
+08:56 use, and may even be able to write to
+08:59 that app or tool that you use. Here for
+09:02 instance, if I close this out and return
+09:04 back to my connectors, you can see that
+09:07 Claude has access to my Gmail account,
+09:10 and it has access to my Notion account.
+09:12 So, let's say you use Notion with your
+09:15 team to keep track of different sales
+09:17 leads. I put together this mock CRM
+09:20 right here with all of the leads that
+09:23 we're following up on, along with some
+09:25 comments that some of my teammates have
+09:26 left, their email, the last time we've
+09:29 contacted them, etc.
+09:31 What I'm going to ask Claude to do is to
+09:34 look through my Gmail for any new
+09:36 contact that we've had with these leads
+09:39 and to bring that information into this
+09:41 CRM.
+09:43 For this type of task, I'm not going to
+09:46 use chat. I'm going to use co-work
+09:48 because I actually wanted it to go out
+09:50 and do some work for me. I will tell it
+09:53 go through my Gmail inbox, find any new
+09:56 updates from my leads that I have in my
+09:59 sales leads CRM in Notion. Then update
+10:02 the database, give me a report on what's
+10:04 new. And you can see now it is logging
+10:06 the email activity into the records on
+10:09 Notion and flagging the hottest deals
+10:12 with a comment. And it's doing all of
+10:14 that through the Notion connector. Now
+10:17 that it's done, it's giving me an entire
+10:18 report on everything that it found and
+10:21 opening up the CRM, we can see all those
+10:23 changes in here. So that's how
+10:25 connectors work. They quite literally
+10:28 connect Claude with third-party tools.
+10:31 Now this workflow that we just went
+10:33 through is great. And I want to be able
+10:36 to do this same workflow again in the
+10:38 future.
+10:40 Now what I could do is start a new task
+10:42 in the future and just give it the exact
+10:45 same prompt that I gave it just a couple
+10:47 of minutes ago.
+10:49 But instead, I'm going to turn this into
+10:51 a skill. A skill is just a repeatable
+10:54 workflow and they're so easy to set up
+10:57 because I can just tell Claude here, now
+10:59 turn this into a skill so every time I
+11:01 ask you to update my lead CRM, you go
+11:04 through this workflow.
+11:06 Once you send it along, it will then
+11:08 create the skill for you. You can click
+11:10 right here to save the skill and then
+11:12 when you click on new on the top left,
+11:14 you can invoke the skill from either
+11:16 chat or from within co-work by typing
+11:19 forward slash and typing in the name of
+11:21 it, which was CRM, I believe. Yes,
+11:24 update lead CRM. So if I click on that
+11:27 and send it along, it will then execute
+11:29 that exact same workflow and I never
+11:31 have to repeat myself ever again. But
+11:33 let's take this one step further because
+11:36 I want this exact workflow to run for me
+11:39 every morning automatically at 8:00 a.m.
+11:43 So, I will return back to the task where
+11:45 we first executed this workflow.
+11:48 And this time I will tell it run this
+11:50 for me every morning at 8:00 a.m. And
+11:54 sending that along, it will then set up
+11:56 the scheduled task which you can then
+11:58 approve. That will run every morning for
+12:00 me at 8:00 a.m. If I want to make any
+12:03 changes to it, I can click on the left
+12:04 here where it says scheduled. This will
+12:06 show me all my scheduled tasks and I can
+12:09 either pause them, edit them, or delete
+12:11 them. Before I show you how Claude works
+12:13 on the desktop and mobile app, I want to
+12:15 quickly talk about usage limits and the
+12:17 different models. If you click on your
+12:20 name on the bottom left and open up the
+12:22 settings,
+12:23 over here on the left you can click on
+12:25 usage. In your account, you may see two
+12:28 or three of these different usage meters
+12:30 here. Everyone should see this one which
+12:33 shows your current session. This resets
+12:36 multiple times per day. If it reaches
+12:38 100%, you're not going to be able to use
+12:40 Claude until it resets.
+12:42 You should also have a section with your
+12:44 weekly limits and you probably have one
+12:47 called all models. If this one fills up,
+12:50 you're not going to be able to use
+12:51 Claude until it resets for the week. All
+12:53 of these limits are currently shared
+12:54 between chat and co-work, but that may
+12:56 change in the future. There's also a
+12:58 limit meter down here for Fable. We'll
+13:01 talk about that in a moment because that
+13:03 may or may not be available by the time
+13:05 you're watching this video. Closing this
+13:07 out, you can then come to the prompt box
+13:09 to see all of the models that are
+13:11 available to you.
+13:12 The one at the bottom, which is Haiku,
+13:14 is the weakest model, so it will go
+13:17 through your usage slower. The one at
+13:19 the top, which will be either Opus or
+13:21 Fable, is the most powerful model that
+13:24 you have access to, which will go
+13:25 through your usage faster. As things
+13:28 currently stand, I suggest that most
+13:30 people start by using Sonnet as the
+13:32 default. It's a good balance between
+13:34 intelligence and cost. For more complex
+13:37 tasks, you can then jump up to Opus. And
+13:40 if you find yourself barely getting
+13:41 through your usage limits every day and
+13:44 every week, you can make Opus your
+13:46 default model. Fable is a bit of an
+13:49 unknown right now because as of the
+13:51 recording of this video, it is included
+13:53 with your subscription. But Anthropic
+13:56 has said that in the future it won't be
+13:58 included with your subscription. Rumor
+14:00 has it that may change. Either way, it's
+14:03 the most expensive model, so you want to
+14:05 use it very sparingly. Let's now jump
+14:08 over to the Claude desktop app. This is
+14:10 it right here. And the first thing
+14:12 you'll notice is that this looks almost
+14:14 identical to the web app. But under the
+14:16 surface, there are some special things
+14:18 going on here with co-work that unlock
+14:21 some capabilities that you do not get on
+14:23 the web. Now, chat is going to work
+14:26 exactly the same as it does on the web.
+14:28 But if you switch over to co-work,
+14:30 you'll notice that it now says here, do
+14:33 you want to work inside a project or a
+14:35 folder? That's because the desktop app
+14:38 has access to local files on your
+14:40 computer. With this selected, I can now
+14:42 click where it says choose a different
+14:44 folder. Now, I can select a folder on my
+14:47 computer. Here for instance, is a folder
+14:50 I have called budget. Inside of this, I
+14:53 have all of these files, these Excel
+14:55 files going over my budget, my expenses,
+14:58 my financial goals, all of that.
+15:00 So, selecting that, Claude co-work will
+15:03 now have access to those files that are
+15:06 inside that folder. I didn't need to
+15:09 attach them, I didn't need to upload
+15:11 them. It sees what is on my computer if
+15:14 I give it permission for that. And using
+15:16 that, I can now ask Claude co-work to
+15:19 create reports for me, documents,
+15:21 spreadsheets, presentations, using the
+15:24 information in those files.
+15:27 This can allow co-work to look at the
+15:30 files, edit them, or create new files
+15:33 directly inside my folder on my
+15:35 computer. As this is working, let me
+15:38 show you something else. Anytime you
+15:40 start a new task using Claude co-work on
+15:43 the desktop app, you always want to
+15:45 check up here for this symbol. If you
+15:48 see a cloud, that means it is running in
+15:50 the cloud. So, if we return back to the
+15:53 web app, here we go. We're back in the
+15:55 web app. Over here on the left, you can
+15:58 see that under recents, I have that task
+16:02 that I just started on my desktop app.
+16:05 It is available in the cloud and it's
+16:08 still accessing my local files, even
+16:10 though I'm viewing and interacting with
+16:12 it here on the web. That will work as
+16:15 long as your computer is on and the
+16:18 Claude desktop app is open. That is
+16:20 particularly helpful when you use the
+16:22 Claude mobile app. Opening it up, you
+16:25 can use it with regular Claude chat here
+16:28 and opening up the side menu, you can
+16:30 see all your recent Claude chats here.
+16:33 But if you click on co-work, that will
+16:35 show you all the co-work tasks that are
+16:38 running in the cloud. Here's the one
+16:40 that we just started. Opening this up,
+16:42 you can see the response that it sent
+16:44 when it was finished and here's the
+16:46 report. So, this means that you can
+16:48 start a task on the desktop app and see
+16:52 the results and finish and continue the
+16:53 conversation on your phone. Again, as
+16:56 long as your computer is on and the
+16:59 Claude desktop app is open. One final
+17:01 point I want to clarify because I don't
+17:03 want there to be any confusion here.
+17:05 When you start a new co-work task using
+17:08 the Claude desktop app, you will be able
+17:10 to access that task from any other
+17:13 device like your phone,
+17:16 if the task that you start is completely
+17:19 cloud-based. In other words, if I just
+17:21 come in here and tell it to go through
+17:23 my Gmail and then to pull the
+17:26 information from Gmail into Notion, all
+17:28 of that is cloud-based. So, I'll be able
+17:31 to access it on my phone even if I close
+17:34 my laptop screen before it's finished
+17:37 completing that task. However, if I run
+17:40 a task like this one where I had it
+17:43 accessing local files on my computer,
+17:46 I would have to start the task and leave
+17:48 the computer on with the Claude desktop
+17:51 app open in order to be able to access
+17:54 that task from my phone. The distinction
+17:58 here is is it accessing files on your
+18:00 computer? If it is, then it needs that
+18:03 connection and your computer needs to be
+18:05 on in order for you to be able to
+18:07 communicate to it with your phone or
+18:10 from the web app. So, that is a new
+18:12 Claude. If you watch this entire video,
+18:14 you've already mastered 90% of what it
+18:16 can do. Now, many creators will lock a
+18:19 course like this behind a paywall, but I
+18:21 put all my content for free on YouTube
+18:23 because I want everyone to learn how to
+18:25 master these AI tools.
+18:27 All I ask in return is for you to give
+18:28 this video a thumbs up and leave a
+18:30 comment letting me know that you
+18:32 appreciate videos like this. Honestly, I
+18:34 read every single comment and it's what
+18:36 motivates me to keep making more
+18:38 content. The final piece of Claude that
+18:41 we haven't covered yet is Claude design.
+18:44 And that's because it's an entirely
+18:45 different beast. And since I already
+18:47 made an entire video about it, I'll just
+18:49 link that for you right here. You can
+18:52 use Claude design to create prototypes,
+18:54 slides, documents, wireframes, or
+18:56 animations. You can see an example of
+18:59 one of those right here. So, if you want
+19:01 to learn how you can do that yourself,
+19:03 click on this video and I'll see you
+19:04 there in 1 second. Bye for now.

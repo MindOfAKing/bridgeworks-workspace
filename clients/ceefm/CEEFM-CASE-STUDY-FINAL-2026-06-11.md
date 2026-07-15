@@ -1,83 +1,106 @@
-# From Invisible to AI-Ready: How CEEFM Went from GEO 16 to 78 in 16 Weeks
+# From Digitally Underrepresented to AI-Ready: CEEFM's 16 to 77 GEO Improvement
 
 **Client:** CEEFM Kft
-**Industry:** Facility Management, Budapest
-**Engagement:** 16-week digital growth programme
-**Completed:** June 2026
+**Industry:** Facility management, Budapest
+**Engagement:** Digital growth foundation, March to June 2026
+**Status:** Engagement closed June 2026
 
----
+## The client
 
-## The Client
+CEEFM is a Budapest-based facility-management company founded in 2010. It provides technical maintenance, cleaning, and property-management services for commercial clients across Hungary.
 
-CEEFM is a Budapest-based facility management company with 16 years of operational experience. They handle technical maintenance, cleaning, and property management services for commercial clients across Hungary. Strong on delivery. Nearly invisible online.
+The company had substantial operating experience, but its digital presence did not communicate that experience clearly. Buyers, search engines, and AI-assisted search systems had limited structured evidence from which to understand the business.
 
-When they came to BridgeWorks, they had no digital presence worth speaking of. No website that worked. No structured data. No way for AI search engines to find or cite them. Their competitors were being surfaced in AI tools. CEEFM was not.
+## The starting point
 
----
+BridgeWorks' March baseline recorded a GEO and AI-visibility diagnostic score of **16/100**, in the Critical band.
 
-## The Starting Point
+The baseline identified a connected set of problems:
 
-**GEO Score at intake: 16 out of 100.**
+- weak website and service-page structure;
+- limited machine-readable business information;
+- incomplete search discovery signals;
+- no clear AI-readable company overview;
+- thin entity and authority signals;
+- no structured outbound prospecting system.
 
-That number tells the whole story. A score of 16 means AI platforms like ChatGPT, Perplexity, and Google AI Overviews have no way to discover, cite, or recommend the business. No structured data. No citable content. No entity presence in any AI knowledge graph.
+The diagnostic score was a BridgeWorks planning measure, not a platform ranking or a guarantee of inclusion in any AI answer. Its purpose was to make the infrastructure gaps visible and measurable.
 
-The marketing picture was similar. A score of 49 out of 100 across six categories. Weak conversion infrastructure. No lead capture. No content strategy. No social proof visible to buyers doing research.
+## What BridgeWorks built
 
-The gap between where they were and where they needed to be was large. But the path was direct.
+### Website and service structure
 
----
+BridgeWorks created a bilingual, server-rendered website with clear service and contact routes. The work translated CEEFM's operational experience into pages that buyers and crawlers could navigate and interpret.
 
-## The Work
+### Structured business information
 
-Over 16 weeks, BridgeWorks built the full digital foundation from scratch.
+The site received machine-readable business markup, including organization/service identity, contact-page information, breadcrumbs, legal details, and consistent entity references. The markup described information visible on the site rather than unsupported claims.
 
-**Website.** A new site built on Astro, deployed to Hostinger. Clean URL structure. Fast load times. Mobile-ready. Built for search engines and AI crawlers, not just human visitors.
+### Discovery and crawler foundations
 
-**GEO Infrastructure.** FAQPage schema added to the homepage. EducationalOrganization and service-level structured data implemented. An llms.txt file created at the domain root, directly signalling to AI crawlers what the site is and what it offers. A complete XML sitemap submitted to Google Search Console and Bing Webmaster Tools, covering all 8 pages, including 4 funnel pages that had been invisible to crawlers entirely.
+BridgeWorks implemented sitemap and indexing infrastructure, Bing Webmaster verification, IndexNow support, crawler-access controls, and an `llms.txt` overview. The sitemap and robots controls supported page discovery. The `llms.txt` file was used as an experimental, human-readable company index, not presented as a ranking factor.
 
-**Outreach System.** A prospect database of 84 companies built and formatted for cold outreach. A five-step cold email sequence written and ready to deploy. A Google Ads campaign plan covering Budapest facility management search terms.
+### Entity and trust signals
 
-**Content.** 29 branded social media images created. A GBP (Google Business Profile) description written and optimised. A full operational playbook documenting every system and process built during the engagement.
+The work connected CEEFM's website, legal identity, social profiles, and Wikidata record. Incorrect or risky claims were removed, including an unsupported self-declared aggregate rating and a credential the company did not hold.
 
-**Handover.** An 86-file, 38.76 MB handover package delivered to the client. Seven PDFs. Full source code. Every asset, every sequence, every document — organised and documented so the client can continue independently or hand off to any future agency without losing a thing.
+### Content and sales infrastructure
 
----
+BridgeWorks produced two months of LinkedIn content, visual assets, reporting, an 84-company prospect database, and a five-step outreach sequence. These assets gave CEEFM a practical way to use the new foundation rather than leaving it as a static website project.
 
-## The Results
+### Handover
 
-| Metric | Before | After |
-|---|---|---|
-| GEO Score | 16/100 | 78/100 |
-| GEO Points Gained | — | +62 |
-| GEO Band | Critical | Good |
-| Sitemap Coverage | 0 pages submitted | 8 pages |
-| Schema Types | 0 | 3 (FAQPage, Organization, Services) |
-| AI Crawler Access | Blocked/unknown | Explicitly permitted |
-| llms.txt | None | Live at domain root |
-| Prospect Database | None | 84 companies |
+An 86-file, 38.76 MB handover package preserved the source code, reports, content assets, outreach material, and operating instructions. The package was designed so the client or a future supplier could continue without rebuilding the project history.
 
-**78 out of 100 is a Good-band GEO score.** It means the site is now discoverable, citable, and structurally readable by every major AI platform. Google Business Profile verification is still pending. When complete, the score moves to 81 to 82.
+## Verified result
 
-From 16 to 78 is 62 points in 16 weeks. That is the gap between a business that does not exist online and one that is competitive in AI search.
+The June 10 engagement-close audit recorded a GEO and AI-visibility diagnostic score of **77/100**, in the Good band.
 
----
+| Measure | March baseline | June 10 close audit |
+|---|---:|---:|
+| BridgeWorks GEO diagnostic | 16/100 | 77/100 |
+| Diagnostic band | Critical | Good |
+| Point change |  | +61 |
+| AI-readable company overview | absent | present |
+| Structured business information | weak or absent | implemented |
+| Search discovery controls | incomplete | sitemap, crawler controls, Bing verification, and IndexNow implemented |
+| Prospect database | absent | 84 companies |
 
-## What This Means in Practice
+The score movement demonstrates a measurable improvement in the site's technical, structural, entity, content, and platform-readiness signals. It does not prove that CEEFM will appear for every prompt or search query. Visibility still depends on indexing, query relevance, competition, third-party authority, and platform-specific systems outside BridgeWorks' control.
 
-A facility manager in Budapest types "facility management company Hungary" into ChatGPT or Perplexity. Before this engagement, CEEFM did not appear. The site had no structured data, no citable content, no entity recognition in any AI system.
+## What remained unresolved
 
-After this engagement, the infrastructure exists for CEEFM to appear. The schema tells AI crawlers who they are and what they do. The sitemap ensures every page is indexed. The FAQPage answers the questions buyers are actually asking.
+The close audit documented remaining limitations rather than hiding them:
 
-The 84-company prospect database means outbound can start immediately without weeks of research. The cold email sequence is ready to send. The Google Ads plan is ready to activate when the budget is available.
+- Google Business Profile verification was still pending.
+- Four new funnel pages had not yet been added to the sitemap at handover.
+- FAQPage markup was not yet present at handover.
+- CEEFM still needed stronger named-team and third-party review evidence.
 
-The work is done. The tools are in place. The next 16 weeks are about using them.
+Several technical fixes were applied immediately after the handover audit, producing a separate June 11 internal reading of 78/100. BridgeWorks uses **16 to 77** publicly because 77/100 is the verified engagement-close figure.
 
----
+## Commercial lesson
 
-## Delivered by BridgeWorks
+CEEFM did not primarily need more advertising. It needed a business foundation that could be understood by buyers and machines:
 
-BridgeWorks is an AI-powered digital growth studio for SMEs. We build websites, GEO infrastructure, outreach systems, and content engines for businesses that are ready to grow but do not have a full in-house digital team.
+1. clear service pages;
+2. accurate, consistent entity information;
+3. crawlable and indexable URLs;
+4. structured data that matches visible content;
+5. citable proof and named expertise;
+6. a direct path from visibility to prospecting.
 
-This engagement was completed by Emmanuel Ehigbai, founder of BridgeWorks, working from Budapest.
+The useful result was not one technical file or one score. It was the connection between website structure, search discovery, authority evidence, reporting, and outbound readiness.
+
+## About BridgeWorks
+
+BridgeWorks helps small businesses across Africa and Central Europe become easier for buyers, search engines, and AI-assisted discovery tools to understand. The work combines websites, structured information, technical discovery, content, and practical acquisition systems.
 
 **office@bridgeworks.agency**
+
+## Evidence sources
+
+- `clients/ceefm/VERIFIED-FACTS.md`
+- `clients/ceefm/reports/GEO-AUDIT-REPORT-2026-06-10.md`
+- `clients/ceefm/CEEFM-HANDOVER-2026-06-10.md`
+- `clients/ceefm/reports/CEEFM-April-2026-Delivery-Appendix.md`

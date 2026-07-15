@@ -1,0 +1,637 @@
+00:00 So, the way the most productive people
+00:01 on Earth work today is very different
+00:04 from just maybe 6 months ago. And the
+00:06 entire reason is because of AI agents.
+00:09 But, despite everybody and their mom
+00:11 talking about AI agents, using them in
+00:12 workflows, I don't think anybody's
+00:14 actually really clarified what it looks
+00:15 like in a practical knowledge work style
+00:18 situation. Uh I think Claude made some
+00:20 good headways with, you know, Claude
+00:22 integrated in Slack. But, today I want
+00:23 to show you guys how I am currently
+00:25 getting things done. My business is
+00:26 going to do over $400,000 this month,
+00:29 and we work with a variety of different
+00:30 things. We work with media, we work with
+00:33 AI implementation, we do consulting, we
+00:35 have a variety of different like
+00:36 verticals and stacks. And I want to show
+00:39 you how you can use AI agents to
+00:40 meaningfully improve both the quantity
+00:43 and then the quality of work that you do
+00:45 in an organization in a very simple and
+00:47 straightforward way. So, the very first
+00:49 thing you need is you need a shared AI
+00:52 and human workspace. And to make a long
+00:54 story short, this is a place where you
+00:56 can have AI working on some task
+00:59 alongside people.
+01:01 Genuinely, you can use whatever platform
+01:04 or tool you want for this workspace. Um
+01:06 the thing that is more important than
+01:08 the specific like selection is just the
+01:10 shape of it. And I'm going to run you
+01:11 through what ours looks like right now.
+01:13 I use a tool called Linear, which is
+01:15 just one of the many project management
+01:17 workspaces that you could use for this.
+01:20 And basically, the way Linear is broken
+01:21 down is you have a variety of different
+01:24 statuses that denote where a task is in
+01:27 the pipeline.
+01:28 And so, the statuses that we've set up,
+01:30 if I zoom in a little bit over here, is
+01:32 we have one called inbox. We then have
+01:35 another one called next. We have one
+01:37 called doing. And then we finally have
+01:39 one called waiting.
+01:41 And then there's also the done status,
+01:43 which is where we put tasks after
+01:45 they're done, just so that if, you know,
+01:47 we need to take a look at how a task was
+01:49 completed or get some more context or
+01:51 move it back to next or doing, you know,
+01:52 we can do that pretty easily. So, I'm
+01:53 not going to talk all day about this
+01:55 setup because hopefully that's pretty
+01:56 standard. The key thing in here is this
+01:59 isn't just humans working on this to-do
+02:01 list. We now have the ability to weave
+02:03 in AI agents. And rather than have to
+02:05 like prompt an AI agent constantly, all
+02:08 I'll do is I will make a task and I will
+02:09 tag it as AI ready and then I will send
+02:12 it off and actually have it do said
+02:13 task. So one of the tasks on my to-do
+02:15 list today is I need to ideate, you
+02:17 know, another five videos. So I'm going
+02:19 to press C, that's going to open up a
+02:20 new issue and then I'll say ideate five
+02:23 new YouTube videos. And then in the
+02:26 description, because keeping in mind
+02:27 that I'm not just going to give this to
+02:29 a person, I'm going to give this to an
+02:30 AI agent, I'm just going to, you know,
+02:32 ad-lib what I want. Hey, I want you to
+02:34 use context based off videos that I've
+02:36 published before to come up with five
+02:38 new YouTube video ideas including three
+02:40 title options for each, some angles for
+02:42 each, maybe even some brief outlines
+02:44 based off of current trending content on
+02:46 the internet. After I'm done, I'm going
+02:47 to head over here to create issue and
+02:49 click that button.
+02:50 Now, all I need to do is I just need to
+02:52 tag this and this is a very slow, naive
+02:55 way of doing all this, but I will also
+02:56 show you a much faster way.
+02:58 Um and once it's an agent ready, we can
+02:59 actually begin working on the task. So
+03:01 the way that, you know, I'm going to do
+03:02 it is I'm just going to drag it over to
+03:03 next.
+03:05 And essentially what occurs when that
+03:06 happens is this sends a request to a
+03:08 server where I have an AI agent living.
+03:10 This AI agent will pick up that task. It
+03:13 will then consult my knowledge base to
+03:15 learn kind of contextually how previous
+03:17 tasks have been completed, my
+03:19 preferences surrounding tasks and so on
+03:20 and so forth. If we just click on this
+03:22 and scroll down, you can see the Nick OS
+03:24 agent run has actually started. So it's
+03:25 picking it up now, assessing the card,
+03:27 posting the plan and so on and so forth.
+03:30 And then it's even actually writing
+03:31 stuff down.
+03:32 It's doing so just with my profile cuz
+03:34 I'm cheap and I don't want to spend, you
+03:35 know, a bunch more linear costs, but
+03:37 obviously you could have this be like my
+03:38 fable agent. And then it's going through
+03:41 and actually doing the task for me right
+03:43 now. You know, if I exit out of this,
+03:44 you see we've now changed the status to
+03:45 doing.
+03:46 And so now this is this is occurring
+03:47 almost entirely autonomously. All I do
+03:49 is I'm just like the the project
+03:51 manager, if that makes sense. I add
+03:53 things to a queue, agents complete them
+03:55 according to my specifications, and or,
+03:58 you know, if there's a Q&A step
+03:59 involved, which a task this would
+04:00 probably have a Q&A step involved, um
+04:02 you know, the agent will wait for my
+04:03 approval before actually doing, let's
+04:05 say, the publishing or interacting with
+04:07 like the wider internet, creating me a
+04:08 post on some profile. So, while it's
+04:10 doing the task, let me just run you
+04:12 through essentially what's going on
+04:13 under the hood.
+04:14 You know, we start with the new task
+04:16 over here, and that's the one that I
+04:17 just created talking about, you know,
+04:18 the content that I wanted to make, the
+04:20 the YouTube titles and and angles.
+04:23 Then it's caught by a webhook. For those
+04:25 of you guys that don't know, that's just
+04:26 a place on the internet that a request
+04:28 gets sent to. And the cool part about
+04:29 Linear, and one of the reasons I like
+04:31 it, is just because it has that
+04:32 functionality built in. You can just
+04:33 like send a request off when it's tagged
+04:34 with something.
+04:36 And now it goes to Fable 5. The thing
+04:37 is, Fable 5 has access to three things.
+04:39 It has access to workspace context. So,
+04:41 this is everything that, you know, the
+04:43 we are currently using or doing in the
+04:46 workspace, all the files, all the other
+04:47 tasks, you know, our content pipeline,
+04:50 and so on and so forth. It then has
+04:51 access to a knowledge base, which is a
+04:53 bunch of additional textual information
+04:55 that it can draw upon if necessary.
+04:57 And then finally, it has it has access
+04:58 to credentials. And these credentials
+05:00 are things like, you know, passwords to
+05:02 various services and platforms that
+05:04 maybe it needs to use Chrome DevTools to
+05:05 sign into, or you know, API keys, and so
+05:08 on and so forth. And all this is stored
+05:09 relatively securely, to the point where
+05:11 Fable can use all of it in conjunction
+05:13 with its own gigantic galaxy brain
+05:15 intelligence to actually do the work.
+05:17 And you can kind of see that in the
+05:18 task. I mean, after the update, it's
+05:20 just confirmed that this is how it
+05:21 understands it. Make me some videos.
+05:24 Well, I've given it context as to my
+05:26 highest performing courses in the past.
+05:28 I've given it I've given it context as
+05:30 to my knowledge base. I've given it
+05:31 context as to like my strategy docs, so
+05:34 how I typically create ideas and angles,
+05:36 and so on.
+05:37 And you can also see that it just
+05:38 actually changed the label to waiting,
+05:40 and changed the status to waiting. So,
+05:42 let's take a look at what that looks
+05:43 like. Now, the thing to know about AI
+05:45 agents is, you know, their outputs
+05:46 aren't incredible. You can't just trust
+05:49 an AI agent to do everything entirely on
+05:51 its own. What you need to do is you need
+05:52 to verify its outputs. You need to
+05:54 essentially have some sort of final line
+05:57 in the sand where you will check on the
+05:58 outputs and then select the ones that
+06:00 you like the most. You'll basically
+06:02 force ideation, let's say, over a large
+06:05 solution space and then apply your human
+06:07 taste to selecting like the best
+06:09 winners. I just did that in my ads video
+06:11 that I published earlier. And you can
+06:12 see here that I don't really like all of
+06:14 these ideas. I don't think they're all
+06:15 brilliant. But this one down here, I let
+06:17 AI agents run a YouTube channel for 90
+06:19 days. This one here's pretty solid. You
+06:21 can see it's come up with some different
+06:23 title formats, a source trail. It's
+06:25 given me some reasonably good reasoning
+06:28 and rationale behind why something like
+06:30 that would work. And I think that might
+06:32 actually be a video now that I am going
+06:33 to do. In a typical day, my pipeline
+06:35 might look reasonably like this. I'll
+06:37 have a couple of tasks in next, I'll
+06:39 have a few in waiting. Uh you know,
+06:42 let's say I make another one right off
+06:43 the top of my head. Um to sign up to
+06:47 Anthropic partner network, find out
+06:49 everything I need and pre-write draft
+06:52 application. Um you know, I'll I'll just
+06:54 be rolling through here selecting agent
+06:57 ready on tasks that make sense, but then
+06:58 also adding tasks that maybe other
+07:00 people in my organization or I need to
+07:02 do. Uh this is really the the idea
+07:04 behind a collaborative and shared
+07:05 workspace. And the main benefit there is
+07:07 I no longer just have to sit down and
+07:09 then look at a terminal, wait for its
+07:11 outputs, and then finally when it, you
+07:12 know, gives me an output, I proceed. Um
+07:14 I'm capable of operating like the speed
+07:16 of thought. I'm capable of going very
+07:17 fast here. You know, I can bang out 20
+07:19 of these ideas simultaneously of 20
+07:22 different agents all operating on
+07:24 various tasks using my knowledge base,
+07:26 and then I can just check in, you know,
+07:27 once or twice a day when they're done to
+07:30 like assess in batches. This basically
+07:32 solves context switching. Now, once
+07:33 you're done, you can actually just give
+07:35 it some information like, "Hey, I like
+07:37 this one. I'd like to generate 10 thumbs
+07:40 for video
+07:43 Alongside adding this plus alternatives
+07:47 plus everything into content pipeline.
+07:49 The reason why this is valuable is you
+07:50 just don't need a text box open all day
+07:52 and you can actually work off of a
+07:53 single source of truth. Um I wanted to
+07:55 buy an ergonomic chair for my home
+07:56 setup. Well, I had to go through and
+07:58 just do a tremendous amount of research
+07:59 cross-referencing Reddit and so on and
+08:01 so forth to get me a bunch. Then I
+08:03 actually ended up buying uh one of these
+08:05 here, which took like 30 seconds. And
+08:06 you can do this for any task, you know,
+08:08 email rest of people and clear of a CRM
+08:10 cancel Rogers internet for family. You
+08:13 can see that was back when I was trying
+08:14 to master my English accent. That didn't
+08:16 work very well. Uh looking to how to
+08:18 achieve US resident status and fill out
+08:20 forms. The whole idea is you're
+08:21 basically taking the agent out of the
+08:23 chat box and then you're actually
+08:24 integrating it into the core of your
+08:25 business. But believe it or not, as it
+08:27 is, this isn't very valuable. I mean,
+08:28 what we've done is we basically just
+08:29 created a way to dump ideas in where we
+08:31 haven't really created a way to extend
+08:33 past that. Um the thing that makes it
+08:35 valuable is when you combine that with
+08:36 capture. Now, the first time I
+08:38 encountered the concept of capture was
+08:40 when I was reading through David Allen's
+08:42 Getting Things Done from Forever ago.
+08:44 And to make a long story short, what
+08:46 capture means is it's just a simple and
+08:48 easy and low-friction way of getting
+08:50 ideas into some to-do list.
+08:53 Now, we actually have our to-do list,
+08:55 right? That to-do list, in essence, is
+08:57 the project management shared human and
+08:58 AI workspace that I showed you earlier.
+09:00 Well, the valuable thing about having a
+09:02 low-friction capture method is, like a
+09:04 good project managers, anything that
+09:06 comes to mind over the course of the
+09:07 day, any task that you need to working
+09:09 on, any concept or idea for anything, um
+09:12 you can get into that system extremely
+09:14 easily, whether or not you're on the go,
+09:16 let's say, like, walking around your
+09:18 city or something like that, going from
+09:19 meeting to meeting, or sitting down at
+09:21 the computer. So, obviously, a really
+09:23 low-friction capture method is just
+09:25 using linear and hot keys. So, maybe
+09:27 create WikiData entry for Left Click AI
+09:31 Incorporated. And maybe this is
+09:33 something that, you know, I want to tag
+09:35 as agent ready, create an issue for, and
+09:37 then actually have it proceed with the
+09:38 task like we just did a moment ago.
+09:40 Well, the simplest and easiest way of
+09:41 sorting this out is actually just by,
+09:42 you know, binding a hot key or
+09:44 something, and then, you know, adding a
+09:45 task as follows. And so, now I actually
+09:47 have this built into my computer. So,
+09:49 maybe I'm out and about, and I don't
+09:51 know, I'm watching some YouTube videos
+09:53 for my daily updates, and I realize that
+09:55 the thumbnail sort of generation prompt
+09:57 is a little bit off. Well, now what I
+09:59 can do is I can actually kick off an AI
+10:00 agent workflow literally without having
+10:02 to stop a beat just by opening this and
+10:04 saying, "Fix thumbnails for daily
+10:07 updates channel." Well, now this has
+10:09 actually been sent off to my linear. And
+10:11 if I wanted to tag this as AI agent
+10:12 ready, you know, I could actually send
+10:13 this to my agent with a brief. I just
+10:15 hold command and press G. So, that's
+10:17 pretty easy. I can give it some
+10:18 additional information if I want. I can
+10:20 tell it, um,
+10:22 "Right now, the thumbnail text seems to
+10:24 be a little bit small." At any point in
+10:25 time, I basically have woven in AI into
+10:28 my my day-to-day flow, such that it
+10:30 exists with me, next to me, and I can
+10:32 work on essentially whatever tasks. I
+10:34 mean, if you think about it, I could
+10:35 fire off 50 of these simultaneously. I
+10:37 can now operate at the speed of thought.
+10:39 The bottleneck is no longer, you know,
+10:40 how much work can I do in a day, it's
+10:43 how quickly and accurately can I scope
+10:45 the work that I want done in a day. I
+10:46 just ran over here to get my phone, so I
+10:48 could show you what this looks like as
+10:50 well. Um, you could build a shortcut
+10:51 into your phone such that you can
+10:53 actually just hold this button,
+10:55 create a demo task in Linear,
+10:58 and it'll actually go through, and I
+10:59 don't know if you guys could tell, but I
+11:01 just had a little chime noise, and then
+11:03 I can go back over to Linear, and now
+11:05 you can see that I just I just added
+11:06 that in the system. Um, you know, it's
+11:07 like tied to my action button, it's
+11:09 extraordinarily low friction.
+11:10 These little hacks, these aren't
+11:11 necessary, to be clear, but the lower
+11:13 friction that you make something like
+11:14 this, the more you end up relying on
+11:17 sort of your to-do list, your project
+11:19 manager, your shared AI and human
+11:20 workspace. And you can also tie this in
+11:22 such that, you know, maybe if you click
+11:24 the action button twice, it
+11:25 automatically starts it as an agent
+11:27 task, whereas if you click it once, you
+11:29 reserve that for a human task. You can
+11:30 also set notifications so that when, you
+11:32 know, an AI agent needs you for
+11:33 something, it'll actually pop a
+11:34 notification up on your screen. I did
+11:36 this a while back and it was super
+11:37 valuable. Having push notifications when
+11:39 agents are waiting on you, and then all
+11:40 you do is you click on it, and then
+11:42 voice transcribe, like, that is pretty
+11:44 freaking sexy. And not only is it sexy,
+11:46 it's also, obviously, the future of
+11:48 work. If right now our ability to assess
+11:50 and verify the outputs of agents is the
+11:52 bottleneck, we need to make our ability
+11:54 to do that as easily as humanly
+11:55 possible. What's cool, too, is you get
+11:56 total task visibility, so there's like a
+11:58 trail, and it's persistent. It doesn't
+12:00 disappear at the end of every prompt.
+12:02 So, for instance, you could see here
+12:03 that I actually moved a task from
+12:04 waiting back to next. I removed a label
+12:07 that said waiting on Nick, because, you
+12:08 know, I wanted to provide some more
+12:09 context to the task. And this is going
+12:11 to get picked up just like any other
+12:13 task. All the context is going to be fed
+12:15 into this async runner, and then, you
+12:17 know, things are just going to kind of
+12:18 work on its own
+12:19 autonomously without my direct
+12:21 oversight. The third thing you need in a
+12:23 system like this is you need what are
+12:24 called evals.
+12:26 Now, in case you guys didn't know, evals
+12:28 are a set of evaluations that you run an
+12:31 output through, or a model through, in
+12:34 order to determine whether or not it is
+12:36 giving you the sorts of things that you
+12:37 want. We're essentially assessing its
+12:39 performance.
+12:40 And for project management and modern
+12:42 AI-based productivity, you know, I
+12:43 define evals as basically a standardized
+12:45 checklist of steps that I run all
+12:47 outputs through before they give it to
+12:49 me. In that way, I know that, you know,
+12:52 we have my tone of voice on every
+12:53 project. We have all of the basic
+12:55 LLM-isms taken out of the text, like
+12:57 m-dashes and stuff like that. We have my
+12:59 reasoning applied to everything. So, I
+13:01 fed in a big knowledge base basically
+13:04 based off my the way that I make
+13:05 decisions, and I was like, "Was this a
+13:07 sort of decision that I would reasonably
+13:08 have made under these circumstances?"
+13:10 >> [snorts]
+13:10 >> And the whole idea is rather than giving
+13:12 work off to AI completely and then just
+13:14 hoping it does a good job, what you do
+13:16 is you give it a set of guardrails
+13:19 if it assesses that it's fallen out of
+13:21 those guardrails, it will just iterate
+13:23 and continuously retry the project until
+13:25 it eventually gets within the
+13:26 constraints. Once it's in the
+13:28 constraints, my actual work to, I don't
+13:30 know, touch it up or change something
+13:32 or, I don't know, pick better YouTube
+13:33 titles, pick better tasks, change the
+13:35 work, whatever, is significantly
+13:37 reduced. So, for instance, here's one on
+13:39 the left-hand side here called visual
+13:41 asset. Is this render usable? This
+13:43 applies to demos, thumbnails, diagrams,
+13:46 and generated imagery before it reaches
+13:47 my folder. So, you know, in order for a
+13:51 render to be considered waiting on Nick,
+13:53 basically in order before it even gets
+13:55 to the point where I'm ready to make a
+13:57 Q&A check, the text has to render clean.
+13:59 It needs to, like, literally visually
+14:01 assess every output and determine that
+14:03 there's no garbled or melted characters.
+14:05 It needs to figure out, "Hey, you know,
+14:06 is this in the style Nick likes?" Which
+14:08 right now is this ink editorial thing,
+14:10 black ink on pure white. I just love
+14:11 that. Is it legible at thumbnail size?
+14:14 Basically, is it like sufficiently
+14:15 zoomed in? Is it faithful to the brief?
+14:18 And I doesn't have the right shape? AKA,
+14:19 you know, I gen my thumbnails at 1280 by
+14:21 720. You know, if I do diagrams, it's at
+14:23 920 1920 by 1080. Here's another one
+14:26 here. Was this done the way that Nick
+14:28 thinks? And this is loosely, you know,
+14:30 related to the knowledge base that I fed
+14:31 it in a while ago, but it's,
+14:33 um, you know, "Hey, there are five
+14:34 questions. You got to score each of
+14:36 these zero to two. If the total is less
+14:37 than seven, AKA, if one of them is like
+14:40 a zero, then this whole project is a
+14:41 fail and we need to continuously iterate
+14:43 until it is good." So, one of my
+14:45 principles is first principles. Did the
+14:47 work reason from the actual mechanics of
+14:48 the problem or did it just pattern match
+14:50 to what people usually do?
+14:51 EV discipline. Are the conclusions and
+14:53 choices high expected value? Uh, if so,
+14:56 then it's good. And if not, then it's
+14:58 not. Is Nick's time minimized? You know,
+15:00 if there's any part of this that could
+15:01 have been done without Nick in the loop,
+15:03 make sure to go back and do it according
+15:04 to this so that Nick doesn't have to do
+15:06 any additional work. Is it verified, not
+15:08 plausible? Is there a leverage check?
+15:11 You know, if there's a big lever ignored
+15:12 because I had a skill in my workspace
+15:14 that I want you to rerun this. And so, I
+15:16 mean, like, this is these are tokens,
+15:18 right? This isn't free, but typically
+15:20 this is worth far less than the time
+15:22 that I would spend getting an average
+15:24 task up to snuff. And the key is, you
+15:26 know, having a knowledge base of some
+15:27 kind that it consults to like get the
+15:29 the right shape, and then forcing that
+15:31 shape into that guardrail container that
+15:32 I talked about earlier. And finally,
+15:34 there's quality and assurance. And this
+15:36 is really where you come in as, you
+15:38 know, the final, as mentioned, gate to
+15:40 the task.
+15:42 The reality is, the nature of work has
+15:44 changed a fair amount. You know, before,
+15:46 I was actually doing a lot of the work.
+15:48 But now, what I'm typically doing is I'm
+15:50 spending time scoping the work so that,
+15:53 you know, the guardrails are set really
+15:55 efficiently and effectively, as well as
+15:58 a clear definition of what it is that I
+15:59 want. And then I'm spending most of my
+16:01 time evaluating the results of the work
+16:03 doing Q&A. It's kind of a mind shift
+16:05 from back when I was actually like
+16:07 freelance writing in my content
+16:09 marketing agency. And then later on, I
+16:11 ended up managing a bunch of content
+16:13 writers. It's very similar. I'm just
+16:14 going one level up the abstraction
+16:16 chain. So, not actually directly
+16:17 involved with the deliverables. You
+16:19 know, my fingers and my hands aren't the
+16:21 the things that are doing the heavy
+16:22 lifting, moving the products, and so on
+16:23 and so forth. It's my mind assessing the
+16:25 quality and ensuring that my taste sort
+16:28 of applied to everything that I want.
+16:29 And so, obviously, you can take what I
+16:30 showed you today, and you can apply it
+16:32 in any way, shape, and form. You could,
+16:33 for instance, go down to the
+16:34 description, expand it, show the
+16:36 transcript, go to the top right-hand
+16:38 corner, copy and paste the entire thing,
+16:40 and put it into Fable, and it could
+16:41 actually recreate something like this
+16:43 fairly straightforwardly for you.
+16:44 Probably without burning more than 25%
+16:46 to 50% of your session limit. Um you can
+16:48 do the same thing with GPT-5.6 or really
+16:50 any model. This is just my own
+16:51 architecture. But I just wanted to begin
+16:53 the the wider conversation of how to
+16:55 actually apply AI in a modern workplace.
+16:57 I think a lot of people here have sort
+16:58 of pieced together bits and tiny atomic
+17:01 habits from various workflows that they
+17:03 see on the internet, but this is a
+17:04 pretty cohesive way to weave this into
+17:06 your organization. Um and I know a lot
+17:08 of you guys are probably going to look
+17:09 at what I've done and be like, "Huh, we
+17:11 could make that better." Um and that was
+17:12 sort of sort of the idea. I'm sure there
+17:14 are many ways you can make this better,
+17:15 and I'm keen to see, you know, what you
+17:17 guys do with us. Since implementing this
+17:19 inside of Left Click, uh Clervo, uh and
+17:22 Maker School, you know, my day-to-day
+17:24 responsibility has also shifted a fair
+17:26 amount, too. Rather than necessarily be
+17:28 involved with every little thing, I've
+17:30 sort of had to go up one level of
+17:31 abstraction, and then be responsible for
+17:34 the the fleet of managed agents,
+17:36 essentially. I've also had to start
+17:37 thinking about things like my token
+17:38 budgets. These are things that I never
+17:40 used to think about before because I was
+17:41 typically constrained to operating
+17:43 within one little like terminal window,
+17:45 having some input go in, and then
+17:47 waiting for the output to come out. I've
+17:48 also become significantly more
+17:50 productive because no longer do I have
+17:52 to just sit and wait for an output. Um
+17:54 you know, I can just fire off outputs
+17:55 basically about as fast as the speed of
+17:57 thought. And I think that's a major
+17:59 unlock. You have like a little ideation
+18:00 session, you sit down, ideate the top
+18:02 five tasks that need to be done, assign
+18:05 agents to as many of these as can be
+18:07 done. They do a bunch of pre-lifting
+18:08 while you focus on something else, and
+18:10 then maybe three or four times
+18:11 throughout the day, every couple of
+18:12 hours, you check back in on the outputs.
+18:14 Um that sort of gets you out of just
+18:15 staring at the terminals all day.
+18:17 Actually gets you, I don't know,
+18:18 building relationships with key vendors,
+18:20 selling, which is obviously the number
+18:21 one lever that any founder or, you know,
+18:23 top-level executive in a company really
+18:25 needs to be doing, and so on and so
+18:27 forth. Okay, if you like this sort of
+18:28 thing, I actually have a bunch of files
+18:30 down below in the description, uh in the
+18:31 line that says Maker Zero, where I you
+18:34 can just copy and paste everything that
+18:35 I write there to an agent, and you can
+18:37 have it do it just like that transcript
+18:39 idea earlier. Um I also want to make it
+18:41 clear that this isn't prescriptive. I'm
+18:42 not telling you have to do it all
+18:43 linear, you have to do it in a
+18:45 particular way. But this is just how I'm
+18:46 managing it in my organization and the
+18:48 results that I'm seeing. And if you want
+18:50 to learn how to implement strategies
+18:51 like this into an AI and automation
+18:54 service business, basically a business
+18:55 where you get paid to build things like
+18:57 this for other people, definitely check
+18:59 out Maker School, as well. It's my
+19:01 90-day automation road map, where I
+19:02 actually guide you through everything
+19:04 you need to do to start as a total
+19:06 beginner and actually get your first
+19:08 client. And I guarantee you that first
+19:09 client in 90 days, or I give you all
+19:11 your money back. It's very
+19:12 straightforward, it's very tried and
+19:14 tested, and it's been finished by over
+19:15 10,000 people to date. Thank you very
+19:17 much for watching. I'm looking forward
+19:19 to seeing all y'all in the next video.

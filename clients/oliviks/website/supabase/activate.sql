@@ -1,3 +1,7 @@
+-- DEPRECATED SNAPSHOT. DO NOT RUN.
+-- This file contains an older 30-item seed. Use schema.sql followed by the
+-- current seed-menu.sql, which matches the live 33-item menu verified 2026-07-14.
+
 -- Oliviks Kitchen Supabase activation SQL
 -- Run this whole file in a fresh Supabase SQL editor.
 -- Section 1 creates tables/policies. Section 2 seeds the approved menu.

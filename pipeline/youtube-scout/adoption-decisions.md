@@ -772,3 +772,83 @@ Action: Add a GBP-To-Site Content Map to Foundation Website QA and DGE reporting
 Owner: Emmanuel / BridgeWorks
 
 Status: Needs checklist integration. No fake service areas, review gating, autoposting, paid SEMrush/Make spend, GitHub push, or client publishing from this run.
+
+### 2026-07-15 - Paid AI Readiness Diagnostic
+
+Source: Greg Isenberg - `The $1,000/hour Solo AI business (Full Course)`
+
+Decision: Adapt
+
+BridgeWorks area: AI Growth Systems, Sales And Prospecting, Client Delivery
+
+Reason: The transcript gives a clear diagnostic-first structure for small business AI work: discovery interview, transcript-based pain extraction, tool/process recommendations, manual QA, simple report, 4-day quick-start plan, and implementation upsell. This fits BridgeWorks only if pricing and claims are locally validated.
+
+Action: Create a Paid AI Readiness Diagnostic outline with pain, process, tool-fit, ROI, and owner-capacity checks before any implementation offer.
+
+Owner: Emmanuel / BridgeWorks
+
+Status: Outline created at `operations/client-acquisition-engine/offers/PAID-AI-READINESS-DIAGNOSTIC-OUTLINE-2026-07-15.md`. Do not import the $999 price anchor or guarantee without BridgeWorks proof.
+
+### 2026-07-15 - AI Work Queue Eval Card
+
+Source: Nick Saraev - `Steal My Actual AI Agent Workflow (2027)`
+
+Decision: Adopt internally
+
+BridgeWorks area: Agency Operations, AI Growth Systems, Client Delivery
+
+Reason: The transcript supports a shared human and AI workspace with task states, AI-ready tagging, low-friction capture, evals, verification, and human approval. This directly improves scheduled routines without adding new external automation.
+
+Action: Create an AI Work Queue Eval Card for scheduled routines and recurring BridgeWorks delivery tasks.
+
+Owner: Codex / Emmanuel
+
+Status: Needs template. No new task software, webhook, connector write, or public action without approval.
+
+### 2026-07-15 - Local Lead Infrastructure Stack
+
+Source: Jason Wardrop - `I Cloned One 'AI Employee' → Now I Sell It To Every Local Business ($299/mo Each)`
+
+Decision: Adapt with constraints
+
+BridgeWorks area: AI Growth Systems, Foundation Offer, Sales And Prospecting
+
+Reason: The transcript’s useful part is the local lead infrastructure stack: website, chat, missed-call text-back, booking, reviews, follow-up, inbox, and CRM. The free-website prospecting funnel and white-label SaaS pitch do not fit BridgeWorks without approval.
+
+Action: Add a Local Lead Infrastructure Stack section to the paid Lead Leak Review backlog.
+
+Owner: Emmanuel / BridgeWorks
+
+Status: Needs checklist. No free website build, demo deployment, call, text, client-facing pitch, software signup, or vendor commitment.
+
+### 2026-07-15 - Prospect Research Intake Guardrail
+
+Source: Tito Space - `How To Build an AI Lead Generator with n8n Step by Step`
+
+Decision: Adapt later
+
+BridgeWorks area: Outreach Infrastructure, Competitive Intelligence, AI Growth Systems
+
+Reason: The transcript shows a useful intake pattern for business type, city, Google business enrichment, looped field formatting, and sheet output. It should support research only, not automated outreach or CRM writes.
+
+Action: Create a Prospect Research Intake Guardrail before any automated list-building workflow is imported or activated.
+
+Owner: Codex / Emmanuel
+
+Status: Needs guardrail. No n8n import, activation, CRM write, Google Sheet write, call, email, or outreach from this run.
+
+### 2026-07-15 - AI Visibility Authority Signal Map
+
+Source: The GEO Blueprint - `AI Search Optimization: How to Rank Your Brand in the Age of GEO | Chirag Kulkarni`
+
+Decision: Adopt as methodology
+
+BridgeWorks area: Content And Visibility Systems, AI Visibility, Digital Growth Engine Reporting
+
+Reason: The transcript clarifies that GEO is not just SEO renamed. AI visibility depends on brand mentions, citations, third-party consensus, query-level sources, authority, and trust. This fits BridgeWorks’ evidence-bound AI Visibility Report.
+
+Action: Add an AI Visibility Authority Signal Map to scan methodology and reporting backlog.
+
+Owner: Emmanuel / BridgeWorks
+
+Status: Needs methodology integration. No AI-ranking promises, paid tool dependency, fake reviews, fake mentions, or citation spam.

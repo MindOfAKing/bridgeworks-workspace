@@ -1,0 +1,1602 @@
+00:00 One person just saying that, oh, like
+00:02 George is the most popular guy here
+00:04 doesn't cut it. You need multiple people
+00:06 to basically influence, right? And it's
+00:08 similar with LLMs. You should start
+00:10 creating content for machines and agents
+00:12 and robots.
+00:13 >> I don't know that doing that is
+00:15 necessarily a long-term strategy for
+00:18 winning in GDO. Don't wait for the AI to
+00:20 replace you. Replace yourself with AI.
+00:22 >> If an individual is going to trust the
+00:24 LM organic and will not trust the paid,
+00:27 I think of it very similar to Reddit.
+00:29 There's going to be companies who are
+00:31 really good at AI and then there's going
+00:33 to be everybody else. It's like do or
+00:35 die.
+00:37 Gerard Karnney is the founder and CEO of
+00:39 Taco and he started his career the way
+00:42 most people only read about. He cold
+00:44 emailed Neil Patel at 16, got a meeting
+00:46 and walked out with an introduction to
+00:48 Expedia. He has been turning search into
+00:50 revenue ever since. and his take on GEO.
+00:52 Great SEO is the foundation, but the
+00:55 brands that truly win are the ones that
+00:57 have built consensus. Multiple sources
+00:59 across the web, all saying the same
+01:01 thing.
+01:04 Churrog, thank you very much for coming
+01:06 on to the GEO Blueprint. It's a pleasure
+01:08 to have you and I'm excited to talk with
+01:09 you and figure out what you know about
+01:12 visibility marketing in the age of AI.
+01:15 Um, your story about taco.co co and um
+01:20 yeah, let's get into it.
+01:22 >> Thanks for having me.
+01:23 >> Please tell us what do you do and why
+01:25 does it matter?
+01:27 >> So I run a company called Taco Taco.co
+01:31 and we help companies drive more revenue
+01:34 from Google, ChatGBT and LLMs.
+01:38 Started the business um about three
+01:41 years ago now. So this is right when
+01:44 Chad GBT was kind of coming out. And you
+01:47 know my kind of start in like why I even
+01:50 wanted to get into this world was um at
+01:53 an early age I was really fascinated by
+01:56 this like worldwide web.
+01:58 On a personal note, my grandfather had
+02:01 like a small computer shop and he would
+02:03 you know people would come into his
+02:05 store and he would whatever like help
+02:07 them print out stuff and whatnot in
+02:08 India. And
+02:11 when this idea of like not having to get
+02:14 people to come into your physical store
+02:16 but like they can access the digital
+02:17 store like spawned on me, I was like wow
+02:20 like this is like a new way for people
+02:23 to transact and like buy things, right?
+02:26 Like pretty obvious thing maybe. But
+02:28 now, but like at the time it was like
+02:29 very interesting and I kept reading and
+02:33 running across this guy named Neil Patel
+02:36 and I was 16 17 years old at the time
+02:39 and I was like I want to make money on
+02:40 the web and so I learned a little bit on
+02:42 the affiliate marketing side because I
+02:44 realized like hey you don't need to buy
+02:45 inventory you can leverage someone
+02:48 else's brand and just try to get it
+02:51 visible. Well, the problem is if you
+02:53 spin up a WordPress website or Web Flow,
+02:56 Web Flow didn't exist at the time, but
+02:57 today,
+02:59 how do you get traffic? And that's when
+03:01 I found Neil, ran across his stuff,
+03:04 quicksprout.com, and I was like, man,
+03:06 this guy's making hundreds of thousands
+03:08 of dollars a month, I think was the
+03:10 number I was reading. I was like, I
+03:11 don't even understand what that even
+03:13 even is right at that age. And so I I I
+03:18 kind of like had a mission that I wanted
+03:20 to figure out like what I could do with
+03:23 him. Similar on the affiliate side, I
+03:25 reached out to some affiliate guy. I
+03:27 don't even know if he's still around
+03:28 today. Just like learn from him and I
+03:29 did the same thing with Neil. So that
+03:31 led you down the path of SEO.
+03:33 >> Correct. That led me down the path of
+03:35 SEO.
+03:37 Are AI search and SEO the same thing or
+03:39 fundamentally different? Because people
+03:40 fall into two camps. Some say it's just
+03:42 SEO and others say no, it's not just
+03:44 SEO. Where do you fall? I don't think it
+03:47 is the same thing. I think that SEO,
+03:50 good SEO helps GEO, but I don't think
+03:55 that you can just do SEO and win, right?
+03:59 The brands that I found are the most
+04:01 successful in search, right? And that's
+04:05 kind of what we do as a company is
+04:06 helping businesses drive more revenue
+04:08 through search. So search to me is you
+04:11 go where
+04:12 the traffic is. you go where people are
+04:15 basically visiting today. Google is
+04:17 still very dominant, right? It is the
+04:18 most dominant um one out of the ones
+04:22 that I mentioned, right? Um YouTube is
+04:24 massive, right? From a search
+04:26 perspective, Tik Tok is also big. Amazon
+04:28 is big. And so, uh short short answer, I
+04:32 think that there's a lot of principles
+04:34 from SEO that apply in GEO, but there
+04:36 are some very big differences that in
+04:39 SEO land did not matter as much.
+04:41 >> What are some of the differences? Well,
+04:43 I think to start with there's much more
+04:46 of an emphasis around brand and brand
+04:49 visibility in general, right? So, for
+04:51 example,
+04:52 before say I had a query like um the
+04:56 best laptops, right? Best laptops are
+04:59 all infiltrated with affiliate links,
+05:01 right? But if I type that in on Chad GPT
+05:05 like what are the best laptops and then
+05:08 maybe some qualifiers after that the
+05:11 likely answer is probably going to be
+05:12 Apple. It's not going to be those
+05:14 affiliate links. So to me those are
+05:16 different modalities of
+05:19 uh retrieving information and a lot of
+05:22 that has to do with Apple as a brand is
+05:25 very very large right they're well
+05:26 referenced on affiliates their own
+05:28 website third parties and I think that
+05:31 game has made GEO very interesting for
+05:35 marketers as we were kind of like
+05:36 discussing offline um and is like a
+05:39 little bit of a difference compared to
+05:40 traditional SEO which is which was
+05:43 primarily really about your site Right?
+05:45 We didn't really care deeply about I
+05:47 mean we cared about backlinks but in
+05:50 this case which is interesting is like
+05:51 you don't even have to have a link back
+05:53 to your site and LMS can still ingest it
+05:55 and I think that is a very unique thing
+05:58 to kind of wrap your head around.
+05:59 >> Yeah. Brand mentions and brand citations
+06:02 are becoming more and more important.
+06:04 >> Yeah.
+06:04 >> For the narrative that the AI is
+06:06 essentially forming around your brand.
+06:09 >> Yeah. I almost think about it as simply
+06:10 as
+06:12 if you wanted to
+06:15 pretend like we're back in school and
+06:18 you wanted to be the most popular kid in
+06:20 school, what do you have to do? One
+06:22 person just saying that, oh, like George
+06:25 is the most popular guy here doesn't cut
+06:28 it. You need multiple people to
+06:29 basically influence, right? And it's
+06:32 similar with LLMs, right? where they're
+06:35 not just going to look at just George's
+06:37 friend, right, and say, "Oh," or George,
+06:39 like George itself, uh, being the one
+06:41 who's saying, "Yeah, I'm the I'm the
+06:42 best in the class or I'm the most
+06:44 popular." It's several people's
+06:46 consensus. And once you basically are
+06:49 able to convince multiple entities, that
+06:52 is how you basically influence the LM. I
+06:55 really like that like analogy, like
+06:58 first principles analogy that you just
+07:00 made because that clicks. That makes a
+07:02 lot of sense in my head. You know, other
+07:04 people need to all agree that yes, this
+07:06 person is famous or whatever and then
+07:08 that's the one we're going to talk
+07:09 about. Hey, do you want to know if your
+07:11 business is actually showing up when
+07:13 someone asks Chad Gypt, Perplexity, or
+07:15 Google's AI a question in your industry?
+07:18 Most business owners have no idea. They
+07:21 assume they're visible, but they've
+07:22 never actually checked. Smrush changes
+07:24 that. It shows you exactly which AI
+07:27 platforms are mentioning your brand,
+07:29 which prompts you're appearing in, and
+07:30 where your competitors are showing up
+07:32 instead of you. You get a clear AI
+07:34 visibility score, real data, and a way
+07:37 to track whether things are getting
+07:38 better or worse over time. Semrush is
+07:41 the number one rated SEO and GEO tool,
+07:44 trusted by over 35% of the Fortune 500,
+07:48 and now it's built for the AI search
+07:50 era, too. Try it free for 14 days
+07:52 through the exclusive link in the
+07:54 description below. Thank you so much to
+07:55 Samrush for supporting the show. And now
+07:58 back to the episode. How will AI change
+08:00 marketing over the next three years?
+08:02 What's your take?
+08:05 I think there's a there's several ways,
+08:07 right, that AI will change marketing.
+08:09 One is of course it'll make a lot of the
+08:13 sameness extinct. One thing that I find
+08:16 really interesting about a lot of this
+08:19 like
+08:21 fanfare about even things like oh like
+08:23 cloud code can do SEO or GEO for you in
+08:26 like three clicks, right? Or stuff like
+08:29 that is
+08:31 fundamentally marketing has always been
+08:34 about how do you basically stand out
+08:36 compared to others. And so to me, I
+08:39 think AI can enable individuals,
+08:42 marketers to basically be unique
+08:46 more because AI can do a lot of the
+08:48 heavy lifting that traditionally, you
+08:51 know, was hard to do. We had to do
+08:52 everything right before AI existed. And
+08:54 I think like that to me is a big big
+08:56 change. We were talking about video
+08:57 earlier. Like obviously we're seeing
+08:59 some elements like Higsfield and other
+09:01 things enabling ad creation to become
+09:04 easier and easier. you know, Sora,
+09:07 there's there's a bunch of obviously
+09:08 platforms that are out there that make
+09:10 this a lot more easier to take place.
+09:12 Um, but I think just this element of
+09:15 creativity and actually emphasizing
+09:18 human ability is actually what will kind
+09:21 of like take place with AI and also the
+09:24 importance of being able to leverage
+09:27 like our own personal human qualities. I
+09:29 think will come out more and more like
+09:31 gone are the days where you can just be
+09:33 technical. You have to be a real human
+09:36 being, have strong communication,
+09:39 and I think that is a little bit of a
+09:40 unique take to this like AI equation in
+09:44 marketing. Interesting. So, what do you
+09:46 think is inherently unique and valuable
+09:49 about humans in the human mind? What AI
+09:53 cannot
+09:55 or will never be able to
+10:00 what's the word? Replace in a human.
+10:02 Okay. Now you can spin up websites and
+10:05 you can write and you can generate
+10:07 images. But what's unique about humans?
+10:12 >> I think ultimately it comes down to
+10:13 taste, right?
+10:16 The difference between me and you is
+10:19 going to come down to your perspective
+10:23 and your guidance of the worker, which
+10:26 is the agent in this case, of directing
+10:29 it in the way that allows you to get
+10:31 outcomes.
+10:33 And because you have unique perspective
+10:35 and taste and experiences and expertise,
+10:39 you are able to direct the agent or the
+10:42 LLM better than I could for example
+10:45 because you have more experience than I
+10:47 do. I think that that is where humans
+10:50 become more and more critical. It's also
+10:52 a big reason honestly not to go on a
+10:55 tangent here but please do why a lot of
+10:58 people uh who are coming out of school
+11:01 are not getting jobs but the people who
+11:03 have 10 years of experience are and the
+11:06 reason is is because people who have
+11:08 experience
+11:10 they can amplify their work with AI
+11:12 whereas somebody who does not have as
+11:14 much experience
+11:16 um they're they're kind of like they're
+11:19 not able to do the same things as
+11:21 somebody with exper experience is able
+11:22 to do. Now, obviously, there's different
+11:24 use cases for people who are younger,
+11:26 right? They can potentially do AI
+11:28 transformation in more legacy
+11:30 businesses. And so, there's obviously
+11:32 different use cases, but like like I
+11:34 said, gone are the days where you can
+11:36 pick this thing up and move it there and
+11:37 do that 100 times and that be useful.
+11:40 Um, you have to bring ingenuity,
+11:43 creativity into the equation here,
+11:45 >> right? Let's talk about agents. Have you
+11:48 been playing around with agents? Have
+11:50 you set up anything up and what's your
+11:52 take? How is it going to change our
+11:54 workflows and how's it going to change
+11:55 our marketing jobs and our visibility
+11:58 and everything? Yeah, it's it's a really
+12:01 interesting question. I was just talking
+12:02 to our search team. Yeah. Uh today, so
+12:05 you know, we have a number of
+12:06 strategists on our team. We have content
+12:08 specialists. We have account managers
+12:10 and everyone is kind of playing around
+12:13 with cloud skills, agents, building out
+12:16 workflows in NADN, um using MCP.
+12:21 And I I think the the thing that I keep
+12:24 thinking about and coming back to is a
+12:27 lot of the rudimentary stuff that an
+12:30 agency would even do before is just
+12:33 getting is just going to zero. And so
+12:37 like for example like just coming to a
+12:39 company and getting very very basic
+12:41 content is just not it's not a
+12:44 differentiator anymore.
+12:45 >> What do you mean by basic?
+12:46 >> Like if you with zero expertise so we do
+12:50 a lot of work in your money your life
+12:52 right? So healthcare fintech like those
+12:55 types of niches.
+12:57 If you were to come and do an get an
+12:59 article around birth control, but you
+13:02 don't really have expertise on what are
+13:05 different competitors doing in birth
+13:06 control um type products or like things
+13:10 like that, then your ability to win in
+13:13 even search gets diminished. So, if
+13:15 you're coming to a generic marketing
+13:17 agency and having them write an article
+13:19 about birth control, AI can do that
+13:21 today. And so your like the agencies
+13:25 maybe or the businesses or the
+13:27 individuals who are just doing like
+13:30 B or even C-level work I think is going
+13:34 to be very very challenging in the next
+13:35 coming years because AI can do that now
+13:38 but again like you were asking me
+13:40 earlier well then what's the value of
+13:41 humans it's this whole um thinking
+13:44 around this uh for deployed marketer
+13:47 somebody who's able to bring AI with
+13:50 them into an enterprise with their
+13:52 unique perspective to drive outcomes for
+13:55 a company and I think that is a
+13:56 positioning that we've kind of taken
+13:58 also at taco
+13:59 >> forward deployed marketing
+14:01 >> was that
+14:01 >> for forward deployed marketer
+14:02 >> marketer
+14:03 >> so you have forward deployed engineers
+14:06 which is like what palanteer is right
+14:07 and so similarly the way that I think
+14:09 about this is the reason companies hire
+14:12 taco is because we not only have
+14:15 expertise on the SEO GEO side but we've
+14:18 built out agents skills workflows
+14:22 to allow us to move faster with the
+14:24 companies that we are partnering with.
+14:26 And that I think is a really interesting
+14:28 take because now as a CMO I'm like well
+14:31 I need to hire someone to get me
+14:33 outcomes on GEO. Do I maybe hire
+14:36 somebody internally? They have like one
+14:37 Google search console, one AI visibility
+14:39 dashboard, one kind of vantage point. Uh
+14:43 do I potentially go to a cheaper agency
+14:46 who maybe can do generic work for me?
+14:48 Well, like AI can do that like we were
+14:50 saying earlier or do I go hire a group
+14:52 like Taco who they have real expertise
+14:54 in this. They have 30 plus brands that
+14:56 they've worked with that they can take
+14:57 insights and learnings from. So that's
+14:59 kind of like what I'm referring to
+15:01 around like you know what is changing
+15:04 when we think about like AI and and then
+15:06 the marketing space too. So AI wants to
+15:09 give people an answer that has real
+15:13 authority to it. Right? If you ask who
+15:15 is the best dentist locally, if you ask
+15:18 what is the best AI visibility company,
+15:20 right, it wants to give the most
+15:22 authoritative players in that space.
+15:26 What are you seeing are some of the
+15:28 signals that AI takes into account to
+15:32 decide who is an authority? Because like
+15:35 you said, anybody can spin up an article
+15:38 and say, you know, we are the best or
+15:40 these are the best dentists or whatever,
+15:42 but there's a lot more than that that
+15:46 goes into that decision that the AI
+15:48 makes. What are some of the signals that
+15:49 you're seeing?
+15:51 >> The typical search answer depends on the
+15:53 query.
+15:54 >> Yeah. But I'd say like just like in SEO
+15:57 land, I think in GEO, you need to
+16:00 somewhat reverse engineer
+16:02 what is it that the um LM is taking
+16:06 information from. So in this case, I
+16:08 think about it from a citation
+16:09 perspective. In certain cases, it may go
+16:12 direct to websites, right? It may go to
+16:14 third parties, right? Like Reddit, for
+16:16 example. It may go to mommy bloggers who
+16:19 are talking about a particular topic. So
+16:23 I think ultimately the way that I think
+16:24 about this is influence is really
+16:27 dependent on the query itself and how
+16:30 whether it's train data or it's like rag
+16:33 right retrieval augmented um information
+16:35 that's being pulled from an or from a
+16:37 search engine for example that's what
+16:40 ultimately determines like where it's
+16:41 going for its answer right if that makes
+16:43 sense. Do you think there's going to be
+16:46 one big LLM that takes it all, aka
+16:50 Google of Search, or do you think that
+16:53 we're going to have many different LLMs
+16:55 for different use cases?
+16:59 See, it's hard to say, right? Because in
+17:01 the last 10 years, Google is the search
+17:04 engine.
+17:05 >> Yeah, it's the monopoly.
+17:07 So,
+17:10 it sure as heck feels like we will have
+17:14 multiple and I do think that there was a
+17:18 lot of questions around Google's ability
+17:19 to respond to a chat GPT type interface.
+17:25 My feeling is that we will probably see
+17:27 some fragmentation,
+17:30 but I think it'll flex depending on what
+17:32 happens. Like for example, if you and I
+17:35 were interviewing or doing this
+17:36 interview two years ago, there would be
+17:37 no question about claude. That wouldn't
+17:39 even be on our radar.
+17:42 Whereas now, everyone here is using
+17:44 cloud skills or using MCP. Like there's
+17:46 so many use cases of AI leveraging cla.
+17:52 But if I look at the data, the the
+17:54 growth of both of these platforms is
+17:56 still there. It's just coming from
+17:58 different places. So, I think long story
+18:00 short, I feel like maybe there's going
+18:02 to be a handful of very dominant
+18:04 players. Um, I do think Google will
+18:07 continue to kind of like drive the lion
+18:09 share of search. Um, and they clearly
+18:12 have done a really good job competing,
+18:14 right? Generally speaking, so that's how
+18:16 I think about this at least right now.
+18:18 >> I like that. Who wins in the AI search
+18:20 era? Big brands with big budgets or
+18:24 smaller specialists?
+18:26 I think it's going to be a question of
+18:30 which brands number one are able to
+18:33 respond well to consumer shifts in
+18:36 behavior just like we see with algorithm
+18:38 updates right
+18:40 we see situations in which a dominant
+18:42 player like a Forbes ranks for a bunch
+18:45 of different queries Google comes and
+18:47 says hey doesn't really make sense for
+18:49 Forbes to rank competitively for best
+18:51 CBD gummies right and then that changes
+18:54 pretty drastically overnight and and
+18:55 they somewhat come back and then now
+18:57 it's very focused on brands right brands
+19:00 that have industry experience expertise
+19:03 in that core category that are able to
+19:05 win so I think the short answer is
+19:10 uh I think it's going to be a
+19:11 combination of both to be honest with
+19:13 you and I think it's going to be
+19:14 dependent on who does a really good job
+19:17 of going deep in their area of focus
+19:20 whether it be meditation it be you know
+19:22 CBD gummies it be vaginal microbiome it
+19:25 be whatever the the industry um of
+19:28 choice may be and I think those
+19:30 businesses will do the best. Um but I
+19:33 also think that the brand presence of
+19:35 companies that are just bigger
+19:38 uh will will continue to drive value
+19:40 right because like if you are inherently
+19:42 wellknown then you will continue to
+19:45 drive like visibility in LMS right so I
+19:48 I really just think it depends on the
+19:49 query and like what the spaces
+19:52 >> attribution
+19:53 >> which is good news by the way right
+19:54 >> because
+19:56 >> in certain industries before it was just
+19:58 like oh like if you're not a big company
+20:00 like this can be really difficult Now
+20:02 it's like, well, with LLMs, you don't
+20:04 have to just go down the traditional
+20:06 domain uh rating or domain authority
+20:09 route, right? You can build a presence
+20:11 on Reddit or you can build a presence on
+20:12 YouTube and still drive outcomes from a
+20:15 visibility perspective on GEO, which I
+20:17 think is interesting. Yeah. Attribution
+20:20 has historically not been the strongest
+20:22 suits of digital marketers and SEO.
+20:25 >> Yeah. Um, and now you know what you're
+20:28 doing and what many other people are
+20:29 doing is essentially we're trying to
+20:31 reverse engineer how
+20:34 these LLMs work and we're trying to
+20:38 optimize for them and we're trying to
+20:40 attribute revenue that comes from our
+20:43 efforts and from LLMs. So what's your
+20:47 take like how do you attribute revenue
+20:49 to AI search?
+20:52 There's a few ways. And if you're
+20:55 familiar with I used to be a CMO before,
+20:58 right? And I remember um going into
+21:01 these meetings, we were considering
+21:03 doing like brand activation campaigns
+21:06 and it's like, hey, like we're in New
+21:07 York City, all these companies that are
+21:09 spending money on subway ads, like how
+21:12 do you attribute revenue,
+21:14 >> right? And the short answer is
+21:17 just like SEO, GEO is a long-term
+21:19 channel. you need to invest into it. You
+21:22 have to either believe that GEO matters
+21:24 and that people are using LLMs. And I'm
+21:26 sorry if you don't believe in that then
+21:27 you probably shouldn't be listening to
+21:28 this. But the
+21:30 >> or you're going to be left behind.
+21:31 >> Yeah. Exactly right.
+21:33 >> And there's no question about that.
+21:35 >> Yeah. You're going to be left behind.
+21:36 And the reality is that more and more
+21:38 people are turning to LMS, right, to get
+21:40 their information. So anyways, the long
+21:42 story short of it is in my CMO days, the
+21:45 way that we would look at look up kind
+21:47 of whether subway ads or whatnot are
+21:49 showing uh growth is on Lyft, right? You
+21:52 do it over a period of time and show,
+21:54 hey, I ran subway ads all across
+21:58 Manhattan for 3 months. What did I see
+22:01 in terms of direct traffic? People who
+22:03 mentioned that they heard about us on
+22:05 the subway.
+22:07 um you can see traffic directly to a
+22:09 link like you'll see certain cases maybe
+22:11 in the fra
+22:12 running for vibe.co co or some company
+22:14 they'll say oh like uh go to the website
+22:17 and like say ads or subway right in the
+22:20 right it's like kind of like attribution
+22:22 that way I think about LLM's very
+22:25 similarly today there's direct sources
+22:27 so you can see hey I got traffic from
+22:29 chat GBD I got traffic from Google AI
+22:32 overviews that will still continue
+22:34 you'll see an increase in direct because
+22:36 a lot of people when they say hey what's
+22:38 the best GEO podcast and they find your
+22:40 podcast they're not going to click
+22:43 directly From there they're going to go
+22:44 to
+22:45 >> and do a direct search
+22:46 >> and do a direct search. So I think
+22:47 direct is one element of it. But the
+22:50 ultimate thing I believe is going to be
+22:52 you're doing a series of activities over
+22:54 a period of time. What do you notice in
+22:57 terms of MQLs on the sales side? What do
+22:59 you notice in terms of revenue coming in
+23:00 from organic search or direct and using
+23:03 that to basically drive correlations
+23:05 around the work that we're doing and
+23:07 whether that's driving results from a
+23:08 revenue perspective. Does that make
+23:10 sense?
+23:11 >> Yeah, that makes sense. So, drop down
+23:14 seems to be like a manual thing where
+23:15 you're at a checkout and you just say,
+23:17 "How did you hear about us?"
+23:18 >> Yes, that seems to me.
+23:19 >> I mean, to get very tactical, there's
+23:21 four ways that I think about it. Number
+23:23 one is like, "How did you hear about us
+23:25 from a sales or even postclick or
+23:27 post-purchase attribution?" So, that's
+23:29 like the first way. The second way is
+23:31 direct traffic. The third way is just
+23:33 like traffic coming in from these LLM
+23:36 sources. And I think the fourth that,
+23:38 you know, we haven't spoken a lot about,
+23:39 but like prompt tracking I think is like
+23:42 a way to do it. I think people are a
+23:43 little bit too obsessed with the
+23:46 different LLM prompt tracking tools that
+23:47 are out there. Prompt tracking is no
+23:50 different than, you know, keyword
+23:51 tracking
+23:52 >> really.
+23:53 >> Yeah. I I don't think it's fundamentally
+23:55 different.
+23:57 I will push on that because because my
+24:00 understanding is that and I come from
+24:02 like
+24:04 >> I started the whole thing the whole show
+24:05 with the idea to understand how
+24:07 everything works how it's influencing
+24:08 right so
+24:11 LLMs are probabilistic meaning you type
+24:13 in the same prompt 10 times it will give
+24:15 you a different result right there's
+24:16 something which is called like uh
+24:18 temperature I was talking to Alp um and
+24:21 there's something which is called like
+24:22 path so it can like roll a dice
+24:24 essentially you can think about this and
+24:25 it decides Like if you give it a prompt,
+24:27 you can decide answers like this, like
+24:29 this, like this. And every time you
+24:30 prompt it, it will like have a different
+24:32 temperature. So we'll give you a
+24:33 different answer every time. Um, so my
+24:36 whole idea, like my whole thinking is
+24:38 like how do we how do we even track
+24:40 this? Like how do we even track prompts?
+24:43 Because I don't think like many people
+24:45 are going to like you know, you can
+24:48 people these visibility tools, right?
+24:49 They're like t choose the the prompts
+24:52 that you want to track and then we're
+24:53 going to track them. But people don't
+24:56 interact with LLMs the way they interact
+24:59 with Google. It's not like you type in
+25:02 best plumbing, you know, Connecticut
+25:04 2026 or whatever. You type in, hey, this
+25:07 broke, you know, my pipe is leaking. I
+25:09 don't know what to do. I need this
+25:10 ignition. Can you please show me
+25:12 something? D. You know, it's like every
+25:14 time like what are the chances that
+25:16 people like how many times is there
+25:17 going to be an overlap that people are
+25:19 going to search like exactly like that,
+25:21 right? There's also like query fan out,
+25:23 I think, right? So then what's your take
+25:25 on that?
+25:27 >> And and just to clarify when I mean that
+25:29 prompt tracking is similar to keyword
+25:31 tracking I mean that I am yet to find
+25:34 one tool be vastly different than
+25:38 another tool because ultimately like you
+25:41 said a lot of prompt tracking is a bit
+25:43 of a black box. The prompt that I put in
+25:46 that I say oh I'm showing up for versus
+25:48 you put in may be slightly different and
+25:49 I not show up for. Who's right? We don't
+25:52 have traffic volumes for either. And
+25:53 frankly, even the traffic volumes in the
+25:55 SEO land, sorry, HFS and Semrush,
+25:58 >> are estimates
+25:58 >> are estimates. And they're and they're
+26:00 sometimes not right. And the reason I
+26:02 know that is because
+26:03 >> Well, everybody knows that.
+26:04 >> Yeah. Exactly. And so, like ultimately,
+26:06 if you think about it, like that's why I
+26:08 say like prompt tracking has a lot of
+26:10 hype around it in the industry. There's
+26:13 billions and billions that are being
+26:15 poured into it. But I think of it like
+26:18 you pick whatever tool you want to track
+26:19 SEO rankings. similar in the prompt side
+26:23 that that's kind of what I meant by
+26:24 prompt tracking being like a bit opaque.
+26:27 The only way that I can see it becoming
+26:29 more and more tangible is you do it
+26:32 either a by persona. So you say, "Hey,
+26:35 I'm a mid,
+26:37 you know, I'm a middle school uh teacher
+26:40 or teacher kind of like segment and you
+26:42 kind of break it down by segments in
+26:44 general by persona." That's like one way
+26:46 to do it. The second way is like Chad
+26:49 GBT announced ads. I'm seeing people
+26:51 launch ads this week.
+26:52 >> Mhm. I actually saw an ad at Chad GBT.
+26:55 >> Yeah. Oh, me too. As a user, you mean?
+26:57 >> Yeah.
+26:58 >> Yeah. Yeah. Same here. So,
+27:01 once more and more people are using the
+27:04 ad products, you will start and that's
+27:06 the same thing that happened with
+27:06 Google, right? we started to have um but
+27:09 I think like to your point like there
+27:11 will be variations which is why I'm
+27:14 saying that we have to use multiple
+27:16 methods to find out whether the work
+27:19 that we're doing is resulting in results
+27:22 or not because you can't take just one
+27:25 thing um to determine what's your take
+27:28 on ads and AI
+27:31 there are there there are mixed feelings
+27:33 I talk to people some are like
+27:37 you know, obviously they need to do it,
+27:39 right? They're burning through a lot of
+27:41 cash. Um, others other companies are
+27:45 like, "No, we're not going to do it." I
+27:47 think Claude said that they're never
+27:49 going to do ads because they have a
+27:50 different monetization. Yeah.
+27:55 I mean, I'm not I'm not at the board
+27:57 meeting, so I don't know. I'm sure they
+27:59 must be tense because they're spending
+28:00 billions and billions of dollars and
+28:02 they've raised at crazy valuations.
+28:06 I I think if they can come up with a
+28:08 good way to deliver the ad that's not
+28:11 intrusive,
+28:13 that's great. I think Sam has Sam Alman
+28:15 has said that he is trying to do that. I
+28:18 don't see that in practice though. I
+28:20 don't know if you disagree with me.
+28:23 >> The ad that I got served didn't feel
+28:26 relevance.
+28:27 >> So then there you go.
+28:29 >> That was my experience with it.
+28:32 >> Yeah. Yeah. And I'd say like whatever
+28:34 limited ads I've seen um in chat GPT,
+28:39 it's not that they don't are not
+28:41 relevant, it's that it defeats the
+28:44 purpose of the LLM. The whole point of
+28:47 going to an LLM is to get the best
+28:49 answer,
+28:50 >> not to get the influence answer by paid
+28:53 dollars.
+28:55 >> Yeah. So
+28:57 I think it makes GEO more important
+29:00 because now if an individual is going to
+29:03 trust the LLM organic and will not trust
+29:07 the paid I think of it very similar to
+29:09 Reddit. Have you ever tried running ads
+29:12 on Reddit?
+29:12 >> No. Have you?
+29:13 >> Uh our brands have and they don't
+29:16 typically perform great. I'm yet to find
+29:18 a brand has crushed it on Reddit paid.
+29:21 But if you look at their performance on
+29:22 organic, it's much better. Why? Because
+29:26 >> trust.
+29:27 >> Trust. It's like real people that are
+29:29 going to Reddit and asking questions.
+29:31 >> Yeah. Yeah. People like, "Okay, this is
+29:34 an ad. This is influenced by money."
+29:37 >> Exactly. It's kind of like, you know,
+29:38 what's the most powerful form of
+29:40 marketing? Word of mouth. Yeah. Right.
+29:42 If
+29:43 >> if if I see an ad for a restaurant like,
+29:45 "Okay, I don't know." But if you tell me
+29:49 like, "Yo, Lost Tacos is the place."
+29:52 I'll be like, "All right." And
+29:54 And multiple people told me that. So
+29:56 guess what? I go out and I try it and it
+29:59 was pretty good.
+30:00 >> Yeah. And I also think like George, we
+30:04 kind of live in a little bit of a of a
+30:06 box where we're here, we're in New York
+30:08 City, we're nerding out about GEO.
+30:11 I don't even know if the average person
+30:13 knows you can influence LLMs.
+30:16 Oh, honestly, I I was at a conference a
+30:18 couple of days ago and he's just like,
+30:20 "Wait, you can influence what Chad GBT
+30:23 says,
+30:24 >> right?"
+30:25 >> And you even family friends of mine,
+30:27 they didn't even know you can influence
+30:28 Google. They thought all the results are
+30:30 legit, which is you may think is nuts.
+30:33 But again, like
+30:34 >> Yeah.
+30:35 >> So, I I I think like to put it in short,
+30:37 like I think ads make sense because you
+30:40 have to pay the bills, right? Like I get
+30:42 it, but I don't know how effective it's
+30:44 going to be relative to organic. And we
+30:47 even saw that with Google, right? Like
+30:49 the clickthrough rates on organic were
+30:51 higher than paid. Doesn't mean that paid
+30:53 is not effective as a channel. So that's
+30:56 the way I think about it. I think it'll
+30:58 bring a lot more attention and eyeballs
+31:00 from marketers and CMOs to LMS, which is
+31:03 great. Are we in an AI bubble?
+31:08 I do think it feels a little frothy.
+31:12 That does not mean that AI is useless or
+31:14 not important,
+31:16 >> right? Um
+31:18 >> same with com, right?
+31:20 >> What was that?
+31:21 >> Same with.com.
+31:22 >> Yeah, exactly.
+31:25 Right.
+31:26 >> Yeah.
+31:26 >> Um so I think similarly here with AI,
+31:29 it's one of those things where it's
+31:30 fundamentally changing the way that we
+31:32 work.
+31:33 >> Yeah.
+31:33 >> Clearly, we know that, right? And like
+31:35 once we have autonomous robots and
+31:37 whatnot, like that'll change things
+31:40 dramatically too.
+31:41 >> Um,
+31:43 but I do think that there's a lot of
+31:45 hype and I don't know, even if you look
+31:48 at public markets, the valuations of
+31:50 some of these businesses,
+31:53 they they seem to go past business
+31:55 fundamentals.
+31:56 >> Yeah.
+31:57 >> Um, in terms of just earnings to profit
+32:00 and whatnot. And I do think a lot of
+32:01 that is driven by hype. So, I do think
+32:04 we are in a little bit of a bubble.
+32:06 >> Yeah,
+32:06 >> in a big bubble.
+32:09 >> Small bubble, big bubble. I think we're
+32:11 in a massive bubble, but like Jeff Bezos
+32:14 said, it's a good bubble. It will burst.
+32:17 There'll be wasted capital. There'll be
+32:19 pain, but net is going to be positive
+32:24 because the technology enables us to be
+32:28 so much more productive. It enables us
+32:30 to do so much more. I mean, think back
+32:32 to the first time you signed up to Chad
+32:36 GPT and used it. It felt like magic. You
+32:41 were like, "Wow, it was CL." Like, if
+32:43 you h if you go back now and you try
+32:45 that model, you're going to be like,
+32:46 "This thing ain't working." You know,
+32:49 but back then you didn't have anything.
+32:50 So, when you tried it, it felt like
+32:52 magic. And how fast do we get accustomed
+32:55 to this new technology? Now, we take it
+32:57 for granted. Yeah. All right. CL connect
+32:59 to my D MCP do this pull the
+33:01 presentation do this transcription like
+33:03 it's the the transformation in
+33:06 technology we've seen over the past
+33:08 three four five years is incredible I
+33:11 think it's the biggest technological
+33:13 shift that we've had since the internet
+33:15 came around first the internet then the
+33:18 mobile phone with the launch of iPhone
+33:21 and then I think now it's the AI it's
+33:25 you know I remember when
+33:27 Chad GBT
+33:28 What was it called? Autonomous.
+33:31 >> I can't remember. What was it?
+33:33 >> Some product that came out. I can't
+33:34 remember the name now, but it could
+33:36 basically do certain things on your web
+33:39 browser for you. And I remember asking
+33:42 it to like check flights using points or
+33:44 something. It was so slow and it would
+33:46 like hallucinate and like go do
+33:49 something else. And I'm just like, holy
+33:50 cow. Like and I remember there are
+33:52 articles on LinkedIn ripping on or on X
+33:55 being like this is the end of paid like
+33:58 this product has like completely taken
+34:00 over ad clicking and yeah I mean I think
+34:03 like you're right that the pace of
+34:05 innovation is just so tremendous and the
+34:07 and the people who can swim in the water
+34:10 will go with the current versus if
+34:12 you're standing on the shore and just
+34:13 watching what's happening.
+34:14 >> Yeah, it's exponential. There's going to
+34:17 be companies who are really good at AI
+34:20 and then there's going to be everybody
+34:21 else.
+34:22 >> Yeah.
+34:22 >> There's not going to be anything in
+34:24 between. It's it's like do or die there.
+34:27 There's nothing in between. And this is
+34:29 the that's a scary thing for a lot of
+34:31 people.
+34:31 >> Yeah.
+34:32 >> Um I was talking to, you know, talked
+34:34 about us earlier. I was uh in Berlin the
+34:37 other week and I was flying the same day
+34:39 back and forth and then I meet this uh
+34:41 gentleman at the airport who runs a very
+34:43 successful coffee company in uh um in in
+34:47 Europe and um we start a conversation.
+34:50 Then I ask him and then he tells me, "Do
+34:53 you know our coffee sales are up
+34:56 all-time high?" I'm like, "Oh, wow.
+34:58 That's great." He's like, "Do you know
+34:59 why?" I'm like, "No." He's like, "Well,
+35:04 people they they service machines. They
+35:06 they install machines service, bring
+35:07 them beans. People
+35:10 are going to work more often. They're
+35:12 staying at work more often because they
+35:15 are afraid that the AI is going to
+35:17 replace their jobs. It's going to
+35:18 replace them out of their job. So, their
+35:21 coffee consumption goes up." And it
+35:24 makes sense, you know? It's it's like,
+35:27 and what I say to that is don't wait for
+35:29 the AI to replace you. Replace yourself
+35:32 with AI.
+35:32 >> Yeah.
+35:33 >> You know, be proactive. If you can
+35:35 replace yourself out of a job, great.
+35:37 Present it to your board. Present it to
+35:39 your, you know, boss and and it's going
+35:42 to be great.
+35:42 >> Yeah.
+35:43 >> Like they'll pay you for that and you'll
+35:45 be handsomely rewarded for it.
+35:47 >> Yeah. I think one of one of the things
+35:49 I've been telling the team is like
+35:51 whether you work here for a year or two
+35:54 years or three years, first of all, on
+35:56 my watch, you're not going to not do
+35:57 this because I selfishly want everyone
+36:00 to do this for again for selfish
+36:03 reasons. I want the business to do
+36:04 really well. But again for selfish
+36:07 reasons like I want my people to be well
+36:10 equipped and I believe that again
+36:14 everyone can do what they want but like
+36:16 as a CEO and as a business owner like I
+36:19 want everyone to do well personally
+36:21 whether they're with me for a year or 10
+36:24 years or whatever you know so yeah I
+36:28 think like the people who are not in the
+36:30 water are it's going to be really tr
+36:34 really tricky
+36:35 you know. Yeah.
+36:36 >> So
+36:38 >> you started from what I understand uh
+36:42 taco with one belief not with one many
+36:44 beliefs but one of them is that search
+36:46 should be a revenue engine.
+36:47 >> Yeah.
+36:48 >> What is your most success what is your
+36:50 most successful client results so far?
+36:54 Well
+36:56 a couple that come to mind that I think
+36:58 are interesting. One is we
+37:02 one is uh Expedia
+37:05 obviously big business. Um they saw
+37:09 actually funny enough Expedia was
+37:10 introduced to me by Neil Neil Patel
+37:13 and you know they saw crazy growth right
+37:16 just generally. So I think that's like a
+37:18 good example. Um we have we have a case
+37:20 video on our site but that's like one
+37:22 one that comes to mind. The second that
+37:24 comes to mind, I'm not going to name the
+37:26 business, but
+37:28 they are in the healthcare space and
+37:31 when they came to us, they were like,
+37:33 "Hey, we need to compete in this like
+37:35 vastly in that time it was like right
+37:37 after
+37:39 um co and so they're like, hey, we just
+37:42 raised more money and we need to
+37:45 compete, but our competitors are massive
+37:47 businesses and like we cannot afford to
+37:49 pay the Google Meta tax where cost per
+37:52 clicks are going up every year. Um, and
+37:56 we we just need to turn to search. And
+37:58 that search is a great channel for a
+38:00 your money, your life niche because
+38:02 there's a lot of longtail, right?
+38:05 Searches, right? Especially in
+38:06 healthcare. And that business went from,
+38:11 you know, 10, 15, 20K a month from
+38:14 search to about two years they're doing
+38:16 about 240,000 a month in search.
+38:20 >> That's like 20x, right? Yeah. And that's
+38:23 why like what channel do you know that
+38:29 you invest continuously like you invest
+38:32 in the markets and you just see this
+38:34 compounding this snowball effect take
+38:36 place and that's why that's why I love
+38:39 this channel right it's not right for
+38:41 every business it's not right for every
+38:42 stage of business but when you get those
+38:46 few components right I mean you you
+38:49 don't have to you know pay Mr. Google
+38:52 and Zach uh the way that you may have to
+38:55 before. Now, I do think the best
+38:57 business is you need to do a lot of
+38:59 channels that work effectively well in a
+39:01 sequence.
+39:02 >> Mhm.
+39:02 >> Um but those are two that come to mind.
+39:06 >> What is the one thing a brand can fix on
+39:08 their website this week that would
+39:10 immediately improve their AI visibility?
+39:15 The thing that comes to mind that's
+39:17 going to feel very SEO but plays into
+39:19 GEO
+39:21 is
+39:23 optimizing for H1s, H2s,
+39:28 and title texts.
+39:29 >> I think you analyzed over 100 AI
+39:31 overview citations and found that 44.2%
+39:34 of all citations come from the first 30%
+39:36 of the texts. Y
+39:38 >> right. Um, so how should companies write
+39:41 their contents?
+39:42 >> I think it depends, right? if it's a
+39:44 landing page or if it's content long
+39:46 form content like the couple of
+39:48 fundamentals that I I like to emphasize.
+39:50 The first thing is
+39:52 look at search intent on on Google.
+39:55 Reverse engineer those into prompts.
+39:58 Like we said, prompts are opaque. We
+40:00 don't have any search volume today on
+40:02 prompts. Once you've determined what
+40:05 that primary keyword is, include that in
+40:07 the front of the H1,
+40:10 the title tags for SEO purposes, make
+40:14 sure that the H2s of your content also
+40:16 mirror questions that consumers or
+40:19 businesses are asking related to that
+40:21 topic. And then the biggest thing I
+40:23 would say from a content perspective is,
+40:26 you know, a lot of people like like to
+40:28 talk about content like it's defense
+40:31 against the dark arts, but the reality
+40:34 is you need your content to be um
+40:37 understood by a human as simple as that
+40:41 sounds. And so like and looking at
+40:44 what's also competitive like in in
+40:46 search lens like you asked me the
+40:48 differences between SEO and GEO. I think
+40:51 of it similar from a perspective of
+40:53 reverse engineering what's working.
+40:56 Once you can go and see that for a query
+40:59 what is showing up competitively on
+41:01 chatbt on perplexity on Google take
+41:05 those principles and apply that to your
+41:06 content. If a product page talks about
+41:09 how firm the mattress is, what kind of
+41:11 bed sheets works on it, what's the
+41:14 return policy, like you need to include
+41:15 those elements in your content and make
+41:17 sure that the content is competitive
+41:19 from a readability perspective compared
+41:21 to what exists today. So those are some
+41:23 kind of like thoughts that we think
+41:25 about in terms of what creates
+41:27 competitive content. But that's the
+41:28 premise. What a lot of people talk about
+41:30 now is that you should you shouldn't
+41:32 just create content for humans, but you
+41:35 should start creating content for
+41:36 machines and agents and robots as well
+41:39 >> because they're the ones who come to
+41:41 your site. They're the ones who crawl
+41:42 and those are the ones that come back to
+41:45 the chatbot and give it the synthesis
+41:48 basically. You know,
+41:51 not really a question, just an
+41:52 observation.
+41:54 You know, they say that, but my counter
+41:56 would be so far.
+41:59 Show me what a piece of content that was
+42:02 made for agents, and I've seen a lot in
+42:06 the wild. And I'm happy to share more
+42:08 about what I've seen.
+42:10 And I don't know that doing that is
+42:13 necessarily, at least as of right now, a
+42:16 long-term strategy for winning in GEO.
+42:18 Why?
+42:19 Well, because in many cases, if you're
+42:21 creating content that is meant for
+42:24 agents, you may actually uh run into
+42:27 issues in which you create duplicate
+42:29 content or you cannibalize content that
+42:31 exists on your site and you ultimately
+42:34 impact search performance on Google and
+42:37 Bing. Well, if LLMs are using Google and
+42:39 Bing as their retrieval source for as a
+42:42 search engine, well, if you're not
+42:43 present on those search engines, then
+42:45 you're not going to show up in LMS. So
+42:47 creating these like micro sites like
+42:50 like I we can talk for hours, George.
+42:52 We'll have to we'll have to go to Lost
+42:54 Lost Tacos and have a talk there.
+42:56 >> Let's go. Let's take it away.
+42:57 >> But I I've seen companies come to me and
+42:59 say, "Hey, I created a subdomain and on
+43:02 the subdomain I'm creating content all
+43:04 about my competitor and trashing them."
+43:08 Yeah. Does that work? Yeah, it works.
+43:10 But will it work for a long period of
+43:11 time? No, I don't think it will.
+43:14 >> Yeah. So that's that is what I'm
+43:16 referring to as creating content for
+43:18 agents.
+43:19 That's not meant for human consumption.
+43:22 It does influence the LLM. For how long?
+43:24 It's kind of similar to um
+43:29 businesses that create these like fake
+43:32 third party accounts and go to Reddit
+43:34 and just spam Reddit. Yeah. Does it
+43:37 work? Yeah, it does work. But will it
+43:40 work long term? I would be doubtful,
+43:42 right?
+43:44 We're we're recording this in early May.
+43:50 Just a few weeks ago, it would work that
+43:52 you would put your brand as number one
+43:54 on a listical. And now it's all nerfed.
+43:58 AI content was ripping. Everyone was
+44:01 doing AI content, publishing content
+44:04 left and right. Shopify got got
+44:06 penalized, right, for and they have such
+44:10 a massive domain authority.
+44:13 What I'm saying is that just because a
+44:15 strategy works today, if if if you're
+44:17 running a churn and burn strategy,
+44:20 amazing. Go for it. Um, you have my
+44:22 support. But if you're a real business
+44:24 that wants to be around for several
+44:28 years and decades, I don't know that you
+44:31 should do short-term packets. Maybe
+44:33 that's obvious, but no, I agree with
+44:35 that. Um Benjamin Graham, right, the
+44:38 mentor of Warren Buffett said that in
+44:40 the short term, the market is a voting
+44:42 machine and the long term is a weighing
+44:44 machine. So something might work in the
+44:46 short term, but then um if that's your
+44:49 game, sure, go for it. But I think that
+44:53 the people that we bring on to the show
+44:55 and the people that we talk to are not
+44:57 really interested in that because we are
+45:00 in it for the long term and that's kind
+45:02 of our game, right? They say that
+45:04 business is the most competitive sport.
+45:06 I agree with that. It's very
+45:07 competitive. It's very hard, but it's
+45:10 also the most interesting one as well.
+45:11 Yeah. And you you got to adapt, right?
+45:13 Obviously, I with AI, everybody's trying
+45:15 to adapt, right? It should be trying to
+45:17 adapt. But you know even with search
+45:19 engines like the reason that this worked
+45:22 some of these strategies have worked is
+45:24 because even LLMs are like you know one
+45:28 of one of the questions people ask me a
+45:29 lot is okay well if I optimize for chat
+45:32 GBT will that carry over to Gemini
+45:35 >> good question
+45:36 >> will that carry over to Perplexity will
+45:38 that carry over to choose your LLM?
+45:42 Of course, the answer is going to be it
+45:43 depends. But the real answer is
+45:46 usually there is overlap, but generally
+45:50 you have to do certain things to
+45:51 optimize for a specific one. So what do
+45:53 I say? I say let's go after the ones
+45:55 that have the most eyeballs. If I'm a
+45:57 B2B business, that might be Google, that
+46:00 might be Claude and Chat GPT.
+46:02 >> Depending on your vertical, of course,
+46:04 depending like where your ICPs are.
+46:06 >> Exactly.
+46:07 >> Yeah. And then that ties back to the
+46:09 conversation is do you really know who
+46:11 your ICP is? Do you really know where
+46:12 they are? Like what's your LM of choice?
+46:16 For what?
+46:18 For life.
+46:19 >> Well, I mean for work or for searches or
+46:21 for
+46:21 >> Oh, so you have different ones for
+46:22 different things.
+46:23 >> Yeah. Okay. I I don't usually really use
+46:26 Claude for searches.
+46:27 >> Okay.
+46:28 >> You know, like personal searches like
+46:29 I'm like, "Hey, what's the best taco in
+46:31 New York City?"
+46:32 >> Right. Where do you go for that?
+46:33 >> I'll go to Google.
+46:34 >> Still Google.
+46:35 >> AI mode. Yeah. AI mode. You know why?
+46:38 Because I think they do a really good
+46:40 job integrating businesses. Google My
+46:43 Business, they have all that data. They
+46:45 have reviews. They have Yelp. They have
+46:47 I don't I don't know if they have some
+46:48 partnership with Yelp to be clear, but
+46:50 they can also pull in Reddit. Obviously,
+46:52 they have a partnership with them. I
+46:54 find the result becomes a lot more
+46:57 holistic.
+47:00 >> Whereas they have all the data.
+47:03 >> Yeah. They've been around for a long
+47:05 time and they've been the monopoly.
+47:07 >> Whereas Claude, I do do searches for
+47:09 them, but they're mostly B2B related.
+47:11 What are the best GEO podcast that
+47:13 exists? Find George. Right.
+47:16 >> There we go. Yeah. It seems like the
+47:17 consensus is that enterprise B2B is
+47:20 Claude, which I think from their like
+47:23 that's their strategy and they're smart
+47:25 for it, you know? They don't they don't
+47:27 go after the average consumer. They're
+47:29 like, we're going to be doing hardcore
+47:31 B2B stuff. you know, we'll help you do
+47:33 your work essentially.
+47:34 >> Yeah.
+47:35 >> How does work even look like in the
+47:36 future if if AI is doing more and more
+47:39 of it for us? Like how does that even
+47:41 look like for us? I mean, I think the
+47:43 short answer is we would probably start
+47:45 to do different types of work that you
+47:48 would not maybe be doing before.
+47:52 And the other answer may be like we just
+47:53 have more time, right, to not do the
+47:56 work that I would argue that you don't
+47:58 have more time right now.
+48:00 >> Yeah. Well, well, hopefully now um
+48:04 I I don't think like me I I don't think
+48:08 I am a great example of doing this at a
+48:10 max scale.
+48:12 >> Yeah.
+48:12 >> But you know, I have I have friends at
+48:14 night that are running
+48:18 10 10 agents and those have sub agents
+48:21 call 100 agents all night doing what? I
+48:27 have all kinds of different things.
+48:28 landing pages, CRO,
+48:31 keyword research, like yeah, it exists.
+48:33 I mean, then what what do they do then
+48:35 in the morning? They're spending time
+48:36 reviewing that work and giving feedback.
+48:40 Interesting.
+48:42 Yeah, I haven't I haven't found a very
+48:44 useful application for agents yet. Maybe
+48:46 I'm like very very behind on it, but I
+48:49 tried with
+48:52 Clawbot. No, what's the name?
+48:53 >> Open Claw.
+48:54 >> Open Claw. Yeah.
+48:55 >> Yeah, I tried that. It was still clunky.
+48:58 It was like, yeah, I ran into issues
+48:59 with like um running out of credits with
+49:02 with Enthropic
+49:04 and then I was like, ah, it. This
+49:06 is too early. I'll let other people
+49:08 figure out first. I'm not too far
+49:09 behind. Like I'm not the extreme
+49:11 innovator that I'm like at the forefront
+49:14 and I'm doing this, but I'm like I'm
+49:16 like just a little behind, you know?
+49:18 Like I served in the military for six
+49:19 for six months, right? And what I
+49:21 learned in the military is when there's
+49:24 a line, right? Sometimes they'll pe
+49:26 they'll they'll pick people at random to
+49:28 do some that you don't want that
+49:30 nobody wants to do, right?
+49:32 >> You never want to be at the the front
+49:34 and you never want to be at the back.
+49:36 >> Yeah.
+49:36 >> You want to be like somewhere at the
+49:38 close to the front. Like you want to be
+49:40 somewhere like that because then uh
+49:43 chances of you being picked are not that
+49:45 high. So I kind of feel like this like
+49:48 Yeah. Interesting. Um you talk about the
+49:52 importance of middle ofunnel content.
+49:54 What kind of middleofunnel content
+49:56 should a SAS company make?
+49:58 >> So, this is an interesting topic because
+50:02 whether you're a SAS or even e-commerce
+50:04 company, people love using LLMs to
+50:07 compare.
+50:10 What's the difference? We're going to
+50:11 stick to tacos, right? What's the
+50:14 difference between Los Tacos and
+50:16 competitor?
+50:18 Starbucks versus Lucken, right? To me, I
+50:22 think the middle of funnel is where LMS
+50:26 can shine because they can do the grunt
+50:28 work for you that you may not want to
+50:31 do, right? You just want the answer. You
+50:33 don't want to actually look at the Yeah.
+50:35 pricing, go figure out features. You may
+50:37 give it more information, but to me, the
+50:39 middle of funnel is a great example of
+50:41 where in traditional SEO, there's no
+50:43 search volume for, but I know drives
+50:45 conversions
+50:46 and it becomes the part of the strategy
+50:48 that every company does. Like we worked
+50:50 with a company in the real estate
+50:53 investment space and we just created a
+50:56 bunch of variations of these comparison
+50:57 keywords. Brand versus competitor, brand
+51:00 versus competitor, right? And lo and
+51:03 behold, over time, we started to rank
+51:06 those competitively on search. So when
+51:08 Chat GPT started to do searches for
+51:10 those, our brand showed up for those
+51:13 queries. Brand new business. Yeah,
+51:15 >> those searches are also not the most
+51:18 competitive searches, right? So, you can
+51:21 easily win them, right? You can go after
+51:23 LM citations. If Yield Street is showing
+51:26 up for some of these pages, you go, you
+51:29 do outreach, you get inclusion in those.
+51:31 >> Yeah. The the intent is basically it's
+51:33 like right before the conversion, right?
+51:35 >> Exactly. Correct.
+51:36 >> People are deciding, do I go to Los
+51:39 Tacos or the competitor? And then boom.
+51:41 So, like you're very close to the
+51:42 conversion. They are not like what is a
+51:44 taco? They're they want tacos to eat,
+51:48 you know, and so that's the difference.
+51:52 >> You got your first SEO retainer from
+51:53 Neil Patel at 16. How did that happen?
+51:57 >> Well, like I mentioned, I was young and
+52:01 hungry and I wanted to connect with him.
+52:02 I cold emailed him a bunch of times and
+52:06 he was just like, "Yeah, let's hop on a
+52:07 call." And that was like obviously
+52:10 life-changing. I'm not I wouldn't be
+52:12 here if it wasn't for that call and for
+52:14 like just seeing somebody at that, you
+52:17 know, at that scale, right? Like I mean
+52:20 what he's built with NP Digital and
+52:22 other businesses like how how they how
+52:24 they move and like what they what they
+52:28 do with their time and how efficiently
+52:30 they are. Um we're in New York right now
+52:33 filming this, but I remember he was
+52:36 like, "Hey, I'm going to come to New
+52:37 York. We should meet up." I was like,
+52:38 "Sweet." And I was in Boston. I was in
+52:40 college at the time and I remember
+52:42 taking the Peter Pan Express to the
+52:44 Bakarat Hotel in New York and he's like
+52:47 hey I'm going to like you're doing great
+52:48 and I want to introduce you to a company
+52:51 and I was like cool what's what's the
+52:52 company? He goes it's Expedia. I'm like
+52:55 wow okay this is crazy. So
+52:57 >> thanks Neil. Yeah. So, you know, and
+53:00 then Expedia led to LinkedIn and then,
+53:01 you know, so
+53:04 yeah, I mean, life-changing experience.
+53:06 Just getting into the rooms with the
+53:08 right people at a young age when you're
+53:11 learning something and how it can
+53:13 exponentially change the trajectory of
+53:15 your life is such a life hack.
+53:17 >> Being being in the right room with the
+53:19 right people
+53:20 >> and and of course, it's not just about
+53:22 being there. You got to do stuff then
+53:23 when you're in the room, right?
+53:24 >> You got to be of value.
+53:26 >> Yeah.
+53:26 >> Yeah. You can't just sit around and
+53:28 expect them to to push you up the social
+53:31 ladder. Um, you were a CMO at 21 in a
+53:34 room uh full of people with 10 years on
+53:37 you.
+53:38 >> More 20 maybe.
+53:39 >> 20. Yeah. So, how did you handle that?
+53:41 What were your what were your takeaways
+53:42 from that?
+53:45 I mean, if I were to do that again, I
+53:47 think I would probably handle it very
+53:49 differently probably now. I I think I
+53:53 had a lot of like imposttor syndrome
+53:57 >> you know like what I mean I don't know
+53:59 anything about paid ads or yeah I knew
+54:02 SEO through and through right because of
+54:04 my experiences prior but you know I
+54:07 think like just leaning again like the
+54:09 same playbook I kind of did earlier on
+54:12 doing that with other CMOs that are two
+54:15 three steps ahead and just I think also
+54:17 being okay with just saying hey like I
+54:19 don't I don't
+54:21 Nobody knows, right, the answers to
+54:23 this, right? And
+54:24 >> everybody's figuring it out.
+54:25 >> Yeah. Like it's just about having the
+54:28 >> confidence that you'll figure it out and
+54:29 the humility to know that it's okay that
+54:31 you don't have to have the answers.
+54:33 >> I like that.
+54:34 >> That combination of those two things is
+54:36 um I think what I would say. But yeah, I
+54:39 mean like I was 20 in my early 20s and
+54:42 we had executives who were in their 50s.
+54:46 I was just like what? this is like
+54:49 crazy, you know?
+54:51 >> Why did you guys bring me on?
+54:52 >> Yeah.
+54:54 >> Yeah. I mean, that's what it felt like a
+54:56 lot, right? Um and especially as the
+54:58 business grew, like just not having
+55:02 not feeling like it made sense, like are
+55:05 you sure you still, you know? Um
+55:09 >> but again, like I I have a friend, he is
+55:12 the CMO
+55:14 of a very well-known company that you
+55:16 and I would both know.
+55:18 and he's 26. Wow. But there's value and
+55:22 there's beauty in that. There's beauty
+55:23 in being young. Um,
+55:26 we are not we have not hired him, but
+55:28 I'm in the process of hiring an early
+55:31 hireer and he's just finished college.
+55:34 So, you're asking about what's the value
+55:36 of like, you know, what's going to
+55:37 happen in the market and whatnot, right?
+55:40 The value is that he can learn things
+55:42 really quick and he can spin up agents.
+55:45 he can build things that and we don't
+55:47 have the same infrastructure that we
+55:49 would have on the search side that we
+55:51 would have in our internal marketing for
+55:53 example right and there's value right in
+55:56 being young and I think leaning into
+55:58 that and being like it's okay and and I
+56:00 think the important thing too that I
+56:02 would also say is that not everything
+56:04 has to last forever and it's okay to sit
+56:08 in that and be comfortable with that you
+56:10 know I tell that to the team like hey
+56:12 there there's this is a team this is not
+56:14 a
+56:16 And what I mean by that is that it is my
+56:19 job and that it is your job to feel like
+56:21 you are on the right team. And the
+56:23 moment you don't feel like you're on the
+56:24 right team, you should tell me and we
+56:26 should find you another home. There's
+56:28 nothing wrong with that. We're all we're
+56:31 all here to grow and like help each
+56:32 other get better. You know what you said
+56:35 about, you know, being young is and that
+56:37 they can young people can learn fast if
+56:39 they have the hunger for it. Is there
+56:41 must be the saying that it's hard to
+56:44 teach an old dog new tricks.
+56:46 >> Yeah.
+56:47 >> You know, like yes, people can learn
+56:51 things at any age, but the efficiency of
+56:54 learning as you get older, like you can
+56:56 see it with languages, for example,
+56:58 right? Kids can pick up a language
+56:59 really fast. Um, and language is a
+57:02 pretty good analogy to, I think, you
+57:04 know, just new skills in general, like
+57:05 with AI and agents, right? You remember
+57:08 yourself when you were a kid, it was
+57:09 much easier to learn something new than,
+57:11 you know, I task you right now with
+57:13 learning Finnish. Huh, good luck. It's
+57:17 hard, man. Doesn't matter if it's
+57:18 Finnish or whatever, but it's like any
+57:19 learning a new language when you're
+57:21 getting older is
+57:23 brain starts to solidify and you kind of
+57:26 have your ways that have, you know, a
+57:28 track record of working for you and you
+57:30 stick to those ways. But at the same
+57:32 time, it is important to reinvent
+57:34 yourself and when a new technology like
+57:36 this comes around, you need to be able
+57:38 to say, "All right, you need to
+57:40 challenge your assumptions. you know,
+57:41 the things that have worked for me in
+57:43 the past, uh, might not be any more
+57:45 applicable, you know, yeah,
+57:49 maybe you've been a, you know, an SEO
+57:51 specialist and now you need to basically
+57:54 reinvent yourself and and learn how to
+57:57 win an AI visibility.
+57:59 >> Yeah. I mean, if you don't, you're
+58:01 you're you're not going to be around for
+58:02 too long, right? Like, it's just that
+58:04 simple. You got to adjust to what's
+58:06 happening in the real world. you know,
+58:09 >> the
+58:11 how does the saying go? Um, it's not the
+58:14 smartest and it's not the strongest who
+58:17 survives. It's the most adaptable.
+58:20 So, to win to stay alive essentially,
+58:24 not even about winning, but just stay
+58:25 alive, you need to be adaptable. You
+58:27 need to be be like a chameleon, you
+58:29 know? You need to be able to adjust your
+58:32 colors and go with the market and see
+58:34 where things are going.
+58:35 >> Yeah. but at the same time have
+58:37 principles and fundamentals and common
+58:39 sense that doesn't change. That's also
+58:42 very important what we talked about like
+58:44 long-term strategies versus short-term
+58:45 strategies as well.
+58:49 Um,
+58:50 what is the one thing we're wrapping up,
+58:52 but what is the one thing that AI cannot
+58:55 replace in marketing? You can take your
+58:57 time to think about this if you want.
+59:01 >> I think we kind of answered this around
+59:04 human creativity. H what does that what
+59:07 does that mean human creativity
+59:09 >> I think creativity and perspective and
+59:11 taste
+59:13 is not something AI is able to do it you
+59:16 can come up with ideas it's
+59:18 probabilistic as you said earlier
+59:20 >> you know if if plumber is the first word
+59:24 the next word may be pipe then the next
+59:26 word will be water then the next word
+59:28 whatever right
+59:31 I think that that to me is the it's it's
+59:34 making humans more human.
+59:36 >> Making humans more human.
+59:38 >> Yeah,
+59:38 >> that's what that's it's Yeah.
+59:41 >> Do you think AI is making us more lazy?
+59:45 >> Uh, yes and no. I I see people who use
+59:48 AI who have become more lazy because
+59:50 they just trust and do whatever AI says.
+59:54 I also see people using AI and they're
+59:56 way busier than they were before, like
+59:58 your friend who's selling coffee,
+60:00 luckily, uh who's who's benefiting off
+60:03 of that. So, it's just like anything
+60:05 like is the internet bad or good for us?
+60:08 Well, if you if you whail away your time
+60:10 on Instagram stories and reals, yeah, I
+60:13 don't think it's great for you. It's my
+60:15 personal opinion. But if you're using it
+60:17 to learn, to better yourself, to create
+60:21 a business, like
+60:23 I'd say that's a good use of the
+60:25 internet. That's the way I think about
+60:27 AI.
+60:29 Love it. Nothing is either good or bad
+60:31 but thinking but thinking makes it so.
+60:33 >> Yeah. How you approach it.
+60:36 >> Yeah. You know,
+60:37 >> thank you very much for your time.
+60:38 >> Yeah.
+60:39 >> Wonderful conversation. And uh where is
+60:41 the best place for our viewers if they
+60:43 would like to connect with you to find
+60:44 you on the internet?
+60:45 >> Yeah. They can reach out to us at
+60:47 taco.co. Taco.co.
+60:50 Taco like Los Tacos. Um or you can reach
+60:54 out to me at trog taco.co
+60:57 or on Twitter.
+61:00 Those places.
+61:01 >> Awesome. We're going to leave links to
+61:03 Gurog's socials down in the description
+61:06 of the show. Thank you very much for
+61:07 watching and listening. Thank you.
+61:10 >> Thank you.
