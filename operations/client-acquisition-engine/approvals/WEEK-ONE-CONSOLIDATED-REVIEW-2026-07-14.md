@@ -127,8 +127,11 @@ Estimated review time: 12 minutes
 
 ### AI Visibility Report
 
-Source: `../AI-VISIBILITY-REPORT-DRAFT-2026.md`  
-Review PDF: `../output/pdf/BridgeWorks-Small-Business-AI-Visibility-Report-2026-DRAFT.pdf`
+Private working source: `../AI-VISIBILITY-REPORT-DRAFT-2026.md`
+
+Public source: `../public-proof/AI-VISIBILITY-REPORT-PUBLIC-ANONYMIZED-2026.md`
+
+Review PDF: `../public-proof/output/BridgeWorks-AI-Visibility-Report-2026-PUBLIC-ANONYMIZED.pdf`
 
 Choose one:
 
@@ -138,18 +141,21 @@ Choose one:
 
 Publication and website upload remain separate actions.
 
-### Corrected CEEFM case study
+### Anonymized client case study
 
-Source: `../../../clients/ceefm/CEEFM-CASE-STUDY-FINAL-2026-06-11.md`  
-Review PDF: `../output/pdf/BridgeWorks-CEEFM-Case-Study-2026-DRAFT.pdf`
+Private evidence source: `../../../clients/ceefm/CEEFM-CASE-STUDY-FINAL-2026-06-11.md`
+
+Public source: `../public-proof/CASE-STUDY-CENTRAL-EUROPEAN-B2B-SERVICES-2026.md`
+
+Review PDF: `../public-proof/output/BridgeWorks-Anonymized-B2B-Services-Case-Study-2026.pdf`
 
 Choose one:
 
-- `[ ] Approve the 16-to-77 March-to-June version for final-use preparation`
+- `[ ] Approve the anonymized 16-to-77 engagement-close version for final-use preparation`
 - `[ ] Revise: ____________________`
 - `[ ] Hold`
 
-Do not use the older case-study PDF that contains retired wording.
+Do not use the older named-client PDF or social cover for public distribution.
 
 ### Week-one content queue
 

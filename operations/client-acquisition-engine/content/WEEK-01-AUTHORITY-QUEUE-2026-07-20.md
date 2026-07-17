@@ -3,7 +3,7 @@
 Prepared: 2026-07-14
 Target week: 2026-07-20
 Status: drafts for Emmanuel review; nothing approved, scheduled, or published
-Campaign source: `AI-VISIBILITY-REPORT-DRAFT-2026.md`
+Campaign source: `public-proof/AI-VISIBILITY-REPORT-PUBLIC-ANONYMIZED-2026.md`
 
 ## Review decision
 
@@ -15,7 +15,7 @@ For each item, mark `approve`, `revise`, or `hold`. The recommended minimum rele
 
 I found a small number in one of my own case studies that changed how I am building BridgeWorks' AI-visibility offer.
 
-The draft said CEEFM moved from 16 to 78.
+The draft said one client moved from 16 to 78.
 
 The engagement-close audit said 16 to 77.
 
@@ -23,7 +23,7 @@ The 78 reading came one day later, after additional technical fixes. It was real
 
 One point does not change the quality of the work. It changes the quality of the evidence.
 
-So I corrected the case study, documented the source, and added a public-number rule: 16 to 77, with the date and limitations attached.
+So I corrected the case study, documented the source privately, and added a public-number rule: 16 to 77, with the measurement boundary and limitations attached.
 
 That is also how I now think about AI visibility.
 
@@ -35,9 +35,9 @@ Accuracy comes first.
 
 **CTA:** What is one number in your marketing that you have not checked against its original source recently?
 
-**Claim check:** CEEFM public claim is 16 to 77/100. Do not use 78 in the post.
+**Claim check:** The anonymized client result is a BridgeWorks diagnostic improvement from 16 to 77/100 at engagement close. Do not name the client or use 78 in the post.
 
-**Review upload file:** `C:\Users\User\Projects\bridgeworks-workspace\operations\client-acquisition-engine\output\social\week-01\BridgeWorks-LinkedIn-CEEFM-16-to-77-REVIEW.png`
+**Review upload file:** `C:\Users\User\Projects\bridgeworks-workspace\operations\client-acquisition-engine\public-proof\output\BridgeWorks-Anonymized-B2B-Services-Case-Study-2026.png`
 
 ## 2. Emmanuel LinkedIn: I changed my mind about llms.txt
 
@@ -284,6 +284,6 @@ No guaranteed rankings. No generic AI-content package. No automatic outreach.
 
 - Do not publish the report or any asset automatically.
 - Do not use the website's 30-plus scan claim as the evidence base for this campaign.
-- Keep CEEFM at 16 to 77/100 and describe it as an engagement from March to June 2026.
-- Do not use Oliviks as completed proof until its closure checklist is satisfied.
+- Keep the anonymized client result at 16 to 77/100 and describe it as an engagement-close BridgeWorks diagnostic from a three-month engagement in 2026.
+- Do not identify or use the active hospitality implementation as completed proof until its closure checklist is satisfied.
 - Platform statements should retain the linked primary source.

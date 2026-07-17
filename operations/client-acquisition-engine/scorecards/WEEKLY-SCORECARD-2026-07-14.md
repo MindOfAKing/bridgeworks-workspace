@@ -18,7 +18,7 @@ Kitchen week mode: Three-day kitchen week. Street Kitchen shifts are 15 to 17 Ju
 | Posts published | 0 confirmed | No public action in this run. |
 | Original authority assets released | 0 | Nothing published. A 14-page report review PDF and corrected 4-page CEEFM case-study PDF are drafted. |
 | Authority drafts prepared | 14 | Report manuscript, corrected CEEFM case study, and 12 week-one channel drafts. |
-| Review-ready social upload files | 2 | Corrected CEEFM case-study cover and AI Visibility Report cover rendered to verified PNG files with fixed hashes. Nothing uploaded. |
+| Review-ready public social upload files | 2 | An anonymized client case-study cover and the AI Visibility Report cover are rendered to verified PNG files with fixed hashes. The older named-client cover is private source material and must not be published. |
 | Deterministic LinkedIn publish bundles | 3 | One Emmanuel image post, one BridgeWorks image post, and one BridgeWorks text-only post. All remain unapproved. |
 | Public channels verified | 4 core surfaces | Emmanuel LinkedIn, BridgeWorks LinkedIn, website, and Journal route. Newsletter and WhatsApp routes are visible but their operating state is unverified. |
 | Qualified profile visits | Not measured | No current source read. |

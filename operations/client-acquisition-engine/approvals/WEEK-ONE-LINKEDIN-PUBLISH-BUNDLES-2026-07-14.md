@@ -1,6 +1,7 @@
 # Week-One LinkedIn Publish Bundles
 
 Prepared: 2026-07-14
+Anonymization revision: 2026-07-16
 Owner: Emmanuel Ehigbai
 Status: Review bundles only. Nothing is approved or published.
 Execution channel after exact approval: Emmanuel's logged-in Chrome browser.
@@ -25,13 +26,14 @@ Before any `publish now` action:
 - Account: Emmanuel Ehigbai
 - Account URL: `https://hu.linkedin.com/in/emmanuel-ehigbai-505a52198`
 - Canonical copy: `../content/WEEK-01-AUTHORITY-QUEUE-2026-07-20.md`, section `1. Emmanuel LinkedIn: correcting my own proof`
-- Required claim: CEEFM improved from 16 to 77/100; engagement March to June 2026; engagement closed.
+- Required claim: an anonymized Central European B2B services client improved from 16 to 77/100 in the BridgeWorks engagement-close diagnostic after a three-month engagement in 2026. Do not name the client.
 - Format: Image post
-- Local upload file: `C:\Users\User\Projects\bridgeworks-workspace\operations\client-acquisition-engine\output\social\week-01\BridgeWorks-LinkedIn-CEEFM-16-to-77-REVIEW.png`
+- Local upload file: `C:\Users\User\Projects\bridgeworks-workspace\operations\client-acquisition-engine\public-proof\output\BridgeWorks-Anonymized-B2B-Services-Case-Study-2026.png`
 - Dimensions: 1323 x 1871 pixels
-- SHA-256: `5b438906da31cea4dbbc0bcbb6a3362755074d7f60f76cc110995544931a2b2b`
-- Alt text: `BridgeWorks CEEFM case-study cover showing the verified 16 to 77 GEO improvement.`
-- Current state: Draft copy and review image prepared; not approved.
+- SHA-256: `35f67bba157474412453439e7efc179b3890216e9c933ad1a969f2833d4c075f`
+- Alt text: `BridgeWorks anonymized client case-study cover showing a verified diagnostic improvement from 16 to 77.`
+- Current state: Anonymized draft copy and verified review image prepared; not approved.
+- Private-source warning: Do not upload `BridgeWorks-LinkedIn-CEEFM-16-to-77-REVIEW.png` publicly.
 
 Decision:
 
@@ -84,7 +86,7 @@ Decision:
 
 | Bundle | Approval | Chrome account checked | Asset/hash checked | Published | Live URL | Timestamp |
 |---|---|---|---|---|---|---|
-| 1. Emmanuel / proof correction | Pending | No | No | No | | |
+| 1. Emmanuel / anonymized proof correction | Pending | No | No | No | | |
 | 2. BridgeWorks / six audits | Pending | No | No | No | | |
 | 3. BridgeWorks / visibility chain | Pending | No | Text-only | No | | |
 

@@ -3,9 +3,11 @@
 Package date: 2026-07-15
 Source window: 2026-07-14 to 2026-07-15
 Drive destination: BridgeWorks Operations / Marketing & Content
-Drive folder: https://drive.google.com/drive/folders/1213AdNu-5Obn7VDbQQD08isLB4tFVtOi
+Private working folder: https://drive.google.com/drive/folders/1213AdNu-5Obn7VDbQQD08isLB4tFVtOi
 
-Verified package: 74 files across 15 folders. Drive readback completed successfully on 2026-07-15.
+Anonymized public-proof folder: https://drive.google.com/drive/folders/138TdpmsW-5-Xv1DmxrBAWrLydm-QrVx8
+
+Verified private package: 74 files across 15 folders. Drive readback completed successfully on 2026-07-15. The package was renamed on 2026-07-16 to make its private working-evidence status explicit.
 
 ## Included
 

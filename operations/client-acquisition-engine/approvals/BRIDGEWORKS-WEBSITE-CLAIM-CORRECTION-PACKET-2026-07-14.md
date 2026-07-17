@@ -40,7 +40,7 @@ Reason:
 
 Recommended replacement as a factual proof block, not an edited testimonial:
 
-> CEEFM, Budapest facility management. BridgeWorks delivered a digital-growth foundation from March to June 2026. The verified engagement-close GEO and AI-visibility diagnostic improved from 16/100 to 77/100.
+> An anonymized Central European B2B services company completed a three-month digital-growth foundation with BridgeWorks in 2026. Its verified engagement-close GEO and AI-visibility diagnostic improved from 16/100 to 77/100.
 
 Optional boundary:
 
