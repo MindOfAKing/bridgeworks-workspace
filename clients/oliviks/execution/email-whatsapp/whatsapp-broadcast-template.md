@@ -16,7 +16,8 @@ that number's phone, and add opted-in contacts to it (this is a manual in-app st
 Hi, and welcome to Oliviks 🎉
 You are on our specials list. Once a week we will send you what is good at the kitchen,
 nothing more. Reply STOP anytime to leave.
-Your free puff puff is waiting on your first pickup at Rákóczi tér 9.
+(Note: the free puff puff first-order offer was removed at the client's request,
+2026-07-15. Do not promise it.)
 
 ---
 

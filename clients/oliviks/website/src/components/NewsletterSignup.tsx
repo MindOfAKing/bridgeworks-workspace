@@ -2,12 +2,13 @@
 
 import { useState } from 'react';
 import { Check, Mail } from 'lucide-react';
-import { site, waLink } from '@/data/site';
+import { waLink } from '@/data/site';
 
 type Status = 'idle' | 'sending' | 'ok' | 'error';
 
 // Retention capture form (Foundation A3). Email + optional WhatsApp, GDPR consent,
-// first-order incentive. Posts to /api/subscribe (stored in Supabase, client-owned).
+// No first-order incentive (removed at client request, 2026-07-15).
+// Posts to /api/subscribe (stored in Supabase, client-owned).
 export function NewsletterSignup({ source = 'website' }: { source?: string }) {
   const [status, setStatus] = useState<Status>('idle');
   const [error, setError] = useState('');
@@ -31,7 +32,7 @@ export function NewsletterSignup({ source = 'website' }: { source?: string }) {
           whatsapp,
           consent,
           source,
-          incentive: site.retention.incentiveShort,
+          incentive: null,
         }),
       });
       if (!res.ok) {
@@ -57,7 +58,7 @@ export function NewsletterSignup({ source = 'website' }: { source?: string }) {
         <div>
           <p className="font-display text-[16px] font-extrabold text-cocoa">You&apos;re on the list.</p>
           <p className="text-[13.5px] text-cocoa/65">
-            Show this at the counter on your first pickup to claim {site.retention.incentiveShort.toLowerCase()}.
+            Weekly specials and the occasional treat, straight to your inbox. See you soon.
           </p>
         </div>
       </div>
@@ -90,7 +91,7 @@ export function NewsletterSignup({ source = 'website' }: { source?: string }) {
           disabled={status === 'sending'}
           className="btn-appetite shrink-0 text-[15px] disabled:opacity-60"
         >
-          {status === 'sending' ? 'Signing up...' : 'Get the offer'}
+          {status === 'sending' ? 'Signing up...' : 'Join the list'}
         </button>
       </div>
 

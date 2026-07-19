@@ -81,9 +81,11 @@ export function Footer() {
           <div>
             <p className="mb-3 text-[11px] font-bold uppercase tracking-[0.16em] text-gold">Hours</p>
             <div className="text-[13.5px] leading-[1.9]">
-              <p>Monday – Saturday</p>
-              <p>11:00 – 20:00</p>
-              <p className="text-stone-500">Sunday: Closed</p>
+              {site.hours.map((h) => (
+                <p key={h.days} className={h.time === 'Closed' ? 'text-stone-500' : undefined}>
+                  {h.days}: {h.time}
+                </p>
+              ))}
             </div>
           </div>
 

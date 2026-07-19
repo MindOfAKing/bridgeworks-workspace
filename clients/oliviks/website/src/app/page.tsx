@@ -298,14 +298,14 @@ export default function HomePage() {
           <Reveal>
             <div>
               <p className="eyebrow">
-                <span className="eyebrow-num">04</span> Eat again, for less
+                <span className="eyebrow-num">04</span> Stay in the loop
               </p>
               <h2 className="mt-4 font-display text-[clamp(1.9rem,4vw,2.7rem)] font-extrabold leading-[1.05] tracking-tight text-cocoa">
                 {site.retention.incentive}.
               </h2>
               <p className="mt-4 max-w-md text-[16px] leading-relaxed text-cocoa/70">
-                Join the Oliviks list for first dibs on weekly specials and the occasional treat.
-                One email to claim your offer, then only the good stuff. No spam.
+                Join the Oliviks list and hear what is good each week: specials, new dishes, and
+                the occasional treat. Only the good stuff. No spam.
               </p>
             </div>
           </Reveal>
@@ -329,7 +329,8 @@ export default function HomePage() {
                 </h2>
                 <p className="mt-4 max-w-md text-[16px] leading-relaxed text-cream/75">
                   Find us at {site.address.street}, {site.address.postalCode} {site.address.city}.
-                  Monday to Saturday, 11:00 to 20:00.
+                  Monday to Saturday from 11:00. Until 18:00 on Wednesday and Thursday, until
+                  20:00 the rest of the week.
                 </p>
                 <div className="mt-7 flex flex-wrap gap-3">
                   <a href={orderOnline} target="_blank" rel="noopener noreferrer" className="btn-appetite text-[15px]">

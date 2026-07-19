@@ -107,7 +107,7 @@ export const menu: MenuCategory[] = [
         description:
           'Bitter leaves cooked in a rich cocoyam base with protein. Earthy and full of flavor, with the gentle bitterness the dish is named for. Served with one swallow.',
         price: '4,700 Ft',
-        image: '/images/dish-soup.jpg',
+        image: '/images/dish-bitter-leaf.jpg',
       },
       {
         name: 'Okro soup with one swallow',

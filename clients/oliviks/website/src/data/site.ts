@@ -27,12 +27,17 @@ export const site = {
   email: 'olivikskitchen@gmail.com',
 
   hours: [
-    { days: 'Monday – Saturday', time: '11:00 – 20:00' },
+    { days: 'Monday – Tuesday', time: '11:00 – 20:00' },
+    { days: 'Wednesday – Thursday', time: '11:00 – 18:00' },
+    { days: 'Friday – Saturday', time: '11:00 – 20:00' },
     { days: 'Sunday', time: 'Closed' },
   ],
+  // Compact one-liner for tight spots (header bar, small cards).
+  hoursShort: 'Mon–Sat from 11:00',
   // Machine-readable hours for schema (24h).
   hoursSpec: [
-    { days: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'], opens: '11:00', closes: '20:00' },
+    { days: ['Monday', 'Tuesday', 'Friday', 'Saturday'], opens: '11:00', closes: '20:00' },
+    { days: ['Wednesday', 'Thursday'], opens: '11:00', closes: '18:00' },
   ],
 
   reviews: { rating: '4.8', count: '493', source: 'Google' },
@@ -61,11 +66,11 @@ export const site = {
 
   founders: 'Cynthia & Aese',
 
-  // Retention capture (Foundation A3). Incentive wording is the proposal's example;
-  // CONFIRM final offer with Aese before promoting heavily.
+  // Retention capture (Foundation A3). Client removed the first-order incentive
+  // (2026-07-15): the list promises weekly specials only, no free item.
   retention: {
-    incentive: 'Free puff puff with your first pickup order',
-    incentiveShort: 'Free puff puff on your first order',
+    incentive: 'Get the weekly specials first',
+    incentiveShort: 'Weekly specials list',
   },
 } as const;
 

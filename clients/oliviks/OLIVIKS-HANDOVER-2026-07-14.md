@@ -72,12 +72,12 @@ in WooCommerce (Products) because that is what customers actually pay.
 2. Paste the same text and photo. Each person receives it as a private message.
 3. Anyone who replies STOP: remove them from the list.
 
-### The sign-up offer
-The website offer is **"Free puff puff with your first pickup order."** MailerLite has
-an enabled, valid five-step welcome automation and an inactive 500 HUF-off backup.
-The complete signup, confirmation, and welcome-email path still needs one approved
-live test before it can be described as accepted. Once verified, customers show the
-email at the counter to claim the offer.
+### The sign-up list
+Per your request (15 July), the free puff puff first-order offer was removed. The
+website now invites customers to join the list for weekly specials only, with no free
+item promised. MailerLite has an enabled welcome automation and an inactive 500 HUF-off
+backup; the welcome emails are being updated to match the no-offer wording, and the
+complete signup path still needs one approved live test before it is final.
 
 ### Respond to a Google review
 Reply to every negative review, and to positive ones when you have something specific

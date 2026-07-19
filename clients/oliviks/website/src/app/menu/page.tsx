@@ -73,7 +73,7 @@ export default async function MenuPage() {
                   {site.address.city}
                 </p>
                 <p>
-                  <strong className="text-cream">Mon–Sat</strong> &middot; 11:00–20:00
+                  <strong className="text-cream">Mon–Sat</strong> &middot; from 11:00 (Wed–Thu to 18:00)
                 </p>
               </div>
             </div>
@@ -94,9 +94,9 @@ export default async function MenuPage() {
           <div className="max-w-[640px]">
             <p className="font-display text-[18px] font-extrabold text-cocoa">How ordering works</p>
             <p className="mt-2 text-[14.5px] leading-relaxed text-cocoa/70">
-              Message us on WhatsApp with your order. Mention your protein or swallow preference
-              where needed. Pickup at Rákóczi tér 9. Already on Wolt or Marwa? You can order there
-              too.
+              All orders placed on this website are for pickup at Rákóczi tér 9. If you need
+              delivery, call us on {site.phone.display} to arrange it, or order on Wolt or Marwa.
+              Mention your protein or swallow preference where needed.
             </p>
             <p className="mt-2 text-[13px] leading-relaxed text-cocoa/50">
               Prices shown here are our in-store menu prices. Online and delivery prices include a

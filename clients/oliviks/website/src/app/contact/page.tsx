@@ -52,9 +52,11 @@ export default function ContactPage() {
                 </a>
               </InfoCard>
               <InfoCard icon={<Clock size={17} aria-hidden="true" />} title="Hours">
-                <span className="block">Monday – Saturday</span>
-                <span className="block">11:00 – 20:00</span>
-                <span className="block text-cocoa/45">Sunday: Closed</span>
+                {site.hours.map((h) => (
+                  <span key={h.days} className={`block ${h.time === 'Closed' ? 'text-cocoa/45' : ''}`}>
+                    {h.days}: {h.time}
+                  </span>
+                ))}
               </InfoCard>
               <InfoCard icon={<Phone size={17} aria-hidden="true" />} title="Phone">
                 <a href={telLink} className="transition-colors hover:text-palm">

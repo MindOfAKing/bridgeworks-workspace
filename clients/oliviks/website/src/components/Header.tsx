@@ -42,7 +42,7 @@ export function Header() {
             <span className="hidden items-center gap-5 sm:flex">
               <span className="flex items-center gap-1.5">
                 <Clock size={12} className="text-gold" aria-hidden="true" />
-                Mon–Sat 11:00–20:00
+                {site.hoursShort}
               </span>
               <a href={telLink} className="flex items-center gap-1.5 transition-colors hover:text-gold">
                 <Phone size={12} className="text-gold" aria-hidden="true" />
@@ -120,6 +120,17 @@ export function Header() {
           </div>
         </div>
       </header>
+
+      {/* Pickup notice — every page, scrolls away with content */}
+      <div className="bg-gold-100 text-ink">
+        <div className="container-x py-2 text-center text-[12.5px] font-semibold leading-snug">
+          Website orders are for pickup at {site.address.street}. For delivery, call{' '}
+          <a href={telLink} className="underline decoration-palm/40 underline-offset-2">
+            {site.phone.display}
+          </a>{' '}
+          to arrange it, or order on Wolt or Marwa.
+        </div>
+      </div>
 
       {/* Full-screen mobile menu — barn red, oversized type */}
       {open && (

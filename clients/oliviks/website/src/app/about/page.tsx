@@ -88,7 +88,7 @@ export default function AboutPage() {
                   </span>
                   <span className="flex items-center gap-2">
                     <Clock size={14} className="shrink-0 text-gold" aria-hidden="true" />
-                    Mon–Sat 11:00–20:00
+                    {site.hoursShort} · Wed–Thu to 18:00
                   </span>
                 </div>
               </div>
