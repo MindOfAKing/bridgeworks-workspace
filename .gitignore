@@ -6,3 +6,6 @@ node_modules/
 
 # Local/private automation cockpit outputs. May contain Gmail, finance, client, and ops context.
 automation-reports-dashboard/
+
+# Per-machine Claude Code local permissions. Never commit; may contain machine-specific paths and MCP tool grants.
+**/.claude/settings.local.json

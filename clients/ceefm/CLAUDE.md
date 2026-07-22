@@ -9,15 +9,16 @@ Emmanuel OS > Career / Business > BridgeWorks > Client Delivery > CEEFM
 ## Engagement
 - Type: completed digital growth engagement / past case study.
 - Started: Late March 2026.
+- Closed: 2026-06-19.
 - Market: CEE.
 - Pricing context: historical EUR retainer context only. Do not treat as current receivable or active retainer.
-- Status: Closed. CEEFM is no longer an active client.
+- Status: Closed. CEEFM is no longer an active client. Must not appear as active in any routine, skill, or report unless newer dated evidence (after 2026-06-19) shows Emmanuel reactivated the engagement.
 - Rule: no delivery work, recurring content, reports, outreach, or client-page posting unless Emmanuel explicitly reactivates CEEFM.
 
 ## Current Source Of Truth
 Use these before relying on older April files:
 - Live Google Sheet `Emmanuel OS Command Center`, `Projects` tab.
-- `C:/Users/ELITEX21012G2/Projects/bridgeworks-workspace/clients/ceefm/`.
+- `C:/Users/User/Projects/bridgeworks-workspace/clients/ceefm/`.
 - Current reports, deliverables, invoices, and sessions inside the CEEFM folder.
 
 ## Files In Archived Workspace
@@ -51,9 +52,9 @@ Historical themes from the inventory:
 ## Sibling Locations
 | Location | Purpose |
 |---|---|
-| `C:/Users/ELITEX21012G2/Projects/business-brain/` | Central business context |
-| `C:/Users/ELITEX21012G2/Projects/business-brain/context/finances.md` | Rate card and pricing rules |
-| `C:/Users/ELITEX21012G2/Projects/business-brain/departments/client-ops/` | Older client operations playbook |
-| `C:/Users/ELITEX21012G2/Projects/business-brain/engines/` | Newer engine-based operating model |
-| `C:/Users/ELITEX21012G2/Projects/bridgeworks-workspace/` | Parent workspace |
-| `C:/Users/ELITEX21012G2/bridgeworks-agency/` | Live BridgeWorks website |
+| `C:/Users/User/Projects/business-brain/` | Central business context |
+| `C:/Users/User/Projects/business-brain/context/finances.md` | Rate card and pricing rules |
+| `C:/Users/User/Projects/business-brain/departments/client-ops/` | Older client operations playbook |
+| `C:/Users/User/Projects/business-brain/engines/` | Newer engine-based operating model |
+| `C:/Users/User/Projects/bridgeworks-workspace/` | Parent workspace |
+| `C:/Users/User/Projects/bridgeworks-agency/` | Live BridgeWorks website |

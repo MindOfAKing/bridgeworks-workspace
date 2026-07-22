@@ -50,13 +50,14 @@ Entry offer:
 
 Use these locations as the operating source of truth:
 
-- Agency operations: `C:/Users/ELITEX21012G2/Projects/bridgeworks-workspace/`
-- Business brain: `C:/Users/ELITEX21012G2/Projects/business-brain/`
-- Live website: `C:/Users/ELITEX21012G2/bridgeworks-agency/`
-- Clients: `C:/Users/ELITEX21012G2/Projects/bridgeworks-workspace/clients/`
-- Pipeline: `C:/Users/ELITEX21012G2/Projects/bridgeworks-workspace/pipeline/`
-- Proposals and agreements: `C:/Users/ELITEX21012G2/Projects/bridgeworks-workspace/documents/`
-- Daily session logs: `C:/Users/ELITEX21012G2/Projects/bridgeworks-workspace/sessions/`
+- Agency operations: `C:/Users/User/Projects/bridgeworks-workspace/`
+- Business brain: `C:/Users/User/Projects/business-brain/`
+- Live website: `C:/Users/User/Projects/bridgeworks-agency/`
+- Content studio (production mirror of the canonical Drive content library; on production HOLD): `C:/Users/User/Projects/BridgeWorks-Content-Studio/`
+- Clients: `C:/Users/User/Projects/bridgeworks-workspace/clients/`
+- Pipeline: `C:/Users/User/Projects/bridgeworks-workspace/pipeline/`
+- Proposals and agreements: `C:/Users/User/Projects/bridgeworks-workspace/documents/`
+- Daily session logs: `C:/Users/User/Projects/bridgeworks-workspace/sessions/`
 
 Do not run the business from scattered chat history. If a decision matters, write it into the workspace.
 

@@ -1,6 +1,6 @@
 # Claude Behavioral Rules
 
-**Location in workspace:** Global — `C:/Users/ELITEX21012G2/.claude/CLAUDE.md`
+**Location in workspace:** Global — `C:/Users/User/.claude/CLAUDE.md`
 **Drive reference:** `Work&Business / Claude Operating System / claude-behavioral-rules.md`
 **Source:** [forrestchang/andrej-karpathy-skills](https://github.com/forrestchang/andrej-karpathy-skills) (Karpathy principles 1–4) + Token Efficiency (5) added by Emmanuel
 **Installed:** 2026-04-20
@@ -30,7 +30,7 @@ Drop conversational fluff. Concise, direct answers. No restating of the question
 
 | Location | Purpose |
 |---|---|
-| `C:/Users/ELITEX21012G2/.claude/CLAUDE.md` | Global — auto-loaded every session on this machine |
+| `C:/Users/User/.claude/CLAUDE.md` | Global — auto-loaded every session on this machine |
 | `bridgeworks-agency/CLAUDE.md` | Repo footer — visible on GitHub |
 | `ceefm-astro/CLAUDE.md` | Repo footer — visible on GitHub |
 | `Projects/bridgeworks-workspace/CLAUDE.md` | Repo footer — visible on GitHub |
@@ -39,4 +39,4 @@ Drop conversational fluff. Concise, direct answers. No restating of the question
 | `Projects/business-brain/CLAUDE.md` | Repo footer — local only, no git remote |
 
 ## Design Spec
-Full integration spec: `C:/Users/ELITEX21012G2/Projects/bridgeworks-workspace/specs/2026-04-20-karpathy-integration-design.md`
+Full integration spec: `C:/Users/User/Projects/bridgeworks-workspace/specs/2026-04-20-karpathy-integration-design.md`

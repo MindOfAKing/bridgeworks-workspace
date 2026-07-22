@@ -53,7 +53,7 @@ Share the Google Sheet with the service account email as Editor.
 The service account email is in:
 
 ```text
-C:/Users/ELITEX21012G2/Projects/bridgeworks-service-account.json
+C:/Users/User/Projects/bridgeworks-service-account.json
 ```
 
 Field:
