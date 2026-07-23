@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "source_csv": "C:\\Users\\User\\Projects\\bridgeworks-workspace\\operations\\lead-engine-v1\\01-prospects\\prospect-batch-2026-07-14.csv",
+  "source_sha256": "dd658e73afa0304394762879619923d868a8c7cc8fd503b6aec7910335e26377",
+  "updated_at": "2026-07-23T13:16:53+00:00",
+  "prospects": {
+    "nimaz-aesthetic": {
+      "company": "Nimaz Aesthetic",
+      "research_status": "needs_more_evidence",
+      "research_attempts": 1,
+      "batch_id": "2026-07-23-batch-01",
+      "updated_at": "2026-07-23T13:16:53+00:00",
+      "result_status": "needs_more_evidence",
+      "result_path": "C:\\Users\\User\\Projects\\bridgeworks-workspace\\operations\\client-acquisition-engine\\research\\prospect-operations\\results\\2026-07-23-batch-01-results.json",
+      "outreach_readiness": "not_assessed"
+    },
+    "professional-office-cleaning-hungary": {
+      "company": "Professional Office Cleaning Hungary",
+      "research_status": "researched",
+      "research_attempts": 1,
+      "batch_id": "2026-07-23-batch-01",
+      "updated_at": "2026-07-23T13:16:53+00:00",
+      "result_status": "verified",
+      "result_path": "C:\\Users\\User\\Projects\\bridgeworks-workspace\\operations\\client-acquisition-engine\\research\\prospect-operations\\results\\2026-07-23-batch-01-results.json",
+      "outreach_readiness": "ready"
+    },
+    "expert-cleaning-service": {
+      "company": "Expert Cleaning Service",
+      "research_status": "rejected",
+      "research_attempts": 1,
+      "batch_id": "2026-07-23-batch-01",
+      "updated_at": "2026-07-23T13:16:53+00:00",
+      "result_status": "rejected",
+      "result_path": "C:\\Users\\User\\Projects\\bridgeworks-workspace\\operations\\client-acquisition-engine\\research\\prospect-operations\\results\\2026-07-23-batch-01-results.json",
+      "outreach_readiness": "not_assessed"
+    },
+    "first-facility-hungary": {
+      "company": "First Facility Hungary",
+      "research_status": "held",
+      "research_attempts": 1,
+      "batch_id": "2026-07-23-batch-01",
+      "updated_at": "2026-07-23T13:16:53+00:00",
+      "result_status": "held",
+      "result_path": "C:\\Users\\User\\Projects\\bridgeworks-workspace\\operations\\client-acquisition-engine\\research\\prospect-operations\\results\\2026-07-23-batch-01-results.json",
+      "outreach_readiness": "not_assessed"
+    },
+    "icon-real-estate-management": {
+      "company": "ICON Real Estate Management",
+      "research_status": "held",
+      "research_attempts": 1,
+      "batch_id": "2026-07-23-batch-01",
+      "updated_at": "2026-07-23T13:16:53+00:00",
+      "result_status": "held",
+      "result_path": "C:\\Users\\User\\Projects\\bridgeworks-workspace\\operations\\client-acquisition-engine\\research\\prospect-operations\\results\\2026-07-23-batch-01-results.json",
+      "outreach_readiness": "not_assessed"
+    }
+  },
+  "batches": [
+    {
+      "batch_id": "2026-07-23-batch-01",
+      "date": "2026-07-23",
+      "status": "completed",
+      "prepared_at": "2026-07-23T12:25:54+00:00",
+      "json_path": "C:\\Users\\User\\Projects\\bridgeworks-workspace\\operations\\client-acquisition-engine\\research\\prospect-operations\\batches\\2026-07-23-batch-01.json",
+      "markdown_path": "C:\\Users\\User\\Projects\\bridgeworks-workspace\\operations\\client-acquisition-engine\\research\\prospect-operations\\batches\\2026-07-23-batch-01.md",
+      "result_path": "C:\\Users\\User\\Projects\\bridgeworks-workspace\\operations\\client-acquisition-engine\\research\\prospect-operations\\results\\2026-07-23-batch-01-results.json",
+      "prospect_count": 5,
+      "completed_at": "2026-07-23T13:16:53+00:00"
+    }
+  ]
+}

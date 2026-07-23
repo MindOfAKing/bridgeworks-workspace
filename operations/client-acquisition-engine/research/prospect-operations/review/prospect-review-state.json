@@ -1,0 +1,101 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-07-23T13:17:03+00:00",
+  "batches": {
+    "2026-07-23-batch-01": {
+      "batch_id": "2026-07-23-batch-01",
+      "result_path": "C:\\Users\\User\\Projects\\bridgeworks-workspace\\operations\\client-acquisition-engine\\research\\prospect-operations\\results\\2026-07-23-batch-01-results.json",
+      "result_sha256": "c6abcf84217068f9ed219fbf06a7f887258542d33390aadd204ae3940cc2a81d",
+      "packet_path": "C:\\Users\\User\\Projects\\bridgeworks-workspace\\operations\\client-acquisition-engine\\research\\prospect-operations\\review\\packets\\2026-07-23-batch-01-approval-review.md",
+      "counts": {
+        "needs_more_evidence": 1,
+        "awaiting_mobile_approval": 1,
+        "rejected": 1,
+        "held": 2
+      },
+      "external_tasks": [
+        {
+          "type": "email.send",
+          "title": "Approve email outreach to Professional Office Cleaning Hungary",
+          "payload": {
+            "prospect_id": "professional-office-cleaning-hungary",
+            "company": "Professional Office Cleaning Hungary",
+            "channel": "email",
+            "destination": "info@office-cleaning.hu",
+            "subject": "One competing form on your English contact page",
+            "body": "Hi Csaba,\n\nI was reviewing Professional Office Cleaning Hungary's English enquiry journey and noticed a small conversion issue on the contact experience.\n\nA general website-feedback route competes with the detailed quote request, even though the quote form is the stronger buyer action and promises a preliminary response within 24 hours. For an international office manager, those competing routes can make the next step less immediate. I also noticed a duplicated trust label on the English homepage.\n\nI noted three focused form-hierarchy and English content-QA fixes. Happy to send the short review if useful.\n\nBest,\nEmmanuel Ehigbai\nBridgeWorks",
+            "commercial_gap": "The English enquiry journey gives a general website-feedback route prominence alongside the detailed quote request, while a duplicated trust label remains visible on the homepage. This creates a narrow conversion and content-QA opportunity for international office managers without implying that the overall site or funnel is weak.",
+            "proof_to_use": "No proof in the first touch; hold the anonymized Central European B2B services proof for a relevant follow-up.",
+            "risk_notes": "Recheck the page hierarchy, duplicate label, and public email immediately before send. Do not imply the overall funnel is weak or pitch a rebuild.",
+            "source_urls": [
+              "https://office-cleaning.hu/",
+              "https://office-cleaning.hu/contact",
+              "https://iroda-takaritas.com/",
+              "https://www.companywall.hu/v%C3%A1llalat/professional-office-cleaning-hungary-kft/MMKTLtYD",
+              "https://hu.linkedin.com/in/csaba-pataki-374b6aa4"
+            ],
+            "packet_path": "C:\\Users\\User\\Projects\\bridgeworks-workspace\\operations\\client-acquisition-engine\\research\\prospect-operations\\review\\packets\\2026-07-23-batch-01-approval-review.md",
+            "result_path": "C:\\Users\\User\\Projects\\bridgeworks-workspace\\operations\\client-acquisition-engine\\research\\prospect-operations\\results\\2026-07-23-batch-01-results.json",
+            "approval_scope": "Approving authorizes only this exact destination, subject, and body."
+          },
+          "dedupe_key": "prospect-external:professional-office-cleaning-hungary:c6abcf84217068f9"
+        }
+      ],
+      "research_followups": [],
+      "policy_version": 2,
+      "prepared_at": "2026-07-23T13:17:03+00:00"
+    }
+  },
+  "items": {
+    "2026-07-23-batch-01:nimaz-aesthetic": {
+      "batch_id": "2026-07-23-batch-01",
+      "prospect_id": "nimaz-aesthetic",
+      "company": "Nimaz Aesthetic",
+      "research_status": "needs_more_evidence",
+      "review_status": "needs_more_evidence",
+      "reason": "The tracker phone and address are supported. The user-supplied Google rating and review count were not independently reverified in this pass.",
+      "result_path": "C:\\Users\\User\\Projects\\bridgeworks-workspace\\operations\\client-acquisition-engine\\research\\prospect-operations\\results\\2026-07-23-batch-01-results.json",
+      "updated_at": "2026-07-23T13:17:03+00:00"
+    },
+    "2026-07-23-batch-01:professional-office-cleaning-hungary": {
+      "batch_id": "2026-07-23-batch-01",
+      "prospect_id": "professional-office-cleaning-hungary",
+      "company": "Professional Office Cleaning Hungary",
+      "research_status": "verified",
+      "review_status": "awaiting_mobile_approval",
+      "reason": "Exact destination and proposed copy passed the local preparation contract.",
+      "result_path": "C:\\Users\\User\\Projects\\bridgeworks-workspace\\operations\\client-acquisition-engine\\research\\prospect-operations\\results\\2026-07-23-batch-01-results.json",
+      "updated_at": "2026-07-23T13:17:03+00:00"
+    },
+    "2026-07-23-batch-01:expert-cleaning-service": {
+      "batch_id": "2026-07-23-batch-01",
+      "prospect_id": "expert-cleaning-service",
+      "company": "Expert Cleaning Service",
+      "research_status": "rejected",
+      "review_status": "rejected",
+      "reason": "The liquidation signal is sufficient to remove this record from the active prospect lane.",
+      "result_path": "C:\\Users\\User\\Projects\\bridgeworks-workspace\\operations\\client-acquisition-engine\\research\\prospect-operations\\results\\2026-07-23-batch-01-results.json",
+      "updated_at": "2026-07-23T13:17:03+00:00"
+    },
+    "2026-07-23-batch-01:first-facility-hungary": {
+      "batch_id": "2026-07-23-batch-01",
+      "prospect_id": "first-facility-hungary",
+      "company": "First Facility Hungary",
+      "research_status": "held",
+      "review_status": "held",
+      "reason": "This is a larger international group, so likely sales effort and approval cycles are higher than the first-wave SME lane.",
+      "result_path": "C:\\Users\\User\\Projects\\bridgeworks-workspace\\operations\\client-acquisition-engine\\research\\prospect-operations\\results\\2026-07-23-batch-01-results.json",
+      "updated_at": "2026-07-23T13:17:03+00:00"
+    },
+    "2026-07-23-batch-01:icon-real-estate-management": {
+      "batch_id": "2026-07-23-batch-01",
+      "prospect_id": "icon-real-estate-management",
+      "company": "ICON Real Estate Management",
+      "research_status": "held",
+      "review_status": "held",
+      "reason": "No sufficiently sharp commercial gap was established for first-wave outreach.",
+      "result_path": "C:\\Users\\User\\Projects\\bridgeworks-workspace\\operations\\client-acquisition-engine\\research\\prospect-operations\\results\\2026-07-23-batch-01-results.json",
+      "updated_at": "2026-07-23T13:17:03+00:00"
+    }
+  }
+}

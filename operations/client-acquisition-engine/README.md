@@ -10,6 +10,15 @@ Turn completed BridgeWorks client work into a predictable client-acquisition eng
 
 By 2026-10-12, BridgeWorks should convert CEEFM and Oliviks proof into public authority, qualified conversations, proposals, and paid engagements without Emmanuel manually creating every asset from scratch.
 
+## Orchestrator
+
+The acquisition engine uses two trigger modes:
+
+- scheduled weekday, weekly, and dispatch-preparation runs
+- event-driven runs for replies, approvals, new proof, browser results, and failures
+
+The canonical runbook is `ORCHESTRATOR-RUNBOOK-2026-07-16.md` and the machine-readable cadence is `orchestrator-schedule.json`. Both are designed but not activated. They write mobile-readable summaries, approval items, and run logs. External sending, publishing, uploads, deployments, and paid enrichment remain explicitly approval-gated.
+
 ## 90-day success criteria
 
 | Area | Target by 2026-10-12 |
@@ -56,6 +65,8 @@ By 2026-10-12, BridgeWorks should convert CEEFM and Oliviks proof into public au
 | `operations/client-acquisition-engine/research/AI-VISIBILITY-METHODOLOGY-V1-2026-07-14.md` | Stable scoring model, evidence classes, and platform claim guardrails. |
 | `operations/client-acquisition-engine/research/ai-visibility-evidence-dataset-2026-07-14.csv` | Ten-record substantiated evidence corpus: six scored audits, three mini-scans, one implementation verification. |
 | `operations/client-acquisition-engine/research/LANE-A-OBSERVATION-BANK-2026-07-14.md` | Three private response observations for each of the 15 Lane A first-contact drafts. |
+| `operations/client-acquisition-engine/research/prospect-operations/README.md` | Weekday research-to-review contract, evidence threshold, gap-completion loop, and explicit external-action boundary. |
+| `operations/client-acquisition-engine/research/prospect-operations/review/packets/2026-07-23-batch-01-approval-review.md` | First generated five-prospect review packet; one exact email is awaiting approval and no external action has run. |
 | `operations/client-acquisition-engine/research/BRIDGEWORKS-WEBSITE-SOURCE-MAP-2026-07-14.md` | Production GitHub/Vercel identity, deployed commit, exact multilingual claim paths, offer drift, and local user-change preservation boundary. |
 | `operations/client-acquisition-engine/sales/REPLY-TO-PROPOSAL-PLAYBOOK-2026-07-14.md` | Manual operating path from a genuine reply through qualification, proof selection, proposal, and follow-up. |
 | `operations/client-acquisition-engine/sales/DISCOVERY-CALL-BRIEF-TEMPLATE-2026.md` | Reusable 20-to-25-minute discovery-call agenda, qualification record, and next-step gate. |
@@ -83,6 +94,8 @@ By 2026-10-12, BridgeWorks should convert CEEFM and Oliviks proof into public au
 | `operations/client-acquisition-engine/offers/PAID-AI-READINESS-DIAGNOSTIC-OUTLINE-2026-07-15.md` | Internal diagnostic-first AI offer outline with interview, pain extraction, process-before-automation rules, effort/impact matrix, 4-day quick-start plan, pricing guardrail, and implementation upsell boundaries. |
 
 All draft, PDF, outreach, content, and conversion assets require Emmanuel approval before sending, scheduling, publishing, or attaching to a prospect message.
+
+Weekday research is scheduled for 09:10. The agent may verify public evidence and prepare exact outreach for review without supervision. A verified company is not outreach-ready until a specific commercial gap, proof choice, exact destination, exact copy, next action, and risks pass the local validator. Mission Control then holds the resulting external task in `awaiting_approval`; approval authorizes only that exact action.
 
 The local lead-scoring prompt now follows the current offer ladder, but the workflow JSON still embeds the retired free-audit wording. The production website also presents different homepage offers by locale. Do not import, activate, update, or promote either path until Emmanuel confirms the unified offer and approves a guarded reconciliation.
 

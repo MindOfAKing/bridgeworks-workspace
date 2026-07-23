@@ -1,0 +1,74 @@
+{
+  "name": "bridgeworks-acquisition-orchestrator",
+  "version": "2026-07-16",
+  "status": "designed_not_activated",
+  "timezone": "Europe/Budapest",
+  "approval_policy": "explicit_for_external_actions",
+  "surfaces": {
+    "mobile_outbox": "LLM Daily Outbox",
+    "approval_queue": "Approval Queue",
+    "health": "Automation Health",
+    "intake_log": "LLM Intake Log"
+  },
+  "schedules": [
+    {
+      "id": "prospect-evidence-weekday",
+      "cron": "10 9 * * 1-5",
+      "purpose": "verify evidence, dedupe, score, and prepare prospect review packets",
+      "external_actions": false
+    },
+    {
+      "id": "reply-approval-watch-weekday",
+      "cron": "30 12 * * 1-5",
+      "purpose": "classify new replies and approval state changes",
+      "external_actions": false
+    },
+    {
+      "id": "execution-health-weekday",
+      "cron": "30 17 * * 1-5",
+      "purpose": "reconcile internal work, browser results, stale queues, and exceptions",
+      "external_actions": false
+    },
+    {
+      "id": "weekly-acquisition-control",
+      "cron": "0 17 * * 0",
+      "purpose": "produce weekly scorecard and next-week approval queue",
+      "external_actions": false
+    },
+    {
+      "id": "weekly-dispatch-preparation",
+      "cron": "0 9 * * 1",
+      "purpose": "prepare exact channel bundles from approved queue items",
+      "external_actions": false
+    }
+  ],
+  "events": [
+    "gmail.reply.received",
+    "hubspot.record.changed",
+    "proof.asset.added",
+    "approval.granted",
+    "chrome.action.completed",
+    "worker.failed",
+    "oliviks.gate.changed"
+  ],
+  "workers": {
+    "research": "read_only_until_approved",
+    "content": "draft_and_queue_only",
+    "crm": "dedupe_and_reconcile",
+    "browser": "execute_named_approved_action_only",
+    "reporting": "write_mobile_summary_and_run_log"
+  },
+  "idempotency": {
+    "run_key": "trigger + scheduled_at + scope_hash",
+    "action_key": "approval_id + target_id + source_hash",
+    "prospect_key": "normalized_company_name + city + canonical_domain"
+  },
+  "activation_gates": [
+    "persistent_runtime_confirmed",
+    "composio_connections_verified",
+    "dry_run_verified",
+    "mobile_outbox_verified",
+    "approval_queue_verified",
+    "stale_n8n_workflow_reconciled"
+  ]
+}

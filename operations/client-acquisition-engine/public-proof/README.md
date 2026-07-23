@@ -1,12 +1,10 @@
-# BridgeWorks Public Proof Library
+# BridgeWorks Anonymization Staging
 
-Status: Anonymized derivatives for review. Nothing in this folder is approved or published automatically.
+Status: Local staging derivatives used to prepare the canonical Drive package. This is not a separate Drive library, and nothing here is approved or published automatically.
 
-Drive folder: https://drive.google.com/drive/folders/138TdpmsW-5-Xv1DmxrBAWrLydm-QrVx8
+Canonical Drive package: https://drive.google.com/drive/folders/1213AdNu-5Obn7VDbQQD08isLB4tFVtOi
 
-Private source package: https://drive.google.com/drive/folders/1213AdNu-5Obn7VDbQQD08isLB4tFVtOi
-
-## Public-use assets
+## Staging assets
 
 - `CASE-STUDY-CENTRAL-EUROPEAN-B2B-SERVICES-2026.md`
 - `PROOF-MODULES-ANONYMIZED-2026.md`
@@ -18,7 +16,7 @@ Private source package: https://drive.google.com/drive/folders/1213AdNu-5Obn7VDb
 
 ## Boundary
 
-Named client evidence remains in the private working package. These derivatives remove client names, logos, domains, contact names, direct evidence paths, recognizable screenshots, and unusually specific delivery-package details.
+Named client evidence remains only in the local source workspace. These derivatives remove client names, logos, domains, contact names, direct evidence paths, recognizable screenshots, and unusually specific delivery-package details.
 
 The 16-to-77 result is retained because it is the verified engagement-close BridgeWorks diagnostic. It is explicitly described as a diagnostic, not a platform ranking, citation guarantee, or revenue-attribution claim.
 
