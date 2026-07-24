@@ -118,6 +118,14 @@ export function Footer() {
         <div className="border-t border-white/10">
           <div className="container-x flex flex-wrap items-center justify-between gap-4 py-5 text-[12.5px] text-stone-500">
             <span>&copy; {new Date().getFullYear()} Oliviks KFT. All rights reserved.</span>
+            <a
+              href="https://bridgeworks.agency"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="transition-colors hover:text-stone-300"
+            >
+              Site by BridgeWorks
+            </a>
             <span className="font-display font-semibold text-gold">
               Come hungry &middot; Made in Budapest
             </span>
