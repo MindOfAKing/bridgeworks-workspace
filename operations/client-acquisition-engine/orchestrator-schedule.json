@@ -1,9 +1,19 @@
 {
   "name": "bridgeworks-acquisition-orchestrator",
-  "version": "2026-07-16",
-  "status": "designed_not_activated",
+  "version": "2026-07-24",
+  "status": "active_via_codex_automations",
   "timezone": "Europe/Budapest",
   "approval_policy": "explicit_for_external_actions",
+  "runtime": {
+    "type": "codex_local_recurring_automations",
+    "orchestrator_automation_id": "bridgeworks-hybrid-orchestrator-cycle",
+    "research_automation_id": "bridgeworks-weekday-prospect-research",
+    "approval_executor_automation_id": "bridgeworks-approved-action-executor",
+    "mobile_surface": "Codex mobile app plus Command Center mobile tabs",
+    "local_browser_worker": "authenticated Chrome session for exact approved browser actions",
+    "external_actions": "approval_gated_one_action_per_executor_run",
+    "activated_at": "2026-07-24"
+  },
   "surfaces": {
     "mobile_outbox": "LLM Daily Outbox",
     "approval_queue": "Approval Queue",
@@ -64,11 +74,12 @@
     "prospect_key": "normalized_company_name + city + canonical_domain"
   },
   "activation_gates": [
-    "persistent_runtime_confirmed",
+    "codex_automation_runtime_active",
     "composio_connections_verified",
     "dry_run_verified",
     "mobile_outbox_verified",
     "approval_queue_verified",
-    "stale_n8n_workflow_reconciled"
+    "idempotency_store_verified",
+    "chrome_worker_ready_for_approved_action"
   ]
 }

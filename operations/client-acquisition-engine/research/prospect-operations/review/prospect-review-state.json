@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-07-23T13:17:03+00:00",
+  "updated_at": "2026-07-24T09:00:32+00:00",
   "batches": {
     "2026-07-23-batch-01": {
       "batch_id": "2026-07-23-batch-01",
@@ -44,6 +44,19 @@
       "research_followups": [],
       "policy_version": 2,
       "prepared_at": "2026-07-23T13:17:03+00:00"
+    },
+    "2026-07-24-batch-01": {
+      "batch_id": "2026-07-24-batch-01",
+      "result_path": "C:\\Users\\User\\Projects\\bridgeworks-workspace\\operations\\client-acquisition-engine\\research\\prospect-operations\\results\\2026-07-24-batch-01-results.json",
+      "result_sha256": "db800e3dcd1e9cbdeee94b2143f0f4946b38a8d3506c0516b593cf59646dde62",
+      "packet_path": "C:\\Users\\User\\Projects\\bridgeworks-workspace\\operations\\client-acquisition-engine\\research\\prospect-operations\\review\\packets\\2026-07-24-batch-01-approval-review.md",
+      "counts": {
+        "needs_more_evidence": 1
+      },
+      "external_tasks": [],
+      "research_followups": [],
+      "policy_version": 2,
+      "prepared_at": "2026-07-24T09:00:32+00:00"
     }
   },
   "items": {
@@ -96,6 +109,16 @@
       "reason": "No sufficiently sharp commercial gap was established for first-wave outreach.",
       "result_path": "C:\\Users\\User\\Projects\\bridgeworks-workspace\\operations\\client-acquisition-engine\\research\\prospect-operations\\results\\2026-07-23-batch-01-results.json",
       "updated_at": "2026-07-23T13:17:03+00:00"
+    },
+    "2026-07-24-batch-01:nimaz-aesthetic": {
+      "batch_id": "2026-07-24-batch-01",
+      "prospect_id": "nimaz-aesthetic",
+      "company": "Nimaz Aesthetic",
+      "research_status": "needs_more_evidence",
+      "review_status": "needs_more_evidence",
+      "reason": "The address and phone route are currently supported. The checked public results did not independently reverify the earlier user-supplied review count, and directory omissions were treated only as signals rather than proof that no owned site exists.",
+      "result_path": "C:\\Users\\User\\Projects\\bridgeworks-workspace\\operations\\client-acquisition-engine\\research\\prospect-operations\\results\\2026-07-24-batch-01-results.json",
+      "updated_at": "2026-07-24T09:00:32+00:00"
     }
   }
 }

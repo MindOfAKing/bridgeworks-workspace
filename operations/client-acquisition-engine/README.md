@@ -17,7 +17,7 @@ The acquisition engine uses two trigger modes:
 - scheduled weekday, weekly, and dispatch-preparation runs
 - event-driven runs for replies, approvals, new proof, browser results, and failures
 
-The canonical runbook is `ORCHESTRATOR-RUNBOOK-2026-07-16.md` and the machine-readable cadence is `orchestrator-schedule.json`. Both are designed but not activated. They write mobile-readable summaries, approval items, and run logs. External sending, publishing, uploads, deployments, and paid enrichment remain explicitly approval-gated.
+The canonical runbook is `ORCHESTRATOR-RUNBOOK-2026-07-16.md` and the machine-readable cadence is `orchestrator-schedule.json`. The runtime is active through Codex local recurring automations, with mobile-readable summaries, approval items, and run logs. External sending, publishing, uploads, deployments, and paid enrichment remain explicitly approval-gated.
 
 ## 90-day success criteria
 

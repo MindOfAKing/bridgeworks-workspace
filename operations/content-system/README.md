@@ -18,7 +18,7 @@ Read these first, in order:
 
 | File | Purpose |
 |---|---|
-| `content_id.py` | Issues and validates Content IDs and Master Thesis IDs. Locked/atomic against concurrent Claude Code Desktop, VS Code, or Codex runs. Enforces the brand/channel matrix (EE has no X or TT) |
+| `content_id.py` | Issues and validates Content IDs and Master Thesis IDs. Locked/atomic against concurrent Claude Code Desktop, VS Code, or Codex runs. Enforces the brand/channel matrix (BridgeWorks includes Pinterest as `PIN`; EE has no X, TT, or PIN) |
 | `reconciliation_checks.py` | Mechanically-checkable reconciliation: stale-client mentions, ID format, duplicate *ledger* issuance vs. duplicate *canonical definitions* vs. legitimate downstream references vs. intentional Master Thesis ID reuse, duplicate files |
 | `registry/content-id-ledger.csv` | Every Content ID issued, so sequence numbers never repeat |
 | `registry/master-thesis-ledger.csv` | Every Master Thesis ID issued |
@@ -90,6 +90,7 @@ pass.
 ## How to use content_id.py
 
     python content_id.py new --brand BW --channel LI --date 2026-07-22
+    python content_id.py new --brand BW --channel PIN --date 2026-07-24
     python content_id.py new-thesis --date 2026-07-22
     python content_id.py check CONTENT-2026-29-EE-IG-01
     python content_id.py list

@@ -1,9 +1,15 @@
 # BridgeWorks Content Channel Model
 
-Version: 1.0 (proposed)
+Version: 1.0 (approved)
 Created: 2026-07-22
+Approved: 2026-07-24
 Owner: Emmanuel Ehigbai
-Status: Governance document. Pairs with `cross-model-content-cycle-runbook.md`. No publishing, account connection, or media change is authorized by this file.
+Status: Approved governance document. Pairs with
+`cross-model-content-cycle-runbook.md`. No publishing, account connection, or media
+change is authorized by this file.
+
+Primary conversion route: BridgeWorks website. Social direct messages and WhatsApp are
+secondary routes. Approved formal launch date: 2026-07-30.
 
 Each channel has a defined role. Do not duplicate the same post across every channel. Amplification means a short native introduction plus a link or a collab, not the full caption pasted again.
 
@@ -21,6 +27,12 @@ Each channel has a defined role. Do not duplicate the same post across every cha
 
 **BridgeWorks Facebook** — business education, service explanations, offers, events, proof, and conversion paths. Active business Page connection exists.
 
+**BridgeWorks Pinterest** — evergreen search and discovery. Publish original vertical
+Pins that answer durable business questions, such as how to start from an idea,
+structure an offer, improve visibility, organize enquiries, or create execution
+capacity. Use native titles, descriptions, keywords, boards, and destination links.
+Do not paste LinkedIn captions. Do not republish third-party Pinterest imagery.
+
 **Nigerian WhatsApp Status** — manual posting only, from the private Nigerian number. Codex produces 9:16 Status assets and captions in the cloud Mobile Publishing Pack. Never store or expose the number. No API or automation dependency. Record only a manual posted receipt after Emmanuel confirms.
 
 **Hungarian WhatsApp Business** — future CEE inbound and enquiry channel. Do not migrate or configure it yet. Prepare only: an account-transition checklist, business-profile requirements, greeting, away message, catalogue structure, labels, and English/Hungarian response templates. No automatic sending. Material leads later route to HubSpot; execution tasks route to ClickUp; important decisions and status route to Emmanuel OS.
@@ -35,5 +47,8 @@ Each channel has a defined role. Do not duplicate the same post across every cha
 
 - One origin channel per content unit; the rest are amplification.
 - Personal accounts amplify BridgeWorks with a native intro or a collab, never a duplicate caption.
+- Pinterest adaptations are native evergreen discovery units, not screenshot reposts.
+  Each one needs its own Content ID, title, description, board, keywords, destination
+  URL, vertical creative and approval.
 - Record origin channel and amplification channels on every content record (see the Mobile Publishing Pack spec).
 - Do not connect, migrate, or configure either WhatsApp number in this phase.

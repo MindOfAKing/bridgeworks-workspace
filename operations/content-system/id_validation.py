@@ -34,7 +34,7 @@ from datetime import date
 import re
 
 BRAND_CHANNELS = {
-    "BW": {"LI", "IG", "FB", "WA", "X", "TT"},
+    "BW": {"LI", "IG", "FB", "WA", "X", "TT", "PIN"},
     "EE": {"LI", "IG", "FB", "WA"},
 }
 BRAND_CODES = set(BRAND_CHANNELS)

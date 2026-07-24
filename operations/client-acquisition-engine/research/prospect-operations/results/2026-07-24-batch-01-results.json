@@ -1,0 +1,54 @@
+{
+  "schema_version": 2,
+  "batch_id": "2026-07-24-batch-01",
+  "completed_at": "2026-07-24T07:15:00+00:00",
+  "prospects": [
+    {
+      "prospect_id": "nimaz-aesthetic",
+      "company": "Nimaz Aesthetic",
+      "checked_at": "2026-07-24T07:15:00+00:00",
+      "status": "needs_more_evidence",
+      "sources": [
+        {
+          "url": "https://budapest.cylex.hu/sz%C3%A1j%C3%A1pol%C3%A1s-24.html",
+          "accessed_at": "2026-07-24",
+          "supports": "The current directory result lists Nimaz Aesthetic in Budapest at Maros utca 30 with public mobile number 06 20 803 7310."
+        },
+        {
+          "url": "https://nyitva.hu/budapest/dr-tasndi-nra-12600",
+          "accessed_at": "2026-07-24",
+          "supports": "The nearby-business listing also surfaces Nimaz Aesthetic at Maros utca 30, supporting the same location identity."
+        },
+        {
+          "url": "https://www.egeszsegturul.eu/all-laureates?page=7",
+          "accessed_at": "2026-07-24",
+          "supports": "The 2026 laureate index still includes Nimaz Aesthetic, which supports that the clinic remains publicly visible in current health directories."
+        },
+        {
+          "url": "https://dentalapro.hu/21-fogaszati-asszisztens?order=10&start=120",
+          "accessed_at": "2026-07-24",
+          "supports": "Search results for the dental jobs board show a 2025-12-15 assistant and hygienist hiring post for Nimaz Aesthetic, which supports recent operating activity."
+        }
+      ],
+      "owned_domain": "No owned domain was located in the checked public sources on 2026-07-24; this is a search finding, not proof that no owned site exists.",
+      "conversion_route": "The checked public sources support a directory-led phone route via 06 20 803 7310, but they did not verify a current owned-site booking or enquiry flow.",
+      "decision_maker": "Not verified from the checked public sources.",
+      "contact_route": "Public directory phone route via 06 20 803 7310; no outreach was attempted.",
+      "observations": [
+        "Current public discovery still surfaces Nimaz Aesthetic through directory listings that support the Maros utca 30 address and public mobile number.",
+        "The checked sources support continuing public activity, but they did not establish an owned domain, booking destination, or named commercial decision-maker."
+      ],
+      "recommended_angle": "Keep the patient-funnel and local/AI visibility hypothesis, but do not reopen outreach until a responsible practice decision-maker and a direct destination are verified from public evidence.",
+      "evidence_notes": "The address and phone route are currently supported. The checked public results did not independently reverify the earlier user-supplied review count, and directory omissions were treated only as signals rather than proof that no owned site exists.",
+      "outreach_readiness": "needs_more_evidence",
+      "commercial_gap": "",
+      "proof_to_use": "",
+      "proposed_channel": "",
+      "proposed_destination": "",
+      "draft_subject": "",
+      "draft_body": "",
+      "next_internal_action": "Verify one current owner or practice decision-maker and one exact direct destination such as an owned-site booking page, public business email, or confirmed responsible LinkedIn profile before Emmanuel considers any renewed routing outreach.",
+      "risk_notes": "Duplicate-contact risk is elevated because prior internal approval materials already prepared the same public phone route. Do not queue another outbound approval until the decision-maker and destination are upgraded beyond the existing hold state."
+    }
+  ]
+}

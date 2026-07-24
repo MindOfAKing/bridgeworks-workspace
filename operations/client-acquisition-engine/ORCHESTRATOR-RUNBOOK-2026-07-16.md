@@ -1,6 +1,6 @@
 # BridgeWorks Acquisition Orchestrator
 
-Status: designed, approval-gated, not activated
+Status: active via Codex recurring automations, approval-gated
 Owner: Emmanuel Ehigbai
 Timezone: Europe/Budapest
 Scope: client acquisition, authority content, proof packaging, and operating reports
@@ -13,6 +13,18 @@ Run the BridgeWorks acquisition loop with two trigger types:
 2. Event-driven runs react to new replies, approvals, source evidence, failures, and browser execution results.
 
 The orchestrator is the coordinator. Specialist workers do the narrow work. HubSpot remains the commercial source of truth, ClickUp remains the execution source of truth, Google Drive remains the canonical file store, and the mobile outbox remains the reading surface.
+
+## Active runtime
+
+The runtime is Codex local recurring automations.
+
+- `bridgeworks-hybrid-orchestrator-cycle` runs the internal control loop every four hours and reports a mobile-readable summary.
+- `bridgeworks-weekday-prospect-research` runs the evidence-first prospect lane at 09:10 on weekdays.
+- `bridgeworks-approved-action-executor` checks the approval queue every 15 minutes and may execute at most one exact approved external action per run.
+- The Codex mobile app and the Command Center tabs are the operator surface for briefs, approvals, health, and intake.
+- Authenticated Chrome remains the local device worker for approved LinkedIn publishing, uploads, and contact-form actions that require the user's computer.
+
+The runtime may continue internal checks without supervision. External actions remain explicitly approval-gated, and a missing or ambiguous browser receipt is treated as a failure or unknown result rather than retried.
 
 ## Operating boundary
 
@@ -85,7 +97,7 @@ Any stage may become `blocked` with a reason and next safe action. A run may not
 | Sunday 17:00 | Weekly acquisition control run | Review pipeline, content, proof, Oliviks gates, scorecard, and next-week approval queue. |
 | Monday 09:00 | Weekly dispatch preparation | Convert the approved weekly queue into exact channel bundles and ClickUp actions. Publishing remains gated. |
 
-The weekday 09:10 research run preserves the existing operating cadence. The other times are the proposed orchestrator cadence and should be activated only after the runtime connection is confirmed.
+The weekday 09:10 research run and the approval executor are active in Codex. The four-hour control loop reconciles the internal queue, worker state, and summaries. Reply, health, and weekly brief coverage continues through the existing BridgeWorks Codex jobs and is reported through the same mobile surfaces.
 
 ## Event-driven triggers
 
@@ -164,16 +176,6 @@ No run may report a draft as sent, a prepared browser action as published, or a 
 - If an approval expires or its source hash changes, return it to review.
 - If the same failure repeats across three runs, pause that worker and surface the blocker.
 
-## Activation checklist
+## Activation record
 
-Before activation, confirm:
-
-- one persistent scheduler or workflow host
-- active Composio connections for the exact worker set
-- a webhook or polling route for Gmail replies and approvals
-- access to the canonical Drive folder and mobile outbox
-- an idempotency store for run IDs and action IDs
-- a dry run that produces logs without sending or publishing
-- a successful mobile brief and approval-queue test
-
-The existing n8n workflow remains inactive until its retired offer wording and write nodes are reconciled against this contract.
+Activated 2026-07-24 through the existing Codex local automation runtime after the read-only capability audit and dry run. The remaining operational gate is a live authenticated Chrome session when an approved action actually requires a local upload or browser interaction. No external action is authorized by activation itself.

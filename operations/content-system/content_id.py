@@ -58,14 +58,15 @@ start counting at 1; see the assertion in new_content_id/new_thesis_id).
 
 Brand and permitted channels (from operations/content-channel-model.md;
 hardened per the 2026-07-22 correction passes):
-  BW  BridgeWorks (company channels): LI, IG, FB, WA, X, TT
+  BW  BridgeWorks (company channels): LI, IG, FB, WA, X, TT, PIN
   EE  Emmanuel Ehigbai (personal channels): LI, IG, FB, WA only
 
   EE has no X or TT combination under the current channel model --
   personal X/TikTok presence is not part of the approved system. BW
   channel meanings: LI = BridgeWorks Page, IG = @bridgeworksagency,
   FB = BridgeWorks Page, WA = Hungarian WhatsApp Business (preparation
-  only), X = reserved for days 31-60, TT = reserved for days 61-90.
+  only), X = reserved for days 31-60, TT = reserved for days 61-90,
+  PIN = BridgeWorks Pinterest evergreen discovery.
   EE channel meanings: LI = personal profile, IG = personal, FB =
   personal, WA = Nigerian WhatsApp Status (manual posting only).
 
@@ -339,7 +340,7 @@ def main():
 
     p_new = sub.add_parser("new", help="Issue a new Content ID")
     p_new.add_argument("--brand", required=True, help="BW or EE")
-    p_new.add_argument("--channel", required=True, help="LI, IG, FB, WA, and for BW only, X or TT")
+    p_new.add_argument("--channel", required=True, help="LI, IG, FB, WA, and for BW only, X, TT, or PIN")
     p_new.add_argument("--date", help="YYYY-MM-DD, defaults to today")
 
     p_thesis = sub.add_parser("new-thesis", help="Issue a new Master Thesis ID")

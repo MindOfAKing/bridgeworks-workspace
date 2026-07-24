@@ -1,9 +1,15 @@
-# BridgeWorks Content 90-Day Rollout (Proposed)
+# BridgeWorks Content 90-Day Rollout
 
-Version: 1.0 (proposed)
+Version: 1.0 (approved)
 Created: 2026-07-22
+Approved: 2026-07-24
 Owner: Emmanuel Ehigbai
-Status: Proposed plan. No schedule is created and nothing is published by this file. Pairs with `content-channel-model.md` and `cross-model-content-cycle-runbook.md`.
+Status: Approved rollout model. Formal launch date: 2026-07-30. No schedule is created
+and nothing is published by this file. Pairs with `content-channel-model.md` and
+`cross-model-content-cycle-runbook.md`.
+
+The BridgeWorks website is the primary conversion route. Social direct messages and
+WhatsApp are secondary routes.
 
 Use three weekly master theses. Adapt each across channels. Do not create unrelated daily ideas for every platform.
 

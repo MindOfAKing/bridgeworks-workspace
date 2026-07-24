@@ -1,0 +1,67 @@
+{
+  "schema_version": 2,
+  "batch_id": "2026-07-24-batch-01",
+  "date": "2026-07-24",
+  "prepared_at": "2026-07-24T07:11:19+00:00",
+  "status": "prepared",
+  "source_csv": "C:\\Users\\User\\Projects\\bridgeworks-workspace\\operations\\lead-engine-v1\\01-prospects\\prospect-batch-2026-07-14.csv",
+  "source_sha256": "dd658e73afa0304394762879619923d868a8c7cc8fd503b6aec7910335e26377",
+  "limits": {
+    "max_prospects": 1,
+    "external_actions_allowed": false,
+    "paid_enrichment_allowed": false
+  },
+  "required_result_fields": [
+    "prospect_id",
+    "company",
+    "checked_at",
+    "status",
+    "sources",
+    "owned_domain",
+    "conversion_route",
+    "decision_maker",
+    "contact_route",
+    "observations",
+    "recommended_angle",
+    "evidence_notes",
+    "outreach_readiness",
+    "commercial_gap",
+    "proof_to_use",
+    "proposed_channel",
+    "proposed_destination",
+    "draft_subject",
+    "draft_body",
+    "next_internal_action",
+    "risk_notes"
+  ],
+  "prospects": [
+    {
+      "prospect_id": "nimaz-aesthetic",
+      "company": "Nimaz Aesthetic",
+      "city": "Budapest",
+      "country": "Hungary",
+      "sector": "Dental / aesthetic clinic",
+      "source_status": "scan-drafted-awaiting-approval",
+      "website": "",
+      "contact_name": "",
+      "contact_role": "",
+      "contact_url": "https://budapest.cylex.hu/sz%C3%A1j%C3%A1pol%C3%A1s-24.html",
+      "trigger_observation": "4.5 rating and 121 reviews; no owned website found",
+      "proof_to_use": "Aesthetic patient funnel / Google and AI visibility",
+      "next_action": "Emmanuel approve or revise routing message after number and decision-maker verification",
+      "notes": "Public phone +36 20 803 7310 and address Maros utca 30; directory and award listings found; HubSpot company search returned no match; mini scan and routing message drafted; review count is user-supplied and needs a Maps recheck.",
+      "checklist": [
+        "Confirm the canonical owned domain or record that none was located.",
+        "Verify the current primary conversion, booking, enquiry, or WhatsApp route.",
+        "Verify a decision-maker or responsible role from a public source.",
+        "Verify one usable contact route without creating a draft or sending a message.",
+        "Capture two specific, current observations with source URLs and access dates.",
+        "Confirm or revise the BridgeWorks angle using only observed evidence.",
+        "State whether outreach is ready, held, or needs more evidence.",
+        "If outreach is ready, identify one sourced commercial gap, exact channel and destination, selected proof, and concise proposed copy.",
+        "Check the tracker and approval packets for duplicate-contact risk.",
+        "Do not make claims about clinical quality, outcomes, or patient safety."
+      ]
+    }
+  ]
+}
