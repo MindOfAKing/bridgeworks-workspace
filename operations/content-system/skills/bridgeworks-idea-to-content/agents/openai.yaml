@@ -1,0 +1,4 @@
+interface:
+  display_name: "BridgeWorks Idea to Content"
+  short_description: "Turn rough ideas and work notes into story-led content."
+  default_prompt: "Use $bridgeworks-idea-to-content to turn my note into structured questions and an approval-ready draft."

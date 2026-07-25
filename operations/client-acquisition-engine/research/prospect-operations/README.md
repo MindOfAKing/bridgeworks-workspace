@@ -4,7 +4,7 @@ This folder is the durable handoff between the local Mission Control worker and 
 
 ## Weekday Flow
 
-1. Mission Control prepares up to five active-lane prospects from the canonical 45-row tracker.
+1. Mission Control prepares up to eight active-lane prospects from the validated rolling source.
 2. The scheduled research agent opens the JSON and Markdown batch in `batches/`.
 3. The agent verifies public evidence and writes a structured JSON file to `results/`.
 4. The agent runs the completion validator.
@@ -49,3 +49,11 @@ python scripts/prospect_review_queue.py prepare --results <results.json> --summa
 Repeated preparation on the same date reuses the open batch. A new batch is not created until the current one is completed or deliberately resolved.
 
 Durable review state is stored in `review/prospect-review-state.json`; review events are appended to `review/prospect-review-events.jsonl`. External action approval remains in private Mission Control and is scoped to the exact destination and copy shown in the task.
+
+## Rolling source
+
+`prospect-source-current.csv` is the research intake source. Additions must pass
+`scripts/prospect_source_queue.py add`. The validator requires an approved active lane,
+at least one dated public evidence URL, and deduplication by domain or company and
+country. It always admits new rows as `research`; it cannot mark a prospect ready,
+approve outreach, or send a message.

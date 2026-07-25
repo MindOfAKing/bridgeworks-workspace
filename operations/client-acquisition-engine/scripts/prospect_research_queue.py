@@ -14,13 +14,17 @@ from typing import Any
 
 ENGINE_ROOT = Path(__file__).resolve().parents[1]
 WORKSPACE_ROOT = ENGINE_ROOT.parents[1]
-SOURCE_CSV = WORKSPACE_ROOT / "operations" / "lead-engine-v1" / "01-prospects" / "prospect-batch-2026-07-14.csv"
+SOURCE_CSV = ENGINE_ROOT / "research" / "prospect-operations" / "prospect-source-current.csv"
 RESEARCH_ROOT = ENGINE_ROOT / "research" / "prospect-operations"
 STATE_PATH = RESEARCH_ROOT / "prospect-research-state.json"
 EVENTS_PATH = RESEARCH_ROOT / "prospect-research-events.jsonl"
 BATCH_ROOT = RESEARCH_ROOT / "batches"
 
-ACTIVE_LANE_PREFIX = "Lane A Budapest credibility-first SMEs"
+ACTIVE_LANE_PREFIXES = (
+    "Lane A Budapest credibility-first SMEs",
+    "Lane B African-owned businesses in Europe",
+    "Lane D Nigeria growth businesses",
+)
 ELIGIBLE_STATUSES = {"research", "research-high-scale", "scan-drafted-awaiting-approval"}
 RESULT_STATUSES = {"verified", "needs_more_evidence", "rejected", "held"}
 OUTREACH_READINESS = {"ready", "hold", "needs_more_evidence"}
@@ -135,7 +139,7 @@ def eligible_rows(rows: list[dict[str, str]], state: dict[str, Any]) -> list[dic
     prospects = state.get("prospects", {})
     eligible: list[dict[str, str]] = []
     for row in rows:
-        if not row.get("lane", "").startswith(ACTIVE_LANE_PREFIX):
+        if not row.get("lane", "").startswith(ACTIVE_LANE_PREFIXES):
             continue
         if row.get("status") not in ELIGIBLE_STATUSES:
             continue
