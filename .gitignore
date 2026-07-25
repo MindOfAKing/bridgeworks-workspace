@@ -1,6 +1,10 @@
 .env
 node_modules/
 .DS_Store
+
+# Python build artifacts
+__pycache__/
+*.py[cod]
 .firecrawl-*.json
 **/.docxbuild/fetch-err.txt
 
@@ -9,3 +13,33 @@ automation-reports-dashboard/
 
 # Per-machine Claude Code local permissions. Never commit; may contain machine-specific paths and MCP tool grants.
 **/.claude/settings.local.json
+
+# Skill-governance isolation. Keep only review metadata and intentional reports.
+skill-governance/quarantine/*
+!skill-governance/quarantine/.gitkeep
+skill-governance/.venv*/
+skill-governance/reports/raw/
+skill-governance/reports/markitdown-output/
+skill-governance/reports/skillspector-*.md
+skill-governance/reports/markitdown-*-data.json
+skill-governance/.uv-cache/
+skill-governance/samples/
+
+# Local test and tool caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+coverage.xml
+.coverage
+htmlcov/
+*.log
+*.sqlite
+*.sqlite3
+*.db
+**/test-results/.last-run.json
+dist/
+build/
+.idea/
+.vscode/
+Thumbs.db
+Desktop.ini
