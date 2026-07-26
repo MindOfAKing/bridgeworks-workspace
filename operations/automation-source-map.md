@@ -135,6 +135,7 @@ Two-interface safeguards:
 - Use session files, git status, git history, and Emmanuel OS receipts for handoff between interfaces.
 - Never let Desktop and VS Code edit the same working tree concurrently.
 - Before taking ownership of uncommitted changes, check whether another Claude Code process or session is actively editing that repository.
+- Run `pwsh -File scripts/check_claude_worktree_collision.ps1 <repository-path>` before taking write ownership. Exit `2` means an active VS Code/Claude IDE lock overlaps the repository; use a separate worktree or hand off ownership. Exit `0` means no active overlapping IDE lock was found. Claude Desktop process presence is reported separately and is not treated as proof of repository ownership.
 - Preserve uncommitted changes created through either interface.
 - Record the interface used in receipts as "Claude Code Desktop" or "Claude Code VS Code".
 - Ownership remains "Claude Code" unless the interface distinction is operationally relevant.
