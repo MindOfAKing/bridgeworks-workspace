@@ -95,26 +95,26 @@ Note: none of the live Codex automations is a CEEFM client-delivery brief. The s
 
 Owned by Hermes. Runs on this Windows machine only. Not mobile-safe and not cloud-independent. Live source of truth is `hermes cron list` and the per-job output under `C:/Users/User/AppData/Local/hermes/cron/output/<job_id>/`. The local private dashboard at `automation-reports-dashboard/` (gitignored) renders status; refresh with `python automation-reports-dashboard/refresh.py`.
 
-A configured job is not a healthy job. Distinguish configured, enabled or paused state, last-run status, and blockers. As of the 2026-07-22 dashboard snapshot: 4 jobs are healthy (`ok`), 2 are paused with an explicit Google OAuth block (`invalid_grant` / `TOKEN_REVOKED`), and 8 are active but last ran with errors whose causes are mixed or unverified. Do not assume a single OAuth re-authorization fixes every Hermes job: it should clear the two OAuth-blocked paused jobs, but the eight active errors need per-job diagnosis (some captured no blocker text, one is a private-video error, one hit hard-blocked OS shortcuts). Gateway running/stopped state and any credit-related failures are not captured in the dashboard and need direct verification (`hermes gateway status`).
+A configured job is not a healthy job. Distinguish configured, enabled or paused state, last-run status, current authentication state, and gateway state. Direct verification on 2026-07-26 found 12 active jobs and 2 paused jobs. Four active script jobs were healthy. Eight active agent jobs were errored: seven returned OpenRouter HTTP 401 `User not found`, and Weekly Content Plan returned HTTP 402 for insufficient credit or an excessive token ceiling. Both paused jobs had successful last runs and no current `paused_reason` or `last_error` in `jobs.json`; the older 2026-07-22 dashboard's Google OAuth diagnosis is historical evidence, not their current recorded blocker. `hermes auth status openrouter` and `hermes auth status google` both reported logged out. `hermes cron status` reported that the gateway was not running, so configured jobs would not fire automatically. Do not collapse these findings into one OAuth repair.
 
 | Job | Schedule | State | Last-run status | Note |
 |---|---|---|---|---|
-| Daily Operating Brief | `0 6 * * *` | paused | ok (2026-07-15) | Blocker: OAuth `invalid_grant` |
-| Inbox, Finance, Investments, and Lead Control Tower | `45 7,14 * * *` | paused | ok (2026-07-15) | Blocker: `TOKEN_REVOKED / invalid_grant` |
-| Daily Knowledge Tutor | `25 8 * * *` | active | error (2026-07-22) | No blocker text captured |
-| Automation Intake, Router, and Health | `0 */4 * * *` | active | error (2026-07-22) | No blocker text captured |
-| YouTube Intelligence Digest | `0 7,19 * * *` | active | error (2026-07-22) | Private/unavailable video error; overlaps the Cowork YouTube Intelligence Digest. Codex YouTube work is on-demand, not a scheduled automation |
-| Weekly Content Plan | `0 19 * * 0` | active | error (2026-07-19) | Overlaps Cowork Weekly Content Plan |
-| BridgeWorks Opportunity Radar | `0 9 * * *` | active | error (2026-07-22) | No blocker text captured |
-| BridgeWorks SYSTEMology Review | `0 16 * * 5` | active | error (2026-07-17) | No blocker text captured |
-| Refresh Automation Reports Dashboard | every 30m | active | ok (2026-07-22) | Healthy |
-| Daily Content Publishing Prep | `0 8 * * *` | active | error (2026-07-22) | Content pipeline; approval-gated |
-| Daily Approved Browser Publisher | `45 8 * * *` | active | error (2026-07-22) | Publisher; some OS shortcuts hard-blocked |
-| Life Ops Morning | `0 7 * * *` | active | ok (2026-07-22) | Healthy |
-| Life Ops Midday | `0 12 * * *` | active | ok (2026-07-21) | Healthy |
-| Life Ops Evening | `0 21 * * *` | active | ok (2026-07-21) | Healthy |
+| Daily Operating Brief | `0 6 * * *` | paused | ok (2026-07-15) | No current pause reason or last error recorded |
+| Inbox, Finance, Investments, and Lead Control Tower | `45 7,14 * * *` | paused | ok (2026-07-15) | No current pause reason or last error recorded |
+| Daily Knowledge Tutor | `25 8 * * *` | active | error (2026-07-25) | OpenRouter HTTP 401 `User not found` |
+| Automation Intake, Router, and Health | `0 */4 * * *` | active | error (2026-07-26) | OpenRouter HTTP 401 `User not found` |
+| YouTube Intelligence Digest | `0 7,19 * * *` | active | error (2026-07-26) | OpenRouter HTTP 401 `User not found`; overlaps the Cowork YouTube Intelligence Digest |
+| Weekly Content Plan | `0 19 * * 0` | active | error (2026-07-19) | OpenRouter HTTP 402 credit or token-ceiling failure; overlaps Cowork Weekly Content Plan |
+| BridgeWorks Opportunity Radar | `0 9 * * *` | active | error (2026-07-25) | OpenRouter HTTP 401 `User not found` |
+| BridgeWorks SYSTEMology Review | `0 16 * * 5` | active | error (2026-07-24) | OpenRouter HTTP 401 `User not found` |
+| Refresh Automation Reports Dashboard | every 30m | active | ok (2026-07-26) | Healthy script job |
+| Daily Content Publishing Prep | `0 8 * * *` | active | error (2026-07-26) | OpenRouter HTTP 401 `User not found`; approval-gated content pipeline |
+| Daily Approved Browser Publisher | `45 8 * * *` | active | error (2026-07-25) | OpenRouter HTTP 401 `User not found`; approval-gated publisher |
+| Life Ops Morning | `0 7 * * *` | active | ok (2026-07-26) | Healthy script job |
+| Life Ops Midday | `0 12 * * *` | active | ok (2026-07-25) | Healthy script job |
+| Life Ops Evening | `0 21 * * *` | active | ok (2026-07-26) | Healthy script job |
 
-Not captured in the local dashboard and requiring direct verification: Hermes gateway running/stopped state (`hermes gateway status`), and whether any failures are credit-related rather than OAuth-related. Do not assume credit failures without evidence; the visible blockers here are OAuth-token revocation.
+Recovery is approval-gated. Re-authentication changes credentials, changing the Weekly Content Plan token ceiling or funding changes job/provider configuration, and starting or installing the gateway changes live execution state. Re-run `hermes cron list`, safe fields from `jobs.json`, provider auth status, and `hermes cron status` after each separately approved repair.
 
 ## Claude Code implementation role (not a scheduler)
 
