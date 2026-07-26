@@ -24,7 +24,7 @@ RUNS_DIR = PIPELINE_DIR / "runs"
 
 ENV_PATHS = [
     ROOT / ".env",
-    Path(r"C:\Users\ELITEX21012G2\bridgeworks-agency\.env.local"),
+    ROOT.parent / "bridgeworks-agency" / ".env.local",
 ]
 
 GOOGLE_PLACES_TEXT_SEARCH = "https://maps.googleapis.com/maps/api/place/textsearch/json"

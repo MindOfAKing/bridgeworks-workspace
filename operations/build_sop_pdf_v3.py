@@ -10,7 +10,7 @@ from reportlab.pdfbase.ttfonts import TTFont
 from reportlab.pdfgen import canvas
 
 
-OPS = Path("C:/Users/ELITEX21012G2/Projects/bridgeworks-workspace/operations")
+OPS = Path(__file__).resolve().parent
 SOURCE = OPS / "bridgeworks-business-sop.md"
 OUTPUT = OPS / "BridgeWorks Business Operating SOP.pdf"
 FONT_DIR = OPS / "fonts"

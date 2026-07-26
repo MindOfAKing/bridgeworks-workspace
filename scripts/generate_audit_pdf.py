@@ -1,4 +1,6 @@
 """Generate branded PDF for O'liviks Marketing Audit."""
+from pathlib import Path
+
 from reportlab.lib.pagesizes import A4
 from reportlab.lib.units import mm, cm
 from reportlab.lib.colors import HexColor, white, black
@@ -180,9 +182,9 @@ def make_table(headers, rows, col_widths=None):
 
 
 def build_pdf():
-    output_path = r"C:\Users\ELITEX21012G2\Projects\bridgeworks-workspace\clients\oliviks\reports\MARKETING-AUDIT.pdf"
+    output_path = Path(__file__).resolve().parents[1] / "clients" / "oliviks" / "reports" / "MARKETING-AUDIT.pdf"
 
-    doc = BaseDocTemplate(output_path, pagesize=A4,
+    doc = BaseDocTemplate(str(output_path), pagesize=A4,
                           leftMargin=MARGIN_LEFT, rightMargin=MARGIN_RIGHT,
                           topMargin=MARGIN_TOP, bottomMargin=MARGIN_BOTTOM)
 
