@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "source_csv": "C:\\Users\\User\\Projects\\bridgeworks-workspace\\operations\\lead-engine-v1\\01-prospects\\prospect-batch-2026-07-14.csv",
-  "source_sha256": "dd658e73afa0304394762879619923d868a8c7cc8fd503b6aec7910335e26377",
-  "updated_at": "2026-07-24T07:13:49+00:00",
+  "source_csv": "C:\\Users\\User\\Projects\\bridgeworks-workspace\\operations\\client-acquisition-engine\\research\\prospect-operations\\prospect-source-current.csv",
+  "source_sha256": "be2d97516180f3474611bf987f960922a912e2640b9fe19adcda216fb3b3aae7",
+  "updated_at": "2026-07-31T19:06:12+00:00",
   "prospects": {
     "nimaz-aesthetic": {
       "company": "Nimaz Aesthetic",
@@ -53,6 +53,281 @@
       "result_status": "held",
       "result_path": "C:\\Users\\User\\Projects\\bridgeworks-workspace\\operations\\client-acquisition-engine\\research\\prospect-operations\\results\\2026-07-23-batch-01-results.json",
       "outreach_readiness": "not_assessed"
+    },
+    "budbed": {
+      "company": "Budbed",
+      "research_status": "in_research",
+      "research_attempts": 1,
+      "batch_id": "2026-07-26-batch-01",
+      "updated_at": "2026-07-26T06:02:45+00:00"
+    },
+    "eliezer-facility-management-company-lagos": {
+      "company": "Eliezer Facility Management Company Lagos",
+      "research_status": "in_research",
+      "research_attempts": 1,
+      "batch_id": "2026-07-26-batch-01",
+      "updated_at": "2026-07-26T06:02:45+00:00"
+    },
+    "go2flats": {
+      "company": "Go2Flats",
+      "research_status": "in_research",
+      "research_attempts": 1,
+      "batch_id": "2026-07-26-batch-01",
+      "updated_at": "2026-07-26T06:02:45+00:00"
+    },
+    "homerun": {
+      "company": "Homerun",
+      "research_status": "in_research",
+      "research_attempts": 1,
+      "batch_id": "2026-07-26-batch-01",
+      "updated_at": "2026-07-26T06:02:45+00:00"
+    },
+    "marvel-homes-property-management": {
+      "company": "Marvel Homes Property Management",
+      "research_status": "in_research",
+      "research_attempts": 1,
+      "batch_id": "2026-07-26-batch-01",
+      "updated_at": "2026-07-26T06:02:45+00:00"
+    },
+    "max-migold-facilities-management-company": {
+      "company": "Max-Migold Facilities Management Company",
+      "research_status": "researched",
+      "research_attempts": 1,
+      "batch_id": "2026-07-27-batch-01",
+      "updated_at": "2026-07-27T16:47:44+00:00",
+      "result_status": "verified",
+      "outreach_readiness": "needs_more_evidence",
+      "result_path": "C:\\Users\\User\\Projects\\bridgeworks-workspace\\operations\\client-acquisition-engine\\research\\prospect-operations\\results\\2026-07-27-batch-01-results.json"
+    },
+    "3d-janitorial-services": {
+      "company": "3D Janitorial Services",
+      "research_status": "held",
+      "research_attempts": 1,
+      "batch_id": "2026-07-27-batch-01",
+      "updated_at": "2026-07-27T16:47:44+00:00",
+      "result_status": "held",
+      "outreach_readiness": "hold",
+      "result_path": "C:\\Users\\User\\Projects\\bridgeworks-workspace\\operations\\client-acquisition-engine\\research\\prospect-operations\\results\\2026-07-27-batch-01-results.json"
+    },
+    "csikygroup": {
+      "company": "CsikyGroup",
+      "research_status": "researched",
+      "research_attempts": 1,
+      "batch_id": "2026-07-27-batch-01",
+      "updated_at": "2026-07-27T16:47:44+00:00",
+      "result_status": "verified",
+      "outreach_readiness": "needs_more_evidence",
+      "result_path": "C:\\Users\\User\\Projects\\bridgeworks-workspace\\operations\\client-acquisition-engine\\research\\prospect-operations\\results\\2026-07-27-batch-01-results.json"
+    },
+    "easy-office-clean": {
+      "company": "Easy Office Clean",
+      "research_status": "researched",
+      "research_attempts": 1,
+      "batch_id": "2026-07-27-batch-01",
+      "updated_at": "2026-07-27T16:47:44+00:00",
+      "result_status": "verified",
+      "outreach_readiness": "needs_more_evidence",
+      "result_path": "C:\\Users\\User\\Projects\\bridgeworks-workspace\\operations\\client-acquisition-engine\\research\\prospect-operations\\results\\2026-07-27-batch-01-results.json"
+    },
+    "kavezo-kft": {
+      "company": "Kavezo Kft",
+      "research_status": "held",
+      "research_attempts": 1,
+      "batch_id": "2026-07-27-batch-01",
+      "updated_at": "2026-07-27T16:47:44+00:00",
+      "result_status": "held",
+      "outreach_readiness": "hold",
+      "result_path": "C:\\Users\\User\\Projects\\bridgeworks-workspace\\operations\\client-acquisition-engine\\research\\prospect-operations\\results\\2026-07-27-batch-01-results.json"
+    },
+    "nevoxa": {
+      "company": "Nevoxa",
+      "research_status": "researched",
+      "research_attempts": 1,
+      "batch_id": "2026-07-27-batch-01",
+      "updated_at": "2026-07-27T16:47:44+00:00",
+      "result_status": "verified",
+      "outreach_readiness": "ready",
+      "result_path": "C:\\Users\\User\\Projects\\bridgeworks-workspace\\operations\\client-acquisition-engine\\research\\prospect-operations\\results\\2026-07-27-batch-01-results.json"
+    },
+    "palmacedar-cleaning-services": {
+      "company": "Palmacedar Cleaning Services",
+      "research_status": "held",
+      "research_attempts": 1,
+      "batch_id": "2026-07-27-batch-01",
+      "updated_at": "2026-07-27T16:47:44+00:00",
+      "result_status": "held",
+      "outreach_readiness": "hold",
+      "result_path": "C:\\Users\\User\\Projects\\bridgeworks-workspace\\operations\\client-acquisition-engine\\research\\prospect-operations\\results\\2026-07-27-batch-01-results.json"
+    },
+    "takaritokeu": {
+      "company": "TakaritokEU",
+      "research_status": "researched",
+      "research_attempts": 1,
+      "batch_id": "2026-07-27-batch-01",
+      "updated_at": "2026-07-27T16:47:44+00:00",
+      "result_status": "verified",
+      "outreach_readiness": "needs_more_evidence",
+      "result_path": "C:\\Users\\User\\Projects\\bridgeworks-workspace\\operations\\client-acquisition-engine\\research\\prospect-operations\\results\\2026-07-27-batch-01-results.json"
+    },
+    "altilis-limited": {
+      "company": "Altilis Limited",
+      "research_status": "researched",
+      "research_attempts": 1,
+      "batch_id": "2026-07-28-batch-01",
+      "updated_at": "2026-07-28T11:39:58+00:00",
+      "result_status": "verified",
+      "outreach_readiness": "needs_more_evidence",
+      "result_path": "C:\\Users\\User\\Projects\\bridgeworks-workspace\\operations\\client-acquisition-engine\\research\\prospect-operations\\results\\2026-07-28-batch-01-results.json"
+    },
+    "avenir-facility-management-kft": {
+      "company": "Avenir Facility Management Kft",
+      "research_status": "researched",
+      "research_attempts": 1,
+      "batch_id": "2026-07-28-batch-01",
+      "updated_at": "2026-07-28T11:39:58+00:00",
+      "result_status": "verified",
+      "outreach_readiness": "needs_more_evidence",
+      "result_path": "C:\\Users\\User\\Projects\\bridgeworks-workspace\\operations\\client-acquisition-engine\\research\\prospect-operations\\results\\2026-07-28-batch-01-results.json"
+    },
+    "percoso-nigeria": {
+      "company": "PERCOSO Nigeria",
+      "research_status": "researched",
+      "research_attempts": 1,
+      "batch_id": "2026-07-28-batch-01",
+      "updated_at": "2026-07-28T11:39:58+00:00",
+      "result_status": "verified",
+      "outreach_readiness": "ready",
+      "result_path": "C:\\Users\\User\\Projects\\bridgeworks-workspace\\operations\\client-acquisition-engine\\research\\prospect-operations\\results\\2026-07-28-batch-01-results.json"
+    },
+    "urbancore-facility-management": {
+      "company": "UrbanCore Facility Management",
+      "research_status": "researched",
+      "research_attempts": 1,
+      "batch_id": "2026-07-28-batch-01",
+      "updated_at": "2026-07-28T11:39:58+00:00",
+      "result_status": "verified",
+      "outreach_readiness": "needs_more_evidence",
+      "result_path": "C:\\Users\\User\\Projects\\bridgeworks-workspace\\operations\\client-acquisition-engine\\research\\prospect-operations\\results\\2026-07-28-batch-01-results.json"
+    },
+    "alpha-guards-security-ltd": {
+      "company": "Alpha Guards Security Ltd",
+      "research_status": "held",
+      "research_attempts": 1,
+      "batch_id": "2026-07-28-batch-01",
+      "updated_at": "2026-07-28T11:39:58+00:00",
+      "result_status": "held",
+      "outreach_readiness": "hold",
+      "result_path": "C:\\Users\\User\\Projects\\bridgeworks-workspace\\operations\\client-acquisition-engine\\research\\prospect-operations\\results\\2026-07-28-batch-01-results.json"
+    },
+    "new-solution-service-kft": {
+      "company": "New Solution Service Kft",
+      "research_status": "researched",
+      "research_attempts": 1,
+      "batch_id": "2026-07-28-batch-01",
+      "updated_at": "2026-07-28T11:39:58+00:00",
+      "result_status": "verified",
+      "outreach_readiness": "ready",
+      "result_path": "C:\\Users\\User\\Projects\\bridgeworks-workspace\\operations\\client-acquisition-engine\\research\\prospect-operations\\results\\2026-07-28-batch-01-results.json"
+    },
+    "ready-clean": {
+      "company": "Ready Clean",
+      "research_status": "researched",
+      "research_attempts": 1,
+      "batch_id": "2026-07-28-batch-01",
+      "updated_at": "2026-07-28T11:39:58+00:00",
+      "result_status": "verified",
+      "outreach_readiness": "needs_more_evidence",
+      "result_path": "C:\\Users\\User\\Projects\\bridgeworks-workspace\\operations\\client-acquisition-engine\\research\\prospect-operations\\results\\2026-07-28-batch-01-results.json"
+    },
+    "triaxis-consulting-firm": {
+      "company": "TriAxis Consulting Firm",
+      "research_status": "researched",
+      "research_attempts": 1,
+      "batch_id": "2026-07-28-batch-01",
+      "updated_at": "2026-07-28T11:39:58+00:00",
+      "result_status": "verified",
+      "outreach_readiness": "ready",
+      "result_path": "C:\\Users\\User\\Projects\\bridgeworks-workspace\\operations\\client-acquisition-engine\\research\\prospect-operations\\results\\2026-07-28-batch-01-results.json"
+    },
+    "607-cleaning": {
+      "company": "607 Cleaning",
+      "research_status": "researched",
+      "research_attempts": 1,
+      "batch_id": "2026-07-31-batch-01",
+      "updated_at": "2026-07-31T19:06:12+00:00",
+      "result_status": "verified",
+      "outreach_readiness": "ready",
+      "result_path": "C:\\Users\\User\\Projects\\bridgeworks-workspace\\operations\\client-acquisition-engine\\research\\prospect-operations\\results\\2026-07-31-batch-01-results.json"
+    },
+    "erefa-ltd": {
+      "company": "EREFA Ltd",
+      "research_status": "researched",
+      "research_attempts": 1,
+      "batch_id": "2026-07-31-batch-01",
+      "updated_at": "2026-07-31T19:06:12+00:00",
+      "result_status": "verified",
+      "outreach_readiness": "ready",
+      "result_path": "C:\\Users\\User\\Projects\\bridgeworks-workspace\\operations\\client-acquisition-engine\\research\\prospect-operations\\results\\2026-07-31-batch-01-results.json"
+    },
+    "servicepilot-nigeria": {
+      "company": "ServicePilot Nigeria",
+      "research_status": "researched",
+      "research_attempts": 1,
+      "batch_id": "2026-07-31-batch-01",
+      "updated_at": "2026-07-31T19:06:12+00:00",
+      "result_status": "verified",
+      "outreach_readiness": "ready",
+      "result_path": "C:\\Users\\User\\Projects\\bridgeworks-workspace\\operations\\client-acquisition-engine\\research\\prospect-operations\\results\\2026-07-31-batch-01-results.json"
+    },
+    "starmate-nigeria-ltd": {
+      "company": "Starmate Nigeria Ltd",
+      "research_status": "researched",
+      "research_attempts": 1,
+      "batch_id": "2026-07-31-batch-01",
+      "updated_at": "2026-07-31T19:06:12+00:00",
+      "result_status": "verified",
+      "outreach_readiness": "ready",
+      "result_path": "C:\\Users\\User\\Projects\\bridgeworks-workspace\\operations\\client-acquisition-engine\\research\\prospect-operations\\results\\2026-07-31-batch-01-results.json"
+    },
+    "omma-integrated-global-services": {
+      "company": "OMMA Integrated Global Services",
+      "research_status": "researched",
+      "research_attempts": 1,
+      "batch_id": "2026-07-31-batch-01",
+      "updated_at": "2026-07-31T19:06:12+00:00",
+      "result_status": "verified",
+      "outreach_readiness": "needs_more_evidence",
+      "result_path": "C:\\Users\\User\\Projects\\bridgeworks-workspace\\operations\\client-acquisition-engine\\research\\prospect-operations\\results\\2026-07-31-batch-01-results.json"
+    },
+    "westlink-facility-management-limited": {
+      "company": "Westlink Facility Management Limited",
+      "research_status": "researched",
+      "research_attempts": 1,
+      "batch_id": "2026-07-31-batch-01",
+      "updated_at": "2026-07-31T19:06:12+00:00",
+      "result_status": "verified",
+      "outreach_readiness": "needs_more_evidence",
+      "result_path": "C:\\Users\\User\\Projects\\bridgeworks-workspace\\operations\\client-acquisition-engine\\research\\prospect-operations\\results\\2026-07-31-batch-01-results.json"
+    },
+    "sterling-nigeria-facility-services": {
+      "company": "Sterling Nigeria Facility Services",
+      "research_status": "researched",
+      "research_attempts": 1,
+      "batch_id": "2026-07-31-batch-01",
+      "updated_at": "2026-07-31T19:06:12+00:00",
+      "result_status": "verified",
+      "outreach_readiness": "ready",
+      "result_path": "C:\\Users\\User\\Projects\\bridgeworks-workspace\\operations\\client-acquisition-engine\\research\\prospect-operations\\results\\2026-07-31-batch-01-results.json"
+    },
+    "lagos-logistics": {
+      "company": "Lagos Logistics",
+      "research_status": "researched",
+      "research_attempts": 1,
+      "batch_id": "2026-07-31-batch-01",
+      "updated_at": "2026-07-31T19:06:12+00:00",
+      "result_status": "verified",
+      "outreach_readiness": "ready",
+      "result_path": "C:\\Users\\User\\Projects\\bridgeworks-workspace\\operations\\client-acquisition-engine\\research\\prospect-operations\\results\\2026-07-31-batch-01-results.json"
     }
   },
   "batches": [
@@ -77,6 +352,49 @@
       "result_path": "C:\\Users\\User\\Projects\\bridgeworks-workspace\\operations\\client-acquisition-engine\\research\\prospect-operations\\results\\2026-07-24-batch-01-results.json",
       "prospect_count": 1,
       "completed_at": "2026-07-24T07:13:49+00:00"
+    },
+    {
+      "batch_id": "2026-07-26-batch-01",
+      "date": "2026-07-26",
+      "status": "prepared",
+      "prepared_at": "2026-07-26T06:02:45+00:00",
+      "json_path": "C:\\Users\\User\\Projects\\bridgeworks-workspace\\operations\\client-acquisition-engine\\research\\prospect-operations\\batches\\2026-07-26-batch-01.json",
+      "markdown_path": "C:\\Users\\User\\Projects\\bridgeworks-workspace\\operations\\client-acquisition-engine\\research\\prospect-operations\\batches\\2026-07-26-batch-01.md",
+      "result_path": "",
+      "prospect_count": 5
+    },
+    {
+      "batch_id": "2026-07-27-batch-01",
+      "date": "2026-07-27",
+      "status": "completed",
+      "prepared_at": "2026-07-27T16:41:29+00:00",
+      "json_path": "C:\\Users\\User\\Projects\\bridgeworks-workspace\\operations\\client-acquisition-engine\\research\\prospect-operations\\batches\\2026-07-27-batch-01.json",
+      "markdown_path": "C:\\Users\\User\\Projects\\bridgeworks-workspace\\operations\\client-acquisition-engine\\research\\prospect-operations\\batches\\2026-07-27-batch-01.md",
+      "result_path": "C:\\Users\\User\\Projects\\bridgeworks-workspace\\operations\\client-acquisition-engine\\research\\prospect-operations\\results\\2026-07-27-batch-01-results.json",
+      "prospect_count": 8,
+      "completed_at": "2026-07-27T16:47:44+00:00"
+    },
+    {
+      "batch_id": "2026-07-28-batch-01",
+      "date": "2026-07-28",
+      "status": "completed",
+      "prepared_at": "2026-07-28T11:36:22+00:00",
+      "json_path": "C:\\Users\\User\\Projects\\bridgeworks-workspace\\operations\\client-acquisition-engine\\research\\prospect-operations\\batches\\2026-07-28-batch-01.json",
+      "markdown_path": "C:\\Users\\User\\Projects\\bridgeworks-workspace\\operations\\client-acquisition-engine\\research\\prospect-operations\\batches\\2026-07-28-batch-01.md",
+      "result_path": "C:\\Users\\User\\Projects\\bridgeworks-workspace\\operations\\client-acquisition-engine\\research\\prospect-operations\\results\\2026-07-28-batch-01-results.json",
+      "prospect_count": 8,
+      "completed_at": "2026-07-28T11:39:58+00:00"
+    },
+    {
+      "batch_id": "2026-07-31-batch-01",
+      "date": "2026-07-31",
+      "status": "completed",
+      "prepared_at": "2026-07-31T19:00:41+00:00",
+      "json_path": "C:\\Users\\User\\Projects\\bridgeworks-workspace\\operations\\client-acquisition-engine\\research\\prospect-operations\\batches\\2026-07-31-batch-01.json",
+      "markdown_path": "C:\\Users\\User\\Projects\\bridgeworks-workspace\\operations\\client-acquisition-engine\\research\\prospect-operations\\batches\\2026-07-31-batch-01.md",
+      "result_path": "C:\\Users\\User\\Projects\\bridgeworks-workspace\\operations\\client-acquisition-engine\\research\\prospect-operations\\results\\2026-07-31-batch-01-results.json",
+      "prospect_count": 8,
+      "completed_at": "2026-07-31T19:06:12+00:00"
     }
   ]
 }

@@ -99,6 +99,7 @@ def load_state() -> dict[str, Any]:
 
 
 def save_state(state: dict[str, Any]) -> None:
+    state["source_csv"] = str(SOURCE_CSV)
     state["updated_at"] = now_iso()
     state["source_sha256"] = source_hash()
     atomic_write(STATE_PATH, state)

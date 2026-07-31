@@ -57,3 +57,14 @@ Durable review state is stored in `review/prospect-review-state.json`; review ev
 at least one dated public evidence URL, and deduplication by domain or company and
 country. It always admits new rows as `research`; it cannot mark a prospect ready,
 approve outreach, or send a message.
+
+## Prospecting operating build
+
+`scripts/outreach_engine.py` reconciles verified Gmail evidence, validates deduplication,
+creates the canonical staging register, produces HubSpot import previews, prepares an
+exact-copy campaign batch, and writes the weekly conversion baseline. Its outputs are in
+`operating-output/`.
+
+This is a draft-only build. HubSpot becomes the complete commercial source of truth only
+after an explicitly approved import and reconciliation. The older Google Sheets remain
+evidence inputs because their live schemas and statuses are stale or contradictory.

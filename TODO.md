@@ -9,9 +9,9 @@ Deposit 136,306 HUF paid June 2026. Balance 136,305 HUF due on handover. Full ga
 - [x] Shop catalog: 33/33 dishes deep-linked, WooCommerce API cleanup done — shipped 2026-07-09
 - [x] Supabase CMS wired end-to-end, admin PATCH verified — 2026-07-09
 - [x] GBP manual pass: award post, Foodora-vs-Wolt correction, Lili review reply — done 2026-07-10
-- [ ] Shop SSL fix (AutoSSL via Namecheap cPanel — Hosting List → cPanel, not the WP shortcut) — top remaining blocker
-- [ ] Confirm `oliviks.com` points at the new Vercel site (domain cutover gate)
-- [ ] Email/WhatsApp infrastructure: provider account (client-owned), WhatsApp Business number, first-subscriber incentive — all copy drafted, none operational
+- [x] Shop SSL fix - verified externally 2026-07-14
+- [x] Confirm `oliviks.com` points at the new Vercel site - cutover executed and verified 2026-07-24
+- [ ] Email/WhatsApp infrastructure: MailerLite subscriber chain operational and independently verified 2026-07-24; client-owned WhatsApp broadcast-list action remains
 - [ ] 3 one-page handover docs: Website, GBP, Email/WhatsApp
 - [ ] Markup pass from Aese on the 9 new shop products
 - [ ] Request final 136,305 HUF payment once handover gates close

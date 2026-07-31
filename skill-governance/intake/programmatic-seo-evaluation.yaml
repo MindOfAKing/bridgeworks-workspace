@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "repository_url": "https://github.com/coreyhaines31/marketingskills",
+  "repository_owner": "coreyhaines31",
+  "exact_commit": "c21a984a56da10fb6085e6334f6f60929220a4da",
+  "date_retrieved": "2026-07-25",
+  "requested_component": "skills/programmatic-seo",
+  "claimed_purpose": "Create SEO-driven pages at scale using templates and structured data while avoiding thin content.",
+  "inputs": ["keyword pattern", "structured data", "page template", "quality threshold"],
+  "outputs": ["programmatic SEO strategy", "page template", "quality and indexing controls"],
+  "triggers": ["programmatic SEO", "template pages", "location pages", "pages at scale"],
+  "tools": ["filesystem", "web research"],
+  "workflow_stages": ["assessment", "data design", "template design", "quality control", "measurement"],
+  "expected_deliverables": ["bounded page system and validation plan"],
+  "existing_internal_overlap": ["market-seo", "geo-content", "geo-schema", "geo-technical", "market-landing"],
+  "permissions": {
+    "network_access": "optional for research",
+    "filesystem_access": "write only during an approved implementation",
+    "credentials": false,
+    "cookies": false,
+    "external_executables": []
+  },
+  "framework_replacement": false,
+  "decision": "reference_only",
+  "success_criterion": "A bounded pilot produces useful, non-duplicate pages that pass content, schema, citation, and indexation review.",
+  "rollback_procedure": "Remove the isolated pilot templates and generated pages; no active skill installation is required."
+}

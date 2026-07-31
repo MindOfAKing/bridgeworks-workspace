@@ -1,0 +1,34 @@
+{
+  "samples": [
+    {
+      "id": "text-heavy-pdf",
+      "format": "pdf",
+      "path": "skill-governance/samples/text-heavy.pdf",
+      "profile": "Public academic article with long-form text and references"
+    },
+    {
+      "id": "structured-docx",
+      "format": "docx",
+      "path": "skill-governance/samples/structured.docx",
+      "profile": "Public thesis-preparation guidance with headings and paragraphs"
+    },
+    {
+      "id": "branded-pptx",
+      "format": "pptx",
+      "path": "skill-governance/samples/branded.pptx",
+      "profile": "BridgeWorks presentation template with visual layout and brand treatment"
+    },
+    {
+      "id": "meaningful-xlsx",
+      "format": "xlsx",
+      "path": "skill-governance/samples/meaningful.xlsx",
+      "profile": "Public World Development Indicators workbook with tables"
+    },
+    {
+      "id": "visual-png",
+      "format": "png",
+      "path": "skill-governance/samples/visual.png",
+      "profile": "BridgeWorks social/OG visual with meaningful layout"
+    }
+  ]
+}

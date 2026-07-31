@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "repository_url": "https://github.com/coreyhaines31/marketingskills.git",
+  "repository_owner": "coreyhaines31",
+  "exact_commit": "c21a984a56da10fb6085e6334f6f60929220a4da",
+  "date_retrieved": "2026-07-25",
+  "requested_component": "marketingskills/skills/directory-submissions",
+  "claimed_purpose": "Plan and execute local/business directory and citation submissions for local SEO.",
+  "existing_internal_overlap": [
+    "geo-technical",
+    "market-seo",
+    "geo-audit"
+  ],
+  "files_to_review": [
+    "skill-governance/quarantine/marketingskills/skills/directory-submissions/SKILL.md"
+  ],
+  "install_scripts_and_hooks": [],
+  "permissions": {
+    "network_access": false,
+    "filesystem_access": false,
+    "credentials": false,
+    "cookies": false,
+    "external_executables": []
+  },
+  "reviews": {
+    "security_scan": {
+      "status": "pass_low",
+      "report": "skill-governance/reports/skillspector-directory-submissions-20260725T105440Z.md"
+    },
+    "manual_review": {
+      "status": "pass",
+      "reviewer": "claude-code",
+      "notes": "Markdown-only skill, zero executable scripts, no permissions requested."
+    },
+    "functional_test": {
+      "status": "pending",
+      "environment": "isolated",
+      "notes": "To be exercised during the real-work pilot."
+    },
+    "capability_overlap": {
+      "status": "pass_gap",
+      "report": "skill-governance/reports/capability-diff-intake-directory-submissions.md"
+    },
+    "permission_review": {
+      "status": "pass",
+      "notes": "No network, filesystem, credential, or cookie access declared or found."
+    }
+  },
+  "real_work_pilot": {
+    "use_case": "Produce an Oliviks local-citation submission list (Budapest directories) with NAP consistency.",
+    "success_criterion": "A deduplicated, prioritized citation list for Oliviks with submission-ready NAP fields.",
+    "measurement_method": "Reviewer confirms the deliverable against the success criterion in one pilot session. Decision: reference-only; fold the procedure into existing geo/seo skills rather than installing standalone."
+  },
+  "decision": "reference_only",
+  "rollback_procedure": "Remove the isolated pilot copy and restore any explicitly listed adapted files from Git."
+}

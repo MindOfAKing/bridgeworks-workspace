@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "repository_url": "https://github.com/coreyhaines31/marketingskills.git",
+  "repository_owner": "coreyhaines31",
+  "exact_commit": "c21a984a56da10fb6085e6334f6f60929220a4da",
+  "date_retrieved": "2026-07-25",
+  "requested_component": "marketingskills/skills/programmatic-seo",
+  "claimed_purpose": "Design programmatic SEO page systems that generate many targeted pages from a data source.",
+  "existing_internal_overlap": [
+    "market-seo",
+    "seo-brief-writer",
+    "geo-technical"
+  ],
+  "files_to_review": [
+    "skill-governance/quarantine/marketingskills/skills/programmatic-seo/SKILL.md"
+  ],
+  "install_scripts_and_hooks": [],
+  "permissions": {
+    "network_access": false,
+    "filesystem_access": false,
+    "credentials": false,
+    "cookies": false,
+    "external_executables": []
+  },
+  "reviews": {
+    "security_scan": {
+      "status": "pass_low",
+      "report": "skill-governance/reports/skillspector-programmatic-seo-20260725T105451Z.md"
+    },
+    "manual_review": {
+      "status": "pass",
+      "reviewer": "claude-code",
+      "notes": "Markdown-only skill, zero executable scripts, no permissions requested."
+    },
+    "functional_test": {
+      "status": "pending",
+      "environment": "isolated",
+      "notes": "To be exercised during the real-work pilot."
+    },
+    "capability_overlap": {
+      "status": "pass_gap",
+      "report": "skill-governance/reports/capability-diff-intake-programmatic-seo.md"
+    },
+    "permission_review": {
+      "status": "pass",
+      "notes": "No network, filesystem, credential, or cookie access declared or found."
+    }
+  },
+  "real_work_pilot": {
+    "use_case": "Draft a programmatic page template plan for a client site scaling play.",
+    "success_criterion": "A page-template + data-model plan that a build agent can implement.",
+    "measurement_method": "Reviewer confirms the deliverable against the success criterion in one pilot session. Decision: reference-only; fold the procedure into existing geo/seo skills rather than installing standalone."
+  },
+  "decision": "reference_only",
+  "rollback_procedure": "Remove the isolated pilot copy and restore any explicitly listed adapted files from Git."
+}

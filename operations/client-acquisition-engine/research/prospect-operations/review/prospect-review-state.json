@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-07-24T09:00:32+00:00",
+  "updated_at": "2026-07-31T19:08:24+00:00",
   "batches": {
     "2026-07-23-batch-01": {
       "batch_id": "2026-07-23-batch-01",
@@ -57,6 +57,278 @@
       "research_followups": [],
       "policy_version": 2,
       "prepared_at": "2026-07-24T09:00:32+00:00"
+    },
+    "2026-07-27-batch-01": {
+      "batch_id": "2026-07-27-batch-01",
+      "result_path": "C:\\Users\\User\\Projects\\bridgeworks-workspace\\operations\\client-acquisition-engine\\research\\prospect-operations\\results\\2026-07-27-batch-01-results.json",
+      "result_sha256": "0562b7e4ffbdae02c00ccefb7b4858316b66fd8464589b0a037bf5e1f952c1c4",
+      "packet_path": "C:\\Users\\User\\Projects\\bridgeworks-workspace\\operations\\client-acquisition-engine\\research\\prospect-operations\\review\\packets\\2026-07-27-batch-01-approval-review.md",
+      "counts": {
+        "needs_more_evidence": 4,
+        "held": 3,
+        "awaiting_mobile_approval": 1
+      },
+      "external_tasks": [
+        {
+          "type": "email.send",
+          "title": "Approve email outreach to Nevoxa",
+          "payload": {
+            "prospect_id": "nevoxa",
+            "company": "Nevoxa",
+            "channel": "email",
+            "destination": "info@nevoxa.hu",
+            "subject": "Small route issue on Nevoxa's site",
+            "body": "Hi Körmöndi Mercédesz,\n\nI was reviewing Budapest cleaning companies and noticed a small trust issue on Nevoxa's current site. The page has strong proof already: named leadership, reviews, project photos, and a quote route. But near the contact section, the hours appear inconsistent: H - V 8 - 20, then Sunday closed.\n\nThat is a small fix, but it sits right where buyers check whether to request a quote. I noted three practical route and credibility cleanups. Would it be useful if I sent them?\n\nBest,\nEmmanuel Ehigbai\nBridgeWorks",
+            "commercial_gap": "Nevoxa has good public proof and a quote path, but the current site presents contradictory opening-hours information near the contact route: H - V 8 - 20 and Sunday closed.",
+            "proof_to_use": "BridgeWorks B2B credibility and enquiry-route cleanup proof.",
+            "risk_notes": "HubSpot snapshot from 2026-07-26 already listed nevoxa.hu as an existing company. Search/update only; do not create a duplicate company. No Gmail prior contact found in this run.",
+            "source_urls": [
+              "https://www.nevoxa.hu/",
+              "https://www.nevoxa.hu/kapcsolat/",
+              "https://www.companywall.hu/v%C3%A1llalat/nevoxa-services-kft/MMhjSuHC"
+            ],
+            "packet_path": "C:\\Users\\User\\Projects\\bridgeworks-workspace\\operations\\client-acquisition-engine\\research\\prospect-operations\\review\\packets\\2026-07-27-batch-01-approval-review.md",
+            "result_path": "C:\\Users\\User\\Projects\\bridgeworks-workspace\\operations\\client-acquisition-engine\\research\\prospect-operations\\results\\2026-07-27-batch-01-results.json",
+            "approval_scope": "Approving authorizes only this exact destination, subject, and body."
+          },
+          "dedupe_key": "prospect-external:nevoxa:0562b7e4ffbdae02"
+        }
+      ],
+      "research_followups": [],
+      "policy_version": 2,
+      "prepared_at": "2026-07-27T16:47:57+00:00"
+    },
+    "2026-07-28-batch-01": {
+      "batch_id": "2026-07-28-batch-01",
+      "result_path": "C:\\Users\\User\\Projects\\bridgeworks-workspace\\operations\\client-acquisition-engine\\research\\prospect-operations\\results\\2026-07-28-batch-01-results.json",
+      "result_sha256": "5f62acb861ea361827f40cfa2e1d018bb2f4835223de9ce3165a54885689903c",
+      "packet_path": "C:\\Users\\User\\Projects\\bridgeworks-workspace\\operations\\client-acquisition-engine\\research\\prospect-operations\\review\\packets\\2026-07-28-batch-01-approval-review.md",
+      "counts": {
+        "needs_more_evidence": 4,
+        "awaiting_mobile_approval": 3,
+        "held": 1
+      },
+      "external_tasks": [
+        {
+          "type": "email.send",
+          "title": "Approve email outreach to PERCOSO Nigeria",
+          "payload": {
+            "prospect_id": "percoso-nigeria",
+            "company": "PERCOSO Nigeria",
+            "channel": "email",
+            "destination": "info@percosonigeria.com",
+            "subject": "Small credibility cleanup on PERCOSO's site",
+            "body": "Hi PERCOSO team,\n\nI was reviewing Nigerian facility-management companies and noticed PERCOSO has strong proof already: named client examples, quote routes, current hiring, and clear indigenous FM positioning.\n\nOne small trust issue stood out. The public site still shows placeholder credibility details in the trust layer, including an RC placeholder in the footer and leadership profiles waiting for management input. That is easy to miss internally, but enterprise buyers often check those details before starting a quote conversation.\n\nI noted three practical credibility cleanups. Would it be useful if I sent them?\n\nBest,\nEmmanuel Ehigbai\nBridgeWorks",
+            "commercial_gap": "PERCOSO presents strong enterprise proof, but current owned pages still show placeholder trust details: an RC placeholder in the footer and leadership profiles marked for future management input.",
+            "proof_to_use": "BridgeWorks B2B credibility-proof and content-QA cleanup.",
+            "risk_notes": "No exact HubSpot or Gmail duplicate was found. Use only the generic company email unless a direct commercial route is later verified; do not use LinkedIn or WhatsApp without explicit approval.",
+            "source_urls": [
+              "https://percosonigeria.com/",
+              "https://www.percosonigeria.com/about.html",
+              "https://ng.linkedin.com/company/percosonigeria"
+            ],
+            "packet_path": "C:\\Users\\User\\Projects\\bridgeworks-workspace\\operations\\client-acquisition-engine\\research\\prospect-operations\\review\\packets\\2026-07-28-batch-01-approval-review.md",
+            "result_path": "C:\\Users\\User\\Projects\\bridgeworks-workspace\\operations\\client-acquisition-engine\\research\\prospect-operations\\results\\2026-07-28-batch-01-results.json",
+            "approval_scope": "Approving authorizes only this exact destination, subject, and body."
+          },
+          "dedupe_key": "prospect-external:percoso-nigeria:5f62acb861ea3618"
+        },
+        {
+          "type": "email.send",
+          "title": "Approve email outreach to New Solution Service Kft",
+          "payload": {
+            "prospect_id": "new-solution-service-kft",
+            "company": "New Solution Service Kft",
+            "channel": "email",
+            "destination": "arajanlat@nsskft.hu",
+            "subject": "Small English quote-form issue on NSS",
+            "body": "Hi Biro Mihalyne,\n\nI was reviewing Budapest office-cleaning companies and noticed New Solution Service has a solid English page: clear service scope, Budapest/Pest County positioning, phone, email, and a quote form.\n\nOne small conversion issue stood out. The English quote route still shows Hungarian upload and privacy labels inside the form. For an English-speaking office manager, that can create a little uncertainty at the exact point they are deciding whether to request pricing.\n\nI noted three practical English-route cleanups. Would it be useful if I sent them?\n\nBest,\nEmmanuel Ehigbai\nBridgeWorks",
+            "commercial_gap": "The English office-cleaning page asks international buyers to request a quote, but the quote form still contains Hungarian upload/privacy labels inside the English buyer path.",
+            "proof_to_use": "BridgeWorks English buyer-route and credibility QA review.",
+            "risk_notes": "No exact HubSpot or Gmail duplicate was found. Recheck the English form labels immediately before any approved send.",
+            "source_urls": [
+              "https://www.nsskft.hu/en/irodatakaritas",
+              "https://www.companywall.hu/v%C3%A1llalat/new-solution-service-kft/MMItxS6D"
+            ],
+            "packet_path": "C:\\Users\\User\\Projects\\bridgeworks-workspace\\operations\\client-acquisition-engine\\research\\prospect-operations\\review\\packets\\2026-07-28-batch-01-approval-review.md",
+            "result_path": "C:\\Users\\User\\Projects\\bridgeworks-workspace\\operations\\client-acquisition-engine\\research\\prospect-operations\\results\\2026-07-28-batch-01-results.json",
+            "approval_scope": "Approving authorizes only this exact destination, subject, and body."
+          },
+          "dedupe_key": "prospect-external:new-solution-service-kft:5f62acb861ea3618"
+        },
+        {
+          "type": "email.send",
+          "title": "Approve email outreach to TriAxis Consulting Firm",
+          "payload": {
+            "prospect_id": "triaxis-consulting-firm",
+            "company": "TriAxis Consulting Firm",
+            "channel": "email",
+            "destination": "info@triaxisconsultingfirm.com",
+            "subject": "Small proof-hierarchy note on TriAxis",
+            "body": "Hi Bakare,\n\nI was reviewing Europe-Africa advisory firms and noticed TriAxis has a strong positioning signal: Franco-Nigerian leadership, Paris presence, clear cross-border services, and a consultation route.\n\nOne small credibility issue stood out. The homepage leans on broad proof counters and live market/news modules before the visitor gets much concrete advisory proof. For a founder, investor, or corporate buyer, that can make the strongest evidence harder to see at the exact moment they are assessing trust.\n\nI noted three practical proof-hierarchy fixes. Would it be useful if I sent them?\n\nBest,\nEmmanuel Ehigbai\nBridgeWorks",
+            "commercial_gap": "TriAxis has a clear founder-led Europe-Africa advisory proposition, but broad proof counters and live market/news modules can distract from concrete advisory proof at the point where serious buyers assess credibility.",
+            "proof_to_use": "BridgeWorks founder-led advisory credibility and proof-hierarchy review.",
+            "risk_notes": "No exact HubSpot or Gmail duplicate was found. Recheck the homepage modules immediately before any approved send.",
+            "source_urls": [
+              "https://triaxisconsultingfirm.com/"
+            ],
+            "packet_path": "C:\\Users\\User\\Projects\\bridgeworks-workspace\\operations\\client-acquisition-engine\\research\\prospect-operations\\review\\packets\\2026-07-28-batch-01-approval-review.md",
+            "result_path": "C:\\Users\\User\\Projects\\bridgeworks-workspace\\operations\\client-acquisition-engine\\research\\prospect-operations\\results\\2026-07-28-batch-01-results.json",
+            "approval_scope": "Approving authorizes only this exact destination, subject, and body."
+          },
+          "dedupe_key": "prospect-external:triaxis-consulting-firm:5f62acb861ea3618"
+        }
+      ],
+      "research_followups": [],
+      "policy_version": 2,
+      "prepared_at": "2026-07-28T11:43:01+00:00"
+    },
+    "2026-07-31-batch-01": {
+      "batch_id": "2026-07-31-batch-01",
+      "result_path": "C:\\Users\\User\\Projects\\bridgeworks-workspace\\operations\\client-acquisition-engine\\research\\prospect-operations\\results\\2026-07-31-batch-01-results.json",
+      "result_sha256": "249cdfdadb65ceb13660ffb9b63adcee4020d79da8ccfa911e8119976144d181",
+      "packet_path": "C:\\Users\\User\\Projects\\bridgeworks-workspace\\operations\\client-acquisition-engine\\research\\prospect-operations\\review\\packets\\2026-07-31-batch-01-approval-review.md",
+      "counts": {
+        "awaiting_mobile_approval": 6,
+        "needs_more_evidence": 2
+      },
+      "external_tasks": [
+        {
+          "type": "email.send",
+          "title": "Approve email outreach to 607 Cleaning",
+          "payload": {
+            "prospect_id": "607-cleaning",
+            "company": "607 Cleaning",
+            "channel": "email",
+            "destination": "info@607cleaning.com.ng",
+            "subject": "Small trust cleanup on 607 Cleaning",
+            "body": "Hi 607 Cleaning team,\n\nI was reviewing cleaning and facility-service providers in Lagos and noticed your site already has useful buyer routes: quote prompts, service pages, phone, and info@607cleaning.com.ng.\n\nOne small issue stood out. The trust sections near the enquiry path still show zero counters, generic-looking team names, and repeated unsupported-video text. Those are easy to miss internally, but they can make a serious buyer hesitate before requesting a quote.\n\nI noted a few practical fixes. Would it be useful if I sent them over?\n\nBest,\nEmmanuel Ehigbai\nBridgeWorks",
+            "commercial_gap": "The quote/contact path is visible, but the current trust layer shows zero counters, generic team names, and repeated unsupported-video fallback text that can weaken buyer confidence before enquiry.",
+            "proof_to_use": "BridgeWorks credibility-proof and website QA cleanup.",
+            "risk_notes": "No duplicate HubSpot or Gmail evidence found. Use only the generic company email unless a responsible person is later verified.",
+            "source_urls": [
+              "https://www.607cleaning.com.ng/"
+            ],
+            "packet_path": "C:\\Users\\User\\Projects\\bridgeworks-workspace\\operations\\client-acquisition-engine\\research\\prospect-operations\\review\\packets\\2026-07-31-batch-01-approval-review.md",
+            "result_path": "C:\\Users\\User\\Projects\\bridgeworks-workspace\\operations\\client-acquisition-engine\\research\\prospect-operations\\results\\2026-07-31-batch-01-results.json",
+            "approval_scope": "Approving authorizes only this exact destination, subject, and body."
+          },
+          "dedupe_key": "prospect-external:607-cleaning:249cdfdadb65ceb1"
+        },
+        {
+          "type": "email.send",
+          "title": "Approve email outreach to EREFA Ltd",
+          "payload": {
+            "prospect_id": "erefa-ltd",
+            "company": "EREFA Ltd",
+            "channel": "email",
+            "destination": "enquiry@erefafm.com",
+            "subject": "Small route clarity note for EREFA",
+            "body": "Hi EREFA team,\n\nI was reviewing Nigerian facilities-management providers and noticed EREFA has a solid public foundation: service lines, Lagos contact details, consultation routes, and an active FM positioning.\n\nOne practical issue stood out. The homepage repeats several similar hero and service blocks before the proof and contact sections. For corporate buyers, that can make the enquiry path feel less direct than the actual offer is.\n\nI noted a few quick copy-route fixes that would keep the credibility while making the next step clearer. Would it be useful if I sent them?\n\nBest,\nEmmanuel Ehigbai\nBridgeWorks",
+            "commercial_gap": "EREFA has a clear FM offer and enquiry route, but the current homepage repeats multiple similar hero/service blocks before proof and contact details, which can dilute the buyer path for corporate facilities prospects.",
+            "proof_to_use": "BridgeWorks copy-route QA and credibility-proof cleanup.",
+            "risk_notes": "No duplicate HubSpot or Gmail evidence found. The route is generic and no named CEO was verified; keep the copy addressed to the team.",
+            "source_urls": [
+              "https://erefafm.com/"
+            ],
+            "packet_path": "C:\\Users\\User\\Projects\\bridgeworks-workspace\\operations\\client-acquisition-engine\\research\\prospect-operations\\review\\packets\\2026-07-31-batch-01-approval-review.md",
+            "result_path": "C:\\Users\\User\\Projects\\bridgeworks-workspace\\operations\\client-acquisition-engine\\research\\prospect-operations\\results\\2026-07-31-batch-01-results.json",
+            "approval_scope": "Approving authorizes only this exact destination, subject, and body."
+          },
+          "dedupe_key": "prospect-external:erefa-ltd:249cdfdadb65ceb1"
+        },
+        {
+          "type": "email.send",
+          "title": "Approve email outreach to ServicePilot Nigeria",
+          "payload": {
+            "prospect_id": "servicepilot-nigeria",
+            "company": "ServicePilot Nigeria",
+            "channel": "email",
+            "destination": "admin@servicepilot.ng",
+            "subject": "Small proof-route issue on ServicePilot",
+            "body": "Hi ServicePilot team,\n\nI was reviewing Nigerian service and facility-management companies and noticed ServicePilot already has a strong public offer: clear categories, booking prompts, service areas, and customer proof.\n\nOne small issue stood out. The testimonial section repeats several stories, and the site shows both admin@servicepilot.ng and info@servicepilot.ng as public routes. That can create unnecessary doubt right where a buyer is deciding whether to enquire.\n\nI noted a few simple proof and routing fixes. Would it be useful if I sent them?\n\nBest,\nEmmanuel Ehigbai\nBridgeWorks",
+            "commercial_gap": "ServicePilot has strong public proof claims and booking prompts, but duplicated testimonials and two different email routes create a trust and routing inconsistency near the conversion path.",
+            "proof_to_use": "BridgeWorks proof-hierarchy and route-clarity review.",
+            "risk_notes": "No duplicate HubSpot or Gmail evidence found. Use admin@servicepilot.ng because it appears in the primary contact section; do not infer a named owner.",
+            "source_urls": [
+              "https://www.servicepilot.ng/"
+            ],
+            "packet_path": "C:\\Users\\User\\Projects\\bridgeworks-workspace\\operations\\client-acquisition-engine\\research\\prospect-operations\\review\\packets\\2026-07-31-batch-01-approval-review.md",
+            "result_path": "C:\\Users\\User\\Projects\\bridgeworks-workspace\\operations\\client-acquisition-engine\\research\\prospect-operations\\results\\2026-07-31-batch-01-results.json",
+            "approval_scope": "Approving authorizes only this exact destination, subject, and body."
+          },
+          "dedupe_key": "prospect-external:servicepilot-nigeria:249cdfdadb65ceb1"
+        },
+        {
+          "type": "email.send",
+          "title": "Approve email outreach to Starmate Nigeria Ltd",
+          "payload": {
+            "prospect_id": "starmate-nigeria-ltd",
+            "company": "Starmate Nigeria Ltd",
+            "channel": "email",
+            "destination": "contact@starmatenigeria.com",
+            "subject": "Small trust-section cleanup for Starmate",
+            "body": "Hi Starmate team,\n\nI was reviewing Nigerian facility-management providers and noticed Starmate has a strong service range: facility management, cleaning, pest control, MEP, HVAC, and a clear quote route.\n\nOne small trust issue stood out. The public site still shows unsupported-video fallback text, and the testimonial section is headed as digital services rather than facility management. Those details are minor, but they sit close to the credibility layer buyers check before requesting a quote.\n\nI noted a few practical cleanup points. Would it be useful if I sent them?\n\nBest,\nEmmanuel Ehigbai\nBridgeWorks",
+            "commercial_gap": "Starmate has an active quote route and broad services, but current trust content shows avoidable credibility issues: unsupported-video fallback text and a testimonial heading referring to digital services instead of facility management.",
+            "proof_to_use": "BridgeWorks B2B credibility-proof and enquiry-route review.",
+            "risk_notes": "No duplicate HubSpot or Gmail evidence found. The site also lists a Gmail route; use the owned-domain email first unless Emmanuel chooses otherwise.",
+            "source_urls": [
+              "https://www.starmatenigeria.com/"
+            ],
+            "packet_path": "C:\\Users\\User\\Projects\\bridgeworks-workspace\\operations\\client-acquisition-engine\\research\\prospect-operations\\review\\packets\\2026-07-31-batch-01-approval-review.md",
+            "result_path": "C:\\Users\\User\\Projects\\bridgeworks-workspace\\operations\\client-acquisition-engine\\research\\prospect-operations\\results\\2026-07-31-batch-01-results.json",
+            "approval_scope": "Approving authorizes only this exact destination, subject, and body."
+          },
+          "dedupe_key": "prospect-external:starmate-nigeria-ltd:249cdfdadb65ceb1"
+        },
+        {
+          "type": "email.send",
+          "title": "Approve email outreach to Sterling Nigeria Facility Services",
+          "payload": {
+            "prospect_id": "sterling-nigeria-facility-services",
+            "company": "Sterling Nigeria Facility Services",
+            "channel": "email",
+            "destination": "info@sterlingnigeria.org",
+            "subject": "Small route clarity note for Sterling",
+            "body": "Hi Victoria and Sterling Nigeria team,\n\nI was reviewing Nigerian facility-service providers and noticed Sterling has a strong focused offer: cleaning manpower, quote routes, named leadership, CAC/insurance trust claims, and Sterling Clean products.\n\nOne practical issue stood out. The site asks buyers to request facility proposals and order products through the same broad enquiry path, while some product cards are still marked Coming Soon. That can blur intent for someone ready to ask about either staffing or product supply.\n\nI noted a few simple route-clarity fixes. Would it be useful if I sent them?\n\nBest,\nEmmanuel Ehigbai\nBridgeWorks",
+            "commercial_gap": "Sterling has both facility-service proposals and Sterling Clean product-order CTAs, but the current buyer path mixes those intents in one form while some products are still marked Coming Soon.",
+            "proof_to_use": "BridgeWorks service-route and proof-hierarchy review.",
+            "risk_notes": "No duplicate HubSpot or Gmail evidence found. Victoria Idris is named publicly, but the destination is the generic company email.",
+            "source_urls": [
+              "https://sterlingnigeria.org/"
+            ],
+            "packet_path": "C:\\Users\\User\\Projects\\bridgeworks-workspace\\operations\\client-acquisition-engine\\research\\prospect-operations\\review\\packets\\2026-07-31-batch-01-approval-review.md",
+            "result_path": "C:\\Users\\User\\Projects\\bridgeworks-workspace\\operations\\client-acquisition-engine\\research\\prospect-operations\\results\\2026-07-31-batch-01-results.json",
+            "approval_scope": "Approving authorizes only this exact destination, subject, and body."
+          },
+          "dedupe_key": "prospect-external:sterling-nigeria-facility-services:249cdfdadb65ceb1"
+        },
+        {
+          "type": "email.send",
+          "title": "Approve email outreach to Lagos Logistics",
+          "payload": {
+            "prospect_id": "lagos-logistics",
+            "company": "Lagos Logistics",
+            "channel": "email",
+            "destination": "order@lagoslogistics.com.ng",
+            "subject": "Small booking-page trust cleanup",
+            "body": "Hi Lagos Logistics team,\n\nI was reviewing Lagos logistics providers and noticed your site already has useful buyer routes: Book Now, pricing, order@lagoslogistics.com.ng, phone, and clear local/international delivery information.\n\nOne small trust issue stood out. The about page shows zero-value counters for delivery reach and orders, and the footer still repeats 2023 copyright. Those details sit close to the booking path and can make an otherwise active service look unattended.\n\nI noted a few practical cleanup points. Would it be useful if I sent them?\n\nBest,\nEmmanuel Ehigbai\nBridgeWorks",
+            "commercial_gap": "Lagos Logistics has live booking and pricing routes, but the current about page shows zero-value proof counters and repeated 2023 copyright near buyer-trust content.",
+            "proof_to_use": "BridgeWorks credibility-proof and booking-route review.",
+            "risk_notes": "No duplicate HubSpot or Gmail evidence found. Use only the public order email unless a named responsible contact is later verified.",
+            "source_urls": [
+              "https://lagoslogistics.com.ng/about/"
+            ],
+            "packet_path": "C:\\Users\\User\\Projects\\bridgeworks-workspace\\operations\\client-acquisition-engine\\research\\prospect-operations\\review\\packets\\2026-07-31-batch-01-approval-review.md",
+            "result_path": "C:\\Users\\User\\Projects\\bridgeworks-workspace\\operations\\client-acquisition-engine\\research\\prospect-operations\\results\\2026-07-31-batch-01-results.json",
+            "approval_scope": "Approving authorizes only this exact destination, subject, and body."
+          },
+          "dedupe_key": "prospect-external:lagos-logistics:249cdfdadb65ceb1"
+        }
+      ],
+      "research_followups": [],
+      "policy_version": 2,
+      "prepared_at": "2026-07-31T19:08:24+00:00"
     }
   },
   "items": {
@@ -119,6 +391,246 @@
       "reason": "The address and phone route are currently supported. The checked public results did not independently reverify the earlier user-supplied review count, and directory omissions were treated only as signals rather than proof that no owned site exists.",
       "result_path": "C:\\Users\\User\\Projects\\bridgeworks-workspace\\operations\\client-acquisition-engine\\research\\prospect-operations\\results\\2026-07-24-batch-01-results.json",
       "updated_at": "2026-07-24T09:00:32+00:00"
+    },
+    "2026-07-27-batch-01:max-migold-facilities-management-company": {
+      "batch_id": "2026-07-27-batch-01",
+      "prospect_id": "max-migold-facilities-management-company",
+      "company": "Max-Migold Facilities Management Company",
+      "research_status": "verified",
+      "review_status": "needs_more_evidence",
+      "reason": "Verify a current exact responsible destination for corporate services or commercial operations before preparing an approval-gated message.",
+      "result_path": "C:\\Users\\User\\Projects\\bridgeworks-workspace\\operations\\client-acquisition-engine\\research\\prospect-operations\\results\\2026-07-27-batch-01-results.json",
+      "updated_at": "2026-07-27T16:47:57+00:00"
+    },
+    "2026-07-27-batch-01:3d-janitorial-services": {
+      "batch_id": "2026-07-27-batch-01",
+      "prospect_id": "3d-janitorial-services",
+      "company": "3D Janitorial Services",
+      "research_status": "held",
+      "review_status": "held",
+      "reason": "The business and route are supported. The gap was already drafted in Gmail, and no named decision-maker was verified.",
+      "result_path": "C:\\Users\\User\\Projects\\bridgeworks-workspace\\operations\\client-acquisition-engine\\research\\prospect-operations\\results\\2026-07-27-batch-01-results.json",
+      "updated_at": "2026-07-27T16:47:57+00:00"
+    },
+    "2026-07-27-batch-01:csikygroup": {
+      "batch_id": "2026-07-27-batch-01",
+      "prospect_id": "csikygroup",
+      "company": "CsikyGroup",
+      "research_status": "verified",
+      "review_status": "needs_more_evidence",
+      "reason": "Verify an exact email route or named responsible person before drafting; do not use the form without exact-copy approval.",
+      "result_path": "C:\\Users\\User\\Projects\\bridgeworks-workspace\\operations\\client-acquisition-engine\\research\\prospect-operations\\results\\2026-07-27-batch-01-results.json",
+      "updated_at": "2026-07-27T16:47:57+00:00"
+    },
+    "2026-07-27-batch-01:easy-office-clean": {
+      "batch_id": "2026-07-27-batch-01",
+      "prospect_id": "easy-office-clean",
+      "company": "Easy Office Clean",
+      "research_status": "verified",
+      "review_status": "needs_more_evidence",
+      "reason": "Find a named responsible role or confirm Emmanuel is comfortable preparing generic-inbox copy to iroda@easyofficeclean.hu.",
+      "result_path": "C:\\Users\\User\\Projects\\bridgeworks-workspace\\operations\\client-acquisition-engine\\research\\prospect-operations\\results\\2026-07-27-batch-01-results.json",
+      "updated_at": "2026-07-27T16:47:57+00:00"
+    },
+    "2026-07-27-batch-01:kavezo-kft": {
+      "batch_id": "2026-07-27-batch-01",
+      "prospect_id": "kavezo-kft",
+      "company": "Kavezo Kft",
+      "research_status": "held",
+      "review_status": "held",
+      "reason": "The old live Sheet contradiction is resolved by Gmail: Kavezo was contacted. No new gap research should create a repeat-contact risk.",
+      "result_path": "C:\\Users\\User\\Projects\\bridgeworks-workspace\\operations\\client-acquisition-engine\\research\\prospect-operations\\results\\2026-07-27-batch-01-results.json",
+      "updated_at": "2026-07-27T16:47:57+00:00"
+    },
+    "2026-07-27-batch-01:nevoxa": {
+      "batch_id": "2026-07-27-batch-01",
+      "prospect_id": "nevoxa",
+      "company": "Nevoxa",
+      "research_status": "verified",
+      "review_status": "awaiting_mobile_approval",
+      "reason": "Exact destination and proposed copy passed the local preparation contract.",
+      "result_path": "C:\\Users\\User\\Projects\\bridgeworks-workspace\\operations\\client-acquisition-engine\\research\\prospect-operations\\results\\2026-07-27-batch-01-results.json",
+      "updated_at": "2026-07-27T16:47:57+00:00"
+    },
+    "2026-07-27-batch-01:palmacedar-cleaning-services": {
+      "batch_id": "2026-07-27-batch-01",
+      "prospect_id": "palmacedar-cleaning-services",
+      "company": "Palmacedar Cleaning Services",
+      "research_status": "held",
+      "review_status": "held",
+      "reason": "The owned .ng homepage was protected by a verification page during this run, so service-page and alternate-domain evidence were used instead.",
+      "result_path": "C:\\Users\\User\\Projects\\bridgeworks-workspace\\operations\\client-acquisition-engine\\research\\prospect-operations\\results\\2026-07-27-batch-01-results.json",
+      "updated_at": "2026-07-27T16:47:57+00:00"
+    },
+    "2026-07-27-batch-01:takaritokeu": {
+      "batch_id": "2026-07-27-batch-01",
+      "prospect_id": "takaritokeu",
+      "company": "TakaritokEU",
+      "research_status": "verified",
+      "review_status": "needs_more_evidence",
+      "reason": "Find a named responsible role or confirm Emmanuel wants generic-inbox approval copy for info@takaritok.eu.",
+      "result_path": "C:\\Users\\User\\Projects\\bridgeworks-workspace\\operations\\client-acquisition-engine\\research\\prospect-operations\\results\\2026-07-27-batch-01-results.json",
+      "updated_at": "2026-07-27T16:47:57+00:00"
+    },
+    "2026-07-28-batch-01:altilis-limited": {
+      "batch_id": "2026-07-28-batch-01",
+      "prospect_id": "altilis-limited",
+      "company": "Altilis Limited",
+      "research_status": "verified",
+      "review_status": "needs_more_evidence",
+      "reason": "Find a named commercial or operations leader and verify whether the FAQ/quote route has a current visible issue before preparing any approval item.",
+      "result_path": "C:\\Users\\User\\Projects\\bridgeworks-workspace\\operations\\client-acquisition-engine\\research\\prospect-operations\\results\\2026-07-28-batch-01-results.json",
+      "updated_at": "2026-07-28T11:43:01+00:00"
+    },
+    "2026-07-28-batch-01:avenir-facility-management-kft": {
+      "batch_id": "2026-07-28-batch-01",
+      "prospect_id": "avenir-facility-management-kft",
+      "company": "Avenir Facility Management Kft",
+      "research_status": "verified",
+      "review_status": "needs_more_evidence",
+      "reason": "Review the English/German route or recent website refresh only if a visible buyer-facing inconsistency is identified from current pages.",
+      "result_path": "C:\\Users\\User\\Projects\\bridgeworks-workspace\\operations\\client-acquisition-engine\\research\\prospect-operations\\results\\2026-07-28-batch-01-results.json",
+      "updated_at": "2026-07-28T11:43:01+00:00"
+    },
+    "2026-07-28-batch-01:percoso-nigeria": {
+      "batch_id": "2026-07-28-batch-01",
+      "prospect_id": "percoso-nigeria",
+      "company": "PERCOSO Nigeria",
+      "research_status": "verified",
+      "review_status": "awaiting_mobile_approval",
+      "reason": "Exact destination and proposed copy passed the local preparation contract.",
+      "result_path": "C:\\Users\\User\\Projects\\bridgeworks-workspace\\operations\\client-acquisition-engine\\research\\prospect-operations\\results\\2026-07-28-batch-01-results.json",
+      "updated_at": "2026-07-28T11:43:01+00:00"
+    },
+    "2026-07-28-batch-01:urbancore-facility-management": {
+      "batch_id": "2026-07-28-batch-01",
+      "prospect_id": "urbancore-facility-management",
+      "company": "UrbanCore Facility Management",
+      "research_status": "verified",
+      "review_status": "needs_more_evidence",
+      "reason": "Find a named founder, operations lead, or company registry/LinkedIn route before preparing copy to contact.urbancore@gmail.com.",
+      "result_path": "C:\\Users\\User\\Projects\\bridgeworks-workspace\\operations\\client-acquisition-engine\\research\\prospect-operations\\results\\2026-07-28-batch-01-results.json",
+      "updated_at": "2026-07-28T11:43:01+00:00"
+    },
+    "2026-07-28-batch-01:alpha-guards-security-ltd": {
+      "batch_id": "2026-07-28-batch-01",
+      "prospect_id": "alpha-guards-security-ltd",
+      "company": "Alpha Guards Security Ltd",
+      "research_status": "held",
+      "review_status": "held",
+      "reason": "HubSpot and Gmail exact checks found no duplicate, but the source mismatch makes outreach unsafe without reconciliation.",
+      "result_path": "C:\\Users\\User\\Projects\\bridgeworks-workspace\\operations\\client-acquisition-engine\\research\\prospect-operations\\results\\2026-07-28-batch-01-results.json",
+      "updated_at": "2026-07-28T11:43:01+00:00"
+    },
+    "2026-07-28-batch-01:new-solution-service-kft": {
+      "batch_id": "2026-07-28-batch-01",
+      "prospect_id": "new-solution-service-kft",
+      "company": "New Solution Service Kft",
+      "research_status": "verified",
+      "review_status": "awaiting_mobile_approval",
+      "reason": "Exact destination and proposed copy passed the local preparation contract.",
+      "result_path": "C:\\Users\\User\\Projects\\bridgeworks-workspace\\operations\\client-acquisition-engine\\research\\prospect-operations\\results\\2026-07-28-batch-01-results.json",
+      "updated_at": "2026-07-28T11:43:01+00:00"
+    },
+    "2026-07-28-batch-01:ready-clean": {
+      "batch_id": "2026-07-28-batch-01",
+      "prospect_id": "ready-clean",
+      "company": "Ready Clean",
+      "research_status": "verified",
+      "review_status": "needs_more_evidence",
+      "reason": "Verify the legal entity behind readyclean.hu and identify a current buyer-route or trust gap before considering generic-inbox copy.",
+      "result_path": "C:\\Users\\User\\Projects\\bridgeworks-workspace\\operations\\client-acquisition-engine\\research\\prospect-operations\\results\\2026-07-28-batch-01-results.json",
+      "updated_at": "2026-07-28T11:43:01+00:00"
+    },
+    "2026-07-28-batch-01:triaxis-consulting-firm": {
+      "batch_id": "2026-07-28-batch-01",
+      "prospect_id": "triaxis-consulting-firm",
+      "company": "TriAxis Consulting Firm",
+      "research_status": "verified",
+      "review_status": "awaiting_mobile_approval",
+      "reason": "Exact destination and proposed copy passed the local preparation contract.",
+      "result_path": "C:\\Users\\User\\Projects\\bridgeworks-workspace\\operations\\client-acquisition-engine\\research\\prospect-operations\\results\\2026-07-28-batch-01-results.json",
+      "updated_at": "2026-07-28T11:43:01+00:00"
+    },
+    "2026-07-31-batch-01:607-cleaning": {
+      "batch_id": "2026-07-31-batch-01",
+      "prospect_id": "607-cleaning",
+      "company": "607 Cleaning",
+      "research_status": "verified",
+      "review_status": "awaiting_mobile_approval",
+      "reason": "Exact destination and proposed copy passed the local preparation contract.",
+      "result_path": "C:\\Users\\User\\Projects\\bridgeworks-workspace\\operations\\client-acquisition-engine\\research\\prospect-operations\\results\\2026-07-31-batch-01-results.json",
+      "updated_at": "2026-07-31T19:08:24+00:00"
+    },
+    "2026-07-31-batch-01:erefa-ltd": {
+      "batch_id": "2026-07-31-batch-01",
+      "prospect_id": "erefa-ltd",
+      "company": "EREFA Ltd",
+      "research_status": "verified",
+      "review_status": "awaiting_mobile_approval",
+      "reason": "Exact destination and proposed copy passed the local preparation contract.",
+      "result_path": "C:\\Users\\User\\Projects\\bridgeworks-workspace\\operations\\client-acquisition-engine\\research\\prospect-operations\\results\\2026-07-31-batch-01-results.json",
+      "updated_at": "2026-07-31T19:08:24+00:00"
+    },
+    "2026-07-31-batch-01:servicepilot-nigeria": {
+      "batch_id": "2026-07-31-batch-01",
+      "prospect_id": "servicepilot-nigeria",
+      "company": "ServicePilot Nigeria",
+      "research_status": "verified",
+      "review_status": "awaiting_mobile_approval",
+      "reason": "Exact destination and proposed copy passed the local preparation contract.",
+      "result_path": "C:\\Users\\User\\Projects\\bridgeworks-workspace\\operations\\client-acquisition-engine\\research\\prospect-operations\\results\\2026-07-31-batch-01-results.json",
+      "updated_at": "2026-07-31T19:08:24+00:00"
+    },
+    "2026-07-31-batch-01:starmate-nigeria-ltd": {
+      "batch_id": "2026-07-31-batch-01",
+      "prospect_id": "starmate-nigeria-ltd",
+      "company": "Starmate Nigeria Ltd",
+      "research_status": "verified",
+      "review_status": "awaiting_mobile_approval",
+      "reason": "Exact destination and proposed copy passed the local preparation contract.",
+      "result_path": "C:\\Users\\User\\Projects\\bridgeworks-workspace\\operations\\client-acquisition-engine\\research\\prospect-operations\\results\\2026-07-31-batch-01-results.json",
+      "updated_at": "2026-07-31T19:08:24+00:00"
+    },
+    "2026-07-31-batch-01:omma-integrated-global-services": {
+      "batch_id": "2026-07-31-batch-01",
+      "prospect_id": "omma-integrated-global-services",
+      "company": "OMMA Integrated Global Services",
+      "research_status": "verified",
+      "review_status": "needs_more_evidence",
+      "reason": "Find a specific current issue in the appointment/quote flow or a named responsible recipient before preparing any approval item.",
+      "result_path": "C:\\Users\\User\\Projects\\bridgeworks-workspace\\operations\\client-acquisition-engine\\research\\prospect-operations\\results\\2026-07-31-batch-01-results.json",
+      "updated_at": "2026-07-31T19:08:24+00:00"
+    },
+    "2026-07-31-batch-01:westlink-facility-management-limited": {
+      "batch_id": "2026-07-31-batch-01",
+      "prospect_id": "westlink-facility-management-limited",
+      "company": "Westlink Facility Management Limited",
+      "research_status": "verified",
+      "review_status": "needs_more_evidence",
+      "reason": "Review board, management, and quote pages only if deeper research is needed; otherwise leave unsent because the homepage is already credible.",
+      "result_path": "C:\\Users\\User\\Projects\\bridgeworks-workspace\\operations\\client-acquisition-engine\\research\\prospect-operations\\results\\2026-07-31-batch-01-results.json",
+      "updated_at": "2026-07-31T19:08:24+00:00"
+    },
+    "2026-07-31-batch-01:sterling-nigeria-facility-services": {
+      "batch_id": "2026-07-31-batch-01",
+      "prospect_id": "sterling-nigeria-facility-services",
+      "company": "Sterling Nigeria Facility Services",
+      "research_status": "verified",
+      "review_status": "awaiting_mobile_approval",
+      "reason": "Exact destination and proposed copy passed the local preparation contract.",
+      "result_path": "C:\\Users\\User\\Projects\\bridgeworks-workspace\\operations\\client-acquisition-engine\\research\\prospect-operations\\results\\2026-07-31-batch-01-results.json",
+      "updated_at": "2026-07-31T19:08:24+00:00"
+    },
+    "2026-07-31-batch-01:lagos-logistics": {
+      "batch_id": "2026-07-31-batch-01",
+      "prospect_id": "lagos-logistics",
+      "company": "Lagos Logistics",
+      "research_status": "verified",
+      "review_status": "awaiting_mobile_approval",
+      "reason": "Exact destination and proposed copy passed the local preparation contract.",
+      "result_path": "C:\\Users\\User\\Projects\\bridgeworks-workspace\\operations\\client-acquisition-engine\\research\\prospect-operations\\results\\2026-07-31-batch-01-results.json",
+      "updated_at": "2026-07-31T19:08:24+00:00"
     }
   }
 }

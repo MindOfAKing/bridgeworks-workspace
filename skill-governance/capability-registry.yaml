@@ -1,0 +1,5371 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-07-25",
+  "scope": "Unique skills installed in live Claude and Codex skill roots.",
+  "field_policy": "unknown means the value was not explicit in the inspected SKILL.md.",
+  "skills": [
+    {
+      "id": "ad-script",
+      "name": "ad-script",
+      "path": "C:\\Users\\User\\.claude\\skills\\ad-script",
+      "installations": [
+        {
+          "runtime": "claude",
+          "path": "C:\\Users\\User\\.claude\\skills\\ad-script"
+        }
+      ],
+      "purpose": "Write ad scripts for video ads, social media ads, and audio ads with timing cues, voiceover notes, and bilingual support. Use this skill whenever the user wants to create an ad, write ad copy, script a video ad, create a commercial script, write voiceover text, or needs ad copy for any platform (LinkedIn, Instagram, Facebook, YouTube). Also use when generating video ads with voiceover -- the script must be written first before any TTS or video production.",
+      "category": [
+        "youtube"
+      ],
+      "triggers": [
+        "Write ad scripts for video ads, social media ads, and audio ads with timing cues, voiceover notes, and bilingual support. Use this skill whenever the user wants to create an ad, write ad copy, script a video ad, create a commercial script, write voiceover text, or needs ad copy for any platform (LinkedIn, Instagram, Facebook, YouTube). Also use when generating video ads with voiceover -- the script must be written first before any TTS or video production."
+      ],
+      "inputs": [
+        "unknown"
+      ],
+      "outputs": [
+        "unknown"
+      ],
+      "tools": [
+        "unknown"
+      ],
+      "permissions": {
+        "network": "unknown",
+        "filesystem_write": "unknown",
+        "credentials": true
+      },
+      "workflow_stages": [
+        "why this skill exists",
+        "gather inputs",
+        "set the word budget",
+        "write the script",
+        "bilingual output",
+        "production-ready checklist",
+        "adapting to format",
+        "edge-tts voice reference"
+      ],
+      "expected_deliverables": [
+        "unknown"
+      ],
+      "overlaps_with": [],
+      "source": {
+        "type": "internal",
+        "repository": "unknown",
+        "version": "unknown"
+      },
+      "status": "active",
+      "security": {
+        "last_scanned": null,
+        "scanner": null,
+        "result": "unscanned"
+      },
+      "last_modified": "2026-04-01",
+      "last_reviewed": "2026-07-25",
+      "tests": [
+        "unknown"
+      ],
+      "known_weaknesses": [
+        "unknown"
+      ],
+      "notes": "Fields marked unknown were not explicit in SKILL.md."
+    },
+    {
+      "id": "bridgeworks-idea-to-content",
+      "name": "bridgeworks-idea-to-content",
+      "path": "C:\\Users\\User\\.claude\\skills\\bridgeworks-idea-to-content",
+      "installations": [
+        {
+          "runtime": "claude",
+          "path": "C:\\Users\\User\\.claude\\skills\\bridgeworks-idea-to-content"
+        },
+        {
+          "runtime": "codex",
+          "path": "C:\\Users\\User\\.codex\\skills\\bridgeworks-idea-to-content"
+        }
+      ],
+      "purpose": "Use when Emmanuel shares a rough idea, note, voice transcript, unfinished draft, current BridgeWorks work, or asks to develop an article, post, newsletter, carousel, Reel, Pin, Story, or cross-channel content package.",
+      "category": [
+        "content"
+      ],
+      "triggers": [
+        "Use when Emmanuel shares a rough idea, note, voice transcript, unfinished draft, current BridgeWorks work, or asks to develop an article, post, newsletter, carousel, Reel, Pin, Story, or cross-channel content package."
+      ],
+      "inputs": [
+        "unknown"
+      ],
+      "outputs": [
+        "unknown"
+      ],
+      "tools": [
+        "unknown"
+      ],
+      "permissions": {
+        "network": "unknown",
+        "filesystem_write": "unknown",
+        "credentials": "unknown"
+      },
+      "workflow_stages": [
+        "overview",
+        "required context",
+        "choose the intake mode",
+        "interview in small rounds",
+        "build the canonical story brief",
+        "draft one master first",
+        "adapt by role, not by copying",
+        "approval and filing",
+        "cowork handoff"
+      ],
+      "expected_deliverables": [
+        "unknown"
+      ],
+      "overlaps_with": [],
+      "source": {
+        "type": "internal",
+        "repository": "https://github.com/MindOfAKing/bridgeworks-workspace.git",
+        "version": "5489ead1813ca72a704dff24fa5a93f3c5b3498e"
+      },
+      "status": "active",
+      "security": {
+        "last_scanned": null,
+        "scanner": null,
+        "result": "unscanned"
+      },
+      "last_modified": "2026-07-25",
+      "last_reviewed": "2026-07-25",
+      "tests": [
+        "unknown"
+      ],
+      "known_weaknesses": [
+        "unknown"
+      ],
+      "notes": "Installed in multiple runtimes; review overlap before editing either copy."
+    },
+    {
+      "id": "bridgeworks-launch-orchestrator",
+      "name": "bridgeworks-launch-orchestrator",
+      "path": "C:\\Users\\User\\.codex\\skills\\bridgeworks-launch-orchestrator",
+      "installations": [
+        {
+          "runtime": "codex",
+          "path": "C:\\Users\\User\\.codex\\skills\\bridgeworks-launch-orchestrator"
+        }
+      ],
+      "purpose": "Orchestrate BridgeWorks launch preparation, content production, channel adaptation, website-first conversion routing, approval-gated publishing, launch scheduling, and cross-model coordination. Use for BridgeWorks launch work, social publishing packs, content calendars, website/CRM/booking handoffs, WhatsApp launch setup, public-surface audits, Claude handoffs, and post-launch performance reviews.",
+      "category": [
+        "content"
+      ],
+      "triggers": [
+        "Orchestrate BridgeWorks launch preparation, content production, channel adaptation, website-first conversion routing, approval-gated publishing, launch scheduling, and cross-model coordination. Use for BridgeWorks launch work, social publishing packs, content calendars, website/CRM/booking handoffs, WhatsApp launch setup, public-surface audits, Claude handoffs, and post-launch performance reviews."
+      ],
+      "inputs": [
+        "unknown"
+      ],
+      "outputs": [
+        "unknown"
+      ],
+      "tools": [
+        "unknown"
+      ],
+      "permissions": {
+        "network": "unknown",
+        "filesystem_write": "unknown",
+        "credentials": "unknown"
+      },
+      "workflow_stages": [
+        "overview",
+        "start with a current audit",
+        "load the relevant references",
+        "canonical sources",
+        "workflow",
+        "hungary operating rule",
+        "hard stops"
+      ],
+      "expected_deliverables": [
+        "unknown"
+      ],
+      "overlaps_with": [],
+      "source": {
+        "type": "internal",
+        "repository": "unknown",
+        "version": "unknown"
+      },
+      "status": "active",
+      "security": {
+        "last_scanned": null,
+        "scanner": null,
+        "result": "unscanned"
+      },
+      "last_modified": "2026-07-24",
+      "last_reviewed": "2026-07-25",
+      "tests": [
+        "unknown"
+      ],
+      "known_weaknesses": [
+        "unknown"
+      ],
+      "notes": "Fields marked unknown were not explicit in SKILL.md."
+    },
+    {
+      "id": "bridgeworks-operating-system",
+      "name": "bridgeworks-operating-system",
+      "path": "C:\\Users\\User\\.codex\\skills\\bridgeworks-operating-system",
+      "installations": [
+        {
+          "runtime": "codex",
+          "path": "C:\\Users\\User\\.codex\\skills\\bridgeworks-operating-system"
+        }
+      ],
+      "purpose": "Run and maintain BridgeWorks operations across Composio, Gmail, Google Workspace, Calendar, GitHub, Apollo, HubSpot, ClickUp, Search Console, LinkedIn, Facebook, and Instagram. Use for connection audits and recovery, daily or weekly operating briefs, lead and delivery workflows, CRM/task hygiene, SEO and content planning, social asset handoffs, Claude Code or co-work collaboration, and any request to repeat or automate BridgeWorks growth and execution processes.",
+      "category": [
+        "seo",
+        "content"
+      ],
+      "triggers": [
+        "Run and maintain BridgeWorks operations across Composio, Gmail, Google Workspace, Calendar, GitHub, Apollo, HubSpot, ClickUp, Search Console, LinkedIn, Facebook, and Instagram. Use for connection audits and recovery, daily or weekly operating briefs, lead and delivery workflows, CRM/task hygiene, SEO and content planning, social asset handoffs, Claude Code or co-work collaboration, and any request to repeat or automate BridgeWorks growth and execution processes."
+      ],
+      "inputs": [
+        "unknown"
+      ],
+      "outputs": [
+        "unknown"
+      ],
+      "tools": [
+        "gmail"
+      ],
+      "permissions": {
+        "network": true,
+        "filesystem_write": "unknown",
+        "credentials": "unknown"
+      },
+      "workflow_stages": [
+        "start every run",
+        "system ownership",
+        "approval gates",
+        "repetition contract",
+        "claude collaboration"
+      ],
+      "expected_deliverables": [
+        "unknown"
+      ],
+      "overlaps_with": [],
+      "source": {
+        "type": "internal",
+        "repository": "unknown",
+        "version": "unknown"
+      },
+      "status": "active",
+      "security": {
+        "last_scanned": null,
+        "scanner": null,
+        "result": "unscanned"
+      },
+      "last_modified": "2026-07-23",
+      "last_reviewed": "2026-07-25",
+      "tests": [
+        "unknown"
+      ],
+      "known_weaknesses": [
+        "unknown"
+      ],
+      "notes": "Fields marked unknown were not explicit in SKILL.md."
+    },
+    {
+      "id": "ceefm-update",
+      "name": "ceefm-update",
+      "path": "C:\\Users\\User\\.claude\\skills\\ceefm-update",
+      "installations": [
+        {
+          "runtime": "claude",
+          "path": "C:\\Users\\User\\.claude\\skills\\ceefm-update"
+        }
+      ],
+      "purpose": "Progress update document for the CEEFM Kft client engagement — CEEFM closed 2026-06-19 and is no longer an active client. Do not use unless Emmanuel explicitly reactivates the engagement, or is asking for a historical/case-study recap. Output saved to CEEFM-UPDATE-week[N].md. Triggers on phrases like \"ceefm update\", \"write the ceefm report\", \"update for ceefm\", \"ceefm week [N]\".",
+      "category": [
+        "document"
+      ],
+      "triggers": [
+        "ceefm update",
+        "write the ceefm report",
+        "update for ceefm",
+        "ceefm week [N]"
+      ],
+      "inputs": [
+        "Week number (required, 1-16)",
+        "Work completed this week (required — Emmanuel provides bullet notes)",
+        "Metrics or data (if available)",
+        "Blockers or dependencies (optional)",
+        "Next week plan (optional)"
+      ],
+      "outputs": [
+        "unknown"
+      ],
+      "tools": [
+        "filesystem"
+      ],
+      "permissions": {
+        "network": "unknown",
+        "filesystem_write": true,
+        "credentials": "unknown"
+      },
+      "workflow_stages": [
+        "client document standards",
+        "client context",
+        "inputs",
+        "document structure",
+        "output",
+        "tone rules"
+      ],
+      "expected_deliverables": [
+        "unknown"
+      ],
+      "overlaps_with": [],
+      "source": {
+        "type": "internal",
+        "repository": "unknown",
+        "version": "unknown"
+      },
+      "status": "active",
+      "security": {
+        "last_scanned": null,
+        "scanner": null,
+        "result": "unscanned"
+      },
+      "last_modified": "2026-07-22",
+      "last_reviewed": "2026-07-25",
+      "tests": [
+        "unknown"
+      ],
+      "known_weaknesses": [
+        "unknown"
+      ],
+      "notes": "Fields marked unknown were not explicit in SKILL.md."
+    },
+    {
+      "id": "client-audit",
+      "name": "client-audit",
+      "path": "C:\\Users\\User\\.claude\\skills\\client-audit",
+      "installations": [
+        {
+          "runtime": "claude",
+          "path": "C:\\Users\\User\\.claude\\skills\\client-audit"
+        }
+      ],
+      "purpose": "Full digital presence audit for a prospect or active client. Use when Emmanuel wants to assess a business before a pitch, proposal, or onboarding. Takes a business name or URL and produces a structured audit covering website, social media, online visibility, and marketing gaps. Output saved to CLIENT-AUDIT-[name].md. Triggers on phrases like \"audit [client]\", \"check [business] online\", \"what does [company] look like\", \"run an audit on\", \"pre-call research\".",
+      "category": [
+        "market",
+        "proposal",
+        "research"
+      ],
+      "triggers": [
+        "audit [client]",
+        "check [business] online",
+        "what does [company] look like",
+        "run an audit on",
+        "pre-call research"
+      ],
+      "inputs": [
+        "Business name (required)",
+        "Website URL (if known)",
+        "Industry or context (optional)",
+        "Upcoming call or meeting date (optional)"
+      ],
+      "outputs": [
+        "unknown"
+      ],
+      "tools": [
+        "filesystem"
+      ],
+      "permissions": {
+        "network": "unknown",
+        "filesystem_write": true,
+        "credentials": "unknown"
+      },
+      "workflow_stages": [
+        "client document standards",
+        "what this produces",
+        "inputs",
+        "audit scope",
+        "output format",
+        "quick summary",
+        "website — [score]/10",
+        "social media",
+        "online visibility",
+        "competitor context",
+        "top 5 gaps",
+        "recommended bridgeworks entry point",
+        "tone and language rules"
+      ],
+      "expected_deliverables": [
+        "unknown"
+      ],
+      "overlaps_with": [],
+      "source": {
+        "type": "internal",
+        "repository": "unknown",
+        "version": "unknown"
+      },
+      "status": "active",
+      "security": {
+        "last_scanned": null,
+        "scanner": null,
+        "result": "unscanned"
+      },
+      "last_modified": "2026-03-27",
+      "last_reviewed": "2026-07-25",
+      "tests": [
+        "unknown"
+      ],
+      "known_weaknesses": [
+        "unknown"
+      ],
+      "notes": "Fields marked unknown were not explicit in SKILL.md."
+    },
+    {
+      "id": "competitive-research",
+      "name": "competitive-research",
+      "path": "C:\\Users\\User\\.claude\\skills\\competitive-research",
+      "installations": [
+        {
+          "runtime": "claude",
+          "path": "C:\\Users\\User\\.claude\\skills\\competitive-research"
+        }
+      ],
+      "purpose": "Research competitors and market positioning using Gemini's real-time search grounding. Use when user says \"research competitors\" or \"what are others doing\" or \"competitive analysis\" or \"who else does what I do\" or \"market positioning research\".",
+      "category": [
+        "market",
+        "research"
+      ],
+      "triggers": [
+        "research competitors",
+        "what are others doing",
+        "competitive analysis",
+        "who else does what I do",
+        "market positioning research"
+      ],
+      "inputs": [
+        "unknown"
+      ],
+      "outputs": [
+        "unknown"
+      ],
+      "tools": [
+        "filesystem"
+      ],
+      "permissions": {
+        "network": "unknown",
+        "filesystem_write": true,
+        "credentials": true
+      },
+      "workflow_stages": [
+        "context",
+        "tools used",
+        "process",
+        "output format",
+        "1. landscape",
+        "2. positioning",
+        "3. gaps",
+        "4. pricing signals",
+        "5. recommendation",
+        "notes"
+      ],
+      "expected_deliverables": [
+        "unknown"
+      ],
+      "overlaps_with": [],
+      "source": {
+        "type": "internal",
+        "repository": "unknown",
+        "version": "unknown"
+      },
+      "status": "active",
+      "security": {
+        "last_scanned": null,
+        "scanner": null,
+        "result": "unscanned"
+      },
+      "last_modified": "2026-03-30",
+      "last_reviewed": "2026-07-25",
+      "tests": [
+        "unknown"
+      ],
+      "known_weaknesses": [
+        "unknown"
+      ],
+      "notes": "Fields marked unknown were not explicit in SKILL.md."
+    },
+    {
+      "id": "content-week",
+      "name": "content-week",
+      "path": "C:\\Users\\User\\.claude\\skills\\content-week",
+      "installations": [
+        {
+          "runtime": "claude",
+          "path": "C:\\Users\\User\\.claude\\skills\\content-week"
+        }
+      ],
+      "purpose": "Plan and write a full week of content across all channels. Use when user says \"plan this week's content\" or \"content for the week\" or \"write my posts for the week\" or gives a weekly theme.",
+      "category": [
+        "content"
+      ],
+      "triggers": [
+        "plan this week's content",
+        "content for the week",
+        "write my posts for the week"
+      ],
+      "inputs": [
+        "unknown"
+      ],
+      "outputs": [
+        "unknown"
+      ],
+      "tools": [
+        "filesystem",
+        "python"
+      ],
+      "permissions": {
+        "network": "unknown",
+        "filesystem_write": true,
+        "credentials": "unknown"
+      },
+      "workflow_stages": [
+        "context",
+        "writing voice",
+        "channels to plan",
+        "weekly theme",
+        "process",
+        "applying to client work"
+      ],
+      "expected_deliverables": [
+        "unknown"
+      ],
+      "overlaps_with": [],
+      "source": {
+        "type": "internal",
+        "repository": "unknown",
+        "version": "unknown"
+      },
+      "status": "active",
+      "security": {
+        "last_scanned": null,
+        "scanner": null,
+        "result": "unscanned"
+      },
+      "last_modified": "2026-07-22",
+      "last_reviewed": "2026-07-25",
+      "tests": [
+        "unknown"
+      ],
+      "known_weaknesses": [
+        "unknown"
+      ],
+      "notes": "Fields marked unknown were not explicit in SKILL.md."
+    },
+    {
+      "id": "council",
+      "name": "council",
+      "path": "C:\\Users\\User\\.claude\\skills\\council",
+      "installations": [
+        {
+          "runtime": "claude",
+          "path": "C:\\Users\\User\\.claude\\skills\\council"
+        }
+      ],
+      "purpose": "Multi-perspective review council that stress-tests any deliverable before it ships. Sends content through 3-5 independent reviewers (each playing a different real-world role like \"skeptical client CEO\" or \"first-time reader\"), collects their critiques in parallel, then synthesizes a feedback report and revised draft. Use this skill whenever the user says /council, asks for a \"second opinion\", wants to \"stress test\" or \"review\" a draft, says \"check this before I send it\", or wants quality assurance on any written output -- proposals, ad scripts, reports, emails, LinkedIn posts, landing pages, or strategy docs. Also triggers automatically when integrated into high-stakes skills like /market proposal or /new-proposal.",
+      "category": [
+        "market",
+        "proposal",
+        "content"
+      ],
+      "triggers": [
+        "skeptical client CEO",
+        "first-time reader",
+        "second opinion",
+        "stress test",
+        "review",
+        "check this before I send it"
+      ],
+      "inputs": [
+        "unknown"
+      ],
+      "outputs": [
+        "unknown"
+      ],
+      "tools": [
+        "filesystem"
+      ],
+      "permissions": {
+        "network": "unknown",
+        "filesystem_write": true,
+        "credentials": "unknown"
+      },
+      "workflow_stages": [
+        "why this exists",
+        "how it works",
+        "modes",
+        "identify the draft",
+        "detect the content type and assign roles",
+        "brief the reviewers",
+        "run the council (parallel)",
+        "chairman synthesis",
+        "verdicts",
+        "key problems (ranked by severity)",
+        "strengths to preserve",
+        "cut list",
+        "missing elements",
+        "save the output",
+        "integration with other skills"
+      ],
+      "expected_deliverables": [
+        "unknown"
+      ],
+      "overlaps_with": [],
+      "source": {
+        "type": "internal",
+        "repository": "unknown",
+        "version": "unknown"
+      },
+      "status": "active",
+      "security": {
+        "last_scanned": null,
+        "scanner": null,
+        "result": "unscanned"
+      },
+      "last_modified": "2026-04-09",
+      "last_reviewed": "2026-07-25",
+      "tests": [
+        "unknown"
+      ],
+      "known_weaknesses": [
+        "unknown"
+      ],
+      "notes": "Fields marked unknown were not explicit in SKILL.md."
+    },
+    {
+      "id": "cua-driver-rs",
+      "name": "cua-driver-rs",
+      "path": "C:\\Users\\User\\.claude\\skills\\cua-driver",
+      "installations": [
+        {
+          "runtime": "claude",
+          "path": "C:\\Users\\User\\.claude\\skills\\cua-driver"
+        }
+      ],
+      "purpose": "Drive a native GUI app (macOS, Windows, Linux) via the cua-driver CLI (default) or MCP server — snapshot its accessibility tree, click/type/scroll by element_index or pixel coords, verify via re-snapshot, all without bringing the target to the foreground. Use when the user asks you to operate, drive, automate, or perform a GUI task in a real application on the host.",
+      "category": [
+        "general"
+      ],
+      "triggers": [
+        "Drive a native GUI app (macOS, Windows, Linux) via the cua-driver CLI (default) or MCP server — snapshot its accessibility tree, click/type/scroll by element_index or pixel coords, verify via re-snapshot, all without bringing the target to the foreground. Use when the user asks you to operate, drive, automate, or perform a GUI task in a real application on the host."
+      ],
+      "inputs": [
+        "unknown"
+      ],
+      "outputs": [
+        "unknown"
+      ],
+      "tools": [
+        "browser",
+        "python"
+      ],
+      "permissions": {
+        "network": true,
+        "filesystem_write": "unknown",
+        "credentials": true
+      },
+      "workflow_stages": [
+        "platform-specific reading — read this first",
+        "the no-foreground principle (cross-platform)",
+        "defaults — always prefer cua-driver over shell shims",
+        "using cua-driver from the shell",
+        "agent cursor overlay",
+        "the core invariant — snapshot before and after every action",
+        "behavior matrix",
+        "the canonical loop",
+        "pixel-coordinate clicks",
+        "web-rendered apps (browsers, electron, tauri)",
+        "re-snapshot and verify — mandatory",
+        "recording trajectories",
+        "common error patterns (cross-platform)",
+        "things to avoid",
+        "example end-to-end task"
+      ],
+      "expected_deliverables": [
+        "unknown"
+      ],
+      "overlaps_with": [],
+      "source": {
+        "type": "internal",
+        "repository": "unknown",
+        "version": "unknown"
+      },
+      "status": "active",
+      "security": {
+        "last_scanned": null,
+        "scanner": null,
+        "result": "unscanned"
+      },
+      "last_modified": "2026-06-23",
+      "last_reviewed": "2026-07-25",
+      "tests": [
+        "C:\\Users\\User\\.claude\\skills\\cua-driver\\TESTS.md"
+      ],
+      "known_weaknesses": [
+        "unknown"
+      ],
+      "notes": "Fields marked unknown were not explicit in SKILL.md."
+    },
+    {
+      "id": "daily-brief",
+      "name": "daily-brief",
+      "path": "C:\\Users\\User\\.claude\\skills\\daily-brief",
+      "installations": [
+        {
+          "runtime": "claude",
+          "path": "C:\\Users\\User\\.claude\\skills\\daily-brief"
+        },
+        {
+          "runtime": "claude",
+          "path": "C:\\Users\\User\\.claude\\skills\\daily-brief-skill"
+        }
+      ],
+      "purpose": "Daily business briefing covering priorities, active client status (CEEFM closed 2026-06-19), content calendar, pipeline, payments, and weekly goals. Run at the start of each work session to know exactly what matters today.",
+      "category": [
+        "content"
+      ],
+      "triggers": [
+        "Daily business briefing covering priorities, active client status (CEEFM closed 2026-06-19), content calendar, pipeline, payments, and weekly goals. Run at the start of each work session to know exactly what matters today."
+      ],
+      "inputs": [
+        "unknown"
+      ],
+      "outputs": [
+        "unknown"
+      ],
+      "tools": [
+        "unknown"
+      ],
+      "permissions": {
+        "network": "unknown",
+        "filesystem_write": "unknown",
+        "credentials": "unknown"
+      },
+      "workflow_stages": [
+        "data sources",
+        "calculations",
+        "output format",
+        "[top priority — one sentence, the single most important thing today]",
+        "rules"
+      ],
+      "expected_deliverables": [
+        "unknown"
+      ],
+      "overlaps_with": [],
+      "source": {
+        "type": "internal",
+        "repository": "unknown",
+        "version": "unknown"
+      },
+      "status": "active",
+      "security": {
+        "last_scanned": null,
+        "scanner": null,
+        "result": "unscanned"
+      },
+      "last_modified": "2026-07-22",
+      "last_reviewed": "2026-07-25",
+      "tests": [
+        "unknown"
+      ],
+      "known_weaknesses": [
+        "unknown"
+      ],
+      "notes": "Installed in multiple runtimes; review overlap before editing either copy."
+    },
+    {
+      "id": "discovery-call-prep",
+      "name": "discovery-call-prep",
+      "path": "C:\\Users\\User\\.claude\\skills\\discovery-call-prep",
+      "installations": [
+        {
+          "runtime": "claude",
+          "path": "C:\\Users\\User\\.claude\\skills\\discovery-call-prep"
+        }
+      ],
+      "purpose": "Structured preparation document for a BridgeWorks sales discovery call with a new prospect. Use when Emmanuel has a call coming up and needs to walk in prepared. Takes prospect name, business, and any known context. Produces a call prep brief with background research, pain points to probe, questions to ask, and positioning notes. Output saved to DISCOVERY-PREP-[prospect].md. Triggers on phrases like \"prep for call with\", \"discovery call prep\", \"prepare for [name] call\", \"I have a call with [business]\", \"call prep for\".",
+      "category": [
+        "sales",
+        "research",
+        "document"
+      ],
+      "triggers": [
+        "prep for call with",
+        "discovery call prep",
+        "prepare for [name] call",
+        "I have a call with [business]",
+        "call prep for"
+      ],
+      "inputs": [
+        "Prospect name / contact name (required)",
+        "Business name and URL (required)",
+        "Industry (required)",
+        "Any known context",
+        "Call date and time (optional)"
+      ],
+      "outputs": [
+        "unknown"
+      ],
+      "tools": [
+        "filesystem"
+      ],
+      "permissions": {
+        "network": "unknown",
+        "filesystem_write": true,
+        "credentials": "unknown"
+      },
+      "workflow_stages": [
+        "client document standards",
+        "inputs",
+        "research steps",
+        "document structure",
+        "output",
+        "tone rules"
+      ],
+      "expected_deliverables": [
+        "unknown"
+      ],
+      "overlaps_with": [],
+      "source": {
+        "type": "internal",
+        "repository": "unknown",
+        "version": "unknown"
+      },
+      "status": "active",
+      "security": {
+        "last_scanned": null,
+        "scanner": null,
+        "result": "unscanned"
+      },
+      "last_modified": "2026-03-27",
+      "last_reviewed": "2026-07-25",
+      "tests": [
+        "unknown"
+      ],
+      "known_weaknesses": [
+        "unknown"
+      ],
+      "notes": "Fields marked unknown were not explicit in SKILL.md."
+    },
+    {
+      "id": "docx",
+      "name": "docx",
+      "path": "C:\\Users\\User\\.claude\\skills\\docx",
+      "installations": [
+        {
+          "runtime": "claude",
+          "path": "C:\\Users\\User\\.claude\\skills\\docx"
+        }
+      ],
+      "purpose": "Use this skill whenever the user wants to create, read, edit, or manipulate Word documents (.docx files). Triggers include: any mention of 'Word doc', 'word document', '.docx', or requests to produce professional documents with formatting like tables of contents, headings, page numbers, or letterheads. Also use when extracting or reorganizing content from .docx files, inserting or replacing images in documents, performing find-and-replace in Word files, working with tracked changes or comments, or converting content into a polished Word document. If the user asks for a 'report', 'memo', 'letter', 'template', or similar deliverable as a Word or .docx file, use this skill. Do NOT use for PDFs, spreadsheets, Google Docs, or general coding tasks unrelated to document generation.",
+      "category": [
+        "content",
+        "document",
+        "image"
+      ],
+      "triggers": [
+        "Use this skill whenever the user wants to create, read, edit, or manipulate Word documents (.docx files). Triggers include: any mention of 'Word doc', 'word document', '.docx', or requests to produce professional documents with formatting like tables of contents, headings, page numbers, or letterheads. Also use when extracting or reorganizing content from .docx files, inserting or replacing images in documents, performing find-and-replace in Word files, working with tracked changes or comments, or converting content into a polished Word document. If the user asks for a 'report', 'memo', 'letter', 'template', or similar deliverable as a Word or .docx file, use this skill. Do NOT use for PDFs, spreadsheets, Google Docs, or general coding tasks unrelated to document generation."
+      ],
+      "inputs": [
+        "unknown"
+      ],
+      "outputs": [
+        "unknown"
+      ],
+      "tools": [
+        "python"
+      ],
+      "permissions": {
+        "network": "unknown",
+        "filesystem_write": "unknown",
+        "credentials": "unknown"
+      },
+      "workflow_stages": [
+        "overview",
+        "quick reference",
+        "creating new documents",
+        "editing existing documents",
+        "xml reference",
+        "dependencies"
+      ],
+      "expected_deliverables": [
+        "unknown"
+      ],
+      "overlaps_with": [],
+      "source": {
+        "type": "internal",
+        "repository": null,
+        "version": null
+      },
+      "status": "active",
+      "security": {
+        "last_scanned": null,
+        "scanner": null,
+        "result": "unscanned"
+      },
+      "last_modified": "2026-03-26",
+      "last_reviewed": "2026-07-25",
+      "tests": [
+        "unknown"
+      ],
+      "known_weaknesses": [
+        "unknown"
+      ],
+      "notes": "Fields marked unknown were not explicit in SKILL.md."
+    },
+    {
+      "id": "emmanuel-brand-visual",
+      "name": "emmanuel-brand-visual",
+      "path": "C:\\Users\\User\\.claude\\skills\\emmanuel-brand-visual",
+      "installations": [
+        {
+          "runtime": "claude",
+          "path": "C:\\Users\\User\\.claude\\skills\\emmanuel-brand-visual"
+        }
+      ],
+      "purpose": ">",
+      "category": [
+        "general"
+      ],
+      "triggers": [
+        ">"
+      ],
+      "inputs": [
+        "unknown"
+      ],
+      "outputs": [
+        "All logos and icons must be SVG first — scalable, clean, version-controllable",
+        "Export considerations",
+        "Embed fonts or use system-safe fallbacks (Georgia for Playfair, sans-serif for Inter)",
+        "Minimum viable size",
+        "Color variables"
+      ],
+      "tools": [
+        "unknown"
+      ],
+      "permissions": {
+        "network": "unknown",
+        "filesystem_write": "unknown",
+        "credentials": true
+      },
+      "workflow_stages": [
+        "who this brand is",
+        "brand architecture",
+        "brand dna — the non-negotiables",
+        "the bridge horizon method™ visual system",
+        "asset specifications",
+        "design execution rules",
+        "brand voice integration",
+        "what to read next",
+        "quick start for claude code"
+      ],
+      "expected_deliverables": [
+        "All logos and icons must be SVG first — scalable, clean, version-controllable",
+        "Export considerations",
+        "Embed fonts or use system-safe fallbacks (Georgia for Playfair, sans-serif for Inter)",
+        "Minimum viable size",
+        "Color variables"
+      ],
+      "overlaps_with": [],
+      "source": {
+        "type": "internal",
+        "repository": "unknown",
+        "version": "unknown"
+      },
+      "status": "active",
+      "security": {
+        "last_scanned": null,
+        "scanner": null,
+        "result": "unscanned"
+      },
+      "last_modified": "2026-03-21",
+      "last_reviewed": "2026-07-25",
+      "tests": [
+        "unknown"
+      ],
+      "known_weaknesses": [
+        "unknown"
+      ],
+      "notes": "Fields marked unknown were not explicit in SKILL.md."
+    },
+    {
+      "id": "engagement-architect",
+      "name": "engagement-architect",
+      "path": "C:\\Users\\User\\.claude\\skills\\engagement-architect",
+      "installations": [
+        {
+          "runtime": "claude",
+          "path": "C:\\Users\\User\\.claude\\skills\\engagement-architect"
+        }
+      ],
+      "purpose": "Turn discovery-call notes, emails, intake forms, proposal drafts, or rough project briefs into an evidence-controlled BridgeWorks engagement scope. Use when Emmanuel needs to define a client problem, outcome, scope, deliverables, acceptance criteria, approvals, risks, dependencies, timeline evidence, pricing implications, expansion path, or smallest next action before a proposal, contract, kickoff, or irreversible commitment. Produce both a concise mobile summary and a complete engagement specification. Do not use to invent pricing, promise results, send client messages, or replace proposal writing.",
+      "category": [
+        "proposal"
+      ],
+      "triggers": [
+        "Turn discovery-call notes, emails, intake forms, proposal drafts, or rough project briefs into an evidence-controlled BridgeWorks engagement scope. Use when Emmanuel needs to define a client problem, outcome, scope, deliverables, acceptance criteria, approvals, risks, dependencies, timeline evidence, pricing implications, expansion path, or smallest next action before a proposal, contract, kickoff, or irreversible commitment. Produce both a concise mobile summary and a complete engagement specification. Do not use to invent pricing, promise results, send client messages, or replace proposal writing."
+      ],
+      "inputs": [
+        "unknown"
+      ],
+      "outputs": [
+        "unknown"
+      ],
+      "tools": [
+        "python"
+      ],
+      "permissions": {
+        "network": "unknown",
+        "filesystem_write": "unknown",
+        "credentials": true
+      },
+      "workflow_stages": [
+        "read first",
+        "workflow",
+        "output",
+        "hard gates",
+        "deterministic check"
+      ],
+      "expected_deliverables": [
+        "unknown"
+      ],
+      "overlaps_with": [],
+      "source": {
+        "type": "internal",
+        "repository": null,
+        "version": null
+      },
+      "status": "active",
+      "security": {
+        "last_scanned": null,
+        "scanner": null,
+        "result": "unscanned"
+      },
+      "last_modified": "2026-07-25",
+      "last_reviewed": "2026-07-25",
+      "tests": [
+        "C:\\Users\\User\\.claude\\skills\\engagement-architect\\scripts\\test_engagement_architect.py"
+      ],
+      "known_weaknesses": [
+        "unknown"
+      ],
+      "notes": "Fields marked unknown were not explicit in SKILL.md."
+    },
+    {
+      "id": "find-skills",
+      "name": "find-skills",
+      "path": "C:\\Users\\User\\.claude\\skills\\find-skills",
+      "installations": [
+        {
+          "runtime": "claude",
+          "path": "C:\\Users\\User\\.claude\\skills\\find-skills"
+        }
+      ],
+      "purpose": "Helps users discover and install agent skills when they ask questions like \"how do I do X\", \"find a skill for X\", \"is there a skill that can...\", or express interest in extending capabilities. This skill should be used when the user is looking for functionality that might exist as an installable skill.",
+      "category": [
+        "general"
+      ],
+      "triggers": [
+        "how do I do X",
+        "find a skill for X",
+        "is there a skill that can..."
+      ],
+      "inputs": [
+        "unknown"
+      ],
+      "outputs": [
+        "unknown"
+      ],
+      "tools": [
+        "browser",
+        "git"
+      ],
+      "permissions": {
+        "network": true,
+        "filesystem_write": "unknown",
+        "credentials": "unknown"
+      },
+      "workflow_stages": [
+        "when to use this skill",
+        "what is the skills cli?",
+        "how to help users find skills",
+        "common skill categories",
+        "tips for effective searches",
+        "when no skills are found"
+      ],
+      "expected_deliverables": [
+        "unknown"
+      ],
+      "overlaps_with": [],
+      "source": {
+        "type": "internal",
+        "repository": null,
+        "version": null
+      },
+      "status": "active",
+      "security": {
+        "last_scanned": null,
+        "scanner": null,
+        "result": "unscanned"
+      },
+      "last_modified": "2026-03-26",
+      "last_reviewed": "2026-07-25",
+      "tests": [
+        "unknown"
+      ],
+      "known_weaknesses": [
+        "unknown"
+      ],
+      "notes": "Fields marked unknown were not explicit in SKILL.md."
+    },
+    {
+      "id": "frontend-design",
+      "name": "frontend-design",
+      "path": "C:\\Users\\User\\.claude\\skills\\frontend-design",
+      "installations": [
+        {
+          "runtime": "claude",
+          "path": "C:\\Users\\User\\.claude\\skills\\frontend-design"
+        }
+      ],
+      "purpose": "Create distinctive, production-grade frontend interfaces with high design quality. Use this skill when the user asks to build web components, pages, artifacts, posters, or applications (examples include websites, landing pages, dashboards, React components, HTML/CSS layouts, or when styling/beautifying any web UI). Generates creative, polished code and UI design that avoids generic AI aesthetics.",
+      "category": [
+        "design"
+      ],
+      "triggers": [
+        "Create distinctive, production-grade frontend interfaces with high design quality. Use this skill when the user asks to build web components, pages, artifacts, posters, or applications (examples include websites, landing pages, dashboards, React components, HTML/CSS layouts, or when styling/beautifying any web UI). Generates creative, polished code and UI design that avoids generic AI aesthetics."
+      ],
+      "inputs": [
+        "unknown"
+      ],
+      "outputs": [
+        "unknown"
+      ],
+      "tools": [
+        "unknown"
+      ],
+      "permissions": {
+        "network": "unknown",
+        "filesystem_write": "unknown",
+        "credentials": "unknown"
+      },
+      "workflow_stages": [
+        "design thinking",
+        "frontend aesthetics guidelines"
+      ],
+      "expected_deliverables": [
+        "unknown"
+      ],
+      "overlaps_with": [],
+      "source": {
+        "type": "internal",
+        "repository": null,
+        "version": null
+      },
+      "status": "active",
+      "security": {
+        "last_scanned": null,
+        "scanner": null,
+        "result": "unscanned"
+      },
+      "last_modified": "2026-03-26",
+      "last_reviewed": "2026-07-25",
+      "tests": [
+        "unknown"
+      ],
+      "known_weaknesses": [
+        "unknown"
+      ],
+      "notes": "Fields marked unknown were not explicit in SKILL.md."
+    },
+    {
+      "id": "generate-image",
+      "name": "generate-image",
+      "path": "C:\\Users\\User\\.claude\\skills\\generate-image",
+      "installations": [
+        {
+          "runtime": "claude",
+          "path": "C:\\Users\\User\\.claude\\skills\\generate-image"
+        }
+      ],
+      "purpose": "Generate any image for social media, blog headers, or ad creatives using Kie.ai API. Use when user says \"generate an image\", \"create a visual\", \"make me an image\", or asks for a blog header, social post image, ad creative, or LinkedIn banner.",
+      "category": [
+        "image"
+      ],
+      "triggers": [
+        "generate an image",
+        "create a visual",
+        "make me an image"
+      ],
+      "inputs": [
+        "unknown"
+      ],
+      "outputs": [
+        "unknown"
+      ],
+      "tools": [
+        "filesystem"
+      ],
+      "permissions": {
+        "network": "unknown",
+        "filesystem_write": true,
+        "credentials": true
+      },
+      "workflow_stages": [
+        "context",
+        "process",
+        "polling logic",
+        "environment"
+      ],
+      "expected_deliverables": [
+        "unknown"
+      ],
+      "overlaps_with": [],
+      "source": {
+        "type": "internal",
+        "repository": "unknown",
+        "version": "unknown"
+      },
+      "status": "active",
+      "security": {
+        "last_scanned": null,
+        "scanner": null,
+        "result": "unscanned"
+      },
+      "last_modified": "2026-03-30",
+      "last_reviewed": "2026-07-25",
+      "tests": [
+        "unknown"
+      ],
+      "known_weaknesses": [
+        "unknown"
+      ],
+      "notes": "Fields marked unknown were not explicit in SKILL.md."
+    },
+    {
+      "id": "generate-social-visual",
+      "name": "generate-social-visual",
+      "path": "C:\\Users\\User\\.claude\\skills\\generate-social-visual",
+      "installations": [
+        {
+          "runtime": "claude",
+          "path": "C:\\Users\\User\\.claude\\skills\\generate-social-visual"
+        }
+      ],
+      "purpose": "Generate a branded visual for any social media post automatically. Use when creating social media visuals, or when called by /social-post. Triggered by \"make a visual for this post\", \"generate a social image\", or automatically during social content creation.",
+      "category": [
+        "content",
+        "image"
+      ],
+      "triggers": [
+        "make a visual for this post",
+        "generate a social image"
+      ],
+      "inputs": [
+        "unknown"
+      ],
+      "outputs": [
+        "unknown"
+      ],
+      "tools": [
+        "filesystem"
+      ],
+      "permissions": {
+        "network": "unknown",
+        "filesystem_write": true,
+        "credentials": true
+      },
+      "workflow_stages": [
+        "context",
+        "when this runs",
+        "process",
+        "fallback: flux kontext",
+        "polling logic",
+        "environment"
+      ],
+      "expected_deliverables": [
+        "unknown"
+      ],
+      "overlaps_with": [],
+      "source": {
+        "type": "internal",
+        "repository": "unknown",
+        "version": "unknown"
+      },
+      "status": "active",
+      "security": {
+        "last_scanned": null,
+        "scanner": null,
+        "result": "unscanned"
+      },
+      "last_modified": "2026-03-30",
+      "last_reviewed": "2026-07-25",
+      "tests": [
+        "unknown"
+      ],
+      "known_weaknesses": [
+        "unknown"
+      ],
+      "notes": "Fields marked unknown were not explicit in SKILL.md."
+    },
+    {
+      "id": "generate-thumbnail",
+      "name": "generate-thumbnail",
+      "path": "C:\\Users\\User\\.claude\\skills\\generate-thumbnail",
+      "installations": [
+        {
+          "runtime": "claude",
+          "path": "C:\\Users\\User\\.claude\\skills\\generate-thumbnail"
+        }
+      ],
+      "purpose": "Generate 4 YouTube thumbnail concepts in parallel for any video topic using Kie.ai API. Use when user says \"generate thumbnails\", \"make YouTube thumbnails\", \"thumbnail ideas\", or asks for video thumbnail options.",
+      "category": [
+        "youtube"
+      ],
+      "triggers": [
+        "generate thumbnails",
+        "make YouTube thumbnails",
+        "thumbnail ideas"
+      ],
+      "inputs": [
+        "unknown"
+      ],
+      "outputs": [
+        "unknown"
+      ],
+      "tools": [
+        "filesystem"
+      ],
+      "permissions": {
+        "network": "unknown",
+        "filesystem_write": true,
+        "credentials": true
+      },
+      "workflow_stages": [
+        "context",
+        "process",
+        "fallback: flux kontext",
+        "environment"
+      ],
+      "expected_deliverables": [
+        "unknown"
+      ],
+      "overlaps_with": [],
+      "source": {
+        "type": "internal",
+        "repository": "unknown",
+        "version": "unknown"
+      },
+      "status": "active",
+      "security": {
+        "last_scanned": null,
+        "scanner": null,
+        "result": "unscanned"
+      },
+      "last_modified": "2026-03-30",
+      "last_reviewed": "2026-07-25",
+      "tests": [
+        "unknown"
+      ],
+      "known_weaknesses": [
+        "unknown"
+      ],
+      "notes": "Fields marked unknown were not explicit in SKILL.md."
+    },
+    {
+      "id": "geo-audit",
+      "name": "geo-audit",
+      "path": "C:\\Users\\User\\.claude\\skills\\geo-audit",
+      "installations": [
+        {
+          "runtime": "claude",
+          "path": "C:\\Users\\User\\.claude\\skills\\geo-audit"
+        }
+      ],
+      "purpose": "Full website GEO+SEO audit with parallel subagent delegation. Orchestrates a comprehensive Generative Engine Optimization audit across AI citability, platform analysis, technical infrastructure, content quality, and schema markup. Produces a composite GEO Score (0-100) with prioritized action plan.",
+      "category": [
+        "geo",
+        "seo",
+        "content"
+      ],
+      "triggers": [
+        "Full website GEO+SEO audit with parallel subagent delegation. Orchestrates a comprehensive Generative Engine Optimization audit across AI citability, platform analysis, technical infrastructure, content quality, and schema markup. Produces a composite GEO Score (0-100) with prioritized action plan."
+      ],
+      "inputs": [
+        "unknown"
+      ],
+      "outputs": [
+        "unknown"
+      ],
+      "tools": [
+        "unknown"
+      ],
+      "permissions": {
+        "network": "unknown",
+        "filesystem_write": "unknown",
+        "credentials": true
+      },
+      "workflow_stages": [
+        "client document standards",
+        "purpose",
+        "key insight",
+        "audit workflow",
+        "issue severity classification",
+        "output format",
+        "executive summary",
+        "critical issues (fix immediately)",
+        "high priority issues",
+        "medium priority issues",
+        "low priority issues",
+        "category deep dives",
+        "quick wins (implement this week)",
+        "30-day action plan",
+        "appendix: pages analyzed"
+      ],
+      "expected_deliverables": [
+        "unknown"
+      ],
+      "overlaps_with": [
+        "geo-report"
+      ],
+      "source": {
+        "type": "internal",
+        "repository": null,
+        "version": null
+      },
+      "status": "active",
+      "security": {
+        "last_scanned": null,
+        "scanner": null,
+        "result": "unscanned"
+      },
+      "last_modified": "2026-03-28",
+      "last_reviewed": "2026-07-25",
+      "tests": [
+        "unknown"
+      ],
+      "known_weaknesses": [
+        "unknown"
+      ],
+      "notes": "Fields marked unknown were not explicit in SKILL.md."
+    },
+    {
+      "id": "geo-brand-mentions",
+      "name": "geo-brand-mentions",
+      "path": "C:\\Users\\User\\.claude\\skills\\geo-brand-mentions",
+      "installations": [
+        {
+          "runtime": "claude",
+          "path": "C:\\Users\\User\\.claude\\skills\\geo-brand-mentions"
+        }
+      ],
+      "purpose": "Brand mention and authority scanner for AI visibility. Analyzes brand presence across platforms that AI models rely on for entity recognition and citation decisions. Produces a Brand Authority Score (0-100) with platform-specific recommendations.",
+      "category": [
+        "geo"
+      ],
+      "triggers": [
+        "Brand mention and authority scanner for AI visibility. Analyzes brand presence across platforms that AI models rely on for entity recognition and citation decisions. Produces a Brand Authority Score (0-100) with platform-specific recommendations."
+      ],
+      "inputs": [
+        "unknown"
+      ],
+      "outputs": [
+        "unknown"
+      ],
+      "tools": [
+        "web_search",
+        "python"
+      ],
+      "permissions": {
+        "network": true,
+        "filesystem_write": "unknown",
+        "credentials": true
+      },
+      "workflow_stages": [
+        "core insight",
+        "platform importance ranking for ai citations",
+        "composite brand authority score",
+        "analysis procedure",
+        "output format",
+        "brand authority score: [x]/100 ([rating])",
+        "platform detail",
+        "recommendations",
+        "competitive context",
+        "key takeaway",
+        "reference data"
+      ],
+      "expected_deliverables": [
+        "unknown"
+      ],
+      "overlaps_with": [],
+      "source": {
+        "type": "internal",
+        "repository": null,
+        "version": null
+      },
+      "status": "active",
+      "security": {
+        "last_scanned": null,
+        "scanner": null,
+        "result": "unscanned"
+      },
+      "last_modified": "2026-03-28",
+      "last_reviewed": "2026-07-25",
+      "tests": [
+        "unknown"
+      ],
+      "known_weaknesses": [
+        "unknown"
+      ],
+      "notes": "Fields marked unknown were not explicit in SKILL.md."
+    },
+    {
+      "id": "geo-citability",
+      "name": "geo-citability",
+      "path": "C:\\Users\\User\\.claude\\skills\\geo-citability",
+      "installations": [
+        {
+          "runtime": "claude",
+          "path": "C:\\Users\\User\\.claude\\skills\\geo-citability"
+        }
+      ],
+      "purpose": "AI citability scoring and optimization. Analyzes web page content to determine how likely AI systems (ChatGPT, Claude, Perplexity, Gemini) are to cite or quote passages from the page. Provides a citability score (0-100) with specific rewrite suggestions.",
+      "category": [
+        "geo",
+        "content"
+      ],
+      "triggers": [
+        "AI citability scoring and optimization. Analyzes web page content to determine how likely AI systems (ChatGPT, Claude, Perplexity, Gemini) are to cite or quote passages from the page. Provides a citability score (0-100) with specific rewrite suggestions."
+      ],
+      "inputs": [
+        "unknown"
+      ],
+      "outputs": [
+        "unknown"
+      ],
+      "tools": [
+        "unknown"
+      ],
+      "permissions": {
+        "network": "unknown",
+        "filesystem_write": "unknown",
+        "credentials": "unknown"
+      },
+      "workflow_stages": [
+        "core insight",
+        "citability scoring rubric (0-100)",
+        "analysis procedure",
+        "output format",
+        "score summary",
+        "strongest content blocks",
+        "weakest content blocks (rewrite priority)",
+        "quick win reformatting recommendations",
+        "per-section scores",
+        "reference data"
+      ],
+      "expected_deliverables": [
+        "unknown"
+      ],
+      "overlaps_with": [
+        "geo-report"
+      ],
+      "source": {
+        "type": "internal",
+        "repository": null,
+        "version": null
+      },
+      "status": "active",
+      "security": {
+        "last_scanned": null,
+        "scanner": null,
+        "result": "unscanned"
+      },
+      "last_modified": "2026-03-28",
+      "last_reviewed": "2026-07-25",
+      "tests": [
+        "unknown"
+      ],
+      "known_weaknesses": [
+        "unknown"
+      ],
+      "notes": "Fields marked unknown were not explicit in SKILL.md."
+    },
+    {
+      "id": "geo-compare",
+      "name": "geo-compare",
+      "path": "C:\\Users\\User\\.claude\\skills\\geo-compare",
+      "installations": [
+        {
+          "runtime": "claude",
+          "path": "C:\\Users\\User\\.claude\\skills\\geo-compare"
+        }
+      ],
+      "purpose": ">",
+      "category": [
+        "geo"
+      ],
+      "triggers": [
+        ">"
+      ],
+      "inputs": [
+        "unknown"
+      ],
+      "outputs": [
+        "unknown"
+      ],
+      "tools": [
+        "web_search"
+      ],
+      "permissions": {
+        "network": true,
+        "filesystem_write": "unknown",
+        "credentials": "unknown"
+      },
+      "workflow_stages": [
+        "purpose",
+        "commands",
+        "workflow",
+        "report template",
+        "[company name] — [month year]",
+        "executive summary",
+        "geo score progress",
+        "score breakdown: before vs. after",
+        "platform readiness: before vs. after",
+        "ai crawler access changes",
+        "action plan progress",
+        "this month's wins",
+        "new issues discovered",
+        "next month focus",
+        "6-month trajectory"
+      ],
+      "expected_deliverables": [
+        "unknown"
+      ],
+      "overlaps_with": [
+        "geo-report"
+      ],
+      "source": {
+        "type": "internal",
+        "repository": null,
+        "version": null
+      },
+      "status": "active",
+      "security": {
+        "last_scanned": null,
+        "scanner": null,
+        "result": "unscanned"
+      },
+      "last_modified": "2026-03-28",
+      "last_reviewed": "2026-07-25",
+      "tests": [
+        "unknown"
+      ],
+      "known_weaknesses": [
+        "unknown"
+      ],
+      "notes": "Fields marked unknown were not explicit in SKILL.md."
+    },
+    {
+      "id": "geo-content",
+      "name": "geo-content",
+      "path": "C:\\Users\\User\\.claude\\skills\\geo-content",
+      "installations": [
+        {
+          "runtime": "claude",
+          "path": "C:\\Users\\User\\.claude\\skills\\geo-content"
+        }
+      ],
+      "purpose": "Content quality and E-E-A-T assessment for AI citability — evaluate experience, expertise, authoritativeness, trustworthiness, and content structure",
+      "category": [
+        "geo",
+        "content"
+      ],
+      "triggers": [
+        "Content quality and E-E-A-T assessment for AI citability — evaluate experience, expertise, authoritativeness, trustworthiness, and content structure"
+      ],
+      "inputs": [
+        "unknown"
+      ],
+      "outputs": [
+        "unknown"
+      ],
+      "tools": [
+        "unknown"
+      ],
+      "permissions": {
+        "network": "unknown",
+        "filesystem_write": "unknown",
+        "credentials": true
+      },
+      "workflow_stages": [
+        "purpose",
+        "how to use this skill",
+        "e-e-a-t framework (100 points total)",
+        "content quality metrics",
+        "ai content assessment",
+        "content freshness assessment",
+        "topical authority assessment",
+        "overall scoring (0-100)",
+        "output format",
+        "content score: xx/100",
+        "e-e-a-t breakdown",
+        "topical authority modifier: [+10 to -5]",
+        "pages analyzed",
+        "e-e-a-t detailed findings",
+        "content quality issues"
+      ],
+      "expected_deliverables": [
+        "unknown"
+      ],
+      "overlaps_with": [
+        "geo-report"
+      ],
+      "source": {
+        "type": "internal",
+        "repository": null,
+        "version": null
+      },
+      "status": "active",
+      "security": {
+        "last_scanned": null,
+        "scanner": null,
+        "result": "unscanned"
+      },
+      "last_modified": "2026-03-28",
+      "last_reviewed": "2026-07-25",
+      "tests": [
+        "unknown"
+      ],
+      "known_weaknesses": [
+        "unknown"
+      ],
+      "notes": "Fields marked unknown were not explicit in SKILL.md."
+    },
+    {
+      "id": "geo-crawlers",
+      "name": "geo-crawlers",
+      "path": "C:\\Users\\User\\.claude\\skills\\geo-crawlers",
+      "installations": [
+        {
+          "runtime": "claude",
+          "path": "C:\\Users\\User\\.claude\\skills\\geo-crawlers"
+        }
+      ],
+      "purpose": "AI crawler access analysis. Checks robots.txt, meta tags, and HTTP headers to determine which AI crawlers can access the site. Provides a complete access map and recommendations for maximizing AI visibility while maintaining appropriate control.",
+      "category": [
+        "geo"
+      ],
+      "triggers": [
+        "AI crawler access analysis. Checks robots.txt, meta tags, and HTTP headers to determine which AI crawlers can access the site. Provides a complete access map and recommendations for maximizing AI visibility while maintaining appropriate control."
+      ],
+      "inputs": [
+        "unknown"
+      ],
+      "outputs": [
+        "unknown"
+      ],
+      "tools": [
+        "browser",
+        "web_search"
+      ],
+      "permissions": {
+        "network": true,
+        "filesystem_write": "unknown",
+        "credentials": "unknown"
+      },
+      "workflow_stages": [
+        "purpose",
+        "key insight",
+        "complete ai crawler reference",
+        "recommendation matrix summary",
+        "analysis procedure",
+        "output format",
+        "crawler access summary",
+        "ai visibility score: [x]/100",
+        "critical issues",
+        "recommendations",
+        "scoring for crawler access"
+      ],
+      "expected_deliverables": [
+        "unknown"
+      ],
+      "overlaps_with": [
+        "geo-report"
+      ],
+      "source": {
+        "type": "internal",
+        "repository": null,
+        "version": null
+      },
+      "status": "active",
+      "security": {
+        "last_scanned": null,
+        "scanner": null,
+        "result": "unscanned"
+      },
+      "last_modified": "2026-03-28",
+      "last_reviewed": "2026-07-25",
+      "tests": [
+        "unknown"
+      ],
+      "known_weaknesses": [
+        "unknown"
+      ],
+      "notes": "Fields marked unknown were not explicit in SKILL.md."
+    },
+    {
+      "id": "geo-llmstxt",
+      "name": "geo-llmstxt",
+      "path": "C:\\Users\\User\\.claude\\skills\\geo-llmstxt",
+      "installations": [
+        {
+          "runtime": "claude",
+          "path": "C:\\Users\\User\\.claude\\skills\\geo-llmstxt"
+        }
+      ],
+      "purpose": "Analyzes and generates llms.txt files -- the emerging standard for helping AI systems understand website structure and content. Can validate existing llms.txt files or generate new ones from scratch by crawling the site.",
+      "category": [
+        "geo",
+        "content"
+      ],
+      "triggers": [
+        "Analyzes and generates llms.txt files -- the emerging standard for helping AI systems understand website structure and content. Can validate existing llms.txt files or generate new ones from scratch by crawling the site."
+      ],
+      "inputs": [
+        "unknown"
+      ],
+      "outputs": [
+        "unknown"
+      ],
+      "tools": [
+        "unknown"
+      ],
+      "permissions": {
+        "network": "unknown",
+        "filesystem_write": "unknown",
+        "credentials": "unknown"
+      },
+      "workflow_stages": [
+        "purpose",
+        "why llms.txt matters",
+        "the llms.txt specification",
+        "docs",
+        "optional",
+        "key facts",
+        "contact",
+        "llms-full.txt (extended version)",
+        "analysis mode",
+        "generation mode",
+        "docs",
+        "products",
+        "resources",
+        "key facts",
+        "contact"
+      ],
+      "expected_deliverables": [
+        "unknown"
+      ],
+      "overlaps_with": [
+        "geo-report"
+      ],
+      "source": {
+        "type": "internal",
+        "repository": null,
+        "version": null
+      },
+      "status": "active",
+      "security": {
+        "last_scanned": null,
+        "scanner": null,
+        "result": "unscanned"
+      },
+      "last_modified": "2026-03-28",
+      "last_reviewed": "2026-07-25",
+      "tests": [
+        "unknown"
+      ],
+      "known_weaknesses": [
+        "unknown"
+      ],
+      "notes": "Fields marked unknown were not explicit in SKILL.md."
+    },
+    {
+      "id": "geo-platform-optimizer",
+      "name": "geo-platform-optimizer",
+      "path": "C:\\Users\\User\\.claude\\skills\\geo-platform-optimizer",
+      "installations": [
+        {
+          "runtime": "claude",
+          "path": "C:\\Users\\User\\.claude\\skills\\geo-platform-optimizer"
+        }
+      ],
+      "purpose": "Platform-specific AI search optimization — audit and optimize for Google AI Overviews, ChatGPT, Perplexity, Gemini, and Bing Copilot individually",
+      "category": [
+        "geo"
+      ],
+      "triggers": [
+        "Platform-specific AI search optimization — audit and optimize for Google AI Overviews, ChatGPT, Perplexity, Gemini, and Bing Copilot individually"
+      ],
+      "inputs": [
+        "unknown"
+      ],
+      "outputs": [
+        "unknown"
+      ],
+      "tools": [
+        "web_search"
+      ],
+      "permissions": {
+        "network": true,
+        "filesystem_write": "unknown",
+        "credentials": true
+      },
+      "workflow_stages": [
+        "core insight",
+        "how to use this skill",
+        "platform 1: google ai overviews (aio)",
+        "platform 2: chatgpt web search",
+        "platform 3: perplexity ai",
+        "platform 4: google gemini",
+        "platform 5: bing copilot",
+        "cross-platform summary",
+        "output format",
+        "overall platform readiness",
+        "platform scores",
+        "platform details",
+        "prioritized action plan"
+      ],
+      "expected_deliverables": [
+        "unknown"
+      ],
+      "overlaps_with": [],
+      "source": {
+        "type": "internal",
+        "repository": null,
+        "version": null
+      },
+      "status": "active",
+      "security": {
+        "last_scanned": null,
+        "scanner": null,
+        "result": "unscanned"
+      },
+      "last_modified": "2026-03-28",
+      "last_reviewed": "2026-07-25",
+      "tests": [
+        "unknown"
+      ],
+      "known_weaknesses": [
+        "unknown"
+      ],
+      "notes": "Fields marked unknown were not explicit in SKILL.md."
+    },
+    {
+      "id": "geo-proposal",
+      "name": "geo-proposal",
+      "path": "C:\\Users\\User\\.claude\\skills\\geo-proposal",
+      "installations": [
+        {
+          "runtime": "claude",
+          "path": "C:\\Users\\User\\.claude\\skills\\geo-proposal"
+        }
+      ],
+      "purpose": ">",
+      "category": [
+        "geo",
+        "proposal"
+      ],
+      "triggers": [
+        ">"
+      ],
+      "inputs": [
+        "unknown"
+      ],
+      "outputs": [
+        "unknown"
+      ],
+      "tools": [
+        "unknown"
+      ],
+      "permissions": {
+        "network": "unknown",
+        "filesystem_write": "unknown",
+        "credentials": true
+      },
+      "workflow_stages": [
+        "purpose",
+        "command",
+        "workflow",
+        "proposal template",
+        "[company name] — ai search visibility",
+        "executive summary",
+        "the opportunity: why geo matters for [company name]",
+        "audit findings summary",
+        "our solution: service packages",
+        "roi projection for [company name]",
+        "engagement timeline",
+        "why us",
+        "investment summary",
+        "next steps",
+        "terms & conditions"
+      ],
+      "expected_deliverables": [
+        "unknown"
+      ],
+      "overlaps_with": [
+        "geo-report"
+      ],
+      "source": {
+        "type": "internal",
+        "repository": null,
+        "version": null
+      },
+      "status": "active",
+      "security": {
+        "last_scanned": null,
+        "scanner": null,
+        "result": "unscanned"
+      },
+      "last_modified": "2026-03-28",
+      "last_reviewed": "2026-07-25",
+      "tests": [
+        "unknown"
+      ],
+      "known_weaknesses": [
+        "unknown"
+      ],
+      "notes": "Fields marked unknown were not explicit in SKILL.md."
+    },
+    {
+      "id": "geo-prospect",
+      "name": "geo-prospect",
+      "path": "C:\\Users\\User\\.claude\\skills\\geo-prospect",
+      "installations": [
+        {
+          "runtime": "claude",
+          "path": "C:\\Users\\User\\.claude\\skills\\geo-prospect"
+        }
+      ],
+      "purpose": ">",
+      "category": [
+        "geo"
+      ],
+      "triggers": [
+        ">"
+      ],
+      "inputs": [
+        "unknown"
+      ],
+      "outputs": [
+        "All commands print confirmation + current prospect status to terminal",
+        "No external files unless explicitly saving audits/proposals",
+        "JSON database is the single source of truth"
+      ],
+      "tools": [
+        "filesystem"
+      ],
+      "permissions": {
+        "network": "unknown",
+        "filesystem_write": true,
+        "credentials": "unknown"
+      },
+      "workflow_stages": [
+        "purpose",
+        "commands",
+        "data structure",
+        "orchestration instructions",
+        "storage location",
+        "pipeline stage definitions",
+        "output"
+      ],
+      "expected_deliverables": [
+        "All commands print confirmation + current prospect status to terminal",
+        "No external files unless explicitly saving audits/proposals",
+        "JSON database is the single source of truth"
+      ],
+      "overlaps_with": [
+        "geo-report"
+      ],
+      "source": {
+        "type": "internal",
+        "repository": null,
+        "version": null
+      },
+      "status": "active",
+      "security": {
+        "last_scanned": null,
+        "scanner": null,
+        "result": "unscanned"
+      },
+      "last_modified": "2026-03-28",
+      "last_reviewed": "2026-07-25",
+      "tests": [
+        "unknown"
+      ],
+      "known_weaknesses": [
+        "unknown"
+      ],
+      "notes": "Fields marked unknown were not explicit in SKILL.md."
+    },
+    {
+      "id": "geo-report",
+      "name": "geo-report",
+      "path": "C:\\Users\\User\\.claude\\skills\\geo-report",
+      "installations": [
+        {
+          "runtime": "claude",
+          "path": "C:\\Users\\User\\.claude\\skills\\geo-report"
+        }
+      ],
+      "purpose": "Generate a professional, client-facing GEO report combining all audit results into a single deliverable with scores, findings, and prioritized actions",
+      "category": [
+        "geo"
+      ],
+      "triggers": [
+        "Generate a professional, client-facing GEO report combining all audit results into a single deliverable with scores, findings, and prioritized actions"
+      ],
+      "inputs": [
+        "unknown"
+      ],
+      "outputs": [
+        "unknown"
+      ],
+      "tools": [
+        "web_search"
+      ],
+      "permissions": {
+        "network": true,
+        "filesystem_write": "unknown",
+        "credentials": true
+      },
+      "workflow_stages": [
+        "purpose",
+        "how to use this skill",
+        "geo readiness score calculation",
+        "report template",
+        "geo readiness score: xx/100 — [label]",
+        "ai visibility dashboard",
+        "ai crawler access",
+        "brand authority",
+        "technical health",
+        "schema & structured data",
+        "llms.txt — ai content guide",
+        "prioritized action plan",
+        "competitor comparison",
+        "appendix",
+        "formatting and tone guidelines"
+      ],
+      "expected_deliverables": [
+        "unknown"
+      ],
+      "overlaps_with": [
+        "geo-audit",
+        "geo-citability",
+        "geo-compare",
+        "geo-content",
+        "geo-crawlers",
+        "geo-llmstxt",
+        "geo-proposal",
+        "geo-prospect",
+        "geo-report-pdf",
+        "geo-schema",
+        "geo-technical"
+      ],
+      "source": {
+        "type": "internal",
+        "repository": null,
+        "version": null
+      },
+      "status": "active",
+      "security": {
+        "last_scanned": null,
+        "scanner": null,
+        "result": "unscanned"
+      },
+      "last_modified": "2026-03-28",
+      "last_reviewed": "2026-07-25",
+      "tests": [
+        "unknown"
+      ],
+      "known_weaknesses": [
+        "unknown"
+      ],
+      "notes": "Fields marked unknown were not explicit in SKILL.md."
+    },
+    {
+      "id": "geo-report-pdf",
+      "name": "geo-report-pdf",
+      "path": "C:\\Users\\User\\.claude\\skills\\geo-report-pdf",
+      "installations": [
+        {
+          "runtime": "claude",
+          "path": "C:\\Users\\User\\.claude\\skills\\geo-report-pdf"
+        }
+      ],
+      "purpose": "Generate a professional PDF report from GEO audit data using ReportLab. Creates a polished, client-ready PDF with score gauges, bar charts, platform readiness visualizations, color-coded tables, and prioritized action plans.",
+      "category": [
+        "geo"
+      ],
+      "triggers": [
+        "Generate a professional PDF report from GEO audit data using ReportLab. Creates a polished, client-ready PDF with score gauges, bar charts, platform readiness visualizations, color-coded tables, and prioritized action plans."
+      ],
+      "inputs": [
+        "unknown"
+      ],
+      "outputs": [
+        "unknown"
+      ],
+      "tools": [
+        "filesystem",
+        "python"
+      ],
+      "permissions": {
+        "network": "unknown",
+        "filesystem_write": true,
+        "credentials": "unknown"
+      },
+      "workflow_stages": [
+        "purpose",
+        "prerequisites",
+        "how to generate a pdf report",
+        "complete workflow example",
+        "if the user provides a url",
+        "parsing markdown audit data",
+        "notes"
+      ],
+      "expected_deliverables": [
+        "unknown"
+      ],
+      "overlaps_with": [
+        "geo-report",
+        "pdf"
+      ],
+      "source": {
+        "type": "internal",
+        "repository": null,
+        "version": null
+      },
+      "status": "active",
+      "security": {
+        "last_scanned": null,
+        "scanner": null,
+        "result": "unscanned"
+      },
+      "last_modified": "2026-03-28",
+      "last_reviewed": "2026-07-25",
+      "tests": [
+        "unknown"
+      ],
+      "known_weaknesses": [
+        "unknown"
+      ],
+      "notes": "Fields marked unknown were not explicit in SKILL.md."
+    },
+    {
+      "id": "geo-schema",
+      "name": "geo-schema",
+      "path": "C:\\Users\\User\\.claude\\skills\\geo-schema",
+      "installations": [
+        {
+          "runtime": "claude",
+          "path": "C:\\Users\\User\\.claude\\skills\\geo-schema"
+        }
+      ],
+      "purpose": "Schema.org structured data audit and generation optimized for AI discoverability — detect, validate, and generate JSON-LD markup",
+      "category": [
+        "geo"
+      ],
+      "triggers": [
+        "Schema.org structured data audit and generation optimized for AI discoverability — detect, validate, and generate JSON-LD markup"
+      ],
+      "inputs": [
+        "unknown"
+      ],
+      "outputs": [
+        "unknown"
+      ],
+      "tools": [
+        "python"
+      ],
+      "permissions": {
+        "network": "unknown",
+        "filesystem_write": "unknown",
+        "credentials": "unknown"
+      },
+      "workflow_stages": [
+        "purpose",
+        "how to use this skill",
+        "detection",
+        "validation",
+        "schema types for geo",
+        "deprecated/changed schemas to flag",
+        "sameas strategy (critical for entity recognition)",
+        "json-ld generation",
+        "scoring rubric (0-100)",
+        "output format",
+        "schema score: xx/100",
+        "detected schemas",
+        "validation results",
+        "missing recommended schemas",
+        "sameas audit"
+      ],
+      "expected_deliverables": [
+        "unknown"
+      ],
+      "overlaps_with": [
+        "geo-report"
+      ],
+      "source": {
+        "type": "internal",
+        "repository": null,
+        "version": null
+      },
+      "status": "active",
+      "security": {
+        "last_scanned": null,
+        "scanner": null,
+        "result": "unscanned"
+      },
+      "last_modified": "2026-03-28",
+      "last_reviewed": "2026-07-25",
+      "tests": [
+        "unknown"
+      ],
+      "known_weaknesses": [
+        "unknown"
+      ],
+      "notes": "Fields marked unknown were not explicit in SKILL.md."
+    },
+    {
+      "id": "geo-technical",
+      "name": "geo-technical",
+      "path": "C:\\Users\\User\\.claude\\skills\\geo-technical",
+      "installations": [
+        {
+          "runtime": "claude",
+          "path": "C:\\Users\\User\\.claude\\skills\\geo-technical"
+        }
+      ],
+      "purpose": "Technical SEO audit with GEO-specific checks — crawlability, indexability, security, performance, SSR, and AI crawler access",
+      "category": [
+        "geo",
+        "seo"
+      ],
+      "triggers": [
+        "Technical SEO audit with GEO-specific checks — crawlability, indexability, security, performance, SSR, and AI crawler access"
+      ],
+      "inputs": [
+        "unknown"
+      ],
+      "outputs": [
+        "unknown"
+      ],
+      "tools": [
+        "browser"
+      ],
+      "permissions": {
+        "network": true,
+        "filesystem_write": "unknown",
+        "credentials": "unknown"
+      },
+      "workflow_stages": [
+        "purpose",
+        "how to use this skill",
+        "category 1: crawlability (15 points)",
+        "category 2: indexability (12 points)",
+        "category 3: security (10 points)",
+        "category 4: url structure (8 points)",
+        "category 5: mobile optimization (10 points)",
+        "category 6: core web vitals (15 points)",
+        "category 7: server-side rendering (15 points) — critical for geo",
+        "category 8: page speed & server performance (15 points)",
+        "indexnow protocol",
+        "overall scoring",
+        "output format",
+        "technical score: xx/100",
+        "score breakdown"
+      ],
+      "expected_deliverables": [
+        "unknown"
+      ],
+      "overlaps_with": [
+        "geo-report"
+      ],
+      "source": {
+        "type": "internal",
+        "repository": null,
+        "version": null
+      },
+      "status": "active",
+      "security": {
+        "last_scanned": null,
+        "scanner": null,
+        "result": "unscanned"
+      },
+      "last_modified": "2026-03-28",
+      "last_reviewed": "2026-07-25",
+      "tests": [
+        "unknown"
+      ],
+      "known_weaknesses": [
+        "unknown"
+      ],
+      "notes": "Fields marked unknown were not explicit in SKILL.md."
+    },
+    {
+      "id": "goal",
+      "name": "goal",
+      "path": "C:\\Users\\User\\.claude\\skills\\goal",
+      "installations": [
+        {
+          "runtime": "claude",
+          "path": "C:\\Users\\User\\.claude\\skills\\goal"
+        }
+      ],
+      "purpose": "Sets a completion condition and runs autonomously -- spawning parallel sub-agents where tasks are independent -- until a separate evaluator confirms the goal is met. Use when you want to hand Claude a job and walk away. Triggered by /goal followed by a task description and a checkable completion condition. The worker cannot declare itself done. Only the evaluator can.",
+      "category": [
+        "general"
+      ],
+      "triggers": [
+        "Sets a completion condition and runs autonomously -- spawning parallel sub-agents where tasks are independent -- until a separate evaluator confirms the goal is met. Use when you want to hand Claude a job and walk away. Triggered by /goal followed by a task description and a checkable completion condition. The worker cannot declare itself done. Only the evaluator can."
+      ],
+      "inputs": [
+        "unknown"
+      ],
+      "outputs": [
+        "unknown"
+      ],
+      "tools": [
+        "unknown"
+      ],
+      "permissions": {
+        "network": "unknown",
+        "filesystem_write": "unknown",
+        "credentials": "unknown"
+      },
+      "workflow_stages": [
+        "core mechanic",
+        "parse the goal",
+        "plan the work blocks",
+        "dispatch sub-agents",
+        "evaluator check",
+        "if fail, iterate",
+        "final summary",
+        "usage examples for bridgeworks",
+        "rules"
+      ],
+      "expected_deliverables": [
+        "unknown"
+      ],
+      "overlaps_with": [],
+      "source": {
+        "type": "internal",
+        "repository": "unknown",
+        "version": "unknown"
+      },
+      "status": "active",
+      "security": {
+        "last_scanned": null,
+        "scanner": null,
+        "result": "unscanned"
+      },
+      "last_modified": "2026-06-27",
+      "last_reviewed": "2026-07-25",
+      "tests": [
+        "unknown"
+      ],
+      "known_weaknesses": [
+        "unknown"
+      ],
+      "notes": "Fields marked unknown were not explicit in SKILL.md."
+    },
+    {
+      "id": "gsc-opportunity",
+      "name": "gsc-opportunity",
+      "path": "C:\\Users\\User\\.claude\\skills\\gsc-opportunity",
+      "installations": [
+        {
+          "runtime": "claude",
+          "path": "C:\\Users\\User\\.claude\\skills\\gsc-opportunity"
+        }
+      ],
+      "purpose": "Pull live Google Search Console demand data via the Ahrefs MCP connector, cross-check AI-answer visibility per topic, and produce one scored (0-100) opportunity table. Use when the user says \"GSC opportunities\", \"what should I write next\", \"SEO opportunity scan\", \"merge my search data\", \"weekly SEO loop\", or wants to know which pages/topics to prioritize this week.",
+      "category": [
+        "seo"
+      ],
+      "triggers": [
+        "GSC opportunities",
+        "what should I write next",
+        "SEO opportunity scan",
+        "merge my search data",
+        "weekly SEO loop"
+      ],
+      "inputs": [
+        "Either",
+        "A rough list of 10-30 candidate topics/queries to check for AI visibility (Step 3 samples from what Step 1-2 surface — y",
+        "Optional"
+      ],
+      "outputs": [
+        "unknown"
+      ],
+      "tools": [
+        "filesystem"
+      ],
+      "permissions": {
+        "network": "unknown",
+        "filesystem_write": true,
+        "credentials": "unknown"
+      },
+      "workflow_stages": [
+        "core insight",
+        "what you need (inputs)",
+        "step 1 — pull demand data",
+        "step 2 — find the four demand patterns",
+        "step 3 — check ai-answer visibility per topic",
+        "step 4 — merge into one opportunity table",
+        "step 5 — score every row (0-100)",
+        "output format",
+        "top 5 — do these first",
+        "full opportunity table",
+        "demand patterns detected",
+        "ai visibility notes",
+        "pro tip",
+        "how often to run"
+      ],
+      "expected_deliverables": [
+        "unknown"
+      ],
+      "overlaps_with": [],
+      "source": {
+        "type": "internal",
+        "repository": "unknown",
+        "version": "unknown"
+      },
+      "status": "active",
+      "security": {
+        "last_scanned": null,
+        "scanner": null,
+        "result": "unscanned"
+      },
+      "last_modified": "2026-07-15",
+      "last_reviewed": "2026-07-25",
+      "tests": [
+        "unknown"
+      ],
+      "known_weaknesses": [
+        "unknown"
+      ],
+      "notes": "Fields marked unknown were not explicit in SKILL.md."
+    },
+    {
+      "id": "lead-magnets",
+      "name": "lead-magnets",
+      "path": "C:\\Users\\User\\.claude\\skills\\lead-magnets",
+      "installations": [
+        {
+          "runtime": "claude",
+          "path": "C:\\Users\\User\\.claude\\skills\\lead-magnets"
+        }
+      ],
+      "purpose": "When the user wants to create, plan, or optimize a lead magnet for email capture or lead generation. Also use when the user mentions \"lead magnet,\" \"gated content,\" \"content upgrade,\" \"downloadable,\" \"ebook,\" \"cheat sheet,\" \"checklist,\" \"template download,\" \"opt-in,\" \"freebie,\" \"PDF download,\" \"resource library,\" \"content offer,\" \"email capture content,\" \"Notion template,\" \"spreadsheet template,\" or \"what should I give away for emails.\" Use this for planning what to create and how to distribute it. For interactive tools as lead magnets, see free-tools. For writing the actual content, see copywriting. For the email sequence after capture, see emails.",
+      "category": [
+        "content"
+      ],
+      "triggers": [
+        "lead magnet,",
+        "gated content,",
+        "content upgrade,",
+        "downloadable,",
+        "ebook,",
+        "cheat sheet,",
+        "checklist,",
+        "template download,",
+        "opt-in,",
+        "freebie,"
+      ],
+      "inputs": [
+        "unknown"
+      ],
+      "outputs": [
+        "unknown"
+      ],
+      "tools": [
+        "unknown"
+      ],
+      "permissions": {
+        "network": "unknown",
+        "filesystem_write": "unknown",
+        "credentials": "unknown"
+      },
+      "workflow_stages": [
+        "before planning",
+        "lead magnet principles",
+        "lead magnet types",
+        "matching lead magnets to buyer stage",
+        "gating strategy",
+        "landing page & delivery",
+        "promotion & distribution",
+        "measuring success",
+        "output format",
+        "task-specific questions",
+        "related skills"
+      ],
+      "expected_deliverables": [
+        "unknown"
+      ],
+      "overlaps_with": [],
+      "source": {
+        "type": "internal",
+        "repository": "unknown",
+        "version": "unknown"
+      },
+      "status": "active",
+      "security": {
+        "last_scanned": null,
+        "scanner": null,
+        "result": "unscanned"
+      },
+      "last_modified": "2026-07-25",
+      "last_reviewed": "2026-07-25",
+      "tests": [
+        "unknown"
+      ],
+      "known_weaknesses": [
+        "unknown"
+      ],
+      "notes": "Fields marked unknown were not explicit in SKILL.md."
+    },
+    {
+      "id": "lead-qualifier",
+      "name": "lead-qualifier",
+      "path": "C:\\Users\\User\\.claude\\skills\\lead-qualifier-skill",
+      "installations": [
+        {
+          "runtime": "claude",
+          "path": "C:\\Users\\User\\.claude\\skills\\lead-qualifier-skill"
+        }
+      ],
+      "purpose": ">",
+      "category": [
+        "general"
+      ],
+      "triggers": [
+        ">"
+      ],
+      "inputs": [
+        "unknown"
+      ],
+      "outputs": [
+        "unknown"
+      ],
+      "tools": [
+        "gmail"
+      ],
+      "permissions": {
+        "network": true,
+        "filesystem_write": "unknown",
+        "credentials": "unknown"
+      },
+      "workflow_stages": [
+        "purpose",
+        "how it works",
+        "lead assessment",
+        "draft reply",
+        "next steps",
+        "rules"
+      ],
+      "expected_deliverables": [
+        "unknown"
+      ],
+      "overlaps_with": [],
+      "source": {
+        "type": "internal",
+        "repository": "unknown",
+        "version": "unknown"
+      },
+      "status": "active",
+      "security": {
+        "last_scanned": null,
+        "scanner": null,
+        "result": "unscanned"
+      },
+      "last_modified": "2026-05-11",
+      "last_reviewed": "2026-07-25",
+      "tests": [
+        "unknown"
+      ],
+      "known_weaknesses": [
+        "unknown"
+      ],
+      "notes": "Fields marked unknown were not explicit in SKILL.md."
+    },
+    {
+      "id": "linkedin-reply",
+      "name": "linkedin-reply",
+      "path": "C:\\Users\\User\\.claude\\skills\\linkedin-reply",
+      "installations": [
+        {
+          "runtime": "claude",
+          "path": "C:\\Users\\User\\.claude\\skills\\linkedin-reply"
+        }
+      ],
+      "purpose": "Write a reply to a LinkedIn comment in Emmanuel's voice. Use when user says \"reply to this comment\" or pastes a comment and asks for a response, or says \"how should I respond to this on LinkedIn\".",
+      "category": [
+        "general"
+      ],
+      "triggers": [
+        "reply to this comment",
+        "how should I respond to this on LinkedIn"
+      ],
+      "inputs": [
+        "unknown"
+      ],
+      "outputs": [
+        "unknown"
+      ],
+      "tools": [
+        "unknown"
+      ],
+      "permissions": {
+        "network": "unknown",
+        "filesystem_write": "unknown",
+        "credentials": "unknown"
+      },
+      "workflow_stages": [
+        "context",
+        "emmanuel's reply voice",
+        "process",
+        "output"
+      ],
+      "expected_deliverables": [
+        "unknown"
+      ],
+      "overlaps_with": [],
+      "source": {
+        "type": "internal",
+        "repository": "unknown",
+        "version": "unknown"
+      },
+      "status": "active",
+      "security": {
+        "last_scanned": null,
+        "scanner": null,
+        "result": "unscanned"
+      },
+      "last_modified": "2026-03-30",
+      "last_reviewed": "2026-07-25",
+      "tests": [
+        "unknown"
+      ],
+      "known_weaknesses": [
+        "unknown"
+      ],
+      "notes": "Fields marked unknown were not explicit in SKILL.md."
+    },
+    {
+      "id": "market",
+      "name": "market",
+      "path": "C:\\Users\\User\\.claude\\skills\\market",
+      "installations": [
+        {
+          "runtime": "claude",
+          "path": "C:\\Users\\User\\.claude\\skills\\market"
+        }
+      ],
+      "purpose": "unknown",
+      "category": [
+        "market"
+      ],
+      "triggers": [
+        "unknown"
+      ],
+      "inputs": [
+        "unknown"
+      ],
+      "outputs": [
+        "unknown"
+      ],
+      "tools": [
+        "unknown"
+      ],
+      "permissions": {
+        "network": "unknown",
+        "filesystem_write": "unknown",
+        "credentials": "unknown"
+      },
+      "workflow_stages": [
+        "command reference",
+        "routing logic",
+        "business context detection",
+        "output standards",
+        "file output",
+        "cross-skill references"
+      ],
+      "expected_deliverables": [
+        "unknown"
+      ],
+      "overlaps_with": [
+        "market-ads",
+        "market-audit",
+        "market-brand",
+        "market-competitors",
+        "market-copy",
+        "market-emails",
+        "market-funnel",
+        "market-landing",
+        "market-launch",
+        "market-proposal",
+        "market-report",
+        "market-report-pdf"
+      ],
+      "source": {
+        "type": "internal",
+        "repository": "unknown",
+        "version": "unknown"
+      },
+      "status": "active",
+      "security": {
+        "last_scanned": null,
+        "scanner": null,
+        "result": "unscanned"
+      },
+      "last_modified": "2026-06-11",
+      "last_reviewed": "2026-07-25",
+      "tests": [
+        "unknown"
+      ],
+      "known_weaknesses": [
+        "unknown"
+      ],
+      "notes": "Fields marked unknown were not explicit in SKILL.md."
+    },
+    {
+      "id": "market-ads",
+      "name": "market-ads",
+      "path": "C:\\Users\\User\\.claude\\skills\\market-ads",
+      "installations": [
+        {
+          "runtime": "claude",
+          "path": "C:\\Users\\User\\.claude\\skills\\market-ads"
+        }
+      ],
+      "purpose": "unknown",
+      "category": [
+        "market"
+      ],
+      "triggers": [
+        "unknown"
+      ],
+      "inputs": [
+        "unknown"
+      ],
+      "outputs": [
+        "unknown"
+      ],
+      "tools": [
+        "unknown"
+      ],
+      "permissions": {
+        "network": "unknown",
+        "filesystem_write": "unknown",
+        "credentials": "unknown"
+      },
+      "workflow_stages": [
+        "when this skill is invoked",
+        "phase 1: campaign foundation",
+        "phase 2: platform-specific ad generation",
+        "phase 3: retargeting sequences",
+        "phase 4: budget and performance",
+        "phase 5: ad variations and testing",
+        "output format: ad-campaigns.md",
+        "campaign strategy overview",
+        "audience targeting",
+        "campaign 1: [platform name]",
+        "retargeting strategy",
+        "budget allocation",
+        "testing plan",
+        "performance benchmarks",
+        "landing page alignment"
+      ],
+      "expected_deliverables": [
+        "unknown"
+      ],
+      "overlaps_with": [
+        "market",
+        "market-report"
+      ],
+      "source": {
+        "type": "internal",
+        "repository": "unknown",
+        "version": "unknown"
+      },
+      "status": "active",
+      "security": {
+        "last_scanned": null,
+        "scanner": null,
+        "result": "unscanned"
+      },
+      "last_modified": "2026-06-11",
+      "last_reviewed": "2026-07-25",
+      "tests": [
+        "unknown"
+      ],
+      "known_weaknesses": [
+        "unknown"
+      ],
+      "notes": "Fields marked unknown were not explicit in SKILL.md."
+    },
+    {
+      "id": "market-audit",
+      "name": "market-audit",
+      "path": "C:\\Users\\User\\.claude\\skills\\market-audit",
+      "installations": [
+        {
+          "runtime": "claude",
+          "path": "C:\\Users\\User\\.claude\\skills\\market-audit"
+        }
+      ],
+      "purpose": "unknown",
+      "category": [
+        "market"
+      ],
+      "triggers": [
+        "unknown"
+      ],
+      "inputs": [
+        "unknown"
+      ],
+      "outputs": [
+        "unknown"
+      ],
+      "tools": [
+        "unknown"
+      ],
+      "permissions": {
+        "network": "unknown",
+        "filesystem_write": "unknown",
+        "credentials": "unknown"
+      },
+      "workflow_stages": [
+        "client document standards",
+        "when this skill is invoked",
+        "phase 1: discovery (pre-analysis)",
+        "phase 2: analysis (parallel subagent execution)",
+        "phase 3: synthesis (aggregation and scoring)",
+        "output format: marketing-audit.md",
+        "executive summary",
+        "score breakdown",
+        "quick wins (this week)",
+        "strategic recommendations (this month)",
+        "long-term initiatives (this quarter)",
+        "detailed analysis by category",
+        "competitor comparison",
+        "revenue impact summary",
+        "next steps"
+      ],
+      "expected_deliverables": [
+        "unknown"
+      ],
+      "overlaps_with": [
+        "market",
+        "market-report"
+      ],
+      "source": {
+        "type": "internal",
+        "repository": "unknown",
+        "version": "unknown"
+      },
+      "status": "active",
+      "security": {
+        "last_scanned": null,
+        "scanner": null,
+        "result": "unscanned"
+      },
+      "last_modified": "2026-06-11",
+      "last_reviewed": "2026-07-25",
+      "tests": [
+        "unknown"
+      ],
+      "known_weaknesses": [
+        "unknown"
+      ],
+      "notes": "Fields marked unknown were not explicit in SKILL.md."
+    },
+    {
+      "id": "market-brand",
+      "name": "market-brand",
+      "path": "C:\\Users\\User\\.claude\\skills\\market-brand",
+      "installations": [
+        {
+          "runtime": "claude",
+          "path": "C:\\Users\\User\\.claude\\skills\\market-brand"
+        }
+      ],
+      "purpose": "unknown",
+      "category": [
+        "market"
+      ],
+      "triggers": [
+        "unknown"
+      ],
+      "inputs": [
+        "unknown"
+      ],
+      "outputs": [
+        "unknown"
+      ],
+      "tools": [
+        "browser",
+        "python"
+      ],
+      "permissions": {
+        "network": true,
+        "filesystem_write": "unknown",
+        "credentials": "unknown"
+      },
+      "workflow_stages": [
+        "skill purpose",
+        "when to use",
+        "how to execute",
+        "output format",
+        "[brand name]",
+        "voice summary",
+        "voice dimensions",
+        "brand personality",
+        "tone by context",
+        "vocabulary",
+        "voice chart",
+        "writing guidelines",
+        "brand messaging hierarchy",
+        "copy samples",
+        "competitor voice comparison"
+      ],
+      "expected_deliverables": [
+        "unknown"
+      ],
+      "overlaps_with": [
+        "market",
+        "market-report"
+      ],
+      "source": {
+        "type": "internal",
+        "repository": "unknown",
+        "version": "unknown"
+      },
+      "status": "active",
+      "security": {
+        "last_scanned": null,
+        "scanner": null,
+        "result": "unscanned"
+      },
+      "last_modified": "2026-06-11",
+      "last_reviewed": "2026-07-25",
+      "tests": [
+        "unknown"
+      ],
+      "known_weaknesses": [
+        "unknown"
+      ],
+      "notes": "Fields marked unknown were not explicit in SKILL.md."
+    },
+    {
+      "id": "market-competitors",
+      "name": "market-competitors",
+      "path": "C:\\Users\\User\\.claude\\skills\\market-competitors",
+      "installations": [
+        {
+          "runtime": "claude",
+          "path": "C:\\Users\\User\\.claude\\skills\\market-competitors"
+        }
+      ],
+      "purpose": "unknown",
+      "category": [
+        "market"
+      ],
+      "triggers": [
+        "unknown"
+      ],
+      "inputs": [
+        "unknown"
+      ],
+      "outputs": [
+        "unknown"
+      ],
+      "tools": [
+        "python"
+      ],
+      "permissions": {
+        "network": "unknown",
+        "filesystem_write": "unknown",
+        "credentials": "unknown"
+      },
+      "workflow_stages": [
+        "when this skill is invoked",
+        "phase 1: competitor identification",
+        "phase 2: competitor analysis framework",
+        "phase 3: swot analysis",
+        "phase 4: strategic recommendations",
+        "phase 5: monitoring and ongoing intelligence",
+        "output format: competitor-report.md",
+        "executive summary",
+        "competitor overview",
+        "detailed competitor profiles",
+        "comparison tables",
+        "positioning map",
+        "content & seo gap analysis",
+        "swot analysis — [target brand]",
+        "strategic recommendations"
+      ],
+      "expected_deliverables": [
+        "unknown"
+      ],
+      "overlaps_with": [
+        "market",
+        "market-report"
+      ],
+      "source": {
+        "type": "internal",
+        "repository": "unknown",
+        "version": "unknown"
+      },
+      "status": "active",
+      "security": {
+        "last_scanned": null,
+        "scanner": null,
+        "result": "unscanned"
+      },
+      "last_modified": "2026-06-11",
+      "last_reviewed": "2026-07-25",
+      "tests": [
+        "unknown"
+      ],
+      "known_weaknesses": [
+        "unknown"
+      ],
+      "notes": "Fields marked unknown were not explicit in SKILL.md."
+    },
+    {
+      "id": "market-copy",
+      "name": "market-copy",
+      "path": "C:\\Users\\User\\.claude\\skills\\market-copy",
+      "installations": [
+        {
+          "runtime": "claude",
+          "path": "C:\\Users\\User\\.claude\\skills\\market-copy"
+        }
+      ],
+      "purpose": "unknown",
+      "category": [
+        "market"
+      ],
+      "triggers": [
+        "unknown"
+      ],
+      "inputs": [
+        "unknown"
+      ],
+      "outputs": [
+        "unknown"
+      ],
+      "tools": [
+        "unknown"
+      ],
+      "permissions": {
+        "network": "unknown",
+        "filesystem_write": "unknown",
+        "credentials": true
+      },
+      "workflow_stages": [
+        "when this skill is invoked",
+        "phase 1: copy discovery",
+        "phase 2: copy analysis",
+        "phase 3: copy generation",
+        "output format",
+        "executive summary",
+        "voice & tone profile",
+        "score breakdown",
+        "value proposition analysis",
+        "headline recommendations",
+        "section-by-section copy suggestions",
+        "cta optimization",
+        "before/after examples",
+        "swipe file",
+        "implementation priority"
+      ],
+      "expected_deliverables": [
+        "unknown"
+      ],
+      "overlaps_with": [
+        "market",
+        "market-report"
+      ],
+      "source": {
+        "type": "internal",
+        "repository": "unknown",
+        "version": "unknown"
+      },
+      "status": "active",
+      "security": {
+        "last_scanned": null,
+        "scanner": null,
+        "result": "unscanned"
+      },
+      "last_modified": "2026-06-11",
+      "last_reviewed": "2026-07-25",
+      "tests": [
+        "unknown"
+      ],
+      "known_weaknesses": [
+        "unknown"
+      ],
+      "notes": "Fields marked unknown were not explicit in SKILL.md."
+    },
+    {
+      "id": "market-emails",
+      "name": "market-emails",
+      "path": "C:\\Users\\User\\.claude\\skills\\market-emails",
+      "installations": [
+        {
+          "runtime": "claude",
+          "path": "C:\\Users\\User\\.claude\\skills\\market-emails"
+        }
+      ],
+      "purpose": "unknown",
+      "category": [
+        "market"
+      ],
+      "triggers": [
+        "unknown"
+      ],
+      "inputs": [
+        "unknown"
+      ],
+      "outputs": [
+        "unknown"
+      ],
+      "tools": [
+        "unknown"
+      ],
+      "permissions": {
+        "network": "unknown",
+        "filesystem_write": "unknown",
+        "credentials": "unknown"
+      },
+      "workflow_stages": [
+        "when this skill is invoked",
+        "phase 1: context gathering",
+        "phase 2: email frameworks",
+        "phase 3: sequence templates",
+        "phase 4: segmentation and personalization",
+        "phase 5: metrics and benchmarks",
+        "output format: email-sequences.md",
+        "sequence 1: [sequence type]",
+        "segmentation strategy",
+        "a/b testing plan",
+        "metrics to track",
+        "compliance checklist",
+        "implementation notes",
+        "terminal output",
+        "cross-skill integration"
+      ],
+      "expected_deliverables": [
+        "unknown"
+      ],
+      "overlaps_with": [
+        "market",
+        "market-report"
+      ],
+      "source": {
+        "type": "internal",
+        "repository": "unknown",
+        "version": "unknown"
+      },
+      "status": "active",
+      "security": {
+        "last_scanned": null,
+        "scanner": null,
+        "result": "unscanned"
+      },
+      "last_modified": "2026-06-11",
+      "last_reviewed": "2026-07-25",
+      "tests": [
+        "unknown"
+      ],
+      "known_weaknesses": [
+        "unknown"
+      ],
+      "notes": "Fields marked unknown were not explicit in SKILL.md."
+    },
+    {
+      "id": "market-funnel",
+      "name": "market-funnel",
+      "path": "C:\\Users\\User\\.claude\\skills\\market-funnel",
+      "installations": [
+        {
+          "runtime": "claude",
+          "path": "C:\\Users\\User\\.claude\\skills\\market-funnel"
+        }
+      ],
+      "purpose": "unknown",
+      "category": [
+        "market"
+      ],
+      "triggers": [
+        "unknown"
+      ],
+      "inputs": [
+        "unknown"
+      ],
+      "outputs": [
+        "unknown"
+      ],
+      "tools": [
+        "unknown"
+      ],
+      "permissions": {
+        "network": "unknown",
+        "filesystem_write": "unknown",
+        "credentials": "unknown"
+      },
+      "workflow_stages": [
+        "when this skill is invoked",
+        "phase 1: funnel discovery and mapping",
+        "phase 2: page-by-page analysis",
+        "phase 3: funnel metrics and benchmarks",
+        "phase 4: optimization recommendations",
+        "phase 5: nurture sequence integration",
+        "output format: funnel-analysis.md",
+        "executive summary",
+        "funnel map",
+        "page-by-page analysis",
+        "funnel metrics",
+        "revenue impact analysis",
+        "optimization recommendations",
+        "pricing page assessment",
+        "lead magnet assessment"
+      ],
+      "expected_deliverables": [
+        "unknown"
+      ],
+      "overlaps_with": [
+        "market",
+        "market-report"
+      ],
+      "source": {
+        "type": "internal",
+        "repository": "unknown",
+        "version": "unknown"
+      },
+      "status": "active",
+      "security": {
+        "last_scanned": null,
+        "scanner": null,
+        "result": "unscanned"
+      },
+      "last_modified": "2026-06-11",
+      "last_reviewed": "2026-07-25",
+      "tests": [
+        "unknown"
+      ],
+      "known_weaknesses": [
+        "unknown"
+      ],
+      "notes": "Fields marked unknown were not explicit in SKILL.md."
+    },
+    {
+      "id": "market-landing",
+      "name": "market-landing",
+      "path": "C:\\Users\\User\\.claude\\skills\\market-landing",
+      "installations": [
+        {
+          "runtime": "claude",
+          "path": "C:\\Users\\User\\.claude\\skills\\market-landing"
+        }
+      ],
+      "purpose": "unknown",
+      "category": [
+        "market"
+      ],
+      "triggers": [
+        "unknown"
+      ],
+      "inputs": [
+        "unknown"
+      ],
+      "outputs": [
+        "unknown"
+      ],
+      "tools": [
+        "browser"
+      ],
+      "permissions": {
+        "network": true,
+        "filesystem_write": "unknown",
+        "credentials": "unknown"
+      },
+      "workflow_stages": [
+        "skill purpose",
+        "when to use",
+        "how to execute",
+        "output format",
+        "[page url]",
+        "overall cro score: [x/100]",
+        "page type: [identified type]",
+        "current estimated conversion rate: [estimate based on findings]",
+        "target conversion rate: [realistic improvement target]",
+        "section-by-section analysis",
+        "copy score: [x/100]",
+        "form audit",
+        "mobile audit",
+        "a/b test recommendations",
+        "prioritized fix list"
+      ],
+      "expected_deliverables": [
+        "unknown"
+      ],
+      "overlaps_with": [
+        "market",
+        "market-report"
+      ],
+      "source": {
+        "type": "internal",
+        "repository": "unknown",
+        "version": "unknown"
+      },
+      "status": "active",
+      "security": {
+        "last_scanned": null,
+        "scanner": null,
+        "result": "unscanned"
+      },
+      "last_modified": "2026-06-11",
+      "last_reviewed": "2026-07-25",
+      "tests": [
+        "unknown"
+      ],
+      "known_weaknesses": [
+        "unknown"
+      ],
+      "notes": "Fields marked unknown were not explicit in SKILL.md."
+    },
+    {
+      "id": "market-launch",
+      "name": "market-launch",
+      "path": "C:\\Users\\User\\.claude\\skills\\market-launch",
+      "installations": [
+        {
+          "runtime": "claude",
+          "path": "C:\\Users\\User\\.claude\\skills\\market-launch"
+        }
+      ],
+      "purpose": "unknown",
+      "category": [
+        "market"
+      ],
+      "triggers": [
+        "unknown"
+      ],
+      "inputs": [
+        "unknown"
+      ],
+      "outputs": [
+        "unknown"
+      ],
+      "tools": [
+        "unknown"
+      ],
+      "permissions": {
+        "network": "unknown",
+        "filesystem_write": "unknown",
+        "credentials": "unknown"
+      },
+      "workflow_stages": [
+        "skill purpose",
+        "when to use",
+        "how to execute",
+        "output format",
+        "launch date: [date]",
+        "launch type: [type]",
+        "primary goal: [goal with specific target]",
+        "week-by-week plan",
+        "email sequences",
+        "social media content",
+        "partner/influencer plan",
+        "launch day checklist",
+        "metrics dashboard",
+        "budget allocation",
+        "post-launch plan"
+      ],
+      "expected_deliverables": [
+        "unknown"
+      ],
+      "overlaps_with": [
+        "market",
+        "market-report"
+      ],
+      "source": {
+        "type": "internal",
+        "repository": "unknown",
+        "version": "unknown"
+      },
+      "status": "active",
+      "security": {
+        "last_scanned": null,
+        "scanner": null,
+        "result": "unscanned"
+      },
+      "last_modified": "2026-06-11",
+      "last_reviewed": "2026-07-25",
+      "tests": [
+        "unknown"
+      ],
+      "known_weaknesses": [
+        "unknown"
+      ],
+      "notes": "Fields marked unknown were not explicit in SKILL.md."
+    },
+    {
+      "id": "market-proposal",
+      "name": "market-proposal",
+      "path": "C:\\Users\\User\\.claude\\skills\\market-proposal",
+      "installations": [
+        {
+          "runtime": "claude",
+          "path": "C:\\Users\\User\\.claude\\skills\\market-proposal"
+        }
+      ],
+      "purpose": "unknown",
+      "category": [
+        "market",
+        "proposal"
+      ],
+      "triggers": [
+        "unknown"
+      ],
+      "inputs": [
+        "unknown"
+      ],
+      "outputs": [
+        "unknown"
+      ],
+      "tools": [
+        "unknown"
+      ],
+      "permissions": {
+        "network": "unknown",
+        "filesystem_write": "unknown",
+        "credentials": "unknown"
+      },
+      "workflow_stages": [
+        "skill purpose",
+        "when to use",
+        "how to execute",
+        "output format",
+        "prepared for: [client name]",
+        "prepared by: [agency name]",
+        "date: [date]",
+        "table of contents",
+        "appendix",
+        "key principles"
+      ],
+      "expected_deliverables": [
+        "unknown"
+      ],
+      "overlaps_with": [
+        "market",
+        "market-report"
+      ],
+      "source": {
+        "type": "internal",
+        "repository": "unknown",
+        "version": "unknown"
+      },
+      "status": "active",
+      "security": {
+        "last_scanned": null,
+        "scanner": null,
+        "result": "unscanned"
+      },
+      "last_modified": "2026-06-11",
+      "last_reviewed": "2026-07-25",
+      "tests": [
+        "unknown"
+      ],
+      "known_weaknesses": [
+        "unknown"
+      ],
+      "notes": "Fields marked unknown were not explicit in SKILL.md."
+    },
+    {
+      "id": "market-report",
+      "name": "market-report",
+      "path": "C:\\Users\\User\\.claude\\skills\\market-report",
+      "installations": [
+        {
+          "runtime": "claude",
+          "path": "C:\\Users\\User\\.claude\\skills\\market-report"
+        }
+      ],
+      "purpose": "unknown",
+      "category": [
+        "market"
+      ],
+      "triggers": [
+        "unknown"
+      ],
+      "inputs": [
+        "unknown"
+      ],
+      "outputs": [
+        "unknown"
+      ],
+      "tools": [
+        "python"
+      ],
+      "permissions": {
+        "network": "unknown",
+        "filesystem_write": "unknown",
+        "credentials": "unknown"
+      },
+      "workflow_stages": [
+        "skill purpose",
+        "when to use",
+        "how to execute",
+        "output format",
+        "[company/domain name]",
+        "executive summary",
+        "detailed findings",
+        "competitor comparison",
+        "seo snapshot",
+        "conversion optimization summary",
+        "revenue impact summary",
+        "prioritized action plan",
+        "30-60-90 day roadmap",
+        "appendix",
+        "key principles"
+      ],
+      "expected_deliverables": [
+        "unknown"
+      ],
+      "overlaps_with": [
+        "market",
+        "market-ads",
+        "market-audit",
+        "market-brand",
+        "market-competitors",
+        "market-copy",
+        "market-emails",
+        "market-funnel",
+        "market-landing",
+        "market-launch",
+        "market-proposal",
+        "market-report-pdf"
+      ],
+      "source": {
+        "type": "internal",
+        "repository": "unknown",
+        "version": "unknown"
+      },
+      "status": "active",
+      "security": {
+        "last_scanned": null,
+        "scanner": null,
+        "result": "unscanned"
+      },
+      "last_modified": "2026-06-11",
+      "last_reviewed": "2026-07-25",
+      "tests": [
+        "unknown"
+      ],
+      "known_weaknesses": [
+        "unknown"
+      ],
+      "notes": "Fields marked unknown were not explicit in SKILL.md."
+    },
+    {
+      "id": "market-report-pdf",
+      "name": "market-report-pdf",
+      "path": "C:\\Users\\User\\.claude\\skills\\market-report-pdf",
+      "installations": [
+        {
+          "runtime": "claude",
+          "path": "C:\\Users\\User\\.claude\\skills\\market-report-pdf"
+        }
+      ],
+      "purpose": "unknown",
+      "category": [
+        "market"
+      ],
+      "triggers": [
+        "unknown"
+      ],
+      "inputs": [
+        "unknown"
+      ],
+      "outputs": [
+        "File",
+        "Location",
+        "Size",
+        "Pages"
+      ],
+      "tools": [
+        "python",
+        "git"
+      ],
+      "permissions": {
+        "network": true,
+        "filesystem_write": "unknown",
+        "credentials": "unknown"
+      },
+      "workflow_stages": [
+        "skill purpose",
+        "when to use",
+        "when to use pdf vs markdown",
+        "how to execute",
+        "pdf report contents",
+        "color scheme",
+        "score-to-color mapping",
+        "troubleshooting",
+        "integration with other skills",
+        "output",
+        "key principles"
+      ],
+      "expected_deliverables": [
+        "File",
+        "Location",
+        "Size",
+        "Pages"
+      ],
+      "overlaps_with": [
+        "market",
+        "market-report",
+        "pdf"
+      ],
+      "source": {
+        "type": "internal",
+        "repository": "unknown",
+        "version": "unknown"
+      },
+      "status": "active",
+      "security": {
+        "last_scanned": null,
+        "scanner": null,
+        "result": "unscanned"
+      },
+      "last_modified": "2026-06-11",
+      "last_reviewed": "2026-07-25",
+      "tests": [
+        "unknown"
+      ],
+      "known_weaknesses": [
+        "unknown"
+      ],
+      "notes": "Fields marked unknown were not explicit in SKILL.md."
+    },
+    {
+      "id": "market-seo",
+      "name": "market-seo",
+      "path": "C:\\Users\\User\\.claude\\skills\\market-seo",
+      "installations": [
+        {
+          "runtime": "claude",
+          "path": "C:\\Users\\User\\.claude\\skills\\market-seo"
+        }
+      ],
+      "purpose": "unknown",
+      "category": [
+        "seo",
+        "market"
+      ],
+      "triggers": [
+        "unknown"
+      ],
+      "inputs": [
+        "unknown"
+      ],
+      "outputs": [
+        "unknown"
+      ],
+      "tools": [
+        "browser",
+        "python"
+      ],
+      "permissions": {
+        "network": true,
+        "filesystem_write": "unknown",
+        "credentials": true
+      },
+      "workflow_stages": [
+        "skill purpose",
+        "when to use",
+        "how to execute",
+        "output format",
+        "[url]",
+        "seo health score: [x/100]",
+        "on-page seo checklist",
+        "content quality (e-e-a-t)",
+        "keyword analysis",
+        "technical seo",
+        "content gap analysis",
+        "featured snippet opportunities",
+        "schema markup",
+        "internal linking opportunities",
+        "core web vitals"
+      ],
+      "expected_deliverables": [
+        "unknown"
+      ],
+      "overlaps_with": [
+        "market",
+        "market-report"
+      ],
+      "source": {
+        "type": "internal",
+        "repository": "unknown",
+        "version": "unknown"
+      },
+      "status": "active",
+      "security": {
+        "last_scanned": null,
+        "scanner": null,
+        "result": "unscanned"
+      },
+      "last_modified": "2026-06-11",
+      "last_reviewed": "2026-07-25",
+      "tests": [
+        "unknown"
+      ],
+      "known_weaknesses": [
+        "unknown"
+      ],
+      "notes": "Fields marked unknown were not explicit in SKILL.md."
+    },
+    {
+      "id": "market-social",
+      "name": "market-social",
+      "path": "C:\\Users\\User\\.claude\\skills\\market-social",
+      "installations": [
+        {
+          "runtime": "claude",
+          "path": "C:\\Users\\User\\.claude\\skills\\market-social"
+        }
+      ],
+      "purpose": "unknown",
+      "category": [
+        "market"
+      ],
+      "triggers": [
+        "unknown"
+      ],
+      "inputs": [
+        "unknown"
+      ],
+      "outputs": [
+        "unknown"
+      ],
+      "tools": [
+        "unknown"
+      ],
+      "permissions": {
+        "network": "unknown",
+        "filesystem_write": "unknown",
+        "credentials": "unknown"
+      },
+      "workflow_stages": [
+        "when this skill is invoked",
+        "phase 1: brand and audience discovery",
+        "phase 2: content strategy framework",
+        "phase 3: hook formulas",
+        "phase 4: hashtag strategy",
+        "phase 5: engagement tactics",
+        "phase 6: content repurposing strategy",
+        "phase 7: 30-day content calendar",
+        "phase 8: trending format detection",
+        "output format: social-calendar.md",
+        "brand context",
+        "content pillars",
+        "hashtag strategy",
+        "30-day calendar",
+        "repurposing strategy"
+      ],
+      "expected_deliverables": [
+        "unknown"
+      ],
+      "overlaps_with": [
+        "market",
+        "market-report"
+      ],
+      "source": {
+        "type": "internal",
+        "repository": "unknown",
+        "version": "unknown"
+      },
+      "status": "active",
+      "security": {
+        "last_scanned": null,
+        "scanner": null,
+        "result": "unscanned"
+      },
+      "last_modified": "2026-06-11",
+      "last_reviewed": "2026-07-25",
+      "tests": [
+        "unknown"
+      ],
+      "known_weaknesses": [
+        "unknown"
+      ],
+      "notes": "Fields marked unknown were not explicit in SKILL.md."
+    },
+    {
+      "id": "memory-sync",
+      "name": "memory-sync",
+      "path": "C:\\Users\\User\\.claude\\skills\\memory-sync",
+      "installations": [
+        {
+          "runtime": "claude",
+          "path": "C:\\Users\\User\\.claude\\skills\\memory-sync"
+        }
+      ],
+      "purpose": ">",
+      "category": [
+        "memory"
+      ],
+      "triggers": [
+        ">"
+      ],
+      "inputs": [
+        "unknown"
+      ],
+      "outputs": [
+        "unknown"
+      ],
+      "tools": [
+        "unknown"
+      ],
+      "permissions": {
+        "network": "unknown",
+        "filesystem_write": "unknown",
+        "credentials": "unknown"
+      },
+      "workflow_stages": [
+        "purpose",
+        "session start protocol",
+        "session end protocol",
+        "action logging (mid-session)",
+        "cross-tool activity integration",
+        "key file locations",
+        "rules"
+      ],
+      "expected_deliverables": [
+        "unknown"
+      ],
+      "overlaps_with": [],
+      "source": {
+        "type": "internal",
+        "repository": "unknown",
+        "version": "unknown"
+      },
+      "status": "active",
+      "security": {
+        "last_scanned": null,
+        "scanner": null,
+        "result": "unscanned"
+      },
+      "last_modified": "2026-06-10",
+      "last_reviewed": "2026-07-25",
+      "tests": [
+        "unknown"
+      ],
+      "known_weaknesses": [
+        "unknown"
+      ],
+      "notes": "Fields marked unknown were not explicit in SKILL.md."
+    },
+    {
+      "id": "monthly-report",
+      "name": "monthly-report",
+      "path": "C:\\Users\\User\\.claude\\skills\\monthly-report",
+      "installations": [
+        {
+          "runtime": "claude",
+          "path": "C:\\Users\\User\\.claude\\skills\\monthly-report"
+        }
+      ],
+      "purpose": "Monthly progress report for an active BridgeWorks client engagement. Use when Emmanuel needs to send a client their monthly update covering work completed, results achieved, and next steps. Takes client name, month, and any notes or data. Output saved to MONTHLY-REPORT-[client]-[month].md. Triggers on phrases like \"write the monthly report\", \"monthly update for [client]\", \"client report for [month]\", \"send [client] their update\".",
+      "category": [
+        "general"
+      ],
+      "triggers": [
+        "write the monthly report",
+        "monthly update for [client]",
+        "client report for [month]",
+        "send [client] their update"
+      ],
+      "inputs": [
+        "Client name (required)",
+        "Month and year (required)",
+        "Work completed this month (bullet points or notes — Emmanuel provides these)",
+        "Metrics or results (if available — traffic, leads, conversions, etc.)",
+        "Blockers or issues encountered (optional)",
+        "Planned work for next month (optional)"
+      ],
+      "outputs": [
+        "unknown"
+      ],
+      "tools": [
+        "filesystem"
+      ],
+      "permissions": {
+        "network": "unknown",
+        "filesystem_write": true,
+        "credentials": "unknown"
+      },
+      "workflow_stages": [
+        "client document standards",
+        "inputs",
+        "report structure",
+        "output",
+        "tone rules"
+      ],
+      "expected_deliverables": [
+        "unknown"
+      ],
+      "overlaps_with": [],
+      "source": {
+        "type": "internal",
+        "repository": "unknown",
+        "version": "unknown"
+      },
+      "status": "active",
+      "security": {
+        "last_scanned": null,
+        "scanner": null,
+        "result": "unscanned"
+      },
+      "last_modified": "2026-03-27",
+      "last_reviewed": "2026-07-25",
+      "tests": [
+        "unknown"
+      ],
+      "known_weaknesses": [
+        "unknown"
+      ],
+      "notes": "Fields marked unknown were not explicit in SKILL.md."
+    },
+    {
+      "id": "new-proposal",
+      "name": "new-proposal",
+      "path": "C:\\Users\\User\\.claude\\skills\\new-proposal",
+      "installations": [
+        {
+          "runtime": "claude",
+          "path": "C:\\Users\\User\\.claude\\skills\\new-proposal"
+        }
+      ],
+      "purpose": "Generate a BridgeWorks client proposal document. Use this skill whenever the user asks to write, create, or draft a proposal, quote, or offer for a client. Triggers on phrases like \"write a proposal\", \"create a proposal for\", \"draft an offer\", \"client proposal\", \"new proposal\", \"make a quote for\". Always use this skill when a business name, scope of work, and price are mentioned together — even if the word \"proposal\" is not used. Do NOT use for invoices, contracts, or internal documents.",
+      "category": [
+        "proposal",
+        "document"
+      ],
+      "triggers": [
+        "write a proposal",
+        "create a proposal for",
+        "draft an offer",
+        "client proposal",
+        "new proposal",
+        "make a quote for",
+        "proposal"
+      ],
+      "inputs": [
+        "unknown"
+      ],
+      "outputs": [
+        "unknown"
+      ],
+      "tools": [
+        "unknown"
+      ],
+      "permissions": {
+        "network": "unknown",
+        "filesystem_write": "unknown",
+        "credentials": "unknown"
+      },
+      "workflow_stages": [
+        "client document standards",
+        "what this produces",
+        "required inputs",
+        "proposal structure",
+        "brand voice rules (apply to every word)",
+        "length",
+        "language"
+      ],
+      "expected_deliverables": [
+        "unknown"
+      ],
+      "overlaps_with": [],
+      "source": {
+        "type": "internal",
+        "repository": "unknown",
+        "version": "unknown"
+      },
+      "status": "active",
+      "security": {
+        "last_scanned": null,
+        "scanner": null,
+        "result": "unscanned"
+      },
+      "last_modified": "2026-03-27",
+      "last_reviewed": "2026-07-25",
+      "tests": [
+        "unknown"
+      ],
+      "known_weaknesses": [
+        "unknown"
+      ],
+      "notes": "Fields marked unknown were not explicit in SKILL.md."
+    },
+    {
+      "id": "notebooklm",
+      "name": "notebooklm",
+      "path": "C:\\Users\\User\\.claude\\skills\\notebooklm",
+      "installations": [
+        {
+          "runtime": "claude",
+          "path": "C:\\Users\\User\\.claude\\skills\\notebooklm"
+        }
+      ],
+      "purpose": "Complete API for Google NotebookLM - full programmatic access including features not in the web UI. Create notebooks, add sources, generate all artifact types, download in multiple formats. Activates on explicit /notebooklm or intent like \"create a podcast about X",
+      "category": [
+        "general"
+      ],
+      "triggers": [
+        "Complete API for Google NotebookLM - full programmatic access including features not in the web UI. Create notebooks, add sources, generate all artifact types, download in multiple formats. Activates on explicit /notebooklm or intent like \"create a podcast about X"
+      ],
+      "inputs": [
+        "unknown"
+      ],
+      "outputs": [
+        "unknown"
+      ],
+      "tools": [
+        "browser",
+        "web_search",
+        "notebooklm",
+        "python",
+        "git"
+      ],
+      "permissions": {
+        "network": true,
+        "filesystem_write": "unknown",
+        "credentials": true
+      },
+      "workflow_stages": [
+        "installation",
+        "prerequisites",
+        "agent setup verification",
+        "when this skill activates",
+        "autonomy rules",
+        "quick reference",
+        "command output formats",
+        "generation types",
+        "features beyond the web ui",
+        "common workflows",
+        "output style",
+        "error handling",
+        "exit codes",
+        "long prompts",
+        "known limitations"
+      ],
+      "expected_deliverables": [
+        "unknown"
+      ],
+      "overlaps_with": [],
+      "source": {
+        "type": "internal",
+        "repository": "unknown",
+        "version": "unknown"
+      },
+      "status": "active",
+      "security": {
+        "last_scanned": null,
+        "scanner": null,
+        "result": "unscanned"
+      },
+      "last_modified": "2026-07-10",
+      "last_reviewed": "2026-07-25",
+      "tests": [
+        "unknown"
+      ],
+      "known_weaknesses": [
+        "unknown"
+      ],
+      "notes": "Fields marked unknown were not explicit in SKILL.md."
+    },
+    {
+      "id": "pdf",
+      "name": "pdf",
+      "path": "C:\\Users\\User\\.claude\\skills\\pdf",
+      "installations": [
+        {
+          "runtime": "claude",
+          "path": "C:\\Users\\User\\.claude\\skills\\pdf"
+        }
+      ],
+      "purpose": "Use this skill whenever the user wants to do anything with PDF files. This includes reading or extracting text/tables from PDFs, combining or merging multiple PDFs into one, splitting PDFs apart, rotating pages, adding watermarks, creating new PDFs, filling PDF forms, encrypting/decrypting PDFs, extracting images, and OCR on scanned PDFs to make them searchable. If the user mentions a .pdf file or asks to produce one, use this skill.",
+      "category": [
+        "image"
+      ],
+      "triggers": [
+        "Use this skill whenever the user wants to do anything with PDF files. This includes reading or extracting text/tables from PDFs, combining or merging multiple PDFs into one, splitting PDFs apart, rotating pages, adding watermarks, creating new PDFs, filling PDF forms, encrypting/decrypting PDFs, extracting images, and OCR on scanned PDFs to make them searchable. If the user mentions a .pdf file or asks to produce one, use this skill."
+      ],
+      "inputs": [
+        "unknown"
+      ],
+      "outputs": [
+        "unknown"
+      ],
+      "tools": [
+        "python"
+      ],
+      "permissions": {
+        "network": "unknown",
+        "filesystem_write": "unknown",
+        "credentials": "unknown"
+      },
+      "workflow_stages": [
+        "overview",
+        "quick start",
+        "python libraries",
+        "command-line tools",
+        "common tasks",
+        "quick reference",
+        "next steps"
+      ],
+      "expected_deliverables": [
+        "unknown"
+      ],
+      "overlaps_with": [
+        "geo-report-pdf",
+        "market-report-pdf"
+      ],
+      "source": {
+        "type": "internal",
+        "repository": null,
+        "version": null
+      },
+      "status": "active",
+      "security": {
+        "last_scanned": null,
+        "scanner": null,
+        "result": "unscanned"
+      },
+      "last_modified": "2026-03-26",
+      "last_reviewed": "2026-07-25",
+      "tests": [
+        "unknown"
+      ],
+      "known_weaknesses": [
+        "unknown"
+      ],
+      "notes": "Fields marked unknown were not explicit in SKILL.md."
+    },
+    {
+      "id": "post-call-followup",
+      "name": "post-call-followup",
+      "path": "C:\\Users\\User\\.claude\\skills\\post-call-followup",
+      "installations": [
+        {
+          "runtime": "claude",
+          "path": "C:\\Users\\User\\.claude\\skills\\post-call-followup"
+        }
+      ],
+      "purpose": "Follow-up document and email draft after a BridgeWorks discovery or sales call. Use when Emmanuel has just finished a call with a prospect or client and needs to send a follow-up and capture next steps. Takes call notes or a verbal summary. Produces a follow-up email (ready to send) and internal action items. Output saved to FOLLOWUP-[prospect].md. Triggers on phrases like \"follow up on the call\", \"post-call followup\", \"write the followup for [name]\", \"send followup to\", \"after the call with\".",
+      "category": [
+        "sales",
+        "document"
+      ],
+      "triggers": [
+        "follow up on the call",
+        "post-call followup",
+        "write the followup for [name]",
+        "send followup to",
+        "after the call with"
+      ],
+      "inputs": [
+        "Prospect / client name (required)",
+        "Call summary or notes (required — Emmanuel provides these verbally or as bullet points)",
+        "Agreed next steps from the call (required)",
+        "Any specific things promised during the call (optional)",
+        "Proposal or quote required? (yes/no)"
+      ],
+      "outputs": [
+        "unknown"
+      ],
+      "tools": [
+        "unknown"
+      ],
+      "permissions": {
+        "network": "unknown",
+        "filesystem_write": "unknown",
+        "credentials": "unknown"
+      },
+      "workflow_stages": [
+        "client document standards",
+        "inputs",
+        "output 1: follow-up email",
+        "output 2: internal action items",
+        "post-call actions — [prospect name] — [date]",
+        "output file",
+        "tone rules"
+      ],
+      "expected_deliverables": [
+        "unknown"
+      ],
+      "overlaps_with": [],
+      "source": {
+        "type": "internal",
+        "repository": "unknown",
+        "version": "unknown"
+      },
+      "status": "active",
+      "security": {
+        "last_scanned": null,
+        "scanner": null,
+        "result": "unscanned"
+      },
+      "last_modified": "2026-03-27",
+      "last_reviewed": "2026-07-25",
+      "tests": [
+        "unknown"
+      ],
+      "known_weaknesses": [
+        "unknown"
+      ],
+      "notes": "Fields marked unknown were not explicit in SKILL.md."
+    },
+    {
+      "id": "pptx",
+      "name": "pptx",
+      "path": "C:\\Users\\User\\.claude\\skills\\pptx",
+      "installations": [
+        {
+          "runtime": "claude",
+          "path": "C:\\Users\\User\\.claude\\skills\\pptx"
+        }
+      ],
+      "purpose": "Use this skill any time a .pptx file is involved in any way — as input, output, or both. This includes: creating slide decks, pitch decks, or presentations; reading, parsing, or extracting text from any .pptx file (even if the extracted content will be used elsewhere, like in an email or summary); editing, modifying, or updating existing presentations; combining or splitting slide files; working with templates, layouts, speaker notes, or comments. Trigger whenever the user mentions \\\"deck,\\\" \\\"slides,\\\" \\\"presentation,\\\" or references a .pptx filename, regardless of what they plan to do with the content afterward. If a .pptx file needs to be opened, created, or touched, use this skill.",
+      "category": [
+        "content"
+      ],
+      "triggers": [
+        "deck,\\",
+        "slides,\\",
+        "presentation,\\"
+      ],
+      "inputs": [
+        "unknown"
+      ],
+      "outputs": [
+        "unknown"
+      ],
+      "tools": [
+        "python"
+      ],
+      "permissions": {
+        "network": "unknown",
+        "filesystem_write": "unknown",
+        "credentials": "unknown"
+      },
+      "workflow_stages": [
+        "quick reference",
+        "reading content",
+        "editing workflow",
+        "creating from scratch",
+        "design ideas",
+        "qa (required)",
+        "converting to images",
+        "dependencies"
+      ],
+      "expected_deliverables": [
+        "unknown"
+      ],
+      "overlaps_with": [],
+      "source": {
+        "type": "internal",
+        "repository": null,
+        "version": null
+      },
+      "status": "active",
+      "security": {
+        "last_scanned": null,
+        "scanner": null,
+        "result": "unscanned"
+      },
+      "last_modified": "2026-03-26",
+      "last_reviewed": "2026-07-25",
+      "tests": [
+        "unknown"
+      ],
+      "known_weaknesses": [
+        "unknown"
+      ],
+      "notes": "Fields marked unknown were not explicit in SKILL.md."
+    },
+    {
+      "id": "referrals",
+      "name": "referrals",
+      "path": "C:\\Users\\User\\.claude\\skills\\referrals",
+      "installations": [
+        {
+          "runtime": "claude",
+          "path": "C:\\Users\\User\\.claude\\skills\\referrals"
+        }
+      ],
+      "purpose": "When the user wants to create, optimize, or analyze a referral program, affiliate program, or word-of-mouth strategy. Also use when the user mentions 'referral,' 'affiliate,' 'ambassador,' 'word of mouth,' 'viral loop,' 'refer a friend,' 'partner program,' 'referral incentive,' 'how to get referrals,' 'customers referring customers,' or 'affiliate payout.' Use this whenever someone wants existing users or partners to bring in new customers. For launch-specific virality, see launch.",
+      "category": [
+        "general"
+      ],
+      "triggers": [
+        "When the user wants to create, optimize, or analyze a referral program, affiliate program, or word-of-mouth strategy. Also use when the user mentions 'referral,' 'affiliate,' 'ambassador,' 'word of mouth,' 'viral loop,' 'refer a friend,' 'partner program,' 'referral incentive,' 'how to get referrals,' 'customers referring customers,' or 'affiliate payout.' Use this whenever someone wants existing users or partners to bring in new customers. For launch-specific virality, see launch."
+      ],
+      "inputs": [
+        "unknown"
+      ],
+      "outputs": [
+        "unknown"
+      ],
+      "tools": [
+        "unknown"
+      ],
+      "permissions": {
+        "network": "unknown",
+        "filesystem_write": "unknown",
+        "credentials": "unknown"
+      },
+      "workflow_stages": [
+        "before starting",
+        "referral vs. affiliate",
+        "referral program design",
+        "program optimization",
+        "measuring success",
+        "launch checklist",
+        "email sequences",
+        "affiliate programs",
+        "task-specific questions",
+        "tool integrations",
+        "related skills"
+      ],
+      "expected_deliverables": [
+        "unknown"
+      ],
+      "overlaps_with": [],
+      "source": {
+        "type": "internal",
+        "repository": "unknown",
+        "version": "unknown"
+      },
+      "status": "active",
+      "security": {
+        "last_scanned": null,
+        "scanner": null,
+        "result": "unscanned"
+      },
+      "last_modified": "2026-07-25",
+      "last_reviewed": "2026-07-25",
+      "tests": [
+        "unknown"
+      ],
+      "known_weaknesses": [
+        "unknown"
+      ],
+      "notes": "Fields marked unknown were not explicit in SKILL.md."
+    },
+    {
+      "id": "revops",
+      "name": "revops",
+      "path": "C:\\Users\\User\\.claude\\skills\\revops",
+      "installations": [
+        {
+          "runtime": "claude",
+          "path": "C:\\Users\\User\\.claude\\skills\\revops"
+        }
+      ],
+      "purpose": "When the user wants help with revenue operations, lead lifecycle management, or marketing-to-sales handoff processes. Also use when the user mentions 'RevOps,' 'revenue operations,' 'lead scoring,' 'lead routing,' 'MQL,' 'SQL,' 'pipeline stages,' 'deal desk,' 'CRM automation,' 'marketing-to-sales handoff,' 'data hygiene,' 'leads aren't getting to sales,' 'pipeline management,' 'lead qualification,' or 'when should marketing hand off to sales.' Use this for anything involving the systems and processes that connect marketing to revenue. For cold outreach emails, see cold-email. For email drip campaigns, see emails. For pricing decisions, see pricing.",
+      "category": [
+        "market",
+        "sales",
+        "automation"
+      ],
+      "triggers": [
+        "When the user wants help with revenue operations, lead lifecycle management, or marketing-to-sales handoff processes. Also use when the user mentions 'RevOps,' 'revenue operations,' 'lead scoring,' 'lead routing,' 'MQL,' 'SQL,' 'pipeline stages,' 'deal desk,' 'CRM automation,' 'marketing-to-sales handoff,' 'data hygiene,' 'leads aren't getting to sales,' 'pipeline management,' 'lead qualification,' or 'when should marketing hand off to sales.' Use this for anything involving the systems and processes that connect marketing to revenue. For cold outreach emails, see cold-email. For email drip campaigns, see emails. For pricing decisions, see pricing."
+      ],
+      "inputs": [
+        "unknown"
+      ],
+      "outputs": [
+        "unknown"
+      ],
+      "tools": [
+        "unknown"
+      ],
+      "permissions": {
+        "network": "unknown",
+        "filesystem_write": "unknown",
+        "credentials": "unknown"
+      },
+      "workflow_stages": [
+        "before starting",
+        "core principles",
+        "lead lifecycle framework",
+        "lead scoring",
+        "lead routing",
+        "pipeline stage management",
+        "crm automation workflows",
+        "deal desk processes",
+        "data hygiene & enrichment",
+        "revops metrics dashboard",
+        "output format",
+        "task-specific questions",
+        "tool integrations",
+        "related skills"
+      ],
+      "expected_deliverables": [
+        "unknown"
+      ],
+      "overlaps_with": [],
+      "source": {
+        "type": "internal",
+        "repository": "unknown",
+        "version": "unknown"
+      },
+      "status": "active",
+      "security": {
+        "last_scanned": null,
+        "scanner": null,
+        "result": "unscanned"
+      },
+      "last_modified": "2026-07-25",
+      "last_reviewed": "2026-07-25",
+      "tests": [
+        "unknown"
+      ],
+      "known_weaknesses": [
+        "unknown"
+      ],
+      "notes": "Fields marked unknown were not explicit in SKILL.md."
+    },
+    {
+      "id": "seo-brief-writer",
+      "name": "seo-brief-writer",
+      "path": "C:\\Users\\User\\.claude\\skills\\seo-brief-writer",
+      "installations": [
+        {
+          "runtime": "claude",
+          "path": "C:\\Users\\User\\.claude\\skills\\seo-brief-writer"
+        }
+      ],
+      "purpose": "Turn one topic (usually from gsc-opportunity's top-5 list) into a writer-ready content brief built to rank on Google AND get quoted in AI answers. Use for \"write a brief\", \"content brief\", \"outline this topic\", or when a top opportunity needs to become a page.",
+      "category": [
+        "seo",
+        "content"
+      ],
+      "triggers": [
+        "write a brief",
+        "content brief",
+        "outline this topic"
+      ],
+      "inputs": [
+        "One topic (ideally scored via `gsc-opportunity` first, so you know it's worth the writer's time).",
+        "A sense of who the reader is and what they're trying to do (search intent)."
+      ],
+      "outputs": [
+        "unknown"
+      ],
+      "tools": [
+        "filesystem"
+      ],
+      "permissions": {
+        "network": "unknown",
+        "filesystem_write": true,
+        "credentials": "unknown"
+      },
+      "workflow_stages": [
+        "core insight",
+        "input",
+        "step 1 — nail the search intent",
+        "step 2 — write the quotable answer and outline",
+        "step 3 — add the ai-answer parts",
+        "step 4 — seo finishing touches",
+        "output format",
+        "quotable answer (40-60 words, place at the top of the page)",
+        "outline",
+        "people also ask",
+        "faq",
+        "facts & entities to include",
+        "internal links",
+        "meta",
+        "pro tip"
+      ],
+      "expected_deliverables": [
+        "unknown"
+      ],
+      "overlaps_with": [],
+      "source": {
+        "type": "internal",
+        "repository": "unknown",
+        "version": "unknown"
+      },
+      "status": "active",
+      "security": {
+        "last_scanned": null,
+        "scanner": null,
+        "result": "unscanned"
+      },
+      "last_modified": "2026-07-15",
+      "last_reviewed": "2026-07-25",
+      "tests": [
+        "unknown"
+      ],
+      "known_weaknesses": [
+        "unknown"
+      ],
+      "notes": "Fields marked unknown were not explicit in SKILL.md."
+    },
+    {
+      "id": "session-handoff",
+      "name": "session-handoff",
+      "path": "C:\\Users\\User\\.claude\\skills\\session-handoff",
+      "installations": [
+        {
+          "runtime": "claude",
+          "path": "C:\\Users\\User\\.claude\\skills\\session-handoff"
+        }
+      ],
+      "purpose": "Captures current working context into a clean handoff block before clearing the context window. Use mid-session when the context gets heavy (above 20-25% used), when switching projects, or when Claude starts slowing down. Triggered by /session-handoff or \"start fresh\" or \"context is getting heavy\". This is NOT the end-of-session protocol -- it does not write to sessions/, does not git commit, and does not update the OS sheet.",
+      "category": [
+        "general"
+      ],
+      "triggers": [
+        "start fresh",
+        "context is getting heavy"
+      ],
+      "inputs": [
+        "unknown"
+      ],
+      "outputs": [
+        "unknown"
+      ],
+      "tools": [
+        "git"
+      ],
+      "permissions": {
+        "network": true,
+        "filesystem_write": "unknown",
+        "credentials": "unknown"
+      },
+      "workflow_stages": [
+        "when to use this",
+        "what this is not",
+        "read the session state",
+        "write the handoff block",
+        "instruct the user",
+        "format rules",
+        "adapted for bridgeworks"
+      ],
+      "expected_deliverables": [
+        "unknown"
+      ],
+      "overlaps_with": [],
+      "source": {
+        "type": "internal",
+        "repository": "unknown",
+        "version": "unknown"
+      },
+      "status": "active",
+      "security": {
+        "last_scanned": null,
+        "scanner": null,
+        "result": "unscanned"
+      },
+      "last_modified": "2026-06-27",
+      "last_reviewed": "2026-07-25",
+      "tests": [
+        "unknown"
+      ],
+      "known_weaknesses": [
+        "unknown"
+      ],
+      "notes": "Fields marked unknown were not explicit in SKILL.md."
+    },
+    {
+      "id": "skill-creator",
+      "name": "skill-creator",
+      "path": "C:\\Users\\User\\.claude\\skills\\skill-creator",
+      "installations": [
+        {
+          "runtime": "claude",
+          "path": "C:\\Users\\User\\.claude\\skills\\skill-creator"
+        }
+      ],
+      "purpose": "Create new skills, modify and improve existing skills, and measure skill performance. Use when users want to create a skill from scratch, edit, or optimize an existing skill, run evals to test a skill, benchmark skill performance with variance analysis, or optimize a skill's description for better triggering accuracy.",
+      "category": [
+        "general"
+      ],
+      "triggers": [
+        "Create new skills, modify and improve existing skills, and measure skill performance. Use when users want to create a skill from scratch, edit, or optimize an existing skill, run evals to test a skill, benchmark skill performance with variance analysis, or optimize a skill's description for better triggering accuracy."
+      ],
+      "inputs": [
+        "unknown"
+      ],
+      "outputs": [
+        "unknown"
+      ],
+      "tools": [
+        "browser",
+        "filesystem",
+        "python"
+      ],
+      "permissions": {
+        "network": true,
+        "filesystem_write": true,
+        "credentials": true
+      },
+      "workflow_stages": [
+        "communicating with the user",
+        "creating a skill",
+        "report structure",
+        "executive summary",
+        "key findings",
+        "recommendations",
+        "commit message format",
+        "running and evaluating test cases",
+        "improving the skill",
+        "advanced: blind comparison",
+        "description optimization",
+        "claude.ai-specific instructions",
+        "cowork-specific instructions",
+        "reference files"
+      ],
+      "expected_deliverables": [
+        "unknown"
+      ],
+      "overlaps_with": [],
+      "source": {
+        "type": "internal",
+        "repository": null,
+        "version": null
+      },
+      "status": "active",
+      "security": {
+        "last_scanned": null,
+        "scanner": null,
+        "result": "unscanned"
+      },
+      "last_modified": "2026-03-26",
+      "last_reviewed": "2026-07-25",
+      "tests": [
+        "unknown"
+      ],
+      "known_weaknesses": [
+        "unknown"
+      ],
+      "notes": "Fields marked unknown were not explicit in SKILL.md."
+    },
+    {
+      "id": "weekly-review",
+      "name": "weekly-review",
+      "path": "C:\\Users\\User\\.claude\\skills\\weekly-review-skill",
+      "installations": [
+        {
+          "runtime": "claude",
+          "path": "C:\\Users\\User\\.claude\\skills\\weekly-review-skill"
+        }
+      ],
+      "purpose": ">",
+      "category": [
+        "general"
+      ],
+      "triggers": [
+        ">"
+      ],
+      "inputs": [
+        "unknown"
+      ],
+      "outputs": [
+        "unknown"
+      ],
+      "tools": [
+        "gmail"
+      ],
+      "permissions": {
+        "network": true,
+        "filesystem_write": "unknown",
+        "credentials": "unknown"
+      },
+      "workflow_stages": [
+        "purpose",
+        "how it works",
+        "what shipped",
+        "what slipped (and why)",
+        "client status",
+        "pipeline status",
+        "financial check",
+        "tool activity this week",
+        "content scorecard",
+        "next week priorities",
+        "one thing this week",
+        "rules"
+      ],
+      "expected_deliverables": [
+        "unknown"
+      ],
+      "overlaps_with": [],
+      "source": {
+        "type": "internal",
+        "repository": "unknown",
+        "version": "unknown"
+      },
+      "status": "active",
+      "security": {
+        "last_scanned": null,
+        "scanner": null,
+        "result": "unscanned"
+      },
+      "last_modified": "2026-06-10",
+      "last_reviewed": "2026-07-25",
+      "tests": [
+        "unknown"
+      ],
+      "known_weaknesses": [
+        "unknown"
+      ],
+      "notes": "Fields marked unknown were not explicit in SKILL.md."
+    },
+    {
+      "id": "writing-skills",
+      "name": "writing-skills",
+      "path": "C:\\Users\\User\\.claude\\skills\\writing-skills",
+      "installations": [
+        {
+          "runtime": "claude",
+          "path": "C:\\Users\\User\\.claude\\skills\\writing-skills"
+        }
+      ],
+      "purpose": "Use when creating new skills, editing existing skills, or verifying skills work before deployment",
+      "category": [
+        "general"
+      ],
+      "triggers": [
+        "Use when creating new skills, editing existing skills, or verifying skills work before deployment"
+      ],
+      "inputs": [
+        "unknown"
+      ],
+      "outputs": [
+        "unknown"
+      ],
+      "tools": [
+        "python",
+        "git"
+      ],
+      "permissions": {
+        "network": true,
+        "filesystem_write": "unknown",
+        "credentials": true
+      },
+      "workflow_stages": [
+        "overview",
+        "what is a skill?",
+        "tdd mapping for skills",
+        "when to create a skill",
+        "skill types",
+        "directory structure",
+        "skill.md structure",
+        "overview",
+        "when to use",
+        "core pattern (for techniques/patterns)",
+        "quick reference",
+        "implementation",
+        "common mistakes",
+        "real-world impact (optional)",
+        "claude search optimization (cso)"
+      ],
+      "expected_deliverables": [
+        "unknown"
+      ],
+      "overlaps_with": [],
+      "source": {
+        "type": "internal",
+        "repository": "unknown",
+        "version": "unknown"
+      },
+      "status": "active",
+      "security": {
+        "last_scanned": null,
+        "scanner": null,
+        "result": "unscanned"
+      },
+      "last_modified": "2026-03-27",
+      "last_reviewed": "2026-07-25",
+      "tests": [
+        "C:\\Users\\User\\.claude\\skills\\writing-skills\\testing-skills-with-subagents.md",
+        "C:\\Users\\User\\.claude\\skills\\writing-skills\\examples\\CLAUDE_MD_TESTING.md"
+      ],
+      "known_weaknesses": [
+        "unknown"
+      ],
+      "notes": "Fields marked unknown were not explicit in SKILL.md."
+    },
+    {
+      "id": "youtube-analytics",
+      "name": "youtube-analytics",
+      "path": "C:\\Users\\User\\.claude\\skills\\youtube-analytics",
+      "installations": [
+        {
+          "runtime": "claude",
+          "path": "C:\\Users\\User\\.claude\\skills\\youtube-analytics"
+        }
+      ],
+      "purpose": "Weekly YouTube channel analytics report for BridgeWorks. Pulls stats from Emmanuel's own YouTube channel — views, top videos, comments with questions, subscriber count, topic performance — and saves to sessions/. Use when Emmanuel wants to review channel performance, says \"youtube analytics\", \"how is my channel doing\", \"youtube report\", \"weekly youtube stats\", \"what are my top videos\", or mentions checking his YouTube channel numbers.",
+      "category": [
+        "youtube"
+      ],
+      "triggers": [
+        "youtube analytics",
+        "how is my channel doing",
+        "youtube report",
+        "weekly youtube stats",
+        "what are my top videos"
+      ],
+      "inputs": [
+        "unknown"
+      ],
+      "outputs": [
+        "unknown"
+      ],
+      "tools": [
+        "youtube_api",
+        "filesystem",
+        "python"
+      ],
+      "permissions": {
+        "network": true,
+        "filesystem_write": true,
+        "credentials": true
+      },
+      "workflow_stages": [
+        "purpose",
+        "setup",
+        "fetch analytics",
+        "analyze the data",
+        "write the report",
+        "channel snapshot",
+        "this week ([date range])",
+        "top video",
+        "all videos this period",
+        "questions from comments",
+        "topic performance",
+        "what to watch",
+        "notes"
+      ],
+      "expected_deliverables": [
+        "unknown"
+      ],
+      "overlaps_with": [],
+      "source": {
+        "type": "internal",
+        "repository": "unknown",
+        "version": "unknown"
+      },
+      "status": "active",
+      "security": {
+        "last_scanned": null,
+        "scanner": null,
+        "result": "unscanned"
+      },
+      "last_modified": "2026-06-10",
+      "last_reviewed": "2026-07-25",
+      "tests": [
+        "unknown"
+      ],
+      "known_weaknesses": [
+        "unknown"
+      ],
+      "notes": "Fields marked unknown were not explicit in SKILL.md."
+    },
+    {
+      "id": "youtube-channel-scout",
+      "name": "youtube-channel-scout",
+      "path": "C:\\Users\\User\\.claude\\skills\\youtube-channel-scout",
+      "installations": [
+        {
+          "runtime": "claude",
+          "path": "C:\\Users\\User\\.claude\\skills\\youtube-channel-scout"
+        }
+      ],
+      "purpose": "Scout YouTube channels to identify which videos contain actionable business intelligence for BridgeWorks. Reviews recent video titles and outputs a prioritised list of videos worth extracting.",
+      "category": [
+        "youtube"
+      ],
+      "triggers": [
+        "Scout YouTube channels to identify which videos contain actionable business intelligence for BridgeWorks. Reviews recent video titles and outputs a prioritised list of videos worth extracting."
+      ],
+      "inputs": [
+        "unknown"
+      ],
+      "outputs": [
+        "unknown"
+      ],
+      "tools": [
+        "unknown"
+      ],
+      "permissions": {
+        "network": "unknown",
+        "filesystem_write": "unknown",
+        "credentials": "unknown"
+      },
+      "workflow_stages": [
+        "channel: [channel name]"
+      ],
+      "expected_deliverables": [
+        "unknown"
+      ],
+      "overlaps_with": [],
+      "source": {
+        "type": "internal",
+        "repository": "unknown",
+        "version": "unknown"
+      },
+      "status": "active",
+      "security": {
+        "last_scanned": null,
+        "scanner": null,
+        "result": "unscanned"
+      },
+      "last_modified": "2026-04-15",
+      "last_reviewed": "2026-07-25",
+      "tests": [
+        "unknown"
+      ],
+      "known_weaknesses": [
+        "unknown"
+      ],
+      "notes": "Fields marked unknown were not explicit in SKILL.md."
+    },
+    {
+      "id": "youtube-intelligence",
+      "name": "youtube-intelligence",
+      "path": "C:\\Users\\User\\.claude\\skills\\youtube-intelligence",
+      "installations": [
+        {
+          "runtime": "claude",
+          "path": "C:\\Users\\User\\.claude\\skills\\youtube-intelligence"
+        }
+      ],
+      "purpose": "Daily YouTube intelligence digest for BridgeWorks. Checks followed channels and topic searches for new videos, downloads transcripts, extracts frameworks/tools/workflows, flags content that could become a BridgeWorks skill, saves digest to sessions/, and sends Gmail summary. Use when Emmanuel wants his daily YouTube briefing, says \"run youtube intelligence\", \"check my youtube feed\", \"what's new on youtube\", \"youtube digest\", or when the daily 7am cron fires.",
+      "category": [
+        "youtube",
+        "content"
+      ],
+      "triggers": [
+        "run youtube intelligence",
+        "check my youtube feed",
+        "what's new on youtube",
+        "youtube digest"
+      ],
+      "inputs": [
+        "unknown"
+      ],
+      "outputs": [
+        "unknown"
+      ],
+      "tools": [
+        "gmail",
+        "notebooklm",
+        "youtube_api",
+        "filesystem",
+        "python"
+      ],
+      "permissions": {
+        "network": true,
+        "filesystem_write": true,
+        "credentials": true
+      },
+      "workflow_stages": [
+        "purpose",
+        "setup",
+        "fetch data",
+        "analyze transcripts",
+        "write the digest",
+        "summary",
+        "from followed channels",
+        "from topic searches",
+        "skill candidates this week",
+        "send gmail summary",
+        "archive into notebooklm (weekly synthesis)",
+        "notes"
+      ],
+      "expected_deliverables": [
+        "unknown"
+      ],
+      "overlaps_with": [],
+      "source": {
+        "type": "internal",
+        "repository": null,
+        "version": null
+      },
+      "status": "active",
+      "security": {
+        "last_scanned": null,
+        "scanner": null,
+        "result": "unscanned"
+      },
+      "last_modified": "2026-07-25",
+      "last_reviewed": "2026-07-25",
+      "tests": [
+        "unknown"
+      ],
+      "known_weaknesses": [
+        "unknown"
+      ],
+      "notes": "Fields marked unknown were not explicit in SKILL.md."
+    },
+    {
+      "id": "youtube-learning-pipeline",
+      "name": "youtube-learning-pipeline",
+      "path": "C:\\Users\\User\\.claude\\skills\\youtube-learning-pipeline",
+      "installations": [
+        {
+          "runtime": "claude",
+          "path": "C:\\Users\\User\\.claude\\skills\\youtube-learning-pipeline"
+        }
+      ],
+      "purpose": "Automated YouTube learning pipeline that extracts insights from watched channels, builds a persistent knowledge base, creates skill drafts, and syncs everything to a Google Sheets command center. Use when asked to run the pipeline, check YouTube updates, process new videos, or review pending items. Triggers on phrases like \"run the pipeline\", \"daily youtube\", \"weekly review\", \"monthly review\", \"show pending reviews\", \"approve item\", \"reject item\".",
+      "category": [
+        "youtube"
+      ],
+      "triggers": [
+        "run the pipeline",
+        "daily youtube",
+        "weekly review",
+        "monthly review",
+        "show pending reviews",
+        "approve item",
+        "reject item"
+      ],
+      "inputs": [
+        "unknown"
+      ],
+      "outputs": [
+        "No em dashes (use -- instead)",
+        "No slop",
+        "Short sentences. One idea per sentence.",
+        "Specific over general. Real numbers."
+      ],
+      "tools": [
+        "gmail",
+        "youtube_api",
+        "filesystem",
+        "python"
+      ],
+      "permissions": {
+        "network": true,
+        "filesystem_write": true,
+        "credentials": true
+      },
+      "workflow_stages": [
+        "purpose",
+        "constants",
+        "detecting the mode",
+        "daily mode",
+        "summary",
+        "from followed channels",
+        "from topic searches",
+        "knowledge base updates",
+        "skill candidates",
+        "pending review items",
+        "weekly mode",
+        "monthly mode",
+        "review mode",
+        "brand voice rules (apply to all written output)",
+        "error handling"
+      ],
+      "expected_deliverables": [
+        "No em dashes (use -- instead)",
+        "No slop",
+        "Short sentences. One idea per sentence.",
+        "Specific over general. Real numbers."
+      ],
+      "overlaps_with": [],
+      "source": {
+        "type": "internal",
+        "repository": "unknown",
+        "version": "unknown"
+      },
+      "status": "active",
+      "security": {
+        "last_scanned": null,
+        "scanner": null,
+        "result": "unscanned"
+      },
+      "last_modified": "2026-06-10",
+      "last_reviewed": "2026-07-25",
+      "tests": [
+        "unknown"
+      ],
+      "known_weaknesses": [
+        "unknown"
+      ],
+      "notes": "Fields marked unknown were not explicit in SKILL.md."
+    },
+    {
+      "id": "youtube-offer-extraction",
+      "name": "youtube-offer-extraction",
+      "path": "C:\\Users\\User\\.claude\\skills\\youtube-offer-extraction",
+      "installations": [
+        {
+          "runtime": "claude",
+          "path": "C:\\Users\\User\\.claude\\skills\\youtube-offer-extraction"
+        }
+      ],
+      "purpose": "Use when extracting business offers, pricing, target markets, tools, and BridgeWorks-relevant insights from a YouTube video URL. Fetches the transcript directly via Python and outputs a standardised brief.",
+      "category": [
+        "market",
+        "youtube"
+      ],
+      "triggers": [
+        "Use when extracting business offers, pricing, target markets, tools, and BridgeWorks-relevant insights from a YouTube video URL. Fetches the transcript directly via Python and outputs a standardised brief."
+      ],
+      "inputs": [
+        "unknown"
+      ],
+      "outputs": [
+        "unknown"
+      ],
+      "tools": [
+        "python"
+      ],
+      "permissions": {
+        "network": "unknown",
+        "filesystem_write": "unknown",
+        "credentials": "unknown"
+      },
+      "workflow_stages": [
+        "procedure",
+        "[creator name] — [video title]",
+        "rules"
+      ],
+      "expected_deliverables": [
+        "unknown"
+      ],
+      "overlaps_with": [],
+      "source": {
+        "type": "internal",
+        "repository": "unknown",
+        "version": "unknown"
+      },
+      "status": "active",
+      "security": {
+        "last_scanned": null,
+        "scanner": null,
+        "result": "unscanned"
+      },
+      "last_modified": "2026-04-16",
+      "last_reviewed": "2026-07-25",
+      "tests": [
+        "unknown"
+      ],
+      "known_weaknesses": [
+        "unknown"
+      ],
+      "notes": "Fields marked unknown were not explicit in SKILL.md."
+    },
+    {
+      "id": "youtube-to-skill",
+      "name": "youtube-to-skill",
+      "path": "C:\\Users\\User\\.claude\\skills\\youtube-to-skill",
+      "installations": [
+        {
+          "runtime": "claude",
+          "path": "C:\\Users\\User\\.claude\\skills\\youtube-to-skill"
+        }
+      ],
+      "purpose": "Convert a YouTube video into a BridgeWorks SKILL.md draft. Takes a YouTube URL, downloads the full transcript, extracts the core workflow or process described, checks whether it maps to a BridgeWorks service, and saves a draft SKILL.md to .claude/skills/drafts/. Use when Emmanuel shares a YouTube URL and says \"turn this into a skill\", \"extract the workflow from this\", \"youtube to skill\", \"make a skill from this video\", or pastes a youtube.com or youtu.be link with any instruction to process or extract it.",
+      "category": [
+        "youtube"
+      ],
+      "triggers": [
+        "turn this into a skill",
+        "extract the workflow from this",
+        "youtube to skill",
+        "make a skill from this video"
+      ],
+      "inputs": [
+        "[Tool or resource]",
+        "[Input needed from the user]"
+      ],
+      "outputs": [
+        "unknown"
+      ],
+      "tools": [
+        "filesystem",
+        "python"
+      ],
+      "permissions": {
+        "network": "unknown",
+        "filesystem_write": true,
+        "credentials": "unknown"
+      },
+      "workflow_stages": [
+        "purpose",
+        "setup",
+        "get the url",
+        "fetch transcript and metadata",
+        "read the full transcript",
+        "decide if it is worth drafting",
+        "draft the skill",
+        "what this skill does",
+        "when to use it",
+        "bridgeworks fit",
+        "workflow",
+        "required tools / inputs",
+        "output",
+        "notes from source video",
+        "report back"
+      ],
+      "expected_deliverables": [
+        "unknown"
+      ],
+      "overlaps_with": [],
+      "source": {
+        "type": "internal",
+        "repository": "unknown",
+        "version": "unknown"
+      },
+      "status": "active",
+      "security": {
+        "last_scanned": null,
+        "scanner": null,
+        "result": "unscanned"
+      },
+      "last_modified": "2026-06-10",
+      "last_reviewed": "2026-07-25",
+      "tests": [
+        "unknown"
+      ],
+      "known_weaknesses": [
+        "unknown"
+      ],
+      "notes": "Fields marked unknown were not explicit in SKILL.md."
+    }
+  ]
+}

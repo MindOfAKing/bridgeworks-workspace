@@ -66,15 +66,15 @@ Claude Code does not own or modify these. Verify live state in ChatGPT.
 
 Owned by Codex. Source of truth is Codex's live local automation files at `C:/Users/User/.codex/automations`, one folder per automation, each holding `automation.toml` (definition and `status`) and `memory.md` (run history). This inventory was regenerated directly from those files on 2026-07-22. The older mirror `bridgeworks-codex/mobile-project-sources/codex-automations.md` (last mirrored 2026-05-21, the AUTO-001..AUTO-009 list) is STALE and does not match the live set; do not rely on it.
 
-Live inventory: 14 automations, all cron-scheduled (exact expressions live in each `automation.toml`). 12 ACTIVE, 2 PAUSED. The two paused entries are duplicate folders (`-660627399970` suffix) of an active automation, carrying the same `created_at` as their active twin.
+Live inventory: 14 automations, all cron-scheduled (exact expressions live in each `automation.toml`). As of 2026-07-31, 11 are ACTIVE and 3 are PAUSED. Two paused entries are duplicate folders (`-660627399970` suffix) of an active automation. `daily-brief-composer` is intentionally paused because its output overlapped the canonical BridgeWorks Daily Operating Brief.
 
 | Automation folder | Name | Status |
 |---|---|---|
-| `bridgeworks-automation-cockpit-router` | BridgeWorks Automation Cockpit Router | ACTIVE |
+| `bridgeworks-automation-cockpit-router` | BridgeWorks Daily Operating Brief | ACTIVE |
 | `bridgeworks-automation-health-check` | BridgeWorks Automation Health Check | ACTIVE |
 | `bridgeworks-automation-health-check-660627399970` | BridgeWorks Automation Health Check (duplicate) | PAUSED |
 | `bridgeworks-founder-signal` | BridgeWorks Founder Signal | ACTIVE |
-| `daily-brief-composer` | Daily Brief Composer | ACTIVE |
+| `daily-brief-composer` | Daily Brief Composer | PAUSED |
 | `daily-knowledge-tutor` | Daily Knowledge Tutor | ACTIVE |
 | `emmanuel-approved-application-pack-builder` | Emmanuel Approved Application Pack Builder | ACTIVE |
 | `emmanuel-approved-application-sending-layer` | Emmanuel Approved Application Sending Layer | ACTIVE |
@@ -86,6 +86,12 @@ Live inventory: 14 automations, all cron-scheduled (exact expressions live in ea
 | `mailbox-control-tower-660627399970` | Mailbox Control Tower (duplicate) | PAUSED |
 
 Paused duplicates to resolve: `bridgeworks-automation-health-check-660627399970` and `mailbox-control-tower-660627399970`. Confirm the active twin is the keeper, then retire the paused duplicate from the Codex dashboard (Codex owns that action; do not attempt it from Claude Code).
+
+On 2026-07-31, Codex consolidated the morning operating workflow. The active
+`bridgeworks-automation-cockpit-router` now invokes
+`$bridgeworks-daily-operations`, runs against the full local Projects workspace,
+and remains read-only. The older `daily-brief-composer` was paused to prevent
+competing daily outputs.
 
 Codex safety rules (from `automation.toml` prompts): no send, reply, forward, archive, delete, mark-read, label, draft, pay, deploy, or external mutation without Emmanuel's explicit approval of that exact action. The application-sending-layer acts on at most one role and only with explicit submission approval, stopping on any CAPTCHA/MFA/assessment/ambiguity. Finance status needs evidence or user confirmation.
 

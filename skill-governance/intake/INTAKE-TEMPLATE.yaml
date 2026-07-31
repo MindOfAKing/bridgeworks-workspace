@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "repository_url": "unknown",
+  "repository_owner": "unknown",
+  "exact_commit": "unknown",
+  "date_retrieved": "unknown",
+  "requested_component": "unknown",
+  "claimed_purpose": "unknown",
+  "existing_internal_overlap": [],
+  "files_to_review": [],
+  "install_scripts_and_hooks": [],
+  "permissions": {
+    "network_access": "unknown",
+    "filesystem_access": "unknown",
+    "credentials": "unknown",
+    "cookies": "unknown",
+    "external_executables": []
+  },
+  "reviews": {
+    "security_scan": {"status": "not_run", "report": null},
+    "manual_review": {"status": "not_run", "reviewer": null, "notes": ""},
+    "functional_test": {"status": "not_run", "environment": "isolated", "notes": ""},
+    "capability_overlap": {"status": "not_run", "report": null},
+    "permission_review": {"status": "not_run", "notes": ""}
+  },
+  "real_work_pilot": {
+    "use_case": "unknown",
+    "success_criterion": "unknown",
+    "measurement_method": "unknown"
+  },
+  "decision": "undecided",
+  "rollback_procedure": "Remove the isolated pilot copy and restore any explicitly listed adapted files from Git."
+}

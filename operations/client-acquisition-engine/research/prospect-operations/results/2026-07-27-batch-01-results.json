@@ -1,0 +1,333 @@
+{
+  "schema_version": 2,
+  "batch_id": "2026-07-27-batch-01",
+  "completed_at": "2026-07-27T16:47:22+00:00",
+  "prospects": [
+    {
+      "prospect_id": "max-migold-facilities-management-company",
+      "company": "Max-Migold Facilities Management Company",
+      "checked_at": "2026-07-27T16:47:22+00:00",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://maxmigold.com/about-max-migold/",
+          "accessed_at": "2026-07-27",
+          "supports": "The owned site identifies Max-Migold as a Lagos facilities-management company, lists services and sectors served, and gives info@maxmigold.com plus info@maxmigold.com.ng as contact routes."
+        },
+        {
+          "url": "https://ec.linkedin.com/company/max-migold",
+          "accessed_at": "2026-07-27",
+          "supports": "The public LinkedIn company page describes Max-Migold as a physical facilities-management, training, inspection, and technology advisory firm in Lagos."
+        },
+        {
+          "url": "https://www.signalhire.com/profiles/faith-osayime-ekiyoyo%27s-email/184408715",
+          "accessed_at": "2026-07-27",
+          "supports": "A public people-data page lists Faith Osayime Ekiyoyo as Facilities Manager at Max-Migold and also references Head of Corporate Services Management, but exposes only masked contact data without using enrichment."
+        }
+      ],
+      "owned_domain": "maxmigold.com is the current owned domain checked for this run.",
+      "conversion_route": "The owned site provides a contact form and generic email routes info@maxmigold.com and info@maxmigold.com.ng; no form submission or draft was created.",
+      "decision_maker": "Faith Osayime Ekiyoyo is publicly listed as a facilities/corporate-services role, but no exact public direct email was verified without enrichment.",
+      "contact_route": "Official generic email route: info@maxmigold.com; secondary official route: info@maxmigold.com.ng.",
+      "observations": [
+        "The owned site claims 16 years in facilities management and lists multiple B2B service categories, including facility management operations, energy management, asset advisory, training, recruitment, construction, and projects.",
+        "The same owned page presents impact counters as 0+ for individuals trained, courses available, projects completed, and satisfied clients, while nearby copy claims 750 trained professionals and broad client impact."
+      ],
+      "recommended_angle": "Use a credibility and proof-consistency angle only after an exact responsible destination is verified; the current gap is real but the safest public destination is generic.",
+      "evidence_notes": "The commercial gap is supported by Max-Migold's own page. Readiness is not marked ready because the exact public direct recipient is not verified and enrichment was not authorized.",
+      "outreach_readiness": "needs_more_evidence",
+      "commercial_gap": "Owned impact counters display 0+ beside stronger credibility claims, creating a proof-consistency issue for a B2B facilities-management buyer journey.",
+      "proof_to_use": "B2B credibility and proof-clarity audit.",
+      "proposed_channel": "",
+      "proposed_destination": "",
+      "draft_subject": "",
+      "draft_body": "",
+      "next_internal_action": "Verify a current exact responsible destination for corporate services or commercial operations before preparing an approval-gated message.",
+      "risk_notes": "HubSpot snapshot from 2026-07-26 already listed maxmigold.com as an existing company and faith.ekiyoyo@maxmigold.com as an existing contact; avoid creating duplicates."
+    },
+    {
+      "prospect_id": "3d-janitorial-services",
+      "company": "3D Janitorial Services",
+      "checked_at": "2026-07-27T16:47:22+00:00",
+      "status": "held",
+      "sources": [
+        {
+          "url": "https://www.finelib.com/listing/3D-Janitorial-Services/97640/",
+          "accessed_at": "2026-07-27",
+          "supports": "The directory listing shows 3D Janitorial Services in Surulere, Lagos, with website https://www.3djanitorial.com, phone 0912 354 1414, and email info@3djanitorial.com."
+        },
+        {
+          "url": "https://connectciti.com/listing/cleaning-company-in-lagos-3d-janitorial-services",
+          "accessed_at": "2026-07-27",
+          "supports": "The current local listing reports 3D Janitorial Services at 5 Curtis Adeniyi Jones Close, Surulere, Lagos, with a 4.7 Google-sourced rating based on 20 reviews and website route."
+        },
+        {
+          "url": "https://mail.google.com/mail/#all/19e44d501a75a640",
+          "accessed_at": "2026-07-27",
+          "supports": "Gmail contains an existing draft to info@3djanitorial.com titled 'Quick note on 3D Janitorial's enquiry path'."
+        }
+      ],
+      "owned_domain": "3djanitorial.com is the current domain carried in the tracker and supported by directory evidence.",
+      "conversion_route": "Public email route info@3djanitorial.com and public phone route +234 912 354 1414; no new draft or message was created.",
+      "decision_maker": "No exact current decision-maker was verified from public sources in this run.",
+      "contact_route": "Public generic email route: info@3djanitorial.com.",
+      "observations": [
+        "Current directory evidence supports 3D Janitorial as a Lagos commercial-cleaning company with a public email and phone route.",
+        "A prior BridgeWorks Gmail draft already exists for this exact destination and enquiry-path angle, so another approval packet would duplicate preparation unless Emmanuel explicitly revives it."
+      ],
+      "recommended_angle": "Hold. If revived, reconcile or discard the existing draft before any new copy is prepared.",
+      "evidence_notes": "The business and route are supported. The gap was already drafted in Gmail, and no named decision-maker was verified.",
+      "outreach_readiness": "hold",
+      "commercial_gap": "Potential enquiry-path clarity issue, but this was already captured in an existing Gmail draft.",
+      "proof_to_use": "",
+      "proposed_channel": "",
+      "proposed_destination": "",
+      "draft_subject": "",
+      "draft_body": "",
+      "next_internal_action": "Have Emmanuel decide whether to discard, revise, or keep the existing Gmail draft before any new 3D Janitorial approval item is queued.",
+      "risk_notes": "Duplicate-preparation risk is high because Gmail already contains an exact draft to info@3djanitorial.com; HubSpot snapshot also listed 3djanitorial.com and the exact contact email."
+    },
+    {
+      "prospect_id": "csikygroup",
+      "company": "CsikyGroup",
+      "checked_at": "2026-07-27T16:47:22+00:00",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://csikygroup.hu/",
+          "accessed_at": "2026-07-27",
+          "supports": "The owned site identifies CsikyGroup as a Budapest cleaning company offering office, condominium, apartment, window, alpine window, and institutional cleaning services."
+        },
+        {
+          "url": "https://csikygroup.hu/",
+          "accessed_at": "2026-07-27",
+          "supports": "The page includes an offer-request form, email route shown as protected text, phone +36 70 341 4004, Budapest location, references, and proof claims such as 10+ years and 500+ satisfied customers."
+        }
+      ],
+      "owned_domain": "csikygroup.hu is the current owned domain.",
+      "conversion_route": "Offer-request form plus public phone route +36 70 341 4004 and protected email text on the owned site.",
+      "decision_maker": "No named owner or responsible commercial decision-maker was verified from public sources.",
+      "contact_route": "Contact form and public phone route are verified; an exact email address was not readable from the checked page.",
+      "observations": [
+        "The owned site has a clear Budapest service proposition and visible references, including MÚOSZ, Honda dealership, private clients, and condominiums.",
+        "The available route is form/phone-led and the page does not expose a named decision-maker, so exact recipient approval is not yet strong enough."
+      ],
+      "recommended_angle": "Hold until a named responsible role or exact public email is verified; the website proof is adequate but the recipient route is weak.",
+      "evidence_notes": "No sourced commercial gap was strong enough to justify outreach preparation beyond a generic credibility route.",
+      "outreach_readiness": "needs_more_evidence",
+      "commercial_gap": "",
+      "proof_to_use": "",
+      "proposed_channel": "",
+      "proposed_destination": "",
+      "draft_subject": "",
+      "draft_body": "",
+      "next_internal_action": "Verify an exact email route or named responsible person before drafting; do not use the form without exact-copy approval.",
+      "risk_notes": "HubSpot snapshot from 2026-07-26 already listed csikygroup.hu as an existing company; no prior Gmail contact found in this run."
+    },
+    {
+      "prospect_id": "easy-office-clean",
+      "company": "Easy Office Clean",
+      "checked_at": "2026-07-27T16:47:22+00:00",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://easyofficeclean.hu/",
+          "accessed_at": "2026-07-27",
+          "supports": "The owned site/search cache lists Easy Office Clean in Budapest with address 1081 Budapest, Bezerédi utca 19, phone +36-30-018-0537, email iroda@easyofficeclean.hu, and 'Get a Quote' / 'Free Estimate' routes."
+        },
+        {
+          "url": "https://easyofficeclean.hu/",
+          "accessed_at": "2026-07-27",
+          "supports": "The same page includes cleaning-service categories, but also contains generic template copy, old 2018 cleaning-news items, and US testimonial names/locations."
+        }
+      ],
+      "owned_domain": "easyofficeclean.hu is the current owned domain.",
+      "conversion_route": "Owned site provides Get a Quote / Free Estimate routes, phone +36-30-018-0537, and email iroda@easyofficeclean.hu.",
+      "decision_maker": "No named owner or responsible decision-maker was verified from public sources.",
+      "contact_route": "Public generic email route: iroda@easyofficeclean.hu.",
+      "observations": [
+        "The owned site provides a clear Budapest office-cleaning route with email, phone, address, and quote prompts.",
+        "The page also contains apparent template leftovers, including US testimonial locations and 2018 cleaning-news items, which may weaken local credibility."
+      ],
+      "recommended_angle": "Potentially strong credibility-cleanup angle, but hold until an exact responsible recipient is verified or Emmanuel approves a generic-inbox route.",
+      "evidence_notes": "Commercial gap is sourced, but a named decision-maker is not verified. No prior Gmail contact found in this run.",
+      "outreach_readiness": "needs_more_evidence",
+      "commercial_gap": "The site mixes local Budapest contact details with generic template/testimonial/news content that appears unrelated to the local buyer journey.",
+      "proof_to_use": "B2B credibility and local-proof cleanup.",
+      "proposed_channel": "",
+      "proposed_destination": "",
+      "draft_subject": "",
+      "draft_body": "",
+      "next_internal_action": "Find a named responsible role or confirm Emmanuel is comfortable preparing generic-inbox copy to iroda@easyofficeclean.hu.",
+      "risk_notes": "HubSpot snapshot from 2026-07-26 already listed easyofficeclean.hu as an existing company; do not create a duplicate company."
+    },
+    {
+      "prospect_id": "kavezo-kft",
+      "company": "Kavezo Kft",
+      "checked_at": "2026-07-27T16:47:22+00:00",
+      "status": "held",
+      "sources": [
+        {
+          "url": "https://lm12cleaningservices.com/parent-company/",
+          "accessed_at": "2026-07-27",
+          "supports": "The public parent-company page says Kavezo Kft has over 15 years in Hungary, provides commercial cleaning services, lists partners, and gives phone +36209314288 plus kavezo2007kft@gmail.com."
+        },
+        {
+          "url": "https://www.companywall.hu/v%C3%A1llalat/kavezo-kft/MMHFs1kR",
+          "accessed_at": "2026-07-27",
+          "supports": "The company registry page lists Kávézó Kft. as active, founded 2011-09-13, activity 8121 general building cleaning, and identifies Szabó Zsolt and Szabó Ákos as managers."
+        },
+        {
+          "url": "https://mail.google.com/mail/#all/19e35531552a8539",
+          "accessed_at": "2026-07-27",
+          "supports": "Gmail contains a sent BridgeWorks email to kavezo2007kft@gmail.com on 2026-05-17 titled 'Short audit preview for Kávézó Kft.'."
+        }
+      ],
+      "owned_domain": "kavezokft.hu remains the carried canonical domain, but the most readable current public route in this run was the LM12 parent-company page and registry evidence.",
+      "conversion_route": "Public email route kavezo2007kft@gmail.com and phone +36209314288 are supported by the LM12 page; prior outreach already used the exact email.",
+      "decision_maker": "CompanyWall lists Szabó Zsolt and Szabó Ákos as managers; no individual outreach destination was verified.",
+      "contact_route": "kavezo2007kft@gmail.com is a public route and was already contacted from BridgeWorks on 2026-05-17.",
+      "observations": [
+        "Public evidence supports Kavezo Kft as an established office/commercial-cleaning operator with partner logos and a direct email route.",
+        "Gmail proves BridgeWorks already sent an audit-preview email to the exact public route on 2026-05-17, so this cannot be treated as a new first-touch prospect."
+      ],
+      "recommended_angle": "Do not prepare new outreach. Treat as a prior-contact hold unless Emmanuel approves a deliberate reactivation decision.",
+      "evidence_notes": "The old live Sheet contradiction is resolved by Gmail: Kavezo was contacted. No new gap research should create a repeat-contact risk.",
+      "outreach_readiness": "hold",
+      "commercial_gap": "",
+      "proof_to_use": "",
+      "proposed_channel": "",
+      "proposed_destination": "",
+      "draft_subject": "",
+      "draft_body": "",
+      "next_internal_action": "Record Kavezo as prior-contact hold and suppress from new first-touch batches until a reactivation approval exists.",
+      "risk_notes": "High duplicate-contact risk: exact sent Gmail message exists; HubSpot snapshot also listed kavezokft.hu and kavezo2007kft@gmail.com."
+    },
+    {
+      "prospect_id": "nevoxa",
+      "company": "Nevoxa",
+      "checked_at": "2026-07-27T16:47:22+00:00",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.nevoxa.hu/",
+          "accessed_at": "2026-07-27",
+          "supports": "The owned site identifies Nevoxa as a Budapest cleaning company, lists phone +36 30 087 3006, info@nevoxa.hu, owner/CEO Körmöndi Mercédesz, technical/field lead Körmöndi Béla, quote calculator, and contact form."
+        },
+        {
+          "url": "https://www.nevoxa.hu/kapcsolat/",
+          "accessed_at": "2026-07-27",
+          "supports": "The contact page lists 1064 Budapest, Podmaniczky u.57. 2/14, phone +36 30 087 3006, email info@nevoxa.hu, and a detailed contact form."
+        },
+        {
+          "url": "https://www.companywall.hu/v%C3%A1llalat/nevoxa-services-kft/MMhjSuHC",
+          "accessed_at": "2026-07-27",
+          "supports": "The company registry page lists Nevoxa Services Kft. as active, founded 2025-06-16, activity 8121 general building cleaning, and Körmöndi Mercédesz as owner and managing director."
+        }
+      ],
+      "owned_domain": "nevoxa.hu is the current owned domain.",
+      "conversion_route": "Owned site provides a contact form, quote calculator, phone +36 30 087 3006, and email info@nevoxa.hu.",
+      "decision_maker": "Körmöndi Mercédesz is publicly listed on the owned site as owner/CEO and on CompanyWall as owner/managing director.",
+      "contact_route": "Public general email route: info@nevoxa.hu. No message or draft was created.",
+      "observations": [
+        "The owned site has strong trust material for a new cleaning company: named leadership, project photos, Google-sourced review widgets, quote calculator, and multiple contact routes.",
+        "The same site presents a visible route/credibility inconsistency: the footer states H - V 8 - 20 and then separately says Sunday closed, while the contact page repeats the main route and form."
+      ],
+      "recommended_angle": "Use a concise credibility and enquiry-route cleanup angle focused on fixing the visible opening-hours inconsistency before it creates uncertainty at quote time.",
+      "evidence_notes": "This is the strongest current opportunity because the gap is specific, current, source-backed, the responsible owner is public, the destination is exact, and no prior Gmail contact was found.",
+      "outreach_readiness": "ready",
+      "commercial_gap": "Nevoxa has good public proof and a quote path, but the current site presents contradictory opening-hours information near the contact route: H - V 8 - 20 and Sunday closed.",
+      "proof_to_use": "BridgeWorks B2B credibility and enquiry-route cleanup proof.",
+      "proposed_channel": "email",
+      "proposed_destination": "info@nevoxa.hu",
+      "draft_subject": "Small route issue on Nevoxa's site",
+      "draft_body": "Hi Körmöndi Mercédesz,\n\nI was reviewing Budapest cleaning companies and noticed a small trust issue on Nevoxa's current site. The page has strong proof already: named leadership, reviews, project photos, and a quote route. But near the contact section, the hours appear inconsistent: H - V 8 - 20, then Sunday closed.\n\nThat is a small fix, but it sits right where buyers check whether to request a quote. I noted three practical route and credibility cleanups. Would it be useful if I sent them?\n\nBest,\nEmmanuel Ehigbai\nBridgeWorks",
+      "next_internal_action": "Queue one approval-gated review action for Emmanuel to approve, revise, or reject the exact Nevoxa email. Do not create a Gmail draft or send without explicit approval.",
+      "risk_notes": "HubSpot snapshot from 2026-07-26 already listed nevoxa.hu as an existing company. Search/update only; do not create a duplicate company. No Gmail prior contact found in this run."
+    },
+    {
+      "prospect_id": "palmacedar-cleaning-services",
+      "company": "Palmacedar Cleaning Services",
+      "checked_at": "2026-07-27T16:47:22+00:00",
+      "status": "held",
+      "sources": [
+        {
+          "url": "https://palmacedarcleaning.com/",
+          "accessed_at": "2026-07-27",
+          "supports": "The public site describes Palmacedar Cleaning Limited as a Nigerian cleaning and janitorial company, lists Lagos office address 377 Herbert Macaulay Way, phone +2348091149922, and email enquiries@palmacedarcleaning.com."
+        },
+        {
+          "url": "https://palmacedarcleaning.com.ng/cleaning-services-in-lagos/",
+          "accessed_at": "2026-07-27",
+          "supports": "The .ng services page lists cleaning, fumigation, pest control, training, industrial cleaning, and service coverage across Lagos and other Nigerian cities; it gives enquiries@palmacedarcleaning.com.ng and 08091149922."
+        },
+        {
+          "url": "https://www.africabizinfo.com/NG/palmacedar-cleaning-services-0809-114-9922",
+          "accessed_at": "2026-07-27",
+          "supports": "The directory listing supports the Yaba, Lagos address, public phone numbers, web route, and enquiries@palmacedarcleaning.com.ng."
+        },
+        {
+          "url": "https://mail.google.com/mail/#all/19e44d4d25a9dd0a",
+          "accessed_at": "2026-07-27",
+          "supports": "Gmail contains an existing draft to omolola.julius@palmacedarcleaning.com.ng titled 'Quick note on Palmacedar's proof online'."
+        }
+      ],
+      "owned_domain": "palmacedarcleaning.com.ng is the tracker domain; palmacedarcleaning.com also resolves to current public content.",
+      "conversion_route": "Public generic enquiry routes include enquiries@palmacedarcleaning.com.ng and enquiries@palmacedarcleaning.com; no new draft or message was created.",
+      "decision_maker": "The batch carried Omolola Julius as Client Relationship Manager, but this run did not independently verify that role from a current public source.",
+      "contact_route": "Existing Gmail draft is addressed to omolola.julius@palmacedarcleaning.com.ng; public generic routes are enquiries@palmacedarcleaning.com.ng and enquiries@palmacedarcleaning.com.",
+      "observations": [
+        "Public evidence supports Palmacedar as an active Nigerian cleaning and janitorial services business with Lagos contact routes and service pages.",
+        "Gmail already contains a BridgeWorks draft addressed to the carried Palmacedar contact, so preparing another first-touch item would duplicate an existing approval artifact."
+      ],
+      "recommended_angle": "Hold. Reconcile the existing draft and verify Omolola Julius from a public source before any approval packet is refreshed.",
+      "evidence_notes": "The owned .ng homepage was protected by a verification page during this run, so service-page and alternate-domain evidence were used instead.",
+      "outreach_readiness": "hold",
+      "commercial_gap": "Potential proof-structure angle already appears in the existing Gmail draft; do not duplicate it.",
+      "proof_to_use": "",
+      "proposed_channel": "",
+      "proposed_destination": "",
+      "draft_subject": "",
+      "draft_body": "",
+      "next_internal_action": "Review the existing Palmacedar Gmail draft and verify the contact role publicly before deciding whether to keep, revise, or discard it.",
+      "risk_notes": "Duplicate-preparation risk is high because an exact Gmail draft exists; HubSpot snapshot also listed palmacedarcleaning.com.ng and omolola.julius@palmacedarcleaning.com.ng."
+    },
+    {
+      "prospect_id": "takaritokeu",
+      "company": "TakaritokEU",
+      "checked_at": "2026-07-27T16:47:22+00:00",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.takaritok.eu/",
+          "accessed_at": "2026-07-27",
+          "supports": "The owned site identifies TakaritokEU as a Budapest cleaning company, lists apartment, office, window, carpet/upholstery, garage, renovation, and business-space cleaning services, and gives info@takaritok.eu plus +36 70 362 1721."
+        },
+        {
+          "url": "https://www.takaritok.eu/gyakori-kerdesek/",
+          "accessed_at": "2026-07-27",
+          "supports": "The FAQ/contact page repeats info@takaritok.eu and +36 70 3621721, explains phone, email, and request-form ordering, and says users should call if they do not receive a reply to an inquiry."
+        }
+      ],
+      "owned_domain": "takaritok.eu is the current owned domain.",
+      "conversion_route": "Owned site provides an offer-request form, info@takaritok.eu, and +36 70 362 1721.",
+      "decision_maker": "No named owner or responsible decision-maker was verified from public sources.",
+      "contact_route": "Public generic email route: info@takaritok.eu; public phone route: +36 70 362 1721.",
+      "observations": [
+        "The owned site presents a broad Budapest service catalog and contact routes, including email, phone, and request form.",
+        "The FAQ explicitly tells users to call if they do not receive an answer to the request email, which suggests the site itself recognizes an enquiry-delivery or response-reliability risk."
+      ],
+      "recommended_angle": "Potential enquiry reliability angle, but hold until a named recipient or stronger route evidence is verified.",
+      "evidence_notes": "The commercial issue is plausible and sourced, but no responsible person was found and no prior Gmail contact was found in this run.",
+      "outreach_readiness": "needs_more_evidence",
+      "commercial_gap": "FAQ copy tells requesters to call if they do not receive a reply to an email inquiry, which may signal enquiry reliability uncertainty at the point of quote request.",
+      "proof_to_use": "B2B enquiry reliability and route cleanup proof.",
+      "proposed_channel": "",
+      "proposed_destination": "",
+      "draft_subject": "",
+      "draft_body": "",
+      "next_internal_action": "Find a named responsible role or confirm Emmanuel wants generic-inbox approval copy for info@takaritok.eu.",
+      "risk_notes": "HubSpot snapshot from 2026-07-26 already listed takaritok.eu as an existing company; no prior Gmail contact found in this run."
+    }
+  ]
+}

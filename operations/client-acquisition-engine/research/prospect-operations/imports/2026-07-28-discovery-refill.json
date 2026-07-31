@@ -1,0 +1,172 @@
+{
+  "prospects": [
+    {
+      "company": "Ready Clean",
+      "website": "https://www.readyclean.hu/en",
+      "city": "Budapest",
+      "country": "Hungary",
+      "sector": "Cleaning services",
+      "lane": "Lane A Budapest credibility-first SMEs",
+      "source": "Current owned website discovered via public web search on 2026-07-28; exact domain/email HubSpot and Gmail duplicate checks returned no matches.",
+      "evidence_urls": [
+        "https://www.readyclean.hu/en"
+      ],
+      "checked_at": "2026-07-28",
+      "contact_name": "",
+      "contact_role": "",
+      "contact_url": "",
+      "email": "info@readyclean.hu",
+      "trigger_observation": "Owned English page presents Budapest cleaning services, quote route, references/testimonials, phone, and public email; research should verify whether a current buyer-route or trust gap exists before any copy is prepared.",
+      "proof_to_use": "BridgeWorks B2B credibility and enquiry-route review only if a specific sourced gap is established.",
+      "next_action": "Research owned-domain quote path, proof specificity, responsible recipient, and duplicate-contact risk; hold if no concrete commercial gap is verified.",
+      "notes": "Public source lists Nagymezo utca 60, Budapest, phone +36 70 360 1209, info@readyclean.hu, and quote form."
+    },
+    {
+      "company": "New Solution Service Kft",
+      "website": "https://www.nsskft.hu/en/irodatakaritas",
+      "city": "Budapest",
+      "country": "Hungary",
+      "sector": "Office cleaning",
+      "lane": "Lane A Budapest credibility-first SMEs",
+      "source": "Current owned English office-cleaning page discovered via public web search on 2026-07-28; exact domain/email HubSpot and Gmail duplicate checks returned no matches.",
+      "evidence_urls": [
+        "https://www.nsskft.hu/en/irodatakaritas"
+      ],
+      "checked_at": "2026-07-28",
+      "contact_name": "",
+      "contact_role": "",
+      "contact_url": "",
+      "email": "arajanlat@nsskft.hu",
+      "trigger_observation": "English office-cleaning page has a quote form, Budapest/Pest County positioning, and visible Hungarian form/legal labels inside the English buyer journey.",
+      "proof_to_use": "BridgeWorks English buyer-route and credibility QA review.",
+      "next_action": "Verify quote route, current contact destination, and whether mixed-language form labels create a sourced conversion gap.",
+      "notes": "Public source lists New Solution Service Ltd., 1097 Budapest, Ecseri Street 14-16, phone +36 30 2828329, arajanlat@nsskft.hu, and newsolutionservicekft@gmail.com."
+    },
+    {
+      "company": "Alpha Guards Security Ltd",
+      "website": "https://en.alphaguards.hu/cleaning",
+      "city": "Budapest",
+      "country": "Hungary",
+      "sector": "Security and cleaning services",
+      "lane": "Lane A Budapest credibility-first SMEs",
+      "source": "Current owned English cleaning page discovered via public web search on 2026-07-28; exact domain/email HubSpot and Gmail duplicate checks returned no matches.",
+      "evidence_urls": [
+        "https://en.alphaguards.hu/cleaning"
+      ],
+      "checked_at": "2026-07-28",
+      "contact_name": "",
+      "contact_role": "",
+      "contact_url": "",
+      "email": "ags.iroda@gmail.com",
+      "trigger_observation": "English cleaning page exposes a service request route and public email, while the header displays the email in obfuscated text before the readable footer route.",
+      "proof_to_use": "BridgeWorks enquiry-route clarity review.",
+      "next_action": "Verify whether the enquiry form and contact route are current and whether email obfuscation affects the English buyer journey.",
+      "notes": "Public source lists Alpha Guards Security Ltd., 1043 Budapest, Csanyi Laszlo u. 34, phone +36 1 700 3270, and ags.iroda@gmail.com."
+    },
+    {
+      "company": "Avenir Facility Management Kft",
+      "website": "https://www.afm.hu/hu",
+      "city": "Budapest",
+      "country": "Hungary",
+      "sector": "Facility management and security services",
+      "lane": "Lane A Budapest credibility-first SMEs",
+      "source": "Current owned website discovered via public web search on 2026-07-28; exact domain/email HubSpot and Gmail duplicate checks returned no matches.",
+      "evidence_urls": [
+        "https://www.afm.hu/hu"
+      ],
+      "checked_at": "2026-07-28",
+      "contact_name": "",
+      "contact_role": "",
+      "contact_url": "",
+      "email": "info@afm.hu",
+      "trigger_observation": "Owned page presents security, audit, soft FM, hard FM, references, active locations, certifications, quote form, and public email; research should test whether a concrete commercial gap exists.",
+      "proof_to_use": "BridgeWorks B2B credibility and service-route review only if a current gap is verified.",
+      "next_action": "Research multilingual route, named leadership, quote destination, and whether any buyer-facing inconsistency is evidence-backed.",
+      "notes": "Public source lists Avenir Facility Management Kft., 1039 Budapest, Kiralyok utja 291, phone +36 70 316 8218, info@afm.hu."
+    },
+    {
+      "company": "PERCOSO Nigeria",
+      "website": "https://percosonigeria.com/",
+      "city": "Lagos",
+      "country": "Nigeria",
+      "sector": "Integrated facility management and MEPC",
+      "lane": "Lane D Nigeria growth businesses",
+      "source": "Current owned website discovered via public web search on 2026-07-28; exact domain/email HubSpot and Gmail duplicate checks returned no matches.",
+      "evidence_urls": [
+        "https://percosonigeria.com/"
+      ],
+      "checked_at": "2026-07-28",
+      "contact_name": "",
+      "contact_role": "",
+      "contact_url": "",
+      "email": "info@percosonigeria.com",
+      "trigger_observation": "Owned site positions PERCOSO as an indigenous integrated FM/MEPC company with major client proof, quote route, named phone routes, and a footer registration placeholder.",
+      "proof_to_use": "BridgeWorks credibility-proof and content-QA review.",
+      "next_action": "Research leadership/contact route and verify whether the registration placeholder or duplicated testimonial block creates a current credibility gap.",
+      "notes": "Public source lists 14 Michael Adekoya Street, Victoria Island, Lagos, phone routes labelled Femi and Tope, and info@percosonigeria.com."
+    },
+    {
+      "company": "Altilis Limited",
+      "website": "https://www.altilisfm.com/",
+      "city": "Lagos",
+      "country": "Nigeria",
+      "sector": "MEP and facility management",
+      "lane": "Lane D Nigeria growth businesses",
+      "source": "Current owned website discovered via public web search on 2026-07-28; exact domain/email HubSpot and Gmail duplicate checks returned no matches.",
+      "evidence_urls": [
+        "https://www.altilisfm.com/"
+      ],
+      "checked_at": "2026-07-28",
+      "contact_name": "",
+      "contact_role": "",
+      "contact_url": "",
+      "email": "bd@altilisfm.com",
+      "trigger_observation": "Owned site positions Altilis as a Lagos MEP and facility-management provider with quote CTA, service categories, phone routes, and business-development email.",
+      "proof_to_use": "BridgeWorks technical-services enquiry-route and proof clarity review only if a specific gap is established.",
+      "next_action": "Research contact route, leadership evidence, FAQ/quote path, and whether the buyer-facing proof is specific enough for outreach.",
+      "notes": "Public source lists 28 Samuel Awoniyi Street, Opebi, Ikeja, Lagos, +234 807 323 0998, +234 708 141 1240, and bd@altilisfm.com."
+    },
+    {
+      "company": "UrbanCore Facility Management",
+      "website": "https://www.urbancorefm.com/",
+      "city": "Lagos",
+      "country": "Nigeria",
+      "sector": "Facility management",
+      "lane": "Lane D Nigeria growth businesses",
+      "source": "Current owned website discovered via public web search on 2026-07-28; exact domain/email HubSpot and Gmail duplicate checks returned no matches.",
+      "evidence_urls": [
+        "https://www.urbancorefm.com/"
+      ],
+      "checked_at": "2026-07-28",
+      "contact_name": "",
+      "contact_role": "",
+      "contact_url": "",
+      "email": "contact.urbancore@gmail.com",
+      "trigger_observation": "Owned page presents Nigeria facility-management services, WhatsApp/call routes, and multiple trust cards whose visible supporting copy appears repeated across distinct claims.",
+      "proof_to_use": "BridgeWorks proof-specificity and credibility QA review.",
+      "next_action": "Verify the repeated-copy observation on the live page, contact route, and responsible destination before considering approval copy.",
+      "notes": "Public source lists Lekki Phase 1, Lagos, +234 909 109 0065, contact.urbancore@gmail.com, call and WhatsApp routes."
+    },
+    {
+      "company": "TriAxis Consulting Firm",
+      "website": "https://triaxisconsultingfirm.com/",
+      "city": "Paris",
+      "country": "France",
+      "sector": "Europe-Africa strategic advisory",
+      "lane": "Lane B African-owned businesses in Europe",
+      "source": "Current owned website discovered via public web search on 2026-07-28; exact domain/email HubSpot and Gmail duplicate checks returned no matches.",
+      "evidence_urls": [
+        "https://triaxisconsultingfirm.com/"
+      ],
+      "checked_at": "2026-07-28",
+      "contact_name": "Bakare Ahmed Kuti",
+      "contact_role": "Founder and CEO",
+      "contact_url": "https://triaxisconsultingfirm.com/",
+      "email": "info@triaxisconsultingfirm.com",
+      "trigger_observation": "Owned site identifies TriAxis as a Franco-Nigerian consultancy in Paris, names founder/CEO Bakare Ahmed Kuti, and displays broad quantified proof plus live market/news modules.",
+      "proof_to_use": "BridgeWorks credibility-proof and advisory buyer-route review only if a specific sourced gap is verified.",
+      "next_action": "Research proof specificity, consultation route, and whether broad metrics or live-market modules create a concrete credibility gap for advisory buyers.",
+      "notes": "Public source lists 25 Rue De Ponthieu, 75008 Paris, +33 1 84 16 03 55, info@triaxisconsultingfirm.com, and Monday-Friday hours."
+    }
+  ]
+}

@@ -1,0 +1,263 @@
+{
+  "schema_version": 2,
+  "batch_id": "2026-07-31-batch-01",
+  "completed_at": "2026-07-31T19:10:00+00:00",
+  "prospects": [
+    {
+      "prospect_id": "607-cleaning",
+      "company": "607 Cleaning",
+      "checked_at": "2026-07-31T19:10:00+00:00",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.607cleaning.com.ng/",
+          "accessed_at": "2026-07-31",
+          "supports": "The owned site presents Lagos, Abeokuta, and Ibadan cleaning/facility services, quote/contact routes, info@607cleaning.com.ng, +234 707 165 7516, zero-value proof counters, generic team names, and repeated unsupported-video fallback text."
+        }
+      ],
+      "owned_domain": "607cleaning.com.ng is the current owned domain checked in this run.",
+      "conversion_route": "The site uses Contact Us / Get Free Quote routes plus public email info@607cleaning.com.ng and phone +234 707 165 7516; no form, draft, or message was created.",
+      "decision_maker": "No named decision-maker or responsible commercial role was verified from public sources in this run.",
+      "contact_route": "Public company email route: info@607cleaning.com.ng.",
+      "observations": [
+        "The owned page supports a real cleaning and facility-services offer across Lagos, Abeokuta, and Ibadan with public email and phone routes.",
+        "Current trust sections show visible credibility issues: zero-value counters, placeholder-looking team names, and repeated unsupported-video text in the projects area."
+      ],
+      "recommended_angle": "Use a concise credibility-proof and website QA cleanup angle focused on fixing trust elements around quote/contact conversion.",
+      "evidence_notes": "HubSpot exact-domain and exact-email searches returned zero matches; Gmail exact-domain/email search returned no messages.",
+      "outreach_readiness": "ready",
+      "commercial_gap": "The quote/contact path is visible, but the current trust layer shows zero counters, generic team names, and repeated unsupported-video fallback text that can weaken buyer confidence before enquiry.",
+      "proof_to_use": "BridgeWorks credibility-proof and website QA cleanup.",
+      "proposed_channel": "email",
+      "proposed_destination": "info@607cleaning.com.ng",
+      "draft_subject": "Small trust cleanup on 607 Cleaning",
+      "draft_body": "Hi 607 Cleaning team,\n\nI was reviewing cleaning and facility-service providers in Lagos and noticed your site already has useful buyer routes: quote prompts, service pages, phone, and info@607cleaning.com.ng.\n\nOne small issue stood out. The trust sections near the enquiry path still show zero counters, generic-looking team names, and repeated unsupported-video text. Those are easy to miss internally, but they can make a serious buyer hesitate before requesting a quote.\n\nI noted a few practical fixes. Would it be useful if I sent them over?\n\nBest,\nEmmanuel Ehigbai\nBridgeWorks",
+      "next_internal_action": "Queue one approval-gated email review action to info@607cleaning.com.ng.",
+      "risk_notes": "No duplicate HubSpot or Gmail evidence found. Use only the generic company email unless a responsible person is later verified."
+    },
+    {
+      "prospect_id": "erefa-ltd",
+      "company": "EREFA Ltd",
+      "checked_at": "2026-07-31T19:10:00+00:00",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://erefafm.com/",
+          "accessed_at": "2026-07-31",
+          "supports": "The owned site presents EREFA as a Nigerian facilities-management provider, lists enquiry@erefafm.com, Lagos address and phone routes, repeated hero/service copy blocks, a CEO message, service pages, testimonials, and WhatsApp/free-consultation routes."
+        }
+      ],
+      "owned_domain": "erefafm.com is the current owned domain checked in this run.",
+      "conversion_route": "The site presents Get In Touch / Contact us / Free Consultation routes plus enquiry@erefafm.com and phone numbers; no WhatsApp, form, draft, or message was created.",
+      "decision_maker": "The site includes a CEO message but no CEO name was verified from the checked public source.",
+      "contact_route": "Public company email route: enquiry@erefafm.com.",
+      "observations": [
+        "The site verifies EREFA's facility-management positioning, service range, public email, address, and multiple enquiry paths.",
+        "The homepage repeats several hero/service blocks with near-duplicate FM positioning before the proof and contact sections."
+      ],
+      "recommended_angle": "Use a concise buyer-route copy QA angle only around repetition and trust-route clarity.",
+      "evidence_notes": "HubSpot exact-domain and exact-email searches returned zero matches; Gmail exact-domain/email search returned no messages.",
+      "outreach_readiness": "ready",
+      "commercial_gap": "EREFA has a clear FM offer and enquiry route, but the current homepage repeats multiple similar hero/service blocks before proof and contact details, which can dilute the buyer path for corporate facilities prospects.",
+      "proof_to_use": "BridgeWorks copy-route QA and credibility-proof cleanup.",
+      "proposed_channel": "email",
+      "proposed_destination": "enquiry@erefafm.com",
+      "draft_subject": "Small route clarity note for EREFA",
+      "draft_body": "Hi EREFA team,\n\nI was reviewing Nigerian facilities-management providers and noticed EREFA has a solid public foundation: service lines, Lagos contact details, consultation routes, and an active FM positioning.\n\nOne practical issue stood out. The homepage repeats several similar hero and service blocks before the proof and contact sections. For corporate buyers, that can make the enquiry path feel less direct than the actual offer is.\n\nI noted a few quick copy-route fixes that would keep the credibility while making the next step clearer. Would it be useful if I sent them?\n\nBest,\nEmmanuel Ehigbai\nBridgeWorks",
+      "next_internal_action": "Queue one approval-gated email review action to enquiry@erefafm.com.",
+      "risk_notes": "No duplicate HubSpot or Gmail evidence found. The route is generic and no named CEO was verified; keep the copy addressed to the team."
+    },
+    {
+      "prospect_id": "servicepilot-nigeria",
+      "company": "ServicePilot Nigeria",
+      "checked_at": "2026-07-31T19:10:00+00:00",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.servicepilot.ng/",
+          "accessed_at": "2026-07-31",
+          "supports": "The owned site presents facility management, cleaning, laundry, repairs, moving, gardening, booking/contact routes, admin@servicepilot.ng, footer email info@servicepilot.ng, quantified proof claims, and duplicated testimonial blocks."
+        }
+      ],
+      "owned_domain": "servicepilot.ng is the current owned domain checked in this run.",
+      "conversion_route": "The site presents service booking/contact prompts, phone +234 802 904 7804, admin@servicepilot.ng in contact, and info@servicepilot.ng in the footer; no form, draft, or message was created.",
+      "decision_maker": "No named decision-maker or responsible commercial role was verified from public sources in this run.",
+      "contact_route": "Public company email route selected for preparation: admin@servicepilot.ng.",
+      "observations": [
+        "The owned site verifies a broad service portfolio across cleaning, laundry, repairs, moving, gardening, and facility management with public phone and email routes.",
+        "The testimonial section repeats the same customer stories and the page exposes two different public email routes, admin@servicepilot.ng and info@servicepilot.ng."
+      ],
+      "recommended_angle": "Use a proof-hierarchy and route-clarity angle focused on duplicated testimonials and email-route consistency.",
+      "evidence_notes": "HubSpot exact-domain and exact-email searches returned zero matches; Gmail exact-domain/email search returned no messages.",
+      "outreach_readiness": "ready",
+      "commercial_gap": "ServicePilot has strong public proof claims and booking prompts, but duplicated testimonials and two different email routes create a trust and routing inconsistency near the conversion path.",
+      "proof_to_use": "BridgeWorks proof-hierarchy and route-clarity review.",
+      "proposed_channel": "email",
+      "proposed_destination": "admin@servicepilot.ng",
+      "draft_subject": "Small proof-route issue on ServicePilot",
+      "draft_body": "Hi ServicePilot team,\n\nI was reviewing Nigerian service and facility-management companies and noticed ServicePilot already has a strong public offer: clear categories, booking prompts, service areas, and customer proof.\n\nOne small issue stood out. The testimonial section repeats several stories, and the site shows both admin@servicepilot.ng and info@servicepilot.ng as public routes. That can create unnecessary doubt right where a buyer is deciding whether to enquire.\n\nI noted a few simple proof and routing fixes. Would it be useful if I sent them?\n\nBest,\nEmmanuel Ehigbai\nBridgeWorks",
+      "next_internal_action": "Queue one approval-gated email review action to admin@servicepilot.ng.",
+      "risk_notes": "No duplicate HubSpot or Gmail evidence found. Use admin@servicepilot.ng because it appears in the primary contact section; do not infer a named owner."
+    },
+    {
+      "prospect_id": "starmate-nigeria-ltd",
+      "company": "Starmate Nigeria Ltd",
+      "checked_at": "2026-07-31T19:10:00+00:00",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.starmatenigeria.com/",
+          "accessed_at": "2026-07-31",
+          "supports": "The owned site lists facility management and related services, Request Quote, public emails contact@starmatenigeria.com and starmatenigeria@gmail.com, phone routes, counters, testimonials, a visible unsupported-video fallback, and testimonial heading text that says digital services."
+        }
+      ],
+      "owned_domain": "starmatenigeria.com is the current owned domain checked in this run.",
+      "conversion_route": "The site presents Request Quote / Contact Us routes plus contact@starmatenigeria.com, starmatenigeria@gmail.com, and phone routes; no form, draft, or message was created.",
+      "decision_maker": "No named decision-maker or responsible commercial role was verified from public sources in this run.",
+      "contact_route": "Public company email route selected for preparation: contact@starmatenigeria.com.",
+      "observations": [
+        "The site verifies facility-management, cleaning, pest control, real estate, smart-home, and MEP/HVAC services with quote routes and public contact details.",
+        "Current credibility content includes an unsupported-video fallback and a testimonial section headed as digital services on a facility-management site."
+      ],
+      "recommended_angle": "Use a focused B2B credibility-proof cleanup angle around public trust-section QA.",
+      "evidence_notes": "HubSpot exact-domain and exact-email searches returned zero matches; Gmail exact-domain/email search returned no messages.",
+      "outreach_readiness": "ready",
+      "commercial_gap": "Starmate has an active quote route and broad services, but current trust content shows avoidable credibility issues: unsupported-video fallback text and a testimonial heading referring to digital services instead of facility management.",
+      "proof_to_use": "BridgeWorks B2B credibility-proof and enquiry-route review.",
+      "proposed_channel": "email",
+      "proposed_destination": "contact@starmatenigeria.com",
+      "draft_subject": "Small trust-section cleanup for Starmate",
+      "draft_body": "Hi Starmate team,\n\nI was reviewing Nigerian facility-management providers and noticed Starmate has a strong service range: facility management, cleaning, pest control, MEP, HVAC, and a clear quote route.\n\nOne small trust issue stood out. The public site still shows unsupported-video fallback text, and the testimonial section is headed as digital services rather than facility management. Those details are minor, but they sit close to the credibility layer buyers check before requesting a quote.\n\nI noted a few practical cleanup points. Would it be useful if I sent them?\n\nBest,\nEmmanuel Ehigbai\nBridgeWorks",
+      "next_internal_action": "Queue one approval-gated email review action to contact@starmatenigeria.com.",
+      "risk_notes": "No duplicate HubSpot or Gmail evidence found. The site also lists a Gmail route; use the owned-domain email first unless Emmanuel chooses otherwise."
+    },
+    {
+      "prospect_id": "omma-integrated-global-services",
+      "company": "OMMA Integrated Global Services",
+      "checked_at": "2026-07-31T19:10:00+00:00",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://ommaintegratedservices.com.ng/",
+          "accessed_at": "2026-07-31",
+          "supports": "The owned site presents integrated facility management, construction, property management, travel logistics, quote/appointment CTAs, client-logo proof, Google Reviews label, address, phones, operations@ommaintegratedservices.com.ng, and 2026 copyright."
+        }
+      ],
+      "owned_domain": "ommaintegratedservices.com.ng is the current owned domain checked in this run.",
+      "conversion_route": "The site presents Book Free Consultation, Request a Quote, Book an Appointment, phone routes, and operations@ommaintegratedservices.com.ng; no form, draft, or message was created.",
+      "decision_maker": "No named decision-maker or responsible commercial role was verified from public sources in this run.",
+      "contact_route": "Public company email route: operations@ommaintegratedservices.com.ng.",
+      "observations": [
+        "The site verifies a coherent Lagos integrated-FM offer with multiple conversion prompts, public operations email, phone routes, client-logo proof, and 2026 copyright.",
+        "No specific current buyer-facing defect was strong enough to justify outreach preparation in this run."
+      ],
+      "recommended_angle": "Hold. OMMA may be a useful benchmark, but do not pitch without a concrete sourced commercial gap.",
+      "evidence_notes": "HubSpot exact-domain and exact-email searches returned zero matches; Gmail exact-domain/email search returned no messages.",
+      "outreach_readiness": "needs_more_evidence",
+      "commercial_gap": "",
+      "proof_to_use": "",
+      "proposed_channel": "",
+      "proposed_destination": "",
+      "draft_subject": "",
+      "draft_body": "",
+      "next_internal_action": "Find a specific current issue in the appointment/quote flow or a named responsible recipient before preparing any approval item.",
+      "risk_notes": "No duplicate HubSpot or Gmail evidence found. Do not manufacture a gap from a generally credible site."
+    },
+    {
+      "prospect_id": "westlink-facility-management-limited",
+      "company": "Westlink Facility Management Limited",
+      "checked_at": "2026-07-31T19:10:00+00:00",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://westlinkfm.com/",
+          "accessed_at": "2026-07-31",
+          "supports": "The owned site presents Westlink as a Lagos facility-management company, lists soft/hard/environmental services, portfolio proof including Cocoa House, Western House, and Heritage Mall, board/management routes, request-quote CTA, phones, info@westlinkfm.com, and 2026 copyright."
+        }
+      ],
+      "owned_domain": "westlinkfm.com is the current owned domain checked in this run.",
+      "conversion_route": "The site presents Request a Quote / Contact Us routes plus public phones and info@westlinkfm.com; no form, draft, or message was created.",
+      "decision_maker": "The site links board and management routes, but no named decision-maker was verified from the checked homepage source in this run.",
+      "contact_route": "Public company email route: info@westlinkfm.com.",
+      "observations": [
+        "The site has unusually strong buyer proof for this lane: iconic portfolio examples, integrated services, public phone/email routes, and clear quote prompts.",
+        "No specific current commercial gap was established from the checked source."
+      ],
+      "recommended_angle": "Hold as a strong credibility benchmark unless a concrete route defect appears on deeper board, management, quote, or contact pages.",
+      "evidence_notes": "HubSpot exact-domain and exact-email searches returned zero matches; Gmail exact-domain/email search returned no messages.",
+      "outreach_readiness": "needs_more_evidence",
+      "commercial_gap": "",
+      "proof_to_use": "",
+      "proposed_channel": "",
+      "proposed_destination": "",
+      "draft_subject": "",
+      "draft_body": "",
+      "next_internal_action": "Review board, management, and quote pages only if deeper research is needed; otherwise leave unsent because the homepage is already credible.",
+      "risk_notes": "No duplicate HubSpot or Gmail evidence found. Do not force generic outreach against a mature proof-led site."
+    },
+    {
+      "prospect_id": "sterling-nigeria-facility-services",
+      "company": "Sterling Nigeria Facility Services",
+      "checked_at": "2026-07-31T19:10:00+00:00",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://sterlingnigeria.org/",
+          "accessed_at": "2026-07-31",
+          "supports": "The owned site presents cleaning manpower, deep cleaning, events, pest control, janitorial services, Sterling Clean products, Request a Proposal/Get a Quote routes, Victoria Idris as Managing Partner, Jessica Atini as Business Operations, phone/WhatsApp, info@sterlingnigeria.org, CAC/insurance claims, and contact form fields."
+        }
+      ],
+      "owned_domain": "sterlingnigeria.org is the current owned domain checked in this run.",
+      "conversion_route": "The site presents Request a Proposal / Get a Free Quote / Order Sterling Clean Products routes, a form, phone/WhatsApp +234 903 337 6637, and info@sterlingnigeria.org; no form, draft, or message was created.",
+      "decision_maker": "Victoria Idris is publicly listed as Managing Partner and Jessica Atini as Business Operations on the owned site.",
+      "contact_route": "Public company email route: info@sterlingnigeria.org.",
+      "observations": [
+        "The site verifies named leadership, service routes, CAC/insurance trust claims, and public phone/email contact details.",
+        "The service and product CTAs converge into one enquiry form, while several product cards are marked Coming Soon, creating a mixed buyer path for product orders versus facility-service proposals."
+      ],
+      "recommended_angle": "Use a route-clarity angle focused on separating service-proposal and product-order intent.",
+      "evidence_notes": "HubSpot exact-domain and exact-email searches returned zero matches; Gmail exact-domain/email search returned no messages.",
+      "outreach_readiness": "ready",
+      "commercial_gap": "Sterling has both facility-service proposals and Sterling Clean product-order CTAs, but the current buyer path mixes those intents in one form while some products are still marked Coming Soon.",
+      "proof_to_use": "BridgeWorks service-route and proof-hierarchy review.",
+      "proposed_channel": "email",
+      "proposed_destination": "info@sterlingnigeria.org",
+      "draft_subject": "Small route clarity note for Sterling",
+      "draft_body": "Hi Victoria and Sterling Nigeria team,\n\nI was reviewing Nigerian facility-service providers and noticed Sterling has a strong focused offer: cleaning manpower, quote routes, named leadership, CAC/insurance trust claims, and Sterling Clean products.\n\nOne practical issue stood out. The site asks buyers to request facility proposals and order products through the same broad enquiry path, while some product cards are still marked Coming Soon. That can blur intent for someone ready to ask about either staffing or product supply.\n\nI noted a few simple route-clarity fixes. Would it be useful if I sent them?\n\nBest,\nEmmanuel Ehigbai\nBridgeWorks",
+      "next_internal_action": "Queue one approval-gated email review action to info@sterlingnigeria.org.",
+      "risk_notes": "No duplicate HubSpot or Gmail evidence found. Victoria Idris is named publicly, but the destination is the generic company email."
+    },
+    {
+      "prospect_id": "lagos-logistics",
+      "company": "Lagos Logistics",
+      "checked_at": "2026-07-31T19:10:00+00:00",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://lagoslogistics.com.ng/about/",
+          "accessed_at": "2026-07-31",
+          "supports": "The owned about page presents Lagos Logistics as a courier, relocation, distribution, and international delivery provider, lists Book Now/make order routes, zero-value counters, order@lagoslogistics.com.ng, 0813 763 2121, Lekki address, pricing links, and repeated 2023 copyright."
+        }
+      ],
+      "owned_domain": "lagoslogistics.com.ng is the current owned domain checked in this run.",
+      "conversion_route": "The site presents Book Now / make order routes, pricing links, public email order@lagoslogistics.com.ng, phone 0813 763 2121, and Lekki address; no form, draft, or message was created.",
+      "decision_maker": "No named decision-maker or responsible commercial role was verified from public sources in this run.",
+      "contact_route": "Public company email route: order@lagoslogistics.com.ng.",
+      "observations": [
+        "The checked page verifies courier, relocation, nationwide delivery, international delivery, booking, pricing, email, phone, and address routes.",
+        "The proof section shows zero-value counters for delivery reach and orders, and the footer repeats 2023 copyright."
+      ],
+      "recommended_angle": "Use a credibility-proof and booking-route cleanup angle focused on trust counters and dated footer signals.",
+      "evidence_notes": "HubSpot exact-domain and exact-email searches returned zero matches; Gmail exact-domain/email search returned no messages.",
+      "outreach_readiness": "ready",
+      "commercial_gap": "Lagos Logistics has live booking and pricing routes, but the current about page shows zero-value proof counters and repeated 2023 copyright near buyer-trust content.",
+      "proof_to_use": "BridgeWorks credibility-proof and booking-route review.",
+      "proposed_channel": "email",
+      "proposed_destination": "order@lagoslogistics.com.ng",
+      "draft_subject": "Small booking-page trust cleanup",
+      "draft_body": "Hi Lagos Logistics team,\n\nI was reviewing Lagos logistics providers and noticed your site already has useful buyer routes: Book Now, pricing, order@lagoslogistics.com.ng, phone, and clear local/international delivery information.\n\nOne small trust issue stood out. The about page shows zero-value counters for delivery reach and orders, and the footer still repeats 2023 copyright. Those details sit close to the booking path and can make an otherwise active service look unattended.\n\nI noted a few practical cleanup points. Would it be useful if I sent them?\n\nBest,\nEmmanuel Ehigbai\nBridgeWorks",
+      "next_internal_action": "Queue one approval-gated email review action to order@lagoslogistics.com.ng.",
+      "risk_notes": "No duplicate HubSpot or Gmail evidence found. Use only the public order email unless a named responsible contact is later verified."
+    }
+  ]
+}

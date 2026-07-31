@@ -21,7 +21,7 @@ The **Emmanuel OS Command Center** (Google Sheet) is the shared canonical operat
 Claude Code is not a persistent scheduler. It can inspect and implement scheduler-related code, but it does not own the live Cowork, ChatGPT, Codex, or Hermes scheduler surfaces. The persistent scheduler surfaces, shared-write safeguards, and the two-interface handoff rules are mapped in `operations/automation-source-map.md`.
 
 ## Active Clients
-- **Oliviks**: Foundation engagement (Foundation-only scope per contract dated 29 April 2026). Website rebuild + Google Business Profile optimization + email/WhatsApp infrastructure. Total fee 272,611 HUF, paid in full (deposit invoice EO-2026-11 in June; balance invoice EO-2026-13 for 136,305 HUF). Foundation delivery is complete on the BridgeWorks side. The one remaining gate is client-side: cutover of `oliviks.com` to the new site is pending Aese's approval (cutover approval requested 2026-07-13). Contact: Aese Agaigbe, olivikskitchen@gmail.com (also agaigbeaese@gmail.com). Client folder: `clients/oliviks/`
+- **Oliviks**: Foundation engagement (Foundation-only scope per contract dated 29 April 2026). Website rebuild + Google Business Profile optimization + email/WhatsApp infrastructure. Total fee 272,611 HUF, paid in full (deposit invoice EO-2026-11 in June; balance invoice EO-2026-13 for 136,305 HUF). Foundation delivery is complete, the `oliviks.com` cutover was executed and verified 2026-07-24, and the site is live. Remaining items are closeout only, not delivery blockers. Contact: Aese Agaigbe, olivikskitchen@gmail.com (also agaigbeaese@gmail.com). Client folder: `clients/oliviks/`
 
 ## Past Clients
 - **CEEFM Kft**: 16-week digital growth engagement, late March to June 2026. **Closed 2026-06-19.** Contract terminated June 2026. Final GEO score 77/100 at the 2026-06-10 audit (from 16); 78 on 2026-06-11 after post-handover fixes; source of truth: `clients/ceefm/VERIFIED-FACTS.md`. Contract was 16 weeks, terminated by client at week 9; public phrasing is "engagement, March to June 2026", never "16-week" or "completed". Case study: named use approved 2026-07-14 for bridgeworks.agency; client-sensitive internals stay private. **CEEFM must not appear as an active client in any routine, skill, or report unless newer dated evidence (after 2026-06-19) shows Emmanuel reactivated the engagement.**
@@ -77,7 +77,7 @@ This section is the single source of truth for what's active and what this week 
 | Venture | Status | This month's work |
 |---|---|---|
 | Bridgeworks (agency) | Active — primary focus | Backend buildout to run as a fully-formed agency; lead generation |
-| Oliviks (paid client) | Active — paid in full; Foundation delivery complete on the BridgeWorks side | One remaining gate: client-side cutover of `oliviks.com` to the new site, pending Aese's approval (requested 2026-07-13) |
+| Oliviks (paid client) | Closeout: paid in full; Foundation delivery complete and live | Domain cutover executed and verified 2026-07-24; complete remaining manual closeout items, then archive |
 | CEEFM (closed client) | Terminated June 2026 | Finalize and send handover doc, then archive |
 | Street Kitchen (EV income, not Bridgeworks) | Active — recurring | Monthly cleaning contract; no new effort needed |
 | emmanuelehigbai.com | Active — priority build | Build and launch this month; feeds Bridgeworks credibility |
@@ -99,7 +99,7 @@ Nothing is killed. No work happens on these until Bridgeworks is stable. If a ch
 | CEEFM React dashboard artifact (1,158-line JSX) | Archive as sales demo, absorb into bridgeworks-workspace, or delete | End of week |
 | Old BridgeWorks repo CLAUDE.md positioning | Rewrite to match agency positioning | Before next Claude Code session on that repo |
 | CEEFM handover doc | Review draft, fix internal score inconsistency, send to Victor | This week |
-| Oliviks cutover | Foundation build complete and balance paid. Only gate left is client-side: Aese approves the `oliviks.com` domain cutover to the new site (requested 2026-07-13). No BridgeWorks-side blockers remain | Pending Aese |
+| Oliviks cutover | Completed and verified 2026-07-24. `oliviks.com`, `www`, core pages, shop, certificate, and MX continuity were verified | Closed |
 | CEEFM stale references | CEEFM is closed (2026-06-19) but still appears in stale artifacts: the 2026-05-21 `bridgeworks-codex` codex-automations.md registry lists a CEEFM Client Delivery Brief (no such automation exists in live `.codex/automations`), and `bridgeworks-codex/plugin/skills/content-week/SKILL.md` still plans CEEFM posts. Purge both. Archived CEEFM content must never re-enter active publishing queues | Separate task |
 | Oliviks launch.json stale path | `clients/oliviks/.claude/launch.json` still points the bridgeworks-agency dev target at `C:/Users/User/bridgeworks-agency` (stale clone; canonical is `C:/Users/User/Projects/bridgeworks-agency`). Executable/config path migration, needs targeted testing; do not edit inline | Separate migration |
 | Codex paused duplicates | `.codex/automations` has two paused duplicate folders (`bridgeworks-automation-health-check-660627399970`, `mailbox-control-tower-660627399970`). Confirm active twin is keeper, retire duplicates from the Codex dashboard | Codex |

@@ -1,0 +1,42 @@
+{
+  "generated_at": "2026-07-27T10:00:00+02:00",
+  "source": "web-search-fallback",
+  "notes": [
+    "YouTube Data API connector still blocked with HTTP 403.",
+    "Candidates represent new videos posted after 2026-07-15 evening digest.",
+    "Highest-fit are SME/Claude skill monetization and local AI visibility."
+  ],
+  "queries": [
+    "site:youtube.com \"Claude skills\" \"local business\" OR \"SMB\" after:2026-07-15",
+    "site:youtube.com \"AI search\" OR \"GEO\" \"small business\" 2026-07-15 to present"
+  ],
+  "items": [
+    {
+      "source": "web-search",
+      "video_id": "0i_APvGWUA4",
+      "title": "8 Claude Skills You Can Sell to Local Businesses (I Built All 8)",
+      "channel": "Automate AI Consulting",
+      "url": "https://www.youtube.com/watch?v=0i_APvGWUA4",
+      "published": "2026-07-26",
+      "fit_reason": "Highest fit: directly addresses Foundation offer bundling and SME monetization. 18 hours old."
+    },
+    {
+      "source": "web-search",
+      "video_id": "AF_p3QnDcNE",
+      "title": "5 AI Search Signals Winning Rankings in 2026",
+      "channel": "Ranking Academy",
+      "url": "https://www.youtube.com/watch?v=AF_p3QnDcNE",
+      "published": "2026-06-08",
+      "fit_reason": "Medium-high fit for AI Visibility Authority Signal Map. Complements GEO Blueprint extraction. Local SME framing."
+    },
+    {
+      "source": "web-search",
+      "video_id": "h1eK5vN6nX0",
+      "title": "How to Rank in AI Search in 2026 (For Small Business Owners)",
+      "channel": "AWeber",
+      "url": "https://www.youtube.com/watch?v=h1eK5vN6nX0",
+      "published": "2026-05-22",
+      "fit_reason": "Medium-high fit for beginner-friendly AI visibility messaging. LLMs.txt coverage, handyman persona, speed-to-lead angle."
+    }
+  ]
+}

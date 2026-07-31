@@ -1,0 +1,49 @@
+{
+  "ok": true,
+  "mode": "draft-only",
+  "source": "C:\\Users\\User\\Projects\\bridgeworks-workspace\\operations\\client-acquisition-engine\\research\\prospect-operations\\prospect-source-current.csv",
+  "source_reconciled": false,
+  "reconciliation_changes": [],
+  "audit": {
+    "rows": 60,
+    "duplicate_domains": {},
+    "duplicate_company_country": {},
+    "missing": {
+      "email": 35,
+      "contact_name": 41,
+      "contact_role": 49,
+      "evidence_urls": 45,
+      "checked_at": 45,
+      "website": 21
+    },
+    "status_counts": {
+      "reviewed-unsent": 1,
+      "drafted-awaiting-approval": 12,
+      "sent-no-reply": 5,
+      "drafted-awaiting-approval-test": 3,
+      "research": 23,
+      "research-high-scale": 1,
+      "prior-outreach-review-required": 1,
+      "deferred-scan-drafted": 2,
+      "deferred-verified-owned-site": 1,
+      "deferred-verified-owned-site-fragmented-booking": 1,
+      "scan-drafted-awaiting-approval": 1,
+      "deferred-research": 8,
+      "deferred-until-oliviks-complete": 1
+    },
+    "lane_counts": {
+      "Lane A Budapest credibility-first SMEs": 41,
+      "Lane B African-owned businesses in Europe": 1,
+      "Deferred: West Africa later expansion": 8,
+      "Deferred: CEE later expansion": 4,
+      "Lane C Restaurants and hospitality": 1,
+      "Lane D Nigeria growth businesses": 5
+    }
+  },
+  "campaign_rows": 15,
+  "priority_campaign_rows": 12,
+  "test_campaign_rows": 3,
+  "hubspot_company_import_rows": 11,
+  "hubspot_contact_import_rows": 18,
+  "external_actions_executed": 0
+}

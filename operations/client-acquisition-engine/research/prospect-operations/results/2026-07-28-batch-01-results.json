@@ -1,0 +1,308 @@
+{
+  "schema_version": 2,
+  "batch_id": "2026-07-28-batch-01",
+  "completed_at": "2026-07-28T11:54:00+00:00",
+  "prospects": [
+    {
+      "prospect_id": "altilis-limited",
+      "company": "Altilis Limited",
+      "checked_at": "2026-07-28T11:54:00+00:00",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.altilisfm.com/",
+          "accessed_at": "2026-07-28",
+          "supports": "The owned site positions Altilis Limited as a Lagos MEP and facility-management provider, lists MEP engineering, facility management, robotic facade cleaning, quote CTAs, phone routes, and bd@altilisfm.com."
+        }
+      ],
+      "owned_domain": "altilisfm.com is the current owned domain checked in this run.",
+      "conversion_route": "The owned site presents Get a Quote / Contact Us CTAs plus phone routes +234 807 323 0998 and +234 708 141 1240 and email bd@altilisfm.com; no form, draft, or message was created.",
+      "decision_maker": "No named decision-maker or responsible commercial role was verified from public sources in this run.",
+      "contact_route": "Public business-development email route: bd@altilisfm.com.",
+      "observations": [
+        "The public page supports a real technical-services and facility-management proposition in Lagos with direct phone and email routes.",
+        "The checked page surfaced FAQ headings and quote prompts, but did not verify a named responsible person or a specific enough buyer-facing defect to justify outreach."
+      ],
+      "recommended_angle": "Hold for more evidence. A technical-services enquiry-route review may be relevant, but only after a concrete current gap and responsible destination are verified.",
+      "evidence_notes": "HubSpot exact-domain and exact-email searches returned zero matches; Gmail exact-domain/email searches returned no messages. This record is commercially plausible but not outreach-ready.",
+      "outreach_readiness": "needs_more_evidence",
+      "commercial_gap": "",
+      "proof_to_use": "",
+      "proposed_channel": "",
+      "proposed_destination": "",
+      "draft_subject": "",
+      "draft_body": "",
+      "next_internal_action": "Find a named commercial or operations leader and verify whether the FAQ/quote route has a current visible issue before preparing any approval item.",
+      "risk_notes": "No duplicate HubSpot or Gmail evidence found for altilisfm.com or bd@altilisfm.com, but the route remains generic and the gap is not specific enough."
+    },
+    {
+      "prospect_id": "avenir-facility-management-kft",
+      "company": "Avenir Facility Management Kft",
+      "checked_at": "2026-07-28T11:54:00+00:00",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.afm.hu/hu",
+          "accessed_at": "2026-07-28",
+          "supports": "The owned site presents Avenir's security, audit, soft FM, hard FM, references, 30+ active locations, 200+ trained staff, certifications, quote form, and info@afm.hu."
+        },
+        {
+          "url": "https://www.afm.hu/hu/impresszum",
+          "accessed_at": "2026-07-28",
+          "supports": "The imprint names Avenir Facility Management Kft., gives company registration data, and identifies Kovacs Attila as managing director with info@afm.hu and a phone route."
+        },
+        {
+          "url": "https://www.companywall.hu/v%C3%A1llalat/avenir-facility-kft/MM9uGqAY",
+          "accessed_at": "2026-07-28",
+          "supports": "The business-information page lists Avenir Facility Kft. as active, founded 2018-07-31, with Kovacs Attila as managing director and 125 employees in 2024."
+        }
+      ],
+      "owned_domain": "afm.hu is the current owned domain.",
+      "conversion_route": "Owned-site quote form plus public email info@afm.hu and public phone routes; no form, draft, or message was created.",
+      "decision_maker": "Kovacs Attila is identified as managing director in the imprint and registry source.",
+      "contact_route": "Public company email route: info@afm.hu.",
+      "observations": [
+        "Avenir has strong current credibility assets, including named legal representation, active certifications, references, public registration details, and a clear quote form.",
+        "No current buyer-facing defect or execution gap was established beyond a general opportunity to review multilingual route clarity."
+      ],
+      "recommended_angle": "Hold as a high-credibility Budapest FM benchmark unless a specific current gap is found.",
+      "evidence_notes": "The business and route are verified, and no duplicate HubSpot or Gmail evidence was found. Outreach is not ready because the research did not establish one concrete commercial gap.",
+      "outreach_readiness": "needs_more_evidence",
+      "commercial_gap": "",
+      "proof_to_use": "",
+      "proposed_channel": "",
+      "proposed_destination": "",
+      "draft_subject": "",
+      "draft_body": "",
+      "next_internal_action": "Review the English/German route or recent website refresh only if a visible buyer-facing inconsistency is identified from current pages.",
+      "risk_notes": "No exact HubSpot or Gmail duplicate was found for afm.hu or info@afm.hu; do not pitch a generic website rebuild because the current site is mature."
+    },
+    {
+      "prospect_id": "percoso-nigeria",
+      "company": "PERCOSO Nigeria",
+      "checked_at": "2026-07-28T11:54:00+00:00",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://percosonigeria.com/",
+          "accessed_at": "2026-07-28",
+          "supports": "The owned homepage identifies PERCOSO as Perfect Congruence Solutions Limited, an indigenous integrated FM/MEPC company in Lagos, gives info@percosonigeria.com, quote CTAs, client proof, duplicated testimonial blocks, and a footer RC placeholder."
+        },
+        {
+          "url": "https://www.percosonigeria.com/about.html",
+          "accessed_at": "2026-07-28",
+          "supports": "The about page says PERCOSO was founded in 2019, is a private limited company in facility management, and shows leadership placeholders such as profiles to be provided by management."
+        },
+        {
+          "url": "https://ng.linkedin.com/company/percosonigeria",
+          "accessed_at": "2026-07-28",
+          "supports": "The public LinkedIn company page shows recent PERCOSO activity, hiring posts, and references a Commercial Director birthday post, but no direct public email for that person was used."
+        }
+      ],
+      "owned_domain": "percosonigeria.com is the current owned domain.",
+      "conversion_route": "Owned site provides Get A Quote and Request a Meeting CTAs, WhatsApp route, phone routes labelled Femi and Tope, and public email info@percosonigeria.com; no form, draft, WhatsApp, or message was created.",
+      "decision_maker": "The site does not name a managing director; LinkedIn activity references a Commercial Director, but the exact direct route is not public in this run.",
+      "contact_route": "Public company email route: info@percosonigeria.com.",
+      "observations": [
+        "The owned site has strong growth signals for Nigerian B2B buyers: 2019 founding, indigenous positioning, project/client proof, current hiring, and multiple quote/contact routes.",
+        "Two current owned pages expose credibility QA issues near trust material: the homepage footer shows an RC placeholder and the about page uses leadership-profile placeholders."
+      ],
+      "recommended_angle": "Use a concise credibility-proof cleanup angle focused on removing placeholders from the public trust layer before enterprise buyers review the company.",
+      "evidence_notes": "This is outreach-ready because the gap is current, specific, owned-source backed, the destination is exact, and no HubSpot/Gmail duplicate was found.",
+      "outreach_readiness": "ready",
+      "commercial_gap": "PERCOSO presents strong enterprise proof, but current owned pages still show placeholder trust details: an RC placeholder in the footer and leadership profiles marked for future management input.",
+      "proof_to_use": "BridgeWorks B2B credibility-proof and content-QA cleanup.",
+      "proposed_channel": "email",
+      "proposed_destination": "info@percosonigeria.com",
+      "draft_subject": "Small credibility cleanup on PERCOSO's site",
+      "draft_body": "Hi PERCOSO team,\n\nI was reviewing Nigerian facility-management companies and noticed PERCOSO has strong proof already: named client examples, quote routes, current hiring, and clear indigenous FM positioning.\n\nOne small trust issue stood out. The public site still shows placeholder credibility details in the trust layer, including an RC placeholder in the footer and leadership profiles waiting for management input. That is easy to miss internally, but enterprise buyers often check those details before starting a quote conversation.\n\nI noted three practical credibility cleanups. Would it be useful if I sent them?\n\nBest,\nEmmanuel Ehigbai\nBridgeWorks",
+      "next_internal_action": "Queue one approval-gated review action for Emmanuel to approve, revise, or reject the exact email to info@percosonigeria.com.",
+      "risk_notes": "No exact HubSpot or Gmail duplicate was found. Use only the generic company email unless a direct commercial route is later verified; do not use LinkedIn or WhatsApp without explicit approval."
+    },
+    {
+      "prospect_id": "urbancore-facility-management",
+      "company": "UrbanCore Facility Management",
+      "checked_at": "2026-07-28T11:54:00+00:00",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.urbancorefm.com/",
+          "accessed_at": "2026-07-28",
+          "supports": "The owned page describes UrbanCore Facility Management as a Nigerian facility-solutions provider with services, call and WhatsApp routes, contact.urbancore@gmail.com, and repeated supporting copy across several trust cards."
+        }
+      ],
+      "owned_domain": "urbancorefm.com is the current owned domain checked for this batch.",
+      "conversion_route": "Owned page provides Contact Us, Call Now, WhatsApp Us, phone +234 909 109 0065, and contact.urbancore@gmail.com; no call, WhatsApp, form, draft, or message was created.",
+      "decision_maker": "No named owner, managing director, or responsible commercial role was verified from public sources in this run.",
+      "contact_route": "Public generic email route: contact.urbancore@gmail.com.",
+      "observations": [
+        "The owned page supports UrbanCore as an active Lagos/Nigeria facility-management service with janitorial, labour recruitment, procurement, and multi-sector positioning.",
+        "The Why Choose Us section repeats the same supporting sentence under multiple different proof headings, which may weaken trust-card specificity."
+      ],
+      "recommended_angle": "Potential proof-specificity cleanup angle, but hold until a named responsible destination or stronger business identity evidence is verified.",
+      "evidence_notes": "The gap is sourced, but the route is generic Gmail and no responsible decision-maker was found. HubSpot and Gmail duplicate checks returned no exact matches.",
+      "outreach_readiness": "needs_more_evidence",
+      "commercial_gap": "Repeated trust-card copy may dilute proof specificity, but the responsible recipient is not verified.",
+      "proof_to_use": "BridgeWorks proof-specificity and credibility QA review.",
+      "proposed_channel": "",
+      "proposed_destination": "",
+      "draft_subject": "",
+      "draft_body": "",
+      "next_internal_action": "Find a named founder, operations lead, or company registry/LinkedIn route before preparing copy to contact.urbancore@gmail.com.",
+      "risk_notes": "No exact HubSpot or Gmail duplicate was found, but generic Gmail plus no named decision-maker makes first-touch risk higher."
+    },
+    {
+      "prospect_id": "alpha-guards-security-ltd",
+      "company": "Alpha Guards Security Ltd",
+      "checked_at": "2026-07-28T11:54:00+00:00",
+      "status": "held",
+      "sources": [
+        {
+          "url": "https://en.alphaguards.hu/cleaning",
+          "accessed_at": "2026-07-28",
+          "supports": "The English owned cleaning page lists cleaning services, request-for-quotation route, phone +36 1 700 3270, email ags.iroda@gmail.com, and company information at a Budapest address."
+        },
+        {
+          "url": "https://alphaguards.hu/",
+          "accessed_at": "2026-07-28",
+          "supports": "The Hungarian owned site describes Alpha Guards Security Kft. as a security, guarding, event security, camera, barrier, cleaning, deicing, pest-control, and garden-care company with ags.iroda@gmail.com."
+        },
+        {
+          "url": "https://www.companywall.hu/v%C3%A1llalat/alpha-guards-kft/MM9H5ecD",
+          "accessed_at": "2026-07-28",
+          "supports": "The registry page lists Alpha Guards Kft. as active, names Kovacs Karoly as managing director, and gives a different registry address and contact email alphaguards.iroda@gmail.com."
+        }
+      ],
+      "owned_domain": "alphaguards.hu is the current owned domain.",
+      "conversion_route": "Owned pages list enquiry/request-for-quotation routes, phone +36 1 700 3270, and ags.iroda@gmail.com; no form, draft, or message was created.",
+      "decision_maker": "Kovacs Karoly is listed as managing director for Alpha Guards Kft. in CompanyWall, but the registry email and address differ from the owned-site legal/contact block.",
+      "contact_route": "Owned-site public email route: ags.iroda@gmail.com; registry source shows alphaguards.iroda@gmail.com.",
+      "observations": [
+        "The owned English page supports a real cleaning/security service route and a public quote pathway.",
+        "The current evidence has identity/contact inconsistency between the owned site and registry source, including company naming, address, tax/registration details, and email variants."
+      ],
+      "recommended_angle": "Hold. Resolve the company identity and preferred public destination before any buyer-route message is prepared.",
+      "evidence_notes": "HubSpot and Gmail exact checks found no duplicate, but the source mismatch makes outreach unsafe without reconciliation.",
+      "outreach_readiness": "hold",
+      "commercial_gap": "Potential contact-route inconsistency between owned page and registry source, but the mismatch must be resolved before any external copy.",
+      "proof_to_use": "",
+      "proposed_channel": "",
+      "proposed_destination": "",
+      "draft_subject": "",
+      "draft_body": "",
+      "next_internal_action": "Reconcile Alpha Guards Security Kft./Alpha Guards Kft. legal identity, address, and correct email route before deciding whether this belongs in active outreach.",
+      "risk_notes": "No prior contact found, but do not queue approval until the identity mismatch is resolved."
+    },
+    {
+      "prospect_id": "new-solution-service-kft",
+      "company": "New Solution Service Kft",
+      "checked_at": "2026-07-28T11:54:00+00:00",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.nsskft.hu/en/irodatakaritas",
+          "accessed_at": "2026-07-28",
+          "supports": "The owned English office-cleaning page positions New Solution Service Kft. in Budapest/Pest County, lists quote form, phone +36 30 2828329, arajanlat@nsskft.hu, and Hungarian form/legal labels in the English route."
+        },
+        {
+          "url": "https://www.companywall.hu/v%C3%A1llalat/new-solution-service-kft/MMItxS6D",
+          "accessed_at": "2026-07-28",
+          "supports": "The registry page lists New Solution Service Kft. as active, founded 2015-10-26, general building cleaning activity, owner/managing director Biro Mihalyne, phone 302829329, email newsolutionservicekft@gmail.com, and website www.nsskft.hu."
+        }
+      ],
+      "owned_domain": "nsskft.hu is the current owned domain.",
+      "conversion_route": "Owned English page provides a quote form, phone +36 30 2828329, arajanlat@nsskft.hu, and footer email newsolutionservicekft@gmail.com; no form, draft, or message was created.",
+      "decision_maker": "Biro Mihalyne is listed by CompanyWall as owner and managing director.",
+      "contact_route": "Public quote email route: arajanlat@nsskft.hu; registry/footer route: newsolutionservicekft@gmail.com.",
+      "observations": [
+        "The owned English page is commercially relevant for office-cleaning buyers and includes direct quote/contact routes.",
+        "The same English quote journey contains Hungarian form and legal labels, which can create friction for English-speaking Budapest/Pest County office buyers."
+      ],
+      "recommended_angle": "Use a focused English quote-path cleanup angle; do not imply the service quality or overall site is weak.",
+      "evidence_notes": "This is outreach-ready because the gap is sourced on the owned page, the destination is exact, a responsible manager is publicly listed, and no duplicate contact evidence was found.",
+      "outreach_readiness": "ready",
+      "commercial_gap": "The English office-cleaning page asks international buyers to request a quote, but the quote form still contains Hungarian upload/privacy labels inside the English buyer path.",
+      "proof_to_use": "BridgeWorks English buyer-route and credibility QA review.",
+      "proposed_channel": "email",
+      "proposed_destination": "arajanlat@nsskft.hu",
+      "draft_subject": "Small English quote-form issue on NSS",
+      "draft_body": "Hi Biro Mihalyne,\n\nI was reviewing Budapest office-cleaning companies and noticed New Solution Service has a solid English page: clear service scope, Budapest/Pest County positioning, phone, email, and a quote form.\n\nOne small conversion issue stood out. The English quote route still shows Hungarian upload and privacy labels inside the form. For an English-speaking office manager, that can create a little uncertainty at the exact point they are deciding whether to request pricing.\n\nI noted three practical English-route cleanups. Would it be useful if I sent them?\n\nBest,\nEmmanuel Ehigbai\nBridgeWorks",
+      "next_internal_action": "Queue one approval-gated review action for Emmanuel to approve, revise, or reject the exact email to arajanlat@nsskft.hu.",
+      "risk_notes": "No exact HubSpot or Gmail duplicate was found. Recheck the English form labels immediately before any approved send."
+    },
+    {
+      "prospect_id": "ready-clean",
+      "company": "Ready Clean",
+      "checked_at": "2026-07-28T11:54:00+00:00",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.readyclean.hu/en",
+          "accessed_at": "2026-07-28",
+          "supports": "The owned English page lists Ready Clean in Budapest, contact routes info@readyclean.hu and +36 70 360 1209, quote form, services, and client testimonial content."
+        },
+        {
+          "url": "https://www.readyclean.hu/hu",
+          "accessed_at": "2026-07-28",
+          "supports": "The Hungarian page mirrors the cleaning service, quote route, contact email, and public phone route."
+        },
+        {
+          "url": "https://www.companywall.hu/v%C3%A1llalat/ready-pro-kft/MMhg0lFR",
+          "accessed_at": "2026-07-28",
+          "supports": "A possible registry match, ready-pro Kft., lists cleaning activity, readycleanbudapest@gmail.com, and two managing directors, but the checked source does not prove it owns readyclean.hu."
+        }
+      ],
+      "owned_domain": "readyclean.hu is the current owned domain checked; the exact legal entity behind the domain was not fully verified.",
+      "conversion_route": "Owned page provides quote form, public phone +36 70 360 1209, and info@readyclean.hu; no form, draft, or message was created.",
+      "decision_maker": "No decision-maker was verified for the readyclean.hu owned domain. A possible registry match lists managers, but ownership of the domain was not established.",
+      "contact_route": "Public owned-site email route: info@readyclean.hu.",
+      "observations": [
+        "The owned site supports Ready Clean as a Budapest cleaning service with quote form, phone, email, service pages, and testimonial content.",
+        "The research did not establish a specific current buyer-facing defect or a clean legal-entity/decision-maker link for the owned domain."
+      ],
+      "recommended_angle": "Needs more evidence. Do not draft until a legal owner/responsible person and concrete gap are verified.",
+      "evidence_notes": "No exact HubSpot or Gmail duplicate was found, but the public evidence is not strong enough for outreach preparation.",
+      "outreach_readiness": "needs_more_evidence",
+      "commercial_gap": "",
+      "proof_to_use": "",
+      "proposed_channel": "",
+      "proposed_destination": "",
+      "draft_subject": "",
+      "draft_body": "",
+      "next_internal_action": "Verify the legal entity behind readyclean.hu and identify a current buyer-route or trust gap before considering generic-inbox copy.",
+      "risk_notes": "Possible identity ambiguity with ready-pro Kft.; do not use registry names unless domain ownership is verified."
+    },
+    {
+      "prospect_id": "triaxis-consulting-firm",
+      "company": "TriAxis Consulting Firm",
+      "checked_at": "2026-07-28T11:54:00+00:00",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://triaxisconsultingfirm.com/",
+          "accessed_at": "2026-07-28",
+          "supports": "The owned site identifies TriAxis as a Franco-Nigerian consultancy in Paris, lists founder/CEO Bakare Ahmed Kuti, public address, phone, info@triaxisconsultingfirm.com, consultation CTAs, broad proof counters, and live market/news modules."
+        }
+      ],
+      "owned_domain": "triaxisconsultingfirm.com is the current owned domain.",
+      "conversion_route": "Owned site provides Book a Consultation, Start the Conversation, Free Consultation, phone +33 1 84 16 03 55, and info@triaxisconsultingfirm.com; no booking, form, draft, or message was created.",
+      "decision_maker": "Bakare Ahmed Kuti is listed on the owned site as founder and CEO.",
+      "contact_route": "Public company email route: info@triaxisconsultingfirm.com.",
+      "observations": [
+        "The owned site clearly fits the African-owned business in Europe lane: a Paris-based Franco-Nigerian consultancy with founder/CEO named and Europe-Africa services described.",
+        "The homepage presents broad quantified proof counters and live market/news modules, including visible loading states, before the advisory buyer reaches deeper service detail."
+      ],
+      "recommended_angle": "Use a narrow credibility-proof hierarchy angle for advisory buyers; do not criticize the business model or market expertise.",
+      "evidence_notes": "This is outreach-ready because the business identity, founder, public destination, and specific credibility/proof gap are all sourced on the owned site; HubSpot/Gmail exact duplicate checks returned no matches.",
+      "outreach_readiness": "ready",
+      "commercial_gap": "TriAxis has a clear founder-led Europe-Africa advisory proposition, but broad proof counters and live market/news modules can distract from concrete advisory proof at the point where serious buyers assess credibility.",
+      "proof_to_use": "BridgeWorks founder-led advisory credibility and proof-hierarchy review.",
+      "proposed_channel": "email",
+      "proposed_destination": "info@triaxisconsultingfirm.com",
+      "draft_subject": "Small proof-hierarchy note on TriAxis",
+      "draft_body": "Hi Bakare,\n\nI was reviewing Europe-Africa advisory firms and noticed TriAxis has a strong positioning signal: Franco-Nigerian leadership, Paris presence, clear cross-border services, and a consultation route.\n\nOne small credibility issue stood out. The homepage leans on broad proof counters and live market/news modules before the visitor gets much concrete advisory proof. For a founder, investor, or corporate buyer, that can make the strongest evidence harder to see at the exact moment they are assessing trust.\n\nI noted three practical proof-hierarchy fixes. Would it be useful if I sent them?\n\nBest,\nEmmanuel Ehigbai\nBridgeWorks",
+      "next_internal_action": "Queue one approval-gated review action for Emmanuel to approve, revise, or reject the exact email to info@triaxisconsultingfirm.com.",
+      "risk_notes": "No exact HubSpot or Gmail duplicate was found. Recheck the homepage modules immediately before any approved send."
+    }
+  ]
+}

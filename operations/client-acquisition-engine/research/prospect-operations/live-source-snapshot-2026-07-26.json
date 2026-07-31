@@ -1,0 +1,169 @@
+{
+  "observed_at": "2026-07-26T07:54:00+02:00",
+  "run_type": "sales-audit",
+  "authority": "read-only evidence snapshot; no external action authorized",
+  "hubspot": {
+    "portal_id": 148891254,
+    "hosting": "eu1",
+    "timezone": "Europe/Budapest",
+    "currency": "USD",
+    "company_count": 37,
+    "contact_count": 11,
+    "deal_count": 0,
+    "existing_domains": [
+      "hubspot.com",
+      "towerconsulting.hu",
+      "drpl.hu",
+      "kecser.com",
+      "dentaltourbudapest.com",
+      "budapestdentalsolutions.com",
+      "firstclean.hu",
+      "nyolcas.com",
+      "digitalconto.hu",
+      "loffice.hu",
+      "aesthetic.hu",
+      "denteo.hu",
+      "premierpropertymanagement.hu",
+      "crystalproperty.hu",
+      "takaritokommando.hu",
+      "rentify.hu",
+      "dental-care-hungary.com",
+      "homever.hu",
+      "houseinhungary.com",
+      "interhaz.hu",
+      "geigerservices.hu",
+      "bridgeworks.agency",
+      "kavezokft.hu",
+      "eliezergroup.com",
+      "marvelhomespm.com",
+      "issbudapest.hu",
+      "budbed.hu",
+      "3djanitorial.com",
+      "takaritok.eu",
+      "csikygroup.hu",
+      "palmacedarcleaning.com.ng",
+      "pyramidon.hu",
+      "nevoxa.hu",
+      "maxmigold.com",
+      "easyofficeclean.hu",
+      "towerbudapest.com",
+      "go2flats.com"
+    ],
+    "existing_contact_emails": [
+      "bh@hubspot.com",
+      "emailmaria@hubspot.com",
+      "codex-test@bridgeworks.agency",
+      "info@geigerservices.hu",
+      "codex-intake-test-20260724@bridgeworks.agency",
+      "omolola.julius@palmacedarcleaning.com.ng",
+      "hrm@eliezergroup.com",
+      "kavezo2007kft@gmail.com",
+      "faith.ekiyoyo@maxmigold.com",
+      "info@3djanitorial.com",
+      "info@marvelhomespm.com"
+    ],
+    "observed_gap": "All sampled hs_lead_status values were blank. Two contacts and one company are HubSpot samples; two contacts are BridgeWorks integration tests."
+  },
+  "gmail": {
+    "reply_count_for_verified_outreach_threads": 0,
+    "bounce_count": 0,
+    "touches": [
+      {
+        "company": "Pyramidon",
+        "recipient": "quotes@pyramidon.hu",
+        "sent_at": "2026-05-17",
+        "kind": "first_contact",
+        "message_id": "19e3552c6819408f",
+        "thread_id": "19e352f4ab4eb9b2"
+      },
+      {
+        "company": "Pyramidon",
+        "recipient": "pergel.alexandra@pyramidon.hu",
+        "sent_at": "2026-05-19",
+        "kind": "follow_up_1",
+        "message_id": "19e407582c757eff",
+        "thread_id": "19e3fabd9ea2364a"
+      },
+      {
+        "company": "Geiger Services",
+        "recipient": "info@geigerservices.hu",
+        "sent_at": "2026-05-17",
+        "kind": "first_contact",
+        "message_id": "19e3552ea734eb1a",
+        "thread_id": "19e352f7185a3a37"
+      },
+      {
+        "company": "Geiger Services",
+        "recipient": "info@geigerservices.hu",
+        "sent_at": "2026-07-19",
+        "kind": "follow_up_1",
+        "message_id": "19f7aecfb7e64745",
+        "thread_id": "19f7aecfb7e64745"
+      },
+      {
+        "company": "Managerent",
+        "recipient": "info@managerent.hu",
+        "sent_at": "2026-06-23",
+        "kind": "first_contact",
+        "message_id": "19ef5dd74e105f4e",
+        "thread_id": "19ef5cb9348d5278"
+      },
+      {
+        "company": "A+ Real Estate",
+        "recipient": "info@aplusproperty.hu",
+        "sent_at": "2026-06-23",
+        "kind": "first_contact",
+        "message_id": "19ef5daed0f1afc1",
+        "thread_id": "19ef5cb9419fabdb"
+      },
+      {
+        "company": "Craftex",
+        "recipient": "info@craftex.hu",
+        "sent_at": "2026-06-23",
+        "kind": "first_contact",
+        "message_id": "19ef5dbdaedfb5bf",
+        "thread_id": "19ef5cb93d25d150"
+      }
+    ],
+    "contradiction": "The old live Sheet says Kavezo initial outreach occurred and a follow-up draft is ready, but an exact Gmail search returned no Kavezo message."
+  },
+  "drive_sheets": {
+    "sales_folder_search_results": 0,
+    "prospect_tracker": {
+      "spreadsheet_id": "1yvtW-FtuJHJo5OJMvuxaLMZajUEjEGanaBHNQ3oMuIE",
+      "rows": 17,
+      "gap": "First 10 data rows are column-shifted. Dates appear under status. The sheet is not safe as a source of truth."
+    },
+    "daily_outreach_queue": {
+      "spreadsheet_id": "1sQpbMomZLsLaXiABZXre7h76hZBgU7qp7QTlgl_JWA8",
+      "rows": 3,
+      "gap": "Stale May/June queue. It still exposes rejected Geiger and Kavezo follow-up drafts as ready."
+    },
+    "audit_preview_tracker": {
+      "spreadsheet_id": "168d4f0_E1DYoU73ecQs9fSw54u88XMDC3yTaIUGft_U",
+      "rows": 12,
+      "gap": "Two rejected previews still show follow-up draft ready and use file paths under C:/Users/ELITEX21012G2."
+    },
+    "market_triage": {
+      "spreadsheet_id": "1w6Ai62HRbej0pfZzJZo8YOMFiD0epQ-CEfT1hKBa1TQ",
+      "rows": 1,
+      "last_evidence_date": "2026-05-17"
+    }
+  },
+  "clickup": {
+    "workspace_id": "90121896973",
+    "sales_list_id": "901219531791",
+    "task_count": 2,
+    "tasks": [
+      "[TEST] BW-ROUTE-TEST-20260719 - HubSpot/ClickUp link verification",
+      "Define BridgeWorks ICP and qualification rules"
+    ],
+    "gap": "No active execution tasks for sourcing, enrichment, batches, approvals, follow-ups, bounce/reply handling, or weekly conversion reporting."
+  },
+  "apollo": {
+    "authenticated": true,
+    "daily_search_limit": 600,
+    "daily_search_consumed": 0,
+    "paid_enrichment_authorized": false
+  }
+}

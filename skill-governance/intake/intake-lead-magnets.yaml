@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "repository_url": "https://github.com/coreyhaines31/marketingskills.git",
+  "repository_owner": "coreyhaines31",
+  "exact_commit": "c21a984a56da10fb6085e6334f6f60929220a4da",
+  "date_retrieved": "2026-07-25",
+  "requested_component": "marketingskills/skills/lead-magnets",
+  "claimed_purpose": "Design lead magnets (checklists, mini-guides, tools) that convert cold traffic into email leads.",
+  "existing_internal_overlap": [
+    "market",
+    "content-week",
+    "bridgeworks-idea-to-content"
+  ],
+  "files_to_review": [
+    "skill-governance/quarantine/marketingskills/skills/lead-magnets/SKILL.md"
+  ],
+  "install_scripts_and_hooks": [],
+  "permissions": {
+    "network_access": false,
+    "filesystem_access": false,
+    "credentials": false,
+    "cookies": false,
+    "external_executables": []
+  },
+  "reviews": {
+    "security_scan": {
+      "status": "pass_low",
+      "report": "skill-governance/reports/skillspector-lead-magnets-20260725T105435Z.md"
+    },
+    "manual_review": {
+      "status": "pass",
+      "reviewer": "claude-code",
+      "notes": "Markdown-only skill, zero executable scripts, no permissions requested."
+    },
+    "functional_test": {
+      "status": "pending",
+      "environment": "isolated",
+      "notes": "To be exercised during the real-work pilot."
+    },
+    "capability_overlap": {
+      "status": "pass_gap",
+      "report": "skill-governance/reports/capability-diff-intake-lead-magnets.md"
+    },
+    "permission_review": {
+      "status": "pass",
+      "notes": "No network, filesystem, credential, or cookie access declared or found."
+    }
+  },
+  "real_work_pilot": {
+    "use_case": "Build a lead magnet for the BridgeWorks site to feed this month's lead-generation goal.",
+    "success_criterion": "One publishable lead magnet plus opt-in copy produced and reviewed within one session.",
+    "measurement_method": "Reviewer confirms the deliverable against the success criterion in one pilot session."
+  },
+  "decision": "pilot",
+  "rollback_procedure": "Remove the isolated pilot copy and restore any explicitly listed adapted files from Git."
+}
