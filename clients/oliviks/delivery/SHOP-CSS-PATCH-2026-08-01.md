@@ -1,114 +1,154 @@
-# Oliviks shop — CSS patch (shop.oliviks.com)
+# Oliviks shop audit — shop.oliviks.com
 
-**Status: NOT APPLIED.** This is a patch for you to paste. I did not log into wp-admin.
+**Supersedes the first version of this file, which was wrong.** See "Correction" at the bottom.
 
-## HOW TO USE
+**Nothing here has been applied.** I did not log into wp-admin.
 
-1. Open `https://shop.oliviks.com/wp-admin`
-2. Go to **Appearance → Customize → Additional CSS**
-3. Paste the block from "The patch" below at the end of whatever is already there
-4. Click **Publish**
-5. Hard-reload `https://shop.oliviks.com/` and check the footer
+Audited 2026-08-01 across the home, product, cart, and checkout pages. Single-context run (no subagents), which Impeccable classes as a degraded critique.
 
-To undo: delete the block and Publish again. Nothing else is touched.
+---
 
-## Why this is a patch and not a code change
+## P0 — The shop cannot take an order
 
-The marketing site (`oliviks.com`) is the Next.js repo in `clients/oliviks/website`. I fixed that in source, on a branch, with a build to verify it.
+`https://shop.oliviks.com/checkout/`, with a real item in the cart, renders **the header, the pickup notice, and the footer. Nothing else.**
 
-The shop is a different animal: WordPress 7.0.2 + WooCommerce 10.9.4 on the Rishi theme with Elementor. None of it is in git. There is no source file to edit. The only route in is the customizer, which means logging into a live client storefront with saved credentials and changing production. That is your call to make, not mine, so the fix is written out here for you to apply and review.
+Verified in a live browser session:
 
-## What is broken
-
-Measured on the live site, 2026-08-01.
-
-### 1. The entire footer is invisible (severity: high)
-
-`.rishi-footer` is styled dark: background `#111111`, text cream at 70% opacity. Correct.
-
-But two rows inside it, `.footer-middle-row` and `.footer-bottom-row`, paint a **cream** background over that dark ground. The text colour stays cream. Cream on cream.
-
-**10 of 14 footer text elements measure a contrast ratio of exactly 1.00:1.** Not "low contrast" — the same colour. The footer navigation, the shop category links, the contact address, Privacy Policy, Terms and Conditions: all present in the DOM, all unreadable.
-
-Four more items were then recoloured to near-black, presumably to cope with the accidental cream background. Those need to go back to cream once the ground is restored, or they invert the problem:
-
-| Element | Current colour |
+| Element | Present |
 |---|---|
-| `.widget-title` ("Shop", "Company") | `rgb(17,17,17)` |
-| `.contact-info .contact-text` (address) | `rgb(0,0,0)` |
-| `.widget_text p` ("Place an order online or...") | `rgb(0,0,0)` |
+| `form.checkout` | no |
+| `#customer_details` | no |
+| `#order_review` | no |
+| Place Order button | no |
+| Form fields on the page | 0 (only the header search box) |
+| Console errors | none |
 
-### 2. Header menu toggle (severity: medium)
+The page exists and is correctly identified — `body` carries `woocommerce-checkout woocommerce-page`, WooCommerce enqueues `checkout.min.js`, and the page is ID 11 on the `elementor_header_footer` template. There is simply no checkout content between the header and the footer.
 
-`.rishi_header_trigger` is papaya `#FAB73A` on chalk `#F7F9F4` — **1.66:1**, against the 3:1 WCAG needs for a control. It is also **20x20px**, under the 24x24 minimum. This is the primary navigation control on mobile.
+**A customer can browse, add to cart, and click Proceed to Checkout, and then hit a dead page.** No orders can be completed. Given every "Order Online" button on oliviks.com funnels here, this is the whole online ordering channel.
 
-### 3. No keyboard focus (severity: medium)
+**Fix:** open page ID 11 (Checkout) in wp-admin and restore its content — the `[woocommerce_checkout]` shortcode for the classic checkout, or the Checkout block. Most likely it was emptied during an Elementor edit. Confirm by placing a real test order afterwards.
 
-The loaded stylesheets contain **21 rules that remove the focus outline** and only 5 `:focus-visible` rules. Same defect the marketing site had.
+I could not diagnose further without wp-admin. **Do this before anything else on this list.**
 
-## The patch
+---
+
+## P1 — "Organic Store" appears in the header
+
+The WordPress **Site Title** is still the theme demo's `Organic Store`. It renders as the branding link wherever the logo is not used — confirmed visible on **cart and checkout**, the two highest-trust pages on the site.
+
+The customer reaches payment and the header says they are buying from Organic Store.
+
+**Fix:** Settings → General → Site Title → `Oliviks Kitchen`. Not CSS.
+
+---
+
+## P1 — Footer links are invisible on the home page
+
+`#wp-custom-css` (our own Additional CSS from the July brand pass) contains:
 
 ```css
-/* ── Oliviks shop: legibility patch (BridgeWorks, 2026-08-01) ────────────── */
+.site-footer, footer { background-color:#111111 !important; color:rgba(247,249,244,0.7) !important; }
+.site-footer a, footer a { color:rgba(247,249,244,0.7) !important; }
+```
 
-/* 1. The footer is designed dark (.rishi-footer = #111111, cream text at 70%).
-      Two inner rows paint cream over it, so cream text lands on cream and the
-      whole footer renders invisible. Remove the stray grounds. */
-.rishi-footer .footer-middle-row,
-.rishi-footer .footer-bottom-row {
-  background-color: transparent !important;
+The Rishi footer builder then paints `.footer-middle-row` and `.footer-bottom-row` **cream** over that dark ground. Cream text lands on cream.
+
+**On the home page, 10 of 15 footer elements measure exactly 1.00:1** — the same colour, not merely low contrast. Footer navigation, category links, the address, Privacy Policy, Terms and Conditions.
+
+WooCommerce pages escape this by accident: another rule in the same block, `.woocommerce a { color:#761212 !important; }`, repaints footer links barn red there, giving 10.62:1. So product, cart, and checkout footers look fine and the home page is broken.
+
+**This is why the fix is not a one-liner.** I tested both directions on both page types:
+
+| Direction | Home page | Product page |
+|---|---|---|
+| Make the footer dark (add the rows to the `#111111` rule) | 10 failures → **0** | 0 failures → **3** (barn red on ink, 1.68:1) |
+| Make the footer light (cream ground, barn red links) | 10 failures → **3** | already fine |
+
+Neither is complete. Three links in `.footer-bottom-row` — Oliviks, Privacy Policy, Terms and Conditions — **resisted every stylesheet override I tried**, including `!important` selectors with strictly higher specificity than the rule that is winning. I could not force them from CSS.
+
+**Recommendation:** do not stack more `!important` on top. Edit the existing `/* Footer */` block in Additional CSS to commit to a light footer — matching what the theme already paints and what the WooCommerce pages already do correctly — and set the bottom-row link colour in the Rishi footer builder itself (Customize → Footer → Bottom Row), which is where those three links are being coloured from.
+
+Replace the current `/* Footer */` block with:
+
+```css
+/* Footer — light ground, matching what the theme actually paints */
+.site-footer, footer {
+  background-color: #F7F9F4 !important;
+  color: #111111 !important;
+  font-family: 'Inter', sans-serif !important;
 }
-
-/* 2. These four were recoloured to near-black to cope with the broken light
-      footer. Return them to the footer's own cream. */
+.site-footer a, footer a,
+.woocommerce .site-footer a, .woocommerce footer a,
+.rishi-footer .widget a,
+.rishi-footer .rishi-footer-navigation a { color: #761212 !important; }
+.site-footer a:hover, footer a:hover { color: #5a0d0d !important; }
 .rishi-footer .widget-title,
-.rishi-footer .contact-info .contact-text,
-.rishi-footer .widget_text p {
-  color: #f7f9f4 !important;
-}
+.rishi-footer p, .rishi-footer span,
+.rishi-footer .contact-info .contact-text { color: #111111 !important; }
+```
 
-/* 3. Menu toggle: papaya on chalk is 1.66:1 at 20x20px. Barn red on chalk is
-      10.62:1, and 44px is a comfortable thumb target. */
+Then check the three bottom-row links in the browser. If they are still cream, set them in the footer builder, not here.
+
+---
+
+## P2 — Smaller, each verified
+
+| Issue | Detail | Fix |
+|---|---|---|
+| Breadcrumb sends customers off-site | The "Shop" breadcrumb on every product page points at `/shop/`, which 301s to `oliviks.com/menu` | Point it at the shop root, or remove the `/shop` redirect |
+| Previous developer's credit | Footer reads "Powered by Kreativewin" on the client's storefront | Footer builder → copyright text |
+| Menu toggle | Papaya on chalk at **1.66:1**, target **20×20px** | CSS block below |
+| Remove-from-cart control | The `×` is **15×15px**, under the 24×24 minimum, and it is destructive | CSS block below |
+| No `h1` | Neither cart nor checkout has one | Theme/template |
+| "Upsell" tab | A product tab is literally labelled `Upsell` to customers | Rename to "You might also like" |
+| Keyboard focus | 21 rules remove the focus outline; only 5 `:focus-visible` rules exist | CSS block below |
+
+```css
+/* Controls: contrast and target size */
 .rishi-header-trigger a.rishi_header_trigger {
   color: #761212 !important;
-  min-width: 44px;
-  min-height: 44px;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
+  min-width: 44px; min-height: 44px;
+  display: inline-flex; align-items: center; justify-content: center;
+}
+.woocommerce a.remove, .remove_from_cart_button {
+  min-width: 32px; min-height: 32px;
+  display: inline-flex; align-items: center; justify-content: center;
 }
 
-/* 4. Restore keyboard focus. Ink core reads on the chalk grounds, papaya halo
-      reads on the barn-red and ink ones, so one layer always carries contrast.
-      Pointer users never see it. */
-a:focus-visible,
-button:focus-visible,
-input:focus-visible,
-textarea:focus-visible,
-select:focus-visible {
+/* Restore keyboard focus. Ink core reads on chalk, papaya halo reads on
+   barn red and ink, so one layer always carries contrast. */
+a:focus-visible, button:focus-visible, input:focus-visible,
+textarea:focus-visible, select:focus-visible {
   outline: 2px solid #121210 !important;
   outline-offset: 2px !important;
-  box-shadow: 0 0 0 5px rgba(250, 183, 58, 0.95) !important;
+  box-shadow: 0 0 0 5px rgba(250,183,58,0.95) !important;
 }
 ```
 
-## Verified before handover
+Verified by injection: toggle 1.66:1 → **10.62:1**, 20×20 → **44×44**.
 
-I injected this exact CSS into a live page in my own browser session, measured, then removed it. The site was not modified.
+---
 
-| Check | Before | After |
-|---|---|---|
-| Footer elements failing WCAG AA | 10 of 14 | **0 of 14** |
-| Worst footer contrast | 1.00:1 | 8.96:1 |
-| Menu toggle contrast | 1.66:1 | 10.62:1 |
-| Menu toggle target | 20x20px | 44x44px |
+## P3 — Content, not code
+
+- **Product descriptions are thin.** "Egusi soup with one swallow" carries 62 characters on the shop. The same dish on oliviks.com has a full paragraph. The marketing site is doing the selling and the shop is where the decision actually gets made. The copy already exists in `website/src/data/menu.ts`.
+- **"Reviews (0)"** shows on every product while the business holds 4.8 from 493 Google reviews. Either hide the tab or seed it.
+
+---
 
 ## Checked and found fine
 
-- The `woocommerce-demo-store` banner is repurposed as the pickup notice, not the WooCommerce default "no orders will be fulfilled" text. Leave it.
-- The "Snacks" category tile reads black on beige, not papaya on beige. My first scan misread it. No change needed.
-- The `.skip-link` low contrast is the standard visually-hidden skip link. Not a defect.
+- Product page: zero contrast failures, one `h1`, no heading-level jumps, no unlabeled fields, no images missing `alt`, 5 live regions.
+- Cart page: zero contrast failures, labelled quantity and remove controls with good `aria-label` text.
+- The `woocommerce-demo-store` banner is repurposed as the pickup notice, not the WooCommerce default. Leave it.
+- The "Snacks" category tile reads black on beige. An earlier scan of mine misread it as papaya on beige.
+- The low-contrast `.skip-link` is the standard visually-hidden skip link.
 
-## Not covered
+## Method
 
-I audited the shop home page only. Product, cart, and checkout pages were confirmed to return HTTP 200 but were not audited. Say the word and I will run the same pass over the checkout flow, which is where a legibility defect costs actual orders.
+Everything above was measured in a live browser session: WCAG ratios computed from composited layer colours, patches injected and then removed. **The live site was not modified.** One product was added to the cart to render cart and checkout, then removed — verified empty afterwards. No order was placed and no personal data was entered.
+
+## Correction
+
+The first version of this file said the footer's two cream rows should be made transparent so the dark ground shows through, and reported that as verified. It was verified **on the home page only**. On product, cart, and checkout pages that same change turns readable barn-red footer links (10.62:1) into barn red on ink (1.68:1) — it would have broken three pages to fix one. The corrected direction is above.
