@@ -58,10 +58,16 @@ export const site = {
   // --- Ordering configuration -------------------------------------------------
   ordering: {
     mode: 'shop' as const,
-    // Was https://shop.oliviks.com/shop, which now 301s to https://oliviks.com/menu.
-    // Every "Order Online" button sent the customer back to the menu they came
-    // from. The shop root serves the storefront directly (verified 2026-08-01).
-    shopUrl: 'https://shop.oliviks.com/',
+    // Shop storefront. Correct target is 'https://shop.oliviks.com/' — the old
+    // '/shop' path 301s to oliviks.com/menu and looped every CTA back to the menu.
+    shopStorefront: 'https://shop.oliviks.com/',
+    // TEMPORARY (2026-08-01): shop checkout renders no form and no Place Order
+    // button, so the storefront cannot complete an order. Every "Order Online"
+    // button points at WhatsApp until that is fixed. To restore: set shopUrl back
+    // to shopStorefront and flip SHOP_CHECKOUT_LIVE in data/shopLinks.ts.
+    shopUrl:
+      'https://wa.me/36705673070?text=' +
+      encodeURIComponent("Hi Oliviks, I'd like to place an order:"),
     showPlatforms: true,
     wolt: 'https://wolt.com/en/hun/budapest/restaurant/oliviks-nigerian-kitchen',
     marwa: 'https://www.marwa.hu/store/113/oliviks-kitchen',
