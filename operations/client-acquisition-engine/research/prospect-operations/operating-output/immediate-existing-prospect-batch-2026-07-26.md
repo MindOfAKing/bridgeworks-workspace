@@ -718,3 +718,26 @@ Authority: Emmanuel's explicit approval of the exact follow-up plan on 2026-07-3
 - 2026-08-05: Loffice and Budbed Follow-up 1, after the same controls.
 - 2026-08-07: Premier and Rentify Follow-up 2 only if no reply, bounce, delivery failure, or opt-out appears.
 - No third follow-up is authorized.
+
+## Mobile-safe release schedule
+
+Activated: 2026-08-01, Europe/Budapest
+
+### Executed
+
+- Created the ChatGPT scheduled task `BridgeWorks Approved Follow-up Release Queue`.
+- Task conversation: `https://chatgpt.com/c/6a6d8261-34b8-83ed-8cdb-e69913009115`
+- Schedule readback: `Daily until Aug 12`.
+- First run readback: 2026-08-03 at 10:00 Europe/Budapest.
+- The task contains the ten remaining exact Gmail draft IDs, their five approved release dates, exact recipients, and existing HubSpot company IDs.
+- Each run must suppress on any reply, bounce, delivery failure, opt-out, recipient or copy mismatch, missing draft, or duplicate send.
+- Follow-up 2 additionally requires a verified Follow-up 1 send.
+- No send is authorized on unmatched dates.
+- No action was executed on 2026-08-01.
+
+### Ownership correction
+
+- ChatGPT owns the mobile-safe dated release trigger.
+- Codex owns verification, exception handling, HubSpot reconciliation, and the canonical execution receipts.
+- The former Codex heartbeat is not the sole release mechanism because it missed the 2026-07-31 run.
+- Retire the ChatGPT task after its 2026-08-12 result is verified.
