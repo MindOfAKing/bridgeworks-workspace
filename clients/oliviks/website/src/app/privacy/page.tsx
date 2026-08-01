@@ -22,7 +22,7 @@ export default function PrivacyPage() {
       <h1 className="mt-4 font-display text-[clamp(2.2rem,5vw,3.2rem)] font-extrabold tracking-tight text-cocoa">
         Privacy Policy
       </h1>
-      <p className="mt-3 text-[14px] text-cocoa/55">Last updated: {updated}</p>
+      <p className="mt-3 text-[14px] text-cocoa/60">Last updated: {updated}</p>
 
       <div className="mt-8 space-y-7 text-[15.5px] leading-relaxed text-cocoa/75 [&_h2]:font-display [&_h2]:text-[20px] [&_h2]:font-extrabold [&_h2]:text-cocoa [&_a]:font-semibold [&_a]:text-palm [&_a]:underline">
         <p>

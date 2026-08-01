@@ -28,7 +28,6 @@ const config: Config = {
           600: '#e6a328',
           700: '#c98a16',
         },
-        leaf: '#761212',
         cream: '#F7F9F4',
         cocoa: '#111111',
         ink: '#121210',

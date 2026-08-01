@@ -1,6 +1,7 @@
 'use client';
 
-import { useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
+import { Check } from 'lucide-react';
 import { waLink } from '@/data/site';
 
 type Status = 'idle' | 'sending' | 'ok' | 'error';
@@ -8,6 +9,13 @@ type Status = 'idle' | 'sending' | 'ok' | 'error';
 export function ContactForm() {
   const [status, setStatus] = useState<Status>('idle');
   const [error, setError] = useState('');
+  const successRef = useRef<HTMLDivElement>(null);
+
+  // The form unmounts on success, so focus would fall back to <body>. Move it
+  // to the confirmation instead, which is also what the screen reader reads.
+  useEffect(() => {
+    if (status === 'ok') successRef.current?.focus();
+  }, [status]);
 
   async function onSubmit(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault();
@@ -43,9 +51,21 @@ export function ContactForm() {
 
   if (status === 'ok') {
     return (
-      <div className="rounded-2xl border border-leaf/30 bg-leaf/10 p-6 text-center">
-        <p className="font-display text-xl font-semibold text-leaf">Thank you</p>
-        <p className="mt-2 text-cocoa/70">Your message has been sent. We will get back to you soon.</p>
+      <div
+        ref={successRef}
+        role="status"
+        tabIndex={-1}
+        className="flex items-center gap-3 rounded-2xl border-2 border-gold/40 bg-gold-50 px-6 py-5"
+      >
+        <span className="flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-palm text-cream">
+          <Check size={18} aria-hidden="true" />
+        </span>
+        <div>
+          <p className="font-display text-[16px] font-extrabold text-cocoa">Message sent.</p>
+          <p className="text-[13.5px] text-cocoa/65">
+            Thank you. We will get back to you soon.
+          </p>
+        </div>
       </div>
     );
   }
@@ -86,7 +106,7 @@ export function ContactForm() {
       </div>
 
       {status === 'error' && (
-        <div className="rounded-xl border border-palm/30 bg-palm/5 p-3 text-sm text-palm">
+        <div role="alert" className="rounded-xl border border-palm/30 bg-palm/5 p-3 text-sm text-palm">
           {error}{' '}
           <a href={waLink('Hi Oliviks, I have a question:')} target="_blank" rel="noopener noreferrer" className="font-semibold underline">
             Message us on WhatsApp

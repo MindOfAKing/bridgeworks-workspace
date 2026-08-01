@@ -190,7 +190,7 @@ export default function HomePage() {
                       </span>
                     )}
                   </div>
-                  <p className="mt-2 line-clamp-2 text-[13.5px] leading-relaxed text-cocoa/55">
+                  <p className="mt-2 line-clamp-2 text-[13.5px] leading-relaxed text-cocoa/60">
                     {dish.description}
                   </p>
                 </div>

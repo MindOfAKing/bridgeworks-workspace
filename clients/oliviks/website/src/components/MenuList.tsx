@@ -18,16 +18,17 @@ export function MenuList({ categories: providedCategories }: { categories?: Menu
   return (
     <div>
       {/* Category chips — sticky below the pinned header bar */}
-      <div className="sticky top-[66px] z-20 -mx-5 mb-12 border-b-2 border-ink/10 bg-cream/95 px-5 py-4 backdrop-blur-sm sm:-mx-8 sm:px-8">
-        <div className="flex flex-wrap gap-2.5">
+      <div className="sticky top-[var(--header-pinned)] z-20 -mx-5 mb-12 border-b-2 border-ink/10 bg-cream/95 px-5 py-4 backdrop-blur-sm sm:-mx-8 sm:px-8">
+        <div className="flex flex-wrap gap-2.5" role="group" aria-label="Filter menu by category">
           {cats.map((cat) => {
             const on = cat === active;
             return (
               <button
                 key={cat}
                 type="button"
+                aria-pressed={on}
                 onClick={() => setActive(cat)}
-                className={`rounded-full border-2 px-4 py-2 font-display text-[14px] font-bold transition-all hover:-translate-y-px ${
+                className={`min-h-[44px] rounded-full border-2 px-4 py-2 font-display text-[14px] font-bold transition-all hover:-translate-y-px ${
                   on
                     ? 'border-ink bg-gold text-ink shadow-[4px_4px_0_0_#761212]'
                     : 'border-ink/15 bg-white text-cocoa/70 hover:border-palm hover:text-palm'
@@ -63,7 +64,7 @@ export function MenuList({ categories: providedCategories }: { categories?: Menu
                   <h2 className="font-display text-[clamp(1.8rem,3.5vw,2.4rem)] font-extrabold leading-tight tracking-tight text-cocoa">
                     {cat.title}
                   </h2>
-                  <p className="mt-1.5 max-w-[660px] text-[15.5px] text-cocoa/55">{cat.blurb}</p>
+                  <p className="mt-1.5 max-w-[660px] text-[15.5px] text-cocoa/60">{cat.blurb}</p>
                   <div className="ankara-rule-thin mt-3.5 w-[52px]" aria-hidden="true" />
                 </div>
               </div>
@@ -145,7 +146,7 @@ function MenuCard({ dish, delay }: { dish: Dish; delay: number }) {
           )}
         </div>
 
-        <p className="flex-1 text-[13.5px] leading-[1.55] text-cocoa/55">{displayDesc}</p>
+        <p className="flex-1 text-[13.5px] leading-[1.55] text-cocoa/60">{displayDesc}</p>
 
         {optionsNote && (
           <div className="rounded-lg bg-palm-50 px-3 py-1.5 text-[12px] font-medium text-palm">

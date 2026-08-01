@@ -22,7 +22,7 @@ export function DishImage({
       aria-label={alt}
       role="img"
     >
-      <span className="px-4 text-center font-display text-sm font-medium text-cocoa/40">
+      <span className="px-4 text-center font-display text-sm font-medium text-cocoa/65">
         {alt}
       </span>
     </div>

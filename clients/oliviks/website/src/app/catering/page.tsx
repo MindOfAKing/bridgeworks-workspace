@@ -53,7 +53,9 @@ export default function CateringPage() {
 
         {/* Floating review badge */}
         <div className="animate-float anim-d-500 absolute right-6 top-8 hidden sm:right-10 sm:block">
-          <div className="flex items-center gap-3 rounded-2xl border border-white/20 bg-white/[0.12] px-5 py-3.5 backdrop-blur-sm">
+          {/* Sits at the top of the hero where the scrim is only ink/10, so the chip
+              carries its own ground. bg-white/[0.12] left the text on raw photo. */}
+          <div className="flex items-center gap-3 rounded-2xl border border-white/20 bg-ink/80 px-5 py-3.5 backdrop-blur-sm">
             <Star className="shrink-0 text-gold" size={18} fill="currentColor" aria-hidden="true" />
             <div>
               <p className="text-[15px] font-semibold leading-tight text-cream">

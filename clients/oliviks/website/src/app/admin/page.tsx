@@ -54,7 +54,7 @@ export default async function AdminPage() {
 
         <div className="mt-6 overflow-hidden rounded-2xl border border-cocoa/10">
           <table className="w-full text-left text-sm">
-            <thead className="bg-cream text-xs uppercase tracking-[0.16em] text-cocoa/55">
+            <thead className="bg-cream text-xs uppercase tracking-[0.16em] text-cocoa/60">
               <tr>
                 <th className="px-4 py-3">Category</th>
                 <th className="px-4 py-3">Items</th>
