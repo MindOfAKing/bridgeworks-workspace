@@ -58,7 +58,10 @@ export const site = {
   // --- Ordering configuration -------------------------------------------------
   ordering: {
     mode: 'shop' as const,
-    shopUrl: 'https://shop.oliviks.com/shop',
+    // Was https://shop.oliviks.com/shop, which now 301s to https://oliviks.com/menu.
+    // Every "Order Online" button sent the customer back to the menu they came
+    // from. The shop root serves the storefront directly (verified 2026-08-01).
+    shopUrl: 'https://shop.oliviks.com/',
     showPlatforms: true,
     wolt: 'https://wolt.com/en/hun/budapest/restaurant/oliviks-nigerian-kitchen',
     marwa: 'https://www.marwa.hu/store/113/oliviks-kitchen',
