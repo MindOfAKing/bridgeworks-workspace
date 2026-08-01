@@ -49,12 +49,11 @@ const slugByDishName: Record<string, string> = {
   'Coca-Cola Cherry Coke 330 ml': 'coca-cola-cherry-coke-330-ml',
 };
 
-// KILL SWITCH — set back to true the moment shop checkout works again.
-// 2026-08-01: shop.oliviks.com/checkout/ renders no form, no fields and no
-// Place Order button, so every shop link is a dead end. While this is false,
-// menu cards fall back to the WhatsApp order link they already use for dishes
-// with no shop product. Flip to true and the deep links return unchanged.
-const SHOP_CHECKOUT_LIVE = false;
+// KILL SWITCH — set false to route every shop link back to WhatsApp.
+// Was false on 2026-08-01 while shop checkout rendered no form. Checkout was
+// rebuilt on 2026-08-02 (WooCommerce page 436) and verified taking Teya card
+// payments, so shop deep links are live again.
+const SHOP_CHECKOUT_LIVE = true;
 
 export function shopProductUrl(dishName: string): string | null {
   if (!SHOP_CHECKOUT_LIVE) return null;
