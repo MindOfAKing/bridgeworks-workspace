@@ -109,7 +109,7 @@ export function AdminMenuEditor({ categories, source }: Props) {
                   : 'border-cocoa/10 bg-white/70 hover:border-gold/60 disabled:cursor-not-allowed disabled:opacity-60'
               }`}
             >
-              <span className="block text-xs uppercase tracking-[0.14em] text-cocoa/45">{item.categoryTitle}</span>
+              <span className="block text-xs uppercase tracking-[0.14em] text-cocoa/60">{item.categoryTitle}</span>
               <span className="mt-1 block font-semibold text-cocoa">{item.name}</span>
               <span className="mt-1 block text-sm text-cocoa/60">{item.price ?? 'No price'}</span>
             </button>

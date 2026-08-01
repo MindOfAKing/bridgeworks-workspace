@@ -1,6 +1,6 @@
 'use client';
 
-import { useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { Check, Mail } from 'lucide-react';
 import { waLink } from '@/data/site';
 
@@ -12,6 +12,12 @@ type Status = 'idle' | 'sending' | 'ok' | 'error';
 export function NewsletterSignup({ source = 'website' }: { source?: string }) {
   const [status, setStatus] = useState<Status>('idle');
   const [error, setError] = useState('');
+  const successRef = useRef<HTMLDivElement>(null);
+
+  // The form unmounts on success, so move focus to the confirmation.
+  useEffect(() => {
+    if (status === 'ok') successRef.current?.focus();
+  }, [status]);
 
   async function onSubmit(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault();
@@ -51,7 +57,12 @@ export function NewsletterSignup({ source = 'website' }: { source?: string }) {
 
   if (status === 'ok') {
     return (
-      <div className="flex items-center gap-3 rounded-2xl border-2 border-gold/40 bg-gold-50 px-6 py-5">
+      <div
+        ref={successRef}
+        role="status"
+        tabIndex={-1}
+        className="flex items-center gap-3 rounded-2xl border-2 border-gold/40 bg-gold-50 px-6 py-5"
+      >
         <span className="flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-palm text-cream">
           <Check size={18} aria-hidden="true" />
         </span>
@@ -82,6 +93,7 @@ export function NewsletterSignup({ source = 'website' }: { source?: string }) {
             name="email"
             type="email"
             inputMode="email"
+            required
             placeholder="you@example.com"
             className="w-full rounded-full border-2 border-ink/10 bg-white py-3 pl-11 pr-4 text-[15px] outline-none transition-colors focus:border-palm"
           />
@@ -127,7 +139,7 @@ export function NewsletterSignup({ source = 'website' }: { source?: string }) {
       </label>
 
       {status === 'error' && (
-        <div className="rounded-xl border border-palm/30 bg-palm-50 p-3 text-[13px] text-palm">
+        <div role="alert" className="rounded-xl border border-palm/30 bg-palm-50 p-3 text-[13px] text-palm">
           {error}{' '}
           <a
             href={waLink('Hi Oliviks, I want to join your specials list:')}

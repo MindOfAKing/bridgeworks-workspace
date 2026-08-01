@@ -82,7 +82,7 @@ export function Footer() {
             <p className="mb-3 text-[11px] font-bold uppercase tracking-[0.16em] text-gold">Hours</p>
             <div className="text-[13.5px] leading-[1.9]">
               {site.hours.map((h) => (
-                <p key={h.days} className={h.time === 'Closed' ? 'text-stone-500' : undefined}>
+                <p key={h.days} className={h.time === 'Closed' ? 'text-stone-400' : undefined}>
                   {h.days}: {h.time}
                 </p>
               ))}
@@ -116,7 +116,7 @@ export function Footer() {
         </div>
 
         <div className="border-t border-white/10">
-          <div className="container-x flex flex-wrap items-center justify-between gap-4 py-5 text-[12.5px] text-stone-500">
+          <div className="container-x flex flex-wrap items-center justify-between gap-4 py-5 text-[12.5px] text-stone-400">
             <span>&copy; {new Date().getFullYear()} Oliviks KFT. All rights reserved.</span>
             <a
               href="https://bridgeworks.agency"

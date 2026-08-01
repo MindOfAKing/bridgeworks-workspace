@@ -49,7 +49,14 @@ const slugByDishName: Record<string, string> = {
   'Coca-Cola Cherry Coke 330 ml': 'coca-cola-cherry-coke-330-ml',
 };
 
+// KILL SWITCH — set false to route every shop link back to WhatsApp.
+// Was false on 2026-08-01 while shop checkout rendered no form. Checkout was
+// rebuilt on 2026-08-02 (WooCommerce page 436) and verified taking Teya card
+// payments, so shop deep links are live again.
+const SHOP_CHECKOUT_LIVE = true;
+
 export function shopProductUrl(dishName: string): string | null {
+  if (!SHOP_CHECKOUT_LIVE) return null;
   const slug = slugByDishName[dishName.trim()];
   return slug ? `${SHOP_BASE}${slug}/` : null;
 }

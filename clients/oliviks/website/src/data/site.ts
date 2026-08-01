@@ -58,7 +58,13 @@ export const site = {
   // --- Ordering configuration -------------------------------------------------
   ordering: {
     mode: 'shop' as const,
-    shopUrl: 'https://shop.oliviks.com/shop',
+    // Shop storefront. Correct target is 'https://shop.oliviks.com/' — the old
+    // '/shop' path 301s to oliviks.com/menu and looped every CTA back to the menu.
+    shopStorefront: 'https://shop.oliviks.com/',
+    // Restored 2026-08-02: checkout was rebuilt (WooCommerce page 436) and
+    // verified rendering the full billing form with Teya card payment. The
+    // WhatsApp fallback lives in git history if the shop ever breaks again.
+    shopUrl: 'https://shop.oliviks.com/',
     showPlatforms: true,
     wolt: 'https://wolt.com/en/hun/budapest/restaurant/oliviks-nigerian-kitchen',
     marwa: 'https://www.marwa.hu/store/113/oliviks-kitchen',

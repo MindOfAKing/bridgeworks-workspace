@@ -15,16 +15,29 @@
   --papaya: #fab73a;
   --chalk: #f7f9f4;
   --ink: #121210;
+  /* Visible height of the pinned header once the utility bar has scrolled away:
+     4px ankara rule + main bar. Anything sticky below the header offsets by this. */
+  --header-pinned: 71px;
+}
+
+@media (min-width: 640px) {
+  :root {
+    --header-pinned: 75px;
+  }
 }
 
 html {
-  overflow-x: hidden;
+  /* `clip`, not `hidden`. `overflow-x: hidden` turns the element into a scroll
+     container, which silently kills every `position: sticky` descendant: the
+     header and the menu filter bar both stopped pinning. `clip` contains the
+     same horizontal overflow without creating a scrollport. */
+  overflow-x: clip;
   scroll-behavior: smooth;
 }
 
 body {
   max-width: 100vw;
-  overflow-x: hidden;
+  overflow-x: clip;
   background-color: var(--chalk);
   color: #111111;
   -webkit-font-smoothing: antialiased;
@@ -33,6 +46,22 @@ body {
 ::selection {
   background: var(--papaya);
   color: var(--ink);
+}
+
+/* ---- Keyboard focus ----
+   Two-tone ring so one layer always carries contrast: ink reads on the chalk
+   grounds, papaya reads on the barn-red and ink grounds. Pointer users never
+   see it; :focus-visible only fires for keyboard and assistive input. */
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+textarea:focus-visible,
+select:focus-visible,
+summary:focus-visible,
+[tabindex]:focus-visible {
+  outline: 2px solid var(--ink);
+  outline-offset: 2px;
+  box-shadow: 0 0 0 5px rgba(250, 183, 58, 0.95);
 }
 
 @layer components {
@@ -193,7 +222,9 @@ body {
 .animate-float { animation: float 5s ease-in-out infinite; }
 .animate-float-slow { animation: float 7s ease-in-out infinite; }
 .animate-spin-slow { animation: spinSlow 22s linear infinite; }
-.animate-pulse-glow { animation: pulseGlow 2.5s ease-in-out infinite; }
+/* Three beats, then rest. box-shadow repaints every frame, so an endless loop
+   burns paint for the life of the page and nags the reader once it is seen. */
+.animate-pulse-glow { animation: pulseGlow 2.5s ease-in-out 3; }
 
 /* Animation delay utilities for staggered entrances */
 .anim-d-100 { animation-delay: 0.1s; }

@@ -53,7 +53,7 @@ export default function ContactPage() {
               </InfoCard>
               <InfoCard icon={<Clock size={17} aria-hidden="true" />} title="Hours">
                 {site.hours.map((h) => (
-                  <span key={h.days} className={`block ${h.time === 'Closed' ? 'text-cocoa/45' : ''}`}>
+                  <span key={h.days} className={`block ${h.time === 'Closed' ? 'text-cocoa/60' : ''}`}>
                     {h.days}: {h.time}
                   </span>
                 ))}

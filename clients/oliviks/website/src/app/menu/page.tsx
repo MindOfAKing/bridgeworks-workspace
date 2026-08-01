@@ -98,7 +98,7 @@ export default async function MenuPage() {
               delivery, call us on {site.phone.display} to arrange it, or order on Wolt or Marwa.
               Mention your protein or swallow preference where needed.
             </p>
-            <p className="mt-2 text-[13px] leading-relaxed text-cocoa/50">
+            <p className="mt-2 text-[13px] leading-relaxed text-cocoa/65">
               Prices shown here are our in-store menu prices. Online and delivery prices include a
               small markup that covers ordering costs.
             </p>

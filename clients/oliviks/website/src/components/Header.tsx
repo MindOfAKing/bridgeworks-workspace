@@ -1,6 +1,6 @@
 'use client';
 
-import { useEffect, useState } from 'react';
+import { useCallback, useEffect, useRef, useState } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
@@ -14,9 +14,37 @@ const nav = [
   { href: '/contact', label: 'Contact' },
 ];
 
+const FOCUSABLE = 'a[href], button:not([disabled]), input, textarea, select, [tabindex]:not([tabindex="-1"])';
+
 export function Header() {
   const [open, setOpen] = useState(false);
   const pathname = usePathname();
+  const toggleRef = useRef<HTMLButtonElement>(null);
+  const panelRef = useRef<HTMLDivElement>(null);
+  const headerRef = useRef<HTMLElement>(null);
+
+  const close = useCallback(() => {
+    setOpen(false);
+    toggleRef.current?.focus();
+  }, []);
+
+  // Publish the header's pinned height so anything sticky below it (the menu
+  // filter bar) lands flush instead of guessing. The utility bar scrolls away
+  // via -top-9, so the pinned height is the full header minus that 36px.
+  useEffect(() => {
+    const el = headerRef.current;
+    if (!el) return;
+
+    const publish = () => {
+      const pinned = Math.round(el.getBoundingClientRect().height - 36);
+      document.documentElement.style.setProperty('--header-pinned', `${pinned}px`);
+    };
+
+    publish();
+    const ro = new ResizeObserver(publish);
+    ro.observe(el);
+    return () => ro.disconnect();
+  }, []);
 
   // Lock scroll behind the full-screen mobile menu.
   useEffect(() => {
@@ -26,10 +54,51 @@ export function Header() {
     };
   }, [open]);
 
+  // The panel sits below the header so the toggle stays visible and tappable,
+  // which means the trap has to span both: toggle first, then the panel.
+  useEffect(() => {
+    if (!open) return;
+
+    panelRef.current?.querySelector<HTMLElement>(FOCUSABLE)?.focus();
+
+    function onKeyDown(e: KeyboardEvent) {
+      if (e.key === 'Escape') {
+        e.preventDefault();
+        close();
+        return;
+      }
+      if (e.key !== 'Tab') return;
+
+      const panel = panelRef.current;
+      const toggle = toggleRef.current;
+      if (!panel || !toggle) return;
+
+      const stops = [toggle, ...Array.from(panel.querySelectorAll<HTMLElement>(FOCUSABLE))];
+      const first = stops[0];
+      const last = stops[stops.length - 1];
+      const activeEl = document.activeElement;
+
+      if (e.shiftKey && activeEl === first) {
+        e.preventDefault();
+        last.focus();
+      } else if (!e.shiftKey && activeEl === last) {
+        e.preventDefault();
+        first.focus();
+      } else if (activeEl instanceof HTMLElement && !stops.includes(activeEl)) {
+        // Focus escaped to the page behind the overlay. Pull it back.
+        e.preventDefault();
+        first.focus();
+      }
+    }
+
+    document.addEventListener('keydown', onKeyDown);
+    return () => document.removeEventListener('keydown', onKeyDown);
+  }, [open, close]);
+
   return (
     <>
       {/* -top-9 lets the utility bar scroll away while the main bar stays pinned */}
-      <header className="sticky -top-9 z-50">
+      <header ref={headerRef} className="sticky -top-9 z-50">
         <div className="ankara-rule-thin" />
 
         {/* Utility bar */}
@@ -94,7 +163,7 @@ export function Header() {
                 href={waLink('Hi Oliviks, I have a question:')}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center gap-1.5 text-[13.5px] font-semibold text-cocoa/55 transition-colors hover:text-palm"
+                className="flex items-center gap-1.5 text-[13.5px] font-semibold text-cocoa/60 transition-colors hover:text-palm"
               >
                 <MessageCircle size={15} aria-hidden="true" /> WhatsApp
               </a>
@@ -109,11 +178,13 @@ export function Header() {
             </div>
 
             <button
+              ref={toggleRef}
               type="button"
               className="ml-auto flex h-11 w-11 items-center justify-center rounded-full border-2 border-cocoa/15 text-cocoa md:hidden"
               aria-label={open ? 'Close menu' : 'Open menu'}
               aria-expanded={open}
-              onClick={() => setOpen((v) => !v)}
+              aria-controls="mobile-menu"
+              onClick={() => (open ? close() : setOpen(true))}
             >
               {open ? <X size={22} /> : <Menu size={22} />}
             </button>
@@ -134,7 +205,14 @@ export function Header() {
 
       {/* Full-screen mobile menu — barn red, oversized type */}
       {open && (
-        <div className="grain fixed inset-0 z-40 bg-palm-800 md:hidden">
+        <div
+          id="mobile-menu"
+          ref={panelRef}
+          role="dialog"
+          aria-modal="true"
+          aria-label="Site menu"
+          className="grain fixed inset-0 z-40 bg-palm-800 md:hidden"
+        >
           <div className="flex h-full flex-col px-7 pb-10 pt-32">
             <nav className="flex flex-col gap-2">
               {nav.map((n, i) => {
