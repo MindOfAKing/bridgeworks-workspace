@@ -1,0 +1,4 @@
+interface:
+  display_name: "BridgeWorks Revenue System Scan"
+  short_description: "Create a public-evidence RevOps proof asset"
+  default_prompt: "Use $bridgeworks-revenue-system-scan to create one bounded revenue-system hypothesis and future-state map for this qualified prospect."

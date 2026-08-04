@@ -1,0 +1,48 @@
+company: BridgeWorks
+domain: bridgeworks.agency
+market: "Cross-border service business operating across Europe and Africa"
+source: "Founder-requested internal dogfood run, public website, local operating evidence, and live connector checks on 2026-08-02"
+status: discovery-ready
+score: 100
+verified_signal_count: 8
+confidence: high
+evidence:
+  fit:
+    - "BridgeWorks explicitly sells lead follow-up systems, client intake and qualification, AI workflows, and digital infrastructure."
+    - "The requested outcome is a governed prospecting system spanning qualification, diagnostics, CRM, task execution, and outreach."
+  problem:
+    - "The current website intake stores enquiries and can create or update HubSpot contacts, but the documented route does not automatically invoke the repaired qualifier, router, proof-asset production, or ClickUp work."
+    - "The website offers a free GEO audit broadly, while the active sales rule says bespoke work is earned only after commercial qualification."
+    - "The 2026-08-01 commercial snapshot recorded 55 HubSpot companies, 32 contacts, zero deals, and 49 companies without lead status."
+  change:
+    - "The prospecting qualifier, router, GEO scan, revenue-system scan, and AI-workflow scan were repaired and activated on 2026-08-01."
+    - "Emmanuel explicitly requested that BridgeWorks use the orchestration audit on itself on 2026-08-02."
+  capacity:
+    - "BridgeWorks has a live website, a functioning intake path, HubSpot, ClickUp, Gmail, case evidence, and an active acquisition-engine workspace."
+  access:
+    - "Founder and commercial owner Emmanuel Ehigbai directly requested the run and is the accountable buyer."
+unknowns:
+  - "Whether production inbound submissions currently invoke any ops webhook beyond Sheet and HubSpot contact storage."
+  - "Current HubSpot deal, lifecycle, and attribution completeness could not be live-rechecked after the connector returned reauthorization guidance."
+  - "Actual response time, qualification accuracy, artifact production time, and conversion by route have not yet been measured."
+  - "Whether the free GEO offer should remain universal, become qualification-gated, or be limited to a specific campaign."
+exclusions_checked:
+  - "BridgeWorks is a legitimate operating business and the requested outcome is within its service scope."
+  - "The work has a clear implementation owner and adequate operating capacity."
+  - "No prohibited, deceptive, or irrelevant outcome is involved."
+primary_service_route: execution-operating-systems
+secondary_service_route: strategy-transformation
+likely_buyer: "Emmanuel Ehigbai, Founder and Principal"
+buyer_evidence: "Emmanuel directly requested the internal engagement and owns the commercial system."
+recommended_asset: "A prospect-to-proof control-loop decision snapshot showing the minimum governed flow from buyer event to evidence, asset, approval, and learning."
+asset_question: "How should BridgeWorks turn a detected buyer moment into one governed prospect-to-proof loop that records commercial truth once, produces the right 20-minute asset, and advances only on evidence?"
+next_action: "Pass to the BridgeWorks prospect router and produce one bounded revenue-system decision snapshot."
+stop_condition: "Stop if the proposed loop requires unverified production writes, a full CRM redesign, or simultaneous assets for all five service lines."
+crm_fields:
+  qualification_status: discovery-ready
+  qualification_score: 100
+  qualification_evidence: "Founder mandate; live intake; repaired routing capabilities; recorded CRM/task fragmentation; contradictory free-work rule."
+  service_route: execution-operating-systems
+  next_action: "Approve and implement the minimum prospect-to-proof control loop."
+  next_action_date: "2026-08-02"
+

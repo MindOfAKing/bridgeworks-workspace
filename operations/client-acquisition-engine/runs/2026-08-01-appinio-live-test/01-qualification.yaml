@@ -1,0 +1,52 @@
+company: Appinio
+domain: appinio.com
+market: "Global market-research platform and consultancy, headquartered in Hamburg"
+source: "Public-source live prospect test, 2026-08-01"
+status: discovery-ready
+score: 90
+verified_signal_count: 7
+confidence: high
+evidence:
+  fit:
+    - "Appinio combines an AI-powered platform with expert consultancy and serves more than 3,000 companies in over 190 markets."
+    - "Its current Senior Revenue Operations role owns work across Marketing, Sales, Customer Success, HubSpot, data quality, and operating workflows."
+  problem:
+    - "The current Senior Revenue Operations Manager role explicitly calls for mapping and improving workflows across Marketing, Sales, and Customer Success."
+    - "The same role explicitly owns the data model, automated data-quality controls, CRM health checks, and HubSpot workflow design."
+  change:
+    - "Arne Wolter became CEO in May 2026 to lead Appinio's next growth phase."
+    - "Appinio's official Greenhouse board currently lists a Senior Revenue Operations Manager role."
+  capacity:
+    - "Official company material states roughly 250-260 employees, more than 3,000 customers, profitability, and about $30 million annual revenue."
+  access:
+    - "Arne Wolter is publicly named as CEO in an official May 2026 release and is the accountable executive while the CRO seat is open."
+unknowns:
+  - "Whether Appinio is using an external advisor during the CEO and RevOps transition."
+  - "Current HubSpot architecture, lifecycle definitions, data quality, reporting, and governance."
+  - "Whether the Senior RevOps role reflects a gap, additional capacity, or planned redesign already under way."
+  - "Procurement path, budget, and incumbent providers."
+  - "A previously indexed CRO vacancy now redirects to an expired LinkedIn job page and is not treated as current evidence."
+exclusions_checked:
+  - "No legitimacy or prohibited-outcome concern found."
+  - "The company has clear implementation capacity."
+  - "The prospect may prefer internal delivery, but the live transition creates a plausible bounded advisory entry."
+primary_service_route: execution-operating-systems
+secondary_service_route: strategy-transformation
+likely_buyer: "Arne Wolter, CEO"
+buyer_evidence: "New CEO appointed to lead the next growth phase; the Senior RevOps role reports to the Team Lead Business Intelligence, whose name was not verified."
+recommended_asset: "A one-page revenue-system decision snapshot showing what the CEO should keep stable, what the Team Lead Business Intelligence should validate, and what the Senior RevOps hire should operationalize."
+asset_question: "Which revenue-system decisions should Appinio settle during the new-CEO and Senior RevOps transition so global growth does not outrun ownership, data definitions, and management visibility?"
+next_action: "Pass to the BridgeWorks prospect router; verify current sources and produce one bounded public-evidence transition map."
+stop_condition: "Stop or reroute if the CRO role has been filled, the RevOps hiring has closed, or Appinio publicly confirms an incumbent transformation partner or completed GTM redesign."
+crm_fields:
+  qualification_status: discovery-ready
+  qualification_score: 95
+  qualification_evidence: "New CEO; current Senior RevOps role; explicit HubSpot/workflow/data-model mandate; global scale and capacity; named executive owner."
+  service_route: execution-operating-systems
+  next_action: "Produce and approve a public-evidence GTM transition map; no portal claims or proposal."
+  next_action_date: "2026-08-01"
+sources:
+  - "https://www.appinio.com/en/press-releases/arne-wolter-new-ceo"
+  - "https://job-boards.greenhouse.io/appinio/jobs/4841375101"
+  - "https://job-boards.greenhouse.io/appinio"
+  - "https://www.appinio.com/en-gb/press-releases/10-years-appinio"

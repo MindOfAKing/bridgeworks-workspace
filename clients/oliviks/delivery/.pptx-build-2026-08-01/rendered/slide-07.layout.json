@@ -1,0 +1,784 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/d9utaj",
+    "id": "d9utaj",
+    "slide": 7,
+    "layoutId": "7eff5efd-6f36-48e3-a092-6439a15cb131",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "b99976e0-b38f-4dfe-9543-6432785f01d2",
+    "masterLayoutName": "Master",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "bg1": "#FFFFFF",
+      "bg2": "#000000",
+      "tx1": "#1F1F1F",
+      "tx2": "#FFFFFF",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "typefaces": [
+      "Arial"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "7eff5efd-6f36-48e3-a092-6439a15cb131",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "b99976e0-b38f-4dfe-9543-6432785f01d2",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "b99976e0-b38f-4dfe-9543-6432785f01d2",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/5kje90fi",
+      "id": "1",
+      "bbox": [
+        42,
+        32,
+        700,
+        28
+      ],
+      "geometry": "rect",
+      "text": "OLIVIKS KITCHEN · FOUNDATION HANDOVER",
+      "textPreview": "OLIVIKS KITCHEN · FOUNDATION HANDOVER",
+      "resolvedFontSize": 15.33,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 16,
+        "typeface": "Arial",
+        "color": "#365E43",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "shrinkText",
+        "autoFitScale": 0.96,
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "OLIVIKS KITCHEN · FOUNDATION HANDOVER"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "OLIVIKS KITCHEN · FOUNDATION HANDOVER",
+          "resolvedTextStyle": {
+            "fontSize": 16,
+            "typeface": "Arial",
+            "color": "#365E43",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "OLIVIKS KITCHEN · FOUNDATION HANDOVER",
+              "fontSize": 16,
+              "typeface": "Arial",
+              "color": "#365E43",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ih8ve5wr",
+      "id": "2",
+      "bbox": [
+        42,
+        72,
+        1160,
+        72
+      ],
+      "geometry": "rect",
+      "text": "The walkthrough closes the owner gates",
+      "textPreview": "The walkthrough closes the owner gates",
+      "resolvedFontSize": 48,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 48,
+        "typeface": "Arial",
+        "color": "#111111",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "The walkthrough closes the owner gates"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "The walkthrough closes the owner gates",
+          "resolvedTextStyle": {
+            "fontSize": 48,
+            "typeface": "Arial",
+            "color": "#111111",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "The walkthrough closes the owner gates",
+              "fontSize": 48,
+              "typeface": "Arial",
+              "color": "#111111",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/3i1w7axc",
+      "id": "3",
+      "bbox": [
+        42,
+        655,
+        1196,
+        0
+      ],
+      "geometry": "straightConnector1",
+      "lineColor": "#BBBDBF",
+      "lineWidth": 1
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/snaxkfet",
+      "id": "4",
+      "bbox": [
+        1170,
+        667,
+        68,
+        24
+      ],
+      "geometry": "rect",
+      "text": "07",
+      "textPreview": "07",
+      "resolvedFontSize": 12,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 14,
+        "typeface": "Arial",
+        "color": "#5E6268",
+        "alignment": "right",
+        "verticalAlignment": "top",
+        "autoFit": "shrinkText",
+        "autoFitScale": 0.86,
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "07"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "07",
+          "resolvedTextStyle": {
+            "fontSize": 14,
+            "typeface": "Arial",
+            "color": "#5E6268",
+            "alignment": "right"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "07",
+              "fontSize": 14,
+              "typeface": "Arial",
+              "color": "#5E6268",
+              "alignment": "right"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/dojedkve",
+      "id": "5",
+      "bbox": [
+        42,
+        180,
+        390,
+        30
+      ],
+      "geometry": "rect",
+      "text": "READY TO REVIEW",
+      "textPreview": "READY TO REVIEW",
+      "resolvedFontSize": 17,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 18,
+        "typeface": "Arial",
+        "color": "#365E43",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "shrinkText",
+        "autoFitScale": 0.94,
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "READY TO REVIEW"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "READY TO REVIEW",
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "typeface": "Arial",
+            "color": "#365E43",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "READY TO REVIEW",
+              "fontSize": 18,
+              "typeface": "Arial",
+              "color": "#365E43",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/qlsvi5w3",
+      "id": "6",
+      "bbox": [
+        42,
+        228,
+        580,
+        242
+      ],
+      "geometry": "rect",
+      "text": "• Approve the new site content, menu, photos, address, and ordering wording\n• Confirm the domain move from the legacy root to the new site\n• Choose the final timing for one controlled signup and welcome-email test",
+      "textPreview": "• Approve the new site content, menu, photos, address, and ordering wording | • Confirm the domain move from the legacy root to the new s...",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 24,
+        "typeface": "Arial",
+        "color": "#111111",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 6,
+        "lines": [
+          {
+            "index": 1,
+            "text": "• Approve the new site content, menu, photos,"
+          },
+          {
+            "index": 2,
+            "text": "address, and ordering wording"
+          },
+          {
+            "index": 3,
+            "text": "• Confirm the domain move from the legacy root to"
+          },
+          {
+            "index": 4,
+            "text": "the new site"
+          },
+          {
+            "index": 5,
+            "text": "• Choose the final timing for one controlled signup"
+          },
+          {
+            "index": 6,
+            "text": "and welcome-email test"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "• Approve the new site content, menu, photos, address, and ordering wording",
+          "resolvedTextStyle": {
+            "fontSize": 24,
+            "typeface": "Arial",
+            "color": "#111111",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "• Approve the new site content, menu, photos, address, and ordering wording",
+              "fontSize": 24,
+              "typeface": "Arial",
+              "color": "#111111",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "• Confirm the domain move from the legacy root to the new site",
+          "resolvedTextStyle": {
+            "fontSize": 24,
+            "typeface": "Arial",
+            "color": "#111111",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "• Confirm the domain move from the legacy root to the new site",
+              "fontSize": 24,
+              "typeface": "Arial",
+              "color": "#111111",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 3,
+          "text": "• Choose the final timing for one controlled signup and welcome-email test",
+          "resolvedTextStyle": {
+            "fontSize": 24,
+            "typeface": "Arial",
+            "color": "#111111",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "• Choose the final timing for one controlled signup and welcome-email test",
+              "fontSize": 24,
+              "typeface": "Arial",
+              "color": "#111111",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/rm1wbado",
+      "id": "7",
+      "bbox": [
+        42,
+        488,
+        390,
+        30
+      ],
+      "geometry": "rect",
+      "text": "OWNER SETUP",
+      "textPreview": "OWNER SETUP",
+      "resolvedFontSize": 17,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 18,
+        "typeface": "Arial",
+        "color": "#D99B2B",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "shrinkText",
+        "autoFitScale": 0.94,
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "OWNER SETUP"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "OWNER SETUP",
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "typeface": "Arial",
+            "color": "#D99B2B",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "OWNER SETUP",
+              "fontSize": 18,
+              "typeface": "Arial",
+              "color": "#D99B2B",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/8rqd8vep",
+      "id": "8",
+      "bbox": [
+        42,
+        530,
+        590,
+        86
+      ],
+      "geometry": "rect",
+      "text": "Reactivate the paused menu database, create the WhatsApp broadcast list, and place the counter QR card.",
+      "textPreview": "Reactivate the paused menu database, create the WhatsApp broadcast list, and place the counter QR card.",
+      "resolvedFontSize": 21.22,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 23,
+        "typeface": "Arial",
+        "color": "#111111",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "shrinkText",
+        "autoFitScale": 0.92,
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 3,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Reactivate the paused menu database, create the"
+          },
+          {
+            "index": 2,
+            "text": "WhatsApp broadcast list, and place the counter QR"
+          },
+          {
+            "index": 3,
+            "text": "card."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Reactivate the paused menu database, create the WhatsApp broadcast list, and place the counter QR card.",
+          "resolvedTextStyle": {
+            "fontSize": 23,
+            "typeface": "Arial",
+            "color": "#111111",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Reactivate the paused menu database, create the WhatsApp broadcast list, and place the counter QR card.",
+              "fontSize": 23,
+              "typeface": "Arial",
+              "color": "#111111",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/tsze1gfa",
+      "id": "9",
+      "bbox": [
+        684,
+        158,
+        554,
+        474
+      ],
+      "geometry": "rect",
+      "fillColor": "#F0F0EE",
+      "lineColor": "#F0F0EE",
+      "lineWidth": 0
+    },
+    {
+      "order": 10,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/6dsvm98f",
+      "id": "10",
+      "bbox": [
+        700,
+        174,
+        522,
+        260
+      ],
+      "alt": "Oliviks admin interface",
+      "contentType": "image/png",
+      "imageCrop": {
+        "left": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0.15
+      },
+      "imageFit": "cover",
+      "asset": {
+        "assetId": "e50040ee-6af6-4187-88ef-1ed58310596c",
+        "contentType": "image/png",
+        "byteLength": 515662
+      }
+    },
+    {
+      "order": 11,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/7e1wfe90",
+      "id": "11",
+      "bbox": [
+        886,
+        456,
+        150,
+        150
+      ],
+      "alt": "Oliviks WhatsApp counter QR card",
+      "contentType": "image/png",
+      "imageFit": "contain",
+      "asset": {
+        "assetId": "8d326936-677d-47a6-8c8b-51586394dae3",
+        "contentType": "image/png",
+        "byteLength": 162251
+      }
+    },
+    {
+      "order": 12,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/vi5wv6dw",
+      "id": "12",
+      "bbox": [
+        712,
+        456,
+        162,
+        148
+      ],
+      "geometry": "rect",
+      "text": "Current note: the free-tier database paused on 31 July and must be reactivated before live menu editing.",
+      "textPreview": "Current note: the free-tier database paused on 31 July and must be reactivated before live menu editing.",
+      "resolvedFontSize": 16.62,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 18,
+        "typeface": "Arial",
+        "color": "#9E4A3B",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "shrinkText",
+        "autoFitScale": 0.92,
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 7,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Current note: the"
+          },
+          {
+            "index": 2,
+            "text": "free-tier database"
+          },
+          {
+            "index": 3,
+            "text": "paused on 31"
+          },
+          {
+            "index": 4,
+            "text": "July and must be"
+          },
+          {
+            "index": 5,
+            "text": "reactivated"
+          },
+          {
+            "index": 6,
+            "text": "before live menu"
+          },
+          {
+            "index": 7,
+            "text": "editing."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Current note: the free-tier database paused on 31 July and must be reactivated before live menu editing.",
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "typeface": "Arial",
+            "color": "#9E4A3B",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Current note: the free-tier database paused on 31 July and must be reactivated before live menu editing.",
+              "fontSize": 18,
+              "typeface": "Arial",
+              "color": "#9E4A3B",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    }
+  ],
+  "composeRuns": []
+}

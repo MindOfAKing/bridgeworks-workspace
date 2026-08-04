@@ -4,6 +4,10 @@ Generated: 2026-07-28T11:43:01+00:00
 Research result: `C:\Users\User\Projects\bridgeworks-workspace\operations\client-acquisition-engine\research\prospect-operations\results\2026-07-28-batch-01-results.json`
 Status: Internal preparation. No message, draft, form, or platform action has been executed.
 
+## Superseded Status
+
+Superseded on 2026-08-02 by the current BridgeWorks prospect framework and Emmanuel's cancellation of the older defect-led outreach queue. The PERCOSO, New Solution Service Kft, and TriAxis actions in this packet must not be approved or sent. PERCOSO was explicitly superseded as well. Requalify from scratch only if a current buyer event, one primary service route, responsible buyer, and earned free-audit asset are verified.
+
 ## Queue Summary
 
 | Review state | Count |

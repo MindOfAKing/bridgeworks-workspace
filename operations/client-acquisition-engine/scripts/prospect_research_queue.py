@@ -238,8 +238,18 @@ def prepare(limit: int, date: str) -> dict[str, Any]:
 
     selected = eligible_rows(load_rows(), state)[: max(1, min(limit, 10))]
     if not selected:
-        append_event("batch.empty", {"date": date, "reason": "no eligible active-lane prospects"})
-        return {"ok": True, "created": False, "batch": None, "reason": "no eligible active-lane prospects"}
+        warning = ""
+        try:
+            append_event("batch.empty", {"date": date, "reason": "no eligible active-lane prospects"})
+        except OSError as exc:
+            warning = f"empty batch was not logged: {type(exc).__name__}: {exc}"
+        return {
+            "ok": True,
+            "created": False,
+            "batch": None,
+            "reason": "no eligible active-lane prospects",
+            "warning": warning,
+        }
 
     batch_number = 1 + sum(1 for item in state.get("batches", []) if item.get("date") == date)
     batch_id = f"{date}-batch-{batch_number:02d}"
@@ -503,9 +513,10 @@ def main() -> int:
                 "batch_id": batch.get("batch_id", ""),
                 "prospect_count": len(batch.get("prospects", [])),
                 "prospects": [item.get("company", "") for item in batch.get("prospects", [])],
-                "json_path": payload.get("json_path") or str(BATCH_ROOT / f"{batch.get('batch_id', '')}.json"),
-                "markdown_path": payload.get("markdown_path") or str(BATCH_ROOT / f"{batch.get('batch_id', '')}.md"),
+                "json_path": payload.get("json_path", ""),
+                "markdown_path": payload.get("markdown_path", ""),
                 "reason": payload.get("reason", ""),
+                "warning": payload.get("warning", ""),
             }
     elif args.command == "complete":
         payload = complete(args.batch, args.results)

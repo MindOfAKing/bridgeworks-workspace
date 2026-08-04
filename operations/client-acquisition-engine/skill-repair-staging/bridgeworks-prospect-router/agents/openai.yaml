@@ -1,0 +1,4 @@
+interface:
+  display_name: "BridgeWorks Prospect Router"
+  short_description: "Route qualified leads to one valuable asset"
+  default_prompt: "Use $bridgeworks-prospect-router to choose the smallest justified diagnostic and execution stack for this qualified prospect."

@@ -1,5 +1,14 @@
 # BridgeWorks Client Acquisition Engine
 
+## 1 August 2026 sales-system upgrade
+
+- `SALES-ACQUISITION-SYSTEM-2026-08-01.md` — research-backed acquisition model across all five service routes.
+- `SERVICE-LINE-SALES-CONTENT-2026-08-01.md` — tailored authority, outreach, and discovery content.
+- `SERVICE-LINE-PROSPECT-LIST-2026-08-01.csv` — 25-account working list, five accounts per service route.
+- `SALES-TOOL-EXECUTION-MAP-2026-08-01.md` — HubSpot, ClickUp, Composio, Apollo, Gmail, Drive, and local-engine ownership.
+
+These are internal operating artifacts. They do not authorize sending, publishing, enrichment credits, CRM mutation, or ClickUp task creation.
+
 Date started: 2026-07-14
 Target period: 2026-07-14 to 2026-10-12
 Owner: Emmanuel Ehigbai

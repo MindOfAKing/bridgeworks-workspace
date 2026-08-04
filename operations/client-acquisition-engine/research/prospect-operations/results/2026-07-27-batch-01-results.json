@@ -234,16 +234,16 @@
         "The same site presents a visible route/credibility inconsistency: the footer states H - V 8 - 20 and then separately says Sunday closed, while the contact page repeats the main route and form."
       ],
       "recommended_angle": "Use a concise credibility and enquiry-route cleanup angle focused on fixing the visible opening-hours inconsistency before it creates uncertainty at quote time.",
-      "evidence_notes": "This is the strongest current opportunity because the gap is specific, current, source-backed, the responsible owner is public, the destination is exact, and no prior Gmail contact was found.",
-      "outreach_readiness": "ready",
+      "evidence_notes": "This is the strongest current opportunity because the gap is specific, current, source-backed, the responsible owner is public, the destination is exact, and no prior Gmail contact was found. Reconciled on 2026-08-02: Emmanuel superseded and cancelled the old Mission Control send action; the newer prospect framework treats visible website defects as problem evidence, not buying intent.",
+      "outreach_readiness": "hold",
       "commercial_gap": "Nevoxa has good public proof and a quote path, but the current site presents contradictory opening-hours information near the contact route: H - V 8 - 20 and Sunday closed.",
       "proof_to_use": "BridgeWorks B2B credibility and enquiry-route cleanup proof.",
-      "proposed_channel": "email",
-      "proposed_destination": "info@nevoxa.hu",
-      "draft_subject": "Small route issue on Nevoxa's site",
-      "draft_body": "Hi Körmöndi Mercédesz,\n\nI was reviewing Budapest cleaning companies and noticed a small trust issue on Nevoxa's current site. The page has strong proof already: named leadership, reviews, project photos, and a quote route. But near the contact section, the hours appear inconsistent: H - V 8 - 20, then Sunday closed.\n\nThat is a small fix, but it sits right where buyers check whether to request a quote. I noted three practical route and credibility cleanups. Would it be useful if I sent them?\n\nBest,\nEmmanuel Ehigbai\nBridgeWorks",
-      "next_internal_action": "Queue one approval-gated review action for Emmanuel to approve, revise, or reject the exact Nevoxa email. Do not create a Gmail draft or send without explicit approval.",
-      "risk_notes": "HubSpot snapshot from 2026-07-26 already listed nevoxa.hu as an existing company. Search/update only; do not create a duplicate company. No Gmail prior contact found in this run."
+      "proposed_channel": "",
+      "proposed_destination": "",
+      "draft_subject": "",
+      "draft_body": "",
+      "next_internal_action": "Do not revive this old defect-led outreach item. Requalify under the 2026-08-01 sales framework only if a current buyer event, one primary service route, responsible buyer, and earned free-audit asset are verified.",
+      "risk_notes": "HubSpot snapshot from 2026-07-26 already listed nevoxa.hu as an existing company. Search/update only; do not create a duplicate company. No Gmail prior contact found in this run. Reconciled on 2026-08-02: Emmanuel superseded and cancelled the old Mission Control send action; the newer prospect framework treats visible website defects as problem evidence, not buying intent."
     },
     {
       "prospect_id": "palmacedar-cleaning-services",

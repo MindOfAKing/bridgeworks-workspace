@@ -1,0 +1,4 @@
+interface:
+  display_name: "BridgeWorks AI Workflow Scan"
+  short_description: "Find one defensible AI workflow opportunity"
+  default_prompt: "Use $bridgeworks-ai-workflow-scan to create one public-evidence workflow hypothesis and synthetic future-state demonstration for this qualified prospect."

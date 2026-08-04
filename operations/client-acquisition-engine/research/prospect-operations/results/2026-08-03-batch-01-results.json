@@ -1,0 +1,143 @@
+{
+  "schema_version": 2,
+  "batch_id": "2026-08-03-batch-01",
+  "completed_at": "2026-08-03T10:35:00+00:00",
+  "prospects": [
+    {
+      "prospect_id": "seamlesshr-seamless-technologies",
+      "company": "SeamlessHR / Seamless Technologies",
+      "checked_at": "2026-08-03T10:35:00+00:00",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://seamlesshr.com/blog/we-started-with-hr-we-never-intended-to-stop-there/",
+          "accessed_at": "2026-08-03",
+          "supports": "Official July 15, 2026 post says SeamlessHR introduced Seamless Technologies, expanded beyond HR, launched or grouped BWOP, Embedded Finance, SeamlessProcure, Breeze, and Samira, and plans additional African market expansion."
+        },
+        {
+          "url": "https://seamlesshr.com/press-media/",
+          "accessed_at": "2026-08-03",
+          "supports": "Official press page lists marketing@seamlesshr.com for press and media inquiries, links current Seamless Technologies news, and lists Lagos, Nairobi, and Accra locations plus hello@seamlesshr.com in the footer."
+        },
+        {
+          "url": "https://ng.linkedin.com/in/dr-emmanuel-okeleji",
+          "accessed_at": "2026-08-03",
+          "supports": "Public LinkedIn profile identifies Dr. Emmanuel Okeleji as CEO of SeamlessHR; used only as read-only role evidence, with no interaction."
+        }
+      ],
+      "owned_domain": "seamlesshr.com is the current owned domain checked in this run.",
+      "conversion_route": "The site provides Request a Demo, Contact, press/media, marketing@seamlesshr.com, and hello@seamlesshr.com routes; no form, draft, or message was created.",
+      "decision_maker": "Dr. Emmanuel Okeleji is publicly identified as CEO of SeamlessHR. The exact operational owner for the Seamless Technologies platform transition was not verified.",
+      "contact_route": "Public company routes: marketing@seamlesshr.com for media and hello@seamlesshr.com in the Lagos footer.",
+      "observations": [
+        "The official July 2026 post verifies a real company-transition moment: SeamlessHR says it has become Seamless Technologies and now spans HR, frontline workforce operations, embedded finance, procurement, Breeze, and Samira.",
+        "The rebrand post supports a possible platform-narrative and workflow-coherence need, but it does not expose a current buying problem, stalled conversion route, owner mandate, or implementation gap specific enough for outreach."
+      ],
+      "recommended_angle": "Hold for deeper qualification. A BridgeWorks AI workflow or execution operating-system scan could fit only after a responsible transformation owner or current platform-transition gap is verified.",
+      "evidence_notes": "HubSpot exact-domain searches for seamlesshr.com returned zero company matches; exact-email searches for marketing@seamlesshr.com and hello@seamlesshr.com returned zero contact matches. Gmail exact domain/email search returned no messages. The current public evidence verifies entity, route, rebrand, product expansion, and CEO role, but not a concrete commercial gap.",
+      "outreach_readiness": "needs_more_evidence",
+      "commercial_gap": "",
+      "proof_to_use": "",
+      "proposed_channel": "",
+      "proposed_destination": "",
+      "draft_subject": "",
+      "draft_body": "",
+      "next_internal_action": "Find one current sourced platform-transition consequence, such as a product launch page, partner route, hiring need, enterprise rollout claim, or buyer-owned transformation mandate, before preparing any approval action.",
+      "risk_notes": "No exact HubSpot or Gmail duplicate was found. Do not treat a rebrand alone as buying intent; avoid founder-directed outreach unless an exact responsible owner and service route are verified."
+    },
+    {
+      "prospect_id": "tilz-prosperitas",
+      "company": "Tilz Prosperitas",
+      "checked_at": "2026-08-03T10:35:00+00:00",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.ukexportfinance.gov.uk/success-stories/tilzprosperitas/",
+          "accessed_at": "2026-08-03",
+          "supports": "UK Export Finance says Tilz Prosperitas is ready to deliver to Europe, take on US and Canada clients, diversify beyond seasonal products, and used up to GBP200,000 trade finance."
+        },
+        {
+          "url": "https://tilzcollection.co.uk/wholesale/",
+          "accessed_at": "2026-08-03",
+          "supports": "Owned Tilz Collection wholesale page invites retailers, sales agents, and distributors, says the team responds within 48 hours, and exposes a wholesale form with name, email, phone, and message fields."
+        },
+        {
+          "url": "https://find-and-update.company-information.service.gov.uk/company/08832515/officers",
+          "accessed_at": "2026-08-03",
+          "supports": "Companies House lists TILZ PROSPERITAS LIMITED company number 08832515 and Rukayat Omotayo Adebisi as an active director at the Leeds address."
+        },
+        {
+          "url": "https://members.wnychamber.co.uk/directory/939066/",
+          "accessed_at": "2026-08-03",
+          "supports": "West and North Yorkshire Chamber member directory lists Tilz Prosperitas as retail and wholesale/e-commerce, with phone 0113 7331999, website tilzmart.com, and support@tilzmart.com."
+        }
+      ],
+      "owned_domain": "tilzcollection.co.uk is the current owned domain in the batch; tilzmart.com is also listed in the Chamber directory as a public business route.",
+      "conversion_route": "The owned wholesale page provides a retailer/sales-agent/distributor form and says Tilz will be in touch within 48 hours; the Chamber directory also lists support@tilzmart.com and phone 0113 7331999.",
+      "decision_maker": "UK Export Finance identifies Tayo Adebisi as Founder and CEO; Companies House lists Rukayat Omotayo Adebisi as an active director.",
+      "contact_route": "Primary preparation route: contact_form to https://tilzcollection.co.uk/wholesale/. Secondary public email route: support@tilzmart.com.",
+      "observations": [
+        "Current public export-finance evidence verifies a specific expansion moment: Europe fulfilment, US/Canada client preparation, and planned diversification into more product lines and markets.",
+        "The public buyer path is split across an owned wholesale form on tilzcollection.co.uk and a Chamber-listed tilzmart.com/support@tilzmart.com route, creating a specific demand-capture and route-consistency issue during international retail expansion."
+      ],
+      "recommended_angle": "Use a concise cross-market wholesale route and demand-capture review tied to the export-finance expansion moment.",
+      "evidence_notes": "HubSpot exact-domain searches for tilzcollection.co.uk and tilzmart.com returned zero company matches; exact-email search for support@tilzmart.com returned zero contact matches. Gmail exact domain/email search returned no messages. The route and expansion evidence are current enough for one approval-gated contact-form preparation item.",
+      "outreach_readiness": "ready",
+      "commercial_gap": "Tilz is entering larger international wholesale and retail conversations while public routes are split between the Tilz Collection wholesale form and a Chamber-listed TilzMart email/domain, which can dilute buyer routing and follow-up consistency.",
+      "proof_to_use": "BridgeWorks cross-market demand-capture and wholesale-route map.",
+      "proposed_channel": "contact_form",
+      "proposed_destination": "https://tilzcollection.co.uk/wholesale/",
+      "draft_subject": "",
+      "draft_body": "Hello Tilz team, I saw the UK Export Finance story about your Europe, US, and Canada expansion and the current wholesale route on Tilz Collection. I mapped a short cross-market route check showing where wholesale, distributor, and retail buyer enquiries may split between Tilz Collection and TilzMart. Would it be useful if I sent the two-page version for Tayo's review?",
+      "next_internal_action": "Prepare one approval-gated contact-form action only. Do not submit unless Emmanuel approves the exact destination and copy.",
+      "risk_notes": "No exact HubSpot or Gmail duplicate was found. Use only the official wholesale form unless Emmanuel chooses the Chamber-listed email route; do not LinkedIn message or interact with profiles."
+    },
+    {
+      "prospect_id": "vendorcredit",
+      "company": "Vendorcredit",
+      "checked_at": "2026-08-03T10:35:00+00:00",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://techcabal.com/2026/05/08/bumpa-and-vendorcredit-partner-to-launch-bumpa-capital/",
+          "accessed_at": "2026-08-03",
+          "supports": "TechCabal's May 8, 2026 partnership article says Vendorcredit powers Bumpa Capital, uses merchants' transaction data for credit decisions, and quotes Oluseye Seton as CGO and Co-founder of Vendorcredit."
+        },
+        {
+          "url": "https://vendorcredit.ng/contact-us/",
+          "accessed_at": "2026-08-03",
+          "supports": "Official Vendorcredit contact page is indexed with phone, Lekki address, protected email text, a contact form, and FAQ claims including loan offer within 2 business days, no collateral, up to 500 million naira maximum, and web/mobile repayment."
+        },
+        {
+          "url": "https://play.google.com/store/apps/details?hl=en_GB&id=ng.vendorcredit.app",
+          "accessed_at": "2026-08-03",
+          "supports": "Google Play listing for VendorCredit: SME Financing lists updated date June 2, 2026, app support email tech@vendorcredit.ng, developer email hello@vendorcredit.ng, and Eatonhill Investment Limited as developer."
+        },
+        {
+          "url": "https://vendorcredit.ng/about-us/",
+          "accessed_at": "2026-08-03",
+          "supports": "Official Vendorcredit about page is indexed with supply-chain finance positioning, four-step credit process, awards, newsletter, and public get-in-touch section; the direct open returned a verification page."
+        }
+      ],
+      "owned_domain": "vendorcredit.ng is the current owned domain checked in this run.",
+      "conversion_route": "The official site has a contact form and public contact page; exact public app/developer email routes verified from Google Play are hello@vendorcredit.ng and tech@vendorcredit.ng. No form, draft, app action, or message was created.",
+      "decision_maker": "TechCabal identifies Oluseye Seton as CGO and Co-founder. The exact owner for partner onboarding/reporting was not verified.",
+      "contact_route": "Public company email route selected for preparation: hello@vendorcredit.ng. Support route also appears as tech@vendorcredit.ng on Google Play.",
+      "observations": [
+        "Current partnership evidence verifies a specific commercial moment: Bumpa Capital embeds Vendorcredit funding and infrastructure into Bumpa, using merchant activity and transaction data to assess eligibility.",
+        "Vendorcredit's public buyer journey now spans partner launch PR, an official contact/form route with protected email rendering, and app-store support/developer emails, which creates a concrete route and proof-hierarchy issue for partners, merchants, and platform operators."
+      ],
+      "recommended_angle": "Use a concise partner-credit journey and proof-hierarchy review tied to Bumpa Capital and Vendorcredit's embedded finance positioning.",
+      "evidence_notes": "HubSpot exact-domain search for vendorcredit.ng returned zero company matches; exact-email searches for hello@vendorcredit.ng and tech@vendorcredit.ng returned zero contact matches. Gmail exact domain/email search returned no messages. The commercial gap is route/proof clarity across partnership, app, and official contact surfaces, not a claim about credit operations quality.",
+      "outreach_readiness": "ready",
+      "commercial_gap": "Vendorcredit has a current embedded-credit partnership and regulated trust claims, but public entry points are fragmented across the Bumpa Capital announcement, official contact/form route, and app-store support emails; partner and merchant proof could be clearer before enquiry.",
+      "proof_to_use": "BridgeWorks revenue-system and partner-credit journey map.",
+      "proposed_channel": "email",
+      "proposed_destination": "hello@vendorcredit.ng",
+      "draft_subject": "Bumpa Capital partner-credit journey map",
+      "draft_body": "Hello Vendorcredit team, I saw the Bumpa Capital launch and the way Vendorcredit now sits inside a merchant platform credit journey. I mapped a short partner-credit route check across the launch article, contact path, app support route, and trust proof. Would it be useful if I sent the two-page version for the team reviewing partner onboarding and reporting?",
+      "next_internal_action": "Prepare one approval-gated email action only. Do not create a Gmail draft or send unless Emmanuel approves the exact recipient, subject, and body.",
+      "risk_notes": "No exact HubSpot or Gmail duplicate was found. Use the generic company route only; do not imply a personal email for Oluseye Seton or submit the contact form without explicit approval."
+    }
+  ]
+}

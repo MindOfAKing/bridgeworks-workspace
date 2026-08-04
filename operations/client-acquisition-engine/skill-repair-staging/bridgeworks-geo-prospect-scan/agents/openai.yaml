@@ -1,0 +1,4 @@
+interface:
+  display_name: "BridgeWorks GEO Prospect Scan"
+  short_description: "Create a bounded AI-search proof asset"
+  default_prompt: "Use $bridgeworks-geo-prospect-scan to create an evidence-led AI-search visibility snapshot for this qualified prospect."

@@ -2,19 +2,22 @@
 
 *Last updated: 2026-07-10*
 
-## Active — Oliviks Foundation (contract signed 2026-04-29, 272,611 HUF fixed fee)
+## Priority closeout - Oliviks Foundation
 
-Deposit 136,306 HUF paid June 2026. Balance 136,305 HUF due on handover. Full gate detail: `clients/oliviks/delivery/FOUNDATION-DELIVERY-MATRIX-2026-07-09.md`.
+Foundation delivery is complete, paid in full at 272,611 HUF, and live after the
+verified 2026-07-24 cutover. Do not reopen delivery scope. Current closeout
+source: `clients/oliviks/delivery/OLIVIKS-CLOSEOUT-PRIORITY-2026-08-01.md`.
 
 - [x] Shop catalog: 33/33 dishes deep-linked, WooCommerce API cleanup done — shipped 2026-07-09
 - [x] Supabase CMS wired end-to-end, admin PATCH verified — 2026-07-09
 - [x] GBP manual pass: award post, Foodora-vs-Wolt correction, Lili review reply — done 2026-07-10
 - [x] Shop SSL fix - verified externally 2026-07-14
 - [x] Confirm `oliviks.com` points at the new Vercel site - cutover executed and verified 2026-07-24
-- [ ] Email/WhatsApp infrastructure: MailerLite subscriber chain operational and independently verified 2026-07-24; client-owned WhatsApp broadcast-list action remains
-- [ ] 3 one-page handover docs: Website, GBP, Email/WhatsApp
-- [ ] Markup pass from Aese on the 9 new shop products
-- [ ] Request final 136,305 HUF payment once handover gates close
+- [ ] P1: Unpause Supabase and verify the live menu API returns `source: supabase` - exact approval required
+- [ ] P2: Send Gmail draft `r-7795127371496586913` and hold the owner walkthrough - exact recipient approval required
+- [ ] P3: Record the client-owned WhatsApp broadcast list and QR placement
+- [ ] Capture written acceptance and structured feedback, then archive
+- [x] Full payment received: 272,611 HUF
 
 ## Active — BridgeWorks backend (systems, still open)
 

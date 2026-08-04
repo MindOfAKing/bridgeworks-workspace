@@ -1,0 +1,75 @@
+company: Appinio
+qualification_status: discovery-ready
+primary_commercial_question: "Which revenue-system decisions should Appinio settle during the new-CEO and Senior RevOps transition so global growth does not outrun ownership, data definitions, and management visibility?"
+primary_service_route: execution-operating-systems
+secondary_hypotheses:
+  - strategy-transformation
+route_evidence:
+  - "A new CEO was appointed in May 2026 to lead the next growth phase."
+  - "The Senior RevOps role is open and explicitly owns cross-functional workflows, HubSpot, the data model, and CRM health."
+  - "The business operates across more than 190 markets with roughly 250-260 employees and more than 3,000 customers."
+  - "A previously indexed CRO vacancy now redirects to an expired LinkedIn job page and is excluded from current qualification evidence."
+asset:
+  title: "Appinio Revenue System Decision Snapshot"
+  format: "One-page branded PDF"
+  audience: "Arne Wolter, CEO"
+  content:
+    - "Publicly verified transition and role evidence"
+    - "Three decision layers: CEO keeps stable, Team Lead Business Intelligence validates, Senior RevOps operationalizes"
+    - "Three prioritized actions"
+    - "One future-state ownership and cadence diagram"
+  production_ceiling_minutes: 20
+work_passes:
+  - "Evidence verification"
+  - "Execution-operating-systems specialist"
+  - "Future-state diagram"
+  - "Executive claim and relevance QA"
+capabilities:
+  active:
+    - bridgeworks-lead-qualifier
+    - bridgeworks-prospect-router
+    - "Web/browser public research"
+    - "documents and pdf packaging"
+  unavailable_or_deferred:
+    - "legacy revops source skill; replaced for prospecting by bridgeworks-revenue-system-scan"
+    - "HubSpot portal audit, because no prospect portal access exists"
+buyer:
+  primary: "Arne Wolter, CEO"
+  evidence: "He was appointed to lead Appinio's next growth phase; the current Senior RevOps role reports to a Team Lead Business Intelligence whose name was not verified."
+  secondary: "Current Team Lead Business Intelligence"
+channel_sequence:
+  - "Verify whether the CRO and Senior RevOps roles remain open."
+  - "Prepare an artifact-led email to the CEO or relevant executive route."
+  - "Prepare a LinkedIn connection note that names the leadership-transition question."
+  - "One follow-up tied to a hiring or leadership milestone."
+hubspot_payload:
+  company: Appinio
+  domain: appinio.com
+  qualification_status: discovery-ready
+  qualification_score: 95
+  service_route: execution-operating-systems
+  asset: "Appinio Revenue System Decision Snapshot"
+  stage: "qualified, artifact preparation"
+  next_action: "Evidence refresh and asset approval"
+clickup_tasks:
+  - "Reverify live roles and leadership evidence"
+  - "Produce one-page transition map"
+  - "Inspect branded PDF"
+  - "Prepare email and LinkedIn drafts"
+  - "Request outreach and CRM-write approval"
+approval_gates:
+  - "Approval before HubSpot or ClickUp writes"
+  - "Approval before Gmail send or LinkedIn action"
+  - "Approval before Apollo credit spend"
+stop_conditions:
+  - "The CRO or Senior RevOps hiring signal is no longer current."
+  - "A public source confirms the operating redesign is complete."
+  - "An incumbent advisor owns the transition."
+  - "The asset would require claims about internal HubSpot configuration."
+do_not_produce:
+  - "HubSpot portal audit"
+  - "Full RevOps audit"
+  - "CRM migration architecture"
+  - "Proposal, pricing, ROI estimate, or implementation roadmap"
+  - "Separate brand, GEO, AI, and strategy assets"
+next_action: "Reverify current evidence, then produce the single transition map for internal approval."

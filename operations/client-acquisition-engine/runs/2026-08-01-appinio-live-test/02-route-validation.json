@@ -1,0 +1,30 @@
+{
+  "qualification_status": "discovery-ready",
+  "primary_service_route": "execution-operating-systems",
+  "asset": {
+    "title": "Appinio Revenue System Decision Snapshot",
+    "format": "three-page branded PDF",
+    "production_ceiling_minutes": 20
+  },
+  "work_passes": [
+    "evidence",
+    "specialist",
+    "demonstration",
+    "executive-qa"
+  ],
+  "buyer": {
+    "primary": "Arne Wolter, CEO",
+    "secondary": "Team Lead Business Intelligence"
+  },
+  "planned_outputs": [
+    "one public-evidence decision snapshot",
+    "one ownership map",
+    "email and LinkedIn drafts"
+  ],
+  "stop_conditions": [
+    "Stop if the Senior RevOps role closes or the operating question has already been resolved."
+  ],
+  "approval_gates": [
+    "Approval before CRM or task writes, email sending, or LinkedIn action."
+  ]
+}

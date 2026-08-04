@@ -1,0 +1,4 @@
+interface:
+  display_name: "BridgeWorks Lead Qualifier"
+  short_description: "Qualify prospects before bespoke audit work"
+  default_prompt: "Use $bridgeworks-lead-qualifier to decide whether this prospect merits a tailored diagnostic."

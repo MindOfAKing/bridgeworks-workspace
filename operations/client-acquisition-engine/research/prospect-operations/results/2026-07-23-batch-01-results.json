@@ -74,16 +74,16 @@
         "The English homepage visibly duplicates the 'Responsible Employment' label in a trust-focused values section."
       ],
       "recommended_angle": "Do not pitch a new website. Lead with a focused English form-hierarchy and content-QA review that protects the mature quote funnel.",
-      "evidence_notes": "The company presents substantial references and a mature conversion path, so a generic infrastructure pitch would be weak. Recheck the two visible English-page observations immediately before any approved send.",
-      "outreach_readiness": "ready",
+      "evidence_notes": "The company presents substantial references and a mature conversion path, so a generic infrastructure pitch would be weak. Recheck the two visible English-page observations immediately before any approved send. Reconciled on 2026-08-02: Emmanuel superseded and cancelled the old Mission Control send action; the newer prospect framework treats visible website defects as problem evidence, not buying intent.",
+      "outreach_readiness": "hold",
       "commercial_gap": "The English enquiry journey gives a general website-feedback route prominence alongside the detailed quote request, while a duplicated trust label remains visible on the homepage. This creates a narrow conversion and content-QA opportunity for international office managers without implying that the overall site or funnel is weak.",
       "proof_to_use": "No proof in the first touch; hold the anonymized Central European B2B services proof for a relevant follow-up.",
-      "proposed_channel": "email",
-      "proposed_destination": "info@office-cleaning.hu",
-      "draft_subject": "One competing form on your English contact page",
-      "draft_body": "Hi Csaba,\n\nI was reviewing Professional Office Cleaning Hungary's English enquiry journey and noticed a small conversion issue on the contact experience.\n\nA general website-feedback route competes with the detailed quote request, even though the quote form is the stronger buyer action and promises a preliminary response within 24 hours. For an international office manager, those competing routes can make the next step less immediate. I also noticed a duplicated trust label on the English homepage.\n\nI noted three focused form-hierarchy and English content-QA fixes. Happy to send the short review if useful.\n\nBest,\nEmmanuel Ehigbai\nBridgeWorks",
-      "next_internal_action": "Await Emmanuel's explicit mobile approval of the exact email destination, subject, and body.",
-      "risk_notes": "Recheck the page hierarchy, duplicate label, and public email immediately before send. Do not imply the overall funnel is weak or pitch a rebuild."
+      "proposed_channel": "",
+      "proposed_destination": "",
+      "draft_subject": "",
+      "draft_body": "",
+      "next_internal_action": "Do not revive this old defect-led outreach item. Requalify under the 2026-08-01 sales framework only if a current buyer event, one primary service route, responsible buyer, and earned free-audit asset are verified.",
+      "risk_notes": "Recheck the page hierarchy, duplicate label, and public email immediately before send. Do not imply the overall funnel is weak or pitch a rebuild. Reconciled on 2026-08-02: Emmanuel superseded and cancelled the old Mission Control send action; the newer prospect framework treats visible website defects as problem evidence, not buying intent."
     },
     {
       "prospect_id": "expert-cleaning-service",

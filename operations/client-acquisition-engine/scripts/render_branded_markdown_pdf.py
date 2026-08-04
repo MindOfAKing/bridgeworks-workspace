@@ -28,12 +28,12 @@ from reportlab.platypus import (
 )
 
 
-NAVY = colors.HexColor("#101B2D")
-INK = colors.HexColor("#202936")
-GOLD = colors.HexColor("#B98512")
-CREAM = colors.HexColor("#F5F1E8")
-MIST = colors.HexColor("#F3F5F6")
-MID = colors.HexColor("#667085")
+NAVY = colors.HexColor("#0F1A2E")
+INK = colors.HexColor("#1C2B3A")
+GOLD = colors.HexColor("#B8860B")
+CREAM = colors.HexColor("#F5F0E8")
+MIST = colors.HexColor("#EEE8DE")
+MID = colors.HexColor("#6B6560")
 WHITE = colors.white
 
 
@@ -166,23 +166,24 @@ def cover_page(canvas, doc, title: str, subtitle: str, metadata: list[str], logo
     canvas.setFillColor(CREAM)
     canvas.rect(0, 0, width, height, fill=1, stroke=0)
     canvas.setFillColor(NAVY)
-    canvas.rect(0, height - 20 * mm, width, 20 * mm, fill=1, stroke=0)
+    canvas.rect(0, height * 0.68, width, height * 0.32, fill=1, stroke=0)
     canvas.setFillColor(GOLD)
-    canvas.rect(0, height - 21.5 * mm, width, 1.5 * mm, fill=1, stroke=0)
+    canvas.rect(0, 0, 2.1 * mm, height, fill=1, stroke=0)
+    canvas.rect(0, height * 0.68 - 1.5 * mm, width, 1.5 * mm, fill=1, stroke=0)
 
     if logo.exists():
-        canvas.drawImage(str(logo), 22 * mm, height - 74 * mm, width=48 * mm, height=48 * mm, preserveAspectRatio=True, mask="auto")
+        canvas.drawImage(str(logo), 22 * mm, height - 49 * mm, width=34 * mm, height=26 * mm, preserveAspectRatio=True, mask="auto")
 
     canvas.setFont(FONT_BOLD, 9)
     canvas.setFillColor(GOLD)
-    canvas.drawString(22 * mm, height - 88 * mm, label.upper())
+    canvas.drawString(22 * mm, height - 60 * mm, label.upper())
 
     title_style = ParagraphStyle(
         "CoverTitle",
         fontName=FONT_BOLD,
-        fontSize=29,
-        leading=33,
-        textColor=NAVY,
+        fontSize=26,
+        leading=30,
+        textColor=WHITE,
         alignment=TA_LEFT,
     )
     subtitle_style = ParagraphStyle(
@@ -203,10 +204,13 @@ def cover_page(canvas, doc, title: str, subtitle: str, metadata: list[str], logo
     )
 
     title_p = Paragraph(inline_markup(title), title_style)
-    title_p.wrapOn(canvas, 165 * mm, 70 * mm)
-    title_p.drawOn(canvas, 22 * mm, height - 152 * mm)
+    _, title_h = title_p.wrap(165 * mm, 60 * mm)
+    title_p.drawOn(canvas, 22 * mm, height - 60 * mm - title_h)
+    canvas.setFont(FONT, 13)
+    canvas.setFillColor(GOLD)
+    canvas.drawString(22 * mm, height * 0.68 + 4 * mm, "Powered by BridgeWorks")
 
-    y = height - 166 * mm
+    y = height * 0.68 - 18 * mm
     if subtitle:
         sub_p = Paragraph(inline_markup(subtitle), subtitle_style)
         _, sub_h = sub_p.wrap(165 * mm, 45 * mm)
@@ -224,15 +228,19 @@ def cover_page(canvas, doc, title: str, subtitle: str, metadata: list[str], logo
         p.drawOn(canvas, 22 * mm, y - ph)
         y -= ph + 2.5 * mm
 
-    canvas.setFont(FONT, 8.5)
+    canvas.setFont(FONT, 7.5)
     canvas.setFillColor(MID)
-    canvas.drawString(22 * mm, 17 * mm, "BridgeWorks | office@bridgeworks.agency | Budapest")
+    canvas.drawCentredString(width / 2, 22, "BridgeWorks  ·  office@bridgeworks.agency  ·  bridgeworks.agency")
     canvas.restoreState()
 
 
 def body_page(canvas, doc):
     width, height = A4
     canvas.saveState()
+    canvas.setFillColor(CREAM)
+    canvas.rect(0, 0, width, height, fill=1, stroke=0)
+    canvas.setFillColor(GOLD)
+    canvas.rect(0, 0, 2.1 * mm, height, fill=1, stroke=0)
     canvas.setFillColor(NAVY)
     canvas.rect(0, height - 11 * mm, width, 11 * mm, fill=1, stroke=0)
     canvas.setFont(FONT_BOLD, 7.5)
@@ -245,7 +253,7 @@ def body_page(canvas, doc):
     canvas.line(18 * mm, 14 * mm, width - 18 * mm, 14 * mm)
     canvas.setFont(FONT, 7.5)
     canvas.setFillColor(MID)
-    canvas.drawString(18 * mm, 9.5 * mm, "DRAFT FOR REVIEW")
+    canvas.drawCentredString(width / 2, 9.5 * mm, "BridgeWorks  ·  office@bridgeworks.agency  ·  bridgeworks.agency")
     canvas.drawRightString(width - 18 * mm, 9.5 * mm, str(doc.page))
     canvas.restoreState()
 
@@ -282,8 +290,8 @@ def parse_table(lines: list[str], start: int, styles) -> tuple[LongTable, int]:
             [
                 ("BACKGROUND", (0, 0), (-1, 0), NAVY),
                 ("TEXTCOLOR", (0, 0), (-1, 0), WHITE),
-                ("BACKGROUND", (0, 1), (-1, -1), WHITE),
-                ("ROWBACKGROUNDS", (0, 1), (-1, -1), [WHITE, MIST]),
+                ("BACKGROUND", (0, 1), (-1, -1), CREAM),
+                ("ROWBACKGROUNDS", (0, 1), (-1, -1), [CREAM, MIST]),
                 ("GRID", (0, 0), (-1, -1), 0.35, colors.HexColor("#D7DCE1")),
                 ("VALIGN", (0, 0), (-1, -1), "TOP"),
                 ("LEFTPADDING", (0, 0), (-1, -1), 5),
@@ -313,6 +321,28 @@ def build_story(lines: list[str], start: int, styles) -> list:
 
         if not line:
             flush_paragraph()
+            cursor += 1
+            continue
+
+        if line == "<!-- keep-start -->":
+            flush_paragraph()
+            end = cursor + 1
+            while end < len(lines) and lines[end].strip() != "<!-- keep-end -->":
+                end += 1
+            if end >= len(lines):
+                raise ValueError("Missing <!-- keep-end --> marker")
+            story.append(KeepTogether(build_story(lines[cursor + 1 : end], 0, styles)))
+            cursor = end + 1
+            continue
+
+        if line == "<!-- keep-end -->":
+            cursor += 1
+            continue
+
+        spacer = re.fullmatch(r"<!-- spacer:(\d+) -->", line)
+        if spacer:
+            flush_paragraph()
+            story.append(Spacer(1, int(spacer.group(1)) * mm))
             cursor += 1
             continue
 
@@ -397,15 +427,21 @@ def main():
     cover_template = PageTemplate(
         id="cover",
         frames=[frame],
+        autoNextPageTemplate="body",
         onPage=lambda canvas, current_doc: cover_page(
             canvas, current_doc, title, subtitle, metadata, args.logo, args.label
         ),
     )
-    body_template = PageTemplate(id="body", frames=[frame], onPage=body_page)
+    body_template = PageTemplate(
+        id="body",
+        frames=[frame],
+        autoNextPageTemplate="body",
+        onPage=body_page,
+    )
     doc.addPageTemplates([cover_template, body_template])
 
     styles = build_styles()
-    story = [NextPageTemplate("body"), PageBreak()]
+    story = [PageBreak()]
     story.extend(build_story(lines, start, styles))
     doc.build(story)
     print(args.output)

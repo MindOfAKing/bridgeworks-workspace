@@ -108,16 +108,16 @@
         "Two current owned pages expose credibility QA issues near trust material: the homepage footer shows an RC placeholder and the about page uses leadership-profile placeholders."
       ],
       "recommended_angle": "Use a concise credibility-proof cleanup angle focused on removing placeholders from the public trust layer before enterprise buyers review the company.",
-      "evidence_notes": "This is outreach-ready because the gap is current, specific, owned-source backed, the destination is exact, and no HubSpot/Gmail duplicate was found.",
-      "outreach_readiness": "ready",
+      "evidence_notes": "This is outreach-ready because the gap is current, specific, owned-source backed, the destination is exact, and no HubSpot/Gmail duplicate was found. Reconciled on 2026-08-02: Emmanuel superseded and cancelled the old Mission Control send action; the newer prospect framework treats visible website defects as problem evidence, not buying intent.",
+      "outreach_readiness": "hold",
       "commercial_gap": "PERCOSO presents strong enterprise proof, but current owned pages still show placeholder trust details: an RC placeholder in the footer and leadership profiles marked for future management input.",
       "proof_to_use": "BridgeWorks B2B credibility-proof and content-QA cleanup.",
-      "proposed_channel": "email",
-      "proposed_destination": "info@percosonigeria.com",
-      "draft_subject": "Small credibility cleanup on PERCOSO's site",
-      "draft_body": "Hi PERCOSO team,\n\nI was reviewing Nigerian facility-management companies and noticed PERCOSO has strong proof already: named client examples, quote routes, current hiring, and clear indigenous FM positioning.\n\nOne small trust issue stood out. The public site still shows placeholder credibility details in the trust layer, including an RC placeholder in the footer and leadership profiles waiting for management input. That is easy to miss internally, but enterprise buyers often check those details before starting a quote conversation.\n\nI noted three practical credibility cleanups. Would it be useful if I sent them?\n\nBest,\nEmmanuel Ehigbai\nBridgeWorks",
-      "next_internal_action": "Queue one approval-gated review action for Emmanuel to approve, revise, or reject the exact email to info@percosonigeria.com.",
-      "risk_notes": "No exact HubSpot or Gmail duplicate was found. Use only the generic company email unless a direct commercial route is later verified; do not use LinkedIn or WhatsApp without explicit approval."
+      "proposed_channel": "",
+      "proposed_destination": "",
+      "draft_subject": "",
+      "draft_body": "",
+      "next_internal_action": "Do not revive this old defect-led outreach item. Requalify under the 2026-08-01 sales framework only if a current buyer event, one primary service route, responsible buyer, and earned free-audit asset are verified.",
+      "risk_notes": "No exact HubSpot or Gmail duplicate was found. Use only the generic company email unless a direct commercial route is later verified; do not use LinkedIn or WhatsApp without explicit approval. Reconciled on 2026-08-02: Emmanuel superseded and cancelled the old Mission Control send action; the newer prospect framework treats visible website defects as problem evidence, not buying intent."
     },
     {
       "prospect_id": "urbancore-facility-management",
@@ -219,16 +219,16 @@
         "The same English quote journey contains Hungarian form and legal labels, which can create friction for English-speaking Budapest/Pest County office buyers."
       ],
       "recommended_angle": "Use a focused English quote-path cleanup angle; do not imply the service quality or overall site is weak.",
-      "evidence_notes": "This is outreach-ready because the gap is sourced on the owned page, the destination is exact, a responsible manager is publicly listed, and no duplicate contact evidence was found.",
-      "outreach_readiness": "ready",
+      "evidence_notes": "This is outreach-ready because the gap is sourced on the owned page, the destination is exact, a responsible manager is publicly listed, and no duplicate contact evidence was found. Reconciled on 2026-08-02: Emmanuel superseded and cancelled the old Mission Control send action; the newer prospect framework treats visible website defects as problem evidence, not buying intent.",
+      "outreach_readiness": "hold",
       "commercial_gap": "The English office-cleaning page asks international buyers to request a quote, but the quote form still contains Hungarian upload/privacy labels inside the English buyer path.",
       "proof_to_use": "BridgeWorks English buyer-route and credibility QA review.",
-      "proposed_channel": "email",
-      "proposed_destination": "arajanlat@nsskft.hu",
-      "draft_subject": "Small English quote-form issue on NSS",
-      "draft_body": "Hi Biro Mihalyne,\n\nI was reviewing Budapest office-cleaning companies and noticed New Solution Service has a solid English page: clear service scope, Budapest/Pest County positioning, phone, email, and a quote form.\n\nOne small conversion issue stood out. The English quote route still shows Hungarian upload and privacy labels inside the form. For an English-speaking office manager, that can create a little uncertainty at the exact point they are deciding whether to request pricing.\n\nI noted three practical English-route cleanups. Would it be useful if I sent them?\n\nBest,\nEmmanuel Ehigbai\nBridgeWorks",
-      "next_internal_action": "Queue one approval-gated review action for Emmanuel to approve, revise, or reject the exact email to arajanlat@nsskft.hu.",
-      "risk_notes": "No exact HubSpot or Gmail duplicate was found. Recheck the English form labels immediately before any approved send."
+      "proposed_channel": "",
+      "proposed_destination": "",
+      "draft_subject": "",
+      "draft_body": "",
+      "next_internal_action": "Do not revive this old defect-led outreach item. Requalify under the 2026-08-01 sales framework only if a current buyer event, one primary service route, responsible buyer, and earned free-audit asset are verified.",
+      "risk_notes": "No exact HubSpot or Gmail duplicate was found. Recheck the English form labels immediately before any approved send. Reconciled on 2026-08-02: Emmanuel superseded and cancelled the old Mission Control send action; the newer prospect framework treats visible website defects as problem evidence, not buying intent."
     },
     {
       "prospect_id": "ready-clean",
@@ -293,16 +293,16 @@
         "The homepage presents broad quantified proof counters and live market/news modules, including visible loading states, before the advisory buyer reaches deeper service detail."
       ],
       "recommended_angle": "Use a narrow credibility-proof hierarchy angle for advisory buyers; do not criticize the business model or market expertise.",
-      "evidence_notes": "This is outreach-ready because the business identity, founder, public destination, and specific credibility/proof gap are all sourced on the owned site; HubSpot/Gmail exact duplicate checks returned no matches.",
-      "outreach_readiness": "ready",
+      "evidence_notes": "This is outreach-ready because the business identity, founder, public destination, and specific credibility/proof gap are all sourced on the owned site; HubSpot/Gmail exact duplicate checks returned no matches. Reconciled on 2026-08-02: Emmanuel superseded and cancelled the old Mission Control send action; the newer prospect framework treats visible website defects as problem evidence, not buying intent.",
+      "outreach_readiness": "hold",
       "commercial_gap": "TriAxis has a clear founder-led Europe-Africa advisory proposition, but broad proof counters and live market/news modules can distract from concrete advisory proof at the point where serious buyers assess credibility.",
       "proof_to_use": "BridgeWorks founder-led advisory credibility and proof-hierarchy review.",
-      "proposed_channel": "email",
-      "proposed_destination": "info@triaxisconsultingfirm.com",
-      "draft_subject": "Small proof-hierarchy note on TriAxis",
-      "draft_body": "Hi Bakare,\n\nI was reviewing Europe-Africa advisory firms and noticed TriAxis has a strong positioning signal: Franco-Nigerian leadership, Paris presence, clear cross-border services, and a consultation route.\n\nOne small credibility issue stood out. The homepage leans on broad proof counters and live market/news modules before the visitor gets much concrete advisory proof. For a founder, investor, or corporate buyer, that can make the strongest evidence harder to see at the exact moment they are assessing trust.\n\nI noted three practical proof-hierarchy fixes. Would it be useful if I sent them?\n\nBest,\nEmmanuel Ehigbai\nBridgeWorks",
-      "next_internal_action": "Queue one approval-gated review action for Emmanuel to approve, revise, or reject the exact email to info@triaxisconsultingfirm.com.",
-      "risk_notes": "No exact HubSpot or Gmail duplicate was found. Recheck the homepage modules immediately before any approved send."
+      "proposed_channel": "",
+      "proposed_destination": "",
+      "draft_subject": "",
+      "draft_body": "",
+      "next_internal_action": "Do not revive this old defect-led outreach item. Requalify under the 2026-08-01 sales framework only if a current buyer event, one primary service route, responsible buyer, and earned free-audit asset are verified.",
+      "risk_notes": "No exact HubSpot or Gmail duplicate was found. Recheck the homepage modules immediately before any approved send. Reconciled on 2026-08-02: Emmanuel superseded and cancelled the old Mission Control send action; the newer prospect framework treats visible website defects as problem evidence, not buying intent."
     }
   ]
 }

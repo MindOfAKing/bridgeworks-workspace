@@ -1,0 +1,30 @@
+{
+  "qualification_status": "discovery-ready",
+  "primary_service_route": "execution-operating-systems",
+  "asset": {
+    "title": "BridgeWorks Prospect-to-Proof Control Loop",
+    "format": "three-page branded decision snapshot",
+    "production_ceiling_minutes": 20
+  },
+  "work_passes": [
+    "evidence",
+    "specialist",
+    "demonstration",
+    "executive-qa"
+  ],
+  "buyer": {
+    "primary": "Emmanuel Ehigbai, Founder and Principal",
+    "secondary": "None for the internal dogfood run"
+  },
+  "planned_outputs": [
+    "one public-and-operator-evidence decision snapshot",
+    "one prospect-to-proof control loop",
+    "one execution handoff"
+  ],
+  "stop_conditions": [
+    "Stop if the solution expands into a complete CRM redesign or production automation."
+  ],
+  "approval_gates": [
+    "Approval before production workflow changes, HubSpot writes, email sending, or LinkedIn action."
+  ]
+}

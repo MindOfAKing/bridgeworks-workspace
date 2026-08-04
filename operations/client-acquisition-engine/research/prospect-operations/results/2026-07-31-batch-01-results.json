@@ -24,16 +24,16 @@
         "Current trust sections show visible credibility issues: zero-value counters, placeholder-looking team names, and repeated unsupported-video text in the projects area."
       ],
       "recommended_angle": "Use a concise credibility-proof and website QA cleanup angle focused on fixing trust elements around quote/contact conversion.",
-      "evidence_notes": "HubSpot exact-domain and exact-email searches returned zero matches; Gmail exact-domain/email search returned no messages.",
-      "outreach_readiness": "ready",
+      "evidence_notes": "HubSpot exact-domain and exact-email searches returned zero matches; Gmail exact-domain/email search returned no messages. Reconciled on 2026-08-02: Emmanuel superseded and cancelled the old Mission Control send action; the newer prospect framework treats visible website defects as problem evidence, not buying intent.",
+      "outreach_readiness": "hold",
       "commercial_gap": "The quote/contact path is visible, but the current trust layer shows zero counters, generic team names, and repeated unsupported-video fallback text that can weaken buyer confidence before enquiry.",
       "proof_to_use": "BridgeWorks credibility-proof and website QA cleanup.",
-      "proposed_channel": "email",
-      "proposed_destination": "info@607cleaning.com.ng",
-      "draft_subject": "Small trust cleanup on 607 Cleaning",
-      "draft_body": "Hi 607 Cleaning team,\n\nI was reviewing cleaning and facility-service providers in Lagos and noticed your site already has useful buyer routes: quote prompts, service pages, phone, and info@607cleaning.com.ng.\n\nOne small issue stood out. The trust sections near the enquiry path still show zero counters, generic-looking team names, and repeated unsupported-video text. Those are easy to miss internally, but they can make a serious buyer hesitate before requesting a quote.\n\nI noted a few practical fixes. Would it be useful if I sent them over?\n\nBest,\nEmmanuel Ehigbai\nBridgeWorks",
-      "next_internal_action": "Queue one approval-gated email review action to info@607cleaning.com.ng.",
-      "risk_notes": "No duplicate HubSpot or Gmail evidence found. Use only the generic company email unless a responsible person is later verified."
+      "proposed_channel": "",
+      "proposed_destination": "",
+      "draft_subject": "",
+      "draft_body": "",
+      "next_internal_action": "Do not revive this old defect-led outreach item. Requalify under the 2026-08-01 sales framework only if a current buyer event, one primary service route, responsible buyer, and earned free-audit asset are verified.",
+      "risk_notes": "No duplicate HubSpot or Gmail evidence found. Use only the generic company email unless a responsible person is later verified. Reconciled on 2026-08-02: Emmanuel superseded and cancelled the old Mission Control send action; the newer prospect framework treats visible website defects as problem evidence, not buying intent."
     },
     {
       "prospect_id": "erefa-ltd",
@@ -56,16 +56,16 @@
         "The homepage repeats several hero/service blocks with near-duplicate FM positioning before the proof and contact sections."
       ],
       "recommended_angle": "Use a concise buyer-route copy QA angle only around repetition and trust-route clarity.",
-      "evidence_notes": "HubSpot exact-domain and exact-email searches returned zero matches; Gmail exact-domain/email search returned no messages.",
-      "outreach_readiness": "ready",
+      "evidence_notes": "HubSpot exact-domain and exact-email searches returned zero matches; Gmail exact-domain/email search returned no messages. Reconciled on 2026-08-02: Emmanuel superseded and cancelled the old Mission Control send action; the newer prospect framework treats visible website defects as problem evidence, not buying intent.",
+      "outreach_readiness": "hold",
       "commercial_gap": "EREFA has a clear FM offer and enquiry route, but the current homepage repeats multiple similar hero/service blocks before proof and contact details, which can dilute the buyer path for corporate facilities prospects.",
       "proof_to_use": "BridgeWorks copy-route QA and credibility-proof cleanup.",
-      "proposed_channel": "email",
-      "proposed_destination": "enquiry@erefafm.com",
-      "draft_subject": "Small route clarity note for EREFA",
-      "draft_body": "Hi EREFA team,\n\nI was reviewing Nigerian facilities-management providers and noticed EREFA has a solid public foundation: service lines, Lagos contact details, consultation routes, and an active FM positioning.\n\nOne practical issue stood out. The homepage repeats several similar hero and service blocks before the proof and contact sections. For corporate buyers, that can make the enquiry path feel less direct than the actual offer is.\n\nI noted a few quick copy-route fixes that would keep the credibility while making the next step clearer. Would it be useful if I sent them?\n\nBest,\nEmmanuel Ehigbai\nBridgeWorks",
-      "next_internal_action": "Queue one approval-gated email review action to enquiry@erefafm.com.",
-      "risk_notes": "No duplicate HubSpot or Gmail evidence found. The route is generic and no named CEO was verified; keep the copy addressed to the team."
+      "proposed_channel": "",
+      "proposed_destination": "",
+      "draft_subject": "",
+      "draft_body": "",
+      "next_internal_action": "Do not revive this old defect-led outreach item. Requalify under the 2026-08-01 sales framework only if a current buyer event, one primary service route, responsible buyer, and earned free-audit asset are verified.",
+      "risk_notes": "No duplicate HubSpot or Gmail evidence found. The route is generic and no named CEO was verified; keep the copy addressed to the team. Reconciled on 2026-08-02: Emmanuel superseded and cancelled the old Mission Control send action; the newer prospect framework treats visible website defects as problem evidence, not buying intent."
     },
     {
       "prospect_id": "servicepilot-nigeria",
@@ -88,16 +88,16 @@
         "The testimonial section repeats the same customer stories and the page exposes two different public email routes, admin@servicepilot.ng and info@servicepilot.ng."
       ],
       "recommended_angle": "Use a proof-hierarchy and route-clarity angle focused on duplicated testimonials and email-route consistency.",
-      "evidence_notes": "HubSpot exact-domain and exact-email searches returned zero matches; Gmail exact-domain/email search returned no messages.",
-      "outreach_readiness": "ready",
+      "evidence_notes": "HubSpot exact-domain and exact-email searches returned zero matches; Gmail exact-domain/email search returned no messages. Reconciled on 2026-08-02: Emmanuel superseded and cancelled the old Mission Control send action; the newer prospect framework treats visible website defects as problem evidence, not buying intent.",
+      "outreach_readiness": "hold",
       "commercial_gap": "ServicePilot has strong public proof claims and booking prompts, but duplicated testimonials and two different email routes create a trust and routing inconsistency near the conversion path.",
       "proof_to_use": "BridgeWorks proof-hierarchy and route-clarity review.",
-      "proposed_channel": "email",
-      "proposed_destination": "admin@servicepilot.ng",
-      "draft_subject": "Small proof-route issue on ServicePilot",
-      "draft_body": "Hi ServicePilot team,\n\nI was reviewing Nigerian service and facility-management companies and noticed ServicePilot already has a strong public offer: clear categories, booking prompts, service areas, and customer proof.\n\nOne small issue stood out. The testimonial section repeats several stories, and the site shows both admin@servicepilot.ng and info@servicepilot.ng as public routes. That can create unnecessary doubt right where a buyer is deciding whether to enquire.\n\nI noted a few simple proof and routing fixes. Would it be useful if I sent them?\n\nBest,\nEmmanuel Ehigbai\nBridgeWorks",
-      "next_internal_action": "Queue one approval-gated email review action to admin@servicepilot.ng.",
-      "risk_notes": "No duplicate HubSpot or Gmail evidence found. Use admin@servicepilot.ng because it appears in the primary contact section; do not infer a named owner."
+      "proposed_channel": "",
+      "proposed_destination": "",
+      "draft_subject": "",
+      "draft_body": "",
+      "next_internal_action": "Do not revive this old defect-led outreach item. Requalify under the 2026-08-01 sales framework only if a current buyer event, one primary service route, responsible buyer, and earned free-audit asset are verified.",
+      "risk_notes": "No duplicate HubSpot or Gmail evidence found. Use admin@servicepilot.ng because it appears in the primary contact section; do not infer a named owner. Reconciled on 2026-08-02: Emmanuel superseded and cancelled the old Mission Control send action; the newer prospect framework treats visible website defects as problem evidence, not buying intent."
     },
     {
       "prospect_id": "starmate-nigeria-ltd",
@@ -120,16 +120,16 @@
         "Current credibility content includes an unsupported-video fallback and a testimonial section headed as digital services on a facility-management site."
       ],
       "recommended_angle": "Use a focused B2B credibility-proof cleanup angle around public trust-section QA.",
-      "evidence_notes": "HubSpot exact-domain and exact-email searches returned zero matches; Gmail exact-domain/email search returned no messages.",
-      "outreach_readiness": "ready",
+      "evidence_notes": "HubSpot exact-domain and exact-email searches returned zero matches; Gmail exact-domain/email search returned no messages. Reconciled on 2026-08-02: Emmanuel superseded and cancelled the old Mission Control send action; the newer prospect framework treats visible website defects as problem evidence, not buying intent.",
+      "outreach_readiness": "hold",
       "commercial_gap": "Starmate has an active quote route and broad services, but current trust content shows avoidable credibility issues: unsupported-video fallback text and a testimonial heading referring to digital services instead of facility management.",
       "proof_to_use": "BridgeWorks B2B credibility-proof and enquiry-route review.",
-      "proposed_channel": "email",
-      "proposed_destination": "contact@starmatenigeria.com",
-      "draft_subject": "Small trust-section cleanup for Starmate",
-      "draft_body": "Hi Starmate team,\n\nI was reviewing Nigerian facility-management providers and noticed Starmate has a strong service range: facility management, cleaning, pest control, MEP, HVAC, and a clear quote route.\n\nOne small trust issue stood out. The public site still shows unsupported-video fallback text, and the testimonial section is headed as digital services rather than facility management. Those details are minor, but they sit close to the credibility layer buyers check before requesting a quote.\n\nI noted a few practical cleanup points. Would it be useful if I sent them?\n\nBest,\nEmmanuel Ehigbai\nBridgeWorks",
-      "next_internal_action": "Queue one approval-gated email review action to contact@starmatenigeria.com.",
-      "risk_notes": "No duplicate HubSpot or Gmail evidence found. The site also lists a Gmail route; use the owned-domain email first unless Emmanuel chooses otherwise."
+      "proposed_channel": "",
+      "proposed_destination": "",
+      "draft_subject": "",
+      "draft_body": "",
+      "next_internal_action": "Do not revive this old defect-led outreach item. Requalify under the 2026-08-01 sales framework only if a current buyer event, one primary service route, responsible buyer, and earned free-audit asset are verified.",
+      "risk_notes": "No duplicate HubSpot or Gmail evidence found. The site also lists a Gmail route; use the owned-domain email first unless Emmanuel chooses otherwise. Reconciled on 2026-08-02: Emmanuel superseded and cancelled the old Mission Control send action; the newer prospect framework treats visible website defects as problem evidence, not buying intent."
     },
     {
       "prospect_id": "omma-integrated-global-services",
@@ -216,16 +216,16 @@
         "The service and product CTAs converge into one enquiry form, while several product cards are marked Coming Soon, creating a mixed buyer path for product orders versus facility-service proposals."
       ],
       "recommended_angle": "Use a route-clarity angle focused on separating service-proposal and product-order intent.",
-      "evidence_notes": "HubSpot exact-domain and exact-email searches returned zero matches; Gmail exact-domain/email search returned no messages.",
-      "outreach_readiness": "ready",
+      "evidence_notes": "HubSpot exact-domain and exact-email searches returned zero matches; Gmail exact-domain/email search returned no messages. Reconciled on 2026-08-02: Emmanuel superseded and cancelled the old Mission Control send action; the newer prospect framework treats visible website defects as problem evidence, not buying intent.",
+      "outreach_readiness": "hold",
       "commercial_gap": "Sterling has both facility-service proposals and Sterling Clean product-order CTAs, but the current buyer path mixes those intents in one form while some products are still marked Coming Soon.",
       "proof_to_use": "BridgeWorks service-route and proof-hierarchy review.",
-      "proposed_channel": "email",
-      "proposed_destination": "info@sterlingnigeria.org",
-      "draft_subject": "Small route clarity note for Sterling",
-      "draft_body": "Hi Victoria and Sterling Nigeria team,\n\nI was reviewing Nigerian facility-service providers and noticed Sterling has a strong focused offer: cleaning manpower, quote routes, named leadership, CAC/insurance trust claims, and Sterling Clean products.\n\nOne practical issue stood out. The site asks buyers to request facility proposals and order products through the same broad enquiry path, while some product cards are still marked Coming Soon. That can blur intent for someone ready to ask about either staffing or product supply.\n\nI noted a few simple route-clarity fixes. Would it be useful if I sent them?\n\nBest,\nEmmanuel Ehigbai\nBridgeWorks",
-      "next_internal_action": "Queue one approval-gated email review action to info@sterlingnigeria.org.",
-      "risk_notes": "No duplicate HubSpot or Gmail evidence found. Victoria Idris is named publicly, but the destination is the generic company email."
+      "proposed_channel": "",
+      "proposed_destination": "",
+      "draft_subject": "",
+      "draft_body": "",
+      "next_internal_action": "Do not revive this old defect-led outreach item. Requalify under the 2026-08-01 sales framework only if a current buyer event, one primary service route, responsible buyer, and earned free-audit asset are verified.",
+      "risk_notes": "No duplicate HubSpot or Gmail evidence found. Victoria Idris is named publicly, but the destination is the generic company email. Reconciled on 2026-08-02: Emmanuel superseded and cancelled the old Mission Control send action; the newer prospect framework treats visible website defects as problem evidence, not buying intent."
     },
     {
       "prospect_id": "lagos-logistics",
@@ -248,16 +248,16 @@
         "The proof section shows zero-value counters for delivery reach and orders, and the footer repeats 2023 copyright."
       ],
       "recommended_angle": "Use a credibility-proof and booking-route cleanup angle focused on trust counters and dated footer signals.",
-      "evidence_notes": "HubSpot exact-domain and exact-email searches returned zero matches; Gmail exact-domain/email search returned no messages.",
-      "outreach_readiness": "ready",
+      "evidence_notes": "HubSpot exact-domain and exact-email searches returned zero matches; Gmail exact-domain/email search returned no messages. Reconciled on 2026-08-02: Emmanuel superseded and cancelled the old Mission Control send action; the newer prospect framework treats visible website defects as problem evidence, not buying intent.",
+      "outreach_readiness": "hold",
       "commercial_gap": "Lagos Logistics has live booking and pricing routes, but the current about page shows zero-value proof counters and repeated 2023 copyright near buyer-trust content.",
       "proof_to_use": "BridgeWorks credibility-proof and booking-route review.",
-      "proposed_channel": "email",
-      "proposed_destination": "order@lagoslogistics.com.ng",
-      "draft_subject": "Small booking-page trust cleanup",
-      "draft_body": "Hi Lagos Logistics team,\n\nI was reviewing Lagos logistics providers and noticed your site already has useful buyer routes: Book Now, pricing, order@lagoslogistics.com.ng, phone, and clear local/international delivery information.\n\nOne small trust issue stood out. The about page shows zero-value counters for delivery reach and orders, and the footer still repeats 2023 copyright. Those details sit close to the booking path and can make an otherwise active service look unattended.\n\nI noted a few practical cleanup points. Would it be useful if I sent them?\n\nBest,\nEmmanuel Ehigbai\nBridgeWorks",
-      "next_internal_action": "Queue one approval-gated email review action to order@lagoslogistics.com.ng.",
-      "risk_notes": "No duplicate HubSpot or Gmail evidence found. Use only the public order email unless a named responsible contact is later verified."
+      "proposed_channel": "",
+      "proposed_destination": "",
+      "draft_subject": "",
+      "draft_body": "",
+      "next_internal_action": "Do not revive this old defect-led outreach item. Requalify under the 2026-08-01 sales framework only if a current buyer event, one primary service route, responsible buyer, and earned free-audit asset are verified.",
+      "risk_notes": "No duplicate HubSpot or Gmail evidence found. Use only the public order email unless a named responsible contact is later verified. Reconciled on 2026-08-02: Emmanuel superseded and cancelled the old Mission Control send action; the newer prospect framework treats visible website defects as problem evidence, not buying intent."
     }
   ]
 }

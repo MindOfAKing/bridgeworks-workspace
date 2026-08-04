@@ -1,0 +1,14 @@
+{
+  "ratings": {
+    "fit": 25,
+    "active_change": 25,
+    "problem_evidence": 20,
+    "capacity": 15,
+    "buyer_access": 15
+  },
+  "verified_signal_count": 8,
+  "exclusions": [],
+  "reachable_buyer_path": true,
+  "evidenced_service_route": true,
+  "inbound_reply_referral_or_time_bound_event": true
+}

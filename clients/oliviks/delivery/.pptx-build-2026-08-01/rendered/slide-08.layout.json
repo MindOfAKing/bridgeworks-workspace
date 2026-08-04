@@ -1,0 +1,410 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/sioxo1",
+    "id": "sioxo1",
+    "slide": 8,
+    "layoutId": "7eff5efd-6f36-48e3-a092-6439a15cb131",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "b99976e0-b38f-4dfe-9543-6432785f01d2",
+    "masterLayoutName": "Master",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "bg1": "#FFFFFF",
+      "bg2": "#000000",
+      "tx1": "#1F1F1F",
+      "tx2": "#FFFFFF",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "typefaces": [
+      "Arial"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "7eff5efd-6f36-48e3-a092-6439a15cb131",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "b99976e0-b38f-4dfe-9543-6432785f01d2",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "b99976e0-b38f-4dfe-9543-6432785f01d2",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/by90v2tk",
+      "id": "1",
+      "bbox": [
+        42,
+        42,
+        280,
+        34
+      ],
+      "geometry": "rect",
+      "text": "NEXT STEP",
+      "textPreview": "NEXT STEP",
+      "resolvedFontSize": 18,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 18,
+        "typeface": "Arial",
+        "color": "#365E43",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "NEXT STEP"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "NEXT STEP",
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "typeface": "Arial",
+            "color": "#365E43",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "NEXT STEP",
+              "fontSize": 18,
+              "typeface": "Arial",
+              "color": "#365E43",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/cziho7u5",
+      "id": "2",
+      "bbox": [
+        42,
+        176,
+        880,
+        330
+      ],
+      "geometry": "rect",
+      "text": "Approve.\nActivate.\nHand over.",
+      "textPreview": "Approve. | Activate. | Hand over.",
+      "resolvedFontSize": 74,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 74,
+        "typeface": "Arial",
+        "color": "#111111",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "none",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 3,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Approve."
+          },
+          {
+            "index": 2,
+            "text": "Activate."
+          },
+          {
+            "index": 3,
+            "text": "Hand over."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Approve.",
+          "resolvedTextStyle": {
+            "fontSize": 74,
+            "typeface": "Arial",
+            "color": "#111111",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Approve.",
+              "fontSize": 74,
+              "typeface": "Arial",
+              "color": "#111111",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "Activate.",
+          "resolvedTextStyle": {
+            "fontSize": 74,
+            "typeface": "Arial",
+            "color": "#111111",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Activate.",
+              "fontSize": 74,
+              "typeface": "Arial",
+              "color": "#111111",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 3,
+          "text": "Hand over.",
+          "resolvedTextStyle": {
+            "fontSize": 74,
+            "typeface": "Arial",
+            "color": "#111111",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Hand over.",
+              "fontSize": 74,
+              "typeface": "Arial",
+              "color": "#111111",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/d0rixcbq",
+      "id": "3",
+      "bbox": [
+        42,
+        548,
+        790,
+        76
+      ],
+      "geometry": "rect",
+      "text": "On the call we will review the build, complete the setup decisions, and capture your feedback.",
+      "textPreview": "On the call we will review the build, complete the setup decisions, and capture your feedback.",
+      "resolvedFontSize": 26,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 26,
+        "typeface": "Arial",
+        "color": "#5E6268",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "On the call we will review the build, complete the setup decisions,"
+          },
+          {
+            "index": 2,
+            "text": "and capture your feedback."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "On the call we will review the build, complete the setup decisions, and capture your feedback.",
+          "resolvedTextStyle": {
+            "fontSize": 26,
+            "typeface": "Arial",
+            "color": "#5E6268",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "On the call we will review the build, complete the setup decisions, and capture your feedback.",
+              "fontSize": 26,
+              "typeface": "Arial",
+              "color": "#5E6268",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/2tgzixc3",
+      "id": "4",
+      "bbox": [
+        880,
+        590,
+        358,
+        34
+      ],
+      "geometry": "rect",
+      "text": "office@bridgeworks.agency",
+      "textPreview": "office@bridgeworks.agency",
+      "resolvedFontSize": 20,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 20,
+        "typeface": "Arial",
+        "color": "#365E43",
+        "bold": true,
+        "alignment": "right",
+        "verticalAlignment": "top",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "office@bridgeworks.agency"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "office@bridgeworks.agency",
+          "resolvedTextStyle": {
+            "fontSize": 20,
+            "typeface": "Arial",
+            "color": "#365E43",
+            "bold": true,
+            "alignment": "right"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "office@bridgeworks.agency",
+              "fontSize": 20,
+              "typeface": "Arial",
+              "color": "#365E43",
+              "bold": true,
+              "alignment": "right"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/3up0r2to",
+      "id": "5",
+      "bbox": [
+        42,
+        652,
+        1196,
+        0
+      ],
+      "geometry": "straightConnector1",
+      "lineColor": "#D99B2B",
+      "lineWidth": 4
+    }
+  ],
+  "composeRuns": []
+}

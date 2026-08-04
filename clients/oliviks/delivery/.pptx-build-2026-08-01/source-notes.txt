@@ -1,0 +1,38 @@
+Communication job:
+By the end, Aese and Cynthia should understand what BridgeWorks built, how the pieces work together, what they will operate, and which final approvals/actions close delivery.
+
+Narrative:
+1. Set the handover purpose.
+2. Show the connected customer journey.
+3. Show the visible before/after.
+4. Ground the improvement in verified performance.
+5. Summarize the delivered systems.
+6. Explain the weekly operating rhythm.
+7. Separate completed work from current activation/acceptance gates.
+8. Close with the decisions needed on the walkthrough.
+
+Local evidence sources:
+- C:\Users\User\Projects\bridgeworks-workspace\clients\oliviks\OLIVIKS-HANDOVER-2026-07-14.md
+- C:\Users\User\Projects\bridgeworks-workspace\clients\oliviks\delivery\OLIVIKS-COMPLETION-CHECKLIST-2026-07-14.md
+- C:\Users\User\Projects\bridgeworks-workspace\clients\oliviks\evidence\OLIVIKS-EVIDENCE-INDEX-2026-07-14.md
+- C:\Users\User\Projects\bridgeworks-workspace\clients\oliviks\evidence\metrics\OLIVIKS-DELIVERY-VERIFICATION-2026-07-14.md
+- C:\Users\User\Projects\bridgeworks-workspace\clients\oliviks\evidence\metrics\OLIVIKS-FUNCTIONAL-PERFORMANCE-AUDIT-2026-07-14.md
+- C:\Users\User\Projects\bridgeworks-workspace\clients\oliviks\evidence\decisions\OLIVIKS-ORDERING-JOURNEY-COMPARISON-2026-07-14.md
+- C:\Users\User\Projects\bridgeworks-workspace\clients\oliviks\evidence\decisions\OLIVIKS-SCOPE-AND-DECISIONS-2026-07-14.md
+- Gmail: Supabase pause notice dated 2026-07-31, message 19fb8898252987bc
+- Gmail: client handover thread, message 19f5cb7a0b6b35ac
+
+Image sources:
+- C:\Users\User\Projects\bridgeworks-workspace\clients\oliviks\evidence\before\legacy-home-desktop-2026-07-14.png
+- C:\Users\User\Projects\bridgeworks-workspace\clients\oliviks\evidence\after\preview-home-desktop-2026-07-14.png
+- C:\Users\User\Projects\bridgeworks-workspace\clients\oliviks\evidence\after\preview-menu-mobile-2026-07-14.png
+- C:\Users\User\Projects\bridgeworks-workspace\clients\oliviks\evidence\after\preview-admin-desktop-2026-07-14.png
+- C:\Users\User\Projects\bridgeworks-workspace\clients\oliviks\website\public\images\oliviks-logo-horizontal.png
+- C:\Users\User\Projects\bridgeworks-workspace\clients\oliviks\execution\email-whatsapp\print-assets\oliviks-whatsapp-counter-card.png
+
+Claim controls:
+- The new site is a preview until client approval and root-domain cutover.
+- The Supabase project was paused on 2026-07-31 and needs reactivation before demonstrating live menu editing.
+- Performance values are controlled comparative traces, not guaranteed PageSpeed scores.
+- The Foundation did not rebuild checkout; it preserves and clarifies the path to the existing shop, WhatsApp, Wolt, and Marwa.
+- No claim of production-complete retention flow is made until an approved end-to-end test passes.

@@ -38,7 +38,8 @@ for r in rows:
 
 sent=[r for r in rows if 'Sent' in (r.get('status') or '')]
 waiting=[r for r in rows if 'waiting' in (r.get('status') or '').lower()]
-batch2=[r for r in rows if 'Batch 2' in (r.get('status') or '')]
+batch2=[r for r in rows if 'Batch 2 prepared' in (r.get('status') or '')]
+batch2_sent=[r for r in rows if 'Batch 2 sent' in (r.get('status') or '')]
 reviews=[r for r in rows if 'Reviewed' in (r.get('status') or '')]
 upcoming=[]
 overdue=[]
@@ -65,6 +66,7 @@ data={
         'total_prospects': len(rows),
         'sent_waiting': len(waiting),
         'batch2_prepared': len(batch2),
+        'batch2_sent': len(batch2_sent),
         'reviewed_not_sent': len(reviews),
         'next_follow_up': upcoming[0] if upcoming else None,
         'overdue_count': len(overdue),

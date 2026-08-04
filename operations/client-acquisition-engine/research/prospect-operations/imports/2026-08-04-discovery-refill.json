@@ -1,0 +1,173 @@
+{
+  "prospects": [
+    {
+      "company": "BV Integrated Ltd",
+      "website": "https://bvintegrated.co.uk/about-us/",
+      "city": "London",
+      "country": "United Kingdom",
+      "sector": "UK-Nigeria commodity sourcing, procurement, logistics, and international trade",
+      "lane": "Lane B African-owned businesses in Europe",
+      "source": "Current owned website discovered via public web search on 2026-08-04; exact domain/email HubSpot company/contact checks and Gmail history checks returned no matches.",
+      "evidence_urls": [
+        "https://bvintegrated.co.uk/about-us/"
+      ],
+      "checked_at": "2026-08-04",
+      "contact_name": "",
+      "contact_role": "",
+      "contact_url": "https://bvintegrated.co.uk/about-us/",
+      "email": "enquiries@bvintegrated.co.uk",
+      "trigger_observation": "Owned about page presents UK registration, Nigeria operational roots, named co-founders/team, quote CTA, public phone route, and two visible email routes; research should verify whether route ambiguity or proof hierarchy creates a concrete commercial gap for international-buyer trust.",
+      "proof_to_use": "BridgeWorks B2B credibility-proof and enquiry-route review only if a specific current gap is verified.",
+      "next_action": "Research owned contact/quote route, evidence for buyer trust, email routing, team proof, and duplicate-contact risk; hold if no exact sourced commercial gap exists.",
+      "notes": "Public source lists +44 7428 708320, info@bvintegrated.co.uk, enquiries@bvintegrated.co.uk, 20 Wenlock Road London, and co-founders Azeez Iyanda and Saheed Salami."
+    },
+    {
+      "company": "GBS Africa",
+      "website": "https://www.gbsafrica.co.uk/about/",
+      "city": "London",
+      "country": "United Kingdom",
+      "sector": "Africa-led political risk, investment, trade, ESG, and market-entry advisory",
+      "lane": "Lane B African-owned businesses in Europe",
+      "source": "Current owned website discovered via public web search on 2026-08-04; exact domain/email HubSpot company/contact checks and Gmail history checks returned no matches.",
+      "evidence_urls": [
+        "https://www.gbsafrica.co.uk/about/"
+      ],
+      "checked_at": "2026-08-04",
+      "contact_name": "",
+      "contact_role": "",
+      "contact_url": "https://www.gbsafrica.co.uk/about/",
+      "email": "info@gbsafrica.co.uk",
+      "trigger_observation": "Owned about page describes GBS Africa as an African-led advisory firm, lists London and Nairobi offices, named team/advisory board routes, and a public email; research should verify whether proof assets and conversion paths are clear enough for high-trust advisory buyers.",
+      "proof_to_use": "BridgeWorks authority-proof and advisory enquiry-route review only if a specific current gap is verified.",
+      "next_action": "Research owned contact route, public proof assets, current advisory positioning, exact destination, and duplicate-contact risk; hold unless one concrete evidence-backed gap is found.",
+      "notes": "Public source lists info@gbsafrica.co.uk, London HQ at 86-90 Paul Street, Nairobi office, and 2011-2026 copyright."
+    },
+    {
+      "company": "DARAJA Africa-EU",
+      "website": "https://daraja-africa.eu/home/about-us/",
+      "city": "Gunzburg",
+      "country": "Germany",
+      "sector": "Africa-Europe business, culture, events, and cross-border consulting",
+      "lane": "Lane B African-owned businesses in Europe",
+      "source": "Current owned website discovered via public web search on 2026-08-04; exact domain/email HubSpot company/contact checks and Gmail history checks returned no matches.",
+      "evidence_urls": [
+        "https://daraja-africa.eu/home/about-us/"
+      ],
+      "checked_at": "2026-08-04",
+      "contact_name": "Roisa Kerry",
+      "contact_role": "Co-founder, Kenya",
+      "contact_url": "https://daraja-africa.eu/home/about-us/",
+      "email": "mail@daraja-africa.eu",
+      "trigger_observation": "Owned about page presents a Germany/Kenya co-founder model, Request Quote CTA, Europe/Africa phone routes, and visible footer/contact inconsistencies including spaced email text and mixed-case contact heading; research should verify whether these create a concrete enquiry trust gap.",
+      "proof_to_use": "BridgeWorks credibility-proof and contact-route clarity review only if a specific current gap is verified.",
+      "next_action": "Research quote/contact destination, footer email rendering, co-founder evidence, service route, and duplicate-contact risk; draft only if route and commercial gap are exact.",
+      "notes": "Public source lists Hans Posthumus as Germany co-founder, Roisa Kerry as Kenya co-founder, Germany contact address, Kenya contact route, and mail @ daraja-africa.eu."
+    },
+    {
+      "company": "Rideflow",
+      "website": "https://www.rideflow.org/",
+      "city": "Lagos",
+      "country": "Nigeria",
+      "sector": "Logistics operations platform, fleet, dispatch, HR, compliance, and analytics",
+      "lane": "Lane D Nigeria growth businesses",
+      "source": "Current owned website discovered via public web search on 2026-08-04; exact domain/email HubSpot company/contact checks and Gmail history checks returned no matches.",
+      "evidence_urls": [
+        "https://www.rideflow.org/",
+        "https://www.rideflow.org/about"
+      ],
+      "checked_at": "2026-08-04",
+      "contact_name": "",
+      "contact_role": "",
+      "contact_url": "https://www.rideflow.org/",
+      "email": "info@rideflow.org",
+      "trigger_observation": "Owned pages present live logistics SaaS positioning, demo CTA, named team, RC number, and public email, but public crawls show repeated duplicated headings/copy and a live counters section returning zero values despite separate about-page numeric proof; research should verify the exact current gap.",
+      "proof_to_use": "BridgeWorks conversion-route and proof-consistency QA review only if the duplicated/zero-value evidence is current.",
+      "next_action": "Research homepage/about page copy duplication, proof counters, demo route, exact destination, and duplicate-contact risk; draft only if a current commercial gap is confirmed.",
+      "notes": "Public source lists info@rideflow.org, RC 8742605, Book a Demo CTA, named operators, and current logistics platform positioning."
+    },
+    {
+      "company": "Apex Outsourcing and Logistics Company Ltd",
+      "website": "https://www.apexlo.com.ng/",
+      "city": "Lagos",
+      "country": "Nigeria",
+      "sector": "HR outsourcing, logistics, sourcing, and management consultancy",
+      "lane": "Lane D Nigeria growth businesses",
+      "source": "Current owned website discovered via public web search on 2026-08-04; exact domain/email HubSpot company/contact checks and Gmail history checks returned no matches.",
+      "evidence_urls": [
+        "https://www.apexlo.com.ng/"
+      ],
+      "checked_at": "2026-08-04",
+      "contact_name": "",
+      "contact_role": "",
+      "contact_url": "https://www.apexlo.com.ng/",
+      "email": "info@apexlo.com.ng",
+      "trigger_observation": "Owned site presents Lagos/Abuja offices, public email and phone, HR outsourcing, logistics, sourcing, and consultancy services, but also exposes outdated brochure/navigation paths and 2020 copyright; research should verify whether this creates a current credibility gap.",
+      "proof_to_use": "BridgeWorks B2B credibility-refresh and service-route review only if a current gap is verified.",
+      "next_action": "Research contact route, brochure/currentness signals, service proof, exact destination, and duplicate-contact risk; hold if the gap is only cosmetic or unsupported.",
+      "notes": "Public source lists info@apexlo.com.ng, +234 805 300 9236, Lagos Island and Lekki addresses, Lagos/Abuja offices, and 2020 copyright."
+    },
+    {
+      "company": "Kunbase Kft",
+      "website": "https://www.kunbase.com/",
+      "city": "Budapest",
+      "country": "Hungary",
+      "sector": "Domestic and international freight organisation and logistics",
+      "lane": "Lane A Budapest credibility-first SMEs",
+      "source": "Current owned website discovered via public web search on 2026-08-04; exact domain/email HubSpot company/contact checks and Gmail history checks returned no matches.",
+      "evidence_urls": [
+        "https://www.kunbase.com/"
+      ],
+      "checked_at": "2026-08-04",
+      "contact_name": "",
+      "contact_role": "",
+      "contact_url": "https://www.kunbase.com/",
+      "email": "info@kunbase.com",
+      "trigger_observation": "Owned homepage presents a Budapest logistics offer, Request a Quote CTA, public phone, public email, and office address, while the visible contact section appears to expose a newsletter subscription field as the main email route; research should verify the current enquiry-route gap.",
+      "proof_to_use": "BridgeWorks quote-route and trust-friction review only if a specific current gap is verified.",
+      "next_action": "Research quote form, contact routing, service proof, exact destination, and duplicate-contact risk; draft only if the public enquiry path is verifiably confusing.",
+      "notes": "Public source lists +36 70 366 3209, Info@Kunbase.com, Podmaniczky utca 57 Budapest, and logistics service positioning."
+    },
+    {
+      "company": "BEPELOG Kft",
+      "website": "https://logistics.bepelog.hu/en/contact_en/",
+      "city": "Godollo",
+      "country": "Hungary",
+      "sector": "Direct freight, road freight, tail-lift transport, and waste-paper transport",
+      "lane": "Lane A Budapest credibility-first SMEs",
+      "source": "Current owned website discovered via public web search on 2026-08-04; exact domain/email HubSpot company/contact checks and Gmail history checks returned no matches.",
+      "evidence_urls": [
+        "https://logistics.bepelog.hu/en/contact_en/"
+      ],
+      "checked_at": "2026-08-04",
+      "contact_name": "",
+      "contact_role": "",
+      "contact_url": "https://logistics.bepelog.hu/en/contact_en/",
+      "email": "info@bepelog.hu",
+      "trigger_observation": "Owned contact page presents direct freight services, public email, phone, Gödöllő site address, and quote/contact routes, but visible crawled text repeats contact sections and includes malformed CTA copy; research should verify whether this creates a current buyer-route credibility gap.",
+      "proof_to_use": "BridgeWorks logistics enquiry-route and page QA review only if a concrete current gap is verified.",
+      "next_action": "Research contact page, service pages, quote route, exact destination, and duplicate-contact risk; draft only if the malformed/repeated contact route is current and commercially relevant.",
+      "notes": "Public source lists info@bepelog.hu, +36 21 383 2374, 1 Blathy Otto Street Godollo, and direct freight service positioning."
+    },
+    {
+      "company": "Premier FM",
+      "website": "https://premierfm.hu/",
+      "city": "Budapest",
+      "country": "Hungary",
+      "sector": "Facility management, building maintenance, industrial cleaning, gardening, and security",
+      "lane": "Lane A Budapest credibility-first SMEs",
+      "source": "Current owned website discovered via public web search on 2026-08-04; exact domain/email HubSpot company/contact checks and Gmail history checks returned no matches.",
+      "evidence_urls": [
+        "https://premierfm.hu/"
+      ],
+      "checked_at": "2026-08-04",
+      "contact_name": "",
+      "contact_role": "",
+      "contact_url": "https://premierfm.hu/",
+      "email": "info@premierfm.hu",
+      "trigger_observation": "Owned homepage presents Budapest facility-management services, quote CTA, public phone and email, and near-20-year experience claim, while the crawled KPI labels appear without visible numeric values; research should verify whether this creates a current credibility-proof gap.",
+      "proof_to_use": "BridgeWorks B2B credibility-proof and quote-route review only if the missing-number proof issue is current.",
+      "next_action": "Research quote/contact route, KPI proof rendering, service evidence, exact destination, and duplicate-contact risk; hold if no concrete current commercial gap is verified.",
+      "notes": "Public source lists info@premierfm.hu, +36 21 3332048, facility-management service lines, and quote CTA."
+    }
+  ]
+}

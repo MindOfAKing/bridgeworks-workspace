@@ -1,0 +1,77 @@
+# BridgeWorks Prospect-to-Proof Control Loop
+## The minimum operating change needed before scaling tailored outreach
+
+**INTERNAL DOGFOOD RUN**
+
+**Prepared for:** Emmanuel Ehigbai, Founder and Principal  
+**Review date:** 2 August 2026  
+**Prepared by:** BridgeWorks
+
+## Why this decision is timely
+
+BridgeWorks promises lead follow-up, qualification, and client-owned systems. Its website can store an enquiry and create or update a HubSpot contact. The repaired qualifier, router, and bounded diagnostic skills now enable a better next step.
+
+The missing piece is one controlled transition from buyer event to proof, approval, contact, and learning.
+
+| Verified signal | Source and date | What it makes worth deciding |
+|---|---|---|
+| Offer promises capture, qualification, and follow-up | [Homepage](https://bridgeworks.agency/en), observed 2 Aug 2026 | Delivery must match the promise |
+| Enquiries are described as entering one tracked pipeline | [About](https://bridgeworks.agency/en/about), observed 2 Aug 2026 | The pipeline needs a release control |
+| Contact promises a response within 24 hours | [Contact](https://bridgeworks.agency/en/contact), observed 2 Aug 2026 | Ownership and exceptions must be visible |
+| Intake stores to Sheets and optionally HubSpot, but does not run the repaired router or create ClickUp work | `docs/ops-inbound-wiring.md`, reviewed 2 Aug 2026 | Storage works; progression is incomplete |
+| Snapshot: 55 companies, 32 contacts, zero deals, 49 without lead status | `SALES-ACQUISITION-SYSTEM-2026-08-01.md` | Volume lacks stage evidence |
+
+## Working hypothesis
+
+BridgeWorks can capture enquiries and now has reliable routing logic. We hypothesize that the constraint is the missing control between stored contact and approved commercial action, leaving asset effort, ownership, and learning disconnected.
+
+> This is an operating hypothesis. Current conversion performance, response time, CRM configuration, and revenue attribution were not fully audited.
+
+The manual process may work but lack real volume. Test five accounts before automating.
+
+<!-- spacer:50 -->
+
+## Three actions
+
+### 1. Immediate decision
+
+Make the qualifier and router the release gate for bespoke assets.  
+**Likely owner:** Emmanuel  
+**Intended outcome:** No asset without a buyer event, buyer, route, and stop rule.  
+**First success indicator:** Five candidates have complete decisions before production.
+
+### 2. Validation action
+
+Run five accounts through one stage ledger and measure asset time, permission, reply, movement, and disqualification.  
+**Likely owner:** Emmanuel  
+**Intended outcome:** Learn which trigger, route, and asset earn dialogue.  
+**First success indicator:** Each account has one stage, next action, and outcome.
+
+### 3. Operating action
+
+After reauthorization, map HubSpot fields to ClickUp and automate only accepted handoffs.  
+**Likely owner:** Emmanuel with BridgeWorks systems implementation  
+**Intended outcome:** HubSpot holds commercial truth; ClickUp holds approved work.  
+**First success indicator:** No duplicate, shadow CRM, orphan asset, or ownerless follow-up.
+
+## Illustrative future state
+
+`buyer event -> legitimacy and qualification -> one service route -> one proof asset -> executive approval -> contact -> reply/disposition -> discovery or nurture -> weekly market learning`
+
+**HubSpot:** buyer, trigger, qualification, route, stage, outcome, next action  
+**ClickUp:** research, asset, QA, approval, follow-up  
+**Human control:** approval, send, LinkedIn action, credit spend, production change
+
+> Illustrative future state. Not implemented or validated.
+
+## Five questions that confirm or reject the hypothesis
+
+1. Can five candidates be qualified and routed without a second spreadsheet?
+2. Does one 20-minute asset earn more permissions or replies than a message alone?
+3. Which buyer events produce actual stage movement?
+4. Where does the handoff fail: evidence, production, approval, contact, or follow-up?
+5. Which step is stable enough to automate after the pilot?
+
+## Scope boundary
+
+This review identifies the first operating change. Implementation must validate fields, workflow, response controls, reporting, and adoption before production automation.

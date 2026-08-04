@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-07-31T19:08:24+00:00",
+  "updated_at": "2026-08-03T10:21:09+00:00",
   "batches": {
     "2026-07-23-batch-01": {
       "batch_id": "2026-07-23-batch-01",
@@ -329,6 +329,71 @@
       "research_followups": [],
       "policy_version": 2,
       "prepared_at": "2026-07-31T19:08:24+00:00"
+    },
+    "2026-08-03-batch-01": {
+      "batch_id": "2026-08-03-batch-01",
+      "result_path": "C:\\Users\\User\\Projects\\bridgeworks-workspace\\operations\\client-acquisition-engine\\research\\prospect-operations\\results\\2026-08-03-batch-01-results.json",
+      "result_sha256": "a1c26146437d0113ed7619c149f64ead117ceccc6d57cda9439837f35f125c0a",
+      "packet_path": "C:\\Users\\User\\Projects\\bridgeworks-workspace\\operations\\client-acquisition-engine\\research\\prospect-operations\\review\\packets\\2026-08-03-batch-01-approval-review.md",
+      "counts": {
+        "needs_more_evidence": 1,
+        "awaiting_mobile_approval": 2
+      },
+      "external_tasks": [
+        {
+          "type": "contact_form.submit",
+          "title": "Approve contact form outreach to Tilz Prosperitas",
+          "payload": {
+            "prospect_id": "tilz-prosperitas",
+            "company": "Tilz Prosperitas",
+            "channel": "contact_form",
+            "destination": "https://tilzcollection.co.uk/wholesale/",
+            "subject": "",
+            "body": "Hello Tilz team, I saw the UK Export Finance story about your Europe, US, and Canada expansion and the current wholesale route on Tilz Collection. I mapped a short cross-market route check showing where wholesale, distributor, and retail buyer enquiries may split between Tilz Collection and TilzMart. Would it be useful if I sent the two-page version for Tayo's review?",
+            "commercial_gap": "Tilz is entering larger international wholesale and retail conversations while public routes are split between the Tilz Collection wholesale form and a Chamber-listed TilzMart email/domain, which can dilute buyer routing and follow-up consistency.",
+            "proof_to_use": "BridgeWorks cross-market demand-capture and wholesale-route map.",
+            "risk_notes": "No exact HubSpot or Gmail duplicate was found. Use only the official wholesale form unless Emmanuel chooses the Chamber-listed email route; do not LinkedIn message or interact with profiles.",
+            "source_urls": [
+              "https://www.ukexportfinance.gov.uk/success-stories/tilzprosperitas/",
+              "https://tilzcollection.co.uk/wholesale/",
+              "https://find-and-update.company-information.service.gov.uk/company/08832515/officers",
+              "https://members.wnychamber.co.uk/directory/939066/"
+            ],
+            "packet_path": "C:\\Users\\User\\Projects\\bridgeworks-workspace\\operations\\client-acquisition-engine\\research\\prospect-operations\\review\\packets\\2026-08-03-batch-01-approval-review.md",
+            "result_path": "C:\\Users\\User\\Projects\\bridgeworks-workspace\\operations\\client-acquisition-engine\\research\\prospect-operations\\results\\2026-08-03-batch-01-results.json",
+            "approval_scope": "Approving authorizes only this exact destination, subject, and body."
+          },
+          "dedupe_key": "prospect-external:tilz-prosperitas:a1c26146437d0113"
+        },
+        {
+          "type": "email.send",
+          "title": "Approve email outreach to Vendorcredit",
+          "payload": {
+            "prospect_id": "vendorcredit",
+            "company": "Vendorcredit",
+            "channel": "email",
+            "destination": "hello@vendorcredit.ng",
+            "subject": "Bumpa Capital partner-credit journey map",
+            "body": "Hello Vendorcredit team, I saw the Bumpa Capital launch and the way Vendorcredit now sits inside a merchant platform credit journey. I mapped a short partner-credit route check across the launch article, contact path, app support route, and trust proof. Would it be useful if I sent the two-page version for the team reviewing partner onboarding and reporting?",
+            "commercial_gap": "Vendorcredit has a current embedded-credit partnership and regulated trust claims, but public entry points are fragmented across the Bumpa Capital announcement, official contact/form route, and app-store support emails; partner and merchant proof could be clearer before enquiry.",
+            "proof_to_use": "BridgeWorks revenue-system and partner-credit journey map.",
+            "risk_notes": "No exact HubSpot or Gmail duplicate was found. Use the generic company route only; do not imply a personal email for Oluseye Seton or submit the contact form without explicit approval.",
+            "source_urls": [
+              "https://techcabal.com/2026/05/08/bumpa-and-vendorcredit-partner-to-launch-bumpa-capital/",
+              "https://vendorcredit.ng/contact-us/",
+              "https://play.google.com/store/apps/details?hl=en_GB&id=ng.vendorcredit.app",
+              "https://vendorcredit.ng/about-us/"
+            ],
+            "packet_path": "C:\\Users\\User\\Projects\\bridgeworks-workspace\\operations\\client-acquisition-engine\\research\\prospect-operations\\review\\packets\\2026-08-03-batch-01-approval-review.md",
+            "result_path": "C:\\Users\\User\\Projects\\bridgeworks-workspace\\operations\\client-acquisition-engine\\research\\prospect-operations\\results\\2026-08-03-batch-01-results.json",
+            "approval_scope": "Approving authorizes only this exact destination, subject, and body."
+          },
+          "dedupe_key": "prospect-external:vendorcredit:a1c26146437d0113"
+        }
+      ],
+      "research_followups": [],
+      "policy_version": 2,
+      "prepared_at": "2026-08-03T10:21:09+00:00"
     }
   },
   "items": {
@@ -631,6 +696,36 @@
       "reason": "Exact destination and proposed copy passed the local preparation contract.",
       "result_path": "C:\\Users\\User\\Projects\\bridgeworks-workspace\\operations\\client-acquisition-engine\\research\\prospect-operations\\results\\2026-07-31-batch-01-results.json",
       "updated_at": "2026-07-31T19:08:24+00:00"
+    },
+    "2026-08-03-batch-01:seamlesshr-seamless-technologies": {
+      "batch_id": "2026-08-03-batch-01",
+      "prospect_id": "seamlesshr-seamless-technologies",
+      "company": "SeamlessHR / Seamless Technologies",
+      "research_status": "verified",
+      "review_status": "needs_more_evidence",
+      "reason": "Find one current sourced platform-transition consequence, such as a product launch page, partner route, hiring need, enterprise rollout claim, or buyer-owned transformation mandate, before preparing any approval action.",
+      "result_path": "C:\\Users\\User\\Projects\\bridgeworks-workspace\\operations\\client-acquisition-engine\\research\\prospect-operations\\results\\2026-08-03-batch-01-results.json",
+      "updated_at": "2026-08-03T10:21:09+00:00"
+    },
+    "2026-08-03-batch-01:tilz-prosperitas": {
+      "batch_id": "2026-08-03-batch-01",
+      "prospect_id": "tilz-prosperitas",
+      "company": "Tilz Prosperitas",
+      "research_status": "verified",
+      "review_status": "awaiting_mobile_approval",
+      "reason": "Exact destination and proposed copy passed the local preparation contract.",
+      "result_path": "C:\\Users\\User\\Projects\\bridgeworks-workspace\\operations\\client-acquisition-engine\\research\\prospect-operations\\results\\2026-08-03-batch-01-results.json",
+      "updated_at": "2026-08-03T10:21:09+00:00"
+    },
+    "2026-08-03-batch-01:vendorcredit": {
+      "batch_id": "2026-08-03-batch-01",
+      "prospect_id": "vendorcredit",
+      "company": "Vendorcredit",
+      "research_status": "verified",
+      "review_status": "awaiting_mobile_approval",
+      "reason": "Exact destination and proposed copy passed the local preparation contract.",
+      "result_path": "C:\\Users\\User\\Projects\\bridgeworks-workspace\\operations\\client-acquisition-engine\\research\\prospect-operations\\results\\2026-08-03-batch-01-results.json",
+      "updated_at": "2026-08-03T10:21:09+00:00"
     }
   }
 }

@@ -1,0 +1,77 @@
+company: BridgeWorks
+qualification_status: discovery-ready
+primary_commercial_question: "How should BridgeWorks turn a detected buyer moment into one governed prospect-to-proof loop that records commercial truth once, produces the right 20-minute asset, and advances only on evidence?"
+primary_service_route: execution-operating-systems
+secondary_hypotheses:
+  - strategy-transformation
+  - ai-workflow-automation
+route_evidence:
+  - "Public intake can store an enquiry and create or update a HubSpot contact."
+  - "The repaired lead qualifier and prospect router are not documented as part of the production intake path."
+  - "The universal free GEO audit decision conflicts with the active free-value qualification rule."
+  - "The latest internal commercial snapshot recorded 55 companies, 32 contacts, zero deals, and weak lead-status completeness."
+  - "The live HubSpot capability check on 2026-08-02 returned reauthorization guidance for user identity and commercial writes."
+  - "The live ClickUp list contains five tasks and is writable, but it has no active BridgeWorks dogfood implementation task."
+asset:
+  title: "BridgeWorks Prospect-to-Proof Control Loop"
+  format: "Three-page branded decision snapshot"
+  audience: "Emmanuel Ehigbai, Founder and Principal"
+  content:
+    - "Verified public and internal operating evidence"
+    - "One working hypothesis and one alternative explanation"
+    - "Exactly three prioritized actions"
+    - "One future-state prospect-to-proof control loop"
+  production_ceiling_minutes: 20
+work_passes:
+  - "Evidence verification"
+  - "Execution-operating-systems specialist"
+  - "Future-state control-loop demonstration"
+  - "Executive claim and relevance QA"
+capabilities:
+  active:
+    - bridgeworks-lead-qualifier
+    - bridgeworks-prospect-router
+    - bridgeworks-revenue-system-scan
+    - "Web and local evidence review"
+    - "ClickUp read and create"
+    - "PDF packaging and visual inspection"
+  unavailable_or_deferred:
+    - "HubSpot writes pending reauthorization"
+    - "LinkedIn prospect messaging, connection, and follow actions"
+    - "Apollo enrichment without credit approval"
+buyer:
+  primary: "Emmanuel Ehigbai, Founder and Principal"
+  evidence: "Founder-requested internal engagement and direct ownership of BridgeWorks commercial decisions."
+  secondary: "None"
+channel_sequence:
+  - "Internal review of the decision snapshot"
+  - "Implement one controlled manual pilot using five qualified accounts"
+  - "Measure stage progression, asset time, permission, reply, and opportunity evidence"
+  - "Only then automate the stable handoffs"
+hubspot_payload:
+  disposition: "Do not create BridgeWorks as a prospect or deal in its own CRM"
+  system_change: "Reauthorize connector, then add or reuse qualification, route, trigger, asset, next-action, and disqualification fields"
+  source_of_truth: "HubSpot for commercial records only"
+clickup_tasks:
+  - "Approve the dogfood diagnosis and control-loop design"
+  - "Resolve HubSpot authorization and field mapping"
+  - "Run a five-account manual control-loop pilot"
+  - "Review pilot conversion evidence before automation"
+approval_gates:
+  - "Approval before HubSpot field or record writes"
+  - "Approval before production workflow changes"
+  - "Approval before email sending or LinkedIn action"
+  - "Approval before Apollo credit use"
+stop_conditions:
+  - "The proposed loop duplicates the CRM in Sheets, files, or Mission Control."
+  - "The pilot cannot identify a current buyer event and accountable buyer."
+  - "The asset requires more than 20 minutes or more than one primary route."
+  - "Automation would precede stable manual acceptance evidence."
+do_not_produce:
+  - "Full CRM redesign"
+  - "Five simultaneous service-line audits"
+  - "Proposal, pricing, or ROI estimate"
+  - "Automatic outbound sequence"
+  - "A second prospect database"
+next_action: "Produce the decision snapshot, inspect it, and create only the minimum internal implementation tasks."
+
