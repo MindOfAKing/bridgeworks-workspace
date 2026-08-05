@@ -12,6 +12,12 @@
       "runtimeExecutable": "npm",
       "runtimeArgs": ["run", "start", "--prefix", "C:/Users/User/Projects/bridgeworks-agency", "--", "-p", "3105"],
       "port": 3105
+    },
+    {
+      "name": "atalanyado-calculator",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["run", "dev", "--prefix", "C:/Users/User/Projects/atalanyado-calculator", "--", "--port", "5183", "--strictPort"],
+      "port": 5183
     }
   ]
 }
