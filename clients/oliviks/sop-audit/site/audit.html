@@ -1,0 +1,968 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Oliviks Kitchen · Operations Standardisation Audit</title>
+<style>
+:root{
+  --barn-red:#761212; --red-800:#5a0e0e; --red-600:#8f1c1c; --red-100:#f3dcdc; --red-50:#faecec;
+  --papaya:#FAB73A; --papaya-600:#e6a328; --papaya-100:#fef2d8; --papaya-50:#fff9ec;
+  --chalk:#F7F9F4;
+  --n0:#ffffff; --n100:#eef0ea; --n200:#e1e3db; --n300:#cdcfc7; --n400:#a3a59d;
+  --n500:#74766e; --n600:#54564f; --n700:#3a3b36; --n800:#232420; --n900:#121210;
+  --success:#2f7d4f; --warning:#e6a328; --danger:#8f1c1c;
+  --font:'Rubik',system-ui,-apple-system,'Segoe UI',Roboto,sans-serif;
+  --body:'Manrope',system-ui,-apple-system,'Segoe UI',Roboto,sans-serif;
+  --wrap:820px;
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{
+  margin:0; background:var(--chalk); color:var(--n800);
+  font-family:var(--body); font-size:16px; line-height:1.6;
+}
+.wrap{max-width:var(--wrap); margin:0 auto; padding:0 18px}
+
+/* ---------- header ---------- */
+header{background:var(--barn-red); color:var(--chalk); padding:34px 0 30px}
+.brandline{
+  font-family:var(--font); font-size:12px; letter-spacing:.14em; text-transform:uppercase;
+  color:var(--papaya); font-weight:600; margin:0 0 10px
+}
+header h1{
+  font-family:var(--font); font-weight:700; font-size:30px; line-height:1.12;
+  margin:0 0 10px; letter-spacing:-.01em
+}
+header p{margin:0; color:#f0e3e3; font-size:15px; max-width:56ch}
+.meta{
+  margin-top:18px; display:flex; flex-wrap:wrap; gap:8px 20px;
+  font-size:13px; color:#e7cfcf
+}
+
+/* ---------- progress ---------- */
+.progressbar{
+  position:sticky; top:0; z-index:30; background:var(--n0);
+  border-bottom:1px solid var(--n200); box-shadow:0 1px 6px rgba(0,0,0,.05)
+}
+.progressbar .inner{
+  max-width:var(--wrap); margin:0 auto; padding:9px 18px;
+  display:flex; align-items:center; gap:12px
+}
+.track{flex:1; height:7px; background:var(--n200); border-radius:99px; overflow:hidden}
+.fill{height:100%; width:0%; background:var(--papaya); transition:width .25s ease}
+.pcount{font-family:var(--font); font-size:12px; font-weight:600; color:var(--n600); white-space:nowrap}
+
+/* ---------- cards ---------- */
+main{padding:26px 0 60px}
+.card{
+  background:var(--n0); border:1px solid var(--n200); border-radius:12px;
+  padding:20px; margin:0 0 18px
+}
+.card.note{background:var(--papaya-50); border-color:var(--papaya)}
+.card.note h2{color:var(--barn-red)}
+.card h2{
+  font-family:var(--font); font-size:19px; font-weight:700; margin:0 0 10px; color:var(--n900)
+}
+.card p{margin:0 0 12px; font-size:15px; color:var(--n700)}
+.card p:last-child{margin-bottom:0}
+.card ol,.card ul{margin:0 0 12px; padding-left:20px; font-size:15px; color:var(--n700)}
+.card li{margin-bottom:6px}
+
+/* ---------- sections ---------- */
+section.area{
+  background:var(--n0); border:1px solid var(--n200); border-radius:12px;
+  margin:0 0 18px; overflow:hidden
+}
+.area-head{padding:18px 20px 14px; border-bottom:1px solid var(--n100)}
+.area-num{
+  display:inline-block; font-family:var(--font); font-size:11px; font-weight:700;
+  letter-spacing:.14em; text-transform:uppercase; color:var(--barn-red);
+  background:var(--red-50); border-radius:99px; padding:4px 10px; margin-bottom:9px
+}
+.area-head h3{font-family:var(--font); font-size:20px; font-weight:700; margin:0 0 6px; color:var(--n900); line-height:1.2}
+.area-head .blurb{margin:0; font-size:14px; color:var(--n500)}
+.area-body{padding:6px 20px 20px}
+
+/* ---------- question rows ---------- */
+.q{padding:16px 0; border-bottom:1px dashed var(--n200)}
+.q:last-of-type{border-bottom:none}
+.q .stmt{font-size:15px; font-weight:600; color:var(--n800); margin:0 0 10px; line-height:1.45}
+.q .hint{display:block; font-weight:400; font-size:13px; color:var(--n500); margin-top:3px}
+.opts{display:grid; gap:6px}
+.opt{
+  display:flex; align-items:flex-start; gap:10px; padding:9px 11px;
+  border:1px solid var(--n200); border-radius:8px; cursor:pointer;
+  font-size:14px; color:var(--n700); background:var(--n0); transition:border-color .12s, background .12s
+}
+.opt:hover{border-color:var(--n400)}
+.opt input{margin:3px 0 0; accent-color:var(--barn-red); flex:none; width:16px; height:16px}
+.opt.sel{border-color:var(--barn-red); background:var(--red-50); color:var(--n900); font-weight:600}
+.opt .num{
+  font-family:var(--font); font-size:11px; font-weight:700; color:var(--n400);
+  margin-left:auto; padding-left:8px
+}
+.opt.sel .num{color:var(--barn-red)}
+
+/* ---------- text fields ---------- */
+.field{margin:16px 0 0}
+.field label{
+  display:block; font-family:var(--font); font-size:13px; font-weight:600;
+  color:var(--n700); margin-bottom:6px
+}
+input[type=text], textarea, select{
+  width:100%; font-family:var(--body); font-size:15px; color:var(--n900);
+  background:var(--n0); border:1px solid var(--n300); border-radius:8px;
+  padding:10px 12px; line-height:1.5
+}
+textarea{min-height:76px; resize:vertical}
+input[type=text]:focus, textarea:focus, select:focus{
+  outline:none; border-color:var(--barn-red); box-shadow:0 0 0 3px var(--red-100)
+}
+select{appearance:none; background-image:linear-gradient(45deg,transparent 50%,var(--n500) 50%),linear-gradient(135deg,var(--n500) 50%,transparent 50%); background-position:calc(100% - 18px) 52%,calc(100% - 13px) 52%; background-size:5px 5px,5px 5px; background-repeat:no-repeat; padding-right:38px}
+.two{display:grid; grid-template-columns:1fr 1fr; gap:14px}
+
+/* ---------- pain selector ---------- */
+.pain{
+  margin-top:18px; padding:14px; background:var(--n100);
+  border-radius:9px; border:1px solid var(--n200)
+}
+.pain label{font-family:var(--font); font-size:13px; font-weight:700; color:var(--n800); display:block; margin-bottom:8px}
+.pain .opts{grid-template-columns:1fr; gap:6px}
+.pain .opt{background:var(--n0)}
+
+/* ---------- checkbox grid ---------- */
+.checkgrid{display:grid; gap:8px; margin-top:6px}
+.chk{
+  display:flex; align-items:center; gap:10px; padding:10px 12px;
+  border:1px solid var(--n200); border-radius:8px; cursor:pointer; font-size:14px; background:var(--n0)
+}
+.chk.sel{border-color:var(--barn-red); background:var(--red-50); font-weight:600}
+.chk input{accent-color:var(--barn-red); width:16px; height:16px; flex:none}
+
+/* ---------- results ---------- */
+#results{display:none}
+#results.on{display:block}
+.scorehead{
+  background:var(--n900); color:var(--chalk); border-radius:12px; padding:22px 20px; margin-bottom:18px
+}
+.scorehead .big{font-family:var(--font); font-size:52px; font-weight:700; line-height:1; color:var(--papaya)}
+.scorehead .band{font-family:var(--font); font-size:17px; font-weight:600; margin:8px 0 6px}
+.scorehead p{margin:0; font-size:14px; color:#cfd1cb}
+.bars{display:grid; gap:9px}
+.bar{display:grid; grid-template-columns:1fr 46px; gap:10px; align-items:center; font-size:13.5px}
+.bar .lbl{color:var(--n700)}
+.bar .t{grid-column:1/-1; height:8px; background:var(--n200); border-radius:99px; overflow:hidden; margin-top:-2px}
+.bar .f{height:100%; border-radius:99px}
+.bar .v{font-family:var(--font); font-weight:700; font-size:13px; text-align:right; color:var(--n600)}
+
+/* ---------- buttons ---------- */
+.actions{display:grid; gap:10px; margin-top:4px}
+button{
+  font-family:var(--font); font-size:15px; font-weight:600; padding:14px 18px;
+  border-radius:9px; border:1px solid transparent; cursor:pointer; width:100%;
+  transition:background .12s, border-color .12s
+}
+.btn-primary{background:var(--barn-red); color:var(--chalk)}
+.btn-primary:hover{background:var(--red-800)}
+.btn-accent{background:var(--papaya); color:var(--n900)}
+.btn-accent:hover{background:var(--papaya-600)}
+.btn-ghost{background:var(--n0); color:var(--n700); border-color:var(--n300)}
+.btn-ghost:hover{border-color:var(--n500)}
+.toast{
+  position:fixed; left:50%; transform:translateX(-50%); bottom:24px; z-index:60;
+  background:var(--n900); color:var(--chalk); padding:12px 18px; border-radius:9px;
+  font-size:14px; font-family:var(--font); box-shadow:0 6px 20px rgba(0,0,0,.25);
+  opacity:0; pointer-events:none; transition:opacity .2s
+}
+.toast.on{opacity:1}
+.saved{font-size:12.5px; color:var(--n500); text-align:center; margin-top:12px}
+
+footer{
+  border-top:1px solid var(--n200); padding:24px 0 40px; text-align:center;
+  font-size:13px; color:var(--n500)
+}
+footer strong{color:var(--barn-red)}
+
+@media (max-width:560px){
+  header h1{font-size:24px}
+  .two{grid-template-columns:1fr}
+  .card,.area-body,.area-head{padding-left:15px; padding-right:15px}
+  .scorehead .big{font-size:44px}
+}
+@media print{
+  .progressbar,.actions,.toast,.card.note{display:none}
+  body{background:#fff}
+  section.area,.card{break-inside:avoid; border-color:#999}
+  header{background:#fff; color:#000; border-bottom:3px solid #761212}
+  header h1,header p,.meta{color:#000}
+}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap">
+    <p class="brandline">Oliviks Kitchen &nbsp;·&nbsp; Operations Review</p>
+    <h1>How Oliviks runs, written down</h1>
+    <p>A short audit to find out which parts of the business already run the same way every time, and which parts only work when a specific person is there.</p>
+    <div class="meta">
+      <span>Prepared by BridgeWorks</span>
+      <span>About 20 minutes</span>
+      <span>Your answers save automatically in this browser</span>
+    </div>
+  </div>
+</header>
+
+<div class="progressbar">
+  <div class="inner">
+    <div class="track"><div class="fill" id="fill"></div></div>
+    <div class="pcount" id="pcount">0%</div>
+  </div>
+</div>
+
+<main class="wrap">
+
+  <div class="card">
+    <h2>What this is for</h2>
+    <p>An SOP is just a written way of doing one job, so the result is the same no matter who is on shift that day. How the egusi is portioned. Who checks the Wolt tablet. What happens when an order goes out with a missing item.</p>
+    <p>Right now most of that knowledge lives in your head and in Cynthia's. That works while you are both there. It stops working the day you want a holiday, a new hire, a second kitchen, or a bigger catering job.</p>
+    <p>This audit does not write the SOPs. It finds out <strong>where you need them most</strong>, so the work goes to the parts that are actually costing you money and time.</p>
+  </div>
+
+  <div class="card note">
+    <h2>How to fill this in</h2>
+    <ol>
+      <li>Answer honestly. "We just know how to do it" is a real answer and a very common one. There is no score to protect here.</li>
+      <li>If a question does not apply to Oliviks, choose <strong>Does not apply</strong> and move on.</li>
+      <li>You can stop and come back. Your answers stay in this browser on this device.</li>
+      <li>At the end, press <strong>Send my answers</strong>. They go straight to BridgeWorks. If that fails for any reason, press <strong>Download</strong> and email the file to <strong>office@bridgeworks.agency</strong>.</li>
+    </ol>
+    <p>Best filled by whoever actually runs the kitchen day to day. If you and Cynthia disagree on an answer, say so in the notes. That disagreement is useful information.</p>
+  </div>
+
+  <!-- Part 0 -->
+  <section class="area">
+    <div class="area-head">
+      <span class="area-num">Part 0</span>
+      <h3>About your operation today</h3>
+      <p class="blurb">Basic shape of the business, so the rest of the answers can be read properly.</p>
+    </div>
+    <div class="area-body" id="part0">
+      <div class="two">
+        <div class="field"><label for="f_name">Your name</label><input type="text" id="f_name" data-key="name"></div>
+        <div class="field"><label for="f_role">Your role in the business</label><input type="text" id="f_role" data-key="role" placeholder="Owner, head cook, manager"></div>
+      </div>
+      <div class="two">
+        <div class="field"><label for="f_date">Date you filled this in</label><input type="text" id="f_date" data-key="date" placeholder="11 August 2026"></div>
+        <div class="field"><label for="f_people">How many people work in the kitchen in a normal week?</label><input type="text" id="f_people" data-key="people" placeholder="e.g. 2 full time, 1 weekend helper"></div>
+      </div>
+      <div class="field">
+        <label>Which of these does Oliviks do today? Tick all that apply.</label>
+        <div class="checkgrid" id="channels"></div>
+      </div>
+      <div class="field">
+        <label for="f_busiest">Your busiest days and hours</label>
+        <input type="text" id="f_busiest" data-key="busiest" placeholder="e.g. Friday and Saturday, 12:00 to 16:00">
+      </div>
+      <div class="field">
+        <label for="f_volume">Roughly how many orders a week, and where do most of them come from?</label>
+        <textarea id="f_volume" data-key="volume" placeholder="A rough number is fine. For example: about 120 a week, maybe half Wolt, a third walk in, the rest our own shop and WhatsApp."></textarea>
+      </div>
+      <div class="field">
+        <label for="f_written">Is anything written down today? Anything at all.</label>
+        <textarea id="f_written" data-key="written_now" placeholder="Recipe notes, a cleaning list on the wall, a WhatsApp group with instructions, prices in a notebook, HACCP paperwork. List whatever exists, even if it is old or nobody looks at it."></textarea>
+      </div>
+    </div>
+  </section>
+
+  <div id="areas"></div>
+
+  <!-- Closing -->
+  <section class="area">
+    <div class="area-head">
+      <span class="area-num">Last part</span>
+      <h3>The honest questions</h3>
+      <p class="blurb">These four answers usually decide where the work starts.</p>
+    </div>
+    <div class="area-body">
+      <div class="field">
+        <label for="f_away">If you were away for two weeks with no phone, what breaks first?</label>
+        <textarea id="f_away" data-key="away" placeholder="Be specific. Not 'everything'. What is the first thing that actually goes wrong on day one or day two?"></textarea>
+      </div>
+      <div class="field">
+        <label for="f_onlyme">What can only you do, that nobody else in the business can do?</label>
+        <textarea id="f_onlyme" data-key="only_me" placeholder="Cooking a particular soup, dealing with a supplier, handling the money, answering the Wolt tablet, replying to a bad review."></textarea>
+      </div>
+      <div class="field">
+        <label for="f_repeat">What question do your staff or family ask you over and over again?</label>
+        <textarea id="f_repeat" data-key="repeat_q" placeholder="Whatever you answer more than twice a week is a missing SOP."></textarea>
+      </div>
+      <div class="field">
+        <label>If we could only standardise three areas this year, which three? Pick up to three.</label>
+        <div class="checkgrid" id="top3"></div>
+      </div>
+      <div class="field">
+        <label for="f_goal">What would need to be true in twelve months for you to say this was worth doing?</label>
+        <textarea id="f_goal" data-key="goal" placeholder="Open a second location, take two weeks off, hire a cook who works without you watching, double the catering, stop working Sundays."></textarea>
+      </div>
+      <div class="field">
+        <label for="f_anything">Anything else we should know</label>
+        <textarea id="f_anything" data-key="anything"></textarea>
+      </div>
+    </div>
+  </section>
+
+  <div class="card">
+    <h2>Finish and send</h2>
+    <p>See where you stand, then send your answers straight to us. Nothing leaves this device until you press Send.</p>
+    <div class="actions">
+      <button class="btn-accent" id="btn-score">See my results</button>
+      <button class="btn-primary" id="btn-send">Send my answers to BridgeWorks</button>
+      <button class="btn-ghost" id="btn-download">Download my answers instead</button>
+      <button class="btn-ghost" id="btn-copy">Copy answers to clipboard</button>
+      <button class="btn-ghost" id="btn-print">Print or save as PDF</button>
+      <button class="btn-ghost" id="btn-clear">Clear everything and start again</button>
+    </div>
+    <p class="saved" id="sendmsg"></p>
+    <p class="saved" id="savedmsg">Nothing saved yet.</p>
+  </div>
+
+  <div id="results">
+    <div class="scorehead">
+      <div class="big" id="score-big">0%</div>
+      <div class="band" id="score-band"></div>
+      <p id="score-note"></p>
+    </div>
+    <div class="card">
+      <h2>Area by area</h2>
+      <div class="bars" id="bars"></div>
+    </div>
+    <div class="card">
+      <h2>Where we would start</h2>
+      <div id="priorities"></div>
+    </div>
+    <div class="card note">
+      <h2>Now send it</h2>
+      <p>Scroll up and press <strong>Send my answers to BridgeWorks</strong>. That is the last step.</p>
+    </div>
+  </div>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <p>Oliviks Kitchen · Rákóczi tér 9, 1084 Budapest<br>
+    Prepared by <strong>BridgeWorks</strong> · office@bridgeworks.agency</p>
+  </div>
+</footer>
+
+<div class="toast" id="toast"></div>
+
+<script>
+/* ============================================================
+   Oliviks SOP audit.
+   Answers are held in this browser until Send is pressed.
+   Send posts them to the BridgeWorks collector.
+   ============================================================ */
+
+var SUBMIT_URL = "https://script.google.com/macros/s/AKfycbxrTPTpwgDtHKys64UjQFyf_vuJhIsMJMLFzgla1XTDggnFfKY1VVNJ-MU1ArKTH2oD/exec";
+
+var SCALE = [
+  {v:3, t:"Written down and everyone follows it"},
+  {v:2, t:"Written down somewhere, but not really followed"},
+  {v:1, t:"We do it, but it only lives in our heads"},
+  {v:0, t:"Not happening at all"},
+  {v:null, t:"Does not apply to us"}
+];
+
+var PAIN = [
+  {v:0, t:"This part is fine, leave it alone"},
+  {v:1, t:"Annoying, but we cope"},
+  {v:2, t:"This costs us money, time or customers"}
+];
+
+var CHANNELS = [
+  "Walk in and eat at the shop",
+  "Walk in and take away",
+  "Phone orders",
+  "WhatsApp orders",
+  "Orders on shop.oliviks.com",
+  "Wolt",
+  "Foodora",
+  "Catering for events",
+  "Market stalls, pop ups or festivals",
+  "Wholesale or supplying another business"
+];
+
+var AREAS = [
+  {
+    id:"open_close",
+    title:"Opening and closing the kitchen",
+    blurb:"The first hour and the last hour of the day.",
+    items:[
+      {t:"There is a fixed opening routine, and anyone opening knows exactly what to do first, second, third."},
+      {t:"There is a fixed closing routine, covering the fridges, the gas, the money, the bins and locking up."},
+      {t:"Anyone can tell at a glance whether the kitchen was closed down properly last night.", h:"For example a signed checklist, a photo in a group, a written handover."},
+      {t:"When someone new opens or closes for the first time, they can follow written steps instead of being shown."}
+    ]
+  },
+  {
+    id:"buying",
+    title:"Buying and stock",
+    blurb:"Suppliers, orders, storage and waste. Nigerian ingredients in Budapest are not a supermarket run.",
+    items:[
+      {t:"There is a written list of suppliers, what each one supplies, and what we normally pay."},
+      {t:"There is a set day and a set way of ordering stock, not just ordering when someone notices it is finished."},
+      {t:"There is a par level for key items, so we know the point at which we reorder.", h:"Par level means the minimum amount we should always have on the shelf."},
+      {t:"Deliveries are checked in against the order, and short or wrong deliveries are recorded."},
+      {t:"We know how much food we throw away in a normal week, and why."}
+    ]
+  },
+  {
+    id:"cooking",
+    title:"Cooking and portion consistency",
+    blurb:"Whether a customer gets the same plate on a Tuesday from Cynthia and on a Saturday from someone else.",
+    items:[
+      {t:"Every dish on the menu has a written recipe with quantities, not just a method someone knows."},
+      {t:"Batch sizes are set. We know how much egusi one pot makes and how many portions come out of it."},
+      {t:"Portioning is standardised, with a set scoop, ladle or container per dish.", h:"This is usually the single biggest hidden cost in a kitchen."},
+      {t:"Someone tastes and checks the food before service, against a known standard."},
+      {t:"A new cook could produce the food to your standard from the written recipes, without you correcting them."}
+    ]
+  },
+  {
+    id:"safety",
+    title:"Food safety and hygiene",
+    blurb:"What keeps you legal in Hungary and what keeps customers safe.",
+    items:[
+      {t:"HACCP paperwork is current and someone is clearly responsible for keeping it up to date."},
+      {t:"Fridge and freezer temperatures are recorded on a schedule, not only when someone remembers."},
+      {t:"There is a written cleaning schedule saying what gets cleaned daily, weekly and monthly, and by whom."},
+      {t:"Allergens per dish are written down, and staff can answer an allergy question correctly without asking you.", h:"Peanut, gluten and fish come up constantly on Nigerian menus."},
+      {t:"Cooked food is labelled and dated, and there is a clear rule on how long anything is kept."},
+      {t:"If NÉBIH walked in unannounced tomorrow morning, the paperwork would be ready."}
+    ]
+  },
+  {
+    id:"orders_in",
+    title:"Taking orders",
+    blurb:"You take orders through at least six different doors. Each one is a chance to lose one.",
+    items:[
+      {t:"Every order channel has one named person responsible for watching it during service.", h:"Walk in, phone, WhatsApp, shop.oliviks.com, Wolt, Foodora, catering enquiries."},
+      {t:"All orders end up in one place the kitchen looks at, rather than being spread across a tablet, a phone and a notebook."},
+      {t:"There is a rule for how fast a WhatsApp, phone or email enquiry must be answered, and someone checks it is being met."},
+      {t:"When we are sold out of a dish, there is a set routine for switching it off everywhere.", h:"Website, shop, Wolt and Foodora all need to be updated, not just one."},
+      {t:"Order information taken by phone or WhatsApp is written down the same way every time, so nothing is missed."}
+    ]
+  },
+  {
+    id:"fulfil",
+    title:"Packing and handing over",
+    blurb:"From the pot to the customer's hand. Where most complaints are actually born.",
+    items:[
+      {t:"There is a set way of packing each type of order, including which container, how soup and swallow are separated, and what goes in the bag."},
+      {t:"Every order is checked against the ticket before it leaves the kitchen, by someone other than the person who packed it."},
+      {t:"There is a clear routine for handing an order to a Wolt or Foodora courier, so the right bag goes to the right rider."},
+      {t:"Pickup customers are handled the same way every time, including how they are told the order is ready."},
+      {t:"When an order goes out wrong or incomplete, there is a set response and someone records it."}
+    ]
+  },
+  {
+    id:"menu_price",
+    title:"Menu and prices across channels",
+    blurb:"The same dish currently carries three different prices. In store, on your own shop, and on Wolt. That is normal, but it has to be managed on purpose.",
+    items:[
+      {t:"There is one master menu list that every other place copies from.", h:"Right now the menu appears on the website, the shop, Wolt, Foodora, Google and the printed menu."},
+      {t:"There is a written rule for how the online price is worked out from the in store price."},
+      {t:"When a price changes, there is a set list of every place that must be updated, and someone owns that list."},
+      {t:"Dish names and spellings are the same everywhere.", h:"For example okro against okra, or the same soup listed under two different names."},
+      {t:"Someone checks, on a schedule, that Wolt and Foodora still match the real menu and the real address."}
+    ]
+  },
+  {
+    id:"money",
+    title:"Money and admin",
+    blurb:"Cash, card, invoices, tax. The part that is easiest to leave until it is a problem.",
+    items:[
+      {t:"There is a daily routine for counting and recording takings, and it is done at the same time every day."},
+      {t:"Cash and card takings are reconciled against orders, so a difference would be noticed."},
+      {t:"Invoices are issued in a set way, and we always know which ones are unpaid."},
+      {t:"Supplier bills and business costs are recorded as they happen, not gathered up at the end of the month."},
+      {t:"We know what a normal week costs us to run, and roughly what each dish costs to make."},
+      {t:"Someone other than the owner could do the daily money routine correctly from written steps."}
+    ]
+  },
+  {
+    id:"catering",
+    title:"Catering and events",
+    blurb:"The highest value orders you take, and usually the least standardised.",
+    items:[
+      {t:"There is a set way of handling a catering enquiry, from first message to quote."},
+      {t:"Catering prices are worked out from a written formula, not judged case by case."},
+      {t:"There is a deposit and cancellation rule, and it is told to the customer in writing before we start."},
+      {t:"There is a checklist for the event itself, covering transport, serving equipment, timings and who is on site."},
+      {t:"After an event, there is a set follow up, so a good catering customer becomes a repeat one."}
+    ]
+  },
+  {
+    id:"customers",
+    title:"Customers, complaints and reviews",
+    blurb:"You hold a 4.8 rating from over 160 reviews. That is an asset with no written rules protecting it.",
+    items:[
+      {t:"There is a set way of handling an unhappy customer in the shop, and staff know how far they can go without asking you."},
+      {t:"There is a written rule for refunds, replacements and free items."},
+      {t:"Every Google review gets a reply, and there is a routine for who does it and how fast."},
+      {t:"Complaints are recorded somewhere, so a repeating problem would be noticed."},
+      {t:"There is a set way of asking a happy customer for a review."}
+    ]
+  },
+  {
+    id:"marketing",
+    title:"Marketing routines",
+    blurb:"The systems built during the Foundation only pay off if they are run on a schedule.",
+    items:[
+      {t:"The weekly specials email goes out on a fixed day, by a named person."},
+      {t:"The WhatsApp broadcast goes out on a fixed day, by a named person."},
+      {t:"Posts and photos go up on Google Business Profile on a schedule, not only when someone remembers."},
+      {t:"Social media posting has a set rhythm and someone owns it."},
+      {t:"Photos of new dishes are taken and stored in one place, ready to use."},
+      {t:"Someone looks at the numbers monthly and can say whether any of this is working."}
+    ]
+  },
+  {
+    id:"people",
+    title:"People and training",
+    blurb:"Everything above only holds if the people can carry it.",
+    items:[
+      {t:"There is a written description of what each role does, even if the roles are family."},
+      {t:"A new person is trained against a written plan, rather than by watching."},
+      {t:"Shifts are planned in advance and everyone knows where to look for them."},
+      {t:"There is a set way of handling a sick day or a no show."},
+      {t:"Pay, hours and any agreements are recorded in writing."}
+    ]
+  },
+  {
+    id:"access",
+    title:"Accounts, access and keys",
+    blurb:"Who can get into what. This is the one that hurts most when a phone is lost or a person leaves.",
+    items:[
+      {t:"There is one list of every account the business uses, and who can log into each one.", h:"Website, shop admin, MailerLite, Supabase, Namecheap, Google Business Profile, Wolt, Foodora, the bank, WhatsApp Business."},
+      {t:"Passwords are stored somewhere safe and shared, not only in one person's head or phone."},
+      {t:"At least two people can get into the critical accounts."},
+      {t:"If the business phone was lost today, we know exactly what we would lose access to and what we would do."},
+      {t:"Keys to the premises are accounted for, and we know who holds one."}
+    ]
+  }
+];
+
+/* ---------- render ---------- */
+var STORE_KEY = "oliviks_sop_audit_v1";
+var state = load();
+
+function el(tag, cls, html){
+  var e = document.createElement(tag);
+  if(cls) e.className = cls;
+  if(html !== undefined) e.innerHTML = html;
+  return e;
+}
+
+function renderChecks(container, list, key, max){
+  list.forEach(function(txt, i){
+    var id = key + "_" + i;
+    var lab = el("label","chk");
+    lab.innerHTML = '<input type="checkbox" data-check="'+key+'" value="'+txt.replace(/"/g,'&quot;')+'"> <span>'+txt+'</span>';
+    container.appendChild(lab);
+    var inp = lab.querySelector("input");
+    if(state[key] && state[key].indexOf(txt) > -1){ inp.checked = true; lab.classList.add("sel"); }
+    inp.addEventListener("change", function(){
+      var arr = state[key] || [];
+      if(inp.checked){
+        if(max && arr.length >= max){ inp.checked = false; toast("Pick at most " + max + "."); return; }
+        arr.push(txt);
+      } else {
+        arr = arr.filter(function(x){ return x !== txt; });
+      }
+      state[key] = arr;
+      lab.classList.toggle("sel", inp.checked);
+      save();
+    });
+  });
+}
+
+renderChecks(document.getElementById("channels"), CHANNELS, "channels", 0);
+renderChecks(document.getElementById("top3"), AREAS.map(function(a){return a.title;}), "top3", 3);
+
+var areasWrap = document.getElementById("areas");
+AREAS.forEach(function(area, ai){
+  var sec = el("section","area");
+  var head = el("div","area-head");
+  head.appendChild(el("span","area-num","Area " + (ai+1) + " of " + AREAS.length));
+  head.appendChild(el("h3", null, area.title));
+  head.appendChild(el("p","blurb", area.blurb));
+  sec.appendChild(head);
+
+  var body = el("div","area-body");
+
+  area.items.forEach(function(item, qi){
+    var key = area.id + "_q" + qi;
+    var q = el("div","q");
+    q.appendChild(el("p","stmt", item.t + (item.h ? '<span class="hint">' + item.h + '</span>' : "")));
+    var opts = el("div","opts");
+    SCALE.forEach(function(s){
+      var lab = el("label","opt");
+      var val = (s.v === null ? "na" : String(s.v));
+      lab.innerHTML = '<input type="radio" name="'+key+'" value="'+val+'"><span>'+s.t+'</span>'
+        + (s.v === null ? '' : '<span class="num">'+s.v+'</span>');
+      var inp = lab.querySelector("input");
+      if(state[key] === val){ inp.checked = true; lab.classList.add("sel"); }
+      inp.addEventListener("change", function(){
+        state[key] = val;
+        opts.querySelectorAll(".opt").forEach(function(o){ o.classList.remove("sel"); });
+        lab.classList.add("sel");
+        save();
+      });
+      opts.appendChild(lab);
+    });
+    q.appendChild(opts);
+    body.appendChild(q);
+  });
+
+  // who owns it
+  var f1 = el("div","field");
+  f1.innerHTML = '<label>Who does this today, and who covers when they are not there?</label>'
+    + '<input type="text" data-key="'+area.id+'_who" placeholder="A name is fine. If the honest answer is nobody, write nobody.">';
+  body.appendChild(f1);
+
+  // what goes wrong
+  var f2 = el("div","field");
+  f2.innerHTML = '<label>What goes wrong here most often?</label>'
+    + '<textarea data-key="'+area.id+'_pain_note" placeholder="One real example is worth more than a general answer."></textarea>';
+  body.appendChild(f2);
+
+  // pain level
+  var pain = el("div","pain");
+  pain.appendChild(el("label", null, "How much is this area hurting the business right now?"));
+  var popts = el("div","opts");
+  var pkey = area.id + "_pain";
+  PAIN.forEach(function(p){
+    var lab = el("label","opt");
+    lab.innerHTML = '<input type="radio" name="'+pkey+'" value="'+p.v+'"><span>'+p.t+'</span>';
+    var inp = lab.querySelector("input");
+    if(state[pkey] === String(p.v)){ inp.checked = true; lab.classList.add("sel"); }
+    inp.addEventListener("change", function(){
+      state[pkey] = String(p.v);
+      popts.querySelectorAll(".opt").forEach(function(o){ o.classList.remove("sel"); });
+      lab.classList.add("sel");
+      save();
+    });
+    popts.appendChild(lab);
+  });
+  pain.appendChild(popts);
+  body.appendChild(pain);
+
+  sec.appendChild(body);
+  areasWrap.appendChild(sec);
+});
+
+/* ---------- text fields ---------- */
+function bindText(){
+  document.querySelectorAll("[data-key]").forEach(function(inp){
+    var k = inp.getAttribute("data-key");
+    if(state[k] !== undefined) inp.value = state[k];
+    inp.addEventListener("input", function(){ state[k] = inp.value; save(); });
+  });
+}
+bindText();
+
+/* ---------- storage ---------- */
+function load(){
+  try{ return JSON.parse(localStorage.getItem(STORE_KEY)) || {}; }
+  catch(e){ return {}; }
+}
+var saveTimer;
+function save(){
+  try{ localStorage.setItem(STORE_KEY, JSON.stringify(state)); }catch(e){}
+  clearTimeout(saveTimer);
+  saveTimer = setTimeout(function(){
+    document.getElementById("savedmsg").textContent = "Saved in this browser. You can close the page and come back.";
+  }, 200);
+  updateProgress();
+}
+
+/* ---------- progress ---------- */
+function totalQuestions(){
+  var n = 0;
+  AREAS.forEach(function(a){ n += a.items.length + 1; }); // items + pain
+  return n;
+}
+function answeredQuestions(){
+  var n = 0;
+  AREAS.forEach(function(a){
+    a.items.forEach(function(_, i){ if(state[a.id+"_q"+i] !== undefined) n++; });
+    if(state[a.id+"_pain"] !== undefined) n++;
+  });
+  return n;
+}
+function updateProgress(){
+  var pct = Math.round(answeredQuestions() / totalQuestions() * 100);
+  document.getElementById("fill").style.width = pct + "%";
+  document.getElementById("pcount").textContent = pct + "%";
+}
+updateProgress();
+if(Object.keys(state).length){
+  document.getElementById("savedmsg").textContent = "Earlier answers restored from this browser.";
+}
+
+/* ---------- scoring ---------- */
+function areaScore(a){
+  var sum = 0, count = 0;
+  a.items.forEach(function(_, i){
+    var v = state[a.id+"_q"+i];
+    if(v === undefined || v === "na") return;
+    sum += Number(v); count++;
+  });
+  if(!count) return null;
+  return Math.round(sum / (count * 3) * 100);
+}
+function bandFor(pct){
+  if(pct < 25) return ["Nothing to hand over yet", "Almost everything runs on the people who are in the room. Any absence is a crisis. The upside is that anything written down from here is a straight gain."];
+  if(pct < 50) return ["Runs on people, not on paper", "The business works because you and Cynthia carry it. That is real skill, and it is also the ceiling. Standardising the top three areas below is what removes the ceiling."];
+  if(pct < 75) return ["Half written, half remembered", "The bones exist. What is missing is usually consistency, ownership and the habit of following what is already written."];
+  return ["Mostly systemised", "Most of the operation could survive a two week absence. The work now is tightening the weak areas and keeping the documents current."];
+}
+
+document.getElementById("btn-score").addEventListener("click", function(){
+  var bars = document.getElementById("bars");
+  bars.innerHTML = "";
+  var total = 0, counted = 0;
+  var scored = [];
+
+  AREAS.forEach(function(a){
+    var s = areaScore(a);
+    var pain = state[a.id+"_pain"] !== undefined ? Number(state[a.id+"_pain"]) : null;
+    scored.push({a:a, s:s, pain:pain});
+    var row = el("div","bar");
+    var color = s === null ? "#cdcfc7" : (s < 34 ? "#8f1c1c" : s < 67 ? "#e6a328" : "#2f7d4f");
+    row.innerHTML = '<div class="lbl">'+a.title+'</div>'
+      + '<div class="v">'+(s === null ? "not answered" : s+"%")+'</div>'
+      + '<div class="t"><div class="f" style="width:'+(s||0)+'%;background:'+color+'"></div></div>';
+    bars.appendChild(row);
+    if(s !== null){ total += s; counted++; }
+  });
+
+  var overall = counted ? Math.round(total / counted) : 0;
+  var band = bandFor(overall);
+  document.getElementById("score-big").textContent = overall + "%";
+  document.getElementById("score-band").textContent = band[0];
+  document.getElementById("score-note").textContent = band[1];
+
+  // priority = low score and high pain
+  var ranked = scored.filter(function(x){ return x.s !== null; }).map(function(x){
+    var gap = 100 - x.s;
+    var painWeight = x.pain === null ? 1 : (1 + x.pain);
+    return {title:x.a.title, s:x.s, pain:x.pain, rank: gap * painWeight};
+  }).sort(function(p,q){ return q.rank - p.rank; }).slice(0,3);
+
+  var pr = document.getElementById("priorities");
+  if(!ranked.length){
+    pr.innerHTML = "<p>Answer a few more questions and this will fill in.</p>";
+  } else {
+    var painWords = ["you said it is fine","you said it is annoying","you said it is costing the business"];
+    var html = "<ol>";
+    ranked.forEach(function(r){
+      html += "<li><strong>" + r.title + "</strong>: " + r.s + "% written down"
+        + (r.pain === null ? "" : ", and " + painWords[r.pain]) + ".</li>";
+    });
+    html += "</ol><p>This ranking combines how little is written down with how much you said it hurts. Your own top three picks above may differ, and that is fine. We will talk it through.</p>";
+    pr.innerHTML = html;
+  }
+
+  document.getElementById("results").classList.add("on");
+  document.getElementById("results").scrollIntoView({behavior:"smooth"});
+});
+
+/* ---------- export ---------- */
+function scaleText(v){
+  if(v === undefined) return "no answer";
+  if(v === "na") return "does not apply";
+  var found = SCALE.filter(function(s){ return String(s.v) === v; })[0];
+  return found ? found.t : v;
+}
+function painText(v){
+  if(v === undefined) return "no answer";
+  var found = PAIN.filter(function(p){ return String(p.v) === v; })[0];
+  return found ? found.t : v;
+}
+function buildText(){
+  var L = [];
+  L.push("OLIVIKS KITCHEN: OPERATIONS STANDARDISATION AUDIT");
+  L.push("Prepared by BridgeWorks");
+  L.push("");
+  L.push("Name: " + (state.name || ""));
+  L.push("Role: " + (state.role || ""));
+  L.push("Date: " + (state.date || ""));
+  L.push("Kitchen team: " + (state.people || ""));
+  L.push("Busiest times: " + (state.busiest || ""));
+  L.push("Channels used: " + ((state.channels||[]).join("; ") || ""));
+  L.push("");
+  L.push("Order volume and mix:");
+  L.push((state.volume || "(no answer)"));
+  L.push("");
+  L.push("What is written down today:");
+  L.push((state.written_now || "(no answer)"));
+  L.push("");
+  L.push("==================================================");
+  L.push("");
+
+  AREAS.forEach(function(a, ai){
+    var s = areaScore(a);
+    L.push("AREA " + (ai+1) + ": " + a.title.toUpperCase());
+    L.push("Score: " + (s === null ? "not answered" : s + "%"));
+    a.items.forEach(function(item, i){
+      L.push("  - " + item.t);
+      L.push("    => " + scaleText(state[a.id+"_q"+i]));
+    });
+    L.push("  Hurt level: " + painText(state[a.id+"_pain"]));
+    L.push("  Who does this: " + (state[a.id+"_who"] || "(no answer)"));
+    L.push("  What goes wrong: " + (state[a.id+"_pain_note"] || "(no answer)"));
+    L.push("");
+  });
+
+  L.push("==================================================");
+  L.push("");
+  L.push("If away for two weeks, what breaks first:");
+  L.push(state.away || "(no answer)");
+  L.push("");
+  L.push("What only the owner can do:");
+  L.push(state.only_me || "(no answer)");
+  L.push("");
+  L.push("Question staff ask over and over:");
+  L.push(state.repeat_q || "(no answer)");
+  L.push("");
+  L.push("Top three areas to standardise first:");
+  L.push((state.top3||[]).join("; ") || "(no answer)");
+  L.push("");
+  L.push("What would make this worth doing in twelve months:");
+  L.push(state.goal || "(no answer)");
+  L.push("");
+  L.push("Anything else:");
+  L.push(state.anything || "(no answer)");
+  L.push("");
+  L.push("Send this file to office@bridgeworks.agency");
+  return L.join("\n");
+}
+
+function buildFields(){
+  var F = [];
+  function add(l, v){ F.push({l:l, v:(v === undefined || v === null) ? "" : String(v)}); }
+
+  add("Name", state.name);
+  add("Role", state.role);
+  add("Date filled in", state.date);
+  add("Kitchen team", state.people);
+  add("Busiest times", state.busiest);
+  add("Channels used", (state.channels||[]).join("; "));
+  add("Order volume and mix", state.volume);
+  add("What is written down today", state.written_now);
+
+  var total = 0, counted = 0;
+  AREAS.forEach(function(a){
+    var s = areaScore(a);
+    if(s !== null){ total += s; counted++; }
+    add(a.title + " :: score %", s === null ? "" : s);
+    add(a.title + " :: hurt level", painText(state[a.id+"_pain"]));
+    add(a.title + " :: who does it", state[a.id+"_who"]);
+    add(a.title + " :: what goes wrong", state[a.id+"_pain_note"]);
+  });
+  add("OVERALL score %", counted ? Math.round(total/counted) : "");
+
+  add("If away two weeks, what breaks first", state.away);
+  add("What only the owner can do", state.only_me);
+  add("Question asked over and over", state.repeat_q);
+  add("Top three to standardise", (state.top3||[]).join("; "));
+  add("What would make this worth doing", state.goal);
+  add("Anything else", state.anything);
+  add("Full transcript", buildText());
+  return F;
+}
+
+function sendAnswers(btn){
+  if(SUBMIT_URL.indexOf("PASTE_") === 0){
+    toast("Sending is not switched on yet. Use Download instead.");
+    return;
+  }
+  btn.disabled = true;
+  var original = btn.textContent;
+  btn.textContent = "Sending...";
+  var payload = JSON.stringify({ formType:"owners", fields: buildFields() });
+
+  fetch(SUBMIT_URL, { method:"POST", body: payload })
+    .then(function(r){ return r.json(); })
+    .then(function(res){
+      if(res && res.ok){
+        btn.textContent = "Sent. Thank you.";
+        document.getElementById("sendmsg").textContent =
+          "Your answers reached BridgeWorks. Nothing else to do.";
+      } else {
+        throw new Error(res && res.message ? res.message : "rejected");
+      }
+    })
+    .catch(function(){
+      btn.disabled = false;
+      btn.textContent = original;
+      document.getElementById("sendmsg").textContent =
+        "That did not go through. Press Download my answers and email the file to office@bridgeworks.agency.";
+      toast("Could not send. Use Download instead.");
+    });
+}
+
+document.getElementById("btn-send").addEventListener("click", function(){ sendAnswers(this); });
+
+document.getElementById("btn-download").addEventListener("click", function(){
+  var txt = buildText();
+  var who = (state.name || "oliviks").replace(/[^a-zA-Z0-9]+/g,"-").toLowerCase();
+  var blob = new Blob([txt], {type:"text/plain;charset=utf-8"});
+  var url = URL.createObjectURL(blob);
+  var a = document.createElement("a");
+  a.href = url;
+  a.download = "OLIVIKS-SOP-AUDIT-" + who + ".txt";
+  document.body.appendChild(a); a.click(); document.body.removeChild(a);
+  setTimeout(function(){ URL.revokeObjectURL(url); }, 1000);
+  toast("Downloaded. Now email it to office@bridgeworks.agency");
+});
+
+document.getElementById("btn-copy").addEventListener("click", function(){
+  var txt = buildText();
+  if(navigator.clipboard && navigator.clipboard.writeText){
+    navigator.clipboard.writeText(txt).then(function(){ toast("Copied. Paste it into WhatsApp or email."); },
+      function(){ fallbackCopy(txt); });
+  } else { fallbackCopy(txt); }
+});
+function fallbackCopy(txt){
+  var ta = document.createElement("textarea");
+  ta.value = txt; ta.style.position="fixed"; ta.style.top="-9999px";
+  document.body.appendChild(ta); ta.select();
+  try{ document.execCommand("copy"); toast("Copied."); }
+  catch(e){ toast("Could not copy. Use Download instead."); }
+  document.body.removeChild(ta);
+}
+
+document.getElementById("btn-print").addEventListener("click", function(){ window.print(); });
+
+document.getElementById("btn-clear").addEventListener("click", function(){
+  if(!confirm("This deletes every answer on this device. Are you sure?")) return;
+  try{ localStorage.removeItem(STORE_KEY); }catch(e){}
+  location.reload();
+});
+
+var toastTimer;
+function toast(msg){
+  var t = document.getElementById("toast");
+  t.textContent = msg; t.classList.add("on");
+  clearTimeout(toastTimer);
+  toastTimer = setTimeout(function(){ t.classList.remove("on"); }, 2600);
+}
+</script>
+</body>
+</html>

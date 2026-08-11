@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Oliviks Kitchen · How we work, from your side</title>
+<style>
+:root{
+  --barn-red:#761212; --red-800:#5a0e0e; --red-100:#f3dcdc; --red-50:#faecec;
+  --papaya:#FAB73A; --papaya-600:#e6a328; --papaya-100:#fef2d8; --papaya-50:#fff9ec;
+  --chalk:#F7F9F4;
+  --n0:#ffffff; --n100:#eef0ea; --n200:#e1e3db; --n300:#cdcfc7; --n400:#a3a59d;
+  --n500:#74766e; --n600:#54564f; --n700:#3a3b36; --n800:#232420; --n900:#121210;
+  --font:'Rubik',system-ui,-apple-system,'Segoe UI',Roboto,sans-serif;
+  --body:'Manrope',system-ui,-apple-system,'Segoe UI',Roboto,sans-serif;
+  --wrap:780px;
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0; background:var(--chalk); color:var(--n800); font-family:var(--body); font-size:16.5px; line-height:1.62}
+.wrap{max-width:var(--wrap); margin:0 auto; padding:0 18px}
+
+header{background:var(--n900); color:var(--chalk); padding:34px 0 30px}
+.brandline{font-family:var(--font); font-size:12px; letter-spacing:.14em; text-transform:uppercase; color:var(--papaya); font-weight:600; margin:0 0 10px}
+header h1{font-family:var(--font); font-weight:700; font-size:30px; line-height:1.12; margin:0 0 12px; letter-spacing:-.01em}
+header p{margin:0 0 8px; color:#d8dad4; font-size:15.5px; max-width:56ch}
+.anon{
+  margin-top:16px; display:inline-block; background:var(--papaya); color:var(--n900);
+  font-family:var(--font); font-weight:700; font-size:13px; padding:8px 14px; border-radius:99px
+}
+
+.progressbar{position:sticky; top:0; z-index:30; background:var(--n0); border-bottom:1px solid var(--n200); box-shadow:0 1px 6px rgba(0,0,0,.05)}
+.progressbar .inner{max-width:var(--wrap); margin:0 auto; padding:9px 18px; display:flex; align-items:center; gap:12px}
+.track{flex:1; height:7px; background:var(--n200); border-radius:99px; overflow:hidden}
+.fill{height:100%; width:0%; background:var(--papaya); transition:width .25s ease}
+.pcount{font-family:var(--font); font-size:12px; font-weight:600; color:var(--n600); white-space:nowrap}
+
+main{padding:26px 0 60px}
+.card{background:var(--n0); border:1px solid var(--n200); border-radius:12px; padding:20px; margin:0 0 18px}
+.card.note{background:var(--papaya-50); border-color:var(--papaya)}
+.card h2{font-family:var(--font); font-size:19px; font-weight:700; margin:0 0 10px; color:var(--n900)}
+.card p{margin:0 0 12px; font-size:15.5px; color:var(--n700)}
+.card p:last-child{margin-bottom:0}
+.card ul{margin:0 0 12px; padding-left:20px; font-size:15.5px; color:var(--n700)}
+.card li{margin-bottom:7px}
+
+section.area{background:var(--n0); border:1px solid var(--n200); border-radius:12px; margin:0 0 18px; overflow:hidden}
+.area-head{padding:18px 20px 14px; border-bottom:1px solid var(--n100)}
+.area-num{display:inline-block; font-family:var(--font); font-size:11px; font-weight:700; letter-spacing:.14em; text-transform:uppercase; color:var(--n900); background:var(--papaya-100); border-radius:99px; padding:4px 10px; margin-bottom:9px}
+.area-head h3{font-family:var(--font); font-size:20px; font-weight:700; margin:0 0 6px; color:var(--n900); line-height:1.2}
+.area-head .blurb{margin:0; font-size:14.5px; color:var(--n500)}
+.area-body{padding:6px 20px 20px}
+
+.q{padding:16px 0; border-bottom:1px dashed var(--n200)}
+.q:last-of-type{border-bottom:none}
+.q .stmt{font-size:15.5px; font-weight:600; color:var(--n800); margin:0 0 10px; line-height:1.45}
+.opts{display:grid; gap:6px}
+.opt{display:flex; align-items:flex-start; gap:10px; padding:10px 12px; border:1px solid var(--n200); border-radius:8px; cursor:pointer; font-size:14.5px; color:var(--n700); background:var(--n0); transition:border-color .12s, background .12s}
+.opt:hover{border-color:var(--n400)}
+.opt input{margin:3px 0 0; accent-color:var(--barn-red); flex:none; width:17px; height:17px}
+.opt.sel{border-color:var(--barn-red); background:var(--red-50); color:var(--n900); font-weight:600}
+
+.field{margin:16px 0 0}
+.field label{display:block; font-family:var(--font); font-size:14px; font-weight:600; color:var(--n700); margin-bottom:6px}
+input[type=text], textarea, select{width:100%; font-family:var(--body); font-size:15.5px; color:var(--n900); background:var(--n0); border:1px solid var(--n300); border-radius:8px; padding:11px 12px; line-height:1.5}
+textarea{min-height:82px; resize:vertical}
+input[type=text]:focus, textarea:focus, select:focus{outline:none; border-color:var(--barn-red); box-shadow:0 0 0 3px var(--red-100)}
+select{appearance:none; background-image:linear-gradient(45deg,transparent 50%,var(--n500) 50%),linear-gradient(135deg,var(--n500) 50%,transparent 50%); background-position:calc(100% - 18px) 52%,calc(100% - 13px) 52%; background-size:5px 5px,5px 5px; background-repeat:no-repeat; padding-right:38px}
+
+.checkgrid{display:grid; gap:8px; margin-top:6px}
+.chk{display:flex; align-items:center; gap:10px; padding:11px 12px; border:1px solid var(--n200); border-radius:8px; cursor:pointer; font-size:14.5px; background:var(--n0)}
+.chk.sel{border-color:var(--barn-red); background:var(--red-50); font-weight:600}
+.chk input{accent-color:var(--barn-red); width:17px; height:17px; flex:none}
+
+.actions{display:grid; gap:10px; margin-top:4px}
+button{font-family:var(--font); font-size:15.5px; font-weight:600; padding:15px 18px; border-radius:9px; border:1px solid transparent; cursor:pointer; width:100%; transition:background .12s, border-color .12s}
+.btn-primary{background:var(--barn-red); color:var(--chalk)}
+.btn-primary:hover{background:var(--red-800)}
+.btn-ghost{background:var(--n0); color:var(--n700); border-color:var(--n300)}
+.btn-ghost:hover{border-color:var(--n500)}
+.toast{position:fixed; left:50%; transform:translateX(-50%); bottom:24px; z-index:60; background:var(--n900); color:var(--chalk); padding:12px 18px; border-radius:9px; font-size:14px; font-family:var(--font); box-shadow:0 6px 20px rgba(0,0,0,.25); opacity:0; pointer-events:none; transition:opacity .2s}
+.toast.on{opacity:1}
+.saved{font-size:12.5px; color:var(--n500); text-align:center; margin-top:12px}
+
+footer{border-top:1px solid var(--n200); padding:24px 0 40px; text-align:center; font-size:13px; color:var(--n500)}
+footer strong{color:var(--barn-red)}
+
+@media (max-width:560px){
+  header h1{font-size:24px}
+  .card,.area-body,.area-head{padding-left:15px; padding-right:15px}
+}
+@media print{
+  .progressbar,.actions,.toast{display:none}
+  body{background:#fff}
+  section.area,.card{break-inside:avoid; border-color:#999}
+  header{background:#fff; color:#000; border-bottom:3px solid #761212}
+  header h1,header p{color:#000}
+  .anon{background:#fff; border:1px solid #000}
+}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap">
+    <p class="brandline">Oliviks Kitchen</p>
+    <h1>How we work, from your side</h1>
+    <p>We are writing down how Oliviks runs, so the job is clear for everyone and new people can be trained properly instead of thrown in.</p>
+    <p>You know things about this kitchen that are not written anywhere. That is what we are asking for.</p>
+    <span class="anon">Your name is not on this. Nobody will know who wrote it.</span>
+  </div>
+</header>
+
+<div class="progressbar">
+  <div class="inner">
+    <div class="track"><div class="fill" id="fill"></div></div>
+    <div class="pcount" id="pcount">0%</div>
+  </div>
+</div>
+
+<main class="wrap">
+
+  <div class="card note">
+    <h2>Before you start</h2>
+    <ul>
+      <li><strong>There is no name field.</strong> Answer honestly. Nobody is being checked up on and nobody is in trouble.</li>
+      <li>If the honest answer is "nobody ever told me", that is the most useful answer you can give. It means the fault is in the system, not in you.</li>
+      <li>If a question is not about your job, choose <strong>Not my job</strong> and move on.</li>
+      <li>Write in Hungarian if that is easier. We will translate it.</li>
+      <li>It takes about 10 minutes. Nothing leaves this phone or computer until you press Send.</li>
+    </ul>
+    <h2>Where your answers go</h2>
+    <p>When you press Send, your answers go into a private file that only BridgeWorks can open. <strong>Aese and Cynthia cannot see it.</strong> They will be told what everybody said as a group, never who said what.</p>
+    <p>There is no name field on this form, and we record only the date you sent it, not the time, so it cannot be matched to who was on shift.</p>
+    <p>If you would rather not send it from your own phone, press <strong>Print this to hand in</strong> and put the paper in with the others.</p>
+  </div>
+
+  <!-- About you -->
+  <section class="area">
+    <div class="area-head">
+      <span class="area-num">First</span>
+      <h3>About your work here</h3>
+      <p class="blurb">No name. This is only so we know which parts of the kitchen the answers come from.</p>
+    </div>
+    <div class="area-body">
+      <div class="field">
+        <label>What do you mostly do here? Tick everything that applies.</label>
+        <div class="checkgrid" id="jobs"></div>
+      </div>
+      <div class="field">
+        <label for="f_long">How long have you worked at Oliviks?</label>
+        <select id="f_long" data-key="how_long">
+          <option value="">Choose one</option>
+          <option>Less than 3 months</option>
+          <option>3 to 12 months</option>
+          <option>1 to 2 years</option>
+          <option>More than 2 years</option>
+        </select>
+      </div>
+      <div class="field">
+        <label for="f_pattern">When do you usually work?</label>
+        <select id="f_pattern" data-key="pattern">
+          <option value="">Choose one</option>
+          <option>Full time</option>
+          <option>Part time, fixed days</option>
+          <option>Weekends only</option>
+          <option>When I am needed</option>
+          <option>Family, whenever it is busy</option>
+        </select>
+      </div>
+    </div>
+  </section>
+
+  <div id="areas"></div>
+
+  <div class="card">
+    <h2>Finished</h2>
+    <p>Thank you. This changes what gets written down, which changes your shifts.</p>
+    <div class="actions">
+      <button class="btn-primary" id="btn-send">Send my answers</button>
+      <button class="btn-ghost" id="btn-download">Download my answers instead</button>
+      <button class="btn-ghost" id="btn-copy">Copy my answers</button>
+      <button class="btn-ghost" id="btn-print">Print this to hand in</button>
+      <button class="btn-ghost" id="btn-clear">Clear everything and start again</button>
+    </div>
+    <p class="saved" id="sendmsg"></p>
+    <p class="saved" id="savedmsg">Nothing saved yet.</p>
+  </div>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <p>Oliviks Kitchen · Rákóczi tér 9, 1084 Budapest<br>
+    Collected by <strong>BridgeWorks</strong> for the Oliviks operations review</p>
+  </div>
+</footer>
+
+<div class="toast" id="toast"></div>
+
+<script>
+var SUBMIT_URL = "https://script.google.com/macros/s/AKfycbxrTPTpwgDtHKys64UjQFyf_vuJhIsMJMLFzgla1XTDggnFfKY1VVNJ-MU1ArKTH2oD/exec";
+
+var STORE_KEY = "oliviks_sop_staff_v1";
+
+var TRAIN = [
+  {v:"shown", t:"Somebody showed me properly"},
+  {v:"told",  t:"Somebody told me once, quickly"},
+  {v:"self",  t:"I worked it out myself by watching"},
+  {v:"no",    t:"I still do not really know"},
+  {v:"na",    t:"Not part of my job"}
+];
+
+var FREQ = [
+  {v:"always",    t:"Always"},
+  {v:"mostly",    t:"Most of the time"},
+  {v:"sometimes", t:"Sometimes"},
+  {v:"never",     t:"Never"},
+  {v:"na",        t:"Not my job"}
+];
+
+var JOBS = [
+  "Cooking",
+  "Prep and chopping",
+  "Serving at the counter",
+  "Taking orders on the phone or WhatsApp",
+  "Packing orders for pickup and delivery",
+  "Handing orders to Wolt and Foodora couriers",
+  "Cleaning",
+  "Catering and events",
+  "Ordering stock and receiving deliveries",
+  "Handling money and the till"
+];
+
+var AREAS = [
+  {
+    id:"start",
+    title:"When you started here",
+    blurb:"Think back to your first two weeks.",
+    scale:TRAIN,
+    items:[
+      "How to cook or prepare the dishes you work on",
+      "How much food goes into one portion",
+      "How to pack an order so nothing spills or gets missed",
+      "How to talk to customers, and what to say about the food",
+      "The hygiene and food safety rules",
+      "What to do at opening, and what to do at closing",
+      "Who to call or ask when there is a problem"
+    ],
+    open:[
+      {k:"start_note", l:"Was there anything you had to learn the hard way? What was it?"}
+    ]
+  },
+  {
+    id:"shift",
+    title:"A normal shift",
+    blurb:"How a busy Friday actually goes.",
+    scale:FREQ,
+    items:[
+      "I know exactly what I should be doing when my shift starts",
+      "I know how much of each dish goes in the container, without asking",
+      "I know what to do when we run out of something",
+      "I know who is in charge when Aese and Cynthia are not here",
+      "I can find what I need in the kitchen without hunting for it",
+      "I know what to tell a customer who asks what is in a dish or whether it is spicy",
+      "The order I am cooking matches the order that was taken"
+    ],
+    open:[
+      {k:"shift_guess", l:"What do you have to guess at, or ask somebody about, more than once a week?"},
+      {k:"shift_redo",  l:"Have you ever been asked to redo something you did not know was wrong? What was it?"}
+    ]
+  },
+  {
+    id:"wrong",
+    title:"When something goes wrong",
+    blurb:"A missing item, a late order, an angry customer.",
+    scale:FREQ,
+    items:[
+      "I know what to do if an order goes out wrong or incomplete",
+      "I know what to do if a customer is angry or complaining",
+      "I know how far I can go to fix it myself before I have to ask the owner",
+      "After something goes wrong, we talk about it so it does not happen again"
+    ],
+    open:[
+      {k:"wrong_note", l:"What goes wrong here most often? Be specific if you can."}
+    ]
+  },
+  {
+    id:"time",
+    title:"Where the time goes",
+    blurb:"The parts of the day that eat time without producing anything.",
+    scale:FREQ,
+    items:[
+      "I spend time looking for things, waiting for an answer, or doing something twice",
+      "I have everything I need at the start of the shift, ready to go",
+      "The busy hours feel under control rather than chaotic"
+    ],
+    open:[
+      {k:"time_slow", l:"What part of your day takes longer than it should, and why?"},
+      {k:"time_fix",  l:"If you could change one thing about how we work here, what would it be?"}
+    ]
+  },
+  {
+    id:"newbie",
+    title:"Teaching somebody else",
+    blurb:"This is the part that becomes the written instructions.",
+    scale:null,
+    items:[],
+    open:[
+      {k:"new_three", l:"A new person starts on Monday and you have one hour to teach them your job. What are the first three things you tell them?"},
+      {k:"new_secret", l:"What is the one thing nobody writes down, but everybody working here has to know?"},
+      {k:"new_mistake", l:"What mistake does every new person make here?"}
+    ]
+  },
+  {
+    id:"last",
+    title:"Anything else",
+    blurb:"Last one.",
+    scale:null,
+    items:[],
+    open:[
+      {k:"last_note", l:"Anything you want to say that the questions did not ask about"},
+      {k:"last_person", l:"Is there something you would rather say in person than write down? Just write yes. Somebody will make time for a private conversation, and you still do not have to give your name here."}
+    ]
+  }
+];
+
+var state = load();
+
+function el(tag, cls, html){
+  var e = document.createElement(tag);
+  if(cls) e.className = cls;
+  if(html !== undefined) e.innerHTML = html;
+  return e;
+}
+
+function renderChecks(container, list, key){
+  list.forEach(function(txt){
+    var lab = el("label","chk");
+    lab.innerHTML = '<input type="checkbox"> <span>'+txt+'</span>';
+    container.appendChild(lab);
+    var inp = lab.querySelector("input");
+    if(state[key] && state[key].indexOf(txt) > -1){ inp.checked = true; lab.classList.add("sel"); }
+    inp.addEventListener("change", function(){
+      var arr = state[key] || [];
+      if(inp.checked) arr.push(txt);
+      else arr = arr.filter(function(x){ return x !== txt; });
+      state[key] = arr;
+      lab.classList.toggle("sel", inp.checked);
+      save();
+    });
+  });
+}
+renderChecks(document.getElementById("jobs"), JOBS, "jobs");
+
+var areasWrap = document.getElementById("areas");
+AREAS.forEach(function(area, ai){
+  var sec = el("section","area");
+  var head = el("div","area-head");
+  head.appendChild(el("span","area-num","Part " + (ai+2)));
+  head.appendChild(el("h3", null, area.title));
+  head.appendChild(el("p","blurb", area.blurb));
+  sec.appendChild(head);
+
+  var body = el("div","area-body");
+
+  area.items.forEach(function(item, qi){
+    var key = area.id + "_q" + qi;
+    var q = el("div","q");
+    q.appendChild(el("p","stmt", item));
+    var opts = el("div","opts");
+    area.scale.forEach(function(s){
+      var lab = el("label","opt");
+      lab.innerHTML = '<input type="radio" name="'+key+'" value="'+s.v+'"><span>'+s.t+'</span>';
+      var inp = lab.querySelector("input");
+      if(state[key] === s.v){ inp.checked = true; lab.classList.add("sel"); }
+      inp.addEventListener("change", function(){
+        state[key] = s.v;
+        opts.querySelectorAll(".opt").forEach(function(o){ o.classList.remove("sel"); });
+        lab.classList.add("sel");
+        save();
+      });
+      opts.appendChild(lab);
+    });
+    q.appendChild(opts);
+    body.appendChild(q);
+  });
+
+  (area.open || []).forEach(function(o){
+    var f = el("div","field");
+    f.innerHTML = '<label>'+o.l+'</label><textarea data-key="'+o.k+'"></textarea>';
+    body.appendChild(f);
+  });
+
+  sec.appendChild(body);
+  areasWrap.appendChild(sec);
+});
+
+function bindText(){
+  document.querySelectorAll("[data-key]").forEach(function(inp){
+    var k = inp.getAttribute("data-key");
+    if(state[k] !== undefined) inp.value = state[k];
+    inp.addEventListener("input", function(){ state[k] = inp.value; save(); });
+    inp.addEventListener("change", function(){ state[k] = inp.value; save(); });
+  });
+}
+bindText();
+
+function load(){
+  try{ return JSON.parse(localStorage.getItem(STORE_KEY)) || {}; }
+  catch(e){ return {}; }
+}
+var saveTimer;
+function save(){
+  try{ localStorage.setItem(STORE_KEY, JSON.stringify(state)); }catch(e){}
+  clearTimeout(saveTimer);
+  saveTimer = setTimeout(function(){
+    document.getElementById("savedmsg").textContent = "Saved on this device. You can close it and come back.";
+  }, 200);
+  updateProgress();
+}
+
+function totalQuestions(){
+  var n = 0;
+  AREAS.forEach(function(a){ n += a.items.length; });
+  return n || 1;
+}
+function answeredQuestions(){
+  var n = 0;
+  AREAS.forEach(function(a){
+    a.items.forEach(function(_, i){ if(state[a.id+"_q"+i] !== undefined) n++; });
+  });
+  return n;
+}
+function updateProgress(){
+  var pct = Math.round(answeredQuestions() / totalQuestions() * 100);
+  document.getElementById("fill").style.width = pct + "%";
+  document.getElementById("pcount").textContent = pct + "%";
+}
+updateProgress();
+if(Object.keys(state).length){
+  document.getElementById("savedmsg").textContent = "Earlier answers restored from this device.";
+}
+
+function optText(scale, v){
+  if(v === undefined) return "no answer";
+  var f = scale.filter(function(s){ return s.v === v; })[0];
+  return f ? f.t : v;
+}
+function buildText(){
+  var L = [];
+  L.push("OLIVIKS KITCHEN: STAFF VIEW, ANONYMOUS");
+  L.push("Collected by BridgeWorks");
+  L.push("");
+  L.push("Job: " + ((state.jobs||[]).join("; ") || "(no answer)"));
+  L.push("Time at Oliviks: " + (state.how_long || "(no answer)"));
+  L.push("Work pattern: " + (state.pattern || "(no answer)"));
+  L.push("");
+  L.push("==================================================");
+  L.push("");
+  AREAS.forEach(function(a, ai){
+    L.push("PART " + (ai+2) + ": " + a.title.toUpperCase());
+    a.items.forEach(function(item, i){
+      L.push("  - " + item);
+      L.push("    => " + optText(a.scale, state[a.id+"_q"+i]));
+    });
+    (a.open||[]).forEach(function(o){
+      L.push("  Q: " + o.l);
+      L.push("  A: " + (state[o.k] || "(no answer)"));
+    });
+    L.push("");
+  });
+  L.push("==================================================");
+  L.push("No name was collected on this form.");
+  return L.join("\n");
+}
+
+function buildFields(){
+  var F = [];
+  function add(l, v){ F.push({l:l, v:(v === undefined || v === null) ? "" : String(v)}); }
+
+  add("Job", (state.jobs||[]).join("; "));
+  add("Time at Oliviks", state.how_long);
+  add("Work pattern", state.pattern);
+
+  AREAS.forEach(function(a, ai){
+    a.items.forEach(function(item, i){
+      add("P" + (ai+2) + ". " + item, optText(a.scale, state[a.id+"_q"+i]));
+    });
+    (a.open||[]).forEach(function(o){
+      add("P" + (ai+2) + ". " + o.l, state[o.k]);
+    });
+  });
+  add("Full transcript", buildText());
+  return F;
+}
+
+function sendAnswers(btn){
+  if(SUBMIT_URL.indexOf("PASTE_") === 0){
+    toast("Sending is not switched on yet. Use Download instead.");
+    return;
+  }
+  btn.disabled = true;
+  var original = btn.textContent;
+  btn.textContent = "Sending...";
+  var payload = JSON.stringify({ formType:"staff", fields: buildFields() });
+
+  fetch(SUBMIT_URL, { method:"POST", body: payload })
+    .then(function(r){ return r.json(); })
+    .then(function(res){
+      if(res && res.ok){
+        btn.textContent = "Sent. Thank you.";
+        document.getElementById("sendmsg").textContent =
+          "Your answers were received. No name was attached to them.";
+      } else {
+        throw new Error(res && res.message ? res.message : "rejected");
+      }
+    })
+    .catch(function(){
+      btn.disabled = false;
+      btn.textContent = original;
+      document.getElementById("sendmsg").textContent =
+        "That did not go through. Press Download my answers, or press Print and hand the paper in.";
+      toast("Could not send. Try Download or Print.");
+    });
+}
+
+document.getElementById("btn-send").addEventListener("click", function(){ sendAnswers(this); });
+
+document.getElementById("btn-download").addEventListener("click", function(){
+  var txt = buildText();
+  var stamp = Math.random().toString(36).slice(2,7);
+  var blob = new Blob([txt], {type:"text/plain;charset=utf-8"});
+  var url = URL.createObjectURL(blob);
+  var a = document.createElement("a");
+  a.href = url;
+  a.download = "OLIVIKS-STAFF-VIEW-" + stamp + ".txt";
+  document.body.appendChild(a); a.click(); document.body.removeChild(a);
+  setTimeout(function(){ URL.revokeObjectURL(url); }, 1000);
+  toast("Downloaded. The file has no name in it.");
+});
+
+document.getElementById("btn-copy").addEventListener("click", function(){
+  var txt = buildText();
+  if(navigator.clipboard && navigator.clipboard.writeText){
+    navigator.clipboard.writeText(txt).then(function(){ toast("Copied."); }, function(){ fallbackCopy(txt); });
+  } else { fallbackCopy(txt); }
+});
+function fallbackCopy(txt){
+  var ta = document.createElement("textarea");
+  ta.value = txt; ta.style.position="fixed"; ta.style.top="-9999px";
+  document.body.appendChild(ta); ta.select();
+  try{ document.execCommand("copy"); toast("Copied."); }
+  catch(e){ toast("Could not copy. Use Download instead."); }
+  document.body.removeChild(ta);
+}
+
+document.getElementById("btn-print").addEventListener("click", function(){ window.print(); });
+
+document.getElementById("btn-clear").addEventListener("click", function(){
+  if(!confirm("This deletes every answer on this device. Are you sure?")) return;
+  try{ localStorage.removeItem(STORE_KEY); }catch(e){}
+  location.reload();
+});
+
+var toastTimer;
+function toast(msg){
+  var t = document.getElementById("toast");
+  t.textContent = msg; t.classList.add("on");
+  clearTimeout(toastTimer);
+  toastTimer = setTimeout(function(){ t.classList.remove("on"); }, 2600);
+}
+</script>
+</body>
+</html>
