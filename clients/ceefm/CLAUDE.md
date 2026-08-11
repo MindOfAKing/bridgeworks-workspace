@@ -28,6 +28,7 @@ Use these before relying on older April files:
 - `content/`: historical April and May content calendar work. Do not schedule new CEEFM content.
 - `deliverables/`: historical client deliverables and outreach packages.
 - `invoices/`: historical invoice PDFs and Szamlazz context.
+- `brand-visuals/remotion-video/`: **removed from the working tree 2026-08-11.** Remotion project plus 12 rendered Google Ads videos (15s/30s x EN/HU x 16:9/1:1/9:16), 278 MB. The ads were never run. Still in git history, restore with `git checkout <commit-before-8bf68b4> -- clients/ceefm/brand-visuals/remotion-video`. The script they were built from, `deliverables/VIDEO-SCRIPT-GOOGLE-ADS-EN-HU.md`, is unchanged. Note before any re-render: the copy says both "15 years" and "operating since 2010", which is wrong in 2026, and it names Limehome as a client.
 
 ## Historical Or Cancelled Work
 Do not treat cancelled or older visual design work as active.
