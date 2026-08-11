@@ -6,6 +6,8 @@
 **Engagement:** CEEFM Digital Growth — 16-Week Engagement (CEEFM-PROP-001)
 **Status:** Engagement concluded. Handover document.
 
+> **Partly superseded.** This is the document as issued on 2026-06-10 and is kept unchanged as the historical record. The site has changed since. See `WEBSITE-UPDATE-2026-08-11.md` before acting on Section 3, and re-check anything against the live site rather than this list.
+
 ---
 
 ## Overview

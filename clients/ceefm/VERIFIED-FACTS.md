@@ -4,7 +4,7 @@ Single source of truth for numbers used in client-facing reports and the handove
 
 This file exists because a draft handover once cited a "68/100 May re-audit" that had no source. Do not invent interim numbers.
 
-_Last reconciled: 2026-07-14_
+_Last reconciled: 2026-08-11_
 
 ---
 
@@ -34,6 +34,8 @@ _Last reconciled: 2026-07-14_
 
 **No May re-audit is on file.** May plan targeted 80+. Any score after June 11 must come from a fresh live audit, not memory.
 
+**78/100 from 2026-06-11 is still the last verified score.** The 2026-08-11 website update (Google Ads tag, consent fix, privacy policy, two new pages) did not include a GEO audit. Do not infer a score change from it.
+
 **Public number rule (2026-07-14):** the website and case study use **16 -> 77** (March baseline -> June 10 final audit, the engagement-close figure in the handover). The June 11 78 came from fixes applied after the handover was issued; use it only in internal context with the date attached. Never publish "16-week engagement" or "completed": the contract was 16 weeks, the client terminated at week 9; public phrasing is "engagement, March to June 2026" and "engagement closed June 2026".
 
 ### Category breakdown (April 30 evening audit)
@@ -45,6 +47,7 @@ AI Citability 72 · Brand Authority 68 · Content E-E-A-T 67 · Technical GEO 92
 |------|-------|--------|
 | Wikidata entity | Q139592822 ("CEEFM Kft"), 7 claims, published | GEO-AUDIT-REPORT-2026-04-30-evening.md |
 | Indexed URLs | 4 (/, /hu/, /contact, /hu/kapcsolat) + May-built pages | same |
+| Live pages (2026-08-11) | 10, all in sitemap | WEBSITE-UPDATE-2026-08-11.md |
 | LinkedIn followers | 146 | MONTHLY-REPORT-CEEFM-2026-04.md |
 | LinkedIn April posts | 12 of 12 published | same |
 | Schema types live | ProfessionalService, ContactPage, BreadcrumbList | same |

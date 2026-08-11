@@ -42,6 +42,8 @@ Mark as historical unless Emmanuel reactivates it:
 ## Current Delivery Notes
 CEEFM has no active delivery lane. Use this folder for archive lookup and verified case-study facts only.
 
+**2026-08-11 exception, already closed.** Unpaid ad-hoc support at Victor's request: Google Ads tag installed on ceefm.eu, Consent Mode v2 fixed so accepting actually grants ad consent, bilingual privacy policy published, BridgeWorks footer credit added. Deployed and verified the same day. Recorded in `WEBSITE-UPDATE-2026-08-11.md`. **This was not a reactivation** and the engagement stays closed as of 2026-06-19. Open items belong to Victor, not to a BridgeWorks delivery lane.
+
 Historical themes from the inventory:
 - May content calendar.
 - Backend/VAT/Szamlazz work.
