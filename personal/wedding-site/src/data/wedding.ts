@@ -36,11 +36,16 @@ export type StoryMedia = {
   poster?: string;
 };
 
+export type StoryMessage = { from: 'him' | 'her'; text: string; time: string };
+
+export type StoryThread = { date: string; messages: StoryMessage[] };
+
 export type StoryEntry = {
   when: string;
   title: string;
   body: string;
   media?: StoryMedia;
+  thread?: StoryThread;
 };
 
 export type PlanEntry = {
@@ -149,6 +154,21 @@ const realWedding: Wedding = {
         when: '5 May 2025',
         title: 'Investigative prowess',
         body: 'He went to work the next day and could not get her smile or her humour out of his head. So he tracked her down on Instagram, which took some doing, and sent a message. She replied.',
+        thread: {
+          date: '5 May 2025',
+          messages: [
+            { from: 'him', text: 'Hi', time: '12:28' },
+            { from: 'him', text: 'Emmanuel here! We met at the concert last Friday…', time: '12:28' },
+            { from: 'him', text: 'Remember me?', time: '12:29' },
+            { from: 'her', text: 'Hey! Yes, I remember, how are you?', time: '12:43' },
+            { from: 'him', text: 'I don\'t usually do this but I just have to', time: '13:40' },
+            {
+              from: 'him',
+              text: 'You left a really good impression on me when we met and you have been on my mind since',
+              time: '13:41',
+            },
+          ],
+        },
       },
       {
         when: '20 August 2025',

@@ -1,4 +1,5 @@
 import { wedding, type StoryMedia } from '@/data/wedding';
+import { MessageCard } from './MessageCard';
 import { Pending } from './Pending';
 
 // Kept small and framed, so it reads as something pinned to the page rather
@@ -51,6 +52,9 @@ export function LoveStory() {
               <Pending>{entry.body}</Pending>
             </p>
             {entry.media ? <Keepsake media={entry.media} /> : null}
+            {entry.thread ? (
+              <MessageCard thread={entry.thread} label="The first messages, 5 May 2025" />
+            ) : null}
           </li>
         ))}
       </ol>
