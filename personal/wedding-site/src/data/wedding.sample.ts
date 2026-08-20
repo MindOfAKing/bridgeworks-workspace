@@ -73,18 +73,33 @@ export const sampleWedding: Wedding = {
     entries: [
       {
         when: '2 May 2025',
-        title: 'A concert',
-        body: 'We met at a concert. Neither of us went looking for anything, and we left knowing we would see each other again.',
+        title: 'Ninety seconds',
+        body: 'A concert Emmanuel helped organise. He was going round thanking everyone who came, and stopped at Flóra for about ninety seconds. That was the whole conversation.',
+      },
+      {
+        when: '5 May 2025',
+        title: 'Investigative prowess',
+        body: 'He went to work the next day and could not get her smile or her humour out of his head. So he tracked her down on Instagram, which took some doing, and sent a message. She replied.',
       },
       {
         when: '20 August 2025',
         title: 'We made it official',
-        body: 'Three months of hanging out and getting to know each other, properly, without rushing it. Then we stopped calling it anything else.',
+        body: 'Three months and a lot of dates later, we stopped calling it anything else.',
       },
       {
         when: 'February 2026',
         title: 'A Sunday afternoon',
-        body: 'We came back from church after a Valentine\'s Day service, looked at each other, and said it out loud: I would like to marry you. That has been our pursuit ever since.',
+        body: 'Home from church after a Valentine\'s Day service, we looked at each other and said it out loud: I would like to marry you. That has been the pursuit ever since.',
+      },
+      {
+        when: '7 June 2026',
+        title: 'He asked properly',
+        body: 'With a ring, in front of the people who had watched the whole thing happen. She said yes.',
+      },
+      {
+        when: '20 August 2026',
+        title: 'One year',
+        body: 'A year ago today we made it official. Ninety seconds at a concert, a message sent on a hunch, and a year of ordinary days that turned out to be the point. In October we say it out loud in front of everyone we love.',
       },
     ],
   },

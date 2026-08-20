@@ -16,7 +16,7 @@ export function InvitationHero() {
           the names. It appears from the small breakpoint up; the divider bloom
           carries the motif on mobile. */}
       <CallaLily
-        className="pointer-events-none absolute right-[2%] bottom-[-4%] hidden h-[88%] w-auto text-cream/[0.2] sm:block lg:right-[7%]"
+        className="pointer-events-none absolute right-[4%] bottom-[-2%] hidden h-[86%] w-auto text-cream/[0.22] sm:block lg:right-[7%]"
         stemClassName="text-sage-light/40"
         strokeWidth={1.4}
       />
@@ -41,7 +41,7 @@ export function InvitationHero() {
         {/* A small lily between two rules, standing in for the usual divider. */}
         <div className="relative mt-10 flex items-center justify-center gap-4" aria-hidden>
           <span className="h-px w-16 bg-cream/30 sm:w-24" />
-          <CallaLily className="h-10 w-auto text-cream/85" variant="bloom" strokeWidth={1} />
+          <CallaLily className="h-9 w-auto text-cream/85" variant="bloom" strokeWidth={1.1} />
           <span className="h-px w-16 bg-cream/30 sm:w-24" />
         </div>
 

@@ -22,7 +22,7 @@ export default function UnlockPage() {
         className="pointer-events-none absolute inset-0 bg-[radial-gradient(120%_90%_at_50%_18%,#7C2439_0%,#6B1F32_42%,#4E1524_100%)]"
       />
       <CallaLily
-        className="pointer-events-none absolute right-[3%] bottom-[-6%] hidden h-[84%] w-auto text-cream/[0.18] sm:block lg:right-[10%]"
+        className="pointer-events-none absolute right-[5%] bottom-[-2%] hidden h-[80%] w-auto text-cream/[0.2] sm:block lg:right-[10%]"
         stemClassName="text-sage-light/35"
         strokeWidth={1.4}
       />
@@ -41,7 +41,7 @@ export default function UnlockPage() {
 
         <div className="relative mt-6 flex items-center justify-center gap-4" aria-hidden>
           <span className="h-px w-12 bg-cream/30" />
-          <CallaLily className="h-9 w-auto text-cream/85" variant="bloom" strokeWidth={1} />
+          <CallaLily className="h-8 w-auto text-cream/85" variant="bloom" strokeWidth={1.1} />
           <span className="h-px w-12 bg-cream/30" />
         </div>
 
