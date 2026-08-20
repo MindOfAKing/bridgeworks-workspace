@@ -1,6 +1,7 @@
 import type { Metadata, Viewport } from 'next';
 import { Cormorant_Garamond, Inter } from 'next/font/google';
 import { wedding } from '@/data/wedding';
+import { PreviewRibbon } from '@/components/PreviewRibbon';
 import './globals.css';
 
 const display = Cormorant_Garamond({
@@ -30,7 +31,10 @@ export const viewport: Viewport = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en" className={`${display.variable} ${body.variable}`}>
-      <body className="font-body antialiased">{children}</body>
+      <body className="font-body antialiased">
+        <PreviewRibbon />
+        {children}
+      </body>
     </html>
   );
 }

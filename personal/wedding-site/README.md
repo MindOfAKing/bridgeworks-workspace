@@ -10,7 +10,11 @@ Any value still starting with `TODO:` shows on the page inside a marked box, so
 placeholder text can never be mistaken for real copy.
 
 Photos go in `public/photos/`, then get listed in `wedding.gallery.photos` with
-alt text for each one.
+alt text for each one. Resize them to roughly 1600px on the long edge first.
+They are served straight from `public/` behind the passphrase gate rather than
+through Next's image optimizer, because the optimizer's internal fetch carries
+no cookie and the gate turns it away. Keeping the gate is worth more here than
+automatic resizing.
 
 ## Environment
 
@@ -25,6 +29,7 @@ Copy `.env.example` to `.env.local` and fill it in.
 | `RSVP_FROM` | Verified sender address in Resend |
 | `NEXT_PUBLIC_SUPABASE_URL` | Supabase project URL |
 | `SUPABASE_SERVICE_ROLE_KEY` | Server only key, never exposed to the browser |
+| `NEXT_PUBLIC_PREVIEW_SAMPLE` | Preview only. `1` renders invented sample content. Never set it on a live deploy |
 
 Generate a session secret:
 
@@ -42,6 +47,20 @@ npm run dev
 Without `SITE_PASSWORD` and `SESSION_SECRET` every route redirects to `/unlock`,
 which says what is missing. That is deliberate: a half configured deploy stays
 shut rather than quietly going public.
+
+## Seeing the design before the content exists
+
+```
+NEXT_PUBLIC_PREVIEW_SAMPLE=1 npm run dev
+```
+
+That swaps in `src/data/wedding.sample.ts`, an invented couple with full length
+copy, and puts a preview ribbon across the top. The real data file is untouched,
+and sample content never renders unless the flag is set.
+
+`node scripts/make-preview.mjs` turns a running preview into a single self
+contained HTML file at `preview/index.html`, which can be opened from disk or
+shared as a link. The form in that snapshot is visual only.
 
 ## The guest list
 

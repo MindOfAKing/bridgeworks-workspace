@@ -4,7 +4,14 @@
 // Anything still starting with "TODO:" is a placeholder. Placeholders are
 // visible on the page so nothing invented is ever shown to a guest by accident.
 
+import { sampleWedding } from './wedding.sample';
+
 export const PLACEHOLDER = 'TODO:';
+
+// Preview mode swaps in invented sample content so the design can be judged
+// with real length copy. It is opt in through the environment, never the
+// default, and the page carries a ribbon whenever it is on.
+export const isSampleContent = process.env.NEXT_PUBLIC_PREVIEW_SAMPLE === '1';
 
 export function isPlaceholder(value: string | undefined | null): boolean {
   return typeof value === 'string' && value.trimStart().startsWith(PLACEHOLDER);
@@ -58,7 +65,7 @@ export type Wedding = {
   contactEmail: string;
 };
 
-export const wedding: Wedding = {
+const realWedding: Wedding = {
   // Names as they should read on the invitation.
   couple: {
     one: 'TODO: first name',
@@ -148,3 +155,5 @@ export const wedding: Wedding = {
   // Leave empty to hide the line entirely.
   contactEmail: '',
 };
+
+export const wedding: Wedding = isSampleContent ? sampleWedding : realWedding;

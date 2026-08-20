@@ -26,6 +26,12 @@ export function Gallery() {
                   alt={photo.alt}
                   fill
                   sizes="(max-width: 640px) 50vw, 33vw"
+                  // Photos stay behind the passphrase gate, so they are served
+                  // straight from /public with the guest's cookie. Next's
+                  // optimizer cannot fetch them: its internal request carries no
+                  // cookie and the middleware turns it away. Size photos to
+                  // roughly 1600px on the long edge before adding them.
+                  unoptimized
                   className="object-cover transition-transform duration-500 group-hover:scale-[1.03] motion-reduce:transform-none motion-reduce:transition-none"
                 />
               </div>
