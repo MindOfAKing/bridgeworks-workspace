@@ -35,7 +35,7 @@ export function UnlockForm() {
 
   return (
     <form onSubmit={onSubmit} className="mt-10 w-full">
-      <label htmlFor="password" className="field-label text-center">
+      <label htmlFor="password" className="block text-center font-body text-xs uppercase tracking-[0.18em] text-cream/70">
         The word on your invitation
       </label>
       <input
@@ -47,16 +47,16 @@ export function UnlockForm() {
         required
         value={password}
         onChange={(event) => setPassword(event.target.value)}
-        className="field text-center tracking-[0.2em]"
+        className="mt-3 w-full rounded-sm border border-cream/30 bg-cream/10 px-4 py-3 text-center font-body text-base tracking-[0.2em] text-cream outline-none transition-colors placeholder:text-cream/40 focus:border-cream focus:ring-2 focus:ring-cream/25"
       />
 
       {error ? (
-        <p role="alert" className="mt-4 font-body text-sm text-burgundy">
+        <p role="alert" className="mt-4 font-body text-sm text-cream">
           {error}
         </p>
       ) : null}
 
-      <button type="submit" disabled={busy} className="btn-primary mt-6 w-full">
+      <button type="submit" disabled={busy} className="mt-6 inline-flex w-full items-center justify-center rounded-sm bg-cream px-8 py-3 font-body text-sm uppercase tracking-[0.18em] text-burgundy-dark transition-colors hover:bg-cream-card focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-cream disabled:opacity-60">
         {busy ? 'Checking' : 'Enter'}
       </button>
     </form>

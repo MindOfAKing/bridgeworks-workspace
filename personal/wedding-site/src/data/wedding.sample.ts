@@ -15,9 +15,9 @@ import type { Wedding } from './wedding';
 
 export const sampleWedding: Wedding = {
   couple: {
-    one: 'Emmanuel',
-    two: 'Flóra',
-    shortLabel: 'Emmanuel & Flóra',
+    one: 'Flóra',
+    two: 'Emmanuel',
+    shortLabel: 'Flóra & Emmanuel',
   },
 
   // Sample day within the confirmed month, so the invitation reads complete.
@@ -72,19 +72,19 @@ export const sampleWedding: Wedding = {
     heading: 'Our story',
     entries: [
       {
-        when: 'Year',
-        title: 'How we met',
-        body: 'Two or three sentences on where you met and what you still remember about it. This block is filler at the length that works: long enough to be worth reading, short enough for a phone screen.',
+        when: '2 May 2025',
+        title: 'A concert',
+        body: 'We met at a concert. Neither of us went looking for anything, and we left knowing we would see each other again.',
       },
       {
-        when: 'Year',
-        title: 'A moment that mattered',
-        body: 'The trip, the meeting of families, the ordinary evening you both point at. Same length again, so you can see how three entries sit together down the timeline.',
+        when: '20 August 2025',
+        title: 'We made it official',
+        body: 'Three months of hanging out and getting to know each other, properly, without rushing it. Then we stopped calling it anything else.',
       },
       {
-        when: '2026',
-        title: 'The proposal',
-        body: 'Where it happened and how it went, in your own words. Guests read this part twice, so it is worth the extra sentence.',
+        when: 'February 2026',
+        title: 'A Sunday afternoon',
+        body: 'We came back from church after a Valentine\'s Day service, looked at each other, and said it out loud: I would like to marry you. That has been our pursuit ever since.',
       },
     ],
   },
@@ -111,12 +111,16 @@ export const sampleWedding: Wedding = {
   gallery: {
     heading: 'Us',
     photos: [
-      { src: '/photos/sample-01.jpg', alt: 'Placeholder tile standing in for a photograph of the couple', caption: 'Caption, if you want one' },
-      { src: '/photos/sample-02.jpg', alt: 'Placeholder tile standing in for a photograph of the couple', caption: 'Budapest' },
-      { src: '/photos/sample-03.jpg', alt: 'Placeholder tile standing in for a photograph from the proposal', caption: 'The proposal' },
-      { src: '/photos/sample-04.jpg', alt: 'Placeholder tile standing in for a family photograph', caption: 'Both families' },
-      { src: '/photos/sample-05.jpg', alt: 'Placeholder tile standing in for a travel photograph', caption: 'Somewhere in between' },
-      { src: '/photos/sample-06.jpg', alt: 'Placeholder tile standing in for a photograph of the couple', caption: '' },
+      { src: '/photos/01-vienna-belvedere.jpg', alt: 'Emmanuel kissing Flóra on the cheek in front of Klimt\'s The Kiss in a Vienna gallery', caption: 'Vienna, in front of The Kiss' },
+      { src: '/photos/02-vienna-schonbrunn.jpg', alt: 'Flóra resting her head on Emmanuel\'s shoulder in the gardens at Schönbrunn', caption: 'Vienna, May' },
+      { src: '/photos/03-vienna-canal.jpg', alt: 'Flóra kissing Emmanuel on the cheek beside the water on a bright day', caption: 'Somewhere along the water' },
+      { src: '/photos/04-vienna-cathedral.jpg', alt: 'Flóra and Emmanuel looking at each other in front of St Stephen\'s Cathedral in Vienna', caption: 'Not looking at the cathedral' },
+      { src: '/photos/05-afternoon.jpg', alt: 'Flóra and Emmanuel sitting together outdoors on a sunny afternoon, both smiling', caption: 'A good afternoon' },
+      { src: '/photos/06-night-lights.jpg', alt: 'Flóra kissing Emmanuel on the cheek at night under coloured lights', caption: 'A night out' },
+      { src: '/photos/07-dinner.jpg', alt: 'Flóra and Emmanuel dressed up for dinner in front of a window strung with fairy lights', caption: 'Dinner, dressed up' },
+      { src: '/photos/08-skating.jpg', alt: 'Flóra and Emmanuel in skates at an outdoor ice rink, lit trees behind them', caption: 'Skating, badly' },
+      { src: '/photos/09-caves.jpg', alt: 'Flóra and Emmanuel smiling side by side against a rock wall', caption: 'Underground' },
+      { src: '/photos/10-flowers.jpg', alt: 'Flóra reading a card and holding a bouquet of roses and gerberas', caption: 'Flowers and a note' },
     ],
   },
 

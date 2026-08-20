@@ -68,10 +68,10 @@ export type Wedding = {
 const realWedding: Wedding = {
   // Names as they should read on the invitation.
   couple: {
-    one: 'Emmanuel',
-    two: 'Flóra',
+    one: 'Flóra',
+    two: 'Emmanuel',
     // Shown in the browser tab and on the unlock screen.
-    shortLabel: 'Emmanuel & Flóra',
+    shortLabel: 'Flóra & Emmanuel',
   },
 
   // Human readable date and the machine date used for countdowns and sorting.
@@ -129,9 +129,21 @@ const realWedding: Wedding = {
   loveStory: {
     heading: 'Our story',
     entries: [
-      { when: 'TODO: year', title: 'TODO: how we met', body: 'TODO: two or three sentences.' },
-      { when: 'TODO: year', title: 'TODO: a moment that mattered', body: 'TODO: two or three sentences.' },
-      { when: 'TODO: year', title: 'TODO: the proposal', body: 'TODO: two or three sentences.' },
+      {
+        when: '2 May 2025',
+        title: 'A concert',
+        body: 'We met at a concert. Neither of us went looking for anything, and we left knowing we would see each other again.',
+      },
+      {
+        when: '20 August 2025',
+        title: 'We made it official',
+        body: 'Three months of hanging out and getting to know each other, properly, without rushing it. Then we stopped calling it anything else.',
+      },
+      {
+        when: 'February 2026',
+        title: 'A Sunday afternoon',
+        body: 'We came back from church after a Valentine\'s Day service, looked at each other, and said it out loud: I would like to marry you. That has been our pursuit ever since.',
+      },
     ],
   },
 
@@ -147,9 +159,20 @@ const realWedding: Wedding = {
 
   gallery: {
     heading: 'Us',
-    // Drop image files into public/photos/ and point src at them, for example
-    // '/photos/engagement-01.jpg'. Alt text is required on every photo.
-    photos: [],
+    // Real photographs, served straight from public/ behind the gate.
+    // Alt text is required on every one of them.
+    photos: [
+      { src: '/photos/01-vienna-belvedere.jpg', alt: 'Emmanuel kissing Flóra on the cheek in front of Klimt\'s The Kiss in a Vienna gallery', caption: 'Vienna, in front of The Kiss' },
+      { src: '/photos/02-vienna-schonbrunn.jpg', alt: 'Flóra resting her head on Emmanuel\'s shoulder in the gardens at Schönbrunn', caption: 'Vienna, May' },
+      { src: '/photos/03-vienna-canal.jpg', alt: 'Flóra kissing Emmanuel on the cheek beside the water on a bright day', caption: 'Somewhere along the water' },
+      { src: '/photos/04-vienna-cathedral.jpg', alt: 'Flóra and Emmanuel looking at each other in front of St Stephen\'s Cathedral in Vienna', caption: 'Not looking at the cathedral' },
+      { src: '/photos/05-afternoon.jpg', alt: 'Flóra and Emmanuel sitting together outdoors on a sunny afternoon, both smiling', caption: 'A good afternoon' },
+      { src: '/photos/06-night-lights.jpg', alt: 'Flóra kissing Emmanuel on the cheek at night under coloured lights', caption: 'A night out' },
+      { src: '/photos/07-dinner.jpg', alt: 'Flóra and Emmanuel dressed up for dinner in front of a window strung with fairy lights', caption: 'Dinner, dressed up' },
+      { src: '/photos/08-skating.jpg', alt: 'Flóra and Emmanuel in skates at an outdoor ice rink, lit trees behind them', caption: 'Skating, badly' },
+      { src: '/photos/09-caves.jpg', alt: 'Flóra and Emmanuel smiling side by side against a rock wall', caption: 'Underground' },
+      { src: '/photos/10-flowers.jpg', alt: 'Flóra reading a card and holding a bouquet of roses and gerberas', caption: 'Flowers and a note' },
+    ],
   },
 
   // Reply address shown to guests if they would rather write than use the form.
