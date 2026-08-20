@@ -2,24 +2,28 @@ import type { Wedding } from './wedding';
 
 // Sample content, for previewing the design only.
 //
-// Nothing here is real. The couple is invented, and both venues are invented
-// names at plausible Budapest addresses, so no page ever implies a booking that
-// exists. This file is only used when NEXT_PUBLIC_PREVIEW_SAMPLE is set to 1,
-// and the site shows a preview ribbon whenever it is.
+// The names, city, month and reply date are the real confirmed ones, so the
+// preview reads like the actual invitation. Everything else is filler: the
+// venues are invented names at plausible Budapest addresses, so no page implies
+// a booking that exists, and the story entries are guidance text at realistic
+// length rather than an invented history. This file is only used when
+// NEXT_PUBLIC_PREVIEW_SAMPLE is set to 1, and the site shows a preview ribbon
+// whenever it is.
 //
 // The gift wording below is a placeholder in the right shape and length. Replace
 // it with the wording adapted from the Movi and Dani e-vite.
 
 export const sampleWedding: Wedding = {
   couple: {
-    one: 'Emeka',
-    two: 'Réka',
-    shortLabel: 'Emeka & Réka',
+    one: 'Emmanuel',
+    two: 'Flóra',
+    shortLabel: 'Emmanuel & Flóra',
   },
 
+  // Sample day within the confirmed month, so the invitation reads complete.
   date: {
-    display: 'Saturday, 12 June 2027',
-    iso: '2027-06-12',
+    display: 'Saturday, 17 October 2026',
+    iso: '2026-10-17',
   },
 
   city: 'Budapest, Hungary',
@@ -48,8 +52,8 @@ export const sampleWedding: Wedding = {
   },
 
   rsvp: {
-    deadlineIso: '2027-04-30',
-    deadlineDisplay: '30 April 2027',
+    deadlineIso: '2026-09-30',
+    deadlineDisplay: '30 September 2026',
     intro:
       'We would love to know if you can join us. One reply covers everyone in your invitation, so please tell us who is coming with you.',
     thanks: 'Thank you. Your reply is in, and we cannot wait to see you.',
@@ -68,19 +72,19 @@ export const sampleWedding: Wedding = {
     heading: 'Our story',
     entries: [
       {
-        when: '2021',
-        title: 'A queue at Keleti station',
-        body: 'Emeka was two weeks into Budapest and holding a ticket machine hostage. Réka translated, then stayed for coffee that turned into four hours. Neither of us caught the train we came for.',
+        when: 'Year',
+        title: 'How we met',
+        body: 'Two or three sentences on where you met and what you still remember about it. This block is filler at the length that works: long enough to be worth reading, short enough for a phone screen.',
       },
       {
-        when: '2023',
-        title: 'Lagos at Christmas',
-        body: 'Réka met the family, learned to fold moin moin badly, and was adopted on the spot. Emeka watched his mother hand over her jollof recipe, which is how we knew.',
+        when: 'Year',
+        title: 'A moment that mattered',
+        body: 'The trip, the meeting of families, the ordinary evening you both point at. Same length again, so you can see how three entries sit together down the timeline.',
       },
       {
         when: '2026',
-        title: 'The question, on Gellért Hill',
-        body: 'A walk that was supposedly about the view. It was cold, the speech was too long, and the answer came before the end of it.',
+        title: 'The proposal',
+        body: 'Where it happened and how it went, in your own words. Guests read this part twice, so it is worth the extra sentence.',
       },
     ],
   },
@@ -107,14 +111,14 @@ export const sampleWedding: Wedding = {
   gallery: {
     heading: 'Us',
     photos: [
-      { src: '/photos/sample-01.jpg', alt: 'Placeholder tile standing in for an engagement photograph', caption: 'Budapest, 2026' },
-      { src: '/photos/sample-02.jpg', alt: 'Placeholder tile standing in for a photograph of the couple', caption: 'Lagos, 2023' },
-      { src: '/photos/sample-03.jpg', alt: 'Placeholder tile standing in for a photograph from the proposal', caption: 'Gellért Hill' },
-      { src: '/photos/sample-04.jpg', alt: 'Placeholder tile standing in for a family photograph', caption: 'Both families, 2026' },
+      { src: '/photos/sample-01.jpg', alt: 'Placeholder tile standing in for a photograph of the couple', caption: 'Caption, if you want one' },
+      { src: '/photos/sample-02.jpg', alt: 'Placeholder tile standing in for a photograph of the couple', caption: 'Budapest' },
+      { src: '/photos/sample-03.jpg', alt: 'Placeholder tile standing in for a photograph from the proposal', caption: 'The proposal' },
+      { src: '/photos/sample-04.jpg', alt: 'Placeholder tile standing in for a family photograph', caption: 'Both families' },
       { src: '/photos/sample-05.jpg', alt: 'Placeholder tile standing in for a travel photograph', caption: 'Somewhere in between' },
-      { src: '/photos/sample-06.jpg', alt: 'Placeholder tile standing in for a photograph of the couple', caption: 'The morning after the yes' },
+      { src: '/photos/sample-06.jpg', alt: 'Placeholder tile standing in for a photograph of the couple', caption: '' },
     ],
   },
 
-  contactEmail: 'emeka.and.reka@example.com',
+  contactEmail: 'hello@example.com',
 };

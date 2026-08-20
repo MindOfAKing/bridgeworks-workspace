@@ -68,19 +68,20 @@ export type Wedding = {
 const realWedding: Wedding = {
   // Names as they should read on the invitation.
   couple: {
-    one: 'TODO: first name',
-    two: 'TODO: partner first name',
+    one: 'Emmanuel',
+    two: 'Flóra',
     // Shown in the browser tab and on the unlock screen.
-    shortLabel: 'TODO: Names',
+    shortLabel: 'Emmanuel & Flóra',
   },
 
   // Human readable date and the machine date used for countdowns and sorting.
+  // The month is confirmed, the day is not. Set both once the date is fixed.
   date: {
-    display: 'TODO: Saturday, 00 Month 2027',
-    iso: '2027-01-01',
+    display: 'TODO: Saturday, 00 October 2026',
+    iso: '2026-10-01',
   },
 
-  city: 'TODO: City, Country',
+  city: 'Budapest, Hungary',
 
   // A line or two under the names on the invitation.
   invitationLine: 'TODO: together with their families, invite you to celebrate their wedding',
@@ -107,8 +108,8 @@ const realWedding: Wedding = {
 
   rsvp: {
     // Guests can submit up to and including this date. After it the form closes.
-    deadlineIso: '2026-12-31',
-    deadlineDisplay: 'TODO: 00 Month 2026',
+    deadlineIso: '2026-09-30',
+    deadlineDisplay: '30 September 2026',
     intro: 'TODO: a warm line asking guests to reply by the date above',
     // Shown after a successful submission.
     thanks: 'Thank you. Your reply is in, and we cannot wait to see you.',
