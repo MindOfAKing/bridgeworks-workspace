@@ -34,6 +34,7 @@ Claude Code is not a persistent scheduler. It can inspect and implement schedule
 - `scripts/` - Automation scripts
 - `sessions/` - Session logs
 - `skills-drafts/` - Skills in development
+- `personal/` - Personal, non-client builds. Currently the private wedding site
 
 ## Brand Rules
 - No em dashes. No AI slop. Short sentences. Specific over general.

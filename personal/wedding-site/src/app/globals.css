@@ -1,0 +1,85 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+body {
+  background-color: theme('colors.cream.DEFAULT');
+  color: theme('colors.ink');
+}
+
+@layer components {
+  .section {
+    @apply mx-auto w-full max-w-5xl px-6 py-20 sm:px-8 sm:py-28;
+  }
+
+  .eyebrow {
+    @apply font-body text-xs uppercase tracking-[0.28em] text-sage;
+  }
+
+  .section-title {
+    @apply mt-4 font-display text-3xl text-burgundy sm:text-4xl;
+  }
+
+  .rule {
+    @apply mt-6 h-px w-16 bg-sage/50;
+  }
+
+  .prose-body {
+    @apply max-w-prose font-body text-base leading-relaxed text-ink/80 sm:text-lg;
+  }
+
+  .card {
+    @apply rounded-sm border border-sage/25 bg-cream-card p-8 shadow-[0_12px_40px_rgba(42,36,34,0.06)];
+  }
+
+  .field-label {
+    @apply block font-body text-xs uppercase tracking-[0.18em] text-muted;
+  }
+
+  .field {
+    @apply mt-2 w-full rounded-sm border border-sage/30 bg-cream px-4 py-3 font-body text-base text-ink outline-none transition-colors placeholder:text-muted focus:border-burgundy focus:ring-2 focus:ring-burgundy/20;
+  }
+
+  .btn-primary {
+    @apply inline-flex items-center justify-center rounded-sm bg-burgundy px-8 py-3 font-body text-sm uppercase tracking-[0.18em] text-cream transition-colors hover:bg-burgundy-dark focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-burgundy disabled:opacity-60;
+  }
+
+  .link-quiet {
+    @apply font-body text-sm text-sage underline decoration-sage/40 underline-offset-4 transition-colors hover:text-burgundy hover:decoration-burgundy/50;
+  }
+}
+
+/* Every animation has a still path for anyone who asks for reduced motion. */
+.rise {
+  animation: rise 700ms ease-out both;
+}
+
+@keyframes rise {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .rise {
+    animation: none;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
