@@ -1,7 +1,7 @@
 # Negotiation card: CEEFM home cleaning MVP
 
 **INTERNAL ONLY. Never send this to Victor.**
-Date: 2026-08-21. Pairs with `AJANLAT-CEEFM-OTTHONI-TAKARITAS-MVP-2026-08-21.md`.
+Date: 2026-08-21. Pairs with the proposal and with `PHONE-SCRIPT-CEEFM-MVP-2026-08-21.md` for live calls.
 
 ## The three numbers
 
@@ -14,7 +14,7 @@ Date: 2026-08-21. Pairs with `AJANLAT-CEEFM-OTTHONI-TAKARITAS-MVP-2026-08-21.md`
 
 The ask is the MVP price rounded up to a clean number. It is not padded scope. It gives him roughly 64,000 Ft of easy movement, which lands exactly on the real price.
 
-Monthly: ask 130,000 Ft. Hold it. Rate card Starter is EUR 350, which is 127,000 Ft. Below that you are under your own card. Concede elsewhere, not here.
+Monthly care: ask 200,000 Ft, first 30 days included. Concede to 170,000 Ft if he fights. Floor 150,000 Ft. Absolute floor 127,000 Ft, which is rate card Starter. 200,000 Ft sits just under Growth (EUR 600 = 217,700 Ft) and this is Growth-tier work: live payments, customer photo storage, GDPR retention duties.
 
 ## Concession ladder
 

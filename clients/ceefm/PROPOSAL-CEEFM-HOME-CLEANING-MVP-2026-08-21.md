@@ -30,6 +30,12 @@ Every clean ends with a report the client opens in one tap. Named cleaner, entry
 
 You stop competing on price. You compete on proof.
 
+## Why this is a new build
+
+Your site at ceefm.eu is a brochure. It loads fast, it ranks, and it does that job well. It is also a set of static files with no server behind it. That is why even the contact form has to run through an outside service.
+
+What you are describing is software: accounts, a database, photo storage, recurring payments, reports that write themselves. None of that can run on static files, on any host. The new system is built alongside your existing site and the two link to each other. Nothing you already paid for is thrown away.
+
 ## What we build
 
 **The website · 8 pages, English and Hungarian**
@@ -74,7 +80,9 @@ Those three carry obligations under GDPR and the Hungarian Labour Code that need
 ## Investment
 
 **Setup: 2 150 000 Ft** (one-time)
-**Monthly: 130 000 Ft/month** from launch, 3-month minimum
+**Monthly care: 200 000 Ft/month** from day 31, 3-month minimum
+
+The first 30 days after launch are included. Monthly care then covers monitoring and backups, security updates, failed payments and undelivered reports, small content and pricing changes, and a monthly check on how the system is performing.
 
 | Setup payment schedule | Amount |
 |---|---|
