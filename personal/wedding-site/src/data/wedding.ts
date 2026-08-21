@@ -78,6 +78,14 @@ export type Wedding = {
   loveStory: { heading: string; entries: StoryEntry[] };
   afterPlans: { heading: string; intro: string; entries: PlanEntry[] };
   gallery: { heading: string; photos: Photo[] };
+  photoDrop: {
+    heading: string;
+    intro: string;
+    before: string;
+    after: string;
+    thanks: string;
+  };
+
   contactEmail: string;
 };
 
@@ -223,6 +231,17 @@ const realWedding: Wedding = {
 
   // Reply address shown to guests if they would rather write than use the form.
   // Leave empty to hide the line entirely.
+  // The guest photo drop. Opens on the wedding morning, closes thirty days later.
+  photoDrop: {
+    heading: 'Send us your photos',
+    intro:
+      'You will see things we miss. When the day is over, drop your photos and videos here and they land straight in our album. No app, no account, nothing to install.',
+    before: 'This opens on the wedding day. Come back once the dancing starts.',
+    after:
+      'The photo drop has closed. Thank you to everyone who sent something, we have them all.',
+    thanks: 'Thank you.',
+  },
+
   contactEmail: '',
 };
 

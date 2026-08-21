@@ -8,6 +8,7 @@ const links = [
   { href: '#gifts', label: 'Gifts' },
   { href: '#story', label: 'Our story' },
   { href: '#after', label: 'After' },
+  { href: '#share', label: 'Your photos' },
 ];
 
 export function NavBar() {

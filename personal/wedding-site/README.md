@@ -76,6 +76,47 @@ Resubmissions are stored as new rows rather than overwriting, so a change of
 plan stays visible. The schema file carries a query for counting the latest
 reply per guest.
 
+## The guest photo drop
+
+After the wedding, guests can send their own photographs and videos straight
+into a folder in your Drive. They never sign in to anything.
+
+How it works: the browser asks `/api/upload/session` for one resumable upload
+session per file, the server mints that session with your Google credentials,
+and then the phone sends the bytes **directly to Google**. Nothing large passes
+through the site, which matters because a serverless request body is capped at a
+few megabytes and a guest's video is not.
+
+The section opens at midnight on the wedding date in `src/data/wedding.ts` and
+closes thirty days later. Both the page and the API check the clock, so it
+cannot be reopened from a guest's phone.
+
+### One-time setup
+
+1. In the Google Cloud console, create a project and an OAuth client of type
+   **Web application**. Add `http://localhost:5411/callback` as an authorised
+   redirect URI.
+2. On the OAuth consent screen, add the scope
+   `https://www.googleapis.com/auth/drive.file` and **publish the app**. It is a
+   non sensitive scope, so no Google review is needed. Leaving the app in
+   testing mode makes the refresh token expire after seven days, which would
+   break the drop mid wedding.
+3. Run the helper, sign in as yourselves, and paste the four values it prints
+   into `.env.local` and into the Vercel project settings:
+
+```
+node scripts/google-drive-setup.mjs --client-id XXX --client-secret YYY
+```
+
+It creates the Drive folder for you and prints its id.
+
+4. Set `NEXT_PUBLIC_SITE_ORIGIN` to the deployed URL. Google will only return an
+   upload session the browser may use if the origin matches.
+
+Until those are set the section shows an honest message rather than a form that
+silently fails. Limits are 30 files per batch and 500MB per file, both in
+`src/lib/photoDrop.ts`.
+
 ## How the lock works
 
 A shared passphrase, checked by `src/middleware.ts` in front of every route and

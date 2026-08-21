@@ -6,6 +6,7 @@ import { Gifts } from '@/components/Gifts';
 import { Gallery } from '@/components/Gallery';
 import { LoveStory } from '@/components/LoveStory';
 import { AfterPlans } from '@/components/AfterPlans';
+import { PhotoDropSection } from '@/components/PhotoDropSection';
 import { Footer } from '@/components/Footer';
 import { wedding } from '@/data/wedding';
 
@@ -26,6 +27,7 @@ export default function Home() {
       <Gallery />
       <LoveStory />
       <AfterPlans />
+      <PhotoDropSection />
       <Footer />
     </main>
   );
