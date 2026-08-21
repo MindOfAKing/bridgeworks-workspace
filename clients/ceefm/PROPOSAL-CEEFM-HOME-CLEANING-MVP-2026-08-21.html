@@ -1,0 +1,181 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>CEEFM Kft · Home Cleaning MVP Proposal | BridgeWorks</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+<style>
+  * { margin:0; padding:0; box-sizing:border-box; }
+  body {
+    font-family:'Inter',Helvetica,Arial,sans-serif;
+    font-weight:400; font-size:15px; line-height:1.7;
+    color:#1C2B3A; background:#F5F0E8;
+  }
+  .page { max-width:840px; margin:0 auto; padding:0 40px; }
+
+  .cover { background:#0F1A2E; padding:80px 0 60px; margin-bottom:56px; }
+  .cover-inner {
+    max-width:840px; margin:0 auto; padding:0 40px;
+    border-left:6px solid #B8860B; padding-left:34px;
+  }
+  .cover-type {
+    font-size:11px; font-weight:600; letter-spacing:.16em;
+    text-transform:uppercase; color:#B8860B; margin-bottom:20px;
+  }
+  .cover h1 {
+    font-family:'Playfair Display',Georgia,serif;
+    font-size:38px; line-height:1.2; color:#F5F0E8; margin-bottom:14px;
+  }
+  .cover .sub { color:#F5F0E8; opacity:.75; font-size:15px; }
+  .cover .meta {
+    margin-top:26px; font-size:13px; color:#F5F0E8; opacity:.6;
+  }
+
+  h2 {
+    font-family:'Playfair Display',Georgia,serif;
+    font-size:23px; color:#0F1A2E; margin:44px 0 16px;
+    padding-bottom:9px; border-bottom:1px solid rgba(28,43,58,.14);
+  }
+  h2:first-of-type { margin-top:0; }
+  p { margin-bottom:15px; }
+  .lede { font-size:16px; }
+
+  .callout {
+    background:rgba(184,134,11,.07);
+    border-left:4px solid #B8860B;
+    padding:20px 24px; margin:20px 0;
+  }
+  .callout p:last-child { margin-bottom:0; }
+
+  table { width:100%; border-collapse:collapse; margin:18px 0; }
+  th, td {
+    text-align:left; padding:11px 14px;
+    border-bottom:1px solid rgba(28,43,58,.12); font-size:14px;
+  }
+  th {
+    font-size:11px; font-weight:600; letter-spacing:.09em;
+    text-transform:uppercase; color:#6B6560;
+    border-bottom:2px solid rgba(28,43,58,.2);
+  }
+  td.num { text-align:right; white-space:nowrap; font-variant-numeric:tabular-nums; }
+  tr.total td { font-weight:600; color:#0F1A2E; border-bottom:none; }
+
+  .price-band { background:#0F1A2E; padding:30px 34px; margin:24px 0; }
+  .price-row {
+    display:flex; justify-content:space-between; align-items:baseline;
+    gap:20px; padding:8px 0;
+  }
+  .price-row + .price-row { border-top:1px solid rgba(245,240,232,.15); margin-top:6px; padding-top:14px; }
+  .price-label { color:#F5F0E8; opacity:.8; font-size:14px; }
+  .price-value {
+    font-family:'Playfair Display',Georgia,serif;
+    font-size:27px; color:#B8860B; white-space:nowrap;
+  }
+  .price-note { color:#F5F0E8; opacity:.55; font-size:12.5px; margin-top:16px; line-height:1.6; }
+
+  .phase { display:flex; gap:16px; padding:9px 0; font-size:14.5px; }
+  .phase-when {
+    min-width:112px; font-weight:600; color:#B8860B; font-size:12.5px;
+    letter-spacing:.05em; text-transform:uppercase; padding-top:2px;
+  }
+
+  .next {
+    background:#0F1A2E; padding:34px; margin:44px 0 0;
+    border-left:6px solid #B8860B;
+  }
+  .next h2 {
+    color:#F5F0E8; border:none; margin:0 0 10px; padding:0; font-size:21px;
+  }
+  .next p { color:#F5F0E8; opacity:.85; margin:0; }
+
+  footer {
+    margin-top:52px; padding:26px 0 60px;
+    border-top:1px solid rgba(28,43,58,.14);
+    font-size:12.5px; color:#6B6560; text-align:center;
+  }
+  footer strong { color:#0F1A2E; font-weight:600; display:block; margin-bottom:4px; }
+
+  @media print {
+    body { background:#F5F0E8; }
+    .cover, .price-band, .next { -webkit-print-color-adjust:exact; print-color-adjust:exact; }
+    .next { page-break-inside:avoid; }
+  }
+</style>
+</head>
+<body>
+
+<div class="cover">
+  <div class="cover-inner">
+    <div class="cover-type">Proposal</div>
+    <h1>AI-Powered Weekly Home Cleaning</h1>
+    <div class="sub">Minimum viable product build for CEEFM Kft</div>
+    <div class="meta">Prepared for Victor Danmagaji, Managing Director &middot; 21 August 2026</div>
+  </div>
+</div>
+
+<div class="page">
+
+  <h2>What we will do</h2>
+  <p class="lede">Build the public website for your weekly home cleaning subscription: 5 core pages plus 3 district landing pages for Budapest's 1st, 2nd and 12th districts, in Hungarian and English.</p>
+  <p>Build the signup flow covering district, plan, home size, privacy zones, access method and preferred cleaning slot, with recurring card checkout.</p>
+  <p>Build a mobile capture app your cleaners use on every visit: secure check-in, standard checklist, before and after photos, check-out.</p>
+  <p>Generate a visit report after every clean listing tasks completed, duration, timestamps, cleaner name and photos, delivered to the client by private link in email or WhatsApp.</p>
+  <p>Set up your operations view in Supabase for scheduling and client records, plus the GDPR essentials: privacy policy, photo consent at signup, retention rules and processor agreements.</p>
+
+  <h2>Not in this phase</h2>
+  <div class="callout">
+    <p><strong>No in-home cameras. No smart lock integration. No AI image checking.</strong></p>
+    <p>Those three carry data protection obligations under GDPR and the Hungarian Labour Code that need legal review before they are advertised to customers.</p>
+    <p>Everything listed above is deliverable and true on launch day. The site will sell documented visits, photo proof, tracked entry and a named cleaner. That is enough to win on trust.</p>
+  </div>
+
+  <h2>Timeline</h2>
+  <p>5 to 6 weeks from kickoff.</p>
+  <div class="phase"><div class="phase-when">Weeks 1 to 2</div><div>Website and signup flow</div></div>
+  <div class="phase"><div class="phase-when">Weeks 3 to 4</div><div>Cleaner app and visit reports</div></div>
+  <div class="phase"><div class="phase-when">Weeks 5 to 6</div><div>Payments, GDPR pack, testing, launch</div></div>
+
+  <h2>Investment</h2>
+
+  <div class="price-band">
+    <div class="price-row">
+      <div class="price-label">Setup, one-time</div>
+      <div class="price-value">EUR 5,750</div>
+    </div>
+    <div class="price-row">
+      <div class="price-label">Monthly, from launch &middot; 3-month minimum</div>
+      <div class="price-value">EUR 350</div>
+    </div>
+    <div class="price-note">
+      Quoted in EUR. At today's rate of 362.78 the setup is 2,086,000 HUF. HUF is confirmed at each invoice date.
+    </div>
+  </div>
+
+  <table>
+    <thead><tr><th>Setup payment schedule</th><th class="num">EUR</th><th class="num">HUF</th></tr></thead>
+    <tbody>
+      <tr><td>At kickoff, 40 percent</td><td class="num">2,300</td><td class="num">834,000</td></tr>
+      <tr><td>End of week 3, 30 percent</td><td class="num">1,725</td><td class="num">626,000</td></tr>
+      <tr><td>On handover, 30 percent</td><td class="num">1,725</td><td class="num">626,000</td></tr>
+      <tr class="total"><td>Total</td><td class="num">5,750</td><td class="num">2,086,000</td></tr>
+    </tbody>
+  </table>
+
+  <p>Hosting and payment processing are billed directly to CEEFM Kft, roughly EUR 25 to 60 per month.</p>
+  <p>All invoices issued via szamlazz.hu under Hungarian VAT exemption (&Aacute;fa t&ouml;rv&eacute;ny 188. &sect;, alanyi ad&oacute;mentes).</p>
+
+  <div class="next">
+    <h2>Next step</h2>
+    <p>Reply to confirm and you will have the contract within 24 hours.</p>
+  </div>
+
+  <footer>
+    <strong>BridgeWorks</strong>
+    office@bridgeworks.agency &middot; bridgeworks.agency
+  </footer>
+
+</div>
+</body>
+</html>
