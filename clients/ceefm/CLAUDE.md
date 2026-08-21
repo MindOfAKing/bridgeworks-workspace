@@ -43,7 +43,7 @@ Mark as historical unless Emmanuel reactivates it:
 ## Current Delivery Notes
 CEEFM has no active delivery lane. Use this folder for archive lookup and verified case-study facts only.
 
-**2026-08-11 exception, already closed.** Unpaid ad-hoc support at Victor's request: Google Ads tag installed on ceefm.eu, Consent Mode v2 fixed so accepting actually grants ad consent, bilingual privacy policy published, BridgeWorks footer credit added. Deployed and verified the same day. Recorded in `WEBSITE-UPDATE-2026-08-11.md`. **This was not a reactivation** and the engagement stays closed as of 2026-06-19. Open items belong to Victor, not to a BridgeWorks delivery lane.
+**2026-08-11 exception, already closed.** Unpaid ad-hoc support at Victor's request: Google Ads tag installed on ceefm.eu, Consent Mode v2 fixed so accepting actually grants ad consent, bilingual privacy policy published, BridgeWorks footer credit added. Deployed and verified the same day. Recorded in `WEBSITE-UPDATE-2026-08-11.md`. Follow-on diagnosis 2026-08-21 in `CONVERSION-ACTION-MISMATCH-2026-08-21.md`: the Ads conversion action Victor is troubleshooting may not be bound to the event name the site fires, and `MindOfAKing/ceefm-astro` on GitHub is 5 commits behind production so the August work exists only on the local machine and the FTP server. **This was not a reactivation** and the engagement stays closed as of 2026-06-19. Open items belong to Victor, not to a BridgeWorks delivery lane.
 
 Historical themes from the inventory:
 - May content calendar.
