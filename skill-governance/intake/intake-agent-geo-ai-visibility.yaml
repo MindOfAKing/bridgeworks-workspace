@@ -1,0 +1,73 @@
+{
+  "schema_version": 1,
+  "repository_url": "internal, BridgeWorks-authored 2026-08-01",
+  "repository_owner": "MindOfAKing",
+  "exact_commit": "n/a, authored in place",
+  "date_retrieved": "2026-08-11",
+  "requested_component": "agent-geo-ai-visibility",
+  "claimed_purpose": "Evaluate AI-search visibility, citability, crawler access, llms.txt, and brand presence across answer engines as a bounded GEO specialist. Use explicitly during",
+  "existing_internal_overlap": [
+    "geo-ai-visibility"
+  ],
+  "files_to_review": [
+    "~/.codex/skills/agent-geo-ai-visibility/SKILL.md"
+  ],
+  "install_scripts_and_hooks": [],
+  "permissions": {
+    "network_access": "read-only research, declared in the specialist contract",
+    "filesystem_access": "none declared",
+    "credentials": "none declared",
+    "cookies": "none declared",
+    "external_executables": []
+  },
+  "reviews": {
+    "provenance": {
+      "status": "pass",
+      "notes": "Claude reference agent present at C:\\Users\\User\\.claude\\agents\\geo-ai-visibility.md"
+    },
+    "source": {
+      "status": "pass",
+      "notes": "internally authored, installed at C:\\Users\\User\\.codex\\skills\\agent-geo-ai-visibility\\SKILL.md, sha256 abff2f599b39dfc9"
+    },
+    "security_scan": {
+      "status": "pass",
+      "notes": "static scan clean of prohibited patterns; informational hits: none"
+    },
+    "permissions": {
+      "status": "pass",
+      "notes": "Codex specialist contract declares read-only default and no external writes"
+    },
+    "overlap": {
+      "status": "pass",
+      "notes": "one specialist per GEO category, no overlap with the other four; reference implementation is the Claude agent geo-ai-visibility"
+    },
+    "isolated_test": {
+      "status": "pass",
+      "notes": "invoked as a bounded subagent on one target, returned 22 findings and a category score, made no external write"
+    },
+    "pilot_evidence": {
+      "status": "pass",
+      "notes": "GBS Africa full GEO audit, 2026-08-11: every finding carried a fetched source URL"
+    },
+    "success_criterion": {
+      "status": "pass",
+      "notes": "Every finding carries a source URL that was actually fetched, and the specialist returns a bounded JSON result with no fabricated measurement."
+    }
+  },
+  "real_work_pilot": {
+    "use_case": "GBS Africa full GEO audit, 2026-08-11",
+    "run_record": "operations/internal-gtm/runs/geo/gbs-africa-2026-08-11.json",
+    "success_criterion": "Every finding carries a source URL that was actually fetched, and the specialist returns a bounded JSON result with no fabricated measurement.",
+    "measurement_method": "Count findings with a null source, and count claims about measurements the specialist did not take. Both must be zero, or explicitly labelled inferred or blocked.",
+    "result": {
+      "findings": 22,
+      "score": 55,
+      "sourced": true,
+      "self_labelled_gaps": [
+        "reddit and youtube presence marked observed, not verified"
+      ]
+    }
+  },
+  "decision": "approve",
+  "rollback_procedure": "Remove the isolated pilot copy and restore any explicitly listed adapted files from Git."
+}

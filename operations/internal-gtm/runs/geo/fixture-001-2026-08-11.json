@@ -1,0 +1,768 @@
+{
+  "slice": "geo",
+  "as_of": "2026-08-11",
+  "prospect": {
+    "company": "Northline Facility Services Kft.",
+    "website_url": "https://www.northline-facility.example.com/hu/",
+    "source": "fixture",
+    "entity_key": "domain:northline-facility.example.com",
+    "canonical_domain": "northline-facility.example.com",
+    "alternate_domains": [],
+    "normalized_company": "northline facility services",
+    "source_provenance": [
+      "fixture"
+    ],
+    "prospect_id": "fixture-001",
+    "buyer_name": "Managing Director",
+    "buyer_role": "owner",
+    "buyer_email": "office@northline-facility.example.com",
+    "qualification_model": "qualification-v1",
+    "qualification_score": 63,
+    "qualification_tier": "QUALIFIED",
+    "actionability": "actionable"
+  },
+  "evidence": {
+    "as_of": "2026-08-11",
+    "staleness_days": 180,
+    "ledger": [
+      {
+        "id": "g1",
+        "subject": "ai_visibility",
+        "claim_key": null,
+        "contradiction_key": [
+          "implicit",
+          "ai_visibility",
+          "https://www.northline-facility.example.com/"
+        ],
+        "value": "no_citations",
+        "source": "https://www.northline-facility.example.com/",
+        "observed_at": "2026-08-10",
+        "declared_status": "verified",
+        "status": "verified",
+        "reason": "declared"
+      },
+      {
+        "id": "g2",
+        "subject": "schema",
+        "claim_key": null,
+        "contradiction_key": [
+          "implicit",
+          "schema",
+          "https://www.northline-facility.example.com/"
+        ],
+        "value": "absent",
+        "source": "https://www.northline-facility.example.com/",
+        "observed_at": "2026-08-10",
+        "declared_status": "verified",
+        "status": "verified",
+        "reason": "declared"
+      },
+      {
+        "id": "g3",
+        "subject": "conversion_path",
+        "claim_key": null,
+        "contradiction_key": [
+          "implicit",
+          "conversion_path",
+          "https://www.northline-facility.example.com/contact"
+        ],
+        "value": "three_clicks_no_confirmation",
+        "source": "https://www.northline-facility.example.com/contact",
+        "observed_at": "2026-08-10",
+        "declared_status": "observed",
+        "status": "observed",
+        "reason": "declared"
+      },
+      {
+        "id": "g4",
+        "subject": "local_presence",
+        "claim_key": null,
+        "contradiction_key": [
+          "implicit",
+          "local_presence",
+          ""
+        ],
+        "value": "likely_weaker",
+        "source": null,
+        "observed_at": "2026-08-10",
+        "declared_status": "inferred",
+        "status": "unknown",
+        "reason": "no_source"
+      },
+      {
+        "id": "q-buyer",
+        "subject": "buyer_accessibility",
+        "claim_key": "buyer_contact_route",
+        "contradiction_key": [
+          "declared",
+          "buyer_contact_route"
+        ],
+        "value": {
+          "name": "Managing Director",
+          "email": "office@northline-facility.example.com"
+        },
+        "source": "https://www.northline-facility.example.com/contact",
+        "observed_at": "2026-08-10",
+        "declared_status": "observed",
+        "status": "observed",
+        "reason": "declared"
+      },
+      {
+        "id": "q-proof-ceefm-geo-16-to-77",
+        "subject": "proof_fit",
+        "claim_key": "bridgeworks_proof_asset",
+        "contradiction_key": [
+          "declared",
+          "bridgeworks_proof_asset"
+        ],
+        "value": "ceefm-geo-16-to-77",
+        "source": "clients/ceefm/VERIFIED-FACTS.md",
+        "observed_at": "2026-08-11",
+        "declared_status": "verified",
+        "status": "verified",
+        "reason": "declared"
+      },
+      {
+        "id": "q-trigger",
+        "subject": "trigger_urgency",
+        "claim_key": "current_buyer_event",
+        "contradiction_key": [
+          "declared",
+          "current_buyer_event"
+        ],
+        "value": "hiring",
+        "source": "https://www.northline-facility.example.com/careers",
+        "observed_at": "2026-07-28",
+        "declared_status": "observed",
+        "status": "observed",
+        "reason": "declared"
+      }
+    ],
+    "approved_claim_ids": [
+      "g1",
+      "g2",
+      "g3",
+      "q-buyer",
+      "q-proof-ceefm-geo-16-to-77",
+      "q-trigger"
+    ],
+    "rejected_claim_ids": [
+      "g4"
+    ],
+    "evidence_quality": "verified",
+    "counts": {
+      "verified": 3,
+      "observed": 3,
+      "inferred": 0,
+      "stale": 0,
+      "contradicted": 0,
+      "unknown": 1
+    }
+  },
+  "route": {
+    "route_id": "content-visibility-demand",
+    "route_name": "Content, Visibility & Demand",
+    "matched_gaps": [
+      "ai_visibility",
+      "schema"
+    ],
+    "fit": "adjacent",
+    "secondary_routes": [
+      "digital-platforms-brand"
+    ],
+    "diagnostic_capability": "bridgeworks-geo-prospect-scan",
+    "proof_asset_id": "ceefm-geo-16-to-77",
+    "scores": {
+      "evidence_strength": 6,
+      "commercial_pain": 5,
+      "buyer_relevance": 0,
+      "proof_fit": 2,
+      "urgency": 1,
+      "entry_offer_credibility": 2
+    },
+    "won_on": "evidence_strength",
+    "confidence": {
+      "capability_maturity": "mature",
+      "note": "reported only, never used to select"
+    },
+    "candidates": [
+      {
+        "route_id": "content-visibility-demand",
+        "route_name": "Content, Visibility & Demand",
+        "matched_gaps": [
+          "ai_visibility",
+          "schema"
+        ],
+        "scores": {
+          "evidence_strength": 6,
+          "commercial_pain": 5,
+          "buyer_relevance": 0,
+          "proof_fit": 2,
+          "urgency": 1,
+          "entry_offer_credibility": 2
+        },
+        "ranking_key": [
+          6,
+          5,
+          0,
+          2,
+          1,
+          2
+        ],
+        "capability_maturity": "mature",
+        "diagnostic_capability": "bridgeworks-geo-prospect-scan",
+        "proof_asset_id": "ceefm-geo-16-to-77"
+      },
+      {
+        "route_id": "digital-platforms-brand",
+        "route_name": "Digital Platforms & Brand Systems",
+        "matched_gaps": [
+          "conversion_path"
+        ],
+        "scores": {
+          "evidence_strength": 2,
+          "commercial_pain": 2,
+          "buyer_relevance": 0,
+          "proof_fit": 2,
+          "urgency": 0,
+          "entry_offer_credibility": 2
+        },
+        "ranking_key": [
+          2,
+          2,
+          0,
+          2,
+          0,
+          2
+        ],
+        "capability_maturity": "mature",
+        "diagnostic_capability": "client-audit",
+        "proof_asset_id": "oliviks-foundation-2026-07-24"
+      }
+    ]
+  },
+  "qualification": {
+    "qualification_version": "qualification-v1",
+    "score": 63,
+    "max_score": 100,
+    "tier": "QUALIFIED",
+    "actionability": "actionable",
+    "blocking_reasons": [],
+    "components": {
+      "problem_evidence": {
+        "score": 18,
+        "requested_score": 18,
+        "max_score": 25,
+        "evidence_ids": [
+          "g1",
+          "g2",
+          "g3"
+        ],
+        "usable_evidence_ids": [
+          "g1",
+          "g2",
+          "g3"
+        ],
+        "approved_evidence_ids": [
+          "g1",
+          "g2",
+          "g3"
+        ],
+        "unresolvable_evidence_ids": [],
+        "contradicted_evidence_ids": [],
+        "contradicted": false,
+        "evidence_classes": [
+          "observed",
+          "verified"
+        ],
+        "evidence_freshness": "current",
+        "evidence_age_days": 1,
+        "confidence": "high",
+        "source_provenance": [
+          "https://www.northline-facility.example.com/",
+          "https://www.northline-facility.example.com/contact"
+        ],
+        "adjustment_reason": null,
+        "reason": "scored",
+        "rationale": "approved diagnostic findings weighted by severity"
+      },
+      "commercial_fit": {
+        "score": 0,
+        "requested_score": 0,
+        "max_score": 20,
+        "evidence_ids": [],
+        "usable_evidence_ids": [],
+        "approved_evidence_ids": [],
+        "unresolvable_evidence_ids": [],
+        "contradicted_evidence_ids": [],
+        "contradicted": false,
+        "evidence_classes": [],
+        "evidence_freshness": "unknown",
+        "evidence_age_days": null,
+        "confidence": "unknown",
+        "source_provenance": [],
+        "adjustment_reason": null,
+        "reason": "scored",
+        "rationale": "no contract-value, budget or segment evidence collected"
+      },
+      "buyer_accessibility": {
+        "score": 15,
+        "requested_score": 15,
+        "max_score": 15,
+        "evidence_ids": [
+          "q-buyer"
+        ],
+        "usable_evidence_ids": [
+          "q-buyer"
+        ],
+        "approved_evidence_ids": [
+          "q-buyer"
+        ],
+        "unresolvable_evidence_ids": [],
+        "contradicted_evidence_ids": [],
+        "contradicted": false,
+        "evidence_classes": [
+          "observed"
+        ],
+        "evidence_freshness": "current",
+        "evidence_age_days": 1,
+        "confidence": "medium",
+        "source_provenance": [
+          "https://www.northline-facility.example.com/contact"
+        ],
+        "adjustment_reason": null,
+        "reason": "scored",
+        "rationale": "verified contact route"
+      },
+      "trigger_urgency": {
+        "score": 15,
+        "requested_score": 15,
+        "max_score": 15,
+        "evidence_ids": [
+          "q-trigger"
+        ],
+        "usable_evidence_ids": [
+          "q-trigger"
+        ],
+        "approved_evidence_ids": [
+          "q-trigger"
+        ],
+        "unresolvable_evidence_ids": [],
+        "contradicted_evidence_ids": [],
+        "contradicted": false,
+        "evidence_classes": [
+          "observed"
+        ],
+        "evidence_freshness": "current",
+        "evidence_age_days": 14,
+        "confidence": "medium",
+        "source_provenance": [
+          "https://www.northline-facility.example.com/careers"
+        ],
+        "adjustment_reason": null,
+        "reason": "scored",
+        "rationale": "age of the observed buyer event"
+      },
+      "proof_fit": {
+        "score": 15,
+        "requested_score": 15,
+        "max_score": 15,
+        "evidence_ids": [
+          "q-proof-ceefm-geo-16-to-77"
+        ],
+        "usable_evidence_ids": [
+          "q-proof-ceefm-geo-16-to-77"
+        ],
+        "approved_evidence_ids": [
+          "q-proof-ceefm-geo-16-to-77"
+        ],
+        "unresolvable_evidence_ids": [],
+        "contradicted_evidence_ids": [],
+        "contradicted": false,
+        "evidence_classes": [
+          "verified"
+        ],
+        "evidence_freshness": "current",
+        "evidence_age_days": 0,
+        "confidence": "high",
+        "source_provenance": [
+          "clients/ceefm/VERIFIED-FACTS.md"
+        ],
+        "adjustment_reason": null,
+        "reason": "scored",
+        "rationale": "verified proof asset strength for this problem: strong"
+      },
+      "execution_readiness": {
+        "score": 0,
+        "requested_score": 0,
+        "max_score": 10,
+        "evidence_ids": [],
+        "usable_evidence_ids": [],
+        "approved_evidence_ids": [],
+        "unresolvable_evidence_ids": [],
+        "contradicted_evidence_ids": [],
+        "contradicted": false,
+        "evidence_classes": [],
+        "evidence_freshness": "unknown",
+        "evidence_age_days": null,
+        "confidence": "unknown",
+        "source_provenance": [],
+        "adjustment_reason": null,
+        "reason": "scored",
+        "rationale": "no delivery-capacity or decision-process evidence collected"
+      }
+    },
+    "adjustments": [],
+    "thresholds": {
+      "HOT": 85,
+      "STRONG": 70,
+      "QUALIFIED": 55,
+      "WATCH": 40,
+      "DO_NOT_PURSUE": 0
+    },
+    "model": "qualification-v1",
+    "model_approved": "2026-08-11",
+    "as_of": "2026-08-11",
+    "derived_by": "operations/internal-gtm/scripts/qualification_v1.py",
+    "gates_evaluated": {
+      "identity_domain_resolved": true,
+      "viable_contact_destination": true,
+      "credible_service_route": true,
+      "materially_contradicted_evidence": false,
+      "previous_outreach_exists": false,
+      "communication_state_resolved": true,
+      "legal_compliance_exclusion": false,
+      "explicit_defer_hold": false
+    },
+    "component_scores": {
+      "problem_evidence": 18,
+      "commercial_fit": 0,
+      "buyer_accessibility": 15,
+      "trigger_urgency": 15,
+      "proof_fit": 15,
+      "execution_readiness": 0
+    },
+    "unscored_components": [
+      "commercial_fit",
+      "execution_readiness"
+    ],
+    "unresolvable_evidence_ids": [],
+    "evidence_gap": true,
+    "blocking_conditions": [],
+    "superseded_reference": {
+      "model": "former-gtm-core-five-signal-rubric",
+      "historical_signals": {
+        "route_fit": "adjacent",
+        "trigger_age_days": 14,
+        "evidence_quality": "verified",
+        "reachability": "named_buyer_with_email",
+        "gap_severity": "high"
+      },
+      "score": null,
+      "tier": null,
+      "note": "source material only. It cannot independently own qualification state."
+    }
+  },
+  "steps": [
+    {
+      "stage": "account_discovered",
+      "role": "data-steward",
+      "note": "identity normalized, exact dedupe applied"
+    },
+    {
+      "stage": "evidence_collected",
+      "role": "evidence-auditor",
+      "note": "3 of 4 claims approved",
+      "counts": {
+        "verified": 2,
+        "observed": 1,
+        "inferred": 0,
+        "stale": 0,
+        "contradicted": 0,
+        "unknown": 1
+      }
+    },
+    {
+      "stage": "qualified",
+      "role": "lead-qualifier",
+      "signals": {
+        "route_fit": "adjacent",
+        "trigger_age_days": 14,
+        "evidence_quality": "verified",
+        "reachability": "named_buyer_with_email",
+        "gap_severity": "high"
+      },
+      "result": {
+        "qualification_version": "qualification-v1",
+        "score": 63,
+        "max_score": 100,
+        "tier": "QUALIFIED",
+        "actionability": "actionable",
+        "blocking_reasons": [],
+        "adjustments": [],
+        "thresholds": {
+          "HOT": 85,
+          "STRONG": 70,
+          "QUALIFIED": 55,
+          "WATCH": 40,
+          "DO_NOT_PURSUE": 0
+        },
+        "model": "qualification-v1",
+        "model_approved": "2026-08-11",
+        "as_of": "2026-08-11",
+        "derived_by": "operations/internal-gtm/scripts/qualification_v1.py",
+        "gates_evaluated": {
+          "identity_domain_resolved": true,
+          "viable_contact_destination": true,
+          "credible_service_route": true,
+          "materially_contradicted_evidence": false,
+          "previous_outreach_exists": false,
+          "communication_state_resolved": true,
+          "legal_compliance_exclusion": false,
+          "explicit_defer_hold": false
+        },
+        "component_scores": {
+          "problem_evidence": 18,
+          "commercial_fit": 0,
+          "buyer_accessibility": 15,
+          "trigger_urgency": 15,
+          "proof_fit": 15,
+          "execution_readiness": 0
+        },
+        "unscored_components": [
+          "commercial_fit",
+          "execution_readiness"
+        ],
+        "unresolvable_evidence_ids": [],
+        "evidence_gap": true,
+        "blocking_conditions": [],
+        "superseded_reference": {
+          "model": "former-gtm-core-five-signal-rubric",
+          "historical_signals": {
+            "route_fit": "adjacent",
+            "trigger_age_days": 14,
+            "evidence_quality": "verified",
+            "reachability": "named_buyer_with_email",
+            "gap_severity": "high"
+          },
+          "score": null,
+          "tier": null,
+          "note": "source material only. It cannot independently own qualification state."
+        }
+      }
+    },
+    {
+      "stage": "routed",
+      "role": "prospect-router",
+      "route": {
+        "route_id": "content-visibility-demand",
+        "route_name": "Content, Visibility & Demand",
+        "matched_gaps": [
+          "ai_visibility",
+          "schema"
+        ],
+        "fit": "adjacent",
+        "secondary_routes": [
+          "digital-platforms-brand"
+        ],
+        "diagnostic_capability": "bridgeworks-geo-prospect-scan",
+        "proof_asset_id": "ceefm-geo-16-to-77",
+        "scores": {
+          "evidence_strength": 6,
+          "commercial_pain": 5,
+          "buyer_relevance": 0,
+          "proof_fit": 2,
+          "urgency": 1,
+          "entry_offer_credibility": 2
+        },
+        "won_on": "evidence_strength",
+        "confidence": {
+          "capability_maturity": "mature",
+          "note": "reported only, never used to select"
+        },
+        "candidates": [
+          {
+            "route_id": "content-visibility-demand",
+            "route_name": "Content, Visibility & Demand",
+            "matched_gaps": [
+              "ai_visibility",
+              "schema"
+            ],
+            "scores": {
+              "evidence_strength": 6,
+              "commercial_pain": 5,
+              "buyer_relevance": 0,
+              "proof_fit": 2,
+              "urgency": 1,
+              "entry_offer_credibility": 2
+            },
+            "ranking_key": [
+              6,
+              5,
+              0,
+              2,
+              1,
+              2
+            ],
+            "capability_maturity": "mature",
+            "diagnostic_capability": "bridgeworks-geo-prospect-scan",
+            "proof_asset_id": "ceefm-geo-16-to-77"
+          },
+          {
+            "route_id": "digital-platforms-brand",
+            "route_name": "Digital Platforms & Brand Systems",
+            "matched_gaps": [
+              "conversion_path"
+            ],
+            "scores": {
+              "evidence_strength": 2,
+              "commercial_pain": 2,
+              "buyer_relevance": 0,
+              "proof_fit": 2,
+              "urgency": 0,
+              "entry_offer_credibility": 2
+            },
+            "ranking_key": [
+              2,
+              2,
+              0,
+              2,
+              0,
+              2
+            ],
+            "capability_maturity": "mature",
+            "diagnostic_capability": "client-audit",
+            "proof_asset_id": "oliviks-foundation-2026-07-24"
+          }
+        ]
+      }
+    },
+    {
+      "stage": "diagnostic_complete",
+      "role": "prospect-router",
+      "capability": "geo-audit",
+      "score": 34
+    },
+    {
+      "stage": "offer_selected",
+      "role": "offer-strategist",
+      "offer": {
+        "route_id": "content-visibility-demand",
+        "wedge": "AI visibility snapshot",
+        "proof_asset_id": "ceefm-geo-16-to-77",
+        "price": "confirmed_at_booking",
+        "price_note": "No price is stored here. The lead-engine-v1 offer ladder (2026-06) and the 2026-07-14 single-offer decision conflict, and the deployed site publishes no audit price. Offer selection is deterministic. Price is Emmanuel's decision at booking.",
+        "tier": "QUALIFIED"
+      }
+    },
+    {
+      "stage": "outreach_prepared",
+      "role": "outreach-personalizer",
+      "note": "packet assembled from approved claims only",
+      "cited_claims": [
+        "g1",
+        "g2"
+      ]
+    },
+    {
+      "stage": "awaiting_approval",
+      "role": "outreach-personalizer",
+      "note": "stopped at approval gate"
+    }
+  ],
+  "external_action_authorized": false,
+  "offer": {
+    "route_id": "content-visibility-demand",
+    "wedge": "AI visibility snapshot",
+    "proof_asset_id": "ceefm-geo-16-to-77",
+    "price": "confirmed_at_booking",
+    "price_note": "No price is stored here. The lead-engine-v1 offer ladder (2026-06) and the 2026-07-14 single-offer decision conflict, and the deployed site publishes no audit price. Offer selection is deterministic. Price is Emmanuel's decision at booking.",
+    "tier": "QUALIFIED"
+  },
+  "packet": {
+    "kind": "outreach_approval_packet",
+    "lifecycle_stage": "awaiting_approval",
+    "approval_state": "pending_approval",
+    "approval_payload_digest": "09906472b46fdc25b8afb8b32abc89100c074c951ac68cfdc3110c09d639f08d",
+    "external_action_authorized": false,
+    "no_send": true,
+    "copy_required_from": "outreach-personalizer",
+    "copy_authority": "draft_only",
+    "prepared_at": "2026-08-11",
+    "body": {
+      "prospect_id": "fixture-001",
+      "company": "Northline Facility Services Kft.",
+      "canonical_domain": "northline-facility.example.com",
+      "buyer_name": "Managing Director",
+      "buyer_role": "owner",
+      "buyer_email": "office@northline-facility.example.com",
+      "service_route": "content-visibility-demand",
+      "offer_wedge": "AI visibility snapshot",
+      "proof_asset_id": "ceefm-geo-16-to-77",
+      "price": "confirmed_at_booking",
+      "cited_claims": [
+        {
+          "id": "g1",
+          "subject": "ai_visibility",
+          "claim_key": null,
+          "contradiction_key": [
+            "implicit",
+            "ai_visibility",
+            "https://www.northline-facility.example.com/"
+          ],
+          "value": "no_citations",
+          "source": "https://www.northline-facility.example.com/",
+          "observed_at": "2026-08-10",
+          "declared_status": "verified",
+          "status": "verified",
+          "reason": "declared"
+        },
+        {
+          "id": "g2",
+          "subject": "schema",
+          "claim_key": null,
+          "contradiction_key": [
+            "implicit",
+            "schema",
+            "https://www.northline-facility.example.com/"
+          ],
+          "value": "absent",
+          "source": "https://www.northline-facility.example.com/",
+          "observed_at": "2026-08-10",
+          "declared_status": "verified",
+          "status": "verified",
+          "reason": "declared"
+        }
+      ],
+      "qualification_score": 63,
+      "qualification_tier": "QUALIFIED"
+    },
+    "approval_instruction": "Approval authorizes only the exact copy attached to this digest, sent to this exact address, by Emmanuel or an approved Codex run.",
+    "copy_request": {
+      "kind": "capability_call_required",
+      "role": "outreach-personalizer",
+      "capability": "market-emails",
+      "task": "client_facing_output",
+      "runtime": "claude_or_codex",
+      "approval_required": false,
+      "review_required": true,
+      "validation": null,
+      "payload": {
+        "cited_claims": [
+          "g1",
+          "g2"
+        ],
+        "offer_wedge": "AI visibility snapshot",
+        "proof_asset_id": "ceefm-geo-16-to-77",
+        "buyer": {
+          "name": "Managing Director",
+          "role": "owner",
+          "email": "office@northline-facility.example.com",
+          "source": "https://www.northline-facility.example.com/contact"
+        }
+      }
+    }
+  },
+  "lifecycle_stage": "awaiting_approval",
+  "next_action": "emmanuel_approval"
+}

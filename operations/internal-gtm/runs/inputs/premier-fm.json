@@ -1,0 +1,51 @@
+{
+  "prospect_id": "premier-fm",
+  "company": "Premier FM",
+  "website_url": "https://premierfm.hu",
+  "source": "client-acquisition-engine:2026-08-05-batch-01-results.json",
+  "buyer": {
+    "name": "Leko Peter",
+    "role": null,
+    "email": "leko.peter@premierfm.hu"
+  },
+  "trigger": {
+    "type": "research_verification",
+    "summary": "Use a concise facility-management credibility-proof and quote-route review tied to the missing KPI-number rendering.",
+    "observed_at": "2026-08-09",
+    "source": "https://premierfm.hu/"
+  },
+  "_provenance": {
+    "engine_result": "operations\\client-acquisition-engine\\research\\prospect-operations\\results\\2026-08-05-batch-01-results.json",
+    "engine_status": "verified",
+    "engine_outreach_readiness": "ready",
+    "contact_history": {
+      "in_register": false,
+      "contacted": false,
+      "evidence": "absent from canonical register"
+    },
+    "adapter": "operations/internal-gtm/adapters/acquisition_engine.py"
+  },
+  "diagnostic": {
+    "capability": "client-audit",
+    "run_id": "acquisition-engine:2026-08-05-batch-01-results",
+    "completed_at": "2026-08-09",
+    "score": null,
+    "findings": [
+      {
+        "id": "src0",
+        "category": "website_trust",
+        "severity": "medium",
+        "claim": "Owned homepage lists facility-management services, quote CTA, public phone and info@premierfm.hu, near-20-year experience text, and KPI labels where visible numeric values are absent in the indexed text.",
+        "value": "Owned homepage lists facility-management services, quote CTA, public phone and info@premierfm.hu, near-20-year experience text, and KPI labels where visible numeric values are absent in the indexed text.",
+        "source": "https://premierfm.hu/",
+        "observed_at": "2026-08-09",
+        "status": "verified"
+      }
+    ]
+  },
+  "_classification_rationale": [
+    "Source 0 is website_trust: the homepage 'KPI labels where visible numeric values are absent in the indexed text' is a credibility signal failing on the owned site, not a discovery or conversion-mechanism failure.",
+    "Source 1 is null: the contact page 'lists quote/contact form fields, central info@premierfm.hu route' and two named contacts. It evidences a working enquiry route, so it is proof of no gap and must not be counted as one.",
+    "Severity medium, not high: the engine's own observation says 'the gap is narrow: credibility proof near the quote route is weaker than the rest of the service claim'."
+  ]
+}

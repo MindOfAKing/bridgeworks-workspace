@@ -1,0 +1,116 @@
+{
+  "decision_id": "premier-fm:significance-and-commercial-decision:2026-08-11:codex-001",
+  "prospect_id": "premier-fm",
+  "company": "Premier FM",
+  "runtime": "codex",
+  "created_at": "2026-08-11T15:11:08.4358700Z",
+  "canonical_input_state": {
+    "qualification_version": "qualification-v1",
+    "qualification_score": 70,
+    "tier": "STRONG",
+    "qualification_coverage": 100.0,
+    "lifecycle_stage": "diagnostic_complete",
+    "primary_route": "digital-platforms-brand",
+    "buyer": {
+      "name": "Lékó Péter",
+      "role": "Értékesítési vezető",
+      "role_translation": "Sales Manager",
+      "signing_authority": "exhausted_unknown"
+    },
+    "diagnostic_id": "client-audit:premierfm.hu:2026-08-11",
+    "diagnostic_status": "complete",
+    "valid_approval_packet_id": null,
+    "superseded_pre_gate_artifacts_remain_non_executable": true
+  },
+  "significance_decision": {
+    "classification": "trivial_frontend_and_crawler_text_defect",
+    "commercially_material": false,
+    "reason": "All five intended KPI values are present in the homepage source as counter data and render visibly for a normal JavaScript-enabled visitor. Their absence from static or indexed text is a technical accessibility defect, but it does not remove the metrics from the human buyer journey. No evidence establishes lost enquiries, buyer distrust or a wider KPI inconsistency."
+  },
+  "evidence": [
+    {
+      "id": "pfm-sig-001",
+      "status": "verified",
+      "claim": "The homepage source contains five counter values: 20 years of operating experience, 130 thousand square metres managed, 1,000 occasional engagements, 800 satisfied clients and 120 subcontractors.",
+      "method": "Read-only live HTML inspection of Kadence count-up elements and their data-end attributes.",
+      "source": "https://premierfm.hu/",
+      "observed_at": "2026-08-11"
+    },
+    {
+      "id": "pfm-sig-002",
+      "status": "verified",
+      "claim": "After JavaScript execution, all five counters are visible and populated with the same values in a rendered browser.",
+      "method": "Read-only rendered DOM check after page load; no interaction or form submission.",
+      "source": "https://premierfm.hu/",
+      "observed_at": "2026-08-11"
+    },
+    {
+      "id": "pfm-sig-003",
+      "status": "verified",
+      "claim": "Static and indexed text exposes the five labels without the numbers because each counter's text node is initially empty and is populated by JavaScript.",
+      "method": "Live HTML inspection plus current search-rendered page text.",
+      "source": "https://premierfm.hu/",
+      "observed_at": "2026-08-11"
+    },
+    {
+      "id": "pfm-sig-004",
+      "status": "observed",
+      "claim": "The homepage and services page expose no client references, testimonial text, certification detail or external proof links in the sampled rendered content.",
+      "method": "Read-only rendered DOM inspection of the homepage and services page.",
+      "sources": ["https://premierfm.hu/", "https://premierfm.hu/szolgaltatasok/"],
+      "observed_at": "2026-08-11",
+      "limitation": "This is a bounded two-page observation and is not proof that Premier lacks offline references, client evidence or certifications."
+    },
+    {
+      "id": "pfm-sig-005",
+      "status": "observed",
+      "claim": "The site identifies Premier Facility Management Team and Otthonbiztonságban.hu Kft. together in the footer and publishes the legal entity on the services and contact surfaces.",
+      "method": "Read-only rendered DOM and indexed-page review.",
+      "sources": ["https://premierfm.hu/", "https://premierfm.hu/szolgaltatasok/", "https://premierfm.hu/kapcsolat/"],
+      "observed_at": "2026-08-11",
+      "interpretation": "The relationship could be explained more explicitly, but the sampled evidence does not support treating it as a material inconsistency."
+    }
+  ],
+  "commercial_decision": {
+    "kpi_offer_basis": "rejected",
+    "offer_strategist_invoked": false,
+    "reason_offer_strategist_not_invoked": "The KPI issue failed the significance gate. The remaining approved findings do not establish a sufficiently material, bounded problem to justify an offer.",
+    "alternative_offer_basis": "rejected",
+    "alternative_assessment": "Limited third-party credibility proof is a real observation, but it is generic and does not show that Premier has usable proof ready to publish, a current buying trigger, or a commercially meaningful loss. The brand-to-legal-entity presentation is identifiable on the site and is not strong enough on its own.",
+    "commercial_preparation_status": "hold_no_material_offer",
+    "offer_selected": null
+  },
+  "artifact_decision": {
+    "create_one_page_artifact": false,
+    "reason": "A one-page artifact would magnify a minor rendering-accessibility defect or restate a generic proof absence. It would not materially strengthen responsible outreach."
+  },
+  "proposed_short_outreach": null,
+  "outreach_justified": false,
+  "exact_next_action": "Keep Premier FM at diagnostic_complete with commercial_preparation_status hold_no_material_offer. Reopen only when fresh evidence establishes a substantive trust or conversion problem, a real buying signal, or supportable proof content that Premier is positioned to activate.",
+  "source_snapshots": [
+    {
+      "path": "operations/internal-gtm/runs/diagnostics/premier-fm-client-audit-2026-08-11.json",
+      "sha256": "2cbc8c00dbce215c9819a4e5372e021e95ae3116b8a724668ac88cc60bb0e84f"
+    },
+    {
+      "path": "operations/internal-gtm/runs/evidence-audits/premier-fm-client-audit-evidence-2026-08-11.json",
+      "sha256": "c284b066b9f363a72dde10b66c3aca68096abf6ceabdd75ef60028ecc192e1e3"
+    },
+    {
+      "path": "operations/internal-gtm/runs/qualifications/premier-fm-qualification-v1-reconciled-2026-08-11.json",
+      "sha256": "c5ef0b1fd013184ff641ff63bfbccce34ce3b1700d2303ce178cc0dd88036490"
+    }
+  ],
+  "state_effect": {
+    "lifecycle_before": "diagnostic_complete",
+    "lifecycle_after": "diagnostic_complete",
+    "transition_written": false,
+    "offer_selected": false,
+    "outreach_prepared": false,
+    "awaiting_approval": false,
+    "approval_packet_created": false,
+    "crm_mutation": false,
+    "external_action_authorized": false
+  },
+  "control_lock_id": "746c303acc3c"
+}

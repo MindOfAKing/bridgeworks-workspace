@@ -1,0 +1,4 @@
+interface:
+  display_name: "Buyer Intelligence"
+  short_description: "Research decision authority and buyer access"
+  default_prompt: "Use $buyer-intelligence to map publicly supported buyer roles and contact routes."

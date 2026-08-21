@@ -1,0 +1,152 @@
+{
+  "_stage": "stage_2_targeted_enrichment",
+  "_produced_by": "Claude Code acting as the Commercial Intelligence and Buyer Intelligence runtime, 2026-08-11. Public web only, free tier. No paid enrichment, no contact.",
+  "prospect_id": "premier-fm",
+  "company": "Premier FM",
+  "as_of": "2026-08-11",
+  "commercial_intelligence": {
+    "capability": "bridgeworks-commercial-intelligence",
+    "findings": [
+      {
+        "id": "ci-premier-legal-entity",
+        "category": "commercial_fit",
+        "claim_key": "legal_entity_identity",
+        "claim": "The trading name Premier FM is operated by Otthonbiztonsagban.hu Kft., tax number 26381183-2-07, registered at 8000 Szekesfehervar, Horvat Istvan lakotelep 3. fszt.",
+        "value": "otthonbiztonsagban_hu_kft",
+        "severity": "none",
+        "source": "https://premierfm.hu/kapcsolat/",
+        "observed_at": "2026-08-11",
+        "status": "verified",
+        "tool": "public_web"
+      },
+      {
+        "id": "ci-premier-scale-unpublished",
+        "category": "commercial_fit",
+        "claim_key": "published_company_scale",
+        "claim": "The homepage publishes counter labels for years of experience, operated area, assignments, satisfied clients and subcontractors, and every one appears without a numeric value. No employee count and no client count is published anywhere on the site.",
+        "value": "no_published_scale_figures",
+        "severity": "none",
+        "source": "https://premierfm.hu/",
+        "observed_at": "2026-08-11",
+        "status": "verified",
+        "tool": "public_web"
+      },
+      {
+        "id": "ci-premier-named-staff",
+        "category": "execution_readiness",
+        "claim_key": "named_operating_staff",
+        "claim": "Two operating staff are published with direct phone numbers and direct email addresses: a Facility manager and an Ertekesitesi vezeto.",
+        "value": 2,
+        "severity": "none",
+        "source": "https://premierfm.hu/kapcsolat/",
+        "observed_at": "2026-08-11",
+        "status": "verified",
+        "tool": "public_web"
+      },
+      {
+        "id": "ci-premier-location",
+        "category": "commercial_fit",
+        "claim_key": "operating_location",
+        "claim": "The single published address is in Szekesfehervar, not Budapest. No second location is published.",
+        "value": "szekesfehervar_single_location",
+        "severity": "none",
+        "source": "https://premierfm.hu/kapcsolat/",
+        "observed_at": "2026-08-11",
+        "status": "verified",
+        "tool": "public_web"
+      }
+    ],
+    "commercial_value_band": {
+      "low": null,
+      "high": null,
+      "currency": null,
+      "basis": null,
+      "confidence": "none",
+      "why_null": "No price, no contract value, no client count and no headcount is published. There is no published quantity to multiply. A band here would be a fabrication with a number attached."
+    },
+    "procurement_complexity": "low",
+    "procurement_basis": "Two named staff with direct addresses and no published procurement policy or tender history. A decision here is very likely one or two people.",
+    "engagement_size_fit": "plausible",
+    "engagement_size_basis": "A Hungarian Kft with two published operating staff and a single location is the size BridgeWorks has actually delivered for. Oliviks was smaller; CEEFM was comparable.",
+    "unresolved_questions": [
+      "Headcount and turnover band from the Hungarian company register, which was not queried in this pass.",
+      "Whether the missing KPI counter values are a rendering fault or were never populated. That changes whether the observed gap is a five-minute fix or a proof problem."
+    ]
+  },
+  "buyer_intelligence": {
+    "capability": "bridgeworks-buyer-intelligence",
+    "roles": {
+      "problem_owner": {
+        "person": "Ertekesitesi vezeto",
+        "title": "Ertekesitesi vezeto, sales director",
+        "evidence_id": "bi-premier-sales-lead",
+        "attribution_confidence": "high",
+        "why": "The observed problem is credibility proof immediately before the quote route. The sales director owns the quote route."
+      },
+      "budget_owner": {
+        "person": null,
+        "title": null,
+        "evidence_id": null,
+        "attribution_confidence": "none",
+        "why": "No signing authority is published. In a Kft this size it is plausibly the managing director, but plausible is not evidence."
+      },
+      "decision_maker": {
+        "person": null,
+        "title": null,
+        "evidence_id": null,
+        "attribution_confidence": "none",
+        "why": "No managing director or owner is named anywhere on the site."
+      },
+      "champion": {
+        "person": "Ertekesitesi vezeto",
+        "title": "Ertekesitesi vezeto",
+        "evidence_id": "bi-premier-sales-lead",
+        "attribution_confidence": "medium",
+        "why": "Publishes a direct line and a direct address, so is the person exposed to lost enquiries."
+      },
+      "blocker": {
+        "person": null,
+        "title": null,
+        "evidence_id": null,
+        "attribution_confidence": "none",
+        "why": "No incumbent supplier or in-house team is evidenced."
+      }
+    },
+    "contact_route": {
+      "destination": "leko.peter@premierfm.hu",
+      "destination_type": "role_specific",
+      "source": "https://premierfm.hu/kapcsolat/",
+      "lawful_basis_note": "Role-specific business address published by the company on its own contact page."
+    },
+    "findings": [
+      {
+        "id": "bi-premier-sales-lead",
+        "category": "buyer_accessibility",
+        "claim_key": "sales_lead_identity",
+        "claim": "An Ertekesitesi vezeto is published on the contact page with a direct business email and a direct phone number.",
+        "value": "role_specific_route_published",
+        "severity": "none",
+        "source": "https://premierfm.hu/kapcsolat/",
+        "observed_at": "2026-08-11",
+        "status": "verified",
+        "tool": "public_web"
+      },
+      {
+        "id": "bi-premier-no-md",
+        "category": "buyer_accessibility",
+        "claim_key": "managing_director_identity",
+        "claim": "No managing director, owner or signing authority is published on the site.",
+        "value": "not_published",
+        "severity": "none",
+        "source": "https://premierfm.hu/kapcsolat/",
+        "observed_at": "2026-08-11",
+        "status": "verified",
+        "tool": "public_web"
+      }
+    ],
+    "unresolved_questions": [
+      "The managing director is on the Hungarian company register under tax number 26381183-2-07. That register was not queried in this pass."
+    ]
+  },
+  "external_action_authorized": false
+}

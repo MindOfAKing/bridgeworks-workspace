@@ -1,0 +1,12 @@
+{
+  "reviewed_at": "2026-08-11",
+  "activated_internal_capabilities": [
+    "bridgeworks-ai-workflow-scan",
+    "bridgeworks-geo-prospect-scan",
+    "bridgeworks-lead-qualifier",
+    "bridgeworks-prospect-router",
+    "bridgeworks-revenue-system-scan"
+  ],
+  "external_or_unreviewed_new_capabilities_activated": [],
+  "authority": "Phase 3 explicit capability-registry authorization"
+}

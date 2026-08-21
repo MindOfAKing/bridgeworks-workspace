@@ -1,0 +1,318 @@
+{
+  "schema_version": 2,
+  "batch_id": "2026-08-11-batch-01",
+  "completed_at": "2026-08-11T07:31:00+00:00",
+  "prospects": [
+    {
+      "prospect_id": "arc-solutions-limited",
+      "company": "Arc Solutions Limited",
+      "checked_at": "2026-08-11T07:31:00+00:00",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.arcsolutionslimited.com/work/facility-management",
+          "accessed_at": "2026-08-11",
+          "supports": "Owned facility-management page lists Lagos, Abuja, Abeokuta, Enugu, and Port Harcourt coverage, 15+ years experience, 24/7 emergency response, 15-30% savings and 99%+ uptime claims, Get a Free Quote CTAs, public phones, and info@arcsolutionslimited.com. The visible navigation renders SPOTA AI as split text near the commercial CTA."
+        },
+        {
+          "url": "https://www.arcsolutionslimited.com/contact",
+          "accessed_at": "2026-08-11",
+          "supports": "Owned contact page lists quote copy, Send Enquiry, +234 806 248 1004, +234 802 640 1777, info@arcsolutionslimited.com, multiple service-area locations, and repeats the SPOTA AI navigation residue."
+        }
+      ],
+      "owned_domain": "arcsolutionslimited.com is the current owned domain checked in this run.",
+      "conversion_route": "The site provides Get a Free Quote/Get Quote CTAs, a Send Enquiry route, public phone routes, and info@arcsolutionslimited.com. No form, draft, phone action, or message was created.",
+      "decision_maker": "No named decision-maker or responsible operating owner was verified from public sources in this run.",
+      "contact_route": "Primary preparation route: email to info@arcsolutionslimited.com. Secondary public route: quote/contact page.",
+      "observations": [
+        "Arc Solutions has a current commercial route and concrete facility-management claims, including 24/7 support, multi-city coverage, 15+ years experience, savings, and uptime proof claims.",
+        "The buyer route has current trust friction because the main navigation exposes SPOTA AI as split/residue text immediately near Get Quote/Get Free Quote, which is visible on both the service and contact pages."
+      ],
+      "recommended_angle": "Use a concise quote-route QA and credibility-friction review tied to the visible SPOTA AI navigation residue near the enquiry path.",
+      "evidence_notes": "Local artifact search found this prospect only in the August 10 import/source and August 11 prepared batch. HubSpot exact-domain and exact-email searches returned zero matches. Gmail all-mail, sent-mail, and visible draft checks returned no selected-domain matches.",
+      "outreach_readiness": "ready",
+      "commercial_gap": "Arc Solutions asks facility-management buyers to request a quote, but the current navigation exposes stray SPOTA AI text beside the quote route, creating avoidable credibility friction on a high-intent page.",
+      "proof_to_use": "BridgeWorks quote-route and public-page QA review.",
+      "proposed_channel": "email",
+      "proposed_destination": "info@arcsolutionslimited.com",
+      "draft_subject": "Arc Solutions quote-route QA note",
+      "draft_body": "Hello Arc Solutions team, I reviewed the public facility-management quote path and noticed stray SPOTA AI navigation text showing beside the Get Quote route on the service and contact pages. I mapped a short page-QA note showing where that trust friction appears before a buyer sends an enquiry. Would it be useful if I sent the two-page version for review?",
+      "next_internal_action": "Prepare one approval-gated email action only. Do not create a Gmail draft, submit the enquiry route, or send unless Emmanuel approves the exact recipient, subject, and body.",
+      "risk_notes": "No exact HubSpot or Gmail duplicate was found. No personal recipient was verified, so use only the public company route."
+    },
+    {
+      "prospect_id": "geneto-facility-management-company",
+      "company": "Geneto Facility Management Company",
+      "checked_at": "2026-08-11T07:31:00+00:00",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://genetofmc.com/",
+          "accessed_at": "2026-08-11",
+          "supports": "Owned homepage/search-rendered page lists professional facility management for estates, apartments, and commercial buildings in Lagos, 4+ years since 2021, SCUML compliance, 24/7 support, Request Facility Assessment, public address, 08038961824, info@genetofmc.com, managed estates, and a Send Message form."
+        },
+        {
+          "url": "https://genetofmc.com/",
+          "accessed_at": "2026-08-11",
+          "supports": "The same current page lists detailed service sections for power, water, waste, lift/elevator, cleaning, security, and maintenance. In the visible indexed text, the Water Management area is followed by cleaning-service responsibilities, creating service-proof/category confusion."
+        }
+      ],
+      "owned_domain": "genetofmc.com is the current owned domain checked in this run.",
+      "conversion_route": "The site provides Contact Us, Request Facility Assessment, Contact Our Team, a Send Message form, phone, address, and info@genetofmc.com. No form, draft, or message was created.",
+      "decision_maker": "No named decision-maker or responsible operating owner was verified from public sources in this run.",
+      "contact_route": "Primary preparation route: email to info@genetofmc.com. Secondary public route: facility-assessment/contact form.",
+      "observations": [
+        "Geneto verifies a current Lagos estate/commercial FM offer with 24/7 support, SCUML compliance, named managed estates, public email, phone, and a facility-assessment route.",
+        "The commercial proof is specific enough to use, but the service page text appears to mix category responsibilities, including cleaning-service duties under the Water Management flow, which can weaken trust before an estate owner requests assessment."
+      ],
+      "recommended_angle": "Use a facility-assessment route and service-proof clarity review tied to category confusion on the current page.",
+      "evidence_notes": "Local artifact search found this prospect only in the August 10 import/source and August 11 prepared batch. HubSpot exact-domain and exact-email searches returned zero matches. Gmail all-mail, sent-mail, and visible draft checks returned no selected-domain matches.",
+      "outreach_readiness": "ready",
+      "commercial_gap": "Geneto has a live facility-assessment route and public estate proof, but service-category text appears confused around water/cleaning responsibilities, which can reduce buyer confidence before an estate owner asks for an assessment.",
+      "proof_to_use": "BridgeWorks facility-assessment route and credibility-proof review.",
+      "proposed_channel": "email",
+      "proposed_destination": "info@genetofmc.com",
+      "draft_subject": "Geneto facility-assessment page check",
+      "draft_body": "Hello Geneto team, I reviewed the public facility-assessment path and noticed the service proof is strong, but one service section appears to mix water-management and cleaning responsibilities in the buyer journey. I mapped a short clarity check showing the exact page friction before an estate owner requests assessment. Would it be useful if I sent the two-page version for review?",
+      "next_internal_action": "Prepare one approval-gated email action only. Do not create a Gmail draft, submit the contact form, or send unless Emmanuel approves the exact recipient, subject, and body.",
+      "risk_notes": "No exact HubSpot or Gmail duplicate was found. Use the public company email route because no named responsible owner was verified."
+    },
+    {
+      "prospect_id": "greenleaf-engineering",
+      "company": "Greenleaf Engineering",
+      "checked_at": "2026-08-11T07:31:00+00:00",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://greenleaf.com.ng/location/",
+          "accessed_at": "2026-08-11",
+          "supports": "Owned contact page lists A1 Unity Close, Daily Need Lane, Matori, Mushin, Lagos, +2349044614188 in the header, info@greenleaf.ng, Start Project, contact form fields, and FAQ copy explaining facility assessment and service proposals."
+        },
+        {
+          "url": "https://greenleaf.com.ng/location/",
+          "accessed_at": "2026-08-11",
+          "supports": "The same page footer lists +234904461418 without the final 8, repeats address and info@greenleaf.ng, says Ready to start your next project/Get a Quote, and carries a 2025 copyright."
+        }
+      ],
+      "owned_domain": "greenleaf.com.ng is the current owned domain checked in this run; the verified contact email uses greenleaf.ng.",
+      "conversion_route": "The site provides Start Project, Get a Quote, contact form fields, phone, and info@greenleaf.ng. No form, draft, phone action, or message was created.",
+      "decision_maker": "No named decision-maker or responsible operating owner was verified from public sources in this run.",
+      "contact_route": "Primary preparation route: email to info@greenleaf.ng. Secondary public route: contact form on the owned contact page.",
+      "observations": [
+        "Greenleaf verifies a current facility-assessment/service-proposal route with integrated FM, hard FM, soft FM, maintenance, cleaning, security coordination, and nationwide service claims.",
+        "The current contact page contains a concrete route inconsistency: the header/contact block shows +2349044614188, while the footer shows +234904461418, so a buyer sees two different phone values around the enquiry path."
+      ],
+      "recommended_angle": "Use a contact-route QA and service-proposal clarity review tied to the mismatched phone route.",
+      "evidence_notes": "Local artifact search found this prospect only in the August 10 import/source and August 11 prepared batch. HubSpot exact-domain and exact-email searches returned zero matches. Gmail all-mail, sent-mail, and visible draft checks returned no selected-domain matches.",
+      "outreach_readiness": "ready",
+      "commercial_gap": "Greenleaf asks facility buyers to request assessment or a proposal, but the current contact page shows conflicting phone numbers around the enquiry route, creating a clear contact-trust risk.",
+      "proof_to_use": "BridgeWorks contact-route QA and service-proposal clarity review.",
+      "proposed_channel": "email",
+      "proposed_destination": "info@greenleaf.ng",
+      "draft_subject": "Greenleaf contact-route QA note",
+      "draft_body": "Hello Greenleaf team, I reviewed the public contact and service-proposal path and noticed the phone route appears differently in the header/contact block and footer. I mapped a short contact-route QA note showing the exact mismatch a facilities buyer sees before requesting an assessment. Would it be useful if I sent the two-page version for review?",
+      "next_internal_action": "Prepare one approval-gated email action only. Do not create a Gmail draft, submit the form, or send unless Emmanuel approves the exact recipient, subject, and body.",
+      "risk_notes": "No exact HubSpot or Gmail duplicate was found. Do not call either phone number; use only the public email route for approval preparation."
+    },
+    {
+      "prospect_id": "eloria-consult",
+      "company": "Eloria Consult",
+      "checked_at": "2026-08-11T07:31:00+00:00",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.eloriaconsult.com/",
+          "accessed_at": "2026-08-11",
+          "supports": "Owned homepage lists Lagos/Abuja hospitality consulting, facility management, interior design, procurement, Book Consultation/Schedule a Consultation CTAs, selected projects, 200+ projects delivered, 24-hour response time, and director Obianuju Daisy Odukoya FIMC."
+        },
+        {
+          "url": "https://www.eloriaconsult.com/",
+          "accessed_at": "2026-08-11",
+          "supports": "The same page renders info@eloriaconsult.com+234 803 467 7077 as concatenated text near the director and footer contact blocks, includes IGLIX footer/template text, and renders Privacy PolicyTerms of Use without spacing."
+        }
+      ],
+      "owned_domain": "eloriaconsult.com is the current owned domain checked in this run.",
+      "conversion_route": "The site provides Book Consultation/Schedule a Consultation routes, public director block, info@eloriaconsult.com, and +234 803 467 7077. No consultation route, draft, phone action, or message was created.",
+      "decision_maker": "Obianuju Daisy Odukoya, FIMC is publicly listed on the owned site as Director, Eloria Consult.",
+      "contact_route": "Primary preparation route: email to info@eloriaconsult.com.",
+      "observations": [
+        "Eloria verifies a premium hospitality/facility-management consultancy offer with named leadership, Lagos/Abuja coverage, consultation CTAs, project examples, response-time and project-count proof.",
+        "The current page has credibility friction on a high-trust service route: the email and phone are concatenated in the director/footer areas and unrelated IGLIX footer text appears near the commercial footer."
+      ],
+      "recommended_angle": "Use a premium-service contact-route and credibility-polish review tied to the visible rendering/template residue.",
+      "evidence_notes": "Local artifact search found this prospect only in the August 10 import/source and August 11 prepared batch. HubSpot exact-domain and exact-email searches returned zero matches. Gmail all-mail, sent-mail, and visible draft checks returned no selected-domain matches.",
+      "outreach_readiness": "ready",
+      "commercial_gap": "Eloria sells high-trust hospitality and facility-management consulting, but its current consultation path exposes concatenated contact details and footer/template residue, weakening polish at the point where premium buyers decide whether to book.",
+      "proof_to_use": "BridgeWorks premium-service contact-route and credibility polish review.",
+      "proposed_channel": "email",
+      "proposed_destination": "info@eloriaconsult.com",
+      "draft_subject": "Eloria consultation-route polish note",
+      "draft_body": "Hello Daisy, I reviewed Eloria Consult's public consultation path and noticed the email and phone render as one concatenated string, with a small footer/template residue near the contact area. I mapped a short credibility-polish note showing what a premium hospitality or facility buyer sees before booking. Would it be useful if I sent the two-page version for review?",
+      "next_internal_action": "Prepare one approval-gated email action only. Do not create a Gmail draft, book a consultation, or send unless Emmanuel approves the exact recipient, subject, and body.",
+      "risk_notes": "No exact HubSpot or Gmail duplicate was found. The greeting uses the public named director, but the route remains the public info address."
+    },
+    {
+      "prospect_id": "green-facilities-limited",
+      "company": "Green Facilities Limited",
+      "checked_at": "2026-08-11T07:31:00+00:00",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://greenfacilitiesltd.com/",
+          "accessed_at": "2026-08-11",
+          "supports": "Owned homepage/search-rendered page lists Green Facilities as an indigenous Lagos FM company, public hotline 08060009599, info@greenfacilitiesltd.com, services, client logos, Let us Discuss Your Project Today CTA, and named team members including Tope Bukola Ojo and Oluyemisi Osunkoya."
+        },
+        {
+          "url": "https://greenfacilitiesltd.com/about/",
+          "accessed_at": "2026-08-11",
+          "supports": "Owned about page lists incorporation in September 2011, facilities/project/real-estate service positioning, Tope Bukola Ojo as Director, Oluyemisi Osunkoya under COPERATE SERVICES, and duplicated Mon-Fri/Support Mail footer text."
+        },
+        {
+          "url": "https://greenfacilitiesltd.com/contact/",
+          "accessed_at": "2026-08-11",
+          "supports": "Owned contact page lists info@greenfacilitiesltd.com, +234(0)8090650913, 5B Samuel Adedoyin Street, a Send Us A Message form, and duplicated Mon-Fri/Support Mail footer contact blocks."
+        }
+      ],
+      "owned_domain": "greenfacilitiesltd.com is the current owned domain checked in this run.",
+      "conversion_route": "The site provides Let us Discuss Your Project Today, Contact Us, a Send Us A Message form, public phone routes, and info@greenfacilitiesltd.com. No form, draft, phone action, or message was created.",
+      "decision_maker": "Tope Bukola Ojo is publicly listed as Director on the owned site; Oluyemisi Osunkoya is publicly listed under corporate-services text, rendered as COPERATE SERVICES.",
+      "contact_route": "Primary preparation route: email to info@greenfacilitiesltd.com.",
+      "observations": [
+        "Green Facilities verifies an established indigenous FM company with client logos, named team members, public phone/email, office address, and a project-discussion route.",
+        "The current buyer route has concrete credibility friction: COPERATE SERVICES is misspelled on team/about content and duplicated Mon-Fri/Support Mail footer blocks appear across commercial pages."
+      ],
+      "recommended_angle": "Use a credibility-proof and contact-route QA review tied to visible copy/role-label and duplicated footer issues.",
+      "evidence_notes": "Local artifact search found this prospect only in the August 10 import/source and August 11 prepared batch. HubSpot exact-domain and exact-email searches returned zero matches. Gmail all-mail, sent-mail, and visible draft checks returned no selected-domain matches.",
+      "outreach_readiness": "ready",
+      "commercial_gap": "Green Facilities has client proof and a project-discussion route, but current public pages show role-label misspelling and repeated footer contact blocks, creating avoidable credibility friction for buyers assessing a facilities partner.",
+      "proof_to_use": "BridgeWorks credibility-proof and contact-route QA review.",
+      "proposed_channel": "email",
+      "proposed_destination": "info@greenfacilitiesltd.com",
+      "draft_subject": "Green Facilities public-page QA note",
+      "draft_body": "Hello Green Facilities team, I reviewed the public project-discussion path and noticed a few credibility-friction details around the team role label and repeated footer contact blocks. I mapped a short public-page QA note showing where these issues appear before a buyer sends an enquiry. Would it be useful if I sent the two-page version for Tope or the team to review?",
+      "next_internal_action": "Prepare one approval-gated email action only. Do not create a Gmail draft, submit the form, or send unless Emmanuel approves the exact recipient, subject, and body.",
+      "risk_notes": "No exact HubSpot or Gmail duplicate was found. Use public company email only; do not assume Tope's direct inbox."
+    },
+    {
+      "prospect_id": "intamaco-nigeria-limited",
+      "company": "INTAMACO Nigeria Limited",
+      "checked_at": "2026-08-11T07:31:00+00:00",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://intamaco.com/index.php",
+          "accessed_at": "2026-08-11",
+          "supports": "Owned homepage lists design-led construction and facility solutions, request-consultation CTAs, facility management, data centre solutions, office-space solutions, project examples, info@intamaco.com, two public phone numbers, and a Latest News area that says No Posts."
+        },
+        {
+          "url": "https://intamaco.com/contact",
+          "accessed_at": "2026-08-11",
+          "supports": "Owned contact page lists Contact Now, Get in Touch, Send, Lagos address, +234 (0) 8023-342-994, +234 (0) 8037-592-397, info@intamaco.com, and a footer contact block with phone numbers and SIGN UP."
+        }
+      ],
+      "owned_domain": "intamaco.com is the current owned domain checked in this run.",
+      "conversion_route": "The site provides Request Consultation/Contact Now, a Get in Touch/Send route, public phone routes, and info@intamaco.com. No form, draft, phone action, or message was created.",
+      "decision_maker": "No named decision-maker or responsible operating owner was verified from public sources in this run.",
+      "contact_route": "Public company route: info@intamaco.com and the contact page.",
+      "observations": [
+        "INTAMACO verifies the company, owned domain, construction/facility-management positioning, consultation route, project examples, address, phone numbers, and email.",
+        "The possible issue is current but weak as an outreach trigger: Latest News shows No Posts and contact/footer hierarchy is uneven, but the quote/consultation path and contact email are still findable."
+      ],
+      "recommended_angle": "Hold until a sharper commercial trigger is verified; current route polish alone is not enough for an approval-ready action.",
+      "evidence_notes": "Local artifact search found this prospect only in the August 10 import/source and August 11 prepared batch. HubSpot exact-domain and exact-email searches returned zero matches. Gmail all-mail, sent-mail, and visible draft checks returned no selected-domain matches.",
+      "outreach_readiness": "needs_more_evidence",
+      "commercial_gap": "",
+      "proof_to_use": "",
+      "proposed_channel": "",
+      "proposed_destination": "",
+      "draft_subject": "",
+      "draft_body": "",
+      "next_internal_action": "Find a current INTAMACO commercial trigger such as an active project, hiring, tender, service expansion, or measurable consultation-route failure before preparing external copy.",
+      "risk_notes": "No exact HubSpot or Gmail duplicate was found. Do not use No Posts or uneven footer hierarchy alone as a commercial gap."
+    },
+    {
+      "prospect_id": "provast-limited",
+      "company": "Provast Limited",
+      "checked_at": "2026-08-11T07:31:00+00:00",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://provastltd.com/",
+          "accessed_at": "2026-08-11",
+          "supports": "Owned homepage lists Provast as a Nigerian facilities/building-maintenance business established in 1997, services for residential, commercial and industrial sectors, facility/building maintenance, property management, +234 818 070 2290, info@provastltd.com, and 9 Macgregor Road, Ikoyi, Lagos."
+        },
+        {
+          "url": "https://provastltd.com/",
+          "accessed_at": "2026-08-11",
+          "supports": "The same current homepage exposes a Facility Management Tit Bits/news area with July 2026 posts unrelated to Provast's services, including Qwen PC/NPU, WinUtilities activated, Topaz AI cracked, Mafia game crack, and Microsoft Office EXE titles."
+        },
+        {
+          "url": "https://provastltd.com/contact-us/",
+          "accessed_at": "2026-08-11",
+          "supports": "Owned contact page lists service enquiry copy, Submit Request, +234 818 070 2290, info@provastltd.com, and 9 Macgregor Road, Ikoyi, Lagos."
+        }
+      ],
+      "owned_domain": "provastltd.com is the current owned domain checked in this run.",
+      "conversion_route": "The site provides Contact, Submit Request, public phone, and info@provastltd.com. No form, draft, phone action, or message was created.",
+      "decision_maker": "No named decision-maker or responsible operating owner was verified from public sources in this run.",
+      "contact_route": "Primary preparation route: email to info@provastltd.com. Secondary public route: contact form/Submit Request.",
+      "observations": [
+        "Provast verifies a long-standing FM/building-maintenance company with three decades of experience, residential/commercial/industrial services, contact page, phone, email, and Ikoyi address.",
+        "The commercial trust gap is strong and current: its homepage news area includes July 2026 software/crack/game-download titles that are unrelated to facilities management and could indicate public-site compromise or spam contamination."
+      ],
+      "recommended_angle": "Use a public-site credibility-risk and trust-repair review tied to the suspicious news/blog content.",
+      "evidence_notes": "Local artifact search found this prospect only in the August 10 import/source and August 11 prepared batch. HubSpot exact-domain and exact-email searches returned zero matches. Gmail all-mail, sent-mail, and visible draft checks returned no selected-domain matches.",
+      "outreach_readiness": "ready",
+      "commercial_gap": "Provast's commercial homepage presents credible FM/building-maintenance services, but the same page exposes unrelated July 2026 cracked-software and game-download article titles, creating a material public trust and site-integrity risk.",
+      "proof_to_use": "BridgeWorks credibility-risk and public-site trust repair review.",
+      "proposed_channel": "email",
+      "proposed_destination": "info@provastltd.com",
+      "draft_subject": "Provast public-site trust issue",
+      "draft_body": "Hello Provast team, I reviewed the public facilities-management site and noticed the homepage news area is showing unrelated July 2026 software and game-download article titles. I mapped a short trust-risk note showing the exact public pages and why this matters before buyers submit an enquiry. Would it be useful if I sent the two-page version for review?",
+      "next_internal_action": "Prepare one approval-gated email action only. Do not create a Gmail draft, submit the contact form, or send unless Emmanuel approves the exact recipient, subject, and body.",
+      "risk_notes": "No exact HubSpot or Gmail duplicate was found. Phrase this as public-site risk, not confirmed compromise, unless a technical audit is approved."
+    },
+    {
+      "prospect_id": "safe-facilities-management-limited",
+      "company": "SAFE Facilities Management Limited",
+      "checked_at": "2026-08-11T07:31:00+00:00",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://safefacilitiesng.com/contact",
+          "accessed_at": "2026-08-11",
+          "supports": "Owned contact page/search-rendered page lists +234 0802 458 6699, Monday-Friday hours, info@safefm.ng, 24/7 emergency support, contact form, consultation booking, proprietary SAFE APP/service monitoring claim, and Lagos office address."
+        },
+        {
+          "url": "https://safefacilitiesng.com/",
+          "accessed_at": "2026-08-11",
+          "supports": "Owned homepage/search-rendered page lists testimonials, Send message form, phone/email/office routes, emergency support, info@safefm.ng, services, industries, and 24/7 Emergency Contact."
+        },
+        {
+          "url": "https://safefacilitiesng.com/terms-of-service",
+          "accessed_at": "2026-08-11",
+          "supports": "Terms page identifies SAFE Facilities Management Limited, lists legal@safefm.ng and a masked +234 803 XXX XXXX phone in the terms body, while the footer repeats +234 0802 458 6699 and info@safefm.ng."
+        }
+      ],
+      "owned_domain": "safefacilitiesng.com is the current owned domain checked in this run; the verified email domain is safefm.ng.",
+      "conversion_route": "The site provides Send message, Book Consultation, Emergency Contact, public phone, and info@safefm.ng. No form, consultation booking, phone action, or message was created.",
+      "decision_maker": "No named decision-maker or responsible operating owner was verified from public sources in this run.",
+      "contact_route": "Public company route: info@safefm.ng and the contact page.",
+      "observations": [
+        "SAFE verifies a current facilities-management offer with contact form, consultation booking, emergency support, public phone/email, Lagos office, services, industries, and testimonials.",
+        "There are route/proof inconsistencies worth watching, including SAFE APP proof without a visible supporting destination and masked legal phone details in terms, but the main buyer contact path remains clear enough to avoid outreach on weak evidence."
+      ],
+      "recommended_angle": "Hold until a stronger current commercial gap is verified around emergency/consultation routing or SAFE APP proof.",
+      "evidence_notes": "Local artifact search found this prospect only in the August 10 import/source and August 11 prepared batch. HubSpot exact-domain and exact-email searches returned zero matches. Gmail all-mail, sent-mail, and visible draft checks returned no selected-domain matches.",
+      "outreach_readiness": "needs_more_evidence",
+      "commercial_gap": "",
+      "proof_to_use": "",
+      "proposed_channel": "",
+      "proposed_destination": "",
+      "draft_subject": "",
+      "draft_body": "",
+      "next_internal_action": "Verify whether Book Consultation, Emergency Contact, and SAFE APP/service-monitoring routes have concrete current failure or missing proof before preparing external copy.",
+      "risk_notes": "No exact HubSpot or Gmail duplicate was found. Do not use the emergency route, consultation button, or form without explicit approval."
+    }
+  ]
+}

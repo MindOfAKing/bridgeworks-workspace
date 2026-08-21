@@ -1,0 +1,116 @@
+{
+  "checked_at": "2026-08-11",
+  "account": "bridgeworks",
+  "read_only": true,
+  "query_scope": "Exact known destination addresses; SENT and DRAFT labels inspected. No inbound reply was observed in the returned threads.",
+  "summary": {
+    "contacted_companies": 10,
+    "sent_messages": 19,
+    "draft_messages": 7,
+    "inbound_replies_observed": 0
+  },
+  "records": [
+    {
+      "company": "Managerent",
+      "canonical_domain": "managerent.hu",
+      "destination": "info@managerent.hu",
+      "sent_message_ids": ["19fbbe41b091af5b", "19ef5dd74e105f4e"],
+      "gmail_thread_ids": ["19ef5cb9348d5278"],
+      "latest_sent_at": "2026-08-01T05:55:16Z",
+      "draft_message_ids": [],
+      "reply_state": "no_inbound_observed"
+    },
+    {
+      "company": "A+ Real Estate",
+      "canonical_domain": "aplusproperty.hu",
+      "destination": "info@aplusproperty.hu",
+      "sent_message_ids": ["19fbbe43d5e53f8d", "19ef5daed0f1afc1"],
+      "gmail_thread_ids": ["19ef5cb9419fabdb"],
+      "latest_sent_at": "2026-08-01T05:55:25Z",
+      "draft_message_ids": [],
+      "reply_state": "no_inbound_observed"
+    },
+    {
+      "company": "Craftex",
+      "canonical_domain": "craftex.hu",
+      "destination": "info@craftex.hu",
+      "sent_message_ids": ["19fbbe4684fbb398", "19ef5dbdaedfb5bf"],
+      "gmail_thread_ids": ["19ef5cb93d25d150"],
+      "latest_sent_at": "2026-08-01T05:55:36Z",
+      "draft_message_ids": [],
+      "reply_state": "no_inbound_observed"
+    },
+    {
+      "company": "Homever",
+      "canonical_domain": "homever.hu",
+      "destination": "info@homever.hu",
+      "sent_message_ids": ["19fbbe4a6f2c578d", "19fb98059d3c0916", "19fa87f3bbcf3685"],
+      "gmail_thread_ids": ["19fbbe4a6f2c578d", "19f9dbc9b76dff05"],
+      "latest_sent_at": "2026-08-01T05:55:52Z",
+      "draft_message_ids": [],
+      "reply_state": "no_inbound_observed"
+    },
+    {
+      "company": "Interház",
+      "canonical_domain": "interhaz.hu",
+      "destination": "info@interhaz.hu",
+      "sent_message_ids": ["19fbbe4ce8626b19"],
+      "gmail_thread_ids": ["19fbbe4ce8626b19"],
+      "latest_sent_at": "2026-08-01T05:56:02Z",
+      "draft_message_ids": [],
+      "reply_state": "no_inbound_observed"
+    },
+    {
+      "company": "Premier Property Management",
+      "canonical_domain": "ppmgt.hu",
+      "destination": "info@ppmgt.hu",
+      "sent_message_ids": ["19fbbe4fd10d650d", "19fb9afe350e9547", "19fa4745bdf0faf0"],
+      "gmail_thread_ids": ["19fbbe4fd10d650d", "19f9dbc9ab95a52f"],
+      "latest_sent_at": "2026-08-01T05:56:14Z",
+      "draft_message_ids": ["19fb20b0b8cef693"],
+      "reply_state": "no_inbound_observed",
+      "note": "The same company was checked at info@ppmgt.hu and kata@ppmgt.hu."
+    },
+    {
+      "company": "Rentify",
+      "canonical_domain": "rentify.hu",
+      "destination": "hello@rentify.hu",
+      "sent_message_ids": ["19fb9afe416152ac", "19fa474593604e76"],
+      "gmail_thread_ids": ["19f9dbc9be6bbcfa"],
+      "latest_sent_at": "2026-07-31T19:39:00Z",
+      "draft_message_ids": ["19fb20b0d42bcf4e"],
+      "reply_state": "no_inbound_observed"
+    },
+    {
+      "company": "FirstClean",
+      "canonical_domain": "firstclean.hu",
+      "destination": "office@firstclean.hu",
+      "sent_message_ids": ["19fc6a7def0a18c1", "19fa87f3c6c6c7ab"],
+      "gmail_thread_ids": ["19f9dbc9b41b1844"],
+      "latest_sent_at": "2026-08-03T08:05:18Z",
+      "draft_message_ids": ["19fb20b11a8f404a"],
+      "reply_state": "no_inbound_observed",
+      "note": "The returned sent messages currently carry the Gmail TRASH label; SENT remains present."
+    },
+    {
+      "company": "Loffice",
+      "canonical_domain": "loffice.hu",
+      "destination": "hello@loffice.hu",
+      "sent_message_ids": ["19fb20083fc4c157"],
+      "gmail_thread_ids": ["19f9dbc9ef3b9aba"],
+      "latest_sent_at": "2026-07-30T07:50:05Z",
+      "draft_message_ids": ["19fb20b13ddba110", "19fb20abfd3ee52a"],
+      "reply_state": "no_inbound_observed"
+    },
+    {
+      "company": "Budbed",
+      "canonical_domain": "budbed.hu",
+      "destination": "info@budbed.hu",
+      "sent_message_ids": ["19fb2008057b795c"],
+      "gmail_thread_ids": ["19f9dbc9fdbaed96"],
+      "latest_sent_at": "2026-07-30T07:50:05Z",
+      "draft_message_ids": ["19fb20b17145e05b", "19fb20ac1b45eb49"],
+      "reply_state": "no_inbound_observed"
+    }
+  ]
+}

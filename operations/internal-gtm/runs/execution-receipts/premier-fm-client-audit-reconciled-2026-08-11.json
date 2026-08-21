@@ -1,0 +1,23 @@
+{
+  "receipt_id": "premier-fm:client-audit:reconciled:2026-08-11",
+  "receipt_kind": "existing_registered_capability_execution_reconciliation",
+  "prospect_id": "premier-fm",
+  "capability": "client-audit",
+  "runtime": "codex",
+  "source_execution": {"path": "operations/internal-gtm/handoffs/premier-fm-client-audit-2026-08-11.json", "sha256": "5cb3987a75b96ea8f397f88b392e4742586b9ff742ee29a946b828503178edd5", "actual_execution": true, "not_reshaped_prior_research": true},
+  "normalized_result": {"path": "operations/internal-gtm/runs/diagnostics/premier-fm-client-audit-2026-08-11.json", "sha256": "2cbc8c00dbce215c9819a4e5372e021e95ae3116b8a724668ac88cc60bb0e84f", "diagnostic_rerun": false},
+  "registry_check": {"registered": true, "status": "active", "codex_installation": "C:/Users/User/.codex/skills/client-audit", "claude_installation": "C:/Users/User/.claude/skills/client-audit"},
+  "validation": {
+    "current_schema_valid": true,
+    "evidence_audit": "operations/internal-gtm/runs/evidence-audits/premier-fm-client-audit-evidence-2026-08-11.json",
+    "evidence_audit_sha256": "c284b066b9f363a72dde10b66c3aca68096abf6ceabdd75ef60028ecc192e1e3",
+    "evidence_references_resolve": true,
+    "quality_gates_pass": true,
+    "lifecycle_prerequisites_contiguous": true
+  },
+  "gate_outcome": {"canonical_lifecycle": "diagnostic_complete", "persist_new_transition": true},
+  "approval_packet": null,
+  "external_action_authorized": false,
+  "control_lock_id": "c43ecc6f64e0",
+  "reconciled_at": "2026-08-11T13:45:05.1073738Z"
+}

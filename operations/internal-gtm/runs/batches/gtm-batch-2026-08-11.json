@@ -1,0 +1,686 @@
+{
+  "canonical_status": "superseded_pre_gate_artifact",
+  "superseded_by": "operations/internal-gtm/runs/qualification-batches/internal-gtm-qualification-2026-08-11-01.json",
+  "execution_rule": "Do not execute or approve the nested Premier FM packet. It was assembled before the client-audit diagnostic ran and therefore did not reach Stage 4.",
+  "as_of": "2026-08-11",
+  "objective": {
+    "priority_class": "complete_qualification_coverage",
+    "priority_class_rank": 3,
+    "considered_classes": [
+      {
+        "priority_class": "stop_unsafe_external_action",
+        "selected": false,
+        "candidates": 0,
+        "why_not": "nothing in this class today"
+      },
+      {
+        "priority_class": "advance_active_revenue",
+        "selected": false,
+        "candidates": 0,
+        "why_not": "nothing in this class today"
+      },
+      {
+        "priority_class": "complete_qualification_coverage",
+        "selected": true,
+        "candidates": 48
+      },
+      {
+        "priority_class": "resolve_blocking_evidence",
+        "selected": false,
+        "candidates": 1,
+        "why_not": "a higher class, complete_qualification_coverage, was selected first"
+      },
+      {
+        "priority_class": "execute_due_followup_or_nurture",
+        "selected": false,
+        "candidates": 0,
+        "why_not": "nothing in this class today"
+      },
+      {
+        "priority_class": "recover_overdue_research",
+        "selected": false,
+        "candidates": 2,
+        "why_not": "a higher class, complete_qualification_coverage, was selected first"
+      },
+      {
+        "priority_class": "generate_new_supply",
+        "selected": false,
+        "candidates": 0,
+        "why_not": "nothing in this class today"
+      }
+    ],
+    "unsafe_classification": [
+      {
+        "prospect_id": "gbs-africa",
+        "severity": "unsafe_contained",
+        "reasons": [
+          "lifecycle gate already blocks advancement: blocked_contradicted_evidence",
+          "stage qualified cannot reach an external action",
+          "no approval exists that could execute against it",
+          "isolated to this prospect, no shared rule contaminated"
+        ],
+        "may_cause_external_action": false,
+        "priority_class": "resolve_blocking_evidence"
+      }
+    ]
+  },
+  "cohort_size": 8,
+  "prospects_considered": 48,
+  "stage_gates": {
+    "no_dimension_still_required": true,
+    "min_score": 40,
+    "requires_contact_destination": true,
+    "requires_no_active_unsafe_state": true,
+    "why": "Stage 3 is the expensive gate. A diagnostic run on a prospect whose commercial fit and buyer authority are still unknown is exactly the spend this staging exists to prevent. Every applicable dimension must be researched first, which in practice means Stage 2 has run."
+  },
+  "batch": [
+    {
+      "prospect_id": "bv-integrated-ltd",
+      "company": "BV Integrated Ltd",
+      "enrichment_priority": 95,
+      "priority_explanation": [
+        "problem=20/20",
+        "trigger=20/20",
+        "buyer=15/15",
+        "proof=15/15",
+        "attractiveness=15/15",
+        "freshness=10/10",
+        "blockers=0"
+      ],
+      "stage_1": {
+        "existing_trigger": "Use a concise international-buyer trust and enquiry-route review tied to the new UK-Nigeria trade positioning.",
+        "problem_evidence": "BV Integrated is positioning for international commodity buyers while the public enquiry route splits across multiple CTAs and email destinations, which can weaken trust and follow-up clarity for high-value sourcing enqu",
+        "sources": 3,
+        "last_verified_at": "2026-08-09"
+      },
+      "stage_2": {
+        "run": false,
+        "commercial_intelligence": "not run: pending targeted enrichment",
+        "buyer_intelligence": "not run: pending targeted enrichment"
+      },
+      "qualification": {
+        "model": "qualification-v1",
+        "component_scores": {
+          "problem_evidence": 25,
+          "commercial_fit": 0,
+          "buyer_accessibility": 15,
+          "trigger_urgency": 15,
+          "proof_fit": 15,
+          "execution_readiness": 0
+        },
+        "score": 70,
+        "tier": "STRONG",
+        "actionability": "actionable",
+        "coverage_percent": 66.7,
+        "missing_dimensions": [
+          "commercial_fit",
+          "execution_readiness"
+        ],
+        "verified_negative_dimensions": []
+      },
+      "route": {
+        "service_route": "digital-platforms-brand",
+        "fit": "exact",
+        "won_on": "only_matching_route",
+        "diagnostic_capability": "client-audit",
+        "proof_asset_id": "oliviks-foundation-2026-07-24"
+      },
+      "stage_3": {
+        "allowed": false,
+        "blocked_by": [
+          "dimensions still unresearched: commercial_fit, execution_readiness"
+        ],
+        "diagnostic_result": "not run: gate not cleared"
+      },
+      "stage_4": {
+        "reached": false,
+        "packet": null
+      },
+      "next_action": "stage_2_targeted_enrichment"
+    },
+    {
+      "prospect_id": "daraja-africa-eu",
+      "company": "DARAJA Africa-EU",
+      "enrichment_priority": 95,
+      "priority_explanation": [
+        "problem=20/20",
+        "trigger=20/20",
+        "buyer=15/15",
+        "proof=15/15",
+        "attractiveness=15/15",
+        "freshness=10/10",
+        "blockers=0"
+      ],
+      "stage_1": {
+        "existing_trigger": "Use a concise contact-route clarity and cross-border service trust review tied to the quote path.",
+        "problem_evidence": "Daraja asks cross-border buyers to request a quote, but the visible contact route has formatting and hierarchy issues that can reduce trust before a prospect chooses email, WhatsApp, or quote submission.",
+        "sources": 2,
+        "last_verified_at": "2026-08-09"
+      },
+      "stage_2": {
+        "run": false,
+        "commercial_intelligence": "not run: pending targeted enrichment",
+        "buyer_intelligence": "not run: pending targeted enrichment"
+      },
+      "qualification": {
+        "model": "qualification-v1",
+        "component_scores": {
+          "problem_evidence": 25,
+          "commercial_fit": 0,
+          "buyer_accessibility": 15,
+          "trigger_urgency": 15,
+          "proof_fit": 15,
+          "execution_readiness": 0
+        },
+        "score": 70,
+        "tier": "STRONG",
+        "actionability": "actionable",
+        "coverage_percent": 66.7,
+        "missing_dimensions": [
+          "commercial_fit",
+          "execution_readiness"
+        ],
+        "verified_negative_dimensions": []
+      },
+      "route": {
+        "service_route": "digital-platforms-brand",
+        "fit": "exact",
+        "won_on": "only_matching_route",
+        "diagnostic_capability": "client-audit",
+        "proof_asset_id": "oliviks-foundation-2026-07-24"
+      },
+      "stage_3": {
+        "allowed": false,
+        "blocked_by": [
+          "dimensions still unresearched: commercial_fit, execution_readiness"
+        ],
+        "diagnostic_result": "not run: gate not cleared"
+      },
+      "stage_4": {
+        "reached": false,
+        "packet": null
+      },
+      "next_action": "stage_2_targeted_enrichment"
+    },
+    {
+      "prospect_id": "eloria-consult",
+      "company": "Eloria Consult",
+      "enrichment_priority": 95,
+      "priority_explanation": [
+        "problem=20/20",
+        "trigger=20/20",
+        "buyer=15/15",
+        "proof=15/15",
+        "attractiveness=15/15",
+        "freshness=10/10",
+        "blockers=0"
+      ],
+      "stage_1": {
+        "existing_trigger": "Use a premium-service contact-route and credibility-polish review tied to the visible rendering/template residue.",
+        "problem_evidence": "Eloria sells high-trust hospitality and facility-management consulting, but its current consultation path exposes concatenated contact details and footer/template residue, weakening polish at the point where premium buye",
+        "sources": 2,
+        "last_verified_at": "2026-08-11"
+      },
+      "stage_2": {
+        "run": false,
+        "commercial_intelligence": "not run: pending targeted enrichment",
+        "buyer_intelligence": "not run: pending targeted enrichment"
+      },
+      "qualification": {
+        "model": "qualification-v1",
+        "component_scores": {
+          "problem_evidence": 25,
+          "commercial_fit": 0,
+          "buyer_accessibility": 15,
+          "trigger_urgency": 15,
+          "proof_fit": 15,
+          "execution_readiness": 0
+        },
+        "score": 70,
+        "tier": "STRONG",
+        "actionability": "actionable",
+        "coverage_percent": 66.7,
+        "missing_dimensions": [
+          "commercial_fit",
+          "execution_readiness"
+        ],
+        "verified_negative_dimensions": []
+      },
+      "route": {
+        "service_route": "digital-platforms-brand",
+        "fit": "exact",
+        "won_on": "only_matching_route",
+        "diagnostic_capability": "client-audit",
+        "proof_asset_id": "oliviks-foundation-2026-07-24"
+      },
+      "stage_3": {
+        "allowed": false,
+        "blocked_by": [
+          "dimensions still unresearched: commercial_fit, execution_readiness"
+        ],
+        "diagnostic_result": "not run: gate not cleared"
+      },
+      "stage_4": {
+        "reached": false,
+        "packet": null
+      },
+      "next_action": "stage_2_targeted_enrichment"
+    },
+    {
+      "prospect_id": "green-facilities-limited",
+      "company": "Green Facilities Limited",
+      "enrichment_priority": 95,
+      "priority_explanation": [
+        "problem=20/20",
+        "trigger=20/20",
+        "buyer=15/15",
+        "proof=15/15",
+        "attractiveness=15/15",
+        "freshness=10/10",
+        "blockers=0"
+      ],
+      "stage_1": {
+        "existing_trigger": "Use a credibility-proof and contact-route QA review tied to visible copy/role-label and duplicated footer issues.",
+        "problem_evidence": "Green Facilities has client proof and a project-discussion route, but current public pages show role-label misspelling and repeated footer contact blocks, creating avoidable credibility friction for buyers assessing a fa",
+        "sources": 3,
+        "last_verified_at": "2026-08-11"
+      },
+      "stage_2": {
+        "run": false,
+        "commercial_intelligence": "not run: pending targeted enrichment",
+        "buyer_intelligence": "not run: pending targeted enrichment"
+      },
+      "qualification": {
+        "model": "qualification-v1",
+        "component_scores": {
+          "problem_evidence": 25,
+          "commercial_fit": 0,
+          "buyer_accessibility": 15,
+          "trigger_urgency": 15,
+          "proof_fit": 15,
+          "execution_readiness": 0
+        },
+        "score": 70,
+        "tier": "STRONG",
+        "actionability": "actionable",
+        "coverage_percent": 66.7,
+        "missing_dimensions": [
+          "commercial_fit",
+          "execution_readiness"
+        ],
+        "verified_negative_dimensions": []
+      },
+      "route": {
+        "service_route": "digital-platforms-brand",
+        "fit": "exact",
+        "won_on": "only_matching_route",
+        "diagnostic_capability": "client-audit",
+        "proof_asset_id": "oliviks-foundation-2026-07-24"
+      },
+      "stage_3": {
+        "allowed": false,
+        "blocked_by": [
+          "dimensions still unresearched: commercial_fit, execution_readiness"
+        ],
+        "diagnostic_result": "not run: gate not cleared"
+      },
+      "stage_4": {
+        "reached": false,
+        "packet": null
+      },
+      "next_action": "stage_2_targeted_enrichment"
+    },
+    {
+      "prospect_id": "premier-fm",
+      "company": "Premier FM",
+      "enrichment_priority": 95,
+      "priority_explanation": [
+        "problem=20/20",
+        "trigger=20/20",
+        "buyer=15/15",
+        "proof=15/15",
+        "attractiveness=15/15",
+        "freshness=10/10",
+        "blockers=0"
+      ],
+      "stage_1": {
+        "existing_trigger": "Use a concise facility-management credibility-proof and quote-route review tied to the missing KPI-number rendering.",
+        "problem_evidence": "A facility-management buyer can reach a quote route and named contacts, but the homepage proof-counter section displays KPI labels without visible numeric proof, weakening the credibility evidence immediately before enqu",
+        "sources": 2,
+        "last_verified_at": "2026-08-09"
+      },
+      "stage_2": {
+        "run": true,
+        "commercial_intelligence": {
+          "value_band": {
+            "low": null,
+            "high": null,
+            "currency": null,
+            "basis": null,
+            "confidence": "none",
+            "why_null": "No price, no contract value, no client count and no headcount is published. There is no published quantity to multiply. A band here would be a fabrication with a number attached."
+          },
+          "procurement_complexity": "low",
+          "engagement_size_fit": "plausible",
+          "findings": 4,
+          "unresolved": [
+            "Headcount and turnover band from the Hungarian company register, which was not queried in this pass.",
+            "Whether the missing KPI counter values are a rendering fault or were never populated. That changes whether the observed gap is a five-minute fix or a proof problem."
+          ]
+        },
+        "buyer_intelligence": {
+          "roles_established": [
+            "problem_owner",
+            "champion"
+          ],
+          "contact_route": "role_specific",
+          "unresolved": [
+            "The managing director is on the Hungarian company register under tax number 26381183-2-07. That register was not queried in this pass."
+          ]
+        }
+      },
+      "qualification": {
+        "model": "qualification-v1",
+        "component_scores": {
+          "problem_evidence": 25,
+          "commercial_fit": 0,
+          "buyer_accessibility": 15,
+          "trigger_urgency": 15,
+          "proof_fit": 15,
+          "execution_readiness": 0
+        },
+        "score": 70,
+        "tier": "STRONG",
+        "actionability": "actionable",
+        "coverage_percent": 100.0,
+        "missing_dimensions": [],
+        "verified_negative_dimensions": [
+          "commercial_fit",
+          "execution_readiness"
+        ]
+      },
+      "route": {
+        "service_route": "digital-platforms-brand",
+        "fit": "exact",
+        "won_on": "only_matching_route",
+        "diagnostic_capability": "client-audit",
+        "proof_asset_id": "oliviks-foundation-2026-07-24"
+      },
+      "stage_3": {
+        "allowed": true,
+        "blocked_by": [],
+        "diagnostic_result": "eligible, not yet run"
+      },
+      "stage_4": {
+        "reached": true,
+        "packet": {
+          "kind": "outreach_approval_packet",
+          "lifecycle_stage": "awaiting_approval",
+          "approval_state": "pending_approval",
+          "approval_payload_digest": "8820ab9852cbe4c1a44b98e473f94be96f782170b22eb6a78f05d85f67e08bf0",
+          "external_action_authorized": false,
+          "no_send": true,
+          "copy_required_from": "outreach-personalizer",
+          "copy_authority": "draft_only",
+          "prepared_at": "2026-08-11",
+          "body": {
+            "prospect_id": "premier-fm",
+            "company": "Premier FM",
+            "canonical_domain": "",
+            "buyer_name": null,
+            "buyer_role": null,
+            "buyer_email": "leko.peter@premierfm.hu",
+            "service_route": "digital-platforms-brand",
+            "offer_wedge": "Lead path and trust review",
+            "proof_asset_id": "oliviks-foundation-2026-07-24",
+            "price": "confirmed_at_booking",
+            "cited_claims": [
+              {
+                "id": "src0",
+                "subject": "website_trust",
+                "claim_key": "premier-fm:source-0",
+                "contradiction_key": [
+                  "declared",
+                  "premier-fm:source-0"
+                ],
+                "value": "Owned homepage lists facility-management services, quote CTA, public phone and info@premierfm.hu, near-20-year experience text, and KPI labels where visible numeric values are absent in the indexed text.",
+                "source": "https://premierfm.hu/",
+                "observed_at": "2026-08-09",
+                "declared_status": "verified",
+                "status": "verified",
+                "reason": "declared"
+              },
+              {
+                "id": "src1",
+                "subject": "website_trust",
+                "claim_key": "premier-fm:source-1",
+                "contradiction_key": [
+                  "declared",
+                  "premier-fm:source-1"
+                ],
+                "value": "Owned contact page lists quote/contact form fields, central info@premierfm.hu route, Schmoltz Miklos as facility manager, and Leko Peter as sales manager with leko.peter@premierfm.hu.",
+                "source": "https://premierfm.hu/kapcsolat/",
+                "observed_at": "2026-08-09",
+                "declared_status": "verified",
+                "status": "verified",
+                "reason": "declared"
+              }
+            ],
+            "qualification_score": 70,
+            "qualification_tier": "STRONG"
+          },
+          "approval_instruction": "Approval authorizes only the exact copy attached to this digest, sent to this exact address, by Emmanuel or an approved Codex run."
+        }
+      },
+      "next_action": "emmanuel_approval",
+      "offer_hypothesis": "Lead path and trust review",
+      "chosen_proof": "oliviks-foundation-2026-07-24"
+    },
+    {
+      "prospect_id": "vendorcredit",
+      "company": "Vendorcredit",
+      "enrichment_priority": 92,
+      "priority_explanation": [
+        "problem=20/20",
+        "trigger=20/20",
+        "buyer=15/15",
+        "proof=15/15",
+        "attractiveness=15/15",
+        "freshness=7/10",
+        "blockers=0"
+      ],
+      "stage_1": {
+        "existing_trigger": "Use a concise partner-credit journey and proof-hierarchy review tied to Bumpa Capital and Vendorcredit's embedded finance positioning.",
+        "problem_evidence": "Vendorcredit has a current embedded-credit partnership and regulated trust claims, but public entry points are fragmented across the Bumpa Capital announcement, official contact/form route, and app-store support emails; ",
+        "sources": 4,
+        "last_verified_at": "2026-08-03"
+      },
+      "stage_2": {
+        "run": false,
+        "commercial_intelligence": "not run: pending targeted enrichment",
+        "buyer_intelligence": "not run: pending targeted enrichment"
+      },
+      "qualification": {
+        "model": "qualification-v1",
+        "component_scores": {
+          "problem_evidence": 25,
+          "commercial_fit": 0,
+          "buyer_accessibility": 15,
+          "trigger_urgency": 15,
+          "proof_fit": 15,
+          "execution_readiness": 0
+        },
+        "score": 70,
+        "tier": "STRONG",
+        "actionability": "actionable",
+        "coverage_percent": 66.7,
+        "missing_dimensions": [
+          "commercial_fit",
+          "execution_readiness"
+        ],
+        "verified_negative_dimensions": []
+      },
+      "route": {
+        "service_route": "digital-platforms-brand",
+        "fit": "exact",
+        "won_on": "only_matching_route",
+        "diagnostic_capability": "client-audit",
+        "proof_asset_id": "oliviks-foundation-2026-07-24"
+      },
+      "stage_3": {
+        "allowed": false,
+        "blocked_by": [
+          "dimensions still unresearched: commercial_fit, execution_readiness"
+        ],
+        "diagnostic_result": "not run: gate not cleared"
+      },
+      "stage_4": {
+        "reached": false,
+        "packet": null
+      },
+      "next_action": "stage_2_targeted_enrichment"
+    },
+    {
+      "prospect_id": "arc-solutions-limited",
+      "company": "Arc Solutions Limited",
+      "enrichment_priority": 90,
+      "priority_explanation": [
+        "problem=20/20",
+        "trigger=20/20",
+        "buyer=10/15",
+        "proof=15/15",
+        "attractiveness=15/15",
+        "freshness=10/10",
+        "blockers=0"
+      ],
+      "stage_1": {
+        "existing_trigger": "Use a concise quote-route QA and credibility-friction review tied to the visible SPOTA AI navigation residue near the enquiry path.",
+        "problem_evidence": "Arc Solutions asks facility-management buyers to request a quote, but the current navigation exposes stray SPOTA AI text beside the quote route, creating avoidable credibility friction on a high-intent page.",
+        "sources": 2,
+        "last_verified_at": "2026-08-11"
+      },
+      "stage_2": {
+        "run": false,
+        "commercial_intelligence": "not run: pending targeted enrichment",
+        "buyer_intelligence": "not run: pending targeted enrichment"
+      },
+      "qualification": {
+        "model": "qualification-v1",
+        "component_scores": {
+          "problem_evidence": 25,
+          "commercial_fit": 0,
+          "buyer_accessibility": 15,
+          "trigger_urgency": 15,
+          "proof_fit": 15,
+          "execution_readiness": 0
+        },
+        "score": 70,
+        "tier": "STRONG",
+        "actionability": "actionable",
+        "coverage_percent": 66.7,
+        "missing_dimensions": [
+          "commercial_fit",
+          "execution_readiness"
+        ],
+        "verified_negative_dimensions": []
+      },
+      "route": {
+        "service_route": "digital-platforms-brand",
+        "fit": "exact",
+        "won_on": "only_matching_route",
+        "diagnostic_capability": "client-audit",
+        "proof_asset_id": "oliviks-foundation-2026-07-24"
+      },
+      "stage_3": {
+        "allowed": false,
+        "blocked_by": [
+          "dimensions still unresearched: commercial_fit, execution_readiness"
+        ],
+        "diagnostic_result": "not run: gate not cleared"
+      },
+      "stage_4": {
+        "reached": false,
+        "packet": null
+      },
+      "next_action": "stage_2_targeted_enrichment"
+    },
+    {
+      "prospect_id": "bepelog-kft",
+      "company": "BEPELOG Kft",
+      "enrichment_priority": 90,
+      "priority_explanation": [
+        "problem=20/20",
+        "trigger=20/20",
+        "buyer=10/15",
+        "proof=15/15",
+        "attractiveness=15/15",
+        "freshness=10/10",
+        "blockers=0"
+      ],
+      "stage_1": {
+        "existing_trigger": "Use a concise logistics enquiry-route QA review tied to malformed CTA copy and repeated contact sections.",
+        "problem_evidence": "BEPELOG has a live direct-freight quote route, but malformed CTA copy and repeated contact sections create avoidable trust friction at the point where shippers ask for a quote.",
+        "sources": 2,
+        "last_verified_at": "2026-08-09"
+      },
+      "stage_2": {
+        "run": false,
+        "commercial_intelligence": "not run: pending targeted enrichment",
+        "buyer_intelligence": "not run: pending targeted enrichment"
+      },
+      "qualification": {
+        "model": "qualification-v1",
+        "component_scores": {
+          "problem_evidence": 25,
+          "commercial_fit": 0,
+          "buyer_accessibility": 15,
+          "trigger_urgency": 15,
+          "proof_fit": 15,
+          "execution_readiness": 0
+        },
+        "score": 70,
+        "tier": "STRONG",
+        "actionability": "actionable",
+        "coverage_percent": 66.7,
+        "missing_dimensions": [
+          "commercial_fit",
+          "execution_readiness"
+        ],
+        "verified_negative_dimensions": []
+      },
+      "route": {
+        "service_route": "digital-platforms-brand",
+        "fit": "exact",
+        "won_on": "only_matching_route",
+        "diagnostic_capability": "client-audit",
+        "proof_asset_id": "oliviks-foundation-2026-07-24"
+      },
+      "stage_3": {
+        "allowed": false,
+        "blocked_by": [
+          "dimensions still unresearched: commercial_fit, execution_readiness"
+        ],
+        "diagnostic_result": "not run: gate not cleared"
+      },
+      "stage_4": {
+        "reached": false,
+        "packet": null
+      },
+      "next_action": "stage_2_targeted_enrichment"
+    }
+  ],
+  "summary": {
+    "stage_2_run": 1,
+    "stage_3_eligible": 1,
+    "stage_4_reached": 1,
+    "tiers": {
+      "HOT": 0,
+      "STRONG": 8,
+      "QUALIFIED": 0,
+      "WATCH": 0,
+      "DO_NOT_PURSUE": 0
+    }
+  },
+  "external_action_authorized": false,
+  "note": "Nothing was sent. The last stage any prospect can reach is awaiting_approval."
+}

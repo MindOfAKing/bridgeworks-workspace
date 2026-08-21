@@ -1,0 +1,39 @@
+{
+  "receipt_id": "writer-ownership-and-arc-requalification-2026-08-11",
+  "effective_at": "2026-08-11T12:37:39+00:00",
+  "writer_ownership": {
+    "claude_code": {
+      "scope": "implementation",
+      "implementation_files": [
+        "operations/internal-gtm/scripts/control_lock.py",
+        "operations/internal-gtm/tests/test_control_lock.py"
+      ],
+      "focused_tests": {"count": 18, "status": "passed"}
+    },
+    "codex": {
+      "scope": "operating_state",
+      "lock_id": "5e3e6024592c",
+      "task": "Arc Solutions evidence audit and canonical requalification"
+    }
+  },
+  "arc_requalification": {
+    "evidence_audit_id": "arc-solutions-limited-stage-2-audit-2026-08-11",
+    "qualification_id": "arc-solutions-limited-qualification-v1-2026-08-11",
+    "from": {"score": 46, "coverage": 33.3, "tier": "WATCH", "lifecycle_stage": "routed"},
+    "to": {"score": 64, "coverage": 83.3, "tier": "QUALIFIED", "actionability": "actionable", "lifecycle_stage": "diagnostic_selected"},
+    "diagnostic": {"capability": "client-audit", "status": "selected_not_run"},
+    "valid_approval_packet_id": null
+  },
+  "cohort_baseline_preserved": "first-real-gtm-batch-2026-08-11-canonical-v1",
+  "competing_batch_truth_created": false,
+  "implementation_issue_for_claude_code": {
+    "id": "native-lead-qualifier-wrapper-valid-field",
+    "status": "needs_review",
+    "evidence": "The native wrapper emitted the complete qualification-v1 result, then raised KeyError because it reads result['valid'], which canonical qualification-v1 does not return.",
+    "codex_action": "reported only; no implementation file modified"
+  },
+  "external_action_authorized": false,
+  "live_0910_workflow_changed": false,
+  "crm_mutated": false,
+  "outreach_sent": false
+}

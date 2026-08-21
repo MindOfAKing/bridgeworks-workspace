@@ -1,0 +1,48 @@
+{
+  "snapshot_provenance": {
+    "engine": "operations/client-acquisition-engine",
+    "adapter": "operations/internal-gtm/adapters/engine_snapshot.py",
+    "read_only": true,
+    "prospects_scored_by_internal_gtm": 2,
+    "prospects_on_provisional_tier": 39,
+    "provisional_tier_rule": "engine outreach_readiness ready maps to WARM, hold and needs_more_evidence map to COLD. Provisional until the internal-GTM rubric scores the prospect. Never maps to HOT.",
+    "validated_new_market_gap_rule": "false until a market-discovery slice run records a route with no qualified depth. It is not assumed, so the supply gate stays closed by default."
+  },
+  "objective": {
+    "objective_id": "gtm-objective:2026-08-11",
+    "dedupe_key": "gtm-objective:2026-08-11",
+    "as_of": "2026-08-11",
+    "timezone": "Europe/Budapest",
+    "external_action_authorized": false,
+    "shadow_safe": true,
+    "source_snapshot_digest": "4071c41e44f75f2766d01ac74b164cedd5756d2a20e0554095c24d5d29d5cd50",
+    "objective_type": "recover_overdue_research",
+    "prospect_ids": [
+      "budbed",
+      "eliezer-facility-management-company-lagos",
+      "go2flats",
+      "homerun",
+      "marvel-homes-property-management"
+    ],
+    "reason_codes": [
+      "prepared_or_in_research_over_2_days"
+    ],
+    "batch_id": "2026-07-26-batch-01",
+    "metrics": {
+      "qualified_untouched": 9,
+      "overdue_research": 2,
+      "missing_evidence": 0,
+      "missing_buyers": 0,
+      "stale_states": 0,
+      "approvals_waiting": 20
+    },
+    "supply": {
+      "allowed": false,
+      "target": 4,
+      "current": 9,
+      "blockers": [
+        "prepared_or_in_research_over_2_days"
+      ]
+    }
+  }
+}

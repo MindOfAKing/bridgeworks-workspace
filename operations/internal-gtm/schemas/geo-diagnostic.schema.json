@@ -1,0 +1,31 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "BridgeWorks GEO Diagnostic Result",
+  "description": "Structured hand-back from a geo-audit or client-audit capability run. The slice runner reads this. It never generates one.",
+  "type": "object",
+  "required": ["capability", "completed_at", "findings"],
+  "properties": {
+    "capability": {"enum": ["geo-audit", "client-audit"]},
+    "run_id": {"type": ["string", "null"]},
+    "completed_at": {"type": "string"},
+    "score": {"type": ["integer", "null"], "minimum": 0, "maximum": 100},
+    "findings": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "category", "severity", "claim", "status"],
+        "properties": {
+          "id": {"type": "string"},
+          "category": {"type": "string"},
+          "severity": {"enum": ["high", "medium", "low", "none"]},
+          "claim": {"type": "string"},
+          "value": {},
+          "source": {"type": ["string", "null"]},
+          "observed_at": {"type": ["string", "null"]},
+          "status": {"enum": ["verified", "observed", "inferred", "stale", "contradicted", "unknown"]}
+        }
+      }
+    }
+  },
+  "additionalProperties": true
+}

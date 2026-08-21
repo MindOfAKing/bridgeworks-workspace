@@ -1,0 +1,142 @@
+{
+  "capability": "bridgeworks-commercial-intelligence",
+  "prospect_id": "gbs-africa",
+  "company": "GBS Africa",
+  "as_of": "2026-08-11",
+  "scope": ["commercial_fit", "execution_readiness"],
+  "runtime": "codex",
+  "method": "Bounded public-web and official-registry research. No paid enrichment, contact, form submission or authenticated source.",
+  "findings": [
+    {
+      "id": "ci-gbs-001",
+      "category": "commercial_fit",
+      "claim_key": "uk_company_identity_and_activity_codes",
+      "claim": "GBS - Africa Ltd is an active UK private limited company, incorporated on 18 June 2015, with registered activities including public relations, market research, data processing and business-membership activities.",
+      "value": {"company_number": "09645875", "status": "active", "incorporated": "2015-06-18", "sic_codes": ["63110", "70210", "73200", "94110"]},
+      "severity": "none",
+      "source": "https://find-and-update.company-information.service.gov.uk/company/09645875",
+      "observed_at": "2026-08-11",
+      "status": "verified",
+      "tool": "registry"
+    },
+    {
+      "id": "ci-gbs-002",
+      "category": "commercial_fit",
+      "claim_key": "self_reported_organizational_scale",
+      "claim": "The owned site presents nine team members, seven advisory-board members, a London headquarters and a Nairobi office.",
+      "value": {"team_members": 9, "advisory_board_members": 7, "offices": 2, "locations": ["London", "Nairobi"]},
+      "severity": "none",
+      "source": "https://www.gbsafrica.co.uk/",
+      "observed_at": "2026-08-11",
+      "status": "observed",
+      "tool": "public_web",
+      "provenance_note": "self_reported_scale; employment and office occupancy were not independently verified"
+    },
+    {
+      "id": "ci-gbs-003",
+      "category": "commercial_fit",
+      "claim_key": "research_led_advisory_operating_model",
+      "claim": "GBS Africa's owned services include country and sector research, market-entry strategy, partner identification, law-firm Africa-practice development, investor relations and public-sector investment communications.",
+      "value": ["country_and_sector_assessment", "market_entry", "partner_identification", "law_firm_practice_development", "investor_relations", "public_sector_investment_communications"],
+      "severity": "none",
+      "source": "https://www.gbsafrica.co.uk/services/",
+      "observed_at": "2026-08-11",
+      "status": "observed",
+      "tool": "public_web"
+    },
+    {
+      "id": "ci-gbs-004",
+      "category": "commercial_fit",
+      "claim_key": "active_research_publishing",
+      "claim": "The owned Insights library currently lists thirteen research items, led by Africa Prospects 2026 and several other current geopolitical and economic reports.",
+      "value": {"listed_items": 13, "current_flagship": "Africa Prospects 2026"},
+      "severity": "none",
+      "source": "https://www.gbsafrica.co.uk/insights/",
+      "observed_at": "2026-08-11",
+      "status": "verified",
+      "tool": "public_web"
+    },
+    {
+      "id": "ci-gbs-005",
+      "category": "commercial_fit",
+      "claim_key": "current_flagship_authorship_and_topic",
+      "claim": "Africa Prospects 2026 identifies Agnes Gitau as Managing Partner at GBS Africa and presents current geopolitical and economic-risk analysis relevant to the firm's advisory positioning.",
+      "value": {"report": "Africa Prospects 2026", "author_role": "Managing Partner", "topic": "geopolitics and economic risk intelligence"},
+      "severity": "none",
+      "source": "https://www.gbsafrica.co.uk/assets/docs/report/4003.pdf",
+      "observed_at": "2026-08-11",
+      "status": "verified",
+      "tool": "public_web"
+    },
+    {
+      "id": "ci-gbs-006",
+      "category": "commercial_fit",
+      "claim_key": "external_role_corroboration",
+      "claim": "The African Business Chamber named Agnes Gitau, Managing Partner of GBS Africa, to its 2025-2027 strategic advisory board and described her work as political and economic-risk intelligence and market-entry support.",
+      "value": {"role": "strategic_advisory_board", "term": "2025-2027"},
+      "severity": "none",
+      "source": "https://african-chamber.com/news-and-insights/f/afbc-strategic-advisory-board-committee---agnes-gitau?blogcategory=Africa",
+      "observed_at": "2026-08-11",
+      "status": "observed",
+      "tool": "public_web"
+    },
+    {
+      "id": "ci-gbs-007",
+      "category": "commercial_fit",
+      "claim_key": "uk_filing_dormancy_through_2024",
+      "claim": "Companies House filing history records dormant-company accounts for the UK entity for financial years ending June 2022, June 2023 and June 2024.",
+      "value": {"dormant_accounts_through": "2024-06-30", "current_overview_last_accounts_to": "2025-06-30"},
+      "severity": "none",
+      "source": "https://find-and-update.company-information.service.gov.uk/company/09645875/filing-history",
+      "observed_at": "2026-08-11",
+      "status": "verified",
+      "tool": "registry",
+      "provenance_note": "The current overview says accounts through June 2025 are filed, but the accessible filing-history extract used here did not establish whether the 2025 accounts are dormant. Do not infer revenue, inactivity or the structure of Nairobi operations."
+    },
+    {
+      "id": "ci-gbs-008",
+      "category": "execution_readiness",
+      "claim_key": "bounded_citability_pilot_inputs_exist",
+      "claim": "A bounded pilot has concrete public inputs: a current flagship report, an existing Insights index, exact PDF links, an identified author and approved diagnostic findings covering binary-only distribution, missing structured data and weak entity disambiguation.",
+      "value": {"flagship_report": "Africa Prospects 2026", "library_items": 13, "diagnostic_id": "geo-audit:gbsafrica-2026-08-11"},
+      "severity": "none",
+      "source": "https://www.gbsafrica.co.uk/insights/",
+      "observed_at": "2026-08-11",
+      "status": "verified",
+      "tool": "public_web"
+    }
+  ],
+  "commercial_value_band": {
+    "low": null,
+    "high": null,
+    "currency": null,
+    "basis": null,
+    "confidence": "none",
+    "why_null": "No approved revenue, budget, contract value, pricing or supportable commercial-volume arithmetic was found."
+  },
+  "procurement_complexity": "medium",
+  "procurement_basis": "GBS presents institutional, government, investor and international-law-firm work, but publishes only a general contact route and no procurement policy or signing authority.",
+  "engagement_size_fit": "plausible",
+  "engagement_size_basis": "The proposed work is a bounded content and technical-visibility pilot around one existing report. It fits BridgeWorks' registered Content, Visibility & Demand route and verified GEO proof without assuming a larger transformation.",
+  "commercial_relevance_assessment": {
+    "research_visibility_matters": true,
+    "basis": "Research, market intelligence, thought leadership, strategic partnerships and investor confidence are part of GBS Africa's published operating model. Making its flagship analysis citable is therefore directly connected to how the firm establishes authority.",
+    "intervention_now": "supported",
+    "why_now": "GBS is actively publishing 2026 analysis while the current distribution pattern still sends each Insights item directly to a binary file and the diagnostic found missing schema and weak entity disambiguation.",
+    "commercial_impact": "unknown"
+  },
+  "unresolved_questions": [
+    "Whether the June 2025 UK accounts are dormant and how the UK company relates operationally to the Nairobi office.",
+    "Revenue, budget, contract value and commercial impact of research visibility.",
+    "Who owns the research library, website and communications budget.",
+    "Whether GBS can provide CMS access and approved source material for implementation.",
+    "Whether analytics or Search Console show demand for the reports."
+  ],
+  "exhausted_unknown_subquestions": [
+    "commercial_value_band",
+    "research_visibility_commercial_impact",
+    "website_or_content_budget"
+  ],
+  "external_action_authorized": false,
+  "control_lock_id": "56e5fbe01b0e"
+}

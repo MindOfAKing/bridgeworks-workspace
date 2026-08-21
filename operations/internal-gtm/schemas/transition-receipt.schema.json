@@ -1,0 +1,44 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "bridgeworks://internal-gtm/transition-receipt-v1",
+  "title": "BridgeWorks canonical GTM lifecycle transition receipt",
+  "type": "object",
+  "required": [
+    "prospect_id", "from_stage", "to_stage", "triggering_capability",
+    "required_gate_results", "evidence_snapshot", "evidence_hash", "qualification_version",
+    "qualification_coverage", "diagnostic_id", "diagnostic_status",
+    "approval_id", "runtime", "timestamp", "receipt_version",
+    "verifiable_without_prose"
+  ],
+  "properties": {
+    "prospect_id": {"type": "string", "minLength": 1},
+    "from_stage": {"type": "string"},
+    "to_stage": {"type": "string"},
+    "triggering_capability": {"type": "string", "minLength": 1},
+    "required_gate_results": {"type": "object", "additionalProperties": {"type": "boolean"}},
+    "evidence_snapshot": {
+      "type": "object",
+      "required": ["path", "sha256"],
+      "properties": {
+        "path": {"type": "string", "minLength": 1},
+        "sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"}
+      },
+      "additionalProperties": false
+    },
+    "evidence_hash": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+    "qualification_version": {"enum": ["qualification-v1", null]},
+    "qualification_coverage": {
+      "type": "object",
+      "required": ["percentage", "sufficiently_researched_dimensions", "missing_dimensions", "exhausted_unknown_dimensions"]
+    },
+    "diagnostic_id": {"type": ["string", "null"]},
+    "diagnostic_status": {"type": "string"},
+    "approval_id": {"type": ["string", "null"]},
+    "runtime": {"type": "string", "minLength": 1},
+    "timestamp": {"type": "string", "format": "date-time"},
+    "receipt_version": {"const": 1},
+    "verifiable_without_prose": {"const": true},
+    "kind": {"const": "transition_receipt"}
+  },
+  "additionalProperties": false
+}

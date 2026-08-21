@@ -1,3 +1,10 @@
+
+# SUPERSEDED_AFTER_MIGRATION (marked 2026-08-11, Phase 2 reconciliation)
+# Gap validation and readiness gating. Replaced by gtm_core.build_evidence_ledger and
+# gtm_core.build_outreach_packet in operations/internal-gtm/. The review packet surface
+# itself is NOT superseded and stays canonical.
+# Nothing is removed. See operations/internal-gtm/migration/superseded-logic.md
+
 from __future__ import annotations
 
 import argparse

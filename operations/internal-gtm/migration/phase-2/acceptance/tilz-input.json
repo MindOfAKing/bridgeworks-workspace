@@ -1,0 +1,29 @@
+{
+  "prospect_id": "tilz-prosperitas",
+  "company": "Tilz Prosperitas",
+  "website_url": "https://tilzcollection.co.uk/",
+  "source": "client-acquisition-engine:research/prospect-operations/imports/2026-08-02-framework-refill.json",
+  "buyer": {
+    "name": "Tayo Adebisi",
+    "role": "Founder and CEO",
+    "email": null
+  },
+  "trigger": {
+    "type": "international_expansion",
+    "summary": "UK Export Finance records up to GBP200,000 in trade finance and expansion toward Europe, the United States, and Canada.",
+    "observed_at": "2026-08-02",
+    "source": "https://www.ukexportfinance.gov.uk/success-stories/tilzprosperitas/"
+  },
+  "_phase_2": {
+    "contacted": false,
+    "contact_evidence": "The import receipt records exact Gmail Sent/domain, local, and prior-artifact checks with no match.",
+    "native_subordinate_skills": [
+      "agent-geo-ai-visibility",
+      "agent-geo-content",
+      "agent-geo-platform-analysis",
+      "agent-geo-schema",
+      "agent-geo-technical"
+    ],
+    "aggregate_capability": "geo-audit"
+  }
+}

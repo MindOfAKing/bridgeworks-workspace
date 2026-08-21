@@ -1,0 +1,31 @@
+{
+  "cohort_baseline": "first-real-gtm-batch-2026-08-11-canonical-v1",
+  "view_as_of": "2026-08-11T13:23:08.7755560Z",
+  "authoritative_batch_replaced": false,
+  "diagnostic_target": 3,
+  "cohort_enrichment_paused": true,
+  "pause_reason": "Arc Solutions, GBS Africa and Premier FM are now canonically diagnostic_complete. GTM Director comparative selection supersedes further DARAJA enrichment for this decision cycle.",
+  "completed_diagnostics": [
+    {
+      "prospect_id": "arc-solutions-limited",
+      "diagnostic_id": "client-audit:arc-solutions-limited:2026-08-11:codex-001",
+      "status": "complete",
+      "route": "digital-platforms-brand",
+      "qualification_score": 64,
+      "qualification_coverage": 83.3
+    }
+  ],
+  "next_priority": {
+    "prospect_id": "daraja-africa-eu",
+    "current_stage": "qualified",
+    "current_objective": "complete_qualification_coverage",
+    "next_stage": "stage_2_commercial_intelligence_complete_pending_evidence_audit",
+    "reason": "Commercial Intelligence is now complete. Buyer Intelligence was deliberately not repeated because buyer_accessibility is already fresh and complete. DARAJA's diagnostic remains unselected until Evidence Auditor and qualification-v1 evaluate the new findings.",
+    "intelligence_receipt": "operations/internal-gtm/runs/intelligence/daraja-africa-eu-commercial-intelligence-2026-08-11.json",
+    "exact_next_action": "Paused. Preserve the completed Stage 2 receipt and resume only if the GTM Director needs a replacement candidate."
+  },
+  "selection_rule": "Complete Stage 2 qualification before diagnostic spend; do not manufacture three completed diagnostics by running expensive capabilities on weak or under-covered prospects.",
+  "outreach_prepared": false,
+  "crm_mutated": false,
+  "scheduler_changed": false
+}

@@ -1,0 +1,272 @@
+{
+  "batch_id": "2026-08-20-batch-01",
+  "checked_at": "2026-08-20",
+  "prospects": [
+    {
+      "prospect_id": "ridgewell-construction-co-ltd",
+      "company": "Ridgewell Construction Co. Ltd",
+      "checked_at": "2026-08-20",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://ridgewell.com.ng/service/facility-management/",
+          "accessed_at": "2026-08-20",
+          "supports": "Owned facility-management service page, Lagos head office block, info@ridgewell.com.ng, 2026 footer, and broken/repeated service copy."
+        }
+      ],
+      "owned_domain": "ridgewell.com.ng",
+      "conversion_route": "Service page includes Talk to a Representative and head office contact details.",
+      "decision_maker": "Not verified from current public source; use company inbox only.",
+      "contact_route": "info@ridgewell.com.ng",
+      "observations": [
+        "The facility-management page shows a Get Appointment route and unrelated office details for Kernersville, NC before the Lagos head office block.",
+        "The same page repeats broken service copy and benefit text, while the footer and head office section present Ridgewell as active in 2026 with Lagos phones and info@ridgewell.com.ng."
+      ],
+      "recommended_angle": "Service-page credibility QA for the facility-management buyer route.",
+      "evidence_notes": "No local prior result/review packet match beyond the 2026-08-18 import and current batch. Gmail and HubSpot exact searches returned zero matches.",
+      "outreach_readiness": "ready",
+      "commercial_gap": "A facility-management buyer lands on a live Ridgewell service page where the enquiry route sits beside unrelated US office details and broken repeated copy, weakening trust before contact.",
+      "proof_to_use": "BridgeWorks service-page credibility QA and buyer trust cleanup.",
+      "proposed_channel": "email",
+      "proposed_destination": "info@ridgewell.com.ng",
+      "draft_subject": "Facility management page credibility note",
+      "draft_body": "Hello Ridgewell team, I reviewed your facility-management service page today. The Lagos head office details are clear, but the same buyer route also shows an unrelated US office block and repeated broken service copy. BridgeWorks can help clean that page into a tighter enquiry path without changing your offer. I can share a short page QA note if useful.",
+      "next_internal_action": "Queue exact email copy for Emmanuel approval only.",
+      "risk_notes": "No named decision-maker verified. Use general company inbox. Do not send without approval."
+    },
+    {
+      "prospect_id": "aceceros-technology-limited",
+      "company": "Aceceros Technology Limited",
+      "checked_at": "2026-08-20",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://aceceros.com/",
+          "accessed_at": "2026-08-20",
+          "supports": "Owned IT services homepage, services, Lagos contact route, FAQ mismatch, and no-post blog area."
+        },
+        {
+          "url": "https://aceceros.com/contact-us/",
+          "accessed_at": "2026-08-20",
+          "supports": "Contact page search result shows Lagos form route plus unrelated US office placeholder blocks."
+        }
+      ],
+      "owned_domain": "aceceros.com",
+      "conversion_route": "Homepage and contact page point to consultation/contact routes.",
+      "decision_maker": "Not verified from current public source; use company inbox only.",
+      "contact_route": "info@aceceros.com",
+      "observations": [
+        "The current homepage positions Aceceros as a managed IT and cloud infrastructure provider with contact email info@aceceros.com and Lagos office details.",
+        "The visible FAQ still references municipality transportation planning clients, and the blog section shows repeated no-post states; the contact page search result also shows unrelated US branch-office placeholders."
+      ],
+      "recommended_angle": "IT buyer-page credibility and content-route QA.",
+      "evidence_notes": "No local prior result/review packet match beyond the 2026-08-18 import and current batch. Gmail and HubSpot exact searches returned zero matches.",
+      "outreach_readiness": "ready",
+      "commercial_gap": "A managed IT buyer sees active infrastructure services but also unrelated municipality FAQ copy and empty/no-post content blocks, which can reduce confidence before a consultation request.",
+      "proof_to_use": "BridgeWorks IT buyer-page credibility and content-route QA.",
+      "proposed_channel": "email",
+      "proposed_destination": "info@aceceros.com",
+      "draft_subject": "Small credibility issue on Aceceros site",
+      "draft_body": "Hello Aceceros team, I checked your site today. The managed IT and cloud services are clear, but the FAQ still mentions municipality transportation clients and the blog area shows repeated no-post blocks. For an infrastructure buyer, that can create doubt before contacting you. BridgeWorks can help turn those sections into a tighter buyer-ready route.",
+      "next_internal_action": "Queue exact email copy for Emmanuel approval only.",
+      "risk_notes": "Public pages contain conflicting email spellings in older page text. Use the current info@aceceros.com route."
+    },
+    {
+      "prospect_id": "crestcore-structures",
+      "company": "CrestCore Structures",
+      "checked_at": "2026-08-20",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://crestcorestructures.com/contact",
+          "accessed_at": "2026-08-20",
+          "supports": "Contact page, proposal promise, email route, phone route, duplicated contact content, and spaced heading."
+        },
+        {
+          "url": "https://crestcorestructures.com/",
+          "accessed_at": "2026-08-20",
+          "supports": "Homepage shows prefab offer, repeated proof/testimonial blocks, 0 counters, contact route, and 2026 footer."
+        }
+      ],
+      "owned_domain": "crestcorestructures.com",
+      "conversion_route": "Contact page form and Info@CrestCoreStructures.com with proposal promise within one business day.",
+      "decision_maker": "Not verified from current public source; use company inbox only.",
+      "contact_route": "Info@CrestCoreStructures.com",
+      "observations": [
+        "The contact page renders the main heading as spaced-out letters and repeats the contact section while asking prospects to submit a project brief.",
+        "The homepage presents strong prefab claims but shows 0% and 0+ proof counters, repeated testimonial blocks, and an active contact route."
+      ],
+      "recommended_angle": "Proposal-route rendering and public-proof QA.",
+      "evidence_notes": "No local prior result/review packet match beyond the 2026-08-18 import and current batch. Gmail and HubSpot exact searches returned zero matches.",
+      "outreach_readiness": "ready",
+      "commercial_gap": "Developers are asked to request a modular proposal, but the same route shows broken heading rendering, duplicate sections, repeated testimonials, and zeroed proof counters.",
+      "proof_to_use": "BridgeWorks contact-page rendering and proposal-route QA.",
+      "proposed_channel": "email",
+      "proposed_destination": "Info@CrestCoreStructures.com",
+      "draft_subject": "CrestCore proposal route QA note",
+      "draft_body": "Hello CrestCore team, I reviewed your contact and homepage today. The modular proposal promise is strong, but the contact heading renders with spaced letters, some sections repeat, and public proof counters show zero values. That can weaken trust right before a developer submits a brief. BridgeWorks can help tighten the route and proof presentation.",
+      "next_internal_action": "Queue exact email copy for Emmanuel approval only.",
+      "risk_notes": "No named decision-maker verified. Email casing preserved from public source."
+    },
+    {
+      "prospect_id": "eudoxia-nigeria-limited",
+      "company": "Eudoxia Nigeria Limited",
+      "checked_at": "2026-08-20",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://eudoxianigeria.com/",
+          "accessed_at": "2026-08-20",
+          "supports": "Owned homepage, market-entry services, Afridecis product section, managing director, contact route, and 2026 footer."
+        }
+      ],
+      "owned_domain": "eudoxianigeria.com",
+      "conversion_route": "Schedule a Consultation and Contact Us routes on the homepage.",
+      "decision_maker": "Opeyemi Adigun, Managing Director.",
+      "contact_route": "info@eudoxianigeria.com",
+      "observations": [
+        "The homepage clearly positions Eudoxia around African market entry, partnerships, growth advisory, and consultation routes.",
+        "The homepage introduces Afridecis and links to product/pricing routes, but no page-level break or conversion issue was verified from accessible current evidence."
+      ],
+      "recommended_angle": "Hold until a specific Afridecis route or proof gap is verified.",
+      "evidence_notes": "No local prior result/review packet match beyond the 2026-08-18 import and current batch. Gmail and HubSpot exact searches returned zero matches.",
+      "outreach_readiness": "needs_more_evidence",
+      "commercial_gap": "",
+      "proof_to_use": "",
+      "proposed_channel": "none",
+      "proposed_destination": "",
+      "draft_subject": "",
+      "draft_body": "",
+      "next_internal_action": "Research Afridecis pages directly and hold unless a concrete product-route, pricing, proof, or conversion gap is verified.",
+      "risk_notes": "Homepage claims are broad but not enough for outreach. Do not manufacture a gap from positioning language."
+    },
+    {
+      "prospect_id": "nexgen-business-advisors-ltd",
+      "company": "NexGen Business Advisors Ltd",
+      "checked_at": "2026-08-20",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.nextgenadvisorsltd.com/",
+          "accessed_at": "2026-08-20",
+          "supports": "Owned advisory site, consultation form, contact email on different domain, client success stories, and repeated testimonial blocks."
+        }
+      ],
+      "owned_domain": "nextgenadvisorsltd.com",
+      "conversion_route": "Book a Consultation, Speak With Our Advisors, and contact form routes.",
+      "decision_maker": "Joy Ozua is presented as leading the advisory practice.",
+      "contact_route": "info@nextgenadvisors.com",
+      "observations": [
+        "The public site targets diaspora investors, foreign corporations, entrepreneurs, and SMEs with advisory, tax, compliance, and market-entry services.",
+        "The website domain is nextgenadvisorsltd.com while the public contact route is info@nextgenadvisors.com, and the same testimonial set repeats in the client success section."
+      ],
+      "recommended_angle": "Contact-route consistency and advisory proof QA.",
+      "evidence_notes": "No local prior result/review packet match beyond the 2026-08-18 import and current batch. Gmail and HubSpot exact searches returned zero matches.",
+      "outreach_readiness": "ready",
+      "commercial_gap": "Foreign and diaspora advisory buyers are asked to book a consultation, but the public email route uses a different domain from the website and the proof section repeats testimonials.",
+      "proof_to_use": "BridgeWorks contact-route consistency and advisory proof QA.",
+      "proposed_channel": "email",
+      "proposed_destination": "info@nextgenadvisors.com",
+      "draft_subject": "NexGen contact route consistency note",
+      "draft_body": "Hello NexGen team, I reviewed your advisory site today. Your market-entry and compliance offer is clear, especially for diaspora and foreign-company buyers. One issue stood out: the website domain and public email domain differ, and the testimonial block repeats. BridgeWorks can help clean that buyer route so consultation requests feel more consistent and trustworthy.",
+      "next_internal_action": "Queue exact email copy for Emmanuel approval only.",
+      "risk_notes": "Leadership attribution comes from public page text. Use the listed company inbox, not a personal address."
+    },
+    {
+      "prospect_id": "okateun-solutions-ltd",
+      "company": "Okateun Solutions Ltd",
+      "checked_at": "2026-08-20",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://okateun.com/",
+          "accessed_at": "2026-08-20",
+          "supports": "Owned logistics/trade homepage, services, testimonials, Lagos contact route, and 2025 footer."
+        }
+      ],
+      "owned_domain": "okateun.com",
+      "conversion_route": "Get Started, Contact Us, service links, and info@okateun.com.",
+      "decision_maker": "Not verified from current public source; use company inbox only.",
+      "contact_route": "info@okateun.com",
+      "observations": [
+        "The homepage presents import/export, customs brokerage, freight, sourcing, proof counters, testimonials, and a contact route.",
+        "The footer still shows 2025, but current public evidence did not show a stronger buyer-route break or proof conflict."
+      ],
+      "recommended_angle": "Hold until a stronger current buyer-trust gap is verified.",
+      "evidence_notes": "No local prior result/review packet match beyond the 2026-08-18 import and current batch. Gmail and HubSpot exact searches returned zero matches.",
+      "outreach_readiness": "needs_more_evidence",
+      "commercial_gap": "",
+      "proof_to_use": "",
+      "proposed_channel": "none",
+      "proposed_destination": "",
+      "draft_subject": "",
+      "draft_body": "",
+      "next_internal_action": "Research deeper service/contact pages or recent public activity. Hold unless a current conversion, proof, or trust issue is stronger than an old footer year.",
+      "risk_notes": "Footer date alone is too weak for outreach."
+    },
+    {
+      "prospect_id": "pia-legal-services",
+      "company": "PIA Legal Services",
+      "checked_at": "2026-08-20",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://pialegalservices.org/",
+          "accessed_at": "2026-08-20",
+          "supports": "Owned legal services homepage, founder/principal counsel, strategy session route, legal resources, contact form, email, and zero trust counters."
+        }
+      ],
+      "owned_domain": "pialegalservices.org",
+      "conversion_route": "Book a Strategy Session, Email PIA Legal, contact form, and info@pialegalservices.org.",
+      "decision_maker": "Pretty Ifeoluwa Aderoju, Founder and Principal Counsel.",
+      "contact_route": "info@pialegalservices.org",
+      "observations": [
+        "The site names Pretty Ifeoluwa Aderoju as Founder and Principal Counsel and offers strategy session, email, WhatsApp/phone, resource library, and legal insight routes.",
+        "The homepage trust counters show 0+ matters closed, 0 jurisdictions, and 0% retention rate while asking prospects to book legal strategy sessions."
+      ],
+      "recommended_angle": "Legal-service public-proof QA before consultation conversion.",
+      "evidence_notes": "No local prior result/review packet match beyond the 2026-08-18 import and current batch. Gmail and HubSpot exact searches returned zero matches.",
+      "outreach_readiness": "ready",
+      "commercial_gap": "A legal buyer is asked to book a strategy session, but the homepage displays zeroed trust counters for matters, jurisdictions, and retention rate.",
+      "proof_to_use": "BridgeWorks legal-service credibility and public-proof QA.",
+      "proposed_channel": "email",
+      "proposed_destination": "info@pialegalservices.org",
+      "draft_subject": "PIA Legal homepage proof note",
+      "draft_body": "Hello PIA Legal team, I reviewed your site today. The strategy-session route and founder-led positioning are clear, but the homepage trust counters currently show 0+ matters closed, 0 jurisdictions, and 0% retention. For a legal buyer, that can create doubt before booking. BridgeWorks can help clean the proof section without changing your offer.",
+      "next_internal_action": "Queue exact email copy for Emmanuel approval only.",
+      "risk_notes": "Use company inbox. Do not contact the named founder directly without a verified public personal route."
+    },
+    {
+      "prospect_id": "saocorp",
+      "company": "Saocorp",
+      "checked_at": "2026-08-20",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://saocorp.africa/",
+          "accessed_at": "2026-08-20",
+          "supports": "Owned homepage, market-entry offer, schedule route, Nigeria/Germany offices, repeated content blocks, and Postdam address typo."
+        }
+      ],
+      "owned_domain": "saocorp.africa",
+      "conversion_route": "Schedule appointment route and info@saocorp.africa.",
+      "decision_maker": "Not verified from current public source; use company inbox only.",
+      "contact_route": "info@saocorp.africa",
+      "observations": [
+        "The homepage positions Saocorp for market-entry advisory and management consulting, with schedule appointment links and Nigeria/Germany contact details.",
+        "Multiple homepage and footer sections repeat, and the Germany office address renders as Postdam instead of Potsdam in several visible footer blocks."
+      ],
+      "recommended_angle": "Market-entry credibility and contact-page QA.",
+      "evidence_notes": "No local prior result/review packet match beyond the 2026-08-18 import and current batch. Gmail and HubSpot exact searches returned zero matches.",
+      "outreach_readiness": "ready",
+      "commercial_gap": "Foreign businesses evaluating Africa market-entry advice see repeated homepage/footer blocks and a visible misspelling in the Germany office address before scheduling.",
+      "proof_to_use": "BridgeWorks market-entry credibility and contact-page QA.",
+      "proposed_channel": "email",
+      "proposed_destination": "info@saocorp.africa",
+      "draft_subject": "Saocorp site credibility QA note",
+      "draft_body": "Hello Saocorp team, I reviewed your market-entry site today. The Nigeria and Germany positioning is useful for foreign-company buyers, but several homepage/footer blocks repeat and the Germany office address appears as Postdam. BridgeWorks can help clean the buyer-facing route so the credibility of the advisory offer comes through more clearly.",
+      "next_internal_action": "Queue exact email copy for Emmanuel approval only.",
+      "risk_notes": "No named decision-maker verified. Use general company inbox only."
+    }
+  ]
+}

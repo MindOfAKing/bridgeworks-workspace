@@ -1,0 +1,48 @@
+{
+  "slice": "geo",
+  "as_of": "2026-08-11",
+  "prospect": {
+    "company": "Northline Facility Services Kft.",
+    "website_url": "https://www.northline-facility.example.com/hu/",
+    "source": "fixture",
+    "entity_key": "domain:northline-facility.example.com",
+    "canonical_domain": "northline-facility.example.com",
+    "alternate_domains": [],
+    "normalized_company": "northline facility services",
+    "source_provenance": [
+      "fixture"
+    ],
+    "prospect_id": "fixture-002",
+    "buyer_name": null,
+    "buyer_role": null,
+    "buyer_email": null
+  },
+  "lifecycle_stage": "diagnostic_selected",
+  "blocked_on": {
+    "kind": "capability_call_required",
+    "role": "prospect-router",
+    "capability": "geo-audit",
+    "task": "diagnostic_capability_run",
+    "runtime": "claude_code",
+    "approval_required": false,
+    "validation": null,
+    "payload": {
+      "website_url": "https://www.northline-facility.example.com/hu/",
+      "company": "Northline Facility Services Kft.",
+      "expected_schema": "operations/internal-gtm/schemas/geo-diagnostic.schema.json"
+    }
+  },
+  "steps": [
+    {
+      "stage": "account_discovered",
+      "role": "data-steward",
+      "note": "identity normalized, exact dedupe applied"
+    },
+    {
+      "stage": "diagnostic_selected",
+      "role": "prospect-router",
+      "note": "geo-audit not yet run"
+    }
+  ],
+  "external_action_authorized": false
+}

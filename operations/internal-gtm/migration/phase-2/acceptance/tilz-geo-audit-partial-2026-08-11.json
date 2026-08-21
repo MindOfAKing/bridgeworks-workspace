@@ -1,0 +1,54 @@
+{
+  "capability": "geo-audit",
+  "prospect_id": "tilz-prosperitas",
+  "company": "Tilz Prosperitas",
+  "website_url": "https://tilzcollection.co.uk/",
+  "completed_at": "2026-08-11",
+  "status": "blocked_partial",
+  "aggregate_score": null,
+  "external_action_authorized": false,
+  "specialists": {
+    "agent-geo-technical": {
+      "status": "complete",
+      "score": 86,
+      "confidence": "high for fetch-visible technical signals; medium for static CWV inference",
+      "summary": "Server-rendered Shopify content, indexability, permissive public robots rules, five-child sitemap with 86 entries, agents.md, and valid sampled JSON-LD were observed."
+    },
+    "agent-geo-content": {
+      "status": "provisional_cached_evidence",
+      "content_score": 37,
+      "eeat_score": 28,
+      "confidence": "medium to low",
+      "summary": "Cached evidence indicates inconsistent delivery thresholds, unsupported expert language, duplicated About copy, and weak authority depth; fresh-page confirmation is required."
+    },
+    "agent-geo-schema": {
+      "status": "blocked_unverified",
+      "score": null,
+      "summary": "The dedicated schema pass could not inspect raw HTML. The technical pass separately observed syntactically valid JSON-LD but did not establish full eligibility or coverage."
+    },
+    "agent-geo-ai-visibility": {
+      "status": "blocked_unverified",
+      "score": null,
+      "summary": "Current answer-engine citations, entity presence, and brand-mention coverage could not be retrieved reliably."
+    },
+    "agent-geo-platform-analysis": {
+      "status": "blocked_unverified",
+      "score": null,
+      "summary": "No defensible platform-readiness scores were available for Google AI Overviews, ChatGPT web search, Perplexity, Gemini, or Bing Copilot."
+    }
+  },
+  "evidence_decision": {
+    "approved_for_internal_technical_research": [
+      "technical accessibility is strong",
+      "sampled metadata and presentation issues exist"
+    ],
+    "not_approved_for_commercial_use": [
+      "a material AI-visibility gap exists",
+      "Tilz is absent from answer engines",
+      "the site lacks structured data",
+      "the cached content issues remain live"
+    ]
+  },
+  "lifecycle_stage": "diagnostic_selected",
+  "next_action": "retry_bounded_geo_specialists_then_aggregate_or_return_to_research"
+}

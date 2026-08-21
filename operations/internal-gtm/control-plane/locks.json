@@ -1,0 +1,155 @@
+{
+  "schema_version": 1,
+  "locks": [
+    {
+      "lock_id": "494005eb5d2e",
+      "owner": "claude_code",
+      "scope": "implementation",
+      "patterns": [
+        "scripts/*.py",
+        "adapters/*.py",
+        "tests/*.py",
+        "schemas/*.json",
+        "role-registry.yaml",
+        "routing-policy.yaml",
+        "service-routes.yaml",
+        "roles/*.md",
+        "runtime-adaptations/*",
+        "migration/verify_map.py",
+        "handoffs/*"
+      ],
+      "task": "arc solutions requalification and lock rollout",
+      "acquired_at": "2026-08-11T12:31:02+00:00",
+      "expires_at": "2026-08-11T14:31:02+00:00",
+      "state": "released",
+      "released_at": "2026-08-11T12:33:50+00:00",
+      "continuations": 0
+    },
+    {
+      "lock_id": "5e3e6024592c",
+      "owner": "codex",
+      "scope": "operating_state",
+      "patterns": [
+        "runs/*",
+        "runs/**/*",
+        "migration/phase-3/*.json",
+        "control-plane/scheduler-state.json"
+      ],
+      "task": "Arc Solutions evidence audit and canonical requalification",
+      "acquired_at": "2026-08-11T12:37:39+00:00",
+      "expires_at": "2026-08-11T13:37:39+00:00",
+      "state": "released",
+      "released_at": "2026-08-11T12:43:27+00:00",
+      "continuations": 0
+    },
+    {
+      "lock_id": "c26d1f88bd78",
+      "owner": "claude_code",
+      "scope": "implementation",
+      "patterns": [
+        "scripts/*.py",
+        "adapters/*.py",
+        "tests/*.py",
+        "schemas/*.json",
+        "role-registry.yaml",
+        "routing-policy.yaml",
+        "service-routes.yaml",
+        "roles/*.md",
+        "runtime-adaptations/*",
+        "migration/verify_map.py",
+        "handoffs/*"
+      ],
+      "task": "qualifier wrapper repair and arc client-audit",
+      "acquired_at": "2026-08-11T13:06:52+00:00",
+      "expires_at": "2026-08-11T16:06:52+00:00",
+      "state": "released",
+      "released_at": "2026-08-11T13:20:08+00:00",
+      "continuations": 0
+    },
+    {
+      "lock_id": "0a6c0f045575",
+      "owner": "codex",
+      "scope": "operating_state",
+      "patterns": [
+        "runs/*",
+        "runs/**/*",
+        "migration/phase-3/*.json",
+        "control-plane/scheduler-state.json"
+      ],
+      "task": "Arc corrupt artifact quarantine and registered client-audit execution",
+      "acquired_at": "2026-08-11T13:18:47+00:00",
+      "expires_at": "2026-08-11T14:48:47+00:00",
+      "state": "released",
+      "released_at": "2026-08-11T13:30:34+00:00",
+      "continuations": 0
+    },
+    {
+      "lock_id": "c43ecc6f64e0",
+      "owner": "codex",
+      "scope": "operating_state",
+      "patterns": [
+        "runs/*",
+        "runs/**/*",
+        "migration/phase-3/*.json",
+        "control-plane/scheduler-state.json"
+      ],
+      "task": "Canonicalize existing GBS Africa and Premier FM diagnostics",
+      "acquired_at": "2026-08-11T13:36:37+00:00",
+      "expires_at": "2026-08-11T17:36:37+00:00",
+      "state": "released",
+      "released_at": "2026-08-11T13:49:25+00:00",
+      "continuations": 0
+    },
+    {
+      "lock_id": "16f3d366f486",
+      "owner": "codex",
+      "scope": "operating_state",
+      "patterns": [
+        "runs/*",
+        "runs/**/*",
+        "migration/phase-3/*.json",
+        "control-plane/scheduler-state.json"
+      ],
+      "task": "Arc bounded Offer Strategist commercial preparation",
+      "acquired_at": "2026-08-11T13:54:21+00:00",
+      "expires_at": "2026-08-11T17:54:21+00:00",
+      "state": "released",
+      "released_at": "2026-08-11T13:57:20+00:00",
+      "continuations": 0
+    },
+    {
+      "lock_id": "746c303acc3c",
+      "owner": "codex",
+      "scope": "operating_state",
+      "patterns": [
+        "runs/*",
+        "runs/**/*",
+        "migration/phase-3/*.json",
+        "control-plane/scheduler-state.json"
+      ],
+      "task": "Premier FM significance and commercial decision",
+      "acquired_at": "2026-08-11T15:11:08+00:00",
+      "expires_at": "2026-08-11T19:11:08+00:00",
+      "state": "released",
+      "released_at": "2026-08-11T15:12:41+00:00",
+      "continuations": 0
+    },
+    {
+      "lock_id": "56e5fbe01b0e",
+      "owner": "codex",
+      "scope": "operating_state",
+      "patterns": [
+        "runs/*",
+        "runs/**/*",
+        "migration/phase-3/*.json",
+        "control-plane/scheduler-state.json"
+      ],
+      "task": "GBS Africa commercial enrichment requalification and offer decision",
+      "acquired_at": "2026-08-11T15:32:27+00:00",
+      "expires_at": "2026-08-11T19:32:27+00:00",
+      "state": "released",
+      "released_at": "2026-08-11T15:38:07+00:00",
+      "continuations": 0
+    }
+  ]
+}

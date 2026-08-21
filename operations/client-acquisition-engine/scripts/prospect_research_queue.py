@@ -1,3 +1,11 @@
+
+# SUPERSEDED_AFTER_MIGRATION (marked 2026-08-11, Phase 2 reconciliation)
+# rank_row and eligible_rows: hardcoded sector weighting (property, facility, cleaning,
+# dental) and refill-first selection. Replaced by operations/internal-
+# gtm/scripts/daily_objective.py plus adapters/engine_snapshot.py. Do not delete. This job
+# is still live.
+# Nothing is removed. See operations/internal-gtm/migration/superseded-logic.md
+
 from __future__ import annotations
 
 import argparse

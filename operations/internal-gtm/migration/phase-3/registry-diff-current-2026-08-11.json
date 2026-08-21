@@ -1,0 +1,1265 @@
+{
+  "summary": {
+    "generated_at_before": "2026-08-11",
+    "generated_at_after": "2026-08-11",
+    "skills_before": 103,
+    "skills_after": 103,
+    "installations_before": {
+      "claude": 74,
+      "codex": 63
+    },
+    "installations_after": {
+      "claude": 74,
+      "codex": 63
+    },
+    "classified": {
+      "new capability": 0,
+      "updated capability": 0,
+      "duplicate installation": 2,
+      "superseded implementation": 0,
+      "metadata gap": 103,
+      "runtime conflict": 32,
+      "governance concern": 24
+    },
+    "august_first_capabilities": {
+      "bridgeworks-lead-qualifier": true,
+      "bridgeworks-prospect-router": true,
+      "bridgeworks-geo-prospect-scan": true,
+      "bridgeworks-revenue-system-scan": true,
+      "bridgeworks-ai-workflow-scan": true
+    },
+    "external_candidates_requiring_review": [],
+    "blocking": 56
+  },
+  "findings": [
+    {
+      "id": "ad-script",
+      "class": "metadata gap",
+      "detail": "still unknown after regeneration: inputs, outputs, tools",
+      "auto_approve": false
+    },
+    {
+      "id": "agent-ads-audience",
+      "class": "governance concern",
+      "detail": "regeneration would overwrite curated `status`: 'unknown' -> 'active'",
+      "auto_approve": false
+    },
+    {
+      "id": "agent-ads-audience",
+      "class": "metadata gap",
+      "detail": "still unknown after regeneration: inputs, outputs",
+      "auto_approve": false
+    },
+    {
+      "id": "agent-ads-budget",
+      "class": "governance concern",
+      "detail": "regeneration would overwrite curated `status`: 'unknown' -> 'active'",
+      "auto_approve": false
+    },
+    {
+      "id": "agent-ads-budget",
+      "class": "metadata gap",
+      "detail": "still unknown after regeneration: inputs, outputs",
+      "auto_approve": false
+    },
+    {
+      "id": "agent-ads-competitive",
+      "class": "governance concern",
+      "detail": "regeneration would overwrite curated `status`: 'unknown' -> 'active'",
+      "auto_approve": false
+    },
+    {
+      "id": "agent-ads-competitive",
+      "class": "metadata gap",
+      "detail": "still unknown after regeneration: inputs, outputs",
+      "auto_approve": false
+    },
+    {
+      "id": "agent-ads-creative",
+      "class": "governance concern",
+      "detail": "regeneration would overwrite curated `status`: 'unknown' -> 'active'",
+      "auto_approve": false
+    },
+    {
+      "id": "agent-ads-creative",
+      "class": "metadata gap",
+      "detail": "still unknown after regeneration: inputs, outputs",
+      "auto_approve": false
+    },
+    {
+      "id": "agent-ads-funnel",
+      "class": "governance concern",
+      "detail": "regeneration would overwrite curated `status`: 'unknown' -> 'active'",
+      "auto_approve": false
+    },
+    {
+      "id": "agent-ads-funnel",
+      "class": "metadata gap",
+      "detail": "still unknown after regeneration: inputs, outputs",
+      "auto_approve": false
+    },
+    {
+      "id": "agent-daily-brief-composer",
+      "class": "governance concern",
+      "detail": "regeneration would overwrite curated `status`: 'unknown' -> 'active'",
+      "auto_approve": false
+    },
+    {
+      "id": "agent-daily-brief-composer",
+      "class": "metadata gap",
+      "detail": "still unknown after regeneration: inputs, outputs",
+      "auto_approve": false
+    },
+    {
+      "id": "agent-finance-sentinel",
+      "class": "governance concern",
+      "detail": "regeneration would overwrite curated `status`: 'unknown' -> 'active'",
+      "auto_approve": false
+    },
+    {
+      "id": "agent-finance-sentinel",
+      "class": "metadata gap",
+      "detail": "still unknown after regeneration: inputs, outputs",
+      "auto_approve": false
+    },
+    {
+      "id": "agent-geo-ai-visibility",
+      "class": "governance concern",
+      "detail": "regeneration would overwrite curated `status`: 'unknown' -> 'active'",
+      "auto_approve": false
+    },
+    {
+      "id": "agent-geo-ai-visibility",
+      "class": "metadata gap",
+      "detail": "still unknown after regeneration: inputs, outputs",
+      "auto_approve": false
+    },
+    {
+      "id": "agent-geo-content",
+      "class": "governance concern",
+      "detail": "regeneration would overwrite curated `status`: 'unknown' -> 'active'",
+      "auto_approve": false
+    },
+    {
+      "id": "agent-geo-content",
+      "class": "metadata gap",
+      "detail": "still unknown after regeneration: inputs, outputs",
+      "auto_approve": false
+    },
+    {
+      "id": "agent-geo-platform-analysis",
+      "class": "governance concern",
+      "detail": "regeneration would overwrite curated `status`: 'unknown' -> 'active'",
+      "auto_approve": false
+    },
+    {
+      "id": "agent-geo-platform-analysis",
+      "class": "metadata gap",
+      "detail": "still unknown after regeneration: inputs, outputs",
+      "auto_approve": false
+    },
+    {
+      "id": "agent-geo-schema",
+      "class": "governance concern",
+      "detail": "regeneration would overwrite curated `status`: 'unknown' -> 'active'",
+      "auto_approve": false
+    },
+    {
+      "id": "agent-geo-schema",
+      "class": "metadata gap",
+      "detail": "still unknown after regeneration: inputs, outputs",
+      "auto_approve": false
+    },
+    {
+      "id": "agent-geo-technical",
+      "class": "governance concern",
+      "detail": "regeneration would overwrite curated `status`: 'unknown' -> 'active'",
+      "auto_approve": false
+    },
+    {
+      "id": "agent-geo-technical",
+      "class": "metadata gap",
+      "detail": "still unknown after regeneration: inputs, outputs",
+      "auto_approve": false
+    },
+    {
+      "id": "agent-market-competitive",
+      "class": "governance concern",
+      "detail": "regeneration would overwrite curated `status`: 'unknown' -> 'active'",
+      "auto_approve": false
+    },
+    {
+      "id": "agent-market-competitive",
+      "class": "metadata gap",
+      "detail": "still unknown after regeneration: inputs, outputs",
+      "auto_approve": false
+    },
+    {
+      "id": "agent-market-content",
+      "class": "governance concern",
+      "detail": "regeneration would overwrite curated `status`: 'unknown' -> 'active'",
+      "auto_approve": false
+    },
+    {
+      "id": "agent-market-content",
+      "class": "metadata gap",
+      "detail": "still unknown after regeneration: inputs, outputs",
+      "auto_approve": false
+    },
+    {
+      "id": "agent-market-conversion",
+      "class": "governance concern",
+      "detail": "regeneration would overwrite curated `status`: 'unknown' -> 'active'",
+      "auto_approve": false
+    },
+    {
+      "id": "agent-market-conversion",
+      "class": "metadata gap",
+      "detail": "still unknown after regeneration: inputs, outputs",
+      "auto_approve": false
+    },
+    {
+      "id": "agent-market-strategy",
+      "class": "governance concern",
+      "detail": "regeneration would overwrite curated `status`: 'unknown' -> 'active'",
+      "auto_approve": false
+    },
+    {
+      "id": "agent-market-strategy",
+      "class": "metadata gap",
+      "detail": "still unknown after regeneration: inputs, outputs",
+      "auto_approve": false
+    },
+    {
+      "id": "agent-market-technical",
+      "class": "governance concern",
+      "detail": "regeneration would overwrite curated `status`: 'unknown' -> 'active'",
+      "auto_approve": false
+    },
+    {
+      "id": "agent-market-technical",
+      "class": "metadata gap",
+      "detail": "still unknown after regeneration: inputs, outputs",
+      "auto_approve": false
+    },
+    {
+      "id": "agent-skill-creator-analyzer",
+      "class": "governance concern",
+      "detail": "regeneration would overwrite curated `status`: 'unknown' -> 'active'",
+      "auto_approve": false
+    },
+    {
+      "id": "agent-skill-creator-analyzer",
+      "class": "metadata gap",
+      "detail": "still unknown after regeneration: inputs, outputs",
+      "auto_approve": false
+    },
+    {
+      "id": "agent-skill-creator-comparator",
+      "class": "governance concern",
+      "detail": "regeneration would overwrite curated `status`: 'unknown' -> 'active'",
+      "auto_approve": false
+    },
+    {
+      "id": "agent-skill-creator-comparator",
+      "class": "metadata gap",
+      "detail": "still unknown after regeneration: inputs, outputs, tools",
+      "auto_approve": false
+    },
+    {
+      "id": "agent-skill-creator-grader",
+      "class": "governance concern",
+      "detail": "regeneration would overwrite curated `status`: 'unknown' -> 'active'",
+      "auto_approve": false
+    },
+    {
+      "id": "agent-skill-creator-grader",
+      "class": "metadata gap",
+      "detail": "still unknown after regeneration: inputs, outputs",
+      "auto_approve": false
+    },
+    {
+      "id": "agent-youtube-learning-adapter",
+      "class": "governance concern",
+      "detail": "regeneration would overwrite curated `status`: 'unknown' -> 'active'",
+      "auto_approve": false
+    },
+    {
+      "id": "agent-youtube-learning-adapter",
+      "class": "metadata gap",
+      "detail": "still unknown after regeneration: inputs, outputs",
+      "auto_approve": false
+    },
+    {
+      "id": "bridgeworks-ai-workflow-scan",
+      "class": "metadata gap",
+      "detail": "still unknown after regeneration: inputs, outputs, tools",
+      "auto_approve": false
+    },
+    {
+      "id": "bridgeworks-daily-operations",
+      "class": "governance concern",
+      "detail": "regeneration would overwrite curated `status`: 'unknown' -> 'active'",
+      "auto_approve": false
+    },
+    {
+      "id": "bridgeworks-daily-operations",
+      "class": "metadata gap",
+      "detail": "still unknown after regeneration: inputs, outputs",
+      "auto_approve": false
+    },
+    {
+      "id": "bridgeworks-geo-prospect-scan",
+      "class": "metadata gap",
+      "detail": "still unknown after regeneration: inputs, outputs, tools",
+      "auto_approve": false
+    },
+    {
+      "id": "bridgeworks-idea-to-content",
+      "class": "duplicate installation",
+      "runtimes": [
+        "claude",
+        "codex"
+      ],
+      "detail": "installed in both runtimes with byte-identical SKILL.md; one copy is redundant",
+      "auto_approve": false
+    },
+    {
+      "id": "bridgeworks-idea-to-content",
+      "class": "metadata gap",
+      "detail": "still unknown after regeneration: inputs, outputs, tools",
+      "auto_approve": false
+    },
+    {
+      "id": "bridgeworks-launch-orchestrator",
+      "class": "metadata gap",
+      "detail": "still unknown after regeneration: inputs, outputs, tools",
+      "auto_approve": false
+    },
+    {
+      "id": "bridgeworks-lead-qualifier",
+      "class": "metadata gap",
+      "detail": "still unknown after regeneration: inputs, outputs",
+      "auto_approve": false
+    },
+    {
+      "id": "bridgeworks-operating-system",
+      "class": "metadata gap",
+      "detail": "still unknown after regeneration: inputs, outputs",
+      "auto_approve": false
+    },
+    {
+      "id": "bridgeworks-prospect-router",
+      "class": "metadata gap",
+      "detail": "still unknown after regeneration: inputs, outputs",
+      "auto_approve": false
+    },
+    {
+      "id": "bridgeworks-revenue-system-scan",
+      "class": "metadata gap",
+      "detail": "still unknown after regeneration: inputs, outputs, tools",
+      "auto_approve": false
+    },
+    {
+      "id": "ceefm-update",
+      "class": "runtime conflict",
+      "runtimes": [
+        "claude",
+        "codex"
+      ],
+      "detail": "installed in both runtimes with different SKILL.md content; two versions are live",
+      "digests": {
+        "claude": "d6fb4023e78dbca493f6a4024f63d078925e07013c38bd0c98b42ec31557398e",
+        "codex": "287c97d611a8461748a8d4f0bbc8a96faed8f23746a186fe6043d78455c8253a"
+      },
+      "auto_approve": false
+    },
+    {
+      "id": "ceefm-update",
+      "class": "metadata gap",
+      "detail": "still unknown after regeneration: outputs",
+      "auto_approve": false
+    },
+    {
+      "id": "claude-skill-creator",
+      "class": "governance concern",
+      "detail": "regeneration would overwrite curated `status`: 'unknown' -> 'active'",
+      "auto_approve": false
+    },
+    {
+      "id": "claude-skill-creator",
+      "class": "metadata gap",
+      "detail": "still unknown after regeneration: inputs, outputs",
+      "auto_approve": false
+    },
+    {
+      "id": "client-audit",
+      "class": "runtime conflict",
+      "runtimes": [
+        "claude",
+        "codex"
+      ],
+      "detail": "installed in both runtimes with different SKILL.md content; two versions are live",
+      "digests": {
+        "claude": "b7fc3c7ff96804b76aa82c0e868a3455080ba22432c68b88d5ec599e81c0ea4f",
+        "codex": "9c6638475a5ab45d8b097cd96608f45d2821dbb8c7e2a84b9248e94f97f4ef5a"
+      },
+      "auto_approve": false
+    },
+    {
+      "id": "client-audit",
+      "class": "metadata gap",
+      "detail": "still unknown after regeneration: outputs",
+      "auto_approve": false
+    },
+    {
+      "id": "competitive-research",
+      "class": "metadata gap",
+      "detail": "still unknown after regeneration: inputs, outputs",
+      "auto_approve": false
+    },
+    {
+      "id": "content-week",
+      "class": "metadata gap",
+      "detail": "still unknown after regeneration: inputs, outputs",
+      "auto_approve": false
+    },
+    {
+      "id": "council",
+      "class": "metadata gap",
+      "detail": "still unknown after regeneration: inputs, outputs",
+      "auto_approve": false
+    },
+    {
+      "id": "cua-driver-rs",
+      "class": "metadata gap",
+      "detail": "still unknown after regeneration: inputs, outputs",
+      "auto_approve": false
+    },
+    {
+      "id": "daily-brief",
+      "class": "duplicate installation",
+      "runtimes": [
+        "claude"
+      ],
+      "detail": "installed in both runtimes with byte-identical SKILL.md; one copy is redundant",
+      "auto_approve": false
+    },
+    {
+      "id": "daily-brief",
+      "class": "metadata gap",
+      "detail": "still unknown after regeneration: inputs, outputs, tools",
+      "auto_approve": false
+    },
+    {
+      "id": "discovery-call-prep",
+      "class": "runtime conflict",
+      "runtimes": [
+        "claude",
+        "codex"
+      ],
+      "detail": "installed in both runtimes with different SKILL.md content; two versions are live",
+      "digests": {
+        "claude": "b9d9f3c5151b5fc8e18fee7854a40ab2bc23b2c539f27688612881e2e933bc19",
+        "codex": "8ca7a504af552c282cd51bef462e5f99ec236efd8bd57ba9b875bb98eb164244"
+      },
+      "auto_approve": false
+    },
+    {
+      "id": "discovery-call-prep",
+      "class": "metadata gap",
+      "detail": "still unknown after regeneration: outputs",
+      "auto_approve": false
+    },
+    {
+      "id": "docx",
+      "class": "runtime conflict",
+      "runtimes": [
+        "claude",
+        "codex"
+      ],
+      "detail": "installed in both runtimes with different SKILL.md content; two versions are live",
+      "digests": {
+        "claude": "1c4df72061111588437a86cd1551b8183c131048efb8861cab659804d5bdcbd4",
+        "codex": "1f6ff163ac1f3957ccf64827342e8cbeb3b6ab0be1f449de5f2e65cea8da961f"
+      },
+      "auto_approve": false
+    },
+    {
+      "id": "docx",
+      "class": "metadata gap",
+      "detail": "still unknown after regeneration: inputs, outputs",
+      "auto_approve": false
+    },
+    {
+      "id": "emmanuel-brand-visual",
+      "class": "runtime conflict",
+      "runtimes": [
+        "claude",
+        "codex"
+      ],
+      "detail": "installed in both runtimes with different SKILL.md content; two versions are live",
+      "digests": {
+        "claude": "e35a6587abfa27bb56da2972b426b6da3b77b87b67af5d2a7cf0c2f1a97d70c4",
+        "codex": "630e3e438349fdd4e4c648fd9a9a404cffd6c1cf90eda201d244f74231c670b2"
+      },
+      "auto_approve": false
+    },
+    {
+      "id": "emmanuel-brand-visual",
+      "class": "metadata gap",
+      "detail": "still unknown after regeneration: inputs, tools",
+      "auto_approve": false
+    },
+    {
+      "id": "engagement-architect",
+      "class": "runtime conflict",
+      "runtimes": [
+        "claude",
+        "codex"
+      ],
+      "detail": "installed in both runtimes with different SKILL.md content; two versions are live",
+      "digests": {
+        "claude": "ecfb898447af1da01f06e9e8f194b8d02f11e56d6564241d80ff2a510e6c1495",
+        "codex": "5c42a3c042267db91b1452126d28c4f430c3d2b5885d0638d7a306d3c54b66a9"
+      },
+      "auto_approve": false
+    },
+    {
+      "id": "engagement-architect",
+      "class": "metadata gap",
+      "detail": "still unknown after regeneration: inputs, outputs",
+      "auto_approve": false
+    },
+    {
+      "id": "find-skills",
+      "class": "runtime conflict",
+      "runtimes": [
+        "claude",
+        "codex"
+      ],
+      "detail": "installed in both runtimes with different SKILL.md content; two versions are live",
+      "digests": {
+        "claude": "5df70a7a474aaed217246277e17882e3eb9025077189026dfb028a713b480926",
+        "codex": "eca07484b76ef8268127b6ab6a147e3447aa64ff3039902ae6b504513d16ccc8"
+      },
+      "auto_approve": false
+    },
+    {
+      "id": "find-skills",
+      "class": "metadata gap",
+      "detail": "still unknown after regeneration: inputs, outputs",
+      "auto_approve": false
+    },
+    {
+      "id": "frontend-design",
+      "class": "runtime conflict",
+      "runtimes": [
+        "claude",
+        "codex"
+      ],
+      "detail": "installed in both runtimes with different SKILL.md content; two versions are live",
+      "digests": {
+        "claude": "70044bbc8e4c21d23b8c8b864956aa1515c1c6cb2f9df14148dbb8c4af6187e5",
+        "codex": "6e5b546cb75fc02784bb3b1b412129e7a69dc1027d7fe23615ca242968ba5781"
+      },
+      "auto_approve": false
+    },
+    {
+      "id": "frontend-design",
+      "class": "metadata gap",
+      "detail": "still unknown after regeneration: inputs, outputs, tools",
+      "auto_approve": false
+    },
+    {
+      "id": "generate-image",
+      "class": "metadata gap",
+      "detail": "still unknown after regeneration: inputs, outputs",
+      "auto_approve": false
+    },
+    {
+      "id": "generate-social-visual",
+      "class": "metadata gap",
+      "detail": "still unknown after regeneration: inputs, outputs",
+      "auto_approve": false
+    },
+    {
+      "id": "generate-thumbnail",
+      "class": "metadata gap",
+      "detail": "still unknown after regeneration: inputs, outputs",
+      "auto_approve": false
+    },
+    {
+      "id": "geo-audit",
+      "class": "metadata gap",
+      "detail": "still unknown after regeneration: inputs, outputs, tools",
+      "auto_approve": false
+    },
+    {
+      "id": "geo-brand-mentions",
+      "class": "metadata gap",
+      "detail": "still unknown after regeneration: inputs, outputs",
+      "auto_approve": false
+    },
+    {
+      "id": "geo-citability",
+      "class": "metadata gap",
+      "detail": "still unknown after regeneration: inputs, outputs, tools",
+      "auto_approve": false
+    },
+    {
+      "id": "geo-compare",
+      "class": "metadata gap",
+      "detail": "still unknown after regeneration: inputs, outputs",
+      "auto_approve": false
+    },
+    {
+      "id": "geo-content",
+      "class": "metadata gap",
+      "detail": "still unknown after regeneration: inputs, outputs, tools",
+      "auto_approve": false
+    },
+    {
+      "id": "geo-crawlers",
+      "class": "metadata gap",
+      "detail": "still unknown after regeneration: inputs, outputs",
+      "auto_approve": false
+    },
+    {
+      "id": "geo-llmstxt",
+      "class": "metadata gap",
+      "detail": "still unknown after regeneration: inputs, outputs, tools",
+      "auto_approve": false
+    },
+    {
+      "id": "geo-platform-optimizer",
+      "class": "metadata gap",
+      "detail": "still unknown after regeneration: inputs, outputs",
+      "auto_approve": false
+    },
+    {
+      "id": "geo-proposal",
+      "class": "metadata gap",
+      "detail": "still unknown after regeneration: inputs, outputs, tools",
+      "auto_approve": false
+    },
+    {
+      "id": "geo-prospect",
+      "class": "metadata gap",
+      "detail": "still unknown after regeneration: inputs",
+      "auto_approve": false
+    },
+    {
+      "id": "geo-report",
+      "class": "metadata gap",
+      "detail": "still unknown after regeneration: inputs, outputs",
+      "auto_approve": false
+    },
+    {
+      "id": "geo-report-pdf",
+      "class": "metadata gap",
+      "detail": "still unknown after regeneration: inputs, outputs",
+      "auto_approve": false
+    },
+    {
+      "id": "geo-schema",
+      "class": "metadata gap",
+      "detail": "still unknown after regeneration: inputs, outputs",
+      "auto_approve": false
+    },
+    {
+      "id": "geo-technical",
+      "class": "metadata gap",
+      "detail": "still unknown after regeneration: inputs, outputs",
+      "auto_approve": false
+    },
+    {
+      "id": "goal",
+      "class": "metadata gap",
+      "detail": "still unknown after regeneration: inputs, outputs, tools",
+      "auto_approve": false
+    },
+    {
+      "id": "gsc-opportunity",
+      "class": "metadata gap",
+      "detail": "still unknown after regeneration: outputs",
+      "auto_approve": false
+    },
+    {
+      "id": "impeccable",
+      "class": "governance concern",
+      "detail": "regeneration would overwrite curated `status`: 'unknown' -> 'active'",
+      "auto_approve": false
+    },
+    {
+      "id": "impeccable",
+      "class": "metadata gap",
+      "detail": "still unknown after regeneration: inputs, outputs",
+      "auto_approve": false
+    },
+    {
+      "id": "lead-magnets",
+      "class": "metadata gap",
+      "detail": "still unknown after regeneration: inputs, outputs, tools",
+      "auto_approve": false
+    },
+    {
+      "id": "lead-qualifier",
+      "class": "metadata gap",
+      "detail": "still unknown after regeneration: inputs, outputs",
+      "auto_approve": false
+    },
+    {
+      "id": "linkedin-reply",
+      "class": "metadata gap",
+      "detail": "still unknown after regeneration: inputs, outputs, tools",
+      "auto_approve": false
+    },
+    {
+      "id": "market",
+      "class": "runtime conflict",
+      "runtimes": [
+        "claude",
+        "codex"
+      ],
+      "detail": "installed in both runtimes with different SKILL.md content; two versions are live",
+      "digests": {
+        "claude": "263f8a2e5569dbd9e611c17414bcc559b279c93cb8fe719ad34f896d24e63e63",
+        "codex": "c820463be041e8c5bf2bb2186680938db3da2559ce7d9d266a4555e7537f3e66"
+      },
+      "auto_approve": false
+    },
+    {
+      "id": "market",
+      "class": "metadata gap",
+      "detail": "still unknown after regeneration: inputs, outputs, tools",
+      "auto_approve": false
+    },
+    {
+      "id": "market-ads",
+      "class": "runtime conflict",
+      "runtimes": [
+        "claude",
+        "codex"
+      ],
+      "detail": "installed in both runtimes with different SKILL.md content; two versions are live",
+      "digests": {
+        "claude": "bc6eee4729df398b5cbd709f5321378b6fecb0debae9bd2e4f6979d2993be8b6",
+        "codex": "5a5f4ba612b26d761aa19f28351e1e296bbbd1f7a963e57e3b7eee12254f9dd8"
+      },
+      "auto_approve": false
+    },
+    {
+      "id": "market-ads",
+      "class": "metadata gap",
+      "detail": "still unknown after regeneration: inputs, outputs, tools",
+      "auto_approve": false
+    },
+    {
+      "id": "market-audit",
+      "class": "runtime conflict",
+      "runtimes": [
+        "claude",
+        "codex"
+      ],
+      "detail": "installed in both runtimes with different SKILL.md content; two versions are live",
+      "digests": {
+        "claude": "642e4e9fa8f3e94b47a93c62d3309ceda6fb609477b39d4df0937fac88c310e5",
+        "codex": "3ea7bc8974b7852b05dd5e56666fbbd00548650cf3214518cf468ab14d6b45a7"
+      },
+      "auto_approve": false
+    },
+    {
+      "id": "market-audit",
+      "class": "metadata gap",
+      "detail": "still unknown after regeneration: inputs, outputs, tools",
+      "auto_approve": false
+    },
+    {
+      "id": "market-brand",
+      "class": "runtime conflict",
+      "runtimes": [
+        "claude",
+        "codex"
+      ],
+      "detail": "installed in both runtimes with different SKILL.md content; two versions are live",
+      "digests": {
+        "claude": "05f112ea6ed3cfe8edd291644b264a0c5c7b58273187d82fc82e3b26e5a67976",
+        "codex": "b4afb163ad91b36910ceb3003916e7c3cd524a692983c2d7bbbf787f98514955"
+      },
+      "auto_approve": false
+    },
+    {
+      "id": "market-brand",
+      "class": "metadata gap",
+      "detail": "still unknown after regeneration: inputs, outputs",
+      "auto_approve": false
+    },
+    {
+      "id": "market-competitors",
+      "class": "runtime conflict",
+      "runtimes": [
+        "claude",
+        "codex"
+      ],
+      "detail": "installed in both runtimes with different SKILL.md content; two versions are live",
+      "digests": {
+        "claude": "4c156fa1d8f95d7de39257b4a29da59b81f511522164bc935bd0dc5707f17747",
+        "codex": "996ee5468503b6654385f2825af50fe4e570a8f8a1eca6ed6120f0cfc0ab1a22"
+      },
+      "auto_approve": false
+    },
+    {
+      "id": "market-competitors",
+      "class": "metadata gap",
+      "detail": "still unknown after regeneration: inputs, outputs",
+      "auto_approve": false
+    },
+    {
+      "id": "market-copy",
+      "class": "runtime conflict",
+      "runtimes": [
+        "claude",
+        "codex"
+      ],
+      "detail": "installed in both runtimes with different SKILL.md content; two versions are live",
+      "digests": {
+        "claude": "ce52f328421b3c4a6bfa74207b3253f961ed25f3eed1dbcd0b93a4f1a28e0c8f",
+        "codex": "1fbe862d5bdb573b577af7c1cd552269af09003bd99ec2c5ae9f46eba850c6cd"
+      },
+      "auto_approve": false
+    },
+    {
+      "id": "market-copy",
+      "class": "metadata gap",
+      "detail": "still unknown after regeneration: inputs, outputs, tools",
+      "auto_approve": false
+    },
+    {
+      "id": "market-emails",
+      "class": "runtime conflict",
+      "runtimes": [
+        "claude",
+        "codex"
+      ],
+      "detail": "installed in both runtimes with different SKILL.md content; two versions are live",
+      "digests": {
+        "claude": "6cdd0c8a7eae61ec6b6b3930f41434a35a6d6e8482ca32cbc9b3d0a98946c640",
+        "codex": "a378320e9e955305a65c286b409d213e46b06d13e2399415b31b1f22c4c7c8d3"
+      },
+      "auto_approve": false
+    },
+    {
+      "id": "market-emails",
+      "class": "metadata gap",
+      "detail": "still unknown after regeneration: inputs, outputs, tools",
+      "auto_approve": false
+    },
+    {
+      "id": "market-funnel",
+      "class": "runtime conflict",
+      "runtimes": [
+        "claude",
+        "codex"
+      ],
+      "detail": "installed in both runtimes with different SKILL.md content; two versions are live",
+      "digests": {
+        "claude": "7b0b1ef183573b88a13cbec9242859b22c1c993eb57084f3974e6a7fd3069587",
+        "codex": "b69df64817a768754e5d0f63fe12300a0c42539a49b545c89dad9b066ab2fc24"
+      },
+      "auto_approve": false
+    },
+    {
+      "id": "market-funnel",
+      "class": "metadata gap",
+      "detail": "still unknown after regeneration: inputs, outputs, tools",
+      "auto_approve": false
+    },
+    {
+      "id": "market-landing",
+      "class": "runtime conflict",
+      "runtimes": [
+        "claude",
+        "codex"
+      ],
+      "detail": "installed in both runtimes with different SKILL.md content; two versions are live",
+      "digests": {
+        "claude": "1654b21324ea0e6bdf93a573f1443e3c1333ace39ba6806fe2d738ba7f5fa1da",
+        "codex": "d84df9cb3ef2de6571cac65e452a1a103c9e55b9cf01b929e4a766e004ba5ed0"
+      },
+      "auto_approve": false
+    },
+    {
+      "id": "market-landing",
+      "class": "metadata gap",
+      "detail": "still unknown after regeneration: inputs, outputs",
+      "auto_approve": false
+    },
+    {
+      "id": "market-launch",
+      "class": "runtime conflict",
+      "runtimes": [
+        "claude",
+        "codex"
+      ],
+      "detail": "installed in both runtimes with different SKILL.md content; two versions are live",
+      "digests": {
+        "claude": "b28b3a3a66e7c0375fc33f23f4742488f768b8c375e0488067ea7ecf6e4607b9",
+        "codex": "f0a5c86ac3658333ac759703f7a48b3a63c4db91dfff6be6d817a3adfdee30c3"
+      },
+      "auto_approve": false
+    },
+    {
+      "id": "market-launch",
+      "class": "metadata gap",
+      "detail": "still unknown after regeneration: inputs, outputs, tools",
+      "auto_approve": false
+    },
+    {
+      "id": "market-proposal",
+      "class": "runtime conflict",
+      "runtimes": [
+        "claude",
+        "codex"
+      ],
+      "detail": "installed in both runtimes with different SKILL.md content; two versions are live",
+      "digests": {
+        "claude": "feea31b83d91f29d690fc59fa8b9e9ecb39473e9d201b3d14d5337462721e2ff",
+        "codex": "2412eddfba8ecc26d9575d393125fab56de1782b586593d8add397e7629c7690"
+      },
+      "auto_approve": false
+    },
+    {
+      "id": "market-proposal",
+      "class": "metadata gap",
+      "detail": "still unknown after regeneration: inputs, outputs, tools",
+      "auto_approve": false
+    },
+    {
+      "id": "market-report",
+      "class": "runtime conflict",
+      "runtimes": [
+        "claude",
+        "codex"
+      ],
+      "detail": "installed in both runtimes with different SKILL.md content; two versions are live",
+      "digests": {
+        "claude": "373ecf3429c83f9c83d74099f5408d13fbed45ee166b170f8fe11d983d3044c5",
+        "codex": "b608a411a755b4d55e31a423d4f4d2d6dff7791e665de9c133a2f347323629c9"
+      },
+      "auto_approve": false
+    },
+    {
+      "id": "market-report",
+      "class": "metadata gap",
+      "detail": "still unknown after regeneration: inputs, outputs",
+      "auto_approve": false
+    },
+    {
+      "id": "market-report-pdf",
+      "class": "runtime conflict",
+      "runtimes": [
+        "claude",
+        "codex"
+      ],
+      "detail": "installed in both runtimes with different SKILL.md content; two versions are live",
+      "digests": {
+        "claude": "234abc0689e6df44d691647400f54ae99c2ca81f55c52d186c8785d46f236ff7",
+        "codex": "9d489cb79c13b1ebb870cf0aec5d4e7b49bf179d8e672c1a3b34fe69fc1c8662"
+      },
+      "auto_approve": false
+    },
+    {
+      "id": "market-report-pdf",
+      "class": "metadata gap",
+      "detail": "still unknown after regeneration: inputs",
+      "auto_approve": false
+    },
+    {
+      "id": "market-seo",
+      "class": "runtime conflict",
+      "runtimes": [
+        "claude",
+        "codex"
+      ],
+      "detail": "installed in both runtimes with different SKILL.md content; two versions are live",
+      "digests": {
+        "claude": "1ab2df43a9b0426e0f089a85c0768c31e8ada98f0570d4380ee83e4c9495c717",
+        "codex": "54e338e4d488bbb603039c2057ca40e939ac3d341bc9bcd5d78006bb45fa66dc"
+      },
+      "auto_approve": false
+    },
+    {
+      "id": "market-seo",
+      "class": "metadata gap",
+      "detail": "still unknown after regeneration: inputs, outputs",
+      "auto_approve": false
+    },
+    {
+      "id": "market-social",
+      "class": "runtime conflict",
+      "runtimes": [
+        "claude",
+        "codex"
+      ],
+      "detail": "installed in both runtimes with different SKILL.md content; two versions are live",
+      "digests": {
+        "claude": "87bbfa87fd556e8b7f2a6df0fb98c77ef0baa17a12a9a1d26fa6ee58848cec4e",
+        "codex": "9ba95cc09d8d5a8c325b1d546e94aa400c7d8a4552a4cc2ee482c48c19162cef"
+      },
+      "auto_approve": false
+    },
+    {
+      "id": "market-social",
+      "class": "metadata gap",
+      "detail": "still unknown after regeneration: inputs, outputs, tools",
+      "auto_approve": false
+    },
+    {
+      "id": "memory-sync",
+      "class": "metadata gap",
+      "detail": "still unknown after regeneration: inputs, outputs, tools",
+      "auto_approve": false
+    },
+    {
+      "id": "monthly-report",
+      "class": "runtime conflict",
+      "runtimes": [
+        "claude",
+        "codex"
+      ],
+      "detail": "installed in both runtimes with different SKILL.md content; two versions are live",
+      "digests": {
+        "claude": "1507de066894bc6013ea395846defb631e93e13e3b5fca6c331181877be95014",
+        "codex": "13abef6a496ef5f53e3b651234ce00f25d826f6fb406a24f6a3a438c9f9707ac"
+      },
+      "auto_approve": false
+    },
+    {
+      "id": "monthly-report",
+      "class": "metadata gap",
+      "detail": "still unknown after regeneration: outputs",
+      "auto_approve": false
+    },
+    {
+      "id": "new-proposal",
+      "class": "runtime conflict",
+      "runtimes": [
+        "claude",
+        "codex"
+      ],
+      "detail": "installed in both runtimes with different SKILL.md content; two versions are live",
+      "digests": {
+        "claude": "2c10e98bc8c1543f6d5541198b7fd3cb8a6dd93f92a1081b2f76348e4670233a",
+        "codex": "837e3e95f2ba6b3aa636cf8aaf169e7c2bb2f1622709cbdd95a0db84aab36569"
+      },
+      "auto_approve": false
+    },
+    {
+      "id": "new-proposal",
+      "class": "metadata gap",
+      "detail": "still unknown after regeneration: inputs, outputs, tools",
+      "auto_approve": false
+    },
+    {
+      "id": "notebooklm",
+      "class": "metadata gap",
+      "detail": "still unknown after regeneration: inputs, outputs",
+      "auto_approve": false
+    },
+    {
+      "id": "pdf",
+      "class": "runtime conflict",
+      "runtimes": [
+        "claude",
+        "codex"
+      ],
+      "detail": "installed in both runtimes with different SKILL.md content; two versions are live",
+      "digests": {
+        "claude": "067401220db5745f719ff8c048d545d5edc8545e809668a3a6f9e2892fa51d48",
+        "codex": "d2734044781671ce8e21338a9fc2d21a975d7bb84c3e70f77593651082a62d4a"
+      },
+      "auto_approve": false
+    },
+    {
+      "id": "pdf",
+      "class": "metadata gap",
+      "detail": "still unknown after regeneration: inputs, outputs",
+      "auto_approve": false
+    },
+    {
+      "id": "post-call-followup",
+      "class": "runtime conflict",
+      "runtimes": [
+        "claude",
+        "codex"
+      ],
+      "detail": "installed in both runtimes with different SKILL.md content; two versions are live",
+      "digests": {
+        "claude": "c3c8a8a1de4001d9215a427e8d602c5ae4d36e58f23db0ef2831cf2bdcabfc65",
+        "codex": "495858cc4de5d8974c41692feb57fd30f1686b20722a4f535f74835e5c4d340b"
+      },
+      "auto_approve": false
+    },
+    {
+      "id": "post-call-followup",
+      "class": "metadata gap",
+      "detail": "still unknown after regeneration: outputs, tools",
+      "auto_approve": false
+    },
+    {
+      "id": "pptx",
+      "class": "runtime conflict",
+      "runtimes": [
+        "claude",
+        "codex"
+      ],
+      "detail": "installed in both runtimes with different SKILL.md content; two versions are live",
+      "digests": {
+        "claude": "5d91c30e63ef72cd1ff10446702401f9ebb3f32dd7b264f50959a95548a225bf",
+        "codex": "fa31ca42fee142acc85be28dbb60991a1860b9f78bde0a09013aa1e8e52199df"
+      },
+      "auto_approve": false
+    },
+    {
+      "id": "pptx",
+      "class": "metadata gap",
+      "detail": "still unknown after regeneration: inputs, outputs",
+      "auto_approve": false
+    },
+    {
+      "id": "referrals",
+      "class": "metadata gap",
+      "detail": "still unknown after regeneration: inputs, outputs, tools",
+      "auto_approve": false
+    },
+    {
+      "id": "revops",
+      "class": "metadata gap",
+      "detail": "still unknown after regeneration: inputs, outputs, tools",
+      "auto_approve": false
+    },
+    {
+      "id": "seo-brief-writer",
+      "class": "metadata gap",
+      "detail": "still unknown after regeneration: outputs",
+      "auto_approve": false
+    },
+    {
+      "id": "session-handoff",
+      "class": "metadata gap",
+      "detail": "still unknown after regeneration: inputs, outputs",
+      "auto_approve": false
+    },
+    {
+      "id": "skill-creator",
+      "class": "metadata gap",
+      "detail": "still unknown after regeneration: inputs, outputs",
+      "auto_approve": false
+    },
+    {
+      "id": "weekly-review",
+      "class": "metadata gap",
+      "detail": "still unknown after regeneration: inputs, outputs",
+      "auto_approve": false
+    },
+    {
+      "id": "writing-skills",
+      "class": "runtime conflict",
+      "runtimes": [
+        "claude",
+        "codex"
+      ],
+      "detail": "installed in both runtimes with different SKILL.md content; two versions are live",
+      "digests": {
+        "claude": "38ba648975ae6ba512d6695676f146163db61a496b867f716f4bdfb0ee3aca3e",
+        "codex": "f73e11a3d5722344cc5cee77203cf74a3053a24e57c06a5d64081b89da09250e"
+      },
+      "auto_approve": false
+    },
+    {
+      "id": "writing-skills",
+      "class": "metadata gap",
+      "detail": "still unknown after regeneration: inputs, outputs",
+      "auto_approve": false
+    },
+    {
+      "id": "youtube-analytics",
+      "class": "runtime conflict",
+      "runtimes": [
+        "claude",
+        "codex"
+      ],
+      "detail": "installed in both runtimes with different SKILL.md content; two versions are live",
+      "digests": {
+        "claude": "17f13c38aaf4cc3a54940d151aeffae674449ce291a7fc648b6d0e278e4318ef",
+        "codex": "c20d36bc2105d898591ae09a4199fbd3174fd615dbdabc707576c0e96cb1a081"
+      },
+      "auto_approve": false
+    },
+    {
+      "id": "youtube-analytics",
+      "class": "metadata gap",
+      "detail": "still unknown after regeneration: inputs, outputs",
+      "auto_approve": false
+    },
+    {
+      "id": "youtube-channel-scout",
+      "class": "metadata gap",
+      "detail": "still unknown after regeneration: inputs, outputs, tools",
+      "auto_approve": false
+    },
+    {
+      "id": "youtube-intelligence",
+      "class": "runtime conflict",
+      "runtimes": [
+        "claude",
+        "codex"
+      ],
+      "detail": "installed in both runtimes with different SKILL.md content; two versions are live",
+      "digests": {
+        "claude": "3186d2456f6c2b9313531a725da39b9678f8732231107a4c410f303eaffc95d2",
+        "codex": "dc98d19185d949b514b77ee3974f4df5822ea59380ab4b1724b430f9b3d42cbd"
+      },
+      "auto_approve": false
+    },
+    {
+      "id": "youtube-intelligence",
+      "class": "metadata gap",
+      "detail": "still unknown after regeneration: inputs, outputs",
+      "auto_approve": false
+    },
+    {
+      "id": "youtube-learning-pipeline",
+      "class": "metadata gap",
+      "detail": "still unknown after regeneration: inputs",
+      "auto_approve": false
+    },
+    {
+      "id": "youtube-offer-extraction",
+      "class": "metadata gap",
+      "detail": "still unknown after regeneration: inputs, outputs",
+      "auto_approve": false
+    },
+    {
+      "id": "youtube-to-skill",
+      "class": "runtime conflict",
+      "runtimes": [
+        "claude",
+        "codex"
+      ],
+      "detail": "installed in both runtimes with different SKILL.md content; two versions are live",
+      "digests": {
+        "claude": "f554684856caac6a82aa834f76369b95be9feb452bfc3ddeb4b84945f62b8dd3",
+        "codex": "1866b78131e8b694aaba27e116581cc4e1214180b90b6f87f235e48b2119be07"
+      },
+      "auto_approve": false
+    },
+    {
+      "id": "youtube-to-skill",
+      "class": "metadata gap",
+      "detail": "still unknown after regeneration: outputs",
+      "auto_approve": false
+    }
+  ]
+}

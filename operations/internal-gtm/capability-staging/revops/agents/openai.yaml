@@ -1,0 +1,4 @@
+interface:
+  display_name: "BridgeWorks RevOps"
+  short_description: "Analyze GTM lifecycle and pipeline health"
+  default_prompt: "Use $revops to analyze BridgeWorks lifecycle, handoffs, and pipeline health."

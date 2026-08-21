@@ -1,0 +1,19 @@
+{
+  "qualification_id": "gbs-africa-qualification-v1-reconciled-2026-08-11",
+  "prospect_id": "gbs-africa",
+  "qualification_version": "qualification-v1",
+  "score": 59,
+  "tier": "QUALIFIED",
+  "actionability": "actionable",
+  "actionability_changed": true,
+  "change_reason": "The current claim-key rule leaves only the explicit homepage-title contradiction. That contradiction is not referenced by the qualification components and is not material to the route.",
+  "component_scores": {"problem_evidence": 25, "commercial_fit": 0, "buyer_accessibility": 4, "trigger_urgency": 15, "proof_fit": 15, "execution_readiness": 0},
+  "qualification_coverage": {"percentage": 50.0, "sufficiently_researched_dimensions": 3, "missing_dimensions": ["commercial_fit", "execution_readiness"], "partial_dimensions": ["buyer_accessibility"], "exhausted_unknown_dimensions": []},
+  "buyer_accessibility": {"score": 4, "route": "info@gbsafrica.co.uk", "named_buyer": null, "research_status": "partial"},
+  "proof_fit": {"score": 15, "proof_asset_id": "ceefm-geo-16-to-77"},
+  "primary_route": "content-visibility-demand",
+  "diagnostic_id": "geo-audit:gbsafrica-2026-08-11",
+  "diagnostic_status": "complete",
+  "valid_approval_packet_id": null,
+  "external_action_authorized": false
+}

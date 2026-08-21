@@ -1,0 +1,14 @@
+{
+  "date": "2026-08-11",
+  "scope": "Internal GTM package merge, deterministic runtime, and synthetic fixture verification",
+  "canonical_capability_registry": "skill-governance/capability-registry.yaml",
+  "registry_valid": true,
+  "referenced_capability_count": 18,
+  "dangling_capability_references": 0,
+  "test_count": 49,
+  "external_actions_performed": [],
+  "migration_actions_performed": [],
+  "decommission_actions_performed": [],
+  "shutdown_state": "not_started_requires_emmanuel_approval"
+}
+

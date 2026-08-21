@@ -1,0 +1,75 @@
+{
+  "batch_id": "2026-08-21-batch-01",
+  "checked_at": "2026-08-21",
+  "prospects": [
+    {
+      "prospect_id": "westbridge-legal-trade-ltd",
+      "company": "Westbridge Legal & Trade Ltd",
+      "checked_at": "2026-08-21",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.westbridgelegaltrade.com.ng/",
+          "accessed_at": "2026-08-21",
+          "supports": "Owned legal and trade advisory site, Europe and West Africa positioning, service list, consultation/contact route, company inbox, Lagos address, response promise, and 2026 footer."
+        }
+      ],
+      "owned_domain": "westbridgelegaltrade.com.ng",
+      "conversion_route": "Book a Consultation link and contact form with name, email, subject, and message fields.",
+      "decision_maker": "Responsible role verified as Contact Our Legal Team. No named individual verified from current public source.",
+      "contact_route": "info@westbridgelegaltrade.com.ng",
+      "observations": [
+        "The homepage positions Westbridge for foreign companies, investors, expatriates, importers, regulated products, NAFDAC, SONCAP, customs, tenancy, and cross-border market-entry matters.",
+        "The same high-intent buyers are routed through a generic consultation/contact path with name, email, subject, and message fields, without a visible service selector for the regulated service needed."
+      ],
+      "recommended_angle": "Consultation-route segmentation QA for legal and trade buyers.",
+      "evidence_notes": "Local artifact search found only the 2026-08-18 import, current source row, and current batch. Gmail exact domain/email search returned zero matches. HubSpot exact company-domain and contact-email searches returned zero matches.",
+      "outreach_readiness": "ready",
+      "commercial_gap": "Foreign companies and importers are shown many regulated legal-trade services, but the consultation route does not visibly sort the buyer by service need before submission.",
+      "proof_to_use": "BridgeWorks consultation-route and service-segmentation QA.",
+      "proposed_channel": "email",
+      "proposed_destination": "info@westbridgelegaltrade.com.ng",
+      "draft_subject": "Westbridge consultation route note",
+      "draft_body": "Hello Westbridge Legal & Trade team, I reviewed your site today. The Europe and West Africa legal-trade positioning is clear. One practical issue stood out: immigration, customs, NAFDAC, SONCAP, tenancy, and market-entry buyers all reach the same generic contact route. BridgeWorks can help turn that into a clearer service-specific enquiry path, so the right buyer intent is captured before the first reply.",
+      "next_internal_action": "Queue exact email copy for Emmanuel approval only.",
+      "risk_notes": "No named public decision-maker verified. Use the company inbox only. Do not send without approval."
+    },
+    {
+      "prospect_id": "zmastery",
+      "company": "ZMastery",
+      "checked_at": "2026-08-21",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.zmastery.com/",
+          "accessed_at": "2026-08-21",
+          "supports": "Owned iGaming SEO site, Africa market-entry offer, paid audits, booking route, form fallback, info@zmastery.com contact block, contact@zmastery.com footer route, WhatsApp, Telegram, Lagos location, and 2026 content."
+        },
+        {
+          "url": "https://www.zmastery.com/p/our-team.html",
+          "accessed_at": "2026-08-21",
+          "supports": "Team page naming Olúwatóbi Adébóyè as Co-Founder and Lead SEO Strategist, and Damilola Oyeniyi as Co-Founder and Head of Operations."
+        }
+      ],
+      "owned_domain": "zmastery.com",
+      "conversion_route": "Book Free Strategy Call, paid audit CTAs, contact form, WhatsApp, Telegram, info@zmastery.com, and contact@zmastery.com footer route.",
+      "decision_maker": "Olúwatóbi Adébóyè, Co-Founder and Lead SEO Strategist; Damilola Oyeniyi, Co-Founder and Head of Operations.",
+      "contact_route": "info@zmastery.com",
+      "observations": [
+        "The homepage presents paid Africa market readiness and technical audit offers, a 30-minute strategy call, a contact form, WhatsApp, Telegram, and a 24-hour response promise.",
+        "The main contact area uses info@zmastery.com while the footer uses contact@zmastery.com, creating two public email routes beside the same paid-audit and booking journey."
+      ],
+      "recommended_angle": "Contact-route consistency and paid-audit conversion QA.",
+      "evidence_notes": "Local artifact search found only the 2026-08-18 import, current source row, and current batch. Gmail exact domain/email search returned zero matches. HubSpot exact company-domain and contact-email searches returned zero matches.",
+      "outreach_readiness": "ready",
+      "commercial_gap": "A paid-audit buyer is asked to book or start a paid audit, but the public journey shows two different company email routes across the contact area and footer.",
+      "proof_to_use": "BridgeWorks contact-route consistency and conversion QA.",
+      "proposed_channel": "email",
+      "proposed_destination": "info@zmastery.com",
+      "draft_subject": "ZMastery contact route consistency note",
+      "draft_body": "Hello ZMastery team, I reviewed your site today. The Africa iGaming SEO offer, paid audits, and strategy-call route are clear. One conversion detail stood out: the contact section points buyers to info@zmastery.com, while the footer shows contact@zmastery.com. For a paid-audit buyer, that split can create doubt at the moment they are ready to act. BridgeWorks can help tighten that route.",
+      "next_internal_action": "Queue exact email copy for Emmanuel approval only.",
+      "risk_notes": "Named leaders were verified publicly, but the prepared route should stay on the company inbox. Do not use personal channels or send without approval."
+    }
+  ]
+}

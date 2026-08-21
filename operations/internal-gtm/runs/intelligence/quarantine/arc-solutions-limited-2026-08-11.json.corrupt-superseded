@@ -1,0 +1,153 @@
+{
+  "_stage": "stage_2_targeted_enrichment",
+  "_produced_by": "Claude Code acting as the Commercial Intelligence and Buyer Intelligence runtime, 2026-08-11. Public web only, free tier. No paid enrichment, no contact.",
+  "_selected_because": "highest-priority unresolved prospect in the canonical batch, priority 82",
+  "prospect_id": "arc-solutions-limited",
+  "company": "Arc Solutions Limited",
+  "as_of": "2026-08-11",
+  "commercial_intelligence": {
+    "capability": "bridgeworks-commercial-intelligence",
+    "findings": [
+      {
+        "id": "ci-arc-founded",
+        "category": "commercial_fit",
+        "claim_key": "founding_year",
+        "claim": "The site states the company was founded in 2009 and claims 15 or more years in operation.",
+        "value": 2009,
+        "severity": "none",
+        "source": "https://arcsolutionslimited.com/",
+        "observed_at": "2026-08-11",
+        "status": "verified",
+        "tool": "public_web"
+      },
+      {
+        "id": "ci-arc-clients",
+        "category": "commercial_fit",
+        "claim_key": "published_client_scale",
+        "claim": "The site publishes 20 or more corporate clients, 500 or more projects delivered and a 98 percent client satisfaction rate.",
+        "value": {"corporate_clients": "20+", "projects": "500+", "satisfaction": "98%"},
+        "severity": "none",
+        "source": "https://arcsolutionslimited.com/",
+        "observed_at": "2026-08-11",
+        "status": "verified",
+        "tool": "public_web"
+      },
+      {
+        "id": "ci-arc-locations",
+        "category": "commercial_fit",
+        "claim_key": "operating_footprint",
+        "claim": "Nine coverage locations are published: Lagos, Surulere, Abuja, Abeokuta, Port Harcourt, Asaba, Ado Ekiti, Delta and Ogun.",
+        "value": 9,
+        "severity": "none",
+        "source": "https://arcsolutionslimited.com/",
+        "observed_at": "2026-08-11",
+        "status": "verified",
+        "tool": "public_web"
+      },
+      {
+        "id": "ci-arc-service-lines",
+        "category": "execution_readiness",
+        "claim_key": "published_service_lines",
+        "claim": "Seven service lines are published: janitorial cleaning, facility management, outsourcing, post-construction cleaning, logistics and relocation, cleaning supplies, and fumigation and pest control.",
+        "value": 7,
+        "severity": "none",
+        "source": "https://arcsolutionslimited.com/",
+        "observed_at": "2026-08-11",
+        "status": "verified",
+        "tool": "public_web"
+      },
+      {
+        "id": "ci-arc-no-registration",
+        "category": "commercial_fit",
+        "claim_key": "company_registration_published",
+        "claim": "No company registration number, RC number or registered address is published anywhere on the site.",
+        "value": "not_published",
+        "severity": "none",
+        "source": "https://arcsolutionslimited.com/",
+        "observed_at": "2026-08-11",
+        "status": "verified",
+        "tool": "public_web"
+      },
+      {
+        "id": "ci-arc-placeholder-confirmed",
+        "category": "commercial_fit",
+        "claim_key": "site_completion_state",
+        "claim": "The navigation carries a SPOTA AI item with no clear purpose, which is consistent with the placeholder residue the original research recorded.",
+        "value": "placeholder_in_navigation",
+        "severity": "none",
+        "source": "https://arcsolutionslimited.com/",
+        "observed_at": "2026-08-11",
+        "status": "verified",
+        "tool": "public_web"
+      }
+    ],
+    "commercial_value_band": {
+      "low": null,
+      "high": null,
+      "currency": null,
+      "basis": null,
+      "confidence": "none",
+      "why_null": "Client and project counts are published but no price, contract value or average engagement size is. A count without a price cannot be multiplied into a band. Guessing a per-client value would be a fabrication with a number attached."
+    },
+    "procurement_complexity": "medium",
+    "procurement_basis": "Nine locations, seven service lines and corporate clients imply more than one stakeholder, but no procurement policy, tender history or named function head is published to confirm it.",
+    "engagement_size_fit": "plausible",
+    "engagement_size_basis": "Fifteen years, nine locations and a published corporate client base put this above the Oliviks scale and comparable to or above CEEFM. No published figure contradicts the fit.",
+    "unresolved_questions": [
+      "No RC number is published, so the CAC register was not queried. That register would settle incorporation date, directors and status.",
+      "The published counts are self-reported and carry no third-party corroboration.",
+      "Whether the 500-plus projects are recurring contracts or one-off jobs. That distinction decides whether the engagement is a project or a retainer."
+    ]
+  },
+  "buyer_intelligence": {
+    "capability": "bridgeworks-buyer-intelligence",
+    "roles": {
+      "problem_owner": {"person": null, "title": null, "evidence_id": null,
+                        "attribution_confidence": "none",
+                        "why": "No team page, no named staff and no role titles are published anywhere on the site."},
+      "budget_owner": {"person": null, "title": null, "evidence_id": null,
+                       "attribution_confidence": "none",
+                       "why": "No leadership or signing authority is published."},
+      "decision_maker": {"person": null, "title": null, "evidence_id": null,
+                         "attribution_confidence": "none",
+                         "why": "No named person appears on the site at all."},
+      "champion": {"person": null, "title": null, "evidence_id": null,
+                   "attribution_confidence": "none",
+                   "why": "No individual is exposed publicly, so no champion can be attributed."},
+      "blocker": {"person": null, "title": null, "evidence_id": null,
+                  "attribution_confidence": "none",
+                  "why": "No incumbent supplier or in-house team is evidenced."}
+    },
+    "contact_route": {
+      "destination": "info@arcsolutionslimited.com",
+      "destination_type": "general",
+      "source": "https://arcsolutionslimited.com/",
+      "lawful_basis_note": "General business address published by the company on its own site."
+    },
+    "findings": [
+      {
+        "id": "bi-arc-no-named-people",
+        "category": "buyer_accessibility",
+        "claim_key": "named_staff_published",
+        "claim": "No named person with a job title is published anywhere on the site, and the /about path returns HTTP 404.",
+        "value": "not_published",
+        "severity": "none",
+        "source": "https://arcsolutionslimited.com/",
+        "observed_at": "2026-08-11",
+        "status": "verified",
+        "tool": "public_web"
+      }
+    ],
+    "research_status_recommendation": {
+      "buyer_accessibility": "exhausted_unknown",
+      "why": ("Every approved public source was checked: the homepage, the 404 about path and the "
+              "site navigation. No individual is published. Further public web research would "
+              "return the same answer, so the scheduler should not reopen this dimension until "
+              "fresh evidence appears, for example a CAC filing or a new team page.")
+    },
+    "unresolved_questions": [
+      "Directors would be on the Nigerian CAC register, but no RC number is published to query it with."
+    ]
+  },
+  "external_action_authorized": false
+}

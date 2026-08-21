@@ -1,0 +1,111 @@
+{
+  "capability": "client-audit",
+  "run_id": "client-audit:premierfm.hu:2026-08-11",
+  "completed_at": "2026-08-11",
+  "score": null,
+  "prospect_id": "premier-fm",
+  "company": "Premier FM",
+  "canonical_domain": "premierfm.hu",
+  "normalization": {
+    "kind": "schema_envelope_normalization",
+    "diagnostic_rerun": false,
+    "source_execution_artifact": "operations/internal-gtm/handoffs/premier-fm-client-audit-2026-08-11.json",
+    "source_sha256": "5cb3987a75b96ea8f397f88b392e4742586b9ff742ee29a946b828503178edd5",
+    "reason": "The valid execution handoff predates the current result envelope and used as_of instead of completed_at. Findings are preserved without invention."
+  },
+  "execution": {
+    "runtime": "claude_code",
+    "status": "complete",
+    "method": "public web fetch, read only, no contact and no form submission",
+    "pages_fetched": ["https://premierfm.hu/", "https://premierfm.hu/kapcsolat"],
+    "registered_capability": true,
+    "not_reshaped_prior_research": true
+  },
+  "findings": [
+    {
+      "id": "ca-pfm-1",
+      "category": "website_trust",
+      "claim_key": "kpi_counters_render_values",
+      "severity": "high",
+      "claim": "Five KPI labels render on the homepage with no numeric value beside any of them: years of operating experience, thousand square metres managed, occasional contracts, satisfied clients, and subcontractors.",
+      "value": "five_kpi_labels_zero_values",
+      "source": "https://premierfm.hu/",
+      "observed_at": "2026-08-11",
+      "status": "verified"
+    },
+    {
+      "id": "ca-pfm-2",
+      "category": "website_trust",
+      "claim_key": "third_party_proof_present",
+      "severity": "high",
+      "claim": "No client logos, testimonials, certifications or awards appear on the sampled homepage.",
+      "value": "no_third_party_proof_on_sampled_homepage",
+      "source": "https://premierfm.hu/",
+      "observed_at": "2026-08-11",
+      "status": "verified"
+    },
+    {
+      "id": "ca-pfm-3",
+      "category": "website_trust",
+      "claim_key": "trading_name_matches_legal_entity",
+      "severity": "medium",
+      "claim": "The site trades as Premier FM and Premier Facility Management Team while the contact page names Otthonbiztonsagban.hu Kft.; the relationship is not explained on the sampled page.",
+      "value": "trading_name_differs_from_published_legal_entity",
+      "source": "https://premierfm.hu/kapcsolat",
+      "observed_at": "2026-08-11",
+      "status": "verified"
+    },
+    {
+      "id": "ca-pfm-4",
+      "category": "buyer_accessibility",
+      "claim_key": "named_buyer_with_role_published",
+      "severity": "none",
+      "claim": "Lékó Péter is published as Értékesítési vezető, Sales Manager, with a direct business email and mobile number; Schmöltz Miklós is published as Facility Manager with direct contact details.",
+      "value": {"primary": {"name": "Lékó Péter", "role": "Értékesítési vezető", "email": "leko.peter@premierfm.hu"}, "secondary": {"name": "Schmöltz Miklós", "role": "Facility manager"}},
+      "source": "https://premierfm.hu/kapcsolat",
+      "observed_at": "2026-08-11",
+      "status": "verified"
+    },
+    {
+      "id": "ca-pfm-5",
+      "category": "conversion_path",
+      "claim_key": "quote_route_reachable_and_committed",
+      "severity": "medium",
+      "claim": "A quote call to action leads to a contact form and published general and direct contact routes; no response-time commitment was observed.",
+      "value": "quote_route_reachable_no_response_commitment",
+      "source": "https://premierfm.hu/kapcsolat",
+      "observed_at": "2026-08-11",
+      "status": "verified"
+    },
+    {
+      "id": "ca-pfm-6",
+      "category": "visibility",
+      "claim_key": "social_links_on_homepage",
+      "severity": "low",
+      "claim": "No social-media link appears on the sampled homepage; this is not proof that no social account exists.",
+      "value": "no_social_links_on_sampled_homepage",
+      "source": "https://premierfm.hu/",
+      "observed_at": "2026-08-11",
+      "status": "verified"
+    }
+  ],
+  "limitations": [
+    "Only the homepage and contact page were fetched in the execution.",
+    "The KPI render state was not tested across browsers or devices.",
+    "The Hungarian company register, reviews, maps, performance and mobile behavior were not checked.",
+    "Sales Manager is a verified role, not evidence of signing authority."
+  ],
+  "unknowns": [
+    "The true KPI figures and whether their absence is a rendering fault or unpublished data.",
+    "The relationship between Premier FM and Otthonbiztonsagban.hu Kft.",
+    "Lékó Péter's signing authority."
+  ],
+  "route_test": {
+    "prior_route": "digital-platforms-brand",
+    "verdict": "confirmed",
+    "selected_route": "digital-platforms-brand",
+    "reason": "The strongest findings concern owned-site proof, brand-to-entity clarity and the quote journey."
+  },
+  "approval_packet": null,
+  "outreach_prepared": false
+}

@@ -1,0 +1,3843 @@
+{
+  "batch_id": "internal-gtm-qualification-2026-08-17-01",
+  "as_of": "2026-08-17",
+  "objective": {
+    "objective_id": "gtm-objective:2026-08-17",
+    "dedupe_key": "gtm-objective:2026-08-17",
+    "as_of": "2026-08-17",
+    "timezone": "Europe/Budapest",
+    "external_action_authorized": false,
+    "shadow_safe": true,
+    "source_snapshot_digest": "62956258fd20efda8b4034d44005bc8562eb92f5ea30eca71743b13d1fbbb4a5",
+    "priority_class": "complete_qualification_coverage",
+    "objective_type": "complete_qualification_coverage",
+    "prospect_ids": [
+      "arc-solutions-limited",
+      "mri-investments-ltd",
+      "budapest-sky-property-management",
+      "daraja-africa-eu",
+      "geneto-facility-management-company",
+      "tech-fm-kft",
+      "tilz-prosperitas",
+      "eurafrica-partners"
+    ],
+    "enrichment_cohort": [
+      {
+        "prospect_id": "arc-solutions-limited",
+        "company": "Arc Solutions Limited",
+        "priority_score": 82,
+        "components": {
+          "problem_evidence": 20,
+          "trigger_strength": 16,
+          "buyer_evidence": 15,
+          "proof_fit": 15,
+          "company_attractiveness": 6,
+          "evidence_freshness": 10,
+          "blocker_penalty": 0
+        },
+        "blocker_codes": [],
+        "why": [
+          "problem=20/20",
+          "trigger=16/20",
+          "buyer=15/15",
+          "proof=15/15",
+          "attractiveness=6/15",
+          "freshness=10/10",
+          "blockers=0"
+        ]
+      },
+      {
+        "prospect_id": "mri-investments-ltd",
+        "company": "MRI Investments Ltd",
+        "priority_score": 76,
+        "components": {
+          "problem_evidence": 20,
+          "trigger_strength": 7,
+          "buyer_evidence": 15,
+          "proof_fit": 15,
+          "company_attractiveness": 9,
+          "evidence_freshness": 10,
+          "blocker_penalty": 0
+        },
+        "blocker_codes": [],
+        "why": [
+          "problem=20/20",
+          "trigger=7/20",
+          "buyer=15/15",
+          "proof=15/15",
+          "attractiveness=9/15",
+          "freshness=10/10",
+          "blockers=0"
+        ]
+      },
+      {
+        "prospect_id": "budapest-sky-property-management",
+        "company": "Budapest Sky Property Management",
+        "priority_score": 73,
+        "components": {
+          "problem_evidence": 20,
+          "trigger_strength": 13,
+          "buyer_evidence": 15,
+          "proof_fit": 15,
+          "company_attractiveness": 0,
+          "evidence_freshness": 10,
+          "blocker_penalty": 0
+        },
+        "blocker_codes": [],
+        "why": [
+          "problem=20/20",
+          "trigger=13/20",
+          "buyer=15/15",
+          "proof=15/15",
+          "attractiveness=0/15",
+          "freshness=10/10",
+          "blockers=0"
+        ]
+      },
+      {
+        "prospect_id": "daraja-africa-eu",
+        "company": "DARAJA Africa-EU",
+        "priority_score": 73,
+        "components": {
+          "problem_evidence": 20,
+          "trigger_strength": 16,
+          "buyer_evidence": 15,
+          "proof_fit": 15,
+          "company_attractiveness": 0,
+          "evidence_freshness": 7,
+          "blocker_penalty": 0
+        },
+        "blocker_codes": [],
+        "why": [
+          "problem=20/20",
+          "trigger=16/20",
+          "buyer=15/15",
+          "proof=15/15",
+          "attractiveness=0/15",
+          "freshness=7/10",
+          "blockers=0"
+        ]
+      },
+      {
+        "prospect_id": "geneto-facility-management-company",
+        "company": "Geneto Facility Management Company",
+        "priority_score": 73,
+        "components": {
+          "problem_evidence": 20,
+          "trigger_strength": 10,
+          "buyer_evidence": 15,
+          "proof_fit": 15,
+          "company_attractiveness": 3,
+          "evidence_freshness": 10,
+          "blocker_penalty": 0
+        },
+        "blocker_codes": [],
+        "why": [
+          "problem=20/20",
+          "trigger=10/20",
+          "buyer=15/15",
+          "proof=15/15",
+          "attractiveness=3/15",
+          "freshness=10/10",
+          "blockers=0"
+        ]
+      },
+      {
+        "prospect_id": "tech-fm-kft",
+        "company": "TECH FM Kft.",
+        "priority_score": 73,
+        "components": {
+          "problem_evidence": 20,
+          "trigger_strength": 13,
+          "buyer_evidence": 15,
+          "proof_fit": 15,
+          "company_attractiveness": 0,
+          "evidence_freshness": 10,
+          "blocker_penalty": 0
+        },
+        "blocker_codes": [],
+        "why": [
+          "problem=20/20",
+          "trigger=13/20",
+          "buyer=15/15",
+          "proof=15/15",
+          "attractiveness=0/15",
+          "freshness=10/10",
+          "blockers=0"
+        ]
+      },
+      {
+        "prospect_id": "tilz-prosperitas",
+        "company": "Tilz Prosperitas",
+        "priority_score": 73,
+        "components": {
+          "problem_evidence": 20,
+          "trigger_strength": 10,
+          "buyer_evidence": 15,
+          "proof_fit": 15,
+          "company_attractiveness": 6,
+          "evidence_freshness": 7,
+          "blocker_penalty": 0
+        },
+        "blocker_codes": [],
+        "why": [
+          "problem=20/20",
+          "trigger=10/20",
+          "buyer=15/15",
+          "proof=15/15",
+          "attractiveness=6/15",
+          "freshness=7/10",
+          "blockers=0"
+        ]
+      },
+      {
+        "prospect_id": "eurafrica-partners",
+        "company": "EurAfrica Partners",
+        "priority_score": 70,
+        "components": {
+          "problem_evidence": 20,
+          "trigger_strength": 10,
+          "buyer_evidence": 15,
+          "proof_fit": 15,
+          "company_attractiveness": 0,
+          "evidence_freshness": 10,
+          "blocker_penalty": 0
+        },
+        "blocker_codes": [],
+        "why": [
+          "problem=20/20",
+          "trigger=10/20",
+          "buyer=15/15",
+          "proof=15/15",
+          "attractiveness=0/15",
+          "freshness=10/10",
+          "blockers=0"
+        ]
+      }
+    ],
+    "reason_codes": [
+      "canonical_qualification_missing_or_partial",
+      "bounded_existing_prospect_cohort"
+    ],
+    "higher_classes_not_selected": [
+      {
+        "priority_class": "stop_unsafe_external_action",
+        "reason": "no unsafe_active state detected"
+      },
+      {
+        "priority_class": "advance_active_revenue",
+        "reason": "no evidenced reply, active conversation, meeting, discovery, proposal, negotiation, or explicit buying signal detected"
+      }
+    ],
+    "metrics": {
+      "qualified_untouched": 3,
+      "overdue_research": 2,
+      "missing_evidence": 0,
+      "missing_buyers": 0,
+      "stale_states": 0,
+      "approvals_waiting": 22,
+      "requires_qualification_v1": 46,
+      "qualification_coverage_gaps": 10,
+      "unsafe_active": 0,
+      "unsafe_contained": 1
+    },
+    "supply": {
+      "allowed": false,
+      "target": 4,
+      "current": 3,
+      "blockers": [
+        "canonical_qualification_missing_or_partial",
+        "bounded_existing_prospect_cohort"
+      ]
+    }
+  },
+  "progressive_spend_stage": 2,
+  "prospects": [
+    {
+      "prospect_id": "arc-solutions-limited",
+      "company": "Arc Solutions Limited",
+      "priority": {
+        "prospect_id": "arc-solutions-limited",
+        "company": "Arc Solutions Limited",
+        "priority_score": 82,
+        "components": {
+          "problem_evidence": 20,
+          "trigger_strength": 16,
+          "buyer_evidence": 15,
+          "proof_fit": 15,
+          "company_attractiveness": 6,
+          "evidence_freshness": 10,
+          "blocker_penalty": 0
+        },
+        "blocker_codes": [],
+        "why": [
+          "problem=20/20",
+          "trigger=16/20",
+          "buyer=15/15",
+          "proof=15/15",
+          "attractiveness=6/15",
+          "freshness=10/10",
+          "blockers=0"
+        ]
+      },
+      "existing_trigger": "Use a concise quote-route QA and credibility-friction review tied to the visible SPOTA AI navigation residue near the enquiry path.",
+      "problem_evidence": "Arc Solutions asks facility-management buyers to request a quote, but the current navigation exposes stray SPOTA AI text beside the quote route, creating avoidable credibility friction on a high-intent page.",
+      "qualification_v1": {
+        "qualification_version": "qualification-v1",
+        "score": 46,
+        "max_score": 100,
+        "tier": "WATCH",
+        "actionability": "actionable",
+        "blocking_reasons": [],
+        "components": {
+          "problem_evidence": {
+            "score": 14,
+            "requested_score": 14,
+            "max_score": 25,
+            "evidence_ids": [
+              "arc-solutions-limited-problem-1",
+              "arc-solutions-limited-problem-2"
+            ],
+            "usable_evidence_ids": [
+              "arc-solutions-limited-problem-1",
+              "arc-solutions-limited-problem-2"
+            ],
+            "approved_evidence_ids": [
+              "arc-solutions-limited-problem-1",
+              "arc-solutions-limited-problem-2"
+            ],
+            "unresolvable_evidence_ids": [],
+            "contradicted_evidence_ids": [],
+            "contradicted": false,
+            "evidence_classes": [
+              "observed"
+            ],
+            "evidence_freshness": "current",
+            "evidence_age_days": 6,
+            "confidence": "medium",
+            "source_provenance": [
+              "https://www.arcsolutionslimited.com/contact",
+              "https://www.arcsolutionslimited.com/work/facility-management"
+            ],
+            "adjustment_reason": null,
+            "reason": "scored",
+            "rationale": null,
+            "evidence_state": "approved",
+            "research_status": "complete"
+          },
+          "commercial_fit": {
+            "score": 4,
+            "requested_score": 4,
+            "max_score": 20,
+            "evidence_ids": [
+              "arc-solutions-limited-ci-1",
+              "arc-solutions-limited-ci-2"
+            ],
+            "usable_evidence_ids": [
+              "arc-solutions-limited-ci-1",
+              "arc-solutions-limited-ci-2"
+            ],
+            "approved_evidence_ids": [
+              "arc-solutions-limited-ci-1",
+              "arc-solutions-limited-ci-2"
+            ],
+            "unresolvable_evidence_ids": [],
+            "contradicted_evidence_ids": [],
+            "contradicted": false,
+            "evidence_classes": [
+              "observed"
+            ],
+            "evidence_freshness": "current",
+            "evidence_age_days": 6,
+            "confidence": "medium",
+            "source_provenance": [
+              "https://www.arcsolutionslimited.com/contact",
+              "https://www.arcsolutionslimited.com/work/facility-management"
+            ],
+            "adjustment_reason": null,
+            "reason": "scored",
+            "rationale": null,
+            "evidence_state": "approved",
+            "research_status": "partial"
+          },
+          "buyer_accessibility": {
+            "score": 4,
+            "requested_score": 4,
+            "max_score": 15,
+            "evidence_ids": [
+              "arc-solutions-limited-bi-route"
+            ],
+            "usable_evidence_ids": [
+              "arc-solutions-limited-bi-route"
+            ],
+            "approved_evidence_ids": [
+              "arc-solutions-limited-bi-route"
+            ],
+            "unresolvable_evidence_ids": [],
+            "contradicted_evidence_ids": [],
+            "contradicted": false,
+            "evidence_classes": [
+              "observed"
+            ],
+            "evidence_freshness": "current",
+            "evidence_age_days": 6,
+            "confidence": "medium",
+            "source_provenance": [
+              "https://www.arcsolutionslimited.com/work/facility-management"
+            ],
+            "adjustment_reason": null,
+            "reason": "scored",
+            "rationale": null,
+            "evidence_state": "approved",
+            "research_status": "partial"
+          },
+          "trigger_urgency": {
+            "score": 5,
+            "requested_score": 5,
+            "max_score": 15,
+            "evidence_ids": [
+              "arc-solutions-limited-trigger"
+            ],
+            "usable_evidence_ids": [
+              "arc-solutions-limited-trigger"
+            ],
+            "approved_evidence_ids": [
+              "arc-solutions-limited-trigger"
+            ],
+            "unresolvable_evidence_ids": [],
+            "contradicted_evidence_ids": [],
+            "contradicted": false,
+            "evidence_classes": [
+              "observed"
+            ],
+            "evidence_freshness": "current",
+            "evidence_age_days": 6,
+            "confidence": "medium",
+            "source_provenance": [
+              "https://www.arcsolutionslimited.com/work/facility-management"
+            ],
+            "adjustment_reason": null,
+            "reason": "scored",
+            "rationale": null,
+            "evidence_state": "approved",
+            "research_status": "partial"
+          },
+          "proof_fit": {
+            "score": 15,
+            "requested_score": 15,
+            "max_score": 15,
+            "evidence_ids": [
+              "arc-solutions-limited-proof"
+            ],
+            "usable_evidence_ids": [
+              "arc-solutions-limited-proof"
+            ],
+            "approved_evidence_ids": [
+              "arc-solutions-limited-proof"
+            ],
+            "unresolvable_evidence_ids": [],
+            "contradicted_evidence_ids": [],
+            "contradicted": false,
+            "evidence_classes": [
+              "verified"
+            ],
+            "evidence_freshness": "current",
+            "evidence_age_days": 0,
+            "confidence": "high",
+            "source_provenance": [
+              "operations/oliviks/ and clients/oliviks/"
+            ],
+            "adjustment_reason": null,
+            "reason": "scored",
+            "rationale": null,
+            "evidence_state": "approved",
+            "research_status": "complete"
+          },
+          "execution_readiness": {
+            "score": 4,
+            "requested_score": 4,
+            "max_score": 10,
+            "evidence_ids": [
+              "arc-solutions-limited-execution"
+            ],
+            "usable_evidence_ids": [
+              "arc-solutions-limited-execution"
+            ],
+            "approved_evidence_ids": [
+              "arc-solutions-limited-execution"
+            ],
+            "unresolvable_evidence_ids": [],
+            "contradicted_evidence_ids": [],
+            "contradicted": false,
+            "evidence_classes": [
+              "observed"
+            ],
+            "evidence_freshness": "current",
+            "evidence_age_days": 6,
+            "confidence": "medium",
+            "source_provenance": [
+              "https://www.arcsolutionslimited.com/work/facility-management"
+            ],
+            "adjustment_reason": null,
+            "reason": "scored",
+            "rationale": null,
+            "evidence_state": "approved",
+            "research_status": "partial"
+          }
+        },
+        "adjustments": [],
+        "thresholds": {
+          "HOT": 85,
+          "STRONG": 70,
+          "QUALIFIED": 55,
+          "WATCH": 40,
+          "DO_NOT_PURSUE": 0
+        },
+        "qualification_coverage": {
+          "sufficiently_researched_dimensions": 2,
+          "total_dimensions": 6,
+          "percentage": 33.3,
+          "by_dimension": {
+            "problem_evidence": {
+              "score": 14,
+              "evidence_state": "approved",
+              "evidence_ids": [
+                "arc-solutions-limited-problem-1",
+                "arc-solutions-limited-problem-2"
+              ],
+              "confidence": "medium",
+              "research_status": "complete",
+              "zero_because": null
+            },
+            "commercial_fit": {
+              "score": 4,
+              "evidence_state": "approved",
+              "evidence_ids": [
+                "arc-solutions-limited-ci-1",
+                "arc-solutions-limited-ci-2"
+              ],
+              "confidence": "medium",
+              "research_status": "partial",
+              "zero_because": null
+            },
+            "buyer_accessibility": {
+              "score": 4,
+              "evidence_state": "approved",
+              "evidence_ids": [
+                "arc-solutions-limited-bi-route"
+              ],
+              "confidence": "medium",
+              "research_status": "partial",
+              "zero_because": null
+            },
+            "trigger_urgency": {
+              "score": 5,
+              "evidence_state": "approved",
+              "evidence_ids": [
+                "arc-solutions-limited-trigger"
+              ],
+              "confidence": "medium",
+              "research_status": "partial",
+              "zero_because": null
+            },
+            "proof_fit": {
+              "score": 15,
+              "evidence_state": "approved",
+              "evidence_ids": [
+                "arc-solutions-limited-proof"
+              ],
+              "confidence": "high",
+              "research_status": "complete",
+              "zero_because": null
+            },
+            "execution_readiness": {
+              "score": 4,
+              "evidence_state": "approved",
+              "evidence_ids": [
+                "arc-solutions-limited-execution"
+              ],
+              "confidence": "medium",
+              "research_status": "partial",
+              "zero_because": null
+            }
+          },
+          "missing_dimensions": [],
+          "partial_dimensions": [
+            "buyer_accessibility",
+            "commercial_fit",
+            "execution_readiness",
+            "trigger_urgency"
+          ],
+          "verified_negative_dimensions": [],
+          "exhausted_unknown_dimensions": [],
+          "reopenable_dimensions": [
+            "buyer_accessibility",
+            "commercial_fit",
+            "execution_readiness",
+            "trigger_urgency"
+          ],
+          "not_applicable_dimensions": [],
+          "note": "Coverage is not a score and is never added to one. A dimension can be fully researched and score zero. That is a verified negative, not a gap."
+        },
+        "model": "qualification-v1",
+        "model_approved": "2026-08-11",
+        "as_of": "2026-08-17",
+        "derived_by": "operations/internal-gtm/scripts/qualification_v1.py",
+        "gates_evaluated": {
+          "identity_domain_resolved": true,
+          "viable_contact_destination": true,
+          "credible_service_route": true,
+          "materially_contradicted_evidence": false,
+          "previous_outreach_exists": false,
+          "communication_state_resolved": true,
+          "legal_compliance_exclusion": false,
+          "explicit_defer_hold": false
+        },
+        "component_scores": {
+          "problem_evidence": 14,
+          "commercial_fit": 4,
+          "buyer_accessibility": 4,
+          "trigger_urgency": 5,
+          "proof_fit": 15,
+          "execution_readiness": 4
+        },
+        "unscored_components": [],
+        "unresolvable_evidence_ids": [],
+        "evidence_gap": false,
+        "blocking_conditions": []
+      },
+      "commercial_intelligence": {
+        "capability": "bridgeworks-commercial-intelligence",
+        "prospect_id": "arc-solutions-limited",
+        "as_of": "2026-08-17",
+        "stage": "targeted_enrichment_from_existing_public_evidence",
+        "findings": [
+          {
+            "id": "arc-solutions-limited-ci-1",
+            "category": "commercial_fit",
+            "claim_key": "public_scale_or_growth_signal_1",
+            "claim": "Owned facility-management page lists Lagos, Abuja, Abeokuta, Enugu, and Port Harcourt coverage, 15+ years experience, 24/7 emergency response, 15-30% savings and 99%+ uptime claims, Get a Free Quote CTAs, public phones, and info@arcsolutionslimited.com. The visible navigation renders SPOTA AI as split text near the commercial CTA.",
+            "value": {
+              "matched_signals": [
+                "years"
+              ]
+            },
+            "severity": "none",
+            "tool": "existing_public_evidence",
+            "source": "https://www.arcsolutionslimited.com/work/facility-management",
+            "observed_at": "2026-08-11",
+            "status": "observed"
+          },
+          {
+            "id": "arc-solutions-limited-ci-2",
+            "category": "commercial_fit",
+            "claim_key": "public_scale_or_growth_signal_2",
+            "claim": "Owned contact page lists quote copy, Send Enquiry, +234 806 248 1004, +234 802 640 1777, info@arcsolutionslimited.com, multiple service-area locations, and repeats the SPOTA AI navigation residue.",
+            "value": {
+              "matched_signals": [
+                "locations"
+              ]
+            },
+            "severity": "none",
+            "tool": "existing_public_evidence",
+            "source": "https://www.arcsolutionslimited.com/contact",
+            "observed_at": "2026-08-11",
+            "status": "observed"
+          }
+        ],
+        "commercial_value_band": {
+          "low": null,
+          "high": null,
+          "currency": null,
+          "basis": null,
+          "confidence": "none"
+        },
+        "procurement_complexity": "unknown",
+        "engagement_size_fit": "unknown",
+        "unresolved_questions": [
+          "More public scale or budget-capacity evidence is required."
+        ],
+        "external_action_authorized": false
+      },
+      "buyer_intelligence": {
+        "capability": "bridgeworks-buyer-intelligence",
+        "prospect_id": "arc-solutions-limited",
+        "as_of": "2026-08-17",
+        "stage": "targeted_enrichment_from_existing_public_evidence",
+        "roles": {
+          "decision_maker": {
+            "person": null,
+            "title": null,
+            "evidence_id": null,
+            "attribution_confidence": "none"
+          }
+        },
+        "contact_route": {
+          "destination": "info@arcsolutionslimited.com",
+          "destination_type": "general",
+          "source": "https://www.arcsolutionslimited.com/work/facility-management",
+          "lawful_basis_note": "public business contact route recorded in prior research"
+        },
+        "findings": [
+          {
+            "id": "arc-solutions-limited-bi-route",
+            "category": "buyer_accessibility",
+            "claim_key": "public_business_contact_route",
+            "claim": "A public business route is recorded: info@arcsolutionslimited.com",
+            "value": "info@arcsolutionslimited.com",
+            "severity": "none",
+            "source": "https://www.arcsolutionslimited.com/work/facility-management",
+            "observed_at": "2026-08-11",
+            "status": "observed"
+          }
+        ],
+        "unresolved_questions": [
+          "Verify the exact budget owner and a lawful direct or role-specific destination."
+        ],
+        "external_action_authorized": false
+      },
+      "selected_service_route": "digital-platforms-brand",
+      "selected_diagnostic_capability": "client-audit",
+      "diagnostic": {
+        "capability": "client-audit",
+        "result": "not_justified_at_current_qualification_coverage"
+      },
+      "chosen_proof": {
+        "id": "oliviks-foundation-2026-07-24",
+        "claim": "Oliviks Kitchen Foundation delivery completed and the oliviks.com cutover was verified live on 2026-07-24.",
+        "status": "verified",
+        "source": "operations/oliviks/ and clients/oliviks/",
+        "usage_rule": "Foundation scope only. Do not imply an ongoing retainer.",
+        "route_strength": {
+          "digital-platforms-brand": "strong",
+          "ai-workflow-automation": "partial",
+          "execution-operating-systems": "partial"
+        }
+      },
+      "offer_hypothesis": "Lead path and trust review",
+      "next_action": "complete_stage_2_coverage",
+      "approval_packet": null,
+      "external_action_authorized": false
+    },
+    {
+      "prospect_id": "mri-investments-ltd",
+      "company": "MRI Investments Ltd",
+      "priority": {
+        "prospect_id": "mri-investments-ltd",
+        "company": "MRI Investments Ltd",
+        "priority_score": 76,
+        "components": {
+          "problem_evidence": 20,
+          "trigger_strength": 7,
+          "buyer_evidence": 15,
+          "proof_fit": 15,
+          "company_attractiveness": 9,
+          "evidence_freshness": 10,
+          "blocker_penalty": 0
+        },
+        "blocker_codes": [],
+        "why": [
+          "problem=20/20",
+          "trigger=7/20",
+          "buyer=15/15",
+          "proof=15/15",
+          "attractiveness=9/15",
+          "freshness=10/10",
+          "blockers=0"
+        ]
+      },
+      "existing_trigger": "Use a public-proof cleanup and credibility-review note tied to the current testimonial section.",
+      "problem_evidence": "MRI presents serious FM, property, e-waste, security, and logistics services, but the current homepage testimonial block reads like generic placeholder proof, which can weaken buyer trust.",
+      "qualification_v1": {
+        "qualification_version": "qualification-v1",
+        "score": 50,
+        "max_score": 100,
+        "tier": "WATCH",
+        "actionability": "actionable",
+        "blocking_reasons": [],
+        "components": {
+          "problem_evidence": {
+            "score": 14,
+            "requested_score": 14,
+            "max_score": 25,
+            "evidence_ids": [
+              "mri-investments-ltd-problem-1",
+              "mri-investments-ltd-problem-2"
+            ],
+            "usable_evidence_ids": [
+              "mri-investments-ltd-problem-1",
+              "mri-investments-ltd-problem-2"
+            ],
+            "approved_evidence_ids": [
+              "mri-investments-ltd-problem-1",
+              "mri-investments-ltd-problem-2"
+            ],
+            "unresolvable_evidence_ids": [],
+            "contradicted_evidence_ids": [],
+            "contradicted": false,
+            "evidence_classes": [
+              "observed"
+            ],
+            "evidence_freshness": "current",
+            "evidence_age_days": 0,
+            "confidence": "medium",
+            "source_provenance": [
+              "https://mriinvestmentsltd.com/"
+            ],
+            "adjustment_reason": null,
+            "reason": "scored",
+            "rationale": null,
+            "evidence_state": "approved",
+            "research_status": "complete"
+          },
+          "commercial_fit": {
+            "score": 8,
+            "requested_score": 8,
+            "max_score": 20,
+            "evidence_ids": [
+              "mri-investments-ltd-ci-1",
+              "mri-investments-ltd-ci-2"
+            ],
+            "usable_evidence_ids": [
+              "mri-investments-ltd-ci-1",
+              "mri-investments-ltd-ci-2"
+            ],
+            "approved_evidence_ids": [
+              "mri-investments-ltd-ci-1",
+              "mri-investments-ltd-ci-2"
+            ],
+            "unresolvable_evidence_ids": [],
+            "contradicted_evidence_ids": [],
+            "contradicted": false,
+            "evidence_classes": [
+              "observed"
+            ],
+            "evidence_freshness": "current",
+            "evidence_age_days": 0,
+            "confidence": "medium",
+            "source_provenance": [
+              "https://mriinvestmentsltd.com/"
+            ],
+            "adjustment_reason": null,
+            "reason": "scored",
+            "rationale": null,
+            "evidence_state": "approved",
+            "research_status": "complete"
+          },
+          "buyer_accessibility": {
+            "score": 4,
+            "requested_score": 4,
+            "max_score": 15,
+            "evidence_ids": [
+              "mri-investments-ltd-bi-route"
+            ],
+            "usable_evidence_ids": [
+              "mri-investments-ltd-bi-route"
+            ],
+            "approved_evidence_ids": [
+              "mri-investments-ltd-bi-route"
+            ],
+            "unresolvable_evidence_ids": [],
+            "contradicted_evidence_ids": [],
+            "contradicted": false,
+            "evidence_classes": [
+              "observed"
+            ],
+            "evidence_freshness": "current",
+            "evidence_age_days": 0,
+            "confidence": "medium",
+            "source_provenance": [
+              "https://mriinvestmentsltd.com/"
+            ],
+            "adjustment_reason": null,
+            "reason": "scored",
+            "rationale": null,
+            "evidence_state": "approved",
+            "research_status": "partial"
+          },
+          "trigger_urgency": {
+            "score": 5,
+            "requested_score": 5,
+            "max_score": 15,
+            "evidence_ids": [
+              "mri-investments-ltd-trigger"
+            ],
+            "usable_evidence_ids": [
+              "mri-investments-ltd-trigger"
+            ],
+            "approved_evidence_ids": [
+              "mri-investments-ltd-trigger"
+            ],
+            "unresolvable_evidence_ids": [],
+            "contradicted_evidence_ids": [],
+            "contradicted": false,
+            "evidence_classes": [
+              "observed"
+            ],
+            "evidence_freshness": "current",
+            "evidence_age_days": 0,
+            "confidence": "medium",
+            "source_provenance": [
+              "https://mriinvestmentsltd.com/"
+            ],
+            "adjustment_reason": null,
+            "reason": "scored",
+            "rationale": null,
+            "evidence_state": "approved",
+            "research_status": "partial"
+          },
+          "proof_fit": {
+            "score": 15,
+            "requested_score": 15,
+            "max_score": 15,
+            "evidence_ids": [
+              "mri-investments-ltd-proof"
+            ],
+            "usable_evidence_ids": [
+              "mri-investments-ltd-proof"
+            ],
+            "approved_evidence_ids": [
+              "mri-investments-ltd-proof"
+            ],
+            "unresolvable_evidence_ids": [],
+            "contradicted_evidence_ids": [],
+            "contradicted": false,
+            "evidence_classes": [
+              "verified"
+            ],
+            "evidence_freshness": "current",
+            "evidence_age_days": 0,
+            "confidence": "high",
+            "source_provenance": [
+              "operations/oliviks/ and clients/oliviks/"
+            ],
+            "adjustment_reason": null,
+            "reason": "scored",
+            "rationale": null,
+            "evidence_state": "approved",
+            "research_status": "complete"
+          },
+          "execution_readiness": {
+            "score": 4,
+            "requested_score": 4,
+            "max_score": 10,
+            "evidence_ids": [
+              "mri-investments-ltd-execution"
+            ],
+            "usable_evidence_ids": [
+              "mri-investments-ltd-execution"
+            ],
+            "approved_evidence_ids": [
+              "mri-investments-ltd-execution"
+            ],
+            "unresolvable_evidence_ids": [],
+            "contradicted_evidence_ids": [],
+            "contradicted": false,
+            "evidence_classes": [
+              "observed"
+            ],
+            "evidence_freshness": "current",
+            "evidence_age_days": 0,
+            "confidence": "medium",
+            "source_provenance": [
+              "https://mriinvestmentsltd.com/"
+            ],
+            "adjustment_reason": null,
+            "reason": "scored",
+            "rationale": null,
+            "evidence_state": "approved",
+            "research_status": "partial"
+          }
+        },
+        "adjustments": [],
+        "thresholds": {
+          "HOT": 85,
+          "STRONG": 70,
+          "QUALIFIED": 55,
+          "WATCH": 40,
+          "DO_NOT_PURSUE": 0
+        },
+        "qualification_coverage": {
+          "sufficiently_researched_dimensions": 3,
+          "total_dimensions": 6,
+          "percentage": 50.0,
+          "by_dimension": {
+            "problem_evidence": {
+              "score": 14,
+              "evidence_state": "approved",
+              "evidence_ids": [
+                "mri-investments-ltd-problem-1",
+                "mri-investments-ltd-problem-2"
+              ],
+              "confidence": "medium",
+              "research_status": "complete",
+              "zero_because": null
+            },
+            "commercial_fit": {
+              "score": 8,
+              "evidence_state": "approved",
+              "evidence_ids": [
+                "mri-investments-ltd-ci-1",
+                "mri-investments-ltd-ci-2"
+              ],
+              "confidence": "medium",
+              "research_status": "complete",
+              "zero_because": null
+            },
+            "buyer_accessibility": {
+              "score": 4,
+              "evidence_state": "approved",
+              "evidence_ids": [
+                "mri-investments-ltd-bi-route"
+              ],
+              "confidence": "medium",
+              "research_status": "partial",
+              "zero_because": null
+            },
+            "trigger_urgency": {
+              "score": 5,
+              "evidence_state": "approved",
+              "evidence_ids": [
+                "mri-investments-ltd-trigger"
+              ],
+              "confidence": "medium",
+              "research_status": "partial",
+              "zero_because": null
+            },
+            "proof_fit": {
+              "score": 15,
+              "evidence_state": "approved",
+              "evidence_ids": [
+                "mri-investments-ltd-proof"
+              ],
+              "confidence": "high",
+              "research_status": "complete",
+              "zero_because": null
+            },
+            "execution_readiness": {
+              "score": 4,
+              "evidence_state": "approved",
+              "evidence_ids": [
+                "mri-investments-ltd-execution"
+              ],
+              "confidence": "medium",
+              "research_status": "partial",
+              "zero_because": null
+            }
+          },
+          "missing_dimensions": [],
+          "partial_dimensions": [
+            "buyer_accessibility",
+            "execution_readiness",
+            "trigger_urgency"
+          ],
+          "verified_negative_dimensions": [],
+          "exhausted_unknown_dimensions": [],
+          "reopenable_dimensions": [
+            "buyer_accessibility",
+            "execution_readiness",
+            "trigger_urgency"
+          ],
+          "not_applicable_dimensions": [],
+          "note": "Coverage is not a score and is never added to one. A dimension can be fully researched and score zero. That is a verified negative, not a gap."
+        },
+        "model": "qualification-v1",
+        "model_approved": "2026-08-11",
+        "as_of": "2026-08-17",
+        "derived_by": "operations/internal-gtm/scripts/qualification_v1.py",
+        "gates_evaluated": {
+          "identity_domain_resolved": true,
+          "viable_contact_destination": true,
+          "credible_service_route": true,
+          "materially_contradicted_evidence": false,
+          "previous_outreach_exists": false,
+          "communication_state_resolved": true,
+          "legal_compliance_exclusion": false,
+          "explicit_defer_hold": false
+        },
+        "component_scores": {
+          "problem_evidence": 14,
+          "commercial_fit": 8,
+          "buyer_accessibility": 4,
+          "trigger_urgency": 5,
+          "proof_fit": 15,
+          "execution_readiness": 4
+        },
+        "unscored_components": [],
+        "unresolvable_evidence_ids": [],
+        "evidence_gap": false,
+        "blocking_conditions": []
+      },
+      "commercial_intelligence": {
+        "capability": "bridgeworks-commercial-intelligence",
+        "prospect_id": "mri-investments-ltd",
+        "as_of": "2026-08-17",
+        "stage": "targeted_enrichment_from_existing_public_evidence",
+        "findings": [
+          {
+            "id": "mri-investments-ltd-ci-1",
+            "category": "commercial_fit",
+            "claim_key": "public_scale_or_growth_signal_1",
+            "claim": "Owned homepage lists MRI Investment Limited as a property and facilities-management business with 10+ years experience, 670+ WLAB/e-waste volume, 70+ employees, 5+ tier-one clients, facility operations, e-waste, security, safety, warehousing, and logistics services.",
+            "value": {
+              "matched_signals": [
+                "clients",
+                "employee",
+                "years"
+              ]
+            },
+            "severity": "none",
+            "tool": "existing_public_evidence",
+            "source": "https://mriinvestmentsltd.com/",
+            "observed_at": "2026-08-17",
+            "status": "observed"
+          },
+          {
+            "id": "mri-investments-ltd-ci-2",
+            "category": "commercial_fit",
+            "claim_key": "public_scale_or_growth_signal_2",
+            "claim": "The same page lists generic testimonial content under Love Your Customers with unrelated customer roles, plus public phones, info@mriinvestmentsltd.com, Lagos address, and 2026 copyright.",
+            "value": {
+              "matched_signals": [
+                "customer"
+              ]
+            },
+            "severity": "none",
+            "tool": "existing_public_evidence",
+            "source": "https://mriinvestmentsltd.com/",
+            "observed_at": "2026-08-17",
+            "status": "observed"
+          }
+        ],
+        "commercial_value_band": {
+          "low": null,
+          "high": null,
+          "currency": null,
+          "basis": null,
+          "confidence": "none"
+        },
+        "procurement_complexity": "unknown",
+        "engagement_size_fit": "plausible",
+        "unresolved_questions": [],
+        "external_action_authorized": false
+      },
+      "buyer_intelligence": {
+        "capability": "bridgeworks-buyer-intelligence",
+        "prospect_id": "mri-investments-ltd",
+        "as_of": "2026-08-17",
+        "stage": "targeted_enrichment_from_existing_public_evidence",
+        "roles": {
+          "decision_maker": {
+            "person": null,
+            "title": null,
+            "evidence_id": null,
+            "attribution_confidence": "none"
+          }
+        },
+        "contact_route": {
+          "destination": "info@mriinvestmentsltd.com",
+          "destination_type": "general",
+          "source": "https://mriinvestmentsltd.com/",
+          "lawful_basis_note": "public business contact route recorded in prior research"
+        },
+        "findings": [
+          {
+            "id": "mri-investments-ltd-bi-route",
+            "category": "buyer_accessibility",
+            "claim_key": "public_business_contact_route",
+            "claim": "A public business route is recorded: info@mriinvestmentsltd.com",
+            "value": "info@mriinvestmentsltd.com",
+            "severity": "none",
+            "source": "https://mriinvestmentsltd.com/",
+            "observed_at": "2026-08-17",
+            "status": "observed"
+          }
+        ],
+        "unresolved_questions": [
+          "Verify the exact budget owner and a lawful direct or role-specific destination."
+        ],
+        "external_action_authorized": false
+      },
+      "selected_service_route": "digital-platforms-brand",
+      "selected_diagnostic_capability": "client-audit",
+      "diagnostic": {
+        "capability": "client-audit",
+        "result": "not_justified_at_current_qualification_coverage"
+      },
+      "chosen_proof": {
+        "id": "oliviks-foundation-2026-07-24",
+        "claim": "Oliviks Kitchen Foundation delivery completed and the oliviks.com cutover was verified live on 2026-07-24.",
+        "status": "verified",
+        "source": "operations/oliviks/ and clients/oliviks/",
+        "usage_rule": "Foundation scope only. Do not imply an ongoing retainer.",
+        "route_strength": {
+          "digital-platforms-brand": "strong",
+          "ai-workflow-automation": "partial",
+          "execution-operating-systems": "partial"
+        }
+      },
+      "offer_hypothesis": "Lead path and trust review",
+      "next_action": "complete_stage_2_coverage",
+      "approval_packet": null,
+      "external_action_authorized": false
+    },
+    {
+      "prospect_id": "budapest-sky-property-management",
+      "company": "Budapest Sky Property Management",
+      "priority": {
+        "prospect_id": "budapest-sky-property-management",
+        "company": "Budapest Sky Property Management",
+        "priority_score": 73,
+        "components": {
+          "problem_evidence": 20,
+          "trigger_strength": 13,
+          "buyer_evidence": 15,
+          "proof_fit": 15,
+          "company_attractiveness": 0,
+          "evidence_freshness": 10,
+          "blocker_penalty": 0
+        },
+        "blocker_codes": [],
+        "why": [
+          "problem=20/20",
+          "trigger=13/20",
+          "buyer=15/15",
+          "proof=15/15",
+          "attractiveness=0/15",
+          "freshness=10/10",
+          "blockers=0"
+        ]
+      },
+      "existing_trigger": "Use a contact-route consistency and host-owner lead-routing QA note tied to the split-domain public contact path.",
+      "problem_evidence": "Budapest Sky asks owners and guests to use the contact path, but the same current page shows info@bpsky.hu and hosts@budapestsky.com, creating a clear lead-routing trust gap.",
+      "qualification_v1": {
+        "qualification_version": "qualification-v1",
+        "score": 35,
+        "max_score": 100,
+        "tier": "DO_NOT_PURSUE",
+        "actionability": "actionable",
+        "blocking_reasons": [],
+        "components": {
+          "problem_evidence": {
+            "score": 14,
+            "requested_score": 14,
+            "max_score": 25,
+            "evidence_ids": [
+              "budapest-sky-property-management-problem-1",
+              "budapest-sky-property-management-problem-2"
+            ],
+            "usable_evidence_ids": [
+              "budapest-sky-property-management-problem-1",
+              "budapest-sky-property-management-problem-2"
+            ],
+            "approved_evidence_ids": [
+              "budapest-sky-property-management-problem-1",
+              "budapest-sky-property-management-problem-2"
+            ],
+            "unresolvable_evidence_ids": [],
+            "contradicted_evidence_ids": [],
+            "contradicted": false,
+            "evidence_classes": [
+              "observed"
+            ],
+            "evidence_freshness": "current",
+            "evidence_age_days": 0,
+            "confidence": "medium",
+            "source_provenance": [
+              "https://budapestsky.hu/contact-us/"
+            ],
+            "adjustment_reason": null,
+            "reason": "scored",
+            "rationale": null,
+            "evidence_state": "approved",
+            "research_status": "complete"
+          },
+          "commercial_fit": {
+            "score": 0,
+            "requested_score": 0,
+            "max_score": 20,
+            "evidence_ids": [],
+            "usable_evidence_ids": [],
+            "approved_evidence_ids": [],
+            "unresolvable_evidence_ids": [],
+            "contradicted_evidence_ids": [],
+            "contradicted": false,
+            "evidence_classes": [],
+            "evidence_freshness": "unknown",
+            "evidence_age_days": null,
+            "confidence": "unknown",
+            "source_provenance": [],
+            "adjustment_reason": null,
+            "reason": "scored",
+            "rationale": null,
+            "evidence_state": "unknown",
+            "research_status": "required"
+          },
+          "buyer_accessibility": {
+            "score": 4,
+            "requested_score": 4,
+            "max_score": 15,
+            "evidence_ids": [
+              "budapest-sky-property-management-bi-route"
+            ],
+            "usable_evidence_ids": [
+              "budapest-sky-property-management-bi-route"
+            ],
+            "approved_evidence_ids": [
+              "budapest-sky-property-management-bi-route"
+            ],
+            "unresolvable_evidence_ids": [],
+            "contradicted_evidence_ids": [],
+            "contradicted": false,
+            "evidence_classes": [
+              "observed"
+            ],
+            "evidence_freshness": "current",
+            "evidence_age_days": 0,
+            "confidence": "medium",
+            "source_provenance": [
+              "https://budapestsky.hu/contact-us/"
+            ],
+            "adjustment_reason": null,
+            "reason": "scored",
+            "rationale": null,
+            "evidence_state": "approved",
+            "research_status": "partial"
+          },
+          "trigger_urgency": {
+            "score": 5,
+            "requested_score": 5,
+            "max_score": 15,
+            "evidence_ids": [
+              "budapest-sky-property-management-trigger"
+            ],
+            "usable_evidence_ids": [
+              "budapest-sky-property-management-trigger"
+            ],
+            "approved_evidence_ids": [
+              "budapest-sky-property-management-trigger"
+            ],
+            "unresolvable_evidence_ids": [],
+            "contradicted_evidence_ids": [],
+            "contradicted": false,
+            "evidence_classes": [
+              "observed"
+            ],
+            "evidence_freshness": "current",
+            "evidence_age_days": 0,
+            "confidence": "medium",
+            "source_provenance": [
+              "https://budapestsky.hu/contact-us/"
+            ],
+            "adjustment_reason": null,
+            "reason": "scored",
+            "rationale": null,
+            "evidence_state": "approved",
+            "research_status": "partial"
+          },
+          "proof_fit": {
+            "score": 8,
+            "requested_score": 8,
+            "max_score": 15,
+            "evidence_ids": [
+              "budapest-sky-property-management-proof"
+            ],
+            "usable_evidence_ids": [
+              "budapest-sky-property-management-proof"
+            ],
+            "approved_evidence_ids": [
+              "budapest-sky-property-management-proof"
+            ],
+            "unresolvable_evidence_ids": [],
+            "contradicted_evidence_ids": [],
+            "contradicted": false,
+            "evidence_classes": [
+              "verified"
+            ],
+            "evidence_freshness": "current",
+            "evidence_age_days": 0,
+            "confidence": "high",
+            "source_provenance": [
+              "operations/oliviks/ and clients/oliviks/"
+            ],
+            "adjustment_reason": null,
+            "reason": "scored",
+            "rationale": null,
+            "evidence_state": "approved",
+            "research_status": "complete"
+          },
+          "execution_readiness": {
+            "score": 4,
+            "requested_score": 4,
+            "max_score": 10,
+            "evidence_ids": [
+              "budapest-sky-property-management-execution"
+            ],
+            "usable_evidence_ids": [
+              "budapest-sky-property-management-execution"
+            ],
+            "approved_evidence_ids": [
+              "budapest-sky-property-management-execution"
+            ],
+            "unresolvable_evidence_ids": [],
+            "contradicted_evidence_ids": [],
+            "contradicted": false,
+            "evidence_classes": [
+              "observed"
+            ],
+            "evidence_freshness": "current",
+            "evidence_age_days": 0,
+            "confidence": "medium",
+            "source_provenance": [
+              "https://budapestsky.hu/contact-us/"
+            ],
+            "adjustment_reason": null,
+            "reason": "scored",
+            "rationale": null,
+            "evidence_state": "approved",
+            "research_status": "partial"
+          }
+        },
+        "adjustments": [],
+        "thresholds": {
+          "HOT": 85,
+          "STRONG": 70,
+          "QUALIFIED": 55,
+          "WATCH": 40,
+          "DO_NOT_PURSUE": 0
+        },
+        "qualification_coverage": {
+          "sufficiently_researched_dimensions": 2,
+          "total_dimensions": 6,
+          "percentage": 33.3,
+          "by_dimension": {
+            "problem_evidence": {
+              "score": 14,
+              "evidence_state": "approved",
+              "evidence_ids": [
+                "budapest-sky-property-management-problem-1",
+                "budapest-sky-property-management-problem-2"
+              ],
+              "confidence": "medium",
+              "research_status": "complete",
+              "zero_because": null
+            },
+            "commercial_fit": {
+              "score": 0,
+              "evidence_state": "unknown",
+              "evidence_ids": [],
+              "confidence": "unknown",
+              "research_status": "required",
+              "zero_because": "missing_research"
+            },
+            "buyer_accessibility": {
+              "score": 4,
+              "evidence_state": "approved",
+              "evidence_ids": [
+                "budapest-sky-property-management-bi-route"
+              ],
+              "confidence": "medium",
+              "research_status": "partial",
+              "zero_because": null
+            },
+            "trigger_urgency": {
+              "score": 5,
+              "evidence_state": "approved",
+              "evidence_ids": [
+                "budapest-sky-property-management-trigger"
+              ],
+              "confidence": "medium",
+              "research_status": "partial",
+              "zero_because": null
+            },
+            "proof_fit": {
+              "score": 8,
+              "evidence_state": "approved",
+              "evidence_ids": [
+                "budapest-sky-property-management-proof"
+              ],
+              "confidence": "high",
+              "research_status": "complete",
+              "zero_because": null
+            },
+            "execution_readiness": {
+              "score": 4,
+              "evidence_state": "approved",
+              "evidence_ids": [
+                "budapest-sky-property-management-execution"
+              ],
+              "confidence": "medium",
+              "research_status": "partial",
+              "zero_because": null
+            }
+          },
+          "missing_dimensions": [
+            "commercial_fit"
+          ],
+          "partial_dimensions": [
+            "buyer_accessibility",
+            "execution_readiness",
+            "trigger_urgency"
+          ],
+          "verified_negative_dimensions": [],
+          "exhausted_unknown_dimensions": [],
+          "reopenable_dimensions": [
+            "buyer_accessibility",
+            "commercial_fit",
+            "execution_readiness",
+            "trigger_urgency"
+          ],
+          "not_applicable_dimensions": [],
+          "note": "Coverage is not a score and is never added to one. A dimension can be fully researched and score zero. That is a verified negative, not a gap."
+        },
+        "model": "qualification-v1",
+        "model_approved": "2026-08-11",
+        "as_of": "2026-08-17",
+        "derived_by": "operations/internal-gtm/scripts/qualification_v1.py",
+        "gates_evaluated": {
+          "identity_domain_resolved": true,
+          "viable_contact_destination": true,
+          "credible_service_route": true,
+          "materially_contradicted_evidence": false,
+          "previous_outreach_exists": false,
+          "communication_state_resolved": true,
+          "legal_compliance_exclusion": false,
+          "explicit_defer_hold": false
+        },
+        "component_scores": {
+          "problem_evidence": 14,
+          "commercial_fit": 0,
+          "buyer_accessibility": 4,
+          "trigger_urgency": 5,
+          "proof_fit": 8,
+          "execution_readiness": 4
+        },
+        "unscored_components": [
+          "commercial_fit"
+        ],
+        "unresolvable_evidence_ids": [],
+        "evidence_gap": true,
+        "blocking_conditions": []
+      },
+      "commercial_intelligence": {
+        "capability": "bridgeworks-commercial-intelligence",
+        "prospect_id": "budapest-sky-property-management",
+        "as_of": "2026-08-17",
+        "stage": "targeted_enrichment_from_existing_public_evidence",
+        "findings": [],
+        "commercial_value_band": {
+          "low": null,
+          "high": null,
+          "currency": null,
+          "basis": null,
+          "confidence": "none"
+        },
+        "procurement_complexity": "unknown",
+        "engagement_size_fit": "unknown",
+        "unresolved_questions": [
+          "More public scale or budget-capacity evidence is required."
+        ],
+        "external_action_authorized": false
+      },
+      "buyer_intelligence": {
+        "capability": "bridgeworks-buyer-intelligence",
+        "prospect_id": "budapest-sky-property-management",
+        "as_of": "2026-08-17",
+        "stage": "targeted_enrichment_from_existing_public_evidence",
+        "roles": {
+          "decision_maker": {
+            "person": null,
+            "title": null,
+            "evidence_id": null,
+            "attribution_confidence": "none"
+          }
+        },
+        "contact_route": {
+          "destination": "info@bpsky.hu",
+          "destination_type": "general",
+          "source": "https://budapestsky.hu/contact-us/",
+          "lawful_basis_note": "public business contact route recorded in prior research"
+        },
+        "findings": [
+          {
+            "id": "budapest-sky-property-management-bi-route",
+            "category": "buyer_accessibility",
+            "claim_key": "public_business_contact_route",
+            "claim": "A public business route is recorded: info@bpsky.hu",
+            "value": "info@bpsky.hu",
+            "severity": "none",
+            "source": "https://budapestsky.hu/contact-us/",
+            "observed_at": "2026-08-17",
+            "status": "observed"
+          }
+        ],
+        "unresolved_questions": [
+          "Verify the exact budget owner and a lawful direct or role-specific destination."
+        ],
+        "external_action_authorized": false
+      },
+      "selected_service_route": "ai-workflow-automation",
+      "selected_diagnostic_capability": "bridgeworks-ai-workflow-scan",
+      "diagnostic": {
+        "capability": "bridgeworks-ai-workflow-scan",
+        "result": "not_justified_at_current_qualification_coverage"
+      },
+      "chosen_proof": {
+        "id": "oliviks-foundation-2026-07-24",
+        "claim": "Oliviks Kitchen Foundation delivery completed and the oliviks.com cutover was verified live on 2026-07-24.",
+        "status": "verified",
+        "source": "operations/oliviks/ and clients/oliviks/",
+        "usage_rule": "Foundation scope only. Do not imply an ongoing retainer.",
+        "route_strength": {
+          "digital-platforms-brand": "strong",
+          "ai-workflow-automation": "partial",
+          "execution-operating-systems": "partial"
+        }
+      },
+      "offer_hypothesis": "Follow-up path review",
+      "next_action": "complete_stage_2_coverage",
+      "approval_packet": null,
+      "external_action_authorized": false
+    },
+    {
+      "prospect_id": "daraja-africa-eu",
+      "company": "DARAJA Africa-EU",
+      "priority": {
+        "prospect_id": "daraja-africa-eu",
+        "company": "DARAJA Africa-EU",
+        "priority_score": 73,
+        "components": {
+          "problem_evidence": 20,
+          "trigger_strength": 16,
+          "buyer_evidence": 15,
+          "proof_fit": 15,
+          "company_attractiveness": 0,
+          "evidence_freshness": 7,
+          "blocker_penalty": 0
+        },
+        "blocker_codes": [],
+        "why": [
+          "problem=20/20",
+          "trigger=16/20",
+          "buyer=15/15",
+          "proof=15/15",
+          "attractiveness=0/15",
+          "freshness=7/10",
+          "blockers=0"
+        ]
+      },
+      "existing_trigger": "Use a concise contact-route clarity and cross-border service trust review tied to the quote path.",
+      "problem_evidence": "Daraja asks cross-border buyers to request a quote, but the visible contact route has formatting and hierarchy issues that can reduce trust before a prospect chooses email, WhatsApp, or quote submission.",
+      "qualification_v1": {
+        "qualification_version": "qualification-v1",
+        "score": 53,
+        "max_score": 100,
+        "tier": "WATCH",
+        "actionability": "actionable",
+        "blocking_reasons": [],
+        "components": {
+          "problem_evidence": {
+            "score": 14,
+            "requested_score": 14,
+            "max_score": 25,
+            "evidence_ids": [
+              "daraja-africa-eu-problem-1",
+              "daraja-africa-eu-problem-2"
+            ],
+            "usable_evidence_ids": [
+              "daraja-africa-eu-problem-1",
+              "daraja-africa-eu-problem-2"
+            ],
+            "approved_evidence_ids": [
+              "daraja-africa-eu-problem-1",
+              "daraja-africa-eu-problem-2"
+            ],
+            "unresolvable_evidence_ids": [],
+            "contradicted_evidence_ids": [],
+            "contradicted": false,
+            "evidence_classes": [
+              "observed"
+            ],
+            "evidence_freshness": "current",
+            "evidence_age_days": 8,
+            "confidence": "medium",
+            "source_provenance": [
+              "https://daraja-africa.eu/home/about-us/",
+              "https://daraja-africa.eu/services/"
+            ],
+            "adjustment_reason": null,
+            "reason": "scored",
+            "rationale": null,
+            "evidence_state": "approved",
+            "research_status": "complete"
+          },
+          "commercial_fit": {
+            "score": 0,
+            "requested_score": 0,
+            "max_score": 20,
+            "evidence_ids": [],
+            "usable_evidence_ids": [],
+            "approved_evidence_ids": [],
+            "unresolvable_evidence_ids": [],
+            "contradicted_evidence_ids": [],
+            "contradicted": false,
+            "evidence_classes": [],
+            "evidence_freshness": "unknown",
+            "evidence_age_days": null,
+            "confidence": "unknown",
+            "source_provenance": [],
+            "adjustment_reason": null,
+            "reason": "scored",
+            "rationale": null,
+            "evidence_state": "unknown",
+            "research_status": "required"
+          },
+          "buyer_accessibility": {
+            "score": 15,
+            "requested_score": 15,
+            "max_score": 15,
+            "evidence_ids": [
+              "daraja-africa-eu-bi-person",
+              "daraja-africa-eu-bi-route"
+            ],
+            "usable_evidence_ids": [
+              "daraja-africa-eu-bi-person",
+              "daraja-africa-eu-bi-route"
+            ],
+            "approved_evidence_ids": [
+              "daraja-africa-eu-bi-person",
+              "daraja-africa-eu-bi-route"
+            ],
+            "unresolvable_evidence_ids": [],
+            "contradicted_evidence_ids": [],
+            "contradicted": false,
+            "evidence_classes": [
+              "observed"
+            ],
+            "evidence_freshness": "current",
+            "evidence_age_days": 8,
+            "confidence": "medium",
+            "source_provenance": [
+              "https://daraja-africa.eu/home/about-us/"
+            ],
+            "adjustment_reason": null,
+            "reason": "scored",
+            "rationale": null,
+            "evidence_state": "approved",
+            "research_status": "complete"
+          },
+          "trigger_urgency": {
+            "score": 5,
+            "requested_score": 5,
+            "max_score": 15,
+            "evidence_ids": [
+              "daraja-africa-eu-trigger"
+            ],
+            "usable_evidence_ids": [
+              "daraja-africa-eu-trigger"
+            ],
+            "approved_evidence_ids": [
+              "daraja-africa-eu-trigger"
+            ],
+            "unresolvable_evidence_ids": [],
+            "contradicted_evidence_ids": [],
+            "contradicted": false,
+            "evidence_classes": [
+              "observed"
+            ],
+            "evidence_freshness": "current",
+            "evidence_age_days": 8,
+            "confidence": "medium",
+            "source_provenance": [
+              "https://daraja-africa.eu/home/about-us/"
+            ],
+            "adjustment_reason": null,
+            "reason": "scored",
+            "rationale": null,
+            "evidence_state": "approved",
+            "research_status": "partial"
+          },
+          "proof_fit": {
+            "score": 15,
+            "requested_score": 15,
+            "max_score": 15,
+            "evidence_ids": [
+              "daraja-africa-eu-proof"
+            ],
+            "usable_evidence_ids": [
+              "daraja-africa-eu-proof"
+            ],
+            "approved_evidence_ids": [
+              "daraja-africa-eu-proof"
+            ],
+            "unresolvable_evidence_ids": [],
+            "contradicted_evidence_ids": [],
+            "contradicted": false,
+            "evidence_classes": [
+              "verified"
+            ],
+            "evidence_freshness": "current",
+            "evidence_age_days": 0,
+            "confidence": "high",
+            "source_provenance": [
+              "operations/oliviks/ and clients/oliviks/"
+            ],
+            "adjustment_reason": null,
+            "reason": "scored",
+            "rationale": null,
+            "evidence_state": "approved",
+            "research_status": "complete"
+          },
+          "execution_readiness": {
+            "score": 4,
+            "requested_score": 4,
+            "max_score": 10,
+            "evidence_ids": [
+              "daraja-africa-eu-execution"
+            ],
+            "usable_evidence_ids": [
+              "daraja-africa-eu-execution"
+            ],
+            "approved_evidence_ids": [
+              "daraja-africa-eu-execution"
+            ],
+            "unresolvable_evidence_ids": [],
+            "contradicted_evidence_ids": [],
+            "contradicted": false,
+            "evidence_classes": [
+              "observed"
+            ],
+            "evidence_freshness": "current",
+            "evidence_age_days": 8,
+            "confidence": "medium",
+            "source_provenance": [
+              "https://daraja-africa.eu/home/about-us/"
+            ],
+            "adjustment_reason": null,
+            "reason": "scored",
+            "rationale": null,
+            "evidence_state": "approved",
+            "research_status": "partial"
+          }
+        },
+        "adjustments": [],
+        "thresholds": {
+          "HOT": 85,
+          "STRONG": 70,
+          "QUALIFIED": 55,
+          "WATCH": 40,
+          "DO_NOT_PURSUE": 0
+        },
+        "qualification_coverage": {
+          "sufficiently_researched_dimensions": 3,
+          "total_dimensions": 6,
+          "percentage": 50.0,
+          "by_dimension": {
+            "problem_evidence": {
+              "score": 14,
+              "evidence_state": "approved",
+              "evidence_ids": [
+                "daraja-africa-eu-problem-1",
+                "daraja-africa-eu-problem-2"
+              ],
+              "confidence": "medium",
+              "research_status": "complete",
+              "zero_because": null
+            },
+            "commercial_fit": {
+              "score": 0,
+              "evidence_state": "unknown",
+              "evidence_ids": [],
+              "confidence": "unknown",
+              "research_status": "required",
+              "zero_because": "missing_research"
+            },
+            "buyer_accessibility": {
+              "score": 15,
+              "evidence_state": "approved",
+              "evidence_ids": [
+                "daraja-africa-eu-bi-person",
+                "daraja-africa-eu-bi-route"
+              ],
+              "confidence": "medium",
+              "research_status": "complete",
+              "zero_because": null
+            },
+            "trigger_urgency": {
+              "score": 5,
+              "evidence_state": "approved",
+              "evidence_ids": [
+                "daraja-africa-eu-trigger"
+              ],
+              "confidence": "medium",
+              "research_status": "partial",
+              "zero_because": null
+            },
+            "proof_fit": {
+              "score": 15,
+              "evidence_state": "approved",
+              "evidence_ids": [
+                "daraja-africa-eu-proof"
+              ],
+              "confidence": "high",
+              "research_status": "complete",
+              "zero_because": null
+            },
+            "execution_readiness": {
+              "score": 4,
+              "evidence_state": "approved",
+              "evidence_ids": [
+                "daraja-africa-eu-execution"
+              ],
+              "confidence": "medium",
+              "research_status": "partial",
+              "zero_because": null
+            }
+          },
+          "missing_dimensions": [
+            "commercial_fit"
+          ],
+          "partial_dimensions": [
+            "execution_readiness",
+            "trigger_urgency"
+          ],
+          "verified_negative_dimensions": [],
+          "exhausted_unknown_dimensions": [],
+          "reopenable_dimensions": [
+            "commercial_fit",
+            "execution_readiness",
+            "trigger_urgency"
+          ],
+          "not_applicable_dimensions": [],
+          "note": "Coverage is not a score and is never added to one. A dimension can be fully researched and score zero. That is a verified negative, not a gap."
+        },
+        "model": "qualification-v1",
+        "model_approved": "2026-08-11",
+        "as_of": "2026-08-17",
+        "derived_by": "operations/internal-gtm/scripts/qualification_v1.py",
+        "gates_evaluated": {
+          "identity_domain_resolved": true,
+          "viable_contact_destination": true,
+          "credible_service_route": true,
+          "materially_contradicted_evidence": false,
+          "previous_outreach_exists": false,
+          "communication_state_resolved": true,
+          "legal_compliance_exclusion": false,
+          "explicit_defer_hold": false
+        },
+        "component_scores": {
+          "problem_evidence": 14,
+          "commercial_fit": 0,
+          "buyer_accessibility": 15,
+          "trigger_urgency": 5,
+          "proof_fit": 15,
+          "execution_readiness": 4
+        },
+        "unscored_components": [
+          "commercial_fit"
+        ],
+        "unresolvable_evidence_ids": [],
+        "evidence_gap": true,
+        "blocking_conditions": []
+      },
+      "commercial_intelligence": {
+        "capability": "bridgeworks-commercial-intelligence",
+        "prospect_id": "daraja-africa-eu",
+        "as_of": "2026-08-17",
+        "stage": "targeted_enrichment_from_existing_public_evidence",
+        "findings": [],
+        "commercial_value_band": {
+          "low": null,
+          "high": null,
+          "currency": null,
+          "basis": null,
+          "confidence": "none"
+        },
+        "procurement_complexity": "unknown",
+        "engagement_size_fit": "unknown",
+        "unresolved_questions": [
+          "More public scale or budget-capacity evidence is required."
+        ],
+        "external_action_authorized": false
+      },
+      "buyer_intelligence": {
+        "capability": "bridgeworks-buyer-intelligence",
+        "prospect_id": "daraja-africa-eu",
+        "as_of": "2026-08-17",
+        "stage": "targeted_enrichment_from_existing_public_evidence",
+        "roles": {
+          "decision_maker": {
+            "person": "Hans Posthumus",
+            "title": null,
+            "evidence_id": "daraja-africa-eu-bi-person",
+            "attribution_confidence": "medium"
+          }
+        },
+        "contact_route": {
+          "destination": "mail@daraja-africa.eu",
+          "destination_type": "general",
+          "source": "https://daraja-africa.eu/home/about-us/",
+          "lawful_basis_note": "public business contact route recorded in prior research"
+        },
+        "findings": [
+          {
+            "id": "daraja-africa-eu-bi-person",
+            "category": "buyer_accessibility",
+            "claim_key": "decision_maker_identity",
+            "claim": "Hans Posthumus is publicly listed as co-founder for Germany and Roisa Kerry as co-founder for Kenya.",
+            "value": "Hans Posthumus",
+            "severity": "none",
+            "source": "https://daraja-africa.eu/home/about-us/",
+            "observed_at": "2026-08-09",
+            "status": "observed"
+          },
+          {
+            "id": "daraja-africa-eu-bi-route",
+            "category": "buyer_accessibility",
+            "claim_key": "public_business_contact_route",
+            "claim": "A public business route is recorded: mail@daraja-africa.eu",
+            "value": "mail@daraja-africa.eu",
+            "severity": "none",
+            "source": "https://daraja-africa.eu/home/about-us/",
+            "observed_at": "2026-08-09",
+            "status": "observed"
+          }
+        ],
+        "unresolved_questions": [],
+        "external_action_authorized": false
+      },
+      "selected_service_route": "digital-platforms-brand",
+      "selected_diagnostic_capability": "client-audit",
+      "diagnostic": {
+        "capability": "client-audit",
+        "result": "not_justified_at_current_qualification_coverage"
+      },
+      "chosen_proof": {
+        "id": "oliviks-foundation-2026-07-24",
+        "claim": "Oliviks Kitchen Foundation delivery completed and the oliviks.com cutover was verified live on 2026-07-24.",
+        "status": "verified",
+        "source": "operations/oliviks/ and clients/oliviks/",
+        "usage_rule": "Foundation scope only. Do not imply an ongoing retainer.",
+        "route_strength": {
+          "digital-platforms-brand": "strong",
+          "ai-workflow-automation": "partial",
+          "execution-operating-systems": "partial"
+        }
+      },
+      "offer_hypothesis": "Lead path and trust review",
+      "next_action": "complete_stage_2_coverage",
+      "approval_packet": null,
+      "external_action_authorized": false
+    },
+    {
+      "prospect_id": "geneto-facility-management-company",
+      "company": "Geneto Facility Management Company",
+      "priority": {
+        "prospect_id": "geneto-facility-management-company",
+        "company": "Geneto Facility Management Company",
+        "priority_score": 73,
+        "components": {
+          "problem_evidence": 20,
+          "trigger_strength": 10,
+          "buyer_evidence": 15,
+          "proof_fit": 15,
+          "company_attractiveness": 3,
+          "evidence_freshness": 10,
+          "blocker_penalty": 0
+        },
+        "blocker_codes": [],
+        "why": [
+          "problem=20/20",
+          "trigger=10/20",
+          "buyer=15/15",
+          "proof=15/15",
+          "attractiveness=3/15",
+          "freshness=10/10",
+          "blockers=0"
+        ]
+      },
+      "existing_trigger": "Use a facility-assessment route and service-proof clarity review tied to category confusion on the current page.",
+      "problem_evidence": "Geneto has a live facility-assessment route and public estate proof, but service-category text appears confused around water/cleaning responsibilities, which can reduce buyer confidence before an estate owner asks for an assessment.",
+      "qualification_v1": {
+        "qualification_version": "qualification-v1",
+        "score": 44,
+        "max_score": 100,
+        "tier": "WATCH",
+        "actionability": "actionable",
+        "blocking_reasons": [],
+        "components": {
+          "problem_evidence": {
+            "score": 14,
+            "requested_score": 14,
+            "max_score": 25,
+            "evidence_ids": [
+              "geneto-facility-management-company-problem-1",
+              "geneto-facility-management-company-problem-2"
+            ],
+            "usable_evidence_ids": [
+              "geneto-facility-management-company-problem-1",
+              "geneto-facility-management-company-problem-2"
+            ],
+            "approved_evidence_ids": [
+              "geneto-facility-management-company-problem-1",
+              "geneto-facility-management-company-problem-2"
+            ],
+            "unresolvable_evidence_ids": [],
+            "contradicted_evidence_ids": [],
+            "contradicted": false,
+            "evidence_classes": [
+              "observed"
+            ],
+            "evidence_freshness": "current",
+            "evidence_age_days": 6,
+            "confidence": "medium",
+            "source_provenance": [
+              "https://genetofmc.com/"
+            ],
+            "adjustment_reason": null,
+            "reason": "scored",
+            "rationale": null,
+            "evidence_state": "approved",
+            "research_status": "complete"
+          },
+          "commercial_fit": {
+            "score": 2,
+            "requested_score": 2,
+            "max_score": 20,
+            "evidence_ids": [
+              "geneto-facility-management-company-ci-1"
+            ],
+            "usable_evidence_ids": [
+              "geneto-facility-management-company-ci-1"
+            ],
+            "approved_evidence_ids": [
+              "geneto-facility-management-company-ci-1"
+            ],
+            "unresolvable_evidence_ids": [],
+            "contradicted_evidence_ids": [],
+            "contradicted": false,
+            "evidence_classes": [
+              "observed"
+            ],
+            "evidence_freshness": "current",
+            "evidence_age_days": 6,
+            "confidence": "medium",
+            "source_provenance": [
+              "https://genetofmc.com/"
+            ],
+            "adjustment_reason": null,
+            "reason": "scored",
+            "rationale": null,
+            "evidence_state": "approved",
+            "research_status": "partial"
+          },
+          "buyer_accessibility": {
+            "score": 4,
+            "requested_score": 4,
+            "max_score": 15,
+            "evidence_ids": [
+              "geneto-facility-management-company-bi-route"
+            ],
+            "usable_evidence_ids": [
+              "geneto-facility-management-company-bi-route"
+            ],
+            "approved_evidence_ids": [
+              "geneto-facility-management-company-bi-route"
+            ],
+            "unresolvable_evidence_ids": [],
+            "contradicted_evidence_ids": [],
+            "contradicted": false,
+            "evidence_classes": [
+              "observed"
+            ],
+            "evidence_freshness": "current",
+            "evidence_age_days": 6,
+            "confidence": "medium",
+            "source_provenance": [
+              "https://genetofmc.com/"
+            ],
+            "adjustment_reason": null,
+            "reason": "scored",
+            "rationale": null,
+            "evidence_state": "approved",
+            "research_status": "partial"
+          },
+          "trigger_urgency": {
+            "score": 5,
+            "requested_score": 5,
+            "max_score": 15,
+            "evidence_ids": [
+              "geneto-facility-management-company-trigger"
+            ],
+            "usable_evidence_ids": [
+              "geneto-facility-management-company-trigger"
+            ],
+            "approved_evidence_ids": [
+              "geneto-facility-management-company-trigger"
+            ],
+            "unresolvable_evidence_ids": [],
+            "contradicted_evidence_ids": [],
+            "contradicted": false,
+            "evidence_classes": [
+              "observed"
+            ],
+            "evidence_freshness": "current",
+            "evidence_age_days": 6,
+            "confidence": "medium",
+            "source_provenance": [
+              "https://genetofmc.com/"
+            ],
+            "adjustment_reason": null,
+            "reason": "scored",
+            "rationale": null,
+            "evidence_state": "approved",
+            "research_status": "partial"
+          },
+          "proof_fit": {
+            "score": 15,
+            "requested_score": 15,
+            "max_score": 15,
+            "evidence_ids": [
+              "geneto-facility-management-company-proof"
+            ],
+            "usable_evidence_ids": [
+              "geneto-facility-management-company-proof"
+            ],
+            "approved_evidence_ids": [
+              "geneto-facility-management-company-proof"
+            ],
+            "unresolvable_evidence_ids": [],
+            "contradicted_evidence_ids": [],
+            "contradicted": false,
+            "evidence_classes": [
+              "verified"
+            ],
+            "evidence_freshness": "current",
+            "evidence_age_days": 0,
+            "confidence": "high",
+            "source_provenance": [
+              "operations/oliviks/ and clients/oliviks/"
+            ],
+            "adjustment_reason": null,
+            "reason": "scored",
+            "rationale": null,
+            "evidence_state": "approved",
+            "research_status": "complete"
+          },
+          "execution_readiness": {
+            "score": 4,
+            "requested_score": 4,
+            "max_score": 10,
+            "evidence_ids": [
+              "geneto-facility-management-company-execution"
+            ],
+            "usable_evidence_ids": [
+              "geneto-facility-management-company-execution"
+            ],
+            "approved_evidence_ids": [
+              "geneto-facility-management-company-execution"
+            ],
+            "unresolvable_evidence_ids": [],
+            "contradicted_evidence_ids": [],
+            "contradicted": false,
+            "evidence_classes": [
+              "observed"
+            ],
+            "evidence_freshness": "current",
+            "evidence_age_days": 6,
+            "confidence": "medium",
+            "source_provenance": [
+              "https://genetofmc.com/"
+            ],
+            "adjustment_reason": null,
+            "reason": "scored",
+            "rationale": null,
+            "evidence_state": "approved",
+            "research_status": "partial"
+          }
+        },
+        "adjustments": [],
+        "thresholds": {
+          "HOT": 85,
+          "STRONG": 70,
+          "QUALIFIED": 55,
+          "WATCH": 40,
+          "DO_NOT_PURSUE": 0
+        },
+        "qualification_coverage": {
+          "sufficiently_researched_dimensions": 2,
+          "total_dimensions": 6,
+          "percentage": 33.3,
+          "by_dimension": {
+            "problem_evidence": {
+              "score": 14,
+              "evidence_state": "approved",
+              "evidence_ids": [
+                "geneto-facility-management-company-problem-1",
+                "geneto-facility-management-company-problem-2"
+              ],
+              "confidence": "medium",
+              "research_status": "complete",
+              "zero_because": null
+            },
+            "commercial_fit": {
+              "score": 2,
+              "evidence_state": "approved",
+              "evidence_ids": [
+                "geneto-facility-management-company-ci-1"
+              ],
+              "confidence": "medium",
+              "research_status": "partial",
+              "zero_because": null
+            },
+            "buyer_accessibility": {
+              "score": 4,
+              "evidence_state": "approved",
+              "evidence_ids": [
+                "geneto-facility-management-company-bi-route"
+              ],
+              "confidence": "medium",
+              "research_status": "partial",
+              "zero_because": null
+            },
+            "trigger_urgency": {
+              "score": 5,
+              "evidence_state": "approved",
+              "evidence_ids": [
+                "geneto-facility-management-company-trigger"
+              ],
+              "confidence": "medium",
+              "research_status": "partial",
+              "zero_because": null
+            },
+            "proof_fit": {
+              "score": 15,
+              "evidence_state": "approved",
+              "evidence_ids": [
+                "geneto-facility-management-company-proof"
+              ],
+              "confidence": "high",
+              "research_status": "complete",
+              "zero_because": null
+            },
+            "execution_readiness": {
+              "score": 4,
+              "evidence_state": "approved",
+              "evidence_ids": [
+                "geneto-facility-management-company-execution"
+              ],
+              "confidence": "medium",
+              "research_status": "partial",
+              "zero_because": null
+            }
+          },
+          "missing_dimensions": [],
+          "partial_dimensions": [
+            "buyer_accessibility",
+            "commercial_fit",
+            "execution_readiness",
+            "trigger_urgency"
+          ],
+          "verified_negative_dimensions": [],
+          "exhausted_unknown_dimensions": [],
+          "reopenable_dimensions": [
+            "buyer_accessibility",
+            "commercial_fit",
+            "execution_readiness",
+            "trigger_urgency"
+          ],
+          "not_applicable_dimensions": [],
+          "note": "Coverage is not a score and is never added to one. A dimension can be fully researched and score zero. That is a verified negative, not a gap."
+        },
+        "model": "qualification-v1",
+        "model_approved": "2026-08-11",
+        "as_of": "2026-08-17",
+        "derived_by": "operations/internal-gtm/scripts/qualification_v1.py",
+        "gates_evaluated": {
+          "identity_domain_resolved": true,
+          "viable_contact_destination": true,
+          "credible_service_route": true,
+          "materially_contradicted_evidence": false,
+          "previous_outreach_exists": false,
+          "communication_state_resolved": true,
+          "legal_compliance_exclusion": false,
+          "explicit_defer_hold": false
+        },
+        "component_scores": {
+          "problem_evidence": 14,
+          "commercial_fit": 2,
+          "buyer_accessibility": 4,
+          "trigger_urgency": 5,
+          "proof_fit": 15,
+          "execution_readiness": 4
+        },
+        "unscored_components": [],
+        "unresolvable_evidence_ids": [],
+        "evidence_gap": false,
+        "blocking_conditions": []
+      },
+      "commercial_intelligence": {
+        "capability": "bridgeworks-commercial-intelligence",
+        "prospect_id": "geneto-facility-management-company",
+        "as_of": "2026-08-17",
+        "stage": "targeted_enrichment_from_existing_public_evidence",
+        "findings": [
+          {
+            "id": "geneto-facility-management-company-ci-1",
+            "category": "commercial_fit",
+            "claim_key": "public_scale_or_growth_signal_1",
+            "claim": "Owned homepage/search-rendered page lists professional facility management for estates, apartments, and commercial buildings in Lagos, 4+ years since 2021, SCUML compliance, 24/7 support, Request Facility Assessment, public address, 08038961824, info@genetofmc.com, managed estates, and a Send Message form.",
+            "value": {
+              "matched_signals": [
+                "years"
+              ]
+            },
+            "severity": "none",
+            "tool": "existing_public_evidence",
+            "source": "https://genetofmc.com/",
+            "observed_at": "2026-08-11",
+            "status": "observed"
+          }
+        ],
+        "commercial_value_band": {
+          "low": null,
+          "high": null,
+          "currency": null,
+          "basis": null,
+          "confidence": "none"
+        },
+        "procurement_complexity": "unknown",
+        "engagement_size_fit": "unknown",
+        "unresolved_questions": [
+          "More public scale or budget-capacity evidence is required."
+        ],
+        "external_action_authorized": false
+      },
+      "buyer_intelligence": {
+        "capability": "bridgeworks-buyer-intelligence",
+        "prospect_id": "geneto-facility-management-company",
+        "as_of": "2026-08-17",
+        "stage": "targeted_enrichment_from_existing_public_evidence",
+        "roles": {
+          "decision_maker": {
+            "person": null,
+            "title": null,
+            "evidence_id": null,
+            "attribution_confidence": "none"
+          }
+        },
+        "contact_route": {
+          "destination": "info@genetofmc.com",
+          "destination_type": "general",
+          "source": "https://genetofmc.com/",
+          "lawful_basis_note": "public business contact route recorded in prior research"
+        },
+        "findings": [
+          {
+            "id": "geneto-facility-management-company-bi-route",
+            "category": "buyer_accessibility",
+            "claim_key": "public_business_contact_route",
+            "claim": "A public business route is recorded: info@genetofmc.com",
+            "value": "info@genetofmc.com",
+            "severity": "none",
+            "source": "https://genetofmc.com/",
+            "observed_at": "2026-08-11",
+            "status": "observed"
+          }
+        ],
+        "unresolved_questions": [
+          "Verify the exact budget owner and a lawful direct or role-specific destination."
+        ],
+        "external_action_authorized": false
+      },
+      "selected_service_route": "digital-platforms-brand",
+      "selected_diagnostic_capability": "client-audit",
+      "diagnostic": {
+        "capability": "client-audit",
+        "result": "not_justified_at_current_qualification_coverage"
+      },
+      "chosen_proof": {
+        "id": "oliviks-foundation-2026-07-24",
+        "claim": "Oliviks Kitchen Foundation delivery completed and the oliviks.com cutover was verified live on 2026-07-24.",
+        "status": "verified",
+        "source": "operations/oliviks/ and clients/oliviks/",
+        "usage_rule": "Foundation scope only. Do not imply an ongoing retainer.",
+        "route_strength": {
+          "digital-platforms-brand": "strong",
+          "ai-workflow-automation": "partial",
+          "execution-operating-systems": "partial"
+        }
+      },
+      "offer_hypothesis": "Lead path and trust review",
+      "next_action": "complete_stage_2_coverage",
+      "approval_packet": null,
+      "external_action_authorized": false
+    },
+    {
+      "prospect_id": "tech-fm-kft",
+      "company": "TECH FM Kft.",
+      "priority": {
+        "prospect_id": "tech-fm-kft",
+        "company": "TECH FM Kft.",
+        "priority_score": 73,
+        "components": {
+          "problem_evidence": 20,
+          "trigger_strength": 13,
+          "buyer_evidence": 15,
+          "proof_fit": 15,
+          "company_attractiveness": 0,
+          "evidence_freshness": 10,
+          "blocker_penalty": 0
+        },
+        "blocker_codes": [],
+        "why": [
+          "problem=20/20",
+          "trigger=13/20",
+          "buyer=15/15",
+          "proof=15/15",
+          "attractiveness=0/15",
+          "freshness=10/10",
+          "blockers=0"
+        ]
+      },
+      "existing_trigger": "Use an English buyer-page and quote-route QA note tied to current form-heading and CTA consistency issues.",
+      "problem_evidence": "TECH FM asks English-speaking facilities buyers to request a quote, but the form route currently renders fragmented headline text and inconsistent quote CTA wording.",
+      "qualification_v1": {
+        "qualification_version": "qualification-v1",
+        "score": 42,
+        "max_score": 100,
+        "tier": "WATCH",
+        "actionability": "actionable",
+        "blocking_reasons": [],
+        "components": {
+          "problem_evidence": {
+            "score": 14,
+            "requested_score": 14,
+            "max_score": 25,
+            "evidence_ids": [
+              "tech-fm-kft-problem-1",
+              "tech-fm-kft-problem-2"
+            ],
+            "usable_evidence_ids": [
+              "tech-fm-kft-problem-1",
+              "tech-fm-kft-problem-2"
+            ],
+            "approved_evidence_ids": [
+              "tech-fm-kft-problem-1",
+              "tech-fm-kft-problem-2"
+            ],
+            "unresolvable_evidence_ids": [],
+            "contradicted_evidence_ids": [],
+            "contradicted": false,
+            "evidence_classes": [
+              "observed"
+            ],
+            "evidence_freshness": "current",
+            "evidence_age_days": 0,
+            "confidence": "medium",
+            "source_provenance": [
+              "https://www.techfm.hu/en/office-cleaning/"
+            ],
+            "adjustment_reason": null,
+            "reason": "scored",
+            "rationale": null,
+            "evidence_state": "approved",
+            "research_status": "complete"
+          },
+          "commercial_fit": {
+            "score": 0,
+            "requested_score": 0,
+            "max_score": 20,
+            "evidence_ids": [],
+            "usable_evidence_ids": [],
+            "approved_evidence_ids": [],
+            "unresolvable_evidence_ids": [],
+            "contradicted_evidence_ids": [],
+            "contradicted": false,
+            "evidence_classes": [],
+            "evidence_freshness": "unknown",
+            "evidence_age_days": null,
+            "confidence": "unknown",
+            "source_provenance": [],
+            "adjustment_reason": null,
+            "reason": "scored",
+            "rationale": null,
+            "evidence_state": "unknown",
+            "research_status": "required"
+          },
+          "buyer_accessibility": {
+            "score": 4,
+            "requested_score": 4,
+            "max_score": 15,
+            "evidence_ids": [
+              "tech-fm-kft-bi-route"
+            ],
+            "usable_evidence_ids": [
+              "tech-fm-kft-bi-route"
+            ],
+            "approved_evidence_ids": [
+              "tech-fm-kft-bi-route"
+            ],
+            "unresolvable_evidence_ids": [],
+            "contradicted_evidence_ids": [],
+            "contradicted": false,
+            "evidence_classes": [
+              "observed"
+            ],
+            "evidence_freshness": "current",
+            "evidence_age_days": 0,
+            "confidence": "medium",
+            "source_provenance": [
+              "https://www.techfm.hu/en/office-cleaning/"
+            ],
+            "adjustment_reason": null,
+            "reason": "scored",
+            "rationale": null,
+            "evidence_state": "approved",
+            "research_status": "partial"
+          },
+          "trigger_urgency": {
+            "score": 5,
+            "requested_score": 5,
+            "max_score": 15,
+            "evidence_ids": [
+              "tech-fm-kft-trigger"
+            ],
+            "usable_evidence_ids": [
+              "tech-fm-kft-trigger"
+            ],
+            "approved_evidence_ids": [
+              "tech-fm-kft-trigger"
+            ],
+            "unresolvable_evidence_ids": [],
+            "contradicted_evidence_ids": [],
+            "contradicted": false,
+            "evidence_classes": [
+              "observed"
+            ],
+            "evidence_freshness": "current",
+            "evidence_age_days": 0,
+            "confidence": "medium",
+            "source_provenance": [
+              "https://www.techfm.hu/en/office-cleaning/"
+            ],
+            "adjustment_reason": null,
+            "reason": "scored",
+            "rationale": null,
+            "evidence_state": "approved",
+            "research_status": "partial"
+          },
+          "proof_fit": {
+            "score": 15,
+            "requested_score": 15,
+            "max_score": 15,
+            "evidence_ids": [
+              "tech-fm-kft-proof"
+            ],
+            "usable_evidence_ids": [
+              "tech-fm-kft-proof"
+            ],
+            "approved_evidence_ids": [
+              "tech-fm-kft-proof"
+            ],
+            "unresolvable_evidence_ids": [],
+            "contradicted_evidence_ids": [],
+            "contradicted": false,
+            "evidence_classes": [
+              "verified"
+            ],
+            "evidence_freshness": "current",
+            "evidence_age_days": 0,
+            "confidence": "high",
+            "source_provenance": [
+              "operations/oliviks/ and clients/oliviks/"
+            ],
+            "adjustment_reason": null,
+            "reason": "scored",
+            "rationale": null,
+            "evidence_state": "approved",
+            "research_status": "complete"
+          },
+          "execution_readiness": {
+            "score": 4,
+            "requested_score": 4,
+            "max_score": 10,
+            "evidence_ids": [
+              "tech-fm-kft-execution"
+            ],
+            "usable_evidence_ids": [
+              "tech-fm-kft-execution"
+            ],
+            "approved_evidence_ids": [
+              "tech-fm-kft-execution"
+            ],
+            "unresolvable_evidence_ids": [],
+            "contradicted_evidence_ids": [],
+            "contradicted": false,
+            "evidence_classes": [
+              "observed"
+            ],
+            "evidence_freshness": "current",
+            "evidence_age_days": 0,
+            "confidence": "medium",
+            "source_provenance": [
+              "https://www.techfm.hu/en/office-cleaning/"
+            ],
+            "adjustment_reason": null,
+            "reason": "scored",
+            "rationale": null,
+            "evidence_state": "approved",
+            "research_status": "partial"
+          }
+        },
+        "adjustments": [],
+        "thresholds": {
+          "HOT": 85,
+          "STRONG": 70,
+          "QUALIFIED": 55,
+          "WATCH": 40,
+          "DO_NOT_PURSUE": 0
+        },
+        "qualification_coverage": {
+          "sufficiently_researched_dimensions": 2,
+          "total_dimensions": 6,
+          "percentage": 33.3,
+          "by_dimension": {
+            "problem_evidence": {
+              "score": 14,
+              "evidence_state": "approved",
+              "evidence_ids": [
+                "tech-fm-kft-problem-1",
+                "tech-fm-kft-problem-2"
+              ],
+              "confidence": "medium",
+              "research_status": "complete",
+              "zero_because": null
+            },
+            "commercial_fit": {
+              "score": 0,
+              "evidence_state": "unknown",
+              "evidence_ids": [],
+              "confidence": "unknown",
+              "research_status": "required",
+              "zero_because": "missing_research"
+            },
+            "buyer_accessibility": {
+              "score": 4,
+              "evidence_state": "approved",
+              "evidence_ids": [
+                "tech-fm-kft-bi-route"
+              ],
+              "confidence": "medium",
+              "research_status": "partial",
+              "zero_because": null
+            },
+            "trigger_urgency": {
+              "score": 5,
+              "evidence_state": "approved",
+              "evidence_ids": [
+                "tech-fm-kft-trigger"
+              ],
+              "confidence": "medium",
+              "research_status": "partial",
+              "zero_because": null
+            },
+            "proof_fit": {
+              "score": 15,
+              "evidence_state": "approved",
+              "evidence_ids": [
+                "tech-fm-kft-proof"
+              ],
+              "confidence": "high",
+              "research_status": "complete",
+              "zero_because": null
+            },
+            "execution_readiness": {
+              "score": 4,
+              "evidence_state": "approved",
+              "evidence_ids": [
+                "tech-fm-kft-execution"
+              ],
+              "confidence": "medium",
+              "research_status": "partial",
+              "zero_because": null
+            }
+          },
+          "missing_dimensions": [
+            "commercial_fit"
+          ],
+          "partial_dimensions": [
+            "buyer_accessibility",
+            "execution_readiness",
+            "trigger_urgency"
+          ],
+          "verified_negative_dimensions": [],
+          "exhausted_unknown_dimensions": [],
+          "reopenable_dimensions": [
+            "buyer_accessibility",
+            "commercial_fit",
+            "execution_readiness",
+            "trigger_urgency"
+          ],
+          "not_applicable_dimensions": [],
+          "note": "Coverage is not a score and is never added to one. A dimension can be fully researched and score zero. That is a verified negative, not a gap."
+        },
+        "model": "qualification-v1",
+        "model_approved": "2026-08-11",
+        "as_of": "2026-08-17",
+        "derived_by": "operations/internal-gtm/scripts/qualification_v1.py",
+        "gates_evaluated": {
+          "identity_domain_resolved": true,
+          "viable_contact_destination": true,
+          "credible_service_route": true,
+          "materially_contradicted_evidence": false,
+          "previous_outreach_exists": false,
+          "communication_state_resolved": true,
+          "legal_compliance_exclusion": false,
+          "explicit_defer_hold": false
+        },
+        "component_scores": {
+          "problem_evidence": 14,
+          "commercial_fit": 0,
+          "buyer_accessibility": 4,
+          "trigger_urgency": 5,
+          "proof_fit": 15,
+          "execution_readiness": 4
+        },
+        "unscored_components": [
+          "commercial_fit"
+        ],
+        "unresolvable_evidence_ids": [],
+        "evidence_gap": true,
+        "blocking_conditions": []
+      },
+      "commercial_intelligence": {
+        "capability": "bridgeworks-commercial-intelligence",
+        "prospect_id": "tech-fm-kft",
+        "as_of": "2026-08-17",
+        "stage": "targeted_enrichment_from_existing_public_evidence",
+        "findings": [],
+        "commercial_value_band": {
+          "low": null,
+          "high": null,
+          "currency": null,
+          "basis": null,
+          "confidence": "none"
+        },
+        "procurement_complexity": "unknown",
+        "engagement_size_fit": "unknown",
+        "unresolved_questions": [
+          "More public scale or budget-capacity evidence is required."
+        ],
+        "external_action_authorized": false
+      },
+      "buyer_intelligence": {
+        "capability": "bridgeworks-buyer-intelligence",
+        "prospect_id": "tech-fm-kft",
+        "as_of": "2026-08-17",
+        "stage": "targeted_enrichment_from_existing_public_evidence",
+        "roles": {
+          "decision_maker": {
+            "person": null,
+            "title": null,
+            "evidence_id": null,
+            "attribution_confidence": "none"
+          }
+        },
+        "contact_route": {
+          "destination": "info@techfm.hu",
+          "destination_type": "general",
+          "source": "https://www.techfm.hu/en/office-cleaning/",
+          "lawful_basis_note": "public business contact route recorded in prior research"
+        },
+        "findings": [
+          {
+            "id": "tech-fm-kft-bi-route",
+            "category": "buyer_accessibility",
+            "claim_key": "public_business_contact_route",
+            "claim": "A public business route is recorded: info@techfm.hu",
+            "value": "info@techfm.hu",
+            "severity": "none",
+            "source": "https://www.techfm.hu/en/office-cleaning/",
+            "observed_at": "2026-08-17",
+            "status": "observed"
+          }
+        ],
+        "unresolved_questions": [
+          "Verify the exact budget owner and a lawful direct or role-specific destination."
+        ],
+        "external_action_authorized": false
+      },
+      "selected_service_route": "digital-platforms-brand",
+      "selected_diagnostic_capability": "client-audit",
+      "diagnostic": {
+        "capability": "client-audit",
+        "result": "not_justified_at_current_qualification_coverage"
+      },
+      "chosen_proof": {
+        "id": "oliviks-foundation-2026-07-24",
+        "claim": "Oliviks Kitchen Foundation delivery completed and the oliviks.com cutover was verified live on 2026-07-24.",
+        "status": "verified",
+        "source": "operations/oliviks/ and clients/oliviks/",
+        "usage_rule": "Foundation scope only. Do not imply an ongoing retainer.",
+        "route_strength": {
+          "digital-platforms-brand": "strong",
+          "ai-workflow-automation": "partial",
+          "execution-operating-systems": "partial"
+        }
+      },
+      "offer_hypothesis": "Lead path and trust review",
+      "next_action": "complete_stage_2_coverage",
+      "approval_packet": null,
+      "external_action_authorized": false
+    },
+    {
+      "prospect_id": "tilz-prosperitas",
+      "company": "Tilz Prosperitas",
+      "priority": {
+        "prospect_id": "tilz-prosperitas",
+        "company": "Tilz Prosperitas",
+        "priority_score": 73,
+        "components": {
+          "problem_evidence": 20,
+          "trigger_strength": 10,
+          "buyer_evidence": 15,
+          "proof_fit": 15,
+          "company_attractiveness": 6,
+          "evidence_freshness": 7,
+          "blocker_penalty": 0
+        },
+        "blocker_codes": [],
+        "why": [
+          "problem=20/20",
+          "trigger=10/20",
+          "buyer=15/15",
+          "proof=15/15",
+          "attractiveness=6/15",
+          "freshness=7/10",
+          "blockers=0"
+        ]
+      },
+      "existing_trigger": "Use a concise cross-market wholesale route and demand-capture review tied to the export-finance expansion moment.",
+      "problem_evidence": "Tilz is entering larger international wholesale and retail conversations while public routes are split between the Tilz Collection wholesale form and a Chamber-listed TilzMart email/domain, which can dilute buyer routing and follow-up consistency.",
+      "qualification_v1": {
+        "qualification_version": "qualification-v1",
+        "score": 72,
+        "max_score": 100,
+        "tier": "STRONG",
+        "actionability": "actionable",
+        "blocking_reasons": [],
+        "components": {
+          "problem_evidence": {
+            "score": 20,
+            "requested_score": 20,
+            "max_score": 25,
+            "evidence_ids": [
+              "tilz-prosperitas-problem-1",
+              "tilz-prosperitas-problem-2",
+              "tilz-prosperitas-problem-3",
+              "tilz-prosperitas-problem-4"
+            ],
+            "usable_evidence_ids": [
+              "tilz-prosperitas-problem-1",
+              "tilz-prosperitas-problem-2",
+              "tilz-prosperitas-problem-3",
+              "tilz-prosperitas-problem-4"
+            ],
+            "approved_evidence_ids": [
+              "tilz-prosperitas-problem-1",
+              "tilz-prosperitas-problem-2",
+              "tilz-prosperitas-problem-3",
+              "tilz-prosperitas-problem-4"
+            ],
+            "unresolvable_evidence_ids": [],
+            "contradicted_evidence_ids": [],
+            "contradicted": false,
+            "evidence_classes": [
+              "observed"
+            ],
+            "evidence_freshness": "current",
+            "evidence_age_days": 14,
+            "confidence": "medium",
+            "source_provenance": [
+              "https://find-and-update.company-information.service.gov.uk/company/08832515/officers",
+              "https://members.wnychamber.co.uk/directory/939066/",
+              "https://tilzcollection.co.uk/wholesale/",
+              "https://www.ukexportfinance.gov.uk/success-stories/tilzprosperitas/"
+            ],
+            "adjustment_reason": null,
+            "reason": "scored",
+            "rationale": null,
+            "evidence_state": "approved",
+            "research_status": "complete"
+          },
+          "commercial_fit": {
+            "score": 6,
+            "requested_score": 6,
+            "max_score": 20,
+            "evidence_ids": [
+              "tilz-prosperitas-ci-1"
+            ],
+            "usable_evidence_ids": [
+              "tilz-prosperitas-ci-1"
+            ],
+            "approved_evidence_ids": [
+              "tilz-prosperitas-ci-1"
+            ],
+            "unresolvable_evidence_ids": [],
+            "contradicted_evidence_ids": [],
+            "contradicted": false,
+            "evidence_classes": [
+              "observed"
+            ],
+            "evidence_freshness": "current",
+            "evidence_age_days": 14,
+            "confidence": "medium",
+            "source_provenance": [
+              "https://www.ukexportfinance.gov.uk/success-stories/tilzprosperitas/"
+            ],
+            "adjustment_reason": null,
+            "reason": "scored",
+            "rationale": null,
+            "evidence_state": "approved",
+            "research_status": "complete"
+          },
+          "buyer_accessibility": {
+            "score": 15,
+            "requested_score": 15,
+            "max_score": 15,
+            "evidence_ids": [
+              "tilz-prosperitas-bi-person",
+              "tilz-prosperitas-bi-route"
+            ],
+            "usable_evidence_ids": [
+              "tilz-prosperitas-bi-person",
+              "tilz-prosperitas-bi-route"
+            ],
+            "approved_evidence_ids": [
+              "tilz-prosperitas-bi-person",
+              "tilz-prosperitas-bi-route"
+            ],
+            "unresolvable_evidence_ids": [],
+            "contradicted_evidence_ids": [],
+            "contradicted": false,
+            "evidence_classes": [
+              "observed"
+            ],
+            "evidence_freshness": "current",
+            "evidence_age_days": 14,
+            "confidence": "medium",
+            "source_provenance": [
+              "https://www.ukexportfinance.gov.uk/success-stories/tilzprosperitas/"
+            ],
+            "adjustment_reason": null,
+            "reason": "scored",
+            "rationale": null,
+            "evidence_state": "approved",
+            "research_status": "complete"
+          },
+          "trigger_urgency": {
+            "score": 12,
+            "requested_score": 12,
+            "max_score": 15,
+            "evidence_ids": [
+              "tilz-prosperitas-trigger"
+            ],
+            "usable_evidence_ids": [
+              "tilz-prosperitas-trigger"
+            ],
+            "approved_evidence_ids": [
+              "tilz-prosperitas-trigger"
+            ],
+            "unresolvable_evidence_ids": [],
+            "contradicted_evidence_ids": [],
+            "contradicted": false,
+            "evidence_classes": [
+              "observed"
+            ],
+            "evidence_freshness": "current",
+            "evidence_age_days": 14,
+            "confidence": "medium",
+            "source_provenance": [
+              "https://www.ukexportfinance.gov.uk/success-stories/tilzprosperitas/"
+            ],
+            "adjustment_reason": null,
+            "reason": "scored",
+            "rationale": null,
+            "evidence_state": "approved",
+            "research_status": "complete"
+          },
+          "proof_fit": {
+            "score": 15,
+            "requested_score": 15,
+            "max_score": 15,
+            "evidence_ids": [
+              "tilz-prosperitas-proof"
+            ],
+            "usable_evidence_ids": [
+              "tilz-prosperitas-proof"
+            ],
+            "approved_evidence_ids": [
+              "tilz-prosperitas-proof"
+            ],
+            "unresolvable_evidence_ids": [],
+            "contradicted_evidence_ids": [],
+            "contradicted": false,
+            "evidence_classes": [
+              "verified"
+            ],
+            "evidence_freshness": "current",
+            "evidence_age_days": 0,
+            "confidence": "high",
+            "source_provenance": [
+              "clients/ceefm/VERIFIED-FACTS.md"
+            ],
+            "adjustment_reason": null,
+            "reason": "scored",
+            "rationale": null,
+            "evidence_state": "approved",
+            "research_status": "complete"
+          },
+          "execution_readiness": {
+            "score": 4,
+            "requested_score": 4,
+            "max_score": 10,
+            "evidence_ids": [
+              "tilz-prosperitas-execution"
+            ],
+            "usable_evidence_ids": [
+              "tilz-prosperitas-execution"
+            ],
+            "approved_evidence_ids": [
+              "tilz-prosperitas-execution"
+            ],
+            "unresolvable_evidence_ids": [],
+            "contradicted_evidence_ids": [],
+            "contradicted": false,
+            "evidence_classes": [
+              "observed"
+            ],
+            "evidence_freshness": "current",
+            "evidence_age_days": 14,
+            "confidence": "medium",
+            "source_provenance": [
+              "https://www.ukexportfinance.gov.uk/success-stories/tilzprosperitas/"
+            ],
+            "adjustment_reason": null,
+            "reason": "scored",
+            "rationale": null,
+            "evidence_state": "approved",
+            "research_status": "partial"
+          }
+        },
+        "adjustments": [],
+        "thresholds": {
+          "HOT": 85,
+          "STRONG": 70,
+          "QUALIFIED": 55,
+          "WATCH": 40,
+          "DO_NOT_PURSUE": 0
+        },
+        "qualification_coverage": {
+          "sufficiently_researched_dimensions": 5,
+          "total_dimensions": 6,
+          "percentage": 83.3,
+          "by_dimension": {
+            "problem_evidence": {
+              "score": 20,
+              "evidence_state": "approved",
+              "evidence_ids": [
+                "tilz-prosperitas-problem-1",
+                "tilz-prosperitas-problem-2",
+                "tilz-prosperitas-problem-3",
+                "tilz-prosperitas-problem-4"
+              ],
+              "confidence": "medium",
+              "research_status": "complete",
+              "zero_because": null
+            },
+            "commercial_fit": {
+              "score": 6,
+              "evidence_state": "approved",
+              "evidence_ids": [
+                "tilz-prosperitas-ci-1"
+              ],
+              "confidence": "medium",
+              "research_status": "complete",
+              "zero_because": null
+            },
+            "buyer_accessibility": {
+              "score": 15,
+              "evidence_state": "approved",
+              "evidence_ids": [
+                "tilz-prosperitas-bi-person",
+                "tilz-prosperitas-bi-route"
+              ],
+              "confidence": "medium",
+              "research_status": "complete",
+              "zero_because": null
+            },
+            "trigger_urgency": {
+              "score": 12,
+              "evidence_state": "approved",
+              "evidence_ids": [
+                "tilz-prosperitas-trigger"
+              ],
+              "confidence": "medium",
+              "research_status": "complete",
+              "zero_because": null
+            },
+            "proof_fit": {
+              "score": 15,
+              "evidence_state": "approved",
+              "evidence_ids": [
+                "tilz-prosperitas-proof"
+              ],
+              "confidence": "high",
+              "research_status": "complete",
+              "zero_because": null
+            },
+            "execution_readiness": {
+              "score": 4,
+              "evidence_state": "approved",
+              "evidence_ids": [
+                "tilz-prosperitas-execution"
+              ],
+              "confidence": "medium",
+              "research_status": "partial",
+              "zero_because": null
+            }
+          },
+          "missing_dimensions": [],
+          "partial_dimensions": [
+            "execution_readiness"
+          ],
+          "verified_negative_dimensions": [],
+          "exhausted_unknown_dimensions": [],
+          "reopenable_dimensions": [
+            "execution_readiness"
+          ],
+          "not_applicable_dimensions": [],
+          "note": "Coverage is not a score and is never added to one. A dimension can be fully researched and score zero. That is a verified negative, not a gap."
+        },
+        "model": "qualification-v1",
+        "model_approved": "2026-08-11",
+        "as_of": "2026-08-17",
+        "derived_by": "operations/internal-gtm/scripts/qualification_v1.py",
+        "gates_evaluated": {
+          "identity_domain_resolved": true,
+          "viable_contact_destination": true,
+          "credible_service_route": true,
+          "materially_contradicted_evidence": false,
+          "previous_outreach_exists": false,
+          "communication_state_resolved": true,
+          "legal_compliance_exclusion": false,
+          "explicit_defer_hold": false
+        },
+        "component_scores": {
+          "problem_evidence": 20,
+          "commercial_fit": 6,
+          "buyer_accessibility": 15,
+          "trigger_urgency": 12,
+          "proof_fit": 15,
+          "execution_readiness": 4
+        },
+        "unscored_components": [],
+        "unresolvable_evidence_ids": [],
+        "evidence_gap": false,
+        "blocking_conditions": []
+      },
+      "commercial_intelligence": {
+        "capability": "bridgeworks-commercial-intelligence",
+        "prospect_id": "tilz-prosperitas",
+        "as_of": "2026-08-17",
+        "stage": "targeted_enrichment_from_existing_public_evidence",
+        "findings": [
+          {
+            "id": "tilz-prosperitas-ci-1",
+            "category": "commercial_fit",
+            "claim_key": "public_scale_or_growth_signal_1",
+            "claim": "UK Export Finance says Tilz Prosperitas is ready to deliver to Europe, take on US and Canada clients, diversify beyond seasonal products, and used up to GBP200,000 trade finance.",
+            "value": {
+              "matched_signals": [
+                "clients",
+                "export",
+                "finance"
+              ]
+            },
+            "severity": "none",
+            "tool": "existing_public_evidence",
+            "source": "https://www.ukexportfinance.gov.uk/success-stories/tilzprosperitas/",
+            "observed_at": "2026-08-03",
+            "status": "observed"
+          }
+        ],
+        "commercial_value_band": {
+          "low": null,
+          "high": null,
+          "currency": null,
+          "basis": null,
+          "confidence": "none"
+        },
+        "procurement_complexity": "unknown",
+        "engagement_size_fit": "plausible",
+        "unresolved_questions": [],
+        "external_action_authorized": false
+      },
+      "buyer_intelligence": {
+        "capability": "bridgeworks-buyer-intelligence",
+        "prospect_id": "tilz-prosperitas",
+        "as_of": "2026-08-17",
+        "stage": "targeted_enrichment_from_existing_public_evidence",
+        "roles": {
+          "decision_maker": {
+            "person": "UK Export Finance identifies Tayo Adebisi as Founder and CEO; Companies House lists Rukayat Omotayo Adebisi as an active director.",
+            "title": null,
+            "evidence_id": "tilz-prosperitas-bi-person",
+            "attribution_confidence": "medium"
+          }
+        },
+        "contact_route": {
+          "destination": "https://tilzcollection.co.uk/wholesale/",
+          "destination_type": "general",
+          "source": "https://www.ukexportfinance.gov.uk/success-stories/tilzprosperitas/",
+          "lawful_basis_note": "public business contact route recorded in prior research"
+        },
+        "findings": [
+          {
+            "id": "tilz-prosperitas-bi-person",
+            "category": "buyer_accessibility",
+            "claim_key": "decision_maker_identity",
+            "claim": "UK Export Finance identifies Tayo Adebisi as Founder and CEO; Companies House lists Rukayat Omotayo Adebisi as an active director.",
+            "value": "UK Export Finance identifies Tayo Adebisi as Founder and CEO; Companies House lists Rukayat Omotayo Adebisi as an active director.",
+            "severity": "none",
+            "source": "https://www.ukexportfinance.gov.uk/success-stories/tilzprosperitas/",
+            "observed_at": "2026-08-03",
+            "status": "observed"
+          },
+          {
+            "id": "tilz-prosperitas-bi-route",
+            "category": "buyer_accessibility",
+            "claim_key": "public_business_contact_route",
+            "claim": "A public business route is recorded: https://tilzcollection.co.uk/wholesale/",
+            "value": "https://tilzcollection.co.uk/wholesale/",
+            "severity": "none",
+            "source": "https://www.ukexportfinance.gov.uk/success-stories/tilzprosperitas/",
+            "observed_at": "2026-08-03",
+            "status": "observed"
+          }
+        ],
+        "unresolved_questions": [],
+        "external_action_authorized": false
+      },
+      "selected_service_route": "content-visibility-demand",
+      "selected_diagnostic_capability": "geo-audit",
+      "diagnostic": {
+        "capability": "geo-audit",
+        "result": "existing_partial_diagnostic",
+        "detail": {
+          "capability": "geo-audit",
+          "prospect_id": "tilz-prosperitas",
+          "company": "Tilz Prosperitas",
+          "website_url": "https://tilzcollection.co.uk/",
+          "completed_at": "2026-08-11",
+          "status": "blocked_partial",
+          "aggregate_score": null,
+          "external_action_authorized": false,
+          "specialists": {
+            "agent-geo-technical": {
+              "status": "complete",
+              "score": 86,
+              "confidence": "high for fetch-visible technical signals; medium for static CWV inference",
+              "summary": "Server-rendered Shopify content, indexability, permissive public robots rules, five-child sitemap with 86 entries, agents.md, and valid sampled JSON-LD were observed."
+            },
+            "agent-geo-content": {
+              "status": "provisional_cached_evidence",
+              "content_score": 37,
+              "eeat_score": 28,
+              "confidence": "medium to low",
+              "summary": "Cached evidence indicates inconsistent delivery thresholds, unsupported expert language, duplicated About copy, and weak authority depth; fresh-page confirmation is required."
+            },
+            "agent-geo-schema": {
+              "status": "blocked_unverified",
+              "score": null,
+              "summary": "The dedicated schema pass could not inspect raw HTML. The technical pass separately observed syntactically valid JSON-LD but did not establish full eligibility or coverage."
+            },
+            "agent-geo-ai-visibility": {
+              "status": "blocked_unverified",
+              "score": null,
+              "summary": "Current answer-engine citations, entity presence, and brand-mention coverage could not be retrieved reliably."
+            },
+            "agent-geo-platform-analysis": {
+              "status": "blocked_unverified",
+              "score": null,
+              "summary": "No defensible platform-readiness scores were available for Google AI Overviews, ChatGPT web search, Perplexity, Gemini, or Bing Copilot."
+            }
+          },
+          "evidence_decision": {
+            "approved_for_internal_technical_research": [
+              "technical accessibility is strong",
+              "sampled metadata and presentation issues exist"
+            ],
+            "not_approved_for_commercial_use": [
+              "a material AI-visibility gap exists",
+              "Tilz is absent from answer engines",
+              "the site lacks structured data",
+              "the cached content issues remain live"
+            ]
+          },
+          "lifecycle_stage": "diagnostic_selected",
+          "next_action": "retry_bounded_geo_specialists_then_aggregate_or_return_to_research"
+        },
+        "gate": "partial result cannot support outreach preparation"
+      },
+      "chosen_proof": {
+        "id": "ceefm-geo-16-to-77",
+        "claim": "CEEFM GEO score moved from 16 to 77 between the engagement start and the 2026-06-10 audit.",
+        "status": "verified",
+        "source": "clients/ceefm/VERIFIED-FACTS.md",
+        "usage_rule": "Named use approved 2026-07-14. Say 'engagement, March to June 2026'. Never say '16-week' or 'completed'.",
+        "route_strength": {
+          "content-visibility-demand": "strong",
+          "strategy-transformation": "partial"
+        }
+      },
+      "offer_hypothesis": "AI visibility snapshot",
+      "next_action": "complete_justified_diagnostic",
+      "approval_packet": null,
+      "external_action_authorized": false
+    },
+    {
+      "prospect_id": "eurafrica-partners",
+      "company": "EurAfrica Partners",
+      "priority": {
+        "prospect_id": "eurafrica-partners",
+        "company": "EurAfrica Partners",
+        "priority_score": 70,
+        "components": {
+          "problem_evidence": 20,
+          "trigger_strength": 10,
+          "buyer_evidence": 15,
+          "proof_fit": 15,
+          "company_attractiveness": 0,
+          "evidence_freshness": 10,
+          "blocker_penalty": 0
+        },
+        "blocker_codes": [],
+        "why": [
+          "problem=20/20",
+          "trigger=10/20",
+          "buyer=15/15",
+          "proof=15/15",
+          "attractiveness=0/15",
+          "freshness=10/10",
+          "blockers=0"
+        ]
+      },
+      "existing_trigger": "Use a credibility-first homepage QA note tied to public copy quality on the core investor/advisory positioning.",
+      "problem_evidence": "EurAfrica sells cross-border advisory trust, but its current homepage has visible copy quality issues in the core investor and Europe-Africa positioning section.",
+      "qualification_v1": {
+        "qualification_version": "qualification-v1",
+        "score": 53,
+        "max_score": 100,
+        "tier": "WATCH",
+        "actionability": "actionable",
+        "blocking_reasons": [],
+        "components": {
+          "problem_evidence": {
+            "score": 14,
+            "requested_score": 14,
+            "max_score": 25,
+            "evidence_ids": [
+              "eurafrica-partners-problem-1",
+              "eurafrica-partners-problem-2"
+            ],
+            "usable_evidence_ids": [
+              "eurafrica-partners-problem-1",
+              "eurafrica-partners-problem-2"
+            ],
+            "approved_evidence_ids": [
+              "eurafrica-partners-problem-1",
+              "eurafrica-partners-problem-2"
+            ],
+            "unresolvable_evidence_ids": [],
+            "contradicted_evidence_ids": [],
+            "contradicted": false,
+            "evidence_classes": [
+              "observed"
+            ],
+            "evidence_freshness": "current",
+            "evidence_age_days": 0,
+            "confidence": "medium",
+            "source_provenance": [
+              "https://eurafricapartners.com/"
+            ],
+            "adjustment_reason": null,
+            "reason": "scored",
+            "rationale": null,
+            "evidence_state": "approved",
+            "research_status": "complete"
+          },
+          "commercial_fit": {
+            "score": 0,
+            "requested_score": 0,
+            "max_score": 20,
+            "evidence_ids": [],
+            "usable_evidence_ids": [],
+            "approved_evidence_ids": [],
+            "unresolvable_evidence_ids": [],
+            "contradicted_evidence_ids": [],
+            "contradicted": false,
+            "evidence_classes": [],
+            "evidence_freshness": "unknown",
+            "evidence_age_days": null,
+            "confidence": "unknown",
+            "source_provenance": [],
+            "adjustment_reason": null,
+            "reason": "scored",
+            "rationale": null,
+            "evidence_state": "unknown",
+            "research_status": "required"
+          },
+          "buyer_accessibility": {
+            "score": 15,
+            "requested_score": 15,
+            "max_score": 15,
+            "evidence_ids": [
+              "eurafrica-partners-bi-person",
+              "eurafrica-partners-bi-route"
+            ],
+            "usable_evidence_ids": [
+              "eurafrica-partners-bi-person",
+              "eurafrica-partners-bi-route"
+            ],
+            "approved_evidence_ids": [
+              "eurafrica-partners-bi-person",
+              "eurafrica-partners-bi-route"
+            ],
+            "unresolvable_evidence_ids": [],
+            "contradicted_evidence_ids": [],
+            "contradicted": false,
+            "evidence_classes": [
+              "observed"
+            ],
+            "evidence_freshness": "current",
+            "evidence_age_days": 0,
+            "confidence": "medium",
+            "source_provenance": [
+              "https://eurafricapartners.com/"
+            ],
+            "adjustment_reason": null,
+            "reason": "scored",
+            "rationale": null,
+            "evidence_state": "approved",
+            "research_status": "complete"
+          },
+          "trigger_urgency": {
+            "score": 5,
+            "requested_score": 5,
+            "max_score": 15,
+            "evidence_ids": [
+              "eurafrica-partners-trigger"
+            ],
+            "usable_evidence_ids": [
+              "eurafrica-partners-trigger"
+            ],
+            "approved_evidence_ids": [
+              "eurafrica-partners-trigger"
+            ],
+            "unresolvable_evidence_ids": [],
+            "contradicted_evidence_ids": [],
+            "contradicted": false,
+            "evidence_classes": [
+              "observed"
+            ],
+            "evidence_freshness": "current",
+            "evidence_age_days": 0,
+            "confidence": "medium",
+            "source_provenance": [
+              "https://eurafricapartners.com/"
+            ],
+            "adjustment_reason": null,
+            "reason": "scored",
+            "rationale": null,
+            "evidence_state": "approved",
+            "research_status": "partial"
+          },
+          "proof_fit": {
+            "score": 15,
+            "requested_score": 15,
+            "max_score": 15,
+            "evidence_ids": [
+              "eurafrica-partners-proof"
+            ],
+            "usable_evidence_ids": [
+              "eurafrica-partners-proof"
+            ],
+            "approved_evidence_ids": [
+              "eurafrica-partners-proof"
+            ],
+            "unresolvable_evidence_ids": [],
+            "contradicted_evidence_ids": [],
+            "contradicted": false,
+            "evidence_classes": [
+              "verified"
+            ],
+            "evidence_freshness": "current",
+            "evidence_age_days": 0,
+            "confidence": "high",
+            "source_provenance": [
+              "operations/oliviks/ and clients/oliviks/"
+            ],
+            "adjustment_reason": null,
+            "reason": "scored",
+            "rationale": null,
+            "evidence_state": "approved",
+            "research_status": "complete"
+          },
+          "execution_readiness": {
+            "score": 4,
+            "requested_score": 4,
+            "max_score": 10,
+            "evidence_ids": [
+              "eurafrica-partners-execution"
+            ],
+            "usable_evidence_ids": [
+              "eurafrica-partners-execution"
+            ],
+            "approved_evidence_ids": [
+              "eurafrica-partners-execution"
+            ],
+            "unresolvable_evidence_ids": [],
+            "contradicted_evidence_ids": [],
+            "contradicted": false,
+            "evidence_classes": [
+              "observed"
+            ],
+            "evidence_freshness": "current",
+            "evidence_age_days": 0,
+            "confidence": "medium",
+            "source_provenance": [
+              "https://eurafricapartners.com/"
+            ],
+            "adjustment_reason": null,
+            "reason": "scored",
+            "rationale": null,
+            "evidence_state": "approved",
+            "research_status": "partial"
+          }
+        },
+        "adjustments": [],
+        "thresholds": {
+          "HOT": 85,
+          "STRONG": 70,
+          "QUALIFIED": 55,
+          "WATCH": 40,
+          "DO_NOT_PURSUE": 0
+        },
+        "qualification_coverage": {
+          "sufficiently_researched_dimensions": 3,
+          "total_dimensions": 6,
+          "percentage": 50.0,
+          "by_dimension": {
+            "problem_evidence": {
+              "score": 14,
+              "evidence_state": "approved",
+              "evidence_ids": [
+                "eurafrica-partners-problem-1",
+                "eurafrica-partners-problem-2"
+              ],
+              "confidence": "medium",
+              "research_status": "complete",
+              "zero_because": null
+            },
+            "commercial_fit": {
+              "score": 0,
+              "evidence_state": "unknown",
+              "evidence_ids": [],
+              "confidence": "unknown",
+              "research_status": "required",
+              "zero_because": "missing_research"
+            },
+            "buyer_accessibility": {
+              "score": 15,
+              "evidence_state": "approved",
+              "evidence_ids": [
+                "eurafrica-partners-bi-person",
+                "eurafrica-partners-bi-route"
+              ],
+              "confidence": "medium",
+              "research_status": "complete",
+              "zero_because": null
+            },
+            "trigger_urgency": {
+              "score": 5,
+              "evidence_state": "approved",
+              "evidence_ids": [
+                "eurafrica-partners-trigger"
+              ],
+              "confidence": "medium",
+              "research_status": "partial",
+              "zero_because": null
+            },
+            "proof_fit": {
+              "score": 15,
+              "evidence_state": "approved",
+              "evidence_ids": [
+                "eurafrica-partners-proof"
+              ],
+              "confidence": "high",
+              "research_status": "complete",
+              "zero_because": null
+            },
+            "execution_readiness": {
+              "score": 4,
+              "evidence_state": "approved",
+              "evidence_ids": [
+                "eurafrica-partners-execution"
+              ],
+              "confidence": "medium",
+              "research_status": "partial",
+              "zero_because": null
+            }
+          },
+          "missing_dimensions": [
+            "commercial_fit"
+          ],
+          "partial_dimensions": [
+            "execution_readiness",
+            "trigger_urgency"
+          ],
+          "verified_negative_dimensions": [],
+          "exhausted_unknown_dimensions": [],
+          "reopenable_dimensions": [
+            "commercial_fit",
+            "execution_readiness",
+            "trigger_urgency"
+          ],
+          "not_applicable_dimensions": [],
+          "note": "Coverage is not a score and is never added to one. A dimension can be fully researched and score zero. That is a verified negative, not a gap."
+        },
+        "model": "qualification-v1",
+        "model_approved": "2026-08-11",
+        "as_of": "2026-08-17",
+        "derived_by": "operations/internal-gtm/scripts/qualification_v1.py",
+        "gates_evaluated": {
+          "identity_domain_resolved": true,
+          "viable_contact_destination": true,
+          "credible_service_route": true,
+          "materially_contradicted_evidence": false,
+          "previous_outreach_exists": false,
+          "communication_state_resolved": true,
+          "legal_compliance_exclusion": false,
+          "explicit_defer_hold": false
+        },
+        "component_scores": {
+          "problem_evidence": 14,
+          "commercial_fit": 0,
+          "buyer_accessibility": 15,
+          "trigger_urgency": 5,
+          "proof_fit": 15,
+          "execution_readiness": 4
+        },
+        "unscored_components": [
+          "commercial_fit"
+        ],
+        "unresolvable_evidence_ids": [],
+        "evidence_gap": true,
+        "blocking_conditions": []
+      },
+      "commercial_intelligence": {
+        "capability": "bridgeworks-commercial-intelligence",
+        "prospect_id": "eurafrica-partners",
+        "as_of": "2026-08-17",
+        "stage": "targeted_enrichment_from_existing_public_evidence",
+        "findings": [],
+        "commercial_value_band": {
+          "low": null,
+          "high": null,
+          "currency": null,
+          "basis": null,
+          "confidence": "none"
+        },
+        "procurement_complexity": "unknown",
+        "engagement_size_fit": "unknown",
+        "unresolved_questions": [
+          "More public scale or budget-capacity evidence is required."
+        ],
+        "external_action_authorized": false
+      },
+      "buyer_intelligence": {
+        "capability": "bridgeworks-buyer-intelligence",
+        "prospect_id": "eurafrica-partners",
+        "as_of": "2026-08-17",
+        "stage": "targeted_enrichment_from_existing_public_evidence",
+        "roles": {
+          "decision_maker": {
+            "person": "Team names publicly listed on the owned site include Seamus McCann, Dr. Sylvia Gavigan, Nigel Sutton, and Maureen Mwagale, but no single responsible owner for the website or operations was verified.",
+            "title": null,
+            "evidence_id": "eurafrica-partners-bi-person",
+            "attribution_confidence": "medium"
+          }
+        },
+        "contact_route": {
+          "destination": "info@eurafricapartners.com",
+          "destination_type": "general",
+          "source": "https://eurafricapartners.com/",
+          "lawful_basis_note": "public business contact route recorded in prior research"
+        },
+        "findings": [
+          {
+            "id": "eurafrica-partners-bi-person",
+            "category": "buyer_accessibility",
+            "claim_key": "decision_maker_identity",
+            "claim": "Team names publicly listed on the owned site include Seamus McCann, Dr. Sylvia Gavigan, Nigel Sutton, and Maureen Mwagale, but no single responsible owner for the website or operations was verified.",
+            "value": "Team names publicly listed on the owned site include Seamus McCann, Dr. Sylvia Gavigan, Nigel Sutton, and Maureen Mwagale, but no single responsible owner for the website or operations was verified.",
+            "severity": "none",
+            "source": "https://eurafricapartners.com/",
+            "observed_at": "2026-08-17",
+            "status": "observed"
+          },
+          {
+            "id": "eurafrica-partners-bi-route",
+            "category": "buyer_accessibility",
+            "claim_key": "public_business_contact_route",
+            "claim": "A public business route is recorded: info@eurafricapartners.com",
+            "value": "info@eurafricapartners.com",
+            "severity": "none",
+            "source": "https://eurafricapartners.com/",
+            "observed_at": "2026-08-17",
+            "status": "observed"
+          }
+        ],
+        "unresolved_questions": [],
+        "external_action_authorized": false
+      },
+      "selected_service_route": "digital-platforms-brand",
+      "selected_diagnostic_capability": "client-audit",
+      "diagnostic": {
+        "capability": "client-audit",
+        "result": "not_justified_at_current_qualification_coverage"
+      },
+      "chosen_proof": {
+        "id": "oliviks-foundation-2026-07-24",
+        "claim": "Oliviks Kitchen Foundation delivery completed and the oliviks.com cutover was verified live on 2026-07-24.",
+        "status": "verified",
+        "source": "operations/oliviks/ and clients/oliviks/",
+        "usage_rule": "Foundation scope only. Do not imply an ongoing retainer.",
+        "route_strength": {
+          "digital-platforms-brand": "strong",
+          "ai-workflow-automation": "partial",
+          "execution-operating-systems": "partial"
+        }
+      },
+      "offer_hypothesis": "Lead path and trust review",
+      "next_action": "complete_stage_2_coverage",
+      "approval_packet": null,
+      "external_action_authorized": false
+    }
+  ],
+  "approval_packets_created": 0,
+  "note": "No prospect completed a justified diagnostic, so none reached commercial preparation.",
+  "external_action_authorized": false
+}

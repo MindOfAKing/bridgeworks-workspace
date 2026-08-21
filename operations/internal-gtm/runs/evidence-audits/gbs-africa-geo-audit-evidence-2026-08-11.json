@@ -1,0 +1,59 @@
+{
+  "audit_id": "gbs-africa-geo-audit-evidence-2026-08-11",
+  "capability": "evidence-auditor",
+  "audited_at": "2026-08-11T13:42:54.6384891Z",
+  "source_execution_artifact": "operations/internal-gtm/runs/inputs/gbs-africa.json",
+  "source_json_pointer": "/diagnostic",
+  "source_sha256": "85d38e02c8748f6c5111b06a84d558accd476346b33a03970e96afb7d7dc2412",
+  "claim_key_policy": "Explicit claim_key identifies a competing proposition. Unkeyed findings receive their finding id as a unique proposition and never collide merely because category or page matches.",
+  "normalized_claim_keys": {
+    "geo-wikipedia": "geo-wikipedia",
+    "geo-entity-collision": "geo-entity-collision",
+    "geo-llmstxt": "geo-llmstxt",
+    "geo-schema-absent": "geo-schema-absent",
+    "geo-sameas": "geo-sameas",
+    "geo-robots": "geo-robots",
+    "geo-sitemap": "geo-sitemap",
+    "geo-reports-404": "geo-reports-404",
+    "geo-research-in-pdf": "geo-research-in-pdf",
+    "geo-no-bylines": "geo-no-bylines",
+    "geo-team-no-credentials": "geo-team-no-credentials",
+    "geo-placeholder-copy": "geo-placeholder-copy",
+    "geo-dead-policy-links": "geo-dead-policy-links",
+    "geo-no-https-redirect": "geo-no-https-redirect",
+    "recon-title-absent": "homepage_title_tag",
+    "agent-title-present": "homepage_title_tag"
+  },
+  "classifications": {
+    "verified": ["geo-wikipedia", "geo-llmstxt", "geo-schema-absent", "geo-sameas", "geo-robots", "geo-sitemap", "geo-reports-404", "geo-research-in-pdf", "geo-no-bylines", "geo-team-no-credentials", "geo-placeholder-copy", "geo-dead-policy-links", "geo-no-https-redirect"],
+    "observed": ["geo-entity-collision"],
+    "inferred": [],
+    "stale": [],
+    "contradicted": ["recon-title-absent", "agent-title-present"],
+    "unknown": [],
+    "exhausted_unknown": []
+  },
+  "contradictions": [
+    {
+      "claim_key": "homepage_title_tag",
+      "finding_ids": ["recon-title-absent", "agent-title-present"],
+      "status": "unresolved",
+      "materiality": "contained_nonblocking",
+      "reason": "The competing title-tag observations are not referenced by qualification-v1 and do not determine the route; thirteen verified and one observed independent findings remain."
+    }
+  ],
+  "approved_finding_ids": ["geo-wikipedia", "geo-entity-collision", "geo-llmstxt", "geo-schema-absent", "geo-sameas", "geo-robots", "geo-sitemap", "geo-reports-404", "geo-research-in-pdf", "geo-no-bylines", "geo-team-no-credentials", "geo-placeholder-copy", "geo-dead-policy-links", "geo-no-https-redirect"],
+  "evidence_reference_check": {
+    "all_findings_have_exact_sources": true,
+    "fetched_in_original_execution": 16,
+    "current_recheck_confirmed_key_owned_pages_and_entity_collision": true,
+    "negative_endpoint_rechecks": "The browser verifier could not reopen several expected-404 endpoints, so their HTTP status remains verified from the dated execution receipt rather than silently reinterpreted."
+  },
+  "quality_gate": {
+    "assumptions_not_promoted": true,
+    "unrelated_findings_not_false_collided": true,
+    "explicit_contradiction_preserved": true,
+    "material_contradiction_blocks_action": false,
+    "passes": true
+  }
+}

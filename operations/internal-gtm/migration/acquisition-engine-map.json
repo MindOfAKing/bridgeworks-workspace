@@ -1,0 +1,342 @@
+{
+  "schema_version": 1,
+  "compiled_at": "2026-08-11",
+  "source_root": "operations/client-acquisition-engine",
+  "decision": "KEEP AS ACTIVE MIGRATION SOURCE -> ABSORB INTO operations/internal-gtm/ -> RETIRE ONLY DUPLICATED CONTROL/STATE SURFACES AFTER VERIFIED MIGRATION",
+  "rules": [
+    "Function classification is judgment and lives in this file. Path existence and file counts are computed by verify_map.py, never typed by hand.",
+    "No path is moved by anything in this package. This is a map, not a migration.",
+    "A component classified historical is preserved and read-only. It is not deleted."
+  ],
+  "targets": {
+    "control": "Objectives, schedules, policy, run governance. What the system decides to do today.",
+    "acquisition": "Supply, discovery, triggers, market and ICP selection. What enters the pipeline.",
+    "evidence": "Sources, claims, ledgers, provenance, staleness. What may be said and cited.",
+    "opportunities": "Canonical prospect identity, qualification, routing, diagnostic selection, lifecycle state.",
+    "approvals": "Approval packets, exact copy, destinations, digests, external-action gates.",
+    "learning": "Scorecards, conversion reporting, experiment outcomes, run reports.",
+    "adapters": "Read and write bridges to tools and other stores. No business truth lives here."
+  },
+  "components": [
+    {
+      "id": "prospect-source-current",
+      "function": "canonical prospect data",
+      "target": "acquisition",
+      "paths": ["research/prospect-operations/prospect-source-current.csv"],
+      "note": "Rolling research intake. 100 data rows. Validator-gated additions only.",
+      "provenance": "prospect_source_queue.py add, with lane and dated evidence URL required"
+    },
+    {
+      "id": "prospect-research-state",
+      "function": "canonical prospect data",
+      "target": "opportunities",
+      "paths": ["research/prospect-operations/prospect-research-state.json"],
+      "note": "50 prospects with research status, attempts, batch id, readiness. The nearest thing the engine has to canonical lifecycle state.",
+      "provenance": "prospect_research_queue.py, sha256-pinned to the source CSV"
+    },
+    {
+      "id": "canonical-prospect-register",
+      "function": "canonical prospect data",
+      "target": "opportunities",
+      "paths": ["research/prospect-operations/operating-output/canonical-prospect-register.csv"],
+      "note": "60 rows with contact history columns. Built by outreach_engine.py from reconciled Gmail evidence.",
+      "provenance": "outreach_engine.py"
+    },
+    {
+      "id": "service-line-prospect-list",
+      "function": "canonical prospect data",
+      "target": "acquisition",
+      "paths": ["SERVICE-LINE-PROSPECT-LIST-2026-08-01.csv"],
+      "note": "26 rows, five accounts per service route. A third prospect list. Overlap with the other two is unmeasured.",
+      "provenance": "2026-08-01 sales-system upgrade"
+    },
+    {
+      "id": "discovery-imports",
+      "function": "trigger discovery",
+      "target": "acquisition",
+      "paths": ["research/prospect-operations/imports", "research/prospect-operations/live-source-snapshot-2026-07-26.json"],
+      "note": "Discovery and framework refills feeding the rolling source.",
+      "provenance": "scheduled research runs and Drive tracker imports"
+    },
+    {
+      "id": "research-results",
+      "function": "research evidence",
+      "target": "evidence",
+      "paths": ["research/prospect-operations/results"],
+      "note": "The highest-value asset in the engine. Each record carries sourced URLs with access dates, owned domain, conversion route, decision maker, observations, commercial gap and readiness.",
+      "provenance": "scheduled weekday research agent, validated by prospect_research_queue.py complete"
+    },
+    {
+      "id": "research-batches",
+      "function": "research evidence",
+      "target": "evidence",
+      "paths": ["research/prospect-operations/batches"],
+      "note": "Prepared work orders, JSON plus readable Markdown, one pair per research day.",
+      "provenance": "prospect_research_queue.py prepare"
+    },
+    {
+      "id": "research-events",
+      "function": "research evidence",
+      "target": "evidence",
+      "paths": ["research/prospect-operations/prospect-research-events.jsonl"],
+      "note": "Append-only event log. The audit trail for every state change.",
+      "provenance": "prospect_research_queue.py"
+    },
+    {
+      "id": "ai-visibility-evidence",
+      "function": "research evidence",
+      "target": "evidence",
+      "paths": [
+        "research/ai-visibility-evidence-dataset-2026-07-14.csv",
+        "research/AI-VISIBILITY-METHODOLOGY-V1-2026-07-14.md",
+        "research/LANE-A-OBSERVATION-BANK-2026-07-14.md",
+        "scans"
+      ],
+      "note": "Ten-record substantiated corpus, the scoring model behind it, 45 private response observations, and four mini scans.",
+      "provenance": "2026-07-14 research pass"
+    },
+    {
+      "id": "website-source-map",
+      "function": "research evidence",
+      "target": "evidence",
+      "paths": ["research/BRIDGEWORKS-WEBSITE-SOURCE-MAP-2026-07-14.md"],
+      "note": "Production identity, deployed commit and exact multilingual claim paths for bridgeworks.agency. Evidence about BridgeWorks itself, not a prospect.",
+      "provenance": "2026-07-14 verification pass"
+    },
+    {
+      "id": "market-icp-logic",
+      "function": "market/ICP logic",
+      "target": "acquisition",
+      "paths": [
+        "SALES-ACQUISITION-SYSTEM-2026-08-01.md",
+        "MARKET-MONEY-DISCOURSE-OPERATING-BRIEF-2026-08-01.md",
+        "EXPANDED-PROSPECT-VERIFICATION-2026-07-14.md"
+      ],
+      "note": "The acquisition model across all five service routes plus the buyer-discourse brief.",
+      "provenance": "2026-08-01 sales-system upgrade"
+    },
+    {
+      "id": "prospect-framework-rule",
+      "function": "market/ICP logic",
+      "target": "control",
+      "paths": ["PROSPECT-FRAMEWORK-RECONCILIATION-2026-08-02.md"],
+      "note": "The current outreach-readiness rule: buyer event, one service route, responsible buyer, smallest proof asset, qualification gate. Explicitly supersedes the older defect-plus-contact rule.",
+      "provenance": "2026-08-02, approved by Emmanuel"
+    },
+    {
+      "id": "proof-inventory",
+      "function": "proof inventory",
+      "target": "evidence",
+      "paths": [
+        "CEEFM-PROOF-INVENTORY-2026-07-14.md",
+        "CEEFM-PROOF-MODULES-2026-07-14.md",
+        "ASSET-MANIFEST-2026-07-15.md",
+        "AI-VISIBILITY-REPORT-DRAFT-2026.md",
+        "AI-VISIBILITY-REPORT-OUTLINE-2026.md",
+        "output/pdf"
+      ],
+      "note": "Named-client proof and the report manuscript. Feeds proof_asset_id selection.",
+      "provenance": "2026-07-14 to 2026-07-16"
+    },
+    {
+      "id": "public-proof",
+      "function": "proof inventory",
+      "target": "evidence",
+      "paths": ["public-proof", "output/social"],
+      "note": "Anonymized publishable proof plus the anonymization standard. None of it is approved or published.",
+      "provenance": "2026-07-16 anonymization pass"
+    },
+    {
+      "id": "lead-qualifier-skill",
+      "function": "qualification",
+      "target": "opportunities",
+      "paths": ["skill-repair-staging/bridgeworks-lead-qualifier"],
+      "note": "Deterministic scorer: fit 25, active_change 25, problem_evidence 20, capacity 15, buyer_access 15. Gates at 65 points plus four verified signals plus buyer path plus evidenced route.",
+      "provenance": "authored 2026-08-01, installed in ~/.codex/skills"
+    },
+    {
+      "id": "prospect-router-skill",
+      "function": "routing",
+      "target": "opportunities",
+      "paths": ["skill-repair-staging/bridgeworks-prospect-router"],
+      "note": "Route validator over the five service routes, with a 20-minute and four-pass production ceiling and an overproduction check.",
+      "provenance": "authored 2026-08-01, installed in ~/.codex/skills"
+    },
+    {
+      "id": "bounded-scan-skills",
+      "function": "diagnostic selection",
+      "target": "opportunities",
+      "paths": [
+        "skill-repair-staging/bridgeworks-geo-prospect-scan",
+        "skill-repair-staging/bridgeworks-revenue-system-scan",
+        "skill-repair-staging/bridgeworks-ai-workflow-scan"
+      ],
+      "note": "Bounded initial-contact diagnostics for three of the five routes. Deliberately smaller than the full geo-audit or revops suites.",
+      "provenance": "authored 2026-08-01, installed in ~/.codex/skills"
+    },
+    {
+      "id": "capability-orchestration-audit",
+      "function": "diagnostic selection",
+      "target": "control",
+      "paths": [
+        "PROSPECTING-CAPABILITY-ORCHESTRATION-AUDIT-2026-08-01.md",
+        "SALES-TOOL-EXECUTION-MAP-2026-08-01.md"
+      ],
+      "note": "The audit that identified the missing routing layer and the ten-gate architecture. Directly parallel to the internal-GTM role model.",
+      "provenance": "2026-08-01"
+    },
+    {
+      "id": "outreach-engine",
+      "function": "outreach preparation",
+      "target": "adapters",
+      "paths": ["scripts/outreach_engine.py", "scripts/test_outreach_engine.py"],
+      "note": "Reconciles Gmail evidence, validates dedupe, builds the register, produces HubSpot import previews and the campaign batch.",
+      "provenance": "2026-07-26 prospecting operating build"
+    },
+    {
+      "id": "response-packs",
+      "function": "outreach preparation",
+      "target": "approvals",
+      "paths": ["research/prospect-operations/operating-output", "SERVICE-LINE-SALES-CONTENT-2026-08-01.md"],
+      "note": "Six three-fixes response packs, the campaign-ready batch, and the service-line sales content.",
+      "provenance": "2026-07-26 to 2026-08-01"
+    },
+    {
+      "id": "sales-playbooks",
+      "function": "outreach preparation",
+      "target": "opportunities",
+      "paths": [
+        "sales",
+        "templates/SME-DIGITAL-FOUNDATION-PROPOSAL-TEMPLATE-2026.md",
+        "offers/PAID-AI-READINESS-DIAGNOSTIC-OUTLINE-2026-07-15.md",
+        "content/WEEK-01-AUTHORITY-QUEUE-2026-07-20.md"
+      ],
+      "note": "Reply-to-proposal path, discovery brief template, proposal source, diagnostic offer outline, authority queue.",
+      "provenance": "2026-07-14 to 2026-07-20"
+    },
+    {
+      "id": "approval-packets",
+      "function": "approval packet",
+      "target": "approvals",
+      "paths": ["approvals", "research/prospect-operations/review/packets"],
+      "note": "Fourteen packets. Every one is still pending. This is the surface internal-GTM build_outreach_packet must not duplicate.",
+      "provenance": "2026-07-14 to 2026-08-05"
+    },
+    {
+      "id": "review-queue",
+      "function": "approval packet",
+      "target": "approvals",
+      "paths": [
+        "scripts/prospect_review_queue.py",
+        "research/prospect-operations/review/prospect-review-state.json",
+        "research/prospect-operations/review/prospect-review-events.jsonl"
+      ],
+      "note": "Gap validator plus durable review state and its append-only event log.",
+      "provenance": "2026-07-23 onward"
+    },
+    {
+      "id": "orchestrator-schedule",
+      "function": "automation/scheduling",
+      "target": "control",
+      "paths": ["orchestrator-schedule.json", "ORCHESTRATOR-RUNBOOK-2026-07-16.md"],
+      "note": "Five cron schedules, seven event triggers, five worker authorities, and the idempotency keys. Live through Codex local recurring automations since 2026-07-24.",
+      "provenance": "activated 2026-07-24"
+    },
+    {
+      "id": "research-queue-runner",
+      "function": "automation/scheduling",
+      "target": "control",
+      "paths": ["scripts/prospect_research_queue.py"],
+      "note": "The 09:10 job. Selects eligible rows, ranks them, prepares a batch, validates results, updates state.",
+      "provenance": "2026-07-23 onward"
+    },
+    {
+      "id": "operating-system-docs",
+      "function": "automation/scheduling",
+      "target": "control",
+      "paths": [
+        "PROSPECTING-OUTREACH-OPERATING-SYSTEM-2026-07-26.md",
+        "TWO-WEEK-EXECUTION-RUN-SHEET-2026-07-14.md",
+        "README.md"
+      ],
+      "note": "The operating contract, the calendar-aware run sheet, and the engine README.",
+      "provenance": "2026-07-14 to 2026-07-26"
+    },
+    {
+      "id": "scorecards-and-reporting",
+      "function": "reporting",
+      "target": "learning",
+      "paths": [
+        "scorecards",
+        "research/prospect-operations/operating-output/weekly-conversion-report.md",
+        "CURRENT-STATE-AUDIT-2026-07-14.md",
+        "OUTREACH-QUEUE-REASSESSMENT-2026-08-02.md"
+      ],
+      "note": "Weekly scorecard plus template, the conversion baseline, and two state reconciliations.",
+      "provenance": "2026-07-14 to 2026-08-02"
+    },
+    {
+      "id": "activation-run-reports",
+      "function": "reporting",
+      "target": "learning",
+      "paths": ["runs/BW-AO-20260723-1439-001.md", "runs/BW-AO-20260723-dry-run-002.md", "runs/BW-AO-20260724-activation-001.md"],
+      "note": "Dry run and activation records for the orchestrator.",
+      "provenance": "2026-07-23 to 2026-07-24"
+    },
+    {
+      "id": "live-test-runs",
+      "function": "historical artifact",
+      "target": "learning",
+      "paths": [
+        "runs/2026-08-01-appinio-live-test",
+        "runs/2026-08-01-silver-lining-live-test",
+        "runs/2026-08-02-bridgeworks-dogfood"
+      ],
+      "note": "Three complete end-to-end runs including qualification YAML, route plans, validation JSON, assets and PDFs. Preserve as the regression corpus for the new architecture.",
+      "provenance": "2026-08-01 to 2026-08-02"
+    },
+    {
+      "id": "content-planning",
+      "function": "historical artifact",
+      "target": "learning",
+      "paths": ["CONTENT-PIPELINE-2026-07-14.md", "CONTENT-CHANNEL-INVENTORY-2026-07-14.md"],
+      "note": "Content queue structure and channel inventory. Adjacent to GTM, not part of the prospect loop.",
+      "provenance": "2026-07-14"
+    },
+    {
+      "id": "second-capability-registry",
+      "function": "duplicate",
+      "target": "control",
+      "paths": ["skill-repair-staging/bridgeworks-prospect-router/references/capability-registry.md"],
+      "note": "A second capability registry in prose. It contradicts the canonical registry on geo-audit availability. Reconcile, do not fork.",
+      "provenance": "2026-08-01"
+    },
+    {
+      "id": "hubspot-import-previews",
+      "function": "duplicate",
+      "target": "adapters",
+      "paths": [
+        "research/prospect-operations/operating-output/hubspot-companies-import-preview.csv",
+        "research/prospect-operations/operating-output/hubspot-contacts-import-preview.csv"
+      ],
+      "note": "A CRM-shaped copy of prospect data. Legitimate as an adapter output. It must never become a source of truth.",
+      "provenance": "outreach_engine.py"
+    },
+    {
+      "id": "render-and-stage-tooling",
+      "function": "generated/transient output",
+      "target": "adapters",
+      "paths": ["scripts/render_branded_markdown_pdf.py", "scripts/stage_anonymized_drive_assets.py"],
+      "note": "Branded Markdown-to-PDF renderer and the Drive staging script. Tooling, not business logic.",
+      "provenance": "2026-07-15 onward"
+    },
+    {
+      "id": "xlsx-build-output",
+      "function": "generated/transient output",
+      "target": "adapters",
+      "paths": ["outputs"],
+      "note": "A single build directory holding the Market Money Discourse Radar workbook and its toolchain. It is 97 percent of the engine's file count and none of its business state.",
+      "provenance": "2026-08-01 xlsx build"
+    }
+  ]
+}

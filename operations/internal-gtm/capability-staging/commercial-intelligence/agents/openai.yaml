@@ -1,0 +1,4 @@
+interface:
+  display_name: "Commercial Intelligence"
+  short_description: "Research evidence-backed commercial fit"
+  default_prompt: "Use $commercial-intelligence to research commercial-fit evidence without inventing value."

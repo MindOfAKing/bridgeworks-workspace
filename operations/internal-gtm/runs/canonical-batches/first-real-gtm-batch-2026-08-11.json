@@ -1,0 +1,244 @@
+{
+  "receipt_id": "first-real-gtm-batch-2026-08-11-canonical-v1",
+  "contract_version": 1,
+  "as_of": "2026-08-11",
+  "authority_rule": "evidence plus prerequisite receipts; runtime recency is not authority",
+  "source_batch": "operations/internal-gtm/runs/qualification-batches/internal-gtm-qualification-2026-08-11-01.json",
+  "prospect_count": 8,
+  "prospects": [
+    {
+      "prospect_id": "arc-solutions-limited",
+      "company": "Arc Solutions Limited",
+      "qualification_score": 46,
+      "tier": "WATCH",
+      "actionability": "actionable",
+      "qualification_coverage": 33.3,
+      "missing_dimensions": [],
+      "partial_dimensions": [
+        "buyer_accessibility",
+        "commercial_fit",
+        "execution_readiness",
+        "trigger_urgency"
+      ],
+      "exhausted_unknown_dimensions": [],
+      "current_lifecycle_stage": "routed",
+      "diagnostic_id": null,
+      "diagnostic_status": "not_run",
+      "current_objective": "complete_qualification_coverage",
+      "valid_approval_packet_id": null,
+      "superseded_artifacts": [],
+      "exact_next_action": "Evidence Auditor reviews the completed Stage 2 receipt, then qualification-v1 reruns",
+      "transition_receipt_path": "operations/internal-gtm/runs/transition-receipts/arc-solutions-limited.jsonl"
+    },
+    {
+      "prospect_id": "daraja-africa-eu",
+      "company": "DARAJA Africa-EU",
+      "qualification_score": 53,
+      "tier": "WATCH",
+      "actionability": "actionable",
+      "qualification_coverage": 50.0,
+      "missing_dimensions": [
+        "commercial_fit"
+      ],
+      "partial_dimensions": [
+        "execution_readiness",
+        "trigger_urgency"
+      ],
+      "exhausted_unknown_dimensions": [],
+      "current_lifecycle_stage": "routed",
+      "diagnostic_id": null,
+      "diagnostic_status": "not_run",
+      "current_objective": "complete_qualification_coverage",
+      "valid_approval_packet_id": null,
+      "superseded_artifacts": [],
+      "exact_next_action": "complete_stage_2_coverage",
+      "transition_receipt_path": "operations/internal-gtm/runs/transition-receipts/daraja-africa-eu.jsonl"
+    },
+    {
+      "prospect_id": "geneto-facility-management-company",
+      "company": "Geneto Facility Management Company",
+      "qualification_score": 44,
+      "tier": "WATCH",
+      "actionability": "actionable",
+      "qualification_coverage": 33.3,
+      "missing_dimensions": [],
+      "partial_dimensions": [
+        "buyer_accessibility",
+        "commercial_fit",
+        "execution_readiness",
+        "trigger_urgency"
+      ],
+      "exhausted_unknown_dimensions": [],
+      "current_lifecycle_stage": "routed",
+      "diagnostic_id": null,
+      "diagnostic_status": "not_run",
+      "current_objective": "complete_qualification_coverage",
+      "valid_approval_packet_id": null,
+      "superseded_artifacts": [],
+      "exact_next_action": "complete_stage_2_coverage",
+      "transition_receipt_path": "operations/internal-gtm/runs/transition-receipts/geneto-facility-management-company.jsonl"
+    },
+    {
+      "prospect_id": "tilz-prosperitas",
+      "company": "Tilz Prosperitas",
+      "qualification_score": 72,
+      "tier": "STRONG",
+      "actionability": "actionable",
+      "qualification_coverage": 83.3,
+      "missing_dimensions": [],
+      "partial_dimensions": [
+        "execution_readiness"
+      ],
+      "exhausted_unknown_dimensions": [],
+      "current_lifecycle_stage": "diagnostic_selected",
+      "diagnostic_id": "tilz-prosperitas-geo-audit-2026-08-11",
+      "diagnostic_status": "blocked_partial",
+      "current_objective": "resolve_blocking_evidence",
+      "valid_approval_packet_id": null,
+      "superseded_artifacts": [],
+      "exact_next_action": "complete the bounded missing GEO specialists and aggregate; otherwise return to research",
+      "transition_receipt_path": "operations/internal-gtm/runs/transition-receipts/tilz-prosperitas.jsonl"
+    },
+    {
+      "prospect_id": "bepelog-kft",
+      "company": "BEPELOG Kft",
+      "qualification_score": 42,
+      "tier": "WATCH",
+      "actionability": "actionable",
+      "qualification_coverage": 33.3,
+      "missing_dimensions": [
+        "commercial_fit"
+      ],
+      "partial_dimensions": [
+        "buyer_accessibility",
+        "execution_readiness",
+        "trigger_urgency"
+      ],
+      "exhausted_unknown_dimensions": [],
+      "current_lifecycle_stage": "routed",
+      "diagnostic_id": null,
+      "diagnostic_status": "not_run",
+      "current_objective": "complete_qualification_coverage",
+      "valid_approval_packet_id": null,
+      "superseded_artifacts": [],
+      "exact_next_action": "complete_stage_2_coverage",
+      "transition_receipt_path": "operations/internal-gtm/runs/transition-receipts/bepelog-kft.jsonl"
+    },
+    {
+      "prospect_id": "bv-integrated-ltd",
+      "company": "BV Integrated Ltd",
+      "qualification_score": 56,
+      "tier": "QUALIFIED",
+      "actionability": "actionable",
+      "qualification_coverage": 66.7,
+      "missing_dimensions": [
+        "commercial_fit"
+      ],
+      "partial_dimensions": [
+        "execution_readiness"
+      ],
+      "exhausted_unknown_dimensions": [],
+      "current_lifecycle_stage": "diagnostic_selected",
+      "diagnostic_id": "bv-integrated-ai-workflow-scan-2026-08-11",
+      "diagnostic_status": "selected_pending_workflow_owner_validation",
+      "current_objective": "resolve_blocking_evidence",
+      "valid_approval_packet_id": null,
+      "superseded_artifacts": [],
+      "exact_next_action": "validate the workflow hypothesis with an approved owner before accepting the diagnostic",
+      "transition_receipt_path": "operations/internal-gtm/runs/transition-receipts/bv-integrated-ltd.jsonl"
+    },
+    {
+      "prospect_id": "greenleaf-engineering",
+      "company": "Greenleaf Engineering",
+      "qualification_score": 42,
+      "tier": "WATCH",
+      "actionability": "actionable",
+      "qualification_coverage": 33.3,
+      "missing_dimensions": [
+        "commercial_fit"
+      ],
+      "partial_dimensions": [
+        "buyer_accessibility",
+        "execution_readiness",
+        "trigger_urgency"
+      ],
+      "exhausted_unknown_dimensions": [],
+      "current_lifecycle_stage": "routed",
+      "diagnostic_id": null,
+      "diagnostic_status": "not_run",
+      "current_objective": "complete_qualification_coverage",
+      "valid_approval_packet_id": null,
+      "superseded_artifacts": [],
+      "exact_next_action": "complete_stage_2_coverage",
+      "transition_receipt_path": "operations/internal-gtm/runs/transition-receipts/greenleaf-engineering.jsonl"
+    },
+    {
+      "prospect_id": "kunbase-kft",
+      "company": "Kunbase Kft",
+      "qualification_score": 42,
+      "tier": "WATCH",
+      "actionability": "actionable",
+      "qualification_coverage": 33.3,
+      "missing_dimensions": [
+        "commercial_fit"
+      ],
+      "partial_dimensions": [
+        "buyer_accessibility",
+        "execution_readiness",
+        "trigger_urgency"
+      ],
+      "exhausted_unknown_dimensions": [],
+      "current_lifecycle_stage": "routed",
+      "diagnostic_id": null,
+      "diagnostic_status": "not_run",
+      "current_objective": "complete_qualification_coverage",
+      "valid_approval_packet_id": null,
+      "superseded_artifacts": [],
+      "exact_next_action": "complete_stage_2_coverage",
+      "transition_receipt_path": "operations/internal-gtm/runs/transition-receipts/kunbase-kft.jsonl"
+    }
+  ],
+  "premier_fm_reconciliation": {
+    "prospect_id": "premier-fm",
+    "company": "Premier FM",
+    "qualification_score": 70,
+    "tier": "STRONG",
+    "qualification_coverage": 100.0,
+    "canonical_lifecycle_stage": "diagnostic_selected",
+    "diagnostic_capability": "client-audit",
+    "diagnostic_status": "not_run",
+    "canonical_approval_packet_id": null,
+    "superseded_artifacts": [
+      "8820ab9852cbe4c1a44b98e473f94be96f782170b22eb6a78f05d85f67e08bf0",
+      "247d861e6a422e241c74fa2b1b89e38e341336d4bc0b00ee758840a631ea5245"
+    ],
+    "evidence": {
+      "route_requires": "client-audit",
+      "newer_batch_diagnostic_result": "eligible, not yet run",
+      "older_adapted_run_score": null,
+      "older_adapted_run_status": null,
+      "required_success_receipt_present": false
+    },
+    "exact_next_action": "run and successfully complete registered client-audit; only then receipt diagnostic_complete",
+    "transition_receipt_path": "operations/internal-gtm/runs/transition-receipts/premier-fm.jsonl"
+  },
+  "tilz_objective_rule": "advance_active_revenue requires an evidenced commercial event; qualification alone is insufficient",
+  "commercial_event_types": [
+    "reply",
+    "active_conversation",
+    "booked_meeting",
+    "discovery",
+    "proposal",
+    "negotiation",
+    "explicit_buying_signal"
+  ],
+  "stage_2_resume": {
+    "prospect_id": "arc-solutions-limited",
+    "priority_rank": 1,
+    "status": "research_complete_evidence_audit_pending",
+    "receipt": "operations/internal-gtm/runs/intelligence/arc-solutions-limited-stage-2-2026-08-11.json",
+    "next_action": "Evidence Auditor review, then qualification-v1 rerun"
+  },
+  "external_action_authorized": false,
+  "engine_touched": false
+}

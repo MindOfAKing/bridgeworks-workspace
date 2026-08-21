@@ -1,0 +1,1371 @@
+{
+  "as_of": "2026-08-11",
+  "factors": {
+    "problem_evidence": 25,
+    "trigger_strength": 20,
+    "buyer_evidence": 20,
+    "proof_fit": 10,
+    "company_attractiveness": 15,
+    "evidence_freshness": 10
+  },
+  "blocker_penalties": {
+    "no_owned_domain": 25,
+    "no_contact_route": 20,
+    "contradicted_evidence": 15,
+    "held_or_rejected": 30,
+    "already_contacted": 40
+  },
+  "factors_deliberately_excluded": [
+    "route_maturity",
+    "implementation_maturity"
+  ],
+  "prospects_considered": 48,
+  "cohort_size": 8,
+  "cohort_size_policy": "prefer 5 to 10 per batch",
+  "cohort": [
+    {
+      "prospect_id": "arc-solutions-limited",
+      "company": "Arc Solutions Limited",
+      "factors": {
+        "problem_evidence": 25,
+        "trigger_strength": 20,
+        "buyer_evidence": 20,
+        "proof_fit": 10,
+        "company_attractiveness": 15,
+        "evidence_freshness": 10
+      },
+      "factor_evidence": {
+        "problem_evidence": "2 sourced URLs, commercial gap stated",
+        "trigger_strength": "last verified 0 days ago",
+        "buyer_evidence": "named decision maker: True, exact destination: True",
+        "proof_fit": "recommended angle matches proof themes: ['ai', 'quote', 'enquiry', 'credibility']",
+        "company_attractiveness": "owned domain: True, conversion route documented: True, 2 observations",
+        "evidence_freshness": "last verified 0 days ago"
+      },
+      "raw_score": 100,
+      "blockers": {},
+      "penalty": 0,
+      "priority_score": 100,
+      "engine_readiness": "ready",
+      "explanation": "100 from evidence already held, minus 0 for no blockers"
+    },
+    {
+      "prospect_id": "premier-fm",
+      "company": "Premier FM",
+      "factors": {
+        "problem_evidence": 25,
+        "trigger_strength": 20,
+        "buyer_evidence": 20,
+        "proof_fit": 10,
+        "company_attractiveness": 15,
+        "evidence_freshness": 10
+      },
+      "factor_evidence": {
+        "problem_evidence": "2 sourced URLs, commercial gap stated",
+        "trigger_strength": "last verified 2 days ago",
+        "buyer_evidence": "named decision maker: True, exact destination: True",
+        "proof_fit": "recommended angle matches proof themes: ['quote', 'credibility', 'proof']",
+        "company_attractiveness": "owned domain: True, conversion route documented: True, 2 observations",
+        "evidence_freshness": "last verified 2 days ago"
+      },
+      "raw_score": 100,
+      "blockers": {},
+      "penalty": 0,
+      "priority_score": 100,
+      "engine_readiness": "ready",
+      "explanation": "100 from evidence already held, minus 0 for no blockers"
+    },
+    {
+      "prospect_id": "provast-limited",
+      "company": "Provast Limited",
+      "factors": {
+        "problem_evidence": 25,
+        "trigger_strength": 20,
+        "buyer_evidence": 20,
+        "proof_fit": 10,
+        "company_attractiveness": 15,
+        "evidence_freshness": 10
+      },
+      "factor_evidence": {
+        "problem_evidence": "3 sourced URLs, commercial gap stated",
+        "trigger_strength": "last verified 0 days ago",
+        "buyer_evidence": "named decision maker: True, exact destination: True",
+        "proof_fit": "recommended angle matches proof themes: ['ai', 'trust', 'credibility']",
+        "company_attractiveness": "owned domain: True, conversion route documented: True, 2 observations",
+        "evidence_freshness": "last verified 0 days ago"
+      },
+      "raw_score": 100,
+      "blockers": {},
+      "penalty": 0,
+      "priority_score": 100,
+      "engine_readiness": "ready",
+      "explanation": "100 from evidence already held, minus 0 for no blockers"
+    },
+    {
+      "prospect_id": "bv-integrated-ltd",
+      "company": "BV Integrated Ltd",
+      "factors": {
+        "problem_evidence": 25,
+        "trigger_strength": 20,
+        "buyer_evidence": 20,
+        "proof_fit": 8,
+        "company_attractiveness": 15,
+        "evidence_freshness": 10
+      },
+      "factor_evidence": {
+        "problem_evidence": "3 sourced URLs, commercial gap stated",
+        "trigger_strength": "last verified 2 days ago",
+        "buyer_evidence": "named decision maker: True, exact destination: True",
+        "proof_fit": "recommended angle matches proof themes: ['trust', 'enquiry']",
+        "company_attractiveness": "owned domain: True, conversion route documented: True, 2 observations",
+        "evidence_freshness": "last verified 2 days ago"
+      },
+      "raw_score": 98,
+      "blockers": {},
+      "penalty": 0,
+      "priority_score": 98,
+      "engine_readiness": "ready",
+      "explanation": "98 from evidence already held, minus 0 for no blockers"
+    },
+    {
+      "prospect_id": "daraja-africa-eu",
+      "company": "DARAJA Africa-EU",
+      "factors": {
+        "problem_evidence": 25,
+        "trigger_strength": 20,
+        "buyer_evidence": 20,
+        "proof_fit": 8,
+        "company_attractiveness": 15,
+        "evidence_freshness": 10
+      },
+      "factor_evidence": {
+        "problem_evidence": "2 sourced URLs, commercial gap stated",
+        "trigger_strength": "last verified 2 days ago",
+        "buyer_evidence": "named decision maker: True, exact destination: True",
+        "proof_fit": "recommended angle matches proof themes: ['trust', 'quote']",
+        "company_attractiveness": "owned domain: True, conversion route documented: True, 2 observations",
+        "evidence_freshness": "last verified 2 days ago"
+      },
+      "raw_score": 98,
+      "blockers": {},
+      "penalty": 0,
+      "priority_score": 98,
+      "engine_readiness": "ready",
+      "explanation": "98 from evidence already held, minus 0 for no blockers"
+    },
+    {
+      "prospect_id": "green-facilities-limited",
+      "company": "Green Facilities Limited",
+      "factors": {
+        "problem_evidence": 25,
+        "trigger_strength": 20,
+        "buyer_evidence": 20,
+        "proof_fit": 8,
+        "company_attractiveness": 15,
+        "evidence_freshness": 10
+      },
+      "factor_evidence": {
+        "problem_evidence": "3 sourced URLs, commercial gap stated",
+        "trigger_strength": "last verified 0 days ago",
+        "buyer_evidence": "named decision maker: True, exact destination: True",
+        "proof_fit": "recommended angle matches proof themes: ['credibility', 'proof']",
+        "company_attractiveness": "owned domain: True, conversion route documented: True, 2 observations",
+        "evidence_freshness": "last verified 0 days ago"
+      },
+      "raw_score": 98,
+      "blockers": {},
+      "penalty": 0,
+      "priority_score": 98,
+      "engine_readiness": "ready",
+      "explanation": "98 from evidence already held, minus 0 for no blockers"
+    },
+    {
+      "prospect_id": "kunbase-kft",
+      "company": "Kunbase Kft",
+      "factors": {
+        "problem_evidence": 25,
+        "trigger_strength": 20,
+        "buyer_evidence": 20,
+        "proof_fit": 8,
+        "company_attractiveness": 15,
+        "evidence_freshness": 10
+      },
+      "factor_evidence": {
+        "problem_evidence": "2 sourced URLs, commercial gap stated",
+        "trigger_strength": "last verified 2 days ago",
+        "buyer_evidence": "named decision maker: True, exact destination: True",
+        "proof_fit": "recommended angle matches proof themes: ['trust', 'quote']",
+        "company_attractiveness": "owned domain: True, conversion route documented: True, 2 observations",
+        "evidence_freshness": "last verified 2 days ago"
+      },
+      "raw_score": 98,
+      "blockers": {},
+      "penalty": 0,
+      "priority_score": 98,
+      "engine_readiness": "ready",
+      "explanation": "98 from evidence already held, minus 0 for no blockers"
+    },
+    {
+      "prospect_id": "rideflow",
+      "company": "Rideflow",
+      "factors": {
+        "problem_evidence": 25,
+        "trigger_strength": 20,
+        "buyer_evidence": 20,
+        "proof_fit": 8,
+        "company_attractiveness": 15,
+        "evidence_freshness": 10
+      },
+      "factor_evidence": {
+        "problem_evidence": "3 sourced URLs, commercial gap stated",
+        "trigger_strength": "last verified 2 days ago",
+        "buyer_evidence": "named decision maker: True, exact destination: True",
+        "proof_fit": "recommended angle matches proof themes: ['conversion', 'proof']",
+        "company_attractiveness": "owned domain: True, conversion route documented: True, 2 observations",
+        "evidence_freshness": "last verified 2 days ago"
+      },
+      "raw_score": 98,
+      "blockers": {},
+      "penalty": 0,
+      "priority_score": 98,
+      "engine_readiness": "ready",
+      "explanation": "98 from evidence already held, minus 0 for no blockers"
+    }
+  ],
+  "not_selected": [
+    {
+      "prospect_id": "bepelog-kft",
+      "company": "BEPELOG Kft",
+      "factors": {
+        "problem_evidence": 25,
+        "trigger_strength": 20,
+        "buyer_evidence": 20,
+        "proof_fit": 4,
+        "company_attractiveness": 15,
+        "evidence_freshness": 10
+      },
+      "factor_evidence": {
+        "problem_evidence": "2 sourced URLs, commercial gap stated",
+        "trigger_strength": "last verified 2 days ago",
+        "buyer_evidence": "named decision maker: True, exact destination: True",
+        "proof_fit": "recommended angle matches proof themes: ['enquiry']",
+        "company_attractiveness": "owned domain: True, conversion route documented: True, 2 observations",
+        "evidence_freshness": "last verified 2 days ago"
+      },
+      "raw_score": 94,
+      "blockers": {},
+      "penalty": 0,
+      "priority_score": 94,
+      "engine_readiness": "ready",
+      "explanation": "94 from evidence already held, minus 0 for no blockers"
+    },
+    {
+      "prospect_id": "eloria-consult",
+      "company": "Eloria Consult",
+      "factors": {
+        "problem_evidence": 25,
+        "trigger_strength": 20,
+        "buyer_evidence": 20,
+        "proof_fit": 4,
+        "company_attractiveness": 15,
+        "evidence_freshness": 10
+      },
+      "factor_evidence": {
+        "problem_evidence": "2 sourced URLs, commercial gap stated",
+        "trigger_strength": "last verified 0 days ago",
+        "buyer_evidence": "named decision maker: True, exact destination: True",
+        "proof_fit": "recommended angle matches proof themes: ['credibility']",
+        "company_attractiveness": "owned domain: True, conversion route documented: True, 2 observations",
+        "evidence_freshness": "last verified 0 days ago"
+      },
+      "raw_score": 94,
+      "blockers": {},
+      "penalty": 0,
+      "priority_score": 94,
+      "engine_readiness": "ready",
+      "explanation": "94 from evidence already held, minus 0 for no blockers"
+    },
+    {
+      "prospect_id": "gbs-africa",
+      "company": "GBS Africa",
+      "factors": {
+        "problem_evidence": 25,
+        "trigger_strength": 20,
+        "buyer_evidence": 20,
+        "proof_fit": 4,
+        "company_attractiveness": 15,
+        "evidence_freshness": 10
+      },
+      "factor_evidence": {
+        "problem_evidence": "2 sourced URLs, commercial gap stated",
+        "trigger_strength": "last verified 2 days ago",
+        "buyer_evidence": "named decision maker: True, exact destination: True",
+        "proof_fit": "recommended angle matches proof themes: ['trust']",
+        "company_attractiveness": "owned domain: True, conversion route documented: True, 2 observations",
+        "evidence_freshness": "last verified 2 days ago"
+      },
+      "raw_score": 94,
+      "blockers": {},
+      "penalty": 0,
+      "priority_score": 94,
+      "engine_readiness": "ready",
+      "explanation": "94 from evidence already held, minus 0 for no blockers"
+    },
+    {
+      "prospect_id": "geneto-facility-management-company",
+      "company": "Geneto Facility Management Company",
+      "factors": {
+        "problem_evidence": 25,
+        "trigger_strength": 20,
+        "buyer_evidence": 20,
+        "proof_fit": 4,
+        "company_attractiveness": 15,
+        "evidence_freshness": 10
+      },
+      "factor_evidence": {
+        "problem_evidence": "2 sourced URLs, commercial gap stated",
+        "trigger_strength": "last verified 0 days ago",
+        "buyer_evidence": "named decision maker: True, exact destination: True",
+        "proof_fit": "recommended angle matches proof themes: ['proof']",
+        "company_attractiveness": "owned domain: True, conversion route documented: True, 2 observations",
+        "evidence_freshness": "last verified 0 days ago"
+      },
+      "raw_score": 94,
+      "blockers": {},
+      "penalty": 0,
+      "priority_score": 94,
+      "engine_readiness": "ready",
+      "explanation": "94 from evidence already held, minus 0 for no blockers"
+    },
+    {
+      "prospect_id": "vendorcredit",
+      "company": "Vendorcredit",
+      "factors": {
+        "problem_evidence": 25,
+        "trigger_strength": 20,
+        "buyer_evidence": 20,
+        "proof_fit": 4,
+        "company_attractiveness": 15,
+        "evidence_freshness": 10
+      },
+      "factor_evidence": {
+        "problem_evidence": "4 sourced URLs, commercial gap stated",
+        "trigger_strength": "last verified 8 days ago",
+        "buyer_evidence": "named decision maker: True, exact destination: True",
+        "proof_fit": "recommended angle matches proof themes: ['proof']",
+        "company_attractiveness": "owned domain: True, conversion route documented: True, 2 observations",
+        "evidence_freshness": "last verified 8 days ago"
+      },
+      "raw_score": 94,
+      "blockers": {},
+      "penalty": 0,
+      "priority_score": 94,
+      "engine_readiness": "ready",
+      "explanation": "94 from evidence already held, minus 0 for no blockers"
+    },
+    {
+      "prospect_id": "greenleaf-engineering",
+      "company": "Greenleaf Engineering",
+      "factors": {
+        "problem_evidence": 25,
+        "trigger_strength": 20,
+        "buyer_evidence": 20,
+        "proof_fit": 0,
+        "company_attractiveness": 15,
+        "evidence_freshness": 10
+      },
+      "factor_evidence": {
+        "problem_evidence": "2 sourced URLs, commercial gap stated",
+        "trigger_strength": "last verified 0 days ago",
+        "buyer_evidence": "named decision maker: True, exact destination: True",
+        "proof_fit": "recommended angle matches proof themes: none",
+        "company_attractiveness": "owned domain: True, conversion route documented: True, 2 observations",
+        "evidence_freshness": "last verified 0 days ago"
+      },
+      "raw_score": 90,
+      "blockers": {},
+      "penalty": 0,
+      "priority_score": 90,
+      "engine_readiness": "ready",
+      "explanation": "90 from evidence already held, minus 0 for no blockers"
+    },
+    {
+      "prospect_id": "seamlesshr-seamless-technologies",
+      "company": "SeamlessHR / Seamless Technologies",
+      "factors": {
+        "problem_evidence": 24,
+        "trigger_strength": 20,
+        "buyer_evidence": 8,
+        "proof_fit": 8,
+        "company_attractiveness": 15,
+        "evidence_freshness": 10
+      },
+      "factor_evidence": {
+        "problem_evidence": "3 sourced URLs, commercial gap absent",
+        "trigger_strength": "last verified 8 days ago",
+        "buyer_evidence": "named decision maker: True, exact destination: False",
+        "proof_fit": "recommended angle matches proof themes: ['ai', 'workflow']",
+        "company_attractiveness": "owned domain: True, conversion route documented: True, 2 observations",
+        "evidence_freshness": "last verified 8 days ago"
+      },
+      "raw_score": 85,
+      "blockers": {
+        "no_contact_route": 20
+      },
+      "penalty": 20,
+      "priority_score": 65,
+      "engine_readiness": "needs_more_evidence",
+      "explanation": "85 from evidence already held, minus 20 for no_contact_route"
+    },
+    {
+      "prospect_id": "avenir-facility-management-kft",
+      "company": "Avenir Facility Management Kft",
+      "factors": {
+        "problem_evidence": 24,
+        "trigger_strength": 20,
+        "buyer_evidence": 8,
+        "proof_fit": 4,
+        "company_attractiveness": 15,
+        "evidence_freshness": 10
+      },
+      "factor_evidence": {
+        "problem_evidence": "3 sourced URLs, commercial gap absent",
+        "trigger_strength": "last verified 14 days ago",
+        "buyer_evidence": "named decision maker: True, exact destination: False",
+        "proof_fit": "recommended angle matches proof themes: ['credibility']",
+        "company_attractiveness": "owned domain: True, conversion route documented: True, 2 observations",
+        "evidence_freshness": "last verified 14 days ago"
+      },
+      "raw_score": 81,
+      "blockers": {
+        "no_contact_route": 20
+      },
+      "penalty": 20,
+      "priority_score": 61,
+      "engine_readiness": "needs_more_evidence",
+      "explanation": "81 from evidence already held, minus 20 for no_contact_route"
+    },
+    {
+      "prospect_id": "safe-facilities-management-limited",
+      "company": "SAFE Facilities Management Limited",
+      "factors": {
+        "problem_evidence": 24,
+        "trigger_strength": 20,
+        "buyer_evidence": 8,
+        "proof_fit": 4,
+        "company_attractiveness": 15,
+        "evidence_freshness": 10
+      },
+      "factor_evidence": {
+        "problem_evidence": "3 sourced URLs, commercial gap absent",
+        "trigger_strength": "last verified 0 days ago",
+        "buyer_evidence": "named decision maker: True, exact destination: False",
+        "proof_fit": "recommended angle matches proof themes: ['proof']",
+        "company_attractiveness": "owned domain: True, conversion route documented: True, 2 observations",
+        "evidence_freshness": "last verified 0 days ago"
+      },
+      "raw_score": 81,
+      "blockers": {
+        "no_contact_route": 20
+      },
+      "penalty": 20,
+      "priority_score": 61,
+      "engine_readiness": "needs_more_evidence",
+      "explanation": "81 from evidence already held, minus 20 for no_contact_route"
+    },
+    {
+      "prospect_id": "tilz-prosperitas",
+      "company": "Tilz Prosperitas",
+      "factors": {
+        "problem_evidence": 25,
+        "trigger_strength": 20,
+        "buyer_evidence": 8,
+        "proof_fit": 0,
+        "company_attractiveness": 15,
+        "evidence_freshness": 10
+      },
+      "factor_evidence": {
+        "problem_evidence": "4 sourced URLs, commercial gap stated",
+        "trigger_strength": "last verified 8 days ago",
+        "buyer_evidence": "named decision maker: True, exact destination: False",
+        "proof_fit": "recommended angle matches proof themes: none",
+        "company_attractiveness": "owned domain: True, conversion route documented: True, 2 observations",
+        "evidence_freshness": "last verified 8 days ago"
+      },
+      "raw_score": 78,
+      "blockers": {
+        "no_contact_route": 20
+      },
+      "penalty": 20,
+      "priority_score": 58,
+      "engine_readiness": "ready",
+      "explanation": "78 from evidence already held, minus 20 for no_contact_route"
+    },
+    {
+      "prospect_id": "max-migold-facilities-management-company",
+      "company": "Max-Migold Facilities Management Company",
+      "factors": {
+        "problem_evidence": 25,
+        "trigger_strength": 12,
+        "buyer_evidence": 8,
+        "proof_fit": 8,
+        "company_attractiveness": 15,
+        "evidence_freshness": 9
+      },
+      "factor_evidence": {
+        "problem_evidence": "3 sourced URLs, commercial gap stated",
+        "trigger_strength": "last verified 15 days ago",
+        "buyer_evidence": "named decision maker: True, exact destination: False",
+        "proof_fit": "recommended angle matches proof themes: ['credibility', 'proof']",
+        "company_attractiveness": "owned domain: True, conversion route documented: True, 2 observations",
+        "evidence_freshness": "last verified 15 days ago"
+      },
+      "raw_score": 77,
+      "blockers": {
+        "no_contact_route": 20
+      },
+      "penalty": 20,
+      "priority_score": 57,
+      "engine_readiness": "needs_more_evidence",
+      "explanation": "77 from evidence already held, minus 20 for no_contact_route"
+    },
+    {
+      "prospect_id": "nimaz-aesthetic",
+      "company": "Nimaz Aesthetic",
+      "factors": {
+        "problem_evidence": 25,
+        "trigger_strength": 12,
+        "buyer_evidence": 8,
+        "proof_fit": 8,
+        "company_attractiveness": 15,
+        "evidence_freshness": 9
+      },
+      "factor_evidence": {
+        "problem_evidence": "4 sourced URLs, commercial gap absent",
+        "trigger_strength": "last verified 18 days ago",
+        "buyer_evidence": "named decision maker: True, exact destination: False",
+        "proof_fit": "recommended angle matches proof themes: ['visibility', 'ai']",
+        "company_attractiveness": "owned domain: True, conversion route documented: True, 2 observations",
+        "evidence_freshness": "last verified 18 days ago"
+      },
+      "raw_score": 77,
+      "blockers": {
+        "no_contact_route": 20
+      },
+      "penalty": 20,
+      "priority_score": 57,
+      "engine_readiness": "needs_more_evidence",
+      "explanation": "77 from evidence already held, minus 20 for no_contact_route"
+    },
+    {
+      "prospect_id": "ready-clean",
+      "company": "Ready Clean",
+      "factors": {
+        "problem_evidence": 24,
+        "trigger_strength": 20,
+        "buyer_evidence": 8,
+        "proof_fit": 0,
+        "company_attractiveness": 15,
+        "evidence_freshness": 10
+      },
+      "factor_evidence": {
+        "problem_evidence": "3 sourced URLs, commercial gap absent",
+        "trigger_strength": "last verified 14 days ago",
+        "buyer_evidence": "named decision maker: True, exact destination: False",
+        "proof_fit": "recommended angle matches proof themes: none",
+        "company_attractiveness": "owned domain: True, conversion route documented: True, 2 observations",
+        "evidence_freshness": "last verified 14 days ago"
+      },
+      "raw_score": 77,
+      "blockers": {
+        "no_contact_route": 20
+      },
+      "penalty": 20,
+      "priority_score": 57,
+      "engine_readiness": "needs_more_evidence",
+      "explanation": "77 from evidence already held, minus 20 for no_contact_route"
+    },
+    {
+      "prospect_id": "urbancore-facility-management",
+      "company": "UrbanCore Facility Management",
+      "factors": {
+        "problem_evidence": 17,
+        "trigger_strength": 20,
+        "buyer_evidence": 8,
+        "proof_fit": 4,
+        "company_attractiveness": 15,
+        "evidence_freshness": 10
+      },
+      "factor_evidence": {
+        "problem_evidence": "1 sourced URLs, commercial gap stated",
+        "trigger_strength": "last verified 14 days ago",
+        "buyer_evidence": "named decision maker: True, exact destination: False",
+        "proof_fit": "recommended angle matches proof themes: ['proof']",
+        "company_attractiveness": "owned domain: True, conversion route documented: True, 2 observations",
+        "evidence_freshness": "last verified 14 days ago"
+      },
+      "raw_score": 74,
+      "blockers": {
+        "no_contact_route": 20
+      },
+      "penalty": 20,
+      "priority_score": 54,
+      "engine_readiness": "needs_more_evidence",
+      "explanation": "74 from evidence already held, minus 20 for no_contact_route"
+    },
+    {
+      "prospect_id": "easy-office-clean",
+      "company": "Easy Office Clean",
+      "factors": {
+        "problem_evidence": 25,
+        "trigger_strength": 12,
+        "buyer_evidence": 8,
+        "proof_fit": 4,
+        "company_attractiveness": 15,
+        "evidence_freshness": 9
+      },
+      "factor_evidence": {
+        "problem_evidence": "2 sourced URLs, commercial gap stated",
+        "trigger_strength": "last verified 15 days ago",
+        "buyer_evidence": "named decision maker: True, exact destination: False",
+        "proof_fit": "recommended angle matches proof themes: ['credibility']",
+        "company_attractiveness": "owned domain: True, conversion route documented: True, 2 observations",
+        "evidence_freshness": "last verified 15 days ago"
+      },
+      "raw_score": 73,
+      "blockers": {
+        "no_contact_route": 20
+      },
+      "penalty": 20,
+      "priority_score": 53,
+      "engine_readiness": "needs_more_evidence",
+      "explanation": "73 from evidence already held, minus 20 for no_contact_route"
+    },
+    {
+      "prospect_id": "takaritokeu",
+      "company": "TakaritokEU",
+      "factors": {
+        "problem_evidence": 25,
+        "trigger_strength": 12,
+        "buyer_evidence": 8,
+        "proof_fit": 4,
+        "company_attractiveness": 15,
+        "evidence_freshness": 9
+      },
+      "factor_evidence": {
+        "problem_evidence": "2 sourced URLs, commercial gap stated",
+        "trigger_strength": "last verified 15 days ago",
+        "buyer_evidence": "named decision maker: True, exact destination: False",
+        "proof_fit": "recommended angle matches proof themes: ['enquiry']",
+        "company_attractiveness": "owned domain: True, conversion route documented: True, 2 observations",
+        "evidence_freshness": "last verified 15 days ago"
+      },
+      "raw_score": 73,
+      "blockers": {
+        "no_contact_route": 20
+      },
+      "penalty": 20,
+      "priority_score": 53,
+      "engine_readiness": "needs_more_evidence",
+      "explanation": "73 from evidence already held, minus 20 for no_contact_route"
+    },
+    {
+      "prospect_id": "intamaco-nigeria-limited",
+      "company": "INTAMACO Nigeria Limited",
+      "factors": {
+        "problem_evidence": 16,
+        "trigger_strength": 20,
+        "buyer_evidence": 8,
+        "proof_fit": 0,
+        "company_attractiveness": 15,
+        "evidence_freshness": 10
+      },
+      "factor_evidence": {
+        "problem_evidence": "2 sourced URLs, commercial gap absent",
+        "trigger_strength": "last verified 0 days ago",
+        "buyer_evidence": "named decision maker: True, exact destination: False",
+        "proof_fit": "recommended angle matches proof themes: none",
+        "company_attractiveness": "owned domain: True, conversion route documented: True, 2 observations",
+        "evidence_freshness": "last verified 0 days ago"
+      },
+      "raw_score": 69,
+      "blockers": {
+        "no_contact_route": 20
+      },
+      "penalty": 20,
+      "priority_score": 49,
+      "engine_readiness": "needs_more_evidence",
+      "explanation": "69 from evidence already held, minus 20 for no_contact_route"
+    },
+    {
+      "prospect_id": "westlink-facility-management-limited",
+      "company": "Westlink Facility Management Limited",
+      "factors": {
+        "problem_evidence": 8,
+        "trigger_strength": 20,
+        "buyer_evidence": 8,
+        "proof_fit": 8,
+        "company_attractiveness": 15,
+        "evidence_freshness": 10
+      },
+      "factor_evidence": {
+        "problem_evidence": "1 sourced URLs, commercial gap absent",
+        "trigger_strength": "last verified 11 days ago",
+        "buyer_evidence": "named decision maker: True, exact destination: False",
+        "proof_fit": "recommended angle matches proof themes: ['quote', 'credibility']",
+        "company_attractiveness": "owned domain: True, conversion route documented: True, 2 observations",
+        "evidence_freshness": "last verified 11 days ago"
+      },
+      "raw_score": 69,
+      "blockers": {
+        "no_contact_route": 20
+      },
+      "penalty": 20,
+      "priority_score": 49,
+      "engine_readiness": "needs_more_evidence",
+      "explanation": "69 from evidence already held, minus 20 for no_contact_route"
+    },
+    {
+      "prospect_id": "csikygroup",
+      "company": "CsikyGroup",
+      "factors": {
+        "problem_evidence": 16,
+        "trigger_strength": 12,
+        "buyer_evidence": 8,
+        "proof_fit": 8,
+        "company_attractiveness": 15,
+        "evidence_freshness": 9
+      },
+      "factor_evidence": {
+        "problem_evidence": "2 sourced URLs, commercial gap absent",
+        "trigger_strength": "last verified 15 days ago",
+        "buyer_evidence": "named decision maker: True, exact destination: False",
+        "proof_fit": "recommended angle matches proof themes: ['ai', 'proof']",
+        "company_attractiveness": "owned domain: True, conversion route documented: True, 2 observations",
+        "evidence_freshness": "last verified 15 days ago"
+      },
+      "raw_score": 68,
+      "blockers": {
+        "no_contact_route": 20
+      },
+      "penalty": 20,
+      "priority_score": 48,
+      "engine_readiness": "needs_more_evidence",
+      "explanation": "68 from evidence already held, minus 20 for no_contact_route"
+    },
+    {
+      "prospect_id": "altilis-limited",
+      "company": "Altilis Limited",
+      "factors": {
+        "problem_evidence": 8,
+        "trigger_strength": 20,
+        "buyer_evidence": 8,
+        "proof_fit": 4,
+        "company_attractiveness": 15,
+        "evidence_freshness": 10
+      },
+      "factor_evidence": {
+        "problem_evidence": "1 sourced URLs, commercial gap absent",
+        "trigger_strength": "last verified 14 days ago",
+        "buyer_evidence": "named decision maker: True, exact destination: False",
+        "proof_fit": "recommended angle matches proof themes: ['enquiry']",
+        "company_attractiveness": "owned domain: True, conversion route documented: True, 2 observations",
+        "evidence_freshness": "last verified 14 days ago"
+      },
+      "raw_score": 65,
+      "blockers": {
+        "no_contact_route": 20
+      },
+      "penalty": 20,
+      "priority_score": 45,
+      "engine_readiness": "needs_more_evidence",
+      "explanation": "65 from evidence already held, minus 20 for no_contact_route"
+    },
+    {
+      "prospect_id": "apex-outsourcing-and-logistics-company-ltd",
+      "company": "Apex Outsourcing and Logistics Company Ltd",
+      "factors": {
+        "problem_evidence": 16,
+        "trigger_strength": 20,
+        "buyer_evidence": 0,
+        "proof_fit": 0,
+        "company_attractiveness": 15,
+        "evidence_freshness": 10
+      },
+      "factor_evidence": {
+        "problem_evidence": "2 sourced URLs, commercial gap absent",
+        "trigger_strength": "last verified 2 days ago",
+        "buyer_evidence": "named decision maker: False, exact destination: False",
+        "proof_fit": "recommended angle matches proof themes: none",
+        "company_attractiveness": "owned domain: True, conversion route documented: True, 2 observations",
+        "evidence_freshness": "last verified 2 days ago"
+      },
+      "raw_score": 61,
+      "blockers": {
+        "no_contact_route": 20
+      },
+      "penalty": 20,
+      "priority_score": 41,
+      "engine_readiness": "needs_more_evidence",
+      "explanation": "61 from evidence already held, minus 20 for no_contact_route"
+    },
+    {
+      "prospect_id": "omma-integrated-global-services",
+      "company": "OMMA Integrated Global Services",
+      "factors": {
+        "problem_evidence": 8,
+        "trigger_strength": 20,
+        "buyer_evidence": 8,
+        "proof_fit": 0,
+        "company_attractiveness": 15,
+        "evidence_freshness": 10
+      },
+      "factor_evidence": {
+        "problem_evidence": "1 sourced URLs, commercial gap absent",
+        "trigger_strength": "last verified 11 days ago",
+        "buyer_evidence": "named decision maker: True, exact destination: False",
+        "proof_fit": "recommended angle matches proof themes: none",
+        "company_attractiveness": "owned domain: True, conversion route documented: True, 2 observations",
+        "evidence_freshness": "last verified 11 days ago"
+      },
+      "raw_score": 61,
+      "blockers": {
+        "no_contact_route": 20
+      },
+      "penalty": 20,
+      "priority_score": 41,
+      "engine_readiness": "needs_more_evidence",
+      "explanation": "61 from evidence already held, minus 20 for no_contact_route"
+    },
+    {
+      "prospect_id": "percoso-nigeria",
+      "company": "PERCOSO Nigeria",
+      "factors": {
+        "problem_evidence": 25,
+        "trigger_strength": 20,
+        "buyer_evidence": 8,
+        "proof_fit": 10,
+        "company_attractiveness": 15,
+        "evidence_freshness": 10
+      },
+      "factor_evidence": {
+        "problem_evidence": "3 sourced URLs, commercial gap stated",
+        "trigger_strength": "last verified 14 days ago",
+        "buyer_evidence": "named decision maker: True, exact destination: False",
+        "proof_fit": "recommended angle matches proof themes: ['trust', 'credibility', 'proof']",
+        "company_attractiveness": "owned domain: True, conversion route documented: True, 2 observations",
+        "evidence_freshness": "last verified 14 days ago"
+      },
+      "raw_score": 88,
+      "blockers": {
+        "no_contact_route": 20,
+        "held_or_rejected": 30
+      },
+      "penalty": 50,
+      "priority_score": 38,
+      "engine_readiness": "hold",
+      "explanation": "88 from evidence already held, minus 50 for no_contact_route, held_or_rejected"
+    },
+    {
+      "prospect_id": "new-solution-service-kft",
+      "company": "New Solution Service Kft",
+      "factors": {
+        "problem_evidence": 25,
+        "trigger_strength": 20,
+        "buyer_evidence": 8,
+        "proof_fit": 4,
+        "company_attractiveness": 15,
+        "evidence_freshness": 10
+      },
+      "factor_evidence": {
+        "problem_evidence": "2 sourced URLs, commercial gap stated",
+        "trigger_strength": "last verified 14 days ago",
+        "buyer_evidence": "named decision maker: True, exact destination: False",
+        "proof_fit": "recommended angle matches proof themes: ['quote']",
+        "company_attractiveness": "owned domain: True, conversion route documented: True, 2 observations",
+        "evidence_freshness": "last verified 14 days ago"
+      },
+      "raw_score": 82,
+      "blockers": {
+        "no_contact_route": 20,
+        "held_or_rejected": 30
+      },
+      "penalty": 50,
+      "priority_score": 32,
+      "engine_readiness": "hold",
+      "explanation": "82 from evidence already held, minus 50 for no_contact_route, held_or_rejected"
+    },
+    {
+      "prospect_id": "607-cleaning",
+      "company": "607 Cleaning",
+      "factors": {
+        "problem_evidence": 17,
+        "trigger_strength": 20,
+        "buyer_evidence": 8,
+        "proof_fit": 10,
+        "company_attractiveness": 15,
+        "evidence_freshness": 10
+      },
+      "factor_evidence": {
+        "problem_evidence": "1 sourced URLs, commercial gap stated",
+        "trigger_strength": "last verified 11 days ago",
+        "buyer_evidence": "named decision maker: True, exact destination: False",
+        "proof_fit": "recommended angle matches proof themes: ['trust', 'quote', 'conversion', 'credibility', 'proof']",
+        "company_attractiveness": "owned domain: True, conversion route documented: True, 2 observations",
+        "evidence_freshness": "last verified 11 days ago"
+      },
+      "raw_score": 80,
+      "blockers": {
+        "no_contact_route": 20,
+        "held_or_rejected": 30
+      },
+      "penalty": 50,
+      "priority_score": 30,
+      "engine_readiness": "hold",
+      "explanation": "80 from evidence already held, minus 50 for no_contact_route, held_or_rejected"
+    },
+    {
+      "prospect_id": "lagos-logistics",
+      "company": "Lagos Logistics",
+      "factors": {
+        "problem_evidence": 17,
+        "trigger_strength": 20,
+        "buyer_evidence": 8,
+        "proof_fit": 10,
+        "company_attractiveness": 15,
+        "evidence_freshness": 10
+      },
+      "factor_evidence": {
+        "problem_evidence": "1 sourced URLs, commercial gap stated",
+        "trigger_strength": "last verified 11 days ago",
+        "buyer_evidence": "named decision maker: True, exact destination: False",
+        "proof_fit": "recommended angle matches proof themes: ['trust', 'credibility', 'proof']",
+        "company_attractiveness": "owned domain: True, conversion route documented: True, 2 observations",
+        "evidence_freshness": "last verified 11 days ago"
+      },
+      "raw_score": 80,
+      "blockers": {
+        "no_contact_route": 20,
+        "held_or_rejected": 30
+      },
+      "penalty": 50,
+      "priority_score": 30,
+      "engine_readiness": "hold",
+      "explanation": "80 from evidence already held, minus 50 for no_contact_route, held_or_rejected"
+    },
+    {
+      "prospect_id": "starmate-nigeria-ltd",
+      "company": "Starmate Nigeria Ltd",
+      "factors": {
+        "problem_evidence": 17,
+        "trigger_strength": 20,
+        "buyer_evidence": 8,
+        "proof_fit": 10,
+        "company_attractiveness": 15,
+        "evidence_freshness": 10
+      },
+      "factor_evidence": {
+        "problem_evidence": "1 sourced URLs, commercial gap stated",
+        "trigger_strength": "last verified 11 days ago",
+        "buyer_evidence": "named decision maker: True, exact destination: False",
+        "proof_fit": "recommended angle matches proof themes: ['trust', 'credibility', 'proof']",
+        "company_attractiveness": "owned domain: True, conversion route documented: True, 2 observations",
+        "evidence_freshness": "last verified 11 days ago"
+      },
+      "raw_score": 80,
+      "blockers": {
+        "no_contact_route": 20,
+        "held_or_rejected": 30
+      },
+      "penalty": 50,
+      "priority_score": 30,
+      "engine_readiness": "hold",
+      "explanation": "80 from evidence already held, minus 50 for no_contact_route, held_or_rejected"
+    },
+    {
+      "prospect_id": "nevoxa",
+      "company": "Nevoxa",
+      "factors": {
+        "problem_evidence": 25,
+        "trigger_strength": 12,
+        "buyer_evidence": 8,
+        "proof_fit": 10,
+        "company_attractiveness": 15,
+        "evidence_freshness": 9
+      },
+      "factor_evidence": {
+        "problem_evidence": "3 sourced URLs, commercial gap stated",
+        "trigger_strength": "last verified 15 days ago",
+        "buyer_evidence": "named decision maker: True, exact destination: False",
+        "proof_fit": "recommended angle matches proof themes: ['ai', 'quote', 'enquiry', 'credibility']",
+        "company_attractiveness": "owned domain: True, conversion route documented: True, 2 observations",
+        "evidence_freshness": "last verified 15 days ago"
+      },
+      "raw_score": 79,
+      "blockers": {
+        "no_contact_route": 20,
+        "held_or_rejected": 30
+      },
+      "penalty": 50,
+      "priority_score": 29,
+      "engine_readiness": "hold",
+      "explanation": "79 from evidence already held, minus 50 for no_contact_route, held_or_rejected"
+    },
+    {
+      "prospect_id": "alpha-guards-security-ltd",
+      "company": "Alpha Guards Security Ltd",
+      "factors": {
+        "problem_evidence": 25,
+        "trigger_strength": 20,
+        "buyer_evidence": 8,
+        "proof_fit": 0,
+        "company_attractiveness": 15,
+        "evidence_freshness": 10
+      },
+      "factor_evidence": {
+        "problem_evidence": "3 sourced URLs, commercial gap stated",
+        "trigger_strength": "last verified 14 days ago",
+        "buyer_evidence": "named decision maker: True, exact destination: False",
+        "proof_fit": "recommended angle matches proof themes: none",
+        "company_attractiveness": "owned domain: True, conversion route documented: True, 2 observations",
+        "evidence_freshness": "last verified 14 days ago"
+      },
+      "raw_score": 78,
+      "blockers": {
+        "no_contact_route": 20,
+        "held_or_rejected": 30
+      },
+      "penalty": 50,
+      "priority_score": 28,
+      "engine_readiness": "hold",
+      "explanation": "78 from evidence already held, minus 50 for no_contact_route, held_or_rejected"
+    },
+    {
+      "prospect_id": "servicepilot-nigeria",
+      "company": "ServicePilot Nigeria",
+      "factors": {
+        "problem_evidence": 17,
+        "trigger_strength": 20,
+        "buyer_evidence": 8,
+        "proof_fit": 8,
+        "company_attractiveness": 15,
+        "evidence_freshness": 10
+      },
+      "factor_evidence": {
+        "problem_evidence": "1 sourced URLs, commercial gap stated",
+        "trigger_strength": "last verified 11 days ago",
+        "buyer_evidence": "named decision maker: True, exact destination: False",
+        "proof_fit": "recommended angle matches proof themes: ['ai', 'proof']",
+        "company_attractiveness": "owned domain: True, conversion route documented: True, 2 observations",
+        "evidence_freshness": "last verified 11 days ago"
+      },
+      "raw_score": 78,
+      "blockers": {
+        "no_contact_route": 20,
+        "held_or_rejected": 30
+      },
+      "penalty": 50,
+      "priority_score": 28,
+      "engine_readiness": "hold",
+      "explanation": "78 from evidence already held, minus 50 for no_contact_route, held_or_rejected"
+    },
+    {
+      "prospect_id": "triaxis-consulting-firm",
+      "company": "TriAxis Consulting Firm",
+      "factors": {
+        "problem_evidence": 17,
+        "trigger_strength": 20,
+        "buyer_evidence": 8,
+        "proof_fit": 8,
+        "company_attractiveness": 15,
+        "evidence_freshness": 10
+      },
+      "factor_evidence": {
+        "problem_evidence": "1 sourced URLs, commercial gap stated",
+        "trigger_strength": "last verified 14 days ago",
+        "buyer_evidence": "named decision maker: True, exact destination: False",
+        "proof_fit": "recommended angle matches proof themes: ['credibility', 'proof']",
+        "company_attractiveness": "owned domain: True, conversion route documented: True, 2 observations",
+        "evidence_freshness": "last verified 14 days ago"
+      },
+      "raw_score": 78,
+      "blockers": {
+        "no_contact_route": 20,
+        "held_or_rejected": 30
+      },
+      "penalty": 50,
+      "priority_score": 28,
+      "engine_readiness": "hold",
+      "explanation": "78 from evidence already held, minus 50 for no_contact_route, held_or_rejected"
+    },
+    {
+      "prospect_id": "erefa-ltd",
+      "company": "EREFA Ltd",
+      "factors": {
+        "problem_evidence": 17,
+        "trigger_strength": 20,
+        "buyer_evidence": 8,
+        "proof_fit": 4,
+        "company_attractiveness": 15,
+        "evidence_freshness": 10
+      },
+      "factor_evidence": {
+        "problem_evidence": "1 sourced URLs, commercial gap stated",
+        "trigger_strength": "last verified 11 days ago",
+        "buyer_evidence": "named decision maker: True, exact destination: False",
+        "proof_fit": "recommended angle matches proof themes: ['trust']",
+        "company_attractiveness": "owned domain: True, conversion route documented: True, 2 observations",
+        "evidence_freshness": "last verified 11 days ago"
+      },
+      "raw_score": 74,
+      "blockers": {
+        "no_contact_route": 20,
+        "held_or_rejected": 30
+      },
+      "penalty": 50,
+      "priority_score": 24,
+      "engine_readiness": "hold",
+      "explanation": "74 from evidence already held, minus 50 for no_contact_route, held_or_rejected"
+    },
+    {
+      "prospect_id": "sterling-nigeria-facility-services",
+      "company": "Sterling Nigeria Facility Services",
+      "factors": {
+        "problem_evidence": 17,
+        "trigger_strength": 20,
+        "buyer_evidence": 8,
+        "proof_fit": 0,
+        "company_attractiveness": 15,
+        "evidence_freshness": 10
+      },
+      "factor_evidence": {
+        "problem_evidence": "1 sourced URLs, commercial gap stated",
+        "trigger_strength": "last verified 11 days ago",
+        "buyer_evidence": "named decision maker: True, exact destination: False",
+        "proof_fit": "recommended angle matches proof themes: none",
+        "company_attractiveness": "owned domain: True, conversion route documented: True, 2 observations",
+        "evidence_freshness": "last verified 11 days ago"
+      },
+      "raw_score": 70,
+      "blockers": {
+        "no_contact_route": 20,
+        "held_or_rejected": 30
+      },
+      "penalty": 50,
+      "priority_score": 20,
+      "engine_readiness": "hold",
+      "explanation": "70 from evidence already held, minus 50 for no_contact_route, held_or_rejected"
+    },
+    {
+      "prospect_id": "3d-janitorial-services",
+      "company": "3D Janitorial Services",
+      "factors": {
+        "problem_evidence": 25,
+        "trigger_strength": 12,
+        "buyer_evidence": 8,
+        "proof_fit": 0,
+        "company_attractiveness": 7,
+        "evidence_freshness": 9
+      },
+      "factor_evidence": {
+        "problem_evidence": "3 sourced URLs, commercial gap stated",
+        "trigger_strength": "last verified 15 days ago",
+        "buyer_evidence": "named decision maker: True, exact destination: False",
+        "proof_fit": "recommended angle matches proof themes: none",
+        "company_attractiveness": "owned domain: False, conversion route documented: True, 2 observations",
+        "evidence_freshness": "last verified 15 days ago"
+      },
+      "raw_score": 61,
+      "blockers": {
+        "no_owned_domain": 25,
+        "no_contact_route": 20,
+        "held_or_rejected": 30
+      },
+      "penalty": 75,
+      "priority_score": 0,
+      "engine_readiness": "hold",
+      "explanation": "61 from evidence already held, minus 75 for no_owned_domain, no_contact_route, held_or_rejected"
+    },
+    {
+      "prospect_id": "expert-cleaning-service",
+      "company": "Expert Cleaning Service",
+      "factors": {
+        "problem_evidence": 16,
+        "trigger_strength": 12,
+        "buyer_evidence": 8,
+        "proof_fit": 4,
+        "company_attractiveness": 7,
+        "evidence_freshness": 9
+      },
+      "factor_evidence": {
+        "problem_evidence": "2 sourced URLs, commercial gap absent",
+        "trigger_strength": "last verified 19 days ago",
+        "buyer_evidence": "named decision maker: True, exact destination: False",
+        "proof_fit": "recommended angle matches proof themes: ['search']",
+        "company_attractiveness": "owned domain: False, conversion route documented: True, 2 observations",
+        "evidence_freshness": "last verified 19 days ago"
+      },
+      "raw_score": 56,
+      "blockers": {
+        "no_owned_domain": 25,
+        "no_contact_route": 20,
+        "held_or_rejected": 30
+      },
+      "penalty": 75,
+      "priority_score": 0,
+      "engine_readiness": null,
+      "explanation": "56 from evidence already held, minus 75 for no_owned_domain, no_contact_route, held_or_rejected"
+    },
+    {
+      "prospect_id": "first-facility-hungary",
+      "company": "First Facility Hungary",
+      "factors": {
+        "problem_evidence": 16,
+        "trigger_strength": 12,
+        "buyer_evidence": 8,
+        "proof_fit": 10,
+        "company_attractiveness": 7,
+        "evidence_freshness": 9
+      },
+      "factor_evidence": {
+        "problem_evidence": "2 sourced URLs, commercial gap absent",
+        "trigger_strength": "last verified 19 days ago",
+        "buyer_evidence": "named decision maker: True, exact destination: False",
+        "proof_fit": "recommended angle matches proof themes: ['visibility', 'ai', 'credibility']",
+        "company_attractiveness": "owned domain: False, conversion route documented: True, 2 observations",
+        "evidence_freshness": "last verified 19 days ago"
+      },
+      "raw_score": 62,
+      "blockers": {
+        "no_owned_domain": 25,
+        "no_contact_route": 20,
+        "held_or_rejected": 30
+      },
+      "penalty": 75,
+      "priority_score": 0,
+      "engine_readiness": null,
+      "explanation": "62 from evidence already held, minus 75 for no_owned_domain, no_contact_route, held_or_rejected"
+    },
+    {
+      "prospect_id": "icon-real-estate-management",
+      "company": "ICON Real Estate Management",
+      "factors": {
+        "problem_evidence": 24,
+        "trigger_strength": 12,
+        "buyer_evidence": 8,
+        "proof_fit": 10,
+        "company_attractiveness": 7,
+        "evidence_freshness": 9
+      },
+      "factor_evidence": {
+        "problem_evidence": "3 sourced URLs, commercial gap absent",
+        "trigger_strength": "last verified 19 days ago",
+        "buyer_evidence": "named decision maker: True, exact destination: False",
+        "proof_fit": "recommended angle matches proof themes: ['visibility', 'ai', 'search']",
+        "company_attractiveness": "owned domain: False, conversion route documented: True, 2 observations",
+        "evidence_freshness": "last verified 19 days ago"
+      },
+      "raw_score": 70,
+      "blockers": {
+        "no_owned_domain": 25,
+        "no_contact_route": 20,
+        "held_or_rejected": 30
+      },
+      "penalty": 75,
+      "priority_score": 0,
+      "engine_readiness": null,
+      "explanation": "70 from evidence already held, minus 75 for no_owned_domain, no_contact_route, held_or_rejected"
+    },
+    {
+      "prospect_id": "kavezo-kft",
+      "company": "Kavezo Kft",
+      "factors": {
+        "problem_evidence": 24,
+        "trigger_strength": 12,
+        "buyer_evidence": 8,
+        "proof_fit": 0,
+        "company_attractiveness": 7,
+        "evidence_freshness": 9
+      },
+      "factor_evidence": {
+        "problem_evidence": "3 sourced URLs, commercial gap absent",
+        "trigger_strength": "last verified 15 days ago",
+        "buyer_evidence": "named decision maker: True, exact destination: False",
+        "proof_fit": "recommended angle matches proof themes: none",
+        "company_attractiveness": "owned domain: False, conversion route documented: True, 2 observations",
+        "evidence_freshness": "last verified 15 days ago"
+      },
+      "raw_score": 60,
+      "blockers": {
+        "no_owned_domain": 25,
+        "no_contact_route": 20,
+        "held_or_rejected": 30
+      },
+      "penalty": 75,
+      "priority_score": 0,
+      "engine_readiness": "hold",
+      "explanation": "60 from evidence already held, minus 75 for no_owned_domain, no_contact_route, held_or_rejected"
+    },
+    {
+      "prospect_id": "palmacedar-cleaning-services",
+      "company": "Palmacedar Cleaning Services",
+      "factors": {
+        "problem_evidence": 25,
+        "trigger_strength": 12,
+        "buyer_evidence": 8,
+        "proof_fit": 0,
+        "company_attractiveness": 7,
+        "evidence_freshness": 9
+      },
+      "factor_evidence": {
+        "problem_evidence": "4 sourced URLs, commercial gap stated",
+        "trigger_strength": "last verified 15 days ago",
+        "buyer_evidence": "named decision maker: True, exact destination: False",
+        "proof_fit": "recommended angle matches proof themes: none",
+        "company_attractiveness": "owned domain: False, conversion route documented: True, 2 observations",
+        "evidence_freshness": "last verified 15 days ago"
+      },
+      "raw_score": 61,
+      "blockers": {
+        "no_owned_domain": 25,
+        "no_contact_route": 20,
+        "held_or_rejected": 30
+      },
+      "penalty": 75,
+      "priority_score": 0,
+      "engine_readiness": "hold",
+      "explanation": "61 from evidence already held, minus 75 for no_owned_domain, no_contact_route, held_or_rejected"
+    },
+    {
+      "prospect_id": "professional-office-cleaning-hungary",
+      "company": "Professional Office Cleaning Hungary",
+      "factors": {
+        "problem_evidence": 25,
+        "trigger_strength": 12,
+        "buyer_evidence": 8,
+        "proof_fit": 4,
+        "company_attractiveness": 7,
+        "evidence_freshness": 9
+      },
+      "factor_evidence": {
+        "problem_evidence": "5 sourced URLs, commercial gap stated",
+        "trigger_strength": "last verified 19 days ago",
+        "buyer_evidence": "named decision maker: True, exact destination: False",
+        "proof_fit": "recommended angle matches proof themes: ['quote']",
+        "company_attractiveness": "owned domain: False, conversion route documented: True, 4 observations",
+        "evidence_freshness": "last verified 19 days ago"
+      },
+      "raw_score": 65,
+      "blockers": {
+        "no_owned_domain": 25,
+        "no_contact_route": 20,
+        "held_or_rejected": 30
+      },
+      "penalty": 75,
+      "priority_score": 0,
+      "engine_readiness": "hold",
+      "explanation": "65 from evidence already held, minus 75 for no_owned_domain, no_contact_route, held_or_rejected"
+    }
+  ],
+  "external_action_authorized": false
+}

@@ -1,5 +1,10 @@
 #!/usr/bin/env python3
-"""Deterministically score a BridgeWorks prospect from evidence ratings."""
+"""Native CLI for canonical qualification-v1, with labelled legacy read support.
+
+The canonical qualification-v1 result has no `valid` field and never will. Older
+callers that read `valid` are served by `legacy_view`, which translates at this
+boundary. Nothing here writes a compatibility field back into the canonical schema.
+"""
 
 from __future__ import annotations
 
@@ -8,93 +13,82 @@ import sys
 from pathlib import Path
 
 
-LIMITS = {
-    "fit": 25,
-    "active_change": 25,
-    "problem_evidence": 20,
-    "capacity": 15,
-    "buyer_access": 15,
-}
+def _load_core():
+    candidates = [Path.cwd(), Path.home() / "Projects" / "bridgeworks-workspace"]
+    for root in candidates:
+        scripts = root / "operations" / "internal-gtm" / "scripts"
+        if (scripts / "gtm_core.py").is_file():
+            sys.path.insert(0, str(scripts))
+            import gtm_core  # type: ignore
+            return gtm_core
+    raise RuntimeError("canonical internal-GTM core not found")
 
 
 def score(data: dict) -> dict:
-    ratings = data.get("ratings", {})
-    errors: list[str] = []
-    total = 0
+    core = _load_core()
+    if data.get("qualification_version") == core.QUALIFICATION_VERSION or "components" in data:
+        scripts = Path(core.__file__).resolve().parent
+        sys.path.insert(0, str(scripts))
+        import qualification_v1  # type: ignore
+        return qualification_v1.derive_and_score(
+            data.get("components") or {}, data.get("evidence") or {},
+            data.get("context") or {}, data.get("as_of") or "unknown")
+    result = core.score_legacy_readiness(data)
+    result.update({
+        "state_ownership": False,
+        "status_scope": "historical_compatibility_only",
+        "requires_qualification_v1_rescore": True,
+    })
+    return result
 
-    for field, maximum in LIMITS.items():
-        value = ratings.get(field)
-        if not isinstance(value, int) or isinstance(value, bool):
-            errors.append(f"{field} must be an integer from 0 to {maximum}")
-            continue
-        if not 0 <= value <= maximum:
-            errors.append(f"{field} must be from 0 to {maximum}")
-            continue
-        total += value
 
-    signals = data.get("verified_signal_count")
-    if not isinstance(signals, int) or isinstance(signals, bool) or signals < 0:
-        errors.append("verified_signal_count must be a non-negative integer")
+def is_canonical(result: dict) -> bool:
+    """A qualification-v1 result. It has no `valid` field and must not gain one."""
+    return "qualification_version" in result or result.get("model") == "qualification-v1"
 
-    exclusions = data.get("exclusions", [])
-    if not isinstance(exclusions, list) or not all(isinstance(item, str) for item in exclusions):
-        errors.append("exclusions must be a list of strings")
-        exclusions = []
 
-    buyer_path = data.get("reachable_buyer_path")
-    if not isinstance(buyer_path, bool):
-        errors.append("reachable_buyer_path must be true or false")
+def legacy_view(result: dict) -> dict:
+    """Translate at the wrapper boundary, so the canonical schema stays clean.
 
-    service_route = data.get("evidenced_service_route")
-    if not isinstance(service_route, bool):
-        errors.append("evidenced_service_route must be true or false")
-
-    inbound_or_event = data.get("inbound_reply_referral_or_time_bound_event", False)
-    if not isinstance(inbound_or_event, bool):
-        errors.append("inbound_reply_referral_or_time_bound_event must be true or false")
-
-    if errors:
-        return {"valid": False, "errors": errors}
-
-    if exclusions:
-        status = "reject"
-    elif total >= 65 and signals >= 4 and buyer_path and service_route:
-        status = "discovery-ready" if inbound_or_event else "audit-approved"
-    elif total >= 45 or signals >= 3:
-        status = "research"
-    else:
-        status = "nurture"
-
+    Older callers read `valid` and `errors`. qualification-v1 has neither, because
+    scoring either produced a result or raised. Adding `valid` to the canonical
+    schema to satisfy a CLI would put a compatibility field in the model itself,
+    which is exactly what the decision forbids. So the shim lives here.
+    """
+    if not is_canonical(result):
+        return {"valid": bool(result.get("valid")), "errors": result.get("errors", [])}
     return {
         "valid": True,
-        "score": total,
-        "status": status,
-        "verified_signal_count": signals,
-        "gates": {
-            "score_65": total >= 65,
-            "four_signals": signals >= 4,
-            "reachable_buyer_path": buyer_path,
-            "evidenced_service_route": service_route,
-            "inbound_reply_referral_or_time_bound_event": inbound_or_event,
-        },
+        "errors": [],
+        "note": ("qualification-v1 carries no `valid` field. A returned result is a "
+                 "successful scoring. Actionability is a separate field and is not "
+                 "a validity signal."),
+        "actionability": result.get("actionability"),
+        "translated_at": "wrapper boundary, not in the canonical schema",
     }
+
+
+def exit_code(result: dict) -> int:
+    """Zero when scoring succeeded. Actionability never changes the exit code."""
+    if is_canonical(result):
+        return 0
+    return 0 if result.get("valid") else 1
 
 
 def main() -> int:
     if len(sys.argv) != 2:
         print("Usage: score_prospect.py <prospect.json>", file=sys.stderr)
         return 2
-
-    path = Path(sys.argv[1])
     try:
-        data = json.loads(path.read_text(encoding="utf-8"))
-    except (OSError, json.JSONDecodeError) as exc:
+        data = json.loads(Path(sys.argv[1]).read_text(encoding="utf-8"))
+        result = score(data)
+    except (OSError, json.JSONDecodeError, RuntimeError, ValueError) as exc:
         print(json.dumps({"valid": False, "errors": [str(exc)]}, indent=2))
         return 1
-
-    result = score(data)
-    print(json.dumps(result, indent=2))
-    return 0 if result["valid"] else 1
+    payload = dict(result)
+    payload["legacy_compatibility"] = legacy_view(result)
+    print(json.dumps(payload, indent=2))
+    return exit_code(result)
 
 
 if __name__ == "__main__":

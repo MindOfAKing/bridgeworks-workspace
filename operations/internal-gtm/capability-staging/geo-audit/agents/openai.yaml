@@ -1,0 +1,4 @@
+interface:
+  display_name: "GEO Audit"
+  short_description: "Orchestrate a full structured GEO audit"
+  default_prompt: "Use $geo-audit to run a bounded, evidence-backed GEO audit."

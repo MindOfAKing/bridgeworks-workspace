@@ -1,0 +1,83 @@
+{
+  "qualification_id": "gbs-africa-qualification-v1-post-commercial-intelligence-2026-08-11",
+  "prospect_id": "gbs-africa",
+  "qualification_version": "qualification-v1",
+  "as_of": "2026-08-11",
+  "score": 82,
+  "tier": "STRONG",
+  "actionability": "actionable",
+  "blocking_reasons": [],
+  "component_scores": {
+    "problem_evidence": 25,
+    "commercial_fit": 14,
+    "buyer_accessibility": 4,
+    "trigger_urgency": 15,
+    "proof_fit": 15,
+    "execution_readiness": 9
+  },
+  "component_evidence": {
+    "commercial_fit": {
+      "score": 14,
+      "evidence_ids": ["ci-gbs-001", "ci-gbs-002", "ci-gbs-003", "ci-gbs-004", "ci-gbs-005", "ci-gbs-006", "ci-gbs-007"],
+      "research_status": "complete",
+      "freshness": "current",
+      "confidence": "high",
+      "rationale": "Research, market intelligence and institutional visibility are central to the published advisory model. Current 2026 publishing and external role corroboration support real commercial relevance. Dormant UK filings through 2024 and absent revenue, budget or contract evidence cap the score."
+    },
+    "execution_readiness": {
+      "score": 9,
+      "evidence_ids": ["ci-gbs-004", "ci-gbs-005", "ci-gbs-008", "geo-reports-404", "geo-research-in-pdf", "geo-sameas", "geo-schema-absent", "q-proof-ceefm-geo-16-to-77"],
+      "research_status": "complete",
+      "freshness": "current",
+      "confidence": "high",
+      "rationale": "One current report, a defined Insights library, exact GEO findings and strong registered proof support a bounded pilot. CMS access, implementation authority and analytics remain unknown."
+    }
+  },
+  "qualification_coverage": {
+    "sufficiently_researched_dimensions": 5,
+    "total_dimensions": 6,
+    "percentage": 83.3,
+    "missing_dimensions": [],
+    "partial_dimensions": ["buyer_accessibility"],
+    "exhausted_unknown_dimensions": [],
+    "exhausted_unknown_subquestions": [
+      "commercial_fit.commercial_value_band",
+      "commercial_fit.research_visibility_commercial_impact",
+      "commercial_fit.website_or_content_budget"
+    ],
+    "reopenable_dimensions": ["buyer_accessibility"]
+  },
+  "hard_gates": {
+    "identity_domain_resolved": true,
+    "viable_contact_destination": true,
+    "credible_service_route": true,
+    "materially_contradicted_evidence": false,
+    "previous_outreach_exists": false,
+    "communication_state_resolved": true,
+    "legal_compliance_exclusion": false,
+    "explicit_defer_hold": false
+  },
+  "primary_route": "content-visibility-demand",
+  "diagnostic_id": "geo-audit:gbsafrica-2026-08-11",
+  "diagnostic_status": "complete",
+  "proof_asset_id": "ceefm-geo-16-to-77",
+  "buyer_accessibility": {
+    "score": 4,
+    "route": "info@gbsafrica.co.uk",
+    "named_buyer": null,
+    "research_status": "partial"
+  },
+  "scorer": {
+    "implementation": "operations/internal-gtm/scripts/qualification_v1.py",
+    "native_wrapper": "C:/Users/User/.codex/skills/bridgeworks-lead-qualifier/scripts/score_prospect.py",
+    "input": "operations/internal-gtm/runs/qualification-inputs/gbs-africa-qualification-v1-post-commercial-intelligence-2026-08-11.json",
+    "input_sha256": "211d156510e32e3f1e0db5bfcce8932e63f20b83a207b89638de8284c4e312db",
+    "exit_code": 0,
+    "unresolvable_evidence_ids": [],
+    "canonical_schema_has_legacy_valid_field": false
+  },
+  "evidence_audit": "operations/internal-gtm/runs/evidence-audits/gbs-africa-commercial-intelligence-evidence-2026-08-11.json",
+  "lifecycle_stage": "diagnostic_complete",
+  "valid_approval_packet_id": null,
+  "external_action_authorized": false
+}

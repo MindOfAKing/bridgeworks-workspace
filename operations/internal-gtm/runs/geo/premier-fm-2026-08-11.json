@@ -1,0 +1,783 @@
+{
+  "slice": "geo",
+  "as_of": "2026-08-11",
+  "prospect": {
+    "company": "Premier FM",
+    "website_url": "https://premierfm.hu",
+    "source": "client-acquisition-engine:2026-08-05-batch-01-results.json",
+    "entity_key": "domain:premierfm.hu",
+    "canonical_domain": "premierfm.hu",
+    "alternate_domains": [],
+    "normalized_company": "premier fm",
+    "source_provenance": [
+      "client-acquisition-engine:2026-08-05-batch-01-results.json"
+    ],
+    "prospect_id": "premier-fm",
+    "buyer_name": "Leko Peter",
+    "buyer_role": null,
+    "buyer_email": "leko.peter@premierfm.hu",
+    "qualification_model": "qualification-v1",
+    "qualification_score": 50,
+    "qualification_tier": "WATCH",
+    "actionability": "actionable"
+  },
+  "evidence": {
+    "as_of": "2026-08-11",
+    "staleness_days": 180,
+    "ledger": [
+      {
+        "id": "q-buyer",
+        "subject": "buyer_accessibility",
+        "claim_key": "buyer_contact_route",
+        "contradiction_key": [
+          "declared",
+          "buyer_contact_route"
+        ],
+        "value": {
+          "name": "Leko Peter",
+          "email": "leko.peter@premierfm.hu"
+        },
+        "source": "https://premierfm.hu/",
+        "observed_at": "2026-08-09",
+        "declared_status": "observed",
+        "status": "observed",
+        "reason": "declared"
+      },
+      {
+        "id": "q-proof-oliviks-foundation-2026-07-24",
+        "subject": "proof_fit",
+        "claim_key": "bridgeworks_proof_asset",
+        "contradiction_key": [
+          "declared",
+          "bridgeworks_proof_asset"
+        ],
+        "value": "oliviks-foundation-2026-07-24",
+        "source": "operations/oliviks/ and clients/oliviks/",
+        "observed_at": "2026-08-11",
+        "declared_status": "verified",
+        "status": "verified",
+        "reason": "declared"
+      },
+      {
+        "id": "q-trigger",
+        "subject": "trigger_urgency",
+        "claim_key": "current_buyer_event",
+        "contradiction_key": [
+          "declared",
+          "current_buyer_event"
+        ],
+        "value": "research_verification",
+        "source": "https://premierfm.hu/",
+        "observed_at": "2026-08-09",
+        "declared_status": "observed",
+        "status": "observed",
+        "reason": "declared"
+      },
+      {
+        "id": "src0",
+        "subject": "website_trust",
+        "claim_key": null,
+        "contradiction_key": [
+          "implicit",
+          "website_trust",
+          "https://premierfm.hu/"
+        ],
+        "value": "Owned homepage lists facility-management services, quote CTA, public phone and info@premierfm.hu, near-20-year experience text, and KPI labels where visible numeric values are absent in the indexed text.",
+        "source": "https://premierfm.hu/",
+        "observed_at": "2026-08-09",
+        "declared_status": "verified",
+        "status": "verified",
+        "reason": "declared"
+      }
+    ],
+    "approved_claim_ids": [
+      "q-buyer",
+      "q-proof-oliviks-foundation-2026-07-24",
+      "q-trigger",
+      "src0"
+    ],
+    "rejected_claim_ids": [],
+    "evidence_quality": "verified",
+    "counts": {
+      "verified": 2,
+      "observed": 2,
+      "inferred": 0,
+      "stale": 0,
+      "contradicted": 0,
+      "unknown": 0
+    }
+  },
+  "route": {
+    "route_id": "digital-platforms-brand",
+    "route_name": "Digital Platforms & Brand Systems",
+    "matched_gaps": [
+      "website_trust"
+    ],
+    "fit": "exact",
+    "secondary_routes": [],
+    "diagnostic_capability": "client-audit",
+    "proof_asset_id": "oliviks-foundation-2026-07-24",
+    "scores": {
+      "evidence_strength": 3,
+      "commercial_pain": 2,
+      "buyer_relevance": 0,
+      "proof_fit": 2,
+      "urgency": 0,
+      "entry_offer_credibility": 2
+    },
+    "won_on": "only_matching_route",
+    "confidence": {
+      "capability_maturity": "mature",
+      "note": "reported only, never used to select"
+    },
+    "candidates": [
+      {
+        "route_id": "digital-platforms-brand",
+        "route_name": "Digital Platforms & Brand Systems",
+        "matched_gaps": [
+          "website_trust"
+        ],
+        "scores": {
+          "evidence_strength": 3,
+          "commercial_pain": 2,
+          "buyer_relevance": 0,
+          "proof_fit": 2,
+          "urgency": 0,
+          "entry_offer_credibility": 2
+        },
+        "ranking_key": [
+          3,
+          2,
+          0,
+          2,
+          0,
+          2
+        ],
+        "capability_maturity": "mature",
+        "diagnostic_capability": "client-audit",
+        "proof_asset_id": "oliviks-foundation-2026-07-24"
+      }
+    ]
+  },
+  "qualification": {
+    "qualification_version": "qualification-v1",
+    "score": 50,
+    "max_score": 100,
+    "tier": "WATCH",
+    "actionability": "actionable",
+    "blocking_reasons": [],
+    "components": {
+      "problem_evidence": {
+        "score": 5,
+        "requested_score": 5,
+        "max_score": 25,
+        "evidence_ids": [
+          "src0"
+        ],
+        "usable_evidence_ids": [
+          "src0"
+        ],
+        "approved_evidence_ids": [
+          "src0"
+        ],
+        "unresolvable_evidence_ids": [],
+        "contradicted_evidence_ids": [],
+        "contradicted": false,
+        "evidence_classes": [
+          "verified"
+        ],
+        "evidence_freshness": "current",
+        "evidence_age_days": 2,
+        "confidence": "high",
+        "source_provenance": [
+          "https://premierfm.hu/"
+        ],
+        "adjustment_reason": null,
+        "reason": "scored",
+        "rationale": "approved diagnostic findings weighted by severity",
+        "evidence_state": "approved",
+        "research_status": "complete"
+      },
+      "commercial_fit": {
+        "score": 0,
+        "requested_score": 0,
+        "max_score": 20,
+        "evidence_ids": [],
+        "usable_evidence_ids": [],
+        "approved_evidence_ids": [],
+        "unresolvable_evidence_ids": [],
+        "contradicted_evidence_ids": [],
+        "contradicted": false,
+        "evidence_classes": [],
+        "evidence_freshness": "unknown",
+        "evidence_age_days": null,
+        "confidence": "unknown",
+        "source_provenance": [],
+        "adjustment_reason": null,
+        "reason": "scored",
+        "rationale": "no contract-value, budget or segment evidence collected",
+        "evidence_state": "unknown",
+        "research_status": "required"
+      },
+      "buyer_accessibility": {
+        "score": 15,
+        "requested_score": 15,
+        "max_score": 15,
+        "evidence_ids": [
+          "q-buyer"
+        ],
+        "usable_evidence_ids": [
+          "q-buyer"
+        ],
+        "approved_evidence_ids": [
+          "q-buyer"
+        ],
+        "unresolvable_evidence_ids": [],
+        "contradicted_evidence_ids": [],
+        "contradicted": false,
+        "evidence_classes": [
+          "observed"
+        ],
+        "evidence_freshness": "current",
+        "evidence_age_days": 2,
+        "confidence": "medium",
+        "source_provenance": [
+          "https://premierfm.hu/"
+        ],
+        "adjustment_reason": null,
+        "reason": "scored",
+        "rationale": "verified contact route",
+        "evidence_state": "approved",
+        "research_status": "complete"
+      },
+      "trigger_urgency": {
+        "score": 15,
+        "requested_score": 15,
+        "max_score": 15,
+        "evidence_ids": [
+          "q-trigger"
+        ],
+        "usable_evidence_ids": [
+          "q-trigger"
+        ],
+        "approved_evidence_ids": [
+          "q-trigger"
+        ],
+        "unresolvable_evidence_ids": [],
+        "contradicted_evidence_ids": [],
+        "contradicted": false,
+        "evidence_classes": [
+          "observed"
+        ],
+        "evidence_freshness": "current",
+        "evidence_age_days": 2,
+        "confidence": "medium",
+        "source_provenance": [
+          "https://premierfm.hu/"
+        ],
+        "adjustment_reason": null,
+        "reason": "scored",
+        "rationale": "age of the observed buyer event",
+        "evidence_state": "approved",
+        "research_status": "complete"
+      },
+      "proof_fit": {
+        "score": 15,
+        "requested_score": 15,
+        "max_score": 15,
+        "evidence_ids": [
+          "q-proof-oliviks-foundation-2026-07-24"
+        ],
+        "usable_evidence_ids": [
+          "q-proof-oliviks-foundation-2026-07-24"
+        ],
+        "approved_evidence_ids": [
+          "q-proof-oliviks-foundation-2026-07-24"
+        ],
+        "unresolvable_evidence_ids": [],
+        "contradicted_evidence_ids": [],
+        "contradicted": false,
+        "evidence_classes": [
+          "verified"
+        ],
+        "evidence_freshness": "current",
+        "evidence_age_days": 0,
+        "confidence": "high",
+        "source_provenance": [
+          "operations/oliviks/ and clients/oliviks/"
+        ],
+        "adjustment_reason": null,
+        "reason": "scored",
+        "rationale": "verified proof asset strength for this problem: strong",
+        "evidence_state": "approved",
+        "research_status": "complete"
+      },
+      "execution_readiness": {
+        "score": 0,
+        "requested_score": 0,
+        "max_score": 10,
+        "evidence_ids": [],
+        "usable_evidence_ids": [],
+        "approved_evidence_ids": [],
+        "unresolvable_evidence_ids": [],
+        "contradicted_evidence_ids": [],
+        "contradicted": false,
+        "evidence_classes": [],
+        "evidence_freshness": "unknown",
+        "evidence_age_days": null,
+        "confidence": "unknown",
+        "source_provenance": [],
+        "adjustment_reason": null,
+        "reason": "scored",
+        "rationale": "no delivery-capacity or decision-process evidence collected",
+        "evidence_state": "unknown",
+        "research_status": "required"
+      }
+    },
+    "adjustments": [],
+    "thresholds": {
+      "HOT": 85,
+      "STRONG": 70,
+      "QUALIFIED": 55,
+      "WATCH": 40,
+      "DO_NOT_PURSUE": 0
+    },
+    "qualification_coverage": {
+      "sufficiently_researched_dimensions": 4,
+      "total_dimensions": 6,
+      "percentage": 66.7,
+      "by_dimension": {
+        "problem_evidence": {
+          "score": 5,
+          "evidence_state": "approved",
+          "evidence_ids": [
+            "src0"
+          ],
+          "confidence": "high",
+          "research_status": "complete",
+          "zero_because": null
+        },
+        "commercial_fit": {
+          "score": 0,
+          "evidence_state": "unknown",
+          "evidence_ids": [],
+          "confidence": "unknown",
+          "research_status": "required",
+          "zero_because": "missing_research"
+        },
+        "buyer_accessibility": {
+          "score": 15,
+          "evidence_state": "approved",
+          "evidence_ids": [
+            "q-buyer"
+          ],
+          "confidence": "medium",
+          "research_status": "complete",
+          "zero_because": null
+        },
+        "trigger_urgency": {
+          "score": 15,
+          "evidence_state": "approved",
+          "evidence_ids": [
+            "q-trigger"
+          ],
+          "confidence": "medium",
+          "research_status": "complete",
+          "zero_because": null
+        },
+        "proof_fit": {
+          "score": 15,
+          "evidence_state": "approved",
+          "evidence_ids": [
+            "q-proof-oliviks-foundation-2026-07-24"
+          ],
+          "confidence": "high",
+          "research_status": "complete",
+          "zero_because": null
+        },
+        "execution_readiness": {
+          "score": 0,
+          "evidence_state": "unknown",
+          "evidence_ids": [],
+          "confidence": "unknown",
+          "research_status": "required",
+          "zero_because": "missing_research"
+        }
+      },
+      "missing_dimensions": [
+        "commercial_fit",
+        "execution_readiness"
+      ],
+      "partial_dimensions": [],
+      "verified_negative_dimensions": [],
+      "not_applicable_dimensions": [],
+      "note": "Coverage is not a score and is never added to one. A dimension can be fully researched and score zero. That is a verified negative, not a gap."
+    },
+    "model": "qualification-v1",
+    "model_approved": "2026-08-11",
+    "as_of": "2026-08-11",
+    "derived_by": "operations/internal-gtm/scripts/qualification_v1.py",
+    "gates_evaluated": {
+      "identity_domain_resolved": true,
+      "viable_contact_destination": true,
+      "credible_service_route": true,
+      "materially_contradicted_evidence": false,
+      "previous_outreach_exists": false,
+      "communication_state_resolved": true,
+      "legal_compliance_exclusion": false,
+      "explicit_defer_hold": false
+    },
+    "component_scores": {
+      "problem_evidence": 5,
+      "commercial_fit": 0,
+      "buyer_accessibility": 15,
+      "trigger_urgency": 15,
+      "proof_fit": 15,
+      "execution_readiness": 0
+    },
+    "unscored_components": [
+      "commercial_fit",
+      "execution_readiness"
+    ],
+    "unresolvable_evidence_ids": [],
+    "evidence_gap": true,
+    "blocking_conditions": [],
+    "superseded_reference": {
+      "model": "former-gtm-core-five-signal-rubric",
+      "historical_signals": {
+        "route_fit": "exact",
+        "trigger_age_days": 2,
+        "evidence_quality": "verified",
+        "reachability": "named_buyer_with_email",
+        "gap_severity": "medium"
+      },
+      "score": null,
+      "tier": null,
+      "note": "source material only. It cannot independently own qualification state."
+    }
+  },
+  "steps": [
+    {
+      "stage": "account_discovered",
+      "role": "data-steward",
+      "note": "identity normalized, exact dedupe applied"
+    },
+    {
+      "stage": "evidence_collected",
+      "role": "evidence-auditor",
+      "note": "1 of 1 claims approved",
+      "counts": {
+        "verified": 1,
+        "observed": 0,
+        "inferred": 0,
+        "stale": 0,
+        "contradicted": 0,
+        "unknown": 0
+      }
+    },
+    {
+      "stage": "qualified",
+      "role": "lead-qualifier",
+      "signals": {
+        "route_fit": "exact",
+        "trigger_age_days": 2,
+        "evidence_quality": "verified",
+        "reachability": "named_buyer_with_email",
+        "gap_severity": "medium"
+      },
+      "result": {
+        "qualification_version": "qualification-v1",
+        "score": 50,
+        "max_score": 100,
+        "tier": "WATCH",
+        "actionability": "actionable",
+        "blocking_reasons": [],
+        "adjustments": [],
+        "thresholds": {
+          "HOT": 85,
+          "STRONG": 70,
+          "QUALIFIED": 55,
+          "WATCH": 40,
+          "DO_NOT_PURSUE": 0
+        },
+        "qualification_coverage": {
+          "sufficiently_researched_dimensions": 4,
+          "total_dimensions": 6,
+          "percentage": 66.7,
+          "by_dimension": {
+            "problem_evidence": {
+              "score": 5,
+              "evidence_state": "approved",
+              "evidence_ids": [
+                "src0"
+              ],
+              "confidence": "high",
+              "research_status": "complete",
+              "zero_because": null
+            },
+            "commercial_fit": {
+              "score": 0,
+              "evidence_state": "unknown",
+              "evidence_ids": [],
+              "confidence": "unknown",
+              "research_status": "required",
+              "zero_because": "missing_research"
+            },
+            "buyer_accessibility": {
+              "score": 15,
+              "evidence_state": "approved",
+              "evidence_ids": [
+                "q-buyer"
+              ],
+              "confidence": "medium",
+              "research_status": "complete",
+              "zero_because": null
+            },
+            "trigger_urgency": {
+              "score": 15,
+              "evidence_state": "approved",
+              "evidence_ids": [
+                "q-trigger"
+              ],
+              "confidence": "medium",
+              "research_status": "complete",
+              "zero_because": null
+            },
+            "proof_fit": {
+              "score": 15,
+              "evidence_state": "approved",
+              "evidence_ids": [
+                "q-proof-oliviks-foundation-2026-07-24"
+              ],
+              "confidence": "high",
+              "research_status": "complete",
+              "zero_because": null
+            },
+            "execution_readiness": {
+              "score": 0,
+              "evidence_state": "unknown",
+              "evidence_ids": [],
+              "confidence": "unknown",
+              "research_status": "required",
+              "zero_because": "missing_research"
+            }
+          },
+          "missing_dimensions": [
+            "commercial_fit",
+            "execution_readiness"
+          ],
+          "partial_dimensions": [],
+          "verified_negative_dimensions": [],
+          "not_applicable_dimensions": [],
+          "note": "Coverage is not a score and is never added to one. A dimension can be fully researched and score zero. That is a verified negative, not a gap."
+        },
+        "model": "qualification-v1",
+        "model_approved": "2026-08-11",
+        "as_of": "2026-08-11",
+        "derived_by": "operations/internal-gtm/scripts/qualification_v1.py",
+        "gates_evaluated": {
+          "identity_domain_resolved": true,
+          "viable_contact_destination": true,
+          "credible_service_route": true,
+          "materially_contradicted_evidence": false,
+          "previous_outreach_exists": false,
+          "communication_state_resolved": true,
+          "legal_compliance_exclusion": false,
+          "explicit_defer_hold": false
+        },
+        "component_scores": {
+          "problem_evidence": 5,
+          "commercial_fit": 0,
+          "buyer_accessibility": 15,
+          "trigger_urgency": 15,
+          "proof_fit": 15,
+          "execution_readiness": 0
+        },
+        "unscored_components": [
+          "commercial_fit",
+          "execution_readiness"
+        ],
+        "unresolvable_evidence_ids": [],
+        "evidence_gap": true,
+        "blocking_conditions": [],
+        "superseded_reference": {
+          "model": "former-gtm-core-five-signal-rubric",
+          "historical_signals": {
+            "route_fit": "exact",
+            "trigger_age_days": 2,
+            "evidence_quality": "verified",
+            "reachability": "named_buyer_with_email",
+            "gap_severity": "medium"
+          },
+          "score": null,
+          "tier": null,
+          "note": "source material only. It cannot independently own qualification state."
+        }
+      }
+    },
+    {
+      "stage": "routed",
+      "role": "prospect-router",
+      "route": {
+        "route_id": "digital-platforms-brand",
+        "route_name": "Digital Platforms & Brand Systems",
+        "matched_gaps": [
+          "website_trust"
+        ],
+        "fit": "exact",
+        "secondary_routes": [],
+        "diagnostic_capability": "client-audit",
+        "proof_asset_id": "oliviks-foundation-2026-07-24",
+        "scores": {
+          "evidence_strength": 3,
+          "commercial_pain": 2,
+          "buyer_relevance": 0,
+          "proof_fit": 2,
+          "urgency": 0,
+          "entry_offer_credibility": 2
+        },
+        "won_on": "only_matching_route",
+        "confidence": {
+          "capability_maturity": "mature",
+          "note": "reported only, never used to select"
+        },
+        "candidates": [
+          {
+            "route_id": "digital-platforms-brand",
+            "route_name": "Digital Platforms & Brand Systems",
+            "matched_gaps": [
+              "website_trust"
+            ],
+            "scores": {
+              "evidence_strength": 3,
+              "commercial_pain": 2,
+              "buyer_relevance": 0,
+              "proof_fit": 2,
+              "urgency": 0,
+              "entry_offer_credibility": 2
+            },
+            "ranking_key": [
+              3,
+              2,
+              0,
+              2,
+              0,
+              2
+            ],
+            "capability_maturity": "mature",
+            "diagnostic_capability": "client-audit",
+            "proof_asset_id": "oliviks-foundation-2026-07-24"
+          }
+        ]
+      }
+    },
+    {
+      "stage": "diagnostic_complete",
+      "role": "prospect-router",
+      "capability": "client-audit",
+      "score": null
+    },
+    {
+      "stage": "offer_selected",
+      "role": "offer-strategist",
+      "offer": {
+        "route_id": "digital-platforms-brand",
+        "wedge": "Lead path and trust review",
+        "proof_asset_id": "oliviks-foundation-2026-07-24",
+        "price": "confirmed_at_booking",
+        "price_note": "No price is stored here. The lead-engine-v1 offer ladder (2026-06) and the 2026-07-14 single-offer decision conflict, and the deployed site publishes no audit price. Offer selection is deterministic. Price is Emmanuel's decision at booking.",
+        "tier": "WATCH"
+      }
+    },
+    {
+      "stage": "outreach_prepared",
+      "role": "outreach-personalizer",
+      "note": "packet assembled from approved claims only",
+      "cited_claims": [
+        "src0"
+      ]
+    },
+    {
+      "stage": "awaiting_approval",
+      "role": "outreach-personalizer",
+      "note": "stopped at approval gate"
+    }
+  ],
+  "external_action_authorized": false,
+  "offer": {
+    "route_id": "digital-platforms-brand",
+    "wedge": "Lead path and trust review",
+    "proof_asset_id": "oliviks-foundation-2026-07-24",
+    "price": "confirmed_at_booking",
+    "price_note": "No price is stored here. The lead-engine-v1 offer ladder (2026-06) and the 2026-07-14 single-offer decision conflict, and the deployed site publishes no audit price. Offer selection is deterministic. Price is Emmanuel's decision at booking.",
+    "tier": "WATCH"
+  },
+  "packet": {
+    "kind": "outreach_approval_packet",
+    "lifecycle_stage": "awaiting_approval",
+    "approval_state": "pending_approval",
+    "approval_payload_digest": "247d861e6a422e241c74fa2b1b89e38e341336d4bc0b00ee758840a631ea5245",
+    "external_action_authorized": false,
+    "no_send": true,
+    "copy_required_from": "outreach-personalizer",
+    "copy_authority": "draft_only",
+    "prepared_at": "2026-08-11",
+    "body": {
+      "prospect_id": "premier-fm",
+      "company": "Premier FM",
+      "canonical_domain": "premierfm.hu",
+      "buyer_name": "Leko Peter",
+      "buyer_role": null,
+      "buyer_email": "leko.peter@premierfm.hu",
+      "service_route": "digital-platforms-brand",
+      "offer_wedge": "Lead path and trust review",
+      "proof_asset_id": "oliviks-foundation-2026-07-24",
+      "price": "confirmed_at_booking",
+      "cited_claims": [
+        {
+          "id": "src0",
+          "subject": "website_trust",
+          "claim_key": null,
+          "contradiction_key": [
+            "implicit",
+            "website_trust",
+            "https://premierfm.hu/"
+          ],
+          "value": "Owned homepage lists facility-management services, quote CTA, public phone and info@premierfm.hu, near-20-year experience text, and KPI labels where visible numeric values are absent in the indexed text.",
+          "source": "https://premierfm.hu/",
+          "observed_at": "2026-08-09",
+          "declared_status": "verified",
+          "status": "verified",
+          "reason": "declared"
+        }
+      ],
+      "qualification_score": 50,
+      "qualification_tier": "WATCH"
+    },
+    "approval_instruction": "Approval authorizes only the exact copy attached to this digest, sent to this exact address, by Emmanuel or an approved Codex run.",
+    "copy_request": {
+      "kind": "capability_call_required",
+      "role": "outreach-personalizer",
+      "capability": "market-emails",
+      "task": "client_facing_output",
+      "runtime": "claude_or_codex",
+      "approval_required": false,
+      "review_required": true,
+      "validation": null,
+      "payload": {
+        "cited_claims": [
+          "src0"
+        ],
+        "offer_wedge": "Lead path and trust review",
+        "proof_asset_id": "oliviks-foundation-2026-07-24",
+        "buyer": {
+          "name": "Leko Peter",
+          "role": null,
+          "email": "leko.peter@premierfm.hu"
+        }
+      }
+    }
+  },
+  "lifecycle_stage": "awaiting_approval",
+  "next_action": "emmanuel_approval"
+}

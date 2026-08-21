@@ -1,0 +1,102 @@
+{
+  "_fixture": "Synthetic. Not real companies. Includes a deliberate duplicate and a keyless row to exercise dedupe and rejection.",
+  "market": "Budapest facility management",
+  "sector_hypothesis": "Owner-led facility management firms with contract values above 2M HUF and no AI visibility.",
+  "candidates": [
+    {
+      "company": "Northline Facility Services Kft.",
+      "website_url": "https://www.northline-facility.example.com/",
+      "source": "fixture-list",
+      "gap_severity": "high",
+      "gap_categories": [
+        "ai_visibility"
+      ],
+      "buyer": {
+        "name": "Managing Director",
+        "email": "office@northline-facility.example.com",
+        "source": "https://www.northline-facility.example.com/contact"
+      },
+      "trigger": {
+        "type": "hiring",
+        "observed_at": "2026-07-28",
+        "source": "https://www.northline-facility.example.com/careers"
+      },
+      "claims": [
+        {
+          "id": "n1",
+          "subject": "ai_visibility",
+          "value": "no_citations",
+          "status": "verified",
+          "source": "https://www.northline-facility.example.com/",
+          "observed_at": "2026-08-09"
+        }
+      ]
+    },
+    {
+      "company": "NORTHLINE FACILITY SERVICES",
+      "website_url": "http://northline-facility.example.com/en",
+      "source": "fixture-second-list",
+      "claims": []
+    },
+    {
+      "company": "Danube Property Care Bt.",
+      "website_url": "https://danube-property-care.example.org",
+      "source": "fixture-list",
+      "gap_severity": "medium",
+      "gap_categories": [
+        "conversion_path"
+      ],
+      "buyer": {
+        "name": "Operations Lead",
+        "source": "https://danube-property-care.example.org/contact"
+      },
+      "trigger": {
+        "type": "new_site",
+        "observed_at": "2026-02-01",
+        "source": "https://danube-property-care.example.org/careers"
+      },
+      "claims": [
+        {
+          "id": "d1",
+          "subject": "conversion_path",
+          "value": "no_enquiry_form",
+          "status": "observed",
+          "source": "https://danube-property-care.example.org/contact",
+          "observed_at": "2026-08-08",
+          "claim_key": "enquiry_form_present"
+        },
+        {
+          "id": "d2",
+          "subject": "conversion_path",
+          "value": "enquiry_form_present",
+          "status": "verified",
+          "source": "https://danube-property-care.example.org/",
+          "observed_at": "2026-08-08",
+          "claim_key": "enquiry_form_present"
+        }
+      ]
+    },
+    {
+      "company": "Pest Clean Systems",
+      "website_url": "",
+      "source": "fixture-list",
+      "gap_severity": "low",
+      "claims": [
+        {
+          "id": "p1",
+          "subject": "schema",
+          "value": "absent",
+          "status": "verified",
+          "source": "https://pest-clean-systems.example.net/",
+          "observed_at": "2026-01-02"
+        }
+      ]
+    },
+    {
+      "company": "",
+      "website_url": "",
+      "source": "fixture-broken-row",
+      "claims": []
+    }
+  ]
+}

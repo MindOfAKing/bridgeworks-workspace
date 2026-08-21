@@ -1,0 +1,44 @@
+{
+  "audit_id": "arc-solutions-limited-client-audit-evidence-2026-08-11",
+  "capability": "evidence-auditor",
+  "runtime": "codex",
+  "audited_at": "2026-08-11T13:23:08.7755560Z",
+  "source_diagnostic": "operations/internal-gtm/runs/diagnostics/arc-solutions-limited-client-audit-2026-08-11.json",
+  "classifications": {
+    "verified": ["arc-ca-002", "arc-ca-005", "arc-ca-006"],
+    "observed": ["arc-ca-001", "arc-ca-003", "arc-ca-004", "arc-ca-007", "arc-ca-008"],
+    "inferred": [],
+    "stale": [],
+    "contradicted": ["prior-arc-spota-placeholder-interpretation"],
+    "unknown": ["arc-ca-010"],
+    "exhausted_unknown": ["arc-ca-009"]
+  },
+  "approved_for_reasoning": ["arc-ca-001", "arc-ca-002", "arc-ca-003", "arc-ca-004", "arc-ca-005", "arc-ca-006", "arc-ca-007", "arc-ca-008"],
+  "not_approved_as_fact": [
+    "Which of Arc's conflicting scale figures is accurate",
+    "That the observed inconsistencies have caused lost enquiries or revenue",
+    "That Arc's ISO claim is false or expired",
+    "That displayed clients or testimonials prove a specific commercial outcome",
+    "A named buyer, signing authority, contract value or registration number"
+  ],
+  "contradictions": [
+    {
+      "subject": "owned_scale_metrics",
+      "status": "unresolved",
+      "treatment": "Retain the contradiction; do not pick a winning figure."
+    },
+    {
+      "subject": "SPOTA label interpretation",
+      "status": "resolved_against_prior_inference",
+      "treatment": "Supersede the prior placeholder-residue interpretation; preserve SPOTA as an intentional Coming Soon teaser."
+    }
+  ],
+  "limitations_carried": true,
+  "quality_gate": {
+    "provenance_present": true,
+    "assumptions_not_promoted": true,
+    "contradictions_preserved": true,
+    "unknowns_explicit": true,
+    "passes": true
+  }
+}

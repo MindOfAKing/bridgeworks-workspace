@@ -1,0 +1,100 @@
+{
+  "capability": "bridgeworks-commercial-intelligence",
+  "prospect_id": "daraja-africa-eu",
+  "as_of": "2026-08-11",
+  "stage": "stage_2_targeted_enrichment",
+  "selection_basis": "Next highest-priority unresolved prospect in the preserved first-cohort baseline; commercial_fit was required while buyer_accessibility was already fresh and complete.",
+  "findings": [
+    {
+      "id": "daraja-ci-001",
+      "category": "commercial_fit",
+      "claim_key": "legal_entity_status",
+      "claim": "A public German company directory lists Daraja UG (haftungsbeschränkt) as active, registered in August 2024 under HRB 21203 in Memmingen.",
+      "value": {"status": "active", "register_number": "HRB 21203", "formation_date": "2024-08-02"},
+      "severity": "none",
+      "source": "https://www.companyhouse.de/en/Daraja-UG-Guenzburg",
+      "observed_at": "2026-08-11",
+      "status": "observed",
+      "tool": "directory"
+    },
+    {
+      "id": "daraja-ci-002",
+      "category": "commercial_fit",
+      "claim_key": "registered_capital",
+      "claim": "The same public directory reports registered capital of EUR 2,400; this is a legal-capital fact, not revenue, budget or contract capacity.",
+      "value": {"amount": 2400, "currency": "EUR", "meaning": "registered_capital_only"},
+      "severity": "none",
+      "source": "https://www.companyhouse.de/en/Daraja-UG-Guenzburg",
+      "observed_at": "2026-08-11",
+      "status": "observed",
+      "tool": "directory"
+    },
+    {
+      "id": "daraja-ci-003",
+      "category": "commercial_fit",
+      "claim_key": "operating_footprint",
+      "claim": "Daraja's owned site publishes operating contact locations in Germany and Kenya and presents four service families spanning business advisory, cultural learning, events and travel.",
+      "value": {"published_locations": ["Günzburg, Germany", "Nairobi, Kenya"], "service_families": 4},
+      "severity": "none",
+      "source": "https://daraja-africa.eu/services/",
+      "observed_at": "2026-08-11",
+      "status": "observed",
+      "tool": "public_web"
+    },
+    {
+      "id": "daraja-ci-004",
+      "category": "execution_readiness",
+      "claim_key": "commercial_process",
+      "claim": "The services page publishes a four-step commercial process beginning with a free consultation and progressing through proposal, quote, work plan, contract, analysis, implementation and follow-up.",
+      "value": {"published_process": true, "proposal_and_quote_named": true},
+      "severity": "none",
+      "source": "https://daraja-africa.eu/services/",
+      "observed_at": "2026-08-11",
+      "status": "observed",
+      "tool": "public_web"
+    },
+    {
+      "id": "daraja-ci-005",
+      "category": "execution_readiness",
+      "claim_key": "dated_upcoming_commercial_event",
+      "claim": "Daraja's owned site lists a Security Essen / Euro Defence Expo delegation trip for 22-25 September 2026.",
+      "value": {"event": "Security Essen / Euro Defence Expo Delegation Trip 2026", "starts": "2026-09-22", "ends": "2026-09-25"},
+      "severity": "none",
+      "source": "https://daraja-africa.eu/events/",
+      "observed_at": "2026-08-11",
+      "status": "observed",
+      "tool": "public_web"
+    },
+    {
+      "id": "daraja-ci-006",
+      "category": "commercial_fit",
+      "claim_key": "client_and_revenue_scale",
+      "claim": "No independently supportable revenue, employee count, paid contract value, customer volume or current pricing was established in this bounded pass.",
+      "value": null,
+      "severity": "none",
+      "source": null,
+      "observed_at": "2026-08-11",
+      "status": "inferred",
+      "tool": "public_web"
+    }
+  ],
+  "commercial_value_band": {
+    "low": null,
+    "high": null,
+    "currency": null,
+    "basis": null,
+    "confidence": "none"
+  },
+  "procurement_complexity": "low",
+  "engagement_size_fit": "unknown",
+  "unresolved_questions": [
+    "Published client volume, revenue or contract evidence sufficient to assess budget capacity.",
+    "Whether the September 2026 delegation is actively selling places and at what price.",
+    "Whether the Nairobi address represents staffed operations or a contact location."
+  ],
+  "buyer_intelligence_rerun": {
+    "performed": false,
+    "reason": "buyer_accessibility already had fresh approved evidence and research_status complete; the skill forbids wasteful re-research."
+  },
+  "external_action_authorized": false
+}

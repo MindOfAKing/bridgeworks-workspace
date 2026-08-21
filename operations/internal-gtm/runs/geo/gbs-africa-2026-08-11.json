@@ -1,0 +1,1000 @@
+{
+  "slice": "geo",
+  "as_of": "2026-08-11",
+  "prospect": {
+    "company": "GBS Africa",
+    "website_url": "https://www.gbsafrica.co.uk/",
+    "source": "client-acquisition-engine:2026-08-05-batch-01-results.json",
+    "entity_key": "domain:gbsafrica.co.uk",
+    "canonical_domain": "gbsafrica.co.uk",
+    "alternate_domains": [],
+    "normalized_company": "gbs africa",
+    "source_provenance": [
+      "client-acquisition-engine:2026-08-05-batch-01-results.json"
+    ],
+    "prospect_id": "gbs-africa",
+    "buyer_name": null,
+    "buyer_role": null,
+    "buyer_email": "info@gbsafrica.co.uk",
+    "qualification_model": "qualification-v1",
+    "qualification_score": 59,
+    "qualification_tier": "QUALIFIED",
+    "actionability": "blocked_contradicted_evidence"
+  },
+  "evidence": {
+    "as_of": "2026-08-11",
+    "staleness_days": 180,
+    "ledger": [
+      {
+        "id": "agent-title-present",
+        "subject": "search_visibility",
+        "claim_key": "homepage_title_tag",
+        "contradiction_key": [
+          "declared",
+          "homepage_title_tag"
+        ],
+        "value": "title_tag_present_meta_description_empty",
+        "source": "https://www.gbsafrica.co.uk/",
+        "observed_at": "2026-08-11",
+        "declared_status": "verified",
+        "status": "contradicted",
+        "reason": "conflicting_values_for_homepage_title_tag"
+      },
+      {
+        "id": "geo-dead-policy-links",
+        "subject": "website_trust",
+        "claim_key": null,
+        "contradiction_key": [
+          "implicit",
+          "website_trust",
+          "https://www.gbsafrica.co.uk/about/"
+        ],
+        "value": "policy_links_dead",
+        "source": "https://www.gbsafrica.co.uk/about/",
+        "observed_at": "2026-08-11",
+        "declared_status": "verified",
+        "status": "verified",
+        "reason": "declared"
+      },
+      {
+        "id": "geo-entity-collision",
+        "subject": "ai_visibility",
+        "claim_key": null,
+        "contradiction_key": [
+          "implicit",
+          "ai_visibility",
+          "https://gbsafrica.net/"
+        ],
+        "value": "same_name_same_city_collision",
+        "source": "https://gbsafrica.net/",
+        "observed_at": "2026-08-11",
+        "declared_status": "observed",
+        "status": "observed",
+        "reason": "declared"
+      },
+      {
+        "id": "geo-llmstxt",
+        "subject": "ai_visibility",
+        "claim_key": null,
+        "contradiction_key": [
+          "implicit",
+          "ai_visibility",
+          "https://www.gbsafrica.co.uk/llms.txt"
+        ],
+        "value": "llms_txt_absent",
+        "source": "https://www.gbsafrica.co.uk/llms.txt",
+        "observed_at": "2026-08-11",
+        "declared_status": "verified",
+        "status": "verified",
+        "reason": "declared"
+      },
+      {
+        "id": "geo-no-bylines",
+        "subject": "content_depth",
+        "claim_key": null,
+        "contradiction_key": [
+          "implicit",
+          "content_depth",
+          "https://www.gbsafrica.co.uk/insights/"
+        ],
+        "value": "no_author_no_date",
+        "source": "https://www.gbsafrica.co.uk/insights/",
+        "observed_at": "2026-08-11",
+        "declared_status": "verified",
+        "status": "contradicted",
+        "reason": "conflicting_values_for_content_depth@https://www.gbsafrica.co.uk/insights/"
+      },
+      {
+        "id": "geo-no-https-redirect",
+        "subject": "website_trust",
+        "claim_key": null,
+        "contradiction_key": [
+          "implicit",
+          "website_trust",
+          "http://www.gbsafrica.co.uk/"
+        ],
+        "value": "no_https_redirect",
+        "source": "http://www.gbsafrica.co.uk/",
+        "observed_at": "2026-08-11",
+        "declared_status": "verified",
+        "status": "verified",
+        "reason": "declared"
+      },
+      {
+        "id": "geo-placeholder-copy",
+        "subject": "website_trust",
+        "claim_key": null,
+        "contradiction_key": [
+          "implicit",
+          "website_trust",
+          "https://www.gbsafrica.co.uk/"
+        ],
+        "value": "placeholder_copy_live",
+        "source": "https://www.gbsafrica.co.uk/",
+        "observed_at": "2026-08-11",
+        "declared_status": "verified",
+        "status": "verified",
+        "reason": "declared"
+      },
+      {
+        "id": "geo-reports-404",
+        "subject": "crawlability",
+        "claim_key": null,
+        "contradiction_key": [
+          "implicit",
+          "crawlability",
+          "https://www.gbsafrica.co.uk/reports"
+        ],
+        "value": "nav_link_404",
+        "source": "https://www.gbsafrica.co.uk/reports",
+        "observed_at": "2026-08-11",
+        "declared_status": "verified",
+        "status": "verified",
+        "reason": "declared"
+      },
+      {
+        "id": "geo-research-in-pdf",
+        "subject": "content_depth",
+        "claim_key": null,
+        "contradiction_key": [
+          "implicit",
+          "content_depth",
+          "https://www.gbsafrica.co.uk/insights/"
+        ],
+        "value": "research_only_as_binary_files",
+        "source": "https://www.gbsafrica.co.uk/insights/",
+        "observed_at": "2026-08-11",
+        "declared_status": "verified",
+        "status": "contradicted",
+        "reason": "conflicting_values_for_content_depth@https://www.gbsafrica.co.uk/insights/"
+      },
+      {
+        "id": "geo-robots",
+        "subject": "crawlability",
+        "claim_key": null,
+        "contradiction_key": [
+          "implicit",
+          "crawlability",
+          "https://www.gbsafrica.co.uk/robots.txt"
+        ],
+        "value": "robots_txt_absent",
+        "source": "https://www.gbsafrica.co.uk/robots.txt",
+        "observed_at": "2026-08-11",
+        "declared_status": "verified",
+        "status": "verified",
+        "reason": "declared"
+      },
+      {
+        "id": "geo-sameas",
+        "subject": "schema",
+        "claim_key": null,
+        "contradiction_key": [
+          "implicit",
+          "schema",
+          "https://www.gbsafrica.co.uk/"
+        ],
+        "value": "no_sameas",
+        "source": "https://www.gbsafrica.co.uk/",
+        "observed_at": "2026-08-11",
+        "declared_status": "verified",
+        "status": "verified",
+        "reason": "declared"
+      },
+      {
+        "id": "geo-schema-absent",
+        "subject": "schema",
+        "claim_key": null,
+        "contradiction_key": [
+          "implicit",
+          "schema",
+          "https://www.gbsafrica.co.uk/about/"
+        ],
+        "value": "no_structured_data_sitewide",
+        "source": "https://www.gbsafrica.co.uk/about/",
+        "observed_at": "2026-08-11",
+        "declared_status": "verified",
+        "status": "verified",
+        "reason": "declared"
+      },
+      {
+        "id": "geo-sitemap",
+        "subject": "crawlability",
+        "claim_key": null,
+        "contradiction_key": [
+          "implicit",
+          "crawlability",
+          "https://www.gbsafrica.co.uk/sitemap.xml"
+        ],
+        "value": "sitemap_absent",
+        "source": "https://www.gbsafrica.co.uk/sitemap.xml",
+        "observed_at": "2026-08-11",
+        "declared_status": "verified",
+        "status": "verified",
+        "reason": "declared"
+      },
+      {
+        "id": "geo-team-no-credentials",
+        "subject": "content_depth",
+        "claim_key": null,
+        "contradiction_key": [
+          "implicit",
+          "content_depth",
+          "https://www.gbsafrica.co.uk/about/"
+        ],
+        "value": "no_credentials_published",
+        "source": "https://www.gbsafrica.co.uk/about/",
+        "observed_at": "2026-08-11",
+        "declared_status": "verified",
+        "status": "verified",
+        "reason": "declared"
+      },
+      {
+        "id": "geo-wikipedia",
+        "subject": "ai_visibility",
+        "claim_key": null,
+        "contradiction_key": [
+          "implicit",
+          "ai_visibility",
+          "https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=GBS+Africa&format=json"
+        ],
+        "value": "no_wikipedia_entity",
+        "source": "https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=GBS+Africa&format=json",
+        "observed_at": "2026-08-11",
+        "declared_status": "verified",
+        "status": "verified",
+        "reason": "declared"
+      },
+      {
+        "id": "q-buyer",
+        "subject": "buyer_accessibility",
+        "claim_key": "buyer_contact_route",
+        "contradiction_key": [
+          "declared",
+          "buyer_contact_route"
+        ],
+        "value": {
+          "name": null,
+          "email": "info@gbsafrica.co.uk"
+        },
+        "source": "https://www.gbsafrica.co.uk/insights/",
+        "observed_at": "2026-08-11",
+        "declared_status": "observed",
+        "status": "observed",
+        "reason": "declared"
+      },
+      {
+        "id": "q-proof-ceefm-geo-16-to-77",
+        "subject": "proof_fit",
+        "claim_key": "bridgeworks_proof_asset",
+        "contradiction_key": [
+          "declared",
+          "bridgeworks_proof_asset"
+        ],
+        "value": "ceefm-geo-16-to-77",
+        "source": "clients/ceefm/VERIFIED-FACTS.md",
+        "observed_at": "2026-08-11",
+        "declared_status": "verified",
+        "status": "verified",
+        "reason": "declared"
+      },
+      {
+        "id": "q-trigger",
+        "subject": "trigger_urgency",
+        "claim_key": "current_buyer_event",
+        "contradiction_key": [
+          "declared",
+          "current_buyer_event"
+        ],
+        "value": "diagnostic_run",
+        "source": "https://www.gbsafrica.co.uk/insights/",
+        "observed_at": "2026-08-11",
+        "declared_status": "observed",
+        "status": "observed",
+        "reason": "declared"
+      },
+      {
+        "id": "recon-title-absent",
+        "subject": "search_visibility",
+        "claim_key": "homepage_title_tag",
+        "contradiction_key": [
+          "declared",
+          "homepage_title_tag"
+        ],
+        "value": "title_tag_absent",
+        "source": "https://www.gbsafrica.co.uk/",
+        "observed_at": "2026-08-11",
+        "declared_status": "verified",
+        "status": "contradicted",
+        "reason": "conflicting_values_for_homepage_title_tag"
+      }
+    ],
+    "approved_claim_ids": [
+      "geo-dead-policy-links",
+      "geo-entity-collision",
+      "geo-llmstxt",
+      "geo-no-https-redirect",
+      "geo-placeholder-copy",
+      "geo-reports-404",
+      "geo-robots",
+      "geo-sameas",
+      "geo-schema-absent",
+      "geo-sitemap",
+      "geo-team-no-credentials",
+      "geo-wikipedia",
+      "q-buyer",
+      "q-proof-ceefm-geo-16-to-77",
+      "q-trigger"
+    ],
+    "rejected_claim_ids": [
+      "agent-title-present",
+      "geo-no-bylines",
+      "geo-research-in-pdf",
+      "recon-title-absent"
+    ],
+    "evidence_quality": "verified",
+    "counts": {
+      "verified": 12,
+      "observed": 3,
+      "inferred": 0,
+      "stale": 0,
+      "contradicted": 4,
+      "unknown": 0
+    }
+  },
+  "route": {
+    "route_id": "content-visibility-demand",
+    "route_name": "Content, Visibility & Demand",
+    "matched_gaps": [
+      "ai_visibility",
+      "content_depth",
+      "crawlability",
+      "schema"
+    ],
+    "fit": "adjacent",
+    "secondary_routes": [
+      "digital-platforms-brand"
+    ],
+    "diagnostic_capability": "bridgeworks-geo-prospect-scan",
+    "proof_asset_id": "ceefm-geo-16-to-77",
+    "scores": {
+      "evidence_strength": 26,
+      "commercial_pain": 25,
+      "buyer_relevance": 0,
+      "proof_fit": 2,
+      "urgency": 7,
+      "entry_offer_credibility": 2
+    },
+    "won_on": "evidence_strength",
+    "confidence": {
+      "capability_maturity": "mature",
+      "note": "reported only, never used to select"
+    },
+    "candidates": [
+      {
+        "route_id": "content-visibility-demand",
+        "route_name": "Content, Visibility & Demand",
+        "matched_gaps": [
+          "ai_visibility",
+          "content_depth",
+          "crawlability",
+          "schema"
+        ],
+        "scores": {
+          "evidence_strength": 26,
+          "commercial_pain": 25,
+          "buyer_relevance": 0,
+          "proof_fit": 2,
+          "urgency": 7,
+          "entry_offer_credibility": 2
+        },
+        "ranking_key": [
+          26,
+          25,
+          0,
+          2,
+          7,
+          2
+        ],
+        "capability_maturity": "mature",
+        "diagnostic_capability": "bridgeworks-geo-prospect-scan",
+        "proof_asset_id": "ceefm-geo-16-to-77"
+      },
+      {
+        "route_id": "digital-platforms-brand",
+        "route_name": "Digital Platforms & Brand Systems",
+        "matched_gaps": [
+          "website_trust"
+        ],
+        "scores": {
+          "evidence_strength": 9,
+          "commercial_pain": 9,
+          "buyer_relevance": 0,
+          "proof_fit": 2,
+          "urgency": 3,
+          "entry_offer_credibility": 2
+        },
+        "ranking_key": [
+          9,
+          9,
+          0,
+          2,
+          3,
+          2
+        ],
+        "capability_maturity": "mature",
+        "diagnostic_capability": "client-audit",
+        "proof_asset_id": "oliviks-foundation-2026-07-24"
+      }
+    ]
+  },
+  "qualification": {
+    "qualification_version": "qualification-v1",
+    "score": 59,
+    "max_score": 100,
+    "tier": "QUALIFIED",
+    "actionability": "blocked_contradicted_evidence",
+    "blocking_reasons": [
+      "materially_contradicted_evidence"
+    ],
+    "components": {
+      "problem_evidence": {
+        "score": 25,
+        "requested_score": 25,
+        "max_score": 25,
+        "evidence_ids": [
+          "geo-dead-policy-links",
+          "geo-entity-collision",
+          "geo-llmstxt",
+          "geo-no-https-redirect",
+          "geo-placeholder-copy",
+          "geo-reports-404",
+          "geo-robots",
+          "geo-sameas",
+          "geo-schema-absent",
+          "geo-sitemap",
+          "geo-team-no-credentials",
+          "geo-wikipedia"
+        ],
+        "usable_evidence_ids": [
+          "geo-dead-policy-links",
+          "geo-entity-collision",
+          "geo-llmstxt",
+          "geo-no-https-redirect",
+          "geo-placeholder-copy",
+          "geo-reports-404",
+          "geo-robots",
+          "geo-sameas",
+          "geo-schema-absent",
+          "geo-sitemap",
+          "geo-team-no-credentials",
+          "geo-wikipedia"
+        ],
+        "approved_evidence_ids": [
+          "geo-dead-policy-links",
+          "geo-entity-collision",
+          "geo-llmstxt",
+          "geo-no-https-redirect",
+          "geo-placeholder-copy",
+          "geo-reports-404",
+          "geo-robots",
+          "geo-sameas",
+          "geo-schema-absent",
+          "geo-sitemap",
+          "geo-team-no-credentials",
+          "geo-wikipedia"
+        ],
+        "unresolvable_evidence_ids": [],
+        "contradicted_evidence_ids": [],
+        "contradicted": false,
+        "evidence_classes": [
+          "observed",
+          "verified"
+        ],
+        "evidence_freshness": "current",
+        "evidence_age_days": 0,
+        "confidence": "high",
+        "source_provenance": [
+          "http://www.gbsafrica.co.uk/",
+          "https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=GBS+Africa&format=json",
+          "https://gbsafrica.net/",
+          "https://www.gbsafrica.co.uk/",
+          "https://www.gbsafrica.co.uk/about/",
+          "https://www.gbsafrica.co.uk/llms.txt",
+          "https://www.gbsafrica.co.uk/reports",
+          "https://www.gbsafrica.co.uk/robots.txt",
+          "https://www.gbsafrica.co.uk/sitemap.xml"
+        ],
+        "adjustment_reason": null,
+        "reason": "scored",
+        "rationale": "approved diagnostic findings weighted by severity",
+        "evidence_state": "approved",
+        "research_status": "complete"
+      },
+      "commercial_fit": {
+        "score": 0,
+        "requested_score": 0,
+        "max_score": 20,
+        "evidence_ids": [],
+        "usable_evidence_ids": [],
+        "approved_evidence_ids": [],
+        "unresolvable_evidence_ids": [],
+        "contradicted_evidence_ids": [],
+        "contradicted": false,
+        "evidence_classes": [],
+        "evidence_freshness": "unknown",
+        "evidence_age_days": null,
+        "confidence": "unknown",
+        "source_provenance": [],
+        "adjustment_reason": null,
+        "reason": "scored",
+        "rationale": "no contract-value, budget or segment evidence collected",
+        "evidence_state": "unknown",
+        "research_status": "required"
+      },
+      "buyer_accessibility": {
+        "score": 4,
+        "requested_score": 4,
+        "max_score": 15,
+        "evidence_ids": [
+          "q-buyer"
+        ],
+        "usable_evidence_ids": [
+          "q-buyer"
+        ],
+        "approved_evidence_ids": [
+          "q-buyer"
+        ],
+        "unresolvable_evidence_ids": [],
+        "contradicted_evidence_ids": [],
+        "contradicted": false,
+        "evidence_classes": [
+          "observed"
+        ],
+        "evidence_freshness": "current",
+        "evidence_age_days": 0,
+        "confidence": "medium",
+        "source_provenance": [
+          "https://www.gbsafrica.co.uk/insights/"
+        ],
+        "adjustment_reason": null,
+        "reason": "scored",
+        "rationale": "verified contact route",
+        "evidence_state": "approved",
+        "research_status": "partial"
+      },
+      "trigger_urgency": {
+        "score": 15,
+        "requested_score": 15,
+        "max_score": 15,
+        "evidence_ids": [
+          "q-trigger"
+        ],
+        "usable_evidence_ids": [
+          "q-trigger"
+        ],
+        "approved_evidence_ids": [
+          "q-trigger"
+        ],
+        "unresolvable_evidence_ids": [],
+        "contradicted_evidence_ids": [],
+        "contradicted": false,
+        "evidence_classes": [
+          "observed"
+        ],
+        "evidence_freshness": "current",
+        "evidence_age_days": 0,
+        "confidence": "medium",
+        "source_provenance": [
+          "https://www.gbsafrica.co.uk/insights/"
+        ],
+        "adjustment_reason": null,
+        "reason": "scored",
+        "rationale": "age of the observed buyer event",
+        "evidence_state": "approved",
+        "research_status": "complete"
+      },
+      "proof_fit": {
+        "score": 15,
+        "requested_score": 15,
+        "max_score": 15,
+        "evidence_ids": [
+          "q-proof-ceefm-geo-16-to-77"
+        ],
+        "usable_evidence_ids": [
+          "q-proof-ceefm-geo-16-to-77"
+        ],
+        "approved_evidence_ids": [
+          "q-proof-ceefm-geo-16-to-77"
+        ],
+        "unresolvable_evidence_ids": [],
+        "contradicted_evidence_ids": [],
+        "contradicted": false,
+        "evidence_classes": [
+          "verified"
+        ],
+        "evidence_freshness": "current",
+        "evidence_age_days": 0,
+        "confidence": "high",
+        "source_provenance": [
+          "clients/ceefm/VERIFIED-FACTS.md"
+        ],
+        "adjustment_reason": null,
+        "reason": "scored",
+        "rationale": "verified proof asset strength for this problem: strong",
+        "evidence_state": "approved",
+        "research_status": "complete"
+      },
+      "execution_readiness": {
+        "score": 0,
+        "requested_score": 0,
+        "max_score": 10,
+        "evidence_ids": [],
+        "usable_evidence_ids": [],
+        "approved_evidence_ids": [],
+        "unresolvable_evidence_ids": [],
+        "contradicted_evidence_ids": [],
+        "contradicted": false,
+        "evidence_classes": [],
+        "evidence_freshness": "unknown",
+        "evidence_age_days": null,
+        "confidence": "unknown",
+        "source_provenance": [],
+        "adjustment_reason": null,
+        "reason": "scored",
+        "rationale": "no delivery-capacity or decision-process evidence collected",
+        "evidence_state": "unknown",
+        "research_status": "required"
+      }
+    },
+    "adjustments": [],
+    "thresholds": {
+      "HOT": 85,
+      "STRONG": 70,
+      "QUALIFIED": 55,
+      "WATCH": 40,
+      "DO_NOT_PURSUE": 0
+    },
+    "qualification_coverage": {
+      "sufficiently_researched_dimensions": 3,
+      "total_dimensions": 6,
+      "percentage": 50.0,
+      "by_dimension": {
+        "problem_evidence": {
+          "score": 25,
+          "evidence_state": "approved",
+          "evidence_ids": [
+            "geo-dead-policy-links",
+            "geo-entity-collision",
+            "geo-llmstxt",
+            "geo-no-https-redirect",
+            "geo-placeholder-copy",
+            "geo-reports-404",
+            "geo-robots",
+            "geo-sameas",
+            "geo-schema-absent",
+            "geo-sitemap",
+            "geo-team-no-credentials",
+            "geo-wikipedia"
+          ],
+          "confidence": "high",
+          "research_status": "complete",
+          "zero_because": null
+        },
+        "commercial_fit": {
+          "score": 0,
+          "evidence_state": "unknown",
+          "evidence_ids": [],
+          "confidence": "unknown",
+          "research_status": "required",
+          "zero_because": "missing_research"
+        },
+        "buyer_accessibility": {
+          "score": 4,
+          "evidence_state": "approved",
+          "evidence_ids": [
+            "q-buyer"
+          ],
+          "confidence": "medium",
+          "research_status": "partial",
+          "zero_because": null
+        },
+        "trigger_urgency": {
+          "score": 15,
+          "evidence_state": "approved",
+          "evidence_ids": [
+            "q-trigger"
+          ],
+          "confidence": "medium",
+          "research_status": "complete",
+          "zero_because": null
+        },
+        "proof_fit": {
+          "score": 15,
+          "evidence_state": "approved",
+          "evidence_ids": [
+            "q-proof-ceefm-geo-16-to-77"
+          ],
+          "confidence": "high",
+          "research_status": "complete",
+          "zero_because": null
+        },
+        "execution_readiness": {
+          "score": 0,
+          "evidence_state": "unknown",
+          "evidence_ids": [],
+          "confidence": "unknown",
+          "research_status": "required",
+          "zero_because": "missing_research"
+        }
+      },
+      "missing_dimensions": [
+        "commercial_fit",
+        "execution_readiness"
+      ],
+      "partial_dimensions": [
+        "buyer_accessibility"
+      ],
+      "verified_negative_dimensions": [],
+      "not_applicable_dimensions": [],
+      "note": "Coverage is not a score and is never added to one. A dimension can be fully researched and score zero. That is a verified negative, not a gap."
+    },
+    "model": "qualification-v1",
+    "model_approved": "2026-08-11",
+    "as_of": "2026-08-11",
+    "derived_by": "operations/internal-gtm/scripts/qualification_v1.py",
+    "gates_evaluated": {
+      "identity_domain_resolved": true,
+      "viable_contact_destination": true,
+      "credible_service_route": true,
+      "materially_contradicted_evidence": true,
+      "previous_outreach_exists": false,
+      "communication_state_resolved": true,
+      "legal_compliance_exclusion": false,
+      "explicit_defer_hold": false
+    },
+    "component_scores": {
+      "problem_evidence": 25,
+      "commercial_fit": 0,
+      "buyer_accessibility": 4,
+      "trigger_urgency": 15,
+      "proof_fit": 15,
+      "execution_readiness": 0
+    },
+    "unscored_components": [
+      "commercial_fit",
+      "execution_readiness"
+    ],
+    "unresolvable_evidence_ids": [],
+    "evidence_gap": true,
+    "blocking_conditions": [
+      {
+        "condition": "materially_contradicted_evidence"
+      }
+    ],
+    "superseded_reference": {
+      "model": "former-gtm-core-five-signal-rubric",
+      "historical_signals": {
+        "route_fit": "adjacent",
+        "trigger_age_days": 0,
+        "evidence_quality": "verified",
+        "reachability": "generic_contact",
+        "gap_severity": "high"
+      },
+      "score": null,
+      "tier": null,
+      "note": "source material only. It cannot independently own qualification state."
+    }
+  },
+  "steps": [
+    {
+      "stage": "account_discovered",
+      "role": "data-steward",
+      "note": "identity normalized, exact dedupe applied"
+    },
+    {
+      "stage": "evidence_collected",
+      "role": "evidence-auditor",
+      "note": "12 of 16 claims approved",
+      "counts": {
+        "verified": 11,
+        "observed": 1,
+        "inferred": 0,
+        "stale": 0,
+        "contradicted": 4,
+        "unknown": 0
+      }
+    },
+    {
+      "stage": "qualified",
+      "role": "lead-qualifier",
+      "signals": {
+        "route_fit": "adjacent",
+        "trigger_age_days": 0,
+        "evidence_quality": "verified",
+        "reachability": "generic_contact",
+        "gap_severity": "high"
+      },
+      "result": {
+        "qualification_version": "qualification-v1",
+        "score": 59,
+        "max_score": 100,
+        "tier": "QUALIFIED",
+        "actionability": "blocked_contradicted_evidence",
+        "blocking_reasons": [
+          "materially_contradicted_evidence"
+        ],
+        "adjustments": [],
+        "thresholds": {
+          "HOT": 85,
+          "STRONG": 70,
+          "QUALIFIED": 55,
+          "WATCH": 40,
+          "DO_NOT_PURSUE": 0
+        },
+        "qualification_coverage": {
+          "sufficiently_researched_dimensions": 3,
+          "total_dimensions": 6,
+          "percentage": 50.0,
+          "by_dimension": {
+            "problem_evidence": {
+              "score": 25,
+              "evidence_state": "approved",
+              "evidence_ids": [
+                "geo-dead-policy-links",
+                "geo-entity-collision",
+                "geo-llmstxt",
+                "geo-no-https-redirect",
+                "geo-placeholder-copy",
+                "geo-reports-404",
+                "geo-robots",
+                "geo-sameas",
+                "geo-schema-absent",
+                "geo-sitemap",
+                "geo-team-no-credentials",
+                "geo-wikipedia"
+              ],
+              "confidence": "high",
+              "research_status": "complete",
+              "zero_because": null
+            },
+            "commercial_fit": {
+              "score": 0,
+              "evidence_state": "unknown",
+              "evidence_ids": [],
+              "confidence": "unknown",
+              "research_status": "required",
+              "zero_because": "missing_research"
+            },
+            "buyer_accessibility": {
+              "score": 4,
+              "evidence_state": "approved",
+              "evidence_ids": [
+                "q-buyer"
+              ],
+              "confidence": "medium",
+              "research_status": "partial",
+              "zero_because": null
+            },
+            "trigger_urgency": {
+              "score": 15,
+              "evidence_state": "approved",
+              "evidence_ids": [
+                "q-trigger"
+              ],
+              "confidence": "medium",
+              "research_status": "complete",
+              "zero_because": null
+            },
+            "proof_fit": {
+              "score": 15,
+              "evidence_state": "approved",
+              "evidence_ids": [
+                "q-proof-ceefm-geo-16-to-77"
+              ],
+              "confidence": "high",
+              "research_status": "complete",
+              "zero_because": null
+            },
+            "execution_readiness": {
+              "score": 0,
+              "evidence_state": "unknown",
+              "evidence_ids": [],
+              "confidence": "unknown",
+              "research_status": "required",
+              "zero_because": "missing_research"
+            }
+          },
+          "missing_dimensions": [
+            "commercial_fit",
+            "execution_readiness"
+          ],
+          "partial_dimensions": [
+            "buyer_accessibility"
+          ],
+          "verified_negative_dimensions": [],
+          "not_applicable_dimensions": [],
+          "note": "Coverage is not a score and is never added to one. A dimension can be fully researched and score zero. That is a verified negative, not a gap."
+        },
+        "model": "qualification-v1",
+        "model_approved": "2026-08-11",
+        "as_of": "2026-08-11",
+        "derived_by": "operations/internal-gtm/scripts/qualification_v1.py",
+        "gates_evaluated": {
+          "identity_domain_resolved": true,
+          "viable_contact_destination": true,
+          "credible_service_route": true,
+          "materially_contradicted_evidence": true,
+          "previous_outreach_exists": false,
+          "communication_state_resolved": true,
+          "legal_compliance_exclusion": false,
+          "explicit_defer_hold": false
+        },
+        "component_scores": {
+          "problem_evidence": 25,
+          "commercial_fit": 0,
+          "buyer_accessibility": 4,
+          "trigger_urgency": 15,
+          "proof_fit": 15,
+          "execution_readiness": 0
+        },
+        "unscored_components": [
+          "commercial_fit",
+          "execution_readiness"
+        ],
+        "unresolvable_evidence_ids": [],
+        "evidence_gap": true,
+        "blocking_conditions": [
+          {
+            "condition": "materially_contradicted_evidence"
+          }
+        ],
+        "superseded_reference": {
+          "model": "former-gtm-core-five-signal-rubric",
+          "historical_signals": {
+            "route_fit": "adjacent",
+            "trigger_age_days": 0,
+            "evidence_quality": "verified",
+            "reachability": "generic_contact",
+            "gap_severity": "high"
+          },
+          "score": null,
+          "tier": null,
+          "note": "source material only. It cannot independently own qualification state."
+        }
+      }
+    },
+    {
+      "stage": "qualified",
+      "role": "lead-qualifier",
+      "note": "score 59 QUALIFIED, actionability blocked_contradicted_evidence"
+    }
+  ],
+  "external_action_authorized": false,
+  "lifecycle_stage": "qualified",
+  "next_action": "resolve_blocking_condition",
+  "blocking_conditions": [
+    {
+      "condition": "materially_contradicted_evidence"
+    }
+  ]
+}

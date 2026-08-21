@@ -1,0 +1,187 @@
+{
+  "slice": "market_discovery",
+  "as_of": "2026-08-11",
+  "market": "Budapest facility management",
+  "sector_hypothesis": "Owner-led facility management firms with contract values above 2M HUF and no AI visibility.",
+  "lifecycle_stage": "qualified",
+  "dedupe": {
+    "merges": [
+      {
+        "entity_key": "domain:northline-facility.example.com",
+        "kept": "Northline Facility Services Kft.",
+        "merged_count": 2,
+        "merged": [
+          "NORTHLINE FACILITY SERVICES"
+        ],
+        "rule": "exact_key_match"
+      }
+    ],
+    "rejected": [
+      {
+        "record": {
+          "company": "",
+          "website_url": "",
+          "source": "fixture-broken-row",
+          "claims": []
+        },
+        "reason": "no_domain_or_company"
+      }
+    ]
+  },
+  "tier_counts": {
+    "HOT": 0,
+    "STRONG": 1,
+    "QUALIFIED": 0,
+    "WATCH": 0,
+    "DO_NOT_PURSUE": 2
+  },
+  "research_queue": [
+    {
+      "prospect_id": "domain:northline-facility.example.com",
+      "entity_key": "domain:northline-facility.example.com",
+      "company": "Northline Facility Services Kft.",
+      "normalized_company": "northline facility services",
+      "canonical_domain": "northline-facility.example.com",
+      "market": "Budapest facility management",
+      "service_route": "content-visibility-demand",
+      "route_fit": "exact",
+      "matched_gaps": [
+        "ai_visibility"
+      ],
+      "evidence_quality": "verified",
+      "approved_claim_count": 1,
+      "qualification_score": 70,
+      "qualification_tier": "STRONG",
+      "qualification_model": "qualification-v1",
+      "actionability": "actionable",
+      "component_scores": {
+        "problem_evidence": 25,
+        "commercial_fit": 0,
+        "buyer_accessibility": 15,
+        "trigger_urgency": 15,
+        "proof_fit": 15,
+        "execution_readiness": 0
+      },
+      "signals": {
+        "route_fit": "exact",
+        "trigger_age_days": 14,
+        "evidence_quality": "verified",
+        "reachability": "named_buyer_with_email",
+        "gap_severity": "high"
+      },
+      "source_provenance": [
+        "fixture-list",
+        "fixture-second-list"
+      ],
+      "lifecycle_stage": "qualified",
+      "next_capability": "bridgeworks-geo-prospect-scan",
+      "route_escalation": null,
+      "rank": 1
+    },
+    {
+      "prospect_id": "domain:danube-property-care.example.org",
+      "entity_key": "domain:danube-property-care.example.org",
+      "company": "Danube Property Care Bt.",
+      "normalized_company": "danube property care",
+      "canonical_domain": "danube-property-care.example.org",
+      "market": "Budapest facility management",
+      "service_route": "digital-platforms-brand",
+      "route_fit": "exact",
+      "matched_gaps": [
+        "conversion_path"
+      ],
+      "evidence_quality": "unknown",
+      "approved_claim_count": 0,
+      "qualification_score": 20,
+      "qualification_tier": "DO_NOT_PURSUE",
+      "qualification_model": "qualification-v1",
+      "actionability": "blocked_missing_destination",
+      "component_scores": {
+        "problem_evidence": 5,
+        "commercial_fit": 0,
+        "buyer_accessibility": 0,
+        "trigger_urgency": 0,
+        "proof_fit": 15,
+        "execution_readiness": 0
+      },
+      "signals": {
+        "route_fit": "exact",
+        "trigger_age_days": 191,
+        "evidence_quality": "unknown",
+        "reachability": "named_buyer",
+        "gap_severity": "medium"
+      },
+      "source_provenance": [
+        "fixture-list"
+      ],
+      "lifecycle_stage": "qualified",
+      "next_capability": "client-audit",
+      "route_escalation": null,
+      "rank": 2
+    },
+    {
+      "prospect_id": "company:pest clean systems",
+      "entity_key": "company:pest clean systems",
+      "company": "Pest Clean Systems",
+      "normalized_company": "pest clean systems",
+      "canonical_domain": null,
+      "market": "Budapest facility management",
+      "service_route": null,
+      "route_fit": "none",
+      "matched_gaps": [],
+      "evidence_quality": "unknown",
+      "approved_claim_count": 0,
+      "qualification_score": 0,
+      "qualification_tier": "DO_NOT_PURSUE",
+      "qualification_model": "qualification-v1",
+      "actionability": "blocked_missing_destination",
+      "component_scores": {
+        "problem_evidence": 0,
+        "commercial_fit": 0,
+        "buyer_accessibility": 0,
+        "trigger_urgency": 0,
+        "proof_fit": 0,
+        "execution_readiness": 0
+      },
+      "signals": {
+        "route_fit": "none",
+        "trigger_age_days": null,
+        "evidence_quality": "unknown",
+        "reachability": "none",
+        "gap_severity": "low"
+      },
+      "source_provenance": [
+        "fixture-list"
+      ],
+      "lifecycle_stage": "qualified",
+      "next_capability": null,
+      "route_escalation": null,
+      "rank": 3
+    }
+  ],
+  "steps": [
+    {
+      "stage": "market_hypothesis",
+      "role": "market-icp-strategist",
+      "market": "Budapest facility management",
+      "hypothesis": "Owner-led facility management firms with contract values above 2M HUF and no AI visibility."
+    },
+    {
+      "stage": "account_discovered",
+      "role": "data-steward",
+      "input_count": 5,
+      "unique_count": 3,
+      "merged": 1,
+      "rejected": 1,
+      "rule": "exact_key_match, deterministic_code"
+    },
+    {
+      "stage": "qualified",
+      "role": "lead-qualifier",
+      "scored": 3,
+      "rubric": "qualification-v1, evidence-attributed fixed arithmetic"
+    }
+  ],
+  "external_action_authorized": false,
+  "next_action": "run diagnostic capability on actionable HOT, STRONG and QUALIFIED rows, in rank order"
+}

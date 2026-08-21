@@ -1,0 +1,452 @@
+{
+  "version": 1,
+  "roles": [
+    {
+      "id": "gtm-director",
+      "name": "GTM Director",
+      "mission": "Turn revenue goals and capacity into GTM priorities.",
+      "inputs": [
+        "revenue_target",
+        "capacity",
+        "pipeline_state",
+        "proof_assets"
+      ],
+      "outputs": [
+        "gtm_plan",
+        "priority_markets",
+        "weekly_actions"
+      ],
+      "authority": "recommend_only",
+      "kpis": [
+        "qualified_opportunities",
+        "meetings",
+        "pipeline_value"
+      ],
+      "capabilities": [
+        "bridgeworks-gtm-pipeline-health",
+        "competitive-research",
+        "bridgeworks-operating-system"
+      ]
+    },
+    {
+      "id": "market-icp-strategist",
+      "name": "Market & ICP Strategist",
+      "mission": "Choose which markets and buyer profiles should enter the engine.",
+      "inputs": [
+        "service_routes",
+        "proof",
+        "historical_results",
+        "market_evidence"
+      ],
+      "outputs": [
+        "market_thesis",
+        "icp_hypothesis",
+        "buyer_profile"
+      ],
+      "authority": "recommend_only",
+      "kpis": [
+        "market_to_qualified_rate",
+        "positive_reply_rate_by_segment"
+      ],
+      "capabilities": [
+        "competitive-research",
+        "market",
+        "market-competitors",
+        "bridgeworks-gtm-pipeline-health"
+      ]
+    },
+    {
+      "id": "trigger-scout",
+      "name": "Trigger / Intent Scout",
+      "mission": "Find why a company should be contacted now.",
+      "inputs": [
+        "market",
+        "company_or_domain"
+      ],
+      "outputs": [
+        "trigger_events",
+        "evidence",
+        "freshness",
+        "confidence"
+      ],
+      "authority": "read_only",
+      "kpis": [
+        "verified_triggers",
+        "trigger_to_reply_rate"
+      ],
+      "capabilities": [
+        "competitive-research",
+        "client-audit"
+      ]
+    },
+    {
+      "id": "data-steward",
+      "name": "Data & Enrichment Steward",
+      "mission": "Maintain canonical company/contact identity and prevent duplicates.",
+      "inputs": [
+        "company_records",
+        "contact_records",
+        "gmail_evidence"
+      ],
+      "outputs": [
+        "normalized_entities",
+        "merge_decisions",
+        "conflicts"
+      ],
+      "authority": "internal_state_only",
+      "kpis": [
+        "duplicate_rate",
+        "stale_record_rate"
+      ],
+      "capabilities": []
+    },
+    {
+      "id": "lead-qualifier",
+      "name": "Lead Qualifier",
+      "mission": "Determine fit, readiness and whether deeper work is justified.",
+      "inputs": [
+        "company",
+        "evidence",
+        "trigger",
+        "service_routes"
+      ],
+      "outputs": [
+        "qualification_version",
+        "component_scores",
+        "qualification_score",
+        "tier",
+        "actionability",
+        "blocking_reasons",
+        "evidence_attribution"
+      ],
+      "authority": "recommend_only",
+      "kpis": [
+        "qualified_to_reply_rate",
+        "qualified_to_positive_reply_rate",
+        "qualified_to_meeting_rate",
+        "qualified_to_proposal_rate",
+        "qualified_to_win_rate",
+        "qualified_revenue"
+      ],
+      "capabilities": [
+        "bridgeworks-lead-qualifier"
+      ]
+    },
+    {
+      "id": "evidence-auditor",
+      "name": "Evidence Auditor",
+      "mission": "Separate verified, observed, inferred, stale, contradicted and unknown claims.",
+      "inputs": [
+        "research_findings",
+        "sources"
+      ],
+      "outputs": [
+        "evidence_ledger",
+        "approved_claims",
+        "rejected_claims"
+      ],
+      "authority": "read_only",
+      "kpis": [
+        "unsupported_claim_rate"
+      ],
+      "capabilities": [
+        "client-audit",
+        "council"
+      ]
+    },
+    {
+      "id": "prospect-router",
+      "name": "Prospect Router",
+      "mission": "Choose buyer, service route, proof asset and diagnostic path.",
+      "inputs": [
+        "qualified_prospect",
+        "evidence",
+        "service_routes"
+      ],
+      "outputs": [
+        "primary_route",
+        "buyer",
+        "proof_asset",
+        "diagnostic_capability"
+      ],
+      "authority": "recommend_only",
+      "kpis": [
+        "route_to_reply_rate",
+        "route_to_meeting_rate"
+      ],
+      "capabilities": [
+        "bridgeworks-gtm-pipeline-health",
+        "client-audit",
+        "geo-audit",
+        "bridgeworks-prospect-router",
+        "bridgeworks-geo-prospect-scan",
+        "bridgeworks-revenue-system-scan",
+        "bridgeworks-ai-workflow-scan"
+      ]
+    },
+    {
+      "id": "offer-strategist",
+      "name": "Offer Strategist",
+      "mission": "Select the smallest credible commercial wedge.",
+      "inputs": [
+        "route",
+        "diagnostic_result",
+        "proof",
+        "buyer_context"
+      ],
+      "outputs": [
+        "offer_hypothesis",
+        "entry_offer"
+      ],
+      "authority": "recommend_only",
+      "kpis": [
+        "offer_to_meeting_rate",
+        "proposal_conversion_rate"
+      ],
+      "capabilities": [
+        "engagement-architect",
+        "market-funnel",
+        "market-landing"
+      ]
+    },
+    {
+      "id": "outreach-personalizer",
+      "name": "Outreach Personalizer",
+      "mission": "Create evidence-grounded first touch and follow-ups.",
+      "inputs": [
+        "buyer",
+        "approved_evidence",
+        "trigger",
+        "offer",
+        "proof"
+      ],
+      "outputs": [
+        "first_touch",
+        "follow_up_1",
+        "follow_up_2",
+        "approval_packet"
+      ],
+      "authority": "draft_only",
+      "kpis": [
+        "reply_rate",
+        "positive_reply_rate"
+      ],
+      "capabilities": [
+        "market-emails",
+        "post-call-followup"
+      ]
+    },
+    {
+      "id": "reply-intelligence",
+      "name": "Reply Intelligence",
+      "mission": "Classify replies and recommend the correct next action.",
+      "inputs": [
+        "reply",
+        "thread_history",
+        "prospect_state"
+      ],
+      "outputs": [
+        "reply_class",
+        "intent",
+        "recommended_next_action"
+      ],
+      "authority": "recommend_only",
+      "kpis": [
+        "classification_accuracy",
+        "reply_to_opportunity_rate"
+      ],
+      "capabilities": [
+        "bridgeworks-gtm-pipeline-health"
+      ]
+    },
+    {
+      "id": "pipeline-manager",
+      "name": "Pipeline Manager",
+      "mission": "Keep opportunities moving and kill stale work.",
+      "inputs": [
+        "canonical_pipeline",
+        "calendar",
+        "gmail_evidence"
+      ],
+      "outputs": [
+        "stalled_items",
+        "followups_due",
+        "priority_actions"
+      ],
+      "authority": "recommend_only",
+      "kpis": [
+        "stage_velocity",
+        "stale_opportunity_rate"
+      ],
+      "capabilities": [
+        "bridgeworks-gtm-pipeline-health",
+        "bridgeworks-operating-system"
+      ]
+    },
+    {
+      "id": "gtm-learning",
+      "name": "GTM Learning / Experimentation",
+      "mission": "Learn which segments, triggers, routes and messages create outcomes.",
+      "inputs": [
+        "activity_log",
+        "outcomes",
+        "segment_metadata"
+      ],
+      "outputs": [
+        "performance_summary",
+        "winning_patterns",
+        "next_experiments"
+      ],
+      "authority": "recommend_only",
+      "kpis": [
+        "experiment_cycle_time",
+        "lift_in_positive_reply_rate"
+      ],
+      "capabilities": [
+        "bridgeworks-gtm-pipeline-health"
+      ]
+    },
+    {
+      "id": "capability-engineer",
+      "name": "Capability Engineer",
+      "mission": "Improve capability coverage without skill sprawl.",
+      "inputs": [
+        "capability_gap",
+        "registry",
+        "candidate_skills_or_agents"
+      ],
+      "outputs": [
+        "build_or_import_plan",
+        "tests",
+        "registry_update_proposal"
+      ],
+      "authority": "repo_change_with_review",
+      "kpis": [
+        "capability_success_rate",
+        "duplicate_capability_count"
+      ],
+      "capabilities": [
+        "skill-creator",
+        "find-skills",
+        "writing-skills"
+      ]
+    },
+    {
+      "id": "runtime-governor",
+      "name": "Agent Supervisor / Runtime Governor",
+      "mission": "Monitor agent health, routing quality, model cost and duplication.",
+      "inputs": [
+        "run_logs",
+        "failures",
+        "latency",
+        "cost"
+      ],
+      "outputs": [
+        "health_report",
+        "routing_changes",
+        "deprecation_recommendations"
+      ],
+      "authority": "internal_config_with_review",
+      "kpis": [
+        "failure_rate",
+        "cost_per_success"
+      ],
+      "capabilities": [
+        "bridgeworks-operating-system"
+      ]
+    },
+    {
+      "id": "integration-engineer",
+      "name": "Integration Engineer",
+      "mission": "Connect APIs, browser workflows, n8n and ODS without new truth stores.",
+      "inputs": [
+        "integration_requirement",
+        "tool_constraints"
+      ],
+      "outputs": [
+        "integration_spec",
+        "implementation",
+        "runbook"
+      ],
+      "authority": "repo_change_with_review",
+      "kpis": [
+        "integration_reliability",
+        "manual_steps_removed"
+      ],
+      "capabilities": [
+        "bridgeworks-operating-system"
+      ]
+    },
+    {
+      "id": "knowledge-steward",
+      "name": "Knowledge / Memory Steward",
+      "mission": "Keep GTM knowledge, proof and decisions canonical and current.",
+      "inputs": [
+        "decisions",
+        "evidence",
+        "results"
+      ],
+      "outputs": [
+        "canonical_memory_updates",
+        "provenance_links"
+      ],
+      "authority": "internal_state_only",
+      "kpis": [
+        "stale_memory_rate",
+        "conflict_rate"
+      ],
+      "capabilities": [
+        "memory-sync"
+      ]
+    },
+    {
+      "id": "commercial-intelligence",
+      "name": "Commercial Intelligence",
+      "mission": "Establish whether there is enough commercial substance to justify further GTM effort.",
+      "inputs": [
+        "company",
+        "observed_problem",
+        "qualification_coverage"
+      ],
+      "outputs": [
+        "commercial_findings",
+        "commercial_value_band",
+        "procurement_complexity",
+        "unresolved_questions"
+      ],
+      "authority": "read_only",
+      "kpis": [
+        "commercial_fit_coverage_rate",
+        "value_band_supportability_rate"
+      ],
+      "capabilities": [
+        "bridgeworks-commercial-intelligence",
+        "competitive-research"
+      ]
+    },
+    {
+      "id": "buyer-intelligence",
+      "name": "Buyer Intelligence",
+      "mission": "Establish who can say yes and whether they are lawfully reachable.",
+      "inputs": [
+        "company",
+        "qualification_coverage"
+      ],
+      "outputs": [
+        "buyer_roles",
+        "contact_route",
+        "attribution_confidence",
+        "unresolved_questions"
+      ],
+      "authority": "read_only",
+      "kpis": [
+        "buyer_accessibility_coverage_rate",
+        "named_buyer_rate"
+      ],
+      "capabilities": [
+        "bridgeworks-buyer-intelligence",
+        "competitive-research"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "checked_at": "2026-08-11",
+  "account": "bridgeworks-crm",
+  "portal_id": "148891254",
+  "read_only": true,
+  "summary": {
+    "domains_checked": 25,
+    "companies_found": 14,
+    "domains_not_found": 11
+  },
+  "records": [
+    {"domain":"managerent.hu","status":"not_found","matches":[]},
+    {"domain":"aplusproperty.hu","status":"not_found","matches":[]},
+    {"domain":"craftex.hu","status":"not_found","matches":[]},
+    {"domain":"homever.hu","status":"found","matches":[{"id":"437186387147","name":"Homever","website":"https://homever.hu/en/"}]},
+    {"domain":"interhaz.hu","status":"found","matches":[{"id":"437186689256","name":"Interház","website":"https://interhaz.hu/en/"}]},
+    {"domain":"ppmgt.hu","status":"found","matches":[{"id":"440275030214","name":null,"website":"ppmgt.hu"}]},
+    {"domain":"rentify.hu","status":"found","matches":[{"id":"437186128088","name":"RENTIFY.HU Property Management","website":"https://rentify.hu/en/"}]},
+    {"domain":"firstclean.hu","status":"found","matches":[{"id":"437177281724","name":"FirstClean","website":"https://firstclean.hu/home"}]},
+    {"domain":"loffice.hu","status":"found","matches":[{"id":"437184928983","name":"Loffice","website":"https://loffice.hu/budapest/en/coworking/index.php"}]},
+    {"domain":"budbed.hu","status":"found","matches":[{"id":"439947420864","name":"Budbed","website":"https://budbed.hu/en/"}]},
+    {"domain":"provastltd.com","status":"not_found","matches":[]},
+    {"domain":"greenfacilitiesltd.com","status":"not_found","matches":[]},
+    {"domain":"eloriaconsult.com","status":"not_found","matches":[]},
+    {"domain":"greenleaf.com.ng","status":"not_found","matches":[]},
+    {"domain":"genetofmc.com","status":"not_found","matches":[]},
+    {"domain":"arcsolutionslimited.com","status":"not_found","matches":[]},
+    {"domain":"rideflow.org","status":"found","matches":[{"id":"442342357193","name":"Rideflow","website":"https://www.rideflow.org/"}]},
+    {"domain":"kunbase.com","status":"found","matches":[{"id":"442178947293","name":"Kunbase Kft","website":"https://www.kunbase.com/"}]},
+    {"domain":"gbsafrica.co.uk","status":"found","matches":[{"id":"442339765493","name":"GBS Africa","website":"https://www.gbsafrica.co.uk/about/"}]},
+    {"domain":"daraja-africa.eu","status":"found","matches":[{"id":"442351660280","name":"DARAJA Africa-EU","website":"https://daraja-africa.eu/home/about-us/"}]},
+    {"domain":"bvintegrated.co.uk","status":"found","matches":[{"id":"442331804911","name":"BV Integrated Ltd","website":"https://bvintegrated.co.uk/about-us/"}]},
+    {"domain":"logistics.bepelog.hu","status":"found","matches":[{"id":"442274292944","name":"BEPELOG Kft","website":"https://logistics.bepelog.hu/en/contact_en/"}]},
+    {"domain":"premierfm.hu","status":"found","matches":[{"id":"442352746693","name":"Premier FM","website":"https://premierfm.hu/"}]},
+    {"domain":"vendorcredit.ng","status":"not_found","matches":[]},
+    {"domain":"tilzcollection.co.uk","status":"not_found","matches":[]}
+  ]
+}

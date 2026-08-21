@@ -1,0 +1,2086 @@
+{
+  "generated_at": "2026-08-11",
+  "current_unique_capabilities": 74,
+  "candidate_unique_capabilities": 103,
+  "live_scanned_unique_capabilities": 103,
+  "live_installations_by_runtime": {
+    "claude": 74,
+    "codex": 63
+  },
+  "classification_counts": {
+    "duplicate installation": 32,
+    "metadata gap": 74,
+    "new capability": 29,
+    "updated capability": 39
+  },
+  "changes": [
+    {
+      "id": "ad-script",
+      "classification": "metadata gap",
+      "detail": "Existing governance metadata was preserved instead of regenerated.",
+      "fields": [
+        "known_weaknesses",
+        "last_reviewed",
+        "security",
+        "source",
+        "status",
+        "tests"
+      ]
+    },
+    {
+      "id": "agent-ads-audience",
+      "classification": "new capability",
+      "detail": "Present in the live estate but absent from the July 25 registry; not auto-approved."
+    },
+    {
+      "id": "agent-ads-budget",
+      "classification": "new capability",
+      "detail": "Present in the live estate but absent from the July 25 registry; not auto-approved."
+    },
+    {
+      "id": "agent-ads-competitive",
+      "classification": "new capability",
+      "detail": "Present in the live estate but absent from the July 25 registry; not auto-approved."
+    },
+    {
+      "id": "agent-ads-creative",
+      "classification": "new capability",
+      "detail": "Present in the live estate but absent from the July 25 registry; not auto-approved."
+    },
+    {
+      "id": "agent-ads-funnel",
+      "classification": "new capability",
+      "detail": "Present in the live estate but absent from the July 25 registry; not auto-approved."
+    },
+    {
+      "id": "agent-daily-brief-composer",
+      "classification": "new capability",
+      "detail": "Present in the live estate but absent from the July 25 registry; not auto-approved."
+    },
+    {
+      "id": "agent-finance-sentinel",
+      "classification": "new capability",
+      "detail": "Present in the live estate but absent from the July 25 registry; not auto-approved."
+    },
+    {
+      "id": "agent-geo-ai-visibility",
+      "classification": "new capability",
+      "detail": "Present in the live estate but absent from the July 25 registry; not auto-approved."
+    },
+    {
+      "id": "agent-geo-content",
+      "classification": "new capability",
+      "detail": "Present in the live estate but absent from the July 25 registry; not auto-approved."
+    },
+    {
+      "id": "agent-geo-platform-analysis",
+      "classification": "new capability",
+      "detail": "Present in the live estate but absent from the July 25 registry; not auto-approved."
+    },
+    {
+      "id": "agent-geo-schema",
+      "classification": "new capability",
+      "detail": "Present in the live estate but absent from the July 25 registry; not auto-approved."
+    },
+    {
+      "id": "agent-geo-technical",
+      "classification": "new capability",
+      "detail": "Present in the live estate but absent from the July 25 registry; not auto-approved."
+    },
+    {
+      "id": "agent-market-competitive",
+      "classification": "new capability",
+      "detail": "Present in the live estate but absent from the July 25 registry; not auto-approved."
+    },
+    {
+      "id": "agent-market-content",
+      "classification": "new capability",
+      "detail": "Present in the live estate but absent from the July 25 registry; not auto-approved."
+    },
+    {
+      "id": "agent-market-conversion",
+      "classification": "new capability",
+      "detail": "Present in the live estate but absent from the July 25 registry; not auto-approved."
+    },
+    {
+      "id": "agent-market-strategy",
+      "classification": "new capability",
+      "detail": "Present in the live estate but absent from the July 25 registry; not auto-approved."
+    },
+    {
+      "id": "agent-market-technical",
+      "classification": "new capability",
+      "detail": "Present in the live estate but absent from the July 25 registry; not auto-approved."
+    },
+    {
+      "id": "agent-skill-creator-analyzer",
+      "classification": "new capability",
+      "detail": "Present in the live estate but absent from the July 25 registry; not auto-approved."
+    },
+    {
+      "id": "agent-skill-creator-comparator",
+      "classification": "new capability",
+      "detail": "Present in the live estate but absent from the July 25 registry; not auto-approved."
+    },
+    {
+      "id": "agent-skill-creator-grader",
+      "classification": "new capability",
+      "detail": "Present in the live estate but absent from the July 25 registry; not auto-approved."
+    },
+    {
+      "id": "agent-youtube-learning-adapter",
+      "classification": "new capability",
+      "detail": "Present in the live estate but absent from the July 25 registry; not auto-approved."
+    },
+    {
+      "id": "bridgeworks-ai-workflow-scan",
+      "classification": "new capability",
+      "detail": "Present in the live estate but absent from the July 25 registry; not auto-approved."
+    },
+    {
+      "id": "bridgeworks-daily-operations",
+      "classification": "new capability",
+      "detail": "Present in the live estate but absent from the July 25 registry; not auto-approved."
+    },
+    {
+      "id": "bridgeworks-geo-prospect-scan",
+      "classification": "new capability",
+      "detail": "Present in the live estate but absent from the July 25 registry; not auto-approved."
+    },
+    {
+      "id": "bridgeworks-idea-to-content",
+      "classification": "metadata gap",
+      "detail": "Existing governance metadata was preserved instead of regenerated.",
+      "fields": [
+        "known_weaknesses",
+        "last_reviewed",
+        "security",
+        "status",
+        "tests"
+      ]
+    },
+    {
+      "id": "bridgeworks-launch-orchestrator",
+      "classification": "metadata gap",
+      "detail": "Existing governance metadata was preserved instead of regenerated.",
+      "fields": [
+        "known_weaknesses",
+        "last_reviewed",
+        "security",
+        "source",
+        "status",
+        "tests"
+      ]
+    },
+    {
+      "id": "bridgeworks-lead-qualifier",
+      "classification": "new capability",
+      "detail": "Present in the live estate but absent from the July 25 registry; not auto-approved."
+    },
+    {
+      "id": "bridgeworks-operating-system",
+      "classification": "metadata gap",
+      "detail": "Existing governance metadata was preserved instead of regenerated.",
+      "fields": [
+        "known_weaknesses",
+        "last_reviewed",
+        "security",
+        "source",
+        "status",
+        "tests"
+      ]
+    },
+    {
+      "id": "bridgeworks-prospect-router",
+      "classification": "new capability",
+      "detail": "Present in the live estate but absent from the July 25 registry; not auto-approved."
+    },
+    {
+      "id": "bridgeworks-revenue-system-scan",
+      "classification": "new capability",
+      "detail": "Present in the live estate but absent from the July 25 registry; not auto-approved."
+    },
+    {
+      "id": "ceefm-update",
+      "classification": "duplicate installation",
+      "detail": "Live runtime installations differ from the July 25 registry.",
+      "before": [
+        [
+          "claude",
+          "C:\\Users\\User\\.claude\\skills\\ceefm-update"
+        ]
+      ],
+      "after": [
+        [
+          "claude",
+          "C:\\Users\\User\\.claude\\skills\\ceefm-update"
+        ],
+        [
+          "codex",
+          "C:\\Users\\User\\.codex\\skills\\ceefm-update"
+        ]
+      ]
+    },
+    {
+      "id": "ceefm-update",
+      "classification": "updated capability",
+      "detail": "Live instructions changed generated descriptive metadata.",
+      "fields": [
+        "installations"
+      ]
+    },
+    {
+      "id": "ceefm-update",
+      "classification": "metadata gap",
+      "detail": "Existing governance metadata was preserved instead of regenerated.",
+      "fields": [
+        "known_weaknesses",
+        "last_reviewed",
+        "security",
+        "source",
+        "status",
+        "tests"
+      ]
+    },
+    {
+      "id": "claude-skill-creator",
+      "classification": "new capability",
+      "detail": "Present in the live estate but absent from the July 25 registry; not auto-approved."
+    },
+    {
+      "id": "client-audit",
+      "classification": "duplicate installation",
+      "detail": "Live runtime installations differ from the July 25 registry.",
+      "before": [
+        [
+          "claude",
+          "C:\\Users\\User\\.claude\\skills\\client-audit"
+        ]
+      ],
+      "after": [
+        [
+          "claude",
+          "C:\\Users\\User\\.claude\\skills\\client-audit"
+        ],
+        [
+          "codex",
+          "C:\\Users\\User\\.codex\\skills\\client-audit"
+        ]
+      ]
+    },
+    {
+      "id": "client-audit",
+      "classification": "updated capability",
+      "detail": "Live instructions changed generated descriptive metadata.",
+      "fields": [
+        "installations"
+      ]
+    },
+    {
+      "id": "client-audit",
+      "classification": "metadata gap",
+      "detail": "Existing governance metadata was preserved instead of regenerated.",
+      "fields": [
+        "known_weaknesses",
+        "last_reviewed",
+        "security",
+        "source",
+        "status",
+        "tests"
+      ]
+    },
+    {
+      "id": "competitive-research",
+      "classification": "metadata gap",
+      "detail": "Existing governance metadata was preserved instead of regenerated.",
+      "fields": [
+        "known_weaknesses",
+        "last_reviewed",
+        "security",
+        "source",
+        "status",
+        "tests"
+      ]
+    },
+    {
+      "id": "content-week",
+      "classification": "metadata gap",
+      "detail": "Existing governance metadata was preserved instead of regenerated.",
+      "fields": [
+        "known_weaknesses",
+        "last_reviewed",
+        "security",
+        "source",
+        "status",
+        "tests"
+      ]
+    },
+    {
+      "id": "council",
+      "classification": "metadata gap",
+      "detail": "Existing governance metadata was preserved instead of regenerated.",
+      "fields": [
+        "known_weaknesses",
+        "last_reviewed",
+        "security",
+        "source",
+        "status",
+        "tests"
+      ]
+    },
+    {
+      "id": "cua-driver-rs",
+      "classification": "metadata gap",
+      "detail": "Existing governance metadata was preserved instead of regenerated.",
+      "fields": [
+        "known_weaknesses",
+        "last_reviewed",
+        "security",
+        "source",
+        "status"
+      ]
+    },
+    {
+      "id": "daily-brief",
+      "classification": "updated capability",
+      "detail": "Live instructions changed generated descriptive metadata.",
+      "fields": [
+        "overlaps_with"
+      ]
+    },
+    {
+      "id": "daily-brief",
+      "classification": "metadata gap",
+      "detail": "Existing governance metadata was preserved instead of regenerated.",
+      "fields": [
+        "known_weaknesses",
+        "last_reviewed",
+        "security",
+        "source",
+        "status",
+        "tests"
+      ]
+    },
+    {
+      "id": "discovery-call-prep",
+      "classification": "duplicate installation",
+      "detail": "Live runtime installations differ from the July 25 registry.",
+      "before": [
+        [
+          "claude",
+          "C:\\Users\\User\\.claude\\skills\\discovery-call-prep"
+        ]
+      ],
+      "after": [
+        [
+          "claude",
+          "C:\\Users\\User\\.claude\\skills\\discovery-call-prep"
+        ],
+        [
+          "codex",
+          "C:\\Users\\User\\.codex\\skills\\discovery-call-prep"
+        ]
+      ]
+    },
+    {
+      "id": "discovery-call-prep",
+      "classification": "updated capability",
+      "detail": "Live instructions changed generated descriptive metadata.",
+      "fields": [
+        "installations"
+      ]
+    },
+    {
+      "id": "discovery-call-prep",
+      "classification": "metadata gap",
+      "detail": "Existing governance metadata was preserved instead of regenerated.",
+      "fields": [
+        "known_weaknesses",
+        "last_reviewed",
+        "security",
+        "source",
+        "status",
+        "tests"
+      ]
+    },
+    {
+      "id": "docx",
+      "classification": "duplicate installation",
+      "detail": "Live runtime installations differ from the July 25 registry.",
+      "before": [
+        [
+          "claude",
+          "C:\\Users\\User\\.claude\\skills\\docx"
+        ]
+      ],
+      "after": [
+        [
+          "claude",
+          "C:\\Users\\User\\.claude\\skills\\docx"
+        ],
+        [
+          "codex",
+          "C:\\Users\\User\\.codex\\skills\\docx"
+        ]
+      ]
+    },
+    {
+      "id": "docx",
+      "classification": "updated capability",
+      "detail": "Live instructions changed generated descriptive metadata.",
+      "fields": [
+        "installations"
+      ]
+    },
+    {
+      "id": "docx",
+      "classification": "metadata gap",
+      "detail": "Existing governance metadata was preserved instead of regenerated.",
+      "fields": [
+        "known_weaknesses",
+        "last_reviewed",
+        "security",
+        "status",
+        "tests"
+      ]
+    },
+    {
+      "id": "emmanuel-brand-visual",
+      "classification": "duplicate installation",
+      "detail": "Live runtime installations differ from the July 25 registry.",
+      "before": [
+        [
+          "claude",
+          "C:\\Users\\User\\.claude\\skills\\emmanuel-brand-visual"
+        ]
+      ],
+      "after": [
+        [
+          "claude",
+          "C:\\Users\\User\\.claude\\skills\\emmanuel-brand-visual"
+        ],
+        [
+          "codex",
+          "C:\\Users\\User\\.codex\\skills\\emmanuel-brand-visual"
+        ]
+      ]
+    },
+    {
+      "id": "emmanuel-brand-visual",
+      "classification": "updated capability",
+      "detail": "Live instructions changed generated descriptive metadata.",
+      "fields": [
+        "installations"
+      ]
+    },
+    {
+      "id": "emmanuel-brand-visual",
+      "classification": "metadata gap",
+      "detail": "Existing governance metadata was preserved instead of regenerated.",
+      "fields": [
+        "known_weaknesses",
+        "last_reviewed",
+        "security",
+        "source",
+        "status",
+        "tests"
+      ]
+    },
+    {
+      "id": "engagement-architect",
+      "classification": "duplicate installation",
+      "detail": "Live runtime installations differ from the July 25 registry.",
+      "before": [
+        [
+          "claude",
+          "C:\\Users\\User\\.claude\\skills\\engagement-architect"
+        ]
+      ],
+      "after": [
+        [
+          "claude",
+          "C:\\Users\\User\\.claude\\skills\\engagement-architect"
+        ],
+        [
+          "codex",
+          "C:\\Users\\User\\.codex\\skills\\engagement-architect"
+        ]
+      ]
+    },
+    {
+      "id": "engagement-architect",
+      "classification": "updated capability",
+      "detail": "Live instructions changed generated descriptive metadata.",
+      "fields": [
+        "installations"
+      ]
+    },
+    {
+      "id": "engagement-architect",
+      "classification": "metadata gap",
+      "detail": "Existing governance metadata was preserved instead of regenerated.",
+      "fields": [
+        "known_weaknesses",
+        "last_reviewed",
+        "security",
+        "status"
+      ]
+    },
+    {
+      "id": "find-skills",
+      "classification": "duplicate installation",
+      "detail": "Live runtime installations differ from the July 25 registry.",
+      "before": [
+        [
+          "claude",
+          "C:\\Users\\User\\.claude\\skills\\find-skills"
+        ]
+      ],
+      "after": [
+        [
+          "claude",
+          "C:\\Users\\User\\.claude\\skills\\find-skills"
+        ],
+        [
+          "codex",
+          "C:\\Users\\User\\.codex\\skills\\find-skills"
+        ]
+      ]
+    },
+    {
+      "id": "find-skills",
+      "classification": "updated capability",
+      "detail": "Live instructions changed generated descriptive metadata.",
+      "fields": [
+        "installations"
+      ]
+    },
+    {
+      "id": "find-skills",
+      "classification": "metadata gap",
+      "detail": "Existing governance metadata was preserved instead of regenerated.",
+      "fields": [
+        "known_weaknesses",
+        "last_reviewed",
+        "security",
+        "status",
+        "tests"
+      ]
+    },
+    {
+      "id": "frontend-design",
+      "classification": "duplicate installation",
+      "detail": "Live runtime installations differ from the July 25 registry.",
+      "before": [
+        [
+          "claude",
+          "C:\\Users\\User\\.claude\\skills\\frontend-design"
+        ]
+      ],
+      "after": [
+        [
+          "claude",
+          "C:\\Users\\User\\.claude\\skills\\frontend-design"
+        ],
+        [
+          "codex",
+          "C:\\Users\\User\\.codex\\skills\\frontend-design"
+        ]
+      ]
+    },
+    {
+      "id": "frontend-design",
+      "classification": "updated capability",
+      "detail": "Live instructions changed generated descriptive metadata.",
+      "fields": [
+        "installations"
+      ]
+    },
+    {
+      "id": "frontend-design",
+      "classification": "metadata gap",
+      "detail": "Existing governance metadata was preserved instead of regenerated.",
+      "fields": [
+        "known_weaknesses",
+        "last_reviewed",
+        "security",
+        "status",
+        "tests"
+      ]
+    },
+    {
+      "id": "generate-image",
+      "classification": "metadata gap",
+      "detail": "Existing governance metadata was preserved instead of regenerated.",
+      "fields": [
+        "known_weaknesses",
+        "last_reviewed",
+        "security",
+        "source",
+        "status",
+        "tests"
+      ]
+    },
+    {
+      "id": "generate-social-visual",
+      "classification": "metadata gap",
+      "detail": "Existing governance metadata was preserved instead of regenerated.",
+      "fields": [
+        "known_weaknesses",
+        "last_reviewed",
+        "security",
+        "source",
+        "status",
+        "tests"
+      ]
+    },
+    {
+      "id": "generate-thumbnail",
+      "classification": "metadata gap",
+      "detail": "Existing governance metadata was preserved instead of regenerated.",
+      "fields": [
+        "known_weaknesses",
+        "last_reviewed",
+        "security",
+        "source",
+        "status",
+        "tests"
+      ]
+    },
+    {
+      "id": "geo-audit",
+      "classification": "metadata gap",
+      "detail": "Existing governance metadata was preserved instead of regenerated.",
+      "fields": [
+        "known_weaknesses",
+        "last_reviewed",
+        "security",
+        "status",
+        "tests"
+      ]
+    },
+    {
+      "id": "geo-brand-mentions",
+      "classification": "metadata gap",
+      "detail": "Existing governance metadata was preserved instead of regenerated.",
+      "fields": [
+        "known_weaknesses",
+        "last_reviewed",
+        "security",
+        "status",
+        "tests"
+      ]
+    },
+    {
+      "id": "geo-citability",
+      "classification": "metadata gap",
+      "detail": "Existing governance metadata was preserved instead of regenerated.",
+      "fields": [
+        "known_weaknesses",
+        "last_reviewed",
+        "security",
+        "status",
+        "tests"
+      ]
+    },
+    {
+      "id": "geo-compare",
+      "classification": "metadata gap",
+      "detail": "Existing governance metadata was preserved instead of regenerated.",
+      "fields": [
+        "known_weaknesses",
+        "last_reviewed",
+        "security",
+        "status",
+        "tests"
+      ]
+    },
+    {
+      "id": "geo-content",
+      "classification": "updated capability",
+      "detail": "Live instructions changed generated descriptive metadata.",
+      "fields": [
+        "overlaps_with"
+      ]
+    },
+    {
+      "id": "geo-content",
+      "classification": "metadata gap",
+      "detail": "Existing governance metadata was preserved instead of regenerated.",
+      "fields": [
+        "known_weaknesses",
+        "last_reviewed",
+        "security",
+        "status",
+        "tests"
+      ]
+    },
+    {
+      "id": "geo-crawlers",
+      "classification": "metadata gap",
+      "detail": "Existing governance metadata was preserved instead of regenerated.",
+      "fields": [
+        "known_weaknesses",
+        "last_reviewed",
+        "security",
+        "status",
+        "tests"
+      ]
+    },
+    {
+      "id": "geo-llmstxt",
+      "classification": "metadata gap",
+      "detail": "Existing governance metadata was preserved instead of regenerated.",
+      "fields": [
+        "known_weaknesses",
+        "last_reviewed",
+        "security",
+        "status",
+        "tests"
+      ]
+    },
+    {
+      "id": "geo-platform-optimizer",
+      "classification": "metadata gap",
+      "detail": "Existing governance metadata was preserved instead of regenerated.",
+      "fields": [
+        "known_weaknesses",
+        "last_reviewed",
+        "security",
+        "status",
+        "tests"
+      ]
+    },
+    {
+      "id": "geo-proposal",
+      "classification": "metadata gap",
+      "detail": "Existing governance metadata was preserved instead of regenerated.",
+      "fields": [
+        "known_weaknesses",
+        "last_reviewed",
+        "security",
+        "status",
+        "tests"
+      ]
+    },
+    {
+      "id": "geo-prospect",
+      "classification": "updated capability",
+      "detail": "Live instructions changed generated descriptive metadata.",
+      "fields": [
+        "overlaps_with"
+      ]
+    },
+    {
+      "id": "geo-prospect",
+      "classification": "metadata gap",
+      "detail": "Existing governance metadata was preserved instead of regenerated.",
+      "fields": [
+        "known_weaknesses",
+        "last_reviewed",
+        "security",
+        "status",
+        "tests"
+      ]
+    },
+    {
+      "id": "geo-report",
+      "classification": "metadata gap",
+      "detail": "Existing governance metadata was preserved instead of regenerated.",
+      "fields": [
+        "known_weaknesses",
+        "last_reviewed",
+        "security",
+        "status",
+        "tests"
+      ]
+    },
+    {
+      "id": "geo-report-pdf",
+      "classification": "metadata gap",
+      "detail": "Existing governance metadata was preserved instead of regenerated.",
+      "fields": [
+        "known_weaknesses",
+        "last_reviewed",
+        "security",
+        "status",
+        "tests"
+      ]
+    },
+    {
+      "id": "geo-schema",
+      "classification": "updated capability",
+      "detail": "Live instructions changed generated descriptive metadata.",
+      "fields": [
+        "overlaps_with"
+      ]
+    },
+    {
+      "id": "geo-schema",
+      "classification": "metadata gap",
+      "detail": "Existing governance metadata was preserved instead of regenerated.",
+      "fields": [
+        "known_weaknesses",
+        "last_reviewed",
+        "security",
+        "status",
+        "tests"
+      ]
+    },
+    {
+      "id": "geo-technical",
+      "classification": "updated capability",
+      "detail": "Live instructions changed generated descriptive metadata.",
+      "fields": [
+        "overlaps_with"
+      ]
+    },
+    {
+      "id": "geo-technical",
+      "classification": "metadata gap",
+      "detail": "Existing governance metadata was preserved instead of regenerated.",
+      "fields": [
+        "known_weaknesses",
+        "last_reviewed",
+        "security",
+        "status",
+        "tests"
+      ]
+    },
+    {
+      "id": "goal",
+      "classification": "metadata gap",
+      "detail": "Existing governance metadata was preserved instead of regenerated.",
+      "fields": [
+        "known_weaknesses",
+        "last_reviewed",
+        "security",
+        "source",
+        "status",
+        "tests"
+      ]
+    },
+    {
+      "id": "gsc-opportunity",
+      "classification": "metadata gap",
+      "detail": "Existing governance metadata was preserved instead of regenerated.",
+      "fields": [
+        "known_weaknesses",
+        "last_reviewed",
+        "security",
+        "source",
+        "status",
+        "tests"
+      ]
+    },
+    {
+      "id": "impeccable",
+      "classification": "new capability",
+      "detail": "Present in the live estate but absent from the July 25 registry; not auto-approved."
+    },
+    {
+      "id": "lead-magnets",
+      "classification": "metadata gap",
+      "detail": "Existing governance metadata was preserved instead of regenerated.",
+      "fields": [
+        "known_weaknesses",
+        "last_reviewed",
+        "security",
+        "source",
+        "status",
+        "tests"
+      ]
+    },
+    {
+      "id": "lead-qualifier",
+      "classification": "updated capability",
+      "detail": "Live instructions changed generated descriptive metadata.",
+      "fields": [
+        "overlaps_with"
+      ]
+    },
+    {
+      "id": "lead-qualifier",
+      "classification": "metadata gap",
+      "detail": "Existing governance metadata was preserved instead of regenerated.",
+      "fields": [
+        "known_weaknesses",
+        "last_reviewed",
+        "security",
+        "source",
+        "status",
+        "tests"
+      ]
+    },
+    {
+      "id": "linkedin-reply",
+      "classification": "metadata gap",
+      "detail": "Existing governance metadata was preserved instead of regenerated.",
+      "fields": [
+        "known_weaknesses",
+        "last_reviewed",
+        "security",
+        "source",
+        "status",
+        "tests"
+      ]
+    },
+    {
+      "id": "market",
+      "classification": "duplicate installation",
+      "detail": "Live runtime installations differ from the July 25 registry.",
+      "before": [
+        [
+          "claude",
+          "C:\\Users\\User\\.claude\\skills\\market"
+        ]
+      ],
+      "after": [
+        [
+          "claude",
+          "C:\\Users\\User\\.claude\\skills\\market"
+        ],
+        [
+          "codex",
+          "C:\\Users\\User\\.codex\\skills\\market"
+        ]
+      ]
+    },
+    {
+      "id": "market",
+      "classification": "updated capability",
+      "detail": "Live instructions changed generated descriptive metadata.",
+      "fields": [
+        "installations"
+      ]
+    },
+    {
+      "id": "market",
+      "classification": "metadata gap",
+      "detail": "Existing governance metadata was preserved instead of regenerated.",
+      "fields": [
+        "known_weaknesses",
+        "last_reviewed",
+        "security",
+        "source",
+        "status",
+        "tests"
+      ]
+    },
+    {
+      "id": "market-ads",
+      "classification": "duplicate installation",
+      "detail": "Live runtime installations differ from the July 25 registry.",
+      "before": [
+        [
+          "claude",
+          "C:\\Users\\User\\.claude\\skills\\market-ads"
+        ]
+      ],
+      "after": [
+        [
+          "claude",
+          "C:\\Users\\User\\.claude\\skills\\market-ads"
+        ],
+        [
+          "codex",
+          "C:\\Users\\User\\.codex\\skills\\market-ads"
+        ]
+      ]
+    },
+    {
+      "id": "market-ads",
+      "classification": "updated capability",
+      "detail": "Live instructions changed generated descriptive metadata.",
+      "fields": [
+        "installations"
+      ]
+    },
+    {
+      "id": "market-ads",
+      "classification": "metadata gap",
+      "detail": "Existing governance metadata was preserved instead of regenerated.",
+      "fields": [
+        "known_weaknesses",
+        "last_reviewed",
+        "security",
+        "source",
+        "status",
+        "tests"
+      ]
+    },
+    {
+      "id": "market-audit",
+      "classification": "duplicate installation",
+      "detail": "Live runtime installations differ from the July 25 registry.",
+      "before": [
+        [
+          "claude",
+          "C:\\Users\\User\\.claude\\skills\\market-audit"
+        ]
+      ],
+      "after": [
+        [
+          "claude",
+          "C:\\Users\\User\\.claude\\skills\\market-audit"
+        ],
+        [
+          "codex",
+          "C:\\Users\\User\\.codex\\skills\\market-audit"
+        ]
+      ]
+    },
+    {
+      "id": "market-audit",
+      "classification": "updated capability",
+      "detail": "Live instructions changed generated descriptive metadata.",
+      "fields": [
+        "installations"
+      ]
+    },
+    {
+      "id": "market-audit",
+      "classification": "metadata gap",
+      "detail": "Existing governance metadata was preserved instead of regenerated.",
+      "fields": [
+        "known_weaknesses",
+        "last_reviewed",
+        "security",
+        "source",
+        "status",
+        "tests"
+      ]
+    },
+    {
+      "id": "market-brand",
+      "classification": "duplicate installation",
+      "detail": "Live runtime installations differ from the July 25 registry.",
+      "before": [
+        [
+          "claude",
+          "C:\\Users\\User\\.claude\\skills\\market-brand"
+        ]
+      ],
+      "after": [
+        [
+          "claude",
+          "C:\\Users\\User\\.claude\\skills\\market-brand"
+        ],
+        [
+          "codex",
+          "C:\\Users\\User\\.codex\\skills\\market-brand"
+        ]
+      ]
+    },
+    {
+      "id": "market-brand",
+      "classification": "updated capability",
+      "detail": "Live instructions changed generated descriptive metadata.",
+      "fields": [
+        "installations"
+      ]
+    },
+    {
+      "id": "market-brand",
+      "classification": "metadata gap",
+      "detail": "Existing governance metadata was preserved instead of regenerated.",
+      "fields": [
+        "known_weaknesses",
+        "last_reviewed",
+        "security",
+        "source",
+        "status",
+        "tests"
+      ]
+    },
+    {
+      "id": "market-competitors",
+      "classification": "duplicate installation",
+      "detail": "Live runtime installations differ from the July 25 registry.",
+      "before": [
+        [
+          "claude",
+          "C:\\Users\\User\\.claude\\skills\\market-competitors"
+        ]
+      ],
+      "after": [
+        [
+          "claude",
+          "C:\\Users\\User\\.claude\\skills\\market-competitors"
+        ],
+        [
+          "codex",
+          "C:\\Users\\User\\.codex\\skills\\market-competitors"
+        ]
+      ]
+    },
+    {
+      "id": "market-competitors",
+      "classification": "updated capability",
+      "detail": "Live instructions changed generated descriptive metadata.",
+      "fields": [
+        "installations"
+      ]
+    },
+    {
+      "id": "market-competitors",
+      "classification": "metadata gap",
+      "detail": "Existing governance metadata was preserved instead of regenerated.",
+      "fields": [
+        "known_weaknesses",
+        "last_reviewed",
+        "security",
+        "source",
+        "status",
+        "tests"
+      ]
+    },
+    {
+      "id": "market-copy",
+      "classification": "duplicate installation",
+      "detail": "Live runtime installations differ from the July 25 registry.",
+      "before": [
+        [
+          "claude",
+          "C:\\Users\\User\\.claude\\skills\\market-copy"
+        ]
+      ],
+      "after": [
+        [
+          "claude",
+          "C:\\Users\\User\\.claude\\skills\\market-copy"
+        ],
+        [
+          "codex",
+          "C:\\Users\\User\\.codex\\skills\\market-copy"
+        ]
+      ]
+    },
+    {
+      "id": "market-copy",
+      "classification": "updated capability",
+      "detail": "Live instructions changed generated descriptive metadata.",
+      "fields": [
+        "installations"
+      ]
+    },
+    {
+      "id": "market-copy",
+      "classification": "metadata gap",
+      "detail": "Existing governance metadata was preserved instead of regenerated.",
+      "fields": [
+        "known_weaknesses",
+        "last_reviewed",
+        "security",
+        "source",
+        "status",
+        "tests"
+      ]
+    },
+    {
+      "id": "market-emails",
+      "classification": "duplicate installation",
+      "detail": "Live runtime installations differ from the July 25 registry.",
+      "before": [
+        [
+          "claude",
+          "C:\\Users\\User\\.claude\\skills\\market-emails"
+        ]
+      ],
+      "after": [
+        [
+          "claude",
+          "C:\\Users\\User\\.claude\\skills\\market-emails"
+        ],
+        [
+          "codex",
+          "C:\\Users\\User\\.codex\\skills\\market-emails"
+        ]
+      ]
+    },
+    {
+      "id": "market-emails",
+      "classification": "updated capability",
+      "detail": "Live instructions changed generated descriptive metadata.",
+      "fields": [
+        "installations"
+      ]
+    },
+    {
+      "id": "market-emails",
+      "classification": "metadata gap",
+      "detail": "Existing governance metadata was preserved instead of regenerated.",
+      "fields": [
+        "known_weaknesses",
+        "last_reviewed",
+        "security",
+        "source",
+        "status",
+        "tests"
+      ]
+    },
+    {
+      "id": "market-funnel",
+      "classification": "duplicate installation",
+      "detail": "Live runtime installations differ from the July 25 registry.",
+      "before": [
+        [
+          "claude",
+          "C:\\Users\\User\\.claude\\skills\\market-funnel"
+        ]
+      ],
+      "after": [
+        [
+          "claude",
+          "C:\\Users\\User\\.claude\\skills\\market-funnel"
+        ],
+        [
+          "codex",
+          "C:\\Users\\User\\.codex\\skills\\market-funnel"
+        ]
+      ]
+    },
+    {
+      "id": "market-funnel",
+      "classification": "updated capability",
+      "detail": "Live instructions changed generated descriptive metadata.",
+      "fields": [
+        "installations"
+      ]
+    },
+    {
+      "id": "market-funnel",
+      "classification": "metadata gap",
+      "detail": "Existing governance metadata was preserved instead of regenerated.",
+      "fields": [
+        "known_weaknesses",
+        "last_reviewed",
+        "security",
+        "source",
+        "status",
+        "tests"
+      ]
+    },
+    {
+      "id": "market-landing",
+      "classification": "duplicate installation",
+      "detail": "Live runtime installations differ from the July 25 registry.",
+      "before": [
+        [
+          "claude",
+          "C:\\Users\\User\\.claude\\skills\\market-landing"
+        ]
+      ],
+      "after": [
+        [
+          "claude",
+          "C:\\Users\\User\\.claude\\skills\\market-landing"
+        ],
+        [
+          "codex",
+          "C:\\Users\\User\\.codex\\skills\\market-landing"
+        ]
+      ]
+    },
+    {
+      "id": "market-landing",
+      "classification": "updated capability",
+      "detail": "Live instructions changed generated descriptive metadata.",
+      "fields": [
+        "installations"
+      ]
+    },
+    {
+      "id": "market-landing",
+      "classification": "metadata gap",
+      "detail": "Existing governance metadata was preserved instead of regenerated.",
+      "fields": [
+        "known_weaknesses",
+        "last_reviewed",
+        "security",
+        "source",
+        "status",
+        "tests"
+      ]
+    },
+    {
+      "id": "market-launch",
+      "classification": "duplicate installation",
+      "detail": "Live runtime installations differ from the July 25 registry.",
+      "before": [
+        [
+          "claude",
+          "C:\\Users\\User\\.claude\\skills\\market-launch"
+        ]
+      ],
+      "after": [
+        [
+          "claude",
+          "C:\\Users\\User\\.claude\\skills\\market-launch"
+        ],
+        [
+          "codex",
+          "C:\\Users\\User\\.codex\\skills\\market-launch"
+        ]
+      ]
+    },
+    {
+      "id": "market-launch",
+      "classification": "updated capability",
+      "detail": "Live instructions changed generated descriptive metadata.",
+      "fields": [
+        "installations"
+      ]
+    },
+    {
+      "id": "market-launch",
+      "classification": "metadata gap",
+      "detail": "Existing governance metadata was preserved instead of regenerated.",
+      "fields": [
+        "known_weaknesses",
+        "last_reviewed",
+        "security",
+        "source",
+        "status",
+        "tests"
+      ]
+    },
+    {
+      "id": "market-proposal",
+      "classification": "duplicate installation",
+      "detail": "Live runtime installations differ from the July 25 registry.",
+      "before": [
+        [
+          "claude",
+          "C:\\Users\\User\\.claude\\skills\\market-proposal"
+        ]
+      ],
+      "after": [
+        [
+          "claude",
+          "C:\\Users\\User\\.claude\\skills\\market-proposal"
+        ],
+        [
+          "codex",
+          "C:\\Users\\User\\.codex\\skills\\market-proposal"
+        ]
+      ]
+    },
+    {
+      "id": "market-proposal",
+      "classification": "updated capability",
+      "detail": "Live instructions changed generated descriptive metadata.",
+      "fields": [
+        "installations"
+      ]
+    },
+    {
+      "id": "market-proposal",
+      "classification": "metadata gap",
+      "detail": "Existing governance metadata was preserved instead of regenerated.",
+      "fields": [
+        "known_weaknesses",
+        "last_reviewed",
+        "security",
+        "source",
+        "status",
+        "tests"
+      ]
+    },
+    {
+      "id": "market-report",
+      "classification": "duplicate installation",
+      "detail": "Live runtime installations differ from the July 25 registry.",
+      "before": [
+        [
+          "claude",
+          "C:\\Users\\User\\.claude\\skills\\market-report"
+        ]
+      ],
+      "after": [
+        [
+          "claude",
+          "C:\\Users\\User\\.claude\\skills\\market-report"
+        ],
+        [
+          "codex",
+          "C:\\Users\\User\\.codex\\skills\\market-report"
+        ]
+      ]
+    },
+    {
+      "id": "market-report",
+      "classification": "updated capability",
+      "detail": "Live instructions changed generated descriptive metadata.",
+      "fields": [
+        "installations"
+      ]
+    },
+    {
+      "id": "market-report",
+      "classification": "metadata gap",
+      "detail": "Existing governance metadata was preserved instead of regenerated.",
+      "fields": [
+        "known_weaknesses",
+        "last_reviewed",
+        "security",
+        "source",
+        "status",
+        "tests"
+      ]
+    },
+    {
+      "id": "market-report-pdf",
+      "classification": "duplicate installation",
+      "detail": "Live runtime installations differ from the July 25 registry.",
+      "before": [
+        [
+          "claude",
+          "C:\\Users\\User\\.claude\\skills\\market-report-pdf"
+        ]
+      ],
+      "after": [
+        [
+          "claude",
+          "C:\\Users\\User\\.claude\\skills\\market-report-pdf"
+        ],
+        [
+          "codex",
+          "C:\\Users\\User\\.codex\\skills\\market-report-pdf"
+        ]
+      ]
+    },
+    {
+      "id": "market-report-pdf",
+      "classification": "updated capability",
+      "detail": "Live instructions changed generated descriptive metadata.",
+      "fields": [
+        "installations"
+      ]
+    },
+    {
+      "id": "market-report-pdf",
+      "classification": "metadata gap",
+      "detail": "Existing governance metadata was preserved instead of regenerated.",
+      "fields": [
+        "known_weaknesses",
+        "last_reviewed",
+        "security",
+        "source",
+        "status",
+        "tests"
+      ]
+    },
+    {
+      "id": "market-seo",
+      "classification": "duplicate installation",
+      "detail": "Live runtime installations differ from the July 25 registry.",
+      "before": [
+        [
+          "claude",
+          "C:\\Users\\User\\.claude\\skills\\market-seo"
+        ]
+      ],
+      "after": [
+        [
+          "claude",
+          "C:\\Users\\User\\.claude\\skills\\market-seo"
+        ],
+        [
+          "codex",
+          "C:\\Users\\User\\.codex\\skills\\market-seo"
+        ]
+      ]
+    },
+    {
+      "id": "market-seo",
+      "classification": "updated capability",
+      "detail": "Live instructions changed generated descriptive metadata.",
+      "fields": [
+        "installations"
+      ]
+    },
+    {
+      "id": "market-seo",
+      "classification": "metadata gap",
+      "detail": "Existing governance metadata was preserved instead of regenerated.",
+      "fields": [
+        "known_weaknesses",
+        "last_reviewed",
+        "security",
+        "source",
+        "status",
+        "tests"
+      ]
+    },
+    {
+      "id": "market-social",
+      "classification": "duplicate installation",
+      "detail": "Live runtime installations differ from the July 25 registry.",
+      "before": [
+        [
+          "claude",
+          "C:\\Users\\User\\.claude\\skills\\market-social"
+        ]
+      ],
+      "after": [
+        [
+          "claude",
+          "C:\\Users\\User\\.claude\\skills\\market-social"
+        ],
+        [
+          "codex",
+          "C:\\Users\\User\\.codex\\skills\\market-social"
+        ]
+      ]
+    },
+    {
+      "id": "market-social",
+      "classification": "updated capability",
+      "detail": "Live instructions changed generated descriptive metadata.",
+      "fields": [
+        "installations"
+      ]
+    },
+    {
+      "id": "market-social",
+      "classification": "metadata gap",
+      "detail": "Existing governance metadata was preserved instead of regenerated.",
+      "fields": [
+        "known_weaknesses",
+        "last_reviewed",
+        "security",
+        "source",
+        "status",
+        "tests"
+      ]
+    },
+    {
+      "id": "memory-sync",
+      "classification": "metadata gap",
+      "detail": "Existing governance metadata was preserved instead of regenerated.",
+      "fields": [
+        "known_weaknesses",
+        "last_reviewed",
+        "security",
+        "source",
+        "status",
+        "tests"
+      ]
+    },
+    {
+      "id": "monthly-report",
+      "classification": "duplicate installation",
+      "detail": "Live runtime installations differ from the July 25 registry.",
+      "before": [
+        [
+          "claude",
+          "C:\\Users\\User\\.claude\\skills\\monthly-report"
+        ]
+      ],
+      "after": [
+        [
+          "claude",
+          "C:\\Users\\User\\.claude\\skills\\monthly-report"
+        ],
+        [
+          "codex",
+          "C:\\Users\\User\\.codex\\skills\\monthly-report"
+        ]
+      ]
+    },
+    {
+      "id": "monthly-report",
+      "classification": "updated capability",
+      "detail": "Live instructions changed generated descriptive metadata.",
+      "fields": [
+        "installations"
+      ]
+    },
+    {
+      "id": "monthly-report",
+      "classification": "metadata gap",
+      "detail": "Existing governance metadata was preserved instead of regenerated.",
+      "fields": [
+        "known_weaknesses",
+        "last_reviewed",
+        "security",
+        "source",
+        "status",
+        "tests"
+      ]
+    },
+    {
+      "id": "new-proposal",
+      "classification": "duplicate installation",
+      "detail": "Live runtime installations differ from the July 25 registry.",
+      "before": [
+        [
+          "claude",
+          "C:\\Users\\User\\.claude\\skills\\new-proposal"
+        ]
+      ],
+      "after": [
+        [
+          "claude",
+          "C:\\Users\\User\\.claude\\skills\\new-proposal"
+        ],
+        [
+          "codex",
+          "C:\\Users\\User\\.codex\\skills\\new-proposal"
+        ]
+      ]
+    },
+    {
+      "id": "new-proposal",
+      "classification": "updated capability",
+      "detail": "Live instructions changed generated descriptive metadata.",
+      "fields": [
+        "installations"
+      ]
+    },
+    {
+      "id": "new-proposal",
+      "classification": "metadata gap",
+      "detail": "Existing governance metadata was preserved instead of regenerated.",
+      "fields": [
+        "known_weaknesses",
+        "last_reviewed",
+        "security",
+        "source",
+        "status",
+        "tests"
+      ]
+    },
+    {
+      "id": "notebooklm",
+      "classification": "metadata gap",
+      "detail": "Existing governance metadata was preserved instead of regenerated.",
+      "fields": [
+        "known_weaknesses",
+        "last_reviewed",
+        "security",
+        "source",
+        "status",
+        "tests"
+      ]
+    },
+    {
+      "id": "pdf",
+      "classification": "duplicate installation",
+      "detail": "Live runtime installations differ from the July 25 registry.",
+      "before": [
+        [
+          "claude",
+          "C:\\Users\\User\\.claude\\skills\\pdf"
+        ]
+      ],
+      "after": [
+        [
+          "claude",
+          "C:\\Users\\User\\.claude\\skills\\pdf"
+        ],
+        [
+          "codex",
+          "C:\\Users\\User\\.codex\\skills\\pdf"
+        ]
+      ]
+    },
+    {
+      "id": "pdf",
+      "classification": "updated capability",
+      "detail": "Live instructions changed generated descriptive metadata.",
+      "fields": [
+        "installations"
+      ]
+    },
+    {
+      "id": "pdf",
+      "classification": "metadata gap",
+      "detail": "Existing governance metadata was preserved instead of regenerated.",
+      "fields": [
+        "known_weaknesses",
+        "last_reviewed",
+        "security",
+        "status",
+        "tests"
+      ]
+    },
+    {
+      "id": "post-call-followup",
+      "classification": "duplicate installation",
+      "detail": "Live runtime installations differ from the July 25 registry.",
+      "before": [
+        [
+          "claude",
+          "C:\\Users\\User\\.claude\\skills\\post-call-followup"
+        ]
+      ],
+      "after": [
+        [
+          "claude",
+          "C:\\Users\\User\\.claude\\skills\\post-call-followup"
+        ],
+        [
+          "codex",
+          "C:\\Users\\User\\.codex\\skills\\post-call-followup"
+        ]
+      ]
+    },
+    {
+      "id": "post-call-followup",
+      "classification": "updated capability",
+      "detail": "Live instructions changed generated descriptive metadata.",
+      "fields": [
+        "installations"
+      ]
+    },
+    {
+      "id": "post-call-followup",
+      "classification": "metadata gap",
+      "detail": "Existing governance metadata was preserved instead of regenerated.",
+      "fields": [
+        "known_weaknesses",
+        "last_reviewed",
+        "security",
+        "source",
+        "status",
+        "tests"
+      ]
+    },
+    {
+      "id": "pptx",
+      "classification": "duplicate installation",
+      "detail": "Live runtime installations differ from the July 25 registry.",
+      "before": [
+        [
+          "claude",
+          "C:\\Users\\User\\.claude\\skills\\pptx"
+        ]
+      ],
+      "after": [
+        [
+          "claude",
+          "C:\\Users\\User\\.claude\\skills\\pptx"
+        ],
+        [
+          "codex",
+          "C:\\Users\\User\\.codex\\skills\\pptx"
+        ]
+      ]
+    },
+    {
+      "id": "pptx",
+      "classification": "updated capability",
+      "detail": "Live instructions changed generated descriptive metadata.",
+      "fields": [
+        "installations"
+      ]
+    },
+    {
+      "id": "pptx",
+      "classification": "metadata gap",
+      "detail": "Existing governance metadata was preserved instead of regenerated.",
+      "fields": [
+        "known_weaknesses",
+        "last_reviewed",
+        "security",
+        "status",
+        "tests"
+      ]
+    },
+    {
+      "id": "referrals",
+      "classification": "metadata gap",
+      "detail": "Existing governance metadata was preserved instead of regenerated.",
+      "fields": [
+        "known_weaknesses",
+        "last_reviewed",
+        "security",
+        "source",
+        "status",
+        "tests"
+      ]
+    },
+    {
+      "id": "revops",
+      "classification": "metadata gap",
+      "detail": "Existing governance metadata was preserved instead of regenerated.",
+      "fields": [
+        "known_weaknesses",
+        "last_reviewed",
+        "security",
+        "source",
+        "status",
+        "tests"
+      ]
+    },
+    {
+      "id": "seo-brief-writer",
+      "classification": "metadata gap",
+      "detail": "Existing governance metadata was preserved instead of regenerated.",
+      "fields": [
+        "known_weaknesses",
+        "last_reviewed",
+        "security",
+        "source",
+        "status",
+        "tests"
+      ]
+    },
+    {
+      "id": "session-handoff",
+      "classification": "metadata gap",
+      "detail": "Existing governance metadata was preserved instead of regenerated.",
+      "fields": [
+        "known_weaknesses",
+        "last_reviewed",
+        "security",
+        "source",
+        "status",
+        "tests"
+      ]
+    },
+    {
+      "id": "skill-creator",
+      "classification": "updated capability",
+      "detail": "Live instructions changed generated descriptive metadata.",
+      "fields": [
+        "overlaps_with"
+      ]
+    },
+    {
+      "id": "skill-creator",
+      "classification": "metadata gap",
+      "detail": "Existing governance metadata was preserved instead of regenerated.",
+      "fields": [
+        "known_weaknesses",
+        "last_reviewed",
+        "security",
+        "status",
+        "tests"
+      ]
+    },
+    {
+      "id": "weekly-review",
+      "classification": "metadata gap",
+      "detail": "Existing governance metadata was preserved instead of regenerated.",
+      "fields": [
+        "known_weaknesses",
+        "last_reviewed",
+        "security",
+        "source",
+        "status",
+        "tests"
+      ]
+    },
+    {
+      "id": "writing-skills",
+      "classification": "duplicate installation",
+      "detail": "Live runtime installations differ from the July 25 registry.",
+      "before": [
+        [
+          "claude",
+          "C:\\Users\\User\\.claude\\skills\\writing-skills"
+        ]
+      ],
+      "after": [
+        [
+          "claude",
+          "C:\\Users\\User\\.claude\\skills\\writing-skills"
+        ],
+        [
+          "codex",
+          "C:\\Users\\User\\.codex\\skills\\writing-skills"
+        ]
+      ]
+    },
+    {
+      "id": "writing-skills",
+      "classification": "updated capability",
+      "detail": "Live instructions changed generated descriptive metadata.",
+      "fields": [
+        "installations"
+      ]
+    },
+    {
+      "id": "writing-skills",
+      "classification": "metadata gap",
+      "detail": "Existing governance metadata was preserved instead of regenerated.",
+      "fields": [
+        "known_weaknesses",
+        "last_reviewed",
+        "security",
+        "source",
+        "status"
+      ]
+    },
+    {
+      "id": "youtube-analytics",
+      "classification": "duplicate installation",
+      "detail": "Live runtime installations differ from the July 25 registry.",
+      "before": [
+        [
+          "claude",
+          "C:\\Users\\User\\.claude\\skills\\youtube-analytics"
+        ]
+      ],
+      "after": [
+        [
+          "claude",
+          "C:\\Users\\User\\.claude\\skills\\youtube-analytics"
+        ],
+        [
+          "codex",
+          "C:\\Users\\User\\.codex\\skills\\youtube-analytics"
+        ]
+      ]
+    },
+    {
+      "id": "youtube-analytics",
+      "classification": "updated capability",
+      "detail": "Live instructions changed generated descriptive metadata.",
+      "fields": [
+        "installations"
+      ]
+    },
+    {
+      "id": "youtube-analytics",
+      "classification": "metadata gap",
+      "detail": "Existing governance metadata was preserved instead of regenerated.",
+      "fields": [
+        "known_weaknesses",
+        "last_reviewed",
+        "security",
+        "source",
+        "status",
+        "tests"
+      ]
+    },
+    {
+      "id": "youtube-channel-scout",
+      "classification": "metadata gap",
+      "detail": "Existing governance metadata was preserved instead of regenerated.",
+      "fields": [
+        "known_weaknesses",
+        "last_reviewed",
+        "security",
+        "source",
+        "status",
+        "tests"
+      ]
+    },
+    {
+      "id": "youtube-intelligence",
+      "classification": "duplicate installation",
+      "detail": "Live runtime installations differ from the July 25 registry.",
+      "before": [
+        [
+          "claude",
+          "C:\\Users\\User\\.claude\\skills\\youtube-intelligence"
+        ]
+      ],
+      "after": [
+        [
+          "claude",
+          "C:\\Users\\User\\.claude\\skills\\youtube-intelligence"
+        ],
+        [
+          "codex",
+          "C:\\Users\\User\\.codex\\skills\\youtube-intelligence"
+        ]
+      ]
+    },
+    {
+      "id": "youtube-intelligence",
+      "classification": "updated capability",
+      "detail": "Live instructions changed generated descriptive metadata.",
+      "fields": [
+        "installations"
+      ]
+    },
+    {
+      "id": "youtube-intelligence",
+      "classification": "metadata gap",
+      "detail": "Existing governance metadata was preserved instead of regenerated.",
+      "fields": [
+        "known_weaknesses",
+        "last_reviewed",
+        "security",
+        "status",
+        "tests"
+      ]
+    },
+    {
+      "id": "youtube-learning-pipeline",
+      "classification": "metadata gap",
+      "detail": "Existing governance metadata was preserved instead of regenerated.",
+      "fields": [
+        "known_weaknesses",
+        "last_reviewed",
+        "security",
+        "source",
+        "status",
+        "tests"
+      ]
+    },
+    {
+      "id": "youtube-offer-extraction",
+      "classification": "metadata gap",
+      "detail": "Existing governance metadata was preserved instead of regenerated.",
+      "fields": [
+        "known_weaknesses",
+        "last_reviewed",
+        "security",
+        "source",
+        "status",
+        "tests"
+      ]
+    },
+    {
+      "id": "youtube-to-skill",
+      "classification": "duplicate installation",
+      "detail": "Live runtime installations differ from the July 25 registry.",
+      "before": [
+        [
+          "claude",
+          "C:\\Users\\User\\.claude\\skills\\youtube-to-skill"
+        ]
+      ],
+      "after": [
+        [
+          "claude",
+          "C:\\Users\\User\\.claude\\skills\\youtube-to-skill"
+        ],
+        [
+          "codex",
+          "C:\\Users\\User\\.codex\\skills\\youtube-to-skill"
+        ]
+      ]
+    },
+    {
+      "id": "youtube-to-skill",
+      "classification": "updated capability",
+      "detail": "Live instructions changed generated descriptive metadata.",
+      "fields": [
+        "installations"
+      ]
+    },
+    {
+      "id": "youtube-to-skill",
+      "classification": "metadata gap",
+      "detail": "Existing governance metadata was preserved instead of regenerated.",
+      "fields": [
+        "known_weaknesses",
+        "last_reviewed",
+        "security",
+        "source",
+        "status",
+        "tests"
+      ]
+    }
+  ],
+  "blockers": [],
+  "safe_to_apply": true,
+  "candidate": "C:\\Users\\User\\Projects\\bridgeworks-workspace\\skill-governance\\reports\\phase-3\\capability-registry-candidate-2026-08-11.yaml"
+}

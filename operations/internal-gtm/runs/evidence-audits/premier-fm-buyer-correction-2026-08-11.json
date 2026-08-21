@@ -1,0 +1,21 @@
+{
+  "correction_id": "premier-fm-buyer-correction-2026-08-11",
+  "prospect_id": "premier-fm",
+  "claim_key": "named_sales_buyer_identity",
+  "supersedes": {"name": "Leko Peter", "role": null},
+  "canonical_observation": {
+    "name": "Lékó Péter",
+    "role": "Értékesítési vezető",
+    "role_translation": "Sales Manager",
+    "email": "leko.peter@premierfm.hu",
+    "phone": "+36 70 5527690",
+    "status": "verified",
+    "source": "https://premierfm.hu/kapcsolat/",
+    "observed_at": "2026-08-11"
+  },
+  "limits": {
+    "signing_authority": "exhausted_unknown",
+    "budget_authority": "unknown"
+  },
+  "external_action_authorized": false
+}

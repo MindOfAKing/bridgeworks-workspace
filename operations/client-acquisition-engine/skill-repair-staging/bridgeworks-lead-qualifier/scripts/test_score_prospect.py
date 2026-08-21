@@ -2,6 +2,8 @@
 """Self-contained tests for score_prospect.py."""
 
 from score_prospect import score
+import sys
+from pathlib import Path
 
 
 def expect_status(payload: dict, expected: str) -> None:
@@ -51,7 +53,20 @@ def main() -> None:
 
     invalid = score({**BASE, "ratings": {**BASE["ratings"], "fit": 30}})
     assert not invalid["valid"], invalid
-    print("6 status cases and 1 validation case passed")
+    assert score(BASE)["status_scope"] == "historical_compatibility_only"
+
+    canonical = score({
+        "qualification_version": "qualification-v1",
+        "as_of": "2026-08-11",
+        "components": {"problem_evidence": {"score": 25, "evidence_ids": ["e1"]}},
+        "evidence": {"ledger": [{"id": "e1", "status": "verified",
+                                    "source": "https://example.com", "observed_at": "2026-08-10"}]},
+        "context": {"canonical_domain": "example.com", "contact_destination": "a@example.com",
+                    "service_route_exists": True, "communication_state_resolved": True},
+    })
+    assert canonical["qualification_version"] == "qualification-v1", canonical
+    assert canonical["component_scores"]["problem_evidence"] == 25, canonical
+    print("6 legacy status cases, 1 validation case and 1 qualification-v1 case passed")
 
 
 if __name__ == "__main__":

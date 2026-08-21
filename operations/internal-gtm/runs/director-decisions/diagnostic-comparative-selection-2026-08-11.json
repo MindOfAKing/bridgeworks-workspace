@@ -1,0 +1,24 @@
+{
+  "decision_id": "gtm-director:diagnostic-comparative-selection:2026-08-11",
+  "role": "gtm-director",
+  "capability": "bridgeworks-gtm-pipeline-health",
+  "authority": "recommend_only",
+  "as_of": "2026-08-11T13:45:05.1073738Z",
+  "inputs": {"comparison": "operations/internal-gtm/runs/diagnostic-reconciliations/arc-gbs-premier-canonical-comparison-2026-08-11.json", "capacity": "one bounded commercial-preparation candidate", "outcome_data_sufficient": false},
+  "selection": {
+    "selected_prospect_id": "arc-solutions-limited",
+    "selected_for": "bounded commercial-preparation strategy only",
+    "reason": "Arc has the strongest combination of commercial_fit (16/20), execution_readiness (8/10), credible diagnostic evidence and exact proof fit. Premier has higher total qualification and a direct buyer route, but commercial_fit and execution_readiness both score zero and its lead issue may be a trivial rendering repair. GBS remains under-covered.",
+    "runner_up": "premier-fm",
+    "hold": "gbs-africa"
+  },
+  "next_actions": [
+    {"prospect_id": "arc-solutions-limited", "action": "GTM Director asks Offer Strategist for one bounded entry-offer decision; stop before outreach preparation."},
+    {"prospect_id": "premier-fm", "action": "Retain as reserve and verify whether the empty KPI block is a trivial render fault before further spend."},
+    {"prospect_id": "gbs-africa", "action": "Complete commercial_fit and execution_readiness coverage before commercial preparation."},
+    {"prospect_id": "daraja-africa-eu", "action": "Pause additional enrichment; existing Stage 2 receipt remains preserved as the replacement path."}
+  ],
+  "commercial_process": {"insufficient_outcome_data": true, "reason": "No prospect has reached sent through the canonical architecture, so comparative selection uses evidence and readiness, not invented conversion rates."},
+  "approval_packet_created": false,
+  "external_action_authorized": false
+}

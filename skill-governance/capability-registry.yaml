@@ -1,8 +1,9 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-07-25",
+  "generated_at": "2026-08-11",
   "scope": "Unique skills installed in live Claude and Codex skill roots.",
   "field_policy": "unknown means the value was not explicit in the inspected SKILL.md.",
+  "governance_policy": "Installed is not approved. Existing status/security/provenance are preserved; runtime divergence is recorded on each affected capability.",
   "skills": [
     {
       "id": "ad-script",
@@ -71,6 +72,1903 @@
       "notes": "Fields marked unknown were not explicit in SKILL.md."
     },
     {
+      "id": "agent-ads-audience",
+      "name": "agent-ads-audience",
+      "path": "C:\\Users\\User\\.codex\\skills\\agent-ads-audience",
+      "installations": [
+        {
+          "runtime": "codex",
+          "path": "C:\\Users\\User\\.codex\\skills\\agent-ads-audience"
+        }
+      ],
+      "purpose": "Research audiences, personas, segmentation, platform targeting, psychographics, and exclusions as a bounded BridgeWorks advertising specialist. Use explicitly during ad strategy work.",
+      "category": [
+        "research"
+      ],
+      "triggers": [
+        "Research audiences, personas, segmentation, platform targeting, psychographics, and exclusions as a bounded BridgeWorks advertising specialist. Use explicitly during ad strategy work."
+      ],
+      "inputs": [
+        "unknown"
+      ],
+      "outputs": [
+        "unknown"
+      ],
+      "tools": [
+        "browser",
+        "web_search"
+      ],
+      "permissions": {
+        "network": true,
+        "filesystem_write": "unknown",
+        "credentials": "unknown"
+      },
+      "workflow_stages": [
+        "codex specialist contract",
+        "your role in the ad strategy",
+        "analysis process",
+        "output format",
+        "audience research analysis",
+        "important rules"
+      ],
+      "expected_deliverables": [
+        "unknown"
+      ],
+      "overlaps_with": [
+        "agent-ads-budget",
+        "agent-ads-competitive",
+        "agent-ads-creative",
+        "agent-ads-funnel"
+      ],
+      "source": {
+        "type": "internal",
+        "repository": null,
+        "version": null
+      },
+      "status": "unknown",
+      "security": {
+        "last_scanned": null,
+        "scanner": null,
+        "result": "unscanned"
+      },
+      "last_modified": "2026-07-31",
+      "last_reviewed": null,
+      "tests": [
+        "unknown"
+      ],
+      "known_weaknesses": [
+        "unknown"
+      ],
+      "notes": "Fields marked unknown were not explicit in SKILL.md."
+    },
+    {
+      "id": "agent-ads-budget",
+      "name": "agent-ads-budget",
+      "path": "C:\\Users\\User\\.codex\\skills\\agent-ads-budget",
+      "installations": [
+        {
+          "runtime": "codex",
+          "path": "C:\\Users\\User\\.codex\\skills\\agent-ads-budget"
+        }
+      ],
+      "purpose": "Design ad budgets, allocation, pacing, testing ranges, ROI scenarios, and scaling guardrails as a bounded BridgeWorks specialist. Use explicitly during ad strategy work.",
+      "category": [
+        "design"
+      ],
+      "triggers": [
+        "Design ad budgets, allocation, pacing, testing ranges, ROI scenarios, and scaling guardrails as a bounded BridgeWorks specialist. Use explicitly during ad strategy work."
+      ],
+      "inputs": [
+        "unknown"
+      ],
+      "outputs": [
+        "unknown"
+      ],
+      "tools": [
+        "browser"
+      ],
+      "permissions": {
+        "network": true,
+        "filesystem_write": "unknown",
+        "credentials": "unknown"
+      },
+      "workflow_stages": [
+        "codex specialist contract",
+        "your role in the ad strategy",
+        "analysis process",
+        "output format",
+        "budget & roi analysis",
+        "important rules"
+      ],
+      "expected_deliverables": [
+        "unknown"
+      ],
+      "overlaps_with": [
+        "agent-ads-audience",
+        "agent-ads-competitive",
+        "agent-ads-creative",
+        "agent-ads-funnel"
+      ],
+      "source": {
+        "type": "internal",
+        "repository": null,
+        "version": null
+      },
+      "status": "unknown",
+      "security": {
+        "last_scanned": null,
+        "scanner": null,
+        "result": "unscanned"
+      },
+      "last_modified": "2026-07-31",
+      "last_reviewed": null,
+      "tests": [
+        "unknown"
+      ],
+      "known_weaknesses": [
+        "unknown"
+      ],
+      "notes": "Fields marked unknown were not explicit in SKILL.md."
+    },
+    {
+      "id": "agent-ads-competitive",
+      "name": "agent-ads-competitive",
+      "path": "C:\\Users\\User\\.codex\\skills\\agent-ads-competitive",
+      "installations": [
+        {
+          "runtime": "codex",
+          "path": "C:\\Users\\User\\.codex\\skills\\agent-ads-competitive"
+        }
+      ],
+      "purpose": "Analyze competitor advertising, positioning gaps, creative patterns, and market opportunities as a bounded BridgeWorks specialist. Use explicitly during ad strategy work.",
+      "category": [
+        "market"
+      ],
+      "triggers": [
+        "Analyze competitor advertising, positioning gaps, creative patterns, and market opportunities as a bounded BridgeWorks specialist. Use explicitly during ad strategy work."
+      ],
+      "inputs": [
+        "unknown"
+      ],
+      "outputs": [
+        "unknown"
+      ],
+      "tools": [
+        "browser",
+        "web_search"
+      ],
+      "permissions": {
+        "network": true,
+        "filesystem_write": "unknown",
+        "credentials": "unknown"
+      },
+      "workflow_stages": [
+        "codex specialist contract",
+        "your role in the ad strategy",
+        "analysis process",
+        "output format",
+        "competitive intelligence analysis",
+        "important rules"
+      ],
+      "expected_deliverables": [
+        "unknown"
+      ],
+      "overlaps_with": [
+        "agent-ads-audience",
+        "agent-ads-budget",
+        "agent-ads-creative",
+        "agent-ads-funnel",
+        "agent-market-competitive"
+      ],
+      "source": {
+        "type": "internal",
+        "repository": null,
+        "version": null
+      },
+      "status": "unknown",
+      "security": {
+        "last_scanned": null,
+        "scanner": null,
+        "result": "unscanned"
+      },
+      "last_modified": "2026-07-31",
+      "last_reviewed": null,
+      "tests": [
+        "unknown"
+      ],
+      "known_weaknesses": [
+        "unknown"
+      ],
+      "notes": "Fields marked unknown were not explicit in SKILL.md."
+    },
+    {
+      "id": "agent-ads-creative",
+      "name": "agent-ads-creative",
+      "path": "C:\\Users\\User\\.codex\\skills\\agent-ads-creative",
+      "installations": [
+        {
+          "runtime": "codex",
+          "path": "C:\\Users\\User\\.codex\\skills\\agent-ads-creative"
+        }
+      ],
+      "purpose": "Create platform-aware ad hooks, headlines, copy variants, creative concepts, and production guidance as a bounded BridgeWorks specialist. Use explicitly during ad strategy work.",
+      "category": [
+        "general"
+      ],
+      "triggers": [
+        "Create platform-aware ad hooks, headlines, copy variants, creative concepts, and production guidance as a bounded BridgeWorks specialist. Use explicitly during ad strategy work."
+      ],
+      "inputs": [
+        "unknown"
+      ],
+      "outputs": [
+        "unknown"
+      ],
+      "tools": [
+        "browser",
+        "web_search"
+      ],
+      "permissions": {
+        "network": true,
+        "filesystem_write": "unknown",
+        "credentials": "unknown"
+      },
+      "workflow_stages": [
+        "codex specialist contract",
+        "your role in the ad strategy",
+        "analysis process",
+        "output format",
+        "creative & copy analysis",
+        "important rules"
+      ],
+      "expected_deliverables": [
+        "unknown"
+      ],
+      "overlaps_with": [
+        "agent-ads-audience",
+        "agent-ads-budget",
+        "agent-ads-competitive",
+        "agent-ads-funnel"
+      ],
+      "source": {
+        "type": "internal",
+        "repository": null,
+        "version": null
+      },
+      "status": "unknown",
+      "security": {
+        "last_scanned": null,
+        "scanner": null,
+        "result": "unscanned"
+      },
+      "last_modified": "2026-07-31",
+      "last_reviewed": null,
+      "tests": [
+        "unknown"
+      ],
+      "known_weaknesses": [
+        "unknown"
+      ],
+      "notes": "Fields marked unknown were not explicit in SKILL.md."
+    },
+    {
+      "id": "agent-ads-funnel",
+      "name": "agent-ads-funnel",
+      "path": "C:\\Users\\User\\.codex\\skills\\agent-ads-funnel",
+      "installations": [
+        {
+          "runtime": "codex",
+          "path": "C:\\Users\\User\\.codex\\skills\\agent-ads-funnel"
+        }
+      ],
+      "purpose": "Design campaign architecture, funnel stages, retargeting, landing alignment, and conversion paths as a bounded BridgeWorks specialist. Use explicitly during ad strategy work.",
+      "category": [
+        "design"
+      ],
+      "triggers": [
+        "Design campaign architecture, funnel stages, retargeting, landing alignment, and conversion paths as a bounded BridgeWorks specialist. Use explicitly during ad strategy work."
+      ],
+      "inputs": [
+        "unknown"
+      ],
+      "outputs": [
+        "unknown"
+      ],
+      "tools": [
+        "browser",
+        "web_search"
+      ],
+      "permissions": {
+        "network": true,
+        "filesystem_write": "unknown",
+        "credentials": "unknown"
+      },
+      "workflow_stages": [
+        "codex specialist contract",
+        "your role in the ad strategy",
+        "analysis process",
+        "output format",
+        "funnel architecture analysis",
+        "important rules"
+      ],
+      "expected_deliverables": [
+        "unknown"
+      ],
+      "overlaps_with": [
+        "agent-ads-audience",
+        "agent-ads-budget",
+        "agent-ads-competitive",
+        "agent-ads-creative"
+      ],
+      "source": {
+        "type": "internal",
+        "repository": null,
+        "version": null
+      },
+      "status": "unknown",
+      "security": {
+        "last_scanned": null,
+        "scanner": null,
+        "result": "unscanned"
+      },
+      "last_modified": "2026-07-31",
+      "last_reviewed": null,
+      "tests": [
+        "unknown"
+      ],
+      "known_weaknesses": [
+        "unknown"
+      ],
+      "notes": "Fields marked unknown were not explicit in SKILL.md."
+    },
+    {
+      "id": "agent-daily-brief-composer",
+      "name": "agent-daily-brief-composer",
+      "path": "C:\\Users\\User\\.codex\\skills\\agent-daily-brief-composer",
+      "installations": [
+        {
+          "runtime": "codex",
+          "path": "C:\\Users\\User\\.codex\\skills\\agent-daily-brief-composer"
+        }
+      ],
+      "purpose": "Compose one mobile-friendly BridgeWorks daily brief from verified system state, decisions, finance alerts, calendar pressure, and project actions. Use explicitly for daily brief runs.",
+      "category": [
+        "general"
+      ],
+      "triggers": [
+        "Compose one mobile-friendly BridgeWorks daily brief from verified system state, decisions, finance alerts, calendar pressure, and project actions. Use explicitly for daily brief runs."
+      ],
+      "inputs": [
+        "unknown"
+      ],
+      "outputs": [
+        "unknown"
+      ],
+      "tools": [
+        "gmail"
+      ],
+      "permissions": {
+        "network": true,
+        "filesystem_write": "unknown",
+        "credentials": "unknown"
+      },
+      "workflow_stages": [
+        "codex specialist contract",
+        "daily brief composer"
+      ],
+      "expected_deliverables": [
+        "unknown"
+      ],
+      "overlaps_with": [
+        "daily-brief"
+      ],
+      "source": {
+        "type": "internal",
+        "repository": null,
+        "version": null
+      },
+      "status": "unknown",
+      "security": {
+        "last_scanned": null,
+        "scanner": null,
+        "result": "unscanned"
+      },
+      "last_modified": "2026-07-31",
+      "last_reviewed": null,
+      "tests": [
+        "unknown"
+      ],
+      "known_weaknesses": [
+        "unknown"
+      ],
+      "notes": "Fields marked unknown were not explicit in SKILL.md."
+    },
+    {
+      "id": "agent-finance-sentinel",
+      "name": "agent-finance-sentinel",
+      "path": "C:\\Users\\User\\.codex\\skills\\agent-finance-sentinel",
+      "installations": [
+        {
+          "runtime": "codex",
+          "path": "C:\\Users\\User\\.codex\\skills\\agent-finance-sentinel"
+        }
+      ],
+      "purpose": "Turn verified finance evidence into alerts and decision cards without moving money or marking items paid. Use explicitly for finance radar, bills, subscriptions, invoices, or payments.",
+      "category": [
+        "general"
+      ],
+      "triggers": [
+        "Turn verified finance evidence into alerts and decision cards without moving money or marking items paid. Use explicitly for finance radar, bills, subscriptions, invoices, or payments."
+      ],
+      "inputs": [
+        "unknown"
+      ],
+      "outputs": [
+        "unknown"
+      ],
+      "tools": [
+        "gmail"
+      ],
+      "permissions": {
+        "network": true,
+        "filesystem_write": "unknown",
+        "credentials": "unknown"
+      },
+      "workflow_stages": [
+        "codex specialist contract",
+        "finance sentinel"
+      ],
+      "expected_deliverables": [
+        "unknown"
+      ],
+      "overlaps_with": [],
+      "source": {
+        "type": "internal",
+        "repository": null,
+        "version": null
+      },
+      "status": "unknown",
+      "security": {
+        "last_scanned": null,
+        "scanner": null,
+        "result": "unscanned"
+      },
+      "last_modified": "2026-07-31",
+      "last_reviewed": null,
+      "tests": [
+        "unknown"
+      ],
+      "known_weaknesses": [
+        "unknown"
+      ],
+      "notes": "Fields marked unknown were not explicit in SKILL.md."
+    },
+    {
+      "id": "agent-geo-ai-visibility",
+      "name": "agent-geo-ai-visibility",
+      "path": "C:\\Users\\User\\.codex\\skills\\agent-geo-ai-visibility",
+      "installations": [
+        {
+          "runtime": "codex",
+          "path": "C:\\Users\\User\\.codex\\skills\\agent-geo-ai-visibility"
+        }
+      ],
+      "purpose": "Evaluate AI-search visibility, citability, crawler access, llms.txt, and brand presence across answer engines as a bounded GEO specialist. Use explicitly during GEO audits.",
+      "category": [
+        "geo"
+      ],
+      "triggers": [
+        "Evaluate AI-search visibility, citability, crawler access, llms.txt, and brand presence across answer engines as a bounded GEO specialist. Use explicitly during GEO audits."
+      ],
+      "inputs": [
+        "unknown"
+      ],
+      "outputs": [
+        "unknown"
+      ],
+      "tools": [
+        "browser",
+        "web_search",
+        "python"
+      ],
+      "permissions": {
+        "network": true,
+        "filesystem_write": "unknown",
+        "credentials": "unknown"
+      },
+      "workflow_stages": [
+        "codex specialist contract",
+        "execution steps",
+        "output format",
+        "ai visibility analysis",
+        "important notes"
+      ],
+      "expected_deliverables": [
+        "unknown"
+      ],
+      "overlaps_with": [],
+      "source": {
+        "type": "internal",
+        "repository": null,
+        "version": null
+      },
+      "status": "active",
+      "security": {
+        "last_scanned": "2026-08-11",
+        "scanner": "review_geo_specialists.py static pattern scan",
+        "result": "clean_of_prohibited_patterns"
+      },
+      "last_modified": "2026-07-31",
+      "last_reviewed": "2026-08-11",
+      "tests": [
+        "unknown"
+      ],
+      "known_weaknesses": [
+        "unknown"
+      ],
+      "notes": "Promoted 2026-08-11 through the governance pathway. Intake record at skill-governance/intake/intake-agent-geo-ai-visibility.yaml"
+    },
+    {
+      "id": "agent-geo-content",
+      "name": "agent-geo-content",
+      "path": "C:\\Users\\User\\.codex\\skills\\agent-geo-content",
+      "installations": [
+        {
+          "runtime": "codex",
+          "path": "C:\\Users\\User\\.codex\\skills\\agent-geo-content"
+        }
+      ],
+      "purpose": "Evaluate E-E-A-T, content depth, readability, topical authority, and AI-answer readiness as a bounded GEO content specialist. Use explicitly during GEO audits.",
+      "category": [
+        "geo",
+        "content"
+      ],
+      "triggers": [
+        "Evaluate E-E-A-T, content depth, readability, topical authority, and AI-answer readiness as a bounded GEO content specialist. Use explicitly during GEO audits."
+      ],
+      "inputs": [
+        "unknown"
+      ],
+      "outputs": [
+        "unknown"
+      ],
+      "tools": [
+        "browser"
+      ],
+      "permissions": {
+        "network": true,
+        "filesystem_write": "unknown",
+        "credentials": true
+      },
+      "workflow_stages": [
+        "codex specialist contract",
+        "execution steps",
+        "output format",
+        "content quality analysis",
+        "important notes"
+      ],
+      "expected_deliverables": [
+        "unknown"
+      ],
+      "overlaps_with": [
+        "agent-geo-schema",
+        "agent-geo-technical",
+        "agent-market-content",
+        "geo-content"
+      ],
+      "source": {
+        "type": "internal",
+        "repository": null,
+        "version": null
+      },
+      "status": "active",
+      "security": {
+        "last_scanned": "2026-08-11",
+        "scanner": "review_geo_specialists.py static pattern scan",
+        "result": "clean_of_prohibited_patterns"
+      },
+      "last_modified": "2026-07-31",
+      "last_reviewed": "2026-08-11",
+      "tests": [
+        "unknown"
+      ],
+      "known_weaknesses": [
+        "unknown"
+      ],
+      "notes": "Promoted 2026-08-11 through the governance pathway. Intake record at skill-governance/intake/intake-agent-geo-content.yaml"
+    },
+    {
+      "id": "agent-geo-platform-analysis",
+      "name": "agent-geo-platform-analysis",
+      "path": "C:\\Users\\User\\.codex\\skills\\agent-geo-platform-analysis",
+      "installations": [
+        {
+          "runtime": "codex",
+          "path": "C:\\Users\\User\\.codex\\skills\\agent-geo-platform-analysis"
+        }
+      ],
+      "purpose": "Evaluate readiness for Google AI Overviews, ChatGPT search, Perplexity, Gemini, and Bing Copilot as a bounded GEO platform specialist. Use explicitly during GEO audits.",
+      "category": [
+        "geo"
+      ],
+      "triggers": [
+        "Evaluate readiness for Google AI Overviews, ChatGPT search, Perplexity, Gemini, and Bing Copilot as a bounded GEO platform specialist. Use explicitly during GEO audits."
+      ],
+      "inputs": [
+        "unknown"
+      ],
+      "outputs": [
+        "unknown"
+      ],
+      "tools": [
+        "web_search"
+      ],
+      "permissions": {
+        "network": true,
+        "filesystem_write": "unknown",
+        "credentials": true
+      },
+      "workflow_stages": [
+        "codex specialist contract",
+        "execution steps",
+        "output format",
+        "platform readiness analysis",
+        "important notes"
+      ],
+      "expected_deliverables": [
+        "unknown"
+      ],
+      "overlaps_with": [],
+      "source": {
+        "type": "internal",
+        "repository": null,
+        "version": null
+      },
+      "status": "active",
+      "security": {
+        "last_scanned": "2026-08-11",
+        "scanner": "review_geo_specialists.py static pattern scan",
+        "result": "clean_of_prohibited_patterns"
+      },
+      "last_modified": "2026-07-31",
+      "last_reviewed": "2026-08-11",
+      "tests": [
+        "unknown"
+      ],
+      "known_weaknesses": [
+        "unknown"
+      ],
+      "notes": "Promoted 2026-08-11 through the governance pathway. Intake record at skill-governance/intake/intake-agent-geo-platform-analysis.yaml"
+    },
+    {
+      "id": "agent-geo-schema",
+      "name": "agent-geo-schema",
+      "path": "C:\\Users\\User\\.codex\\skills\\agent-geo-schema",
+      "installations": [
+        {
+          "runtime": "codex",
+          "path": "C:\\Users\\User\\.codex\\skills\\agent-geo-schema"
+        }
+      ],
+      "purpose": "Detect, validate, and recommend JSON-LD and Schema.org structured data for AI discoverability as a bounded GEO specialist. Use explicitly during schema or GEO audits.",
+      "category": [
+        "geo"
+      ],
+      "triggers": [
+        "Detect, validate, and recommend JSON-LD and Schema.org structured data for AI discoverability as a bounded GEO specialist. Use explicitly during schema or GEO audits."
+      ],
+      "inputs": [
+        "unknown"
+      ],
+      "outputs": [
+        "unknown"
+      ],
+      "tools": [
+        "browser",
+        "python"
+      ],
+      "permissions": {
+        "network": true,
+        "filesystem_write": "unknown",
+        "credentials": "unknown"
+      },
+      "workflow_stages": [
+        "codex specialist contract",
+        "execution steps",
+        "output format",
+        "schema & structured data",
+        "important notes"
+      ],
+      "expected_deliverables": [
+        "unknown"
+      ],
+      "overlaps_with": [
+        "agent-geo-content",
+        "agent-geo-technical",
+        "geo-schema"
+      ],
+      "source": {
+        "type": "internal",
+        "repository": null,
+        "version": null
+      },
+      "status": "active",
+      "security": {
+        "last_scanned": "2026-08-11",
+        "scanner": "review_geo_specialists.py static pattern scan",
+        "result": "clean_of_prohibited_patterns"
+      },
+      "last_modified": "2026-07-31",
+      "last_reviewed": "2026-08-11",
+      "tests": [
+        "unknown"
+      ],
+      "known_weaknesses": [
+        "unknown"
+      ],
+      "notes": "Promoted 2026-08-11 through the governance pathway. Intake record at skill-governance/intake/intake-agent-geo-schema.yaml"
+    },
+    {
+      "id": "agent-geo-technical",
+      "name": "agent-geo-technical",
+      "path": "C:\\Users\\User\\.codex\\skills\\agent-geo-technical",
+      "installations": [
+        {
+          "runtime": "codex",
+          "path": "C:\\Users\\User\\.codex\\skills\\agent-geo-technical"
+        }
+      ],
+      "purpose": "Evaluate crawlability, indexability, rendering, security, Core Web Vitals, and AI-crawler readiness as a bounded technical GEO specialist. Use explicitly during GEO audits.",
+      "category": [
+        "geo"
+      ],
+      "triggers": [
+        "Evaluate crawlability, indexability, rendering, security, Core Web Vitals, and AI-crawler readiness as a bounded technical GEO specialist. Use explicitly during GEO audits."
+      ],
+      "inputs": [
+        "unknown"
+      ],
+      "outputs": [
+        "unknown"
+      ],
+      "tools": [
+        "browser"
+      ],
+      "permissions": {
+        "network": true,
+        "filesystem_write": "unknown",
+        "credentials": "unknown"
+      },
+      "workflow_stages": [
+        "codex specialist contract",
+        "execution steps",
+        "output format",
+        "technical foundations",
+        "important notes"
+      ],
+      "expected_deliverables": [
+        "unknown"
+      ],
+      "overlaps_with": [
+        "agent-geo-content",
+        "agent-geo-schema",
+        "agent-market-technical",
+        "geo-technical"
+      ],
+      "source": {
+        "type": "internal",
+        "repository": null,
+        "version": null
+      },
+      "status": "active",
+      "security": {
+        "last_scanned": "2026-08-11",
+        "scanner": "review_geo_specialists.py static pattern scan",
+        "result": "clean_of_prohibited_patterns"
+      },
+      "last_modified": "2026-07-31",
+      "last_reviewed": "2026-08-11",
+      "tests": [
+        "unknown"
+      ],
+      "known_weaknesses": [
+        "unknown"
+      ],
+      "notes": "Promoted 2026-08-11 through the governance pathway. Intake record at skill-governance/intake/intake-agent-geo-technical.yaml"
+    },
+    {
+      "id": "agent-market-competitive",
+      "name": "agent-market-competitive",
+      "path": "C:\\Users\\User\\.codex\\skills\\agent-market-competitive",
+      "installations": [
+        {
+          "runtime": "codex",
+          "path": "C:\\Users\\User\\.codex\\skills\\agent-market-competitive"
+        }
+      ],
+      "purpose": "Analyze competitors, positioning, market gaps, and differentiation as a bounded BridgeWorks marketing specialist. Use explicitly during marketing audits or competitive research.",
+      "category": [
+        "market",
+        "research"
+      ],
+      "triggers": [
+        "Analyze competitors, positioning, market gaps, and differentiation as a bounded BridgeWorks marketing specialist. Use explicitly during marketing audits or competitive research."
+      ],
+      "inputs": [
+        "unknown"
+      ],
+      "outputs": [
+        "unknown"
+      ],
+      "tools": [
+        "browser",
+        "web_search"
+      ],
+      "permissions": {
+        "network": true,
+        "filesystem_write": "unknown",
+        "credentials": "unknown"
+      },
+      "workflow_stages": [
+        "codex specialist contract",
+        "your role in the marketing audit",
+        "analysis process",
+        "output format",
+        "competitive positioning analysis",
+        "important rules"
+      ],
+      "expected_deliverables": [
+        "unknown"
+      ],
+      "overlaps_with": [
+        "agent-ads-competitive",
+        "agent-market-content",
+        "agent-market-conversion",
+        "agent-market-strategy",
+        "agent-market-technical"
+      ],
+      "source": {
+        "type": "internal",
+        "repository": null,
+        "version": null
+      },
+      "status": "unknown",
+      "security": {
+        "last_scanned": null,
+        "scanner": null,
+        "result": "unscanned"
+      },
+      "last_modified": "2026-07-31",
+      "last_reviewed": null,
+      "tests": [
+        "unknown"
+      ],
+      "known_weaknesses": [
+        "unknown"
+      ],
+      "notes": "Fields marked unknown were not explicit in SKILL.md."
+    },
+    {
+      "id": "agent-market-content",
+      "name": "agent-market-content",
+      "path": "C:\\Users\\User\\.codex\\skills\\agent-market-content",
+      "installations": [
+        {
+          "runtime": "codex",
+          "path": "C:\\Users\\User\\.codex\\skills\\agent-market-content"
+        }
+      ],
+      "purpose": "Evaluate website content, messaging, persuasion, SEO content quality, and content gaps as a bounded BridgeWorks marketing specialist. Use explicitly during marketing audits.",
+      "category": [
+        "seo",
+        "market",
+        "content"
+      ],
+      "triggers": [
+        "Evaluate website content, messaging, persuasion, SEO content quality, and content gaps as a bounded BridgeWorks marketing specialist. Use explicitly during marketing audits."
+      ],
+      "inputs": [
+        "unknown"
+      ],
+      "outputs": [
+        "unknown"
+      ],
+      "tools": [
+        "browser"
+      ],
+      "permissions": {
+        "network": true,
+        "filesystem_write": "unknown",
+        "credentials": "unknown"
+      },
+      "workflow_stages": [
+        "codex specialist contract",
+        "your role in the marketing audit",
+        "analysis process",
+        "output format",
+        "content & messaging analysis",
+        "important rules"
+      ],
+      "expected_deliverables": [
+        "unknown"
+      ],
+      "overlaps_with": [
+        "agent-geo-content",
+        "agent-market-competitive",
+        "agent-market-conversion",
+        "agent-market-strategy",
+        "agent-market-technical"
+      ],
+      "source": {
+        "type": "internal",
+        "repository": null,
+        "version": null
+      },
+      "status": "unknown",
+      "security": {
+        "last_scanned": null,
+        "scanner": null,
+        "result": "unscanned"
+      },
+      "last_modified": "2026-07-31",
+      "last_reviewed": null,
+      "tests": [
+        "unknown"
+      ],
+      "known_weaknesses": [
+        "unknown"
+      ],
+      "notes": "Fields marked unknown were not explicit in SKILL.md."
+    },
+    {
+      "id": "agent-market-conversion",
+      "name": "agent-market-conversion",
+      "path": "C:\\Users\\User\\.codex\\skills\\agent-market-conversion",
+      "installations": [
+        {
+          "runtime": "codex",
+          "path": "C:\\Users\\User\\.codex\\skills\\agent-market-conversion"
+        }
+      ],
+      "purpose": "Evaluate conversion paths, calls to action, friction, landing flows, and CRO opportunities as a bounded BridgeWorks specialist. Use explicitly during marketing audits.",
+      "category": [
+        "market"
+      ],
+      "triggers": [
+        "Evaluate conversion paths, calls to action, friction, landing flows, and CRO opportunities as a bounded BridgeWorks specialist. Use explicitly during marketing audits."
+      ],
+      "inputs": [
+        "unknown"
+      ],
+      "outputs": [
+        "unknown"
+      ],
+      "tools": [
+        "browser"
+      ],
+      "permissions": {
+        "network": true,
+        "filesystem_write": "unknown",
+        "credentials": "unknown"
+      },
+      "workflow_stages": [
+        "codex specialist contract",
+        "your role in the marketing audit",
+        "analysis process",
+        "output format",
+        "conversion optimization analysis",
+        "important rules"
+      ],
+      "expected_deliverables": [
+        "unknown"
+      ],
+      "overlaps_with": [
+        "agent-market-competitive",
+        "agent-market-content",
+        "agent-market-strategy",
+        "agent-market-technical"
+      ],
+      "source": {
+        "type": "internal",
+        "repository": null,
+        "version": null
+      },
+      "status": "unknown",
+      "security": {
+        "last_scanned": null,
+        "scanner": null,
+        "result": "unscanned"
+      },
+      "last_modified": "2026-07-31",
+      "last_reviewed": null,
+      "tests": [
+        "unknown"
+      ],
+      "known_weaknesses": [
+        "unknown"
+      ],
+      "notes": "Fields marked unknown were not explicit in SKILL.md."
+    },
+    {
+      "id": "agent-market-strategy",
+      "name": "agent-market-strategy",
+      "path": "C:\\Users\\User\\.codex\\skills\\agent-market-strategy",
+      "installations": [
+        {
+          "runtime": "codex",
+          "path": "C:\\Users\\User\\.codex\\skills\\agent-market-strategy"
+        }
+      ],
+      "purpose": "Evaluate marketing strategy, growth opportunities, pricing, brand trust, and revenue potential as a bounded BridgeWorks specialist. Use explicitly during marketing audits.",
+      "category": [
+        "market"
+      ],
+      "triggers": [
+        "Evaluate marketing strategy, growth opportunities, pricing, brand trust, and revenue potential as a bounded BridgeWorks specialist. Use explicitly during marketing audits."
+      ],
+      "inputs": [
+        "unknown"
+      ],
+      "outputs": [
+        "unknown"
+      ],
+      "tools": [
+        "browser"
+      ],
+      "permissions": {
+        "network": true,
+        "filesystem_write": "unknown",
+        "credentials": "unknown"
+      },
+      "workflow_stages": [
+        "codex specialist contract",
+        "your role in the marketing audit",
+        "analysis process",
+        "output format",
+        "brand & growth strategy analysis",
+        "important rules"
+      ],
+      "expected_deliverables": [
+        "unknown"
+      ],
+      "overlaps_with": [
+        "agent-market-competitive",
+        "agent-market-content",
+        "agent-market-conversion",
+        "agent-market-technical"
+      ],
+      "source": {
+        "type": "internal",
+        "repository": null,
+        "version": null
+      },
+      "status": "unknown",
+      "security": {
+        "last_scanned": null,
+        "scanner": null,
+        "result": "unscanned"
+      },
+      "last_modified": "2026-07-31",
+      "last_reviewed": null,
+      "tests": [
+        "unknown"
+      ],
+      "known_weaknesses": [
+        "unknown"
+      ],
+      "notes": "Fields marked unknown were not explicit in SKILL.md."
+    },
+    {
+      "id": "agent-market-technical",
+      "name": "agent-market-technical",
+      "path": "C:\\Users\\User\\.codex\\skills\\agent-market-technical",
+      "installations": [
+        {
+          "runtime": "codex",
+          "path": "C:\\Users\\User\\.codex\\skills\\agent-market-technical"
+        }
+      ],
+      "purpose": "Evaluate technical marketing foundations, SEO infrastructure, performance, tracking, and site architecture as a bounded BridgeWorks specialist. Use explicitly during marketing audits.",
+      "category": [
+        "seo",
+        "market"
+      ],
+      "triggers": [
+        "Evaluate technical marketing foundations, SEO infrastructure, performance, tracking, and site architecture as a bounded BridgeWorks specialist. Use explicitly during marketing audits."
+      ],
+      "inputs": [
+        "unknown"
+      ],
+      "outputs": [
+        "unknown"
+      ],
+      "tools": [
+        "browser"
+      ],
+      "permissions": {
+        "network": true,
+        "filesystem_write": "unknown",
+        "credentials": true
+      },
+      "workflow_stages": [
+        "codex specialist contract",
+        "your role in the marketing audit",
+        "analysis process",
+        "scoring",
+        "output format",
+        "technical marketing analysis",
+        "important rules"
+      ],
+      "expected_deliverables": [
+        "unknown"
+      ],
+      "overlaps_with": [
+        "agent-geo-technical",
+        "agent-market-competitive",
+        "agent-market-content",
+        "agent-market-conversion",
+        "agent-market-strategy"
+      ],
+      "source": {
+        "type": "internal",
+        "repository": null,
+        "version": null
+      },
+      "status": "unknown",
+      "security": {
+        "last_scanned": null,
+        "scanner": null,
+        "result": "unscanned"
+      },
+      "last_modified": "2026-07-31",
+      "last_reviewed": null,
+      "tests": [
+        "unknown"
+      ],
+      "known_weaknesses": [
+        "unknown"
+      ],
+      "notes": "Fields marked unknown were not explicit in SKILL.md."
+    },
+    {
+      "id": "agent-skill-creator-analyzer",
+      "name": "agent-skill-creator-analyzer",
+      "path": "C:\\Users\\User\\.codex\\skills\\agent-skill-creator-analyzer",
+      "installations": [
+        {
+          "runtime": "codex",
+          "path": "C:\\Users\\User\\.codex\\skills\\agent-skill-creator-analyzer"
+        }
+      ],
+      "purpose": "Analyze blind skill-comparison results to explain why one result won and recommend concrete improvements. Use explicitly during Codex skill evaluation and iteration.",
+      "category": [
+        "general"
+      ],
+      "triggers": [
+        "Analyze blind skill-comparison results to explain why one result won and recommend concrete improvements. Use explicitly during Codex skill evaluation and iteration."
+      ],
+      "inputs": [
+        "unknown"
+      ],
+      "outputs": [
+        "unknown"
+      ],
+      "tools": [
+        "python"
+      ],
+      "permissions": {
+        "network": "unknown",
+        "filesystem_write": "unknown",
+        "credentials": true
+      },
+      "workflow_stages": [
+        "codex specialist contract",
+        "role",
+        "inputs",
+        "process",
+        "output format",
+        "guidelines",
+        "categories for suggestions",
+        "priority levels",
+        "role",
+        "inputs",
+        "process",
+        "guidelines"
+      ],
+      "expected_deliverables": [
+        "unknown"
+      ],
+      "overlaps_with": [
+        "agent-skill-creator-comparator",
+        "agent-skill-creator-grader"
+      ],
+      "source": {
+        "type": "internal",
+        "repository": null,
+        "version": null
+      },
+      "status": "unknown",
+      "security": {
+        "last_scanned": null,
+        "scanner": null,
+        "result": "unscanned"
+      },
+      "last_modified": "2026-07-31",
+      "last_reviewed": null,
+      "tests": [
+        "unknown"
+      ],
+      "known_weaknesses": [
+        "unknown"
+      ],
+      "notes": "Fields marked unknown were not explicit in SKILL.md."
+    },
+    {
+      "id": "agent-skill-creator-comparator",
+      "name": "agent-skill-creator-comparator",
+      "path": "C:\\Users\\User\\.codex\\skills\\agent-skill-creator-comparator",
+      "installations": [
+        {
+          "runtime": "codex",
+          "path": "C:\\Users\\User\\.codex\\skills\\agent-skill-creator-comparator"
+        }
+      ],
+      "purpose": "Compare two skill outputs blindly against the original task and expectations without knowing their source. Use explicitly during Codex skill evaluation.",
+      "category": [
+        "general"
+      ],
+      "triggers": [
+        "Compare two skill outputs blindly against the original task and expectations without knowing their source. Use explicitly during Codex skill evaluation."
+      ],
+      "inputs": [
+        "unknown"
+      ],
+      "outputs": [
+        "unknown"
+      ],
+      "tools": [
+        "unknown"
+      ],
+      "permissions": {
+        "network": "unknown",
+        "filesystem_write": "unknown",
+        "credentials": "unknown"
+      },
+      "workflow_stages": [
+        "codex specialist contract",
+        "role",
+        "inputs",
+        "process",
+        "output format",
+        "field descriptions",
+        "guidelines"
+      ],
+      "expected_deliverables": [
+        "unknown"
+      ],
+      "overlaps_with": [
+        "agent-skill-creator-analyzer",
+        "agent-skill-creator-grader"
+      ],
+      "source": {
+        "type": "internal",
+        "repository": null,
+        "version": null
+      },
+      "status": "unknown",
+      "security": {
+        "last_scanned": null,
+        "scanner": null,
+        "result": "unscanned"
+      },
+      "last_modified": "2026-07-31",
+      "last_reviewed": null,
+      "tests": [
+        "unknown"
+      ],
+      "known_weaknesses": [
+        "unknown"
+      ],
+      "notes": "Fields marked unknown were not explicit in SKILL.md."
+    },
+    {
+      "id": "agent-skill-creator-grader",
+      "name": "agent-skill-creator-grader",
+      "path": "C:\\Users\\User\\.codex\\skills\\agent-skill-creator-grader",
+      "installations": [
+        {
+          "runtime": "codex",
+          "path": "C:\\Users\\User\\.codex\\skills\\agent-skill-creator-grader"
+        }
+      ],
+      "purpose": "Grade a skill execution transcript and outputs against explicit expectations, citing evidence and critiquing weak assertions. Use explicitly during Codex skill evaluation.",
+      "category": [
+        "general"
+      ],
+      "triggers": [
+        "Grade a skill execution transcript and outputs against explicit expectations, citing evidence and critiquing weak assertions. Use explicitly during Codex skill evaluation."
+      ],
+      "inputs": [
+        "unknown"
+      ],
+      "outputs": [
+        "unknown"
+      ],
+      "tools": [
+        "python"
+      ],
+      "permissions": {
+        "network": "unknown",
+        "filesystem_write": "unknown",
+        "credentials": true
+      },
+      "workflow_stages": [
+        "codex specialist contract",
+        "role",
+        "inputs",
+        "process",
+        "grading criteria",
+        "output format",
+        "field descriptions",
+        "guidelines"
+      ],
+      "expected_deliverables": [
+        "unknown"
+      ],
+      "overlaps_with": [
+        "agent-skill-creator-analyzer",
+        "agent-skill-creator-comparator"
+      ],
+      "source": {
+        "type": "internal",
+        "repository": null,
+        "version": null
+      },
+      "status": "unknown",
+      "security": {
+        "last_scanned": null,
+        "scanner": null,
+        "result": "unscanned"
+      },
+      "last_modified": "2026-07-31",
+      "last_reviewed": null,
+      "tests": [
+        "unknown"
+      ],
+      "known_weaknesses": [
+        "unknown"
+      ],
+      "notes": "Fields marked unknown were not explicit in SKILL.md."
+    },
+    {
+      "id": "agent-youtube-learning-adapter",
+      "name": "agent-youtube-learning-adapter",
+      "path": "C:\\Users\\User\\.codex\\skills\\agent-youtube-learning-adapter",
+      "installations": [
+        {
+          "runtime": "codex",
+          "path": "C:\\Users\\User\\.codex\\skills\\agent-youtube-learning-adapter"
+        }
+      ],
+      "purpose": "Classify useful YouTube material as adopt, adapt, reject, or park and turn approved learning into runbook, skill, or script proposals. Use explicitly for video adaptation work.",
+      "category": [
+        "youtube",
+        "proposal"
+      ],
+      "triggers": [
+        "Classify useful YouTube material as adopt, adapt, reject, or park and turn approved learning into runbook, skill, or script proposals. Use explicitly for video adaptation work."
+      ],
+      "inputs": [
+        "unknown"
+      ],
+      "outputs": [
+        "unknown"
+      ],
+      "tools": [
+        "browser",
+        "gmail",
+        "notebooklm"
+      ],
+      "permissions": {
+        "network": true,
+        "filesystem_write": "unknown",
+        "credentials": "unknown"
+      },
+      "workflow_stages": [
+        "codex specialist contract",
+        "youtube learning adapter"
+      ],
+      "expected_deliverables": [
+        "unknown"
+      ],
+      "overlaps_with": [],
+      "source": {
+        "type": "internal",
+        "repository": null,
+        "version": null
+      },
+      "status": "unknown",
+      "security": {
+        "last_scanned": null,
+        "scanner": null,
+        "result": "unscanned"
+      },
+      "last_modified": "2026-07-31",
+      "last_reviewed": null,
+      "tests": [
+        "unknown"
+      ],
+      "known_weaknesses": [
+        "unknown"
+      ],
+      "notes": "Fields marked unknown were not explicit in SKILL.md."
+    },
+    {
+      "id": "bridgeworks-ai-workflow-scan",
+      "name": "bridgeworks-ai-workflow-scan",
+      "path": "C:\\Users\\User\\.codex\\skills\\bridgeworks-ai-workflow-scan",
+      "installations": [
+        {
+          "runtime": "codex",
+          "path": "C:\\Users\\User\\.codex\\skills\\bridgeworks-ai-workflow-scan"
+        }
+      ],
+      "purpose": "Use when a qualified BridgeWorks prospect needs a 15-20 minute public-evidence diagnostic of one defensible AI-assisted workflow opportunity with a synthetic future-state demonstration and human approval point.",
+      "category": [
+        "general"
+      ],
+      "triggers": [
+        "Use when a qualified BridgeWorks prospect needs a 15-20 minute public-evidence diagnostic of one defensible AI-assisted workflow opportunity with a synthetic future-state demonstration and human approval point."
+      ],
+      "inputs": [
+        "unknown"
+      ],
+      "outputs": [
+        "unknown"
+      ],
+      "tools": [
+        "unknown"
+      ],
+      "permissions": {
+        "network": "unknown",
+        "filesystem_write": "unknown",
+        "credentials": "unknown"
+      },
+      "workflow_stages": [
+        "entry gate",
+        "timebox",
+        "evidence and wording",
+        "candidate test",
+        "demonstration",
+        "output",
+        "three actions",
+        "stop and paid boundary"
+      ],
+      "expected_deliverables": [
+        "unknown"
+      ],
+      "overlaps_with": [],
+      "source": {
+        "type": "internal",
+        "repository": "unknown",
+        "version": "unknown"
+      },
+      "status": "active",
+      "security": {
+        "last_scanned": null,
+        "scanner": null,
+        "result": "unscanned"
+      },
+      "last_modified": "2026-08-01",
+      "last_reviewed": "2026-08-11",
+      "tests": [
+        "unknown"
+      ],
+      "known_weaknesses": [
+        "unknown"
+      ],
+      "notes": "Fields marked unknown were not explicit in SKILL.md.",
+      "governance_review": {
+        "decision": "active",
+        "reviewed_at": "2026-08-11",
+        "scope": "internal BridgeWorks use; no external-action authority",
+        "evidence": "Exact staged/native mirror verified; bounded read-only diagnostic contract reviewed in Phase 2."
+      }
+    },
+    {
+      "id": "bridgeworks-buyer-intelligence",
+      "name": "bridgeworks-buyer-intelligence",
+      "path": "C:\\Users\\User\\.claude\\skills\\bridgeworks-buyer-intelligence",
+      "installations": [
+        {
+          "runtime": "claude",
+          "path": "C:\\Users\\User\\.claude\\skills\\bridgeworks-buyer-intelligence"
+        },
+        {
+          "runtime": "codex",
+          "path": "C:\\Users\\User\\.codex\\skills\\bridgeworks-buyer-intelligence"
+        }
+      ],
+      "purpose": "Collect public evidence for the buyer_accessibility dimension: problem owner, budget owner, decision maker, champion, blocker, and a lawful contact route.",
+      "category": [
+        "research",
+        "sales"
+      ],
+      "triggers": [
+        "qualification coverage gap",
+        "buyer-intelligence"
+      ],
+      "inputs": [
+        "prospect identity",
+        "qualification coverage"
+      ],
+      "outputs": [
+        "buyer role attributions with confidence",
+        "contact route",
+        "unresolved questions"
+      ],
+      "tools": [
+        "web_search",
+        "browser"
+      ],
+      "permissions": {
+        "network": true,
+        "filesystem_write": false,
+        "credentials": false
+      },
+      "workflow_stages": [
+        "check coverage first",
+        "free tools first",
+        "collect sourced evidence",
+        "declare uncertainty",
+        "hand to evidence auditor"
+      ],
+      "expected_deliverables": [
+        "sourced findings for one qualification dimension"
+      ],
+      "overlaps_with": [],
+      "source": {
+        "type": "internal",
+        "repository": "operations\\internal-gtm\\runtime-adaptations\\buyer-intelligence.md",
+        "version": "2026-08-11"
+      },
+      "status": "active",
+      "security": {
+        "last_scanned": "2026-08-11",
+        "scanner": "authored in place, read-only contract",
+        "result": "no_external_write_declared"
+      },
+      "last_modified": "2026-08-11",
+      "last_reviewed": "2026-08-11",
+      "tests": [
+        "operations/internal-gtm/tests/test_enrichment_loop.py"
+      ],
+      "known_weaknesses": [
+        "depends on what the company publishes; absence is not proof"
+      ],
+      "notes": "Bounded research capability feeding qualification-v1. Never qualifies or routes.",
+      "runtime_divergence": {
+        "state": "governed_runtime_adaptation",
+        "digests": {
+          "claude": "ef73df60568a1e14bfb18c52e7bf69533954fcf1af081923cf37c3a26d5aaaf1",
+          "codex": "987d06287887eae39319604d5be006af99a762e0d4d97750c930dbb806209364"
+        },
+        "canonical_source": "operations\\internal-gtm\\runtime-adaptations\\buyer-intelligence.md",
+        "note": "one source, Codex copy adds only the operating rule block",
+        "detected_at": "2026-08-11"
+      }
+    },
+    {
+      "id": "bridgeworks-commercial-intelligence",
+      "name": "bridgeworks-commercial-intelligence",
+      "path": "C:\\Users\\User\\.claude\\skills\\bridgeworks-commercial-intelligence",
+      "installations": [
+        {
+          "runtime": "claude",
+          "path": "C:\\Users\\User\\.claude\\skills\\bridgeworks-commercial-intelligence"
+        },
+        {
+          "runtime": "codex",
+          "path": "C:\\Users\\User\\.codex\\skills\\bridgeworks-commercial-intelligence"
+        }
+      ],
+      "purpose": "Collect public evidence for the commercial_fit and execution_readiness qualification dimensions. Never invents a contract value.",
+      "category": [
+        "research",
+        "sales"
+      ],
+      "triggers": [
+        "qualification coverage gap",
+        "commercial-intelligence"
+      ],
+      "inputs": [
+        "prospect identity",
+        "observed problem",
+        "qualification coverage"
+      ],
+      "outputs": [
+        "commercial findings",
+        "commercial value band or null",
+        "unresolved questions"
+      ],
+      "tools": [
+        "web_search",
+        "browser"
+      ],
+      "permissions": {
+        "network": true,
+        "filesystem_write": false,
+        "credentials": false
+      },
+      "workflow_stages": [
+        "check coverage first",
+        "free tools first",
+        "collect sourced evidence",
+        "declare uncertainty",
+        "hand to evidence auditor"
+      ],
+      "expected_deliverables": [
+        "sourced findings for one qualification dimension"
+      ],
+      "overlaps_with": [],
+      "source": {
+        "type": "internal",
+        "repository": "operations\\internal-gtm\\runtime-adaptations\\commercial-intelligence.md",
+        "version": "2026-08-11"
+      },
+      "status": "active",
+      "security": {
+        "last_scanned": "2026-08-11",
+        "scanner": "authored in place, read-only contract",
+        "result": "no_external_write_declared"
+      },
+      "last_modified": "2026-08-11",
+      "last_reviewed": "2026-08-11",
+      "tests": [
+        "operations/internal-gtm/tests/test_enrichment_loop.py"
+      ],
+      "known_weaknesses": [
+        "depends on what the company publishes; absence is not proof"
+      ],
+      "notes": "Bounded research capability feeding qualification-v1. Never qualifies or routes.",
+      "runtime_divergence": {
+        "state": "governed_runtime_adaptation",
+        "digests": {
+          "claude": "2f233c9f8a18f353e4147936553923eaff5494f9c904d70acaec05cd2fff595b",
+          "codex": "760e1ad027168fc727394fcbfd04ab1edba5cd43e66705dafbcadc1903731701"
+        },
+        "canonical_source": "operations\\internal-gtm\\runtime-adaptations\\commercial-intelligence.md",
+        "note": "one source, Codex copy adds only the operating rule block",
+        "detected_at": "2026-08-11"
+      }
+    },
+    {
+      "id": "bridgeworks-daily-operations",
+      "name": "bridgeworks-daily-operations",
+      "path": "C:\\Users\\User\\.codex\\skills\\bridgeworks-daily-operations",
+      "installations": [
+        {
+          "runtime": "codex",
+          "path": "C:\\Users\\User\\.codex\\skills\\bridgeworks-daily-operations"
+        }
+      ],
+      "purpose": "Run and reconcile the BridgeWorks operating day across local workspaces, Mission Control, recent Codex tasks, GitHub, and connected business systems. Use when Emmanuel says daily operations, daily brief, brief me, what matters today, operating review, reconcile BridgeWorks, end-of-day closeout, or asks what is completed, open, blocked, stale, awaiting approval, or constraining the business.",
+      "category": [
+        "seo"
+      ],
+      "triggers": [
+        "Run and reconcile the BridgeWorks operating day across local workspaces, Mission Control, recent Codex tasks, GitHub, and connected business systems. Use when Emmanuel says daily operations, daily brief, brief me, what matters today, operating review, reconcile BridgeWorks, end-of-day closeout, or asks what is completed, open, blocked, stale, awaiting approval, or constraining the business."
+      ],
+      "inputs": [
+        "unknown"
+      ],
+      "outputs": [
+        "unknown"
+      ],
+      "tools": [
+        "git"
+      ],
+      "permissions": {
+        "network": true,
+        "filesystem_write": "unknown",
+        "credentials": "unknown"
+      },
+      "workflow_stages": [
+        "start",
+        "collect current evidence",
+        "reconcile",
+        "write policy",
+        "output"
+      ],
+      "expected_deliverables": [
+        "unknown"
+      ],
+      "overlaps_with": [],
+      "source": {
+        "type": "internal",
+        "repository": null,
+        "version": null
+      },
+      "status": "unknown",
+      "security": {
+        "last_scanned": null,
+        "scanner": null,
+        "result": "unscanned"
+      },
+      "last_modified": "2026-07-31",
+      "last_reviewed": null,
+      "tests": [
+        "unknown"
+      ],
+      "known_weaknesses": [
+        "unknown"
+      ],
+      "notes": "Fields marked unknown were not explicit in SKILL.md."
+    },
+    {
+      "id": "bridgeworks-geo-prospect-scan",
+      "name": "bridgeworks-geo-prospect-scan",
+      "path": "C:\\Users\\User\\.codex\\skills\\bridgeworks-geo-prospect-scan",
+      "installations": [
+        {
+          "runtime": "codex",
+          "path": "C:\\Users\\User\\.codex\\skills\\bridgeworks-geo-prospect-scan"
+        }
+      ],
+      "purpose": "Use when a qualified BridgeWorks prospect needs a 15-20 minute, evidence-led snapshot showing how clearly public web and AI-search systems can understand, corroborate, and cite the business before initial outreach.",
+      "category": [
+        "geo"
+      ],
+      "triggers": [
+        "Use when a qualified BridgeWorks prospect needs a 15-20 minute, evidence-led snapshot showing how clearly public web and AI-search systems can understand, corroborate, and cite the business before initial outreach."
+      ],
+      "inputs": [
+        "unknown"
+      ],
+      "outputs": [
+        "unknown"
+      ],
+      "tools": [
+        "unknown"
+      ],
+      "permissions": {
+        "network": "unknown",
+        "filesystem_write": "unknown",
+        "credentials": true
+      },
+      "workflow_stages": [
+        "entry gate",
+        "timebox",
+        "evidence rules",
+        "ai demonstration",
+        "output",
+        "recommendations",
+        "stop conditions",
+        "paid-audit boundary"
+      ],
+      "expected_deliverables": [
+        "unknown"
+      ],
+      "overlaps_with": [
+        "geo-prospect"
+      ],
+      "source": {
+        "type": "internal",
+        "repository": "unknown",
+        "version": "unknown"
+      },
+      "status": "active",
+      "security": {
+        "last_scanned": null,
+        "scanner": null,
+        "result": "unscanned"
+      },
+      "last_modified": "2026-08-01",
+      "last_reviewed": "2026-08-11",
+      "tests": [
+        "unknown"
+      ],
+      "known_weaknesses": [
+        "unknown"
+      ],
+      "notes": "Fields marked unknown were not explicit in SKILL.md.",
+      "governance_review": {
+        "decision": "active",
+        "reviewed_at": "2026-08-11",
+        "scope": "internal BridgeWorks use; no external-action authority",
+        "evidence": "Exact staged/native mirror verified; bounded read-only diagnostic contract reviewed in Phase 2."
+      }
+    },
+    {
+      "id": "bridgeworks-gtm-pipeline-health",
+      "name": "bridgeworks-gtm-pipeline-health",
+      "path": "C:\\Users\\User\\.claude\\skills\\bridgeworks-gtm-pipeline-health",
+      "installations": [
+        {
+          "runtime": "claude",
+          "path": "C:\\Users\\User\\.claude\\skills\\bridgeworks-gtm-pipeline-health"
+        },
+        {
+          "runtime": "codex",
+          "path": "C:\\Users\\User\\.codex\\skills\\bridgeworks-gtm-pipeline-health"
+        }
+      ],
+      "purpose": "Bounded internal GTM pipeline analysis: lifecycle reasoning, pipeline movement, handoff logic, stage health, next-action logic and commercial process analysis over canonical internal-GTM state.",
+      "category": [
+        "reporting",
+        "client-ops"
+      ],
+      "triggers": [
+        "pipeline health",
+        "stage health",
+        "next action",
+        "pipeline movement"
+      ],
+      "inputs": [
+        "engine snapshot",
+        "qualification-v1 results",
+        "gtm telemetry"
+      ],
+      "outputs": [
+        "lifecycle map",
+        "stage health",
+        "next actions",
+        "commercial process analysis"
+      ],
+      "tools": [
+        "filesystem"
+      ],
+      "permissions": {
+        "network": false,
+        "filesystem_write": false,
+        "credentials": false
+      },
+      "workflow_stages": [
+        "lifecycle reasoning",
+        "pipeline movement",
+        "handoff logic",
+        "stage health",
+        "next-action logic",
+        "commercial process analysis"
+      ],
+      "expected_deliverables": [
+        "pipeline health JSON"
+      ],
+      "overlaps_with": [
+        "revops"
+      ],
+      "source": {
+        "type": "internal",
+        "repository": "operations/internal-gtm/runtime-adaptations/gtm-pipeline-health.md",
+        "version": "2026-08-11"
+      },
+      "status": "active",
+      "security": {
+        "last_scanned": "2026-08-11",
+        "scanner": "authored in place, read-only contract",
+        "result": "no_external_write_declared"
+      },
+      "last_modified": "2026-08-11",
+      "last_reviewed": "2026-08-11",
+      "tests": [
+        "operations/internal-gtm/tests/test_runtime_coverage.py"
+      ],
+      "known_weaknesses": [
+        "commercial process analysis has no outcome data yet"
+      ],
+      "notes": "Bounded replacement for the five GTM roles that referenced revops. revops stays available in Claude Code for client revenue-system consulting. This capability never duplicates it.",
+      "runtime_divergence": {
+        "state": "governed_runtime_adaptation",
+        "digests": {
+          "claude": "325f13a30a472a3dcba49ace09e3f841cbb03a16ecc5e17d46db9d350e32bdb3",
+          "codex": "c938d7a33709dff2e1d4239453720ef6586dabd4eaa1933f676e84cb6015cdfb"
+        },
+        "canonical_source": "operations/internal-gtm/runtime-adaptations/gtm-pipeline-health.md",
+        "note": "one source, Codex copy adds only the operating rule block",
+        "detected_at": "2026-08-11"
+      }
+    },
+    {
       "id": "bridgeworks-idea-to-content",
       "name": "bridgeworks-idea-to-content",
       "path": "C:\\Users\\User\\.claude\\skills\\bridgeworks-idea-to-content",
@@ -123,7 +2021,7 @@
       "source": {
         "type": "internal",
         "repository": "https://github.com/MindOfAKing/bridgeworks-workspace.git",
-        "version": "5489ead1813ca72a704dff24fa5a93f3c5b3498e"
+        "version": "03b9df10436b1b376dfa163005fb787c4d150ce7"
       },
       "status": "active",
       "security": {
@@ -207,6 +2105,78 @@
       "notes": "Fields marked unknown were not explicit in SKILL.md."
     },
     {
+      "id": "bridgeworks-lead-qualifier",
+      "name": "bridgeworks-lead-qualifier",
+      "path": "C:\\Users\\User\\.codex\\skills\\bridgeworks-lead-qualifier",
+      "installations": [
+        {
+          "runtime": "codex",
+          "path": "C:\\Users\\User\\.codex\\skills\\bridgeworks-lead-qualifier"
+        }
+      ],
+      "purpose": "Use when BridgeWorks must decide whether an inbound or outbound prospect merits research, a tailored 15-20 minute diagnostic, direct outreach, nurture, or rejection before spending bespoke delivery time.",
+      "category": [
+        "research"
+      ],
+      "triggers": [
+        "Use when BridgeWorks must decide whether an inbound or outbound prospect merits research, a tailored 15-20 minute diagnostic, direct outreach, nurture, or rejection before spending bespoke delivery time."
+      ],
+      "inputs": [
+        "unknown"
+      ],
+      "outputs": [
+        "unknown"
+      ],
+      "tools": [
+        "python"
+      ],
+      "permissions": {
+        "network": "unknown",
+        "filesystem_write": "unknown",
+        "credentials": "unknown"
+      },
+      "workflow_stages": [
+        "workflow",
+        "evidence rules",
+        "decision gates",
+        "free-value rule",
+        "output contract",
+        "handoff"
+      ],
+      "expected_deliverables": [
+        "unknown"
+      ],
+      "overlaps_with": [
+        "lead-qualifier"
+      ],
+      "source": {
+        "type": "internal",
+        "repository": "unknown",
+        "version": "unknown"
+      },
+      "status": "active",
+      "security": {
+        "last_scanned": null,
+        "scanner": null,
+        "result": "unscanned"
+      },
+      "last_modified": "2026-08-01",
+      "last_reviewed": "2026-08-11",
+      "tests": [
+        "C:\\Users\\User\\.codex\\skills\\bridgeworks-lead-qualifier\\scripts\\test_score_prospect.py"
+      ],
+      "known_weaknesses": [
+        "unknown"
+      ],
+      "notes": "Fields marked unknown were not explicit in SKILL.md.",
+      "governance_review": {
+        "decision": "active",
+        "reviewed_at": "2026-08-11",
+        "scope": "internal BridgeWorks use; no external-action authority",
+        "evidence": "Native deterministic tests passed: 6 status cases and 1 validation case."
+      }
+    },
+    {
       "id": "bridgeworks-operating-system",
       "name": "bridgeworks-operating-system",
       "path": "C:\\Users\\User\\.codex\\skills\\bridgeworks-operating-system",
@@ -271,6 +2241,152 @@
       "notes": "Fields marked unknown were not explicit in SKILL.md."
     },
     {
+      "id": "bridgeworks-prospect-router",
+      "name": "bridgeworks-prospect-router",
+      "path": "C:\\Users\\User\\.codex\\skills\\bridgeworks-prospect-router",
+      "installations": [
+        {
+          "runtime": "codex",
+          "path": "C:\\Users\\User\\.codex\\skills\\bridgeworks-prospect-router"
+        }
+      ],
+      "purpose": "Use when a BridgeWorks prospect has passed qualification and must be routed to one evidence-backed diagnostic or demo, the correct service line and work passes, a likely buyer, an outreach path, and CRM/task handoffs without overproducing.",
+      "category": [
+        "general"
+      ],
+      "triggers": [
+        "Use when a BridgeWorks prospect has passed qualification and must be routed to one evidence-backed diagnostic or demo, the correct service line and work passes, a likely buyer, an outreach path, and CRM/task handoffs without overproducing."
+      ],
+      "inputs": [
+        "unknown"
+      ],
+      "outputs": [
+        "unknown"
+      ],
+      "tools": [
+        "gmail",
+        "python"
+      ],
+      "permissions": {
+        "network": true,
+        "filesystem_write": "unknown",
+        "credentials": "unknown"
+      },
+      "workflow_stages": [
+        "entry gate",
+        "routing method",
+        "route table",
+        "work-pass budget",
+        "buyer and channel logic",
+        "system handoff",
+        "output contract",
+        "hard stops"
+      ],
+      "expected_deliverables": [
+        "unknown"
+      ],
+      "overlaps_with": [],
+      "source": {
+        "type": "internal",
+        "repository": "unknown",
+        "version": "unknown"
+      },
+      "status": "active",
+      "security": {
+        "last_scanned": null,
+        "scanner": null,
+        "result": "unscanned"
+      },
+      "last_modified": "2026-08-01",
+      "last_reviewed": "2026-08-11",
+      "tests": [
+        "C:\\Users\\User\\.codex\\skills\\bridgeworks-prospect-router\\scripts\\test_validate_route.py"
+      ],
+      "known_weaknesses": [
+        "unknown"
+      ],
+      "notes": "Fields marked unknown were not explicit in SKILL.md.",
+      "governance_review": {
+        "decision": "active",
+        "reviewed_at": "2026-08-11",
+        "scope": "internal BridgeWorks use; no external-action authority",
+        "evidence": "Native deterministic tests passed: 1 valid and 7 invalid route cases."
+      }
+    },
+    {
+      "id": "bridgeworks-revenue-system-scan",
+      "name": "bridgeworks-revenue-system-scan",
+      "path": "C:\\Users\\User\\.codex\\skills\\bridgeworks-revenue-system-scan",
+      "installations": [
+        {
+          "runtime": "codex",
+          "path": "C:\\Users\\User\\.codex\\skills\\bridgeworks-revenue-system-scan"
+        }
+      ],
+      "purpose": "Use when a qualified BridgeWorks prospect needs a 15-20 minute public-evidence diagnostic of one visible revenue-system, CRM, lifecycle, ownership, handoff, or reporting question before initial outreach.",
+      "category": [
+        "reporting"
+      ],
+      "triggers": [
+        "Use when a qualified BridgeWorks prospect needs a 15-20 minute public-evidence diagnostic of one visible revenue-system, CRM, lifecycle, ownership, handoff, or reporting question before initial outreach."
+      ],
+      "inputs": [
+        "unknown"
+      ],
+      "outputs": [
+        "unknown"
+      ],
+      "tools": [
+        "unknown"
+      ],
+      "permissions": {
+        "network": "unknown",
+        "filesystem_write": "unknown",
+        "credentials": "unknown"
+      },
+      "workflow_stages": [
+        "entry gate",
+        "timebox",
+        "evidence classes",
+        "diagnostic logic",
+        "output",
+        "recommendations",
+        "future-state demonstration",
+        "truth-system handoff",
+        "stop and paid boundary"
+      ],
+      "expected_deliverables": [
+        "unknown"
+      ],
+      "overlaps_with": [],
+      "source": {
+        "type": "internal",
+        "repository": "unknown",
+        "version": "unknown"
+      },
+      "status": "active",
+      "security": {
+        "last_scanned": null,
+        "scanner": null,
+        "result": "unscanned"
+      },
+      "last_modified": "2026-08-01",
+      "last_reviewed": "2026-08-11",
+      "tests": [
+        "unknown"
+      ],
+      "known_weaknesses": [
+        "unknown"
+      ],
+      "notes": "Fields marked unknown were not explicit in SKILL.md.",
+      "governance_review": {
+        "decision": "active",
+        "reviewed_at": "2026-08-11",
+        "scope": "internal BridgeWorks use; no external-action authority",
+        "evidence": "Exact staged/native mirror verified; bounded read-only diagnostic contract reviewed in Phase 2."
+      }
+    },
+    {
       "id": "ceefm-update",
       "name": "ceefm-update",
       "path": "C:\\Users\\User\\.claude\\skills\\ceefm-update",
@@ -278,6 +2394,10 @@
         {
           "runtime": "claude",
           "path": "C:\\Users\\User\\.claude\\skills\\ceefm-update"
+        },
+        {
+          "runtime": "codex",
+          "path": "C:\\Users\\User\\.codex\\skills\\ceefm-update"
         }
       ],
       "purpose": "Progress update document for the CEEFM Kft client engagement — CEEFM closed 2026-06-19 and is no longer an active client. Do not use unless Emmanuel explicitly reactivates the engagement, or is asking for a historical/case-study recap. Output saved to CEEFM-UPDATE-week[N].md. Triggers on phrases like \"ceefm update\", \"write the ceefm report\", \"update for ceefm\", \"ceefm week [N]\".",
@@ -339,6 +2459,82 @@
       "known_weaknesses": [
         "unknown"
       ],
+      "notes": "Installed in multiple runtimes; review overlap before editing either copy.",
+      "runtime_divergence": {
+        "state": "two_live_versions",
+        "digests": {
+          "claude": "d6fb4023e78dbca493f6a4024f63d078925e07013c38bd0c98b42ec31557398e",
+          "codex": "287c97d611a8461748a8d4f0bbc8a96faed8f23746a186fe6043d78455c8253a"
+        },
+        "scanned_runtime": "claude",
+        "note": "The purpose, inputs, outputs and workflow_stages on this record describe the scanned runtime only. The other runtime holds different SKILL.md content. Resolve before treating either as authoritative.",
+        "detected_at": "2026-08-11"
+      }
+    },
+    {
+      "id": "claude-skill-creator",
+      "name": "claude-skill-creator",
+      "path": "C:\\Users\\User\\.codex\\skills\\claude-skill-creator",
+      "installations": [
+        {
+          "runtime": "codex",
+          "path": "C:\\Users\\User\\.codex\\skills\\claude-skill-creator"
+        }
+      ],
+      "purpose": "Migrate, inspect, and improve Claude-derived skills for Codex while preserving their intent and resources. Use explicitly for Claude-to-Codex skill conversion or compatibility work.",
+      "category": [
+        "general"
+      ],
+      "triggers": [
+        "Migrate, inspect, and improve Claude-derived skills for Codex while preserving their intent and resources. Use explicitly for Claude-to-Codex skill conversion or compatibility work."
+      ],
+      "inputs": [
+        "unknown"
+      ],
+      "outputs": [
+        "unknown"
+      ],
+      "tools": [
+        "browser",
+        "web_search",
+        "python"
+      ],
+      "permissions": {
+        "network": true,
+        "filesystem_write": "unknown",
+        "credentials": true
+      },
+      "workflow_stages": [
+        "codex operating rule",
+        "purpose",
+        "workflow",
+        "collision and safety rules"
+      ],
+      "expected_deliverables": [
+        "unknown"
+      ],
+      "overlaps_with": [
+        "skill-creator"
+      ],
+      "source": {
+        "type": "internal",
+        "repository": null,
+        "version": null
+      },
+      "status": "unknown",
+      "security": {
+        "last_scanned": null,
+        "scanner": null,
+        "result": "unscanned"
+      },
+      "last_modified": "2026-07-31",
+      "last_reviewed": null,
+      "tests": [
+        "unknown"
+      ],
+      "known_weaknesses": [
+        "unknown"
+      ],
       "notes": "Fields marked unknown were not explicit in SKILL.md."
     },
     {
@@ -349,6 +2545,10 @@
         {
           "runtime": "claude",
           "path": "C:\\Users\\User\\.claude\\skills\\client-audit"
+        },
+        {
+          "runtime": "codex",
+          "path": "C:\\Users\\User\\.codex\\skills\\client-audit"
         }
       ],
       "purpose": "Full digital presence audit for a prospect or active client. Use when Emmanuel wants to assess a business before a pitch, proposal, or onboarding. Takes a business name or URL and produces a structured audit covering website, social media, online visibility, and marketing gaps. Output saved to CLIENT-AUDIT-[name].md. Triggers on phrases like \"audit [client]\", \"check [business] online\", \"what does [company] look like\", \"run an audit on\", \"pre-call research\".",
@@ -419,7 +2619,20 @@
       "known_weaknesses": [
         "unknown"
       ],
-      "notes": "Fields marked unknown were not explicit in SKILL.md."
+      "notes": "Installed in multiple runtimes; review overlap before editing either copy.",
+      "runtime_divergence": {
+        "state": "two_live_versions",
+        "digests": {
+          "claude": "b7fc3c7ff96804b76aa82c0e868a3455080ba22432c68b88d5ec599e81c0ea4f",
+          "codex": "9c6638475a5ab45d8b097cd96608f45d2821dbb8c7e2a84b9248e94f97f4ef5a"
+        },
+        "scanned_runtime": "claude",
+        "resolution_classification": "intentional_runtime_adaptation",
+        "resolution_scope": "Codex adds its approval policy and a runtime-relative brand reference; the audit workflow is otherwise shared.",
+        "reviewed_at": "2026-08-11",
+        "note": "The purpose, inputs, outputs and workflow_stages on this record describe the scanned runtime only. The other runtime holds different SKILL.md content. Resolve before treating either as authoritative.",
+        "detected_at": "2026-08-11"
+      }
     },
     {
       "id": "competitive-research",
@@ -760,7 +2973,9 @@
       "expected_deliverables": [
         "unknown"
       ],
-      "overlaps_with": [],
+      "overlaps_with": [
+        "agent-daily-brief-composer"
+      ],
       "source": {
         "type": "internal",
         "repository": "unknown",
@@ -790,6 +3005,10 @@
         {
           "runtime": "claude",
           "path": "C:\\Users\\User\\.claude\\skills\\discovery-call-prep"
+        },
+        {
+          "runtime": "codex",
+          "path": "C:\\Users\\User\\.codex\\skills\\discovery-call-prep"
         }
       ],
       "purpose": "Structured preparation document for a BridgeWorks sales discovery call with a new prospect. Use when Emmanuel has a call coming up and needs to walk in prepared. Takes prospect name, business, and any known context. Produces a call prep brief with background research, pain points to probe, questions to ask, and positioning notes. Output saved to DISCOVERY-PREP-[prospect].md. Triggers on phrases like \"prep for call with\", \"discovery call prep\", \"prepare for [name] call\", \"I have a call with [business]\", \"call prep for\".",
@@ -854,7 +3073,20 @@
       "known_weaknesses": [
         "unknown"
       ],
-      "notes": "Fields marked unknown were not explicit in SKILL.md."
+      "notes": "Installed in multiple runtimes; review overlap before editing either copy.",
+      "runtime_divergence": {
+        "state": "two_live_versions",
+        "digests": {
+          "claude": "b9d9f3c5151b5fc8e18fee7854a40ab2bc23b2c539f27688612881e2e933bc19",
+          "codex": "8ca7a504af552c282cd51bef462e5f99ec236efd8bd57ba9b875bb98eb164244"
+        },
+        "scanned_runtime": "claude",
+        "resolution_classification": "intentional_runtime_adaptation",
+        "resolution_scope": "Codex adds its approval policy and a runtime-relative brand reference; the discovery preparation workflow is otherwise shared.",
+        "reviewed_at": "2026-08-11",
+        "note": "The purpose, inputs, outputs and workflow_stages on this record describe the scanned runtime only. The other runtime holds different SKILL.md content. Resolve before treating either as authoritative.",
+        "detected_at": "2026-08-11"
+      }
     },
     {
       "id": "docx",
@@ -864,6 +3096,10 @@
         {
           "runtime": "claude",
           "path": "C:\\Users\\User\\.claude\\skills\\docx"
+        },
+        {
+          "runtime": "codex",
+          "path": "C:\\Users\\User\\.codex\\skills\\docx"
         }
       ],
       "purpose": "Use this skill whenever the user wants to create, read, edit, or manipulate Word documents (.docx files). Triggers include: any mention of 'Word doc', 'word document', '.docx', or requests to produce professional documents with formatting like tables of contents, headings, page numbers, or letterheads. Also use when extracting or reorganizing content from .docx files, inserting or replacing images in documents, performing find-and-replace in Word files, working with tracked changes or comments, or converting content into a polished Word document. If the user asks for a 'report', 'memo', 'letter', 'template', or similar deliverable as a Word or .docx file, use this skill. Do NOT use for PDFs, spreadsheets, Google Docs, or general coding tasks unrelated to document generation.",
@@ -920,7 +3156,17 @@
       "known_weaknesses": [
         "unknown"
       ],
-      "notes": "Fields marked unknown were not explicit in SKILL.md."
+      "notes": "Installed in multiple runtimes; review overlap before editing either copy.",
+      "runtime_divergence": {
+        "state": "two_live_versions",
+        "digests": {
+          "claude": "1c4df72061111588437a86cd1551b8183c131048efb8861cab659804d5bdcbd4",
+          "codex": "1f6ff163ac1f3957ccf64827342e8cbeb3b6ab0be1f449de5f2e65cea8da961f"
+        },
+        "scanned_runtime": "claude",
+        "note": "The purpose, inputs, outputs and workflow_stages on this record describe the scanned runtime only. The other runtime holds different SKILL.md content. Resolve before treating either as authoritative.",
+        "detected_at": "2026-08-11"
+      }
     },
     {
       "id": "emmanuel-brand-visual",
@@ -930,6 +3176,10 @@
         {
           "runtime": "claude",
           "path": "C:\\Users\\User\\.claude\\skills\\emmanuel-brand-visual"
+        },
+        {
+          "runtime": "codex",
+          "path": "C:\\Users\\User\\.codex\\skills\\emmanuel-brand-visual"
         }
       ],
       "purpose": ">",
@@ -995,7 +3245,17 @@
       "known_weaknesses": [
         "unknown"
       ],
-      "notes": "Fields marked unknown were not explicit in SKILL.md."
+      "notes": "Installed in multiple runtimes; review overlap before editing either copy.",
+      "runtime_divergence": {
+        "state": "two_live_versions",
+        "digests": {
+          "claude": "e35a6587abfa27bb56da2972b426b6da3b77b87b67af5d2a7cf0c2f1a97d70c4",
+          "codex": "630e3e438349fdd4e4c648fd9a9a404cffd6c1cf90eda201d244f74231c670b2"
+        },
+        "scanned_runtime": "claude",
+        "note": "The purpose, inputs, outputs and workflow_stages on this record describe the scanned runtime only. The other runtime holds different SKILL.md content. Resolve before treating either as authoritative.",
+        "detected_at": "2026-08-11"
+      }
     },
     {
       "id": "engagement-architect",
@@ -1005,6 +3265,10 @@
         {
           "runtime": "claude",
           "path": "C:\\Users\\User\\.claude\\skills\\engagement-architect"
+        },
+        {
+          "runtime": "codex",
+          "path": "C:\\Users\\User\\.codex\\skills\\engagement-architect"
         }
       ],
       "purpose": "Turn discovery-call notes, emails, intake forms, proposal drafts, or rough project briefs into an evidence-controlled BridgeWorks engagement scope. Use when Emmanuel needs to define a client problem, outcome, scope, deliverables, acceptance criteria, approvals, risks, dependencies, timeline evidence, pricing implications, expansion path, or smallest next action before a proposal, contract, kickoff, or irreversible commitment. Produce both a concise mobile summary and a complete engagement specification. Do not use to invent pricing, promise results, send client messages, or replace proposal writing.",
@@ -1058,7 +3322,20 @@
       "known_weaknesses": [
         "unknown"
       ],
-      "notes": "Fields marked unknown were not explicit in SKILL.md."
+      "notes": "Installed in multiple runtimes; review overlap before editing either copy.",
+      "runtime_divergence": {
+        "state": "two_live_versions",
+        "digests": {
+          "claude": "ecfb898447af1da01f06e9e8f194b8d02f11e56d6564241d80ff2a510e6c1495",
+          "codex": "5c42a3c042267db91b1452126d28c4f430c3d2b5885d0638d7a306d3c54b66a9"
+        },
+        "scanned_runtime": "claude",
+        "resolution_classification": "intentional_runtime_adaptation",
+        "resolution_scope": "Codex adds its approval policy and runtime-specific Python path; the engagement architecture workflow and schema are shared.",
+        "reviewed_at": "2026-08-11",
+        "note": "The purpose, inputs, outputs and workflow_stages on this record describe the scanned runtime only. The other runtime holds different SKILL.md content. Resolve before treating either as authoritative.",
+        "detected_at": "2026-08-11"
+      }
     },
     {
       "id": "find-skills",
@@ -1068,6 +3345,10 @@
         {
           "runtime": "claude",
           "path": "C:\\Users\\User\\.claude\\skills\\find-skills"
+        },
+        {
+          "runtime": "codex",
+          "path": "C:\\Users\\User\\.codex\\skills\\find-skills"
         }
       ],
       "purpose": "Helps users discover and install agent skills when they ask questions like \"how do I do X\", \"find a skill for X\", \"is there a skill that can...\", or express interest in extending capabilities. This skill should be used when the user is looking for functionality that might exist as an installable skill.",
@@ -1125,7 +3406,17 @@
       "known_weaknesses": [
         "unknown"
       ],
-      "notes": "Fields marked unknown were not explicit in SKILL.md."
+      "notes": "Installed in multiple runtimes; review overlap before editing either copy.",
+      "runtime_divergence": {
+        "state": "two_live_versions",
+        "digests": {
+          "claude": "5df70a7a474aaed217246277e17882e3eb9025077189026dfb028a713b480926",
+          "codex": "eca07484b76ef8268127b6ab6a147e3447aa64ff3039902ae6b504513d16ccc8"
+        },
+        "scanned_runtime": "claude",
+        "note": "The purpose, inputs, outputs and workflow_stages on this record describe the scanned runtime only. The other runtime holds different SKILL.md content. Resolve before treating either as authoritative.",
+        "detected_at": "2026-08-11"
+      }
     },
     {
       "id": "frontend-design",
@@ -1135,6 +3426,10 @@
         {
           "runtime": "claude",
           "path": "C:\\Users\\User\\.claude\\skills\\frontend-design"
+        },
+        {
+          "runtime": "codex",
+          "path": "C:\\Users\\User\\.codex\\skills\\frontend-design"
         }
       ],
       "purpose": "Create distinctive, production-grade frontend interfaces with high design quality. Use this skill when the user asks to build web components, pages, artifacts, posters, or applications (examples include websites, landing pages, dashboards, React components, HTML/CSS layouts, or when styling/beautifying any web UI). Generates creative, polished code and UI design that avoids generic AI aesthetics.",
@@ -1185,7 +3480,17 @@
       "known_weaknesses": [
         "unknown"
       ],
-      "notes": "Fields marked unknown were not explicit in SKILL.md."
+      "notes": "Installed in multiple runtimes; review overlap before editing either copy.",
+      "runtime_divergence": {
+        "state": "two_live_versions",
+        "digests": {
+          "claude": "70044bbc8e4c21d23b8c8b864956aa1515c1c6cb2f9df14148dbb8c4af6187e5",
+          "codex": "6e5b546cb75fc02784bb3b1b412129e7a69dc1027d7fe23615ca242968ba5781"
+        },
+        "scanned_runtime": "claude",
+        "note": "The purpose, inputs, outputs and workflow_stages on this record describe the scanned runtime only. The other runtime holds different SKILL.md content. Resolve before treating either as authoritative.",
+        "detected_at": "2026-08-11"
+      }
     },
     {
       "id": "generate-image",
@@ -1389,6 +3694,10 @@
         {
           "runtime": "claude",
           "path": "C:\\Users\\User\\.claude\\skills\\geo-audit"
+        },
+        {
+          "runtime": "codex",
+          "path": "C:\\Users\\User\\.codex\\skills\\geo-audit"
         }
       ],
       "purpose": "Full website GEO+SEO audit with parallel subagent delegation. Orchestrates a comprehensive Generative Engine Optimization audit across AI citability, platform analysis, technical infrastructure, content quality, and schema markup. Produces a composite GEO Score (0-100) with prioritized action plan.",
@@ -1449,14 +3758,25 @@
         "result": "unscanned"
       },
       "last_modified": "2026-03-28",
-      "last_reviewed": "2026-07-25",
+      "last_reviewed": "2026-08-11",
       "tests": [
         "unknown"
       ],
       "known_weaknesses": [
         "unknown"
       ],
-      "notes": "Fields marked unknown were not explicit in SKILL.md."
+      "notes": "Codex runtime adaptation installed 2026-08-11 so Codex GTM automation does not depend on Claude Code at runtime. Parity contract-verified on 8 checks.",
+      "runtime_divergence": {
+        "state": "governed_runtime_adaptation",
+        "digests": {
+          "claude": "bf6b1cf3b6c99516a78bb5c288b643fab311ea8963a10b9a0a74c949b37c699a",
+          "codex": "d6bf1f9aafc98750b1c89d5a32a681874e81ecde93eb48713fdd3a3ea7d40374"
+        },
+        "canonical_source": "claude",
+        "derived_by": "operations/internal-gtm/runtime-adaptations/build_codex_geo_audit.py",
+        "note": "One capability identity, one methodology. The Codex copy is derived from the Claude source, not authored separately. Differences are the Codex operating rule, the specialist ids and the appended structured-result contract. Rebuild on source change; never hand-edit.",
+        "detected_at": "2026-08-11"
+      }
     },
     {
       "id": "geo-brand-mentions",
@@ -1727,6 +4047,7 @@
         "unknown"
       ],
       "overlaps_with": [
+        "agent-geo-content",
         "geo-report"
       ],
       "source": {
@@ -2093,6 +4414,7 @@
         "JSON database is the single source of truth"
       ],
       "overlaps_with": [
+        "bridgeworks-geo-prospect-scan",
         "geo-report"
       ],
       "source": {
@@ -2322,6 +4644,7 @@
         "unknown"
       ],
       "overlaps_with": [
+        "agent-geo-schema",
         "geo-report"
       ],
       "source": {
@@ -2398,6 +4721,7 @@
         "unknown"
       ],
       "overlaps_with": [
+        "agent-geo-technical",
         "geo-report"
       ],
       "source": {
@@ -2567,6 +4891,68 @@
       "notes": "Fields marked unknown were not explicit in SKILL.md."
     },
     {
+      "id": "impeccable",
+      "name": "impeccable",
+      "path": "C:\\Users\\User\\.claude\\skills\\impeccable",
+      "installations": [
+        {
+          "runtime": "claude",
+          "path": "C:\\Users\\User\\.claude\\skills\\impeccable"
+        }
+      ],
+      "purpose": "Use when the user wants to design, redesign, shape, critique, audit, polish, clarify, distill, harden, optimize, adapt, animate, colorize, extract, or otherwise improve a frontend interface. Covers websites, landing pages, dashboards, product UI, app shells, components, forms, settings, onboarding, and empty states. Handles UX review, visual hierarchy, information architecture, cognitive load, accessibility, performance, responsive behavior, theming, anti-patterns, typography, fonts, spacing, layout, alignment, color, motion, micro-interactions, UX copy, error states, edge cases, i18n, and reusable design systems or tokens. Also use for bland designs that need to become bolder or more delightful, loud designs that should become quieter, live browser iteration on UI elements, or ambitious visual effects that should feel technically extraordinary. Not for backend-only or non-UI tasks.",
+      "category": [
+        "design"
+      ],
+      "triggers": [
+        "Use when the user wants to design, redesign, shape, critique, audit, polish, clarify, distill, harden, optimize, adapt, animate, colorize, extract, or otherwise improve a frontend interface. Covers websites, landing pages, dashboards, product UI, app shells, components, forms, settings, onboarding, and empty states. Handles UX review, visual hierarchy, information architecture, cognitive load, accessibility, performance, responsive behavior, theming, anti-patterns, typography, fonts, spacing, layout, alignment, color, motion, micro-interactions, UX copy, error states, edge cases, i18n, and reusable design systems or tokens. Also use for bland designs that need to become bolder or more delightful, loud designs that should become quieter, live browser iteration on UI elements, or ambitious visual effects that should feel technically extraordinary. Not for backend-only or non-UI tasks."
+      ],
+      "inputs": [
+        "unknown"
+      ],
+      "outputs": [
+        "unknown"
+      ],
+      "tools": [
+        "browser"
+      ],
+      "permissions": {
+        "network": true,
+        "filesystem_write": "unknown",
+        "credentials": true
+      },
+      "workflow_stages": [
+        "setup",
+        "how to design",
+        "modes",
+        "commands"
+      ],
+      "expected_deliverables": [
+        "unknown"
+      ],
+      "overlaps_with": [],
+      "source": {
+        "type": "internal",
+        "repository": "unknown",
+        "version": "unknown"
+      },
+      "status": "unknown",
+      "security": {
+        "last_scanned": null,
+        "scanner": null,
+        "result": "unscanned"
+      },
+      "last_modified": "2026-08-01",
+      "last_reviewed": null,
+      "tests": [
+        "unknown"
+      ],
+      "known_weaknesses": [
+        "unknown"
+      ],
+      "notes": "Fields marked unknown were not explicit in SKILL.md."
+    },
+    {
       "id": "lead-magnets",
       "name": "lead-magnets",
       "path": "C:\\Users\\User\\.claude\\skills\\lead-magnets",
@@ -2686,7 +5072,9 @@
       "expected_deliverables": [
         "unknown"
       ],
-      "overlaps_with": [],
+      "overlaps_with": [
+        "bridgeworks-lead-qualifier"
+      ],
       "source": {
         "type": "internal",
         "repository": "unknown",
@@ -2779,6 +5167,10 @@
         {
           "runtime": "claude",
           "path": "C:\\Users\\User\\.claude\\skills\\market"
+        },
+        {
+          "runtime": "codex",
+          "path": "C:\\Users\\User\\.codex\\skills\\market"
         }
       ],
       "purpose": "unknown",
@@ -2846,7 +5238,17 @@
       "known_weaknesses": [
         "unknown"
       ],
-      "notes": "Fields marked unknown were not explicit in SKILL.md."
+      "notes": "Installed in multiple runtimes; review overlap before editing either copy.",
+      "runtime_divergence": {
+        "state": "two_live_versions",
+        "digests": {
+          "claude": "263f8a2e5569dbd9e611c17414bcc559b279c93cb8fe719ad34f896d24e63e63",
+          "codex": "c820463be041e8c5bf2bb2186680938db3da2559ce7d9d266a4555e7537f3e66"
+        },
+        "scanned_runtime": "claude",
+        "note": "The purpose, inputs, outputs and workflow_stages on this record describe the scanned runtime only. The other runtime holds different SKILL.md content. Resolve before treating either as authoritative.",
+        "detected_at": "2026-08-11"
+      }
     },
     {
       "id": "market-ads",
@@ -2856,6 +5258,10 @@
         {
           "runtime": "claude",
           "path": "C:\\Users\\User\\.claude\\skills\\market-ads"
+        },
+        {
+          "runtime": "codex",
+          "path": "C:\\Users\\User\\.codex\\skills\\market-ads"
         }
       ],
       "purpose": "unknown",
@@ -2922,7 +5328,17 @@
       "known_weaknesses": [
         "unknown"
       ],
-      "notes": "Fields marked unknown were not explicit in SKILL.md."
+      "notes": "Installed in multiple runtimes; review overlap before editing either copy.",
+      "runtime_divergence": {
+        "state": "two_live_versions",
+        "digests": {
+          "claude": "bc6eee4729df398b5cbd709f5321378b6fecb0debae9bd2e4f6979d2993be8b6",
+          "codex": "5a5f4ba612b26d761aa19f28351e1e296bbbd1f7a963e57e3b7eee12254f9dd8"
+        },
+        "scanned_runtime": "claude",
+        "note": "The purpose, inputs, outputs and workflow_stages on this record describe the scanned runtime only. The other runtime holds different SKILL.md content. Resolve before treating either as authoritative.",
+        "detected_at": "2026-08-11"
+      }
     },
     {
       "id": "market-audit",
@@ -2932,6 +5348,10 @@
         {
           "runtime": "claude",
           "path": "C:\\Users\\User\\.claude\\skills\\market-audit"
+        },
+        {
+          "runtime": "codex",
+          "path": "C:\\Users\\User\\.codex\\skills\\market-audit"
         }
       ],
       "purpose": "unknown",
@@ -2998,7 +5418,17 @@
       "known_weaknesses": [
         "unknown"
       ],
-      "notes": "Fields marked unknown were not explicit in SKILL.md."
+      "notes": "Installed in multiple runtimes; review overlap before editing either copy.",
+      "runtime_divergence": {
+        "state": "two_live_versions",
+        "digests": {
+          "claude": "642e4e9fa8f3e94b47a93c62d3309ceda6fb609477b39d4df0937fac88c310e5",
+          "codex": "3ea7bc8974b7852b05dd5e56666fbbd00548650cf3214518cf468ab14d6b45a7"
+        },
+        "scanned_runtime": "claude",
+        "note": "The purpose, inputs, outputs and workflow_stages on this record describe the scanned runtime only. The other runtime holds different SKILL.md content. Resolve before treating either as authoritative.",
+        "detected_at": "2026-08-11"
+      }
     },
     {
       "id": "market-brand",
@@ -3008,6 +5438,10 @@
         {
           "runtime": "claude",
           "path": "C:\\Users\\User\\.claude\\skills\\market-brand"
+        },
+        {
+          "runtime": "codex",
+          "path": "C:\\Users\\User\\.codex\\skills\\market-brand"
         }
       ],
       "purpose": "unknown",
@@ -3075,7 +5509,17 @@
       "known_weaknesses": [
         "unknown"
       ],
-      "notes": "Fields marked unknown were not explicit in SKILL.md."
+      "notes": "Installed in multiple runtimes; review overlap before editing either copy.",
+      "runtime_divergence": {
+        "state": "two_live_versions",
+        "digests": {
+          "claude": "05f112ea6ed3cfe8edd291644b264a0c5c7b58273187d82fc82e3b26e5a67976",
+          "codex": "b4afb163ad91b36910ceb3003916e7c3cd524a692983c2d7bbbf787f98514955"
+        },
+        "scanned_runtime": "claude",
+        "note": "The purpose, inputs, outputs and workflow_stages on this record describe the scanned runtime only. The other runtime holds different SKILL.md content. Resolve before treating either as authoritative.",
+        "detected_at": "2026-08-11"
+      }
     },
     {
       "id": "market-competitors",
@@ -3085,6 +5529,10 @@
         {
           "runtime": "claude",
           "path": "C:\\Users\\User\\.claude\\skills\\market-competitors"
+        },
+        {
+          "runtime": "codex",
+          "path": "C:\\Users\\User\\.codex\\skills\\market-competitors"
         }
       ],
       "purpose": "unknown",
@@ -3151,7 +5599,17 @@
       "known_weaknesses": [
         "unknown"
       ],
-      "notes": "Fields marked unknown were not explicit in SKILL.md."
+      "notes": "Installed in multiple runtimes; review overlap before editing either copy.",
+      "runtime_divergence": {
+        "state": "two_live_versions",
+        "digests": {
+          "claude": "4c156fa1d8f95d7de39257b4a29da59b81f511522164bc935bd0dc5707f17747",
+          "codex": "996ee5468503b6654385f2825af50fe4e570a8f8a1eca6ed6120f0cfc0ab1a22"
+        },
+        "scanned_runtime": "claude",
+        "note": "The purpose, inputs, outputs and workflow_stages on this record describe the scanned runtime only. The other runtime holds different SKILL.md content. Resolve before treating either as authoritative.",
+        "detected_at": "2026-08-11"
+      }
     },
     {
       "id": "market-copy",
@@ -3161,6 +5619,10 @@
         {
           "runtime": "claude",
           "path": "C:\\Users\\User\\.claude\\skills\\market-copy"
+        },
+        {
+          "runtime": "codex",
+          "path": "C:\\Users\\User\\.codex\\skills\\market-copy"
         }
       ],
       "purpose": "unknown",
@@ -3227,7 +5689,17 @@
       "known_weaknesses": [
         "unknown"
       ],
-      "notes": "Fields marked unknown were not explicit in SKILL.md."
+      "notes": "Installed in multiple runtimes; review overlap before editing either copy.",
+      "runtime_divergence": {
+        "state": "two_live_versions",
+        "digests": {
+          "claude": "ce52f328421b3c4a6bfa74207b3253f961ed25f3eed1dbcd0b93a4f1a28e0c8f",
+          "codex": "1fbe862d5bdb573b577af7c1cd552269af09003bd99ec2c5ae9f46eba850c6cd"
+        },
+        "scanned_runtime": "claude",
+        "note": "The purpose, inputs, outputs and workflow_stages on this record describe the scanned runtime only. The other runtime holds different SKILL.md content. Resolve before treating either as authoritative.",
+        "detected_at": "2026-08-11"
+      }
     },
     {
       "id": "market-emails",
@@ -3237,6 +5709,10 @@
         {
           "runtime": "claude",
           "path": "C:\\Users\\User\\.claude\\skills\\market-emails"
+        },
+        {
+          "runtime": "codex",
+          "path": "C:\\Users\\User\\.codex\\skills\\market-emails"
         }
       ],
       "purpose": "unknown",
@@ -3303,7 +5779,20 @@
       "known_weaknesses": [
         "unknown"
       ],
-      "notes": "Fields marked unknown were not explicit in SKILL.md."
+      "notes": "Installed in multiple runtimes; review overlap before editing either copy.",
+      "runtime_divergence": {
+        "state": "two_live_versions",
+        "digests": {
+          "claude": "6cdd0c8a7eae61ec6b6b3930f41434a35a6d6e8482ca32cbc9b3d0a98946c640",
+          "codex": "a378320e9e955305a65c286b409d213e46b06d13e2399415b31b1f22c4c7c8d3"
+        },
+        "scanned_runtime": "claude",
+        "resolution_classification": "intentional_runtime_adaptation",
+        "resolution_scope": "Codex adds its approval policy and clarifies drafting scope; the email preparation workflow remains shared and no runtime may send without approval.",
+        "reviewed_at": "2026-08-11",
+        "note": "The purpose, inputs, outputs and workflow_stages on this record describe the scanned runtime only. The other runtime holds different SKILL.md content. Resolve before treating either as authoritative.",
+        "detected_at": "2026-08-11"
+      }
     },
     {
       "id": "market-funnel",
@@ -3313,6 +5802,10 @@
         {
           "runtime": "claude",
           "path": "C:\\Users\\User\\.claude\\skills\\market-funnel"
+        },
+        {
+          "runtime": "codex",
+          "path": "C:\\Users\\User\\.codex\\skills\\market-funnel"
         }
       ],
       "purpose": "unknown",
@@ -3379,7 +5872,17 @@
       "known_weaknesses": [
         "unknown"
       ],
-      "notes": "Fields marked unknown were not explicit in SKILL.md."
+      "notes": "Installed in multiple runtimes; review overlap before editing either copy.",
+      "runtime_divergence": {
+        "state": "two_live_versions",
+        "digests": {
+          "claude": "7b0b1ef183573b88a13cbec9242859b22c1c993eb57084f3974e6a7fd3069587",
+          "codex": "b69df64817a768754e5d0f63fe12300a0c42539a49b545c89dad9b066ab2fc24"
+        },
+        "scanned_runtime": "claude",
+        "note": "The purpose, inputs, outputs and workflow_stages on this record describe the scanned runtime only. The other runtime holds different SKILL.md content. Resolve before treating either as authoritative.",
+        "detected_at": "2026-08-11"
+      }
     },
     {
       "id": "market-landing",
@@ -3389,6 +5892,10 @@
         {
           "runtime": "claude",
           "path": "C:\\Users\\User\\.claude\\skills\\market-landing"
+        },
+        {
+          "runtime": "codex",
+          "path": "C:\\Users\\User\\.codex\\skills\\market-landing"
         }
       ],
       "purpose": "unknown",
@@ -3455,7 +5962,17 @@
       "known_weaknesses": [
         "unknown"
       ],
-      "notes": "Fields marked unknown were not explicit in SKILL.md."
+      "notes": "Installed in multiple runtimes; review overlap before editing either copy.",
+      "runtime_divergence": {
+        "state": "two_live_versions",
+        "digests": {
+          "claude": "1654b21324ea0e6bdf93a573f1443e3c1333ace39ba6806fe2d738ba7f5fa1da",
+          "codex": "d84df9cb3ef2de6571cac65e452a1a103c9e55b9cf01b929e4a766e004ba5ed0"
+        },
+        "scanned_runtime": "claude",
+        "note": "The purpose, inputs, outputs and workflow_stages on this record describe the scanned runtime only. The other runtime holds different SKILL.md content. Resolve before treating either as authoritative.",
+        "detected_at": "2026-08-11"
+      }
     },
     {
       "id": "market-launch",
@@ -3465,6 +5982,10 @@
         {
           "runtime": "claude",
           "path": "C:\\Users\\User\\.claude\\skills\\market-launch"
+        },
+        {
+          "runtime": "codex",
+          "path": "C:\\Users\\User\\.codex\\skills\\market-launch"
         }
       ],
       "purpose": "unknown",
@@ -3531,7 +6052,17 @@
       "known_weaknesses": [
         "unknown"
       ],
-      "notes": "Fields marked unknown were not explicit in SKILL.md."
+      "notes": "Installed in multiple runtimes; review overlap before editing either copy.",
+      "runtime_divergence": {
+        "state": "two_live_versions",
+        "digests": {
+          "claude": "b28b3a3a66e7c0375fc33f23f4742488f768b8c375e0488067ea7ecf6e4607b9",
+          "codex": "f0a5c86ac3658333ac759703f7a48b3a63c4db91dfff6be6d817a3adfdee30c3"
+        },
+        "scanned_runtime": "claude",
+        "note": "The purpose, inputs, outputs and workflow_stages on this record describe the scanned runtime only. The other runtime holds different SKILL.md content. Resolve before treating either as authoritative.",
+        "detected_at": "2026-08-11"
+      }
     },
     {
       "id": "market-proposal",
@@ -3541,6 +6072,10 @@
         {
           "runtime": "claude",
           "path": "C:\\Users\\User\\.claude\\skills\\market-proposal"
+        },
+        {
+          "runtime": "codex",
+          "path": "C:\\Users\\User\\.codex\\skills\\market-proposal"
         }
       ],
       "purpose": "unknown",
@@ -3603,7 +6138,17 @@
       "known_weaknesses": [
         "unknown"
       ],
-      "notes": "Fields marked unknown were not explicit in SKILL.md."
+      "notes": "Installed in multiple runtimes; review overlap before editing either copy.",
+      "runtime_divergence": {
+        "state": "two_live_versions",
+        "digests": {
+          "claude": "feea31b83d91f29d690fc59fa8b9e9ecb39473e9d201b3d14d5337462721e2ff",
+          "codex": "2412eddfba8ecc26d9575d393125fab56de1782b586593d8add397e7629c7690"
+        },
+        "scanned_runtime": "claude",
+        "note": "The purpose, inputs, outputs and workflow_stages on this record describe the scanned runtime only. The other runtime holds different SKILL.md content. Resolve before treating either as authoritative.",
+        "detected_at": "2026-08-11"
+      }
     },
     {
       "id": "market-report",
@@ -3613,6 +6158,10 @@
         {
           "runtime": "claude",
           "path": "C:\\Users\\User\\.claude\\skills\\market-report"
+        },
+        {
+          "runtime": "codex",
+          "path": "C:\\Users\\User\\.codex\\skills\\market-report"
         }
       ],
       "purpose": "unknown",
@@ -3689,7 +6238,17 @@
       "known_weaknesses": [
         "unknown"
       ],
-      "notes": "Fields marked unknown were not explicit in SKILL.md."
+      "notes": "Installed in multiple runtimes; review overlap before editing either copy.",
+      "runtime_divergence": {
+        "state": "two_live_versions",
+        "digests": {
+          "claude": "373ecf3429c83f9c83d74099f5408d13fbed45ee166b170f8fe11d983d3044c5",
+          "codex": "b608a411a755b4d55e31a423d4f4d2d6dff7791e665de9c133a2f347323629c9"
+        },
+        "scanned_runtime": "claude",
+        "note": "The purpose, inputs, outputs and workflow_stages on this record describe the scanned runtime only. The other runtime holds different SKILL.md content. Resolve before treating either as authoritative.",
+        "detected_at": "2026-08-11"
+      }
     },
     {
       "id": "market-report-pdf",
@@ -3699,6 +6258,10 @@
         {
           "runtime": "claude",
           "path": "C:\\Users\\User\\.claude\\skills\\market-report-pdf"
+        },
+        {
+          "runtime": "codex",
+          "path": "C:\\Users\\User\\.codex\\skills\\market-report-pdf"
         }
       ],
       "purpose": "unknown",
@@ -3769,7 +6332,17 @@
       "known_weaknesses": [
         "unknown"
       ],
-      "notes": "Fields marked unknown were not explicit in SKILL.md."
+      "notes": "Installed in multiple runtimes; review overlap before editing either copy.",
+      "runtime_divergence": {
+        "state": "two_live_versions",
+        "digests": {
+          "claude": "234abc0689e6df44d691647400f54ae99c2ca81f55c52d186c8785d46f236ff7",
+          "codex": "9d489cb79c13b1ebb870cf0aec5d4e7b49bf179d8e672c1a3b34fe69fc1c8662"
+        },
+        "scanned_runtime": "claude",
+        "note": "The purpose, inputs, outputs and workflow_stages on this record describe the scanned runtime only. The other runtime holds different SKILL.md content. Resolve before treating either as authoritative.",
+        "detected_at": "2026-08-11"
+      }
     },
     {
       "id": "market-seo",
@@ -3779,6 +6352,10 @@
         {
           "runtime": "claude",
           "path": "C:\\Users\\User\\.claude\\skills\\market-seo"
+        },
+        {
+          "runtime": "codex",
+          "path": "C:\\Users\\User\\.codex\\skills\\market-seo"
         }
       ],
       "purpose": "unknown",
@@ -3847,7 +6424,17 @@
       "known_weaknesses": [
         "unknown"
       ],
-      "notes": "Fields marked unknown were not explicit in SKILL.md."
+      "notes": "Installed in multiple runtimes; review overlap before editing either copy.",
+      "runtime_divergence": {
+        "state": "two_live_versions",
+        "digests": {
+          "claude": "1ab2df43a9b0426e0f089a85c0768c31e8ada98f0570d4380ee83e4c9495c717",
+          "codex": "54e338e4d488bbb603039c2057ca40e939ac3d341bc9bcd5d78006bb45fa66dc"
+        },
+        "scanned_runtime": "claude",
+        "note": "The purpose, inputs, outputs and workflow_stages on this record describe the scanned runtime only. The other runtime holds different SKILL.md content. Resolve before treating either as authoritative.",
+        "detected_at": "2026-08-11"
+      }
     },
     {
       "id": "market-social",
@@ -3857,6 +6444,10 @@
         {
           "runtime": "claude",
           "path": "C:\\Users\\User\\.claude\\skills\\market-social"
+        },
+        {
+          "runtime": "codex",
+          "path": "C:\\Users\\User\\.codex\\skills\\market-social"
         }
       ],
       "purpose": "unknown",
@@ -3923,7 +6514,17 @@
       "known_weaknesses": [
         "unknown"
       ],
-      "notes": "Fields marked unknown were not explicit in SKILL.md."
+      "notes": "Installed in multiple runtimes; review overlap before editing either copy.",
+      "runtime_divergence": {
+        "state": "two_live_versions",
+        "digests": {
+          "claude": "87bbfa87fd556e8b7f2a6df0fb98c77ef0baa17a12a9a1d26fa6ee58848cec4e",
+          "codex": "9ba95cc09d8d5a8c325b1d546e94aa400c7d8a4552a4cc2ee482c48c19162cef"
+        },
+        "scanned_runtime": "claude",
+        "note": "The purpose, inputs, outputs and workflow_stages on this record describe the scanned runtime only. The other runtime holds different SKILL.md content. Resolve before treating either as authoritative.",
+        "detected_at": "2026-08-11"
+      }
     },
     {
       "id": "memory-sync",
@@ -3998,6 +6599,10 @@
         {
           "runtime": "claude",
           "path": "C:\\Users\\User\\.claude\\skills\\monthly-report"
+        },
+        {
+          "runtime": "codex",
+          "path": "C:\\Users\\User\\.codex\\skills\\monthly-report"
         }
       ],
       "purpose": "Monthly progress report for an active BridgeWorks client engagement. Use when Emmanuel needs to send a client their monthly update covering work completed, results achieved, and next steps. Takes client name, month, and any notes or data. Output saved to MONTHLY-REPORT-[client]-[month].md. Triggers on phrases like \"write the monthly report\", \"monthly update for [client]\", \"client report for [month]\", \"send [client] their update\".",
@@ -4059,7 +6664,17 @@
       "known_weaknesses": [
         "unknown"
       ],
-      "notes": "Fields marked unknown were not explicit in SKILL.md."
+      "notes": "Installed in multiple runtimes; review overlap before editing either copy.",
+      "runtime_divergence": {
+        "state": "two_live_versions",
+        "digests": {
+          "claude": "1507de066894bc6013ea395846defb631e93e13e3b5fca6c331181877be95014",
+          "codex": "13abef6a496ef5f53e3b651234ce00f25d826f6fb406a24f6a3a438c9f9707ac"
+        },
+        "scanned_runtime": "claude",
+        "note": "The purpose, inputs, outputs and workflow_stages on this record describe the scanned runtime only. The other runtime holds different SKILL.md content. Resolve before treating either as authoritative.",
+        "detected_at": "2026-08-11"
+      }
     },
     {
       "id": "new-proposal",
@@ -4069,6 +6684,10 @@
         {
           "runtime": "claude",
           "path": "C:\\Users\\User\\.claude\\skills\\new-proposal"
+        },
+        {
+          "runtime": "codex",
+          "path": "C:\\Users\\User\\.codex\\skills\\new-proposal"
         }
       ],
       "purpose": "Generate a BridgeWorks client proposal document. Use this skill whenever the user asks to write, create, or draft a proposal, quote, or offer for a client. Triggers on phrases like \"write a proposal\", \"create a proposal for\", \"draft an offer\", \"client proposal\", \"new proposal\", \"make a quote for\". Always use this skill when a business name, scope of work, and price are mentioned together — even if the word \"proposal\" is not used. Do NOT use for invoices, contracts, or internal documents.",
@@ -4131,7 +6750,17 @@
       "known_weaknesses": [
         "unknown"
       ],
-      "notes": "Fields marked unknown were not explicit in SKILL.md."
+      "notes": "Installed in multiple runtimes; review overlap before editing either copy.",
+      "runtime_divergence": {
+        "state": "two_live_versions",
+        "digests": {
+          "claude": "2c10e98bc8c1543f6d5541198b7fd3cb8a6dd93f92a1081b2f76348e4670233a",
+          "codex": "837e3e95f2ba6b3aa636cf8aaf169e7c2bb2f1622709cbdd95a0db84aab36569"
+        },
+        "scanned_runtime": "claude",
+        "note": "The purpose, inputs, outputs and workflow_stages on this record describe the scanned runtime only. The other runtime holds different SKILL.md content. Resolve before treating either as authoritative.",
+        "detected_at": "2026-08-11"
+      }
     },
     {
       "id": "notebooklm",
@@ -4218,6 +6847,10 @@
         {
           "runtime": "claude",
           "path": "C:\\Users\\User\\.claude\\skills\\pdf"
+        },
+        {
+          "runtime": "codex",
+          "path": "C:\\Users\\User\\.codex\\skills\\pdf"
         }
       ],
       "purpose": "Use this skill whenever the user wants to do anything with PDF files. This includes reading or extracting text/tables from PDFs, combining or merging multiple PDFs into one, splitting PDFs apart, rotating pages, adding watermarks, creating new PDFs, filling PDF forms, encrypting/decrypting PDFs, extracting images, and OCR on scanned PDFs to make them searchable. If the user mentions a .pdf file or asks to produce one, use this skill.",
@@ -4276,7 +6909,17 @@
       "known_weaknesses": [
         "unknown"
       ],
-      "notes": "Fields marked unknown were not explicit in SKILL.md."
+      "notes": "Installed in multiple runtimes; review overlap before editing either copy.",
+      "runtime_divergence": {
+        "state": "two_live_versions",
+        "digests": {
+          "claude": "067401220db5745f719ff8c048d545d5edc8545e809668a3a6f9e2892fa51d48",
+          "codex": "d2734044781671ce8e21338a9fc2d21a975d7bb84c3e70f77593651082a62d4a"
+        },
+        "scanned_runtime": "claude",
+        "note": "The purpose, inputs, outputs and workflow_stages on this record describe the scanned runtime only. The other runtime holds different SKILL.md content. Resolve before treating either as authoritative.",
+        "detected_at": "2026-08-11"
+      }
     },
     {
       "id": "post-call-followup",
@@ -4286,6 +6929,10 @@
         {
           "runtime": "claude",
           "path": "C:\\Users\\User\\.claude\\skills\\post-call-followup"
+        },
+        {
+          "runtime": "codex",
+          "path": "C:\\Users\\User\\.codex\\skills\\post-call-followup"
         }
       ],
       "purpose": "Follow-up document and email draft after a BridgeWorks discovery or sales call. Use when Emmanuel has just finished a call with a prospect or client and needs to send a follow-up and capture next steps. Takes call notes or a verbal summary. Produces a follow-up email (ready to send) and internal action items. Output saved to FOLLOWUP-[prospect].md. Triggers on phrases like \"follow up on the call\", \"post-call followup\", \"write the followup for [name]\", \"send followup to\", \"after the call with\".",
@@ -4350,7 +6997,17 @@
       "known_weaknesses": [
         "unknown"
       ],
-      "notes": "Fields marked unknown were not explicit in SKILL.md."
+      "notes": "Installed in multiple runtimes; review overlap before editing either copy.",
+      "runtime_divergence": {
+        "state": "two_live_versions",
+        "digests": {
+          "claude": "c3c8a8a1de4001d9215a427e8d602c5ae4d36e58f23db0ef2831cf2bdcabfc65",
+          "codex": "495858cc4de5d8974c41692feb57fd30f1686b20722a4f535f74835e5c4d340b"
+        },
+        "scanned_runtime": "claude",
+        "note": "The purpose, inputs, outputs and workflow_stages on this record describe the scanned runtime only. The other runtime holds different SKILL.md content. Resolve before treating either as authoritative.",
+        "detected_at": "2026-08-11"
+      }
     },
     {
       "id": "pptx",
@@ -4360,6 +7017,10 @@
         {
           "runtime": "claude",
           "path": "C:\\Users\\User\\.claude\\skills\\pptx"
+        },
+        {
+          "runtime": "codex",
+          "path": "C:\\Users\\User\\.codex\\skills\\pptx"
         }
       ],
       "purpose": "Use this skill any time a .pptx file is involved in any way — as input, output, or both. This includes: creating slide decks, pitch decks, or presentations; reading, parsing, or extracting text from any .pptx file (even if the extracted content will be used elsewhere, like in an email or summary); editing, modifying, or updating existing presentations; combining or splitting slide files; working with templates, layouts, speaker notes, or comments. Trigger whenever the user mentions \\\"deck,\\\" \\\"slides,\\\" \\\"presentation,\\\" or references a .pptx filename, regardless of what they plan to do with the content afterward. If a .pptx file needs to be opened, created, or touched, use this skill.",
@@ -4418,7 +7079,17 @@
       "known_weaknesses": [
         "unknown"
       ],
-      "notes": "Fields marked unknown were not explicit in SKILL.md."
+      "notes": "Installed in multiple runtimes; review overlap before editing either copy.",
+      "runtime_divergence": {
+        "state": "two_live_versions",
+        "digests": {
+          "claude": "5d91c30e63ef72cd1ff10446702401f9ebb3f32dd7b264f50959a95548a225bf",
+          "codex": "fa31ca42fee142acc85be28dbb60991a1860b9f78bde0a09013aa1e8e52199df"
+        },
+        "scanned_runtime": "claude",
+        "note": "The purpose, inputs, outputs and workflow_stages on this record describe the scanned runtime only. The other runtime holds different SKILL.md content. Resolve before treating either as authoritative.",
+        "detected_at": "2026-08-11"
+      }
     },
     {
       "id": "referrals",
@@ -4758,7 +7429,9 @@
       "expected_deliverables": [
         "unknown"
       ],
-      "overlaps_with": [],
+      "overlaps_with": [
+        "claude-skill-creator"
+      ],
       "source": {
         "type": "internal",
         "repository": null,
@@ -4858,6 +7531,10 @@
         {
           "runtime": "claude",
           "path": "C:\\Users\\User\\.claude\\skills\\writing-skills"
+        },
+        {
+          "runtime": "codex",
+          "path": "C:\\Users\\User\\.codex\\skills\\writing-skills"
         }
       ],
       "purpose": "Use when creating new skills, editing existing skills, or verifying skills work before deployment",
@@ -4923,7 +7600,17 @@
       "known_weaknesses": [
         "unknown"
       ],
-      "notes": "Fields marked unknown were not explicit in SKILL.md."
+      "notes": "Installed in multiple runtimes; review overlap before editing either copy.",
+      "runtime_divergence": {
+        "state": "two_live_versions",
+        "digests": {
+          "claude": "38ba648975ae6ba512d6695676f146163db61a496b867f716f4bdfb0ee3aca3e",
+          "codex": "f73e11a3d5722344cc5cee77203cf74a3053a24e57c06a5d64081b89da09250e"
+        },
+        "scanned_runtime": "claude",
+        "note": "The purpose, inputs, outputs and workflow_stages on this record describe the scanned runtime only. The other runtime holds different SKILL.md content. Resolve before treating either as authoritative.",
+        "detected_at": "2026-08-11"
+      }
     },
     {
       "id": "youtube-analytics",
@@ -4933,6 +7620,10 @@
         {
           "runtime": "claude",
           "path": "C:\\Users\\User\\.claude\\skills\\youtube-analytics"
+        },
+        {
+          "runtime": "codex",
+          "path": "C:\\Users\\User\\.codex\\skills\\youtube-analytics"
         }
       ],
       "purpose": "Weekly YouTube channel analytics report for BridgeWorks. Pulls stats from Emmanuel's own YouTube channel — views, top videos, comments with questions, subscriber count, topic performance — and saves to sessions/. Use when Emmanuel wants to review channel performance, says \"youtube analytics\", \"how is my channel doing\", \"youtube report\", \"weekly youtube stats\", \"what are my top videos\", or mentions checking his YouTube channel numbers.",
@@ -5000,7 +7691,17 @@
       "known_weaknesses": [
         "unknown"
       ],
-      "notes": "Fields marked unknown were not explicit in SKILL.md."
+      "notes": "Installed in multiple runtimes; review overlap before editing either copy.",
+      "runtime_divergence": {
+        "state": "two_live_versions",
+        "digests": {
+          "claude": "17f13c38aaf4cc3a54940d151aeffae674449ce291a7fc648b6d0e278e4318ef",
+          "codex": "c20d36bc2105d898591ae09a4199fbd3174fd615dbdabc707576c0e96cb1a081"
+        },
+        "scanned_runtime": "claude",
+        "note": "The purpose, inputs, outputs and workflow_stages on this record describe the scanned runtime only. The other runtime holds different SKILL.md content. Resolve before treating either as authoritative.",
+        "detected_at": "2026-08-11"
+      }
     },
     {
       "id": "youtube-channel-scout",
@@ -5069,6 +7770,10 @@
         {
           "runtime": "claude",
           "path": "C:\\Users\\User\\.claude\\skills\\youtube-intelligence"
+        },
+        {
+          "runtime": "codex",
+          "path": "C:\\Users\\User\\.codex\\skills\\youtube-intelligence"
         }
       ],
       "purpose": "Daily YouTube intelligence digest for BridgeWorks. Checks followed channels and topic searches for new videos, downloads transcripts, extracts frameworks/tools/workflows, flags content that could become a BridgeWorks skill, saves digest to sessions/, and sends Gmail summary. Use when Emmanuel wants his daily YouTube briefing, says \"run youtube intelligence\", \"check my youtube feed\", \"what's new on youtube\", \"youtube digest\", or when the daily 7am cron fires.",
@@ -5137,7 +7842,17 @@
       "known_weaknesses": [
         "unknown"
       ],
-      "notes": "Fields marked unknown were not explicit in SKILL.md."
+      "notes": "Installed in multiple runtimes; review overlap before editing either copy.",
+      "runtime_divergence": {
+        "state": "two_live_versions",
+        "digests": {
+          "claude": "3186d2456f6c2b9313531a725da39b9678f8732231107a4c410f303eaffc95d2",
+          "codex": "dc98d19185d949b514b77ee3974f4df5822ea59380ab4b1724b430f9b3d42cbd"
+        },
+        "scanned_runtime": "claude",
+        "note": "The purpose, inputs, outputs and workflow_stages on this record describe the scanned runtime only. The other runtime holds different SKILL.md content. Resolve before treating either as authoritative.",
+        "detected_at": "2026-08-11"
+      }
     },
     {
       "id": "youtube-learning-pipeline",
@@ -5297,6 +8012,10 @@
         {
           "runtime": "claude",
           "path": "C:\\Users\\User\\.claude\\skills\\youtube-to-skill"
+        },
+        {
+          "runtime": "codex",
+          "path": "C:\\Users\\User\\.codex\\skills\\youtube-to-skill"
         }
       ],
       "purpose": "Convert a YouTube video into a BridgeWorks SKILL.md draft. Takes a YouTube URL, downloads the full transcript, extracts the core workflow or process described, checks whether it maps to a BridgeWorks service, and saves a draft SKILL.md to .claude/skills/drafts/. Use when Emmanuel shares a YouTube URL and says \"turn this into a skill\", \"extract the workflow from this\", \"youtube to skill\", \"make a skill from this video\", or pastes a youtube.com or youtu.be link with any instruction to process or extract it.",
@@ -5365,7 +8084,19 @@
       "known_weaknesses": [
         "unknown"
       ],
-      "notes": "Fields marked unknown were not explicit in SKILL.md."
+      "notes": "Installed in multiple runtimes; review overlap before editing either copy.",
+      "runtime_divergence": {
+        "state": "two_live_versions",
+        "digests": {
+          "claude": "f554684856caac6a82aa834f76369b95be9feb452bfc3ddeb4b84945f62b8dd3",
+          "codex": "1866b78131e8b694aaba27e116581cc4e1214180b90b6f87f235e48b2119be07"
+        },
+        "scanned_runtime": "claude",
+        "note": "The purpose, inputs, outputs and workflow_stages on this record describe the scanned runtime only. The other runtime holds different SKILL.md content. Resolve before treating either as authoritative.",
+        "detected_at": "2026-08-11"
+      }
     }
-  ]
+  ],
+  "_previous_generated_at": "2026-07-25",
+  "_regeneration_backup": "skill-governance/capability-registry.yaml.pre-2026-08-11"
 }

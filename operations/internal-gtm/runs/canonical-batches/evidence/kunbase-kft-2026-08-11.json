@@ -1,0 +1,374 @@
+{
+  "prospect_id": "kunbase-kft",
+  "company": "Kunbase Kft",
+  "as_of": "2026-08-11",
+  "existing_trigger": "Use a concise quote-route trust-friction review tied to the newsletter/contact mix and future copyright signal.",
+  "problem_evidence": "Kunbase's public quote path is available, but contact blocks mix quote/contact intent with newsletter subscription UI and a future copyright date, which can reduce trust for logistics buyers requesting pricing.",
+  "qualification_v1": {
+    "qualification_version": "qualification-v1",
+    "score": 42,
+    "max_score": 100,
+    "tier": "WATCH",
+    "actionability": "actionable",
+    "blocking_reasons": [],
+    "components": {
+      "problem_evidence": {
+        "score": 14,
+        "requested_score": 14,
+        "max_score": 25,
+        "evidence_ids": [
+          "kunbase-kft-problem-1",
+          "kunbase-kft-problem-2"
+        ],
+        "usable_evidence_ids": [
+          "kunbase-kft-problem-1",
+          "kunbase-kft-problem-2"
+        ],
+        "approved_evidence_ids": [
+          "kunbase-kft-problem-1",
+          "kunbase-kft-problem-2"
+        ],
+        "unresolvable_evidence_ids": [],
+        "contradicted_evidence_ids": [],
+        "contradicted": false,
+        "evidence_classes": [
+          "observed"
+        ],
+        "evidence_freshness": "current",
+        "evidence_age_days": 2,
+        "confidence": "medium",
+        "source_provenance": [
+          "https://www.kunbase.com/",
+          "https://www.kunbase.com/contact-8"
+        ],
+        "adjustment_reason": null,
+        "reason": "scored",
+        "rationale": null,
+        "evidence_state": "approved",
+        "research_status": "complete"
+      },
+      "commercial_fit": {
+        "score": 0,
+        "requested_score": 0,
+        "max_score": 20,
+        "evidence_ids": [],
+        "usable_evidence_ids": [],
+        "approved_evidence_ids": [],
+        "unresolvable_evidence_ids": [],
+        "contradicted_evidence_ids": [],
+        "contradicted": false,
+        "evidence_classes": [],
+        "evidence_freshness": "unknown",
+        "evidence_age_days": null,
+        "confidence": "unknown",
+        "source_provenance": [],
+        "adjustment_reason": null,
+        "reason": "scored",
+        "rationale": null,
+        "evidence_state": "unknown",
+        "research_status": "required"
+      },
+      "buyer_accessibility": {
+        "score": 4,
+        "requested_score": 4,
+        "max_score": 15,
+        "evidence_ids": [
+          "kunbase-kft-bi-route"
+        ],
+        "usable_evidence_ids": [
+          "kunbase-kft-bi-route"
+        ],
+        "approved_evidence_ids": [
+          "kunbase-kft-bi-route"
+        ],
+        "unresolvable_evidence_ids": [],
+        "contradicted_evidence_ids": [],
+        "contradicted": false,
+        "evidence_classes": [
+          "observed"
+        ],
+        "evidence_freshness": "current",
+        "evidence_age_days": 2,
+        "confidence": "medium",
+        "source_provenance": [
+          "https://www.kunbase.com/"
+        ],
+        "adjustment_reason": null,
+        "reason": "scored",
+        "rationale": null,
+        "evidence_state": "approved",
+        "research_status": "partial"
+      },
+      "trigger_urgency": {
+        "score": 5,
+        "requested_score": 5,
+        "max_score": 15,
+        "evidence_ids": [
+          "kunbase-kft-trigger"
+        ],
+        "usable_evidence_ids": [
+          "kunbase-kft-trigger"
+        ],
+        "approved_evidence_ids": [
+          "kunbase-kft-trigger"
+        ],
+        "unresolvable_evidence_ids": [],
+        "contradicted_evidence_ids": [],
+        "contradicted": false,
+        "evidence_classes": [
+          "observed"
+        ],
+        "evidence_freshness": "current",
+        "evidence_age_days": 2,
+        "confidence": "medium",
+        "source_provenance": [
+          "https://www.kunbase.com/"
+        ],
+        "adjustment_reason": null,
+        "reason": "scored",
+        "rationale": null,
+        "evidence_state": "approved",
+        "research_status": "partial"
+      },
+      "proof_fit": {
+        "score": 15,
+        "requested_score": 15,
+        "max_score": 15,
+        "evidence_ids": [
+          "kunbase-kft-proof"
+        ],
+        "usable_evidence_ids": [
+          "kunbase-kft-proof"
+        ],
+        "approved_evidence_ids": [
+          "kunbase-kft-proof"
+        ],
+        "unresolvable_evidence_ids": [],
+        "contradicted_evidence_ids": [],
+        "contradicted": false,
+        "evidence_classes": [
+          "verified"
+        ],
+        "evidence_freshness": "current",
+        "evidence_age_days": 0,
+        "confidence": "high",
+        "source_provenance": [
+          "operations/oliviks/ and clients/oliviks/"
+        ],
+        "adjustment_reason": null,
+        "reason": "scored",
+        "rationale": null,
+        "evidence_state": "approved",
+        "research_status": "complete"
+      },
+      "execution_readiness": {
+        "score": 4,
+        "requested_score": 4,
+        "max_score": 10,
+        "evidence_ids": [
+          "kunbase-kft-execution"
+        ],
+        "usable_evidence_ids": [
+          "kunbase-kft-execution"
+        ],
+        "approved_evidence_ids": [
+          "kunbase-kft-execution"
+        ],
+        "unresolvable_evidence_ids": [],
+        "contradicted_evidence_ids": [],
+        "contradicted": false,
+        "evidence_classes": [
+          "observed"
+        ],
+        "evidence_freshness": "current",
+        "evidence_age_days": 2,
+        "confidence": "medium",
+        "source_provenance": [
+          "https://www.kunbase.com/"
+        ],
+        "adjustment_reason": null,
+        "reason": "scored",
+        "rationale": null,
+        "evidence_state": "approved",
+        "research_status": "partial"
+      }
+    },
+    "adjustments": [],
+    "thresholds": {
+      "HOT": 85,
+      "STRONG": 70,
+      "QUALIFIED": 55,
+      "WATCH": 40,
+      "DO_NOT_PURSUE": 0
+    },
+    "qualification_coverage": {
+      "sufficiently_researched_dimensions": 2,
+      "total_dimensions": 6,
+      "percentage": 33.3,
+      "by_dimension": {
+        "problem_evidence": {
+          "score": 14,
+          "evidence_state": "approved",
+          "evidence_ids": [
+            "kunbase-kft-problem-1",
+            "kunbase-kft-problem-2"
+          ],
+          "confidence": "medium",
+          "research_status": "complete",
+          "zero_because": null
+        },
+        "commercial_fit": {
+          "score": 0,
+          "evidence_state": "unknown",
+          "evidence_ids": [],
+          "confidence": "unknown",
+          "research_status": "required",
+          "zero_because": "missing_research"
+        },
+        "buyer_accessibility": {
+          "score": 4,
+          "evidence_state": "approved",
+          "evidence_ids": [
+            "kunbase-kft-bi-route"
+          ],
+          "confidence": "medium",
+          "research_status": "partial",
+          "zero_because": null
+        },
+        "trigger_urgency": {
+          "score": 5,
+          "evidence_state": "approved",
+          "evidence_ids": [
+            "kunbase-kft-trigger"
+          ],
+          "confidence": "medium",
+          "research_status": "partial",
+          "zero_because": null
+        },
+        "proof_fit": {
+          "score": 15,
+          "evidence_state": "approved",
+          "evidence_ids": [
+            "kunbase-kft-proof"
+          ],
+          "confidence": "high",
+          "research_status": "complete",
+          "zero_because": null
+        },
+        "execution_readiness": {
+          "score": 4,
+          "evidence_state": "approved",
+          "evidence_ids": [
+            "kunbase-kft-execution"
+          ],
+          "confidence": "medium",
+          "research_status": "partial",
+          "zero_because": null
+        }
+      },
+      "missing_dimensions": [
+        "commercial_fit"
+      ],
+      "partial_dimensions": [
+        "buyer_accessibility",
+        "execution_readiness",
+        "trigger_urgency"
+      ],
+      "verified_negative_dimensions": [],
+      "not_applicable_dimensions": [],
+      "note": "Coverage is not a score and is never added to one. A dimension can be fully researched and score zero. That is a verified negative, not a gap.",
+      "exhausted_unknown_dimensions": []
+    },
+    "model": "qualification-v1",
+    "model_approved": "2026-08-11",
+    "as_of": "2026-08-11",
+    "derived_by": "operations/internal-gtm/scripts/qualification_v1.py",
+    "gates_evaluated": {
+      "identity_domain_resolved": true,
+      "viable_contact_destination": true,
+      "credible_service_route": true,
+      "materially_contradicted_evidence": false,
+      "previous_outreach_exists": false,
+      "communication_state_resolved": true,
+      "legal_compliance_exclusion": false,
+      "explicit_defer_hold": false
+    },
+    "component_scores": {
+      "problem_evidence": 14,
+      "commercial_fit": 0,
+      "buyer_accessibility": 4,
+      "trigger_urgency": 5,
+      "proof_fit": 15,
+      "execution_readiness": 4
+    },
+    "unscored_components": [
+      "commercial_fit"
+    ],
+    "unresolvable_evidence_ids": [],
+    "evidence_gap": true,
+    "blocking_conditions": []
+  },
+  "commercial_intelligence": {
+    "capability": "bridgeworks-commercial-intelligence",
+    "prospect_id": "kunbase-kft",
+    "as_of": "2026-08-11",
+    "stage": "targeted_enrichment_from_existing_public_evidence",
+    "findings": [],
+    "commercial_value_band": {
+      "low": null,
+      "high": null,
+      "currency": null,
+      "basis": null,
+      "confidence": "none"
+    },
+    "procurement_complexity": "unknown",
+    "engagement_size_fit": "unknown",
+    "unresolved_questions": [
+      "More public scale or budget-capacity evidence is required."
+    ],
+    "external_action_authorized": false
+  },
+  "buyer_intelligence": {
+    "capability": "bridgeworks-buyer-intelligence",
+    "prospect_id": "kunbase-kft",
+    "as_of": "2026-08-11",
+    "stage": "targeted_enrichment_from_existing_public_evidence",
+    "roles": {
+      "decision_maker": {
+        "person": null,
+        "title": null,
+        "evidence_id": null,
+        "attribution_confidence": "none"
+      }
+    },
+    "contact_route": {
+      "destination": "info@kunbase.com",
+      "destination_type": "general",
+      "source": "https://www.kunbase.com/",
+      "lawful_basis_note": "public business contact route recorded in prior research"
+    },
+    "findings": [
+      {
+        "id": "kunbase-kft-bi-route",
+        "category": "buyer_accessibility",
+        "claim_key": "public_business_contact_route",
+        "claim": "A public business route is recorded: info@kunbase.com",
+        "value": "info@kunbase.com",
+        "severity": "none",
+        "source": "https://www.kunbase.com/",
+        "observed_at": "2026-08-09",
+        "status": "observed"
+      }
+    ],
+    "unresolved_questions": [
+      "Verify the exact budget owner and a lawful direct or role-specific destination."
+    ],
+    "external_action_authorized": false
+  },
+  "selected_service_route": "digital-platforms-brand",
+  "diagnostic": {
+    "capability": "client-audit",
+    "result": "not_justified_at_current_qualification_coverage"
+  },
+  "source_batch": "operations/internal-gtm/runs/qualification-batches/internal-gtm-qualification-2026-08-11-01.json"
+}

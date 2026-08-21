@@ -1,0 +1,205 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "BridgeWorks GTM State",
+  "type": "object",
+  "required": [
+    "prospect_id",
+    "company",
+    "lifecycle_stage",
+    "last_verified_at"
+  ],
+  "properties": {
+    "prospect_id": {
+      "type": "string"
+    },
+    "company": {
+      "type": "string"
+    },
+    "normalized_company": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "canonical_domain": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "alternate_domains": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "market": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "lane": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "service_route": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "qualification_score": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "qualification_tier": {
+      "enum": ["HOT", "STRONG", "QUALIFIED", "WATCH", "DO_NOT_PURSUE", null]
+    },
+    "qualification_version": {
+      "enum": ["qualification-v1", null]
+    },
+    "qualification_components": {
+      "type": ["object", "null"]
+    },
+    "qualification_actionability": {
+      "type": ["string", "null"]
+    },
+    "qualification_blocking_reasons": {
+      "type": "array",
+      "items": {"type": "string"}
+    },
+    "buyer_name": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "buyer_role": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "buyer_email": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "trigger": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "evidence": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    },
+    "evidence_quality": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "proof_asset_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "lifecycle_stage": {
+      "enum": [
+        "market_hypothesis",
+        "account_discovered",
+        "evidence_collected",
+        "qualified",
+        "routed",
+        "diagnostic_selected",
+        "diagnostic_complete",
+        "offer_selected",
+        "outreach_prepared",
+        "awaiting_approval",
+        "sent",
+        "replied",
+        "opportunity",
+        "discovery",
+        "proposal",
+        "won",
+        "lost",
+        "nurture"
+      ]
+    },
+    "gmail_thread_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "gmail_message_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "reply_state": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "approval_state": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "approval_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "approval_payload_digest": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "next_action": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "next_action_due_at": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "last_verified_at": {
+      "type": "string"
+    },
+    "last_verified_source": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "source_provenance": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "additionalProperties": true
+}

@@ -1,0 +1,303 @@
+{
+  "schema_version": 2,
+  "batch_id": "2026-08-17-batch-01",
+  "completed_at": "2026-08-17T07:22:00+00:00",
+  "prospects": [
+    {
+      "prospect_id": "budapest-sky-property-management",
+      "company": "Budapest Sky Property Management",
+      "checked_at": "2026-08-17T07:22:00+00:00",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://budapestsky.hu/contact-us/",
+          "accessed_at": "2026-08-17",
+          "supports": "Owned contact page lists info@bpsky.hu, +36 70 599 7934, Liszt Ferenc ter 5, a Send a Message form, and property-management positioning for guest inquiries, bookings, maintenance, and listings."
+        },
+        {
+          "url": "https://budapestsky.hu/contact-us/",
+          "accessed_at": "2026-08-17",
+          "supports": "The same contact page separately lists Budapest Sky Property Management with hosts@budapestsky.com, the same phone and office, a bpsky.hu footer link, BP Sky Kft. identity, and 2026 copyright."
+        }
+      ],
+      "owned_domain": "budapestsky.hu is the current checked owned contact domain. The same page also points to bpsky.hu and budapestsky.com routes.",
+      "conversion_route": "The site provides a Send a Message form, public phone, info@bpsky.hu, and hosts@budapestsky.com. No form, draft, phone action, or message was created.",
+      "decision_maker": "No named decision-maker or responsible operating owner was verified from public sources in this run.",
+      "contact_route": "Primary preparation route: email to info@bpsky.hu. Secondary public route: hosts@budapestsky.com.",
+      "observations": [
+        "Budapest Sky verifies an active Budapest property-management route with public phone, office, contact form, and owner/host-facing copy.",
+        "The current contact page gives two different email/domain routes around the same enquiry path, which can confuse host-owner leads before they decide where to write."
+      ],
+      "recommended_angle": "Use a contact-route consistency and host-owner lead-routing QA note tied to the split-domain public contact path.",
+      "evidence_notes": "Local artifact search found this prospect only in the 2026-08-17 import/source and this prepared batch. HubSpot exact-domain and exact-email searches returned zero matches. Gmail exact domain/email searches returned zero messages.",
+      "outreach_readiness": "ready",
+      "commercial_gap": "Budapest Sky asks owners and guests to use the contact path, but the same current page shows info@bpsky.hu and hosts@budapestsky.com, creating a clear lead-routing trust gap.",
+      "proof_to_use": "BridgeWorks contact-route consistency and public-page QA review.",
+      "proposed_channel": "email",
+      "proposed_destination": "info@bpsky.hu",
+      "draft_subject": "Budapest Sky contact-route QA note",
+      "draft_body": "Hello Budapest Sky team, I reviewed the public contact route and noticed the same enquiry path shows two different email/domain routes: info@bpsky.hu and hosts@budapestsky.com. I mapped a short contact-route QA note showing where a host-owner lead may hesitate before writing. Would it be useful if I sent the two-page version for review?",
+      "next_internal_action": "Prepare one approval-gated email action only. Do not create a Gmail draft, submit the form, or send unless Emmanuel approves the exact recipient, subject, and body.",
+      "risk_notes": "No exact HubSpot or Gmail duplicate was found. Use the company route only because no named decision-maker was verified."
+    },
+    {
+      "prospect_id": "mri-investments-ltd",
+      "company": "MRI Investments Ltd",
+      "checked_at": "2026-08-17T07:22:00+00:00",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://mriinvestmentsltd.com/",
+          "accessed_at": "2026-08-17",
+          "supports": "Owned homepage lists MRI Investment Limited as a property and facilities-management business with 10+ years experience, 670+ WLAB/e-waste volume, 70+ employees, 5+ tier-one clients, facility operations, e-waste, security, safety, warehousing, and logistics services."
+        },
+        {
+          "url": "https://mriinvestmentsltd.com/",
+          "accessed_at": "2026-08-17",
+          "supports": "The same page lists generic testimonial content under Love Your Customers with unrelated customer roles, plus public phones, info@mriinvestmentsltd.com, Lagos address, and 2026 copyright."
+        }
+      ],
+      "owned_domain": "mriinvestmentsltd.com is the current owned domain checked in this run.",
+      "conversion_route": "The site provides service pages, Contact Us, public phone numbers, Lagos address, and info@mriinvestmentsltd.com. No form, draft, phone action, or message was created.",
+      "decision_maker": "No named decision-maker or responsible operating owner was verified from public sources in this run.",
+      "contact_route": "Primary preparation route: email to info@mriinvestmentsltd.com.",
+      "observations": [
+        "MRI verifies a real facility-management and property-service offer with public service pages, public contact details, employee count, experience count, and tier-one client claim.",
+        "The current homepage weakens proof by showing placeholder-style testimonials and unrelated customer roles beside a serious facilities-management offer."
+      ],
+      "recommended_angle": "Use a public-proof cleanup and credibility-review note tied to the current testimonial section.",
+      "evidence_notes": "Local artifact search found this prospect only in the 2026-08-17 import/source and this prepared batch. HubSpot exact-domain and exact-email searches returned zero matches. Gmail exact domain/email searches returned zero messages.",
+      "outreach_readiness": "ready",
+      "commercial_gap": "MRI presents serious FM, property, e-waste, security, and logistics services, but the current homepage testimonial block reads like generic placeholder proof, which can weaken buyer trust.",
+      "proof_to_use": "BridgeWorks public-proof cleanup and credibility review.",
+      "proposed_channel": "email",
+      "proposed_destination": "info@mriinvestmentsltd.com",
+      "draft_subject": "MRI public-proof QA note",
+      "draft_body": "Hello MRI Investments team, I reviewed the public facilities-management site and noticed the service proof is specific, but the testimonial section appears to contain generic placeholder-style copy unrelated to MRI's actual work. I mapped a short credibility note showing where this weakens buyer trust. Would it be useful if I sent the two-page version for review?",
+      "next_internal_action": "Prepare one approval-gated email action only. Do not create a Gmail draft, submit a form, call, or send unless Emmanuel approves the exact recipient, subject, and body.",
+      "risk_notes": "No exact HubSpot or Gmail duplicate was found. No named owner was verified, so use only the public company route."
+    },
+    {
+      "prospect_id": "stretford-hill-limited",
+      "company": "Stretford Hill Limited",
+      "checked_at": "2026-08-17T07:22:00+00:00",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://stretfordhill.com/",
+          "accessed_at": "2026-08-17",
+          "supports": "Owned homepage lists construction, infrastructure, interior, project-management, laser fabrication, management team, named CEO Lakunle Runsewe FNSE, current projects, testimonials, hotline, quote route, and info@stretfordhill.com."
+        },
+        {
+          "url": "https://stretfordhill.com/",
+          "accessed_at": "2026-08-17",
+          "supports": "The same homepage shows 0+ Jobs Created, 0+ Complete Projects, and 0+ Happy Clients, while later sections show featured projects, trusted partners, facility maintenance services, and 2026 blog activity."
+        }
+      ],
+      "owned_domain": "stretfordhill.com is the current owned domain checked in this run.",
+      "conversion_route": "The site provides Get quote, a quote form, hotline +234 (0)9138364073, address, and info@stretfordhill.com. No form, draft, phone action, or message was created.",
+      "decision_maker": "Lakunle Runsewe, FNSE is publicly listed on the owned homepage as Chief Executive Officer.",
+      "contact_route": "Primary preparation route: email to info@stretfordhill.com. Secondary route: public quote form.",
+      "observations": [
+        "Stretford Hill verifies a current Nigerian construction and facility-maintenance offer with named CEO, project examples, quote path, public email, phone, and address.",
+        "The current homepage creates proof friction because zero-value trust counters sit near otherwise credible project, client, compliance, and quote content."
+      ],
+      "recommended_angle": "Use a public-proof and quote-route QA note tied to visible 0+ trust counters on the current homepage.",
+      "evidence_notes": "Local artifact search found this prospect only in the 2026-08-17 import/source and this prepared batch. HubSpot exact-domain and exact-email searches returned zero matches. Gmail exact domain/email searches returned zero messages.",
+      "outreach_readiness": "ready",
+      "commercial_gap": "Stretford Hill has credible project proof and a quote route, but the homepage shows 0+ jobs, 0+ complete projects, and 0+ happy clients beside buyer-trust content.",
+      "proof_to_use": "BridgeWorks public-proof and conversion trust QA review.",
+      "proposed_channel": "email",
+      "proposed_destination": "info@stretfordhill.com",
+      "draft_subject": "Stretford Hill homepage proof check",
+      "draft_body": "Hello Lakunle, I reviewed Stretford Hill's public quote path and noticed the site has strong project and compliance proof, but the homepage trust counters still show 0+ jobs, 0+ complete projects, and 0+ happy clients. I mapped a short buyer-trust note showing the exact friction before someone requests a quote. Would it be useful if I sent the two-page version for review?",
+      "next_internal_action": "Prepare one approval-gated email action only. Do not create a Gmail draft, submit the quote form, call, or send unless Emmanuel approves the exact recipient, subject, and body.",
+      "risk_notes": "No exact HubSpot or Gmail duplicate was found. Greeting uses the public CEO name, but the route remains the public company email."
+    },
+    {
+      "prospect_id": "tech-fm-kft",
+      "company": "TECH FM Kft.",
+      "checked_at": "2026-08-17T07:22:00+00:00",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.techfm.hu/en/office-cleaning/",
+          "accessed_at": "2026-08-17",
+          "supports": "Owned English office-cleaning page lists office cleaning, industrial hall cleaning, landscaping, green-area maintenance, hard-surface maintenance, quote CTAs, on-site assessment, personalised quote process, phone, info@techfm.hu, and 2024-25 footer."
+        },
+        {
+          "url": "https://www.techfm.hu/en/office-cleaning/",
+          "accessed_at": "2026-08-17",
+          "supports": "The same page shows multiple quote CTA labels, a quote form, and a fragmented form heading that separates NEED, all service categories, and FAST? around the high-intent buyer route."
+        }
+      ],
+      "owned_domain": "techfm.hu is the current owned domain checked in this run.",
+      "conversion_route": "The site provides GET A QUOTE, REQUEST A QUOTE, a quote request form, phone +36 20 461 21 31, and info@techfm.hu. No form, draft, phone action, or message was created.",
+      "decision_maker": "No named decision-maker or responsible operating owner was verified from public sources in this run.",
+      "contact_route": "Primary preparation route: email to info@techfm.hu. Secondary route: quote request form.",
+      "observations": [
+        "TECH FM verifies a current Budapest cleaning and facilities-service offer with English buyer page, quote path, quote form, phone, and public email.",
+        "The current high-intent form route contains fragmented heading and inconsistent quote CTA text, creating friction for English-speaking buyers before they request a personalised quote."
+      ],
+      "recommended_angle": "Use an English buyer-page and quote-route QA note tied to current form-heading and CTA consistency issues.",
+      "evidence_notes": "Local artifact search found this prospect only in the 2026-08-17 import/source and this prepared batch. HubSpot exact-domain and exact-email searches returned zero matches. Gmail exact domain/email searches returned zero messages.",
+      "outreach_readiness": "ready",
+      "commercial_gap": "TECH FM asks English-speaking facilities buyers to request a quote, but the form route currently renders fragmented headline text and inconsistent quote CTA wording.",
+      "proof_to_use": "BridgeWorks quote-route and English buyer-page QA review.",
+      "proposed_channel": "email",
+      "proposed_destination": "info@techfm.hu",
+      "draft_subject": "TECH FM quote-route QA note",
+      "draft_body": "Hello TECH FM team, I reviewed the English office-cleaning quote route and noticed the service offer is clear, but the quote form heading breaks into NEED, service categories, and FAST?, while CTA labels vary across the page. I mapped a short buyer-page QA note showing the exact friction before a company requests a quote. Would it be useful if I sent it for review?",
+      "next_internal_action": "Prepare one approval-gated email action only. Do not create a Gmail draft, submit the quote form, call, or send unless Emmanuel approves the exact recipient, subject, and body.",
+      "risk_notes": "No exact HubSpot or Gmail duplicate was found. Use the public company route only because no named owner was verified."
+    },
+    {
+      "prospect_id": "eurafrica-partners",
+      "company": "EurAfrica Partners",
+      "checked_at": "2026-08-17T07:22:00+00:00",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://eurafricapartners.com/",
+          "accessed_at": "2026-08-17",
+          "supports": "Owned homepage lists EurAfrica Partners, Europe-Africa business consulting, contact email info@eurafricapartners.com, phone +353 (0)873929290, consultants, team names, contact form fields, and 2026 footer."
+        },
+        {
+          "url": "https://eurafricapartners.com/",
+          "accessed_at": "2026-08-17",
+          "supports": "The same page has visible copy problems in the core About Us section, including broken words and a typo in the Europe/Africa landscape sentence, while positioning itself as a 360 service for investors and businesses."
+        }
+      ],
+      "owned_domain": "eurafricapartners.com is the current owned domain checked in this run.",
+      "conversion_route": "The site provides Contact us, a contact form, public phone, and info@eurafricapartners.com. No form, draft, phone action, or message was created.",
+      "decision_maker": "Team names publicly listed on the owned site include Seamus McCann, Dr. Sylvia Gavigan, Nigel Sutton, and Maureen Mwagale, but no single responsible owner for the website or operations was verified.",
+      "contact_route": "Primary preparation route: email to info@eurafricapartners.com. Secondary route: public contact form.",
+      "observations": [
+        "EurAfrica Partners verifies a current Europe-Africa business-consulting route with team names, phone, email, contact form, and investor/market-entry positioning.",
+        "The current About Us credibility copy contains visible broken-word and typo issues in the core explanation of their Europe/Africa advisory value."
+      ],
+      "recommended_angle": "Use a credibility-first homepage QA note tied to public copy quality on the core investor/advisory positioning.",
+      "evidence_notes": "Local artifact search found this prospect only in the 2026-08-17 import/source and this prepared batch. HubSpot exact-domain and exact-email searches returned zero matches. Gmail exact domain/email searches returned zero messages.",
+      "outreach_readiness": "ready",
+      "commercial_gap": "EurAfrica sells cross-border advisory trust, but its current homepage has visible copy quality issues in the core investor and Europe-Africa positioning section.",
+      "proof_to_use": "BridgeWorks credibility-first homepage QA review.",
+      "proposed_channel": "email",
+      "proposed_destination": "info@eurafricapartners.com",
+      "draft_subject": "EurAfrica homepage credibility note",
+      "draft_body": "Hello EurAfrica Partners team, I reviewed the public homepage and noticed the advisory offer is clear, but the core About Us section has visible copy breaks and typo issues around the Europe-Africa positioning. I mapped a short credibility-first QA note showing where this affects buyer trust before someone submits an enquiry. Would it be useful if I sent the two-page version for review?",
+      "next_internal_action": "Prepare one approval-gated email action only. Do not create a Gmail draft, submit the contact form, call, or send unless Emmanuel approves the exact recipient, subject, and body.",
+      "risk_notes": "No exact HubSpot or Gmail duplicate was found. Use the public company email because no exact responsible owner route was verified."
+    },
+    {
+      "prospect_id": "euro-afri-link",
+      "company": "Euro Afri Link",
+      "checked_at": "2026-08-17T07:22:00+00:00",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://euroafrilink.com/contact-us/",
+          "accessed_at": "2026-08-17",
+          "supports": "Owned contact page lists Wageningen, KvK 71885269, phone, WhatsApp, info@euroafrilink.com, contact form fields, service selector, inquiry categories, 15+ countries served, and 2026 footer."
+        },
+        {
+          "url": "https://euroafrilink.com/contact-us/",
+          "accessed_at": "2026-08-17",
+          "supports": "The same page routes buyers, exporters, business/consultancy, education, and general inquiries through one contact page with multiple service areas and a Book Consultation navigation route."
+        }
+      ],
+      "owned_domain": "euroafrilink.com is the current owned domain checked in this run.",
+      "conversion_route": "The site provides Book Consultation, Submit Inquiry, WhatsApp, phone, contact form fields, service selector, and info@euroafrilink.com. No form, WhatsApp action, draft, phone action, or message was created.",
+      "decision_maker": "No named decision-maker or responsible operating owner was verified from public sources in this run.",
+      "contact_route": "Public company route: info@euroafrilink.com and the contact page.",
+      "observations": [
+        "Euro Afri Link verifies a current EU-Africa trade and support route with KvK number, Wageningen base, phone, WhatsApp, email, service selector, inquiry route, and 2026 footer.",
+        "The contact route is broad and multi-service, but the page still provides a clear service selector and inquiry categories, so the evidence does not prove a specific commercial failure."
+      ],
+      "recommended_angle": "Hold until a sharper route or proof gap is verified. The broad service mix alone is not enough for approval-ready outreach.",
+      "evidence_notes": "Local artifact search found this prospect only in the 2026-08-17 import/source and this prepared batch. HubSpot exact-domain and exact-email searches returned zero matches. Gmail exact domain/email searches returned zero messages.",
+      "outreach_readiness": "needs_more_evidence",
+      "commercial_gap": "",
+      "proof_to_use": "",
+      "proposed_channel": "",
+      "proposed_destination": "",
+      "draft_subject": "",
+      "draft_body": "",
+      "next_internal_action": "Check the Book Consultation route and relevant service pages for one concrete current conversion, proof, or segmentation issue before preparing external copy.",
+      "risk_notes": "No exact HubSpot or Gmail duplicate was found. Do not use WhatsApp or the inquiry form without explicit approval."
+    },
+    {
+      "prospect_id": "global-law-consultancy",
+      "company": "Global Law Consultancy",
+      "checked_at": "2026-08-17T07:22:00+00:00",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://globallawconsultancy.com/contacts/",
+          "accessed_at": "2026-08-17",
+          "supports": "Public contact page lists UK branch Abraham T. Paddy, Europe branch Michael Lord Azure in Hamburg, USA branch Hayford Adjabeng, a contact form area, and direct branch emails including michael@globallawconsultancy.com."
+        },
+        {
+          "url": "https://globallawconsultancy.com/contacts/",
+          "accessed_at": "2026-08-17",
+          "supports": "The same contact page repeats branch blocks and shows Western African branch contact details with Lord Owusu Larbi in one visible block and Barrister Samuel Addison in another."
+        }
+      ],
+      "owned_domain": "globallawconsultancy.com is the current checked domain.",
+      "conversion_route": "The site provides contact form consent fields, branch phone/email routes, and the Europe route michael@globallawconsultancy.com. No form, draft, phone action, or message was created.",
+      "decision_maker": "Michael Lord Azure is publicly listed as the Europe Branch contact on the contact page. No higher website owner was verified.",
+      "contact_route": "Primary preparation route: email to michael@globallawconsultancy.com for the Europe branch.",
+      "observations": [
+        "Global Law Consultancy verifies a cross-border branch contact route with Europe, UK, USA, and Western Africa contacts plus direct branch emails.",
+        "The current contact page has a concrete credibility issue because branch information is repeated and the Western African contact name changes between visible sections."
+      ],
+      "recommended_angle": "Use a branch-contact route and credibility QA note tied to duplicate and conflicting branch details.",
+      "evidence_notes": "Local artifact search found this prospect only in the 2026-08-17 import/source and this prepared batch. HubSpot exact-domain and exact-email searches returned zero matches. Gmail exact domain/email searches returned zero messages.",
+      "outreach_readiness": "ready",
+      "commercial_gap": "Global Law Consultancy depends on branch-specific trust, but the current contact page repeats branch blocks and changes the Western African branch contact name between sections.",
+      "proof_to_use": "BridgeWorks branch-contact and credibility QA review.",
+      "proposed_channel": "email",
+      "proposed_destination": "michael@globallawconsultancy.com",
+      "draft_subject": "Global Law branch-contact QA note",
+      "draft_body": "Hello Michael, I reviewed Global Law Consultancy's public contact page and noticed the branch blocks repeat, while the Western African branch contact name changes between visible sections. I mapped a short branch-contact QA note showing the exact credibility friction a cross-border client sees before writing. Would it be useful if I sent the two-page version for review?",
+      "next_internal_action": "Prepare one approval-gated email action only. Do not create a Gmail draft, submit the form, call, or send unless Emmanuel approves the exact recipient, subject, and body.",
+      "risk_notes": "No exact HubSpot or Gmail duplicate was found. Use the public Europe branch route only; do not infer personal consent beyond the listed public email."
+    },
+    {
+      "prospect_id": "ruxton-consultancy",
+      "company": "Ruxton Consultancy",
+      "checked_at": "2026-08-17T07:22:00+00:00",
+      "status": "verified",
+      "sources": [
+        {
+          "url": "https://www.ruxtonconsultancy.com/contact/",
+          "accessed_at": "2026-08-17",
+          "supports": "Owned contact page lists Africa expansion positioning, free consulting call links, phone routes, WhatsApp route, sil.thonen@ruxtonconsultancy.com, contact@ruxtonconsultancy.com for hiring/recruiters, Lagos and Lent office details, and info@ruxtonconsultancy.com."
+        },
+        {
+          "url": "https://www.ruxtonconsultancy.com/contact/",
+          "accessed_at": "2026-08-17",
+          "supports": "The same contact page has a Message Us area where the public form heading is visibly labelled Contact Form Demo before first name, last name, email, message, and submit fields."
+        }
+      ],
+      "owned_domain": "ruxtonconsultancy.com is the current owned domain checked in this run.",
+      "conversion_route": "The site provides Free consulting call, WhatsApp, public phone routes, a contact form, sil.thonen@ruxtonconsultancy.com, contact@ruxtonconsultancy.com, and info@ruxtonconsultancy.com. No booking, WhatsApp action, form, draft, phone action, or message was created.",
+      "decision_maker": "No named decision-maker or responsible operating owner was verified from public sources in this run.",
+      "contact_route": "Primary preparation route: email to info@ruxtonconsultancy.com. Secondary public route: sil.thonen@ruxtonconsultancy.com listed on the contact page.",
+      "observations": [
+        "Ruxton verifies a current Africa-market consultancy route with service navigation, free consulting call links, Nigeria and Netherlands office details, public emails, phone, WhatsApp, and contact form.",
+        "The current buyer form is visibly labelled Contact Form Demo, creating a direct credibility issue on the high-intent contact path."
+      ],
+      "recommended_angle": "Use a contact-route credibility QA note tied to the visible demo-form label on the current contact page.",
+      "evidence_notes": "Local artifact search found this prospect only in the 2026-08-17 import/source and this prepared batch. HubSpot exact-domain and exact-email searches returned zero matches. Gmail exact domain/email searches returned zero messages.",
+      "outreach_readiness": "ready",
+      "commercial_gap": "Ruxton sells Africa-market consulting and invites prospects to make contact, but the current public contact form still displays a Contact Form Demo label.",
+      "proof_to_use": "BridgeWorks contact-route credibility QA review.",
+      "proposed_channel": "email",
+      "proposed_destination": "info@ruxtonconsultancy.com",
+      "draft_subject": "Ruxton contact-form QA note",
+      "draft_body": "Hello Ruxton Consultancy team, I reviewed the public contact route and noticed the buyer form is still labelled Contact Form Demo above the enquiry fields. I mapped a short contact-route QA note showing how this looks before a company asks about Africa-market support. Would it be useful if I sent the two-page version for review?",
+      "next_internal_action": "Prepare one approval-gated email action only. Do not create a Gmail draft, use WhatsApp, book a call, submit the form, or send unless Emmanuel approves the exact recipient, subject, and body.",
+      "risk_notes": "No exact HubSpot or Gmail duplicate was found. Use public company email only because no responsible owner was verified."
+    }
+  ]
+}

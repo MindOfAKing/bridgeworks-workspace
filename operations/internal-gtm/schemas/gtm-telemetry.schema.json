@@ -1,0 +1,379 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "BridgeWorks GTM Outcome Telemetry",
+  "description": "One record per prospect per GTM attempt. Decision fields are written when the internal-GTM run produces them. Outcome fields stay null until an approved external action actually happens, and are never inferred.",
+  "type": "object",
+  "required": [
+    "record_id",
+    "prospect_id",
+    "as_of",
+    "decision",
+    "outcome",
+    "provenance"
+  ],
+  "properties": {
+    "record_id": {
+      "type": "string",
+      "description": "prospect_id plus attempt date. Stable, so a re-run updates rather than duplicates."
+    },
+    "prospect_id": {
+      "type": "string"
+    },
+    "entity_key": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "as_of": {
+      "type": "string"
+    },
+    "decision": {
+      "type": "object",
+      "description": "Written by the internal-GTM run. Every field is derivable from a run record.",
+      "required": [
+        "qualification_score",
+        "qualification_tier",
+        "primary_service_route"
+      ],
+      "properties": {
+        "market": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "segment": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "description": "ICP segment or sector lane"
+        },
+        "trigger_type": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "trigger_age_days": {
+          "type": [
+            "integer",
+            "null"
+          ]
+        },
+        "buyer_role": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "buyer_reachability": {
+          "enum": [
+            "named_buyer_with_email",
+            "named_buyer",
+            "generic_contact",
+            "none",
+            null
+          ]
+        },
+        "qualification_score": {
+          "type": [
+            "integer",
+            "null"
+          ]
+        },
+        "qualification_tier": {
+          "enum": [
+            "HOT",
+            "STRONG",
+            "QUALIFIED",
+            "WATCH",
+            "DO_NOT_PURSUE",
+            "WARM",
+            "COLD",
+            "REJECT",
+            null
+          ]
+        },
+        "qualification_version": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "qualification_coverage_dimensions": {
+          "type": ["integer", "null"],
+          "minimum": 0,
+          "maximum": 6
+        },
+        "qualification_coverage_percentage": {
+          "type": ["number", "null"],
+          "minimum": 0,
+          "maximum": 100
+        },
+        "problem_evidence": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 0,
+          "maximum": 25
+        },
+        "commercial_fit": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 0,
+          "maximum": 20
+        },
+        "buyer_accessibility": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 0,
+          "maximum": 15
+        },
+        "trigger_urgency": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 0,
+          "maximum": 15
+        },
+        "proof_fit": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 0,
+          "maximum": 15
+        },
+        "execution_readiness": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 0,
+          "maximum": 10
+        },
+        "primary_service_route": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "route_fit": {
+          "enum": [
+            "exact",
+            "adjacent",
+            "tie",
+            "none",
+            null
+          ]
+        },
+        "route_won_on": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "description": "which tie-break dimension selected the route"
+        },
+        "secondary_routes": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "diagnostic_capability": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "diagnostic_score": {
+          "type": [
+            "integer",
+            "null"
+          ]
+        },
+        "diagnostic_result": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "description": "complete, partial, blocked, not_run"
+        },
+        "evidence_quality": {
+          "enum": [
+            "verified",
+            "observed",
+            "inferred",
+            "unknown",
+            null
+          ]
+        },
+        "approved_claim_count": {
+          "type": [
+            "integer",
+            "null"
+          ]
+        },
+        "contradicted_claim_count": {
+          "type": [
+            "integer",
+            "null"
+          ]
+        },
+        "proof_asset_id": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "offer_hypothesis": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "outreach_angle": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "channel": {
+          "enum": [
+            "email",
+            "linkedin",
+            "form",
+            "phone",
+            "referral",
+            null
+          ]
+        },
+        "actionability": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "description": "qualification-v1 blocking state. Never collapsed into the tier."
+        }
+      }
+    },
+    "outcome": {
+      "type": "object",
+      "description": "Null until it actually happened. A null here means unknown, never no.",
+      "properties": {
+        "approval_state": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "approval_payload_digest": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "sent_at": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "sent_message_id": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "description": "Gmail message id. Gmail is communication ground truth."
+        },
+        "reply_classification": {
+          "enum": [
+            "positive",
+            "referral",
+            "not_now",
+            "objection",
+            "unsubscribe",
+            "bounce",
+            "no_reply",
+            null
+          ]
+        },
+        "positive_reply": {
+          "type": [
+            "boolean",
+            "null"
+          ]
+        },
+        "meeting_booked_at": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "proposal_sent_at": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "final_state": {
+          "enum": [
+            "won",
+            "lost",
+            "nurture",
+            null
+          ]
+        },
+        "revenue_if_won": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "revenue_currency": {
+          "enum": [
+            "EUR",
+            "HUF",
+            "NGN",
+            "GBP",
+            null
+          ]
+        }
+      }
+    },
+    "provenance": {
+      "type": "object",
+      "required": [
+        "run_record",
+        "written_by"
+      ],
+      "properties": {
+        "run_record": {
+          "type": "string"
+        },
+        "written_by": {
+          "type": "string"
+        },
+        "outcome_sources": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "Where each outcome field came from. Gmail wins on communication facts."
+        },
+        "external_action_authorized": {
+          "const": false
+        }
+      }
+    }
+  },
+  "additionalProperties": false
+}

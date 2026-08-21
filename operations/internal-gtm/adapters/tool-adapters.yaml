@@ -1,0 +1,56 @@
+{
+  "version": 1,
+  "verified_at": "2026-08-11",
+  "rule": "Tools gather or transport evidence. They do not own business state and are not capabilities.",
+  "adapters": [
+    {
+      "id": "public-web",
+      "status": "demonstrated",
+      "roles": ["trigger-scout", "evidence-auditor", "prospect-router"],
+      "uses": ["owned-page verification", "public-source corroboration", "robots and sitemap checks"],
+      "truth_boundary": "Store source URL, observation date, and result in the evidence ledger. The adapter is never the source of truth."
+    },
+    {
+      "id": "browser-public",
+      "status": "demonstrated",
+      "roles": ["trigger-scout", "evidence-auditor", "integration-engineer"],
+      "uses": ["rendered-page inspection", "anti-bot fallback", "approved browser administration"],
+      "approval_required_for": ["login", "form submission", "external mutation", "shutdown"]
+    },
+    {
+      "id": "google-search",
+      "status": "demonstrated",
+      "roles": ["trigger-scout", "market-icp-strategist"],
+      "uses": ["company discovery", "brand and entity corroboration"],
+      "constraints": ["preserve result URL and date", "do not infer absence from one query"]
+    },
+    {
+      "id": "google-places",
+      "status": "not_verified",
+      "roles": ["trigger-scout"],
+      "uses": ["local discovery and public business evidence"],
+      "activation_gate": "Verify a free connected read path and a concrete local-market need."
+    },
+    {
+      "id": "firecrawl",
+      "status": "candidate",
+      "roles": ["evidence-auditor", "integration-engineer"],
+      "uses": ["bounded public-page extraction"],
+      "activation_gate": "Demonstrate a crawl need that public web or browser cannot meet; verify free allowance and robots compliance."
+    },
+    {
+      "id": "serpapi",
+      "status": "candidate",
+      "roles": ["trigger-scout", "market-icp-strategist"],
+      "uses": ["structured search results"],
+      "activation_gate": "Demonstrate a repeatable query need and verify free allowance before configuration."
+    },
+    {
+      "id": "ods-local-search",
+      "status": "not_verified",
+      "roles": ["trigger-scout", "evidence-auditor"],
+      "uses": ["bounded low-cost preprocessing", "first-pass extraction"],
+      "validation": "Schema and source-span validation are mandatory; Claude or Codex resolves contradictions and final commercial reasoning."
+    }
+  ]
+}

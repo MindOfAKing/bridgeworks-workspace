@@ -1,0 +1,29 @@
+{
+  "prospects_with_qualification": 2,
+  "missing_by_dimension": {
+    "problem_evidence": 0,
+    "commercial_fit": 2,
+    "buyer_accessibility": 0,
+    "trigger_urgency": 0,
+    "proof_fit": 0,
+    "execution_readiness": 2
+  },
+  "partial_by_dimension": {
+    "problem_evidence": 0,
+    "commercial_fit": 0,
+    "buyer_accessibility": 1,
+    "trigger_urgency": 0,
+    "proof_fit": 0,
+    "execution_readiness": 0
+  },
+  "verified_negative_by_dimension": {
+    "problem_evidence": 0,
+    "commercial_fit": 0,
+    "buyer_accessibility": 0,
+    "trigger_urgency": 0,
+    "proof_fit": 0,
+    "execution_readiness": 0
+  },
+  "mean_coverage_percent": 58.4,
+  "fully_covered_prospects": 0
+}

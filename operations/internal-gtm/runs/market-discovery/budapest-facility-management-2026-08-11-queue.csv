@@ -1,0 +1,4 @@
+rank,prospect_id,company,canonical_domain,service_route,qualification_score,qualification_tier,evidence_quality,next_capability
+1,domain:northline-facility.example.com,Northline Facility Services Kft.,northline-facility.example.com,content-visibility-demand,70,STRONG,verified,bridgeworks-geo-prospect-scan
+2,domain:danube-property-care.example.org,Danube Property Care Bt.,danube-property-care.example.org,digital-platforms-brand,20,DO_NOT_PURSUE,unknown,client-audit
+3,company:pest clean systems,Pest Clean Systems,,,0,DO_NOT_PURSUE,unknown,

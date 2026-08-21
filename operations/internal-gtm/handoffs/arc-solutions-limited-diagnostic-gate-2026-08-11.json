@@ -1,0 +1,213 @@
+{
+  "handoff_kind": "diagnostic_completion_gate",
+  "prospect_id": "arc-solutions-limited",
+  "as_of": "2026-08-11",
+  "runtime": "claude_code",
+  "diagnostic_id": "client-audit:arcsolutionslimited.com:2026-08-11",
+  "evidence_audit": {
+    "approved": [
+      "ca-arc-1",
+      "ca-arc-2",
+      "ca-arc-3",
+      "ca-arc-4",
+      "ca-arc-5",
+      "ca-arc-6",
+      "ca-arc-7",
+      "ca-arc-8"
+    ],
+    "unresolved": [],
+    "by_status": {
+      "verified": [
+        "ca-arc-1",
+        "ca-arc-2",
+        "ca-arc-3",
+        "ca-arc-4",
+        "ca-arc-5",
+        "ca-arc-6",
+        "ca-arc-8"
+      ],
+      "observed": [
+        "ca-arc-7"
+      ]
+    },
+    "contradictions": [],
+    "contradicted_finding_ids": [],
+    "audited_status": {
+      "ca-arc-1": "verified",
+      "ca-arc-2": "verified",
+      "ca-arc-3": "verified",
+      "ca-arc-4": "verified",
+      "ca-arc-5": "verified",
+      "ca-arc-6": "verified",
+      "ca-arc-7": "observed",
+      "ca-arc-8": "verified"
+    },
+    "assumptions_left_unpromoted": [
+      "That the numerical inconsistency costs enquiries. Plausible, untested, and not scored.",
+      "That the ISO claim is unsubstantiated rather than merely undocumented on the site.",
+      "That an absent form in a text fetch means an absent or broken form."
+    ],
+    "limitations_carried": [
+      "Social platforms were not opened. LinkedIn and Instagram links exist on the homepage but follower counts, last-post dates and content quality were not retrieved.",
+      "No review platform, Google Maps listing or press mention was queried.",
+      "No competitor comparison was run.",
+      "Response-time and uptime commitments (24 hours, under 2 hours emergency, 99 percent uptime) are the company's own published claims. None was independently tested.",
+      "Mobile readiness, page speed and technical health were not measured and are not inferred here."
+    ],
+    "unknowns_carried": [
+      "Whether 5,000+ or 500+ is the accurate project figure.",
+      "Whether the ISO claim is current, and under which standard and scope.",
+      "Whether the enquiry form renders and confirms correctly for a real visitor.",
+      "Who owns the enquiry route internally."
+    ],
+    "corrections_to_prior_evidence": [
+      {
+        "finding": "ca-arc-4",
+        "corrects": "This directly corrects the earlier engine research, which read the SPOTA text as stray placeholder residue beside the quote route."
+      }
+    ],
+    "evidence_hash": "a7cdcc396e52e05b93d02bbe7b90cfaade522648aeb141ba57a69f2a5db39b1f"
+  },
+  "completion_gate": {
+    "checks": {
+      "capability_actually_executed": true,
+      "not_a_reshaped_prior_artifact": true,
+      "result_contract_validates": true,
+      "evidence_references_resolve": true,
+      "quality_gate_min_approved_findings": true,
+      "quality_gate_no_unresolved_contradiction": true,
+      "quality_gate_limitations_declared": true
+    },
+    "prerequisite": {
+      "to_stage": "diagnostic_complete",
+      "requires_stage": "diagnostic_selected",
+      "allowed": true,
+      "gate_results": {
+        "diagnostic_completed_successfully": true,
+        "diagnostic_has_id": true,
+        "diagnostic_status_terminal": true
+      },
+      "reason": "prerequisite satisfied"
+    },
+    "all_checks_pass": true,
+    "receipted_history_present": true
+  },
+  "lifecycle": {
+    "from_stage": "diagnostic_selected",
+    "to_stage": "diagnostic_complete",
+    "advanced": true,
+    "blocking_reasons": []
+  },
+  "proposed_transition_receipt": {
+    "prospect_id": "arc-solutions-limited",
+    "from_stage": "diagnostic_selected",
+    "to_stage": "diagnostic_complete",
+    "triggering_capability": "client-audit",
+    "required_gate_results": {
+      "diagnostic_completed_successfully": true,
+      "diagnostic_has_id": true,
+      "diagnostic_status_terminal": true
+    },
+    "evidence_snapshot": {
+      "path": "operations/internal-gtm/handoffs/arc-solutions-limited-client-audit-2026-08-11.json",
+      "sha256": "4d44fe3ec6df89953302afdf624a5dd0f1c5bdf3ee7af8340eae7a6d6653b7a2"
+    },
+    "evidence_hash": "a7cdcc396e52e05b93d02bbe7b90cfaade522648aeb141ba57a69f2a5db39b1f",
+    "qualification_version": "qualification-v1",
+    "qualification_coverage": {
+      "percentage": 100.0,
+      "sufficiently_researched_dimensions": 6,
+      "missing_dimensions": [],
+      "exhausted_unknown_dimensions": []
+    },
+    "diagnostic_id": "client-audit:arcsolutionslimited.com:2026-08-11",
+    "diagnostic_status": "complete",
+    "approval_id": null,
+    "runtime": "claude_code",
+    "timestamp": "2026-08-11T13:19:36+00:00",
+    "receipt_version": 1,
+    "verifiable_without_prose": true,
+    "enforcement_note": "Built with enforce=False because the diagnostic_selected receipt lives in runs/, which Codex owns and which this runtime does not write. Every gate was still evaluated and every one passed. Codex must confirm the diagnostic_selected receipt exists before persisting this."
+  },
+  "route_confirmation": {
+    "prior_route": "digital-platforms-brand",
+    "verdict": "confirmed",
+    "selected_route": "digital-platforms-brand",
+    "ranking": {
+      "strategy-transformation": {
+        "approved_severe_findings": 0,
+        "highest_severity": "none",
+        "finding_ids": []
+      },
+      "digital-platforms-brand": {
+        "approved_severe_findings": 4,
+        "highest_severity": "high",
+        "finding_ids": [
+          "ca-arc-1",
+          "ca-arc-2",
+          "ca-arc-3",
+          "ca-arc-7"
+        ]
+      },
+      "content-visibility-demand": {
+        "approved_severe_findings": 0,
+        "highest_severity": "none",
+        "finding_ids": []
+      },
+      "ai-workflow-automation": {
+        "approved_severe_findings": 0,
+        "highest_severity": "none",
+        "finding_ids": []
+      },
+      "execution-operating-systems": {
+        "approved_severe_findings": 1,
+        "highest_severity": "medium",
+        "finding_ids": [
+          "ca-arc-8"
+        ]
+      }
+    },
+    "unmapped_categories": [],
+    "basis": "approved diagnostic findings only, weighted by severity",
+    "excluded_from_tie_break": "maturity",
+    "reason": "The audit changed the problem, not the route. The original basis was a reading of the SPOTA navigation text as placeholder residue at the quote path; ca-arc-4 verified that text is a deliberate Coming Soon label and withdrew that basis. Four approved website_trust and conversion_path findings replace it, led by ca-arc-1: the homepage and the mission page publish project and client counts that differ by an order of magnitude. Owned-surface credibility is the same route, reached by different evidence."
+  },
+  "entry_offer_hypotheses": [
+    {
+      "id": "arc-offer-h1",
+      "hypothesis": "A claims reconciliation pass across owned pages: one verified set of figures for projects, clients, staff and coverage, applied everywhere they appear.",
+      "rests_on": [
+        "ca-arc-1",
+        "ca-arc-2"
+      ],
+      "why_it_is_credible": "The inconsistency is verified on their own pages, visible to any buyer who reads two of them, and cheap to fix.",
+      "what_would_kill_it": "If they already know which figure is right and simply have not updated the page, this is a ten-minute edit, not an engagement.",
+      "evidence_still_missing": "Which figure is accurate. Not knowable from outside."
+    },
+    {
+      "id": "arc-offer-h2",
+      "hypothesis": "Substantiate the ISO claim on the site: standard, scope, issuing body and validity, presented where procurement looks for it.",
+      "rests_on": [
+        "ca-arc-3"
+      ],
+      "why_it_is_credible": "They sell to Dangote, Providus and Cummins. Those buyers run vendor due diligence, and an unsubstantiated certification claim is a procurement risk rather than a marketing one.",
+      "what_would_kill_it": "If no certificate exists, this becomes a compliance conversation and BridgeWorks should not run it.",
+      "evidence_still_missing": "Whether a certificate exists at all."
+    },
+    {
+      "id": "arc-offer-h3",
+      "hypothesis": "Enquiry-route integrity check: confirm the form renders, submits, confirms to the visitor and lands with a named owner inside the 24-hour promise they publish.",
+      "rests_on": [
+        "ca-arc-7",
+        "ca-arc-5"
+      ],
+      "why_it_is_credible": "They publish a 24-hour quote commitment against a single generic inbox with no named owner. The commitment is public; the mechanism behind it is not observable.",
+      "what_would_kill_it": "A working form and a real owner. Then there is no problem.",
+      "evidence_still_missing": "Everything behind the form. Not testable without submitting one, which is an external action and is not authorised.",
+      "hard_constraint": "Testing this by submitting the form would be contact. Not done."
+    }
+  ],
+  "outreach_prepared": false,
+  "approval_packet": null,
+  "stop_point": "item 7: no outreach preparation, no approval packet"
+}

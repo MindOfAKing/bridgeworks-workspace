@@ -1,7 +1,20 @@
 # BridgeWorks Workspace - Consulting Operations
 
 ## Project Overview
-BridgeWorks is an AI-Powered Digital Growth Studio serving small businesses across Africa and Central Europe. Services: Digital Growth Strategy, AI-Powered Marketing, Brand Identity, Web Design & Development, AI Business Automation. Operating model: solo founder + AI skills stack, with paid engagements tracked per client.
+BridgeWorks is an AI-Powered Digital Growth Studio serving small businesses across Africa and Central Europe. Operating model: solo founder + AI skills stack, with paid engagements tracked per client.
+
+**Services (canonical — five routes, verified against the deployed site 2026-08-05):**
+
+1. Strategy & Transformation
+2. Digital Platforms & Brand Systems
+3. Content, Visibility & Demand
+4. AI & Workflow Automation
+5. Execution & Operating Systems
+
+Source of truth is the deployed site, not this file. Verify with:
+`curl -s https://bridgeworks.agency/en` then unescape HTML (`&amp;`) before matching. The route names also live in `bridgeworks-agency/src/messages/en.json` → `routes.items`, but that working tree may be dirty or behind `origin/main` — check `git status` before citing it as canonical.
+
+The previous list here (Digital Growth Strategy, AI-Powered Marketing, Brand Identity, Web Design & Development, AI Business Automation) was stale and appears nowhere on the deployed site. It misled two separate research agents on 2026-08-05.
 
 ## Repository
 GitHub: `MindOfAKing/bridgeworks-workspace`. Default branch: `main`. Do not assume or clone an unspecified default/feature branch — always target `main` unless a specific task explicitly names another branch.
@@ -29,6 +42,7 @@ Claude Code is not a persistent scheduler. It can inspect and implement schedule
 ## What Lives Here
 - `clients/` - Client-specific folders with deliverables, trackers, case studies
 - `pipeline/` - Sales pipeline and lead tracking
+- `operations/internal-gtm/` - GTM role model, routing policy, deterministic GTM core, two vertical slices. Reads the one canonical capability registry in `skill-governance/`. Never creates a second one.
 - `knowledge/` - Research and reference materials
 - `documents/` - Proposals, agreements, reports
 - `scripts/` - Automation scripts

@@ -1,0 +1,7 @@
+{
+  "_fixture": "Synthetic. Shows the blocked path: no diagnostic result yet, so the run stops and asks for the geo-audit call.",
+  "prospect_id": "fixture-002",
+  "company": "Northline Facility Services Kft.",
+  "website_url": "https://www.northline-facility.example.com/hu/",
+  "source": "fixture"
+}

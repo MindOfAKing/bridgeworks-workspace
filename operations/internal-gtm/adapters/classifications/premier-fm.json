@@ -1,0 +1,17 @@
+{
+  "_produced_by": "Claude Code acting as the classification runtime on 2026-08-11. The routing policy defaults simple_stage_classification to ods_qwen; ODS is not verified running in this session, so Claude performed it and the substitution is recorded here.",
+  "_task": "simple_stage_classification",
+  "prospect_id": "premier-fm",
+  "capability": "client-audit",
+  "score": null,
+  "gap_severity": "medium",
+  "source_categories": {
+    "0": "website_trust",
+    "1": null
+  },
+  "rationale": [
+    "Source 0 is website_trust: the homepage 'KPI labels where visible numeric values are absent in the indexed text' is a credibility signal failing on the owned site, not a discovery or conversion-mechanism failure.",
+    "Source 1 is null: the contact page 'lists quote/contact form fields, central info@premierfm.hu route' and two named contacts. It evidences a working enquiry route, so it is proof of no gap and must not be counted as one.",
+    "Severity medium, not high: the engine's own observation says 'the gap is narrow: credibility proof near the quote route is weaker than the rest of the service claim'."
+  ]
+}

@@ -1,0 +1,176 @@
+{
+  "as_of": "2026-08-11",
+  "definition": "A contacted_company is a canonical prospect entity with at least one verified Gmail SENT message whose recipient email or recipient domain is deterministically linked to that entity, by canonical domain, alternate domain, or an already recorded contact address. Nothing else counts.",
+  "link_rules": [
+    "canonical_domain_match",
+    "alternate_domain_match",
+    "recorded_address_match"
+  ],
+  "contacted_company_count": 10,
+  "canonical_sent_message_count": 19,
+  "ambiguous_possible_match_count": 0,
+  "unmatched_sent_message_count": 0,
+  "contacted_companies": [
+    {
+      "entity_key": "domain:aplusproperty.hu",
+      "company": "A+ Real Estate",
+      "link_rule": "canonical_domain_match",
+      "destinations": [
+        "info@aplusproperty.hu"
+      ],
+      "sent_message_ids": [
+        "19ef5daed0f1afc1",
+        "19fbbe43d5e53f8d"
+      ],
+      "gmail_thread_ids": [
+        "19ef5cb9419fabdb"
+      ]
+    },
+    {
+      "entity_key": "domain:budbed.hu",
+      "company": "Budbed",
+      "link_rule": "canonical_domain_match",
+      "destinations": [
+        "info@budbed.hu"
+      ],
+      "sent_message_ids": [
+        "19fb2008057b795c"
+      ],
+      "gmail_thread_ids": [
+        "19f9dbc9fdbaed96"
+      ]
+    },
+    {
+      "entity_key": "domain:craftex.hu",
+      "company": "Craftex",
+      "link_rule": "canonical_domain_match",
+      "destinations": [
+        "info@craftex.hu"
+      ],
+      "sent_message_ids": [
+        "19ef5dbdaedfb5bf",
+        "19fbbe4684fbb398"
+      ],
+      "gmail_thread_ids": [
+        "19ef5cb93d25d150"
+      ]
+    },
+    {
+      "entity_key": "domain:firstclean.hu",
+      "company": "FirstClean",
+      "link_rule": "canonical_domain_match",
+      "destinations": [
+        "office@firstclean.hu"
+      ],
+      "sent_message_ids": [
+        "19fa87f3c6c6c7ab",
+        "19fc6a7def0a18c1"
+      ],
+      "gmail_thread_ids": [
+        "19f9dbc9b41b1844"
+      ]
+    },
+    {
+      "entity_key": "domain:homever.hu",
+      "company": "Homever",
+      "link_rule": "canonical_domain_match",
+      "destinations": [
+        "info@homever.hu"
+      ],
+      "sent_message_ids": [
+        "19fa87f3bbcf3685",
+        "19fb98059d3c0916",
+        "19fbbe4a6f2c578d"
+      ],
+      "gmail_thread_ids": [
+        "19f9dbc9b76dff05",
+        "19fbbe4a6f2c578d"
+      ]
+    },
+    {
+      "entity_key": "domain:interhaz.hu",
+      "company": "Interház",
+      "link_rule": "canonical_domain_match",
+      "destinations": [
+        "info@interhaz.hu"
+      ],
+      "sent_message_ids": [
+        "19fbbe4ce8626b19"
+      ],
+      "gmail_thread_ids": [
+        "19fbbe4ce8626b19"
+      ]
+    },
+    {
+      "entity_key": "domain:loffice.hu",
+      "company": "Loffice",
+      "link_rule": "canonical_domain_match",
+      "destinations": [
+        "hello@loffice.hu"
+      ],
+      "sent_message_ids": [
+        "19fb20083fc4c157"
+      ],
+      "gmail_thread_ids": [
+        "19f9dbc9ef3b9aba"
+      ]
+    },
+    {
+      "entity_key": "domain:managerent.hu",
+      "company": "Managerent",
+      "link_rule": "canonical_domain_match",
+      "destinations": [
+        "info@managerent.hu"
+      ],
+      "sent_message_ids": [
+        "19ef5dd74e105f4e",
+        "19fbbe41b091af5b"
+      ],
+      "gmail_thread_ids": [
+        "19ef5cb9348d5278"
+      ]
+    },
+    {
+      "entity_key": "domain:ppmgt.hu",
+      "company": "Premier Property Management",
+      "link_rule": "canonical_domain_match",
+      "destinations": [
+        "info@ppmgt.hu"
+      ],
+      "sent_message_ids": [
+        "19fa4745bdf0faf0",
+        "19fb9afe350e9547",
+        "19fbbe4fd10d650d"
+      ],
+      "gmail_thread_ids": [
+        "19f9dbc9ab95a52f",
+        "19fbbe4fd10d650d"
+      ]
+    },
+    {
+      "entity_key": "domain:rentify.hu",
+      "company": "Rentify",
+      "link_rule": "canonical_domain_match",
+      "destinations": [
+        "hello@rentify.hu"
+      ],
+      "sent_message_ids": [
+        "19fa474593604e76",
+        "19fb9afe416152ac"
+      ],
+      "gmail_thread_ids": [
+        "19f9dbc9be6bbcfa"
+      ]
+    }
+  ],
+  "ambiguous_possible_matches": [],
+  "unmatched_sends": [],
+  "sources": {
+    "canonical_entities": "operations/internal-gtm/migration/phase-3/prospect-reconciliation.json",
+    "gmail_receipt": "operations/internal-gtm/migration/phase-3/gmail-contact-history-2026-08-11.json",
+    "entities_considered": 120,
+    "gmail_records_considered": 10
+  },
+  "note": "One definition, one computation. Do not recompute a contacted count anywhere else. Ambiguous links are never forced into a match.",
+  "external_action_authorized": false
+}

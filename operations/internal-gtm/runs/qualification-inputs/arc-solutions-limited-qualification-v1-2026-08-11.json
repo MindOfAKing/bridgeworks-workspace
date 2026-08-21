@@ -1,0 +1,67 @@
+{
+  "qualification_version": "qualification-v1",
+  "as_of": "2026-08-11",
+  "components": {
+    "problem_evidence": {
+      "score": 14,
+      "evidence_ids": ["arc-audit-001"],
+      "research_status": "complete",
+      "rationale": "Current owned pages show specific credibility friction on a high-intent quote path; business impact is not independently measured."
+    },
+    "commercial_fit": {
+      "score": 16,
+      "evidence_ids": ["arc-audit-003", "arc-audit-004", "arc-audit-005", "arc-audit-006"],
+      "research_status": "complete",
+      "rationale": "Self-reported scale, operating footprint, maturity, client base and expansion support structural commercial fit without requiring a known contract value."
+    },
+    "buyer_accessibility": {
+      "score": 4,
+      "evidence_ids": ["arc-audit-002"],
+      "research_status": "partial",
+      "rationale": "A lawful general business route exists, but the named decision-maker fact is exhausted unknown."
+    },
+    "trigger_urgency": {
+      "score": 7,
+      "evidence_ids": ["arc-audit-001", "arc-audit-006"],
+      "research_status": "complete",
+      "rationale": "A dated 2026 expansion and current quote-path friction create a relevant trigger, but no explicit buying event exists."
+    },
+    "proof_fit": {
+      "score": 15,
+      "evidence_ids": ["arc-audit-012"],
+      "research_status": "complete",
+      "rationale": "Verified BridgeWorks delivery proof supports the bounded website trust and lead-path entry engagement."
+    },
+    "execution_readiness": {
+      "score": 8,
+      "evidence_ids": ["arc-audit-001", "arc-audit-002", "arc-audit-007", "arc-audit-012"],
+      "research_status": "complete",
+      "rationale": "BridgeWorks can credibly deliver a bounded quote-route and trust review now; unknown buyer budget does not prevent delivery readiness."
+    }
+  },
+  "evidence": {
+    "ledger": [
+      {"id": "arc-audit-001", "status": "observed", "value": "SPOTA AI text appears beside the quote route", "source": "https://www.arcsolutionslimited.com/contact", "observed_at": "2026-08-11"},
+      {"id": "arc-audit-002", "status": "observed", "value": "info@arcsolutionslimited.com, phones and quote form are published", "source": "https://www.arcsolutionslimited.com/contact", "observed_at": "2026-08-11"},
+      {"id": "arc-audit-003", "status": "observed", "value": "self-reported 500+ projects, 20+ corporate clients, 100+ field professionals", "source": "https://www.arcsolutionslimited.com/about/mission", "observed_at": "2026-08-11"},
+      {"id": "arc-audit-004", "status": "observed", "value": "self-reported named client examples", "source": "https://www.arcsolutionslimited.com/", "observed_at": "2026-08-11"},
+      {"id": "arc-audit-005", "status": "observed", "value": "self-reported 15+ years and multi-location footprint", "source": "https://www.arcsolutionslimited.com/work/facility-management", "observed_at": "2026-08-11"},
+      {"id": "arc-audit-006", "status": "observed", "value": "March 2026 service-coverage expansion announcement", "source": "https://www.arcsolutionslimited.com/", "observed_at": "2026-08-11"},
+      {"id": "arc-audit-007", "status": "observed", "value": "24-hour quote response and 24/7 emergency support are published", "source": "https://www.arcsolutionslimited.com/work/facility-management", "observed_at": "2026-08-11"},
+      {"id": "arc-audit-012", "status": "verified", "value": "bounded website trust and lead-path delivery proof", "source": "operations/oliviks/ and clients/oliviks/", "observed_at": "2026-08-11"}
+    ]
+  },
+  "context": {
+    "canonical_domain": "arcsolutionslimited.com",
+    "normalized_company": "Arc Solutions Limited",
+    "identity_ambiguous": false,
+    "contact_destination": "info@arcsolutionslimited.com",
+    "service_route_exists": true,
+    "contradicted_claim_ids": [],
+    "prior_outreach": false,
+    "communication_state_resolved": true,
+    "legal_exclusion": false,
+    "defer_until": null,
+    "hold_reason": null
+  }
+}

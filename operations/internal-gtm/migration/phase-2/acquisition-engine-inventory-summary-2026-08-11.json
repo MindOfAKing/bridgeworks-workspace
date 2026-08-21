@@ -1,0 +1,25 @@
+{
+  "source": "C:\\Users\\User\\Projects\\bridgeworks-workspace\\operations\\client-acquisition-engine",
+  "file_count": 199,
+  "bytes": 8829368,
+  "counts": {
+    "proof inventory": 11,
+    "approval packet": 14,
+    "reporting": 13,
+    "historical artifact": 25,
+    "research evidence": 17,
+    "trigger discovery": 8,
+    "diagnostic selection": 4,
+    "automation/scheduling": 8,
+    "generated/transient output": 43,
+    "market/ICP logic": 4,
+    "routing": 6,
+    "outreach preparation": 18,
+    "canonical prospect data": 5,
+    "qualification": 4,
+    "duplicate": 19
+  },
+  "excluded_junction": "outputs/019fbc62-d3a4-77a3-845e-8b0b145befb7/build/node_modules",
+  "excluded_ephemeral_cache": "**/__pycache__/**",
+  "no_moves_or_deletions": true
+}

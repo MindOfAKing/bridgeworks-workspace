@@ -1,0 +1,37 @@
+{
+  "objective_id": "gtm-objective:2026-08-11",
+  "dedupe_key": "gtm-objective:2026-08-11",
+  "as_of": "2026-08-11",
+  "timezone": "Europe/Budapest",
+  "external_action_authorized": false,
+  "shadow_safe": true,
+  "source_snapshot_digest": "b1bfac568c97fb42632852256affb10fb4dcdd600d15868a69f00caf1dbde03d",
+  "objective_type": "recover_overdue_research",
+  "prospect_ids": [
+    "budbed",
+    "eliezer-facility-management-company-lagos",
+    "go2flats",
+    "homerun",
+    "marvel-homes-property-management"
+  ],
+  "reason_codes": [
+    "prepared_or_in_research_over_2_days"
+  ],
+  "batch_id": "2026-07-26-batch-01",
+  "metrics": {
+    "qualified_untouched": 0,
+    "overdue_research": 2,
+    "missing_evidence": 0,
+    "missing_buyers": 0,
+    "stale_states": 0,
+    "approvals_waiting": 9
+  },
+  "supply": {
+    "allowed": false,
+    "target": 4,
+    "current": 0,
+    "blockers": [
+      "prepared_or_in_research_over_2_days"
+    ]
+  }
+}

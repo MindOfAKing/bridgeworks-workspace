@@ -1,0 +1,147 @@
+{
+  "handoff_kind": "diagnostic_execution_receipt",
+  "capability": "client-audit",
+  "capability_source": "registered capability, installed at ~/.claude/skills/client-audit and ~/.codex/skills/client-audit",
+  "no_new_diagnostic_was_implemented": true,
+  "diagnostic_id": "client-audit:arcsolutionslimited.com:2026-08-11",
+  "prospect_id": "arc-solutions-limited",
+  "company": "Arc Solutions Limited",
+  "canonical_domain": "arcsolutionslimited.com",
+  "as_of": "2026-08-11",
+  "runtime": "claude_code",
+  "execution": {
+    "status": "complete",
+    "method": "public web fetch, read only, no contact and no form submission",
+    "pages_fetched": [
+      "https://www.arcsolutionslimited.com/",
+      "https://www.arcsolutionslimited.com/about/mission",
+      "https://www.arcsolutionslimited.com/contact",
+      "https://www.arcsolutionslimited.com/work/facility-management"
+    ],
+    "pages_attempted_and_missing": ["https://arcsolutionslimited.com/about"],
+    "scope_followed": "website assessment, trust signals, contact routes, visibility signals",
+    "scope_not_run": [
+      "social media follower counts and last-post dates: not retrieved this pass",
+      "review platforms and Google Maps: not queried this pass",
+      "competitor context: not run this pass"
+    ]
+  },
+  "findings": [
+    {
+      "id": "ca-arc-1",
+      "category": "website_trust",
+      "claim_key": "published_figures_internally_consistent",
+      "claim": "The homepage publishes 5,000+ Projects Completed and 500+ Satisfied Clients, while the mission page publishes 500+ completed projects and 20+ corporate clients. The two owned pages disagree by an order of magnitude on projects and by 25x on clients.",
+      "value": {
+        "homepage": {"projects": "5000+", "clients": "500+"},
+        "mission_page": {"projects": "500+", "corporate_clients": "20+"}
+      },
+      "severity": "high",
+      "source": "https://www.arcsolutionslimited.com/about/mission",
+      "corroborating_source": "https://www.arcsolutionslimited.com/",
+      "observed_at": "2026-08-11",
+      "status": "verified",
+      "note": "Both figures are genuinely published. The finding is the inconsistency itself, not a contradiction in our evidence, so it is one verified claim rather than two competing ones."
+    },
+    {
+      "id": "ca-arc-2",
+      "category": "website_trust",
+      "claim_key": "coverage_area_consistency",
+      "claim": "Coverage lists differ by page. The homepage names Surulere, Asaba, Port Harcourt, Ado Ekiti, Lagos and Abuja; the contact page adds Abeokuta, Delta and Ogun; the facility-management page names Lagos, Abuja, Abeokuta, Enugu and Port Harcourt, introducing Enugu and omitting Asaba, Ado Ekiti and Surulere.",
+      "value": "three_different_coverage_lists",
+      "severity": "medium",
+      "source": "https://www.arcsolutionslimited.com/work/facility-management",
+      "corroborating_source": "https://www.arcsolutionslimited.com/contact",
+      "observed_at": "2026-08-11",
+      "status": "verified"
+    },
+    {
+      "id": "ca-arc-3",
+      "category": "website_trust",
+      "claim_key": "iso_certification_substantiated",
+      "claim": "The homepage states ISO Certified Services. No certificate number, issuing body, scope or expiry is published, and the mission page lists no certifications at all.",
+      "value": "iso_claim_unsubstantiated",
+      "severity": "medium",
+      "source": "https://www.arcsolutionslimited.com/about/mission",
+      "corroborating_source": "https://www.arcsolutionslimited.com/",
+      "observed_at": "2026-08-11",
+      "status": "verified"
+    },
+    {
+      "id": "ca-arc-4",
+      "category": "website_trust",
+      "claim_key": "spota_navigation_item_state",
+      "claim": "The SPOTA navigation item is labelled Coming Soon. It is a deliberate product teaser, not unfinished placeholder residue.",
+      "value": "coming_soon_label_intentional",
+      "severity": "low",
+      "source": "https://www.arcsolutionslimited.com/",
+      "observed_at": "2026-08-11",
+      "status": "verified",
+      "note": "This directly corrects the earlier engine research, which read the SPOTA text as stray placeholder residue beside the quote route."
+    },
+    {
+      "id": "ca-arc-5",
+      "category": "conversion_path",
+      "claim_key": "quote_route_reachable_and_committed",
+      "claim": "The quote path is coherent: Get a Free Quote appears on every page fetched and resolves to /contact, three phone numbers and one email are published, office hours are stated, and a 24-hour tailored-quote response is committed.",
+      "value": "quote_path_coherent",
+      "severity": "none",
+      "source": "https://www.arcsolutionslimited.com/contact",
+      "observed_at": "2026-08-11",
+      "status": "verified"
+    },
+    {
+      "id": "ca-arc-6",
+      "category": "website_trust",
+      "claim_key": "third_party_proof_present",
+      "claim": "Trust proof is substantial: 20-plus client logos including Dangote Group, Cummins and Providus Bank, three named testimonials with affiliations, three written case studies, and a full published address.",
+      "value": "trust_proof_substantial",
+      "severity": "none",
+      "source": "https://www.arcsolutionslimited.com/",
+      "observed_at": "2026-08-11",
+      "status": "verified"
+    },
+    {
+      "id": "ca-arc-7",
+      "category": "conversion_path",
+      "claim_key": "enquiry_form_render_state",
+      "claim": "The contact page shows no visible form fields, no required-field markers and no confirmation state in the fetched content, although a Send Enquiry button and a Request a Quote section are referenced.",
+      "value": "enquiry_form_state_not_observable",
+      "severity": "medium",
+      "source": "https://www.arcsolutionslimited.com/contact",
+      "observed_at": "2026-08-11",
+      "status": "observed",
+      "limitation": "A JavaScript-rendered form would not appear in a text fetch. This is an unresolved observation, not a verified defect."
+    },
+    {
+      "id": "ca-arc-8",
+      "category": "ownership",
+      "claim_key": "named_person_published",
+      "claim": "No named individual appears on the homepage, the mission page, the contact page or the facility-management page. The /about path returns HTTP 404.",
+      "value": "no_named_person_published",
+      "severity": "medium",
+      "source": "https://www.arcsolutionslimited.com/about/mission",
+      "observed_at": "2026-08-11",
+      "status": "verified"
+    }
+  ],
+  "limitations": [
+    "Social platforms were not opened. LinkedIn and Instagram links exist on the homepage but follower counts, last-post dates and content quality were not retrieved.",
+    "No review platform, Google Maps listing or press mention was queried.",
+    "No competitor comparison was run.",
+    "Response-time and uptime commitments (24 hours, under 2 hours emergency, 99 percent uptime) are the company's own published claims. None was independently tested.",
+    "Mobile readiness, page speed and technical health were not measured and are not inferred here."
+  ],
+  "unknowns": [
+    "Whether 5,000+ or 500+ is the accurate project figure.",
+    "Whether the ISO claim is current, and under which standard and scope.",
+    "Whether the enquiry form renders and confirms correctly for a real visitor.",
+    "Who owns the enquiry route internally."
+  ],
+  "assumptions_not_promoted_to_facts": [
+    "That the numerical inconsistency costs enquiries. Plausible, untested, and not scored.",
+    "That the ISO claim is unsubstantiated rather than merely undocumented on the site.",
+    "That an absent form in a text fetch means an absent or broken form."
+  ],
+  "external_action_authorized": false
+}

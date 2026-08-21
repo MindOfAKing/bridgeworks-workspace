@@ -1,0 +1,177 @@
+{
+  "capability": "client-audit",
+  "run_id": "client-audit:arc-solutions-limited:2026-08-11:codex-001",
+  "completed_at": "2026-08-11T13:23:08.7755560Z",
+  "score": null,
+  "prospect_id": "arc-solutions-limited",
+  "company": "Arc Solutions Limited",
+  "canonical_domain": "arcsolutionslimited.com",
+  "execution": {
+    "runtime": "codex",
+    "registered_capability": true,
+    "registry_path": "skill-governance/capability-registry.yaml",
+    "skill_path": "C:/Users/User/.codex/skills/client-audit/SKILL.md",
+    "method": "Fresh, read-only public-web execution under the installed client-audit skill; not derived from the prior Stage 2 intelligence artifact.",
+    "external_action_authorized": false,
+    "pages_checked": [
+      "https://www.arcsolutionslimited.com/",
+      "https://www.arcsolutionslimited.com/contact",
+      "https://www.arcsolutionslimited.com/work/facility-management",
+      "https://www.arcsolutionslimited.com/about/mission",
+      "https://eliezergroup.com/",
+      "https://provastltd.com/",
+      "https://lilyfolad.com/"
+    ]
+  },
+  "findings": [
+    {
+      "id": "arc-ca-001",
+      "category": "website_positioning",
+      "severity": "none",
+      "claim": "The owned site presents a clear multi-service facilities and infrastructure proposition with visible quote calls to action.",
+      "value": {"quote_cta_present": true, "service_lines_present": true},
+      "source": "https://www.arcsolutionslimited.com/",
+      "observed_at": "2026-08-11",
+      "status": "observed"
+    },
+    {
+      "id": "arc-ca-002",
+      "category": "website_trust",
+      "severity": "high",
+      "claim": "Arc's owned pages publish materially inconsistent scale figures, including 500+ versus 5,000+ completed projects and 20+ corporate clients versus 500+ satisfied clients.",
+      "value": {"project_figures": ["500+", "5,000+"], "client_figures": ["20+ corporate clients", "500+ satisfied clients"]},
+      "source": "https://www.arcsolutionslimited.com/",
+      "observed_at": "2026-08-11",
+      "status": "verified"
+    },
+    {
+      "id": "arc-ca-003",
+      "category": "website_trust",
+      "severity": "medium",
+      "claim": "The facility-management page publishes outcome claims such as 15-30% savings, 99%+ uptime and under-two-hour response without visible methodology or independent substantiation on the sampled page.",
+      "value": {"claims_visible": true, "methodology_visible_on_sampled_page": false},
+      "source": "https://www.arcsolutionslimited.com/work/facility-management",
+      "observed_at": "2026-08-11",
+      "status": "observed"
+    },
+    {
+      "id": "arc-ca-004",
+      "category": "website_trust",
+      "severity": "medium",
+      "claim": "The site states that its services are ISO certified, but no standard, certificate number, issuing body, scope or validity date was visible on the sampled owned pages.",
+      "value": {"iso_claim_visible": true, "certificate_details_visible": false},
+      "source": "https://www.arcsolutionslimited.com/",
+      "observed_at": "2026-08-11",
+      "status": "observed"
+    },
+    {
+      "id": "arc-ca-005",
+      "category": "conversion_path",
+      "severity": "none",
+      "claim": "The contact page provides a general business email, phone numbers, locations and a quote route; it does not name a decision maker or signing authority.",
+      "value": {"viable_general_destination": true, "named_decision_maker": false},
+      "source": "https://www.arcsolutionslimited.com/contact",
+      "observed_at": "2026-08-11",
+      "status": "verified"
+    },
+    {
+      "id": "arc-ca-006",
+      "category": "product_state",
+      "severity": "low",
+      "claim": "SPOTA AI is deliberately labelled Coming Soon in navigation; the earlier interpretation that it was stray placeholder residue is contradicted.",
+      "value": {"label": "Coming Soon", "prior_placeholder_interpretation": "contradicted"},
+      "source": "https://www.arcsolutionslimited.com/",
+      "observed_at": "2026-08-11",
+      "status": "verified"
+    },
+    {
+      "id": "arc-ca-007",
+      "category": "proof",
+      "severity": "low",
+      "claim": "The homepage displays client names or logos and named testimonials, but this audit did not independently verify the underlying relationships or results.",
+      "value": {"owned_proof_present": true, "independently_verified": false},
+      "source": "https://www.arcsolutionslimited.com/",
+      "observed_at": "2026-08-11",
+      "status": "observed"
+    },
+    {
+      "id": "arc-ca-008",
+      "category": "competitive_context",
+      "severity": "medium",
+      "claim": "Sampled competitors expose clearer combinations of company history, team or certification context, legal identity, locations and procurement-oriented trust detail than Arc exposes consistently.",
+      "value": {"sample": ["Eliezer Group", "Provast", "Lily Folad"], "assessment": "bounded comparative observation"},
+      "source": "https://eliezergroup.com/",
+      "observed_at": "2026-08-11",
+      "status": "observed"
+    },
+    {
+      "id": "arc-ca-009",
+      "category": "buyer_accessibility",
+      "severity": "medium",
+      "claim": "No supportable decision maker or signing authority was established from the approved public sources used in this audit.",
+      "value": {"decision_maker": null, "research_outcome": "exhausted_unknown"},
+      "source": "https://www.arcsolutionslimited.com/contact",
+      "observed_at": "2026-08-11",
+      "status": "unknown"
+    },
+    {
+      "id": "arc-ca-010",
+      "category": "online_visibility",
+      "severity": "low",
+      "claim": "Exact official social profiles, review-platform standing and local-search performance were not established within the bounded audit.",
+      "value": {"social_profile": "unknown", "reviews": "unknown", "local_search": "unknown"},
+      "source": null,
+      "observed_at": "2026-08-11",
+      "status": "unknown"
+    }
+  ],
+  "contradictions": [
+    {
+      "id": "arc-ca-contradiction-001",
+      "type": "owned_scale_metrics",
+      "finding_ids": ["arc-ca-002"],
+      "resolution": "unresolved; do not select either published figure as fact"
+    },
+    {
+      "id": "arc-ca-contradiction-002",
+      "type": "prior_research_interpretation",
+      "finding_ids": ["arc-ca-006"],
+      "resolution": "the prior placeholder-residue interpretation is superseded by the observed Coming Soon label"
+    }
+  ],
+  "limitations": [
+    "No form was submitted and no contact was made.",
+    "No authenticated analytics, Search Console, CRM or hosting data was available.",
+    "Performance, mobile rendering and form-delivery behavior were not measured in a browser lab.",
+    "Owned-site scale, certification, client and performance claims remain self-reported unless explicitly described as independently verified.",
+    "Competitor review was bounded and is not a complete market ranking."
+  ],
+  "unknowns": [
+    "Which published project and client counts are accurate.",
+    "Whether the ISO claim is current and what standard and scope apply.",
+    "Who owns the enquiry route and has signing authority.",
+    "Whether the quote form submits, confirms and reaches an owner reliably.",
+    "Arc's review-platform and local-search performance."
+  ],
+  "route_test": {
+    "prior_route": "digital-platforms-brand",
+    "verdict": "confirmed",
+    "selected_route": "digital-platforms-brand",
+    "reason": "The strongest approved problems are owned-surface credibility, proof consistency and conversion-path assurance. The audit found no verified visibility, workflow or operating-system deficit strong enough to displace this route.",
+    "route_change_receipt_required": false
+  },
+  "entry_offer_hypotheses": [
+    {
+      "id": "arc-entry-001",
+      "hypothesis": "A bounded owned-claims and procurement-trust reconciliation across the homepage, mission, service and contact surfaces.",
+      "validation_needed": "Arc must identify the authoritative project, client, coverage and certification facts."
+    },
+    {
+      "id": "arc-entry-002",
+      "hypothesis": "A quote-route integrity review covering render, submission, confirmation, ownership and the published response promise.",
+      "validation_needed": "Testing submission requires separate authorization because it creates contact."
+    }
+  ],
+  "approval_packet": null,
+  "outreach_prepared": false
+}

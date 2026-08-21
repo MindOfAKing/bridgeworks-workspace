@@ -1,0 +1,192 @@
+{
+  "receipt_contract_version": "gtm-batch-receipt-1",
+  "batch_id": "internal-gtm-qualification-2026-08-11-01",
+  "source_batch": "operations/internal-gtm/runs/qualification-batches/internal-gtm-qualification-2026-08-11-01.json",
+  "as_of": "2026-08-11",
+  "compiled_at": "2026-08-11T11:57:42+00:00",
+  "row_fields": [
+    "prospect_id",
+    "company",
+    "qualification_score",
+    "qualification_tier",
+    "coverage_percent",
+    "missing_dimensions",
+    "exhausted_unknown_dimensions",
+    "lifecycle_stage",
+    "diagnostic_status",
+    "current_objective",
+    "approval_packet_id",
+    "superseded_artifacts",
+    "next_action"
+  ],
+  "prospect_count": 8,
+  "rows": [
+    {
+      "prospect_id": "arc-solutions-limited",
+      "company": "Arc Solutions Limited",
+      "qualification_score": 46,
+      "qualification_tier": "WATCH",
+      "coverage_percent": 33.3,
+      "missing_dimensions": [],
+      "exhausted_unknown_dimensions": [],
+      "lifecycle_stage": "qualified",
+      "diagnostic_status": "not_run",
+      "diagnostic_reason": "declared in the qualification batch",
+      "current_objective": "complete_qualification_coverage",
+      "approval_packet_id": null,
+      "superseded_artifacts": [],
+      "next_action": "finish partial qualification research: buyer_accessibility, commercial_fit, execution_readiness, trigger_urgency",
+      "transition_receipts": 3
+    },
+    {
+      "prospect_id": "daraja-africa-eu",
+      "company": "DARAJA Africa-EU",
+      "qualification_score": 53,
+      "qualification_tier": "WATCH",
+      "coverage_percent": 50.0,
+      "missing_dimensions": [
+        "commercial_fit"
+      ],
+      "exhausted_unknown_dimensions": [],
+      "lifecycle_stage": "qualified",
+      "diagnostic_status": "not_run",
+      "diagnostic_reason": "declared in the qualification batch",
+      "current_objective": "complete_qualification_coverage",
+      "approval_packet_id": null,
+      "superseded_artifacts": [],
+      "next_action": "complete qualification coverage: commercial_fit",
+      "transition_receipts": 3
+    },
+    {
+      "prospect_id": "geneto-facility-management-company",
+      "company": "Geneto Facility Management Company",
+      "qualification_score": 44,
+      "qualification_tier": "WATCH",
+      "coverage_percent": 33.3,
+      "missing_dimensions": [],
+      "exhausted_unknown_dimensions": [],
+      "lifecycle_stage": "qualified",
+      "diagnostic_status": "not_run",
+      "diagnostic_reason": "declared in the qualification batch",
+      "current_objective": "complete_qualification_coverage",
+      "approval_packet_id": null,
+      "superseded_artifacts": [],
+      "next_action": "finish partial qualification research: buyer_accessibility, commercial_fit, execution_readiness, trigger_urgency",
+      "transition_receipts": 3
+    },
+    {
+      "prospect_id": "tilz-prosperitas",
+      "company": "Tilz Prosperitas",
+      "qualification_score": 72,
+      "qualification_tier": "STRONG",
+      "coverage_percent": 83.3,
+      "missing_dimensions": [],
+      "exhausted_unknown_dimensions": [],
+      "lifecycle_stage": "qualified",
+      "diagnostic_status": "not_run",
+      "diagnostic_reason": "declared in the qualification batch",
+      "current_objective": "complete_qualification_coverage",
+      "approval_packet_id": null,
+      "superseded_artifacts": [],
+      "next_action": "finish partial qualification research: execution_readiness",
+      "transition_receipts": 4
+    },
+    {
+      "prospect_id": "bepelog-kft",
+      "company": "BEPELOG Kft",
+      "qualification_score": 42,
+      "qualification_tier": "WATCH",
+      "coverage_percent": 33.3,
+      "missing_dimensions": [
+        "commercial_fit"
+      ],
+      "exhausted_unknown_dimensions": [],
+      "lifecycle_stage": "qualified",
+      "diagnostic_status": "not_run",
+      "diagnostic_reason": "declared in the qualification batch",
+      "current_objective": "complete_qualification_coverage",
+      "approval_packet_id": null,
+      "superseded_artifacts": [],
+      "next_action": "complete qualification coverage: commercial_fit",
+      "transition_receipts": 3
+    },
+    {
+      "prospect_id": "bv-integrated-ltd",
+      "company": "BV Integrated Ltd",
+      "qualification_score": 56,
+      "qualification_tier": "QUALIFIED",
+      "coverage_percent": 66.7,
+      "missing_dimensions": [
+        "commercial_fit"
+      ],
+      "exhausted_unknown_dimensions": [],
+      "lifecycle_stage": "qualified",
+      "diagnostic_status": "not_run",
+      "diagnostic_reason": "declared in the qualification batch",
+      "current_objective": "complete_qualification_coverage",
+      "approval_packet_id": null,
+      "superseded_artifacts": [],
+      "next_action": "complete qualification coverage: commercial_fit",
+      "transition_receipts": 4
+    },
+    {
+      "prospect_id": "greenleaf-engineering",
+      "company": "Greenleaf Engineering",
+      "qualification_score": 42,
+      "qualification_tier": "WATCH",
+      "coverage_percent": 33.3,
+      "missing_dimensions": [
+        "commercial_fit"
+      ],
+      "exhausted_unknown_dimensions": [],
+      "lifecycle_stage": "qualified",
+      "diagnostic_status": "not_run",
+      "diagnostic_reason": "declared in the qualification batch",
+      "current_objective": "complete_qualification_coverage",
+      "approval_packet_id": null,
+      "superseded_artifacts": [],
+      "next_action": "complete qualification coverage: commercial_fit",
+      "transition_receipts": 3
+    },
+    {
+      "prospect_id": "kunbase-kft",
+      "company": "Kunbase Kft",
+      "qualification_score": 42,
+      "qualification_tier": "WATCH",
+      "coverage_percent": 33.3,
+      "missing_dimensions": [
+        "commercial_fit"
+      ],
+      "exhausted_unknown_dimensions": [],
+      "lifecycle_stage": "qualified",
+      "diagnostic_status": "not_run",
+      "diagnostic_reason": "declared in the qualification batch",
+      "current_objective": "complete_qualification_coverage",
+      "approval_packet_id": null,
+      "superseded_artifacts": [],
+      "next_action": "complete qualification coverage: commercial_fit",
+      "transition_receipts": 3
+    }
+  ],
+  "totals": {
+    "with_a_canonical_approval_packet": 0,
+    "with_a_completed_diagnostic": 0,
+    "superseded_artifacts": 0,
+    "by_objective": {
+      "stop_unsafe_external_action": 0,
+      "advance_active_revenue": 0,
+      "complete_qualification_coverage": 8,
+      "resolve_blocking_evidence": 0,
+      "execute_due_followup_or_nurture": 0,
+      "recover_overdue_research": 0,
+      "generate_new_supply": 0
+    },
+    "by_lifecycle_stage": {
+      "qualified": 8
+    }
+  },
+  "contract_complete": true,
+  "missing_fields": [],
+  "method": "each row reconciled from artifacts and transition receipts. No runtime was treated as authority for producing a later report.",
+  "external_action_authorized": false
+}

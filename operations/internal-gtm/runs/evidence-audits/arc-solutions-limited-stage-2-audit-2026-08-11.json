@@ -1,0 +1,136 @@
+{
+  "audit_id": "arc-solutions-limited-stage-2-audit-2026-08-11",
+  "capability": "evidence-auditor",
+  "prospect_id": "arc-solutions-limited",
+  "as_of": "2026-08-11",
+  "source_receipt": "operations/internal-gtm/runs/intelligence/arc-solutions-limited-stage-2-2026-08-11.json",
+  "claims": [
+    {
+      "id": "arc-audit-001",
+      "claim_key": "quote_route_credibility_friction",
+      "claim": "The owned contact and facility-management pages expose SPOTA AI text in navigation next to the quote route.",
+      "status": "observed",
+      "reason": "Directly visible on current owned pages; commercial effect remains an inference.",
+      "source": "https://www.arcsolutionslimited.com/contact",
+      "observed_at": "2026-08-11"
+    },
+    {
+      "id": "arc-audit-002",
+      "claim_key": "general_business_contact_route",
+      "claim": "The company publishes info@arcsolutionslimited.com, business telephone routes and a quote form.",
+      "status": "observed",
+      "reason": "Directly visible on the owned contact page.",
+      "source": "https://www.arcsolutionslimited.com/contact",
+      "observed_at": "2026-08-11"
+    },
+    {
+      "id": "arc-audit-003",
+      "claim_key": "self_reported_company_scale",
+      "claim": "The company reports 500+ completed projects, 20+ corporate and institutional clients, and 100+ certified field professionals.",
+      "status": "observed",
+      "reason": "Observed as self-reported owned-site claims, not independently verified scale.",
+      "source": "https://www.arcsolutionslimited.com/about/mission",
+      "observed_at": "2026-08-11",
+      "provenance_note": "self_reported_company_scale"
+    },
+    {
+      "id": "arc-audit-004",
+      "claim_key": "self_reported_client_examples",
+      "claim": "The owned homepage names organizations including Dangote Group, Providus Bank and Cummins Nigeria as clients.",
+      "status": "observed",
+      "reason": "The names are published by Arc; no client-side corroboration was collected.",
+      "source": "https://www.arcsolutionslimited.com/",
+      "observed_at": "2026-08-11",
+      "provenance_note": "self_reported_client_relationships"
+    },
+    {
+      "id": "arc-audit-005",
+      "claim_key": "self_reported_operating_footprint",
+      "claim": "The company reports 15+ years of experience and service across multiple Nigerian locations.",
+      "status": "observed",
+      "reason": "Current owned-site claim; not registry-verified.",
+      "source": "https://www.arcsolutionslimited.com/work/facility-management",
+      "observed_at": "2026-08-11",
+      "provenance_note": "self_reported_company_maturity"
+    },
+    {
+      "id": "arc-audit-006",
+      "claim_key": "dated_service_expansion",
+      "claim": "The owned homepage publishes a March 2026 service-coverage expansion to Surulere and Ado Ekiti.",
+      "status": "observed",
+      "reason": "Dated owned-site announcement; no independent expansion record was collected.",
+      "source": "https://www.arcsolutionslimited.com/",
+      "observed_at": "2026-08-11"
+    },
+    {
+      "id": "arc-audit-007",
+      "claim_key": "bounded_response_process",
+      "claim": "The company publishes a 24-hour tailored-quote response and 24/7 emergency support.",
+      "status": "observed",
+      "reason": "Owned-site operating claim; service performance was not independently tested.",
+      "source": "https://www.arcsolutionslimited.com/work/facility-management",
+      "observed_at": "2026-08-11"
+    },
+    {
+      "id": "arc-audit-008",
+      "claim_key": "decision_maker_identity",
+      "claim": "No supportable named decision maker was established from the approved owned and public sources reviewed.",
+      "status": "exhausted_unknown",
+      "ledger_status": "unknown",
+      "reason": "Buyer Intelligence completed the bounded public-source pass; repeat research is suppressed until fresh evidence appears.",
+      "source": "operations/internal-gtm/runs/intelligence/arc-solutions-limited-stage-2-2026-08-11.json",
+      "observed_at": "2026-08-11"
+    },
+    {
+      "id": "arc-audit-009",
+      "claim_key": "signing_authority",
+      "claim": "Signing authority is not evidenced.",
+      "status": "unknown",
+      "reason": "No approved source establishes signing authority.",
+      "source": null,
+      "observed_at": "2026-08-11"
+    },
+    {
+      "id": "arc-audit-010",
+      "claim_key": "contract_value",
+      "claim": "A contract-value band cannot be established from the approved evidence.",
+      "status": "unknown",
+      "reason": "No published BridgeWorks-relevant price, contract value or arithmetic basis exists.",
+      "source": null,
+      "observed_at": "2026-08-11"
+    },
+    {
+      "id": "arc-audit-011",
+      "claim_key": "registration_details",
+      "claim": "Canonical registration number, registered directors and current registry address remain unknown.",
+      "status": "unknown",
+      "reason": "No identity-resolved registry record was approved in this pass.",
+      "source": null,
+      "observed_at": "2026-08-11"
+    },
+    {
+      "id": "arc-audit-012",
+      "claim_key": "bridgeworks_entry_proof",
+      "claim": "The Oliviks Foundation proof supports BridgeWorks delivery of a bounded website trust and lead-path engagement.",
+      "status": "verified",
+      "reason": "BridgeWorks internal delivery evidence is complete, paid and live; it is used only for delivery credibility, not as a diagnostic proxy.",
+      "source": "operations/oliviks/ and clients/oliviks/",
+      "observed_at": "2026-08-11"
+    }
+  ],
+  "summary": {
+    "verified": 1,
+    "observed": 7,
+    "inferred": 0,
+    "stale": 0,
+    "contradicted": 0,
+    "unknown": 3,
+    "exhausted_unknown": 1
+  },
+  "contradictions": [],
+  "approved_positive_claim_ids": [
+    "arc-audit-001", "arc-audit-002", "arc-audit-003", "arc-audit-004",
+    "arc-audit-005", "arc-audit-006", "arc-audit-007", "arc-audit-012"
+  ],
+  "external_action_authorized": false
+}

@@ -1,0 +1,83 @@
+{
+  "prospect_id": "appinio",
+  "company": "Appinio",
+  "website_url": "https://www.appinio.com/",
+  "source": "client-acquisition-engine:runs/2026-08-01-appinio-live-test",
+  "buyer": {
+    "name": "Arne Wolter",
+    "role": "CEO",
+    "email": null
+  },
+  "trigger": {
+    "type": "leadership_and_revops_transition",
+    "summary": "A new CEO was appointed for Appinio's next growth phase and a current Senior Revenue Operations role owns cross-functional workflows, HubSpot, data quality, and CRM health.",
+    "observed_at": "2026-08-11",
+    "source": "https://www.appinio.com/en/press-releases/arne-wolter-new-ceo"
+  },
+  "diagnostic": {
+    "capability": "client-audit",
+    "run_id": "phase-2-appinio-revenue-system-shadow-test",
+    "completed_at": "2026-08-11",
+    "score": null,
+    "findings": [
+      {
+        "id": "appinio-ceo-transition",
+        "claim_key": "executive_owner",
+        "category": "ownership",
+        "severity": "medium",
+        "claim": "Appinio appointed Arne Wolter as CEO to lead its next growth phase, and its chairman highlighted operational excellence as part of the mandate.",
+        "value": "new_ceo_growth_and_operational_mandate",
+        "source": "https://www.appinio.com/en/press-releases/arne-wolter-new-ceo",
+        "observed_at": "2026-08-11",
+        "status": "verified"
+      },
+      {
+        "id": "appinio-revops-workflows",
+        "claim_key": "revenue_workflow_scope",
+        "category": "process_gaps",
+        "severity": "medium",
+        "claim": "Appinio's current Senior Revenue Operations role is responsible for mapping, designing, and improving workflows across Marketing, Sales, and Customer Success.",
+        "value": "cross_functional_revenue_workflow_mandate",
+        "source": "https://job-boards.greenhouse.io/appinio/jobs/4841375101",
+        "observed_at": "2026-08-11",
+        "status": "verified"
+      },
+      {
+        "id": "appinio-revops-data-quality",
+        "claim_key": "crm_data_and_health_scope",
+        "category": "process_gaps",
+        "severity": "medium",
+        "claim": "The role owns automated data-quality controls, CRM health reporting, and optimization of the HubSpot-centered tool ecosystem.",
+        "value": "crm_health_and_hubspot_optimization_mandate",
+        "source": "https://job-boards.greenhouse.io/appinio/jobs/4841375101",
+        "observed_at": "2026-08-11",
+        "status": "verified"
+      },
+      {
+        "id": "appinio-revops-reporting-line",
+        "claim_key": "future_operating_owner",
+        "category": "ownership",
+        "severity": "medium",
+        "claim": "The open Senior Revenue Operations role reports to Appinio's Team Lead Business Intelligence; the person's name was not verified.",
+        "value": "reports_to_unnamed_team_lead_business_intelligence",
+        "source": "https://job-boards.greenhouse.io/appinio/jobs/4841375101",
+        "observed_at": "2026-08-11",
+        "status": "verified"
+      }
+    ]
+  },
+  "_phase_2": {
+    "native_specialist_applied": "bridgeworks-revenue-system-scan",
+    "governed_diagnostic_id": "client-audit",
+    "registry_mismatch": "bridgeworks-revenue-system-scan is callable in the Codex skill estate but absent from skill-governance/capability-registry.yaml",
+    "old_state_sources": [
+      "operations/client-acquisition-engine/runs/2026-08-01-appinio-live-test/01-qualification.yaml",
+      "operations/client-acquisition-engine/runs/2026-08-01-appinio-live-test/02-route-plan.yaml",
+      "operations/client-acquisition-engine/runs/2026-08-01-appinio-live-test/03-appinio-revenue-system-decision-snapshot.md",
+      "operations/client-acquisition-engine/runs/2026-08-01-appinio-live-test/04-outreach-drafts.md",
+      "operations/client-acquisition-engine/runs/2026-08-01-appinio-live-test/05-execution-handoff.md"
+    ],
+    "contacted": false,
+    "contact_evidence": "Canonical OPERATING-STATE and OPERATING-LOG say no Appinio outreach was sent and no verified recipient exists."
+  }
+}

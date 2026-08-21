@@ -1,0 +1,77 @@
+{
+  "qualification_version": "qualification-v1",
+  "prospect_id": "gbs-africa",
+  "as_of": "2026-08-11",
+  "components": {
+    "problem_evidence": {
+      "score": 25,
+      "evidence_ids": ["geo-entity-collision", "geo-reports-404", "geo-research-in-pdf", "geo-no-bylines", "geo-schema-absent", "geo-sameas"],
+      "research_status": "complete",
+      "rationale": "The current approved GEO audit establishes a broad, material citability and discovery problem across the research library and entity layer."
+    },
+    "commercial_fit": {
+      "score": 14,
+      "evidence_ids": ["ci-gbs-001", "ci-gbs-002", "ci-gbs-003", "ci-gbs-004", "ci-gbs-005", "ci-gbs-006", "ci-gbs-007"],
+      "research_status": "complete",
+      "rationale": "Research, market intelligence and institutional visibility are central to the published advisory model, and current 2026 publishing plus external role corroboration supports a real opportunity. The UK entity's dormant filings through 2024 and absent revenue or budget evidence cap the score."
+    },
+    "buyer_accessibility": {
+      "score": 4,
+      "evidence_ids": ["q-buyer"],
+      "research_status": "partial",
+      "rationale": "A viable general business route exists, but no named buyer or signing authority is established."
+    },
+    "trigger_urgency": {
+      "score": 15,
+      "evidence_ids": ["q-trigger"],
+      "research_status": "complete",
+      "rationale": "The dated diagnostic and active 2026 research library make the visibility problem current."
+    },
+    "proof_fit": {
+      "score": 15,
+      "evidence_ids": ["q-proof-ceefm-geo-16-to-77"],
+      "research_status": "complete",
+      "rationale": "The verified CEEFM GEO result is a strong registered proof match for Content, Visibility & Demand."
+    },
+    "execution_readiness": {
+      "score": 9,
+      "evidence_ids": ["ci-gbs-004", "ci-gbs-005", "ci-gbs-008", "geo-reports-404", "geo-research-in-pdf", "geo-schema-absent", "geo-sameas", "q-proof-ceefm-geo-16-to-77"],
+      "research_status": "complete",
+      "rationale": "BridgeWorks can credibly deliver a bounded pilot using one current report, an existing library, exact diagnostic findings and proven GEO delivery. CMS access, implementation authority and analytics remain unknown."
+    }
+  },
+  "evidence": {
+    "ledger": [
+      {"id": "geo-entity-collision", "status": "observed", "source": "https://gbsafrica.net/", "observed_at": "2026-08-11"},
+      {"id": "geo-reports-404", "status": "verified", "source": "https://www.gbsafrica.co.uk/reports", "observed_at": "2026-08-11"},
+      {"id": "geo-research-in-pdf", "status": "verified", "source": "https://www.gbsafrica.co.uk/insights/", "observed_at": "2026-08-11"},
+      {"id": "geo-no-bylines", "status": "verified", "source": "https://www.gbsafrica.co.uk/insights/", "observed_at": "2026-08-11"},
+      {"id": "geo-schema-absent", "status": "verified", "source": "https://www.gbsafrica.co.uk/about/", "observed_at": "2026-08-11"},
+      {"id": "geo-sameas", "status": "verified", "source": "https://www.gbsafrica.co.uk/", "observed_at": "2026-08-11"},
+      {"id": "q-buyer", "status": "observed", "source": "https://www.gbsafrica.co.uk/contact/", "observed_at": "2026-08-11"},
+      {"id": "q-trigger", "status": "observed", "source": "https://www.gbsafrica.co.uk/insights/", "observed_at": "2026-08-11"},
+      {"id": "q-proof-ceefm-geo-16-to-77", "status": "verified", "source": "clients/ceefm/VERIFIED-FACTS.md", "observed_at": "2026-08-11"},
+      {"id": "ci-gbs-001", "status": "verified", "source": "https://find-and-update.company-information.service.gov.uk/company/09645875", "observed_at": "2026-08-11"},
+      {"id": "ci-gbs-002", "status": "observed", "source": "https://www.gbsafrica.co.uk/", "observed_at": "2026-08-11"},
+      {"id": "ci-gbs-003", "status": "observed", "source": "https://www.gbsafrica.co.uk/services/", "observed_at": "2026-08-11"},
+      {"id": "ci-gbs-004", "status": "verified", "source": "https://www.gbsafrica.co.uk/insights/", "observed_at": "2026-08-11"},
+      {"id": "ci-gbs-005", "status": "verified", "source": "https://www.gbsafrica.co.uk/assets/docs/report/4003.pdf", "observed_at": "2026-08-11"},
+      {"id": "ci-gbs-006", "status": "observed", "source": "https://african-chamber.com/news-and-insights/f/afbc-strategic-advisory-board-committee---agnes-gitau?blogcategory=Africa", "observed_at": "2026-08-11"},
+      {"id": "ci-gbs-007", "status": "verified", "source": "https://find-and-update.company-information.service.gov.uk/company/09645875/filing-history", "observed_at": "2026-08-11"},
+      {"id": "ci-gbs-008", "status": "verified", "source": "https://www.gbsafrica.co.uk/insights/", "observed_at": "2026-08-11"}
+    ]
+  },
+  "context": {
+    "canonical_domain": "gbsafrica.co.uk",
+    "normalized_company": "gbs africa",
+    "identity_ambiguous": false,
+    "contact_destination": "info@gbsafrica.co.uk",
+    "service_route_exists": true,
+    "contradicted_claim_ids": [],
+    "prior_outreach": false,
+    "communication_state_resolved": true,
+    "legal_exclusion": false,
+    "defer_until": null,
+    "hold_reason": null
+  }
+}

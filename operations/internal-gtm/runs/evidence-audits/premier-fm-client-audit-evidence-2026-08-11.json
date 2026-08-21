@@ -1,0 +1,37 @@
+{
+  "audit_id": "premier-fm-client-audit-evidence-2026-08-11",
+  "capability": "evidence-auditor",
+  "audited_at": "2026-08-11T13:42:54.6384891Z",
+  "source_diagnostic": "operations/internal-gtm/runs/diagnostics/premier-fm-client-audit-2026-08-11.json",
+  "source_execution_artifact": "operations/internal-gtm/handoffs/premier-fm-client-audit-2026-08-11.json",
+  "source_execution_sha256": "5cb3987a75b96ea8f397f88b392e4742586b9ff742ee29a946b828503178edd5",
+  "classifications": {
+    "verified": ["ca-pfm-1", "ca-pfm-2", "ca-pfm-3", "ca-pfm-4", "ca-pfm-5", "ca-pfm-6"],
+    "observed": [],
+    "inferred": [],
+    "stale": [],
+    "contradicted": [],
+    "unknown": [],
+    "exhausted_unknown": ["signing_authority"]
+  },
+  "claim_key_policy": "All six claims have distinct exact propositions; shared categories do not create contradictions.",
+  "approved_finding_ids": ["ca-pfm-1", "ca-pfm-2", "ca-pfm-3", "ca-pfm-4", "ca-pfm-5", "ca-pfm-6"],
+  "not_approved_as_fact": [
+    "That missing KPI values caused lost enquiries",
+    "That Premier FM and Otthonbiztonsagban.hu Kft. have an improper relationship",
+    "That Premier FM has no social account",
+    "That Lékó Péter has signing authority"
+  ],
+  "evidence_reference_check": {
+    "all_findings_have_exact_sources": true,
+    "homepage_resolved": true,
+    "contact_page_resolved": true,
+    "buyer_name_role_email_currently_confirmed": true
+  },
+  "quality_gate": {
+    "assumptions_not_promoted": true,
+    "contradictions_preserved": true,
+    "limitations_declared": true,
+    "passes": true
+  }
+}

@@ -1,0 +1,327 @@
+{
+  "slice": "geo",
+  "as_of": "2026-08-11",
+  "prospect": {
+    "company": "Appinio",
+    "website_url": "https://www.appinio.com/",
+    "source": "client-acquisition-engine:runs/2026-08-01-appinio-live-test",
+    "entity_key": "domain:appinio.com",
+    "canonical_domain": "appinio.com",
+    "alternate_domains": [],
+    "normalized_company": "appinio",
+    "source_provenance": [
+      "client-acquisition-engine:runs/2026-08-01-appinio-live-test"
+    ],
+    "prospect_id": "appinio",
+    "buyer_name": "Arne Wolter",
+    "buyer_role": "CEO",
+    "buyer_email": null,
+    "qualification_score": 88,
+    "qualification_tier": "HOT"
+  },
+  "evidence": {
+    "as_of": "2026-08-11",
+    "staleness_days": 180,
+    "ledger": [
+      {
+        "id": "appinio-ceo-transition",
+        "subject": "ownership",
+        "claim_key": "executive_owner",
+        "value": "new_ceo_growth_and_operational_mandate",
+        "source": "https://www.appinio.com/en/press-releases/arne-wolter-new-ceo",
+        "observed_at": "2026-08-11",
+        "declared_status": "verified",
+        "status": "verified",
+        "reason": "declared"
+      },
+      {
+        "id": "appinio-revops-data-quality",
+        "subject": "process_gaps",
+        "claim_key": "crm_data_and_health_scope",
+        "value": "crm_health_and_hubspot_optimization_mandate",
+        "source": "https://job-boards.greenhouse.io/appinio/jobs/4841375101",
+        "observed_at": "2026-08-11",
+        "declared_status": "verified",
+        "status": "verified",
+        "reason": "declared"
+      },
+      {
+        "id": "appinio-revops-reporting-line",
+        "subject": "ownership",
+        "claim_key": "future_operating_owner",
+        "value": "reports_to_unnamed_team_lead_business_intelligence",
+        "source": "https://job-boards.greenhouse.io/appinio/jobs/4841375101",
+        "observed_at": "2026-08-11",
+        "declared_status": "verified",
+        "status": "verified",
+        "reason": "declared"
+      },
+      {
+        "id": "appinio-revops-workflows",
+        "subject": "process_gaps",
+        "claim_key": "revenue_workflow_scope",
+        "value": "cross_functional_revenue_workflow_mandate",
+        "source": "https://job-boards.greenhouse.io/appinio/jobs/4841375101",
+        "observed_at": "2026-08-11",
+        "declared_status": "verified",
+        "status": "verified",
+        "reason": "declared"
+      }
+    ],
+    "approved_claim_ids": [
+      "appinio-ceo-transition",
+      "appinio-revops-data-quality",
+      "appinio-revops-reporting-line",
+      "appinio-revops-workflows"
+    ],
+    "rejected_claim_ids": [],
+    "evidence_quality": "verified",
+    "counts": {
+      "verified": 4,
+      "observed": 0,
+      "inferred": 0,
+      "stale": 0,
+      "contradicted": 0,
+      "unknown": 0
+    }
+  },
+  "route": {
+    "route_id": "execution-operating-systems",
+    "route_name": "Execution & Operating Systems",
+    "matched_gaps": [
+      "ownership",
+      "process_gaps"
+    ],
+    "fit": "exact",
+    "secondary_routes": [],
+    "diagnostic_capability": "client-audit",
+    "proof_asset_id": "oliviks-foundation-2026-07-24"
+  },
+  "qualification": {
+    "score": 88,
+    "max_score": 100,
+    "tier": "HOT",
+    "breakdown": {
+      "route_fit": 30,
+      "trigger_freshness": 20,
+      "evidence_quality": 20,
+      "reachability": 9,
+      "gap_severity": 9
+    },
+    "reasons": [
+      "evidence_quality=20",
+      "gap_severity=9",
+      "reachability=9",
+      "route_fit=30",
+      "trigger_freshness=20"
+    ]
+  },
+  "steps": [
+    {
+      "stage": "account_discovered",
+      "role": "data-steward",
+      "note": "identity normalized, exact dedupe applied"
+    },
+    {
+      "stage": "evidence_collected",
+      "role": "evidence-auditor",
+      "note": "4 of 4 claims approved",
+      "counts": {
+        "verified": 4,
+        "observed": 0,
+        "inferred": 0,
+        "stale": 0,
+        "contradicted": 0,
+        "unknown": 0
+      }
+    },
+    {
+      "stage": "qualified",
+      "role": "lead-qualifier",
+      "signals": {
+        "route_fit": "exact",
+        "trigger_age_days": 0,
+        "evidence_quality": "verified",
+        "reachability": "named_buyer",
+        "gap_severity": "medium"
+      },
+      "result": {
+        "score": 88,
+        "max_score": 100,
+        "tier": "HOT",
+        "breakdown": {
+          "route_fit": 30,
+          "trigger_freshness": 20,
+          "evidence_quality": 20,
+          "reachability": 9,
+          "gap_severity": 9
+        },
+        "reasons": [
+          "evidence_quality=20",
+          "gap_severity=9",
+          "reachability=9",
+          "route_fit=30",
+          "trigger_freshness=20"
+        ]
+      }
+    },
+    {
+      "stage": "routed",
+      "role": "prospect-router",
+      "route": {
+        "route_id": "execution-operating-systems",
+        "route_name": "Execution & Operating Systems",
+        "matched_gaps": [
+          "ownership",
+          "process_gaps"
+        ],
+        "fit": "exact",
+        "secondary_routes": [],
+        "diagnostic_capability": "client-audit",
+        "proof_asset_id": "oliviks-foundation-2026-07-24"
+      }
+    },
+    {
+      "stage": "diagnostic_complete",
+      "role": "prospect-router",
+      "capability": "client-audit",
+      "score": null
+    },
+    {
+      "stage": "offer_selected",
+      "role": "offer-strategist",
+      "offer": {
+        "route_id": "execution-operating-systems",
+        "wedge": "Operating cadence review",
+        "proof_asset_id": "oliviks-foundation-2026-07-24",
+        "price": "confirmed_at_booking",
+        "price_note": "No price is stored here. The lead-engine-v1 offer ladder (2026-06) and the 2026-07-14 single-offer decision conflict, and the deployed site publishes no audit price. Offer selection is deterministic. Price is Emmanuel's decision at booking.",
+        "tier": "HOT"
+      }
+    },
+    {
+      "stage": "outreach_prepared",
+      "role": "outreach-personalizer",
+      "note": "packet assembled from approved claims only",
+      "cited_claims": [
+        "appinio-ceo-transition",
+        "appinio-revops-workflows",
+        "appinio-revops-data-quality",
+        "appinio-revops-reporting-line"
+      ]
+    },
+    {
+      "stage": "outreach_prepared",
+      "role": "outreach-personalizer",
+      "note": "approval blocked because no exact destination is verified"
+    }
+  ],
+  "external_action_authorized": false,
+  "offer": {
+    "route_id": "execution-operating-systems",
+    "wedge": "Operating cadence review",
+    "proof_asset_id": "oliviks-foundation-2026-07-24",
+    "price": "confirmed_at_booking",
+    "price_note": "No price is stored here. The lead-engine-v1 offer ladder (2026-06) and the 2026-07-14 single-offer decision conflict, and the deployed site publishes no audit price. Offer selection is deterministic. Price is Emmanuel's decision at booking.",
+    "tier": "HOT"
+  },
+  "packet": {
+    "kind": "outreach_preparation_packet",
+    "lifecycle_stage": "outreach_prepared",
+    "approval_state": "blocked_missing_destination",
+    "approval_payload_digest": null,
+    "external_action_authorized": false,
+    "no_send": true,
+    "copy_required_from": "outreach-personalizer",
+    "copy_authority": "draft_only",
+    "prepared_at": "2026-08-11",
+    "body": {
+      "prospect_id": "appinio",
+      "company": "Appinio",
+      "canonical_domain": "appinio.com",
+      "buyer_name": "Arne Wolter",
+      "buyer_role": "CEO",
+      "buyer_email": null,
+      "service_route": "execution-operating-systems",
+      "offer_wedge": "Operating cadence review",
+      "proof_asset_id": "oliviks-foundation-2026-07-24",
+      "price": "confirmed_at_booking",
+      "cited_claims": [
+        {
+          "id": "appinio-ceo-transition",
+          "subject": "ownership",
+          "claim_key": "executive_owner",
+          "value": "new_ceo_growth_and_operational_mandate",
+          "source": "https://www.appinio.com/en/press-releases/arne-wolter-new-ceo",
+          "observed_at": "2026-08-11",
+          "declared_status": "verified",
+          "status": "verified",
+          "reason": "declared"
+        },
+        {
+          "id": "appinio-revops-data-quality",
+          "subject": "process_gaps",
+          "claim_key": "crm_data_and_health_scope",
+          "value": "crm_health_and_hubspot_optimization_mandate",
+          "source": "https://job-boards.greenhouse.io/appinio/jobs/4841375101",
+          "observed_at": "2026-08-11",
+          "declared_status": "verified",
+          "status": "verified",
+          "reason": "declared"
+        },
+        {
+          "id": "appinio-revops-reporting-line",
+          "subject": "ownership",
+          "claim_key": "future_operating_owner",
+          "value": "reports_to_unnamed_team_lead_business_intelligence",
+          "source": "https://job-boards.greenhouse.io/appinio/jobs/4841375101",
+          "observed_at": "2026-08-11",
+          "declared_status": "verified",
+          "status": "verified",
+          "reason": "declared"
+        },
+        {
+          "id": "appinio-revops-workflows",
+          "subject": "process_gaps",
+          "claim_key": "revenue_workflow_scope",
+          "value": "cross_functional_revenue_workflow_mandate",
+          "source": "https://job-boards.greenhouse.io/appinio/jobs/4841375101",
+          "observed_at": "2026-08-11",
+          "declared_status": "verified",
+          "status": "verified",
+          "reason": "declared"
+        }
+      ],
+      "qualification_score": 88,
+      "qualification_tier": "HOT"
+    },
+    "approval_instruction": "Verify an exact lawful destination before requesting approval.",
+    "copy_request": {
+      "kind": "capability_call_required",
+      "role": "outreach-personalizer",
+      "capability": "market-emails",
+      "task": "client_facing_output",
+      "runtime": "claude_or_codex",
+      "approval_required": false,
+      "review_required": true,
+      "validation": null,
+      "payload": {
+        "cited_claims": [
+          "appinio-ceo-transition",
+          "appinio-revops-workflows",
+          "appinio-revops-data-quality",
+          "appinio-revops-reporting-line"
+        ],
+        "offer_wedge": "Operating cadence review",
+        "proof_asset_id": "oliviks-foundation-2026-07-24",
+        "buyer": {
+          "name": "Arne Wolter",
+          "role": "CEO",
+          "email": null
+        }
+      }
+    }
+  },
+  "lifecycle_stage": "outreach_prepared",
+  "next_action": "verify_exact_destination"
+}

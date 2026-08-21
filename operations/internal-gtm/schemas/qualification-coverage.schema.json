@@ -1,0 +1,42 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "bridgeworks://internal-gtm/qualification-coverage",
+  "title": "BridgeWorks qualification-v1 coverage",
+  "type": "object",
+  "required": ["sufficiently_researched_dimensions", "total_dimensions", "percentage", "by_dimension"],
+  "properties": {
+    "sufficiently_researched_dimensions": {"type": "integer", "minimum": 0, "maximum": 6},
+    "total_dimensions": {"const": 6},
+    "percentage": {"type": "number", "minimum": 0, "maximum": 100},
+    "by_dimension": {
+      "type": "object",
+      "required": ["problem_evidence", "commercial_fit", "buyer_accessibility", "trigger_urgency", "proof_fit", "execution_readiness"],
+      "additionalProperties": false,
+      "properties": {
+        "problem_evidence": {"$ref": "#/$defs/dimension"},
+        "commercial_fit": {"$ref": "#/$defs/dimension"},
+        "buyer_accessibility": {"$ref": "#/$defs/dimension"},
+        "trigger_urgency": {"$ref": "#/$defs/dimension"},
+        "proof_fit": {"$ref": "#/$defs/dimension"},
+        "execution_readiness": {"$ref": "#/$defs/dimension"}
+      }
+    }
+  },
+  "$defs": {
+    "dimension": {
+      "type": "object",
+      "required": ["score", "evidence_state", "evidence_ids", "confidence", "research_status"],
+      "properties": {
+        "score": {"type": "integer", "minimum": 0},
+        "evidence_state": {"enum": ["approved", "stale", "contradicted", "unknown", "not_applicable"]},
+        "evidence_ids": {"type": "array", "items": {"type": "string"}},
+        "confidence": {"enum": ["unknown", "low", "medium", "high"]},
+        "research_status": {"enum": ["complete", "partial", "required", "exhausted_unknown", "not_applicable"]},
+        "zero_because": {"enum": ["missing_research", "verified_negative", "unusable_evidence", "exhausted_unknown", null]},
+        "evidence_freshness": {"enum": ["current", "stale", "unknown"]}
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": true
+}

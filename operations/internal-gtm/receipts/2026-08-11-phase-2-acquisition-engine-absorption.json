@@ -1,0 +1,41 @@
+{
+  "receipt_type": "phase_2_migration_decision",
+  "completed_at": "2026-08-11",
+  "source": "operations/client-acquisition-engine",
+  "target": "operations/internal-gtm",
+  "decision": "keep_active_migration_source_absorb_then_retire_only_verified_duplicates",
+  "meaningful_inventory_files": 199,
+  "initial_physical_files_including_cache": 204,
+  "logical_components": 34,
+  "acceptance": {
+    "real_and_non_geo": {
+      "prospect": "Appinio",
+      "route": "execution-operating-systems",
+      "lifecycle_stage": "outreach_prepared",
+      "approval_state": "blocked_missing_destination"
+    },
+    "geo": {
+      "prospect": "Tilz Prosperitas",
+      "capability": "geo-audit",
+      "native_subordinate_skills_used": 5,
+      "status": "blocked_partial",
+      "lifecycle_stage": "diagnostic_selected"
+    }
+  },
+  "verification": {
+    "internal_gtm_tests": 61,
+    "skill_governance_tests": 10,
+    "outreach_engine_tests": 3,
+    "inventory_replay": "pass",
+    "component_map_verification": "pass"
+  },
+  "external_actions": {
+    "outreach_sent": false,
+    "crm_mutated": false,
+    "schedule_changed": false,
+    "credentials_changed": false,
+    "files_deleted_or_moved": false,
+    "committed_or_pushed": false
+  },
+  "next_authority": "Emmanuel review before Phase 3"
+}

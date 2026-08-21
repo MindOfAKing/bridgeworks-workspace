@@ -1,0 +1,58 @@
+{
+  "receipt_id": "arc-gbs-premier-canonical-comparison-2026-08-11",
+  "as_of": "2026-08-11T13:45:05.1073738Z",
+  "all_three_diagnostic_complete": true,
+  "prospects": [
+    {
+      "prospect_id": "arc-solutions-limited",
+      "qualification": "64 QUALIFIED",
+      "coverage": 83.3,
+      "actionability": "actionable",
+      "lifecycle": "diagnostic_complete",
+      "primary_route": "digital-platforms-brand",
+      "diagnostic": "client-audit",
+      "diagnostic_status": "complete",
+      "strongest_approved_commercial_finding": "Owned pages publish materially inconsistent project and client totals.",
+      "strongest_limitation": "No named decision maker or signing authority was established.",
+      "buyer_accessibility": "4/15; viable general route; decision-maker identity exhausted_unknown",
+      "proof_fit": "15/15; Oliviks Foundation",
+      "potential_entry_engagement": "Owned-claims and procurement-trust reconciliation across high-intent pages.",
+      "exact_next_action": "Selected for bounded commercial-preparation strategy, stopping before outreach or packet creation."
+    },
+    {
+      "prospect_id": "gbs-africa",
+      "qualification": "59 QUALIFIED",
+      "coverage": 50.0,
+      "actionability": "actionable",
+      "lifecycle": "diagnostic_complete",
+      "primary_route": "content-visibility-demand",
+      "diagnostic": "geo-audit",
+      "diagnostic_status": "complete",
+      "strongest_approved_commercial_finding": "The research library is distributed as binary downloads without citable HTML landing pages, while schema and discovery infrastructure are absent.",
+      "strongest_limitation": "Commercial fit and execution readiness remain unresearched; the title-tag observation remains contradicted but contained.",
+      "buyer_accessibility": "4/15; general info route; no named buyer",
+      "proof_fit": "15/15; CEEFM GEO 16-to-77",
+      "potential_entry_engagement": "Research-library citability and entity-disambiguation sprint.",
+      "exact_next_action": "Hold commercial preparation; complete commercial_fit and execution_readiness before selection."
+    },
+    {
+      "prospect_id": "premier-fm",
+      "qualification": "70 STRONG",
+      "coverage": 100.0,
+      "actionability": "actionable",
+      "lifecycle": "diagnostic_complete",
+      "primary_route": "digital-platforms-brand",
+      "diagnostic": "client-audit",
+      "diagnostic_status": "complete",
+      "strongest_approved_commercial_finding": "Five published KPI labels render without values and the sampled homepage exposes no third-party proof.",
+      "strongest_limitation": "The gap may be a small rendering fix; true KPI values and signing authority remain unknown.",
+      "buyer_accessibility": "15/15; Lékó Péter, Sales Manager, direct business route; signing authority exhausted_unknown",
+      "proof_fit": "15/15; Oliviks Foundation",
+      "potential_entry_engagement": "KPI-proof reconciliation and quote-path trust review.",
+      "exact_next_action": "Keep as commercial-preparation reserve; verify whether the KPI issue is trivial before investing further."
+    }
+  ],
+  "approval_packets_created": 0,
+  "outreach_sent": false,
+  "live_workflow_changed": false
+}

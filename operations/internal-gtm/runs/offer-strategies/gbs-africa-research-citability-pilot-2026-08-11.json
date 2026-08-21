@@ -1,0 +1,162 @@
+{
+  "decision_id": "offer-strategist:gbs-africa:research-citability-pilot:2026-08-11:codex-001",
+  "prospect_id": "gbs-africa",
+  "company": "GBS Africa",
+  "role": "offer-strategist",
+  "registered_role": true,
+  "authority": "recommend_only",
+  "supporting_capability": "engagement-architect",
+  "runtime": "codex",
+  "created_at": "2026-08-11T15:32:27.7459420Z",
+  "decision_status": "commercial_preparation_recommended_not_selected",
+  "canonical_input_state": {
+    "qualification_version": "qualification-v1",
+    "qualification_score": 82,
+    "tier": "STRONG",
+    "qualification_coverage": 83.3,
+    "actionability": "actionable",
+    "lifecycle_stage": "diagnostic_complete",
+    "primary_route": "content-visibility-demand",
+    "diagnostic_id": "geo-audit:gbsafrica-2026-08-11",
+    "diagnostic_status": "complete",
+    "buyer_accessibility": "viable general route; no named buyer",
+    "proof_asset_id": "ceefm-geo-16-to-77",
+    "valid_approval_packet_id": null
+  },
+  "significance_decision": {
+    "classification": "material_bounded_opportunity",
+    "reason": "GBS Africa sells research-led advisory, market-entry, partnership and institutional communications services and is actively publishing 2026 analysis. Its research authority is therefore commercially relevant to the published operating model. The current binary-only distribution, missing structured data, broken reports path and weak entity disambiguation affect a core authority asset rather than a peripheral page.",
+    "commercial_impact": "unknown"
+  },
+  "offer_hypothesis_test": {
+    "proposed": "research-library citability and entity-disambiguation sprint",
+    "verdict": "revised_and_confirmed_in_narrower_form",
+    "reason": "A whole-library sprint is larger than needed to prove value. One flagship-report pilot plus a reusable pattern is the smallest credible entry engagement."
+  },
+  "entry_offer": {
+    "name": "Flagship Research Citability and Entity Clarity Pilot",
+    "core_problem": "GBS Africa's current research can be downloaded but is difficult for search and AI systems to cite, attribute and connect unambiguously to the London advisory firm.",
+    "desired_outcome": "Turn one current flagship report into a citable, attributable HTML authority page and establish a reusable entity and report pattern for later library expansion.",
+    "exact_scope": [
+      "Use Africa Prospects 2026 as the pilot report.",
+      "Create one HTML landing-page specification with title, executive summary, named author, publication date, key findings, source references, canonical URL and direct link to the original PDF.",
+      "Define and validate Report or Article structured data for the pilot page and Organization structured data with approved sameAs links for GBS Africa.",
+      "Add an explicit entity-disambiguation specification covering legal name, trading name, London headquarters, Nairobi office and official profiles without claiming the unrelated gbsafrica.net company is affiliated.",
+      "Specify repair of the broken Reports navigation destination so it resolves to the Insights library or an approved reports index.",
+      "Provide one reusable landing-page template and a prioritized migration list for the next three reports. Migration of those reports is not included.",
+      "Perform read-only validation of crawlability, schema syntax, canonical metadata and visible attribution after implementation by the approved site owner."
+    ],
+    "explicit_exclusions": [
+      "No full research-library migration.",
+      "No website redesign, CMS rebuild or broad copy rewrite.",
+      "No Wikipedia creation, paid link building, PR campaign or social-media management.",
+      "No guarantee of rankings, AI citations, traffic, enquiries, partnerships or revenue.",
+      "No publication, deployment, DNS, hosting or production mutation without separate approval and access.",
+      "No contract-value, budget, signing-authority or named-buyer assumption.",
+      "No representation that CEEFM remains an active client."
+    ],
+    "proof": {
+      "asset_id": "ceefm-geo-16-to-77",
+      "approved_claim": "CEEFM GEO score moved from 16 to 77 between the engagement start and the 2026-06-10 audit.",
+      "usage_rule": "Describe it only as the CEEFM engagement, March to June 2026. Never call it a completed 16-week engagement or an active client.",
+      "fit": "It is registered as strong proof for the Content, Visibility & Demand route and demonstrates BridgeWorks can improve machine-readable visibility foundations."
+    },
+    "likely_contact_route": {
+      "destination": "info@gbsafrica.co.uk",
+      "destination_type": "general_business",
+      "named_buyer": null,
+      "buyer_role_hypothesis": "The owner of research publishing, corporate communications or digital presence",
+      "signing_authority": "unknown"
+    },
+    "dependencies": [
+      "GBS confirms the authoritative author, publication date, legal or trading identity and official profile URLs.",
+      "GBS or its site owner can implement the approved specification or separately authorize BridgeWorks to do so.",
+      "The original PDF remains available at a stable approved URL."
+    ],
+    "acceptance_criteria": [
+      "The pilot report has a crawlable HTML page with visible author, date, summary, key findings and PDF link.",
+      "The page has a self-referencing canonical and syntactically valid structured data using approved facts only.",
+      "Organization markup distinguishes the official gbsafrica.co.uk entity using approved identifiers and sameAs links.",
+      "The Reports navigation no longer resolves to a 404.",
+      "A reusable page specification and prioritized next-three-report list are delivered.",
+      "No outcome outside BridgeWorks control is promised."
+    ],
+    "timeline": "Unresolved",
+    "pricing": "Unresolved",
+    "what_would_invalidate_or_weaken": [
+      "GBS already has equivalent HTML report pages or structured entity markup not visible in the audited public site.",
+      "The current research library is not used for authority, partnership or market-development goals.",
+      "GBS cannot confirm report authorship, dates or official entity identifiers.",
+      "No internal owner can implement or authorize the pilot.",
+      "The UK entity and operating brand cannot be reconciled sufficiently to publish accurate Organization markup."
+    ],
+    "commercial_framing": "Help one current GBS Africa report become a citable web authority asset, then use the result to decide whether the wider library deserves migration. Do not sell a broad GEO transformation."
+  },
+  "artifact_decision": {
+    "recommended": true,
+    "artifact": "one-page GEO visibility and research-citability teaser",
+    "why_it_materially_improves_outreach": "The problem is technical and the contact route is general. A one-page visual can show the current PDF-only journey, the missing attribution and entity layer, and the proposed pilot page without asking the recipient to accept an abstract GEO claim.",
+    "minimum_contents": [
+      "Current-state diagram: Insights listing to direct PDF download",
+      "Three approved findings: binary-only research, missing structured data, weak entity disambiguation",
+      "Proposed pilot-page wireframe for Africa Prospects 2026",
+      "CEEFM proof within its approved usage boundary",
+      "One call to action: identify the owner of research publishing or digital presence"
+    ],
+    "generated_in_this_step": false
+  },
+  "short_outreach_draft": {
+    "status": "non_executable_internal_draft",
+    "subject": "Your 2026 research is harder to cite than it should be",
+    "body": "Hello GBS Africa team,\n\nI reviewed how Africa Prospects 2026 and the wider Insights library appear on the web. The research is current and substantial, but each item routes directly to a PDF, with no citable HTML page, and the site gives search and AI systems limited structured context to distinguish the firm from another business using the GBS Africa name.\n\nBridgeWorks has a bounded pilot for one flagship report: a citable landing page, clear authorship, entity markup and a reusable pattern for later reports. During the CEEFM engagement, March to June 2026, its GEO score moved from 16 to 77.\n\nMay I send the one-page findings to the person responsible for research publishing or digital presence?\n\nEmmanuel\nBridgeWorks",
+    "send_authorized": false
+  },
+  "complete_engagement_specification": {
+    "1_business_problem": "Current research is downloadable but not strongly citable, attributable or entity-linked on the open web.",
+    "2_desired_outcome": "One flagship report becomes a citable HTML authority asset and establishes a reusable pattern.",
+    "3_current_evidence": ["geo-research-in-pdf", "geo-no-bylines", "geo-schema-absent", "geo-sameas", "geo-reports-404", "geo-entity-collision", "ci-gbs-004", "ci-gbs-005"],
+    "4_stakeholders": {"gbs": "Unresolved owner of research publishing, corporate communications or digital presence", "bridgeworks": "Emmanuel as commercial approver and delivery owner"},
+    "5_scope": "The seven exact scope items in entry_offer.exact_scope.",
+    "6_out_of_scope_items": "The seven exclusions in entry_offer.explicit_exclusions.",
+    "7_deliverables": ["One pilot landing-page specification", "Entity and report schema specification", "Reports-path repair specification", "Reusable report-page template", "Prioritized next-three-report list", "Read-only post-implementation validation"],
+    "8_dependencies": "The three dependencies in entry_offer.dependencies.",
+    "9_assumptions": ["Research visibility supports GBS Africa's authority goals", "An internal or external site owner can implement the approved specification"],
+    "10_acceptance_criteria": "The six observable criteria in entry_offer.acceptance_criteria.",
+    "11_approval_checkpoints": ["Emmanuel accepts or revises the offer before offer_selected", "GBS confirms factual identity and authorship", "Separate approval before outreach, proposal, publishing or production mutation"],
+    "12_risks": ["Commercial impact is not measured", "Named buyer and signing authority are unknown", "The UK dormant-account history may indicate an operating structure that needs clarification"],
+    "13_timeline": "Unresolved",
+    "14_pricing_implications": "Unresolved. No price is authorized or stored.",
+    "15_expansion_opportunity": "Only after the pilot is accepted and useful, migrate additional priority reports and strengthen the wider research library.",
+    "16_open_questions": ["Who owns research publishing?", "Which legal and trading identifiers are authoritative?", "Can GBS provide CMS access?", "What analytics exist for the reports?", "Does the June 2025 UK filing remain dormant?"],
+    "17_smallest_next_action": "Emmanuel or the GTM Director accepts, revises or rejects the pilot and artifact decision.",
+    "18_evidence_ledger": [
+      {"statement": "Research items link directly to binary files without HTML landing pages.", "status": "verified_fact", "source": "geo-research-in-pdf; https://www.gbsafrica.co.uk/insights/", "confidence": "high"},
+      {"statement": "Research and market intelligence are part of GBS Africa's published operating model.", "status": "client_stated", "source": "ci-gbs-003 and ci-gbs-004", "confidence": "high"},
+      {"statement": "A one-report pilot is the smallest credible engagement.", "status": "bridgeworks_proposal", "source": "This Offer Strategist decision", "confidence": "medium"},
+      {"statement": "The pilot will generate commercial results.", "status": "unknown", "source": null, "confidence": "unknown"},
+      {"statement": "CEEFM GEO score moved from 16 to 77 during the March to June 2026 engagement.", "status": "verified_fact", "source": "clients/ceefm/VERIFIED-FACTS.md", "confidence": "high"}
+    ],
+    "19_scope_creep_flags": ["Whole-library migration", "Website redesign", "PR and link building", "Wikipedia work", "Broader SEO or content retainer", "Production implementation without separate approval"]
+  },
+  "source_snapshots": [
+    {"path": "operations/internal-gtm/runs/intelligence/gbs-africa-commercial-intelligence-2026-08-11.json", "sha256": "f240daa4b6da20f2f2d9883dc7cd13f7799b9633bdca8e0105ed3a3e8c8c2697"},
+    {"path": "operations/internal-gtm/runs/evidence-audits/gbs-africa-commercial-intelligence-evidence-2026-08-11.json", "sha256": "062c4a48b33118da0019412eac7b38143c7fac05b3a524853b20dfeeb9da895e"},
+    {"path": "operations/internal-gtm/runs/qualifications/gbs-africa-qualification-v1-post-commercial-intelligence-2026-08-11.json", "sha256": "c162c97e131de316017efa30a5a396b4a8f584b234b5a1001bc62a8fbe8d1ae2"},
+    {"path": "operations/internal-gtm/runs/evidence-audits/gbs-africa-geo-audit-evidence-2026-08-11.json", "sha256": "ab5e498b540a0c7625f61eb5f1590329d37efba765c418e27ca7fe04b6f217fe"},
+    {"path": "operations/internal-gtm/service-routes.yaml", "sha256": "ef969c8041123406605b4676849b76d64ecb4422da76d42ac019ab8ff830c9c6"}
+  ],
+  "state_effect": {
+    "lifecycle_before": "diagnostic_complete",
+    "lifecycle_after": "diagnostic_complete",
+    "transition_written": false,
+    "offer_selected": false,
+    "outreach_prepared": false,
+    "awaiting_approval": false,
+    "approval_packet_created": false,
+    "crm_mutation": false,
+    "scheduler_change": false,
+    "external_action_authorized": false
+  },
+  "exact_next_action": "Emmanuel or the GTM Director accepts, revises or rejects the Flagship Research Citability and Entity Clarity Pilot and the one-page teaser decision. If accepted, write a separate offer_selected transition receipt before generating the teaser or preparing executable outreach.",
+  "control_lock_id": "56e5fbe01b0e"
+}

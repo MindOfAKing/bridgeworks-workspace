@@ -1,0 +1,113 @@
+{
+  "receipt_id": "arc-solutions-limited-stage-2-2026-08-11",
+  "prospect_id": "arc-solutions-limited",
+  "company": "Arc Solutions Limited",
+  "as_of": "2026-08-11",
+  "selection": {
+    "source_objective": "complete_qualification_coverage",
+    "priority_rank": 1,
+    "priority_score": 82,
+    "reason": "highest deterministic enrichment priority in the canonical eight-prospect cohort"
+  },
+  "commercial_intelligence": {
+    "capability": "bridgeworks-commercial-intelligence",
+    "findings": [
+      {
+        "id": "arc-stage2-ci-1",
+        "category": "commercial_fit",
+        "claim_key": "published_operating_scale",
+        "claim": "The company publishes 500+ completed projects, 20+ corporate and institutional clients, and 100+ certified field professionals.",
+        "value": {"completed_projects_min": 500, "corporate_clients_min": 20, "field_professionals_min": 100},
+        "severity": "none",
+        "source": "https://www.arcsolutionslimited.com/about/mission",
+        "observed_at": "2026-08-11",
+        "status": "observed",
+        "tool": "public_web"
+      },
+      {
+        "id": "arc-stage2-ci-2",
+        "category": "commercial_fit",
+        "claim_key": "owned_client_examples",
+        "claim": "The owned homepage names Dangote Group, Providus Bank, Cummins Nigeria and other organizations as clients.",
+        "value": ["Dangote Group", "Providus Bank", "Cummins Nigeria"],
+        "severity": "none",
+        "source": "https://www.arcsolutionslimited.com/",
+        "observed_at": "2026-08-11",
+        "status": "observed",
+        "tool": "public_web"
+      },
+      {
+        "id": "arc-stage2-ci-3",
+        "category": "execution_readiness",
+        "claim_key": "service_coverage_and_response",
+        "claim": "The company publishes nationwide multi-location service coverage, a 24-hour tailored-quote response and 24/7 emergency support.",
+        "value": {"multi_location": true, "quote_response_hours": 24, "emergency_support": "24/7"},
+        "severity": "none",
+        "source": "https://www.arcsolutionslimited.com/work/facility-management",
+        "observed_at": "2026-08-11",
+        "status": "observed",
+        "tool": "public_web"
+      },
+      {
+        "id": "arc-stage2-ci-4",
+        "category": "commercial_fit",
+        "claim_key": "dated_expansion",
+        "claim": "The owned homepage publishes a March 2026 service-coverage expansion to Surulere and Ado Ekiti.",
+        "value": {"expanded_to": ["Surulere", "Ado Ekiti"], "published": "2026-03"},
+        "severity": "none",
+        "source": "https://www.arcsolutionslimited.com/",
+        "observed_at": "2026-08-11",
+        "status": "observed",
+        "tool": "public_web"
+      }
+    ],
+    "commercial_value_band": {"low": null, "high": null, "currency": null, "basis": null, "confidence": "none"},
+    "procurement_complexity": "unknown",
+    "engagement_size_fit": "plausible",
+    "research_status": {"commercial_fit": "partial", "execution_readiness": "partial"},
+    "unresolved_questions": [
+      "No published BridgeWorks-relevant budget, contract value, turnover or buying process was found.",
+      "Owned scale and client claims require Evidence Auditor treatment as observed claims, not independent verification."
+    ],
+    "external_action_authorized": false
+  },
+  "buyer_intelligence": {
+    "capability": "bridgeworks-buyer-intelligence",
+    "roles": {
+      "problem_owner": {"person": null, "title": null, "evidence_id": null, "attribution_confidence": "none"},
+      "budget_owner": {"person": null, "title": null, "evidence_id": null, "attribution_confidence": "none"},
+      "decision_maker": {"person": null, "title": null, "evidence_id": null, "attribution_confidence": "none"},
+      "champion": {"person": null, "title": null, "evidence_id": null, "attribution_confidence": "none"},
+      "blocker": {"person": null, "title": null, "evidence_id": null, "attribution_confidence": "none"}
+    },
+    "contact_route": {
+      "destination": "info@arcsolutionslimited.com",
+      "destination_type": "general",
+      "source": "https://www.arcsolutionslimited.com/contact",
+      "lawful_basis_note": "public business contact route published by the company"
+    },
+    "findings": [
+      {
+        "id": "arc-stage2-bi-1",
+        "category": "buyer_accessibility",
+        "claim_key": "general_business_contact_route",
+        "claim": "The company publishes a general business email, telephone routes and a quote form, but no named decision maker on the reviewed owned pages.",
+        "value": {"general_email": "info@arcsolutionslimited.com", "quote_form": true, "named_decision_maker": null},
+        "severity": "none",
+        "source": "https://www.arcsolutionslimited.com/contact",
+        "observed_at": "2026-08-11",
+        "status": "observed"
+      }
+    ],
+    "research_status": {"buyer_accessibility": "partial"},
+    "unresolved_questions": [
+      "No named problem owner, budget owner or decision maker was established from the reviewed approved public sources."
+    ],
+    "external_action_authorized": false
+  },
+  "evidence_audit_status": "pending",
+  "qualification_rerun_status": "blocked_until_evidence_audit",
+  "exhausted_unknown_dimensions": [],
+  "next_action": "Evidence Auditor reviews the new observed claims, then qualification-v1 reruns; do not invoke client-audit before that decision.",
+  "external_action_authorized": false
+}

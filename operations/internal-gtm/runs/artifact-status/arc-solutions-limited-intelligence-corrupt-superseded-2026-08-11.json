@@ -1,0 +1,28 @@
+{
+  "receipt_id": "arc-solutions-limited-intelligence-corrupt-superseded-2026-08-11",
+  "prospect_id": "arc-solutions-limited",
+  "status": "corrupt_superseded",
+  "corrupt_artifact_original_path": "operations/internal-gtm/runs/intelligence/arc-solutions-limited-2026-08-11.json",
+  "quarantine_path": "operations/internal-gtm/runs/intelligence/quarantine/arc-solutions-limited-2026-08-11.json.corrupt-superseded",
+  "sha256_readable_bytes": "ec3673888b99e101eb18b8b6f01898a2626cc3eaeab79ffae88fb08bb67c2324",
+  "readable_bytes": 7542,
+  "reason": "JSON parsing fails at line 143 column 14, character 6983. The artifact is truncated and must never be loaded as evidence. Missing content was not reconstructed or guessed.",
+  "detected_at": "2026-08-11T13:18:47+00:00",
+  "replacement_canonical_stage_2_receipt": {
+    "path": "operations/internal-gtm/runs/intelligence/arc-solutions-limited-stage-2-2026-08-11.json",
+    "sha256": "2915cf7c8833c7519ec8344494f361809bf5dd29e7f6c615facdb0deb96ca2e0",
+    "json_valid": true
+  },
+  "future_evidence_loading": {
+    "include": ["operations/internal-gtm/runs/intelligence/arc-solutions-limited-stage-2-2026-08-11.json"],
+    "exclude": [
+      "operations/internal-gtm/runs/intelligence/arc-solutions-limited-2026-08-11.json",
+      "operations/internal-gtm/runs/intelligence/quarantine/arc-solutions-limited-2026-08-11.json.corrupt-superseded"
+    ]
+  },
+  "deleted": false,
+  "forensic_provenance_preserved": true,
+  "owner_runtime": "codex",
+  "control_lock_id": "0a6c0f045575",
+  "external_action_authorized": false
+}

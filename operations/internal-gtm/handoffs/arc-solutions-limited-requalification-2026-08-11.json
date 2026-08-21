@@ -1,0 +1,305 @@
+{
+  "handoff_kind": "qualification_v1_rerun",
+  "prospect_id": "arc-solutions-limited",
+  "company": "Arc Solutions Limited",
+  "as_of": "2026-08-11",
+  "produced_by": "claude_code",
+  "evidence_provenance": [
+    "client-acquisition-engine research result",
+    "runs/intelligence/arc-solutions-limited-stage-2-2026-08-11.json",
+    "service-routes.yaml proof asset"
+  ],
+  "withdrawn_sources": {
+    "arc-solutions-limited-2026-08-11.json": "unreadable JSON, superseded by the stage-2 receipt, referred to codex for repair"
+  },
+  "evidence_audit": {
+    "counts": {
+      "verified": 3,
+      "observed": 5,
+      "inferred": 0,
+      "stale": 0,
+      "contradicted": 0,
+      "unknown": 0
+    },
+    "approved": [
+      "arc-proof-oliviks-foundation-2026-07-24",
+      "arc-src0",
+      "arc-src1",
+      "arc-stage2-bi-1",
+      "arc-stage2-ci-1",
+      "arc-stage2-ci-2",
+      "arc-stage2-ci-3",
+      "arc-stage2-ci-4"
+    ],
+    "rejected": [],
+    "by_status": {
+      "verified": [
+        "arc-proof-oliviks-foundation-2026-07-24",
+        "arc-src0",
+        "arc-src1"
+      ],
+      "observed": [
+        "arc-stage2-bi-1",
+        "arc-stage2-ci-1",
+        "arc-stage2-ci-2",
+        "arc-stage2-ci-3",
+        "arc-stage2-ci-4"
+      ],
+      "inferred": [],
+      "stale": [],
+      "contradicted": [],
+      "unknown": []
+    },
+    "self_reported_preserved_as_observed": [
+      "arc-stage2-bi-1",
+      "arc-stage2-ci-1",
+      "arc-stage2-ci-2",
+      "arc-stage2-ci-3",
+      "arc-stage2-ci-4"
+    ],
+    "not_invented": [
+      "contract_value",
+      "buyer_identity",
+      "signing_authority",
+      "company_registration_number"
+    ]
+  },
+  "qualification": {
+    "model": "qualification-v1",
+    "score": 66,
+    "max_score": 100,
+    "tier": "QUALIFIED",
+    "actionability": "actionable",
+    "blocking_reasons": [],
+    "component_scores": {
+      "problem_evidence": 12,
+      "commercial_fit": 16,
+      "buyer_accessibility": 6,
+      "trigger_urgency": 9,
+      "proof_fit": 15,
+      "execution_readiness": 8
+    },
+    "components": {
+      "problem_evidence": {
+        "score": 12,
+        "requested_score": 12,
+        "max_score": 25,
+        "evidence_ids": [
+          "arc-src0",
+          "arc-src1"
+        ],
+        "usable_evidence_ids": [
+          "arc-src0",
+          "arc-src1"
+        ],
+        "approved_evidence_ids": [
+          "arc-src0",
+          "arc-src1"
+        ],
+        "unresolvable_evidence_ids": [],
+        "contradicted_evidence_ids": [],
+        "contradicted": false,
+        "evidence_classes": [
+          "verified"
+        ],
+        "evidence_freshness": "current",
+        "evidence_age_days": 0,
+        "confidence": "high",
+        "source_provenance": [
+          "https://www.arcsolutionslimited.com/contact",
+          "https://www.arcsolutionslimited.com/work/facility-management"
+        ],
+        "adjustment_reason": null,
+        "reason": "scored",
+        "rationale": "Three sourced owned-site URLs establish a quote route with visible placeholder residue beside it. A real, dated, medium-severity credibility gap, not a critical failure.",
+        "evidence_state": "approved",
+        "research_status": "complete"
+      },
+      "commercial_fit": {
+        "score": 16,
+        "requested_score": 16,
+        "max_score": 20,
+        "evidence_ids": [
+          "arc-stage2-ci-1",
+          "arc-stage2-ci-2",
+          "arc-stage2-ci-4"
+        ],
+        "usable_evidence_ids": [
+          "arc-stage2-ci-1",
+          "arc-stage2-ci-2",
+          "arc-stage2-ci-4"
+        ],
+        "approved_evidence_ids": [
+          "arc-stage2-ci-1",
+          "arc-stage2-ci-2",
+          "arc-stage2-ci-4"
+        ],
+        "unresolvable_evidence_ids": [],
+        "contradicted_evidence_ids": [],
+        "contradicted": false,
+        "evidence_classes": [
+          "observed"
+        ],
+        "evidence_freshness": "current",
+        "evidence_age_days": 0,
+        "confidence": "medium",
+        "source_provenance": [
+          "https://www.arcsolutionslimited.com/",
+          "https://www.arcsolutionslimited.com/about/mission"
+        ],
+        "adjustment_reason": null,
+        "reason": "scored",
+        "rationale": "Founded 2009, 500-plus projects, 20-plus corporate clients, 100-plus field professionals, named corporate clients, multi-location coverage and a dated March 2026 expansion. Structurally worth pursuing. Held below full marks because every figure is self-reported on the owned site with no third-party corroboration, not because no price is known.",
+        "evidence_state": "approved",
+        "research_status": "complete"
+      },
+      "buyer_accessibility": {
+        "score": 6,
+        "requested_score": 6,
+        "max_score": 15,
+        "evidence_ids": [
+          "arc-stage2-bi-1"
+        ],
+        "usable_evidence_ids": [
+          "arc-stage2-bi-1"
+        ],
+        "approved_evidence_ids": [
+          "arc-stage2-bi-1"
+        ],
+        "unresolvable_evidence_ids": [],
+        "contradicted_evidence_ids": [],
+        "contradicted": false,
+        "evidence_classes": [
+          "observed"
+        ],
+        "evidence_freshness": "current",
+        "evidence_age_days": 0,
+        "confidence": "medium",
+        "source_provenance": [
+          "https://www.arcsolutionslimited.com/contact"
+        ],
+        "adjustment_reason": null,
+        "reason": "scored",
+        "rationale": "A published general business address and a quote route with a stated 24-hour response. No named decision maker exists on the site and /about returns 404, so the decision-maker sub-question is exhausted against public sources. The route is established, so the dimension is researched rather than exhausted.",
+        "evidence_state": "approved",
+        "research_status": "complete"
+      },
+      "trigger_urgency": {
+        "score": 9,
+        "requested_score": 9,
+        "max_score": 15,
+        "evidence_ids": [
+          "arc-stage2-ci-1"
+        ],
+        "usable_evidence_ids": [
+          "arc-stage2-ci-1"
+        ],
+        "approved_evidence_ids": [
+          "arc-stage2-ci-1"
+        ],
+        "unresolvable_evidence_ids": [],
+        "contradicted_evidence_ids": [],
+        "contradicted": false,
+        "evidence_classes": [
+          "observed"
+        ],
+        "evidence_freshness": "current",
+        "evidence_age_days": 0,
+        "confidence": "medium",
+        "source_provenance": [
+          "https://www.arcsolutionslimited.com/about/mission"
+        ],
+        "adjustment_reason": null,
+        "reason": "scored",
+        "rationale": "A dated March 2026 service-coverage expansion published on the owned site. A real buyer event, five months old, so not at full urgency.",
+        "evidence_state": "approved",
+        "research_status": "complete"
+      },
+      "proof_fit": {
+        "score": 15,
+        "requested_score": 15,
+        "max_score": 15,
+        "evidence_ids": [
+          "arc-proof-oliviks-foundation-2026-07-24"
+        ],
+        "usable_evidence_ids": [
+          "arc-proof-oliviks-foundation-2026-07-24"
+        ],
+        "approved_evidence_ids": [
+          "arc-proof-oliviks-foundation-2026-07-24"
+        ],
+        "unresolvable_evidence_ids": [],
+        "contradicted_evidence_ids": [],
+        "contradicted": false,
+        "evidence_classes": [
+          "verified"
+        ],
+        "evidence_freshness": "current",
+        "evidence_age_days": 0,
+        "confidence": "high",
+        "source_provenance": [
+          "operations/oliviks/ and clients/oliviks/"
+        ],
+        "adjustment_reason": null,
+        "reason": "scored",
+        "rationale": "The observed problem is owned-site quote-route credibility, which is exactly what the verified Oliviks Foundation proof covers.",
+        "evidence_state": "approved",
+        "research_status": "complete"
+      },
+      "execution_readiness": {
+        "score": 8,
+        "requested_score": 8,
+        "max_score": 10,
+        "evidence_ids": [
+          "arc-stage2-ci-3"
+        ],
+        "usable_evidence_ids": [
+          "arc-stage2-ci-3"
+        ],
+        "approved_evidence_ids": [
+          "arc-stage2-ci-3"
+        ],
+        "unresolvable_evidence_ids": [],
+        "contradicted_evidence_ids": [],
+        "contradicted": false,
+        "evidence_classes": [
+          "observed"
+        ],
+        "evidence_freshness": "current",
+        "evidence_age_days": 0,
+        "confidence": "medium",
+        "source_provenance": [
+          "https://www.arcsolutionslimited.com/work/facility-management"
+        ],
+        "adjustment_reason": null,
+        "reason": "scored",
+        "rationale": "A bounded entry engagement is identifiable today: a quote-route and credibility QA review scoped to the published placeholder residue and the enquiry path. Seven service lines, a published quote route and a 24-hour response commitment give it something concrete to attach to. Held below full marks because no named owner exists to receive it, not because the budget is unknown.",
+        "evidence_state": "approved",
+        "research_status": "complete"
+      }
+    },
+    "coverage_percent": 100.0,
+    "researched_dimensions": 6,
+    "missing_dimensions": [],
+    "exhausted_unknown_dimensions": []
+  },
+  "route": {
+    "service_route": "digital-platforms-brand",
+    "fit": "exact",
+    "won_on": "only_matching_route",
+    "diagnostic_capability": "client-audit",
+    "proof_asset_id": "oliviks-foundation-2026-07-24"
+  },
+  "lifecycle": {
+    "canonical_stage_before": "routed",
+    "advancement_requested": null,
+    "why": "No diagnostic has run, so `diagnostic_complete` is not reachable and no packet may be built. Requalification changes the score, not the stage."
+  },
+  "next_action": "run the registered client-audit to completion, then persist the diagnostic_complete receipt",
+  "codex_handoff": {
+    "persist": "runs/transition-receipts and the canonical entity state",
+    "why": "operating-state writes belong to codex under the 2026-08-11 ownership split",
+    "do_not": "create another batch-level truth; the canonical cohort receipt is the baseline"
+  },
+  "external_action_authorized": false
+}

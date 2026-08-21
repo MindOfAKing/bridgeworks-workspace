@@ -1,0 +1,27 @@
+{
+  "handoff_id": "claude-canonical-diagnostic-reconciliation-test-2026-08-11",
+  "owner_runtime": "claude_code",
+  "scope": "implementation test and reconciler read model only",
+  "task": "Update reconcile_state qualification selection and the stale Premier diagnostic expectation after Codex canonicalized the existing GBS and Premier executions.",
+  "operating_state_must_not_be_modified": true,
+  "evidence": {
+    "premier_transition": "operations/internal-gtm/runs/transition-receipts/premier-fm.jsonl",
+    "premier_qualification": "operations/internal-gtm/runs/qualifications/premier-fm-qualification-v1-reconciled-2026-08-11.json",
+    "gbs_qualification": "operations/internal-gtm/runs/qualifications/gbs-africa-qualification-v1-reconciled-2026-08-11.json",
+    "comparison": "operations/internal-gtm/runs/diagnostic-reconciliations/arc-gbs-premier-canonical-comparison-2026-08-11.json"
+  },
+  "current_failure": {
+    "test": "operations.internal-gtm.tests.test_transitions.CanonicalStateTests.test_premier_fm_never_completed_a_diagnostic",
+    "actual": "complete",
+    "stale_expected": "not_run",
+    "reason": "The test encodes the pre-execution state and became stale when the valid existing client-audit was canonicalized."
+  },
+  "acceptance": [
+    "reconcile_state reads the latest canonical qualification/entity receipt instead of an older embedded slice qualification",
+    "Premier resolves to 70 STRONG, 100 percent, actionable, diagnostic_complete",
+    "GBS resolves to 59 QUALIFIED, 50 percent, actionable under contained non-material title contradiction",
+    "Arc continues to resolve to 64 QUALIFIED, 83.3 percent, actionable",
+    "historical Premier packets remain superseded and non-executable",
+    "all transition and canonical-state tests pass"
+  ]
+}

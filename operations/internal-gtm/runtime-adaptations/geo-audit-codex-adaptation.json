@@ -1,0 +1,16 @@
+{
+  "capability": "geo-audit",
+  "canonical_source": "C:\\Users\\User\\.claude\\skills\\geo-audit\\SKILL.md",
+  "runtime_adaptation": "C:\\Users\\User\\.codex\\skills\\geo-audit\\SKILL.md",
+  "source_sha256": "cf0473e0c7f2e83566f14b838a35224cb54cf3a5c1bb1bd165f2ee29e68c9e49",
+  "adaptation_sha256": "6e21f83c1e764a1b91a5ce50d22c1816b180c18b1ce639787b9942388e922937",
+  "built_at": "2026-08-11",
+  "specialist_map": {
+    "geo-ai-visibility": "agent-geo-ai-visibility",
+    "geo-platform-analysis": "agent-geo-platform-analysis",
+    "geo-technical": "agent-geo-technical",
+    "geo-content": "agent-geo-content",
+    "geo-schema": "agent-geo-schema"
+  },
+  "rule": "derived, never hand-edited. rebuild on source change."
+}

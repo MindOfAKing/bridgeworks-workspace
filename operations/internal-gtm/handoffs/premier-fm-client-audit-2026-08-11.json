@@ -1,0 +1,119 @@
+{
+  "handoff_kind": "diagnostic_execution_receipt",
+  "capability": "client-audit",
+  "capability_source": "registered capability, installed at ~/.claude/skills/client-audit and ~/.codex/skills/client-audit",
+  "no_new_diagnostic_was_implemented": true,
+  "diagnostic_id": "client-audit:premierfm.hu:2026-08-11",
+  "prospect_id": "premier-fm",
+  "company": "Premier FM",
+  "canonical_domain": "premierfm.hu",
+  "as_of": "2026-08-11",
+  "runtime": "claude_code",
+  "current_route": "digital-platforms-brand",
+  "execution": {
+    "status": "complete",
+    "method": "public web fetch, read only, no contact and no form submission",
+    "pages_fetched": [
+      "https://premierfm.hu/",
+      "https://premierfm.hu/kapcsolat"
+    ],
+    "pages_attempted_and_missing": [],
+    "scope_followed": "website assessment, trust signals, contact routes, buyer identification",
+    "scope_not_run": [
+      "social media: none published, so nothing to retrieve",
+      "review platforms and Google Maps: not queried this pass",
+      "competitor context: not run this pass"
+    ]
+  },
+  "findings": [
+    {
+      "id": "ca-pfm-1",
+      "category": "website_trust",
+      "claim_key": "kpi_counters_render_values",
+      "claim": "Five KPI labels render on the homepage with no numeric value beside any of them: years of operating experience, thousand square metres managed, occasional contracts, satisfied clients, and subcontractors. The credibility block is present and empty.",
+      "value": "five_kpi_labels_zero_values",
+      "severity": "high",
+      "source": "https://premierfm.hu/",
+      "observed_at": "2026-08-11",
+      "status": "verified",
+      "note": "Confirms and sharpens the prior engine observation, which recorded absent numeric values in indexed text without naming the labels or the count."
+    },
+    {
+      "id": "ca-pfm-2",
+      "category": "website_trust",
+      "claim_key": "third_party_proof_present",
+      "claim": "No client logos, no testimonials, no certifications and no awards appear anywhere on the homepage. Every credibility claim on the site is self-asserted.",
+      "value": "no_third_party_proof",
+      "severity": "high",
+      "source": "https://premierfm.hu/",
+      "observed_at": "2026-08-11",
+      "status": "verified"
+    },
+    {
+      "id": "ca-pfm-3",
+      "category": "website_trust",
+      "claim_key": "trading_name_matches_legal_entity",
+      "claim": "The site trades as Premier FM and Premier Facility Management Team, while the contact page names the legal entity as Otthonbiztonsagban.hu Kft. with tax number 26381183-2-07. The brand and the contracting entity are different names, and the relationship between them is not explained.",
+      "value": "trading_name_differs_from_legal_entity",
+      "severity": "medium",
+      "source": "https://premierfm.hu/kapcsolat",
+      "observed_at": "2026-08-11",
+      "status": "verified",
+      "note": "Recorded as a published-fact observation. Nothing here asserts anything improper. A Hungarian buyer running a company check will meet a different name than the one they were sold."
+    },
+    {
+      "id": "ca-pfm-4",
+      "category": "buyer_access",
+      "claim_key": "named_buyer_with_role_published",
+      "claim": "Two named people are published with roles and direct mobile numbers: Lekó Péter, Sales Manager, +36 70 5527690, and Schmöltz Miklós, Facility Manager, +36 70 3173163.",
+      "value": "named_buyer_with_role_and_direct_line",
+      "severity": "none",
+      "source": "https://premierfm.hu/kapcsolat",
+      "observed_at": "2026-08-11",
+      "status": "verified",
+      "note": "Corrects the canonical input, which carried the buyer as \"Leko Peter\" with role null. The published spelling is Lekó Péter and the published role is Ertekesitesi vezeto, sales manager. This is a buyer_accessibility upgrade and should be reflected on rescore."
+    },
+    {
+      "id": "ca-pfm-5",
+      "category": "conversion_path",
+      "claim_key": "quote_route_reachable_and_committed",
+      "claim": "The quote route works: a Kerjen ajanlatot call to action leads to a contact form with six fields including company name, alongside a landline, two direct mobiles, an email address and a full postal address. No office hours and no response-time commitment are published.",
+      "value": "quote_route_reachable_no_response_commitment",
+      "severity": "medium",
+      "source": "https://premierfm.hu/kapcsolat",
+      "observed_at": "2026-08-11",
+      "status": "verified"
+    },
+    {
+      "id": "ca-pfm-6",
+      "category": "visibility",
+      "claim_key": "social_presence_published",
+      "claim": "No social media link of any kind appears on the homepage.",
+      "value": "no_social_links_published",
+      "severity": "low",
+      "source": "https://premierfm.hu/",
+      "observed_at": "2026-08-11",
+      "status": "verified",
+      "limitation": "Absence of a link is not proof that no account exists. Platforms were not searched this pass."
+    }
+  ],
+  "limitations": [
+    "Only two pages were fetched. The about and services pages were not opened this pass.",
+    "The site is Hungarian. Wording is reported as published, with translations given for context only.",
+    "No review platform, Google Maps listing or company register was queried. The tax number is recorded as published, not verified against the Hungarian register.",
+    "Whether the KPI values fail to render for every visitor, or only in the fetched representation, was not established across browsers or devices.",
+    "Mobile readiness, page speed and technical health were not measured and are not inferred here."
+  ],
+  "unknowns": [
+    "What the true KPI figures are.",
+    "Why Premier FM and Otthonbiztonsagban.hu Kft. carry different names, and which one contracts.",
+    "Whether the empty counters are a scripting failure or were never populated.",
+    "Whether Lekó Péter holds signing authority. Sales manager is a published role, not evidence of authority."
+  ],
+  "assumptions_not_promoted_to_facts": [
+    "That the empty counters cost enquiries. Plausible, untested, and not scored.",
+    "That the entity-name difference concerns buyers. Not evidenced from outside.",
+    "That no social link on the homepage means no social presence."
+  ],
+  "external_action_authorized": false
+}

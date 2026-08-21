@@ -1,0 +1,166 @@
+{
+  "version": 1,
+  "verified_at": "2026-08-11",
+  "verified_source": "https://bridgeworks.agency/en (all five route names matched after HTML unescape)",
+  "price_policy": "confirmed_at_booking",
+  "price_policy_note": "No price is stored here. The lead-engine-v1 offer ladder (2026-06) and the 2026-07-14 single-offer decision conflict, and the deployed site publishes no audit price. Offer selection is deterministic. Price is Emmanuel's decision at booking.",
+  "routes": [
+    {
+      "id": "strategy-transformation",
+      "name": "Strategy & Transformation",
+      "gap_categories": [
+        "positioning",
+        "offer_clarity",
+        "market_focus",
+        "measurement"
+      ],
+      "diagnostic_capability": "client-audit",
+      "wedge": "Positioning and offer diagnostic",
+      "proof_asset_id": "ceefm-geo-16-to-77",
+      "buyer_roles": [
+        "founder",
+        "ceo",
+        "managing director",
+        "owner",
+        "partner",
+        "strategy"
+      ],
+      "capability_maturity": "partial"
+    },
+    {
+      "id": "digital-platforms-brand",
+      "name": "Digital Platforms & Brand Systems",
+      "gap_categories": [
+        "website_trust",
+        "conversion_path",
+        "mobile",
+        "performance",
+        "brand_consistency"
+      ],
+      "diagnostic_capability": "client-audit",
+      "wedge": "Lead path and trust review",
+      "proof_asset_id": "oliviks-foundation-2026-07-24",
+      "buyer_roles": [
+        "marketing",
+        "sales",
+        "commercial",
+        "brand",
+        "ertekesitesi",
+        "growth"
+      ],
+      "capability_maturity": "mature"
+    },
+    {
+      "id": "content-visibility-demand",
+      "name": "Content, Visibility & Demand",
+      "gap_categories": [
+        "ai_visibility",
+        "search_visibility",
+        "schema",
+        "crawlability",
+        "content_depth",
+        "local_presence"
+      ],
+      "diagnostic_capability": "bridgeworks-geo-prospect-scan",
+      "wedge": "AI visibility snapshot",
+      "proof_asset_id": "ceefm-geo-16-to-77",
+      "buyer_roles": [
+        "marketing",
+        "content",
+        "communications",
+        "demand",
+        "seo",
+        "brand"
+      ],
+      "capability_maturity": "mature"
+    },
+    {
+      "id": "ai-workflow-automation",
+      "name": "AI & Workflow Automation",
+      "gap_categories": [
+        "manual_followup",
+        "enquiry_handling",
+        "reporting_overhead"
+      ],
+      "diagnostic_capability": "bridgeworks-ai-workflow-scan",
+      "wedge": "Follow-up path review",
+      "proof_asset_id": "oliviks-foundation-2026-07-24",
+      "buyer_roles": [
+        "operations",
+        "it",
+        "technology",
+        "process",
+        "revenue operations",
+        "revops"
+      ],
+      "capability_maturity": "bounded"
+    },
+    {
+      "id": "execution-operating-systems",
+      "name": "Execution & Operating Systems",
+      "gap_categories": [
+        "delivery_capacity",
+        "process_gaps",
+        "ownership"
+      ],
+      "diagnostic_capability": "bridgeworks-revenue-system-scan",
+      "wedge": "Operating cadence review",
+      "proof_asset_id": "oliviks-foundation-2026-07-24",
+      "buyer_roles": [
+        "operations",
+        "coo",
+        "delivery",
+        "program",
+        "revenue operations",
+        "revops",
+        "transformation"
+      ],
+      "capability_maturity": "bounded"
+    }
+  ],
+  "route_priority": [
+    "content-visibility-demand",
+    "digital-platforms-brand",
+    "ai-workflow-automation",
+    "strategy-transformation",
+    "execution-operating-systems"
+  ],
+  "proof_assets": [
+    {
+      "id": "ceefm-geo-16-to-77",
+      "claim": "CEEFM GEO score moved from 16 to 77 between the engagement start and the 2026-06-10 audit.",
+      "status": "verified",
+      "source": "clients/ceefm/VERIFIED-FACTS.md",
+      "usage_rule": "Named use approved 2026-07-14. Say 'engagement, March to June 2026'. Never say '16-week' or 'completed'.",
+      "route_strength": {
+        "content-visibility-demand": "strong",
+        "strategy-transformation": "partial"
+      }
+    },
+    {
+      "id": "oliviks-foundation-2026-07-24",
+      "claim": "Oliviks Kitchen Foundation delivery completed and the oliviks.com cutover was verified live on 2026-07-24.",
+      "status": "verified",
+      "source": "operations/oliviks/ and clients/oliviks/",
+      "usage_rule": "Foundation scope only. Do not imply an ongoing retainer.",
+      "route_strength": {
+        "digital-platforms-brand": "strong",
+        "ai-workflow-automation": "partial",
+        "execution-operating-systems": "partial"
+      }
+    }
+  ],
+  "tie_break": {
+    "order": [
+      "evidence_strength",
+      "commercial_pain",
+      "buyer_relevance",
+      "proof_fit",
+      "urgency",
+      "entry_offer_credibility"
+    ],
+    "on_true_tie": "escalate",
+    "note": "route_priority is retained only as a stable display order. It no longer selects a route. capability_maturity is reported as confidence and is never part of the comparison, so the most mature capability family cannot win a commercial tie."
+  },
+  "route_priority_note": "Display order only. Superseded as a selector by tie_break on 2026-08-11."
+}

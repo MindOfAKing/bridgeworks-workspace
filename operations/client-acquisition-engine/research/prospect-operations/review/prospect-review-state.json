@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-08-03T10:21:09+00:00",
+  "updated_at": "2026-08-21T16:29:10+00:00",
   "batches": {
     "2026-07-23-batch-01": {
       "batch_id": "2026-07-23-batch-01",
@@ -394,6 +394,723 @@
       "research_followups": [],
       "policy_version": 2,
       "prepared_at": "2026-08-03T10:21:09+00:00"
+    },
+    "2026-08-05-batch-01": {
+      "batch_id": "2026-08-05-batch-01",
+      "result_path": "C:\\Users\\User\\Projects\\bridgeworks-workspace\\operations\\client-acquisition-engine\\research\\prospect-operations\\results\\2026-08-05-batch-01-results.json",
+      "result_sha256": "c47d33aefa9ec3fa332e704fe818227f4176a7ad0dbe20d24b36a87b840648d3",
+      "packet_path": "C:\\Users\\User\\Projects\\bridgeworks-workspace\\operations\\client-acquisition-engine\\research\\prospect-operations\\review\\packets\\2026-08-05-batch-01-approval-review.md",
+      "counts": {
+        "awaiting_mobile_approval": 7,
+        "needs_more_evidence": 1
+      },
+      "external_tasks": [
+        {
+          "type": "email.send",
+          "title": "Approve email outreach to Premier FM",
+          "payload": {
+            "prospect_id": "premier-fm",
+            "company": "Premier FM",
+            "channel": "email",
+            "destination": "leko.peter@premierfm.hu",
+            "subject": "Premier FM quote-route proof check",
+            "body": "Hello Peter, I reviewed Premier FM's public quote path and noticed the service proof counters appear as labels without visible numbers near the enquiry route. I mapped a short credibility-proof check showing where the facility-management evidence could be clearer before a buyer requests a quote. Would it be useful if I sent the two-page version for review?",
+            "commercial_gap": "A facility-management buyer can reach a quote route and named contacts, but the homepage proof-counter section displays KPI labels without visible numeric proof, weakening the credibility evidence immediately before enquiry.",
+            "proof_to_use": "BridgeWorks B2B credibility-proof and quote-route QA review.",
+            "risk_notes": "No exact HubSpot or Gmail duplicate was found. Use the named sales route only; do not submit the contact form without explicit approval.",
+            "source_urls": [
+              "https://premierfm.hu/",
+              "https://premierfm.hu/kapcsolat/"
+            ],
+            "packet_path": "C:\\Users\\User\\Projects\\bridgeworks-workspace\\operations\\client-acquisition-engine\\research\\prospect-operations\\review\\packets\\2026-08-05-batch-01-approval-review.md",
+            "result_path": "C:\\Users\\User\\Projects\\bridgeworks-workspace\\operations\\client-acquisition-engine\\research\\prospect-operations\\results\\2026-08-05-batch-01-results.json",
+            "approval_scope": "Approving authorizes only this exact destination, subject, and body."
+          },
+          "dedupe_key": "prospect-external:premier-fm:c47d33aefa9ec3fa"
+        },
+        {
+          "type": "email.send",
+          "title": "Approve email outreach to BEPELOG Kft",
+          "payload": {
+            "prospect_id": "bepelog-kft",
+            "company": "BEPELOG Kft",
+            "channel": "email",
+            "destination": "info@bepelog.hu",
+            "subject": "BEPELOG freight enquiry route check",
+            "body": "Hello BEPELOG team, I reviewed the public freight enquiry path and noticed the quote/contact page repeats contact blocks and includes malformed CTA copy near the request route. I mapped a short page-QA check showing the exact buyer-route friction and the cleanest fixes. Would it be useful if I sent the two-page version for review?",
+            "commercial_gap": "BEPELOG has a live direct-freight quote route, but malformed CTA copy and repeated contact sections create avoidable trust friction at the point where shippers ask for a quote.",
+            "proof_to_use": "BridgeWorks logistics enquiry-route QA and trust-friction review.",
+            "risk_notes": "No exact HubSpot or Gmail duplicate was found. Use only the public company route; do not submit any quote/contact form without explicit approval.",
+            "source_urls": [
+              "https://logistics.bepelog.hu/en/contact_en/",
+              "https://logistics.bepelog.hu/en/portfolio/road-freight-transport/"
+            ],
+            "packet_path": "C:\\Users\\User\\Projects\\bridgeworks-workspace\\operations\\client-acquisition-engine\\research\\prospect-operations\\review\\packets\\2026-08-05-batch-01-approval-review.md",
+            "result_path": "C:\\Users\\User\\Projects\\bridgeworks-workspace\\operations\\client-acquisition-engine\\research\\prospect-operations\\results\\2026-08-05-batch-01-results.json",
+            "approval_scope": "Approving authorizes only this exact destination, subject, and body."
+          },
+          "dedupe_key": "prospect-external:bepelog-kft:c47d33aefa9ec3fa"
+        },
+        {
+          "type": "email.send",
+          "title": "Approve email outreach to BV Integrated Ltd",
+          "payload": {
+            "prospect_id": "bv-integrated-ltd",
+            "company": "BV Integrated Ltd",
+            "channel": "email",
+            "destination": "enquiries@bvintegrated.co.uk",
+            "subject": "BV Integrated buyer enquiry route map",
+            "body": "Hello BV Integrated team, I reviewed the public UK-Nigeria trade pages and noticed the buyer enquiry path splits between the quote CTA, contact form, info route, and enquiries route. I mapped a short trust-and-routing check for international commodity buyers so the next step is clearer before enquiry. Would it be useful if I sent the two-page version for Azeez or Saheed to review?",
+            "commercial_gap": "BV Integrated is positioning for international commodity buyers while the public enquiry route splits across multiple CTAs and email destinations, which can weaken trust and follow-up clarity for high-value sourcing enquiries.",
+            "proof_to_use": "BridgeWorks B2B credibility-proof and enquiry-route review for international buyer trust.",
+            "risk_notes": "No exact HubSpot or Gmail duplicate was found. Do not imply private contact details or financial performance; use only public company/director and owned-site evidence.",
+            "source_urls": [
+              "https://bvintegrated.co.uk/about-us/",
+              "https://bvintegrated.co.uk/contact-us/",
+              "https://find-and-update.company-information.service.gov.uk/company/16768029/officers"
+            ],
+            "packet_path": "C:\\Users\\User\\Projects\\bridgeworks-workspace\\operations\\client-acquisition-engine\\research\\prospect-operations\\review\\packets\\2026-08-05-batch-01-approval-review.md",
+            "result_path": "C:\\Users\\User\\Projects\\bridgeworks-workspace\\operations\\client-acquisition-engine\\research\\prospect-operations\\results\\2026-08-05-batch-01-results.json",
+            "approval_scope": "Approving authorizes only this exact destination, subject, and body."
+          },
+          "dedupe_key": "prospect-external:bv-integrated-ltd:c47d33aefa9ec3fa"
+        },
+        {
+          "type": "email.send",
+          "title": "Approve email outreach to DARAJA Africa-EU",
+          "payload": {
+            "prospect_id": "daraja-africa-eu",
+            "company": "DARAJA Africa-EU",
+            "channel": "email",
+            "destination": "mail@daraja-africa.eu",
+            "subject": "Daraja quote-route clarity check",
+            "body": "Hello Daraja team, I reviewed the Africa-Europe quote and contact path and noticed a few small route-friction points around the email rendering, footer contact hierarchy, and quote/WhatsApp choices. I mapped a short clarity check showing how to make the business enquiry path easier to trust. Would it be useful if I sent the two-page version for Hans or Roisa to review?",
+            "commercial_gap": "Daraja asks cross-border buyers to request a quote, but the visible contact route has formatting and hierarchy issues that can reduce trust before a prospect chooses email, WhatsApp, or quote submission.",
+            "proof_to_use": "BridgeWorks credibility-proof and contact-route clarity review.",
+            "risk_notes": "No exact HubSpot or Gmail duplicate was found. Do not use WhatsApp, LinkedIn, or the quote form without explicit approval.",
+            "source_urls": [
+              "https://daraja-africa.eu/home/about-us/",
+              "https://daraja-africa.eu/services/"
+            ],
+            "packet_path": "C:\\Users\\User\\Projects\\bridgeworks-workspace\\operations\\client-acquisition-engine\\research\\prospect-operations\\review\\packets\\2026-08-05-batch-01-approval-review.md",
+            "result_path": "C:\\Users\\User\\Projects\\bridgeworks-workspace\\operations\\client-acquisition-engine\\research\\prospect-operations\\results\\2026-08-05-batch-01-results.json",
+            "approval_scope": "Approving authorizes only this exact destination, subject, and body."
+          },
+          "dedupe_key": "prospect-external:daraja-africa-eu:c47d33aefa9ec3fa"
+        },
+        {
+          "type": "email.send",
+          "title": "Approve email outreach to GBS Africa",
+          "payload": {
+            "prospect_id": "gbs-africa",
+            "company": "GBS Africa",
+            "channel": "email",
+            "destination": "info@gbsafrica.co.uk",
+            "subject": "GBS Africa contact-page credibility check",
+            "body": "Hello GBS Africa team, I reviewed the public advisory enquiry path and noticed the contact page appears to mix the correct GBS routes with unrelated template office/copy blocks. I mapped a short credibility check showing the exact trust issue and how it affects partnership enquiries. Would it be useful if I sent the two-page version to the team responsible for public enquiries?",
+            "commercial_gap": "A high-trust advisory firm asking for partnership enquiries has a contact page that mixes correct GBS routes with unrelated template office/copy content, creating a credibility risk for potential Africa advisory buyers.",
+            "proof_to_use": "BridgeWorks authority-proof and advisory enquiry-route QA review.",
+            "risk_notes": "No exact HubSpot or Gmail duplicate was found. Avoid naming a personal recipient; use the general partnership route only.",
+            "source_urls": [
+              "https://www.gbsafrica.co.uk/about/",
+              "https://www.gbsafrica.co.uk/contact/"
+            ],
+            "packet_path": "C:\\Users\\User\\Projects\\bridgeworks-workspace\\operations\\client-acquisition-engine\\research\\prospect-operations\\review\\packets\\2026-08-05-batch-01-approval-review.md",
+            "result_path": "C:\\Users\\User\\Projects\\bridgeworks-workspace\\operations\\client-acquisition-engine\\research\\prospect-operations\\results\\2026-08-05-batch-01-results.json",
+            "approval_scope": "Approving authorizes only this exact destination, subject, and body."
+          },
+          "dedupe_key": "prospect-external:gbs-africa:c47d33aefa9ec3fa"
+        },
+        {
+          "type": "email.send",
+          "title": "Approve email outreach to Kunbase Kft",
+          "payload": {
+            "prospect_id": "kunbase-kft",
+            "company": "Kunbase Kft",
+            "channel": "email",
+            "destination": "info@kunbase.com",
+            "subject": "Kunbase quote-route trust check",
+            "body": "Hello Kunbase team, I reviewed the public quote path and noticed the contact area mixes the request-a-quote route with newsletter-style fields and a future copyright signal. I mapped a short trust-friction check showing what a logistics buyer sees before sending an enquiry. Would it be useful if I sent the two-page version for review?",
+            "commercial_gap": "Kunbase's public quote path is available, but contact blocks mix quote/contact intent with newsletter subscription UI and a future copyright date, which can reduce trust for logistics buyers requesting pricing.",
+            "proof_to_use": "BridgeWorks quote-route and trust-friction review.",
+            "risk_notes": "No exact HubSpot or Gmail duplicate was found. Use the public email route only; do not submit the contact form without explicit approval.",
+            "source_urls": [
+              "https://www.kunbase.com/",
+              "https://www.kunbase.com/contact-8"
+            ],
+            "packet_path": "C:\\Users\\User\\Projects\\bridgeworks-workspace\\operations\\client-acquisition-engine\\research\\prospect-operations\\review\\packets\\2026-08-05-batch-01-approval-review.md",
+            "result_path": "C:\\Users\\User\\Projects\\bridgeworks-workspace\\operations\\client-acquisition-engine\\research\\prospect-operations\\results\\2026-08-05-batch-01-results.json",
+            "approval_scope": "Approving authorizes only this exact destination, subject, and body."
+          },
+          "dedupe_key": "prospect-external:kunbase-kft:c47d33aefa9ec3fa"
+        },
+        {
+          "type": "email.send",
+          "title": "Approve email outreach to Rideflow",
+          "payload": {
+            "prospect_id": "rideflow",
+            "company": "Rideflow",
+            "channel": "email",
+            "destination": "info@rideflow.org",
+            "subject": "Rideflow demo-route proof check",
+            "body": "Hello Rideflow team, I reviewed the public demo path and noticed the homepage has repeated buyer-copy blocks plus live proof counters showing zero values even though the page also includes customer proof and an active platform route. I mapped a short proof-consistency check for the demo journey. Would it be useful if I sent the two-page version to the team reviewing conversion and onboarding?",
+            "commercial_gap": "Rideflow has an active demo/product route, but repeated page copy and zero-valued live counters create proof inconsistency at the point where logistics operators decide whether to book a demo.",
+            "proof_to_use": "BridgeWorks conversion-route and proof-consistency QA review.",
+            "risk_notes": "No exact HubSpot or Gmail duplicate was found. Do not interact with Calendly, dashboard login, or forms without explicit approval.",
+            "source_urls": [
+              "https://www.rideflow.org/",
+              "https://www.rideflow.org/terms-of-service",
+              "https://dashboard.rideflow.org/auth/login"
+            ],
+            "packet_path": "C:\\Users\\User\\Projects\\bridgeworks-workspace\\operations\\client-acquisition-engine\\research\\prospect-operations\\review\\packets\\2026-08-05-batch-01-approval-review.md",
+            "result_path": "C:\\Users\\User\\Projects\\bridgeworks-workspace\\operations\\client-acquisition-engine\\research\\prospect-operations\\results\\2026-08-05-batch-01-results.json",
+            "approval_scope": "Approving authorizes only this exact destination, subject, and body."
+          },
+          "dedupe_key": "prospect-external:rideflow:c47d33aefa9ec3fa"
+        }
+      ],
+      "research_followups": [],
+      "policy_version": 2,
+      "prepared_at": "2026-08-09T05:53:27+00:00"
+    },
+    "2026-08-11-batch-01": {
+      "batch_id": "2026-08-11-batch-01",
+      "result_path": "C:\\Users\\User\\Projects\\bridgeworks-workspace\\operations\\client-acquisition-engine\\research\\prospect-operations\\results\\2026-08-11-batch-01-results.json",
+      "result_sha256": "702c9cc9264b91e2129166c6a69adf6b7434917c2820a0cda8935d9e20753c00",
+      "packet_path": "C:\\Users\\User\\Projects\\bridgeworks-workspace\\operations\\client-acquisition-engine\\research\\prospect-operations\\review\\packets\\2026-08-11-batch-01-approval-review.md",
+      "counts": {
+        "awaiting_mobile_approval": 6,
+        "needs_more_evidence": 2
+      },
+      "external_tasks": [
+        {
+          "type": "email.send",
+          "title": "Approve email outreach to Arc Solutions Limited",
+          "payload": {
+            "prospect_id": "arc-solutions-limited",
+            "company": "Arc Solutions Limited",
+            "channel": "email",
+            "destination": "info@arcsolutionslimited.com",
+            "subject": "Arc Solutions quote-route QA note",
+            "body": "Hello Arc Solutions team, I reviewed the public facility-management quote path and noticed stray SPOTA AI navigation text showing beside the Get Quote route on the service and contact pages. I mapped a short page-QA note showing where that trust friction appears before a buyer sends an enquiry. Would it be useful if I sent the two-page version for review?",
+            "commercial_gap": "Arc Solutions asks facility-management buyers to request a quote, but the current navigation exposes stray SPOTA AI text beside the quote route, creating avoidable credibility friction on a high-intent page.",
+            "proof_to_use": "BridgeWorks quote-route and public-page QA review.",
+            "risk_notes": "No exact HubSpot or Gmail duplicate was found. No personal recipient was verified, so use only the public company route.",
+            "source_urls": [
+              "https://www.arcsolutionslimited.com/work/facility-management",
+              "https://www.arcsolutionslimited.com/contact"
+            ],
+            "packet_path": "C:\\Users\\User\\Projects\\bridgeworks-workspace\\operations\\client-acquisition-engine\\research\\prospect-operations\\review\\packets\\2026-08-11-batch-01-approval-review.md",
+            "result_path": "C:\\Users\\User\\Projects\\bridgeworks-workspace\\operations\\client-acquisition-engine\\research\\prospect-operations\\results\\2026-08-11-batch-01-results.json",
+            "approval_scope": "Approving authorizes only this exact destination, subject, and body."
+          },
+          "dedupe_key": "prospect-external:arc-solutions-limited:702c9cc9264b91e2"
+        },
+        {
+          "type": "email.send",
+          "title": "Approve email outreach to Geneto Facility Management Company",
+          "payload": {
+            "prospect_id": "geneto-facility-management-company",
+            "company": "Geneto Facility Management Company",
+            "channel": "email",
+            "destination": "info@genetofmc.com",
+            "subject": "Geneto facility-assessment page check",
+            "body": "Hello Geneto team, I reviewed the public facility-assessment path and noticed the service proof is strong, but one service section appears to mix water-management and cleaning responsibilities in the buyer journey. I mapped a short clarity check showing the exact page friction before an estate owner requests assessment. Would it be useful if I sent the two-page version for review?",
+            "commercial_gap": "Geneto has a live facility-assessment route and public estate proof, but service-category text appears confused around water/cleaning responsibilities, which can reduce buyer confidence before an estate owner asks for an assessment.",
+            "proof_to_use": "BridgeWorks facility-assessment route and credibility-proof review.",
+            "risk_notes": "No exact HubSpot or Gmail duplicate was found. Use the public company email route because no named responsible owner was verified.",
+            "source_urls": [
+              "https://genetofmc.com/",
+              "https://genetofmc.com/"
+            ],
+            "packet_path": "C:\\Users\\User\\Projects\\bridgeworks-workspace\\operations\\client-acquisition-engine\\research\\prospect-operations\\review\\packets\\2026-08-11-batch-01-approval-review.md",
+            "result_path": "C:\\Users\\User\\Projects\\bridgeworks-workspace\\operations\\client-acquisition-engine\\research\\prospect-operations\\results\\2026-08-11-batch-01-results.json",
+            "approval_scope": "Approving authorizes only this exact destination, subject, and body."
+          },
+          "dedupe_key": "prospect-external:geneto-facility-management-company:702c9cc9264b91e2"
+        },
+        {
+          "type": "email.send",
+          "title": "Approve email outreach to Greenleaf Engineering",
+          "payload": {
+            "prospect_id": "greenleaf-engineering",
+            "company": "Greenleaf Engineering",
+            "channel": "email",
+            "destination": "info@greenleaf.ng",
+            "subject": "Greenleaf contact-route QA note",
+            "body": "Hello Greenleaf team, I reviewed the public contact and service-proposal path and noticed the phone route appears differently in the header/contact block and footer. I mapped a short contact-route QA note showing the exact mismatch a facilities buyer sees before requesting an assessment. Would it be useful if I sent the two-page version for review?",
+            "commercial_gap": "Greenleaf asks facility buyers to request assessment or a proposal, but the current contact page shows conflicting phone numbers around the enquiry route, creating a clear contact-trust risk.",
+            "proof_to_use": "BridgeWorks contact-route QA and service-proposal clarity review.",
+            "risk_notes": "No exact HubSpot or Gmail duplicate was found. Do not call either phone number; use only the public email route for approval preparation.",
+            "source_urls": [
+              "https://greenleaf.com.ng/location/",
+              "https://greenleaf.com.ng/location/"
+            ],
+            "packet_path": "C:\\Users\\User\\Projects\\bridgeworks-workspace\\operations\\client-acquisition-engine\\research\\prospect-operations\\review\\packets\\2026-08-11-batch-01-approval-review.md",
+            "result_path": "C:\\Users\\User\\Projects\\bridgeworks-workspace\\operations\\client-acquisition-engine\\research\\prospect-operations\\results\\2026-08-11-batch-01-results.json",
+            "approval_scope": "Approving authorizes only this exact destination, subject, and body."
+          },
+          "dedupe_key": "prospect-external:greenleaf-engineering:702c9cc9264b91e2"
+        },
+        {
+          "type": "email.send",
+          "title": "Approve email outreach to Eloria Consult",
+          "payload": {
+            "prospect_id": "eloria-consult",
+            "company": "Eloria Consult",
+            "channel": "email",
+            "destination": "info@eloriaconsult.com",
+            "subject": "Eloria consultation-route polish note",
+            "body": "Hello Daisy, I reviewed Eloria Consult's public consultation path and noticed the email and phone render as one concatenated string, with a small footer/template residue near the contact area. I mapped a short credibility-polish note showing what a premium hospitality or facility buyer sees before booking. Would it be useful if I sent the two-page version for review?",
+            "commercial_gap": "Eloria sells high-trust hospitality and facility-management consulting, but its current consultation path exposes concatenated contact details and footer/template residue, weakening polish at the point where premium buyers decide whether to book.",
+            "proof_to_use": "BridgeWorks premium-service contact-route and credibility polish review.",
+            "risk_notes": "No exact HubSpot or Gmail duplicate was found. The greeting uses the public named director, but the route remains the public info address.",
+            "source_urls": [
+              "https://www.eloriaconsult.com/",
+              "https://www.eloriaconsult.com/"
+            ],
+            "packet_path": "C:\\Users\\User\\Projects\\bridgeworks-workspace\\operations\\client-acquisition-engine\\research\\prospect-operations\\review\\packets\\2026-08-11-batch-01-approval-review.md",
+            "result_path": "C:\\Users\\User\\Projects\\bridgeworks-workspace\\operations\\client-acquisition-engine\\research\\prospect-operations\\results\\2026-08-11-batch-01-results.json",
+            "approval_scope": "Approving authorizes only this exact destination, subject, and body."
+          },
+          "dedupe_key": "prospect-external:eloria-consult:702c9cc9264b91e2"
+        },
+        {
+          "type": "email.send",
+          "title": "Approve email outreach to Green Facilities Limited",
+          "payload": {
+            "prospect_id": "green-facilities-limited",
+            "company": "Green Facilities Limited",
+            "channel": "email",
+            "destination": "info@greenfacilitiesltd.com",
+            "subject": "Green Facilities public-page QA note",
+            "body": "Hello Green Facilities team, I reviewed the public project-discussion path and noticed a few credibility-friction details around the team role label and repeated footer contact blocks. I mapped a short public-page QA note showing where these issues appear before a buyer sends an enquiry. Would it be useful if I sent the two-page version for Tope or the team to review?",
+            "commercial_gap": "Green Facilities has client proof and a project-discussion route, but current public pages show role-label misspelling and repeated footer contact blocks, creating avoidable credibility friction for buyers assessing a facilities partner.",
+            "proof_to_use": "BridgeWorks credibility-proof and contact-route QA review.",
+            "risk_notes": "No exact HubSpot or Gmail duplicate was found. Use public company email only; do not assume Tope's direct inbox.",
+            "source_urls": [
+              "https://greenfacilitiesltd.com/",
+              "https://greenfacilitiesltd.com/about/",
+              "https://greenfacilitiesltd.com/contact/"
+            ],
+            "packet_path": "C:\\Users\\User\\Projects\\bridgeworks-workspace\\operations\\client-acquisition-engine\\research\\prospect-operations\\review\\packets\\2026-08-11-batch-01-approval-review.md",
+            "result_path": "C:\\Users\\User\\Projects\\bridgeworks-workspace\\operations\\client-acquisition-engine\\research\\prospect-operations\\results\\2026-08-11-batch-01-results.json",
+            "approval_scope": "Approving authorizes only this exact destination, subject, and body."
+          },
+          "dedupe_key": "prospect-external:green-facilities-limited:702c9cc9264b91e2"
+        },
+        {
+          "type": "email.send",
+          "title": "Approve email outreach to Provast Limited",
+          "payload": {
+            "prospect_id": "provast-limited",
+            "company": "Provast Limited",
+            "channel": "email",
+            "destination": "info@provastltd.com",
+            "subject": "Provast public-site trust issue",
+            "body": "Hello Provast team, I reviewed the public facilities-management site and noticed the homepage news area is showing unrelated July 2026 software and game-download article titles. I mapped a short trust-risk note showing the exact public pages and why this matters before buyers submit an enquiry. Would it be useful if I sent the two-page version for review?",
+            "commercial_gap": "Provast's commercial homepage presents credible FM/building-maintenance services, but the same page exposes unrelated July 2026 cracked-software and game-download article titles, creating a material public trust and site-integrity risk.",
+            "proof_to_use": "BridgeWorks credibility-risk and public-site trust repair review.",
+            "risk_notes": "No exact HubSpot or Gmail duplicate was found. Phrase this as public-site risk, not confirmed compromise, unless a technical audit is approved.",
+            "source_urls": [
+              "https://provastltd.com/",
+              "https://provastltd.com/",
+              "https://provastltd.com/contact-us/"
+            ],
+            "packet_path": "C:\\Users\\User\\Projects\\bridgeworks-workspace\\operations\\client-acquisition-engine\\research\\prospect-operations\\review\\packets\\2026-08-11-batch-01-approval-review.md",
+            "result_path": "C:\\Users\\User\\Projects\\bridgeworks-workspace\\operations\\client-acquisition-engine\\research\\prospect-operations\\results\\2026-08-11-batch-01-results.json",
+            "approval_scope": "Approving authorizes only this exact destination, subject, and body."
+          },
+          "dedupe_key": "prospect-external:provast-limited:702c9cc9264b91e2"
+        }
+      ],
+      "research_followups": [],
+      "policy_version": 2,
+      "prepared_at": "2026-08-11T07:16:32+00:00"
+    },
+    "2026-08-17-batch-01": {
+      "batch_id": "2026-08-17-batch-01",
+      "result_path": "C:\\Users\\User\\Projects\\bridgeworks-workspace\\operations\\client-acquisition-engine\\research\\prospect-operations\\results\\2026-08-17-batch-01-results.json",
+      "result_sha256": "0ba742e76f02cf8e01de5d2ea20a56a290da40be7ee2767c05c084e0c8c87bf4",
+      "packet_path": "C:\\Users\\User\\Projects\\bridgeworks-workspace\\operations\\client-acquisition-engine\\research\\prospect-operations\\review\\packets\\2026-08-17-batch-01-approval-review.md",
+      "counts": {
+        "awaiting_mobile_approval": 7,
+        "needs_more_evidence": 1
+      },
+      "external_tasks": [
+        {
+          "type": "email.send",
+          "title": "Approve email outreach to Budapest Sky Property Management",
+          "payload": {
+            "prospect_id": "budapest-sky-property-management",
+            "company": "Budapest Sky Property Management",
+            "channel": "email",
+            "destination": "info@bpsky.hu",
+            "subject": "Budapest Sky contact-route QA note",
+            "body": "Hello Budapest Sky team, I reviewed the public contact route and noticed the same enquiry path shows two different email/domain routes: info@bpsky.hu and hosts@budapestsky.com. I mapped a short contact-route QA note showing where a host-owner lead may hesitate before writing. Would it be useful if I sent the two-page version for review?",
+            "commercial_gap": "Budapest Sky asks owners and guests to use the contact path, but the same current page shows info@bpsky.hu and hosts@budapestsky.com, creating a clear lead-routing trust gap.",
+            "proof_to_use": "BridgeWorks contact-route consistency and public-page QA review.",
+            "risk_notes": "No exact HubSpot or Gmail duplicate was found. Use the company route only because no named decision-maker was verified.",
+            "source_urls": [
+              "https://budapestsky.hu/contact-us/",
+              "https://budapestsky.hu/contact-us/"
+            ],
+            "packet_path": "C:\\Users\\User\\Projects\\bridgeworks-workspace\\operations\\client-acquisition-engine\\research\\prospect-operations\\review\\packets\\2026-08-17-batch-01-approval-review.md",
+            "result_path": "C:\\Users\\User\\Projects\\bridgeworks-workspace\\operations\\client-acquisition-engine\\research\\prospect-operations\\results\\2026-08-17-batch-01-results.json",
+            "approval_scope": "Approving authorizes only this exact destination, subject, and body."
+          },
+          "dedupe_key": "prospect-external:budapest-sky-property-management:0ba742e76f02cf8e"
+        },
+        {
+          "type": "email.send",
+          "title": "Approve email outreach to MRI Investments Ltd",
+          "payload": {
+            "prospect_id": "mri-investments-ltd",
+            "company": "MRI Investments Ltd",
+            "channel": "email",
+            "destination": "info@mriinvestmentsltd.com",
+            "subject": "MRI public-proof QA note",
+            "body": "Hello MRI Investments team, I reviewed the public facilities-management site and noticed the service proof is specific, but the testimonial section appears to contain generic placeholder-style copy unrelated to MRI's actual work. I mapped a short credibility note showing where this weakens buyer trust. Would it be useful if I sent the two-page version for review?",
+            "commercial_gap": "MRI presents serious FM, property, e-waste, security, and logistics services, but the current homepage testimonial block reads like generic placeholder proof, which can weaken buyer trust.",
+            "proof_to_use": "BridgeWorks public-proof cleanup and credibility review.",
+            "risk_notes": "No exact HubSpot or Gmail duplicate was found. No named owner was verified, so use only the public company route.",
+            "source_urls": [
+              "https://mriinvestmentsltd.com/",
+              "https://mriinvestmentsltd.com/"
+            ],
+            "packet_path": "C:\\Users\\User\\Projects\\bridgeworks-workspace\\operations\\client-acquisition-engine\\research\\prospect-operations\\review\\packets\\2026-08-17-batch-01-approval-review.md",
+            "result_path": "C:\\Users\\User\\Projects\\bridgeworks-workspace\\operations\\client-acquisition-engine\\research\\prospect-operations\\results\\2026-08-17-batch-01-results.json",
+            "approval_scope": "Approving authorizes only this exact destination, subject, and body."
+          },
+          "dedupe_key": "prospect-external:mri-investments-ltd:0ba742e76f02cf8e"
+        },
+        {
+          "type": "email.send",
+          "title": "Approve email outreach to Stretford Hill Limited",
+          "payload": {
+            "prospect_id": "stretford-hill-limited",
+            "company": "Stretford Hill Limited",
+            "channel": "email",
+            "destination": "info@stretfordhill.com",
+            "subject": "Stretford Hill homepage proof check",
+            "body": "Hello Lakunle, I reviewed Stretford Hill's public quote path and noticed the site has strong project and compliance proof, but the homepage trust counters still show 0+ jobs, 0+ complete projects, and 0+ happy clients. I mapped a short buyer-trust note showing the exact friction before someone requests a quote. Would it be useful if I sent the two-page version for review?",
+            "commercial_gap": "Stretford Hill has credible project proof and a quote route, but the homepage shows 0+ jobs, 0+ complete projects, and 0+ happy clients beside buyer-trust content.",
+            "proof_to_use": "BridgeWorks public-proof and conversion trust QA review.",
+            "risk_notes": "No exact HubSpot or Gmail duplicate was found. Greeting uses the public CEO name, but the route remains the public company email.",
+            "source_urls": [
+              "https://stretfordhill.com/",
+              "https://stretfordhill.com/"
+            ],
+            "packet_path": "C:\\Users\\User\\Projects\\bridgeworks-workspace\\operations\\client-acquisition-engine\\research\\prospect-operations\\review\\packets\\2026-08-17-batch-01-approval-review.md",
+            "result_path": "C:\\Users\\User\\Projects\\bridgeworks-workspace\\operations\\client-acquisition-engine\\research\\prospect-operations\\results\\2026-08-17-batch-01-results.json",
+            "approval_scope": "Approving authorizes only this exact destination, subject, and body."
+          },
+          "dedupe_key": "prospect-external:stretford-hill-limited:0ba742e76f02cf8e"
+        },
+        {
+          "type": "email.send",
+          "title": "Approve email outreach to TECH FM Kft.",
+          "payload": {
+            "prospect_id": "tech-fm-kft",
+            "company": "TECH FM Kft.",
+            "channel": "email",
+            "destination": "info@techfm.hu",
+            "subject": "TECH FM quote-route QA note",
+            "body": "Hello TECH FM team, I reviewed the English office-cleaning quote route and noticed the service offer is clear, but the quote form heading breaks into NEED, service categories, and FAST?, while CTA labels vary across the page. I mapped a short buyer-page QA note showing the exact friction before a company requests a quote. Would it be useful if I sent it for review?",
+            "commercial_gap": "TECH FM asks English-speaking facilities buyers to request a quote, but the form route currently renders fragmented headline text and inconsistent quote CTA wording.",
+            "proof_to_use": "BridgeWorks quote-route and English buyer-page QA review.",
+            "risk_notes": "No exact HubSpot or Gmail duplicate was found. Use the public company route only because no named owner was verified.",
+            "source_urls": [
+              "https://www.techfm.hu/en/office-cleaning/",
+              "https://www.techfm.hu/en/office-cleaning/"
+            ],
+            "packet_path": "C:\\Users\\User\\Projects\\bridgeworks-workspace\\operations\\client-acquisition-engine\\research\\prospect-operations\\review\\packets\\2026-08-17-batch-01-approval-review.md",
+            "result_path": "C:\\Users\\User\\Projects\\bridgeworks-workspace\\operations\\client-acquisition-engine\\research\\prospect-operations\\results\\2026-08-17-batch-01-results.json",
+            "approval_scope": "Approving authorizes only this exact destination, subject, and body."
+          },
+          "dedupe_key": "prospect-external:tech-fm-kft:0ba742e76f02cf8e"
+        },
+        {
+          "type": "email.send",
+          "title": "Approve email outreach to EurAfrica Partners",
+          "payload": {
+            "prospect_id": "eurafrica-partners",
+            "company": "EurAfrica Partners",
+            "channel": "email",
+            "destination": "info@eurafricapartners.com",
+            "subject": "EurAfrica homepage credibility note",
+            "body": "Hello EurAfrica Partners team, I reviewed the public homepage and noticed the advisory offer is clear, but the core About Us section has visible copy breaks and typo issues around the Europe-Africa positioning. I mapped a short credibility-first QA note showing where this affects buyer trust before someone submits an enquiry. Would it be useful if I sent the two-page version for review?",
+            "commercial_gap": "EurAfrica sells cross-border advisory trust, but its current homepage has visible copy quality issues in the core investor and Europe-Africa positioning section.",
+            "proof_to_use": "BridgeWorks credibility-first homepage QA review.",
+            "risk_notes": "No exact HubSpot or Gmail duplicate was found. Use the public company email because no exact responsible owner route was verified.",
+            "source_urls": [
+              "https://eurafricapartners.com/",
+              "https://eurafricapartners.com/"
+            ],
+            "packet_path": "C:\\Users\\User\\Projects\\bridgeworks-workspace\\operations\\client-acquisition-engine\\research\\prospect-operations\\review\\packets\\2026-08-17-batch-01-approval-review.md",
+            "result_path": "C:\\Users\\User\\Projects\\bridgeworks-workspace\\operations\\client-acquisition-engine\\research\\prospect-operations\\results\\2026-08-17-batch-01-results.json",
+            "approval_scope": "Approving authorizes only this exact destination, subject, and body."
+          },
+          "dedupe_key": "prospect-external:eurafrica-partners:0ba742e76f02cf8e"
+        },
+        {
+          "type": "email.send",
+          "title": "Approve email outreach to Global Law Consultancy",
+          "payload": {
+            "prospect_id": "global-law-consultancy",
+            "company": "Global Law Consultancy",
+            "channel": "email",
+            "destination": "michael@globallawconsultancy.com",
+            "subject": "Global Law branch-contact QA note",
+            "body": "Hello Michael, I reviewed Global Law Consultancy's public contact page and noticed the branch blocks repeat, while the Western African branch contact name changes between visible sections. I mapped a short branch-contact QA note showing the exact credibility friction a cross-border client sees before writing. Would it be useful if I sent the two-page version for review?",
+            "commercial_gap": "Global Law Consultancy depends on branch-specific trust, but the current contact page repeats branch blocks and changes the Western African branch contact name between sections.",
+            "proof_to_use": "BridgeWorks branch-contact and credibility QA review.",
+            "risk_notes": "No exact HubSpot or Gmail duplicate was found. Use the public Europe branch route only; do not infer personal consent beyond the listed public email.",
+            "source_urls": [
+              "https://globallawconsultancy.com/contacts/",
+              "https://globallawconsultancy.com/contacts/"
+            ],
+            "packet_path": "C:\\Users\\User\\Projects\\bridgeworks-workspace\\operations\\client-acquisition-engine\\research\\prospect-operations\\review\\packets\\2026-08-17-batch-01-approval-review.md",
+            "result_path": "C:\\Users\\User\\Projects\\bridgeworks-workspace\\operations\\client-acquisition-engine\\research\\prospect-operations\\results\\2026-08-17-batch-01-results.json",
+            "approval_scope": "Approving authorizes only this exact destination, subject, and body."
+          },
+          "dedupe_key": "prospect-external:global-law-consultancy:0ba742e76f02cf8e"
+        },
+        {
+          "type": "email.send",
+          "title": "Approve email outreach to Ruxton Consultancy",
+          "payload": {
+            "prospect_id": "ruxton-consultancy",
+            "company": "Ruxton Consultancy",
+            "channel": "email",
+            "destination": "info@ruxtonconsultancy.com",
+            "subject": "Ruxton contact-form QA note",
+            "body": "Hello Ruxton Consultancy team, I reviewed the public contact route and noticed the buyer form is still labelled Contact Form Demo above the enquiry fields. I mapped a short contact-route QA note showing how this looks before a company asks about Africa-market support. Would it be useful if I sent the two-page version for review?",
+            "commercial_gap": "Ruxton sells Africa-market consulting and invites prospects to make contact, but the current public contact form still displays a Contact Form Demo label.",
+            "proof_to_use": "BridgeWorks contact-route credibility QA review.",
+            "risk_notes": "No exact HubSpot or Gmail duplicate was found. Use public company email only because no responsible owner was verified.",
+            "source_urls": [
+              "https://www.ruxtonconsultancy.com/contact/",
+              "https://www.ruxtonconsultancy.com/contact/"
+            ],
+            "packet_path": "C:\\Users\\User\\Projects\\bridgeworks-workspace\\operations\\client-acquisition-engine\\research\\prospect-operations\\review\\packets\\2026-08-17-batch-01-approval-review.md",
+            "result_path": "C:\\Users\\User\\Projects\\bridgeworks-workspace\\operations\\client-acquisition-engine\\research\\prospect-operations\\results\\2026-08-17-batch-01-results.json",
+            "approval_scope": "Approving authorizes only this exact destination, subject, and body."
+          },
+          "dedupe_key": "prospect-external:ruxton-consultancy:0ba742e76f02cf8e"
+        }
+      ],
+      "research_followups": [],
+      "policy_version": 2,
+      "prepared_at": "2026-08-17T07:19:49+00:00"
+    },
+    "2026-08-20-batch-01": {
+      "batch_id": "2026-08-20-batch-01",
+      "result_path": "C:\\Users\\User\\Projects\\bridgeworks-workspace\\operations\\client-acquisition-engine\\research\\prospect-operations\\results\\2026-08-20-batch-01-results.json",
+      "result_sha256": "ad1eb44a0187d603c16fe296bfccaea58187764901a6a7275bab54f1b8913aa5",
+      "packet_path": "C:\\Users\\User\\Projects\\bridgeworks-workspace\\operations\\client-acquisition-engine\\research\\prospect-operations\\review\\packets\\2026-08-20-batch-01-approval-review.md",
+      "counts": {
+        "awaiting_mobile_approval": 6,
+        "needs_more_evidence": 2
+      },
+      "external_tasks": [
+        {
+          "type": "email.send",
+          "title": "Approve email outreach to Ridgewell Construction Co. Ltd",
+          "payload": {
+            "prospect_id": "ridgewell-construction-co-ltd",
+            "company": "Ridgewell Construction Co. Ltd",
+            "channel": "email",
+            "destination": "info@ridgewell.com.ng",
+            "subject": "Facility management page credibility note",
+            "body": "Hello Ridgewell team, I reviewed your facility-management service page today. The Lagos head office details are clear, but the same buyer route also shows an unrelated US office block and repeated broken service copy. BridgeWorks can help clean that page into a tighter enquiry path without changing your offer. I can share a short page QA note if useful.",
+            "commercial_gap": "A facility-management buyer lands on a live Ridgewell service page where the enquiry route sits beside unrelated US office details and broken repeated copy, weakening trust before contact.",
+            "proof_to_use": "BridgeWorks service-page credibility QA and buyer trust cleanup.",
+            "risk_notes": "No named decision-maker verified. Use general company inbox. Do not send without approval.",
+            "source_urls": [
+              "https://ridgewell.com.ng/service/facility-management/"
+            ],
+            "packet_path": "C:\\Users\\User\\Projects\\bridgeworks-workspace\\operations\\client-acquisition-engine\\research\\prospect-operations\\review\\packets\\2026-08-20-batch-01-approval-review.md",
+            "result_path": "C:\\Users\\User\\Projects\\bridgeworks-workspace\\operations\\client-acquisition-engine\\research\\prospect-operations\\results\\2026-08-20-batch-01-results.json",
+            "approval_scope": "Approving authorizes only this exact destination, subject, and body."
+          },
+          "dedupe_key": "prospect-external:ridgewell-construction-co-ltd:ad1eb44a0187d603"
+        },
+        {
+          "type": "email.send",
+          "title": "Approve email outreach to Aceceros Technology Limited",
+          "payload": {
+            "prospect_id": "aceceros-technology-limited",
+            "company": "Aceceros Technology Limited",
+            "channel": "email",
+            "destination": "info@aceceros.com",
+            "subject": "Small credibility issue on Aceceros site",
+            "body": "Hello Aceceros team, I checked your site today. The managed IT and cloud services are clear, but the FAQ still mentions municipality transportation clients and the blog area shows repeated no-post blocks. For an infrastructure buyer, that can create doubt before contacting you. BridgeWorks can help turn those sections into a tighter buyer-ready route.",
+            "commercial_gap": "A managed IT buyer sees active infrastructure services but also unrelated municipality FAQ copy and empty/no-post content blocks, which can reduce confidence before a consultation request.",
+            "proof_to_use": "BridgeWorks IT buyer-page credibility and content-route QA.",
+            "risk_notes": "Public pages contain conflicting email spellings in older page text. Use the current info@aceceros.com route.",
+            "source_urls": [
+              "https://aceceros.com/",
+              "https://aceceros.com/contact-us/"
+            ],
+            "packet_path": "C:\\Users\\User\\Projects\\bridgeworks-workspace\\operations\\client-acquisition-engine\\research\\prospect-operations\\review\\packets\\2026-08-20-batch-01-approval-review.md",
+            "result_path": "C:\\Users\\User\\Projects\\bridgeworks-workspace\\operations\\client-acquisition-engine\\research\\prospect-operations\\results\\2026-08-20-batch-01-results.json",
+            "approval_scope": "Approving authorizes only this exact destination, subject, and body."
+          },
+          "dedupe_key": "prospect-external:aceceros-technology-limited:ad1eb44a0187d603"
+        },
+        {
+          "type": "email.send",
+          "title": "Approve email outreach to CrestCore Structures",
+          "payload": {
+            "prospect_id": "crestcore-structures",
+            "company": "CrestCore Structures",
+            "channel": "email",
+            "destination": "Info@CrestCoreStructures.com",
+            "subject": "CrestCore proposal route QA note",
+            "body": "Hello CrestCore team, I reviewed your contact and homepage today. The modular proposal promise is strong, but the contact heading renders with spaced letters, some sections repeat, and public proof counters show zero values. That can weaken trust right before a developer submits a brief. BridgeWorks can help tighten the route and proof presentation.",
+            "commercial_gap": "Developers are asked to request a modular proposal, but the same route shows broken heading rendering, duplicate sections, repeated testimonials, and zeroed proof counters.",
+            "proof_to_use": "BridgeWorks contact-page rendering and proposal-route QA.",
+            "risk_notes": "No named decision-maker verified. Email casing preserved from public source.",
+            "source_urls": [
+              "https://crestcorestructures.com/contact",
+              "https://crestcorestructures.com/"
+            ],
+            "packet_path": "C:\\Users\\User\\Projects\\bridgeworks-workspace\\operations\\client-acquisition-engine\\research\\prospect-operations\\review\\packets\\2026-08-20-batch-01-approval-review.md",
+            "result_path": "C:\\Users\\User\\Projects\\bridgeworks-workspace\\operations\\client-acquisition-engine\\research\\prospect-operations\\results\\2026-08-20-batch-01-results.json",
+            "approval_scope": "Approving authorizes only this exact destination, subject, and body."
+          },
+          "dedupe_key": "prospect-external:crestcore-structures:ad1eb44a0187d603"
+        },
+        {
+          "type": "email.send",
+          "title": "Approve email outreach to NexGen Business Advisors Ltd",
+          "payload": {
+            "prospect_id": "nexgen-business-advisors-ltd",
+            "company": "NexGen Business Advisors Ltd",
+            "channel": "email",
+            "destination": "info@nextgenadvisors.com",
+            "subject": "NexGen contact route consistency note",
+            "body": "Hello NexGen team, I reviewed your advisory site today. Your market-entry and compliance offer is clear, especially for diaspora and foreign-company buyers. One issue stood out: the website domain and public email domain differ, and the testimonial block repeats. BridgeWorks can help clean that buyer route so consultation requests feel more consistent and trustworthy.",
+            "commercial_gap": "Foreign and diaspora advisory buyers are asked to book a consultation, but the public email route uses a different domain from the website and the proof section repeats testimonials.",
+            "proof_to_use": "BridgeWorks contact-route consistency and advisory proof QA.",
+            "risk_notes": "Leadership attribution comes from public page text. Use the listed company inbox, not a personal address.",
+            "source_urls": [
+              "https://www.nextgenadvisorsltd.com/"
+            ],
+            "packet_path": "C:\\Users\\User\\Projects\\bridgeworks-workspace\\operations\\client-acquisition-engine\\research\\prospect-operations\\review\\packets\\2026-08-20-batch-01-approval-review.md",
+            "result_path": "C:\\Users\\User\\Projects\\bridgeworks-workspace\\operations\\client-acquisition-engine\\research\\prospect-operations\\results\\2026-08-20-batch-01-results.json",
+            "approval_scope": "Approving authorizes only this exact destination, subject, and body."
+          },
+          "dedupe_key": "prospect-external:nexgen-business-advisors-ltd:ad1eb44a0187d603"
+        },
+        {
+          "type": "email.send",
+          "title": "Approve email outreach to PIA Legal Services",
+          "payload": {
+            "prospect_id": "pia-legal-services",
+            "company": "PIA Legal Services",
+            "channel": "email",
+            "destination": "info@pialegalservices.org",
+            "subject": "PIA Legal homepage proof note",
+            "body": "Hello PIA Legal team, I reviewed your site today. The strategy-session route and founder-led positioning are clear, but the homepage trust counters currently show 0+ matters closed, 0 jurisdictions, and 0% retention. For a legal buyer, that can create doubt before booking. BridgeWorks can help clean the proof section without changing your offer.",
+            "commercial_gap": "A legal buyer is asked to book a strategy session, but the homepage displays zeroed trust counters for matters, jurisdictions, and retention rate.",
+            "proof_to_use": "BridgeWorks legal-service credibility and public-proof QA.",
+            "risk_notes": "Use company inbox. Do not contact the named founder directly without a verified public personal route.",
+            "source_urls": [
+              "https://pialegalservices.org/"
+            ],
+            "packet_path": "C:\\Users\\User\\Projects\\bridgeworks-workspace\\operations\\client-acquisition-engine\\research\\prospect-operations\\review\\packets\\2026-08-20-batch-01-approval-review.md",
+            "result_path": "C:\\Users\\User\\Projects\\bridgeworks-workspace\\operations\\client-acquisition-engine\\research\\prospect-operations\\results\\2026-08-20-batch-01-results.json",
+            "approval_scope": "Approving authorizes only this exact destination, subject, and body."
+          },
+          "dedupe_key": "prospect-external:pia-legal-services:ad1eb44a0187d603"
+        },
+        {
+          "type": "email.send",
+          "title": "Approve email outreach to Saocorp",
+          "payload": {
+            "prospect_id": "saocorp",
+            "company": "Saocorp",
+            "channel": "email",
+            "destination": "info@saocorp.africa",
+            "subject": "Saocorp site credibility QA note",
+            "body": "Hello Saocorp team, I reviewed your market-entry site today. The Nigeria and Germany positioning is useful for foreign-company buyers, but several homepage/footer blocks repeat and the Germany office address appears as Postdam. BridgeWorks can help clean the buyer-facing route so the credibility of the advisory offer comes through more clearly.",
+            "commercial_gap": "Foreign businesses evaluating Africa market-entry advice see repeated homepage/footer blocks and a visible misspelling in the Germany office address before scheduling.",
+            "proof_to_use": "BridgeWorks market-entry credibility and contact-page QA.",
+            "risk_notes": "No named decision-maker verified. Use general company inbox only.",
+            "source_urls": [
+              "https://saocorp.africa/"
+            ],
+            "packet_path": "C:\\Users\\User\\Projects\\bridgeworks-workspace\\operations\\client-acquisition-engine\\research\\prospect-operations\\review\\packets\\2026-08-20-batch-01-approval-review.md",
+            "result_path": "C:\\Users\\User\\Projects\\bridgeworks-workspace\\operations\\client-acquisition-engine\\research\\prospect-operations\\results\\2026-08-20-batch-01-results.json",
+            "approval_scope": "Approving authorizes only this exact destination, subject, and body."
+          },
+          "dedupe_key": "prospect-external:saocorp:ad1eb44a0187d603"
+        }
+      ],
+      "research_followups": [],
+      "policy_version": 2,
+      "prepared_at": "2026-08-20T09:59:41+00:00"
+    },
+    "2026-08-21-batch-01": {
+      "batch_id": "2026-08-21-batch-01",
+      "result_path": "C:\\Users\\User\\Projects\\bridgeworks-workspace\\operations\\client-acquisition-engine\\research\\prospect-operations\\results\\2026-08-21-batch-01-results.json",
+      "result_sha256": "7b18b38e0bfc90bccb90c0d81fcbeb74a413690527700161ac331cf14f0f99b6",
+      "packet_path": "C:\\Users\\User\\Projects\\bridgeworks-workspace\\operations\\client-acquisition-engine\\research\\prospect-operations\\review\\packets\\2026-08-21-batch-01-approval-review.md",
+      "counts": {
+        "awaiting_mobile_approval": 2
+      },
+      "external_tasks": [
+        {
+          "type": "email.send",
+          "title": "Approve email outreach to Westbridge Legal & Trade Ltd",
+          "payload": {
+            "prospect_id": "westbridge-legal-trade-ltd",
+            "company": "Westbridge Legal & Trade Ltd",
+            "channel": "email",
+            "destination": "info@westbridgelegaltrade.com.ng",
+            "subject": "Westbridge consultation route note",
+            "body": "Hello Westbridge Legal & Trade team, I reviewed your site today. The Europe and West Africa legal-trade positioning is clear. One practical issue stood out: immigration, customs, NAFDAC, SONCAP, tenancy, and market-entry buyers all reach the same generic contact route. BridgeWorks can help turn that into a clearer service-specific enquiry path, so the right buyer intent is captured before the first reply.",
+            "commercial_gap": "Foreign companies and importers are shown many regulated legal-trade services, but the consultation route does not visibly sort the buyer by service need before submission.",
+            "proof_to_use": "BridgeWorks consultation-route and service-segmentation QA.",
+            "risk_notes": "No named public decision-maker verified. Use the company inbox only. Do not send without approval.",
+            "source_urls": [
+              "https://www.westbridgelegaltrade.com.ng/"
+            ],
+            "packet_path": "C:\\Users\\User\\Projects\\bridgeworks-workspace\\operations\\client-acquisition-engine\\research\\prospect-operations\\review\\packets\\2026-08-21-batch-01-approval-review.md",
+            "result_path": "C:\\Users\\User\\Projects\\bridgeworks-workspace\\operations\\client-acquisition-engine\\research\\prospect-operations\\results\\2026-08-21-batch-01-results.json",
+            "approval_scope": "Approving authorizes only this exact destination, subject, and body."
+          },
+          "dedupe_key": "prospect-external:westbridge-legal-trade-ltd:7b18b38e0bfc90bc"
+        },
+        {
+          "type": "email.send",
+          "title": "Approve email outreach to ZMastery",
+          "payload": {
+            "prospect_id": "zmastery",
+            "company": "ZMastery",
+            "channel": "email",
+            "destination": "info@zmastery.com",
+            "subject": "ZMastery contact route consistency note",
+            "body": "Hello ZMastery team, I reviewed your site today. The Africa iGaming SEO offer, paid audits, and strategy-call route are clear. One conversion detail stood out: the contact section points buyers to info@zmastery.com, while the footer shows contact@zmastery.com. For a paid-audit buyer, that split can create doubt at the moment they are ready to act. BridgeWorks can help tighten that route.",
+            "commercial_gap": "A paid-audit buyer is asked to book or start a paid audit, but the public journey shows two different company email routes across the contact area and footer.",
+            "proof_to_use": "BridgeWorks contact-route consistency and conversion QA.",
+            "risk_notes": "Named leaders were verified publicly, but the prepared route should stay on the company inbox. Do not use personal channels or send without approval.",
+            "source_urls": [
+              "https://www.zmastery.com/",
+              "https://www.zmastery.com/p/our-team.html"
+            ],
+            "packet_path": "C:\\Users\\User\\Projects\\bridgeworks-workspace\\operations\\client-acquisition-engine\\research\\prospect-operations\\review\\packets\\2026-08-21-batch-01-approval-review.md",
+            "result_path": "C:\\Users\\User\\Projects\\bridgeworks-workspace\\operations\\client-acquisition-engine\\research\\prospect-operations\\results\\2026-08-21-batch-01-results.json",
+            "approval_scope": "Approving authorizes only this exact destination, subject, and body."
+          },
+          "dedupe_key": "prospect-external:zmastery:7b18b38e0bfc90bc"
+        }
+      ],
+      "research_followups": [],
+      "policy_version": 2,
+      "prepared_at": "2026-08-21T16:29:10+00:00"
     }
   },
   "items": {
@@ -726,6 +1443,346 @@
       "reason": "Exact destination and proposed copy passed the local preparation contract.",
       "result_path": "C:\\Users\\User\\Projects\\bridgeworks-workspace\\operations\\client-acquisition-engine\\research\\prospect-operations\\results\\2026-08-03-batch-01-results.json",
       "updated_at": "2026-08-03T10:21:09+00:00"
+    },
+    "2026-08-05-batch-01:premier-fm": {
+      "batch_id": "2026-08-05-batch-01",
+      "prospect_id": "premier-fm",
+      "company": "Premier FM",
+      "research_status": "verified",
+      "review_status": "awaiting_mobile_approval",
+      "reason": "Exact destination and proposed copy passed the local preparation contract.",
+      "result_path": "C:\\Users\\User\\Projects\\bridgeworks-workspace\\operations\\client-acquisition-engine\\research\\prospect-operations\\results\\2026-08-05-batch-01-results.json",
+      "updated_at": "2026-08-09T05:53:27+00:00"
+    },
+    "2026-08-05-batch-01:apex-outsourcing-and-logistics-company-ltd": {
+      "batch_id": "2026-08-05-batch-01",
+      "prospect_id": "apex-outsourcing-and-logistics-company-ltd",
+      "company": "Apex Outsourcing and Logistics Company Ltd",
+      "research_status": "verified",
+      "review_status": "needs_more_evidence",
+      "reason": "Find a current Apex commercial trigger, such as an active hiring, procurement, outsourcing, client-acquisition, or management-consultancy initiative, before drafting any approval action.",
+      "result_path": "C:\\Users\\User\\Projects\\bridgeworks-workspace\\operations\\client-acquisition-engine\\research\\prospect-operations\\results\\2026-08-05-batch-01-results.json",
+      "updated_at": "2026-08-09T05:53:27+00:00"
+    },
+    "2026-08-05-batch-01:bepelog-kft": {
+      "batch_id": "2026-08-05-batch-01",
+      "prospect_id": "bepelog-kft",
+      "company": "BEPELOG Kft",
+      "research_status": "verified",
+      "review_status": "awaiting_mobile_approval",
+      "reason": "Exact destination and proposed copy passed the local preparation contract.",
+      "result_path": "C:\\Users\\User\\Projects\\bridgeworks-workspace\\operations\\client-acquisition-engine\\research\\prospect-operations\\results\\2026-08-05-batch-01-results.json",
+      "updated_at": "2026-08-09T05:53:27+00:00"
+    },
+    "2026-08-05-batch-01:bv-integrated-ltd": {
+      "batch_id": "2026-08-05-batch-01",
+      "prospect_id": "bv-integrated-ltd",
+      "company": "BV Integrated Ltd",
+      "research_status": "verified",
+      "review_status": "awaiting_mobile_approval",
+      "reason": "Exact destination and proposed copy passed the local preparation contract.",
+      "result_path": "C:\\Users\\User\\Projects\\bridgeworks-workspace\\operations\\client-acquisition-engine\\research\\prospect-operations\\results\\2026-08-05-batch-01-results.json",
+      "updated_at": "2026-08-09T05:53:27+00:00"
+    },
+    "2026-08-05-batch-01:daraja-africa-eu": {
+      "batch_id": "2026-08-05-batch-01",
+      "prospect_id": "daraja-africa-eu",
+      "company": "DARAJA Africa-EU",
+      "research_status": "verified",
+      "review_status": "awaiting_mobile_approval",
+      "reason": "Exact destination and proposed copy passed the local preparation contract.",
+      "result_path": "C:\\Users\\User\\Projects\\bridgeworks-workspace\\operations\\client-acquisition-engine\\research\\prospect-operations\\results\\2026-08-05-batch-01-results.json",
+      "updated_at": "2026-08-09T05:53:27+00:00"
+    },
+    "2026-08-05-batch-01:gbs-africa": {
+      "batch_id": "2026-08-05-batch-01",
+      "prospect_id": "gbs-africa",
+      "company": "GBS Africa",
+      "research_status": "verified",
+      "review_status": "awaiting_mobile_approval",
+      "reason": "Exact destination and proposed copy passed the local preparation contract.",
+      "result_path": "C:\\Users\\User\\Projects\\bridgeworks-workspace\\operations\\client-acquisition-engine\\research\\prospect-operations\\results\\2026-08-05-batch-01-results.json",
+      "updated_at": "2026-08-09T05:53:27+00:00"
+    },
+    "2026-08-05-batch-01:kunbase-kft": {
+      "batch_id": "2026-08-05-batch-01",
+      "prospect_id": "kunbase-kft",
+      "company": "Kunbase Kft",
+      "research_status": "verified",
+      "review_status": "awaiting_mobile_approval",
+      "reason": "Exact destination and proposed copy passed the local preparation contract.",
+      "result_path": "C:\\Users\\User\\Projects\\bridgeworks-workspace\\operations\\client-acquisition-engine\\research\\prospect-operations\\results\\2026-08-05-batch-01-results.json",
+      "updated_at": "2026-08-09T05:53:27+00:00"
+    },
+    "2026-08-05-batch-01:rideflow": {
+      "batch_id": "2026-08-05-batch-01",
+      "prospect_id": "rideflow",
+      "company": "Rideflow",
+      "research_status": "verified",
+      "review_status": "awaiting_mobile_approval",
+      "reason": "Exact destination and proposed copy passed the local preparation contract.",
+      "result_path": "C:\\Users\\User\\Projects\\bridgeworks-workspace\\operations\\client-acquisition-engine\\research\\prospect-operations\\results\\2026-08-05-batch-01-results.json",
+      "updated_at": "2026-08-09T05:53:27+00:00"
+    },
+    "2026-08-11-batch-01:arc-solutions-limited": {
+      "batch_id": "2026-08-11-batch-01",
+      "prospect_id": "arc-solutions-limited",
+      "company": "Arc Solutions Limited",
+      "research_status": "verified",
+      "review_status": "awaiting_mobile_approval",
+      "reason": "Exact destination and proposed copy passed the local preparation contract.",
+      "result_path": "C:\\Users\\User\\Projects\\bridgeworks-workspace\\operations\\client-acquisition-engine\\research\\prospect-operations\\results\\2026-08-11-batch-01-results.json",
+      "updated_at": "2026-08-11T07:16:32+00:00"
+    },
+    "2026-08-11-batch-01:geneto-facility-management-company": {
+      "batch_id": "2026-08-11-batch-01",
+      "prospect_id": "geneto-facility-management-company",
+      "company": "Geneto Facility Management Company",
+      "research_status": "verified",
+      "review_status": "awaiting_mobile_approval",
+      "reason": "Exact destination and proposed copy passed the local preparation contract.",
+      "result_path": "C:\\Users\\User\\Projects\\bridgeworks-workspace\\operations\\client-acquisition-engine\\research\\prospect-operations\\results\\2026-08-11-batch-01-results.json",
+      "updated_at": "2026-08-11T07:16:32+00:00"
+    },
+    "2026-08-11-batch-01:greenleaf-engineering": {
+      "batch_id": "2026-08-11-batch-01",
+      "prospect_id": "greenleaf-engineering",
+      "company": "Greenleaf Engineering",
+      "research_status": "verified",
+      "review_status": "awaiting_mobile_approval",
+      "reason": "Exact destination and proposed copy passed the local preparation contract.",
+      "result_path": "C:\\Users\\User\\Projects\\bridgeworks-workspace\\operations\\client-acquisition-engine\\research\\prospect-operations\\results\\2026-08-11-batch-01-results.json",
+      "updated_at": "2026-08-11T07:16:32+00:00"
+    },
+    "2026-08-11-batch-01:eloria-consult": {
+      "batch_id": "2026-08-11-batch-01",
+      "prospect_id": "eloria-consult",
+      "company": "Eloria Consult",
+      "research_status": "verified",
+      "review_status": "awaiting_mobile_approval",
+      "reason": "Exact destination and proposed copy passed the local preparation contract.",
+      "result_path": "C:\\Users\\User\\Projects\\bridgeworks-workspace\\operations\\client-acquisition-engine\\research\\prospect-operations\\results\\2026-08-11-batch-01-results.json",
+      "updated_at": "2026-08-11T07:16:32+00:00"
+    },
+    "2026-08-11-batch-01:green-facilities-limited": {
+      "batch_id": "2026-08-11-batch-01",
+      "prospect_id": "green-facilities-limited",
+      "company": "Green Facilities Limited",
+      "research_status": "verified",
+      "review_status": "awaiting_mobile_approval",
+      "reason": "Exact destination and proposed copy passed the local preparation contract.",
+      "result_path": "C:\\Users\\User\\Projects\\bridgeworks-workspace\\operations\\client-acquisition-engine\\research\\prospect-operations\\results\\2026-08-11-batch-01-results.json",
+      "updated_at": "2026-08-11T07:16:32+00:00"
+    },
+    "2026-08-11-batch-01:intamaco-nigeria-limited": {
+      "batch_id": "2026-08-11-batch-01",
+      "prospect_id": "intamaco-nigeria-limited",
+      "company": "INTAMACO Nigeria Limited",
+      "research_status": "verified",
+      "review_status": "needs_more_evidence",
+      "reason": "Find a current INTAMACO commercial trigger such as an active project, hiring, tender, service expansion, or measurable consultation-route failure before preparing external copy.",
+      "result_path": "C:\\Users\\User\\Projects\\bridgeworks-workspace\\operations\\client-acquisition-engine\\research\\prospect-operations\\results\\2026-08-11-batch-01-results.json",
+      "updated_at": "2026-08-11T07:16:32+00:00"
+    },
+    "2026-08-11-batch-01:provast-limited": {
+      "batch_id": "2026-08-11-batch-01",
+      "prospect_id": "provast-limited",
+      "company": "Provast Limited",
+      "research_status": "verified",
+      "review_status": "awaiting_mobile_approval",
+      "reason": "Exact destination and proposed copy passed the local preparation contract.",
+      "result_path": "C:\\Users\\User\\Projects\\bridgeworks-workspace\\operations\\client-acquisition-engine\\research\\prospect-operations\\results\\2026-08-11-batch-01-results.json",
+      "updated_at": "2026-08-11T07:16:32+00:00"
+    },
+    "2026-08-11-batch-01:safe-facilities-management-limited": {
+      "batch_id": "2026-08-11-batch-01",
+      "prospect_id": "safe-facilities-management-limited",
+      "company": "SAFE Facilities Management Limited",
+      "research_status": "verified",
+      "review_status": "needs_more_evidence",
+      "reason": "Verify whether Book Consultation, Emergency Contact, and SAFE APP/service-monitoring routes have concrete current failure or missing proof before preparing external copy.",
+      "result_path": "C:\\Users\\User\\Projects\\bridgeworks-workspace\\operations\\client-acquisition-engine\\research\\prospect-operations\\results\\2026-08-11-batch-01-results.json",
+      "updated_at": "2026-08-11T07:16:32+00:00"
+    },
+    "2026-08-17-batch-01:budapest-sky-property-management": {
+      "batch_id": "2026-08-17-batch-01",
+      "prospect_id": "budapest-sky-property-management",
+      "company": "Budapest Sky Property Management",
+      "research_status": "verified",
+      "review_status": "awaiting_mobile_approval",
+      "reason": "Exact destination and proposed copy passed the local preparation contract.",
+      "result_path": "C:\\Users\\User\\Projects\\bridgeworks-workspace\\operations\\client-acquisition-engine\\research\\prospect-operations\\results\\2026-08-17-batch-01-results.json",
+      "updated_at": "2026-08-17T07:19:49+00:00"
+    },
+    "2026-08-17-batch-01:mri-investments-ltd": {
+      "batch_id": "2026-08-17-batch-01",
+      "prospect_id": "mri-investments-ltd",
+      "company": "MRI Investments Ltd",
+      "research_status": "verified",
+      "review_status": "awaiting_mobile_approval",
+      "reason": "Exact destination and proposed copy passed the local preparation contract.",
+      "result_path": "C:\\Users\\User\\Projects\\bridgeworks-workspace\\operations\\client-acquisition-engine\\research\\prospect-operations\\results\\2026-08-17-batch-01-results.json",
+      "updated_at": "2026-08-17T07:19:49+00:00"
+    },
+    "2026-08-17-batch-01:stretford-hill-limited": {
+      "batch_id": "2026-08-17-batch-01",
+      "prospect_id": "stretford-hill-limited",
+      "company": "Stretford Hill Limited",
+      "research_status": "verified",
+      "review_status": "awaiting_mobile_approval",
+      "reason": "Exact destination and proposed copy passed the local preparation contract.",
+      "result_path": "C:\\Users\\User\\Projects\\bridgeworks-workspace\\operations\\client-acquisition-engine\\research\\prospect-operations\\results\\2026-08-17-batch-01-results.json",
+      "updated_at": "2026-08-17T07:19:49+00:00"
+    },
+    "2026-08-17-batch-01:tech-fm-kft": {
+      "batch_id": "2026-08-17-batch-01",
+      "prospect_id": "tech-fm-kft",
+      "company": "TECH FM Kft.",
+      "research_status": "verified",
+      "review_status": "awaiting_mobile_approval",
+      "reason": "Exact destination and proposed copy passed the local preparation contract.",
+      "result_path": "C:\\Users\\User\\Projects\\bridgeworks-workspace\\operations\\client-acquisition-engine\\research\\prospect-operations\\results\\2026-08-17-batch-01-results.json",
+      "updated_at": "2026-08-17T07:19:49+00:00"
+    },
+    "2026-08-17-batch-01:eurafrica-partners": {
+      "batch_id": "2026-08-17-batch-01",
+      "prospect_id": "eurafrica-partners",
+      "company": "EurAfrica Partners",
+      "research_status": "verified",
+      "review_status": "awaiting_mobile_approval",
+      "reason": "Exact destination and proposed copy passed the local preparation contract.",
+      "result_path": "C:\\Users\\User\\Projects\\bridgeworks-workspace\\operations\\client-acquisition-engine\\research\\prospect-operations\\results\\2026-08-17-batch-01-results.json",
+      "updated_at": "2026-08-17T07:19:49+00:00"
+    },
+    "2026-08-17-batch-01:euro-afri-link": {
+      "batch_id": "2026-08-17-batch-01",
+      "prospect_id": "euro-afri-link",
+      "company": "Euro Afri Link",
+      "research_status": "verified",
+      "review_status": "needs_more_evidence",
+      "reason": "Check the Book Consultation route and relevant service pages for one concrete current conversion, proof, or segmentation issue before preparing external copy.",
+      "result_path": "C:\\Users\\User\\Projects\\bridgeworks-workspace\\operations\\client-acquisition-engine\\research\\prospect-operations\\results\\2026-08-17-batch-01-results.json",
+      "updated_at": "2026-08-17T07:19:49+00:00"
+    },
+    "2026-08-17-batch-01:global-law-consultancy": {
+      "batch_id": "2026-08-17-batch-01",
+      "prospect_id": "global-law-consultancy",
+      "company": "Global Law Consultancy",
+      "research_status": "verified",
+      "review_status": "awaiting_mobile_approval",
+      "reason": "Exact destination and proposed copy passed the local preparation contract.",
+      "result_path": "C:\\Users\\User\\Projects\\bridgeworks-workspace\\operations\\client-acquisition-engine\\research\\prospect-operations\\results\\2026-08-17-batch-01-results.json",
+      "updated_at": "2026-08-17T07:19:49+00:00"
+    },
+    "2026-08-17-batch-01:ruxton-consultancy": {
+      "batch_id": "2026-08-17-batch-01",
+      "prospect_id": "ruxton-consultancy",
+      "company": "Ruxton Consultancy",
+      "research_status": "verified",
+      "review_status": "awaiting_mobile_approval",
+      "reason": "Exact destination and proposed copy passed the local preparation contract.",
+      "result_path": "C:\\Users\\User\\Projects\\bridgeworks-workspace\\operations\\client-acquisition-engine\\research\\prospect-operations\\results\\2026-08-17-batch-01-results.json",
+      "updated_at": "2026-08-17T07:19:49+00:00"
+    },
+    "2026-08-20-batch-01:ridgewell-construction-co-ltd": {
+      "batch_id": "2026-08-20-batch-01",
+      "prospect_id": "ridgewell-construction-co-ltd",
+      "company": "Ridgewell Construction Co. Ltd",
+      "research_status": "verified",
+      "review_status": "awaiting_mobile_approval",
+      "reason": "Exact destination and proposed copy passed the local preparation contract.",
+      "result_path": "C:\\Users\\User\\Projects\\bridgeworks-workspace\\operations\\client-acquisition-engine\\research\\prospect-operations\\results\\2026-08-20-batch-01-results.json",
+      "updated_at": "2026-08-20T09:59:41+00:00"
+    },
+    "2026-08-20-batch-01:aceceros-technology-limited": {
+      "batch_id": "2026-08-20-batch-01",
+      "prospect_id": "aceceros-technology-limited",
+      "company": "Aceceros Technology Limited",
+      "research_status": "verified",
+      "review_status": "awaiting_mobile_approval",
+      "reason": "Exact destination and proposed copy passed the local preparation contract.",
+      "result_path": "C:\\Users\\User\\Projects\\bridgeworks-workspace\\operations\\client-acquisition-engine\\research\\prospect-operations\\results\\2026-08-20-batch-01-results.json",
+      "updated_at": "2026-08-20T09:59:41+00:00"
+    },
+    "2026-08-20-batch-01:crestcore-structures": {
+      "batch_id": "2026-08-20-batch-01",
+      "prospect_id": "crestcore-structures",
+      "company": "CrestCore Structures",
+      "research_status": "verified",
+      "review_status": "awaiting_mobile_approval",
+      "reason": "Exact destination and proposed copy passed the local preparation contract.",
+      "result_path": "C:\\Users\\User\\Projects\\bridgeworks-workspace\\operations\\client-acquisition-engine\\research\\prospect-operations\\results\\2026-08-20-batch-01-results.json",
+      "updated_at": "2026-08-20T09:59:41+00:00"
+    },
+    "2026-08-20-batch-01:eudoxia-nigeria-limited": {
+      "batch_id": "2026-08-20-batch-01",
+      "prospect_id": "eudoxia-nigeria-limited",
+      "company": "Eudoxia Nigeria Limited",
+      "research_status": "verified",
+      "review_status": "needs_more_evidence",
+      "reason": "Research Afridecis pages directly and hold unless a concrete product-route, pricing, proof, or conversion gap is verified.",
+      "result_path": "C:\\Users\\User\\Projects\\bridgeworks-workspace\\operations\\client-acquisition-engine\\research\\prospect-operations\\results\\2026-08-20-batch-01-results.json",
+      "updated_at": "2026-08-20T09:59:41+00:00"
+    },
+    "2026-08-20-batch-01:nexgen-business-advisors-ltd": {
+      "batch_id": "2026-08-20-batch-01",
+      "prospect_id": "nexgen-business-advisors-ltd",
+      "company": "NexGen Business Advisors Ltd",
+      "research_status": "verified",
+      "review_status": "awaiting_mobile_approval",
+      "reason": "Exact destination and proposed copy passed the local preparation contract.",
+      "result_path": "C:\\Users\\User\\Projects\\bridgeworks-workspace\\operations\\client-acquisition-engine\\research\\prospect-operations\\results\\2026-08-20-batch-01-results.json",
+      "updated_at": "2026-08-20T09:59:41+00:00"
+    },
+    "2026-08-20-batch-01:okateun-solutions-ltd": {
+      "batch_id": "2026-08-20-batch-01",
+      "prospect_id": "okateun-solutions-ltd",
+      "company": "Okateun Solutions Ltd",
+      "research_status": "verified",
+      "review_status": "needs_more_evidence",
+      "reason": "Research deeper service/contact pages or recent public activity. Hold unless a current conversion, proof, or trust issue is stronger than an old footer year.",
+      "result_path": "C:\\Users\\User\\Projects\\bridgeworks-workspace\\operations\\client-acquisition-engine\\research\\prospect-operations\\results\\2026-08-20-batch-01-results.json",
+      "updated_at": "2026-08-20T09:59:41+00:00"
+    },
+    "2026-08-20-batch-01:pia-legal-services": {
+      "batch_id": "2026-08-20-batch-01",
+      "prospect_id": "pia-legal-services",
+      "company": "PIA Legal Services",
+      "research_status": "verified",
+      "review_status": "awaiting_mobile_approval",
+      "reason": "Exact destination and proposed copy passed the local preparation contract.",
+      "result_path": "C:\\Users\\User\\Projects\\bridgeworks-workspace\\operations\\client-acquisition-engine\\research\\prospect-operations\\results\\2026-08-20-batch-01-results.json",
+      "updated_at": "2026-08-20T09:59:41+00:00"
+    },
+    "2026-08-20-batch-01:saocorp": {
+      "batch_id": "2026-08-20-batch-01",
+      "prospect_id": "saocorp",
+      "company": "Saocorp",
+      "research_status": "verified",
+      "review_status": "awaiting_mobile_approval",
+      "reason": "Exact destination and proposed copy passed the local preparation contract.",
+      "result_path": "C:\\Users\\User\\Projects\\bridgeworks-workspace\\operations\\client-acquisition-engine\\research\\prospect-operations\\results\\2026-08-20-batch-01-results.json",
+      "updated_at": "2026-08-20T09:59:41+00:00"
+    },
+    "2026-08-21-batch-01:westbridge-legal-trade-ltd": {
+      "batch_id": "2026-08-21-batch-01",
+      "prospect_id": "westbridge-legal-trade-ltd",
+      "company": "Westbridge Legal & Trade Ltd",
+      "research_status": "verified",
+      "review_status": "awaiting_mobile_approval",
+      "reason": "Exact destination and proposed copy passed the local preparation contract.",
+      "result_path": "C:\\Users\\User\\Projects\\bridgeworks-workspace\\operations\\client-acquisition-engine\\research\\prospect-operations\\results\\2026-08-21-batch-01-results.json",
+      "updated_at": "2026-08-21T16:29:10+00:00"
+    },
+    "2026-08-21-batch-01:zmastery": {
+      "batch_id": "2026-08-21-batch-01",
+      "prospect_id": "zmastery",
+      "company": "ZMastery",
+      "research_status": "verified",
+      "review_status": "awaiting_mobile_approval",
+      "reason": "Exact destination and proposed copy passed the local preparation contract.",
+      "result_path": "C:\\Users\\User\\Projects\\bridgeworks-workspace\\operations\\client-acquisition-engine\\research\\prospect-operations\\results\\2026-08-21-batch-01-results.json",
+      "updated_at": "2026-08-21T16:29:10+00:00"
     }
   }
 }

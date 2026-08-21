@@ -1,0 +1,19 @@
+{
+  "qualification_id": "premier-fm-qualification-v1-reconciled-2026-08-11",
+  "prospect_id": "premier-fm",
+  "qualification_version": "qualification-v1",
+  "score": 70,
+  "tier": "STRONG",
+  "actionability": "actionable",
+  "score_changed": false,
+  "component_scores": {"problem_evidence": 25, "commercial_fit": 0, "buyer_accessibility": 15, "trigger_urgency": 15, "proof_fit": 15, "execution_readiness": 0},
+  "qualification_coverage": {"percentage": 100.0, "sufficiently_researched_dimensions": 6, "missing_dimensions": [], "verified_negative_dimensions": ["commercial_fit", "execution_readiness"], "exhausted_unknown_dimensions": []},
+  "buyer_accessibility": {"score": 15, "name": "Lékó Péter", "role": "Értékesítési vezető", "role_translation": "Sales Manager", "email": "leko.peter@premierfm.hu", "signing_authority": "exhausted_unknown", "evidence_id": "ca-pfm-4"},
+  "proof_fit": {"score": 15, "proof_asset_id": "oliviks-foundation-2026-07-24"},
+  "primary_route": "digital-platforms-brand",
+  "diagnostic_id": "client-audit:premierfm.hu:2026-08-11",
+  "diagnostic_status": "complete",
+  "valid_approval_packet_id": null,
+  "superseded_pre_gate_artifacts_remain_non_executable": true,
+  "external_action_authorized": false
+}

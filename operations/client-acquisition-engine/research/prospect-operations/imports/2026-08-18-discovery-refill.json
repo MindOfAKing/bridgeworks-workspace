@@ -1,0 +1,214 @@
+{
+  "prospects": [
+    {
+      "company": "Ridgewell Construction Co. Ltd",
+      "website": "https://ridgewell.com.ng/service/facility-management/",
+      "city": "Lagos",
+      "country": "Nigeria",
+      "sector": "Construction, real estate development, and facility management",
+      "lane": "Lane D Nigeria growth businesses",
+      "source": "Current public web discovery on 2026-08-18; local source/prior artifact checks, exact HubSpot domain/contact checks, and Gmail exact domain/email checks returned no matches.",
+      "evidence_urls": [
+        "https://ridgewell.com.ng/service/facility-management/"
+      ],
+      "checked_at": "2026-08-18",
+      "contact_name": "",
+      "contact_role": "",
+      "contact_url": "https://ridgewell.com.ng/service/facility-management/",
+      "email": "info@ridgewell.com.ng",
+      "trigger_observation": "Owned facility-management service page presents Lagos office details and 2026 footer, but the service copy contains repeated broken phrases and unrelated placeholder-style office details before the Nigeria head office block.",
+      "proof_to_use": "BridgeWorks service-page credibility QA and buyer trust cleanup only if the current page still shows broken service copy.",
+      "next_action": "Research current facility-management service route, contact page, proof assets, exact recipient, and duplicate-contact risk; hold unless one current buyer-trust gap is verified.",
+      "notes": "Public source lists Lagos address, multiple phone lines, info@ridgewell.com.ng, and Ridgewell Construction Co. Ltd 2026 footer."
+    },
+    {
+      "company": "Okateun Solutions Ltd",
+      "website": "https://okateun.com/",
+      "city": "Lagos",
+      "country": "Nigeria",
+      "sector": "Import, export, distribution, freight, customs brokerage, and sourcing",
+      "lane": "Lane D Nigeria growth businesses",
+      "source": "Current public web discovery on 2026-08-18; local source/prior artifact checks, exact HubSpot domain/contact checks, and Gmail exact domain/email checks returned no matches.",
+      "evidence_urls": [
+        "https://okateun.com/"
+      ],
+      "checked_at": "2026-08-18",
+      "contact_name": "",
+      "contact_role": "",
+      "contact_url": "https://okateun.com/",
+      "email": "info@okateun.com",
+      "trigger_observation": "Owned site presents Lagos contact details, logistics and sourcing services, and trade testimonials, while the public footer still shows 2025 and the testimonials should be checked for proof specificity before outreach.",
+      "proof_to_use": "BridgeWorks logistics buyer-trust and public-proof review only if a current proof or date inconsistency remains material.",
+      "next_action": "Research current homepage, services, testimonials, contact route, exact recipient, and duplicate-contact risk; hold unless the proof/date issue is current and commercial.",
+      "notes": "Public source lists +2348036533469, info@okateun.com, Lagos Nigeria, import/export management, customs brokerage, freight, and sourcing services."
+    },
+    {
+      "company": "NexGen Business Advisors Ltd",
+      "website": "https://www.nextgenadvisorsltd.com/",
+      "city": "Lagos",
+      "country": "Nigeria",
+      "sector": "Business setup, compliance, accounting, tax, strategy, and financial advisory",
+      "lane": "Lane D Nigeria growth businesses",
+      "source": "Current public web discovery on 2026-08-18; local source/prior artifact checks, exact HubSpot domain/contact checks, and Gmail exact domain/email checks returned no matches.",
+      "evidence_urls": [
+        "https://www.nextgenadvisorsltd.com/"
+      ],
+      "checked_at": "2026-08-18",
+      "contact_name": "",
+      "contact_role": "",
+      "contact_url": "https://www.nextgenadvisorsltd.com/",
+      "email": "info@nextgenadvisors.com",
+      "trigger_observation": "Public search snapshot shows the owned site positioning for diaspora investors and foreign corporations, but the contact email uses nextgenadvisors.com while the public website is nextgenadvisorsltd.com and testimonial blocks appear repeated.",
+      "proof_to_use": "BridgeWorks contact-route consistency and advisory proof QA only if the domain split or repeated testimonial block remains current.",
+      "next_action": "Research current homepage/contact route, email-domain split, testimonials, services, exact recipient, and duplicate-contact risk; hold unless the route or proof issue is verified.",
+      "notes": "Public source lists Lagos, +234 803 734 5051, info@nextgenadvisors.com, and advisory services for market entry, accounting, tax, and compliance."
+    },
+    {
+      "company": "Westbridge Legal & Trade Ltd",
+      "website": "https://www.westbridgelegaltrade.com.ng/",
+      "city": "Lagos",
+      "country": "Nigeria",
+      "sector": "Legal, corporate, market-entry, customs, NAFDAC, SONCAP, and trade advisory",
+      "lane": "Lane D Nigeria growth businesses",
+      "source": "Current public web discovery on 2026-08-18; local source/prior artifact checks, exact HubSpot domain/contact checks, and Gmail exact domain/email checks returned no matches.",
+      "evidence_urls": [
+        "https://www.westbridgelegaltrade.com.ng/"
+      ],
+      "checked_at": "2026-08-18",
+      "contact_name": "",
+      "contact_role": "",
+      "contact_url": "https://www.westbridgelegaltrade.com.ng/",
+      "email": "info@westbridgelegaltrade.com.ng",
+      "trigger_observation": "Owned site presents a clear Europe and West Africa legal-trade offer, response promise, and Lagos contact route, while the long service list should be checked for whether the consultation path maps prospects to the right high-intent service.",
+      "proof_to_use": "BridgeWorks consultation-route and service-segmentation QA only if a current buyer-path issue is verified.",
+      "next_action": "Research current consultation route, service navigation, contact form, exact recipient, and duplicate-contact risk; hold if no concrete route gap is found.",
+      "notes": "Public source lists Lekki Phase 1, info@westbridgelegaltrade.com.ng, response within 24 hours, and 2026 footer."
+    },
+    {
+      "company": "Eudoxia Nigeria Limited",
+      "website": "https://eudoxianigeria.com/",
+      "city": "Lagos",
+      "country": "Nigeria",
+      "sector": "Pan-African market entry, partnerships, stakeholder engagement, growth advisory, and executive intelligence",
+      "lane": "Lane D Nigeria growth businesses",
+      "source": "Current public web discovery on 2026-08-18; local source/prior artifact checks, exact HubSpot domain/contact checks, and Gmail exact domain/email checks returned no matches.",
+      "evidence_urls": [
+        "https://eudoxianigeria.com/"
+      ],
+      "checked_at": "2026-08-18",
+      "contact_name": "Opeyemi Adigun",
+      "contact_role": "Managing Director",
+      "contact_url": "https://eudoxianigeria.com/",
+      "email": "info@eudoxianigeria.com",
+      "trigger_observation": "Owned homepage presents Lagos contact details, named managing director, and a new Afridecis product, but the product section shifts into broad platform claims that need route and proof verification before any outreach.",
+      "proof_to_use": "BridgeWorks product-route credibility and executive-buyer proof QA only if a current route or proof gap is verified.",
+      "next_action": "Research current Afridecis route, consultation path, proof claims, exact recipient, and duplicate-contact risk; hold unless one current commercial gap is concrete.",
+      "notes": "Public source lists info@eudoxianigeria.com, +234 816 294 6163, Lagos, 2026 footer, and Opeyemi Adigun as Managing Director."
+    },
+    {
+      "company": "ZMastery",
+      "website": "https://www.zmastery.com/",
+      "city": "Lagos",
+      "country": "Nigeria",
+      "sector": "Africa iGaming SEO, market-entry SEO, audits, content, authority, and recruitment",
+      "lane": "Lane D Nigeria growth businesses",
+      "source": "Current public web discovery on 2026-08-18; local source/prior artifact checks, exact HubSpot domain/contact checks, and Gmail exact domain/email checks returned no matches.",
+      "evidence_urls": [
+        "https://www.zmastery.com/"
+      ],
+      "checked_at": "2026-08-18",
+      "contact_name": "",
+      "contact_role": "",
+      "contact_url": "https://www.zmastery.com/",
+      "email": "info@zmastery.com",
+      "trigger_observation": "Owned site presents paid audit, booking, WhatsApp, and iGaming SEO routes, but the contact section shows info@zmastery.com while the footer also shows contact@zmastery.com.",
+      "proof_to_use": "BridgeWorks contact-route consistency and conversion QA only if the split email route remains current.",
+      "next_action": "Research current contact, pricing, booking, payment CTA, proof routes, exact destination, and duplicate-contact risk; draft only if split routing is verified current.",
+      "notes": "Public source lists Lagos, info@zmastery.com, contact@zmastery.com, +234 816 604 2531, and paid audit routes."
+    },
+    {
+      "company": "CrestCore Structures",
+      "website": "https://crestcorestructures.com/contact",
+      "city": "Abuja / Lagos / Port Harcourt",
+      "country": "Nigeria",
+      "sector": "Prefabricated building solutions, engineering, development, and modular construction",
+      "lane": "Lane D Nigeria growth businesses",
+      "source": "Current public web discovery on 2026-08-18; local source/prior artifact checks, exact HubSpot domain/contact checks, and Gmail exact domain/email checks returned no matches.",
+      "evidence_urls": [
+        "https://crestcorestructures.com/contact"
+      ],
+      "checked_at": "2026-08-18",
+      "contact_name": "",
+      "contact_role": "",
+      "contact_url": "https://crestcorestructures.com/contact",
+      "email": "Info@CrestCoreStructures.com",
+      "trigger_observation": "Owned contact page presents Nigeria locations, phones, email, and a proposal promise, but the main contact heading renders as spaced-out letters and the contact section appears duplicated.",
+      "proof_to_use": "BridgeWorks contact-page rendering and proposal-route QA only if the current page still shows the duplicated or spaced-heading issue.",
+      "next_action": "Research current contact page rendering, proposal route, location proof, exact destination, and duplicate-contact risk; draft only if the buyer-route issue is verified current.",
+      "notes": "Public source lists Abuja, Lagos, Port Harcourt, 07067850420, 08067471800, Info@CrestCoreStructures.com, and 2026 footer."
+    },
+    {
+      "company": "Aceceros Technology Limited",
+      "website": "https://aceceros.com/",
+      "city": "Lagos",
+      "country": "Nigeria",
+      "sector": "Managed IT, cloud infrastructure, IT consulting, software development, and hardware deployment",
+      "lane": "Lane D Nigeria growth businesses",
+      "source": "Current public web discovery on 2026-08-18; local source/prior artifact checks, exact HubSpot domain/contact checks, and Gmail exact domain/email checks returned no matches.",
+      "evidence_urls": [
+        "https://aceceros.com/"
+      ],
+      "checked_at": "2026-08-18",
+      "contact_name": "",
+      "contact_role": "",
+      "contact_url": "https://aceceros.com/",
+      "email": "info@aceceros.com",
+      "trigger_observation": "Owned IT services site presents Lagos office details, support phone, and 2026 footer, but the blog area displays repeated no-post states and the FAQ includes unrelated municipality wording.",
+      "proof_to_use": "BridgeWorks IT buyer-page credibility and content-route QA only if the no-post or irrelevant FAQ issue remains current.",
+      "next_action": "Research current services, FAQ, blog/resource route, contact destination, exact recipient, and duplicate-contact risk; hold unless one current credibility gap is verified.",
+      "notes": "Public source lists 27A Ogunsami St, Surulere, Lagos, info@aceceros.com, (+234) 703 704 3443, managed IT and cloud infrastructure services."
+    },
+    {
+      "company": "PIA Legal Services",
+      "website": "https://pialegalservices.org/",
+      "city": "Ibadan / Lagos / Abuja",
+      "country": "Nigeria",
+      "sector": "Corporate counsel, contract lifecycle management, governance, compliance, and legal resources",
+      "lane": "Lane D Nigeria growth businesses",
+      "source": "Current public web discovery on 2026-08-18; local source/prior artifact checks, exact HubSpot domain/contact checks, and Gmail exact domain/email checks returned no matches.",
+      "evidence_urls": [
+        "https://pialegalservices.org/"
+      ],
+      "checked_at": "2026-08-18",
+      "contact_name": "Pretty Ifeoluwa Aderoju",
+      "contact_role": "Founder and Principal Counsel",
+      "contact_url": "https://pialegalservices.org/",
+      "email": "info@pialegalservices.org",
+      "trigger_observation": "Owned legal services site presents named principal counsel, consultation route, legal resources, and 2026 insight content, while homepage trust counters show 0+ matters closed, 0 jurisdictions, and 0% retention rate.",
+      "proof_to_use": "BridgeWorks legal-service credibility and public-proof QA only if the zero-counter issue remains current.",
+      "next_action": "Research current homepage proof counters, consultation route, legal resource store, exact recipient, and duplicate-contact risk; draft only if the zero counters are verified current.",
+      "notes": "Public source lists info@pialegalservices.org, +234 706 671 6542, Ibadan, Lagos, Abuja, and Pretty Ifeoluwa Aderoju as Founder and Principal Counsel."
+    },
+    {
+      "company": "Saocorp",
+      "website": "https://saocorp.africa/",
+      "city": "Lagos",
+      "country": "Nigeria",
+      "sector": "Market entry advisory and management consulting for foreign businesses entering African markets",
+      "lane": "Lane D Nigeria growth businesses",
+      "source": "Current public web discovery on 2026-08-18; local source/prior artifact checks, exact HubSpot domain/contact checks, and Gmail exact domain/email checks returned no matches.",
+      "evidence_urls": [
+        "https://saocorp.africa/"
+      ],
+      "checked_at": "2026-08-18",
+      "contact_name": "",
+      "contact_role": "",
+      "contact_url": "https://saocorp.africa/",
+      "email": "info@saocorp.africa",
+      "trigger_observation": "Owned site presents Nigeria and Germany offices plus market-entry services, but multiple homepage and footer blocks repeat and the Germany address renders Postdam instead of Potsdam.",
+      "proof_to_use": "BridgeWorks market-entry credibility and contact-page QA only if the duplicate footer/address issue remains current.",
+      "next_action": "Research current homepage rendering, appointment route, Nigeria/Germany contact routing, exact recipient, and duplicate-contact risk; hold unless the credibility issue is verified current.",
+      "notes": "Public source lists Lagos office, Germany office, info@saocorp.africa, +234-807-346-8780, +49-1525-9721728, and market-entry advisory."
+    }
+  ]
+}

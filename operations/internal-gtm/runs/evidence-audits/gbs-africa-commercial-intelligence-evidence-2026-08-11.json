@@ -1,0 +1,45 @@
+{
+  "audit_id": "gbs-africa-commercial-intelligence-evidence-2026-08-11",
+  "capability": "evidence-auditor",
+  "prospect_id": "gbs-africa",
+  "runtime": "codex",
+  "audited_at": "2026-08-11T15:32:27.7459420Z",
+  "source_intelligence": "operations/internal-gtm/runs/intelligence/gbs-africa-commercial-intelligence-2026-08-11.json",
+  "source_intelligence_sha256": "f240daa4b6da20f2f2d9883dc7cd13f7799b9633bdca8e0105ed3a3e8c8c2697",
+  "classifications": {
+    "verified": ["ci-gbs-001", "ci-gbs-004", "ci-gbs-005", "ci-gbs-007", "ci-gbs-008"],
+    "observed": ["ci-gbs-002", "ci-gbs-003", "ci-gbs-006"],
+    "inferred": [],
+    "stale": [],
+    "contradicted": [],
+    "unknown": [],
+    "exhausted_unknown": ["commercial_value_band", "research_visibility_commercial_impact", "website_or_content_budget"]
+  },
+  "approved_finding_ids": ["ci-gbs-001", "ci-gbs-002", "ci-gbs-003", "ci-gbs-004", "ci-gbs-005", "ci-gbs-006", "ci-gbs-007", "ci-gbs-008"],
+  "claim_key_policy": "Each claim key expresses one exact proposition. Website operating activity and UK dormant-account filings are retained as separate facts because they can coexist under an unknown multi-office or multi-entity operating structure.",
+  "limitations": [
+    "Owned-site team, advisory-board and office scale is self-reported and was not employment-verified.",
+    "The accessible Companies House filing-history extract establishes dormant accounts through June 2024, not the nature of the June 2025 accounts.",
+    "No revenue, budget, contract value, buyer identity, signing authority, analytics or authenticated operational data was established.",
+    "The African Business Chamber source corroborates Agnes Gitau's external role and positioning, not GBS Africa revenue or client outcomes."
+  ],
+  "not_approved_as_fact": [
+    "That GBS Africa has nine employees or occupies both published offices.",
+    "That the UK dormant filings mean the wider advisory brand is inactive or has no revenue.",
+    "That improved citability will create enquiries, partnerships, contracts or revenue.",
+    "Any contract value, budget, procurement authority or named buyer.",
+    "That every published client logo represents a current engagement."
+  ],
+  "commercial_reasoning": {
+    "approved": true,
+    "statement": "The approved evidence supports moderate commercial fit and high execution readiness for a small research-citability pilot. Commercial impact remains unknown and cannot be promised."
+  },
+  "quality_gate": {
+    "provenance_present": true,
+    "self_reported_scale_labelled": true,
+    "registry_constraint_preserved": true,
+    "assumptions_not_promoted": true,
+    "unknowns_explicit": true,
+    "passes": true
+  }
+}

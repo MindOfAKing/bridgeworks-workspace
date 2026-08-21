@@ -1,0 +1,203 @@
+{
+  "prospect_id": "gbs-africa",
+  "company": "GBS Africa",
+  "website_url": "https://www.gbsafrica.co.uk/",
+  "source": "client-acquisition-engine:2026-08-05-batch-01-results.json",
+  "buyer": {
+    "name": null,
+    "role": null,
+    "email": "info@gbsafrica.co.uk"
+  },
+  "trigger": {
+    "type": "diagnostic_run",
+    "summary": "geo-audit run 2026-08-11 found the firm's research library is unciteable and its entity is unresolvable.",
+    "observed_at": "2026-08-11",
+    "source": "https://www.gbsafrica.co.uk/insights/"
+  },
+  "_provenance": {
+    "identity_from": "operations/internal-gtm/adapters/acquisition_engine.py, engine record 2026-08-05-batch-01-results.json",
+    "engine_outreach_readiness": "ready",
+    "contact_history": "absent from the canonical register, no contact column populated",
+    "diagnostic_from": "geo-audit orchestrator and its five subordinate agents, run 2026-08-11",
+    "why_geo_was_appropriate": "An advisory firm sells expertise that buyers research through AI answers. The reconnaissance found no robots.txt, no llms.txt, no sitemap.xml and no schema, so the hypothesis was testable rather than assumed."
+  },
+  "diagnostic": {
+    "capability": "geo-audit",
+    "run_id": "geo-audit:gbsafrica-2026-08-11",
+    "completed_at": "2026-08-11",
+    "score": 45,
+    "score_method": "citability 71 x 0.25 + brand 26 x 0.20 + eeat 51 x 0.20 + technical 57 x 0.15 + schema 0 x 0.10 + platform 34 x 0.10 = 45.1",
+    "subagent_scores": {
+      "ai_citability": 71,
+      "brand_authority": 26,
+      "content_eeat": 51,
+      "technical_geo": 57,
+      "schema": 0,
+      "platform_optimization": 34
+    },
+    "findings": [
+      {
+        "id": "geo-wikipedia",
+        "category": "ai_visibility",
+        "severity": "high",
+        "claim": "A Wikipedia API search returns no article for the firm under any of its trading names, so the strongest entity-recognition signal AI models use is absent.",
+        "value": "no_wikipedia_entity",
+        "source": "https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=GBS+Africa&format=json",
+        "observed_at": "2026-08-11",
+        "status": "verified"
+      },
+      {
+        "id": "geo-entity-collision",
+        "category": "ai_visibility",
+        "severity": "high",
+        "claim": "A separate live company trades as GBS Africa at gbsafrica.net and is also Nairobi-based, so AI systems have no disambiguation anchor for the London advisory firm.",
+        "value": "same_name_same_city_collision",
+        "source": "https://gbsafrica.net/",
+        "observed_at": "2026-08-11",
+        "status": "observed"
+      },
+      {
+        "id": "geo-llmstxt",
+        "category": "ai_visibility",
+        "severity": "medium",
+        "claim": "/llms.txt returns HTTP 404, so the site publishes no machine-readable summary of the firm, its services or its report library.",
+        "value": "llms_txt_absent",
+        "source": "https://www.gbsafrica.co.uk/llms.txt",
+        "observed_at": "2026-08-11",
+        "status": "verified"
+      },
+      {
+        "id": "geo-schema-absent",
+        "category": "schema",
+        "severity": "high",
+        "claim": "Six fetched pages each returned HTTP 200 and each contained zero JSON-LD, microdata and RDFa markup, so structured data is absent site-wide rather than page-specific.",
+        "value": "no_structured_data_sitewide",
+        "source": "https://www.gbsafrica.co.uk/about/",
+        "observed_at": "2026-08-11",
+        "status": "verified"
+      },
+      {
+        "id": "geo-sameas",
+        "category": "schema",
+        "severity": "high",
+        "claim": "The Twitter and LinkedIn profiles are linked as plain anchor tags in the footer with no sameAs property, so no machine-readable cross-platform entity link exists.",
+        "value": "no_sameas",
+        "source": "https://www.gbsafrica.co.uk/",
+        "observed_at": "2026-08-11",
+        "status": "verified"
+      },
+      {
+        "id": "geo-robots",
+        "category": "crawlability",
+        "severity": "high",
+        "claim": "/robots.txt returns HTTP 404 with an Apache error page, so there is no crawl directive file and no sitemap reference for any crawler.",
+        "value": "robots_txt_absent",
+        "source": "https://www.gbsafrica.co.uk/robots.txt",
+        "observed_at": "2026-08-11",
+        "status": "verified"
+      },
+      {
+        "id": "geo-sitemap",
+        "category": "crawlability",
+        "severity": "high",
+        "claim": "Both /sitemap.xml and /sitemap_index.xml return HTTP 404, so no URL inventory or lastmod data is exposed to any crawler.",
+        "value": "sitemap_absent",
+        "source": "https://www.gbsafrica.co.uk/sitemap.xml",
+        "observed_at": "2026-08-11",
+        "status": "verified"
+      },
+      {
+        "id": "geo-reports-404",
+        "category": "crawlability",
+        "severity": "high",
+        "claim": "The Reports link in the primary navigation on every page points to /reports and returns HTTP 404, so the firm's most citable asset sits behind a broken nav path.",
+        "value": "nav_link_404",
+        "source": "https://www.gbsafrica.co.uk/reports",
+        "observed_at": "2026-08-11",
+        "status": "verified"
+      },
+      {
+        "id": "geo-research-in-pdf",
+        "category": "content_depth",
+        "severity": "high",
+        "claim": "Every research item on the Insights page links straight to a PDF or PPT file under /assets/docs/report/ with no HTML landing page, so the firm's primary research exists in no citable web page.",
+        "value": "research_only_as_binary_files",
+        "source": "https://www.gbsafrica.co.uk/insights/",
+        "observed_at": "2026-08-11",
+        "status": "verified"
+      },
+      {
+        "id": "geo-no-bylines",
+        "category": "content_depth",
+        "severity": "high",
+        "claim": "No item in the Insights section shows an author name, and twelve of the thirteen items show no publication date on the listing page.",
+        "value": "no_author_no_date",
+        "source": "https://www.gbsafrica.co.uk/insights/",
+        "observed_at": "2026-08-11",
+        "status": "verified"
+      },
+      {
+        "id": "geo-team-no-credentials",
+        "category": "content_depth",
+        "severity": "medium",
+        "claim": "The About page lists nine team members and seven advisory board members with names, roles and photos, but publishes no biography, qualification or profile link for any of them.",
+        "value": "no_credentials_published",
+        "source": "https://www.gbsafrica.co.uk/about/",
+        "observed_at": "2026-08-11",
+        "status": "verified"
+      },
+      {
+        "id": "geo-placeholder-copy",
+        "category": "website_trust",
+        "severity": "high",
+        "claim": "The homepage Our Clients section ships unedited placeholder filler copy beginning 'Rooms oh fully taken by worse do'.",
+        "value": "placeholder_copy_live",
+        "source": "https://www.gbsafrica.co.uk/",
+        "observed_at": "2026-08-11",
+        "status": "verified"
+      },
+      {
+        "id": "geo-dead-policy-links",
+        "category": "website_trust",
+        "severity": "high",
+        "claim": "The footer Terms, Privacy and Cookies links are coded as href=# and open no page, so a UK-registered advisory firm publishes no privacy policy or terms.",
+        "value": "policy_links_dead",
+        "source": "https://www.gbsafrica.co.uk/about/",
+        "observed_at": "2026-08-11",
+        "status": "verified"
+      },
+      {
+        "id": "geo-no-https-redirect",
+        "category": "website_trust",
+        "severity": "high",
+        "claim": "Plain HTTP requests to the homepage return HTTP 200 directly with no redirect to HTTPS, so the site is served in full over an unencrypted connection.",
+        "value": "no_https_redirect",
+        "source": "http://www.gbsafrica.co.uk/",
+        "observed_at": "2026-08-11",
+        "status": "verified"
+      },
+      {
+        "id": "recon-title-absent",
+        "category": "search_visibility",
+        "severity": "medium",
+        "claim": "Phase 1 reconnaissance reported that the homepage serves no title tag and no meta description.",
+        "value": "title_tag_absent",
+        "source": "https://www.gbsafrica.co.uk/",
+        "observed_at": "2026-08-11",
+        "status": "verified",
+        "claim_key": "homepage_title_tag"
+      },
+      {
+        "id": "agent-title-present",
+        "category": "search_visibility",
+        "severity": "medium",
+        "claim": "Four subordinate agents reading the raw HTML found a title tag reading 'GBS Africa - Your trusted partner on Africa Matters!' and a meta description tag that is present but empty.",
+        "value": "title_tag_present_meta_description_empty",
+        "source": "https://www.gbsafrica.co.uk/",
+        "observed_at": "2026-08-11",
+        "status": "verified",
+        "claim_key": "homepage_title_tag"
+      }
+    ]
+  }
+}

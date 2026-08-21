@@ -1,0 +1,31 @@
+{
+  "receipt_id": "gbs-africa:geo-audit:reconciled:2026-08-11",
+  "receipt_kind": "existing_registered_capability_execution_reconciliation",
+  "prospect_id": "gbs-africa",
+  "capability": "geo-audit",
+  "runtime": "codex",
+  "source_execution": {
+    "path": "operations/internal-gtm/runs/inputs/gbs-africa.json",
+    "json_pointer": "/diagnostic",
+    "sha256": "85d38e02c8748f6c5111b06a84d558accd476346b33a03970e96afb7d7dc2412",
+    "actual_execution": true,
+    "basis": "The artifact records the geo-audit run id, completion date, weighted specialist scores, 16 dated findings and exact fetched URLs. The acquisition-engine source contains only two earlier observations and cannot account for these results."
+  },
+  "registry_check": {"registered": true, "status": "active", "codex_installation": "C:/Users/User/.codex/skills/geo-audit", "claude_installation": "C:/Users/User/.claude/skills/geo-audit"},
+  "validation": {
+    "current_schema_valid_at_json_pointer": true,
+    "evidence_audit": "operations/internal-gtm/runs/evidence-audits/gbs-africa-geo-audit-evidence-2026-08-11.json",
+    "evidence_audit_sha256": "ab5e498b540a0c7625f61eb5f1590329d37efba765c418e27ca7fe04b6f217fe",
+    "quality_gates_pass": true,
+    "lifecycle_prerequisites_contiguous": true,
+    "existing_transition_snapshot_sha256_matches": true,
+    "existing_transition_ledger_hash_matches": true,
+    "existing_transition_ledger_hash": "a3a3a891170f5ebba8a5a94605062587d08f9482b7597c1e7643eeb597809bdf",
+    "current_corrected_audit_sha256": "ab5e498b540a0c7625f61eb5f1590329d37efba765c418e27ca7fe04b6f217fe"
+  },
+  "gate_outcome": {"canonical_lifecycle": "diagnostic_complete", "persist_new_transition": false, "reason": "The existing transition is already terminal and its evidence hash verifies. This receipt canonicalizes it under current evidence rules without duplicating a lifecycle transition."},
+  "approval_packet": null,
+  "external_action_authorized": false,
+  "control_lock_id": "c43ecc6f64e0",
+  "reconciled_at": "2026-08-11T13:45:05.1073738Z"
+}

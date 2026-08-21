@@ -1,0 +1,67 @@
+{
+  "_fixture": "Synthetic. Not a real prospect. Domains are reserved example domains. Used to exercise the slice end to end.",
+  "prospect_id": "fixture-001",
+  "company": "Northline Facility Services Kft.",
+  "website_url": "https://www.northline-facility.example.com/hu/",
+  "source": "fixture",
+  "buyer": {
+    "name": "Managing Director",
+    "role": "owner",
+    "email": "office@northline-facility.example.com",
+    "source": "https://www.northline-facility.example.com/contact"
+  },
+  "trigger": {
+    "type": "hiring",
+    "summary": "Posted two operations roles.",
+    "observed_at": "2026-07-28",
+    "source": "https://www.northline-facility.example.com/careers"
+  },
+  "diagnostic": {
+    "capability": "geo-audit",
+    "run_id": "fixture-geo-001",
+    "completed_at": "2026-08-10",
+    "score": 34,
+    "findings": [
+      {
+        "id": "g1",
+        "category": "ai_visibility",
+        "severity": "high",
+        "claim": "The site is not cited in AI answers for its core service terms.",
+        "value": "no_citations",
+        "source": "https://www.northline-facility.example.com/",
+        "observed_at": "2026-08-10",
+        "status": "verified"
+      },
+      {
+        "id": "g2",
+        "category": "schema",
+        "severity": "medium",
+        "claim": "No Organization or LocalBusiness structured data on the homepage.",
+        "value": "absent",
+        "source": "https://www.northline-facility.example.com/",
+        "observed_at": "2026-08-10",
+        "status": "verified"
+      },
+      {
+        "id": "g3",
+        "category": "conversion_path",
+        "severity": "medium",
+        "claim": "Enquiry form is three clicks deep and has no confirmation state.",
+        "value": "three_clicks_no_confirmation",
+        "source": "https://www.northline-facility.example.com/contact",
+        "observed_at": "2026-08-10",
+        "status": "observed"
+      },
+      {
+        "id": "g4",
+        "category": "local_presence",
+        "severity": "low",
+        "claim": "Competitors appear to review the profile more often.",
+        "value": "likely_weaker",
+        "source": null,
+        "observed_at": "2026-08-10",
+        "status": "inferred"
+      }
+    ]
+  }
+}

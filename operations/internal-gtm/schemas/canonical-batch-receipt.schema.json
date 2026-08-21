@@ -1,0 +1,39 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "bridgeworks://internal-gtm/canonical-batch-receipt-v1",
+  "title": "BridgeWorks canonical GTM batch receipt",
+  "type": "object",
+  "required": ["receipt_id", "contract_version", "as_of", "authority_rule", "prospect_count", "prospects", "external_action_authorized", "engine_touched"],
+  "properties": {
+    "receipt_id": {"type": "string", "minLength": 1},
+    "contract_version": {"const": 1},
+    "as_of": {"type": "string", "format": "date"},
+    "authority_rule": {"type": "string", "minLength": 1},
+    "prospect_count": {"const": 8},
+    "prospects": {
+      "type": "array",
+      "minItems": 8,
+      "maxItems": 8,
+      "items": {
+        "type": "object",
+        "required": ["prospect_id", "company", "qualification_score", "qualification_coverage", "missing_dimensions", "exhausted_unknown_dimensions", "current_lifecycle_stage", "diagnostic_status", "current_objective", "valid_approval_packet_id", "superseded_artifacts", "exact_next_action"],
+        "properties": {
+          "prospect_id": {"type": "string", "minLength": 1},
+          "company": {"type": "string", "minLength": 1},
+          "qualification_score": {"type": "integer", "minimum": 0, "maximum": 100},
+          "qualification_coverage": {"type": "number", "minimum": 0, "maximum": 100},
+          "missing_dimensions": {"type": "array", "items": {"type": "string"}},
+          "exhausted_unknown_dimensions": {"type": "array", "items": {"type": "string"}},
+          "current_lifecycle_stage": {"type": "string"},
+          "diagnostic_status": {"type": "string"},
+          "current_objective": {"type": "string"},
+          "valid_approval_packet_id": {"type": ["string", "null"]},
+          "superseded_artifacts": {"type": "array", "items": {"type": "string"}},
+          "exact_next_action": {"type": "string", "minLength": 1}
+        }
+      }
+    },
+    "external_action_authorized": {"const": false},
+    "engine_touched": {"const": false}
+  }
+}

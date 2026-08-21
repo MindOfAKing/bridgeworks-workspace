@@ -1,0 +1,195 @@
+{
+  "handoff_kind": "diagnostic_completion_gate",
+  "prospect_id": "premier-fm",
+  "as_of": "2026-08-11",
+  "runtime": "claude_code",
+  "diagnostic_id": "client-audit:premierfm.hu:2026-08-11",
+  "evidence_audit": {
+    "approved": [
+      "ca-pfm-1",
+      "ca-pfm-2",
+      "ca-pfm-3",
+      "ca-pfm-4",
+      "ca-pfm-5",
+      "ca-pfm-6"
+    ],
+    "unresolved": [],
+    "by_status": {
+      "verified": [
+        "ca-pfm-1",
+        "ca-pfm-2",
+        "ca-pfm-3",
+        "ca-pfm-4",
+        "ca-pfm-5",
+        "ca-pfm-6"
+      ]
+    },
+    "contradictions": [],
+    "contradicted_finding_ids": [],
+    "audited_status": {
+      "ca-pfm-1": "verified",
+      "ca-pfm-2": "verified",
+      "ca-pfm-3": "verified",
+      "ca-pfm-4": "verified",
+      "ca-pfm-5": "verified",
+      "ca-pfm-6": "verified"
+    },
+    "assumptions_left_unpromoted": [
+      "That the empty counters cost enquiries. Plausible, untested, and not scored.",
+      "That the entity-name difference concerns buyers. Not evidenced from outside.",
+      "That no social link on the homepage means no social presence."
+    ],
+    "limitations_carried": [
+      "Only two pages were fetched. The about and services pages were not opened this pass.",
+      "The site is Hungarian. Wording is reported as published, with translations given for context only.",
+      "No review platform, Google Maps listing or company register was queried. The tax number is recorded as published, not verified against the Hungarian register.",
+      "Whether the KPI values fail to render for every visitor, or only in the fetched representation, was not established across browsers or devices.",
+      "Mobile readiness, page speed and technical health were not measured and are not inferred here."
+    ],
+    "unknowns_carried": [
+      "What the true KPI figures are.",
+      "Why Premier FM and Otthonbiztonsagban.hu Kft. carry different names, and which one contracts.",
+      "Whether the empty counters are a scripting failure or were never populated.",
+      "Whether Lekó Péter holds signing authority. Sales manager is a published role, not evidence of authority."
+    ],
+    "corrections_to_prior_evidence": [],
+    "evidence_hash": "6a295a7dbe6fd986810d083761a4371f3adf9444afe2cce1fa360a3c70bd036b"
+  },
+  "completion_gate": {
+    "checks": {
+      "capability_actually_executed": true,
+      "not_a_reshaped_prior_artifact": true,
+      "result_contract_validates": true,
+      "evidence_references_resolve": true,
+      "quality_gate_min_approved_findings": true,
+      "quality_gate_no_unresolved_contradiction": true,
+      "quality_gate_limitations_declared": true
+    },
+    "prerequisite": {
+      "to_stage": "diagnostic_complete",
+      "requires_stage": "diagnostic_selected",
+      "allowed": true,
+      "gate_results": {
+        "diagnostic_completed_successfully": true,
+        "diagnostic_has_id": true,
+        "diagnostic_status_terminal": true
+      },
+      "reason": "prerequisite satisfied"
+    },
+    "all_checks_pass": true,
+    "receipted_history_present": true
+  },
+  "lifecycle": {
+    "from_stage": "diagnostic_selected",
+    "to_stage": "diagnostic_complete",
+    "advanced": true,
+    "blocking_reasons": []
+  },
+  "proposed_transition_receipt": {
+    "prospect_id": "premier-fm",
+    "from_stage": "diagnostic_selected",
+    "to_stage": "diagnostic_complete",
+    "triggering_capability": "client-audit",
+    "required_gate_results": {
+      "diagnostic_completed_successfully": true,
+      "diagnostic_has_id": true,
+      "diagnostic_status_terminal": true
+    },
+    "evidence_snapshot": {
+      "path": "operations/internal-gtm/handoffs/premier-fm-client-audit-2026-08-11.json",
+      "sha256": "5cb3987a75b96ea8f397f88b392e4742586b9ff742ee29a946b828503178edd5"
+    },
+    "evidence_hash": "6a295a7dbe6fd986810d083761a4371f3adf9444afe2cce1fa360a3c70bd036b",
+    "qualification_version": null,
+    "qualification_coverage": {
+      "percentage": null,
+      "sufficiently_researched_dimensions": null,
+      "missing_dimensions": [],
+      "exhausted_unknown_dimensions": []
+    },
+    "diagnostic_id": "client-audit:premierfm.hu:2026-08-11",
+    "diagnostic_status": "complete",
+    "approval_id": null,
+    "runtime": "claude_code",
+    "timestamp": "2026-08-11T13:19:36+00:00",
+    "receipt_version": 1,
+    "verifiable_without_prose": true,
+    "enforcement_note": "Built with enforce=False because the diagnostic_selected receipt lives in runs/, which Codex owns and which this runtime does not write. Every gate was still evaluated and every one passed. Codex must confirm the diagnostic_selected receipt exists before persisting this."
+  },
+  "route_confirmation": {
+    "prior_route": "digital-platforms-brand",
+    "verdict": "confirmed",
+    "selected_route": "digital-platforms-brand",
+    "ranking": {
+      "strategy-transformation": {
+        "approved_severe_findings": 0,
+        "highest_severity": "none",
+        "finding_ids": []
+      },
+      "digital-platforms-brand": {
+        "approved_severe_findings": 4,
+        "highest_severity": "high",
+        "finding_ids": [
+          "ca-pfm-1",
+          "ca-pfm-2",
+          "ca-pfm-3",
+          "ca-pfm-5"
+        ]
+      },
+      "content-visibility-demand": {
+        "approved_severe_findings": 0,
+        "highest_severity": "none",
+        "finding_ids": []
+      },
+      "ai-workflow-automation": {
+        "approved_severe_findings": 0,
+        "highest_severity": "none",
+        "finding_ids": []
+      },
+      "execution-operating-systems": {
+        "approved_severe_findings": 0,
+        "highest_severity": "none",
+        "finding_ids": []
+      }
+    },
+    "unmapped_categories": [],
+    "basis": "approved diagnostic findings only, weighted by severity",
+    "excluded_from_tie_break": "maturity",
+    "reason": "Confirmed on stronger evidence than it was selected on. The route was chosen from an engine note that numeric values were absent in indexed text; ca-pfm-1 verified five named KPI labels rendering with no value, and ca-pfm-2 verified that no third-party proof of any kind exists on the site. Both are website_trust and both are high severity. No other route drew an approved severe finding."
+  },
+  "entry_offer_hypotheses": [
+    {
+      "id": "pfm-offer-h1",
+      "hypothesis": "Populate and verify the five empty KPI counters, with each figure traceable to a source Premier FM can stand behind.",
+      "rests_on": [
+        "ca-pfm-1"
+      ],
+      "why_it_is_credible": "The credibility block is already built and already on the page. It renders five labels and five blanks. The cost of the failure is that the one place the site tries to prove scale proves nothing.",
+      "what_would_kill_it": "A rendering bug they already know about, or figures they deliberately withhold.",
+      "evidence_still_missing": "The true figures, and whether the blanks are a script failure or were never entered."
+    },
+    {
+      "id": "pfm-offer-h2",
+      "hypothesis": "Build a first proof layer: named references, a written case, and the certifications a Hungarian facility-management buyer expects to see before shortlisting.",
+      "rests_on": [
+        "ca-pfm-2"
+      ],
+      "why_it_is_credible": "There is no third-party proof of any kind on the site. Everything a buyer reads, Premier FM says about itself.",
+      "what_would_kill_it": "Client confidentiality terms that forbid naming accounts, which is common in facility management.",
+      "evidence_still_missing": "Whether their contracts permit naming clients."
+    },
+    {
+      "id": "pfm-offer-h3",
+      "hypothesis": "Reconcile the trading name with the contracting entity so that a buyer running a company check meets the name they were sold.",
+      "rests_on": [
+        "ca-pfm-3"
+      ],
+      "why_it_is_credible": "The site sells Premier FM. The contact page contracts as Otthonbiztonsagban.hu Kft. A procurement check surfaces that difference before a human explains it.",
+      "what_would_kill_it": "A deliberate group structure they are comfortable explaining in the sales conversation.",
+      "evidence_still_missing": "The actual relationship between the two names. Not knowable from the site, and not asserted here."
+    }
+  ],
+  "outreach_prepared": false,
+  "approval_packet": null,
+  "stop_point": "item 7: no outreach preparation, no approval packet"
+}

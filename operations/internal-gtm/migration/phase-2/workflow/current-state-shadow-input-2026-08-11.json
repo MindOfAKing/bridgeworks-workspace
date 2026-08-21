@@ -1,0 +1,38 @@
+{
+  "as_of": "2026-08-11",
+  "approvals_waiting": 9,
+  "unresolved_batches": [
+    {
+      "batch_id": "2026-07-26-batch-01",
+      "updated_at": "2026-07-26",
+      "prospect_ids": ["budbed", "eliezer-facility-management-company-lagos", "go2flats", "homerun", "marvel-homes-property-management"]
+    },
+    {
+      "batch_id": "2026-08-01-batch-01",
+      "updated_at": "2026-08-01",
+      "prospect_ids": ["british-african-business-alliance", "bumpa", "forestay-group", "moneco", "sabou-capital-partners"]
+    }
+  ],
+  "prospects": [
+    {"prospect_id": "rideflow", "qualification_tier": "COLD", "qualification_score": 0, "lifecycle_stage": "account_discovered", "contacted": false, "last_verified_at": "2026-08-10"},
+    {"prospect_id": "kunbase", "qualification_tier": "COLD", "qualification_score": 0, "lifecycle_stage": "account_discovered", "contacted": false, "last_verified_at": "2026-08-10"},
+    {"prospect_id": "gbs-africa", "qualification_tier": "COLD", "qualification_score": 0, "lifecycle_stage": "account_discovered", "contacted": false, "last_verified_at": "2026-08-10"},
+    {"prospect_id": "daraja", "qualification_tier": "COLD", "qualification_score": 0, "lifecycle_stage": "account_discovered", "contacted": false, "last_verified_at": "2026-08-10"},
+    {"prospect_id": "bv-integrated", "qualification_tier": "COLD", "qualification_score": 0, "lifecycle_stage": "account_discovered", "contacted": false, "last_verified_at": "2026-08-10"},
+    {"prospect_id": "bepelog", "qualification_tier": "COLD", "qualification_score": 0, "lifecycle_stage": "account_discovered", "contacted": false, "last_verified_at": "2026-08-10"},
+    {"prospect_id": "premier-fm", "qualification_tier": "COLD", "qualification_score": 0, "lifecycle_stage": "account_discovered", "contacted": false, "last_verified_at": "2026-08-10"},
+    {"prospect_id": "tilz-prosperitas", "qualification_tier": "COLD", "qualification_score": 0, "lifecycle_stage": "account_discovered", "contacted": false, "last_verified_at": "2026-08-02"}
+  ],
+  "validated_new_market_gap": true,
+  "capacity": {
+    "qualified_untouched_target": 4,
+    "approval_backlog_cap": 3
+  },
+  "_evidence": {
+    "source_rows": 100,
+    "research_status_rows": 63,
+    "newly_eligible_rows": 8,
+    "historical_failures": 8,
+    "live_schedule_changed": false
+  }
+}

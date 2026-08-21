@@ -1,0 +1,172 @@
+{
+  "decision_id": "offer-strategist:arc-solutions-limited:bounded-commercial-preparation:2026-08-11:codex-001",
+  "prospect_id": "arc-solutions-limited",
+  "company": "Arc Solutions Limited",
+  "role": "offer-strategist",
+  "registered_role": true,
+  "role_registry": "operations/internal-gtm/role-registry.yaml",
+  "authority": "recommend_only",
+  "supporting_capability": "engagement-architect",
+  "runtime": "codex",
+  "created_at": "2026-08-11T13:54:21.4713510Z",
+  "canonical_input_state": {
+    "qualification_version": "qualification-v1",
+    "qualification_score": 64,
+    "tier": "QUALIFIED",
+    "qualification_coverage": 83.3,
+    "actionability": "actionable",
+    "lifecycle_stage": "diagnostic_complete",
+    "primary_route": "digital-platforms-brand",
+    "diagnostic_id": "client-audit:arc-solutions-limited:2026-08-11:codex-001",
+    "diagnostic_status": "complete",
+    "buyer_accessibility": "viable general route; named decision maker exhausted_unknown",
+    "proof_asset_id": "oliviks-foundation-2026-07-24",
+    "valid_approval_packet_id": null
+  },
+  "decision_status": "commercial_preparation_recommended_not_selected",
+  "offer_strategist_output": {
+    "1_core_commercial_problem": "Arc's procurement-facing owned pages do not present one authoritative, supportable account of company scale, client scale, certification and performance. The strongest verified issue is the conflict between published project and client figures, reinforced by important claims whose supporting detail is not visible on the sampled pages.",
+    "2_why_the_problem_matters": "A buyer using Arc's site to assess credibility may have to resolve conflicting figures and request basic substantiation before trusting the wider proposition. This creates verification friction at the point where Arc is asking for a quote. The audit did not establish lost enquiries, lost revenue or buyer rejection, so those outcomes remain unclaimed.",
+    "3_smallest_credible_entry_engagement": {
+      "name": "Procurement Trust Claims Reconciliation",
+      "type": "bounded four-surface claims-integrity engagement",
+      "purpose": "Create one evidence-controlled source of truth and a correction specification for the highest-risk procurement-facing claims, without rebuilding the website."
+    },
+    "4_exact_scope": [
+      "Create a claims register for project count, client count, operating footprint, ISO or certification wording, and the facility-management savings, uptime and response claims.",
+      "Ask Arc to identify the authoritative value and supporting source for every conflicting or incompletely substantiated claim. Unresolved claims remain flagged and are not rewritten as fact.",
+      "Map the approved claims across four owned surfaces: homepage, mission/about page, facility-management page and contact page.",
+      "Produce a page-level correction specification covering exact claim placement, consistency, qualification language and visible substantiation requirements.",
+      "Produce one procurement-trust evidence checklist showing what may be published, what needs qualification, what needs a supporting reference and what should be withheld.",
+      "Perform a final read-only consistency review of the agreed correction specification. Website implementation is not included."
+    ],
+    "5_explicit_exclusions": [
+      "No website rebuild, redesign, development, CMS mutation or publishing.",
+      "No new brand strategy, rebrand, messaging system or full-site copy rewrite.",
+      "No SEO, GEO, social, review-platform, local-search or paid-media work.",
+      "No quote-form submission, delivery test, CRM integration or workflow automation.",
+      "No certification verification, legal opinion, compliance certification or procurement assurance.",
+      "No invention or independent validation of project totals, client totals, performance results, contract value, budget, signing authority or named buyer.",
+      "No creation of new case studies or claims about clients whose relationship or outcomes have not been independently verified.",
+      "No price, timeline or staffing commitment until Emmanuel approves those commercial terms."
+    ],
+    "6_approved_findings_supporting_the_offer": [
+      {
+        "finding_id": "arc-ca-002",
+        "status": "verified",
+        "finding": "Owned pages publish 500+ versus 5,000+ completed projects and 20+ corporate clients versus 500+ satisfied clients.",
+        "source": "https://www.arcsolutionslimited.com/"
+      },
+      {
+        "finding_id": "arc-ca-003",
+        "status": "observed",
+        "finding": "The facility-management page publishes savings, uptime and response claims without visible methodology or independent substantiation on the sampled page.",
+        "source": "https://www.arcsolutionslimited.com/work/facility-management"
+      },
+      {
+        "finding_id": "arc-ca-004",
+        "status": "observed",
+        "finding": "The site states that services are ISO certified, but the sampled pages did not visibly identify the standard, certificate number, issuing body, scope or validity date.",
+        "source": "https://www.arcsolutionslimited.com/"
+      },
+      {
+        "finding_id": "arc-ca-005",
+        "status": "verified",
+        "finding": "Arc provides a viable general business destination and quote route, but no named decision maker or signing authority was established.",
+        "source": "https://www.arcsolutionslimited.com/contact"
+      },
+      {
+        "finding_id": "arc-ca-007",
+        "status": "observed",
+        "finding": "Client names or logos and named testimonials are visible, but their underlying relationships and results were not independently verified by the audit.",
+        "source": "https://www.arcsolutionslimited.com/"
+      },
+      {
+        "finding_id": "arc-ca-008",
+        "status": "observed",
+        "finding": "The bounded competitor sample exposes clearer combinations of company, certification, legal-identity, location and procurement-oriented trust detail.",
+        "source": "https://eliezergroup.com/"
+      }
+    ],
+    "7_proof_asset_and_fit": {
+      "proof_asset_id": "oliviks-foundation-2026-07-24",
+      "approved_claim": "Oliviks Kitchen Foundation delivery completed and the oliviks.com cutover was verified live on 2026-07-24.",
+      "fit": "It is registered as strong proof for Digital Platforms & Brand Systems and supports BridgeWorks delivery credibility for a bounded website trust and lead-path engagement.",
+      "usage_boundary": "Foundation scope only. It does not prove Arc's diagnosis, promise Arc a commercial result or imply an ongoing Oliviks retainer.",
+      "source": "operations/oliviks/ and clients/oliviks/"
+    },
+    "8_likely_buyer_contact_route": {
+      "buyer_role_hypothesis": "The internal owner of Arc's commercial, corporate communications or website claims should sponsor the evidence decisions.",
+      "named_buyer": null,
+      "named_buyer_status": "exhausted_unknown",
+      "signing_authority": "unknown",
+      "viable_route": "Arc's published general business contact destination or quote route.",
+      "route_status": "verified_general_destination_only"
+    },
+    "9_unresolved_uncertainty": [
+      "Which published project and client figures are authoritative.",
+      "Whether the ISO claim is current and the applicable standard, issuer, scope and validity.",
+      "What evidence supports the published savings, uptime and response claims.",
+      "Who owns the relevant claims internally and who has signing authority.",
+      "Whether the observed inconsistencies affect enquiry conversion or procurement decisions.",
+      "Price, delivery timeline, staffing and Arc's willingness to provide source evidence are unresolved."
+    ],
+    "10_offer_invalidators_or_weakeners": [
+      "Fresh evidence shows the conflicting figures are intentionally scoped and already clearly distinguished for users.",
+      "Arc can produce a current authoritative claims register and substantiation that is already applied consistently across the four surfaces.",
+      "The general contact route cannot reach the owner of the claims or no internal owner will validate them.",
+      "Arc will not provide source evidence for the claims or approve removal or qualification of unsupported wording.",
+      "A higher-priority verified problem emerges that makes claims reconciliation commercially immaterial.",
+      "The Oliviks proof cannot be used within its registered Foundation-only boundary."
+    ],
+    "11_recommended_commercial_framing": "Frame this as a Procurement Trust Claims Reconciliation: make the most important public proof claims consistent, traceable and easier for a serious buyer to verify before requesting a quote. Do not frame it as a website rebuild, a generic audit, or a promise to increase conversion.",
+    "12_exact_next_action": "Emmanuel or the GTM Director reviews this bounded decision and either accepts, revises or rejects the proposed engagement. If accepted, persist a separate offer_selected transition receipt with the approved scope boundary before any outreach preparation."
+  },
+  "engagement_specification": {
+    "1_business_problem": "Procurement-facing claims are inconsistent or lack visible substantiation on the sampled owned pages.",
+    "2_desired_outcome": "One approved claims source of truth and a four-surface correction specification that a buyer can verify more easily.",
+    "3_current_evidence": ["arc-ca-002", "arc-ca-003", "arc-ca-004", "arc-ca-005", "arc-ca-007", "arc-ca-008"],
+    "4_stakeholders": {"client": "Unresolved internal owner of commercial, communications or website claims", "bridgeworks": "Emmanuel as commercial approver and BridgeWorks delivery owner"},
+    "5_scope": "The exact six-item scope in offer_strategist_output.4_exact_scope.",
+    "6_out_of_scope_items": "The exact exclusions in offer_strategist_output.5_explicit_exclusions.",
+    "7_deliverables": ["Evidence-controlled claims register", "Four-surface correction specification", "Procurement-trust evidence checklist", "Read-only final consistency review"],
+    "8_dependencies": ["Arc provides authoritative claim owners and supporting sources", "Arc resolves or explicitly withdraws conflicting figures", "Emmanuel approves scope, price and timing before commitment"],
+    "9_assumptions": ["The published general route can reach a relevant internal owner", "Arc is willing to reconcile or qualify unsupported claims"],
+    "10_acceptance_criteria": ["Every targeted claim has an owner, source and status", "No unresolved conflicting number is presented as fact in the specification", "Each of the four surfaces has an explicit keep, qualify, replace or remove instruction", "All proof and certification wording is linked to available substantiation or flagged for withholding", "No production change is made by this decision"],
+    "11_approval_checkpoints": ["Emmanuel accepts the entry engagement before offer_selected", "Arc validates authoritative facts before copy is treated as approved", "Separate approval is required before any proposal, outreach, publication, deployment or production mutation"],
+    "12_risks": ["The commercial effect of the inconsistencies is not measured", "The relevant buyer and signing authority are unknown", "Arc may not have supportable evidence for all claims"],
+    "13_timeline": "Unresolved",
+    "14_pricing_implications": "Unresolved. No price is authorized or stored in this decision.",
+    "15_expansion_opportunity": "Only after the reconciliation proves useful, Arc could separately consider implementing approved corrections or testing quote-route delivery. Neither is committed here.",
+    "16_open_questions": ["Which scale figures are correct?", "What certification evidence exists?", "What supports the performance claims?", "Who owns these claims?", "Will Arc authorize correction or qualification?"],
+    "17_smallest_next_action": "Internal acceptance, revision or rejection of this decision by Emmanuel or the GTM Director.",
+    "18_evidence_ledger": [
+      {"statement": "Arc's owned pages contain conflicting project and client figures.", "status": "verified_fact", "source": "arc-ca-002; operations/internal-gtm/runs/evidence-audits/arc-solutions-limited-client-audit-evidence-2026-08-11.json", "confidence": "high"},
+      {"statement": "Performance and certification detail is incomplete on the sampled pages.", "status": "client_stated", "source": "arc-ca-003 and arc-ca-004; operations/internal-gtm/runs/diagnostics/arc-solutions-limited-client-audit-2026-08-11.json", "confidence": "high"},
+      {"statement": "A viable general destination exists; a named buyer was not established.", "status": "verified_fact", "source": "arc-ca-005 and arc-ca-009", "confidence": "high"},
+      {"statement": "A four-surface claims reconciliation is the smallest credible entry engagement.", "status": "bridgeworks_proposal", "source": "This Offer Strategist decision based on arc-ca-002 through arc-ca-008", "confidence": "medium"},
+      {"statement": "The engagement will improve conversion or revenue.", "status": "unknown", "source": null, "confidence": "unknown"},
+      {"statement": "Oliviks Foundation supports bounded delivery credibility for this route.", "status": "verified_fact", "source": "operations/internal-gtm/service-routes.yaml; operations/oliviks/ and clients/oliviks/", "confidence": "high"}
+    ],
+    "19_scope_creep_flags": ["Website implementation", "Full redesign or rebuild", "Form testing that creates contact", "Certification or legal validation", "New case-study production", "SEO, GEO, automation or wider marketing work"]
+  },
+  "source_snapshots": [
+    {"path": "operations/internal-gtm/runs/diagnostics/arc-solutions-limited-client-audit-2026-08-11.json", "sha256": "452082ef2ec2d9b48d6317db3d1243f796321738c12c40580f1022404de095e3"},
+    {"path": "operations/internal-gtm/runs/evidence-audits/arc-solutions-limited-client-audit-evidence-2026-08-11.json", "sha256": "b5fdfd62876f8a6e7af3387f1c70ccf37281ebc845760e90b9daf6938a5a5c85"},
+    {"path": "operations/internal-gtm/runs/evidence-audits/arc-solutions-limited-stage-2-audit-2026-08-11.json", "sha256": "521d77d9eff921951f0236fc4d83504be49b3eec87c023e578a0af267fcfa610"},
+    {"path": "operations/internal-gtm/runs/qualifications/arc-solutions-limited-qualification-v1-post-client-audit-2026-08-11.json", "sha256": "db8a1907753ee5ad8ce444df66faa6341b933bef435cfabf805f6ee25bd8ffa4"},
+    {"path": "operations/internal-gtm/runs/director-decisions/diagnostic-comparative-selection-2026-08-11.json", "sha256": "8d98f5df6dfee6e9c14f4aca2fa638b99cfaa6f60adc6d5fa02bfbd4a13289e2"},
+    {"path": "operations/internal-gtm/service-routes.yaml", "sha256": "ef969c8041123406605b4676849b76d64ecb4422da76d42ac019ab8ff830c9c6"}
+  ],
+  "state_effect": {
+    "lifecycle_before": "diagnostic_complete",
+    "lifecycle_after": "diagnostic_complete",
+    "transition_written": false,
+    "reason": "The Offer Strategist has recommend_only authority. This decision has not been commercially accepted as offer_selected.",
+    "outreach_prepared": false,
+    "awaiting_approval": false,
+    "approval_packet_created": false,
+    "external_action_authorized": false
+  },
+  "control_lock_id": "16f3d366f486"
+}

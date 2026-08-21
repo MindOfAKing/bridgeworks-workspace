@@ -1,0 +1,85 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "BridgeWorks GTM Capability Contract",
+  "type": "object",
+  "required": [
+    "id",
+    "type",
+    "inputs",
+    "outputs",
+    "authority",
+    "status"
+  ],
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "type": {
+      "enum": [
+        "skill",
+        "orchestrator_skill",
+        "agent",
+        "deterministic_service",
+        "tool_adapter"
+      ]
+    },
+    "inputs": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "outputs": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "authority": {
+      "enum": [
+        "read_only",
+        "draft_only",
+        "internal_state_only",
+        "repo_change_with_review",
+        "external_action_with_approval"
+      ]
+    },
+    "subcapabilities": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "tools": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "preferred_runtime": {
+      "type": "array",
+      "items": {
+        "enum": [
+          "codex",
+          "claude_code",
+          "cowork",
+          "ods_qwen",
+          "deterministic"
+        ]
+      }
+    },
+    "approval_required": {
+      "type": "boolean"
+    },
+    "status": {
+      "enum": [
+        "active",
+        "pilot",
+        "quarantine",
+        "deprecated",
+        "retired"
+      ]
+    }
+  },
+  "additionalProperties": true
+}

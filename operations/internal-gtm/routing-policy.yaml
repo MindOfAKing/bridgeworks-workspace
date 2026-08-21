@@ -1,0 +1,97 @@
+{
+  "version": 1,
+  "principles": [
+    "deterministic_code_before_llm_for_exact_logic",
+    "local_qwen_before_cloud_for_low_risk_bulk_tasks",
+    "capability_gap_before_new_skill_acquisition",
+    "all_external_actions_require_explicit_approval",
+    "tools_do_not_own_business_state",
+    "one_canonical_capability_registry"
+  ],
+  "routes": [
+    {
+      "task": "exact_deduplication",
+      "default": "deterministic_code"
+    },
+    {
+      "task": "ambiguous_entity_resolution",
+      "default": "claude_or_codex"
+    },
+    {
+      "task": "simple_stage_classification",
+      "default": "ods_qwen",
+      "validation": "schema_and_rules"
+    },
+    {
+      "task": "contradictory_evidence",
+      "default": "claude_or_codex"
+    },
+    {
+      "task": "fixed_rubric_arithmetic",
+      "default": "deterministic_code"
+    },
+    {
+      "task": "first_pass_summary",
+      "default": "ods_qwen"
+    },
+    {
+      "task": "structured_evidence_draft",
+      "default": "ods_qwen",
+      "validation": "source_spans_required"
+    },
+    {
+      "task": "strategic_recommendation",
+      "default": "claude_or_codex"
+    },
+    {
+      "task": "client_facing_output",
+      "default": "claude_or_codex",
+      "review_required": true
+    },
+    {
+      "task": "autonomous_multi_tool_execution",
+      "default": "codex",
+      "approval_required": true
+    },
+    {
+      "task": "skill_agent_engineering",
+      "default": "claude_code"
+    },
+    {
+      "task": "diagnostic_capability_run",
+      "default": "claude_code",
+      "added": "2026-08-11",
+      "reason": "The shipped policy had no route for running a registered diagnostic capability such as geo-audit or client-audit. Both are Claude Code skills."
+    },
+    {
+      "task": "deep_research_synthesis",
+      "default": "cowork_or_claude"
+    },
+    {
+      "task": "browser_shutdown_or_console_action",
+      "default": "codex_browser",
+      "approval_required": true
+    }
+  ],
+  "tool_policy": {
+    "free_first": [
+      "firecrawl",
+      "serpapi",
+      "public_web",
+      "google_search",
+      "ods_local_search"
+    ],
+    "content_tools": [
+      "heygen",
+      "canva"
+    ],
+    "integration_tools": [
+      "n8n",
+      "composio"
+    ],
+    "notes": {
+      "n8n": "Agentic self-implementation preferred. If manual UI action is unavoidable, generate exact click-by-click instructions.",
+      "ods": "Codex owns startup, health checks, routing, config, restart and diagnostics; manual intervention requires exact steps."
+    }
+  }
+}

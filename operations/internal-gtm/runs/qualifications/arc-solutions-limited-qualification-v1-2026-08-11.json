@@ -1,0 +1,110 @@
+{
+  "qualification_id": "arc-solutions-limited-qualification-v1-2026-08-11",
+  "prospect_id": "arc-solutions-limited",
+  "company": "Arc Solutions Limited",
+  "qualification_version": "qualification-v1",
+  "as_of": "2026-08-11",
+  "score": 64,
+  "max_score": 100,
+  "tier": "QUALIFIED",
+  "actionability": "actionable",
+  "blocking_reasons": [],
+  "components": {
+    "problem_evidence": {
+      "score": 14,
+      "max_score": 25,
+      "evidence_status": "approved_observed",
+      "evidence_ids": ["arc-audit-001"],
+      "freshness": "current",
+      "confidence": "medium",
+      "research_status": "complete"
+    },
+    "commercial_fit": {
+      "score": 16,
+      "max_score": 20,
+      "evidence_status": "approved_observed_self_reported",
+      "evidence_ids": ["arc-audit-003", "arc-audit-004", "arc-audit-005", "arc-audit-006"],
+      "freshness": "current",
+      "confidence": "medium",
+      "research_status": "complete",
+      "note": "Company scale and growth support structural fit; no exact contract value was assumed or required."
+    },
+    "buyer_accessibility": {
+      "score": 4,
+      "max_score": 15,
+      "evidence_status": "approved_observed_route_with_exhausted_unknown_person",
+      "evidence_ids": ["arc-audit-002"],
+      "freshness": "current",
+      "confidence": "medium",
+      "research_status": "partial",
+      "exhausted_unknown_facts": ["decision_maker_identity"],
+      "note": "A lawful general business route exists; no supportable named decision maker or signing authority was found."
+    },
+    "trigger_urgency": {
+      "score": 7,
+      "max_score": 15,
+      "evidence_status": "approved_observed",
+      "evidence_ids": ["arc-audit-001", "arc-audit-006"],
+      "freshness": "current",
+      "confidence": "medium",
+      "research_status": "complete"
+    },
+    "proof_fit": {
+      "score": 15,
+      "max_score": 15,
+      "evidence_status": "approved_verified",
+      "evidence_ids": ["arc-audit-012"],
+      "freshness": "current",
+      "confidence": "high",
+      "research_status": "complete"
+    },
+    "execution_readiness": {
+      "score": 8,
+      "max_score": 10,
+      "evidence_status": "approved_observed_and_verified",
+      "evidence_ids": ["arc-audit-001", "arc-audit-002", "arc-audit-007", "arc-audit-012"],
+      "freshness": "current",
+      "confidence": "high",
+      "research_status": "complete",
+      "note": "A bounded quote-route and trust review is deliverable now; unknown budget does not reduce delivery readiness."
+    }
+  },
+  "qualification_coverage": {
+    "sufficiently_researched_dimensions": 5,
+    "total_dimensions": 6,
+    "percentage": 83.3,
+    "missing_dimensions": [],
+    "partial_dimensions": ["buyer_accessibility"],
+    "exhausted_unknown_dimensions": [],
+    "exhausted_unknown_facts": ["buyer_accessibility.decision_maker_identity"],
+    "reopenable_dimensions": ["buyer_accessibility"],
+    "scheduler_suppressed_research": ["buyer_accessibility.decision_maker_identity"],
+    "fresh_evidence_reopens": ["buyer_accessibility.decision_maker_identity"]
+  },
+  "gates_evaluated": {
+    "identity_domain_resolved": true,
+    "viable_contact_destination": true,
+    "credible_service_route": true,
+    "materially_contradicted_evidence": false,
+    "previous_outreach_exists": false,
+    "communication_state_resolved": true,
+    "legal_compliance_exclusion": false,
+    "explicit_defer_hold": false
+  },
+  "evidence_audit_id": "arc-solutions-limited-stage-2-audit-2026-08-11",
+  "recommended_service_route": "digital-platforms-brand",
+  "diagnostic_capability": "client-audit",
+  "diagnostic_justified": true,
+  "lifecycle_stage_before": "routed",
+  "lifecycle_stage_after": "diagnostic_selected",
+  "diagnostic_status": "selected_not_run",
+  "valid_approval_packet_id": null,
+  "exact_next_action": "Run the registered client-audit against the bounded quote-route and trust hypothesis; do not select an offer or prepare outreach unless diagnostic_complete is receipted.",
+  "scorer": {
+    "implementation": "operations/internal-gtm/scripts/qualification_v1.py",
+    "native_skill": "bridgeworks-lead-qualifier",
+    "arithmetic_result": "accepted",
+    "wrapper_exit_issue": "The native wrapper emitted the complete result, then raised KeyError because it expects a legacy `valid` field. This does not alter the canonical arithmetic and is handed to Claude Code for implementation repair."
+  },
+  "external_action_authorized": false
+}

@@ -1,0 +1,173 @@
+{
+  "prospects": [
+    {
+      "company": "EurAfrica Partners",
+      "website": "https://eurafricapartners.com/",
+      "city": "Ireland",
+      "country": "Ireland",
+      "sector": "Europe-Africa business consulting, investment facilitation, trade missions, and market entry support",
+      "lane": "Lane B African-owned businesses in Europe",
+      "source": "Public owned website discovered via current web search on 2026-08-17; local source/prior artifact checks, exact HubSpot company/contact checks, and Gmail exact domain/email checks returned no matches.",
+      "evidence_urls": [
+        "https://eurafricapartners.com/"
+      ],
+      "checked_at": "2026-08-17",
+      "contact_name": "",
+      "contact_role": "",
+      "contact_url": "https://eurafricapartners.com/",
+      "email": "info@eurafricapartners.com",
+      "trigger_observation": "Owned site presents an active Europe-Africa investment and market-entry consulting offer, public phone/email, team names, and 2026 footer, while visible homepage copy contains word-break and spelling issues around the core credibility message.",
+      "proof_to_use": "BridgeWorks credibility-first public-page QA and buyer-trust proof review only if current copy/rendering issues remain material.",
+      "next_action": "Research current homepage/contact route, team proof, services pages, exact decision route, and duplicate-contact risk; hold unless one current buyer-trust gap is concrete.",
+      "notes": "Public source lists +353 (0)873929290, info@eurafricapartners.com, team names, and Europe-Africa investment facilitation positioning."
+    },
+    {
+      "company": "Euro Afri Link",
+      "website": "https://euroafrilink.com/contact-us/",
+      "city": "Wageningen",
+      "country": "Netherlands",
+      "sector": "EU-Africa trade, sourcing, exporter support, consultancy, financing pathways, and education services",
+      "lane": "Lane B African-owned businesses in Europe",
+      "source": "Public owned contact page discovered via current web search on 2026-08-17; local source/prior artifact checks, exact HubSpot company/contact checks, and Gmail exact domain/email checks returned no matches.",
+      "evidence_urls": [
+        "https://euroafrilink.com/contact-us/",
+        "https://euroafrilink.com/our-services/"
+      ],
+      "checked_at": "2026-08-17",
+      "contact_name": "",
+      "contact_role": "",
+      "contact_url": "https://euroafrilink.com/contact-us/",
+      "email": "info@euroafrilink.com",
+      "trigger_observation": "Owned site presents 2026 EU-Africa trade services, KvK registration, public email/phone, 15+ countries served, and multiple buyer/exporter/service routes; research should verify whether the broad service navigation creates a specific conversion gap for the right inquiry path.",
+      "proof_to_use": "BridgeWorks service-route clarity and lead-path QA only if a current route or segmentation gap is verified.",
+      "next_action": "Research service pages, contact form, consultation route, proof/case support, and duplicate-contact risk; hold if no exact commercial route gap exists.",
+      "notes": "Public source lists Wageningen, KvK 71885269, +31 (0) 617130088, info@euroafrilink.com, and 2026 footer."
+    },
+    {
+      "company": "Ruxton Consultancy",
+      "website": "https://www.ruxtonconsultancy.com/contact/",
+      "city": "Lent",
+      "country": "Netherlands",
+      "sector": "Africa market consulting, Nigerian entity setup, forex, tax/audit, procurement, and logistics support",
+      "lane": "Lane B African-owned businesses in Europe",
+      "source": "Public owned contact page discovered via current web search on 2026-08-17; local source/prior artifact checks, exact HubSpot company/contact checks, and Gmail exact domain/email checks returned no matches.",
+      "evidence_urls": [
+        "https://www.ruxtonconsultancy.com/contact/"
+      ],
+      "checked_at": "2026-08-17",
+      "contact_name": "",
+      "contact_role": "",
+      "contact_url": "https://www.ruxtonconsultancy.com/contact/",
+      "email": "info@ruxtonconsultancy.com",
+      "trigger_observation": "Owned contact page presents Nigeria and Netherlands offices plus public emails/phones, but the buyer form is visibly labeled 'Contact Form Demo' on the current contact route.",
+      "proof_to_use": "BridgeWorks contact-route credibility QA and lead-capture cleanup only if the demo-form label remains current.",
+      "next_action": "Research contact form behavior, service pages, Netherlands/Nigeria routing, exact recipient, and duplicate-contact risk; draft only if the demo-form label is verified current.",
+      "notes": "Public source lists sil.thonen@ruxtonconsultancy.com, info@ruxtonconsultancy.com, Lagos and Lent offices, and 2026 footer."
+    },
+    {
+      "company": "Global Law Consultancy",
+      "website": "https://globallawconsultancy.com/contacts/",
+      "city": "Hamburg / London",
+      "country": "Germany / United Kingdom",
+      "sector": "Cross-border legal consultancy with UK, Europe, USA, and West Africa branches",
+      "lane": "Lane B African-owned businesses in Europe",
+      "source": "Public contact page discovered via current web search on 2026-08-17; local source/prior artifact checks, exact HubSpot company/contact checks, and Gmail exact domain/email checks returned no matches.",
+      "evidence_urls": [
+        "https://globallawconsultancy.com/contacts/"
+      ],
+      "checked_at": "2026-08-17",
+      "contact_name": "Michael Lord Azure",
+      "contact_role": "Europe Branch contact",
+      "contact_url": "https://globallawconsultancy.com/contacts/",
+      "email": "michael@globallawconsultancy.com",
+      "trigger_observation": "Public contact page lists Europe and UK branch contacts with named emails, but repeats the branch blocks and changes the Western African branch contact name between two visible sections.",
+      "proof_to_use": "BridgeWorks contact-route and branch-credibility QA only if the duplication/inconsistency remains current.",
+      "next_action": "Research Europe/UK branch route, current contact accuracy, practice proof, exact recipient, and duplicate-contact risk; hold unless the branch-contact inconsistency is verified material.",
+      "notes": "Public source lists Europe branch Michael Lord Azure in Hamburg, UK branch Abraham T. Paddy, and multiple direct branch emails."
+    },
+    {
+      "company": "Stretford Hill Limited",
+      "website": "https://stretfordhill.com/",
+      "city": "Lagos",
+      "country": "Nigeria",
+      "sector": "Construction, infrastructure, fit-out, project management, and facility maintenance",
+      "lane": "Lane D Nigeria growth businesses",
+      "source": "Public owned website discovered via current web search on 2026-08-17; local source/prior artifact checks, exact HubSpot company/contact checks, and Gmail exact domain/email checks returned no matches.",
+      "evidence_urls": [
+        "https://stretfordhill.com/"
+      ],
+      "checked_at": "2026-08-17",
+      "contact_name": "Lakunle Runsewe",
+      "contact_role": "Chief Executive Officer",
+      "contact_url": "https://stretfordhill.com/",
+      "email": "info@stretfordhill.com",
+      "trigger_observation": "Owned site presents named leadership, facility-maintenance services, 2026 blog activity, public quote route, and institutional projects, while homepage trust counters show 0+ jobs, 0+ complete projects, and 0+ happy clients.",
+      "proof_to_use": "BridgeWorks public-proof and conversion trust QA only if zero counters remain visible on current homepage.",
+      "next_action": "Research quote route, project proof, counter rendering, current leadership/contact route, and duplicate-contact risk; draft only if the 0+ proof issue is verified current.",
+      "notes": "Public source lists info@stretfordhill.com, +234 (0)9138364073, 18A Thompson Avenue Ikoyi Lagos, named CEO, and facility maintenance as a service."
+    },
+    {
+      "company": "MRI Investments Ltd",
+      "website": "https://mriinvestmentsltd.com/",
+      "city": "Lagos",
+      "country": "Nigeria",
+      "sector": "Facility management, property sale and lease management, e-waste, security, safety, warehousing, and logistics",
+      "lane": "Lane D Nigeria growth businesses",
+      "source": "Public owned website discovered via current web search on 2026-08-17; local source/prior artifact checks, exact HubSpot company/contact checks, and Gmail exact domain/email checks returned no matches.",
+      "evidence_urls": [
+        "https://mriinvestmentsltd.com/"
+      ],
+      "checked_at": "2026-08-17",
+      "contact_name": "",
+      "contact_role": "",
+      "contact_url": "https://mriinvestmentsltd.com/",
+      "email": "info@mriinvestmentsltd.com",
+      "trigger_observation": "Owned site presents 10+ years experience, 70+ employees, tier-one client claim, and multiple facility-management services, but the testimonial section contains generic placeholder-style copy unrelated to MRI's actual services.",
+      "proof_to_use": "BridgeWorks public-proof cleanup and credibility review only if placeholder testimonials remain visible.",
+      "next_action": "Research service pages, testimonial/proof section, exact contact route, facility-management offer, and duplicate-contact risk; draft only if placeholder proof is current and material.",
+      "notes": "Public source lists info@mriinvestmentsltd.com, Lagos address, multiple facility operations services, and visible testimonial text."
+    },
+    {
+      "company": "Budapest Sky Property Management",
+      "website": "https://budapestsky.hu/contact-us/",
+      "city": "Budapest",
+      "country": "Hungary",
+      "sector": "Short-term rental and property management",
+      "lane": "Lane A Budapest credibility-first SMEs",
+      "source": "Public owned contact page discovered via current web search on 2026-08-17; local source/prior artifact checks, exact HubSpot company/contact checks, and Gmail exact domain/email checks returned no matches.",
+      "evidence_urls": [
+        "https://budapestsky.hu/contact-us/"
+      ],
+      "checked_at": "2026-08-17",
+      "contact_name": "",
+      "contact_role": "",
+      "contact_url": "https://budapestsky.hu/contact-us/",
+      "email": "info@bpsky.hu",
+      "trigger_observation": "Owned contact page presents Budapest property-management positioning, public office/phone, and a contact form, but displays two different email/domain routes: info@bpsky.hu and hosts@budapestsky.com.",
+      "proof_to_use": "BridgeWorks contact-route consistency and host-owner lead routing QA only if the split-domain route is current.",
+      "next_action": "Research booking/domain split, contact form, host-owner route, exact recipient, and duplicate-contact risk; hold unless a clear lead-routing gap is verified.",
+      "notes": "Public source lists Liszt Ferenc ter 5, +36 70 599 7934, BP Sky Kft., info@bpsky.hu, and hosts@budapestsky.com."
+    },
+    {
+      "company": "TECH FM Kft.",
+      "website": "https://www.techfm.hu/en/office-cleaning/",
+      "city": "Budapest",
+      "country": "Hungary",
+      "sector": "Office cleaning, industrial hall cleaning, landscaping, green-area maintenance, and hard-surface maintenance",
+      "lane": "Lane A Budapest credibility-first SMEs",
+      "source": "Public owned service page discovered via current web search on 2026-08-17; local source/prior artifact checks, exact HubSpot company/contact checks, and Gmail exact domain/email checks returned no matches.",
+      "evidence_urls": [
+        "https://www.techfm.hu/en/office-cleaning/"
+      ],
+      "checked_at": "2026-08-17",
+      "contact_name": "",
+      "contact_role": "",
+      "contact_url": "https://www.techfm.hu/en/office-cleaning/",
+      "email": "info@techfm.hu",
+      "trigger_observation": "Owned English office-cleaning page presents a quote form, public phone/email, and multiple facilities services, while the form heading renders as fragmented 'NEED ... FAST?' copy and CTA text varies between REQUEST-A-QUOTE and REQUEST A QUOTE.",
+      "proof_to_use": "BridgeWorks quote-route and English buyer-page QA only if the fragmented quote-form copy remains current.",
+      "next_action": "Research quote form route, contact destination, service proof, English page rendering, and duplicate-contact risk; draft only if current buyer-route copy issue is verified.",
+      "notes": "Public source lists +36 20 461 21 31, info@techfm.hu, and Budapest-area office/industrial cleaning services."
+    }
+  ]
+}

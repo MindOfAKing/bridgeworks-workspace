@@ -1,0 +1,93 @@
+{
+  "schema_version": 2,
+  "batch_id": "2026-08-21-batch-01",
+  "date": "2026-08-21",
+  "prepared_at": "2026-08-21T16:19:08+00:00",
+  "status": "prepared",
+  "source_csv": "C:\\Users\\User\\Projects\\bridgeworks-workspace\\operations\\client-acquisition-engine\\research\\prospect-operations\\prospect-source-current.csv",
+  "source_sha256": "b8b242e52ff7848ef8115ec9960626ebd0379a1ca54a81255e154812f40a6895",
+  "limits": {
+    "max_prospects": 2,
+    "external_actions_allowed": false,
+    "paid_enrichment_allowed": false
+  },
+  "required_result_fields": [
+    "prospect_id",
+    "company",
+    "checked_at",
+    "status",
+    "sources",
+    "owned_domain",
+    "conversion_route",
+    "decision_maker",
+    "contact_route",
+    "observations",
+    "recommended_angle",
+    "evidence_notes",
+    "outreach_readiness",
+    "commercial_gap",
+    "proof_to_use",
+    "proposed_channel",
+    "proposed_destination",
+    "draft_subject",
+    "draft_body",
+    "next_internal_action",
+    "risk_notes"
+  ],
+  "prospects": [
+    {
+      "prospect_id": "westbridge-legal-trade-ltd",
+      "company": "Westbridge Legal & Trade Ltd",
+      "city": "Lagos",
+      "country": "Nigeria",
+      "sector": "Legal, corporate, market-entry, customs, NAFDAC, SONCAP, and trade advisory",
+      "source_status": "research",
+      "website": "https://www.westbridgelegaltrade.com.ng/",
+      "contact_name": "",
+      "contact_role": "",
+      "contact_url": "https://www.westbridgelegaltrade.com.ng/",
+      "trigger_observation": "Owned site presents a clear Europe and West Africa legal-trade offer, response promise, and Lagos contact route, while the long service list should be checked for whether the consultation path maps prospects to the right high-intent service.",
+      "proof_to_use": "BridgeWorks consultation-route and service-segmentation QA only if a current buyer-path issue is verified.",
+      "next_action": "Research current consultation route, service navigation, contact form, exact recipient, and duplicate-contact risk; hold if no concrete route gap is found.",
+      "notes": "Public source lists Lekki Phase 1, info@westbridgelegaltrade.com.ng, response within 24 hours, and 2026 footer.",
+      "checklist": [
+        "Confirm the canonical owned domain or record that none was located.",
+        "Verify the current primary conversion, booking, enquiry, or WhatsApp route.",
+        "Verify a decision-maker or responsible role from a public source.",
+        "Verify one usable contact route without creating a draft or sending a message.",
+        "Capture two specific, current observations with source URLs and access dates.",
+        "Confirm or revise the BridgeWorks angle using only observed evidence.",
+        "State whether outreach is ready, held, or needs more evidence.",
+        "If outreach is ready, identify one sourced commercial gap, exact channel and destination, selected proof, and concise proposed copy.",
+        "Check the tracker and approval packets for duplicate-contact risk."
+      ]
+    },
+    {
+      "prospect_id": "zmastery",
+      "company": "ZMastery",
+      "city": "Lagos",
+      "country": "Nigeria",
+      "sector": "Africa iGaming SEO, market-entry SEO, audits, content, authority, and recruitment",
+      "source_status": "research",
+      "website": "https://www.zmastery.com/",
+      "contact_name": "",
+      "contact_role": "",
+      "contact_url": "https://www.zmastery.com/",
+      "trigger_observation": "Owned site presents paid audit, booking, WhatsApp, and iGaming SEO routes, but the contact section shows info@zmastery.com while the footer also shows contact@zmastery.com.",
+      "proof_to_use": "BridgeWorks contact-route consistency and conversion QA only if the split email route remains current.",
+      "next_action": "Research current contact, pricing, booking, payment CTA, proof routes, exact destination, and duplicate-contact risk; draft only if split routing is verified current.",
+      "notes": "Public source lists Lagos, info@zmastery.com, contact@zmastery.com, +234 816 604 2531, and paid audit routes.",
+      "checklist": [
+        "Confirm the canonical owned domain or record that none was located.",
+        "Verify the current primary conversion, booking, enquiry, or WhatsApp route.",
+        "Verify a decision-maker or responsible role from a public source.",
+        "Verify one usable contact route without creating a draft or sending a message.",
+        "Capture two specific, current observations with source URLs and access dates.",
+        "Confirm or revise the BridgeWorks angle using only observed evidence.",
+        "State whether outreach is ready, held, or needs more evidence.",
+        "If outreach is ready, identify one sourced commercial gap, exact channel and destination, selected proof, and concise proposed copy.",
+        "Check the tracker and approval packets for duplicate-contact risk."
+      ]
+    }
+  ]
+}
