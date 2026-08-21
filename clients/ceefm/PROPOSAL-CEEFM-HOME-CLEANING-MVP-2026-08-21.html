@@ -2,105 +2,68 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>CEEFM Kft · Home Cleaning MVP Proposal | BridgeWorks</title>
+<title>CEEFM Kft · Weekly Home Cleaning MVP | BridgeWorks</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
 <style>
-  * { margin:0; padding:0; box-sizing:border-box; }
-  body {
-    font-family:'Inter',Helvetica,Arial,sans-serif;
-    font-weight:400; font-size:15px; line-height:1.7;
-    color:#1C2B3A; background:#F5F0E8;
-  }
-  .page { max-width:840px; margin:0 auto; padding:0 40px; }
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{font-family:'Inter',Helvetica,Arial,sans-serif;font-size:14.5px;line-height:1.68;color:#1C2B3A;background:#F5F0E8}
+  .page{max-width:800px;margin:0 auto;padding:0 46px}
 
-  .cover { background:#0F1A2E; padding:80px 0 60px; margin-bottom:56px; }
-  .cover-inner {
-    max-width:840px; margin:0 auto; padding:0 40px;
-    border-left:6px solid #B8860B; padding-left:34px;
-  }
-  .cover-type {
-    font-size:11px; font-weight:600; letter-spacing:.16em;
-    text-transform:uppercase; color:#B8860B; margin-bottom:20px;
-  }
-  .cover h1 {
-    font-family:'Playfair Display',Georgia,serif;
-    font-size:38px; line-height:1.2; color:#F5F0E8; margin-bottom:14px;
-  }
-  .cover .sub { color:#F5F0E8; opacity:.75; font-size:15px; }
-  .cover .meta {
-    margin-top:26px; font-size:13px; color:#F5F0E8; opacity:.6;
-  }
+  /* COVER */
+  .cover{background:#0F1A2E;padding:52px 0 56px;margin-bottom:50px}
+  .cover-inner{max-width:800px;margin:0 auto;padding:0 46px}
+  .lockup{display:flex;flex-direction:column;gap:9px;margin-bottom:44px}
+  .wordmark{font-size:12.5px;letter-spacing:.34em;color:#F5F0E8;font-weight:400;padding-left:3px}
+  .rule{border-left:6px solid #B8860B;padding-left:30px}
+  .cover-type{font-size:10.5px;font-weight:600;letter-spacing:.18em;text-transform:uppercase;color:#B8860B;margin-bottom:16px}
+  .cover h1{font-family:'Playfair Display',Georgia,serif;font-size:36px;line-height:1.16;color:#F5F0E8;margin-bottom:12px}
+  .cover .sub{color:#F5F0E8;opacity:.72;font-size:15px}
+  .cover .meta{margin-top:24px;font-size:12.5px;color:#F5F0E8;opacity:.55;letter-spacing:.01em}
 
-  h2 {
-    font-family:'Playfair Display',Georgia,serif;
-    font-size:23px; color:#0F1A2E; margin:44px 0 16px;
-    padding-bottom:9px; border-bottom:1px solid rgba(28,43,58,.14);
-  }
-  h2:first-of-type { margin-top:0; }
-  p { margin-bottom:15px; }
-  .lede { font-size:16px; }
+  h2{font-family:'Playfair Display',Georgia,serif;font-size:21px;color:#0F1A2E;margin:38px 0 13px;padding-bottom:8px;border-bottom:1px solid rgba(28,43,58,.14)}
+  h2:first-of-type{margin-top:0}
+  h3{font-size:10.5px;font-weight:600;letter-spacing:.13em;text-transform:uppercase;color:#B8860B;margin:22px 0 9px}
+  p{margin-bottom:13px}
+  .lede{font-size:16px;line-height:1.6}
 
-  .callout {
-    background:rgba(184,134,11,.07);
-    border-left:4px solid #B8860B;
-    padding:20px 24px; margin:20px 0;
-  }
-  .callout p:last-child { margin-bottom:0; }
+  ul{list-style:none;margin:0 0 4px}
+  li{position:relative;padding-left:19px;margin-bottom:6px;font-size:14px}
+  li:before{content:"";position:absolute;left:0;top:9px;width:6px;height:6px;background:#B8860B;border-radius:50%}
 
-  table { width:100%; border-collapse:collapse; margin:18px 0; }
-  th, td {
-    text-align:left; padding:11px 14px;
-    border-bottom:1px solid rgba(28,43,58,.12); font-size:14px;
-  }
-  th {
-    font-size:11px; font-weight:600; letter-spacing:.09em;
-    text-transform:uppercase; color:#6B6560;
-    border-bottom:2px solid rgba(28,43,58,.2);
-  }
-  td.num { text-align:right; white-space:nowrap; font-variant-numeric:tabular-nums; }
-  tr.total td { font-weight:600; color:#0F1A2E; border-bottom:none; }
+  .callout{background:rgba(184,134,11,.08);border-left:4px solid #B8860B;padding:18px 22px;margin:16px 0}
+  .callout p:last-child{margin-bottom:0}
+  .callout .head{font-weight:600;color:#0F1A2E}
 
-  .price-band { background:#0F1A2E; padding:30px 34px; margin:24px 0; }
-  .price-row {
-    display:flex; justify-content:space-between; align-items:baseline;
-    gap:20px; padding:8px 0;
-  }
-  .price-row + .price-row { border-top:1px solid rgba(245,240,232,.15); margin-top:6px; padding-top:14px; }
-  .price-label { color:#F5F0E8; opacity:.8; font-size:14px; }
-  .price-value {
-    font-family:'Playfair Display',Georgia,serif;
-    font-size:27px; color:#B8860B; white-space:nowrap;
-  }
-  .price-note { color:#F5F0E8; opacity:.55; font-size:12.5px; margin-top:16px; line-height:1.6; }
+  .phase{display:flex;gap:14px;padding:7px 0;font-size:14px}
+  .phase-when{min-width:104px;font-weight:600;color:#B8860B;font-size:11.5px;letter-spacing:.06em;text-transform:uppercase;padding-top:3px}
 
-  .phase { display:flex; gap:16px; padding:9px 0; font-size:14.5px; }
-  .phase-when {
-    min-width:112px; font-weight:600; color:#B8860B; font-size:12.5px;
-    letter-spacing:.05em; text-transform:uppercase; padding-top:2px;
-  }
+  .price-band{background:#0F1A2E;padding:26px 30px;margin:18px 0}
+  .price-row{display:flex;justify-content:space-between;align-items:baseline;gap:18px;padding:6px 0}
+  .price-row+.price-row{border-top:1px solid rgba(245,240,232,.16);margin-top:5px;padding-top:13px}
+  .price-label{color:#F5F0E8;opacity:.78;font-size:13.5px}
+  .price-value{font-family:'Playfair Display',Georgia,serif;font-size:26px;color:#B8860B;white-space:nowrap}
 
-  .next {
-    background:#0F1A2E; padding:34px; margin:44px 0 0;
-    border-left:6px solid #B8860B;
-  }
-  .next h2 {
-    color:#F5F0E8; border:none; margin:0 0 10px; padding:0; font-size:21px;
-  }
-  .next p { color:#F5F0E8; opacity:.85; margin:0; }
+  table{width:100%;border-collapse:collapse;margin:14px 0}
+  th,td{text-align:left;padding:9px 12px;border-bottom:1px solid rgba(28,43,58,.12);font-size:13.5px}
+  th{font-size:10.5px;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:#6B6560;border-bottom:2px solid rgba(28,43,58,.2)}
+  td.num{text-align:right;white-space:nowrap;font-variant-numeric:tabular-nums}
+  tr.total td{font-weight:600;color:#0F1A2E;border-bottom:none}
 
-  footer {
-    margin-top:52px; padding:26px 0 60px;
-    border-top:1px solid rgba(28,43,58,.14);
-    font-size:12.5px; color:#6B6560; text-align:center;
-  }
-  footer strong { color:#0F1A2E; font-weight:600; display:block; margin-bottom:4px; }
+  .fine{font-size:12.5px;color:#6B6560;margin-top:12px;line-height:1.6}
 
-  @media print {
-    body { background:#F5F0E8; }
-    .cover, .price-band, .next { -webkit-print-color-adjust:exact; print-color-adjust:exact; }
-    .next { page-break-inside:avoid; }
+  .next{background:#0F1A2E;padding:28px 32px;margin:38px 0 0;border-left:6px solid #B8860B}
+  .next h2{color:#F5F0E8;border:none;margin:0 0 8px;padding:0;font-size:19px}
+  .next p{color:#F5F0E8;opacity:.85;margin:0}
+
+  footer{margin-top:40px;padding:24px 0 48px;border-top:1px solid rgba(28,43,58,.14);display:flex;align-items:center;gap:14px}
+  .foot-word{font-size:10.5px;letter-spacing:.3em;color:#0F1A2E;font-weight:500}
+  .foot-contact{margin-left:auto;font-size:12.5px;color:#6B6560}
+
+  @media print{
+    .cover,.price-band,.next,.callout{-webkit-print-color-adjust:exact;print-color-adjust:exact}
+    .next,.price-band,.callout{page-break-inside:avoid}
+    h2{page-break-after:avoid}
   }
 </style>
 </head>
@@ -108,27 +71,65 @@
 
 <div class="cover">
   <div class="cover-inner">
-    <div class="cover-type">Proposal</div>
-    <h1>AI-Powered Weekly Home Cleaning</h1>
-    <div class="sub">Minimum viable product build for CEEFM Kft</div>
-    <div class="meta">Prepared for Victor Danmagaji, Managing Director &middot; 21 August 2026</div>
+    <div class="lockup">
+      <svg width="128" viewBox="0 0 176 54" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="BridgeWorks">
+        <path d="M46 34 Q88 -9 130 34" stroke="#B8860B" stroke-width="9" stroke-linecap="round" fill="none"/>
+        <rect x="0" y="30" width="55" height="23" rx="9" fill="#F5F0E8"/>
+        <rect x="121" y="30" width="55" height="23" rx="9" fill="#F5F0E8"/>
+      </svg>
+      <div class="wordmark">BRIDGEWORKS</div>
+    </div>
+    <div class="rule">
+      <div class="cover-type">Proposal</div>
+      <h1>Weekly Home Cleaning Subscription</h1>
+      <div class="sub">Minimum viable product for CEEFM Kft</div>
+      <div class="meta">Prepared for Victor Danmagaji, Managing Director &middot; 21 August 2026</div>
+    </div>
   </div>
 </div>
 
 <div class="page">
 
-  <h2>What we will do</h2>
-  <p class="lede">Build the public website for your weekly home cleaning subscription: 5 core pages plus 3 district landing pages for Budapest's 1st, 2nd and 12th districts, in Hungarian and English.</p>
-  <p>Build the signup flow covering district, plan, home size, privacy zones, access method and preferred cleaning slot, with recurring card checkout.</p>
-  <p>Build a mobile capture app your cleaners use on every visit: secure check-in, standard checklist, before and after photos, check-out.</p>
-  <p>Generate a visit report after every clean listing tasks completed, duration, timestamps, cleaner name and photos, delivered to the client by private link in email or WhatsApp.</p>
-  <p>Set up your operations view in Supabase for scheduling and client records, plus the GDPR essentials: privacy policy, photo consent at signup, retention rules and processor agreements.</p>
+  <h2>The problem</h2>
+  <p class="lede">Home cleaning runs on trust that nothing proves.</p>
+  <p>Clients do not know what happened in their home while they were out. Cleaners have no defence when a complaint arrives. When something goes wrong there is no neutral record, only two versions of the story. That doubt is what stops households committing to a weekly subscription.</p>
+
+  <h2>The outcome</h2>
+  <p>Every clean ends with a report the client opens in one tap. Named cleaner, entry and exit times, photos of the work. Subscriptions are sold and renewed online without a phone call. Six months from now you can open any visit and show exactly what was done.</p>
+  <p>You stop competing on price. You compete on proof.</p>
+
+  <h2>What we build</h2>
+
+  <h3>The website &middot; 8 pages, English and Hungarian</h3>
+  <ul>
+    <li>Homepage, how it works, and the weekly subscription service page</li>
+    <li>Three district landing pages: Budapest I, II and XII</li>
+    <li>Pricing and FAQ sections, about and contact</li>
+    <li>Subscription signup: district, plan, home size, privacy zones, access method, preferred slot</li>
+    <li>Mobile-first design, SEO, schema and analytics</li>
+    <li>Deployed on Vercel</li>
+  </ul>
+
+  <h3>The proof system</h3>
+  <ul>
+    <li>Cleaner mobile app: secure check-in, standard checklist, before and after photos, check-out</li>
+    <li>Automatic report after every clean: tasks, duration, timestamps, cleaner name, photos</li>
+    <li>Sent to the client by private link, email or WhatsApp</li>
+    <li>Recurring card subscription checkout</li>
+    <li>Operations view for scheduling and client records</li>
+    <li>GDPR pack: privacy policy, photo consent, retention rules, processor agreements</li>
+  </ul>
+
+  <h3>Also included</h3>
+  <ul>
+    <li>Two revision rounds</li>
+    <li>Handover and a walkthrough session for your staff</li>
+  </ul>
 
   <h2>Not in this phase</h2>
   <div class="callout">
-    <p><strong>No in-home cameras. No smart lock integration. No AI image checking.</strong></p>
-    <p>Those three carry data protection obligations under GDPR and the Hungarian Labour Code that need legal review before they are advertised to customers.</p>
-    <p>Everything listed above is deliverable and true on launch day. The site will sell documented visits, photo proof, tracked entry and a named cleaner. That is enough to win on trust.</p>
+    <p class="head">No in-home cameras. No smart lock integration. No AI image checking.</p>
+    <p>Those three carry obligations under GDPR and the Hungarian Labour Code that need legal review before you advertise them to customers. Everything above is true on launch day, and it is enough to win on trust.</p>
   </div>
 
   <h2>Timeline</h2>
@@ -138,33 +139,32 @@
   <div class="phase"><div class="phase-when">Weeks 5 to 6</div><div>Payments, GDPR pack, testing, launch</div></div>
 
   <h2>Investment</h2>
-
   <div class="price-band">
     <div class="price-row">
       <div class="price-label">Setup, one-time</div>
-      <div class="price-value">EUR 5,750</div>
+      <div class="price-value">2 150 000 Ft</div>
     </div>
     <div class="price-row">
       <div class="price-label">Monthly, from launch &middot; 3-month minimum</div>
-      <div class="price-value">EUR 350</div>
-    </div>
-    <div class="price-note">
-      Quoted in EUR. At today's rate of 362.78 the setup is 2,086,000 HUF. HUF is confirmed at each invoice date.
+      <div class="price-value">130 000 Ft</div>
     </div>
   </div>
 
   <table>
-    <thead><tr><th>Setup payment schedule</th><th class="num">EUR</th><th class="num">HUF</th></tr></thead>
+    <thead><tr><th>Setup payment schedule</th><th class="num">Amount</th></tr></thead>
     <tbody>
-      <tr><td>At kickoff, 40 percent</td><td class="num">2,300</td><td class="num">834,000</td></tr>
-      <tr><td>End of week 3, 30 percent</td><td class="num">1,725</td><td class="num">626,000</td></tr>
-      <tr><td>On handover, 30 percent</td><td class="num">1,725</td><td class="num">626,000</td></tr>
-      <tr class="total"><td>Total</td><td class="num">5,750</td><td class="num">2,086,000</td></tr>
+      <tr><td>At kickoff, 40 percent</td><td class="num">860 000 Ft</td></tr>
+      <tr><td>End of week 3, 30 percent</td><td class="num">645 000 Ft</td></tr>
+      <tr><td>On handover, 30 percent</td><td class="num">645 000 Ft</td></tr>
+      <tr class="total"><td>Total</td><td class="num">2 150 000 Ft</td></tr>
     </tbody>
   </table>
 
-  <p>Hosting and payment processing are billed directly to CEEFM Kft, roughly EUR 25 to 60 per month.</p>
-  <p>All invoices issued via szamlazz.hu under Hungarian VAT exemption (&Aacute;fa t&ouml;rv&eacute;ny 188. &sect;, alanyi ad&oacute;mentes).</p>
+  <p class="fine">
+    Hosting and payment processing are billed directly to CEEFM Kft, roughly 9 000 to 22 000 Ft per month.<br>
+    Invoiced via szamlazz.hu under Hungarian VAT exemption (&Aacute;fa tv. 188. &sect;, alanyi ad&oacute;mentes). Payment terms 8 days.<br>
+    <strong>This proposal is valid until 12 September 2026.</strong>
+  </p>
 
   <div class="next">
     <h2>Next step</h2>
@@ -172,8 +172,13 @@
   </div>
 
   <footer>
-    <strong>BridgeWorks</strong>
-    office@bridgeworks.agency &middot; bridgeworks.agency
+    <svg width="62" viewBox="0 0 176 54" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="BridgeWorks">
+      <path d="M46 34 Q88 -9 130 34" stroke="#B8860B" stroke-width="9" stroke-linecap="round" fill="none"/>
+      <rect x="0" y="30" width="55" height="23" rx="9" fill="#0F1A2E"/>
+      <rect x="121" y="30" width="55" height="23" rx="9" fill="#0F1A2E"/>
+    </svg>
+    <div class="foot-word">BRIDGEWORKS</div>
+    <div class="foot-contact">office@bridgeworks.agency &middot; bridgeworks.agency</div>
   </footer>
 
 </div>

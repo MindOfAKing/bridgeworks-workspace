@@ -1,69 +1,99 @@
 <!--
 STATUS: Draft proposal to a PAST client. CEEFM engagement remains closed (2026-06-19).
-This document is a sales artifact. It is not evidence of reactivation.
-Do not mark CEEFM active in CLAUDE.md, TODO.md, or any routine until a contract is signed.
-Internal scope and pricing rationale: documents/SCOPE-PRICING-AI-WEEKLY-CLEANING-2026-08-21.md
+Sales artifact, not evidence of reactivation. Do not mark CEEFM active anywhere until a contract is signed.
+Send-ready file: PROPOSAL-CEEFM-HOME-CLEANING-MVP-2026-08-21.pdf
+Hungarian version: AJANLAT-CEEFM-OTTHONI-TAKARITAS-MVP-2026-08-21.pdf
+Negotiation floor and concession ladder: NEGOTIATION-CARD-CEEFM-MVP-2026-08-21.md (INTERNAL, never send)
 -->
 
-**CEEFM Kft**
-Digital Growth Proposal from BridgeWorks
+**BRIDGEWORKS**
 
-Prepared for Victor Danmagaji · 21 August 2026
+**PROPOSAL**
 
----
+# Weekly Home Cleaning Subscription
 
-**What we will do**
+Minimum viable product for CEEFM Kft
 
-Build the public website for your weekly home cleaning subscription: 5 core pages plus 3 district landing pages for Budapest's 1st, 2nd and 12th districts, in Hungarian and English.
-
-Build the signup flow covering district, plan, home size, privacy zones, access method and preferred cleaning slot, with recurring card checkout.
-
-Build a mobile capture app your cleaners use on every visit: secure check-in, standard checklist, before and after photos, check-out.
-
-Generate a visit report after every clean listing tasks completed, duration, timestamps, cleaner name and photos, delivered to the client by private link in email or WhatsApp.
-
-Set up your operations view in Supabase for scheduling and client records, plus the GDPR essentials: privacy policy, photo consent at signup, retention rules and processor agreements.
+Prepared for Victor Danmagaji, Managing Director · 21 August 2026
 
 ---
 
-**Not in this phase**
+## The problem
 
-No in-home cameras. No smart lock integration. No AI image checking.
+Home cleaning runs on trust that nothing proves.
 
-Those three carry data protection obligations under GDPR and the Hungarian Labour Code that need legal review before they are advertised to customers. Everything listed above is deliverable and true on launch day. The site will sell documented visits, photo proof, tracked entry and a named cleaner, which is enough to win on trust.
+Clients do not know what happened in their home while they were out. Cleaners have no defence when a complaint arrives. When something goes wrong there is no neutral record, only two versions of the story. That doubt is what stops households committing to a weekly subscription.
 
----
+## The outcome
 
-**Timeline**
+Every clean ends with a report the client opens in one tap. Named cleaner, entry and exit times, photos of the work. Subscriptions are sold and renewed online without a phone call. Six months from now you can open any visit and show exactly what was done.
+
+You stop competing on price. You compete on proof.
+
+## What we build
+
+**The website · 8 pages, English and Hungarian**
+
+- Homepage, how it works, and the weekly subscription service page
+- Three district landing pages: Budapest I, II and XII
+- Pricing and FAQ sections, about and contact
+- Subscription signup: district, plan, home size, privacy zones, access method, preferred slot
+- Mobile-first design, SEO, schema and analytics
+- Deployed on Vercel
+
+**The proof system**
+
+- Cleaner mobile app: secure check-in, standard checklist, before and after photos, check-out
+- Automatic report after every clean: tasks, duration, timestamps, cleaner name, photos
+- Sent to the client by private link, email or WhatsApp
+- Recurring card subscription checkout
+- Operations view for scheduling and client records
+- GDPR pack: privacy policy, photo consent, retention rules, processor agreements
+
+**Also included**
+
+- Two revision rounds
+- Handover and a walkthrough session for your staff
+
+## Not in this phase
+
+**No in-home cameras. No smart lock integration. No AI image checking.**
+
+Those three carry obligations under GDPR and the Hungarian Labour Code that need legal review before you advertise them to customers. Everything above is true on launch day, and it is enough to win on trust.
+
+## Timeline
 
 5 to 6 weeks from kickoff.
 
-Weeks 1 to 2: website and signup flow.
-Weeks 3 to 4: cleaner app and visit reports.
-Weeks 5 to 6: payments, GDPR pack, testing, launch.
+| | |
+|---|---|
+| Weeks 1 to 2 | Website and signup flow |
+| Weeks 3 to 4 | Cleaner app and visit reports |
+| Weeks 5 to 6 | Payments, GDPR pack, testing, launch |
 
----
+## Investment
 
-**Investment**
+**Setup: 2 150 000 Ft** (one-time)
+**Monthly: 130 000 Ft/month** from launch, 3-month minimum
 
-Setup: EUR 5,750
-Monthly: EUR 350/month from launch, 3-month minimum
+| Setup payment schedule | Amount |
+|---|---|
+| At kickoff, 40 percent | 860 000 Ft |
+| End of week 3, 30 percent | 645 000 Ft |
+| On handover, 30 percent | 645 000 Ft |
+| **Total** | **2 150 000 Ft** |
 
-Setup is invoiced in three parts: 40 percent at kickoff, 30 percent at the end of week 3, 30 percent on handover.
+Hosting and payment processing are billed directly to CEEFM Kft, roughly 9 000 to 22 000 Ft per month.
 
-Quoted in EUR. At today's rate of 362.78 the setup is 2,086,000 HUF. HUF is confirmed at each invoice date.
+Invoiced via szamlazz.hu under Hungarian VAT exemption (Áfa tv. 188. §, alanyi adómentes). Payment terms 8 days.
 
-Hosting and payment processing are billed directly to CEEFM Kft, roughly EUR 25 to 60 per month.
+**This proposal is valid until 12 September 2026.**
 
-All invoices issued via szamlazz.hu under Hungarian VAT exemption (Áfa törvény 188. §, alanyi adómentes).
-
----
-
-**Next step**
+## Next step
 
 Reply to confirm and you will have the contract within 24 hours.
 
 ---
 
-**BridgeWorks**
+**BRIDGEWORKS**
 office@bridgeworks.agency · bridgeworks.agency
