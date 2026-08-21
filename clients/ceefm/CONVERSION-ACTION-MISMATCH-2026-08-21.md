@@ -6,13 +6,19 @@
 
 ---
 
-## Blocker found first: GitHub is behind production
+## Found first: GitHub is behind production, and is not the deploy path
 
 `MindOfAKing/ceefm-astro` has one branch, `main`, at `8356255` (2026-05-19). **None of the 2026-08-11 work is pushed.** Verified missing from the repo: the `AW-18378779634` config, the Consent Mode grant fix, the conversion event and its ref guard, the Web3Forms success-parsing fix, `/privacy`, `/hu/adatvedelem`, the `Nav.astro` `altEn`/`altHu` props, the BridgeWorks footer credit, and `deploy-ftp.py`. `ContactForm.tsx` line 30 in the repo is still the buggy `setFormStatus(response.ok ? 'success' : 'error')`.
 
 Commits `ca44ded`, `f5e7a37`, `eba63b2`, `35da0ae`, `9a9bc35` exist only at `C:/Users/User/ceefm-astro` and as built output on Hostinger.
 
-**Consequence:** any patch applied to GitHub main and deployed would revert the entire August release, including legal text published under CEEFM Kft's name. Push the local commits before touching anything.
+**Deploys do not come from GitHub.** Release is `python deploy-ftp.py` run from the local folder straight to Hostinger over FTPS. GitHub is a backup and history remote only, not a deploy source, so its state cannot affect production either way.
+
+**Two consequences, neither of them a deploy risk:**
+
+1. **Backup gap.** The only source copy of the August work is `C:/Users/User/ceefm-astro` on one Windows machine. Everything else is built, minified output on the FTP server. If that machine is lost, so is the source for legal text published under CEEFM Kft's name. Push the commits. This is independent of the conversion question and gates nothing.
+
+2. **Patch the local folder, not the repo.** Any fix must be applied in `C:/Users/User/ceefm-astro`, built, and deployed from there. Applying it to GitHub main would ship nothing and would leave the repo in a corrupt intermediate state: a `send_to` call sitting on a tree with no `AW-` config, no consent grant, and no privacy pages.
 
 ---
 
@@ -95,7 +101,7 @@ Keep unchanged: the `useRef` guard, the `try`/`catch`, and firing only on genuin
 
 **Option B, no deploy:** edit the action in Ads so its event name is `ads_conversion_Contact_Us_2`. Cheaper if the action is editable.
 
-This patch is a specification, not a compiled and tested change, because the tree it applies to is not on GitHub. It must be built and verified locally before deploy via `python deploy-ftp.py`.
+This patch is a specification, not a compiled and tested change, because the tree it applies to exists only on the local machine. Apply it in `C:/Users/User/ceefm-astro`, build, verify, then release with `python deploy-ftp.py` and `CEEFM_FTP_PASS` set.
 
 ## How to actually verify a submit conversion
 
